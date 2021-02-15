@@ -308,7 +308,7 @@
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
-				cfg="92"
+				cfg="111"
 				helloReplyNames="WorkGiver_hellodlg0 WorkGiver_hellodlg1"
 				SpokenCount="0" />
 
