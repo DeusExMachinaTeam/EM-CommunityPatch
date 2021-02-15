@@ -52,7 +52,7 @@
 			CreateNewDummyObject( "quest_medicine_box", "medicine_box", -1, -1, CVector(2607.000, 322.000, 1614.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
 
 			if not( IsQuestTaken("Buyer_Quest1")) and not( IsQuestComplete("Buyer_Quest1")) then
-				CreateNewDummyObject( "dweller_player", "hero1Dw", -1, -1, CVector(3343.495, 368.166, 3304.762), Quaternion(0.0000, -0.9610, 0.0000, -0.2760), 0)
+				CreateNewDummyObject( "dweller_player", "hero1Dw", -1, -1, CVector(2343.495, 268.166, 3304.762), Quaternion(0.0000, -0.9610, 0.0000, -0.2760), 0)
 				CreateNewDummyObject( "dweller_father", "fatherDw", -1, -1, CVector(3342.860, 368.167, 3303.460), Quaternion(0.0000, 0.4320, 0.000, 0.9020), 2)
 
 				Fly("start_rolik1", CINEMATIC_NO_AIM, 0, 35, 0, 0 )
