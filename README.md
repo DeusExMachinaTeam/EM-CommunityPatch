@@ -1,2 +1,2 @@
 # EM-CommunityPatch
-Коммьюнити патч для Ex Machina
+Комьюнити патч для Ex Machina
