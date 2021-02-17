@@ -14045,12 +14045,6 @@
 		shadow="1"
 		windwavy="0"
 		trans="0" />	-->
-	<model
-		id="shell02"
-		file="data\models\ammo\shell02.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
 
 	<model
 		id="shell_big_gun01"
@@ -15084,13 +15078,6 @@
 		trans="0" />
 
 	<model
-		id="helvecia"
-		file="data\models\buildings\region2\helvecia.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
-
-	<model
 		id="zion"
 		file="data\models\buildings\region2\zion.gam"
 		shadow="0"
@@ -16002,13 +15989,6 @@
 	<model
 		id="rr_columne"
 		file="data\models\buildings\region3\factory\rr_columne.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
-
-	<model
-		id="1_riback"
-		file="data\models\buildings\region4\kladbishe\1_riback.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />
