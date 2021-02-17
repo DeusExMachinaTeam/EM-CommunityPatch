@@ -2893,18 +2893,18 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 				MaxCount				= "40"
 				RegenerationPeriod			= "300"
 			/>
-                        <Article
+            <Article
 				Prototype				= "tobacco"				
 				Amount	 				= "25"
 				ExternalPriceCoefficient		= "1.1"
 				PriceDynamic 				= "1"
 				Export   				= "FALSE"
-				Import   				= "TRUE	"
+				Import   				= "TRUE"
 				MinCount				= "0"
 				MaxCount				= "40"
 				RegenerationPeriod			= "300"
 			/>
-                        <Article
+            <Article
 				Prototype				= "electronics"				
 				Amount	 				= "25"
 				ExternalPriceCoefficient		= "0.8"
