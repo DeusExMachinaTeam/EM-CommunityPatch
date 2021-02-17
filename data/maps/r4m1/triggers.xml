@@ -56,10 +56,15 @@
 			    	  TActivate("trTrailerDie")
 	   			   end
 			   end
-			   local nameplcar =  GetPlayerVehicle():GetName()
+
+				local vehPlayer = GetPlayerVehicle()
+				if vehPlayer then
+			   		vehPlayer:SetNameFromScript("OilPlayerCar")
+				end
+
 			   local tr = getObj("trPlayerEndExitTown")
 			   if tr then
-			      tr:AddEvent("GE_TARGET_REACHED",nameplcar)
+			      tr:AddEvent("GE_TARGET_REACHED", "OilPlayerCar")
 		    	  TActivate("trPlayerEndExitTown")
  			   end
 			end
@@ -77,8 +82,10 @@
 		</script>
 	</trigger>
 
+
+	
 	<trigger	Name="trReturnPlCar"	active="0">
-		<event eventid="GE_TARGET_REACHED" ObjName="PlayerMolokovoz"/>
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="OilVehicleChange_loc" />
 		<script>
 --			println("run trPlayerEndExitTown")
 			TActivate("cinPlCarReturnFirst")
@@ -382,7 +389,8 @@
 		<script>
 --			println("Capture car")
 			if GetPlayerVehicle() then 
-				SetVar("PlayerCarNameRace",GetPlayerVehicle():GetName())
+--				SetVar("PlayerCarNameRace",GetPlayerVehicle():GetName())
+				GetPlayerVehicle():SetNameFromScript( "PlayerCarGonki" )
 				SaveWeaponGroups()
 			end
 --			println("Name = "..GetVar("PlayerCarName").AsString)
@@ -816,12 +824,12 @@
 			     veh:Remove()
 			end
 
-			local plcarname=GetVar("PlayerCarNameRace").AsString
-			println("Name = "..plcarname)
+--			local plcarname=GetVar("PlayerCarNameRace").AsString
+--			println("Name = "..plcarname)
 			local pl=g_Player
-			local plcar=getObj(plcarname)
+			local plcar=getObj("PlayerCarGonki")
 			if pl and plcar then
-				println("GiveCar")
+--				println("GiveCar")
 				pl:AddChild(plcar)
 				RestoreWeaponGroups()
 			end
@@ -971,4 +979,3 @@
 
 
 </triggers>
-
