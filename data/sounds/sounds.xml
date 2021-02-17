@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<sounds>
+<!-- Crash --> 
+
+	<model
+		id="Fake_Sound_Do_Not_Use_It" 
+		type="FAKE" />
+		
+	<model
+		id="S_CRASH_METAL01"
+		file="data\sounds\Crash\crash_metal1.wav"
+		/>
+
+	<model
+		id="S_CRASH_METAL02"
+		file="data\sounds\Crash\crash_metal2.wav"
+		/>
+
+	<model
+		id="S_CRASH_METAL03"
+		file="data\sounds\Crash\crash_metal3.wav"
+		/>
+
+	<model
+		id="S_CRASH_METAL04"
+		file="data\sounds\Crash\crash_metal4.wav"
+		/>
+
+	<model
+		id="S_CRASH_TREE01"
+		file="data\sounds\Crash\crash_tree1.wav"
+		/>
+
+	<model
+		id="S_CRASH_TREE02"
+		file="data\sounds\Crash\crash_tree2.wav"
+		/>
+
+	<model
+		id="S_CRASH_TREE03"
+		file="data\sounds\Crash\crash_tree3.wav"
+		/>
+
+	<model
+		id="S_CRASH_TREE04"
+		file="data\sounds\Crash\crash_tree4.wav"
+		/>
+
+	<model
+		id="S_CRASH_TREE05"
+		file="data\sounds\Crash\crash_tree5.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD01"
+		file="data\sounds\Crash\crash_wood1.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD02"
+		file="data\sounds\Crash\crash_wood2.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD03"
+		file="data\sounds\Crash\crash_wood3.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD04"
+		file="data\sounds\Crash\crash_wood4.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD05"
+		file="data\sounds\Crash\crash_wood5.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD06"
+		file="data\sounds\Crash\crash_wood6.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD07"
+		file="data\sounds\Crash\crash_wood7.wav"
+		/>
+
+	<model
+		id="S_CRASH_WOOD08"
+		file="data\sounds\Crash\crash_wood8.wav"
+		/>
+
+<!-- Braking -->
+
+	<model
+		id="S_BRAKE01"
+		file="data\sounds\driving\braking\braking02.wav"
+		/>
+		
+	<model
+		id="S_PNEUMO_BRAKE01"
+		file="data\sounds\driving\braking\air_bracke1.wav"
+		/>
+
+	<model
+		id="S_GEAR_SHIFT01"
+		file="data\sounds\driving\shifter1.wav"
+		/>
+
+<!-- Engines --> 
+
+	<model
+		id="S_ENGINE_BEETLE_1_LOW"
+		file="data\sounds\Driving\Motors\beetle1_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BEETLE_1_HIGH"
+		file="data\sounds\Driving\Motors\beetle1_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BEETLE_2_LOW"
+		file="data\sounds\Driving\Motors\beetle2_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BEETLE_2_HIGH"
+		file="data\sounds\Driving\Motors\beetle2_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BEETLE_3_LOW"
+		file="data\sounds\Driving\Motors\beetle3_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BEETLE_3_HIGH"
+		file="data\sounds\Driving\Motors\beetle3_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+
+
+	<model
+		id="S_ENGINE_MOLOKO_1_LOW"
+		file="data\sounds\Driving\Motors\milk1_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MOLOKO_1_HIGH"
+		file="data\sounds\Driving\Motors\milk1_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MOLOKO_2_LOW"
+		file="data\sounds\Driving\Motors\milk2_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MOLOKO_2_HIGH"
+		file="data\sounds\Driving\Motors\milk2_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MOLOKO_3_LOW"
+		file="data\sounds\Driving\Motors\milk3_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MOLOKO_3_HIGH"
+		file="data\sounds\Driving\Motors\milk3_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+
+
+	<model
+		id="S_ENGINE_URAL_1_LOW"
+		file="data\sounds\Driving\Motors\ural1_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_1_HIGH"
+		file="data\sounds\Driving\Motors\ural1_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_2_LOW"
+		file="data\sounds\Driving\Motors\ural2_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_2_HIGH"
+		file="data\sounds\Driving\Motors\ural2_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_3_LOW"
+		file="data\sounds\Driving\Motors\ural3_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_3_HIGH"
+		file="data\sounds\Driving\Motors\ural3_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_4_LOW"
+		file="data\sounds\Driving\Motors\ural4_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_4_HIGH"
+		file="data\sounds\Driving\Motors\ural4_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_5_LOW"
+		file="data\sounds\Driving\Motors\ural5_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_URAL_5_HIGH"
+		file="data\sounds\Driving\Motors\ural5_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_1_LOW"
+		file="data\sounds\Driving\Motors\belaz1_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_1_HIGH"
+		file="data\sounds\Driving\Motors\belaz1_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_2_LOW"
+		file="data\sounds\Driving\Motors\belaz2_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_2_HIGH"
+		file="data\sounds\Driving\Motors\belaz2_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_3_LOW"
+		file="data\sounds\Driving\Motors\belaz3_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_3_HIGH"
+		file="data\sounds\Driving\Motors\belaz3_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_4_LOW"
+		file="data\sounds\Driving\Motors\belaz4_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_4_HIGH"
+		file="data\sounds\Driving\Motors\belaz4_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_5_LOW"
+		file="data\sounds\Driving\Motors\belaz5_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_BELAZ_5_HIGH"
+		file="data\sounds\Driving\Motors\belaz5_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+
+	<model
+		id="S_ENGINE_MIR_1_HIGH"
+		file="data\sounds\Driving\Motors\peacekeeper1_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_1_LOW"
+		file="data\sounds\Driving\Motors\peacekeeper1_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_2_HIGH"
+		file="data\sounds\Driving\Motors\peacekeeper2_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_2_LOW"
+		file="data\sounds\Driving\Motors\peacekeeper2_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_3_HIGH"
+		file="data\sounds\Driving\Motors\peacekeeper3_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_3_LOW"
+		file="data\sounds\Driving\Motors\peacekeeper3_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_4_HIGH"
+		file="data\sounds\Driving\Motors\peacekeeper4_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_4_LOW"
+		file="data\sounds\Driving\Motors\peacekeeper4_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_5_HIGH"
+		file="data\sounds\Driving\Motors\peacekeeper5_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_MIR_5_LOW"
+		file="data\sounds\Driving\Motors\peacekeeper5_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_SMALL_1_HIGH"
+		file="data\sounds\Driving\Motors\small_engine_noise_high.wav"
+		group="ENGINE_1"
+		/>
+
+	<model
+		id="S_ENGINE_SMALL_1_LOW"
+		file="data\sounds\Driving\Motors\small_engine_noise_low.wav"
+		group="ENGINE_1"
+		/>
+
+	<model
+		id="S_ENGINE_SCOUT_1_HIGH"
+		file="data\sounds\Driving\Motors\scout_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_SCOUT_1_LOW"
+		file="data\sounds\Driving\Motors\scout_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_FIGHTER_1_HIGH"
+		file="data\sounds\Driving\Motors\fighter_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_FIGHTER_1_LOW"
+		file="data\sounds\Driving\Motors\fighter_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_HUNTER_1_HIGH"
+		file="data\sounds\Driving\Motors\hunter_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_HUNTER_1_LOW"
+		file="data\sounds\Driving\Motors\hunter_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_CRUISER_1_HIGH"
+		file="data\sounds\Driving\Motors\cruiser_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+	<model
+		id="S_ENGINE_CRUISER_1_LOW"
+		file="data\sounds\Driving\Motors\cruiser_engine_noise_low.wav"
+		group="ENGINE"
+		/>
+      <model
+		id="S_ENGINE_TANK_HIGH"
+		file="data\sounds\Driving\Motors\tank_engine_noise_high.wav"
+		group="ENGINE"
+		/>
+
+<!-- Missiles --> 
+
+	<model
+		id="S_MISSILE1"
+		file="data\sounds\Shooting\flying_of_missile01.wav"
+		/>
+
+	<model
+		id="S_MISSILE2"
+		file="data\sounds\Shooting\flying_of_missile02.wav"
+		/>
+
+<!-- Shooting --> 
+
+
+	<model
+		id="S_SHOOTING_CANNON01"
+		file="data\sounds\Shooting\cannon01.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_CANNON02"
+		file="data\sounds\Shooting\cannon02.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MACHINE_GUN"
+		file="data\sounds\Shooting\2machine-gun_loop.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MACHINE_GUN_SINGLE"
+		file="data\sounds\Shooting\mashine-gun_single.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MACHINE_GUN_LOOP"
+		file="data\sounds\Shooting\2machine-gun_loop.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_2MACHINE_GUN_SINGLE"
+		file="data\sounds\Shooting\2machine-gun_single.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_SHOT_GUN01"
+		file="data\sounds\Shooting\shot-gun01.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_SHOT_GUN02"
+		file="data\sounds\Shooting\shot-gun02.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MISSILE_LAUNCH01"
+		file="data\sounds\Shooting\start_of_missile01.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MISSILE_LAUNCH02"
+		file="data\sounds\Shooting\start_of_missile02.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_LASER_GUN01"
+		file="data\sounds\Shooting\laser-gun1.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_LASER_GUN02"
+		file="data\sounds\Shooting\laser-gun2.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_LASER_GUN03"
+		file="data\sounds\Shooting\laser-gun3.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_PLASMA_GUN01"
+		file="data\sounds\Shooting\plazma-gun1.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_PLASMA_GUN02"
+		file="data\sounds\Shooting\plazma-gun2.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_ELEPHANT"
+		file="data\sounds\Shooting\BigGun\elephant_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_FLAG"
+		file="data\sounds\Shooting\BigGun\flag_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_ODIN"
+		file="data\sounds\Shooting\BigGun\odin_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_RAINMETAL"
+		file="data\sounds\Shooting\BigGun\rainmetal_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_VECTOR"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\BigGun\vector_shoot.wav"
+		file_end	="data\sounds\Shooting\BigGun\vector_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_VULCAN"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\BigGun\vulcan_shoot.wav"
+		file_end	="data\sounds\Shooting\BigGun\vulcan_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_CYCLOPS"
+		file="data\sounds\Shooting\GiantGun\cyclops_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_DRAGON"
+		file="data\sounds\Shooting\GiantGun\dragon_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_HAMMER"
+		file="data\sounds\Shooting\GiantGun\hammer_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_HURRICANE"
+		file="data\sounds\Shooting\GiantGun\hurricane_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_SWINGFIRE"
+		file="data\sounds\Shooting\GiantGun\swingfire_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_FAGOT"
+		file="data\sounds\Shooting\SmallGun\fagot_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_HORNET"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\SmallGun\hornet_shoot.wav"
+		file_end	="data\sounds\Shooting\SmallGun\hornet_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_KORD"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\SmallGun\kord_shoot.wav"
+		file_end	="data\sounds\Shooting\SmallGun\kord_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MAXIM"
+		file="data\sounds\Shooting\SmallGun\maxim_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_PKT"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\SmallGun\pkt_shoot.wav"
+		file_end	="data\sounds\Shooting\SmallGun\pkt_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_STORM"
+		file="data\sounds\Shooting\SmallGun\shtorm_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_SPECTER"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\SmallGun\specter_shoot.wav"
+		file_end	="data\sounds\Shooting\SmallGun\specter_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_KPVT"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\BigGun\kpvt_shoot.wav"
+		file_end	="data\sounds\Shooting\BigGun\kpvt_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_RAPIER"
+		file="data\sounds\Shooting\BigGun\rapier_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_BUMBLEBEE"
+		file="data\sounds\Shooting\BigGun\bumblebee_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_OMEGA"
+		file="data\sounds\Shooting\BigGun\omega_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_OCTOPUS"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\GiantGun\octopus_shoot.wav"
+		file_end	="data\sounds\Shooting\GiantGun\octopus_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+	<model
+		id="S_SHOOTING_ROBOTGUN_01"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\robotgun01_shoot.wav"
+		file_end	="data\sounds\Shooting\robotgun01_tail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_HAIL"
+		file="data\sounds\Shooting\SideGun\hail_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_HUNTER"
+		file="data\sounds\Shooting\SideGun\hunter_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MARS"
+		file="data\sounds\Shooting\SideGun\mars_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_MRAK"
+		file="data\sounds\Shooting\SideGun\mrak_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_ZEUS"
+		file="data\sounds\Shooting\SideGun\zeus_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+	<model
+		id="S_SHOOTING_OIL"
+		file="data\sounds\Shooting\Special\car_oil_open.wav"
+		group="GUNFIRE"
+		/>
+	<model
+		id="S_SHOOTING_HEDGEHOG1_MINE"
+		file="data\sounds\Shooting\Special\hedgehog1_mine.wav"
+		group="GUNFIRE"
+		/>
+	<model
+		id="S_SHOOTING_HEDGEHOG2_MINE"
+		file="data\sounds\Shooting\Special\hedgehog2_mine.wav"
+		group="GUNFIRE"
+		/>
+	<model
+		id="S_SHOOTING_NAILS_ON_GROUND"
+		file="data\sounds\Shooting\Special\nails_on_ground.wav"
+		group="GUNFIRE"
+		/>
+	<model
+		id="S_SHOOTING_SMOKE"
+		file="data\sounds\Shooting\Special\smoke.wav"
+		group="GUNFIRE"
+		/>
+	<model
+		id="S_SHOOTING_SQUAL_MINE"
+		file="data\sounds\Shooting\Special\squal_mine.wav"
+		group="GUNFIRE"
+		/>
+	<model
+		id="S_SHOOTING_TURBO"
+		file="data\sounds\Shooting\Special\turbo.wav"
+		group="GUNFIRE"
+		/>
+      <model
+		id="S_TANK_SHOOT"
+		file="data\sounds\Shooting\tank_shoot.wav"
+		group="GUNFIRE"
+		/>
+
+<!-- Shoot hits --> 
+
+	<model
+		id="S_SHOOT_HIT01"
+		file="data\sounds\Shoot_hits\shoot_hit01.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT02"
+		file="data\sounds\Shoot_hits\shoot_hit02.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT03"
+		file="data\sounds\Shoot_hits\shoot_hit03.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT04"
+		file="data\sounds\Shoot_hits\shoot_hit04.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT05"
+		file="data\sounds\Shoot_hits\shoot_hit05.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT06"
+		file="data\sounds\Shoot_hits\shoot_hit06.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT07"
+		file="data\sounds\Shoot_hits\shoot_hit07.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT08"
+		file="data\sounds\Shoot_hits\shoot_hit08.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT09"
+		file="data\sounds\Shoot_hits\shoot_hit09.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT10"
+		file="data\sounds\Shoot_hits\shoot_hit10.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT11"
+		file="data\sounds\Shoot_hits\shoot_hit11.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT12"
+		file="data\sounds\Shoot_hits\shoot_hit12.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT13"
+		file="data\sounds\Shoot_hits\shoot_hit13.wav"
+		/>
+
+	<model
+		id="S_SHOOT_HIT14"
+		file="data\sounds\Shoot_hits\shoot_hit14.wav"
+		/>
+
+	<model
+		id="S_STATIC07"
+		file="data\sounds\Shoot_hits\static07.wav"
+		group="SHOOTHITS"
+            />
+
+        <model
+		id="S_WATER02"
+		file="data\sounds\Shoot_hits\water02.wav"
+            group="SHOOTHITS"
+            />
+        <model
+		id="S_BULLET01"
+		file="data\sounds\Shoot_hits\bullet01.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_ROAD04"
+		file="data\sounds\Shoot_hits\road04.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_ROCK05"
+		file="data\sounds\Shoot_hits\rock05.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_GROUND06"
+		file="data\sounds\Shoot_hits\ground06.wav"
+            group="SHOOTHITS"
+            />
+        <model
+		id="S_SAND03"
+		file="data\sounds\Shoot_hits\sand03.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_GRASS01"
+		file="data\sounds\Shoot_hits\grass01.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_ROCK04"
+		file="data\sounds\Shoot_hits\rock04.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_BULLET04"
+		file="data\sounds\Shoot_hits\bullet04.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_SAND04"
+		file="data\sounds\Shoot_hits\sand04.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_WOOD05"
+		file="data\sounds\Shoot_hits\wood05.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_WATER_EXPL"
+		file="data\sounds\Shoot_hits\cannon\water_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_STATIC_EXPL"
+		file="data\sounds\Shoot_hits\cannon\static_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_CAR_EXPL"
+		file="data\sounds\Shoot_hits\cannon\car_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_ROAD_EXPL"
+		file="data\sounds\Shoot_hits\cannon\road_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_ROCK_EXPL"
+		file="data\sounds\Shoot_hits\cannon\rock_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_GROUND_EXPL"
+		file="data\sounds\Shoot_hits\cannon\ground_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_SAND_EXPL"
+		file="data\sounds\Shoot_hits\cannon\sand_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_GROUND_EXPL"
+		file="data\sounds\Shoot_hits\cannon\ground_expl.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_WOOD_EXPL"
+		file="data\sounds\Shoot_hits\cannon\wood_expl.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_WATER_AC"
+		file="data\sounds\Shoot_hits\autocannon\water_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_STATIC_AC"
+		file="data\sounds\Shoot_hits\autocannon\static_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_CAR_AC"
+		file="data\sounds\Shoot_hits\autocannon\car_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_ROAD_AC"
+		file="data\sounds\Shoot_hits\autocannon\road_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_ROCK_AC"
+		file="data\sounds\Shoot_hits\autocannon\rock_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_GROUND_AC"
+		file="data\sounds\Shoot_hits\autocannon\ground_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_SAND_AC"
+		file="data\sounds\Shoot_hits\autocannon\sand_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_WOOD_AC"
+		file="data\sounds\Shoot_hits\autocannon\wood_ac.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_WATER_GR"
+		file="data\sounds\Shoot_hits\grenade\water_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_STATIC_GR"
+		file="data\sounds\Shoot_hits\grenade\static_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_CAR_GR"
+		file="data\sounds\Shoot_hits\grenade\car_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_ROAD_GR"
+		file="data\sounds\Shoot_hits\grenade\road_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_ROCK_GR"
+		file="data\sounds\Shoot_hits\grenade\rock_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_GROUND_GR"
+		file="data\sounds\Shoot_hits\grenade\ground_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_SAND_GR"
+		file="data\sounds\Shoot_hits\grenade\sand_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_WOOD_GR"
+		file="data\sounds\Shoot_hits\grenade\wood_gr.wav"
+		group="EXPLOSIONS"
+            />
+        <model
+		id="S_WATER_LAS"
+		file="data\sounds\Shoot_hits\laser\water_las.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_STATIC_LAS"
+		file="data\sounds\Shoot_hits\laser\static_las.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_CAR_LAS"
+		file="data\sounds\Shoot_hits\laser\car_las.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_ROCK_LAS"
+		file="data\sounds\Shoot_hits\laser\rock_las.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_GROUND_LAS"
+		file="data\sounds\Shoot_hits\laser\ground_las.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_SAND_LAS"
+		file="data\sounds\Shoot_hits\laser\sand_las.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_PLAZMA01"
+		file="data\sounds\Shoot_hits\plazma\plazma01.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_PLAZMA02"
+		file="data\sounds\Shoot_hits\plazma\plazma02.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_PLAZMA03"
+		file="data\sounds\Shoot_hits\plazma\plazma03.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_PLAZMA04"
+		file="data\sounds\Shoot_hits\plazma\plazma04.wav"
+		group="SHOOTHITS"
+            />
+        <model
+		id="S_WATER_BL"
+		file="data\sounds\Shoot_hits\bigcannon\water_bl.wav"
+		group="EXPLOSIONS"
+		/>
+        <model
+		id="S_STATIC_BL"
+		file="data\sounds\Shoot_hits\bigcannon\static_bl.wav"
+		group="EXPLOSIONS"
+		/>
+        <model
+		id="S_CAR_BL"
+		file="data\sounds\Shoot_hits\bigcannon\car_bl.wav"
+		group="EXPLOSIONS"
+		/>
+        <model
+		id="S_ROCK_BL"
+		file="data\sounds\Shoot_hits\bigcannon\rock_bl.wav"
+		group="EXPLOSIONS"
+		/>
+        <model
+		id="S_GROUND_BL"
+		file="data\sounds\Shoot_hits\bigcannon\ground_bl.wav"
+		group="EXPLOSIONS"
+		/>
+        <model
+		id="S_SAND_BL"
+		file="data\sounds\Shoot_hits\bigcannon\sand_bl.wav"
+		group="EXPLOSIONS"
+		/>
+        <model
+		id="S_WOOD_BL"
+		file="data\sounds\Shoot_hits\bigcannon\wood_bl.wav"
+		group="EXPLOSIONS"
+		/>
+
+        <model
+		id="S_BULLET09"
+		file="data\sounds\Shoot_hits\bullet09.wav"
+		/>
+
+        <model
+		id="S_BULLET05"
+		file="data\sounds\Shoot_hits\bullet05.wav"
+		/>
+
+<!-- Explosions --> 
+
+
+	<model
+		id="S_EXPLOSION01"
+		file="data\sounds\Explosion\explosion01.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION02"
+		file="data\sounds\Explosion\explosion02.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION03"
+		file="data\sounds\Explosion\explosion03.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION04"
+		file="data\sounds\Explosion\explosion04.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION05"
+		file="data\sounds\Explosion\explosion05.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION06"
+		file="data\sounds\Explosion\explosion06.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION07"
+		file="data\sounds\Explosion\explosion07.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION08"
+		file="data\sounds\Explosion\explosion08.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION09"
+		file="data\sounds\Explosion\explosion09.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_EXPLOSION10"
+		file="data\sounds\Explosion\explosion10.wav"
+		group="EXPLOSIONS"
+		/>
+
+<!-- Braking -->
+
+	<model
+		id="S_BRAKING01"
+		file="data\sounds\Driving\Braking\braking01.wav"
+		/>
+
+	<model
+		id="S_BRAKING02"
+		file="data\sounds\Driving\Braking\braking02.wav"
+		/>
+
+<!-- Horns -->
+
+
+	<model
+		id="S_HORN01"
+		file="data\sounds\Driving\Horns\horn01.wav"
+		group="HORNS"
+		/>
+
+	<model
+		id="S_HORN02"
+		file="data\sounds\Driving\Horns\horn02.wav"
+		group="HORNS"
+		/>
+
+	<model
+		id="S_HORN03"
+		file="data\sounds\Driving\Horns\horn03.wav"
+		group="HORNS"
+		/>
+
+	<model
+		id="S_HORN04"
+		file="data\sounds\Driving\Horns\horn04.wav"
+		group="HORNS"
+		/>
+
+	<model
+		id="S_HORN05"
+		file="data\sounds\Driving\Horns\horn05.wav"
+		group="HORNS"
+		/>
+
+	<model
+		id="S_HORN06"
+		file="data\sounds\Driving\Horns\horn06.wav"
+		group="HORNS"
+		/>
+
+	<model
+		id="S_HORN07"
+		file="data\sounds\Driving\Horns\horn07.wav"
+		group="HORNS"
+		/>
+
+	<model
+		id="S_HORN08"
+		file="data\sounds\Driving\Horns\horn08.wav"
+		group="HORNS"
+		/>
+
+<!-- Гром -->
+
+	<model
+		id="S_THUNDER"
+		file="data\sounds\weather\thunder01.wav"
+		group="WEATHER"
+		/>
+
+	<model
+		id="S_RAIN" 
+		file="data\sounds\weather\rain_ambient.ogg"
+		group="WEATHER"
+		/>
+
+
+<!-- Starting -->
+
+
+	<model
+		id="S_STARTING01"
+		file="data\sounds\Driving\Starting\starting01.wav"
+		/>
+
+	<model
+		id="S_STARTING02"
+		file="data\sounds\Driving\Starting\starting02.wav"
+		/>
+
+	<model
+		id="S_STARTING03"
+		file="data\sounds\Driving\Starting\starting03.wav"
+		/>
+
+	<model
+		id="S_STARTING04"
+		file="data\sounds\Driving\Starting\starting04.wav"
+		/>
+
+	<model
+		id="S_STARTING05"
+		file="data\sounds\Driving\Starting\starting05.wav"
+		/>
+
+	<model
+		id="S_STARTING06"
+		file="data\sounds\Driving\Starting\starting06.wav"
+		/>
+
+	<model
+		id="S_STARTING07"
+		file="data\sounds\Driving\Starting\starting07.wav"
+		/>
+
+	<model
+		id="S_STARTING08"
+		file="data\sounds\Driving\Starting\starting08.wav"
+		/>
+
+	<model
+		id="S_STARTING09"
+		file="data\sounds\Driving\Starting\starting09.wav"
+		/>
+
+	<model
+		id="S_BELAZ_ENGINE_LOW"
+		file="data\sounds\Driving\Motors\Truck10_low.wav"
+		/>
+
+	<model
+		id="S_BELAZ_ENGINE_HIGH"
+		file="data\sounds\Driving\Motors\Truck10_high.wav"
+		/>
+
+	<model
+		id="S_SOMESHOT"
+		file="data\sounds\effects\guns\eagleeye.wav"
+		/>
+
+	<model
+		id="S_SHELL_SMALL"
+		file="data\sounds\effects\Shells\shel_small.wav"
+		/>
+
+	<model
+		id="S_SHELL_MEDIUM"
+		file="data\sounds\effects\Shells\shel_medium.wav"
+		/>
+
+	<model
+		id="S_MISSILE_FLAME"
+		file="data\sounds\effects\Flying\fl_of_mis01.wav"
+		/>
+
+	<model
+		id="S_HORNET_TAIL"
+		file="data\sounds\effects\Small_tails\hornet_tail.wav"
+		/>
+
+       
+<!-- Bosses -->
+
+        	<model
+		id="S_BOSS01_STAND1"
+		file="data\sounds\boss\boss01\stand1_boss01.wav"
+		group="BOSS01"
+		/>
+        	<model
+		id="S_BOSS01_STAND2"
+		file="data\sounds\boss\boss01\stand2_boss01.wav"
+		group="BOSS01"
+		/>
+        	<model
+		id="S_BOSS01_ATTACK1"
+		file="data\sounds\boss\boss01\attack1_boss01.wav"
+		group="BOSS01"
+		/>
+        	<model
+		id="S_BOSS01_ATTACK2"
+		file="data\sounds\boss\boss01\attack2_boss01.wav"
+		group="BOSS01"
+		/>
+        	<model
+		id="S_BOSS01_BLOCK1"
+		file="data\sounds\boss\boss01\block1_boss01.wav"
+		group="BOSS01"
+		/>
+        	<model
+		id="S_BOSS01_BLOCK2"
+		file="data\sounds\boss\boss01\stand2_boss01.wav"
+		group="BOSS01"
+		/>
+
+
+
+		<model
+		id="S_BOAT_STAND1"
+		file="data\sounds\boss\boat\boat_motor_loop.wav"
+		group="BOAT"
+		/>
+		<model
+		id="S_BOAT_STAND2"
+		file="data\sounds\boss\boat\boat_open.wav"
+		group="BOAT"
+		/>
+
+                <model
+		id="S_BOSS02_STAND1"
+		file="data\sounds\boss\boss02\stand1_boss02.wav"
+		group="BOSS02"
+		/>
+        	<model
+		id="S_BOSS02_STAND2"
+		file="data\sounds\boss\boss02\stand2_boss02.wav"
+		group="BOSS02"
+		/>
+        	<model
+		id="S_BOSS02_ATTACK1"
+		file="data\sounds\boss\boss02\attack1_boss02.wav"
+		group="BOSS02"
+		/>
+        	<model
+		id="S_BOSS02_ATTACK2"
+		file="data\sounds\boss\boss02\stand1_boss02.wav"
+		group="BOSS02"
+		/>
+        	<model
+		id="S_BOSS02_BLOCK1"
+		file="data\sounds\boss\boss02\boss_death_01.wav"
+		group="BOSS02"
+		/>
+		<model
+		id="S_BOSS02_MOVE1"
+		file="data\sounds\boss\boss02\train2.wav"
+		group="BOSS02"
+		/>
+        	
+
+		<model
+		id="S_BOSS03_STAND1"
+		file="data\sounds\boss\boss03\stand_boss03.wav"
+		group="BOSS03"
+		/>
+	
+		<model
+		id="S_BOSS04_STAND1"
+		file="data\sounds\boss\boss04\stand_boss04.wav"
+		group="BOSS04"
+		/>
+
+        	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Environment -->
+                <model
+		id="S_SEA"
+		file="data\sounds\enveffects\sea.wav"
+		group="WATER"
+		/>
+		<model
+		id="S_WIND_GRASS"
+		file="data\sounds\enveffects\wind_through_grass_step.wav"
+		group="GRASS_1"
+		/>
+		<model
+		id="S_MARSH"
+		file="data\sounds\enveffects\marsh_day.wav"
+		group="MARSH"
+		/>
+		<model
+		id="S_MOUNT"
+		file="data\sounds\enveffects\mount01wav.wav"
+		group="MOUNT"
+		/>
+		<model
+		id="S_LAKE"
+		file="data\sounds\enveffects\lake_light.wav"
+		group="LAKE"
+		/>
+
+		<model
+		id="S_FOREST"
+		file="data\sounds\enveffects\forest_day.wav"
+		group="WEATHER"
+		/>
+		<model
+		id="S_DESERT"
+		file="data\sounds\enveffects\desert_day.wav"
+		group="WEATHER"
+		/>
+		<model
+		id="S_JUNGLE"
+		file="data\sounds\enveffects\jungle_day01.wav"
+		group="WEATHER"
+		/>
+
+		<model
+		id="S_FACTORY_SQUEAK"
+		file="data\sounds\enveffects\factory\squeak_factory.wav"
+		group="FACTORY"
+		/>
+
+		<model
+		id="S_FACTORY_WATER"
+		file="data\sounds\enveffects\factory\water_factory.wav"
+		group="FACTORY"
+		/>
+
+		<model
+		id="S_FACTORY_WIND"
+		file="data\sounds\enveffects\factory\wind_factory.wav"
+		group="FACTORY"
+		/>
+<!-- Смерть человечиков-->
+
+		<model
+		id="S_MAN_DEATH01"
+		file="data\sounds\Crash\colision_with_life01.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_MAN_DEATH02"
+		file="data\sounds\Crash\colision_with_life02.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_MAN_SCREAM1"
+		file="data\sounds\Crash\human_death_01.wav"
+		group="DEATH_1"
+		/>
+
+		<model
+		id="S_MAN_SCREAM2"
+		file="data\sounds\Crash\human_death_02.wav"
+		group="DEATH_1"
+		/>
+<!-- CutScenes-->
+		<model
+		id="S_OIL_FIELD"
+		file="data\sounds\CutScenes\r1m1\oil_field.wav"
+		group="OIL"
+		/>
+
+		<model
+		id="S_VILLAGE01"
+		file="data\sounds\CutScenes\r1m1\vilage01.wav"
+		group="FACTORY_1"
+		/>
+
+		<model
+		id="S_VILLAGE_BURNING01"
+		file="data\sounds\CutScenes\r1m1\vilage_burning01.wav"
+		group="BURNING"
+		/>
+
+<!-- Столкновения машины с объектами -->
+
+		<model
+		id="S_CARJUMP"
+		file="data\sounds\Crash\jump01.wav"
+		group="JUMP"
+		/>
+
+           <model
+		id="S_TREEVEHICLECRASH"
+		file="data\sounds\Hit\tree_crash.wav"
+		group="CRASH"
+		/>
+
+           
+           <model
+		id="S_WOODVEHICLEHIT1"
+		file="data\sounds\Hit\wood_cr.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_WOODVEHICLEHIT2"
+		file="data\sounds\Hit\wood_cr_03.wav"
+		group="DEATH"
+		/>
+
+           <model
+		id="S_WOODVEHICLEHIT3"
+		file="data\sounds\Hit\wood_cr_04.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_WOODVEHICLECRASH"
+		file="data\sounds\Hit\stolb_crash.wav"
+		group="CRASH"
+		/>
+
+		<model
+		id="S_BRICKVEHICLEHIT01"
+		file="data\sounds\Hit\colision_with_stone01.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_BRICKVEHICLEHIT02"
+		file="data\sounds\Hit\brick_cr.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_BRICKVEHICLEHIT03"
+		file="data\sounds\Hit\brick_cr_01.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_SACKVEHICLEHIT"
+		file="data\sounds\other\sand_sack_crST.wav"
+		group="CRASH"
+		/>
+            
+           <model
+		id="S_SACKVEHICLEHIT02"
+		file="data\sounds\other\sand_sack_crST_02.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_VEHICLESPARKLE"
+		file="data\sounds\Hit\colision_with_metal01.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_VEHICLESPARKLE_SLOW"
+		file="data\sounds\Hit\colision_with_metal_low.wav"
+		group="DEATH"
+		/>
+                
+               <model
+		id="S_VEHICLEONGROUND"
+		file="data\sounds\Crash\landing_car_sparkle.wav"
+		group="VEHICLEONGROUND"
+		/>
+                
+               <model
+		id="S_VEHICLEONGROUND_SLOW"
+		file="data\sounds\Crash\landing_car.wav"
+		group="VEHICLEONGROUND"
+		/> 
+               
+               <model
+		id="S_STATICSSPARKLE"
+		file="data\sounds\Hit\colision_with_stone01.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_STATICSSPARKLE_SLOW"
+		file="data\sounds\Crash\colision_with_stone_low.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_ORACLE_R3M2"
+		file="data\sounds\Boss\oracle.wav"
+		group="DEATH"
+		/>
+
+		<model
+		id="S_DRIFT01"
+		type="TRIPLE"
+		file_start="data\sounds\Driving\Starting\start_begining.wav"
+		file_loop="data\sounds\Driving\Starting\start_mid.wav"
+		file_end="data\sounds\Driving\Starting\start_end.wav"
+		group="DRIFT01"
+	        /> 
+		
+
+                <model
+		id="S_BRAKE"
+		type="TRIPLE"
+		file_start="data\sounds\Driving\Braking\drift_begining.wav"
+		file_loop="data\sounds\Driving\Braking\drift_mid.wav"
+		file_end="data\sounds\Driving\Braking\drift_tale.wav"
+		group="BRAKE01"
+		/>
+
+<!-- попадания в машину -->
+
+		<model
+		id="S_VEH_HIT_BULLET01"
+		file="data\sounds\Shoot_hits\Vehicle\bullet01.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET02"
+		file="data\sounds\Shoot_hits\Vehicle\bullet02.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET03"
+		file="data\sounds\Shoot_hits\Vehicle\bullet03.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET04"
+		file="data\sounds\Shoot_hits\Vehicle\bullet04.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET05"
+		file="data\sounds\Shoot_hits\Vehicle\bullet05.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET06"
+		file="data\sounds\Shoot_hits\Vehicle\bullet06.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET07"
+		file="data\sounds\Shoot_hits\Vehicle\bullet07.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET08"
+		file="data\sounds\Shoot_hits\Vehicle\bullet08.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET09"
+		file="data\sounds\Shoot_hits\Vehicle\bullet09.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET10"
+		file="data\sounds\Shoot_hits\Vehicle\bullet10.wav"
+            />
+
+		<model
+		id="S_VEH_HIT_BULLET11"
+		file="data\sounds\Shoot_hits\Vehicle\bullet11.wav"
+	      />
+
+		<model
+		id="S_VEH_HIT_BULLET12"
+		file="data\sounds\Shoot_hits\Vehicle\bullet12.wav"
+	      />
+
+		<model
+		id="S_VEH_HIT_BULLET13"
+		file="data\sounds\Shoot_hits\Vehicle\bullet13.wav"
+            />
+
+<!-- 2d -->
+
+		<model
+        		id="S_RECHARGE_WEAPON"
+        		file="data\sounds\effects\Shells\gun_reload.wav"
+        		group="SOUND2D"
+		/>                    
+
+		<model
+		id="S_CAR_BURNING_SMALL"
+			file="data\sounds\other\burnrng\car_burning_small.wav"
+                  group="BURNING_SMALL"
+            />
+
+		<model
+			id="S_CAR_BURNING"
+			file="data\sounds\other\burnrng\car_burning01.wav"
+             group="BURNING_SMALL"
+            />
+
+<!-- 		cinematic sound				 -->
+
+		<model
+		id="S_ENERGYWORKING"
+		file="data\sounds\CinematicSound\EnergyWorking.wav"
+		group="ENERGIE"
+		/>
+
+		<model
+		id="S_FLYINGDROID"
+		file="data\sounds\CinematicSound\FlyingDroid.wav"
+		group="FACTORY"
+		/>
+
+		<model
+		id="S_UFO01"
+		file="data\sounds\CinematicSound\UFO01.wav"
+		group="CINEMATIC"
+		/>
+
+ 		<model
+		id="S_UFODEATH"
+		file="data\sounds\CinematicSound\crash.wav"
+		group="CINEMATIC_1"
+		/>
+</sounds>
