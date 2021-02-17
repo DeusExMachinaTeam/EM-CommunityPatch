@@ -847,7 +847,7 @@
 		name="Kef_Bar_Customer1_2_N08"
 		text="Я верну его. Надеюсь, что к тому времени, когда я вернусь, вы мне сможете точно указать, где искать стариков."
 		role="PLAYER"
-		scriptResult="TActivate('trReturnPlCar'); TActivate('trRunDownEngineer'); EndConversation()" />
+		scriptResult="TActivate('trRunDownEngineer'); EndConversation()" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N01"

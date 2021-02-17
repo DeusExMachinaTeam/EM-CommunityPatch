@@ -535,7 +535,7 @@
 			Prototype="genericLocation"
 			Pos="6386.490 249.000 5195.843"
 			Rot="0.000 -0.385 0.000 0.923"
-			Radius="104.987" />
+			Radius="84.987" />
 
 		<Object
 			Name="Kef_Bar"
@@ -1768,6 +1768,14 @@
 
 	<Object
 		Flags="21"
+		Name="OilVehicleChange_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="6340.394 251.292 5127.631"
+		Radius="150" />
+
+	<Object
+		Flags="21"
 		Name="ToR1M1"
 		Belong="1100"
 		Prototype="genericLocation"
@@ -2207,8 +2215,8 @@
 		Name="CheckPoint1_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4149.515 278.995 2120.271"
-		Radius="94.205" />
+		Pos="4182.262 278.986 2185.095"
+		Radius="35.000" />
 
 	<Object
 		Flags="21"

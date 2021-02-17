@@ -47,7 +47,7 @@
 			end
 
 			SaveWeaponGroups()
-			SetVar("PlayerCarName",GetPlayerVehicle():GetName())
+--			SetVar("PlayerCarName",GetPlayerVehicle():GetName())
 			GetPlayerVehicle():setGodMode(true)
 			CapturePlayerVehicle(0, "OilPlayer")
 
@@ -59,6 +59,19 @@
 			TDeactivate("cinMolokovoz_FadeIn")
 			TDeactivate("cinMolokovozFirst")
 			SetCameraBehindPlayerVehicle()
+
+			local town1 = GetEntityByName("TheKef")
+			if town1 then town1:SetOpenGateToPlayer( false ) end
+
+			local town2 = GetEntityByName("TheGadad")
+			if town2 then town2:SetOpenGateToPlayer( false ) end
+
+			local town3 = GetEntityByName("TheKazif")
+			if town3 then town3:SetOpenGateToPlayer( false ) end
+
+			local a = GetEntityByName("StartGonka_loc")
+			if a then a:SetProperty("Active",0) end
+
 			RestoreAllToleranceStatus()
 		</script>
 	</trigger>
@@ -73,9 +86,9 @@
 			TActivate("cinPlCarReturn_FadeIn")
             TDeactivate("trTrailerDie")
 --            LOG("A1")
-			local plcarname=GetVar("PlayerCarName").AsString
+--			local plcarname=GetVar("PlayerCarName").AsString
 --            LOG("A2")
-			local veh=getObj(plcarname)
+			local veh=getObj("OilPlayerCar")
 			if veh then
 --	            LOG("A3")
 				veh:SetExternalPathByName("playerMolokPath")
@@ -111,8 +124,8 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 --            LOG("A9")
-			local plcarname=GetVar("PlayerCarName").AsString
-			local veh=getObj(plcarname)
+--			local plcarname=GetVar("PlayerCarName").AsString
+			local veh=getObj("OilPlayerCar")
 --            LOG("A10")
 			if veh then
 --	            LOG("A11")
@@ -130,6 +143,19 @@
 			end
 			SetCameraBehindPlayerVehicle()
 			RestoreAllToleranceStatus()
+
+			local town1 = GetEntityByName("TheKef")
+			if town1 then town1:SetOpenGateToPlayer( true ) end
+
+			local town2 = GetEntityByName("TheGadad")
+			if town2 then town2:SetOpenGateToPlayer( true ) end
+
+			local town3 = GetEntityByName("TheKazif")
+			if town3 then town3:SetOpenGateToPlayer( true ) end
+
+			local a = GetEntityByName("StartGonka_loc")
+			if a then a:SetProperty("Active",1) end
+
 			TDeactivate("cinPlCarReturnFirst")
 			TDeactivate("cinPlCarReturn_FadeIn")
 --            LOG("A13")
@@ -412,6 +438,7 @@
 			GetPlayerVehicle():PlaceToEndOfPath("ZapravkaOut")
 			SetCameraBehindPlayerVehicle()
 			RestoreAllToleranceStatus()
+			TActivate("trReturnPlCar")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -633,4 +660,3 @@
 
 
 </triggers>
-
