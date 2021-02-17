@@ -557,7 +557,9 @@
 
 	<model
 		id="S_SHOOTING_RAINMETAL"
-		file="data\sounds\Shooting\BigGun\rainmetal_shoot.wav"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\BigGun\rainmetal_shoot.wav"
+		file_end	="data\sounds\Shooting\BigGun\rainmetal_tail_shoot.wav"
 		group="GUNFIRE"
 		/>
 
@@ -1249,7 +1251,7 @@
 		group="HORNS"
 		/>
 
-<!-- Гром -->
+<!-- пїЅпїЅпїЅпїЅ -->
 
 	<model
 		id="S_THUNDER"
@@ -1513,7 +1515,7 @@
 		file="data\sounds\enveffects\factory\wind_factory.wav"
 		group="FACTORY"
 		/>
-<!-- Смерть человечиков-->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-->
 
 		<model
 		id="S_MAN_DEATH01"
@@ -1557,7 +1559,7 @@
 		group="BURNING"
 		/>
 
-<!-- Столкновения машины с объектами -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 
 		<model
 		id="S_CARJUMP"
@@ -1687,7 +1689,7 @@
 		group="BRAKE01"
 		/>
 
-<!-- попадания в машину -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ -->
 
 		<model
 		id="S_VEH_HIT_BULLET01"
