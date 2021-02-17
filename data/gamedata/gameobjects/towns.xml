@@ -1,0 +1,2987 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
+-->
+
+<Prototypes>  
+	<Folder Name = "BigTowns">
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunTownSouthGenerator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01" />
+			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="vector01" />
+			<Object PrototypeName="minePusher"/>
+
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunArtefactGenerator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01" />
+
+			<Object PrototypeName="vector01" />
+			<Object PrototypeName="kpvt01" />
+			<Object PrototypeName="rapier01" />
+			<Object PrototypeName="minePusher"/>		
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunMirgradGenerator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01" />
+			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="kord01" />
+			<Object PrototypeName="storm01" />
+			<Object PrototypeName="fagot01" />
+			<Object PrototypeName="maxim01" />
+
+			<Object PrototypeName="vector01" />
+			<Object PrototypeName="kpvt01" />
+			<Object PrototypeName="rapier01" />
+			<Object PrototypeName="flag01" />
+			<Object PrototypeName="vulcan01" />
+			<Object PrototypeName="odin01" />
+			<Object PrototypeName="bumblebee01" />
+       			<Object PrototypeName="hunterSideGun" />
+			<Object PrototypeName="hammer01" />
+			<Object PrototypeName="octopus01" />
+			<Object PrototypeName="minePusher_1"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunOlmeGenerator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01" />
+			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="kord01" />
+
+			<Object PrototypeName="vector01" />
+
+			<Object PrototypeName="cyclops01" />
+			<Object PrototypeName="octopus01" />
+			<Object PrototypeName="hailSideGun" />
+			<Object PrototypeName="hunterSideGun" />
+			<Object PrototypeName="minePusher_1"/>
+                        <Object PrototypeName="engineOilPusher"/>
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunMininGenerator">
+
+			<Object PrototypeName="fagot01" />
+			<Object PrototypeName="maxim01" />
+
+			<Object PrototypeName="omega01" />
+			<Object PrototypeName="bumblebee01" />
+
+			<Object PrototypeName="big_swingfire01" />
+			<Object PrototypeName="zeusSideGun"/>
+			<Object PrototypeName="hurricane01" />
+			<Object PrototypeName="minePusher_1"/>		
+			<Object PrototypeName="engineOilPusher"/>		
+		</Prototype>	
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="guntownGenerator">
+
+			<Object PrototypeName="fagot01" />
+			<Object PrototypeName="maxim01" />
+
+			<Object PrototypeName="omega01" />
+			<Object PrototypeName="bumblebee01" />
+			<Object PrototypeName="cyclops01" />
+			<Object PrototypeName="big_swingfire01" />
+			<Object PrototypeName="hurricane01" />
+			<Object PrototypeName="minePusher_2"/>
+
+			<Object PrototypeName="nailsPusher"/>
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunPeshtGenerator">
+
+			<Object PrototypeName="kord01" />
+			<Object PrototypeName="storm01" />
+			<Object PrototypeName="pkt01" />
+
+			<Object PrototypeName="vulcan01" />
+			<Object PrototypeName="rainmetal01" />
+			<Object PrototypeName="elephant01" />
+			<Object PrototypeName="hammer01" />
+			<Object PrototypeName="cyclops01" />
+			<Object PrototypeName="octopus01" />
+			<Object PrototypeName="hunterSideGun" />
+			<Object PrototypeName="minePusher_1"/>
+			<Object PrototypeName="Smoke"/>
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="guncityGenerator">
+
+			<Object PrototypeName="kord01" />
+			<Object PrototypeName="storm01" />
+			<Object PrototypeName="pkt01" />
+
+			<Object PrototypeName="vulcan01" />
+			<Object PrototypeName="rainmetal01" />
+			<Object PrototypeName="elephant01" />
+			<Object PrototypeName="hammer01" />
+			<Object PrototypeName="cyclops01" />
+			<Object PrototypeName="octopus01" />
+			<Object PrototypeName="minePusher_1"/>
+			<Object PrototypeName="nailsPusher"/>
+			<Object PrototypeName="marsSideGun"/>
+			<Object PrototypeName="zeusSideGun"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
+
+
+		</Prototype>
+			
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunAsgargGenerator">
+
+			<Object PrototypeName="vector01" />
+			<Object PrototypeName="kpvt01" />
+			<Object PrototypeName="rapier01" />
+			<Object PrototypeName="flag01" />
+			<Object PrototypeName="vulcan01" />
+			<Object PrototypeName="odin01" />
+			<Object PrototypeName="bumblebee01" />
+			<Object PrototypeName="minePusher_2"/>
+			<Object PrototypeName="hammer01" />
+			<Object PrototypeName="octopus01" />
+			<Object PrototypeName="hailSideGun" />	
+			<Object PrototypeName="zeusSideGun"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunPortoGenerator">
+
+			<Object PrototypeName="specter01" />
+			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="kord01" />
+			<Object PrototypeName="storm01" />
+			<Object PrototypeName="minePusher_1"/>
+			<Object PrototypeName="vector01" />
+			<Object PrototypeName="kpvt01" />
+			<Object PrototypeName="rapier01" />
+			<Object PrototypeName="someTurboAccelerationPusher"/>
+
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunEstingGenerator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01" />
+			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="vector01" />
+			<Object PrototypeName="kpvt01" />
+			<Object PrototypeName="kord01" />
+			<Object PrototypeName="minePusher"/>
+
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunTheGloochoeGenerator">
+
+			<Object PrototypeName="minePusher"/>       
+
+		</Prototype>	
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunHornetGenerator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01"/>
+		</Prototype>	
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="villageaffixGenerator">
+
+			<Affix AffixName = "useless_gun" />
+			<Affix AffixName = "rusty_gun" />
+			<Affix AffixName = "slow_gun" />      
+			<Affix AffixName = "without_sight_gun" />
+			<Affix AffixName = "without_cooling_gun"	         />
+			<Affix AffixName = "with_truncated_barrel_gun" />
+			<Affix AffixName = "weak_gun" />
+			
+
+		</Prototype>
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="townaffixGenerator">
+
+			<Affix AffixName = "rusty_gun" />
+			<Affix AffixName = "excellent_gun" />
+			<Affix AffixName = "assault_gun" />
+			<Affix AffixName = "with_enlarged_barrel_gun" />
+			<Affix AffixName = "with_laser_sight_gun" />
+			<Affix AffixName = "with_water_cooling_gun"	/>
+			<Affix AffixName = "deadly_gun" />
+		</Prototype>
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="cityaffixGenerator">
+
+                        <Affix AffixName = "excellent_gun" />
+			<Affix AffixName = "advanced_gun" />
+			<Affix AffixName = "rapid_firing_gun" />
+			<Affix AffixName = "deadly_gun" />
+			<Affix AffixName = "destructive_gun" />
+			<Affix AffixName = "with_long_barrel_gun" />
+			<Affix AffixName = "with_electric_sight_gun" />
+			<Affix AffixName = "with_nitro_cooling_gun"	 />
+			
+		</Prototype>
+
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="villagetruxaffixGenerator">
+
+			<Affix AffixName = "useless_cabin" />
+			<Affix AffixName = "rusty_cabin" />
+			<Affix AffixName = "useless_basket" />
+			<Affix AffixName = "rusty_basket" />
+			
+
+		</Prototype>
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="towntruxaffixGenerator">
+
+			<Affix AffixName = "rusty_cabin" />
+			<Affix AffixName = "excellent_cabin" />
+			<Affix AffixName = "rusty_basket" />
+			<Affix AffixName = "excellent_basket" />
+
+		</Prototype>	
+		
+		<Prototype
+			Class="AffixGenerator"
+			Name="citytruxaffixGenerator">
+
+                        <Affix AffixName = "excellent_cabin" />
+			<Affix AffixName = "advanced_cabin" />
+			<Affix AffixName = "excellent_basket" />
+			<Affix AffixName = "advanced_basket" />
+			
+		</Prototype>
+		
+
+
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownSouth"
+			ModelFile	= "minin"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "trade_town1"
+			GateModelFile 	= "big_gate01"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+
+			GunGenerator		= "gunTownSouthGenerator"
+			DesiredGunsInWorkshop	= "15"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "3"
+
+			WeaponPriceMultiplier = "1.2"
+			WeaponPriceDispersion = "15">
+			
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.45"
+				Import   				= "TRUE"
+				Export   				= "FALSE"				
+				PriceDynamic 				= "1"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"	
+			/>
+
+			<Article
+				Prototype				= "firewood"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Import   				= "FALSE"
+				Export   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "14"
+				RegenerationPeriod			= "300"
+			/>
+
+		
+
+
+<!--		      <ResourceCoeff Coeff="1.5" Dispersion="20.0" Resource="GUN" />
+		      <ResourceCoeff Coeff="1.0" Dispersion="10.0" Resource="CABIN" />
+-->		
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownEast"
+			ModelFile	= "minin"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "big_gate01"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+
+			GunGenerator		= "gunTownSouthGenerator"
+			DesiredGunsInWorkshop	= "15"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.2"
+			WeaponPriceDispersion = "15"
+
+			Vehicles 	= "Bug">
+			
+			<Article
+				Prototype			= "potato"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.4"
+				Import   			= "TRUE"
+				Export   			= "FALSE"				
+				PriceDynamic 			= "1"
+				MinCount			= "0"
+				MaxCount			= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype			= "firewood"				
+				Amount	 			= "12"
+				ExternalPriceCoefficient	= "0.62"
+				PriceDynamic 			= "1"
+				Export   			= "TRUE"
+				Import   			= "FALSE"
+				MinCount			= "0"
+				MaxCount			= "40"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype			= "scrap_metal"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.3"
+				PriceDynamic 			= "1"
+				Export   			= "FALSE"
+				Import   			= "TRUE"
+				MinCount			= "0"
+				MaxCount			= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+			
+
+			
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownMidgard"
+			ModelFile	= "MidGard"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "techno_town1"
+			GateModelFile 	= "midgard_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+
+			GunGenerator		= "gunMirgradGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "cityaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "citytruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "0.8"
+			WeaponPriceDispersion = "15"
+
+			Vehicles 	= "Bug">
+
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "1.4"
+				Import   				= "TRUE"
+				Export   				= "FALSE"				
+				PriceDynamic 				= "1"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.3"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "firewood"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.62"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "24"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownPorto"
+			ModelFile	= "port"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "big_gate01"
+
+			NumCollisionLayersBelowVehicle = "2"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "50" 
+
+			GunGenerator		= "gunPortoGenerator"
+			DesiredGunsInWorkshop	= "15"
+
+			GunAffixGenerator	= "cityaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "0.9"
+			WeaponPriceDispersion = "15"
+
+			Vehicles 	= "Bug"	>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "1.4"
+				Import   				= "TRUE"
+				Export   				= "FALSE"				
+				PriceDynamic 				= "1"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.3"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "firewood"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.62"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "24"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownOlme"
+			ModelFile	= "minintown"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "trade_town1"
+			GateModelFile 	= "factorytunnelgate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+
+			GunGenerator		= "gunOlmeGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "cityaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.1"
+			WeaponPriceDispersion = "15"
+
+			Vehicles 	= "Bug">
+
+			<Article
+				Prototype				= "oil"				
+				Amount	 			= "12"
+				ExternalPriceCoefficient	= "0.7"
+				PriceDynamic 			= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "90"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.33"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownPesht"
+			ModelFile	= "brick_debris1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+
+			GunGenerator		= "gunPeshtGenerator"
+			DesiredGunsInWorkshop	= "15"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.1"
+			WeaponPriceDispersion = "15"
+
+			Vehicles 	= "Bug"	>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.3"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "firewood"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.8"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "43"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "25"
+				ExternalPriceCoefficient		= "1.1"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "40"
+				RegenerationPeriod			= "300"
+			/>
+
+                </Prototype>
+		<Prototype
+			Class		= "Town"
+			Name		= "TownAsgard"
+			ModelFile	= "agro_post"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "trade_town1"
+			GateModelFile 	= "agro_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "20" 
+
+			GunGenerator		= "gunAsgargGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "0.6"
+			WeaponPriceDispersion = "15"
+
+			Vehicles 	= "Bug"	>
+                        <Article
+				Prototype				= "potato"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "1.3"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "firewood"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.8"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "30"
+				RegenerationPeriod			= "300"
+			/>
+
+			
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownMinin"
+			ModelFile	= "minintown"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "techno_town1"
+			GateModelFile 	= "factorytunnelgate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+			GunGenerator		= "gunMininGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "cityaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.1"
+			WeaponPriceDispersion = "15"
+
+
+			Vehicles 	= "Bug">	
+                        <Article
+				Prototype				= "potato"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "1.3"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "firewood"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "30"
+				RegenerationPeriod			= "300"
+			/>
+                        
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownBaseInRock"
+			ModelFile	= "millitary_town"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "military_town1"
+			GateModelFile 	= "tunnel_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "15"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug"	>
+			<Article
+				Prototype				= "bottle"				
+				Amount	 			= "2"
+				ExternalPriceCoefficient	= "2.0"
+				PriceDynamic 			= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "15"
+				RegenerationPeriod			= "3000"
+			/>
+
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownSel"
+			ModelFile	= "r2_seil"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			GateModelFile 	= "kef_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "21"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+
+			Vehicles 	= "Bug"	>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 			= "24"
+				ExternalPriceCoefficient	= "0.85"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "44"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "fuel"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.1"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+			                </Prototype>
+		<Prototype
+			Class		= "Town"
+			Name		= "TownGelvetcia"
+			ModelFile	= "helvecia"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			GateModelFile 	= "factorytunnelgate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "17"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+
+			Vehicles 	= "Bug">
+
+                        <Article
+				Prototype				= "fuel"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.93"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "111"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+			
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownTuzz"
+			ModelFile	= "agro_post"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "military_town1"
+			GateModelFile 	= "agro_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+			GunGenerator		= "guncityGenerator"
+			DesiredGunsInWorkshop	= "15"
+
+			GunAffixGenerator	= "cityaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+
+			Vehicles	= "Bug"	>
+			<Article
+				Prototype				= "oil"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+
+				RegenerationPeriod			= "300"			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.82"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "32"
+				RegenerationPeriod			= "300"
+			/>
+
+			</Prototype>
+		<Prototype
+			Class		= "Town"
+			Name		= "TownMarezzia"
+			ModelFile	= "r2_marezzia"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "military_town1"
+			GateModelFile 	= ""
+
+			NumCollisionLayersBelowVehicle = "0"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+			GunGenerator		= "guntownGenerator"
+			DesiredGunsInWorkshop	= "16"
+
+			GunAffixGenerator	= "cityaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+
+			Vehicles 	= "Bug"	>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 			= "24"
+				ExternalPriceCoefficient	= "1.1"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "44"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "fuel"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "0.85"
+				PriceDynamic 			= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownToskana"
+			ModelFile	= "agro_post"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "agro_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "10" 
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "19"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug"	>
+			<Article
+				Prototype				= "fuel"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.93"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "111"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownZeon"
+			ModelFile	= "zion"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "zion_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "14"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug"	>
+			<Article
+				Prototype				= "oil"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.82"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "32"
+				RegenerationPeriod			= "300"
+			/>
+
+	      	</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownMonastery"
+			ModelFile	= "monastery"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "gate_monastyr"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "200"
+			IntersectionRadius	= "30" 
+			 
+			Vehicles 	= "">	
+			
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownUluk"
+			ModelFile	= "uluc"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "druid_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+                        GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "22"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug">
+			<Article
+				Prototype				= "machinery"				
+				Amount	 				= "30"
+				ExternalPriceCoefficient		= "1.1"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "bottle"				
+				Amount	 				= "30"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "100"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownFist"
+			ModelFile	= "r3_set-fest"
+			NodeScale	= "1 1 1" 
+			
+			NumCollisionLayersBelowVehicle = "1"
+
+			MusicName		= "bar"
+			GateModelFile 	= "druid_gate"
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+                        GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "17"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug">
+                    	<Article
+				Prototype				= "machinery"				
+				Amount	 				= "30"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "51"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "bottle"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.1"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownSet"
+			ModelFile	= "r3_set-fest"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "druid_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+                        GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug" >
+			<Article
+				Prototype				= "machinery"				
+				Amount	 				= "30"
+				ExternalPriceCoefficient		= "0.81"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "40"
+				RegenerationPeriod			= "300"
+			/>
+			
+		</Prototype>
+		<Prototype
+			Class		= "Town"
+			Name		= "TownKef"
+			ModelFile	= "gadad_city"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "gadad_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+                        GunGenerator		= "gunMirgradGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug"  >
+	             	<Article
+				Prototype				= "book"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.07"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+
+			<Article
+				Prototype				= "electronics"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.91"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "100"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownGadad"
+			ModelFile	= "kef"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "military_town1"
+			GateModelFile 	= "kef_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+                        GunGenerator		= "gunMirgradGenerator"
+			DesiredGunsInWorkshop	= "24"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug" >
+			<Article
+				Prototype				= "tobacco"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.07"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "book"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.91"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "36"
+				RegenerationPeriod			= "300"
+			/>
+			
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "TownKazif"
+			ModelFile	= "gadad_city"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "gadad_gate"
+
+			NumCollisionLayersBelowVehicle = "1"
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+                        GunGenerator		= "gunMirgradGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug">
+			<Article
+				Prototype				= "tobacco"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.91"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "87"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "electronics"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.07"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "1400"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "bottle"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "15"
+				RegenerationPeriod			= "300"
+			/>
+
+
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "CrazyBase"
+			ModelFile	= "barrel1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+            		GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "20"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug">
+		</Prototype>
+
+
+
+	</Folder>
+
+	<Folder Name = "Villages">
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m1_GloohoeVillage"
+			ModelFile	= "brick_debris1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+
+			GunGenerator		= "gunTheGloochoeGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.7"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	= "0" 
+			Vehicles	= "Scout" >
+			
+			<Article
+				Prototype			= "potato"				
+				Amount	 			= "5"
+				Export   			= "TRUE"
+				Import				= "FALSE"
+				PriceDynamic 			= "1"
+				ExternalPriceCoefficient	=  "0.8"
+				MinCount			= "0"
+				MaxCount			= "40"
+				RegenerationPeriod			= "300"			/>
+
+
+	      <ResourceCoeff Coeff="0.5" Dispersion="0.0" Resource="CABIN" />
+	      <ResourceCoeff Coeff="1" Dispersion="0.0" Resource="GUN" />
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m1_OilVillage"
+			ModelFile	= "brick_debris1"
+			NodeScale	= "1 1 1" 
+		
+			MusicName		= "agriculruar_town1"
+
+			GunGenerator		= "gunHornetGenerator"
+			DesiredGunsInWorkshop	= "5"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+
+			MaxDefenders	="0"
+			Vehicles	= "Scout" >
+
+			<Article
+				Prototype			= "potato"				
+				Amount	 			= "4"
+				ExternalPriceCoefficient	= "0.7"
+				Import   			= "FALSE"
+				Export   			= "TRUE"				
+				PriceDynamic 			= "1"
+				MinCount			= "0"
+				MaxCount			= "14"
+				RegenerationPeriod		= "300"	
+			/>
+
+			<Article
+				Prototype			= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.3"
+				PriceDynamic 			= "1"
+				Import   			= "TRUE"
+				Export   			= "FALSE"
+				MinCount			= "0"
+				MaxCount			= "14"
+				RegenerationPeriod		= "300"
+			/>
+
+
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m1_ContraVillage"
+			ModelFile	= "brick_debris1"
+			NodeScale	= "1 1 1" 
+		
+			MusicName		= "agriculruar_town1"
+			
+			GunGenerator		= "gunHornetGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Scout">
+
+                        <Article
+				Prototype			= "potato"				
+				Amount	 			= "4"
+				ExternalPriceCoefficient	= "0.7"
+				Import   			= "FALSE"
+				Export   			= "TRUE"				
+				PriceDynamic 			= "1"
+				MinCount			= "0"
+				MaxCount			= "45"
+				RegenerationPeriod		= "300"	
+			/>
+
+			<Article
+				Prototype			= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.3"
+				PriceDynamic 			= "1"
+				Import   			= "TRUE"
+				Export   			= "FALSE"
+				MinCount			= "0"
+				MaxCount			= "60"
+				RegenerationPeriod		= "300"
+			/>
+
+		</Prototype>
+
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m1_FreedomVillage"
+			ModelFile	= "brick_debris1"
+			NodeScale	= "1 1 1" 
+		
+			MusicName		= "agriculruar_town1"
+		
+			GunGenerator		= "gunHornetGenerator"
+			DesiredGunsInWorkshop	= "5"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Scout" >
+
+                        <Article
+				Prototype			= "potato"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "0.7"
+				Import   			= "FALSE"
+				Export   			= "TRUE"				
+				PriceDynamic 			= "1"
+				MinCount			= "0"
+				MaxCount			= "14"
+				RegenerationPeriod		= "300"	
+			/>
+
+			<Article
+				Prototype			= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.3"
+				PriceDynamic 			= "1"
+				Import   			= "TRUE"
+				Export   			= "FALSE"
+				MinCount			= "0"
+				MaxCount			= "60"
+				RegenerationPeriod		= "300"
+			/>
+
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m2_BenVillage"
+			ModelFile	= "workshop2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			
+			MaxDefenders	="0"
+			Vehicles	= "" />
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m2_SignVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.7"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz" >
+			<Article
+				Prototype				= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.31"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.58"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "30"
+				RegenerationPeriod			= "300"
+			/>
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m2_ArtefactVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "5"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.7"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz" >
+			<Article
+				Prototype				= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.31"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.6"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "30"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m2_OlimpVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.7"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz" >
+				
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 			= "6"
+				ExternalPriceCoefficient	= "0.77"
+				PriceDynamic 			= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "15"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.31"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.6"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "30"
+				RegenerationPeriod			= "300"
+			/>
+
+					</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m2_RaceVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "4"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.7"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz" >
+                        <Article
+				Prototype				= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.31"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.6"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "30"
+				RegenerationPeriod			= "300"
+			/>
+			
+		</Prototype>	
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m2_TicketsVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "agriculruar_town1"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "1.7"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz" >
+			
+                        <Article
+				Prototype				= "firewood"				
+				Amount	 			= "0"
+				ExternalPriceCoefficient	= "1.31"
+				PriceDynamic 			= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.6"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "30"
+				RegenerationPeriod			= "300"
+			/>
+					</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m3_ForgottenVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+       			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.77"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "15"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "firewood"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.8"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "20"
+				RegenerationPeriod			= "300"
+			/>
+
+			
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m3_OreMineVillage"
+			ModelFile	= "ore_mine_abk"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			Vehicles	= ""> 
+                        <Article
+				Prototype				= "firewood"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.8"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "20"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m3_VozleMininVillage"
+			ModelFile	= "house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "7"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= ""> 
+			
+                        <Article
+				Prototype				= "firewood"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.8"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "20"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m3_OilMineVillage"
+			ModelFile	= "oilmine1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villageaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= ""> 
+                        <Article
+				Prototype				= "firewood"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "12"
+				ExternalPriceCoefficient		= "0.8"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "20"
+				RegenerationPeriod			= "300"
+			/>
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r2m1_DoubtfulVillage"
+			ModelFile	= "brick_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles	= "Molokovoz"> 
+			<Article
+				Prototype				= "oil"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "70"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r2m1_UnderAttaksVillage"
+			ModelFile	= "brick_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+                        <Article
+				Prototype				= "oil"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "70"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r2m1_Vill2Village"
+			ModelFile	= "brick_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "7"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles	= "Molokovoz"> 
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r2m1_Vill1Village"
+			ModelFile	= "brick_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles	= "Molokovoz"> 
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r2m2_GranicaVillage"
+			ModelFile	= "brick_debris1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "5"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles	= "Molokovoz"> 
+                        <Article
+				Prototype				= "oil"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "70"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r2m2_ZnakiVillage"
+			ModelFile	= "brick_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles	= "Molokovoz"> 
+			<Article
+				Prototype				= "oil"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "70"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.15"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "140"
+				RegenerationPeriod			= "300"
+			/>
+					</Prototype>
+
+
+
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r2m2_NewVillage"
+			ModelFile	= "poddon"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "7"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles	= "Molokovoz"> 
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "FisherVillage"
+			ModelFile	= "fishman1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villageaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+			<Article
+				Prototype				= "fuel"				
+				Amount	 				= "25"
+				ExternalPriceCoefficient		= "0.7"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "40"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m4_SaliniomVillage"
+			ModelFile	= "fishman1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+			<Article
+				Prototype				= "oil"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m4_LaukaVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+              		<Article
+				Prototype				= "oil"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "120"
+				RegenerationPeriod			= "300"
+			/>
+
+
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m4_CalisVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "7"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+              		<Article
+				Prototype				= "oil"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "120"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m4_CordanVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+              		<Article
+				Prototype				= "oil"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "120"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m4_PerchVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "7"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+              		<Article
+				Prototype				= "oil"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "120"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m4_BerkoVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "7"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz">
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r1m4_StorageVillage"
+			ModelFile	= "house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			GunGenerator		= "gunArtefactGenerator"
+			DesiredGunsInWorkshop	= "6"
+
+			GunAffixGenerator	= "villageaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2.3"
+			WeaponPriceDispersion = "5"
+
+			MaxDefenders	="0"
+			Vehicles	= "Molokovoz"> 
+             		<Article
+				Prototype				= "oil"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"
+			/>
+			<Article
+				Prototype				= "scrap_metal"				
+				Amount	 				= "24"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "120"
+				RegenerationPeriod			= "300"
+			/>
+
+
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "DoNotRememberDeleteThisVillage"
+			ModelFile	= "dweller"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			
+			MaxDefenders	="0"
+			Vehicles	= "" />
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r3_OracleDefVil"
+			ModelFile	= "r3_druids_mech_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r3_RazboinikVillage"
+			ModelFile	= "r3_druids_mech_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r4_Buhara"
+			ModelFile	= "r3_druids_mech_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r4_Aliham"
+			ModelFile	= "desert_house2"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r4_Zuhel"
+			ModelFile	= "desert_house4"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r4_OilCity"
+			ModelFile	= "desert_house_br3"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r4_Scientific"
+			ModelFile	= "desert_house1"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+                        GunGenerator		= "gunMirgradGenerator"
+			DesiredGunsInWorkshop	= "12"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier = "2"
+			WeaponPriceDispersion = "5"
+
+			Vehicles 	= "Bug">
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "25"
+				ExternalPriceCoefficient		= "1.2"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "40"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "tobacco"				
+				Amount	 				= "25"
+				ExternalPriceCoefficient		= "1.1"
+				PriceDynamic 				= "1"
+				Export   				= "FALSE"
+				Import   				= "TRUE	"
+				MinCount				= "0"
+				MaxCount				= "40"
+				RegenerationPeriod			= "300"
+			/>
+                        <Article
+				Prototype				= "electronics"				
+				Amount	 				= "25"
+				ExternalPriceCoefficient		= "0.8"
+				PriceDynamic 				= "1"
+				Export   				= "TRUE"
+				Import   				= "FALSE"
+				MinCount				= "0"
+				MaxCount				= "40"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "OraculTest"
+			ModelFile	= "r3_oracle"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "bar"
+			GateModelFile 	= "oracle_gate"
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r3_AloneDruid"
+			ModelFile	= "r3_druids_mech_house1"
+			NodeScale	= "1 1 1" 
+
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "r3_FarVillage"
+			ModelFile	= "r3_druid_house3"
+			NodeScale	= "1 1 1" 
+
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "50" 
+
+			Vehicles 	= "Bug"
+			/>
+
+
+		<Prototype
+			Class		= "Town"
+			Name		= "PetrolStationTown"
+			ModelFile	= "petrolstation"
+			NodeScale	= "1 1 1" 
+
+			GateModelFile 	= ""
+
+			IsIntersecting		= "true"
+			LookRadius			= "200"
+			IntersectionRadius	= "25" 
+
+			Vehicles 	= ""
+			/>
+
+
+
+	</Folder>
+</Prototypes>
