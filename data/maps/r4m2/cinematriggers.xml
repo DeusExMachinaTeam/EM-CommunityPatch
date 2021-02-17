@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+	<trigger	Name="cinExit41ReturnFirst"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			EnableGodMode()
+--			TActivate("cinExit42ReturnFirst")
+			TActivate("cinExit41Return_FadeIn")
+			TActivate("cinExit41Return_End")
+
+			Fly("ExitTo41Return", CINEMATIC_NO_AIM, nil, 4, 1,1)
+			StartCinematic()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinExit41Return_FadeIn"	active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(588.007, 288.818, 3251.544))
+			GetPlayerVehicle():SetRotation(Quaternion(0.007, -0.966, -0.005, -0.258))
+			GetPlayerVehicle():SetExternalPathByName("ReturnPathR4M1")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="cinExit41Return_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			DisableGodMode()
+			GetPlayerVehicle():SetExternalPathByName("ReturnPathR4M1")
+			GetPlayerVehicle():PlaceToEndOfPath("ReturnPathR4M1")
+			SetCameraBehindPlayerVehicle()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinExit41OkFirst"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			EnableGodMode()
+			TDeactivate("trExitToR4M1")
+			TActivate("cinExit41OkFirst")
+			TActivate("cinExit41Ok_FadeIn")
+			TActivate("cinExit41Ok_End")
+
+			Fly("ExitTo41Ok", CINEMATIC_NO_AIM, nil, 4, 1,1)
+			StartCinematic()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinExit41Ok_FadeIn"	active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(576.765, 288.802, 3272.843))
+			GetPlayerVehicle():SetRotation(Quaternion(0.006, 0.275, 0.005, -0.962))
+			GetPlayerVehicle():SetExternalPathByName("ExitTo41Ok")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinExit41Ok_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			DisableGodMode()
+			TActivate("trExitToR4M2")
+			PassToMap("r4m1", "FromR4M2", 0 , true)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+	<trigger	Name="cinNearBase"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+--			TActivate("cinExit42ReturnFirst")
+			SaveAllToleranceStatus(RS_NEUTRAL)
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+
+			TActivate("cinNearBase_End")
+			
+			GetPlayerVehicle():SetThrottle( 0 )
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+
+			Fly("NearBase", CINEMATIC_NO_AIM, nil, 6, 1,1)
+			StartCinematic()
+
+			AddCinematicMessage( 101, 0.5 )
+			PlayCustomMusic("Techno02")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinNearBase_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			StopPlayingCustomMusic()
+			RestoreAllToleranceStatus()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+	<trigger	Name="cinHelpersFirst"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			EnableGodMode()
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			TActivate("cinHelpers_End")
+			TActivate("cinHelpers_FadeIn")
+			TActivate("cinHelpers_StartFly2")
+			Fly("SavePlInBase1", CINEMATIC_NO_AIM, nil, 6, 1,0)
+			Fly("SavePlInBase2", CINEMATIC_NO_AIM, nil, 10, 0,1)
+			TActivate("cinHelpers_EndFull")
+			StartCinematic()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinHelpers_FadeIn"	active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local poslist = {CVector(2595.265, 300, 1312.742),CVector(2602.535, 300, 1307.154),CVector(2605.818, 300, 1329.525),CVector(2618.733, 300, 1332.649)}
+			local modlist = {"Hunter01","Hunter02", "Cruiser02","Cruiser01"}
+			for i=1,4 do
+				local veh = CreateVehicleEx(modlist[i],"SciefVeh"..i,poslist[i])
+				if veh then
+					veh:setGodMode(true)
+					veh:SetRotation(Quaternion(0.015, -0.881, -0.051, 0.470))
+					veh:SetExternalPathByName("HelpMens1_path"..i)
+					veh:SetCustomLinearVelocity( 20 )
+				end
+			end
+			AddCinematicMessage( 401, 0.5 )
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinHelpers_StartFly2" active="0">
+		<event flypath="SavePlInBase2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 402, 0.25 )
+
+			if QuestStatus("r4m1_GotoAivenGo")==Q_TAKEN then
+				AddCinematicMessage( 403, 0.25 )
+			elseif QuestStatus("r4m1_FindMilitaryBase")==Q_COMPLETED then
+				AddCinematicMessage( 404, 0.25 )
+				AddCinematicMessage( 405, 0.25 )
+				AddCinematicMessage( 406, 0.25 )
+				CompleteQuest("r3m2_RevengeDestroyVillage")
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinHelpers_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			PlayCustomMusic("Passage02")
+			local poslist = {CVector(2610.603, 314.646, 1336.547),CVector(2621.363, 315.150, 1337.481),CVector(2604.174, 314.649, 1320.025),CVector(2597.561, 300,  1296.187), CVector(2589.748, 300, 1296.728)}
+			local rotlist = {Quaternion(-0.001, 0.332, 0.041, 0.942), Quaternion(-0.003, 0.311, 0.020, 0.950), Quaternion(-0.018, 0.185, 0.029, 0.982), Quaternion(-0.020, 0.226, 0.029, 0.974), Quaternion(-0.016, 0.164, 0.052, 0.985)}
+			for i=1,4 do
+				local veh = getObj("SciefVeh"..i)
+				if veh then
+					veh:SetGamePositionOnGround(poslist[i])
+					veh:SetRotation(Quaternion(rotlist[i]))
+					veh:SetExternalPathByName("HelpMens1r_path"..i)
+					veh:SetCustomLinearVelocity( 45 - 5*(i-1) )
+				end
+			end
+
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():SetGamePositionOnGround(poslist[5])
+				GetPlayerVehicle():SetRotation(Quaternion(rotlist[5]))
+				GetPlayerVehicle():SetExternalPathByName("HelpMens1r_path5")
+				GetPlayerVehicle():SetCustomLinearVelocity( 20 )
+			end
+
+				
+			TActivate("cinHelpers_End3")
+			Fly("SavePlInBase3", CINEMATIC_NO_AIM, nil, 4, 0,1)
+			StartCinematic()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinHelpers_End3"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			local poslist = {CVector(2849.065, 307.741, 1467.948),CVector(2844.230, 306.489, 1476.384),CVector(2828.840, 311.286, 1452.682),CVector(2812.726, 314.121, 1426.893), CVector(2807.895, 313.672, 1432.705)}
+			local rotlist = {Quaternion(0.083, 0.281, -0.017, 0.956), Quaternion(0.099, 0.336, 0.012, 0.937), Quaternion(0.052, 0.345, 0.002, 0.937), Quaternion(0.034, 0.339, 0.006, 0.940), Quaternion(0.036, 0.372, 0.018, 0.928)}
+			for i=1,4 do
+				local veh = getObj("SciefVeh"..i)
+				if veh then
+					veh:SetGamePositionOnGround(poslist[i])
+					veh:SetRotation(Quaternion(rotlist[i]))
+					veh:SetExternalPathByName("HelpMens2_path"..i)
+					veh:SetCustomLinearVelocity( 20 - 3*(i-1) )
+				end
+			end
+
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():SetGamePositionOnGround(poslist[5])
+				GetPlayerVehicle():SetRotation(Quaternion(rotlist[5]))
+				GetPlayerVehicle():SetExternalPathByName("HelpMens2_path5")
+				GetPlayerVehicle():SetCustomLinearVelocity( 10 )
+			end
+
+			TActivate("cinHelpers_End4")
+			Fly("SavePlInBase4", CINEMATIC_NO_AIM, nil, 4, 0,1)	StartCinematic()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="cinHelpers_End4"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			local poslist = {CVector(2771.339, 258.815, 1763.371), CVector(2755.816, 261.769, 1760.217), CVector(2751.372, 262.652, 1739.967), CVector(2739.385, 264.343, 1724.356), CVector(2743.397, 264.972, 1707.377)}
+			local rotlist = {Quaternion(0.038, 0.517, -0.095, 0.850), Quaternion(0.021, 0.369, -0.074, 0.926), Quaternion(0.023, 0.221, -0.062, 0.973), Quaternion(0.014, 0.169, -0.031, 0.985), Quaternion(0.024, -0.034, -0.023, 0.999)}
+			for i=1,4 do
+				local veh = getObj("SciefVeh"..i)
+				if veh then
+					veh:SetGamePositionOnGround(poslist[i])
+					veh:SetRotation(Quaternion(rotlist[i]))
+					veh:SetExternalPathByName("HelpMens2a_path"..i)
+					veh:SetCustomLinearVelocity( 20  - 3*(i-1) )
+				end
+			end
+
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():SetGamePositionOnGround(poslist[5])
+				GetPlayerVehicle():SetRotation(Quaternion(rotlist[5]))
+				GetPlayerVehicle():SetExternalPathByName("HelpMens2a_path5")
+				GetPlayerVehicle():SetCustomLinearVelocity( 10 )
+			end
+
+
+			TActivate("cinHelpers_End5")
+			Fly("SavePlInBase5", CINEMATIC_NO_AIM, nil, 6, 0,0)	StartCinematic()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinHelpers_End5"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			local poslist = {CVector(3318.065, 300, 2001.583),CVector(3325.100, 300, 2002.163),CVector(3315.300, 300, 2017.859),CVector(3296.973, 300, 2036.113), CVector(3307.902, 300, 2038.657)}
+			local rotlist = {Quaternion(-0.011, 0.994, 0.005, 0.105), Quaternion(0.006, 0.998, 0.009, 0.063), Quaternion(-0.016, 0.963, 0.015, 0.269), Quaternion(-0.037, 0.940, 0.042, 0.337), Quaternion(-0.027, 0.971, 0.030, 0.235)}
+			for i=1,4 do
+				local veh = getObj("SciefVeh"..i)
+				if veh then
+					veh:SetGamePositionOnGround(poslist[i])
+					veh:SetRotation(Quaternion(rotlist[i]))
+--					veh:SetRotation(Quaternion(0.019, 0.510, 0.036, 0.859))
+					veh:SetExternalPathByName("HelpMens3_path"..i)
+					veh:SetCustomLinearVelocity( 30  - 3*(i-1) )
+				end
+			end
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():SetGamePositionOnGround(poslist[5])
+				GetPlayerVehicle():SetRotation(Quaternion(rotlist[5]))
+				GetPlayerVehicle():SetExternalPathByName("HelpMens3_path5")
+				GetPlayerVehicle():SetCustomLinearVelocity( 20 )
+			end
+
+			Fly("SavePlInBase6", CINEMATIC_NO_AIM, nil, 6, 0,1)
+			StartCinematic()
+
+			local tr = getObj("cinHelpers_EndFull")
+			if tr then
+				tr:AddEvent("GE_END_CINEMATIC","Player1")
+				TActivate("cinHelpers_EndFull")
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+	<trigger	Name="cinHelpers_EndFull"	active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			for i=1,4 do
+				local veh = getObj("SciefVeh"..i)
+				if veh then
+					veh:SetExternalPathByName("HelpMens3_path"..i)
+					veh:PlaceToEndOfPath("HelpMens3_path"..i)
+				end
+			end
+
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():SetExternalPathByName("HelpMens3_path5")
+				GetPlayerVehicle():PlaceToEndOfPath("HelpMens3_path5")
+			end
+			DisableGodMode()
+
+			CompleteQuest("r4m2_FightWithCrazy")
+			AddHistory( "r4_AfterMilitaryBase" )
+			AddFadingMsgId( "fm_history_got" )
+
+			TDeactivate("cinHelpersFirst")
+			TDeactivate("cinHelpers_FadeIn")
+			TDeactivate("cinHelpers_StartFly2")
+			TDeactivate("cinHelpers_End")
+			TDeactivate("cinHelpers_End3")
+			TDeactivate("cinHelpers_End4")
+			TDeactivate("cinHelpers_End5")
+
+			StartConversation("ScientiferVillage_Bar_Scientif")
+			StopPlayingCustomMusic()
+			SetCameraBehindPlayerVehicle()
+			RestoreAllToleranceStatus()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinPlateFirst"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			EnableGodMode()
+			SaveAllToleranceStatus(RS_NEUTRAL)
+--			TActivate("cinPlateFirst")
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			GetPlayerVehicle():LimitMaxSpeed(8)
+
+			TActivate("cinPlate_FadeIn")
+			TActivate("cinPlate_End")
+			TActivate("cinPlate_FullEnd")
+			TActivate("cinPlate_cam03")
+			Fly("ToTarelka", CINEMATIC_NO_AIM, nil, 7, 1,1)
+			StartCinematic()
+			PlayCustomMusic("Death02")
+			AddCinematicMessage( 501, 0.25 )
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinPlate_FadeIn"	active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />`
+		<script>
+			SetWeather(0)
+			SetGameTime(10, 0)
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("TarelkaPoint_loc")))
+			GetPlayerVehicle():SetRotation(Quaternion(-0.007, -0.169, -0.001, 0.986))
+			GetPlayerVehicle():SetExternalPathByName("ToTarelka_Path")
+--			TActivate("cinPlate_FadeIn2")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinPlate_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			SetGameTime(20, 0)
+
+			GetPlayerVehicle():SetExternalPathByName("ToTarelka_Path")
+			GetPlayerVehicle():PlaceToEndOfPath("ToTarelka_Path")
+			GetPlayerVehicle():SetRotation(Quaternion(0.063, -0.316, -0.030, 0.946))
+			
+			CreateHuman( "Human_player", 1100, CVector(2921.602, 226.276, 2359.396), "PlayerHuman", "ToTarelkaHuman_Path")
+			TActivate("cinPlate_HumReach1")
+
+--			println("cinPlateFirstAAAAAAA")
+			Fly("ToTarelka2", CINEMATIC_NO_AIM, nil, 17, 0,0)
+			Fly("ToTarelka3", CINEMATIC_NO_AIM, nil, 6, 0,1)
+			StartCinematic()
+
+			AddCinematicMessage( 502, 0.25 )
+
+			local tr = getObj("cinPlate_FullEnd")
+			if tr then
+				tr:AddEvent("GE_END_CINEMATIC","Player1")
+				TActivate("cinPlate_FullEnd")
+			end
+			RestoreAllToleranceStatus()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinPlate_HumReach1" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="PlayerHuman"/>
+		<script>
+--			println("AAAAAAAA")
+			local hum = getObj("PlayerHuman")
+			local rot = Quaternion(0, 0, 0, 1)
+			if hum then
+			   rot=hum:GetRotation()
+			   hum:Remove()
+			end
+			AddCinematicMessage( 503, 1 )
+			CreateHuman( "Human_player_slow", 1100, CVector(2918.915, 224, 2366.947), "PlayerHuman2", "ToTarelkaHuman_Path2")
+			TActivate("cinPlate_HumReach2")
+
+			local hum2 = getObj("PlayerHuman2")
+			if hum2 then
+			   hum2:SetRotation(rot)
+			end
+
+			CreateHuman( "Human_player_slow", 1100, CVector(0, 0, 0), "PlayerHuman3")
+
+			local hum3 = getObj("PlayerHuman3")
+			if hum3 then
+			   hum3:SetRotation(rot)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinPlate_HumReach2" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="PlayerHuman2"/>
+		<script>
+--			println("BBBBBBBBB")
+			local hum = getObj("PlayerHuman2")
+			local rot = Quaternion(0, 0, 0, 1)
+			if hum then
+			   rot=hum:GetRotation()
+			   hum:Remove()
+			end
+			local hum2 = getObj("PlayerHuman3")
+			if hum2 then
+			   hum2:SetRotation(rot)
+			   hum2:SetPosition(CVector(2914.838, 223, 2373.518))
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinPlate_cam03" active="0">
+		<event flypath="ToTarelka3" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 504, 0.5 )
+--			SetGameTime(0, 0)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="cinPlate_FullEnd"	active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			StopPlayingCustomMusic()
+			SpawnMessageBox( "8901" )
+			ShowDeathMenu()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinStopMusik_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+--			PlayCustomMusic("IntenseDialogue01")
+			StopPlayingCustomMusic()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="cinLookToTarelkaFirst"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			EnableGodMode()
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			TActivate( "cinLookToTarelka_FadeIn" )
+			TActivate( "cinLookToTarelka_End" )
+			TActivate( "cinLookToTarelka_cam2" )
+
+			Fly("NearTarelka1", CINEMATIC_NO_AIM, nil, 7, 1,0)
+			Fly("NearTarelka2", CINEMATIC_NO_AIM, nil, 15, 0,1)
+			StartCinematic()
+
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			GetPlayerVehicle():SetThrottle(0)
+
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinLookToTarelka_FadeIn"	active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			SetWeather(0)
+			SetGameTime(10, 0)
+
+			AddCinematicMessage( 301, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="cinLookToTarelka_cam2"	active="0">
+		<event flypath="NearTarelka2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 302, 0.5 )
+			AddCinematicMessage( 304, 0.5 )
+			AddCinematicMessage( 303, 0.5 )
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="cinLookToTarelka_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			SetCameraBehindPlayerVehicle()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="cinAfterTalkScienfFirst"	active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			EnableGodMode()
+			SaveAllToleranceStatus(RS_NEUTRAL)
+--			TActivate("cinExit42ReturnFirst")
+			TActivate("cinAfterTalkScienf2_FadeIn")
+			TActivate("cinAfterTalkScienf_End")
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(6, 0, 25, 17, PlfCoor, PlfID, 0, 1 )
+			StartCinematic()
+
+			AddCinematicMessage( 510, 0.25 )
+			AddCinematicMessage( 511, 0.25 )
+			AddCinematicMessage( 512, 0.25 )
+			AddCinematicMessage( 513, 0.25 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinAfterTalkScienf1_FadeIn"	active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			TActivate("cinAfterTalkScienf2_FadeIn")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="cinAfterTalkScienf2_FadeIn"	active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("ExitFromSecretTonnel_loc")))
+--			GetPlayerVehicle():SetRotation(Quaternion(0.007, -0.966, -0.005, -0.258))
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+	<trigger	Name="cinAfterTalkScienf_End"	active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			DisableGodMode()
+			RestoreAllToleranceStatus()
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("ExitFromSecretTonnel_loc")))
+			SetCameraBehindPlayerVehicle()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+</triggers>
