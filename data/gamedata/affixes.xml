@@ -37,10 +37,10 @@ $Id: affixes.xml,v 1.19 2005/11/10 08:35:45 lena Exp $
 	<ForResource Name = "GUN">
 		<Prefixes>
 			<AffixGroup Name = "common" order = "1">
-				<Affix Name = "useless_gun"		modifications = "MaxDurability -10 -15; Damage -10 -15; Accuracy +10 +15" />
-				<Affix Name = "rusty_gun"		modifications = "MaxDurability -5 -7; Damage -5 -7; Accuracy +5 +7" />
-				<Affix Name = "excellent_gun"		modifications = "MaxDurability +5 +7; Damage +5 +7; Accuracy -5 -7" />
-				<Affix Name = "advanced_gun"		modifications = "MaxDurability +10 +15; Damage +10 +15; Accuracy -10 -15" />
+				<Affix Name = "useless_gun"		modifications = "MaxDurability -10 -15; Damage -10 -15; Accuracy -10 -15" />
+				<Affix Name = "rusty_gun"		modifications = "MaxDurability -5 -7; Damage -5 -7; Accuracy -5 -7" />
+				<Affix Name = "excellent_gun"		modifications = "MaxDurability +5 +7; Damage +5 +7; Accuracy +5 +7" />
+				<Affix Name = "advanced_gun"		modifications = "MaxDurability +10 +15; Damage +10 +15; Accuracy +10 +15" />
 			</AffixGroup>
 			
 			<AffixGroup Name = "firing_rate" order = "2">
