@@ -6,17 +6,17 @@ $Id: affixes.xml,v 1.19 2005/11/10 08:35:45 lena Exp $
 
 <Affixes>
 	<!--
-		ForResource - пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. 
-		пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
-		modifications: пїЅпїЅпїЅпїЅпїЅ ; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+		ForResource - типы ресурсов, на которые действуют аффиксы. 
+		Действие, естественно, распространяется и на дочерние ресурсы.
+		modifications: через ; прописаны имена характеристик и два числа, указывающие диапазон изменения в процентах.
 	-->
 	<ForResource Name = "CABIN">
 		<Prefixes>
 			<AffixGroup Name = "common" order = "1">
-				<Affix Name = "useless_cabin"		modifications = "MaxDurability -10 -15; MaxSpeed -10 -15; MaxTorque -10 -15" />
-				<Affix Name = "rusty_cabin"		modifications = "MaxDurability -5 -7; MaxSpeed -5 -7; MaxTorque -5 -7" />
-				<Affix Name = "excellent_cabin"		modifications = "MaxDurability +5 +7; MaxSpeed +5 +7; MaxTorque +5 +7" />
-				<Affix Name = "advanced_cabin"		modifications = "MaxDurability +10 +15; MaxSpeed +10 +15; MaxTorque +10 +15" />
+				<Affix Name = "useless_cabin"		modifications = "MaxDurability -10 -15; MaxSpeed -10 -15; MaxTorque -10 -15; Price +25 +30" />
+				<Affix Name = "rusty_cabin"		modifications = "MaxDurability -5 -7; MaxSpeed -5 -7; MaxTorque -5 -7; Price +15 +20" />
+				<Affix Name = "excellent_cabin"		modifications = "MaxDurability +5 +7; MaxSpeed +5 +7; MaxTorque +5 +7; Price -15 -20" />
+				<Affix Name = "advanced_cabin"		modifications = "MaxDurability +10 +15; MaxSpeed +10 +15; MaxTorque +10 +15; Price -25 -30" />
 			</AffixGroup>
 		</Prefixes>
 	</ForResource>
@@ -37,10 +37,10 @@ $Id: affixes.xml,v 1.19 2005/11/10 08:35:45 lena Exp $
 	<ForResource Name = "GUN">
 		<Prefixes>
 			<AffixGroup Name = "common" order = "1">
-				<Affix Name = "useless_gun"		modifications = "MaxDurability -10 -15; Damage -10 -15; Accuracy -10 -15" />
-				<Affix Name = "rusty_gun"		modifications = "MaxDurability -5 -7; Damage -5 -7; Accuracy -5 -7" />
-				<Affix Name = "excellent_gun"		modifications = "MaxDurability +5 +7; Damage +5 +7; Accuracy +5 +7" />
-				<Affix Name = "advanced_gun"		modifications = "MaxDurability +10 +15; Damage +10 +15; Accuracy +10 +15" />
+				<Affix Name = "useless_gun"		modifications = "MaxDurability -10 -15; Damage -10 -15; Accuracy -10 -15; Price +25 +30" />
+				<Affix Name = "rusty_gun"		modifications = "MaxDurability -5 -7; Damage -5 -7; Accuracy -5 -7; Price +10 +15" />
+				<Affix Name = "excellent_gun"		modifications = "MaxDurability +5 +7; Damage +5 +7; Accuracy +5 +7; Price -10 -15" />
+				<Affix Name = "advanced_gun"		modifications = "MaxDurability +10 +15; Damage +10 +15; Accuracy +10 +15; Price -25 -30" />
 			</AffixGroup>
 			
 			<AffixGroup Name = "firing_rate" order = "2">
