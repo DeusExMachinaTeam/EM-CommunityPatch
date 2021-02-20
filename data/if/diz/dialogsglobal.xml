@@ -3141,7 +3141,7 @@
 		name="Dlg_pl_000498"
 		text="ѕри€тно иметь дело не с фанатиками, а с людьми."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r2m2_FindROMinCastle');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  TActivate('VINO');  EndConversation()" />
+		scriptResult="CompleteQuest('r2m2_FindROMinCastle');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  AddQuestItem('quest_wine_barrels');  EndConversation()" />
 
 	<Reply
 		name="Monah_hellodlg2"
