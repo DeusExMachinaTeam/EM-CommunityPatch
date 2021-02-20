@@ -325,7 +325,7 @@
 
 
 
-<!-- Освободить скважину -->
+<!-- освобождение вышки -->
 	<trigger Name="ATTACKOILMINE" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -393,7 +393,7 @@
 
 
 
-<!-- Догнать бандита -->
+<!-- слежка за бандитом -->
 	<trigger Name="RUNTORUNER" active="0">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -507,7 +507,7 @@
 
 
 
-<!-- Догнать мера -->
+<!-- слежка за мэром -->
 	<trigger Name="SPYMER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -621,7 +621,7 @@
 
 
 
-<!-- Убедит базу силой поговорить о лисе -->
+<!-- поиски лисы -->
 	<trigger Name="BASEABOUTLISA" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -693,7 +693,7 @@
 
 
 
-<!-- Узнать где туннель -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="TUNNELLOCATION" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TunnelLoc" />
 		<script>
@@ -711,7 +711,7 @@
 
 
 
-<!-- Устроить засаду -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="ZASADATUNEL" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ZasadaLocQ" />
 		<script>
@@ -871,8 +871,11 @@
    			CompleteQuest( "r1m3_FightWithThief" )
 
 			AddQuestItem("quest_disk_2")
-			AddQuestItem("quest_key_for_submarine")
 
+			if IsQuestComplete(d_FindLisaOnSever_Quest) then
+			AddQuestItem("quest_key_for_submarine")
+			end
+			
 			TActivate("TRIGGER_LISAAFTERTHIEF")
 
 			trigger:Deactivate()
