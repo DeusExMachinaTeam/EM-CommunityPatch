@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_1_cd_officer_radio.ogg"
+		value="РАДИО|Недалеко от тебя - почти беззащитная деревня. Если ты нападешь сейчас - врагу придется оттянуть силы от более важных объектов."
+		time="8" />
+
+	<string
+		id="2"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_2_cd_officer_radio.ogg"
+		value="РАДИО|Тогда мы и ударим в другом месте. Помни, твоя задача – продержаться как можно дольше, а не спалить деревню. Действуй."
+		time="8" />
+
+	<string
+		id="3"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_3_cd_officer_radio.ogg"
+		value="РАДИО|Отступай. Ты сделал свое дело."
+		time="4" />
+
+	<string
+		id="4"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_4_felix.ogg"
+		value="БАНДИТ ФЕЛИКС|Вот наши дорожки и пересеклись. Я же говорил, что мы еще встретимся. Теперь я готов к поединку, и тебе не уйти отсюда живым!"
+		time="8" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_5_hero.ogg"
+		value="|Ты стоишь между мной и моей целью. Я, не задумываясь, растопчу тебя."
+		time="4" />
+
+	<string
+		id="6"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_6_felix.ogg"
+		value="БАНДИТ ФЕЛИКС|Ты... действительно сильнее..."
+		time="4" />
+
+	<string
+		id="7"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_7_cd_officer_radio.ogg"
+		value="РАДИО|Ты доказал свою преданность общему делу.  На трупе одного предателя мы нашли записку, в которой говорится о скорой встрече с агентами СНГ."
+		time="8" />
+
+	<string
+		id="8"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_8_cd_officer_radio.ogg"
+		value="РАДИО|Ты встретишься с ним вместо повстанца и выяснишь, все что сможешь. Действуй по обстоятельствам. Встреча - в баре Тосканы. Пароль: «Ночь длинна», отзыв: «Но рассвет близок»."
+		time="8" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_9_hero.ogg"
+		value="|Я все понял. Наша победа близка."
+		time="4" />
+
+	<string
+		id="10"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_10_cd_officer_radio.ogg"
+		value="РАДИО|Враги повержены! Без своих правителей, они не смогут противостоять нам! Ты приблизил славный час победы и будешь щедро вознагражден. Тебя ждет Зион, тайный  город Акселя."
+		time="8" />
+
+	<string
+		id="24"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_24_hero.ogg"
+		value="|Вот он - момент истины! "
+		time="4" />
+
+	<string
+		id="11"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_11_axel.ogg"
+		value="АКСЕЛЬ|Откуда такая ярость? Что я тебе сделал? Ты даже не местный."
+		time="4" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_12_hero.ogg"
+		value="|Помнишь, как ты отправил людей совершить рейд на соседний регион? Тогда вы сожгли дотла мое родное село и убили моего отца!"
+		time="8" />
+
+	<string
+		id="13"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_13_axel.ogg"
+		value="АКСЕЛЬ|И ты поверил досужим россказням? Кто тебе наплел эту чушь? "
+		time="4" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_14_hero.ogg"
+		value="|Та, кто видела все своими глазами."
+		time="4" />
+
+	<string
+		id="15"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_15_axel.ogg"
+		value="АКСЕЛЬ|Ты говоришь, это была женщина? Красавица на быстрой тачке и с опасными связями?"
+		time="4" />
+
+	<string
+		id="16"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_16_hero.ogg"
+		value="|Да. Ты ее весьма точно описал."
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_17_axel.ogg"
+		value="АКСЕЛЬ|Это была Лиса, я знаю. У нее вместо языка змеиное жало. Своей ложью она уже отравила жизнь мне и многим другим. А вот теперь и ты попался на удочку."
+		time="8" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_18_hero.ogg"
+		value="|Ты готов сейчас сказать что угодно, чтобы спасти свою шкуру!"
+		time="4" />
+
+	<string
+		id="19"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_19_axel.ogg"
+		value="АКСЕЛЬ|Она пришла ко мне в поисках защиты от врагов, так она сказала. Я принял ее в свой дом, а она обокрала меня и сбежала. Я доверял ей... Я..."
+		time="8" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_20_hero.ogg"
+		value="|Ты хочешь сказать, что невиновен? "
+		time="4" />
+
+	<string
+		id="21"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_21_axel.ogg"
+		value="АКСЕЛЬ|Поверь, мне хватает проблем и в своей стране, чтобы конфликтовать еще и с восточными соседями.  Уже много месяцев мои люди не покидали своих позиций, и никогда не атаковали твоих деревень."
+		time="8" />
+
+	<string
+		id="22"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_22_hero.ogg"
+		value="|Не могу поверить, что попался на ее удочку! Но это не извиняет тебя. Пусть ты и невиновен в одном преступлении, но зато совершил множество других. Что скажешь ты замученным тобою людям, сможешь ли вернуть им их близких? От твоих слов зависит твоя жизнь."
+		time="12" />
+
+	<string
+		id="23"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_23_axel.ogg"
+		value="АКСЕЛЬ|Я скажу, что спас свой народ от голодной смерти! Скажу, что крепкая власть - вот, что спасет мир от полной деградации. Я взял на себя грехи целой страны и готов за них ответить. Я помню имена всех павших воинов и скорблю о них. Жалею только об одном: что теперь их смерть станет бессмысленной."
+		time="12" />
+
+	<string
+		id="25"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_25_axel.ogg"
+		value="АКСЕЛЬ|Стой, не стреляй! Что тебе нужно от меня? Ты не похож на обычного солдата СНГ. "
+		time="4" />
+
+	<string
+		id="26"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_26_hero.ogg"
+		value="|Какая проницательность. Признаться, мне мало дела до ваших местных разборок. Я лишь хочу, наконец, добраться до Лисы!"
+		time="8" />
+
+	<string
+		id="27"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_27_axel.ogg"
+		value="АКСЕЛЬ|Ха-ха-ха! Можешь вставать в очередь! Так она успела и тебе насолить. Вот, чертовка!"
+		time="4" />
+
+	<string
+		id="28"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_28_hero.ogg"
+		value="|О чем ты говоришь?"
+		time="4" />
+
+	<string
+		id="29"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_29_axel.ogg"
+		value="АКСЕЛЬ|Она пришла ко мне в поисках защиты от врагов, так она сказала. Я принял ее в свой дом, а она обокрала меня и сбежала. Она использовала мои ресурсы и моих людей для своих целей. А ведь я почти полюбил ее..."
+		time="12" />
+
+	<string
+		id="30"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_30_hero.ogg"
+		value="|Черт побери! Значит, я напрасно прошел этот путь?! Постой, я точно знаю, что Лиса где-то поблизости! Я проследил за ней до границ этого региона."
+		time="8" />
+
+	<string
+		id="31"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_31_axel.ogg"
+		value="АКСЕЛЬ|Мне тоже доложили, что она вернулась на нашу территорию... Последний раз ее видели в районе монастыря. Я как раз собирался нанести ей визит, когда ты меня так бесцеремонно прервал."
+		time="8" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_32_hero.ogg"
+		value="|Ну, теперь-то злодейка от меня не скроется! В монастырь! И пусть никто не стоит у меня на пути!?"
+		time="4" />
+
+	<string
+		id="33"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_33_axel.ogg"
+		value="|Я пощажу тебя. Но твое правление закончилось. Пусть люди сами решают, как им жить дальше."
+		time="4" />
+
+	<string
+		id="35"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_35_alice.ogg"
+		value="ЛИСА|Ты победил! Я сдаюсь..."
+		time="4" />
+
+	<string
+		id="36"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_36_hero.ogg"
+		value="|Верни мне то, что украла!"
+		time="4" />
+
+	<string
+		id="37"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_37_alice.ogg"
+		value="ЛИСА|Ты не понимаешь! Ты не сможешь правильно использовать..."
+		time="4" />
+
+	<string
+		id="38"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_38_hero.ogg"
+		value="|Не испытывай мое терпение! Верни мне диски и оберег. Немедленно!"
+		time="4" />
+
+	<string
+		id="39"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_39_alice.ogg"
+		value="ЛИСА|Хорошо, забирай. Сейчас ты главный... Но выслушай меня! Я вовсе не злодейка, какой ты меня представляешь! Просто мне очень нужно найти Айвена!"
+		time="8" />
+
+	<string
+		id="40"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_40_hero.ogg"
+		value="|Моего отца? Зачем тебе это нужно?"
+		time="4" />
+
+	<string
+		id="41"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_41_alice.ogg"
+		value="ЛИСА|Я очень хочу совершить что-нибудь значительное, что-нибудь по настоящему важное для меня и для окружающих. А твой отец - это символ! Тот, кто найдет его, пусть даже его тело, станет героем и сможет объединить этот полный хаоса мир. "
+		time="12" />
+
+	<string
+		id="42"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_42_hero.ogg"
+		value="|Странные у тебя методы для достижения целей... Да и цели, признаться, странные..."
+		time="4" />
+
+	<string
+		id="43"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_43_alice.ogg"
+		value="ЛИСА|Суровые времена требуют суровых мер. Я посвятила свою жизнь решению этой загадки. Мне приходилось лгать, даже убивать ради этого. Наконец, после долгих лет поисков, мне удалось найти дневник Айвена. И тут появляешься ты и все портишь!"
+		time="12" />
+
+	<string
+		id="44"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_44_hero.ogg"
+		value="|Мне трудно тебя понять. И еще труднее простить за все те неприятности, что ты мне причинила. Дневник отца принадлежит только мне!"
+		time="8" />
+
+	<string
+		id="45"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_45_alice.ogg"
+		value="ЛИСА|Я вижу, что ты близок к цели, как никто. Пожалуйста, позволь мне отправиться с тобой, чтобы увидеть завершение моих трудов."
+		time="8" />
+
+	<string
+		id="46"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_46_hero.ogg"
+		value="|Я отправляюсь к Оракулу. Один. Возможно, мы еще увидимся, и тогда я расскажу, чем закончилась моя история."
+		time="8" />
+
+	<string
+		id="47"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_47_alice.ogg"
+		value="ЛИСА|Что ж, спасибо и на том... Прощай."
+		time="4" />
+
+	<string
+		id="50"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_50_hero.ogg"
+		value="|Ого! Забавное природное явление. Думаю, ученых в Мидгарде заинтересует этот феномен!"
+		time="4" />
+
+	<string
+		id="51"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_51_hero.ogg"
+		value="|Сейчас ты умрешь!"
+		time="4" />
+
+	<string
+		id="8800"
+		value="Вы хотите покинуть Аржан и переплыть в Вахат?"
+		numButtons="2" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведет эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше. "
+		time="3" />
+</resource>
