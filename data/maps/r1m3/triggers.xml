@@ -693,7 +693,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
+<!-- Узнать где туннель -->
 	<trigger Name="TUNNELLOCATION" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TunnelLoc" />
 		<script>
@@ -711,7 +711,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ -->
+<!-- Устроить засаду  -->
 	<trigger Name="ZASADATUNEL" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ZasadaLocQ" />
 		<script>
