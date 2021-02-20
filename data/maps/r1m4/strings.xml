@@ -72,7 +72,7 @@
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|Чего ждешь? Садись в мою машину. Торопись, они могли вызвать подмогу.  "
+		value="|Чего ждешь? Садись в мою машину. Торопись, они могли вызвать подмогу."
 		sound="data\sounds\Speech\r1m4\r1m4_10_hero.ogg"
 		time="4" />
 
@@ -160,18 +160,6 @@
 		modelName="mask_hero"
 		value="|Осталось сообщить в Ольм об освобождении склада."
 		sound="data\sounds\Speech\r1m4\r1m4_22_hero.ogg"
-		time="4" />
-
-	<string
-		id="23"
-		modelName="mask_hero"
-		value=""
-		time="4" />
-
-	<string
-		id="24"
-		modelName="mask_hero"
-		value=""
 		time="4" />
 
 	<string
