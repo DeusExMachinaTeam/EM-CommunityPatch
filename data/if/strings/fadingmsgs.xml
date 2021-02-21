@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons-->
+	<string
+		id="fm_relation_changed"
+		value="Вы стали врагами с одной из группировок." />
+
+	<string
+		id="fm_hunt_completed"
+		value="Охота завершена. Каждый уничтоженный грузовик был оплачен." />
+
+	<string
+		id="fm_dynamic_quest_completed"
+		value="Вы выполнили задание &quot;%1s&quot;" />
+
+	<string
+		id="fm_dynamic_quest_failed_because_hirer_becames_enemy"
+		value="Вы повалили задание &quot;%1s&quot;, так как испортили отношения с группировкой заказчика" />
+
+	<string
+		id="fm_convoy_failed"
+		value="Вам не удалось защитить подопечный грузовик. Теперь не стоит рассчитывать на награду." />
+
+	<string
+		id="fm_history_got"
+		value="Появилась новая история в Журнале." />
+
+	<string
+		id="fm_book_got"
+		value="Появилась новая книга в Журнале." />
+
+	<string
+		id="fm_fail_quest"
+		value="Вы провалили задание." />
+
+	<string
+		id="fm_complete_quest"
+		value="Вы выполнили задание." />
+
+	<string
+		id="fm_take_quest"
+		value="Вы получили новое задание." />
+
+	<string
+		id="fm_cant_move"
+		value="Я не знаю, куда ведет эта дорога, поэтому останусь здесь." />
+
+	<string
+		id="fm_not_suzet"
+		value="Какое-то странное место. Лучше держаться отсюда подальше. " />
+
+	<string
+		id="fm_race_start_1"
+		value="Обратный отсчет:  ...%1d..." />
+
+	<string
+		id="fm_race_start_0"
+		value=" С Т А Р Т" />
+
+	<string
+		id="fm_race_start_false"
+		value="Фальстарт." />
+
+	<string
+		id="fm_race_chekpoint"
+		value="Контрольная точка!" />
+
+	<string
+		id="fm_race_chekpoint_notright"
+		value="Неверная контрольная точка!" />
+
+	<string
+		id="fm_race_firslap"
+		value="Первый круг завершен" />
+
+	<string
+		id="fm_race_finish"
+		value="Ф И Н И Ш" />
+
+	<string
+		id="fm_race_finish_1"
+		value="ПЕРВЫЙ" />
+
+	<string
+		id="fm_race_finish_2"
+		value="ВТОРОЙ" />
+
+	<string
+		id="fm_race_finish_3"
+		value="ТРЕТИЙ" />
+
+	<string
+		id="fm_race_finish_less"
+		value="Вы на %1d месте из %2d" />
+
+	<string
+		id="fm_race_finish_lose"
+		value="Вы проиграли гонку" />
+
+	<string
+		id="fm_race_somedie"
+		value="Один из участников выбыл" />
+
+	<string
+		id="fm_town_enter"
+		value="Нажмите гудок (%1m) для въезда в город" />
+
+	<string
+		id="fm_town_cant_enter_enemy"
+		value="Вы не можете въехать в этот город, так как он вражеский" />
+
+	<string
+		id="fm_town_cant_enter_locked"
+		value="Вы не можете въехать в этот город, так как он закрыт" />
+
+	<string
+		id="fm_take_chest_hint"
+		value="Нажмите (%1m), чтобы поднять груз" />
+
+	<string
+		id="fm_all_chests_taken"
+		value="Груз взят на борт" />
+
+	<string
+		id="fm_item_pickup"
+		value="Вы подняли предмет: %1s" />
+
+	<string
+		id="fm_sunrise"
+		value="Наступило утро." />
+
+	<string
+		id="fm_day"
+		value="Начался тяжелый трудовой день." />
+
+	<string
+		id="fm_sunset"
+		value="Наступил вечер." />
+
+	<string
+		id="fm_night"
+		value="Наступила ночь." />
+
+	<string
+		id="fm_save_is_not_allowed"
+		value="Сохранение сейчас не разрешено" />
+
+	<string
+		id="fm_player_add_money"
+		value="Вы получили %1d монет!" />
+
+	<string
+		id="fm_player_give_money"
+		value="Вы отдали %1d монет." />
+
+	<string
+		id="fm_player_add_thing"
+		value="Вы получили предмет %1p!" />
+
+	<string
+		id="fm_cheat_is_not_allowed"
+		value="@FF22FF22Использование читов @FF2222FFЗАПРЕЩЕНО@FFFFFFFF" />
+
+	<string
+		id="fm_cheat_is_allowed"
+		value="@FF22FF22При тестировании игры, @FF2222FFиспользование читов может привести к ошибкам!@FFFFFFFF" />
+
+	<string
+		id="fm_items_remained_on_ground"
+		value="Не хватает места в кузове. Для вызова окна снаряжения нажмите %1m" />
+</resource>
