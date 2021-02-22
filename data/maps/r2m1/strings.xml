@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="0"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_0_hero.ogg"
+		value="|Далеко же я забрался... Не время любоваться красотами! Надо скорее связаться с местными. А вот и они."
+		time="8" />
+
+	<string
+		id="1"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_1_hero.ogg"
+		value="|День добрый. Я ищу Акселя. Вы не слышали про такого?"
+		time="4" />
+
+	<string
+		id="2"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_2_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Аксель - это величайший из живущих, наш вождь и кормилец, альфа и омега! Он ведёт нас к победе добра и справедливости во всём мире!"
+		time="8" />
+
+	<string
+		id="3"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_3_hero.ogg"
+		value="|Ничего себе... Сразу видно – большой человек. Могу ли я повстречаться с этим «кормильцем»?"
+		time="4" />
+
+	<string
+		id="4"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_4_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Так ты что, не агитатор? Чёрт, я уж подумал, что тебя к нам подослали проверить боевой дух. Хотя мне бояться нечего. Я честный вояка!"
+		time="8" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_5_hero.ogg"
+		value="|Я много наслышан о вашем лидере. И очень хотел бы пожать его мужественную руку."
+		time="4" />
+
+	<string
+		id="6"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_6_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Кто попало не может с ним встретиться. Только тот, кто совершит подвиг, будет допущен в его тайное жилище. Но тебе это явно не грозит."
+		time="8" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_7_hero.ogg"
+		value="|Пожалуй, я всё-таки попытаюсь попасть туда. Раз вы ничего не знаете, поищу тех, кто может мне помочь."
+		time="8" />
+
+	<string
+		id="8"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_8_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Постой, а кто ты вообще такой? Как ты проехал через тоннель?"
+		time="4" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_9_hero.ogg"
+		value="|А твоё какое дело? Я свободный бродяга: куда хочу, туда лечу!"
+		time="4" />
+
+	<string
+		id="10"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_10_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Я защищаю свой народ от таких, как ты: шпионов и провокаторов!"
+		time="4" />
+
+	<string
+		id="11"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_11_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|А ты крутой парень, как я погляжу. Если нужна будет работенка, отправляйся в Мареццию - там у нас штаб."
+		time="8" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_12_hero.ogg"
+		value="|Не в этой жизни."
+		time="4" />
+
+	<string
+		id="13"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_13_CIT_officer_radio.ogg"
+		value="РАДИО|Солдат! Враг нападает на деревню, а твоя машина – ближе всех к горячей точке. Защити жителей, пока не подтянется подкрепление!"
+		time="8" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_14_hero.ogg"
+		value="|Как я ненавижу это бандитское отродье!"
+		time="4" />
+
+	<string
+		id="15"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_15_hero.ogg"
+		value="|Вот и подмога! Сюда, ребята! Задайте им перцу."
+		time="4" />
+
+	<string
+		id="16"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="326"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_16_CIT_soldier.ogg"
+		value="СОЛДАТ СНГ|Ты хорошо поработал. Возвращайся на базу. Тебя ждёт награда и новое задание."
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_17_hero.ogg"
+		value="|Гуманитарная помощь поможет людям в этой деревне."
+		time="4" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_18_hero.ogg"
+		value="|Эти люди страдают. Я чувствую, что мои действия помогают им."
+		time="4" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_19_hero.ogg"
+		value="|Я очищу эту землю от бандитов!"
+		time="4" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_20_hero.ogg"
+		value="|Теперь через тоннель смогут ездить не только бандиты, а все свободные люди! Вернусь в штаб с докладом. Пусть присылают своих людей обустраивать здесь всё по-новому."
+		time="8" />
+
+	<string
+		id="2012"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_2012_CIT_officer_radio.ogg"
+		value="РАДИО|Ты - настоящий герой, и наши лидеры хотят доверить тебе одно ответственное задание, о котором не знаю даже я. Отправляйся прямиком в Гельвецию. Передаю координаты. Отбой."
+		time="8" />
+
+	<string
+		id="21"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="326"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_21_CIT_soldier.ogg"
+		value="СОЛДАТ СНГ|Мы возьмём на себя охрану, а ты захвати генерала АР. Он едет в личном авто, ты сразу узнаешь его."
+		time="4" />
+
+	<string
+		id="22"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_22_hero.ogg"
+		value="|Генерал в наших руках! В Гельвеции его заставят выложить всё, что он знает об Акселе!"
+		time="4" />
+
+	<string
+		id="23"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_23_hero.ogg"
+		value="|Теперь-то Лиса от меня не сбежит! Осталось только узнать у местных жителей, где же она спряталась."
+		time="4" />
+
+	<string
+		id="24"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_24_hero.ogg"
+		value="|Привет! Вам не знакома девушка, по имени Лиса. Не подскажете, где её искать?"
+		time="4" />
+
+	<string
+		id="25"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_25_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Кто же не знает Лису! Только вот добраться до неё будет трудновато. Она в подружках у Акселя, нашего командира."
+		time="8" />
+
+	<string
+		id="26"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_26_hero.ogg"
+		value="|Значит, мне придётся поговорить с ним по душам."
+		time="4" />
+
+	<string
+		id="27"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_27_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Ха-ха-ха! Насмешил! Да его тебе увидеть нет никаких шансов! Только тот, кто совершит подвиг, может получить награду из его рук. Но тебе это явно не грозит."
+		time="8" />
+
+	<string
+		id="28"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_28_hero.ogg"
+		value="|Это мы ещё посмотрим."
+		time="4" />
+
+	<string
+		id="29"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_29_hero.ogg"
+		value="|Лиса! Попалась обманщица! Теперь я тебя так просто не отпущу! Ты мне за всё ответишь!"
+		time="4" />
+
+	<string
+		id="30"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_30_alice.ogg"
+		value="ЛИСА|Какой ты настырный. Похоже, придётся тебя проучить, как следует, чтобы ты отстал от меня."
+		time="4" />
+
+	<string
+		id="31"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_31_alice.ogg"
+		value="ЛИСА|Стой! Я расскажу всю правду..."
+		time="4" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_32_hero.ogg"
+		value="|Если ты меня обманешь ещё раз – пожалеешь! Говори, кто на самом деле убил моего отца?"
+		time="4" />
+
+	<string
+		id="33"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_33_alice.ogg"
+		value="ЛИСА|Это были странные люди на очень необычной технике. Я видела, как они уезжали на восток."
+		time="4" />
+
+	<string
+		id="34"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_34_hero.ogg"
+		value="|Да? Прямо в пустыню смерти? Сначала ты отправила меня на запад, теперь - на восток. Куда в следующий раз? Хотя, нет... следующего раза не будет!"
+		time="8" />
+
+	<string
+		id="35"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_35_alice.ogg"
+		value="ЛИСА|Не стреляй, я говорю правду! Выслушай, как всё было, а потом можешь делать, что хочешь."
+		time="4" />
+
+	<string
+		id="36"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_36_hero.ogg"
+		value="|Ты испытываешь моё терпение. Говори..."
+		time="4" />
+
+	<string
+		id="37"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_37_alice.ogg"
+		value="ЛИСА|Я посвятила свою жизнь решению одной загадки. Был такой человек, Айвен. Он объехал весь мир, совершил множество удивительных открытий, а потом бесследно пропал в зените славы."
+		time="8" />
+
+	<string
+		id="38"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_38_alice.ogg"
+		value="ЛИСА|Многие пытались найти его, но никому это не удалось. Я изучила всю жизнь Айвена, я выяснила, что у него были жена и сын, но они трагически погибли... Возможно, поэтому он и решил уйти."
+		time="8" />
+
+	<string
+		id="39"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_39_alice.ogg"
+		value="ЛИСА|Много лет я разыскивала улики, пока, совсем недавно, мне не удалось получить информацию о давнем друге Айвена. Тогда я направилась в город Южный, чтобы найти его..."
+		time="8" />
+
+	<string
+		id="40"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_40_hero.ogg"
+		value="|Но ты не знала, где именно искать. И устроила этот спектакль с продажей наркотиков, чтобы я показал тебе все местные деревни!"
+		time="8" />
+
+	<string
+		id="41"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_41_alice.ogg"
+		value="ЛИСА|Да. Но я опоздала - чья-то злая воля убила несчастного..."
+		time="4" />
+
+	<string
+		id="42"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_42_hero.ogg"
+		value="|Чтобы убить последнего свидетеля, кто-то разрушил целую деревню. Мою деревню! Кем же нужно быть, чтобы совершить такое!? Наверное, Айвен обнаружил что-то очень важное, и теперь кто-то пытается замести все следы."
+		time="12" />
+
+	<string
+		id="43"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_43_alice.ogg"
+		value="ЛИСА|Все сходится! Вот почему так трудно было найти малейшую зацепку. Возможно, он даже был захвачен живым и..."
+		time="8" />
+
+	<string
+		id="44"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_44_hero.ogg"
+		value="|Я должен выяснить, кто стоит за всем этим!"
+		time="4" />
+
+	<string
+		id="45"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_45_alice.ogg"
+		value="ЛИСА|Мы должны. Это мой поиск. К тому же у меня есть наводка!"
+		time="4" />
+
+	<string
+		id="46"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_46_hero.ogg"
+		value="|О чём ты говоришь?"
+		time="4" />
+
+	<string
+		id="47"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_47_alice.ogg"
+		value="ЛИСА|Около свидетеля я нашла диск. Я проконсультировалась с лучшими учёными и выяснила, что это что-то вроде книги, прочитать которую может только всезнающий Оракул."
+		time="8" />
+
+	<string
+		id="48"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_48_hero.ogg"
+		value="|Всезнающий... возможно, он сможет подсказать способ пересечь Пустыню смерти. Решено, отправляемся вместе на поиски!"
+		time="8" />
+
+	<string
+		id="49"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_49_hero.ogg"
+		value="|И какие у нас планы? Где искать твоего Оракула?"
+		time="4" />
+
+	<string
+		id="50"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_50_alice.ogg"
+		value="ЛИСА|Я слышала, он живет где-то за морем. Здесь поблизости начинается подземный ход, ведущий на остров Оракула. Только, похоже, что он охраняется."
+		time="8" />
+
+	<string
+		id="51"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_51_hero.ogg"
+		value="|Это не проблема. После победы над Акселем я - национальный герой и никто не посмеет мне перечить."
+		time="8" />
+
+	<string
+		id="52"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_52_alice.ogg"
+		value="ЛИСА|Проблема в том, что охранники не совсем люди... Посмотри сам."
+		time="4" />
+
+	<string
+		id="60"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_60_hero.ogg"
+		value="|Работа сделана! Караван остановлен. Можно возвращаться на базу."
+		time="4" />
+
+	<string
+		id="100"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_100_hero.ogg"
+		value="|Кто вы такие и зачем прячетесь здесь, когда мой народ страдает? "
+		time="4" />
+
+	<string
+		id="101"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_101_njeri.ogg"
+		value="НЬЕРИ|Мы – Ньери, гости из далеких миров. Волею судеб, наш вечный путь пересекся с траекторией вашей планеты. И это принесло всем лишь горе."
+		time="8" />
+
+	<string
+		id="102"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_102_hero.ogg"
+		value="|Один из ваших механизмов отравляет эту планету, и я хочу знать, почему это происходит!"
+		time="4" />
+
+	<string
+		id="103"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_103_njeri.ogg"
+		value="НЬЕРИ|Грузовой транспорт был сбит земным оружием и упал на поверхность планеты. Пока мы планировали спасательную операцию, прибор, предназначенный для работы в открытом космосе вдали от живой материи, был включен землянами."
+		time="10" />
+
+	<string
+		id="104"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_104_hero.ogg"
+		value="|Что это был за прибор? Каковы последствия его работы?"
+		time="12" />
+
+	<string
+		id="105"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_105_njeri.ogg"
+		value="НЬЕРИ|Технические подробности тебе ничего не скажут. Эффект же – губителен для всего живого. Лишь самые живучие организмы, включая людей, сумели приспособиться и, изменившись, выжить в новых условиях."
+		time="12" />
+
+	<string
+		id="106"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_106_hero.ogg"
+		value="|Признаю, в том, что произошло, виноваты обе наших расы... Но вы знали, что происходит, и ничего не сделали!"
+		time="8" />
+
+	<string
+		id="107"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_107_njeri.ogg"
+		value="НЬЕРИ|Мы находимся здесь уже много лет, чтобы исправить зло, причиненное нашей технологией. Увы, пока наши успехи весьма незначительны. Дело в том, что устройство, вызвавшее катастрофу, рассчитано на автономную работу и не может быть выключено."
+		time="12" />
+
+	<string
+		id="108"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_108_hero.ogg"
+		value="|Все это лишь слова! Что мешает вам уничтожить излучатель?"
+		time="4" />
+
+	<string
+		id="109"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_109_njeri.ogg"
+		value="НЬЕРИ|Неизвестно какой эффект на выживших окажет резкий перепад в информационном поле. Это может стать последней каплей и убить всех. Но ресурс человечества не безграничен и через некоторое время даже самые стойкие из вас не смогут больше существовать."
+		time="8" />
+
+	<string
+		id="110"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_110_hero.ogg"
+		value="|Должен быть какой-то выход! За столько лет вы уже нашли решение, говорите же, что нужно сделать!"
+		time="4" />
+
+	<string
+		id="111"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_111_njeri.ogg"
+		value="НЬЕРИ|Нам удалось разработать устройство, которое будет медленно снижать уровень излучения, пока мы будем исследовать происходящие с людьми перемены. Его нужно расположить рядом со сбитым кораблем, но ни мы, ни наша техника не можем приблизиться на нужное расстояние."
+		time="12" />
+
+	<string
+		id="112"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_112_hero.ogg"
+		value="|Всё понятно. Я уже был там, и со мной ничего не случилось. Значит, я смогу доставить ваш блокиратор."
+		time="12" />
+
+	<string
+		id="113"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_113_njeri.ogg"
+		value="НЬЕРИ|Мы надеялись на твою помощь. Ты – последняя надежда человечества."
+		time="4" />
+
+	<string
+		id="120"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_120_hero.ogg"
+		value="|... Ошибка в .... расчётах. Источник помех это ... вторая база..."
+		time="4" />
+
+	<string
+		id="121"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_121_hero.ogg"
+		value="|Вот это размер!"
+		time="4" />
+
+	<string
+		id="122"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_122_hero.ogg"
+		value="|Пришельцы прятались, используя энергию Селя."
+		time="4" />
+
+	<string
+		id="123"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_123_hero.ogg"
+		value="|Теперь, когда они раскрыли себя, я нарушу их планы!"
+		time="4" />
+
+	<string
+		id="130"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_130_hero.ogg"
+		value="|Эти неполадки вызвали странный эффект... Мне туда! Я больше ничему не удивляюсь."
+		time="4" />
+
+	<string
+		id="131"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_131_hero.ogg"
+		value="|Скоро мир будет очищен от скверны, и люди смогут снова дышать воздухом!"
+		time="4" />
+
+	<string
+		id="70"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_70_hero.ogg"
+		value="|Шкатулка теперь у меня."
+		time="4" />
+
+	<string
+		id="777"
+		value="Караван уничтожен. Вы не смогли обеспечить его безопасность."
+		numButtons="1" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше."
+		time="3" />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    Разрушение форпоста Ньери, пришельцев из других миров, развязало руки Оракулу. Первым делом он взял под контроль орбитальное вооружение и нанёс ядерный удар по Зармеку. Когда источник заражения был уничтожен, многие испытали шок, от которого не все смогли оправиться. Слишком глубоко укоренилось таинственное излучение в человеческой сущности. Пытаясь исправить причинённое зло, суперкомпьютер понемногу начал проникать во все области человеческой жизни. По его чертежам были восстановлены многочисленные полезные устройства. Всевозможные роботы-помощники были приставлены к каждому выжившему, чтобы помогать им во всём. Однако люди не приняли перемен. Многие отказались от даров Оракула и вернулись к простым занятиям. И всё чаще кто-то жалел об исчезновении голоса, беспрестанно шепчущего о восхождении."
+		sound="data\sounds\Speech\rolik\ending2.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="67" />
+</resource>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by JSinx (Targem) -->
+<resource>
+	<string
+		id="1001"
+		modelName="mask_hero"
+		value="|Это был непростой бой. И далась им эта голова. Что они собираются с ней делать?"
+		sound="data\sounds\Speech\r3m2\r3m2_1001_hero.ogg"
+		time="4" />
+
+	<string
+		id="1002"
+		modelName="mask_hero"
+		value="|Для начала надо отделить её от туловища. Надо проявить сноровку."
+		sound="data\sounds\Speech\r3m2\r3m2_1002_hero.ogg"
+		time="3" />
+
+	<string
+		id="1003"
+		modelName="mask_hero"
+		value="|Готово. Можно возвращаться, голова у меня."
+		sound="data\sounds\Speech\r3m2\r3m2_1003_hero.ogg"
+		time="3" />
+
+	<string
+		id="1004"
+		modelName="mask_hero"
+		value="|Что это блестит? Похоже, это одна из тех вещей, про которые говорил оракул!"
+		sound="data\sounds\Speech\r3m2\r3m2_1004_hero.ogg"
+		time="1" />
+
+	<string
+		id="1005"
+		modelName="mask_hero"
+		value="|Есть контакт! Осталось найти второю."
+		sound="data\sounds\Speech\r3m2\r3m2_1005_hero.ogg"
+		time="1" />
+
+	<string
+		id="1006"
+		modelName="mask_hero"
+		value="|Теперь у меня есть всё, что нужно. Пора возвращаться к Оракулу."
+		sound="data\sounds\Speech\r3m2\r3m2_1006_hero.ogg"
+		time="1" />
+
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="|Первый ремонтник на месте. Как шустро принялся за работу!"
+		sound="data\sounds\Speech\r3m2\r3m2_1_hero.ogg"
+		time="1" />
+
+	<string
+		id="2"
+		modelName="mask_hero"
+		value="|Вот и второй ремонтник принялся за работу. Осталось доставить последнего."
+		sound="data\sounds\Speech\r3m2\r3m2_2_hero.ogg"
+		time="1" />
+
+	<string
+		id="3"
+		modelName="mask_hero"
+		value="|Третий ремонтник готов! Надеюсь, это поможет Оракулу вернуть память."
+		sound="data\sounds\Speech\r3m2\r3m2_3_hero.ogg"
+		time="1" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="|Чего только я не насмотрелся за время своих путешествий. Ещё и эти следы на полях. Кто же их оставляет?"
+		sound="data\sounds\Speech\r3m2\r3m2_4_hero.ogg"
+		time="1" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		value="|Эту загадку мне помогут решить учёные в Мидгарде."
+		sound="data\sounds\Speech\r3m2\r3m2_5_hero.ogg"
+		time="1" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		value="|Слишком узкий проезд. Мой грузовик тут не проедет, а пешком ходить слишком опасно."
+		sound="data\sounds\Speech\r3m2\r3m2_6_hero.ogg"
+		time="1" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		value="|Нужно поискать машину поменьше. Кажется, я видел здесь поблизости то, что мне нужно."
+		sound="data\sounds\Speech\r3m2\r3m2_7_hero.ogg"
+		time="1" />
+
+	<string
+		id="8"
+		modelName="mask_hero"
+		value="|Спасибо тому, кто забыл здесь эту тачку. На ней я смогу проникнуть на завод."
+		sound="data\sounds\Speech\r3m2\r3m2_8_hero.ogg"
+		time="1" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		value="|Думаю, никто не обидится, если я позаимствую её ненадолго. Сейчас заправлю, зажигание, мотор!"
+		sound="data\sounds\Speech\r3m2\r3m2_9_hero.ogg"
+		time="1" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		value="|А тачка то резвая, зараза."
+		sound="data\sounds\Speech\r3m2\r3m2_10_hero.ogg"
+		time="1" />
+
+	<string
+		id="11"
+		modelName="mask_hero"
+		value="|Мне больше нечего там делать."
+		sound="data\sounds\Speech\r3m2\r3m2_11_hero.ogg"
+		time="1" />
+<!-- Когда взяли квест принести голову монстра и подъехали к этому самому мостру -->
+	<string
+		id="12"
+		modelName="mask_hero"
+		value="|Вот и монстр. Вряд ли он добровольно расстанется с головой, так что придётся драться."
+		sound="data\sounds\Speech\r3m2\r3m2_12_hero.ogg"
+		time="1" />
+
+	<string
+		id="13"
+		modelName="mask_hero"
+		value="|Опасный противник, но я смогу с ним справиться!"
+		sound="data\sounds\Speech\r3m2\r3m2_13_hero.ogg"
+		time="1" />
+<!-- Подъехали к заводу, показывает общий план, потом машинка едет к проезду. -->
+	<string
+		id="14"
+		modelName="mask_hero"
+		value="|Мне ещё не приходилось видеть таких огромных руин... Интересно, что здесь было до катастрофы?"
+		sound="data\sounds\Speech\r3m2\r3m2_14_hero.ogg"
+		time="1" />
+
+	<string
+		id="15"
+		modelName="mask_hero"
+		value="|Главный вход завален, попробую проехать вдоль железной дороги."
+		sound="data\sounds\Speech\r3m2\r3m2_15_hero.ogg"
+		time="1" />
+<!--  -->
+	<string
+		id="17"
+		value="Нельзя покидать территорию завода на краденой машине."
+		numButtons="1" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+</resource>
