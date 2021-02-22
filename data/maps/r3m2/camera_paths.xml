@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<Path	Name="engineerCamera">
+		<Point	coord="1417.466 273.409 2781.709"	rotation="-0.0535 0.9402 -0.1755 0.2868"	zoom="1.000" />
+		<Point	coord="1417.466 273.409 2781.709"	rotation="-0.0535 0.9402 -0.1755 0.2868"	zoom="1.000" />
+		<Point	coord="1424.078 272.035 2765.450"	rotation="0.0107 0.9763 -0.0498 -0.2105"	zoom="1.000" />
+	</Path>
+
+	<Path	Name="factoryGoAway">
+		<Point	coord="0 10 -50"	rotation="0.0 0.0 0.0 0.0"	zoom="1.000" />
+		<Point	coord="0 10 -50"	rotation="0.0 0.0 0.0 0.0"	zoom="1.000" />
+	</Path>
+
+	<Path	Name="Garage_Path">
+		<Point	coord="-17.056 11.513 22.167"	rotation="0.058 0.930 -0.169 -0.320"/>
+	</Path>
+
+	<Path	Name="Garage_Path_First">
+		<Point  coord="2727.606 271.495 2132.884" rotation="0.054 0.894 -0.113 -0.429"/>
+		<Point  coord="2759.767 268.007 2108.750" rotation="0.023 0.869 -0.040 -0.492"/>
+		<Point  coord="2764.609 274.116 2077.629" rotation="-0.142 -0.533 0.091 0.829"/>
+	</Path>
+
+
+	<Path	Name="WentFactory_Path1">
+		<Point  coord="2533.748 270.563 2444.732" rotation="-0.009 -0.267 0.002 0.964"/>
+		<Point  coord="2646.345 280.142 2620.773" rotation="-0.009 -0.267 0.002 0.964"/>
+	</Path>
+
+	<Path	Name="WentFactory_Path2">
+		<Point  coord="2661.054 281.217 2570.972" rotation="-0.056 -0.574 0.040 0.816"/>
+		<Point  coord="2661.054 281.217 2570.972" rotation="-0.051 0.210 -0.011 0.976"/>
+	</Path>
+
+	<Path	Name="WentFactory_Path3">
+		<!--Point  coord="2378.581 264.754 2854.901" rotation="0.010 0.983 -0.055 -0.173"/-->
+		<Point  coord="2388.535 263 2862.810" rotation="-0.011 -0.805 0.015 0.593"/>
+		<Point  coord="2377.732 263 2843.083" rotation="0.002 0.969 -0.009 -0.248"/>
+		<Point  coord="2386.905 263 2757.163" rotation="0.003 0.988 -0.020 -0.151"/>
+	</Path>
+
+	<Path	Name="WentFactory_TurnAround">
+		<Point  coord="2390.022 267.209 2762.925" rotation="-0.004 -0.077 0.000 0.997"/>
+		<!--Point  coord="2390.022 267.209 2762.925" rotation="-0.291 -0.051 0.016 0.955"/-->
+		<Point  coord="2386.720 265.756 2723.875" rotation="-0.052 -0.047 0.002 0.998"/>
+	</Path>
+
+	<Path	Name="WentFactory_TurnAround2">
+		<Point  coord="2411.161 271.096 2854.087" rotation="-0.017 0.983 -0.133 0.128"/>
+		<Point  coord="2411.161 271.096 2854.087" rotation="-0.017 0.983 -0.133 0.128"/>
+	</Path>
+
+	<Path	Name="NearMonster_Path1">
+		<Point  coord="1226.027 328.136 1395.206" rotation="0.042 -0.650 -0.036 0.758"/>
+		<Point  coord="1265.653 336.500 1401.115" rotation="0.084 -0.652 -0.073 0.751"/>
+		<Point  coord="1299.968 343.892 1404.162" rotation="0.023 -0.780 -0.029 0.625"/>
+	</Path>
+
+
+	<Path	Name="OralceDef_Path1">
+		<Point  coord="-18.259 7.536 -12.007" rotation="-0.051 -0.474 0.027 0.879"/>
+	</Path>
+
+	<Path	Name="OralceDef_Path2">
+		<Point  coord="1345.657 290.911 2828.223" rotation="-0.017 0.875 -0.031 0.484"/>
+	</Path>
+
+
+	<Path Name = "ExitTo31Return">
+		<Point  coord="2865.837 279.656 198.175" rotation="-0.062 -0.826 0.092 0.553"/>
+	</Path>
+
+	<Path Name = "ExitTo31Ok">
+		<Point  coord="2878.172 279.580 184.127" rotation="-0.064 -0.625 0.052 0.777"/>
+	</Path>
+
+
+	<Path Name = "Pole1">
+		<Point  coord="3506.452 279.269 849.859" rotation="-0.002 -0.061 0.000 0.998"/>
+		<Point  coord="3512.257 279.338 914.331" rotation="0.007 -0.005 -0.000 1.000"/>
+		<Point  coord="3503.500 279.627 1020.340" rotation="-0.015 0.119 -0.002 0.993"/>
+		<Point  coord="3475.325 279.837 1024.593" rotation="-0.031 0.683 -0.029 0.729"/>
+		<Point  coord="3354.647 280.962 1023.214" rotation="-0.045 0.672 -0.041 0.738"/>
+		<Point  coord="3339.435 279.269 1038.905" rotation="-0.032 -0.007 0.000 0.999"/>
+		<Point  coord="3336.855 280.031 1126.177" rotation="0.004 0.028 0.000 1.000"/>
+	</Path>
+
+	<Path Name = "Pole2">
+		<Point  coord="3336.855 280.031 1126.177" rotation="0.004 0.028 0.000 1.000"/>
+		<Point  coord="3315.783 350.974 1131.186" rotation="-0.205 -0.676 0.205 0.677"/>
+		<Point  coord="3376.546 525.728 1124.426" rotation="-0.424 -0.568 0.431 0.558"/>
+	</Path>
+
+
+
+</Paths>
+
