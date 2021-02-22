@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger	Name="trAutoSave"	active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+		</script>
+	</trigger>
+
+	<trigger	Name="GlobalVar"	active="1">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+--		   println("Map Region 3 map 1: Initialised")
+		   SetVar("CanTalkResist",0)
+		   SetVar("MaxWalkHuman",14)
+		   trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trStartMap"	active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			if QuestStatus("d_FindVrata_Quest")==Q_COMPLETED and QuestStatus("r3m1_FindNative_2")==Q_CANBEGIVEN then
+				TActivate("trMoveFromR1M4")
+
+				SetCoordinateForQuest( "r1m2_TalkAboutRedkiyMineral_Quest" , CVector(getPos("ToR1M4")))
+				SetCoordinateForQuest( "r1m2_Glagiators_Quest" , CVector(getPos("ToR1M4")))
+				SetCoordinateForQuest( "r1m2_MovemineralToMidgard_Quest" , CVector(getPos("ToR1M4")))
+				SetCoordinateForQuest( "q_PWS2" , CVector(getPos("ToR1M4")))
+
+
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(7738.129, 286.901, 4949.968), "r2m1")
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(6222.635, 255.564, 8012.623), "r1m3")
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(750.443, 213.000, 753.247),   "r1m4")
+
+				TActivate("trNearFist_TalkGuard2")
+--				SetCoordinateForQuest( "r3m2_ReadyToTravel" , CVector(getPos("ToR1M4")))
+				trigger:Deactivate()
+			elseif QuestStatus("r3m1_FindNative")==Q_CANBEGIVEN then
+			    TActivate("trMoveFromR2M1")
+
+				SetCoordinateForQuest( "r1m2_TalkAboutRedkiyMineral_Quest" , CVector(getPos("ToR2M1")))
+				SetCoordinateForQuest( "r1m2_Glagiators_Quest" , 			 CVector(getPos("ToR2M1")))
+				SetCoordinateForQuest( "r1m2_MovemineralToMidgard_Quest" ,   CVector(getPos("ToR2M1")))
+				SetCoordinateForQuest( "q_PWS2" , CVector(getPos("ToR2M1")))
+
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(2114.268, 235.762, 5967.831), "r2m1")
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(1444.032, 290.169, 5539.769), "r1m3")
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(2786.510, 228.122, 211.075),  "r1m4")
+
+--				SetCoordinateForQuest( "r3m2_ReadyToTravel" , CVector(getPos("ToR2M1")))
+			    trigger:Deactivate()
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger	Name="trPriplitieMap"	active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			TActivate("RolikBegin_ToSailSubmarine")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!-- Пориехали из порта -->
+	<trigger	Name="trMoveFromR1M4"	active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+<!--		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="PlayerMoveFromR1M4" />
+		<event	eventid="GE_OBJECT_LEAVES_LOCATION"	ObjName="PlayerMoveFromR1M4" />-->
+		<script>
+--		   println("MoveFromR1M4")
+--		   if IsQuestTaken("r3m1_FindNative_2")==nil and QuestStatus("d_FindVrata_Quest")==Q_COMPLETED and QuestStatus("r3m1_FindNative_2")==Q_CANBEGIVEN then
+
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			GetPlayerVehicle():SetThrottle( 0 )
+
+			TActivate("RolikBegin_ToSailSubmarine")
+			TakeQuest("r3m1_FindNative_2")
+			TDeactivate("trMoveFromR2M1")
+			AddHistory( "r3_After_WaterGate_1" )
+			AddHistory( "r3_JustGo_1" )
+			AddFadingMsgId( "fm_history_got" )
+			trigger:Deactivate()
+--		   end
+		</script>
+	</trigger>
+
+<!-- Приехали из туннеля-->
+	<trigger	Name="trMoveFromR2M1"	active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+<!--		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="PlayerMoveFromR2M1" />
+		<event	eventid="GE_OBJECT_LEAVES_LOCATION"	ObjName="PlayerMoveFromR2M1" />-->
+		<script>
+--		   println("MoveFromR2M1")
+--		   if IsQuestTaken("r3m1_FindNative")==nil and QuestStatus("r3m1_FindNative")==Q_CANBEGIVEN then
+			TakeQuest("r3m1_FindNative")
+--			TActivate("RolikBegin_MoveFromR2M1")
+			
+			TDeactivate("trExitFromMap21")
+			TActivate("RolikBegin_MoveFromR2M1")
+		 	TDeactivate("trMoveFromR1M4")
+			AddHistory( "r3_AfterKillMonster" )
+			AddHistory( "r3_JustGo_1" )
+			AddFadingMsgId( "fm_history_got" )
+			trigger:Deactivate()
+--		   end
+		</script>
+	</trigger>
+
+<!-- Разговор у фиста с охранниками-->
+	<trigger	Name="trNearFist_TalkGuard2"	active="0">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="NearFist_TalkGuard2_loc" />
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="NearFist_TalkGuard_loc" />
+		<script>
+			TActivate("RolikBegin_PostFist")
+	  		trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!-- Ролик с Лисой (когда приехали из тоннеля)-->
+	<trigger	Name="trLisaVideo"	active="0">
+		<event	timeout="1"		eventid="GE_TIME_PERIOD" />
+		<script>
+--			println("trUlukAmush")
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(6, 0, 25, 25, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+			AddCinematicMessage( 1020, 1 )
+			AddCinematicMessage( 1021, 1 )
+			AddCinematicMessage( 1022, 1 )
+			AddCinematicMessage( 1023, 1 )
+			AddCinematicMessage( 1024, 1 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="trCreateFistDefend"	active="0">
+		<event	timeout="1"	eventid="GE_TIME_PERIOD" />
+		<script>
+
+			for i=0,1 do
+			   local veh = getObj("FistDefenders_vehicle_"..i)
+			   if veh then
+			      veh:SetExternalPathByName("FistGuard"..(i+1).."_1")
+			   end
+			end
+		   local veh = getObj("FistDefenders2_vehicle_0")
+		   if veh then
+		      veh:SetExternalPathByName("FistGuard3_1")
+		   end
+
+			TActivate("trFistDefendersDie")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trCreateUlukAmbush"	active="0">
+		<event	timeout="1"	eventid="GE_TIME_PERIOD" />
+		<script>
+--			TeamCreate("UlukAmbGuard",1020,CVector(1434.000, 251.000, 775.000),{"Fighter01","Molokovoz01","Hunter01"},CVector(getPos("UlukAmush_loc")))
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trCreateMainDruid"	active="0">
+		<event	timeout="0.01"	eventid="GE_TIME_PERIOD" />
+		<script>
+			local DruidTeam = TeamCreate("MainDruidTeam",1019,CVector(1488.960, 288.000, 2591.133),{"Hunter02"})
+			if DruidTeam==nil then 
+			   LOG("TRIGGER ERROR: Can't create druid vehicle")
+			   return
+			end
+			local DruidVeh = DruidTeam:GetVehicle(0)
+			if DruidVeh==nil then 
+			   LOG("TRIGGER ERROR: Druid vehicle does't exists")
+			   return
+			end
+
+            local newControllerId1 = CreateNewObject {
+				prototypeName	= "someNPCMotionController",
+				objName	= "DruidController"
+			}
+
+			local newController1 = GetEntityByID(newControllerId1)
+
+			if newController1 and DruidVeh then
+				newController1:setVehicleUnderControl(DruidVeh)
+			end
+
+
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!-- Ролик у засады для верховного друида.
+Сейчас его машинки нет :( надо будет сделать, а потом взорвать. Я потом править баги буду, и сделаю-->
+	<trigger	Name="trUlukAmush"	active="0">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="UlukAmush_loc" />
+		<script>
+			TActivate("RolikBegin_AmbushDruid")
+			CompleteQuest("r3m1_LureMainDriud_Ambush")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trCreateLoggersMech"	active="0">
+		<event	timeout="1"	eventid="GE_TIME_PERIOD" />
+		<script>
+			local rbteam = TeamCreate("TeamLoggers",1022,CVector(2828.247, 326.091, 2871.083),{"RobotBobot02", "RobotBobot02", "RobotBobot01"})
+			TActivate("trLoggersDie")
+--			TActivate("RolikBegin_LoggersMech")
+			if rbteam then
+				TActivate("trNearStoneHendj")
+				rbteam:GetVehicle(0):AddItemsToRepository("fuel", 3)
+				rbteam:GetVehicle(0):AddItemsToRepository("scrap_metal", 20)
+				rbteam:GetVehicle(1):AddItemsToRepository("fuel", 3)
+				rbteam:GetVehicle(1):AddItemsToRepository("scrap_metal", 20)
+				for i=1,3 do
+					setPos(rbteam:GetVehicle(i-1), CVector(getPos("StoneRobot"..i.."_loc")))
+				end
+
+--				AddVehicleGunsWithRandomAffix( rbteam:GetVehicle(0), "", 2, 7)
+--				AddVehicleGunsWithRandomAffix( rbteam:GetVehicle(0), "", 2, 7)
+
+				AddVehicleGunsWithRandomAffix( rbteam:GetVehicle(2), "omega01", 3, 8+random(2))
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trNearStoneHendj"	active="0">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="NearStoneHendj_loc" />
+		<script>
+			TActivate("RolikBegin_LoggersMech")
+	  		trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+<!-- Убили монстров у стоунхенджа -->
+	<trigger	Name="trLoggersDie"		active="0">
+		<event	eventid="GE_OBJECT_DIE"	ObjName="TeamLoggers" />
+		<script>
+				CompleteQuest("r3m1_ClearSanctuary_KillMonster")
+				local Plf = GetPlayerVehicle()
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 10
+				PlfCoor.z = PlfCoor.z + 25
+
+				Plf:SetCustomControlEnabled(true)
+				Plf:SetCustomLinearVelocity(0)
+				Plf:SetThrottle(0)
+				Plf:SetCustomControlEnabled(false)
+
+				FlyAround(2, 0, 15, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+			    AddCinematicMessage( 31, 0.5 )
+			    trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trCreateLoggersMech2"	active="0">
+		<event	timeout="1"	eventid="GE_TIME_PERIOD" />
+		<script>
+			local rbtm = CreateTeam("TeamLoggers2",1022,CVector(2880.000, 278.000, 2819.000),{"RobotMetatron", "RobotMetatron"})
+			if rbtm then
+				rbtm:GetVehicle(0):AddItemsToRepository("add_torque_and_stability", 1)
+				AddVehicleGunsWithRandomAffix( rbtm:GetVehicle(1), "octopus01",  3, 8+random(2))
+				AddVehicleGunsWithRandomAffix( rbtm:GetVehicle(2), "elephant01", 3, 8+random(2))
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+<!-- Взорвали выход для роботов-->
+	<trigger	Name="trDestroyExitFromDung"	active="0">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="ExitFromDung_loc" />
+		<script>
+			if IsQuestItemPresent( "quest_explosion_stone" ) then
+				RemoveQuestItem( "quest_explosion_stone" )
+				local zrb=getObj("ZoneRobots")
+				if zrb then
+					zrb:Remove()
+				end
+				CompleteQuest("r3m1_ClearSanctuary_DestroyOut")
+                TActivate("RolikBegin_DestroyCave")
+
+				AddCinematicMessage( 1010, 1 )
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+
+	<trigger	Name="trTalkRescueLeader"	active="1">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="RescueLeader_loc" />
+		<script>
+			if QuestStatus("r3m1_KnowAboutUluk_GotoSet")==Q_TAKEN then
+--				println("Talk with Rescue Leader")
+			    SetVar("CanTalkResist",1)
+				TActivate("trWentCivCamp")
+				CreateTeam("RescueCars",1064,CVector(getPos("RescueCiv_loc")),{"Scout01","Scout01","Scout02"})
+				TActivate("trRescArmyDie")
+			    trigger:Deactivate()
+			end
+		</script>
+	</trigger>
+
+<!-- Ролик когда убивают лидера -->
+	<trigger	Name="trWentCivCamp"	active="0">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="RescueCiv_loc" />
+		<script>
+			TActivate("RolikBegin_RescuePeople")
+			SetTolerance(1100, 1020, RS_ENEMY)
+			SetTolerance(1065, 1020, RS_ENEMY)
+			CompleteQuest("r3m1_RescueUlukCivil_GotoVillage")
+
+			local newControllerId1 = CreateNewObject {
+				prototypeName	= "someNPCMotionController",
+				objName	= "RescCont1"
+			}
+
+			local newControllerId2 = CreateNewObject {
+				prototypeName	= "someNPCMotionController",
+				objName	= "RescCont2"
+			}
+
+			local newControllerId3 = CreateNewObject {
+				prototypeName	= "someNPCMotionController",
+				objName	= "RescCont3"
+			}
+
+			local newController1 = GetEntityByID(newControllerId1)
+			local newController2 = GetEntityByID(newControllerId2)
+			local newController3 = GetEntityByID(newControllerId3)
+
+			local FVehicle1 = GetEntityByName("RescueCars_vehicle_0")
+			local FVehicle2 = GetEntityByName("RescueCars_vehicle_1")
+			local FVehicle3 = GetEntityByName("RescueCars_vehicle_2")
+
+			if newController1 and FVehicle1 then
+				newController1:setVehicleUnderControl(FVehicle1)
+			end
+
+			if newController2 and FVehicle2 then
+				newController2:setVehicleUnderControl(FVehicle2)
+			end
+
+			if newController3 and FVehicle3 then
+				newController3:setVehicleUnderControl(FVehicle3)
+			end
+
+
+--			AddCinematicMessage( 21, 0.25 )
+--			AddCinematicMessage( 22, 0.25 )
+--			AddCinematicMessage( 23, 0.25 )
+--			AddCinematicMessage( 24, 0.25 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+<!-- Ролик после того, как разбили атакующих-->
+	<trigger	Name="trUlukArmyDie"	active="0">
+		<event	eventid="GE_OBJECT_DIE"	ObjName="UlukArmy" />
+		<script>
+			CompleteQuest("r3m1_RescueUlukCivil_RepelAttack")
+			TActivate("RolikBegin_ToGoInSet")
+
+--			AddCinematicMessage( 25, 0.25 )
+--			AddCinematicMessage( 26, 0.25 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+<!-- Ролик, если убили всех жителей улука, которых надо было спасти-->
+	<trigger	Name="trRescArmyDie"	active="0">
+		<event	eventid="GE_OBJECT_DIE"	ObjName="RescueCars" />
+		<script>
+			FailQuestIfTaken("r3m1_RescueUlukCivil_TakeToSet")
+			FailQuest("r3m1_RescueUlukCivil_TakeToSet")
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(6, 0, 25, 17, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+			AddCinematicMessage( 32, 0.25 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="trRescueEnd"	active="0">
+		<event	timeout="0.1"	eventid="GE_TIME_PERIOD" />
+		<script>
+			for i=1,3 do
+			   if getObj("RescCont"..i) then
+			      getObj("RescCont"..i):Remove()
+			   end
+
+			   if getObj("RescueCars_vehicle_"..i-1) then
+			      getObj("RescueCars_vehicle_"..i-1):Remove()
+			   end
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+<!--  Выход с карты во второй регион-->
+	<trigger Name="trExitFromMap21" active="1">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="ExitFromMapTo21" />
+		<script>
+--			println("ToR2M2")
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+
+			if IsQuestTaken("r3m1_FindNative") then 
+				local b = SpawnMessageBox( "8801" )
+    			if b == 1 then
+--					println ("Yes")
+					PassToMap("r2m1", "FromR3M1", -1 )
+				else
+--					println ("No")
+					GetPlayerVehicle():SetExternalPathByName("ReturnPathR2M1")
+				end
+			else
+				AddFadingMsgId( "fm_not_suzet" )
+				GetPlayerVehicle():SetExternalPathByName("ReturnPathR2M1")
+			end
+ 		</script>
+	</trigger>
+
+<!-- Выход с карты в 3й регион-->
+	<trigger Name="trExitFromMap32" active="1">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="ExitFromMapTo32" />
+		<script>
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+
+			if IsQuestTaken("r3m1_GoToOracle")~=nil then 
+				local b = SpawnMessageBox( "8801" )
+				if b == 1 then
+--					println ("Yes")
+					PassToMap("r3m2", "FromR3M1", -1 )
+				else
+--					println ("No")
+					GetPlayerVehicle():SetExternalPathByName("ReturnPathR3M2")
+				end
+			else
+				AddFadingMsgId( "fm_cant_move" )
+				GetPlayerVehicle():SetExternalPathByName("ReturnPathR3M2")
+			end
+ 		</script>
+	</trigger>
+
+<!-- Выход с карты на подводной лодке-->
+	<trigger Name="trMovePlToR1M4" active="1">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterToSubmarine_loc" />
+		<script>
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			local b = SpawnMessageBox( "8801" )
+   			if b == 1 then
+--				println ("Yes")
+				if IsQuestTaken("r3m1_FindNative_2") then 
+					TActivate("RolikBegin_ToComeSubmarine")
+					TActivate("trPriplitieMap")
+					TDeactivate("trAutoSave")
+--					GetPlayerVehicle():SetThrottle( 0 )
+--					getObj("SubmarinaR3M1"):StartMotionToPort()
+				end
+			else
+--				println ("No")
+--				GetPlayerVehicle():SetExternalPathByName("ReturnPathR2M1")
+			end
+
+ 		</script>
+	</trigger>
+
+	<trigger	Name="trStartHumans"	active="1">
+		<event	timeout="1"			eventid="GE_TIME_PERIOD" />
+		<script>
+			local maxhum = GetVar("MaxWalkHuman").AsInt
+			if maxhum then
+				for i=1,maxhum do
+					local tr = getObj("trHumanDie")
+					if tr then
+					   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
+					end
+				end
+			end
+			TActivate("trCreateHumans")
+        	trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="trCreateHumans"	active="0">
+		<event	timeout="10"			eventid="GE_TIME_PERIOD" />
+		<script>
+			local maxhum = GetVar("MaxWalkHuman").AsInt
+			if maxhum then
+				for i=1,maxhum do
+					local hum = getObj("WalkerHuman"..i)
+					if not hum then      	
+						local hummodlist = {"Human","Human2","Human3"}
+		    		  	local newhum = CreateHuman( hummodlist[random(3)], 1001, CVector(getPos("SpawnHuman"..i.."_loc")), "WalkerHuman"..i, "Human"..i.."_Path")
+		    		  	if newhum then
+		    		  	   newhum:SetSkin(random(2))
+		    		  	end
+			        end
+				end
+				TActivate("trHumanDie")
+			end
+        	trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trHumanDie"	active="0">
+		<script>
+			TActivate("trCreateHumans")
+        	trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="trPlaceSecret"	active="1">
+		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
+		<script>
+			local i=1
+			local gunlist = {"hornet01","specter01","pkt01","kord01","storm01","fagot01","maxim01","vector01","vulcan01","kpvt01","rapier01","flag01","rainmetal01","elephant01","odin01","omega01","bumblebee01","hammer01","hunterSideGun","mrakSideGun","big_swingfire01","cyclops01","octopus01","hailSideGun","hurricane01","rocketLauncher","zeusSideGun","marsSideGun"}
+			local len = getn(gunlist)
+
+			while getObj("SecretPlace"..i.."_loc")~=nil do
+--				println(i)
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
+				i = i + 1
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+</triggers>
