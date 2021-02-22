@@ -319,7 +319,7 @@
 		ConditionToGive="all taken"
 		PrecedingQuests="r3m2_OvercomeOracleGuard"
 		OnComplete="AddPlayerMoney(5000)"
-		OnTake='ShowCircleOnMinimapByName("Monster_loc") TActivate("trCreateMonster")' />
+		OnTake='ShowCircleOnMinimapByName("Monster_loc"); TActivate("trNearMonster")' />
 <!--Root/r3m2/—южетные/ќракул 1 раз-->
 	<quest
 		Name="r3m2_TwoMagicThing"

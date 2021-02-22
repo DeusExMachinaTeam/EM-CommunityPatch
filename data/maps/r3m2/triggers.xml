@@ -64,21 +64,6 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="trCreateMonster"	active="0">
-		<event	timeout="0.5"		eventid="GE_TIME_PERIOD" />
-		<script>
-		    local mnstr = TeamCreate("TeamBigMonster",1022,CVector(getPos("Monster_loc")),{"RobotTron"})
-		    if mnstr then
-			    TActivate("trBigMonsterDie")
-			    TActivate("trNearMonster")
-	     	    AddVehicleGunsWithRandomAffix(mnstr:GetVehicle(0), "hammer01", 3, 8+random(2))
-				mnstr:GetVehicle(0):AddItemsToRepository("firing_rate_guns_and_add_damage_guns", 1)
-		    end
-		    
-		    trigger:Deactivate()
-		</script>
-	</trigger>
-
 	<trigger	Name="trOrDefBeginEnemy"	active="0">
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>

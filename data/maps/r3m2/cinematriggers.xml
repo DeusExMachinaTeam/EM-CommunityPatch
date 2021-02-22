@@ -64,6 +64,8 @@
 			StartCinematic()
 			PlayCustomMusic("Techno04")
 
+			AddCinematicMessage( 14, 5 )
+
 			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
 
 			trigger:Deactivate()
@@ -76,6 +78,7 @@
 		<script>
 			GetPlayerVehicle():SetGamePositionOnGround(CVector(2459.292, 260.596, 2563.911))
 			GetPlayerVehicle():SetExternalPathByName("FactoryRailRoadPath")
+			AddCinematicMessage( 15, 1 )
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -142,29 +145,18 @@
 	<trigger	Name="cinNearMonster"	active="0">
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
-			GetPlayerVehicle():SetThrottle(0)
 			SaveAllToleranceStatus(RS_NEUTRAL)
-			local monster = getObj("TeamBigMonster_vehicle_0")
---			ASSERT(monster~=nil, "Error map R3M2: Monster not exists")
-			setPos(monster,CVector(getPos("Monster_loc")))
-			if monster then
-				TActivate("cinStopMusik_End")
-				TActivate("cinNearMonster_FadeIn")
-				TActivate("cinNearMonster_End")
-				PlayCustomMusic("IntenseDialogue01")
-			    pos = CVector(monster:GetPosition())
-			    monsterid = monster:GetId()
-    			pos.y = pos.y + 20
-				pos.z = pos.z + 15
-				Fly("NearMonster_Path1", CINEMATIC_NO_AIM, nil, 6, 1,0)
-				FlyAround(6, 0.3, 25, 4, CVector(1299.968, 343.892, 1404.162), monsterid, 0, 0)
-				StartCinematic()
-			else
-				LOG("----------------- Trigger Error -------------------------------------------------")
-				LOG("Error map R3M2: Monster not exists")
-				LOG("---------------------------------------------------------------------------------")
-			end
+
+			TActivate("cinStopMusik_End")
+			TActivate("cinNearMonster_FadeIn")
+			TActivate("cinNearMonster_Cam2")
+			TActivate("cinNearMonster_End")
+			PlayCustomMusic("IntenseDialogue01")
+			Fly("NearMonster_Path1", CINEMATIC_NO_AIM, nil, 12, 1,0)
+			Fly("NearMonster_Path2", CINEMATIC_NO_AIM, nil, 9, 0,1)
+			StartCinematic()
+
+			AddCinematicMessage(12, 1)
 
 			trigger:Deactivate()
 		</script>
@@ -176,6 +168,20 @@
 --			println("!!!!!!!!!!!")
 			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
 			GetPlayerVehicle():SetThrottle(0)
+			local mnstr = TeamCreate("TeamBigMonster",1022,CVector(getPos("Monster_loc")),{"RobotTron"})
+			if mnstr then
+			    TActivate("trBigMonsterDie")
+	     	    AddVehicleGunsWithRandomAffix(mnstr:GetVehicle(0), "hammer01", 3, 8+random(2))
+				mnstr:GetVehicle(0):AddItemsToRepository("firing_rate_guns_and_add_damage_guns", 1)
+		    end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinNearMonster_Cam2" active="0">
+		<event flypath="NearMonster_Path2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage(13, 2)
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -186,6 +192,7 @@
 		<script>
 			StopPlayingCustomMusic()
 			SetCameraDirectionToObj(getObj("TeamBigMonster_vehicle_0"):GetId())
+			TDeactivate("cinNearMonster_Cam2")
 			RestoreAllToleranceStatus()
 			trigger:Deactivate()
 		</script>
@@ -318,6 +325,7 @@
 			TActivate("trWentOracleDefenders")
 			SetCameraBehindPlayerVehicle()
 			RestoreAllToleranceStatus()
+			StopPlayingCustomMusic()
 			trigger:Deactivate()
 		</script>
 	</trigger>
