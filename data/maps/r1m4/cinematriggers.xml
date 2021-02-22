@@ -499,6 +499,133 @@
 
 <!--		подводная лодка			-->
 
+<trigger Name="cinMovePlToR3M1_begin" active="0">
+	<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
 
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			
+			EnableGodMode()
+			
+			Fly("lodka1", CINEMATIC_NO_AIM, 0, 15, 1, 0 )
+			Fly("lodka2", CINEMATIC_NO_AIM, 0, 21, 0, 0 )
+			Fly("lodka3", CINEMATIC_NO_AIM, 0, 18, 0, 1 )
+			StartCinematic()
+			
+			local stat = GetVar("SubMarPh").AsInt
+            if stat==0 then
+				AddCinematicMessage( 18, 3 )
+			end 
+			
+			PlayCustomMusic("Bio02")
+			
+			TActivate("cinMovePlToR3M1_Fade")
+			TActivate("cinMovePlToR3M1_cam02")
+			TActivate("cinMovePlToR3M1_cam03")
+			TActivate("cinMovePlToR3M1_End")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR3M1_Fade" active="0">
+	<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetGamePositionOnGround( CVector(715.286, 217.935, 762.374))
+		   		vehPlayer:SetRotation(Quaternion(-0.000, -1.000, -0.000, 0.020))
+		   	end
+		   	
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR3M1_cam02" active="0">
+	<event flypath="lodka2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			CreateNewDummyObject( "submarina",	"Subm", -1, -1, CVector(712.726, 160.000, 67.000), Quaternion(0.000, -0.008, -0.000, -1.000),0 )
+			
+			local moverId = CreateNewObject { prototypeName	= "cinematicMover", objName  = "" }
+			local mover = GetEntityByID( moverId ) 
+			local controlledObj = GetEntityByName("Subm")
+			local stat = GetVar("SubMarPh").AsInt
+			if controlledObj then
+				mover:SetObjAndPath( controlledObj:GetId(), "lodka4", 20 )
+			end
+			
+            if stat==0 then
+				AddCinematicMessage( 19, 8 )
+			end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR3M1_cam03" active="0">
+	<event flypath="lodka3" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			local stat = GetVar("SubMarPh").AsInt
+			local podlodka = getObj("Subm")
+			if podlodka then
+				podlodka:SetNodeAction(AT_STAND2)
+			end
+			
+			if stat==0 then
+				AddCinematicMessage( 20, 2 )
+			end
+			
+			TActivate("trsubzaezd1")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trsubzaezd1" active="0">
+	<event	timeout="7"		eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetExternalPathByName("subzaezd1")
+				vehPlayer:LimitMaxSpeed( 20 )
+		   	end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR3M1_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			
+			SetVar("SubMarPh",1)
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetExternalPathByName("subzaezd1")
+				vehPlayer:PlaceToEndOfPath()
+				vehPlayer:UnlimitMaxSpeed()
+		   	end
+			
+			StopPlayingCustomMusic()
+			
+			DisableGodMode()
+			
+			TActivate("trStartMap")
+			
+			TDeactivate("trsubzaezd1")
+			TDeactivate("cinMovePlToR3M1_cam02")
+			TDeactivate("cinMovePlToR3M1_cam03")
+			TDeactivate("RrybakRoadStart")
+
+			PassToMap("r3m1", "FromR1M4", 0 , 1)
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
 </triggers>

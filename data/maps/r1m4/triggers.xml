@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <triggers><!-- **************** старт карты, проверка условий квестов-->
-	<trigger	Name="trAutoSave"	active="1">
-		<event eventid="GE_GAME_START" ObjName="Player1" />
-		<script>
-		</script>
-	</trigger>
 
 	<trigger	Name="GlobalVar"	active="1">
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
 			SetVar("Boloto",0)
+			SetVar("SubMarPh",0)
 		    trigger:Deactivate()
 		</script>
 	</trigger>
@@ -18,9 +14,12 @@
 	<trigger	Name="trStartMap"	active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
---			println("trStartMap1")
+			local submar = getObj("Subm")
+			if submar then
+				submar:Remove()
+			end
+
 			trigger:Deactivate()
-	
 		</script>
 	</trigger>
 
@@ -461,33 +460,19 @@
 
 			local b = SpawnMessageBox( "8801" )
 			if b == 1 then
---				println ("Yes")
---				PassToMap("r3m2", "FromR3M1", 180 )
-				PlayCustomMusic("Bio02")
-				TActivate("cinMovePlToR3M1_Fade")
-				if vehPl then
-					TActivate("cinMovePlToR3M1_Fade")
-					getObj("SubmarinaR1M4"):StartMotionToPort()
-			   end
+--				PlayCustomMusic("Bio02")
+				TActivate("cinMovePlToR3M1_begin")
 			else
---				println ("No")
---				GetPlayerVehicle():SetExternalPathByName("ReturnPathR3M2")
+				local vehPlayer = GetPlayerVehicle()
+				if vehPlayer then
+					vehPlayer:SetCustomControlEnabled( true )
+					vehPlayer:SetCustomLinearVelocity( 0 )
+					vehPlayer:SetThrottle( 0 )
+					vehPlayer:SetCustomControlEnabled( false )
+				end
 			end
  		</script>
 	</trigger>
-
-	<trigger Name="cinMovePlToR3M1_Fade" active="0">
- 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
-		<script>
-			local vehPl = GetPlayerVehicle()
-			if vehPl then
-				setPos(vehPl, CVector(715.683, 216.282, 763.979))
-				setRot(vehPl, Quaternion(0.000, 1.000, 0.006, -0.004))
-		   end
-		   trigger:Deactivate()
- 		</script>
-	</trigger>
-
 
 <!-- Охрана лидера померла -->
 	<trigger Name="trFT" active="0">

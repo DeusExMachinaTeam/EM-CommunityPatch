@@ -84,6 +84,24 @@
 		<Point  coord="4.000 6.500 20.000"/>
 	</Path>
 
+	<Path Name = "lodka1">                         
+		<Point  coord="779.983 271.674 1037.732" rotation="-0.000 1.000 -0.007 0.017"/>
+		<Point  coord="775.084 249.252 877.352" rotation="-0.000 1.000 -0.000 0.015"/>
+	</Path>
+
+	<Path Name = "lodka2">                         
+		<Point  coord="775.084 249.252 877.352" rotation="-0.000 1.000 -0.000 0.015"/>
+		<Point  coord="785.818 228.727 787.916" rotation="-0.002 0.962 -0.007 0.273"/>
+	</Path>
+
+	<Path Name = "lodka3">                         
+		<Point  coord="680.886 220.828 766.145" rotation="-0.018 -0.814 0.026 0.580"/>
+		<Point  coord="680.886 220.828 766.145" rotation="-0.002 0.905 0.004 -0.426"/>
+	</Path>
+
+	<Path Name = "lodka4">                         
+		<Point  coord="712.726 160.000 67.000" rotation="0.000 -0.008 -0.000 -1.000"/>
+		<Point  coord="710.435 216.935 630.735" rotation="0.000 -0.008 -0.000 -1.000"/>
+	</Path>
 
 </Paths>
-
