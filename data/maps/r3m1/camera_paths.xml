@@ -61,10 +61,13 @@
 	</Path>
 
 	<Path	Name="LoggersMech_cam01">
-			<Point  coord="2973.946 357.073 2866.724" rotation="-0.056 0.696 -0.055 0.714" speed="4"/>
-			<Point  coord="2846.506 330.405 2911.589" rotation="-0.035 0.922 -0.087 0.376" speed="2"/>
-			<Point  coord="2805.064 324.013 2917.466" rotation="-0.016 0.932 0.043 -0.360" speed="1"/>
+			<Point  coord="3018.966 308.227 2792.504" rotation="-0.024 0.941 -0.068 0.330"/>
+			<Point  coord="3014.062 307.060 2786.374" rotation="-0.027 0.940 -0.078 0.330"/>
+	</Path>
 
+	<Path	Name="LoggersMech_cam02">
+		<Point  coord="3021.381 312.365 2852.963" rotation="-0.066 -0.703 0.066 0.705"/>
+		<Point  coord="3028.277 311.653 2853.101" rotation="-0.050 -0.703 0.050 0.707"/>
 	</Path>
 
 	<Path	Name="DestroyCave_cam01">
@@ -174,4 +177,3 @@
 	</Path>
 
 </Paths>
-

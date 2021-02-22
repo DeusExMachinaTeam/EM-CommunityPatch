@@ -1993,7 +1993,7 @@
 		text="Я знал, что иноземцам нельзя доверять!"
 		role="NPC"
 		scriptCondition="QuestStatus('r3m1_ClearSanctuary')==Q_TAKEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid')==Q_TAKEN"
-		scriptResult="CompleteQuest('r3m1_ClearSanctuary_ReturnDruid'); TActivate('trDestroyExitFromDung'); TActivate('trCreateLoggersMech2')"
+		scriptResult="CompleteQuest('r3m1_ClearSanctuary_ReturnDruid'); TActivate('trDestroyExitFromDung'); TActivate('trCreateLoggersMech');"
 		nextReplies="Set_Bar_MainDruid_3_P02" />
 
 	<Reply

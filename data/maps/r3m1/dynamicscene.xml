@@ -17,8 +17,8 @@
 		Belong="1100"
 		Prototype="genericLocation"
 		Pos="2949.281 305.737 2880.598"
-		Radius="223.989"
-		Active="0" />
+		Radius="250.000"
+		Active="1" />
 
 	<Object
 		Name="UlukArmyPos1_loc"
@@ -181,9 +181,9 @@
 		Name="ZoneRobots"
 		Belong="1022"
 		Prototype="InfectionZone"
-		InfectionTeamPrototypeName="RobotTeam"
+		InfectionTeamPrototypeName="r3m1_RobotTeam"
 		DropOutTimeOut="180.000"
-		InfectionLair="RobotTeam"
+		InfectionLair="r3m1_RobotTeam"
 		HadPlayerInside="0">
 		<Polygon>
 			<Point
