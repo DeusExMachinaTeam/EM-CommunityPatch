@@ -6,10 +6,10 @@
 		<Emitter
 			ParticleAgeMin="40.00"
 			ParticleAgeMax="10.00"
-			MaxParticles="3"
+			MaxParticles="1"
 			EmitAtPeriod="1.000"
 			Phase="0.000"
-			EmitLength="0.500"
+			EmitLength="0.300"
 			RepeatPeriod="500.000"
 			ResetTime="9999999933815812500000000000000000000.000"
 			LocalStop="0"
