@@ -240,6 +240,8 @@
 			CompleteQuest("r3m2_OracleMemory_1")
 			RemoveQuestItem( "quest_repair_robot1" );
 
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
 			local PlfCoor = Plf:GetPosition()
@@ -253,6 +255,20 @@
 			StartCinematic()
 			AddCinematicMessage( 1, 0.25 )
 
+			TActivate("trVK_End")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trVK_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -263,6 +279,8 @@
 			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN4", "eff2", -1, -1, CVector(681.7, 289, 1944), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0.64)
 			CompleteQuest("r3m2_OracleMemory_2")
 			RemoveQuestItem( "quest_repair_robot2" )
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
 
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
@@ -277,6 +295,7 @@
 			StartCinematic()
 			AddCinematicMessage( 2, 0.25 )
 
+			TActivate("trVK_End")
 
 			trigger:Deactivate()
 		</script>
@@ -288,6 +307,8 @@
 			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN4", "eff3", -1, -1, CVector(1214.700, 322.100, 1255.800), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0.64)
 			CompleteQuest("r3m2_OracleMemory_3")
 			RemoveQuestItem( "quest_repair_robot3" )
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
 
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
@@ -301,6 +322,8 @@
 			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 			AddCinematicMessage( 3, 0.25 )
+
+			TActivate("trVK_End")
 
 			trigger:Deactivate()
 		</script>

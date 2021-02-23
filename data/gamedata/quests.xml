@@ -298,7 +298,7 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="q_PWS1" 
+			PrecedingQuests="q_PWS1"
 			Levels="r3m1 r3m2 r1m4 r1m3 r1m2" />
 	</quest>
 <!--Root/r3m2/Сюжетные/Преодолеть защитников оракула-->
@@ -376,6 +376,7 @@
 			CheckAll="0"
 			ConditionToGive="all taken"
 			PrecedingQuests="r3m2_OracleMemory"
+			OnComplete='TActivate("trVK2")'
 			OnTake='ShowCircleOnMinimapByName("VK1_loc")' />
 
 		<quest
@@ -383,8 +384,9 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="r3m2_OracleMemory"
+			ConditionToGive="all complete"
+			PrecedingQuests="r3m2_OracleMemory_1"
+			OnComplete='TActivate("trVK3")'
 			OnTake='ShowCircleOnMinimapByName("VK2_loc")' />
 
 		<quest
@@ -392,8 +394,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="r3m2_OracleMemory"
+			ConditionToGive="all complete"
+			PrecedingQuests="r3m2_OracleMemory_2"
 			OnTake='ShowCircleOnMinimapByName("VK3_loc")' />
 
 		<quest
@@ -1182,7 +1184,7 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		PrecedingQuests="d_WinLisaInBattle_Quest"
-                OnTake='ShowCircleOnMinimapByName("ParisLocation")' />
+		OnTake='ShowCircleOnMinimapByName("ParisLocation")' />
 <!--Root/r2m1/Сюжетные/Поговорить с пришельцами-->
 	<quest
 		Name="r2m1_TW_AlienInShip"

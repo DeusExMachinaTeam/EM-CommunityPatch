@@ -1343,7 +1343,7 @@
 		name="Dlg_pl_000204"
 		text="Надеюсь, оно того стоило."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); EndConversation();" />
+		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); StopPlayingCustomMusic(); EndConversation();" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N041"
@@ -1389,7 +1389,7 @@
 		name="r3m1_NearOracle_ODefenders_2_N042"
 		text="Для этого  и проделал весь долгий путь."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); RemoveQuestItem( 'quest_monster_head' ); EndConversation()" />
+		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); RemoveQuestItem( 'quest_monster_head' ); StopPlayingCustomMusic(); EndConversation()" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_2_N021"
@@ -1575,7 +1575,7 @@
 		name="r3m2_Oracle_Oracle_3_N08"
 		text="Я отправляюсь немедленно. У меня появилась надежда!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); TActivate('trVK2'); TActivate('trVK3'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); EndConversation()" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N01"
