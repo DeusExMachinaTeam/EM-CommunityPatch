@@ -1360,23 +1360,22 @@
 			if IsQuestTaken("d_OpenTunel_Quest") then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
+				
 					local cWom = getObj("CircusMan")
-					local cWomSC = cWom:GetSpokenCount()
-					if cWomSC > 0 then
-						local hs = GetEntityByName ("FIRE01")
-						if hs then hs:Remove() end
-						local hs = GetEntityByName ("FIRE02")
-						if hs then hs:Remove() end
-						local hs = GetEntityByName ("FIRE03")
-						if hs then hs:Remove() end
-						local hs = GetEntityByName ("FIRE04")
-						if hs then hs:Remove() end
-						local hs = GetEntityByName ("FIRE05")	
-						if hs then hs:Remove() end
-						local hs = GetEntityByName ("FIRE06")
-						if hs then hs:Remove() end
-					end
-					
+					if cWom then cWom:SetSpokenCount(1) end
+					local hs = GetEntityByName ("FIRE01")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE02")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE03")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE04")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE05")	
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE06")
+					if hs then hs:Remove() end
+
 					PassToMap("r2m1", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
