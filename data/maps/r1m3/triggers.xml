@@ -66,6 +66,13 @@
 
 			CreateNewDummyObject( "bridge_military", "BridgeForDestroy", -1, -1, CVector(5576.837, 202.7, 1423.237), Quaternion(0.0000, 0.7086, 0.0000, 0.7056), 0)
 
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE01", -1, -1, CVector(4214.315, 231.049, 1020.738), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE02", -1, -1, CVector(4136.448, 252.076, 834.866), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE03", -1, -1, CVector(4183.487, 235.000, 1217.818), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE04", -1, -1, CVector(4043.283, 235.428, 723.935), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE05", -1, -1, CVector(4045.008, 234.819, 1037.936), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE06", -1, -1, CVector(4221.199, 231.304, 1010.331), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1100,6 +1107,23 @@
 
 			local b = SpawnMessageBox( "8801" )
 			if b == 1 then
+				local cWom = getObj("CircusMan")
+				local cWomSC = cWom:GetSpokenCount()
+				if cWomSC > 0 then
+					local hs = GetEntityByName ("FIRE01")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE02")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE03")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE04")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE05")	
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE06")
+					if hs then hs:Remove() end
+				end
+
 				PassToMap("r1m1", "FromR1M3", -1 )
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1161,6 +1185,23 @@
 			if IsQuestTaken("d_FindBenInEast_Quest") or IsQuestTaken("d_FindLisaInMidragd_Quest") then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
+					local cWom = getObj("CircusMan")
+					local cWomSC = cWom:GetSpokenCount()
+					if cWomSC > 0 then
+						local hs = GetEntityByName ("FIRE01")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE02")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE03")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE04")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE05")	
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE06")
+						if hs then hs:Remove() end
+					end
+
 					PassToMap("r1m2", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1233,6 +1274,21 @@
 			if IsQuestTaken("d_FindVrata_Quest") or IsQuestTaken("r1m4_TalkWithOldTraderAboutSecondDisk") then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
+					local cWom = getObj("CircusMan")
+					if cWom then cWom:SetSpokenCount(1) end
+					local hs = GetEntityByName ("FIRE01")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE02")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE03")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE04")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE05")	
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE06")
+					if hs then hs:Remove() end
+
 					PassToMap("r1m4", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1304,6 +1360,22 @@
 			if IsQuestTaken("d_OpenTunel_Quest") then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
+				
+					local cWom = getObj("CircusMan")
+					if cWom then cWom:SetSpokenCount(1) end
+					local hs = GetEntityByName ("FIRE01")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE02")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE03")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE04")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE05")	
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE06")
+					if hs then hs:Remove() end
+
 					PassToMap("r2m1", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
