@@ -929,6 +929,7 @@
 		<script>
 		local vehPlayer = GetPlayerVehicle()
 		if vehPlayer then
+			vehPlayer:LimitMaxSpeed( 20 )
 			vehPlayer:SetExternalPathByName("player_path08")
 		end
 
@@ -940,9 +941,21 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
+			local vehPlayer = GetPlayerVehicle()
+
+			if vehPlayer then
+				vehPlayer:LimitMaxSpeed( 20 )
+				vehPlayer:SetExternalPathByName("player_path08")
+				vehPlayer:PlaceToEndOfPath()
+				vehPlayer:UnlimitMaxSpeed()
+			end
+
 			StopPlayingCustomMusic()
-			PassToMap("r1m4", "FromR3M1", 0 , 1)
+
 			TDeactivate("trToGoInSet_cam01")
+
+			PassToMap("r1m4", "FromR3M1", 0 , 1)
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1006,6 +1019,7 @@
 
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
+				vehPlayer:LimitMaxSpeed( 20 )
 				vehPlayer:SetExternalPathByName("player_path09")
 			end
 
@@ -1022,6 +1036,11 @@
 		if vehPlayer then
 			vehPlayer:SetExternalPathByName("player_path09")
 			vehPlayer:PlaceToEndOfPath("player_path09")
+			vehPlayer:UnlimitMaxSpeed()
+			vehPlayer:SetThrottle( 0 )
+			vehPlayer:SetCustomLinearVelocity( 0 )
+			vehPlayer:SetGamePositionOnGround( CVector (3779.493, 252.822, 1926.248) )
+			vehPlayer:SetRotation(Quaternion(-0.000, 0.984, 0.000, -0.178))
 		end
 		local submar = getObj("Subm1")
 		if submar then
@@ -1037,14 +1056,6 @@
 		trigger:Deactivate()
 		</script>
 	</trigger>
-
-<!-- 		local vehPlayer = GetPlayerVehicle()
-		if vehPlayer then
-			vehPlayer:SetPosition( CVector(865.810, 288.003, 977.006))
-			vehPlayer:SetRotation(Quaternion(0.024, 0.810, -0.029, 0.585))
-			vehPlayer:SetThrottle( 0 )
-			vehPlayer:SetCustomLinearVelocity( 0 )
-		end -->
 
 <!-- 			Приехали с Лисой на карту				 -->
 

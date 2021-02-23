@@ -232,7 +232,8 @@
 	<trigger	Name="trLoggersDie"		active="0">
 		<event	eventid="GE_OBJECT_DIE"	ObjName="TeamLoggers" />
 		<script>
-				CompleteQuest("r3m1_ClearSanctuary_KillMonster")
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
 				local Plf = GetPlayerVehicle()
 				local PlfID = GetPlayerVehicleId()
 				local PlfCoor = Plf:GetPosition()
@@ -248,7 +249,23 @@
 				StartCinematic()
 
 			    AddCinematicMessage( 31, 0.5 )
+
+				TActivate("trLoggersDieEnd")
 			    trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLoggersDieEnd" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			CompleteQuest("r3m1_ClearSanctuary_KillMonster")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
