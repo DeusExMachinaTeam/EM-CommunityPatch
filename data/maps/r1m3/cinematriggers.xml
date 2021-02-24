@@ -506,8 +506,8 @@
 			local vehM = GetEntityByName("vehMer")
 			if vehM then
 				vehM:PlaceToEndOfPath("TheSpyMerRolik_path")
-				vehM:SetGamePositionOnGround( CVector(5015.094, 201.171, 4039.513))
-				vehM:SetRotation(Quaternion(0.011, 0.959, -0.006, 0.283))
+				vehM:SetGamePositionOnGround( CVector(5014.082, 203.493, 3997.039))
+				vehM:SetRotation(Quaternion(0.052, -0.145, 0.021, -0.988))
 			end
 
 			AddCinematicMessage( 17, 1 )
