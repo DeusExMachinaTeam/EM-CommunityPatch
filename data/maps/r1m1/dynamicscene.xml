@@ -2723,17 +2723,6 @@
 	</Object>
 
 	<Object
-		Name="someChest80"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="1121.119 303.000 3389.139">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="hornet01" />
-	</Object>
-
-	<Object
 		Name="someChest50"
 		Belong="1001"
 		Prototype="someChest"
@@ -2742,6 +2731,41 @@
 			Flags="16"
 			Belong="1001"
 			Prototype="potato" />
+	</Object>
+
+	<Object
+		Name="someChest29"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="2979.427 351.676 1381.807">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="firewood" />
+	</Object>
+
+	<Object
+		Name="someChest19"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="1615.928 304.986 2223.254">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="potato" />
+	</Object>
+
+	<!-- Оригинальные ящики
+
+	<Object
+		Name="someChest80"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="1121.119 303.000 3389.139">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="hornet01" />
 	</Object>
 
 	<Object
@@ -2777,27 +2801,43 @@
 			Prototype="hornet01" />
 	</Object>
 
-	<Object
-		Name="someChest29"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="2979.427 351.676 1381.807">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="firewood" />
-	</Object>
+	-->
+
+	<!-- Лутбоксы -->
 
 	<Object
-		Name="someChest19"
+		Flags="21"
+		Name="SecretPlace1_loc"
 		Belong="1001"
-		Prototype="someChest"
-		Pos="1615.928 304.986 2223.254">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="potato" />
-	</Object>
+		Prototype="genericLocation"
+		Pos="1121.119 303.000 3389.139"
+		Radius="10.000" />
+	
+	<Object
+		Flags="21"
+		Name="SecretPlace2_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="392.817 330.898 2566.885"
+		Radius="10.000" />
+		
+	<Object
+		Flags="21"
+		Name="SecretPlace3_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="1806.831 302.967 491.925"
+		Radius="10.000" />
+		
+	<Object
+		Flags="21"
+		Name="SecretPlace4_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2386.625 303.000 973.370"
+		Radius="10.000" />
+
+	<!-- ************* -->
 
 	<Object
 		Name="PetrolStationTown1"
