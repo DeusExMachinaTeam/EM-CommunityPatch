@@ -11,6 +11,20 @@
 	</trigger>
 
 
+	<trigger	Name="trHelPlaceSecret"	active="1">
+		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
+		<script>
+			local gunlist = {"hornet01","specter01","kord01","vector01","hurricane01","hunter01","engineOilPusher"}
+			local len = getn(gunlist)
+
+			for i=1,14 do
+				--println("step"..i.."succesful")
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(3))
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger	Name="trStartMap"	active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
