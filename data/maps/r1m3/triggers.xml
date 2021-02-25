@@ -1092,19 +1092,46 @@
 	<trigger Name="CARAVANTOR1M4" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("KARAVAN14",1010,CVector(6081, 260, 5915),{"r2m2_CaravanUral02"}, nil, 1)
+			TeamCreate("KARAVAN14",1010,CVector(6081, 260, 5915),{"r2m2_CaravanUral02","r1m2_hunter02","Fighter02","Molokovoz02"}, nil, 1)
 			local vehP = GetEntityByName("KARAVAN14_vehicle_0")
 			if vehP then
 				vehP:SetExternalPathByName("karavan_path")
 			end
-
+			local vehPP = GetEntityByName("KARAVAN14_vehicle_1")
+			if vehPP then
+				vehPP:SetExternalPathByName("karavan_path")
+			end
+			local vehPPP = GetEntityByName("KARAVAN14_vehicle_2")
+			if vehPPP then
+				vehPPP:SetExternalPathByName("karavan_path")
+			end
+			local GoluBoyWagon = GetEntityByName("KARAVAN14_vehicle_3")
+			if GoluBoyWagon then
+				GoluBoyWagon:SetExternalPathByName("karavan_path")
+				GoluBoyWagon:SetSkin(2)
+			end
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-
-
-
+	<trigger Name="DeleteCaravanIfExists" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			if VehP then
+				VehP:Remove()
+			end
+			if VehPP then
+				VehPP:Remove()
+			end
+			if VehPPP then
+				VehPPP:Remove()
+			end
+			if GoluBoyWagon then
+				GoluBoyWagon:Remove()
+			end
+		</script>
+	</trigger>
+				
 
 	<trigger Name="triggerExitToMap11" active="1">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR1M1" />
@@ -1137,6 +1164,7 @@
 					if hs then hs:Remove() end
 				end
 
+				TActivate("DeleteCaravanIfExists")
 				PassToMap("r1m1", "FromR1M3", -1 )
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1215,6 +1243,7 @@
 						if hs then hs:Remove() end
 					end
 
+					TActivate("DeleteCaravanIfExists")
 					PassToMap("r1m2", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1301,7 +1330,8 @@
 					if hs then hs:Remove() end
 					local hs = GetEntityByName ("FIRE06")
 					if hs then hs:Remove() end
-
+					
+					TActivate("DeleteCaravanIfExists")
 					PassToMap("r1m4", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1328,6 +1358,7 @@
 	<trigger Name="RolikExitToMap14" active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
+
 			CinemaFiltersUse()
 
 			RotationPlayerByPoints(CVector(getPos("ToR1M4")), CVector(getPos("FromR1M4")))
