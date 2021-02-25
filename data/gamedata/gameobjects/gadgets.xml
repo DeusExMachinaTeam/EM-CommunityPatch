@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
+-->
+
+<Prototypes>
+
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "anti_missile_system"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "57900"	
+		Modifications		= "VEHICLE GadgetAntiMissileRadius += 50"
+		ModelFile		= "gadget_08"
+		SkinNum			= "0"
+		/>
+
+<!-- Gadgets for weapons -->
+
+
+<!-- Gadgets for weapons 20% type-->
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "5430"	
+		Modifications		= "MachineGun ReChargingTime -20; Cannon ReChargingTime -20; ShotGun ReChargingTime -20"
+		ModelFile		= "gadget_01"
+		SkinNum			= "0"
+		/>
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_energy"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "6479"	
+		Modifications		= "Laser ReChargingTime -20; Plasma ReChargingTime -20"
+		ModelFile		= "gadget_01"
+		SkinNum			= "0"
+		/> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_explosion"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "4980"	
+		Modifications		= "Rocket ReChargingTime -20; Artillery ReChargingTime -20"
+		ModelFile		= "gadget_01"
+		SkinNum			= "0"
+                />
+
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_rate_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "3476"	
+		Modifications		= "MachineGun FiringRate 20; Cannon FiringRate 20; ShotGun FiringRate 20"
+		ModelFile		= "gadget_10"
+		SkinNum			= "0"
+                /> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_rate_energy"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "4390"	
+		Modifications		= "Laser  FiringRate 20; Plasma  FiringRate 20"
+		ModelFile		= "gadget_10"
+		SkinNum			= "0"
+                />
+       
+
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "grouping_angle_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "3700"	
+		Modifications		= "MachineGun Accuracy += 20; Cannon Accuracy += 20; ShotGun Accuracy += 20"
+		ModelFile		= "gadget_10"
+		SkinNum			= "0"
+                />
+
+  
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "6128"	
+		Modifications		= "MachineGun Damage 20; Cannon Damage 20; ShotGun Damage 20"
+		ModelFile		= "gadget_09"
+		SkinNum			= "0"
+                /> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_energy"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "7342"	
+		Modifications		= "Laser Damage 20; Plasma Damage 20"
+		ModelFile		= "gadget_09"
+		SkinNum			= "0"
+                />
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_explosion"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "3287"	
+		Modifications		= "Rocket Damage 20; Artillery Damage 20"
+		ModelFile		= "gadget_09"
+		SkinNum			= "0"
+                />
+
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_range_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "2350"	
+		Modifications		= "MachineGun FiringRange 20; Cannon FiringRange 20; ShotGun FiringRange 20"
+		ModelFile		= "gadget_10"
+		SkinNum			= "0"
+                />
+ 
+	 
+ 
+ <!-- Gadgets for weapons 40% type-->
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_guns2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "19200"	
+		Modifications		= "MachineGun ReChargingTime -40; Cannon ReChargingTime -40; ShotGun ReChargingTime -40"
+		ModelFile		= "gadget_01"
+		SkinNum			= "1"
+		/>
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_energy2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "22300"	
+		Modifications		= "Laser ReChargingTime -40; Plasma ReChargingTime -40"
+		ModelFile		= "gadget_01"
+		SkinNum			= "1"
+		/> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_explosion2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "21500"	
+		Modifications		= "Rocket ReChargingTime -40; Artillery ReChargingTime -40"
+		ModelFile		= "gadget_01"
+		SkinNum			= "1"
+                />
+
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_rate_guns2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "17250"	
+		Modifications		= "MachineGun FiringRate 40; Cannon FiringRate 40; ShotGun FiringRate 40"
+		ModelFile		= "gadget_10"
+		SkinNum			= "1"
+                /> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_rate_energy2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "26200"	
+		Modifications		= "Laser  FiringRate 40; Plasma  FiringRate 40"
+		ModelFile		= "gadget_10"
+		SkinNum			= "1"
+                />
+        
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "grouping_angle_guns2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "22700"	
+		Modifications		= "MachineGun Accuracy += 40; Cannon Accuracy += 40; ShotGun Accuracy += 40"
+		ModelFile		= "gadget_10"
+		SkinNum			= "1"
+                />
+
+  
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_guns2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "25300"	
+		Modifications		= "MachineGun Damage 40; Cannon Damage 40; ShotGun Damage 40"
+		ModelFile		= "gadget_09"
+		SkinNum			= "1"
+                /> 
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_energy2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "24690"	
+		Modifications		= "Laser Damage 40; Plasma Damage 40"
+		ModelFile		= "gadget_09"
+		SkinNum			= "1"
+                />
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_explosion2"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "23470"	
+		Modifications		= "Rocket Damage 40; Artillery Damage 40"
+		ModelFile		= "gadget_09"
+		SkinNum			= "1"
+                />
+
+
+
+
+<!-- Combo Gadgets for weapons-->
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_guns_and_firing_rate_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "63200"	
+		Modifications		= "MachineGun RechargingTime -30; Cannon RechargingTime -30; ShotGun RechargingTime -30; MachineGun FiringRate 30; Cannon FiringRate 30; ShotGun FiringRate 30"
+		ModelFile		= "gadget_04"
+		SkinNum			= "2"
+                /> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_energy_and_firing_rate_energy"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "72500"	
+		Modifications		= "Laser RechargingTime -30; Plasma RechargingTime -30; Laser FiringRate 30; Plasma FiringRate 30"
+		ModelFile		= "gadget_04"
+		SkinNum			= "2"
+                />
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "cooling_system_explosion_and_firing_rate_explosion"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "67290"	
+		Modifications		= "Rocket RechargingTime -30; Artillery RechargingTime -30; Rocket FiringRate 30; Artillery FiringRate 30"
+		ModelFile		= "gadget_04"
+		SkinNum			= "2"
+                />
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_rate_guns_and_add_damage_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "74500"	
+		Modifications		= "MachineGun FiringRate 30; Cannon FiringRate 30; ShotGun FiringRate 30; MachineGun Damage 30; Cannon Damage 30; ShotGun Damage 30"
+		ModelFile		= "gadget_10"
+		SkinNum			= "2"
+                /> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_rate_energy_and_add_damage_energy"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "71200"	
+		Modifications		= "Laser FiringRate 20; Plasma FiringRate 20; Laser Damage 40; Plasma Damage 40"
+		ModelFile		= "gadget_10"
+		SkinNum			= "2"
+                />
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "firing_rate_explosion_and_add_damage_explosion"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "67690"
+		Modifications		= "Rocket FiringRate 20; Artillery FiringRate 20; Rocket Damage 40; Artillery Damage 40"
+		ModelFile		= "gadget_10"
+		SkinNum			= "2"
+                />
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_guns_and_grouping_angle_guns"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "68300"	
+		Modifications		= "MachineGun Damage 30; Cannon Damage 30; ShotGun Damage 30; MachineGun Accuracy += 30; Cannon Accuracy += 30; ShotGun Accuracy += 30"
+		ModelFile		= "gadget_11"
+		SkinNum			= "2"
+                /> 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_energy_and_firing_rate_energy"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "63500"	
+		Modifications		= "Laser Damage 30; Plasma Damage 30; Laser FiringRate 30; Plasma FiringRate 30"
+		ModelFile		= "gadget_11"
+		SkinNum			= "2"
+                />
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_damage_explosion_firing_rate_explosion"
+		ResourceType		= "GADGET_WEAPON" 
+		Price			= "65100"	
+		Modifications		= "Rocket Damage 30; Artillery Damage 30; Rocket FiringRate 30; Artillery FiringRate 30"
+		ModelFile		= "gadget_11"
+		SkinNum			= "2"
+                />
+
+
+
+<!-- Gadgets for truck and others-->
+
+<!-- Type 1 Gadgets-->
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_fuel_tank"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "1750"	
+		Modifications		= "CHASSIS MaxFuel 50"
+		ModelFile		= "gadget_06"
+		SkinNum			= "0"
+		/>
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_torque"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "4900"	
+		Modifications		= "CABIN MaxTorque 10"
+		ModelFile		= "gadget_07"
+		SkinNum			= "0"
+		/>
+          
+              
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_durability"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "6300"	
+		Modifications		= "CABIN MaxDurability 10; BASKET MaxDurability 10"
+		ModelFile		= "gadget_05"
+		SkinNum			= "0"
+		/>
+ 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_stability"
+		ResourceType	        = "GADGET_COMMON" 
+		Price			= "4640"	
+		Modifications	        = "CABIN Control += 10"
+		ModelFile		= "gadget_08"
+		SkinNum			= "0"
+		/>
+
+<!-- Type 2 Gadgets-->
+  
+         
+	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_fuel_tank2"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "18030"	
+		Modifications		= "CHASSIS MaxFuel 100"
+		ModelFile		= "gadget_06"
+		SkinNum			= "1"
+		/>
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_torque2"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "23630"	
+		Modifications		= "CABIN MaxTorque 20"
+		ModelFile		= "gadget_07"
+		SkinNum			= "1"
+		/>
+          
+              
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_durability2"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "27620"	
+		Modifications		= "CABIN MaxDurability 20; BASKET MaxDurability 20"
+		ModelFile		= "gadget_05"
+		SkinNum			= "1"
+		/>
+<!-- COMMON Combo Gadgets-->
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_speed_and_torque"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "87000"	
+		Modifications		= "CABIN MaxSpeed 15; CABIN MaxTorque 15"
+		ModelFile		= "gadget_07"
+		SkinNum			= "2"
+		/>
+
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_stability_and_speed"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "83410"	
+		Modifications		= "CABIN Control += 15; CABIN MaxSpeed 20"
+		ModelFile		= "gadget_08"
+		SkinNum			= "2"
+		/>
+          
+              
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "add_torque_and_stability"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "76200"	
+		Modifications		= "CABIN MaxTorque 15; CABIN Control += 15"
+		ModelFile		= "gadget_07"
+		SkinNum			= "2"
+		/>
+ 
+ 	<Prototype
+		Class			= "Gadget"
+		Name			= "additional_fuel_tank2_add_damage_guns"
+		ResourceType		= "GADGET_COMMON" 
+		Price			= "63200"	
+		Modifications		= "CHASSIS MaxFuel 75; CABIN Control += 15"
+		ModelFile		= "gadget_06"
+		SkinNum			= "2"
+		/>
+ 
+
+</Prototypes>
