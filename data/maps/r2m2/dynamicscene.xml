@@ -3312,43 +3312,6 @@
 	</Object>
 
 	<Object
-		Name="someChest60"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="3428.136 330.085 3934.201">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="fuel" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="kpvt01" />
-	</Object>
-
-	<Object
-		Name="someChest86"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="3495.313 330.390 3897.704">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="fuel" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="machinery" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="pkt01" />
-	</Object>
-
-	<Object
 		Name="barricade7_GwG56"
 		Belong="1005"
 		Prototype="barricade7_GwG"
@@ -3442,33 +3405,6 @@
 	</Object>
 
 	<Object
-		Name="someChest53"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="268.560 321.000 3937.622">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="fuel" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="fagot01" />
-	</Object>
-
-	<Object
-		Name="someChest80"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="268.917 321.000 3896.978">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="pkt01" />
-	</Object>
-
-	<Object
 		Name="someChest13"
 		Belong="1001"
 		Prototype="someChest"
@@ -3490,44 +3426,6 @@
 	</Object>
 
 	<Object
-		Name="someChest48"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="335.536 321.000 3903.331">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="specter01" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="vulcan01" />
-	</Object>
-
-	<Object
-		Name="someChest63"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="755.634 261.115 3298.566">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="hornet01" />
-	</Object>
-
-	<Object
-		Name="someChest6etert0"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="892.778 251.147 2712.201">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="vulcan01" />
-	</Object>
-
-	<Object
 		Name="someChest75"
 		Belong="1001"
 		Prototype="someChest"
@@ -3541,70 +3439,6 @@
 			Flags="16"
 			Belong="1001"
 			Prototype="fuel" />
-	</Object>
-
-	<Object
-		Name="someChest9eeee9"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="1788.491 325.688 3775.495">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="machinery" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="specter01" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="specter01" />
-	</Object>
-
-	<Object
-		Name="someChest99"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="2415.842 261.000 2855.342">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="scrap_metal" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="scrap_metal" />
-
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="vulcan01" />
-	</Object>
-
-	<Object
-		Name="someChest70"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="1717.426 246.771 1727.592">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="kord01" />
-	</Object>
-
-	<Object
-		Name="someChest25"
-		Belong="1001"
-		Prototype="someChest"
-		Pos="1897.972 241.969 1426.772">
-		<Object
-			Flags="16"
-			Belong="1001"
-			Prototype="pkt01" />
 	</Object>
 
 	<Object
@@ -3860,6 +3694,174 @@
 		</Object>
 	</Object>
 
+	<!-- Оригинальные ящики
+
+	<Object
+		Name="someChest60"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="3428.136 330.085 3934.201">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="fuel" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="kpvt01" />
+	</Object>
+
+	<Object
+		Name="someChest86"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="3495.313 330.390 3897.704">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="fuel" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="machinery" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="pkt01" />
+	</Object>
+
+	<Object
+		Name="someChest53"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="268.560 321.000 3937.622">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="fuel" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="fagot01" />
+	</Object>
+
+	<Object
+		Name="someChest80"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="268.917 321.000 3896.978">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="pkt01" />
+	</Object>
+
+	<Object
+		Name="someChest48"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="335.536 321.000 3903.331">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="specter01" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="vulcan01" />
+	</Object>
+
+	<Object
+		Name="someChest63"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="755.634 261.115 3298.566">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="hornet01" />
+	</Object>
+
+	<Object
+		Name="someChest6etert0"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="892.778 251.147 2712.201">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="vulcan01" />
+	</Object>
+
+	<Object
+		Name="someChest9eeee9"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="1788.491 325.688 3775.495">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="machinery" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="specter01" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="specter01" />
+	</Object>
+
+	<Object
+		Name="someChest99"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="2415.842 261.000 2855.342">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="scrap_metal" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="scrap_metal" />
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="vulcan01" />
+	</Object>
+
+	<Object
+		Name="someChest70"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="1717.426 246.771 1727.592">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="kord01" />
+	</Object>
+
+	<Object
+		Name="someChest25"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="1897.972 241.969 1426.772">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="pkt01" />
+	</Object>
+
 	<Object
 		Name="someChest43"
 		Belong="1001"
@@ -3875,7 +3877,108 @@
 			Belong="1001"
 			Prototype="specter01" />
 	</Object>
+	-->
+	
+	<!-- Лутбоксы -->
 
+	<Object
+		Flags="21"
+		Name="SecretPlace1_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3428.136 330.085 3934.201"
+		Radius="10.000" />
+
+	<Object
+		Flags="21"
+		Name="SecretPlace2_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3495.313 330.390 3897.704"
+		Radius="10.000" />	
+
+	<Object
+		Flags="21"
+		Name="SecretPlace3_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="268.560 321.000 3937.622"
+		Radius="10.000" />
+
+	<Object
+		Flags="21"
+		Name="SecretPlace4_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="268.917 321.000 3896.978"
+		Radius="10.000" />	
+
+	<Object
+		Flags="21"
+		Name="SecretPlace5_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="335.536 321.000 3903.331"
+		Radius="10.000" />	
+
+	<Object
+		Flags="21"
+		Name="SecretPlace6_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="755.634 261.115 3298.566"
+		Radius="10.000" />
+
+	<Object
+		Flags="21"
+		Name="SecretPlace7_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="892.778 251.147 2712.201"
+		Radius="10.000" />	
+
+	<Object
+		Flags="21"
+		Name="SecretPlace8_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="1788.491 325.688 3775.495"
+		Radius="10.000" />	
+
+	<Object
+		Flags="21"
+		Name="SecretPlace9_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2415.842 261.000 2855.342"
+		Radius="10.000" />	
+
+	<Object
+		Flags="21"
+		Name="SecretPlace10_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="1717.426 246.771 1727.592"
+		Radius="10.000" />	
+
+	<Object
+		Flags="21"
+		Name="SecretPlace11_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="1897.972 241.969 1426.772"
+		Radius="10.000" />
+
+	<Object
+		Flags="21"
+		Name="SecretPlace12_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2723.096 303.005 2738.789"
+		Radius="10.000" />
+
+	<!-- ************** -->
+	
 	<Object
 		Name="wood_fence20"
 		Belong="-1"
