@@ -891,12 +891,12 @@
    			CompleteQuest( "r1m3_FightWithThief" )
 
 			AddQuestItem("quest_disk_2")
-
-			if IsQuestComplete(d_FindLisaOnSever_Quest) then
-			AddQuestItem("quest_key_for_submarine")
-			end
 			
 			TActivate("TRIGGER_LISAAFTERTHIEF")
+			
+			if IsQuestComplete("d_FindLisaOnSever_Quest") then
+			AddQuestItem("quest_key_for_submarine")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -932,7 +932,6 @@
 
 			AddHistory( "r1_Lisa_Thief_00" )
 			AddFadingMsgId( "fm_history_got" )
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
