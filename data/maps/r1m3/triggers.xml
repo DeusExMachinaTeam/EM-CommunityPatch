@@ -19,7 +19,7 @@
 			local len = getn(gunlist)
 
 			for i=1,12 do
-				println("step"..i.."succesful")
+				--println("step"..i.."succesful")
 				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(3))
 			end
 			trigger:Deactivate()
