@@ -59,14 +59,14 @@
 	<string
 		id="303"
 		modelName="mask_hero"
-		value="Теперь я понимаю, о чём говорил Учёный."
+		value="Теперь я понимаю, о чем говорил Учёный."
 		sound="data\sounds\Speech\r4m2\r4m2_303_hero.ogg"
 		time="1" />
 
 	<string
 		id="304"
 		modelName="mask_hero"
-		value="Что же манит сюда этих людей. Вдруг я ещё могу спасти их?"
+		value="Что же манит сюда этих людей? Вдруг я ещё могу спасти их?"
 		sound="data\sounds\Speech\r4m2\r4m2_304_hero.ogg"
 		time="1" />
 
@@ -97,7 +97,7 @@
 	<string
 		id="404"
 		modelName="mask_hero"
-		value="Я никуда не поеду. Они - убийцы. Мы должны вместе сразиться с ними."
+		value="Я никуда не поеду. Они - убийцы! Мы должны вместе сразиться с ними."
 		sound="data\sounds\Speech\r4m2\r4m2_404_hero.ogg"
 		time="1" />
 
@@ -121,7 +121,7 @@
 	<string
 		id="501"
 		modelName="mask_hero"
-		value="Я чувствую силу манящую меня к тарелке."
+		value="Я чувствую силу, манящую меня к тарелке."
 		sound="data\sounds\Speech\r4m2\r4m2_501_hero.ogg"
 		time="1" />
 
