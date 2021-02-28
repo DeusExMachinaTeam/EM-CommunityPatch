@@ -24,14 +24,14 @@
 	<string
 		id="1004"
 		modelName="mask_hero"
-		value="|Что это блестит? Похоже, это одна из тех вещей, про которые говорил оракул!"
+		value="|Что это блестит? Похоже, это одна из тех вещей, про которые говорил Оракул!"
 		sound="data\sounds\Speech\r3m2\r3m2_1004_hero.ogg"
 		time="1" />
 
 	<string
 		id="1005"
 		modelName="mask_hero"
-		value="|Есть контакт! Осталось найти второю."
+		value="|Есть контакт! Осталось найти вторую."
 		sound="data\sounds\Speech\r3m2\r3m2_1005_hero.ogg"
 		time="1" />
 
@@ -108,7 +108,7 @@
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|А тачка то резвая, зараза."
+		value="|А тачка-то резвая, зараза!"
 		sound="data\sounds\Speech\r3m2\r3m2_10_hero.ogg"
 		time="1" />
 
