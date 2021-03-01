@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<!-- $Id: CommonServers.xml,v 1.5 2004/11/25 10:51:16 den Exp $  -->
+<Servers>
+
+	<ProjectorsServer>
+		<Item id="PS_PROJECTOR" file="data/models/projectors/test.xml"/>
+	</ProjectorsServer>
+
+	<LightsServer>
+		<Item id="LS_LIGHT_TEST" file="data/models/lights/test.xml"/>
+		<Item id="LS_LIGHT_TEST2" file="data/models/lights/test2.xml"/>
+		<Item id="LS_LIGHT_YELLOW" file="data/models/lights/yellow.xml"/>
+		<Item id="LS_LIGHT_RED" file="data/models/lights/red.xml"/>
+	</LightsServer>
+
+	<DecalsServer>
+		<Item id="DC_TEST1" 		file="data/models/decals/decalTest.xml"/>
+		<Item id="DC_CLASH" 		file="data/models/decals/decalTest2.xml"/>
+		<Item id="DC_BIG_MACHINEGUN" 	file="data/models/decals/decole_big_machinegun.xml"/>
+		<Item id="DC_GUN" 		file="data/models/decals/decole_gun.xml"/>
+		<Item id="DC_SML_MACHINEGUN" 	file="data/models/decals/decole_sml_machinegun.xml"/>
+		<Item id="DC_LASER" 		file="data/models/decals/dekole_laser.xml"/>
+		<Item id="DC_ROKET" 		file="data/models/decals/dekole_roket.xml"/>
+	</DecalsServer>
+
+	<ParticlesServer>
+		<Item id="PS_SPECIAL01_FIRE_MAIN_1"				file="data\Effects\Guns\spesial01_fire_main_1.psys"/>
+
+		<Item id="PS_ROCKS1_MAIN1"       file="data\Effects\Other\rocks1_main1.psys"/>
+
+		<Item id="PS_SPECIAL01_FIRE_MAIN"				file="data\Effects\Guns\spesial01_fire_main.psys"/>
+		<Item id="PS_SPECIAL02_FIRE_MAIN"				file="data\Effects\Guns\spesial02_fire_main.psys"/>
+		<Item id="PS_SPECIAL02_FIRE_MAIN1"				file="data\Effects\Guns\spesial02_fire_main1.psys"/>
+		<Item id="PS_SPECIAL02_FIRE_MAIN2"				file="data\Effects\Guns\spesial02_fire_main2.psys"/>
+		<Item id="PS_SPECIAL03_FIRE_MAIN"				file="data\Effects\Guns\spesial03_fire_main.psys"/>
+
+
+		<Item id="PS_DRONE_EX_MAIN"					file="data\Effects\Guns\drone_ex_main.psys"/>
+		<Item id="PS_DRONE_EX_MAIN1"					file="data\Effects\Guns\drone_ex_main1.psys"/>
+
+
+		<Item id="PS_DRONE_FIRE_MAIN"					file="data\Effects\Guns\drone_fire_main.psys"/>
+		<Item id="PS_DRONE_FIRE_MAIN1"				file="data\Effects\Guns\drone_fire_main1.psys"/>
+
+		<Item id="PS_DRONE_TRAIL_MAIN"				file="data\Effects\Guns\drone_trail_main.psys"/>
+
+		<Item id="PS_ROB_FIRE_MAIN"					file="data\Effects\Guns\rob_fire_main.psys"/>
+		<Item id="PS_ROB_FIRE_MAIN1"					file="data\Effects\Guns\rob_fire_main1.psys"/>
+		<Item id="PS_LIGHT_WEATHER"					file="data\Effects\Other\light_wheather.psys"/>
+		<Item id="PS_SNOW_WEATHER"					file="data\Effects\Other\snow_wheather.psys"/>
+		<Item id="PS_RAIN_WEATHER"					file="data\Effects\Other\rain_wheather.psys"/>
+		<Item id="PS_WIND_WEATHER"					file="data\Effects\Other\wind_wheather.psys"/>
+
+		<Item id="PS_TURBO_MAIN"					file="data\Effects\Vehicles\turbo_main.psys"/>
+		<Item id="PS_TURBO_MAIN1"					file="data\Effects\Vehicles\turbo_main1.psys"/>
+	
+	<Item id="PS_SUBMARINE_WAVE"					file="data\Effects\Other\submarine_wave.psys"/>
+	<Item id="PS_SUBMARINE_WAVE1"					file="data\Effects\Other\submarine_wave1.psys"/>
+	<Item id="PS_SUBMARINE_WAVE2"					file="data\Effects\Other\submarine_wave2.psys"/>
+
+<!--lights-->
+		<Item id="PS_LENS_D1"			file="data\Effects\Lights\lens_d1.psys"/>
+		<Item id="PS_LENS_D2"			file="data\Effects\Lights\lens_d2.psys"/>
+		<Item id="PS_LENS_D3"			file="data\Effects\Lights\lens_d3.psys"/>
+		<Item id="PS_LENS_D4"			file="data\Effects\Lights\lens_d4.psys"/>
+		<Item id="PS_LENS_D5"			file="data\Effects\Lights\lens_d5.psys"/>
+		<Item id="PS_LENS_D6"			file="data\Effects\Lights\lens_d6.psys"/>
+		<Item id="PS_LENS_D7"			file="data\Effects\Lights\lens_d7.psys"/>
+
+		<Item id="PS_LENS_S1"			file="data\Effects\Lights\lens_s1.psys"/>
+		<Item id="PS_LENS_S2"			file="data\Effects\Lights\lens_s2.psys"/>
+		<Item id="PS_LENS_S3"			file="data\Effects\Lights\lens_s3.psys"/>
+		<Item id="PS_LENS_S4"			file="data\Effects\Lights\lens_s4.psys"/>
+		<Item id="PS_LENS_S5"			file="data\Effects\Lights\lens_s5.psys"/>
+		<Item id="PS_LENS_S6"			file="data\Effects\Lights\lens_s6.psys"/>
+		<Item id="PS_LENS_S7"			file="data\Effects\Lights\lens_s7.psys"/>
+		<Item id="PS_LENS_S8"			file="data\Effects\Lights\lens_s8.psys"/>
+		<Item id="PS_LENS_S9"			file="data\Effects\Lights\lens_s9.psys"/>
+		<Item id="PS_LENS_S10"			file="data\Effects\Lights\lens_s10.psys"/>
+
+<!--others-->
+		<Item id="PS_BOSS1_SP"					file="data\Effects\Other\boss1_sp.psys"/>
+		<Item id="PS_BOSS1_FIRE"					file="data\Effects\Other\boss1_fire.psys"/>
+		<Item id="PS_BOSS1_SMOKE"					file="data\Effects\Other\boss1_smoke.psys"/>
+		<Item id="PS_BOSS1_MAIN"					file="data\Effects\Other\boss1_main.psys"/>
+		<Item id="PS_BOSS1_MAIN1"					file="data\Effects\Other\boss1_main1.psys"/>
+		<Item id="PS_BOSS1_MAIN2"					file="data\Effects\Other\boss1_main2.psys"/>
+		<Item id="PS_BOSS1_MAIN3"					file="data\Effects\Other\boss1_main3.psys"/>
+		<Item id="PS_BOSS1_MAIN4"					file="data\Effects\Other\boss1_main4.psys"/>
+
+		<Item id="PS_BOSS2_MAIN"					file="data\Effects\Other\boss2_main.psys"/>
+		<Item id="PS_BOSS2_MAIN_LONG"					file="data\Effects\Other\boss2_main_long.psys"/>
+		<Item id="PS_BOSS2_MAIN1"					file="data\Effects\Other\boss2_main1.psys"/>
+		<Item id="PS_BOSS2_MAIN2"					file="data\Effects\Other\boss2_main2.psys"/>
+
+		<Item id="PS_RADUGA_MAIN"					file="data\Effects\Other\raduga_main.psys"/>
+		<Item id="PS_ZEUS01_FIRE_MAIN"				file="data\Effects\Guns\zeus01_fire_main.psys"/>
+
+		<Item id="PS_OIL_MAIN"						file="data\Effects\Other\oil_main.psys"/>
+		<Item id="PS_OIL_MAIN1"						file="data\Effects\Other\oil_main1.psys"/>
+		<Item id="PS_MDUST_MAIN"					file="data\Effects\Other\mdust_main.psys"/>
+		<Item id="PS_BLSMOKE_MAIN"					file="data\Effects\Other\blsmoke_main.psys"/>
+
+		<Item id="PS_LIGHT_WHEATHER"					file="data\Effects\Other\light_wheather.psys"/>
+		<Item id="PS_SNOW_WHEATHER"					file="data\Effects\Other\snow_wheather.psys"/>
+		<Item id="PS_RAIN_WHEATHER"					file="data\Effects\Other\rain_wheather.psys"/>
+		<Item id="PS_WIND_WHEATHER"					file="data\Effects\Other\wind_wheather.psys"/>
+
+		<Item id="PS_VBIG_SMOKE1"					file="data\Effects\Other\vbig_smoke1.psys"/>
+
+		<Item id="PS_BIG_SMOKE1"					file="data\Effects\Other\big_smoke1.psys"/>
+		<Item id="PS_BIG_SMOKE2"					file="data\Effects\Other\big_smoke2.psys"/>
+		<Item id="PS_BIG_SMOKE3"					file="data\Effects\Other\big_smoke3.psys"/>
+
+		<Item id="PS_BRIDGE_EXP_MAIN"					file="data\Effects\Other\bridge_exp_main.psys"/>
+		<Item id="PS_BRIDGE_EXP_MAIN1"				file="data\Effects\Other\bridge_exp_main1.psys"/>
+
+		<Item id="PS_BRIDGE_EXP_SMOKE1"				file="data\Effects\Other\bridge_exp_smoke1.psys"/>
+		<Item id="PS_BRIDGE_EXP_SMOKE2"				file="data\Effects\Other\bridge_exp_smoke2.psys"/>
+
+		<Item id="PS_BRIDGE_EXP_EX1"					file="data\Effects\Other\bridge_exp_ex1.psys"/>
+		<Item id="PS_BRIDGE_EXP_EX2"					file="data\Effects\Other\bridge_exp_ex2.psys"/>
+		<Item id="PS_BRIDGE_EXP_EX3"					file="data\Effects\Other\bridge_exp_ex3.psys"/>
+		<Item id="PS_BRIDGE_EXP_EX4"					file="data\Effects\Other\bridge_exp_ex4.psys"/>
+
+		<Item id="PS_ORACUL_MAIN1"					file="data\Effects\Other\oracul_main1.psys"/>
+		<Item id="PS_ORACUL_MAIN2"					file="data\Effects\Other\oracul_main2.psys"/>
+		<Item id="PS_ORACUL_MAIN3"					file="data\Effects\Other\oracul_main3.psys"/>
+		<Item id="PS_ORACUL_MAIN4"					file="data\Effects\Other\oracul_main4.psys"/>
+		<Item id="PS_ORACUL_MAIN5"					file="data\Effects\Other\oracul_main5.psys"/>
+		<Item id="PS_ORACUL_MAIN6"					file="data\Effects\Other\oracul_main6.psys"/>
+		<Item id="PS_ORACUL_MAIN7"					file="data\Effects\Other\oracul_main7.psys"/>
+		<Item id="PS_ORACUL_MAIN8"					file="data\Effects\Other\oracul_main8.psys"/>
+
+		<Item id="PS_HOUSE_MED_FIRE_1"				file="data\Effects\Other\house_med_fire_1.psys"/>
+		<Item id="PS_HOUSE_MED_FIRE_2"				file="data\Effects\Other\house_med_fire_2.psys"/>
+		<Item id="PS_HOUSE_MED_FIRE_3"				file="data\Effects\Other\house_med_fire_3.psys"/>
+
+		<Item id="PS_HOUSE_SMALL_FIRE_1"				file="data\Effects\Other\house_small_fire_1.psys"/>
+		<Item id="PS_HOUSE_SMALL_FIRE_3"				file="data\Effects\Other\house_small_fire_3.psys"/>
+
+		<Item id="PS_CANNON_EXP_MAIN"					file="data\Effects\Other\cannon_exp_main.psys"/>
+		<Item id="PS_CANNON_EXP_MAIN1"				file="data\Effects\Other\cannon_exp_main1.psys"/>
+		<Item id="PS_CANNON_EXP_MAIN2"				file="data\Effects\Other\cannon_exp_main2.psys"/>
+		<Item id="PS_CANNON_EXP_MAIN3"				file="data\Effects\Other\cannon_exp_main2.psys"/>
+		<Item id="PS_HARD_BLOW" 					file="data\Effects\Rockets\odin_light_main.psys"/>
+		<Item id="PS_AIRWAVE_MAIN" 					file="data\Effects\other\airwave_main.psys"/>
+		<Item id="PS_AIRWAVE1_MAIN" 					file="data\Effects\other\airwave1_main.psys"/>
+		<Item id="PS_AIRWAVE2_MAIN" 					file="data\Effects\other\airwave2_main.psys"/>
+		<Item id="PS_SMOKE" 						file="data\Effects\other\smoke.psys"/>
+		<Item id="PS_GROUNDSPLASH" 					file="data\Effects\other\GroundSplash.psys"/>
+		<Item id="PS_SPARKLE_SMALL_MAIN"				file="data\Effects\other\sparkle_small_main.psys"/>
+		<Item id="PS_SPARKLE_BIG_MAIN"				file="data\Effects\other\sparkle_big_main.psys"/>
+		<Item id="PS_SPARKLE_BIG_MAIN1"				file="data\Effects\other\sparkle_big_main1.psys"/>
+		<Item id="PS_SPARKLE_BIG_MAIN2"				file="data\Effects\other\sparkle_big_main2.psys"/>
+		<Item id="PS_GLOW" 						file="data\Effects\other\glow.psys"/>
+		<Item id="PS_GLOW_QUAD" 					file="data\Effects\other\glow_quad.psys"/>
+
+		<Item id="PS_WHEELFIRE" 			file="data\Effects\other\wheel_fire.psys"/>
+		<Item id="PS_WHEELFIRE1" 			file="data\Effects\other\wheel_fire1.psys"/>
+		<Item id="PS_WHEELFIRE2" 			file="data\Effects\other\wheel_fire2.psys"/>
+	
+		<Item id="PS_WSPLASH_MAIN" 		file="data\Effects\other\wsplash_main.psys"/>
+		<Item id="PS_WSPLASH_RING" 		file="data\Effects\other\wsplash_ring.psys"/>
+
+		<Item id="PS_ASPHALTSMOKE" 			file="data\Effects\other\asphaltsmoke.psys"/>
+
+		<Item id="PS_ROADSMOKE_MAIN" 			file="data\Effects\other\roadsmoke_main.psys"/>
+		<Item id="PS_ROADSMOKE1_MAIN" 		file="data\Effects\other\roadsmoke1_main.psys"/>
+
+		<Item id="PS_VEN_EXP_MAIN" 			file="data\Effects\other\ven_exp_main.psys"/>
+		<Item id="PS_VEN_EXP_MAIN1" 			file="data\Effects\other\ven_exp_main1.psys"/>
+		<Item id="PS_VEN_EXP_MAIN2" 			file="data\Effects\other\ven_exp_main2.psys"/>
+		<Item id="PS_VEN_EXP_SMOKE" 			file="data\Effects\other\ven_exp_smoke.psys"/>
+		<Item id="PS_VEN_EXP_SMOKE1" 			file="data\Effects\other\ven_exp_smoke1.psys"/>
+		<Item id="PS_VEN_EXP_SPARKLE" 		file="data\Effects\venexps\ven_exp_sparkle.psys"/>
+
+<!--Rockets-->
+		<Item id="PS_ROCKET_BIG_GLOW" 		file="data\Effects\rockets\rocket_big_glow.psys"/>
+		<Item id="PS_ROCKET_BIG_SMOKE" 		file="data\Effects\rockets\rocket_big_smoke.psys"/>
+		<Item id="PS_ROCKET_BIG_TRAIL" 		file="data\Effects\rockets\rocket_big_trail.psys"/>
+		<Item id="PS_ROCKET_BIG_SMOKE1" 		file="data\Effects\rockets\rocket_big_smoke1.psys"/>
+		<Item id="PS_ROCKET_BIG_SMOKE2" 		file="data\Effects\rockets\rocket_big_smoke2.psys"/>
+
+		<Item id="PS_GR_SMOKE1" 		file="data\Effects\rockets\gr_smoke1.psys"/>
+		<Item id="PS_GR_SMOKE" 		file="data\Effects\rockets\gr_smoke.psys"/>
+
+<!--Breakable object-->
+		<Item id="PS_B1WCV" 		file="data\Effects\Breakable\brick1wallcrash_veh.psys"/>
+		<Item id="PS_B2WCV" 		file="data\Effects\Breakable\brick2wallcrash_veh.psys"/>
+		<Item id="PS_SWCV" 		file="data\Effects\Breakable\sackwallcrash_veh.psys"/>
+		<Item id="PS_WWCV" 		file="data\Effects\Breakable\woodwallcrash_veh.psys"/>
+
+		<Item id="PS_WWV" 		file="data\Effects\Breakable\woodwallconflict_veh.psys"/>
+		<Item id="PS_BWV" 		file="data\Effects\Breakable\brickwallconflict_veh.psys"/>
+
+		<Item id="PS_WS" 		file="data\Effects\Breakable\woodsmoke.psys"/>
+
+		<Item id="PS_B1WCGUN" 	file="data\Effects\Breakable\brick1wallcrash_gun.psys"/>
+		<Item id="PS_B2WCGUN" 	file="data\Effects\Breakable\brick2wallcrash_gun.psys"/>
+		<Item id="PS_SWCGUN" 	file="data\Effects\Breakable\sackwallcrash_gun.psys"/>
+		<Item id="PS_WWCGUN" 	file="data\Effects\Breakable\woodwallcrash_gun.psys"/>
+		<Item id="PS_S1CGUN"	 	file="data\Effects\Breakable\stolb1crash_gun.psys"/>
+		<Item id="PS_S2CGUN"	 	file="data\Effects\Breakable\stolb2crash_gun.psys"/>
+		<Item id="PS_T1CGUN"	 	file="data\Effects\Breakable\tree1crash_gun.psys"/>
+		<Item id="PS_T2CGUN"	 	file="data\Effects\Breakable\tree2crash_gun.psys"/>
+		<Item id="PS_MCGUN"	 	file="data\Effects\Breakable\metalcrash_gun.psys"/>
+		<Item id="PS_BC1GUN"	 	file="data\Effects\Breakable\barrelcrash_gun.psys"/>
+		<Item id="PS_BC2GUN"	 	file="data\Effects\Breakable\barrelcrash_gun.psys"/>
+		<Item id="PS_BC3GUN"	 	file="data\Effects\Breakable\barrelcrash_gun.psys"/>
+
+		<Item id="PS_STOLB_CRASH_SMOKE"	 	file="data\Effects\Breakable\stolb_crash_smoke.psys"/>
+		<Item id="PS_STOLB_CRASH_SMOKE2"	 	file="data\Effects\Breakable\stolb_crash_smoke2.psys"/>
+
+		<Item id="PS_TREE_CRASH_SMOKE"	 	file="data\Effects\Breakable\tree_crash_smoke.psys"/>
+		<Item id="PS_TREE_CRASH_SMOKE2"	 	file="data\Effects\Breakable\tree_crash_smoke2.psys"/>
+		<Item id="PS_TREE_CRASH_SMOKE3"	 	file="data\Effects\Breakable\tree_crash_smoke3.psys"/>
+		<Item id="PS_TREE_CRASH_DUST"	 	file="data\Effects\Breakable\tree_crash_dust.psys"/>
+		<Item id="PS_TREE_CRASH_POST"	 		file="data\Effects\Breakable\tree_crash_post.psys"/>
+		<Item id="PS_TREE_CRASH_TRAIL"	 		file="data\Effects\Breakable\tree_crash_trail.psys"/>
+		<Item id="PS_TREE_CRASH_MAIZE"	 		file="data\Effects\Breakable\tree_crash_maize.psys"/>
+
+		<Item id="PS_TREE_HIT_DUST"	 	file="data\Effects\Breakable\tree_hit_dust.psys"/>
+		<Item id="PS_TREE_HIT_SERGE"	 	file="data\Effects\Breakable\tree_hit_serge.psys"/>
+
+		<Item id="PS_BARREL_CRASH1_DERB"	 	file="data\Effects\Breakable\barrel_crash1_derb.psys"/>
+		<Item id="PS_BARREL_CRASH2_DERB"	 	file="data\Effects\Breakable\barrel_crash2_derb.psys"/>
+		<Item id="PS_BARREL_CRASH3_DERB"	 	file="data\Effects\Breakable\barrel_crash3_derb.psys"/>
+
+		<Item id="PS_BARREL_GREEN_SMOKE"	 	file="data\Effects\Breakable\barrel_green_smoke.psys"/>
+		<Item id="PS_BARREL_GREEN_TRAIL"	 	file="data\Effects\Breakable\barrel_green_trail.psys"/>
+		<Item id="PS_BARREL_GREEN_SPOT"	 	file="data\Effects\Breakable\barrel_green_spot.psys"/>
+
+		<Item id="PS_BRICKWALL_CRASH_SMOKE"	 	file="data\Effects\Breakable\brickwall_crash_smoke.psys"/>
+
+		<Item id="PS_BARREL_FIRE_TRAIL"	 	file="data\Effects\Breakable\barrel_fire_trail.psys"/>
+
+<!--splashes-->
+		<Item id="PS_BIGGRASSSPLASH_MAIN" 	file="data\Effects\splashes\big_grass_splash_main.psys"/>
+		<Item id="PS_BIGGRASSSPLASH_SMOKE" 	file="data\Effects\splashes\big_grass_splash_smoke.psys"/>
+
+		<Item id="PS_BIGGROUNDSPLASH_SMOKE" 	file="data\Effects\splashes\big_ground_splash_smoke.psys"/>
+		<Item id="PS_BIGSANDSPLASH_SMOKE" 	file="data\Effects\splashes\big_sand_splash_smoke.psys"/>
+
+		<Item id="PS_SMALLGRASSSPLASH_MAIN" 	file="data\Effects\splashes\small_grass_splash_main.psys"/>
+		<Item id="PS_SMALLGRASSSPLASH_SMOKE" 	file="data\Effects\splashes\small_grass_splash_smoke.psys"/>
+		<Item id="PS_SMALLGROUNDSPLASH_SMOKE" 	file="data\Effects\splashes\small_ground_splash_smoke.psys"/>
+		<Item id="PS_SMALLSANDSPLASH_SMOKE" 	file="data\Effects\splashes\small_sand_splash_smoke.psys"/>
+
+<!--venicle explosions-->
+		<Item id="PS_VEN_EXP1_SMALL_MAIN2" 			file="data\Effects\venexps\ven_exp1_small_main2.psys"/>
+		<Item id="PS_VEN_EXP1_SMALL_MAIN2_1" 			file="data\Effects\venexps\ven_exp1_small_main2_1.psys"/>
+
+		<Item id="PS_VEN_EXP1_SMALL_SMOKE" 			file="data\Effects\venexps\ven_exp1_small_smoke.psys"/>
+		<Item id="PS_VEN_EXP1_SMALL_SMOKE_1" 		file="data\Effects\venexps\ven_exp1_small_smoke1.psys"/>
+		<Item id="PS_VEN_EXP1_SMALL_DUST" 			file="data\Effects\venexps\ven_exp1_small_dust.psys"/>
+
+		<Item id="PS_VEN_EXP1_SMALL1_SMOKE" 		file="data\Effects\venexps\ven_exp1_small1_smoke.psys"/>
+		<Item id="PS_VEN_EXP1_SMALL2_SMOKE" 		file="data\Effects\venexps\ven_exp1_small2_smoke.psys"/>
+
+		<Item id="PS_VEN_EXP1_MED_MAIN2" 			file="data\Effects\venexps\ven_exp1_med_main2.psys"/>
+		<Item id="PS_VEN_EXP1_MED_MAIN3" 			file="data\Effects\venexps\ven_exp1_med_main3.psys"/>
+		<Item id="PS_VEN_EXP1_MED_SMOKE" 			file="data\Effects\venexps\ven_exp1_med_smoke.psys"/>
+		<Item id="PS_VEN_EXP1_MED_SMOKE2" 			file="data\Effects\venexps\ven_exp1_med_smoke2.psys"/>
+		<Item id="PS_VEN_EXP1_MED_SMOKE3" 			file="data\Effects\venexps\ven_exp1_med_smoke3.psys"/>
+		<Item id="PS_VEN_EXP1_MED_DUST" 			file="data\Effects\venexps\ven_exp1_med_dust.psys"/>
+
+		<Item id="PS_CHASSIS_FIRE_SMALL_MAIN" 		file="data\Effects\venexps\chassis_fire_small_main.psys"/>
+		<Item id="PS_CHASSIS_FIRE_SMALL_SMOKE2" 		file="data\Effects\venexps\chassis_fire_small_smoke2.psys"/>
+		<Item id="PS_CHASSIS_FIRE_SMALL_SMOKE1" 		file="data\Effects\venexps\chassis_fire_small_smoke1.psys"/>
+		<Item id="PS_CHASSIS_FIRE_SMALL1_SMOKE2" 		file="data\Effects\venexps\chassis_fire_small1_smoke2.psys"/>
+
+		<Item id="PS_WHEEL_FIRE_SMALL_MAIN1" 			file="data\Effects\venexps\wheel_fire_small_main1.psys"/>
+		<Item id="PS_WHEEL_FIRE_SMALL_MAIN2" 			file="data\Effects\venexps\wheel_fire_small_main2.psys"/>
+		<Item id="PS_WHEEL_FIRE_SMALL_SMOKE1" 			file="data\Effects\venexps\wheel_fire_small_smoke1.psys"/>
+		<Item id="PS_WHEEL_FIRE_SMALL1_SMOKE1" 			file="data\Effects\venexps\wheel_fire_small1_smoke1.psys"/>
+
+		<Item id="PS_WHEEL_FIRE_MED_MAIN1" 			file="data\Effects\venexps\wheel_fire_med_main1.psys"/>
+		<Item id="PS_WHEEL_FIRE_MED_MAIN2" 			file="data\Effects\venexps\wheel_fire_med_main2.psys"/>
+		<Item id="PS_WHEEL_FIRE_MED_SMOKE1" 			file="data\Effects\venexps\wheel_fire_med_smoke1.psys"/>
+		<Item id="PS_WHEEL_FIRE_MED1_SMOKE1" 			file="data\Effects\venexps\wheel_fire_med1_smoke1.psys"/>
+
+		<Item id="PS_WHEEL_FIRE_BIG_MAIN1" 			file="data\Effects\venexps\wheel_fire_big_main1.psys"/>
+		<Item id="PS_WHEEL_FIRE_BIG_MAIN2" 			file="data\Effects\venexps\wheel_fire_big_main2.psys"/>
+		<Item id="PS_WHEEL_FIRE_BIG_SMOKE1" 			file="data\Effects\venexps\wheel_fire_big_smoke1.psys"/>
+		<Item id="PS_WHEEL_FIRE_BIG1_SMOKE1" 			file="data\Effects\venexps\wheel_fire_big1_smoke1.psys"/>
+
+		<Item id="PS_VEN_PART_FIRE" 					file="data\Effects\venexps\ven_part_fire.psys"/>
+		<Item id="PS_VEN_PART_SMOKE1" 					file="data\Effects\venexps\ven_part_smoke1.psys"/>
+		<Item id="PS_VEN_PART_SPARKLE1" 					file="data\Effects\venexps\ven_part_sparkle1.psys"/>
+		<Item id="PS_VEN_PART_SPARKLE2" 					file="data\Effects\venexps\ven_part_sparkle2.psys"/>
+
+		<Item id="PS_VEN_PART_EXP1" 					file="data\Effects\VenExps\ven_part_ex1.psys"/>
+		<Item id="PS_VEN_PART_EXP2" 					file="data\Effects\venexps\ven_part_ex2.psys"/>
+		<Item id="PS_VEN_PART_EXP2_1" 					file="data\Effects\venexps\ven_part_ex2_1.psys"/>
+		<Item id="PS_VEN_PART_EXP3" 					file="data\Effects\venexps\ven_part_ex3.psys"/>
+		<Item id="PS_VEN_PART_EXP4" 					file="data\Effects\venexps\ven_part_ex4.psys"/>
+		<Item id="PS_VEN_PART_EXP41" 					file="data\Effects\venexps\ven_part_ex41.psys"/>
+		<Item id="PS_VEN_PART_EXP42" 					file="data\Effects\venexps\ven_part_ex42.psys"/>
+		<Item id="PS_VEN_PART_EXP43" 					file="data\Effects\venexps\ven_part_ex43.psys"/>
+		<Item id="PS_VEN_PART_EXP44" 					file="data\Effects\venexps\ven_part_ex44.psys"/>
+		<Item id="PS_VEN_PART_EXP45" 					file="data\Effects\venexps\ven_part_ex45.psys"/>
+		<Item id="PS_VEN_PART_EXP46" 					file="data\Effects\venexps\ven_part_ex46.psys"/>
+
+		<Item id="PS_VEN_PART_BIG_EXP41"				file="data\Effects\venexps\ven_part_big_ex41.psys"/>
+		<Item id="PS_VEN_PART_BIG_EXP43"				file="data\Effects\venexps\ven_part_big_ex43.psys"/>
+		<Item id="PS_VEN_PART_BIG_EXP44"				file="data\Effects\venexps\ven_part_big_ex44.psys"/>
+		<Item id="PS_VEN_PART_BIG_EXP46"				file="data\Effects\venexps\ven_part_big_ex46.psys"/>
+		<Item id="PS_VEN_PART_BIG_EXP47"				file="data\Effects\venexps\ven_part_big_ex47.psys"/>
+
+<!--explosions-->
+		<Item id="PS_BSMOKE_BLAST_TRAIL_SMALL" 	file="data\Effects\explosions\bsmoke_blast_trail_small.psys"/>
+		<Item id="PS_WATER_BUBBLE_TRAIL" 	file="data\Effects\explosions\water_bubble_trail.psys"/>
+
+		<Item id="PS_WSMOKE_BLAST_TRAIL_SMALL" 	file="data\Effects\explosions\wsmoke_blast_trail_small.psys"/>
+		<Item id="PS_WSMOKE_BLAST_TRAIL_BIG" 	file="data\Effects\explosions\wsmoke_blast_trail_big.psys"/>
+		<Item id="PS_WSMOKE_BIG_TRAIL_SMALL" 	file="data\Effects\explosions\wsmoke_big_trail_small.psys"/>
+		<Item id="PS_WSMOKE_BIG_TRAIL_BIG" 	file="data\Effects\explosions\wsmoke_big_trail_big.psys"/>
+
+		<Item id="PS_FIRE_BLAST_TRAIL_SMALL" 	file="data\Effects\explosions\fire_blast_trail_small.psys"/>
+		<Item id="PS_FIRE_BLAST_TRAIL_SMALL1" 	file="data\Effects\explosions\fire_blast_trail_small1.psys"/>
+
+		<Item id="PS_GROUND_MACHINEGUN_TRAIL_BIG" file="data\Effects\explosions\ground_machinegun_trail_big.psys"/>
+		<Item id="PS_GROUND_CANNON_TRAIL_BIG" 	file="data\Effects\explosions\ground_cannon_trail_big.psys"/>
+		<Item id="PS_GROUND_BLAST_TRAIL_BIG" 	file="data\Effects\explosions\ground_blast_trail_big.psys"/>
+		<Item id="PS_GROUND_BLAST_TRAIL_BIG_UP" 	file="data\Effects\explosions\ground_blast_trail_big_up.psys"/>
+		<Item id="PS_GROUND_AUTOCANNON_TRAIL_BIG" 	file="data\Effects\explosions\ground_autocannon_trail_big.psys"/>
+
+		<Item id="PS_SAND_MACHINEGUN_TRAIL_BIG" file="data\Effects\explosions\sand_machinegun_trail_big.psys"/>
+		<Item id="PS_SAND_CANNON_TRAIL_BIG" 	file="data\Effects\explosions\sand_cannon_trail_big.psys"/>
+		<Item id="PS_SAND_BLAST_TRAIL_BIG" 	file="data\Effects\explosions\sand_blast_trail_big.psys"/>
+		<Item id="PS_SAND_BLAST_TRAIL_BIG_UP" 	file="data\Effects\explosions\sand_blast_trail_big_up.psys"/>
+		<Item id="PS_SAND_AUTOCANNON_TRAIL_BIG" 	file="data\Effects\explosions\sand_autocannon_trail_big.psys"/>
+
+		<Item id="PS_GRASS_MACHINEGUN_TRAIL_BIG" 	file="data\Effects\explosions\grass_machinegun_trail_big.psys"/>
+		<Item id="PS_GRASS_BLAST_TRAIL_BIG" 	file="data\Effects\explosions\grass_blast_trail_big.psys"/>
+		<Item id="PS_GRASS_AUTOCANNON_TRAIL_BIG" 	file="data\Effects\explosions\grass_autocannon_trail_big.psys"/>
+
+		<Item id="PS_ASP_MACHINEGUN_TRAIL_BIG" 	file="data\Effects\explosions\asp_machinegun_trail_big.psys"/>
+		<Item id="PS_ASP_AUTOCANNON_TRAIL_BIG" 	file="data\Effects\explosions\asp_autocannon_trail_big.psys"/>
+
+		<Item id="PS_WATER_BLAST_TRAIL_BIG" 	file="data\Effects\explosions\water_blast_trail_big.psys"/>
+		<Item id="PS_WATER_CANNON_TRAIL_BIG" 	file="data\Effects\explosions\water_cannon_trail_big.psys"/>
+		<Item id="PS_WATER_AUTOCANNON_TRAIL_BIG" 	file="data\Effects\explosions\water_autocannon_trail_big.psys"/>
+		<Item id="PS_WATER_GRENADE_TRAIL_BIG" 	file="data\Effects\explosions\water_grenade_trail_big.psys"/>
+		<Item id="PS_WATER_PLASMA_TRAIL"   		file="data\Effects\explosions\water_plasma_trail.psys"/>
+
+		<Item id="PS_FIRE_CANNON_TRAIL_BIG" 		file="data\Effects\explosions\fire_cannon_trail_big.psys"/>
+
+
+		<Item id="PS_WATER_PLASMA_EXP" 		file="data\Effects\explosions\water_plasma_exp.psys"/>
+		<Item id="PS_WATER_BLAST_EXP" 		file="data\Effects\explosions\water_blast_exp.psys"/>
+		<Item id="PS_WATER_CANNON_EXP" 		file="data\Effects\explosions\water_cannon_exp.psys"/>
+		<Item id="PS_WATER_AUTOCANNON_EXP" 		file="data\Effects\explosions\water_autocannon_exp.psys"/>
+		<Item id="PS_WATER_GRENADE_EXP" 		file="data\Effects\explosions\water_grenade_exp.psys"/>
+
+		<Item id="PS_FIRE_BLAST_EXP" 			file="data\Effects\explosions\fire_blast_exp.psys"/>
+		<Item id="PS_FIRE_BLAST_EXP1" 		file="data\Effects\explosions\fire_blast_exp1.psys"/>
+		<Item id="PS_FIRE_BLAST_EXP_UP"		file="data\Effects\explosions\fire_blast_exp_up.psys"/>
+
+		<Item id="PS_FIRE_CANNON_EXP" 		file="data\Effects\explosions\fire_cannon_exp.psys"/>
+		<Item id="PS_FIRE_CANNON_EXP1" 		file="data\Effects\explosions\fire_cannon_exp1.psys"/>
+		<Item id="PS_FIRE_CANNON_EXP2" 		file="data\Effects\explosions\fire_cannon_exp2.psys"/>
+
+		<Item id="PS_FIRE_MACHINRGUN_EXP" 		file="data\Effects\explosions\fire_machinegun_exp.psys"/>
+
+		<Item id="PS_OBJ_BLAST_EXP" 			file="data\Effects\explosions\obj_blast_exp.psys"/>
+
+
+		<Item id="PS_WATER_BLAST_GROUND" 		file="data\Effects\explosions\water_blast_ground.psys"/>
+		<Item id="PS_WATER_CANNON_GROUND" 		file="data\Effects\explosions\water_cannon_ground.psys"/>
+
+		<Item id="PS_FIRE_BLAST_GROUND" 		file="data\Effects\explosions\fire_blast_ground.psys"/>
+		<Item id="PS_GROUND_BLAST_GROUND" 		file="data\Effects\explosions\ground_blast_ground.psys"/>
+		<Item id="PS_GROUND_BLAST_GROUND_UP" 		file="data\Effects\explosions\ground_blast_ground_up.psys"/>
+		<Item id="PS_GROUND_BLAST_SPOT" 		file="data\Effects\explosions\ground_blast_spot.psys"/>
+		<Item id="PS_GROUND_MACHINEGUN_GROUND" 	file="data\Effects\explosions\ground_machinegun_ground.psys"/>
+		<Item id="PS_GROUND_CANNON_GROUND"	 	file="data\Effects\explosions\ground_cannon_ground.psys"/>
+		<Item id="PS_GROUND_CANNON_GROUND1"	 	file="data\Effects\explosions\ground_cannon_ground1.psys"/>
+		<Item id="PS_GROUND_AUTOCANNON_GROUND"	 	file="data\Effects\explosions\ground_autocannon_ground.psys"/>
+		<Item id="PS_GROUND_AUTOCANNON_GROUND1"	 	file="data\Effects\explosions\ground_autocannon_ground1.psys"/>
+
+		<Item id="PS_SAND_BLAST_GROUND" 		file="data\Effects\explosions\sand_blast_sand.psys"/>
+		<Item id="PS_SAND_BLAST_GROUND_UP" 		file="data\Effects\explosions\sand_blast_sand_up.psys"/>
+		<Item id="PS_SAND_BLAST_SPOT" 		file="data\Effects\explosions\sand_blast_spot.psys"/>
+		<Item id="PS_SAND_MACHINEGUN_GROUND" 	file="data\Effects\explosions\sand_machinegun_sand.psys"/>
+		<Item id="PS_SAND_CANNON_GROUND"	 	file="data\Effects\explosions\sand_cannon_sand.psys"/>
+		<Item id="PS_SAND_CANNON_GROUND1"	 	file="data\Effects\explosions\sand_cannon_sand1.psys"/>
+		<Item id="PS_SAND_AUTOCANNON_GROUND"	 	file="data\Effects\explosions\sand_autocannon_sand.psys"/>
+		<Item id="PS_SAND_AUTOCANNON_GROUND1"	 	file="data\Effects\explosions\sand_autocannon_sand1.psys"/>
+
+		<Item id="PS_GRASS_BLAST_GROUND" 		file="data\Effects\explosions\grass_blast_ground.psys"/>
+		<Item id="PS_GRASS_CANNON_GROUND" 		file="data\Effects\explosions\grass_cannon_ground.psys"/>
+		<Item id="PS_GRASS_CANNON_GROUND1" 		file="data\Effects\explosions\grass_cannon_ground1.psys"/>
+		<Item id="PS_GRASS_AUTOCANNON_GROUND1" 		file="data\Effects\explosions\grass_autocannon_ground1.psys"/>
+
+		<Item id="PS_ASP_BLAST_GROUND" 			file="data\Effects\explosions\asp_blast_ground.psys"/>
+
+		<Item id="PS_BRICK_CANNON_GROUND" 			file="data\Effects\explosions\brick_cannon_ground.psys"/>
+		<Item id="PS_BRICK_CANNON_GROUND1" 			file="data\Effects\explosions\brick_cannon_ground1.psys"/>
+
+
+		<Item id="PS_WATER_BLAST_GRASS" 			file="data\Effects\explosions\water_blast_grass.psys"/>
+		<Item id="PS_WATER_BLAST_DUST" 			file="data\Effects\explosions\water_blast_dust.psys"/>
+		<Item id="PS_WATER_PLASMA_DUST" 			file="data\Effects\explosions\water_plasma_dust.psys"/>
+
+		<Item id="PS_GROUND_BLAST_DUST" 			file="data\Effects\explosions\ground_blast_dust.psys"/>
+		<Item id="PS_GROUND_BLAST_DUST_UP" 			file="data\Effects\explosions\ground_blast_dust_up.psys"/>
+
+		<Item id="PS_SAND_BLAST_DUST" 			file="data\Effects\explosions\sand_blast_dust.psys"/>
+		<Item id="PS_SAND_BLAST_DUST_UP" 			file="data\Effects\explosions\sand_blast_dust_up.psys"/>
+
+		<Item id="PS_GRASS_BLAST_DUST" 			file="data\Effects\explosions\grass_blast_dust.psys"/>
+		<Item id="PS_GRASS_BLAST_DUST_BIG" 		file="data\Effects\explosions\grass_blast_dust_big.psys"/>
+		<Item id="PS_GRASS_MACHINEGUN_DUST" 		file="data\Effects\explosions\grass_machinegun_dust.psys"/>
+		<Item id="PS_GRASS_CANNON_DUST_SMALL" 	file="data\Effects\explosions\grass_cannon_dust_small.psys"/>
+		<Item id="PS_GRASS_AUTOCANNON_DUST_SMALL" 			file="data\Effects\explosions\grass_autocannon_dust_small.psys"/>
+
+		<Item id="PS_ASP_BLAST_DUST_BIG" 			file="data\Effects\explosions\asp_blast_dust_big.psys"/>
+		<Item id="PS_ASP_BLAST_DUST_SMALL" 		file="data\Effects\explosions\asp_blast_dust_small.psys"/>
+		<Item id="PS_ASP_MACHINEGUN_DUST_SMALL" 		file="data\Effects\explosions\asp_machinegun_dust_small.psys"/>
+		<Item id="PS_ASP_AUTOCANNON_DUST_BIG" 			file="data\Effects\explosions\asp_autocannon_dust_big.psys"/>
+
+		<Item id="PS_WOOD_MACHINEGUN_DUST_BIG" 			file="data\Effects\explosions\wood_machinegun_dust_big.psys"/>
+		<Item id="PS_WOOD_MACHINEGUN_DUST_SMALL" 		file="data\Effects\explosions\wood_machinegun_dust_small.psys"/>
+
+		<Item id="PS_BRICK_MACHINEGUN_DUST_BIG" 			file="data\Effects\explosions\brick_machinegun_dust_big.psys"/>
+		<Item id="PS_BRICK_MACHINEGUN_DUST_SMALL" 		file="data\Effects\explosions\brick_machinegun_dust_small.psys"/>
+		<Item id="PS_BRICK_AUTOCANNON_DUST_BIG" 			file="data\Effects\explosions\brick_autocannon_dust_big.psys"/>
+		<Item id="PS_BRICK_AUTOCANNON_DUST_SMALL" 		file="data\Effects\explosions\brick_autocannon_dust_small.psys"/>
+
+
+		<Item id="PS_WATER_BLAST_RING" 			file="data\Effects\explosions\water_blast_ring.psys"/>
+		<Item id="PS_WATER_BLAST_RING1" 			file="data\Effects\explosions\water_blast_ring1.psys"/>
+		<Item id="PS_WATER_CANNON_RING" 			file="data\Effects\explosions\water_cannon_ring.psys"/>
+		<Item id="PS_WATER_CANNON_RING1" 			file="data\Effects\explosions\water_cannon_ring1.psys"/>
+		<Item id="PS_WATER_AUTOCANNON_RING1" 			file="data\Effects\explosions\water_autocannon_ring1.psys"/>
+		<Item id="PS_WATER_GRENADE_RING1" 			file="data\Effects\explosions\water_grenade_ring1.psys"/>
+
+		<Item id="PS_GROUND_BLAST_RING" 			file="data\Effects\explosions\ground_blast_ring.psys"/>
+		<Item id="PS_GROUND_BLAST_RING_SMALL"		file="data\Effects\explosions\ground_blast_ring_small.psys"/>
+		<Item id="PS_GROUND_CANNON_RING" 		file="data\Effects\explosions\ground_cannon_ring.psys"/>
+
+		<Item id="PS_SAND_BLAST_RING" 			file="data\Effects\explosions\sand_blast_ring.psys"/>
+		<Item id="PS_SAND_BLAST_RING_SMALL"		file="data\Effects\explosions\sand_blast_ring_small.psys"/>
+		<Item id="PS_SAND_CANNON_RING" 		file="data\Effects\explosions\sand_cannon_ring.psys"/>
+
+		<Item id="PS_FIRE_BLAST_RING" 			file="data\Effects\explosions\fire_blast_ring.psys"/>
+
+		<Item id="PS_FIRE_LASER_FIRE" 			file="data\Effects\explosions\fire_laser_fire.psys"/>
+		<Item id="PS_FIRE_LASER_SMOKE" 			file="data\Effects\explosions\fire_laser_smoke.psys"/>
+		<Item id="PS_FIRE_LASER_RING" 			file="data\Effects\explosions\fire_laser_ring.psys"/>
+		<Item id="PS_FIRE_LASER_SMOKE_WHITE"		file="data\Effects\explosions\fire_laser_smoke_white.psys"/>
+
+		<Item id="PS_FIRE_PLASMA_FIRE" 			file="data\Effects\explosions\fire_plasma_fire.psys"/>
+		<Item id="PS_FIRE_PLASMA_FIRE1" 			file="data\Effects\explosions\fire_plasma_fire1.psys"/>
+		<Item id="PS_FIRE_PLASMA_SMOKE" 			file="data\Effects\explosions\fire_plasma_smoke.psys"/>
+
+<!--guns_effs-->
+		<Item id="PS_SHELL_SML_MGUN"	 	file="data\Effects\guns\shell_sml_mgun.psys"/>
+		<Item id="PS_SHELL_SML_MGUN_1"	 	file="data\Effects\guns\shell_sml_mgun_1.psys"/>
+		<Item id="PS_SHELL_SML_CANNON"	 	file="data\Effects\guns\shell_sml_cannon.psys"/>
+		<Item id="PS_SHELL_BIG_MGUN"	 	file="data\Effects\guns\shell_big_mgun.psys"/>
+		<Item id="PS_SHELL_BIG_CANNON"	 	file="data\Effects\guns\shell_big_cannon.psys"/>
+		<Item id="PS_SHELL_SIDE_MGUN"	 	file="data\Effects\guns\shell_side_mgun.psys"/>
+		<Item id="PS_SHELL_SIDE_CANNON"	 	file="data\Effects\guns\shell_side_cannon.psys"/>
+		<Item id="PS_SHELL_GIANT_MGUN"	 	file="data\Effects\guns\shell_giant_mgun.psys"/>
+		<Item id="PS_SHELL_GIANT_CANNON" 	file="data\Effects\guns\shell_giant_cannon.psys"/>
+		<Item id="PS_SHELL_GIANT_ONE" 	file="data\Effects\guns\shell_giant_one.psys"/>
+
+
+		<Item id="PS_ELEFANT01_FIRE_MAIN" 	file="data\Effects\guns\elefant01_fire_main.psys"/>
+		<Item id="PS_ELEFANT01_STAND_MAIN" 	file="data\Effects\guns\elefant01_stand_main1.psys"/>
+		<Item id="PS_ELEFANT01_FIRE_MAIN2" 	file="data\Effects\guns\elefant01_fire_main2.psys"/>
+		<Item id="PS_ELEFANT01_FIRE_MAIN3" 	file="data\Effects\guns\elefant01_fire_main3.psys"/>
+
+		<Item id="PS_ELEFANT01_EN_MAIN" 	file="data\Effects\guns\elefant01_en_main.psys"/>
+		<Item id="PS_ELEFANT01_EN_MAIN1" 	file="data\Effects\guns\elefant01_en_main1.psys"/>
+		<Item id="PS_ELEFANT01_EN_MAIN2" 	file="data\Effects\guns\elefant01_en_main2.psys"/>
+
+		<Item id="PS_LASER_MAIN1" 	file="data\Effects\rockets\laser_main1.psys"/>
+		<Item id="PS_LASER_MAIN" 	file="data\Effects\rockets\laser_main.psys"/>
+
+		<Item id="PS_LASER1_MAIN1" 	file="data\Effects\rockets\laser1_main1.psys"/>
+		<Item id="PS_LASER1_MAIN" 	file="data\Effects\rockets\laser1_main.psys"/>
+
+		<Item id="PS_MAXIM01_FIRE_MAIN1" 	file="data\Effects\guns\maxim01_fire_main1.psys"/>
+		<Item id="PS_MAXIM01_FIRE_MAIN" 	file="data\Effects\guns\maxim01_fire_main.psys"/>
+		<Item id="PS_MAXIM01_FIRE1_MAIN1" 	file="data\Effects\guns\maxim01_fire1_main1.psys"/>
+		<Item id="PS_MAXIM01_FIRE1_MAIN" 	file="data\Effects\guns\maxim01_fire1_main.psys"/>
+
+		<Item id="PS_CYCLOPS01_FIRE_MAIN" 	file="data\Effects\guns\cyclops01_fire_main.psys"/>
+		<Item id="PS_CYCLOPS01_FIRE_MAIN1" 	file="data\Effects\guns\cyclops01_fire_main1.psys"/>
+		<Item id="PS_CYCLOPS01_FIRE_SMOKE" 	file="data\Effects\guns\cyclops01_fire_smoke.psys"/>
+		<Item id="PS_CYCLOPS01_FIRE_SMOKE1" 	file="data\Effects\guns\cyclops01_fire_smoke1.psys"/>
+	
+		<Item id="PS_CYCLOPS01_EX_MAIN"		file="data\Effects\guns\cyclops01_ex_main1.psys"/>
+		<Item id="PS_CYCLOPS01_EX_MAIN1" 		file="data\Effects\guns\cyclops01_ex_main.psys"/>
+		<Item id="PS_CYCLOPS01_EX_SMOKE" 	file="data\Effects\guns\cyclops01_ex_smoke.psys"/>
+		<Item id="PS_CYCLOPS01_EX_SMOKE1"	file="data\Effects\guns\cyclops01_ex_smoke1.psys"/>
+		<Item id="PS_CYCLOPS01_EX_SPOT" 		file="data\Effects\guns\cyclops01_ex_spot.psys"/>
+
+		<Item id="PS_CYCLOPS01_STAND_SMOKE" 	file="data\Effects\guns\cyclops01_stand_smoke.psys"/>
+
+		<Item id="PS_CYCLOPS01_SPLASH_MAIN" 	file="data\Effects\guns\cyclops01_splash_main.psys"/>
+		<Item id="PS_CYCLOPS01_SPLASH_SMOKE" 	file="data\Effects\guns\cyclops01_splash_smoke.psys"/>
+		<Item id="PS_CYCLOPS01_SPLASH_RING" 	file="data\Effects\guns\cyclops01_splash_ring.psys"/>
+
+		<Item id="PS_VULCAN01_FIRE_MAIN" 		file="data\Effects\guns\vulcan01_fire_main.psys"/>
+		<Item id="PS_VULCAN01_FIRE_MAIN1" 	file="data\Effects\guns\vulcan01_fire_main1.psys"/>
+
+		<Item id="PS_VULCAN01_STAND_SMOKE" 	file="data\Effects\guns\vulcan01_stand_smoke.psys"/>
+
+		<Item id="PS_VULCAN01_SPLASH_MAIN" 	file="data\Effects\guns\vulcan01_splash_main.psys"/>
+		<Item id="PS_VULCAN01_SPLASH_RING" 	file="data\Effects\guns\vulcan01_splash_ring.psys"/>
+
+		<Item id="PS_VULCAN01_EX_MAIN" 		file="data\Effects\guns\vulcan01_ex_main.psys"/>
+		<Item id="PS_VULCAN01_EX_SMOKE" 		file="data\Effects\guns\vulcan01_ex_smoke.psys"/>
+		<Item id="PS_VULCAN01_EX_SPOT" 		file="data\Effects\guns\vulcan01_ex_spot.psys"/>
+
+		<Item id="PS_VULCAN01_EX1_MAIN" 		file="data\Effects\guns\vulcan01_ex1_main.psys"/>
+
+		<Item id="PS_VULCAN01_EX2_MAIN" 		file="data\Effects\guns\vulcan01_ex2_main.psys"/>
+		<Item id="PS_VULCAN01_EX2_MAIN1" 		file="data\Effects\guns\vulcan01_ex2_main1.psys"/>
+		<Item id="PS_VULCAN01_EX2_SMOKE" 	file="data\Effects\guns\vulcan01_ex2_smoke.psys"/>
+
+		<Item id="PS_OCTOPUS01_FIRE_MAIN" 		file="data\Effects\guns\octopus01_fire_main.psys"/>
+		<Item id="PS_OCTOPUS01_FIRE_MAINX" 		file="data\Effects\guns\octopus01_fire_mainx.psys"/>
+		<Item id="PS_OCTOPUS01_FIRE_MAINY" 		file="data\Effects\guns\octopus01_fire_mainy.psys"/>
+		<Item id="PS_OCTOPUS01_FIRE_SMOKE" 		file="data\Effects\guns\octopus01_fire_smoke.psys"/>
+
+		<Item id="PS_RAPIER01_FIRE_MAIN" 		file="data\Effects\guns\rapier01_fire_main.psys"/>
+		<Item id="PS_RAPIER01_FIRE_SMOKE" 		file="data\Effects\guns\rapier01_fire_smoke.psys"/>
+		<Item id="PS_RAPIER01_FIRE_SMOKE1" 		file="data\Effects\guns\rapier01_fire_smoke1.psys"/>
+		<Item id="PS_RAPIER01_FIRE_MAINX" 		file="data\Effects\guns\rapier01_fire_mainx.psys"/>
+		<Item id="PS_RAPIER01_FIRE_MAINY" 		file="data\Effects\guns\rapier01_fire_mainy.psys"/>
+
+		<Item id="PS_FLAG01_FIRE_MAIN" 		file="data\Effects\guns\flag01_fire_main.psys"/>
+		<Item id="PS_FLAG01_FIRE_SMOKE" 		file="data\Effects\guns\flag01_fire_smoke.psys"/>
+		<Item id="PS_FLAG01_FIRE_MAIN1" 		file="data\Effects\guns\flag01_fire_main1.psys"/>
+
+		<Item id="PS_LASER_FIRE_MAIN1" 		file="data\Effects\guns\laser_fire_main1.psys"/>
+		<Item id="PS_LASER_FIRE_MAIN" 		file="data\Effects\guns\laser_fire_main.psys"/>
+
+		<Item id="PS_HORNET01_FIRE_MAIN" 		file="data\Effects\guns\hornet01_fire_main.psys"/>
+		<Item id="PS_HORNET01_FIRE_MAIN1" 	file="data\Effects\guns\hornet01_fire_main1.psys"/>
+		<Item id="PS_HORNET01_FIRE_X" 		file="data\Effects\guns\hornet01_fire_x.psys"/>
+		<Item id="PS_HORNET01_FIRE_Y" 		file="data\Effects\guns\hornet01_fire_y.psys"/>
+
+		<Item id="PS_HORNET01_EX_MAIN" 		file="data\Effects\guns\hornet01_ex_main.psys"/>
+		<Item id="PS_HORNET01_EX_SMOKE" 		file="data\Effects\guns\hornet01_ex_smoke.psys"/>
+		<Item id="PS_HORNET01_EX_SPOT" 		file="data\Effects\guns\hornet01_ex_spot.psys"/>
+
+		<Item id="PS_HORNET01_SPLASH_MAIN" 	file="data\Effects\guns\hornet01_splash_main.psys"/>
+		<Item id="PS_HORNET01_SPLASH_RING" 	file="data\Effects\guns\hornet01_splash_ring.psys"/>
+
+		<Item id="PS_DRAGON01_FIRE_MAIN" 	file="data\Effects\guns\dragon01_fire_main1.psys"/>
+		<Item id="PS_DRAGON01_FIRE_MAIN1" 	file="data\Effects\guns\dragon01_fire_main.psys"/>
+		<Item id="PS_DRAGON01_FIRE_SMOKE" 	file="data\Effects\guns\dragon01_fire_smoke.psys"/>
+		<Item id="PS_DRAGON01_FIRE_SMOKE1" 	file="data\Effects\guns\dragon01_fire_smoke1.psys"/>
+
+<!--ven_effs-->
+		<Item id="PS_VEN_WSPLASH_MAIN" 		file="data\Effects\vehicles\ven_wsplash_ring1.psys"/>
+		<Item id="PS_VEN_WSPLASH_RING" 		file="data\Effects\vehicles\ven_wsplash_main.psys"/>
+		<Item id="PS_VEN_WSPLASH_RING1" 		file="data\Effects\vehicles\ven_wsplash_ring1.psys"/>
+
+		<Item id="PS_HLIGHT_MAIN" 			file="data\Effects\vehicles\hlight_main.psys"/>
+		<Item id="PS_HLIGHT_VOL" 			file="data\Effects\vehicles\hlight_vol.psys"/>
+
+		<Item id="PS_HLIGHT_SM_MAIN" 		file="data\Effects\vehicles\hlight_sm_main.psys"/>
+		<Item id="PS_HLIGHT_SM_VOL" 		file="data\Effects\vehicles\hlight_sm_vol.psys"/>
+
+		<Item id="PS_EXHAUST_SMOKE1" 		file="data\Effects\vehicles\exhaust_smoke1.psys"/>
+		<Item id="PS_EXHAUST_POW_SMOKE1" 		file="data\Effects\vehicles\exhaust_pow_smoke1.psys"/>
+
+		<Item id="PS_EXHAUST_SMOKE1_SMALL" 		file="data\Effects\vehicles\exhaust_smoke1_small.psys"/>
+		<Item id="PS_EXHAUST_POW_SMOKE1_SMALL" 		file="data\Effects\vehicles\exhaust_pow_smoke1_small.psys"/>
+
+	</ParticlesServer>
+
+	<SpritesServer>
+		<Item id="wheelTrace" 				file="data\fx\protector.tga"/>
+	</SpritesServer>
+
+	<MusicServer>
+		<Item id="mainmenu" />
+
+
+		<!-- Towns -->	
+		<Item id="bar" />
+		<Item id="trade_town1" />
+		<Item id="agriculruar_town1" />
+		<Item id="techno_town1" />
+		<Item id="military_town1" />
+
+
+		<!-- Blocks -->		
+		<Item id="block0_driving" />
+		<Item id="block0_alarm" />
+		<Item id="block0_battle" />
+		
+
+		<Item id="block1_driving" />
+		<Item id="block1_alarm" />
+		<Item id="block1_battle" />
+		
+
+		<Item id="r1_4_driving" />
+		<Item id="r1_4_alarm" />
+		<Item id="r1_4_battle" />
+		
+
+		<Item id="r2_1_driving" />
+		<Item id="r2_1_alarm" />
+		<Item id="r2_1_battle" />
+		
+
+		<Item id="r2_2_driving" />
+		<Item id="r2_2_alarm" />
+		<Item id="r2_2_battle" />
+		
+
+		<Item id="r3_1_driving" />
+		<Item id="r3_1_alarm" />
+		<Item id="r3_1_battle" />
+		
+
+		<Item id="r3_2_driving" />
+		<Item id="r3_2_alarm" />
+		<Item id="r3_2_battle" />
+		
+
+
+		<Item id="r4_1_driving" />
+		<Item id="r4_1_alarm" />
+		<Item id="r4_1_battle" />
+		
+		<Item id="r4_2_driving" />
+		<Item id="r4_2_alarm" />
+		<Item id="r4_2_battle" />
+			
+<!-- 		cinematics music		 -->
+
+		<Item id="Battle01" />
+		<Item id="Battle02" />
+		<Item id="Battle03" />
+		<Item id="Bio01" />
+		<Item id="Bio02" />
+		<Item id="Bio03" />
+		<Item id="Bio04" />
+		<Item id="Bio05" />
+		<Item id="Bio06" />
+		<Item id="Bio07unloop" />
+		<Item id="Bio08" />
+		<Item id="Death01" />
+		<Item id="Death02" />
+		<Item id="IntenseDialogue01" />
+		<Item id="IntenseDialogue02" />
+		<Item id="IntenseDialogue03" />
+		<Item id="IntenseDialogue04" />
+		<Item id="Passage01unloop" />
+		<Item id="Passage02" />
+		<Item id="Passage02a" />
+		<Item id="Passage02b" />
+		<Item id="Passage03" />
+		<Item id="Passage03a" />
+		<Item id="Passage03b" />
+		<Item id="Passage04" />
+		<Item id="Passage05" />
+		<Item id="QuietDialogue01" />
+		<Item id="QuietDialogue02" />
+		<Item id="QuietDialogue03" />
+		<Item id="QuietDialogue04" />
+		<Item id="Sadness1" />
+		<Item id="Techno01" />
+		<Item id="Techno02" />
+		<Item id="Techno03" />
+		<Item id="Techno04" />
+
+			
+	</MusicServer>
+	
+</Servers>
