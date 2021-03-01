@@ -2277,6 +2277,10 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_DRAGON01_FIRE_SMOKE1" psNumEmitterMesh="-1" />
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_DRAGON" looped="0" /> 
 	</Node>
+	
+	<Node name="ET_PS_DRAGON01_FIRE" class="SgNode">
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_DRAGON" looped="0" /> 
+	</Node>
 
 	<Node name="ET_PS_BLAST_FIRE" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CYCLOPS01_FIRE_SMOKE" psNumEmitterMesh="-1" />

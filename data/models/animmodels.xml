@@ -1350,6 +1350,15 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
+			
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SWINGFIRE_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
 	</model>
 
 	<model
@@ -1364,36 +1373,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="STAND1">
-			<lp
-				id="LP_FIRE01"
-				effect_id="ET_PS_MACHINEGUN_STAND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_FIRE02"
-				effect_id="ET_PS_MACHINEGUN_STAND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_FIRE01"
-				effect_id="ET_PS_SWINGFIRE_FIRE_SOUND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_FIRE02"
-				effect_id="ET_PS_SWINGFIRE_FIRE_SOUND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
@@ -2204,6 +2183,15 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
+			
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_DRAGON01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
 	</model>
 
 	<model
@@ -2218,33 +2206,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_DRAGON01_FIRE_BACK"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_DRAGON01_FIRE_BACK"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_FIRE01"
-				effect_id="ET_PS_DRAGON01_FIRE_FRONT"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_FIRE02"
-				effect_id="ET_PS_DRAGON01_FIRE_FRONT"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
@@ -2488,7 +2449,7 @@
 				
 			<lp
 				id="LP_SHELL01"
-				effect_id="ET_PS_SHELL_SML_MGUN"
+				effect_id="ET_PS_SHELL_SML_MGUN_R"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
