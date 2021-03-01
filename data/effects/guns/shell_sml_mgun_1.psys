@@ -7,7 +7,7 @@
 			ParticleAgeMin="1.000"
 			ParticleAgeMax="2.000"
 			MaxParticles="50"
-			EmitAtPeriod="40.000"
+			EmitAtPeriod="30.000"
 			Phase="0.000"
 			EmitLength="1.000"
 			RepeatPeriod="1.000"
@@ -19,7 +19,7 @@
 		<Model Name = "data\models\ammo\shell_sml_pulemet01.gam"/> 
 
 		<Force
-			Min="-0.500 0.000 0.000"
+			Min="-0.200 0.000 0.000"
 			Max="0.000 0.000 0.000"
 			Type="box"
 			PosMin="0.000 0.000 0.000"
@@ -83,7 +83,7 @@
 		<Render
 			TrailLen="5"
 			ScaleParts="1.000"
-			BlendMode="2"
+			BlendMode="1"
 			UpdateXForm="0"
 			SpriteAngle="0.000"
 			Orient="1"
@@ -109,8 +109,8 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="-2.000 4.000 0.000"
-				Max="-3.000 5.000 1.000" />
+				Min="-5.000 0.000 -0.500"
+				Max="-5.000 0.000 0.200" />
 </Attr>
 
 		<Attr
@@ -130,8 +130,8 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="-2.000 -15.000 0.000"
-				Max="-3.000 -20.000 0.000" />
+				Min="0.000 -15.000 0.000"
+				Max="0.000 -20.000 0.000" />
 </Attr>
 </PS>
 </PSEditor>

@@ -7,10 +7,10 @@
 			ParticleAgeMin="2.000"
 			ParticleAgeMax="3.000"
 			MaxParticles="50"
-			EmitAtPeriod="1.000"
+			EmitAtPeriod="3.000"
 			Phase="0.000"
 			EmitLength="1.000"
-			RepeatPeriod="100000.000"
+			RepeatPeriod="1.000"
 			ResetTime="9999999933815812500000000000000000000.000"
 			LocalStop="0"
 			StopTime="0.000"
@@ -78,17 +78,17 @@
 				k:17="1.00"
 				k:18="1.00"
 				k:19="1.00" />
-</Keys>
+		</Keys>
 
 		<Render
 			TrailLen="5"
-			ScaleParts="1.00"
-			BlendMode="2"
+			ScaleParts="0.45"
+			BlendMode="1"
 			UpdateXForm="0"
 			SpriteAngle="0.000"
 			Orient="1"
-			ParentDependency="0.700"
 			Texture=""
+			ParentDependency="0.700"
 			Weather="0"
 			TexTiling="1.000" />
 
@@ -109,9 +109,9 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="-2.000 4.000 0.000"
-				Max="-3.000 5.000 1.000" />
-</Attr>
+				Min="-15.000 0.000 -1.000"
+				Max="-15.000 0.000 0.500" />
+		</Attr>
 
 		<Attr
 			Name="SpaceAttractor4"
@@ -130,8 +130,8 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="-2.000 -15.000 0.000"
-				Max="-3.000 -20.000 0.000" />
+				Min="0.000 15.000 0.000"
+				Max="0.000 -35.000 0.000" />
 </Attr>
 </PS>
 </PSEditor>
