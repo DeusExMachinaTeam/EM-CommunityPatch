@@ -987,22 +987,13 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
 		id="bumblebee01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\big_bumblebee01_gan.gam">
+		file="data\models\guns\big_bumblebee01_gun.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1016,6 +1007,12 @@
 			<lp
 				id="LP_FIRE01"
 				effect_id="ET_PS_BUMBLEBEE_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_SHELL01"
+				effect_id="ET_PS_SHELL_BIG_CANNON_R"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -1808,15 +1805,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
@@ -2128,15 +2116,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
@@ -2155,16 +2134,22 @@
 		<action
 			name="MOVE1">
 			<lp
-				id="LP_FIRE02"
+				id="LP_FIRE01"
 				effect_id="ET_PS_OMEGA_FIRE"
 				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_SHELL01"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
 
 		<action
 			name="STAND1">
 			<lp
-				id="LP_FIRE02"
+				id="LP_FIRE01"
 				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />

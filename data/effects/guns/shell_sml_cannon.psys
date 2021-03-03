@@ -7,16 +7,16 @@
 			ParticleAgeMin="2.000"
 			ParticleAgeMax="3.000"
 			MaxParticles="50"
-			EmitAtPeriod="3.000"
+			EmitAtPeriod="1.000"
 			Phase="0.000"
 			EmitLength="1.000"
-			RepeatPeriod="1.000"
+			RepeatPeriod="10000000000.000"
 			ResetTime="9999999933815812500000000000000000000.000"
 			LocalStop="0"
 			StopTime="0.000"
 			PhaseMax="0.000" />
 
-		<Model Name = "data\models\ammo\shell_big_gun01.gam"/>
+		<Model Name = "data\models\ammo\mortar_shell.gam"/>
 
 		<Force
 			Min="0.000 0.000 0.000"
@@ -78,11 +78,11 @@
 				k:17="1.00"
 				k:18="1.00"
 				k:19="1.00" />
-		</Keys>
+</Keys>
 
 		<Render
 			TrailLen="5"
-			ScaleParts="0.45"
+			ScaleParts="1"
 			BlendMode="1"
 			UpdateXForm="0"
 			SpriteAngle="0.000"
@@ -109,9 +109,9 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="15.000 0.000 -1.000"
-				Max="15.000 0.000 0.500" />
-		</Attr>
+				Min="-5.000 0.000 -0.500"
+				Max="-5.000 0.000 0.200" />
+</Attr>
 
 		<Attr
 			Name="SpaceAttractor4"
@@ -130,8 +130,8 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="5.000 15.000 0.000"
-				Max="5.000 -35.000 0.000" />
+				Min="0.000 15.000 0.000"
+				Max="0.000 -35.000 0.000" />
 </Attr>
 </PS>
 </PSEditor>

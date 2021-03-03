@@ -19,7 +19,7 @@
 		<Model Name = "data\models\ammo\shell_big_gun01.gam"/>
 
 		<Force
-			Min="-1.000 0.000 0.000"
+			Min="0.000 0.000 0.000"
 			Max="0.000 0.000 0.000"
 			Type="box"
 			PosMin="0.000 0.000 0.000"
@@ -103,7 +103,7 @@
 				PeriodY="2.000"
 				PeriodZ="2.000"
 				Phase="0.000"
-				EmitLength="1.000"
+				EmitLength="2.000"
 				RepeatPeriod="1.000"
 				TimeMode="global"
 				EmitterOn="0" />

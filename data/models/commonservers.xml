@@ -464,6 +464,7 @@
 		<Item id="PS_SHELL_BIG_MGUN"	 	file="data\Effects\guns\shell_big_mgun.psys"/>
 		<Item id="PS_SHELL_BIG_MGUN_R"	 	file="data\Effects\guns\shell_big_mgun_r.psys"/>
 		<Item id="PS_SHELL_BIG_CANNON"	 	file="data\Effects\guns\shell_big_cannon.psys"/>
+		<Item id="PS_SHELL_BIG_CANNON_R"	 	file="data\Effects\guns\shell_big_cannon_r.psys"/>
 		<Item id="PS_SHELL_SIDE_MGUN"	 	file="data\Effects\guns\shell_side_mgun.psys"/>
 		<Item id="PS_SHELL_SIDE_CANNON"	 	file="data\Effects\guns\shell_side_cannon.psys"/>
 		<Item id="PS_SHELL_GIANT_MGUN"	 	file="data\Effects\guns\shell_giant_mgun.psys"/>

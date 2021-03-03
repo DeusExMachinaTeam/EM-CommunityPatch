@@ -1488,6 +1488,11 @@
 	<Node name="ET_PS_SHELL_BIG_CANNON" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_CANNON" psNumEmitterMesh="-1" />
 	</Node>
+	
+	<Node name="ET_PS_SHELL_BIG_CANNON_R" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_CANNON_R" psNumEmitterMesh="-1" />
+	</Node>
+	
 	<Node name="ET_PS_SHELL_SIDE_MGUN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SIDE_MGUN" psNumEmitterMesh="-1" />
 	</Node>
@@ -1563,6 +1568,9 @@
 	</Node>
 
 	<Node name="ET_PS_OMEGA_FIRE" class="SgNode">
+		<Node name="Object3" class="SgParticlesNode" id="PS_FLAG01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_FLAG01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_FLAG01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_OMEGA" looped="0" />
 	</Node>
 
