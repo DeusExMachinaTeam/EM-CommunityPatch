@@ -461,16 +461,26 @@
 		<Item id="PS_SHELL_SML_MGUN_R"	 	file="data\Effects\guns\shell_sml_mgun_r.psys"/>
 		<Item id="PS_SHELL_SML_MGUN_1"	 	file="data\Effects\guns\shell_sml_mgun_1.psys"/>
 		<Item id="PS_SHELL_SML_CANNON"	 	file="data\Effects\guns\shell_sml_cannon.psys"/>
+		<Item id="PS_SHELL_SML_CANNON_R"	file="data\Effects\guns\shell_sml_cannon_r.psys"/>
+		<Item id="PS_SHELL_SML_SHOTGUN"	 	file="data\Effects\guns\shell_sml_shotgun.psys"/>
+		<Item id="PS_SHELL_SML_SHOTGUN_R"	file="data\Effects\guns\shell_sml_shotgun_r.psys"/>
+		
 		<Item id="PS_SHELL_BIG_MGUN"	 	file="data\Effects\guns\shell_big_mgun.psys"/>
 		<Item id="PS_SHELL_BIG_MGUN_R"	 	file="data\Effects\guns\shell_big_mgun_r.psys"/>
 		<Item id="PS_SHELL_BIG_CANNON"	 	file="data\Effects\guns\shell_big_cannon.psys"/>
-		<Item id="PS_SHELL_BIG_CANNON_R"	 	file="data\Effects\guns\shell_big_cannon_r.psys"/>
+		<Item id="PS_SHELL_BIG_CANNON_R"	file="data\Effects\guns\shell_big_cannon_r.psys"/>
+		<Item id="PS_SHELL_BIG_SHOTGUN"	 	file="data\Effects\guns\shell_big_shotgun.psys"/>
+		<Item id="PS_SHELL_BIG_SHOTGUN_R"	file="data\Effects\guns\shell_big_shotgun_r.psys"/>
+		<Item id="PS_SHELL_BIG_MORTAR"	 	file="data\Effects\guns\shell_big_mortar.psys"/>
+		<Item id="PS_SHELL_BIG_MORTAR_R"	file="data\Effects\guns\shell_big_mortar_r.psys"/>
+		
 		<Item id="PS_SHELL_SIDE_MGUN"	 	file="data\Effects\guns\shell_side_mgun.psys"/>
 		<Item id="PS_SHELL_SIDE_CANNON"	 	file="data\Effects\guns\shell_side_cannon.psys"/>
+		
 		<Item id="PS_SHELL_GIANT_MGUN"	 	file="data\Effects\guns\shell_giant_mgun.psys"/>
 		<Item id="PS_SHELL_GIANT_MGUN_R"	file="data\Effects\guns\shell_giant_mgun_r.psys"/>
 		<Item id="PS_SHELL_GIANT_CANNON" 	file="data\Effects\guns\shell_giant_cannon.psys"/>
-		<Item id="PS_SHELL_GIANT_ONE" 		file="data\Effects\guns\shell_giant_one.psys"/>
+		<Item id="PS_SHELL_GIANT_CANNON_R" 	file="data\Effects\guns\shell_giant_cannon_r.psys"/>
 
 
 		<Item id="PS_ELEFANT01_FIRE_MAIN" 	file="data\Effects\guns\elefant01_fire_main.psys"/>

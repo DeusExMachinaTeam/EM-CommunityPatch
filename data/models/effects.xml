@@ -1465,32 +1465,50 @@
 	<Node name="ET_PS_SHELL_SML_MGUN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN" psNumEmitterMesh="-1" />
 	</Node>
-	
 	<Node name="ET_PS_SHELL_SML_MGUN_R" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN_R" psNumEmitterMesh="-1" />
 	</Node>
-	
 	<Node name="ET_PS_SHELL_SML_MGUN_1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN_1" psNumEmitterMesh="-1" />
 	</Node>
-	
 	<Node name="ET_PS_SHELL_SML_CANNON" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_CANNON" psNumEmitterMesh="-1" />
 		<!--  <Node name="Sound1" class="SgSoundSourceNode" id="S_SHELL_MEDIUM" isLooped="1" /> -->
 	</Node>
+	<Node name="ET_PS_SHELL_SML_CANNON_R" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_CANNON_R" psNumEmitterMesh="-1" />
+		<!--  <Node name="Sound1" class="SgSoundSourceNode" id="S_SHELL_MEDIUM" isLooped="1" /> -->
+	</Node>
+	<Node name="ET_PS_SHELL_SML_SHOTGUN" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_SHOTGUN" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_SML_SHOTGUN_R" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_SHOTGUN_R" psNumEmitterMesh="-1" />
+	</Node>
+	
 	<Node name="ET_PS_SHELL_BIG_MGUN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_MGUN" psNumEmitterMesh="-1" />
 	</Node>
 	<Node name="ET_PS_SHELL_BIG_MGUN_R" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_MGUN_R" psNumEmitterMesh="-1" />
 	</Node>
-	
 	<Node name="ET_PS_SHELL_BIG_CANNON" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_CANNON" psNumEmitterMesh="-1" />
 	</Node>
-	
 	<Node name="ET_PS_SHELL_BIG_CANNON_R" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_CANNON_R" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_BIG_SHOTGUN" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_SHOTGUN" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_BIG_SHOTGUN_R" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_SHOTGUN_R" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_BIG_MORTAR" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_MORTAR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_BIG_MORTAR_R" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_MORTAR_R" psNumEmitterMesh="-1" />
 	</Node>
 	
 	<Node name="ET_PS_SHELL_SIDE_MGUN" class="SgNode">
@@ -1499,18 +1517,20 @@
 	<Node name="ET_PS_SHELL_SIDE_CANNON" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SIDE_CANNON" psNumEmitterMesh="-1" />
 	</Node>
+	
 	<Node name="ET_PS_SHELL_GIANT_MGUN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_MGUN" psNumEmitterMesh="-1" />
 	</Node>
-	
 	<Node name="ET_PS_SHELL_GIANT_MGUN_R" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_MGUN_R" psNumEmitterMesh="-1" />
 	</Node>
-	
 	<Node name="ET_PS_SHELL_GIANT_CANNON" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_CANNON" psNumEmitterMesh="-1" />
 	</Node>
-
+	<Node name="ET_PS_SHELL_GIANT_CANNON_R" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_CANNON_R" psNumEmitterMesh="-1" />
+	</Node>
+	
 	<Node name="ET_PS_ZEUS01_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_ZEUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
 	</Node>

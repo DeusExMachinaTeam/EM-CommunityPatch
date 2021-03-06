@@ -4,8 +4,8 @@
 		Name="PS2"
 		Class="Model">
 		<Emitter
-			ParticleAgeMin="1.000"
-			ParticleAgeMax="2.000"
+			ParticleAgeMin="2.000"
+			ParticleAgeMax="3.000"
 			MaxParticles="50"
 			EmitAtPeriod="5.000"
 			Phase="0.000"
@@ -16,7 +16,7 @@
 			StopTime="0.000"
 			PhaseMax="0.000" />
 
-		<Model Name = "data\models\ammo\shell_big_gun01.gam"/>
+		<Model Name = "data\models\ammo\shell_big_gun01.gam"/> 
 
 		<Force
 			Min="0.000 0.000 0.000"
@@ -31,7 +31,7 @@
 			Radius="5.000"
 			Point1="0.000 0.000 0.000"
 			Point2="0.000 0.000 0.000"
-			Forv="1"
+			Forv="0"
 			Back="0" />
 
 		<Keys>
@@ -78,11 +78,11 @@
 				k:17="1.00"
 				k:18="1.00"
 				k:19="1.00" />
-</Keys>
+		</Keys>
 
 		<Render
 			TrailLen="5"
-			ScaleParts="0.25"
+			ScaleParts="1.000"
 			BlendMode="1"
 			UpdateXForm="0"
 			SpriteAngle="0.000"
@@ -109,9 +109,9 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="10.000 0.000 -0.750"
-				Max="10.000 0.000 0.350" />
-</Attr>
+				Min="8.000 0.000 -0.500"
+				Max="8.000 0.000 0.200" />
+		</Attr>
 
 		<Attr
 			Name="SpaceAttractor4"

@@ -1012,7 +1012,7 @@
 				
 			<lp
 				id="LP_SHELL01"
-				effect_id="ET_PS_SHELL_BIG_CANNON_R"
+				effect_id="ET_PS_SHELL_BIG_MORTAR_R"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -1510,15 +1510,7 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-<!--		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_SML_MGUN"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>		-->	</model>
+	</model>
 
 	<model
 		id="fagot01gun"
@@ -1540,27 +1532,7 @@
 				effect_id="ET_PS_FAGOT_FIRE_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_FIRE02"
-				effect_id="ET_PS_FAGOT_FIRE_SOUND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
 		</action>
-<!--		<action
-			name="STAND1">
-			<lp
-				id="LP_FIRE01"
-				effect_id="ET_PS_MACHINEGUN_STAND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_FIRE02"
-				effect_id="ET_PS_MACHINEGUN_STAND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action> -->
 	</model>
 
 	<model
@@ -1627,13 +1599,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1"><!--			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_SML_MGUN"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" /> -->		</action>
 	</model>
 
 	<model
@@ -1680,15 +1645,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-<!--		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_SML_MGUN"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action> -->
 	</model>
 
 	<model
@@ -1851,15 +1807,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_GIANT_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
@@ -1880,6 +1827,12 @@
 			<lp
 				id="LP_FIRE01"
 				effect_id="ET_PS_FLAG01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_SHELL01"
+				effect_id="ET_PS_SHELL_BIG_SHOTGUN"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -1952,15 +1905,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_SML_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
@@ -1981,6 +1925,12 @@
 			<lp
 				id="LP_FIRE01"
 				effect_id="ET_PS_STORM_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_SHELL01"
+				effect_id="ET_PS_SHELL_SML_SHOTGUN"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -2007,15 +1957,6 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_SML_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
 	</model>
 
 	<model
@@ -2062,15 +2003,7 @@
 		<action
 			name="DEATH2"
 			skin="8"/>
-
-<!--		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_SML_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action> -->	</model>
+	</model>
 
 	<model
 		id="big_hammer01gun"
@@ -2141,7 +2074,7 @@
 				
 			<lp
 				id="LP_SHELL01"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
+				effect_id="ET_PS_SHELL_BIG_MORTAR"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>

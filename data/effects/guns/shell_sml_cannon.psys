@@ -16,7 +16,7 @@
 			StopTime="0.000"
 			PhaseMax="0.000" />
 
-		<Model Name = "data\models\ammo\mortar_shell.gam"/>
+		<Model Name = "data\models\ammo\shell_big_gun01.gam"/>
 
 		<Force
 			Min="0.000 0.000 0.000"

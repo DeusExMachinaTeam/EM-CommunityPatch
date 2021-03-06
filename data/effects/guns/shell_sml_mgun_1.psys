@@ -16,7 +16,7 @@
 			StopTime="0.000"
 			PhaseMax="0.000" />
 
-		<Model Name = "data\models\ammo\shell_sml_pulemet01.gam"/> 
+		<Model Name = "data\models\ammo\shell_sml_pulemet02.gam"/> 
 
 		<Force
 			Min="-0.200 0.000 0.000"
@@ -109,8 +109,8 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="-5.000 0.000 -0.500"
-				Max="-5.000 0.000 0.200" />
+				Min="5.000 0.000 -0.500"
+				Max="5.000 0.000 0.200" />
 </Attr>
 
 		<Attr
