@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
+-->
+
+<Prototypes>
+
+        <Prototype
+                Class                   = "SmokeScreenLocation"
+                Name                    = "smokeScreenLocation"
+                
+                LookRadius              = "10.0"
+                TTL                     = "10.0"
+				ActivateTime			= "0.5"
+		Price			= "25"
+
+                Effect                  = "ET_PS_SPECIAL01_FIRE"
+                CanBeUsedInAutogenerating  =  "0"
+        />
+
+        <Prototype
+                Class                   = "EngineOilLocation"
+                Name                    = "engineOilLocation"
+                
+                LookRadius              = "5.0"
+                TTL                     = "10.0"
+				ActivateTime			= "0.2"
+		Price			= "40"
+                Effect                  = "ET_PS_SPECIAL03_FIRE"
+                CanBeUsedInAutogenerating  =  "0"
+        />
+
+        <Prototype
+                Class                   = "NailLocation"
+                Name                    = "nailLocation"
+                
+                LookRadius              = "10.0"
+                TTL                     = "10.0"
+				ActivateTime			= "0.5"
+		Price			= "20"
+                Effect                  = "ET_PS_SPECIAL02_FIRE"
+                CanBeUsedInAutogenerating  =  "0"
+        />
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "turbo"
+		Price			= "10"                
+                Radius                  = "30.0"
+                Effect                  = "ET_PS_AIRWAVE1"
+                WaveForceIntensity      = "1.0"
+                WaveDamageIntensity     = "1.0"
+        />
+
+
+
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "someBlastWave"
+                
+                Radius                  = "50.0"
+                Effect                  = "ET_PS_AIRWAVE1"
+                WaveForceIntensity      = "10.0"
+                WaveDamageIntensity     = "120.0"
+        />
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "superBlastWave"
+                
+                Radius                  = "10.0"
+                Effect                  = "ET_PS_AIRWAVE1"
+                WaveForceIntensity      = "5.0"
+                WaveDamageIntensity     = "200.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "someBlastWaveRocket01"
+                
+                Radius                  = "50.0"
+                Effect                  = "ET_PS_AIRWAVE1"
+                WaveForceIntensity      = "1.0"
+                WaveDamageIntensity     = "120.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "SmlBlastWave"
+                
+                Radius                  = "1.0"
+                Effect                  = "ET_PS_AIRWAVE1"
+                WaveForceIntensity      = "1.0"
+                WaveDamageIntensity     = "1.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "bigBlastWave"
+                
+                Radius                  = "50.0"
+                Effect                  = "ET_PS_AIRWAVE"
+
+                WaveForceIntensity      = "50.0"
+                WaveDamageIntensity     = "120.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "smallBlastWave"
+                Effect                  = "ET_PS_AIRWAVE2"
+                
+                Radius                  = "30.0"
+
+                WaveForceIntensity      = "30.0"
+                WaveDamageIntensity     = "30.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "mineBlastWave"
+                Effect                  = "ET_PS_CANNONGROUNDEXPLOSION"
+                
+                Radius                  = "10.0"
+
+                WaveForceIntensity      = "60.0"
+                WaveDamageIntensity     = "135.0"
+        />
+
+        <Prototype
+                Class                   = "Mine"
+                Name                    = "mine"
+                ModelFile               = "mine02"
+                ExplosionType           = "BLAST" 
+
+                Velocity                = "0"
+                Acceleration            = "100"
+                FlyTime                 = "500000.0"
+                MinTurningRadius        = "50"
+                Size                    = "3 3 0.5"
+                BlastWavePrototype      = "mineBlastWave"
+		Price			= "300"
+
+                TTL                     = "1000"
+		TimeForActivation	= "10"
+                CanBeUsedInAutogenerating  =  "0"
+                />
+
+        <Prototype
+                Class                   = "Rocket"
+                Name                    = "rocket01"
+                ModelFile                       = "rockets_big01"
+                ExplosionType           = "BLAST" 
+
+		Price			= "1000"
+                Velocity                        = "200"
+                Acceleration            = "100"
+                FlyTime                         = "5.0"
+                MinTurningRadius                = "50"
+                Size                    = "0.5 0.5 10"
+                Mass                            = "0.1"
+                BlastWavePrototype      = "someBlastWaveRocket01"
+                />
+	<Prototype
+		Class			= "Rocket"
+		Name			= "hunterrocket01"
+		ModelFile			= "rockets_big01"
+		ExplosionType		= "BLAST" 
+
+		Price			= "800"
+		Velocity			= "200"
+		Acceleration		= "100"
+		FlyTime				= "5.0"
+		MinTurningRadius		= "50"
+		Size			= "0.5 0.5 10"
+		Mass				= "0.1"
+		BlastWavePrototype      = "someBlastWaveRocket01"
+		/>
+
+
+
+
+
+
+
+
+
+
+
+        <Prototype
+                Class                   = "Rocket"
+                Name                    = "rocket_sml01"
+                ModelFile               = "rocket_sml01"
+                ExplosionType           = "BLAST" 
+
+		Price			= "10"
+
+                Velocity                        = "200"
+                Acceleration            = "100"
+                FlyTime                         = "5.0"
+                MinTurningRadius                = "20"
+                Size                    = "0.5 0.5 2"
+                Mass                            = "0.1"
+                BlastWavePrototype      = "someBlastWave"
+                />
+        <Prototype
+                Class                   = "Rocket"
+                Name                    = "hail_rocket"
+                ModelFile               = "rocket_sml01"
+                ExplosionType           = "BLAST" 
+
+		Price			= "10000"
+
+                Velocity                        = "200"
+                Acceleration            = "100"
+                FlyTime                         = "5.0"
+                MinTurningRadius                = "20"
+                Size                    = "0.5 0.5 2"
+                Mass                            = "0.1"
+                BlastWavePrototype      = "someBlastWave"
+                />
+
+        <Prototype
+                Class                   = "Rocket"
+                Name                    = "dragon_rocket"
+                ModelFile               = "rockets_big01"
+                ExplosionType           = "BLAST" 
+
+		Price			= "1280"
+                Velocity                        = "200"
+                Acceleration            = "100"
+                FlyTime                         = "5.0"
+                MinTurningRadius                = "50"
+                Size                    = "0.5 0.5 10"
+                Mass                            = "0.1"
+                BlastWavePrototype      = "someBlastWaveRocket01"
+                />
+	<Prototype
+                Class                   = "Rocket"
+                Name                    = "swingfire_rocket"
+                ModelFile               = "rockets_big01"
+                ExplosionType           = "BLAST" 
+
+		Price			= "200"
+                Velocity                        = "200"
+                Acceleration            = "100"
+                FlyTime                         = "5.0"
+                MinTurningRadius                = "50"
+                Size                    = "0.5 0.5 10"
+                Mass                            = "0.1"
+                BlastWavePrototype      = "someBlastWaveRocket01"
+                />
+	<Prototype
+                Class                   = "Rocket"
+                Name                    = "mrak_rocket"
+                ModelFile               = "rockets_big01"
+                ExplosionType           = "BLAST" 
+
+		Price			= "2200"
+                Velocity                        = "200"
+                Acceleration            = "100"
+                FlyTime                         = "5.0"
+                MinTurningRadius                = "50"
+                Size                    = "0.5 0.5 10"
+                Mass                            = "0.1"
+                BlastWavePrototype      = "someBlastWaveRocket01"
+                />
+      
+	<Prototype
+                Class                   = "Rocket"
+                Name                    = "hurricane_rocket"
+                ModelFile               = "rocket_sml01"
+                ExplosionType           = "BLAST" 
+
+		Price			= "210"
+
+                Velocity                        = "200"
+                Acceleration            = "100"
+                FlyTime                         = "5.0"
+                MinTurningRadius                = "20"
+                Size                    = "0.5 0.5 2"
+                Mass                            = "0.1"
+                BlastWavePrototype      = "someBlastWave"
+                />
+
+
+
+
+        <Prototype
+                Class                   = "RocketLauncher"
+                Name                    = "hurricane01"
+                ModelFile                       = "giant_hurricane01"
+                ResourceType            = "GIANT_GUN"
+                NodeScale               = "1 1 1"
+                Mass                    = "1.0"
+
+                Decal                           = "DC_ROKET"
+
+                BulletPrototype         = "hurricane_rocket"
+                ExplosionType           = "BLAST"
+                FiringEffect            = "none"
+		Damage			= "180"
+                FiringRate              = "30"
+                GroupingAngle           = "1"
+                FiringRange             = "600"
+                RecoilForce             = "300"
+                FiringType              = "Rocket"
+		ChargeSize     = "6"
+		RechargingTime = "12"
+
+                CanBeUsedInAutogenerating  =  "0"
+                ShellsPoolSize          = "18"
+                WithShellsPoolLimit     = "true"
+
+                Price           = "9870" 
+
+                Durability                      = "300"/>
+
+        <Prototype
+                Class                   = "RocketLauncher"
+		Name			= "hurricane01_unlimited"
+		ModelFile			= "giant_hurricane01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		Decal				= "DC_ROKET"
+                VisibleInEncyclopedia = "false"
+		BulletPrototype		= "rocket_sml01"
+		ExplosionType		= "BLAST"
+		FiringEffect		= "none"
+		Damage			= "350"
+		FiringRate			= "120"
+		GroupingAngle		= "1"
+		FiringRange		= "600"
+		RecoilForce		= "300"
+		FiringType              = "Rocket"
+		ChargeSize     = "10"
+		RechargingTime = "8"
+		CanBeUsedInAutogenerating  =  "0"
+		Durability			= "300"/>
+
+
+	<Prototype
+		Class			= "RocketLauncher"
+                Name                    = "rocketLauncher"
+                ModelFile                       = "dragon01"
+                ResourceType            = "GIANT_GUN"
+                NodeScale               = "1 1 1"
+                Mass                    = "1.0"
+                
+                Decal                           = "DC_ROKET"
+                FiringType              = "Rocket"
+                BulletPrototype         = "dragon_rocket"
+                ExplosionType           = "BLAST" 
+		Damage			= "420"
+		FiringRate		= "30"
+                GroupingAngle           = "1"
+                FiringRange             = "200"
+                RecoilForce             = "150"
+		ChargeSize     = "8"
+                RechargingTime = "12"
+                MaxCharges = "3"
+
+                CanBeUsedInAutogenerating  =  "0"
+                Price           = "82000" 
+
+                Durability                      = "400" />
+
+        <Prototype
+                Class                   = "RocketLauncher"
+		Name			= "hunterLauncher"
+		ModelFile		= "dragon01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		VisibleInEncyclopedia = "false"
+		Decal			= "DC_ROKET"
+		FiringType		= "Rocket"
+		BulletPrototype		= "hunterrocket01"
+		ExplosionType		= "BLAST" 
+		Damage			= "100"
+		FiringRate			= "35"
+		GroupingAngle		= "1"
+		FiringRange		= "200"
+		RecoilForce		= "150"
+		ChargeSize     = "10"
+		RechargingTime = "10"
+		MaxCharges = "4"
+
+		CanBeUsedInAutogenerating  =  "1"
+		Price		= "3000" 
+
+		Durability			= "400" />
+
+
+	<Prototype
+		Class			= "RocketLauncher"
+		Name                    = "big_swingfire01"
+		ModelFile                       = "big_swingfire01"
+		ResourceType            = "GIANT_GUN"
+		NodeScale               = "1 1 1"
+		Mass                    = "1.0"
+                
+		Decal                           = "DC_ROKET"
+		FiringType              = "Rocket"
+		BulletPrototype         = "swingfire_rocket"
+		ExplosionType           = "BLAST"
+		Damage			= "280"
+		FiringRate			= "15"
+		GroupingAngle           = "1"
+		FiringRange             = "600"
+		RecoilForce             = "150"
+		Durability              = "200"
+
+		CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     = "6"
+		RechargingTime = "12"
+
+		ShellsPoolSize          = "12"
+		WithShellsPoolLimit     = "true"
+
+		Price           = "9400" 
+        />
+
+	<Prototype
+		Class			= "RocketLauncher"
+		Name			= "big_swingfire01_unlimit"
+		ModelFile			= "big_swingfire01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal				= "DC_ROKET"
+        FiringType		= "Rocket"
+		VisibleInEncyclopedia = "false"
+		BulletPrototype		= "rocket01"
+		ExplosionType		= "BLAST"
+		Damage			= "500"
+		FiringRate			= "56"
+		GroupingAngle		= "1"
+		FiringRange		= "600"
+		RecoilForce		= "150"
+		Durability		= "200"
+		CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     = "6"
+		RechargingTime = "8"
+    	/>
+
+	<Prototype
+		Class			= "RocketLauncher"
+		Name			= "hunterLauncher_unlimit"
+		ModelFile		= "dragon01"
+		ResourceType		= "TANK_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal			= "DC_ROKET"
+		FiringType		= "Rocket"
+		BulletPrototype		= "hunterrocket01"
+		ExplosionType		= "BLAST" 
+		Damage			= "100"
+		FiringRate			= "35"
+		VisibleInEncyclopedia = "false"
+		GroupingAngle		= "1"
+		FiringRange		= "200"
+		RecoilForce		= "150"
+		ChargeSize     = "10"
+		RechargingTime = "10"
+		CanBeUsedInAutogenerating  =  "0"
+		Durability			= "400" />
+
+
+        <Prototype
+                Class                   = "RocketLauncher"
+                Name                    = "mrak01R"
+                ModelFile                       = "mrak01R"
+                ResourceType            = "SIDE_GUN"
+                NodeScale               = "1 1 1"
+                Mass                    = "1.0"
+                FiringType              = "Rocket"
+                CanBeUsedInAutogenerating  =  "0"
+                BulletPrototype         = "mrak_rocket"
+                ExplosionType           = "BLAST"
+                FiringEffect            = "none"
+                Damage                  = "300"
+				FiringRate			= "40"
+                GroupingAngle           = "1"
+                FiringRange             = "400"
+
+		ChargeSize     = "2"
+		RechargingTime = "10"
+
+                ShellsPoolSize          = "12"
+                WithShellsPoolLimit     = "true"
+     		ApplyAffixes	= "false"
+                Durability              = "300"
+                
+                VisibleInEncyclopedia = "false"
+
+                IgnoreStopAnglesWhenFire = "true"
+                />
+
+        <Prototype
+                Class                   = "RocketLauncher"
+                Name                    = "mrak01L"
+                ModelFile                       = "mrak01L"
+                ResourceType            = "SIDE_GUN"
+                NodeScale               = "1 1 1"
+                Mass                    = "1.0"
+                FiringType              = "Rocket"
+                CanBeUsedInAutogenerating  =  "0"
+                BulletPrototype         = "mrak_rocket"
+                ExplosionType           = "BLAST"
+                FiringEffect            = "none"
+                Damage                  = "300"
+				FiringRate			= "40"
+                GroupingAngle           = "1"
+                FiringRange             = "400"
+
+		ChargeSize     = "2"
+		RechargingTime = "10"
+
+                ShellsPoolSize          = "12"
+                WithShellsPoolLimit     = "true"
+     		ApplyAffixes	= "false"
+                Durability                      = "300"
+                
+                VisibleInEncyclopedia = "false"
+
+                IgnoreStopAnglesWhenFire = "true"
+                />
+
+
+        <Prototype
+                Class                   = "CompoundGun"
+                Name                            = "mrakSideGun"
+
+                Decal                           = "DC_ROKET"
+
+                CanBeUsedInAutogenerating  =  "0"
+     		ApplyAffixes	= "false"
+                Price           = "35200"
+                ResourceType            = "SIDE_GUN">   
+
+                <Part id = "BASKET_SIDE_GUN_L"  Prototype = "mrak01L" /> 
+                <Part id = "BASKET_SIDE_GUN_R"  Prototype = "mrak01R" /> 
+
+
+        </Prototype>
+
+</Prototypes>
