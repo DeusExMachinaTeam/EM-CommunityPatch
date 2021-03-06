@@ -290,7 +290,7 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 Class                   = "RocketLauncher"
                 Name                    = "hurricane01"
                 ModelFile                       = "giant_hurricane01"
-                ResourceType            = "GIANT_GUN"
+                ResourceType            = "BIG_GUN"
                 NodeScale               = "1 1 1"
                 Mass                    = "1.0"
 
