@@ -1716,13 +1716,13 @@
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_RAINMETAL_FIRE"
+				effect_id="ET_PS_RAINMETAL_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE03"
-				effect_id="ET_PS_RAINMETAL_FIRE"
+				effect_id="ET_PS_RAINMETAL_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>

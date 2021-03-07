@@ -230,7 +230,11 @@
 	</Node>
 
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Ракеты //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_ROCKET_BIG" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE1" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE" psNumEmitterMesh="-1" />
@@ -251,7 +255,11 @@
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_MACHINE_GUN_SINGLE" looped="0" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Столкновение Машины с Объектами //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_WOODVEHICLEHIT" multi="true">
 
       <Node name="ET_PS_WOODVEHICLEHIT1" class="SgNode">
@@ -292,7 +300,11 @@
 	</Node>
 
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Разрушение Объектов  от Машины//////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ//////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_BREAKROADSIGN" class="SgNode">
             <Node name="S1"	 class="SgSoundSourceNode" id="S_VEHICLESPARKLE" looped="0" /> 
 	</Node>
@@ -350,7 +362,11 @@
 	</Node>
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Прожекторы //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_PROJECTOR_DOZER_CAB01" class="SgNode">
 		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
 	</Node>
@@ -452,7 +468,11 @@
 		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Боссы //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_BOSS1_SMOKE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_BOSS1_SMOKE" psNumEmitterMesh="-1" />
 	</Node>
@@ -578,7 +598,11 @@
 
 
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Природа /////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ /////////////////////////////////// -->
+>>>>>>> main
 
 	<Node name="ET_PS_SEA" class="SgNode">
 		<Node name="noise" class="SgSoundSourceNode" id="S_SEA" looped="1" /> 
@@ -620,7 +644,11 @@
 		<Node name="noise" class="SgSoundSourceNode" id="S_FACTORY_WIND" looped="1" /> 
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Ролики //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 
 	<Node name="ET_S_OIL_FIELD" class="SgNode">
 		<Node name="noise" class="SgSoundSourceNode" id="S_OIL_FIELD" looped="1" /> 
@@ -631,7 +659,11 @@
 	</Node>
 
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Разное //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_RADUGA_MAIN" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_RADUGA_MAIN" psNumEmitterMesh="-1" />
 	</Node>
@@ -692,7 +724,11 @@
 	</Node>
 
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Эффекты машин //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 
 	<Node name="ET_PS_EXHAUST_SMOKE1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_SMOKE1" psNumEmitterMesh="-1" />
@@ -709,7 +745,11 @@
 		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_POW_SMOKE1_SMALL" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Свет фар и Взрыв машины //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_VEH_PART_JADED_FIRE" class="SgNode">
 		<Node name="Object3" class="SgParticlesNode" id="PS_VEN_PART_SMOKE1" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_VEN_PART_FIRE" psNumEmitterMesh="-1" />
@@ -836,7 +876,11 @@
 
 	</Node>
 
+<<<<<<< HEAD
 	<!--Основная часть смертей машин от разного типа оружия-->
+=======
+	<!--пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ-->
+>>>>>>> main
 
 	<Node name="ET_PS_VEH_EXP1_SMALL" class="SgNode">
 		<Node name="11" class="SgParticlesNode" id="PS_VEN_EXP1_SMALL_MAIN2" psNumEmitterMesh="-1" />
@@ -1351,7 +1395,11 @@
 		<Node name="151" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_SMOKE2" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Искры и Машина в воде //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_SPARKLE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
 	</Node>
@@ -1361,7 +1409,11 @@
 		<Node name="Object2" class="SgParticlesOpaqueNode" id="PS_VEN_WSPLASH_RING" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Маленькие Колеса //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_SMALLWHEELROCKSPLASH" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ROADSMOKE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_DRIFT01" isLooped="0" />
@@ -1406,7 +1458,11 @@
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_BRAKE" isLooped="0" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Большие Колеса //////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_BIGWHEELROCKSPLASH" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ROADSMOKE1_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_ROADSMOKE1_MAIN" psNumEmitterMesh="-1" />
@@ -1461,6 +1517,7 @@
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_BRAKE" isLooped="0" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Гильзы //////////////////////////////////// -->
 	<Node name="ET_PS_SHELL_SML_MGUN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN" psNumEmitterMesh="-1" />
@@ -1471,10 +1528,21 @@
 	<Node name="ET_PS_SHELL_SML_MGUN_1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN_1" psNumEmitterMesh="-1" />
 	</Node>
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////// -->
+	<Node name="ET_PS_SHELL_SML_MGUN" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_SML_MGUN_1" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN_1" psNumEmitterMesh="-1" />
+	</Node>
+
+>>>>>>> main
 	<Node name="ET_PS_SHELL_SML_CANNON" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_CANNON" psNumEmitterMesh="-1" />
 		<!--  <Node name="Sound1" class="SgSoundSourceNode" id="S_SHELL_MEDIUM" isLooped="1" /> -->
 	</Node>
+<<<<<<< HEAD
 	<Node name="ET_PS_SHELL_SML_CANNON_R" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_CANNON_R" psNumEmitterMesh="-1" />
 		<!--  <Node name="Sound1" class="SgSoundSourceNode" id="S_SHELL_MEDIUM" isLooped="1" /> -->
@@ -1511,12 +1579,21 @@
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_MORTAR_R" psNumEmitterMesh="-1" />
 	</Node>
 	
+=======
+	<Node name="ET_PS_SHELL_BIG_MGUN" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_MGUN" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_BIG_CANNON" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_CANNON" psNumEmitterMesh="-1" />
+	</Node>
+>>>>>>> main
 	<Node name="ET_PS_SHELL_SIDE_MGUN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SIDE_MGUN" psNumEmitterMesh="-1" />
 	</Node>
 	<Node name="ET_PS_SHELL_SIDE_CANNON" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SIDE_CANNON" psNumEmitterMesh="-1" />
 	</Node>
+<<<<<<< HEAD
 	
 	<Node name="ET_PS_SHELL_GIANT_MGUN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_MGUN" psNumEmitterMesh="-1" />
@@ -1531,11 +1608,24 @@
 		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_CANNON_R" psNumEmitterMesh="-1" />
 	</Node>
 	
+=======
+	<Node name="ET_PS_SHELL_GIANT_MGUN" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_MGUN" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_GIANT_CANNON" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_GIANT_CANNON" psNumEmitterMesh="-1" />
+	</Node>
+
+>>>>>>> main
 	<Node name="ET_PS_ZEUS01_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_ZEUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Маленький пулемет //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_MACHINEGUN_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
@@ -1588,9 +1678,12 @@
 	</Node>
 
 	<Node name="ET_PS_OMEGA_FIRE" class="SgNode">
+<<<<<<< HEAD
 		<Node name="Object3" class="SgParticlesNode" id="PS_FLAG01_FIRE_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_FLAG01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_FLAG01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+=======
+>>>>>>> main
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_OMEGA" looped="0" />
 	</Node>
 
@@ -1846,7 +1939,11 @@
 	<Node name="ET_PS_MACHINEGUNCRASHBARREL3HIT" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_BC3GUN" psNumEmitterMesh="-1" />
 	</Node>
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Маленькая пушка //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_CANNON_FIRE" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_RAPIER01_FIRE_SMOKE1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_RAPIER01_FIRE_MAIN" psNumEmitterMesh="-1" />
@@ -1976,7 +2073,11 @@
 		<Node name="Object0" class="SgParticlesNode" id="PS_BC3GUN" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Большой пулемет //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_AUTOCANNON_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object11" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINX" psNumEmitterMesh="-1" />
@@ -1993,11 +2094,27 @@
 	</Node>
 
 	<Node name="ET_PS_RAINMETAL_FIRE" class="SgNode">
+<<<<<<< HEAD
 		<Node name="Object2" class="SgParticlesNode" id="PS_DRAGON01_FIRE_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_RAINMETAL" looped="1" />
 	</Node>
+=======
+		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_DRAGON01_FIRE_SMOKE" psNumEmitterMesh="-1"/>
+		<Node name="Object3" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_RAINMETAL" looped="1" />
+	</Node>
+	
+	<Node name="ET_PS_RAINMETAL_FIRE_WOUT_SOUND" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_DRAGON01_FIRE_SMOKE" psNumEmitterMesh="-1"/>
+		<Node name="Object3" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN" psNumEmitterMesh="-1" />
+	</Node>
+>>>>>>> main
 
 	<Node name="ET_PS_KPVT_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
@@ -2145,7 +2262,11 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_SPARKLE_BIG_MAIN1" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Гранатомет//////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ//////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_GRENADE_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object11" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINX" psNumEmitterMesh="-1" />
@@ -2294,7 +2415,11 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_SPARKLE_BIG_MAIN1" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Большая пушка //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_DRAGON01_FIRE_BACK" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_DRAGON01_FIRE_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN" psNumEmitterMesh="-1" />
@@ -2305,10 +2430,13 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_DRAGON01_FIRE_SMOKE1" psNumEmitterMesh="-1" />
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_DRAGON" looped="0" /> 
 	</Node>
+<<<<<<< HEAD
 	
 	<Node name="ET_PS_DRAGON01_FIRE" class="SgNode">
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_DRAGON" looped="0" /> 
 	</Node>
+=======
+>>>>>>> main
 
 	<Node name="ET_PS_BLAST_FIRE" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CYCLOPS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
@@ -2560,7 +2688,11 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_BARREL_GREEN_SMOKE" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Рапира //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_RAPIER01_FIRE" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_RAPIER01_FIRE_SMOKE1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_RAPIER01_FIRE_MAIN" psNumEmitterMesh="-1" />
@@ -2570,7 +2702,11 @@
 		<Node name="Sound1" class="SgSoundSourceNode" 	id="S_SHOOTING_RAPIER" looped="0"/>
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Лазер //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_LASER_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" 	id="PS_MAXIM01_FIRE_MAIN" psNumEmitterMesh="-1" /> 
 		<Node name="Object11" class="SgParticlesNode" 	id="PS_MAXIM01_FIRE_MAIN1" psNumEmitterMesh="-1" /> 
@@ -2743,7 +2879,11 @@
 		<Node name="Object0" class="SgParticlesNode" id="PS_BC3GUN" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Оружие  Плазма //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 	<Node name="ET_PS_PLASMA_EN" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ELEFANT01_EN_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_ELEFANT01_EN_MAIN1" psNumEmitterMesh="-1" />
@@ -2920,7 +3060,11 @@
 		<Node name="Object0" class="SgParticlesNode" id="PS_BC3GUN" psNumEmitterMesh="-1" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Звуки гудка //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 		<Node name="ET_S_HORN01"		class="SgSoundSourceNode" id="S_HORN01" looped="1"  /> 
 		<Node name="ET_S_HORN02"		class="SgSoundSourceNode" id="S_HORN02" looped="1"  /> 
 		<Node name="ET_S_HORN03"		class="SgSoundSourceNode" id="S_HORN03" looped="1"  /> 
@@ -2931,7 +3075,11 @@
 		<Node name="ET_S_HORN08"		class="SgSoundSourceNode" id="S_HORN08" looped="1"  /> 
 
 
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Звуки двигателя //////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ //////////////////////////////////////// -->
+>>>>>>> main
 
 		<Node name="ET_S_ENGINE_BEETLE_1_LOW"		class="SgSoundSourceNode" id="S_ENGINE_BEETLE_1_LOW" /> 
 		<Node name="ET_S_ENGINE_BEETLE_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_BEETLE_1_HIGH" /> 
@@ -3024,7 +3172,11 @@
 		<Node name="ET_S_MISSILE1"		class="SgSoundSourceNode" id="S_MISSILE1" /> 
 		<Node name="ET_S_MISSILE2"		class="SgSoundSourceNode" id="S_MISSILE2" /> 
 		
+<<<<<<< HEAD
 <!-- //////////////////////////////////// Звуки торможения /////////////////////////////////////// -->
+=======
+<!-- //////////////////////////////////// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ /////////////////////////////////////// -->
+>>>>>>> main
 
 		<Node name="ET_S_BRAKE01"		class="SgSoundSourceNode"	id="S_BRAKE01" />
 		
@@ -3100,7 +3252,11 @@
 	</Node>
 -->
 
+<<<<<<< HEAD
 <!-- 	///////////////Эфекты к роликам///////////////	 -->
+=======
+<!-- 	///////////////пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ///////////////	 -->
+>>>>>>> main
         <Node name="ET_PS_LENS_D5" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_LENS_D5" psNumEmitterMesh="-1" /> 
 	</Node>
@@ -3175,7 +3331,11 @@
 		<Node name="Sound01" class="SgSoundSourceNode" id="S_CAR_EXPL" looped="0" />
 	</Node>
 
+<<<<<<< HEAD
 <!-- Смерть человечиков-->
+=======
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-->
+>>>>>>> main
 	<Node name="ET_PS_MANDEATH" multi="true">
 
 		<Node name="ET_PS_MANDEATH1" class="SgNode">
