@@ -912,15 +912,15 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "hunterCab01"
 			ResourceType			= "HUNTER_CABIN"
 			NodeScale			= "1 1 1"
-			Durability			= "150"
-			DurCoeffsForDamageTypes	= "20 0 -25"
+			Durability			= "350"
+			DurCoeffsForDamageTypes	= "20 10 -5"
 			VisibleInEncyclopedia = "false"
 			Mass				= "5.0"
 			EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxPower			= "120"
 			MaxTorque			= "70"
-			Price				= "10000"	
+			Price				= "5000"	
 			MaxSpeed			= "100.0"
 			LoadPoints			= "LP_GIANT01" >
 				<GroupsHealth
@@ -949,7 +949,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			EngineHighSound		        = "ET_S_ENGINE_HUNTER_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxTorque			= "70"
-			Price				= "14000"	
+			Price				= "3000"	
 			MaxSpeed			= "100.0"
 			LoadPoints			= "LP_SML01 LP_BIG01" >
 				<GroupsHealth
