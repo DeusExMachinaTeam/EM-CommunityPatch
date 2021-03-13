@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!--
+$Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
+-->
+<ResourceTypes>
+
+	<Type Name="TEAMTACTIC"/>
+
+        
+	<Type Name="SUBMARINE"/>
+
+
+	<Type Name="VEHICLE" geomsize="1 1"/>
+
+	<Type Name="VEHICLE_PART">
+		<Type Name="CHASSIS" geomsize="5 5">
+			<Type Name="ROBOT1_CHASSIS" />
+			<Type Name="ROBOT2_CHASSIS" />
+			<Type Name="SML1_CHASSIS" />
+			<Type Name="SML2_CHASSIS" />
+			<Type Name="SML3_CHASSIS" />
+			<Type Name="SML4_CHASSIS" />
+			<Type Name="HUNTER_CHASSIS" />
+			<Type Name="CRUISER_CHASSIS" />
+			<Type Name="FIGHTER_CHASSIS" />
+			<Type Name="DOZER_CHASSIS" />
+			<Type Name="SCOUT_CHASSIS" />
+			<Type Name="BUG_CHASSIS" />
+			<Type Name="MOLOKOVOZ_CHASSIS" />
+			<Type Name="BELAZ_CHASSIS" />
+			<Type Name="URAL_CHASSIS" />
+			<Type Name="MIROTVOREC_CHASSIS" />
+			<Type Name="MIROTVOREC_TRAILER_CHASSIS" />
+			<Type Name="MOLOKOVOZ_TRAILER_CHASSIS" />
+			<Type Name="TANK_CHASSIS" />
+		</Type>
+		
+		<Type Name="CABIN" geomsize="5 5">
+			<Type Name="ROBOT1_CABIN" />
+			<Type Name="ROBOT2_CABIN" />
+			<Type Name="SML1_CABIN" />
+			<Type Name="SML2_CABIN" />
+			<Type Name="SML3_CABIN" />
+			<Type Name="SML4_CABIN" />
+			<Type Name="HUNTER_CABIN" />
+			<Type Name="CRUISER_CABIN" />
+			<Type Name="BUG_CABIN" />
+			<Type Name="URAL_CABIN" />
+			<Type Name="BELAZ_CABIN" />
+			<Type Name="MOLOKOVOZ_CABIN" />
+			<Type Name="DOZER_CABIN" />
+			<Type Name="SCOUT_CABIN" />
+			<Type Name="FIGHTER_CABIN" />
+			<Type Name="MIROTVOREC_CABIN" />
+			<Type Name="MIROTVOREC_TRAILER_CABIN" />
+			<Type Name="TANK_CABIN" />
+			<Type Name="SML2_CABIN_FORMULA" />
+		</Type>
+		
+		<Type Name="BASKET" geomsize="5 5">
+			<Type Name="BELAZ_BASKET" />
+			<Type Name="MOLOKOVOZ_BASKET" />
+			<Type Name="BUG_BASKET" />
+			<Type Name="URAL_BASKET" />
+			<Type Name="MOLOKOVOZ_TRAILER_BASKET" />
+			<Type Name="MIROTVOTEC_BASKET" />
+			<Type Name="FAKE_BASKET" />
+			<Type Name="FAKE_BIGBASKET" />
+		</Type>
+		
+		<Type Name="STATIC_AUTO_GUN_DOT" />
+	</Type>
+	
+	<Type Name="GUN">
+		<Type Name="BIG_GUN"	geomsize="2 3" />
+		<Type Name="SMALL_GUN"	geomsize="2 2" />
+		<Type Name="SIDE_GUN"	geomsize="3 2" />
+		<Type Name="GIANT_GUN"	geomsize="3 4" />
+		<Type Name="SPECIAL_WEAPON"	geomsize="2 1" />
+		<Type Name="TANK_GUN"	geomsize="4 7" />
+
+		<Type Name="BOSS03_GUN" />
+		<Type Name="BOSS04_DRONE_GUN" />
+	</Type>
+	
+	<Type Name="GOLD" geomsize="2 2" />
+	
+	<Type Name="GOODS" geomsize="2 2" >
+		<Type Name="RAW">
+			<Type Name="POTATO" />
+			<Type Name="SCRAP_METAL" />
+			<Type Name="FIREWOOD" />
+			<Type Name="OIL" />
+		</Type>
+
+		<Type Name="DIGGED">
+<!--			<Type Name="GEAR" /> -->
+			<Type Name="BOTTLE" />
+		</Type>
+		
+		<Type Name="SIMPLE_PRODUCED">
+			<Type Name="FUEL" />
+<!--			<Type Name="FIBREBOARD" /> -->
+			<Type Name="MACHINERY" />
+		</Type>
+
+		<Type Name="PRODUCED">
+			<Type Name="TOBACCO" />
+			<Type Name="BOOK" />
+<!--			<Type Name="OSTRICH_FEATHER" /> -->
+			<Type Name="ELECTRONICS" />
+		</Type>
+
+	
+	</Type>
+
+	<Type Name="GADGET" geomsize="1 1" >
+		<Type Name="GADGET_COMMON" geomsize="1 1"  />
+		<Type Name="GADGET_WEAPON" geomsize="1 2"  />
+		<Type Name="GADGET_ENGINE" geomsize="1 1"  />		
+	</Type>
+
+	<Type Name="BOSS" >
+		<Type Name="BOSS01" />
+		<Type Name="BOSS02" />
+		<Type Name="BOSS03" />
+		<Type Name="BOSS04" />
+	</Type>
+
+	<Type Name="BOSSES_STUFF" >
+		<Type Name="BOSS02_PLATFORM" />
+		<Type Name="BOSS02_ARM" />
+
+		<Type Name="BOSS03_PART" />
+
+		<Type Name="BOSS04_PART" />
+		<Type Name="BOSS04_STATION" />
+		<Type Name="BOSS04_STATION_PART" />
+		<Type Name="BOSS04_DRONE" />
+	</Type>
+
+	<Type Name="QUEST_ITEM" >
+		<Type Name="QUEST_START_FATHER_LETTER" />
+		<Type Name="QUEST_POTATO" />
+		<Type Name="QUEST_MEDICINE_BOX" />
+		<Type Name="QUEST_EXPLOSIVE" />
+		<Type Name="QUEST_WINEBARRELS" />
+		<Type Name="QUEST_KOMPAZITNIY_SPLAV" />
+		<Type Name="QUEST_SHAMAN_HEAD1" />
+		<Type Name="QUEST_SHAMAN_HEAD2" />
+		<Type Name="QUEST_OLD_DIGITAL" />
+		<Type Name="QUEST_ART_MASTERPICE" />
+		<Type Name="QUEST_MAFIA_NARCOTIK" />
+		<Type Name="QUEST_FIRST_CANISTRA" />
+		<Type Name="QUEST_DISK_1" />
+		<Type Name="QUEST_DISK_2" />
+		<Type Name="QUEST_KEY_FOR_SUBMARINE" />
+		<Type Name="QUEST_KEY_FOR_TUNNEL" />
+
+		<Type Name="QUEST_MONSTER_HEAD" />
+		<Type Name="QUEST_MAGIC_THING1" />
+		<Type Name="QUEST_MAGIC_THING2" />
+		<Type Name="QUEST_EXPLOSION_STONE" />
+		<Type Name="QUEST_REPROBOT" />
+	</Type>
+</ResourceTypes>

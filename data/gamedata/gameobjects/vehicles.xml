@@ -624,7 +624,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription id = "CHASSIS" partResourceType = "FIGHTER_CHASSIS">
 			<PartDescription id = "CABIN" partResourceType = "FIGHTER_CABIN" lpName = "LP_CAB01" >
 				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_SML01" />
-				<PartDescription id="CABIN_BIG_GUN" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
+				<PartDescription id="CABIN_BIG_GUN_1" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
 			</PartDescription>
 			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
 		</MainPartDescription>
@@ -684,7 +684,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription id = "CHASSIS" partResourceType = "HUNTER_CHASSIS">
 			<PartDescription id = "CABIN" partResourceType = "HUNTER_CABIN" lpName = "LP_CAB01" >
 				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_SML01" />
-				<PartDescription id="CABIN_BIG_GUN" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
+				<PartDescription id="CABIN_BIG_GUN_1" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
 				<PartDescription id="CABIN_GIANT_GUN" partResourceType = "GIANT_GUN" lpName = "LP_GIANT01" />
 			</PartDescription>
 			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
@@ -836,7 +836,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		VisibleInEncyclopedia	= "true">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "dozerCab01" />
-			<Part id = "BASKET"		Prototype = "dozerCargo01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
 
@@ -1539,9 +1539,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 	= "Cruiser">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "cruiserCab01" />
-			<Part id = "CABIN_BIG_GUN_1"		Prototype = "octopus01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "flag01" /> 
 <!--			<Part id = "CABIN_BIG_GUN_2"		Prototype = "octopus01" /> -->
-			<Part id = "CABIN_GIANT_GUN"		Prototype = "flag01" /> 
+			<Part id = "CABIN_GIANT_GUN"		Prototype = "octopus01" /> 
 <!--			<Part id = "CABIN_SIDE_GUN_L"	Prototype = "hunter01" /> -->
 <!--			<Part id = "CABIN_SIDE_GUN_R"	Prototype = "hunter01" /> -->
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
