@@ -2081,6 +2081,35 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "2 4"/>
 		</Prototype>
+		
+		<Prototype
+			Class				= "Basket"
+			Name				= "dozerCargo01"
+			ModelFile			= "cub"
+			VisibleInEncyclopedia   = "false"
+			ResourceType		= "DOZER_BASKET"
+			Durability			= "0"
+			DurCoeffsForDamageTypes	= "0 0 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+
+
+			Price				= "1000"
+			RepairCoef			= "2.8"
+
+			Mass				= "5.0"
+			LoadPoints			= "LP_BIG01" >
+	
+			<RepositoryDescription
+				RepositorySize		= "6 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "10 2"
+				/>
+
+			</RepositoryDescription>
+		</Prototype>
 
 		<Prototype
 			Class				= "Basket"
