@@ -138,12 +138,12 @@
 	<Sample
 		id="28"
 		sound="data\sounds\radio\r_bandit_shot_1.ogg"
-		text="Зацепило!" />
+		text="Тысяча чертей!" />
 
 	<Sample
 		id="29"
 		sound="data\sounds\radio\r_bandit_shot_2.ogg"
-		text="Тысяча чертей!" />
+		text="Зацепило!" />
 
 	<Sample
 		id="30"
