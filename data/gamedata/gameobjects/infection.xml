@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class			= "InfectionLair"
+		Name			= "someInfectionLair"
+
+		ModelFile		= "dungeon_1"
+		NodeScale		= "1 1 1"/>	
+
+	<Prototype
+		Class			= "InfectionZone"
+		Name			= "InfectionZone"
+		MinDistToPlayer	= "200"
+		CriticalTeamDist = "500"
+		CriticalTeamTime = "5" 
+		BlindTeamDist = "200"
+		BlindTeamTime = "20"
+		DropOutTimeOut = "20.000"
+		/>
+        	
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "FelixsSmallGang"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "FelixsGangSmallGenerator">
+		<Vehicles/>
+	</Prototype>
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "FelixsGangSmallGenerator"
+		DesiredCount 	= "1-2"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Scout01"		
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml101" 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml101" 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "FelixsGang"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "FelixsGangGenerator">
+		<Vehicles/>
+	</Prototype>
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "FelixsGangGenerator"
+		DesiredCount 				= "1-2"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Scout01"		
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Sml101 Sml201 " 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml101 Sml201" 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r1m2BanditsGang"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator = "r1m2BanditsGangGenerator">
+		<Vehicles/>
+	</Prototype>
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name			= "r1m2BanditsGangGenerator"
+		DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Scout01 Sml201"		
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Sml101 Sml201" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml101 Sml201" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r1m3BanditsGang"
+		DecisionMatrix	= "teammain.lua"
+		VehiclesGenerator = "r1m2BanditsGangGenerator">
+		<Vehicles/>
+	</Prototype>
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name			= "r1m3BanditsGangGenerator"
+		DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02"		
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Sml201 Sml301" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml101 Sml201 Sml301 Sml401" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r1m3BrodiagaGang"
+		DecisionMatrix	= "teammain.lua"
+		VehiclesGenerator = "r1m3BrodiagaGangGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name			= "r1m3BrodiagaGangGenerator"
+                DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02 Sml401"		
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml101 Sml201 Sml301" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r4m1Razboyniki"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.05" >
+		<Description 
+			VehiclesPrototypes	="Hunter01 Hunter02 Fighter01"		
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Hunter01 Fighter02 " 	
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Hunter01 Fighter01" 	
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Fighter01 Fighter01" 	
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "zooGang"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "zooGangGenerator">
+		<Vehicles/>
+	</Prototype>
+
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "zooGangGenerator"
+		DesiredCount 	= "3-5">
+
+		<Description VehiclesPrototypes="Sml101 Sml201 Sml301 Sml401" 			PartOfSchwartz="0.2" />
+		<Description VehiclesPrototypes="Scout01  Fighter01 Hunter01 Cruiser01 Dozer01"	PartOfSchwartz="0.2" />
+		<Description VehiclesPrototypes="Bug01 Molokovoz01 Ural01 Belaz01 Mirotvorec01" 	PartOfSchwartz="0.2" />
+	</Prototype>
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "OracleDef"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "OracleDefGenerator">
+		<Vehicles/>
+	</Prototype>
+
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "OracleDefGenerator"
+		DesiredCount 				= "2-2"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Hunter01 Scout02 Scout03"		
+			WaresPrototypes="book tobacco"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter02 Sml201 Sml301 Sml401" 	
+			WaresPrototypes="book tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Hunter01 Scout02 Scout03" 	
+			WaresPrototypes="book tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Scout02 Scout03" 	
+			WaresPrototypes="book tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "ARGang"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "ARGangGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "ARGangGenerator"
+		DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Hunter01 Fighter02 "		
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter02 Scout02 Scout03" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "SNGGang"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "SNGGangGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "SNGGangGenerator"
+		DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Hunter01 Scout02 Scout03"		
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter02 Scout02 Scout03" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "InfectionTeam1"
+		DecisionMatrix	        = "teammain.lua">
+		<Vehicles>
+			<Vehicle PrototypeName="BelazTest" Count="2" />
+			<Vehicle PrototypeName="Revolutioner2" Count="1" />
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "InfectionTeam2"
+		DecisionMatrix	        = "teammain.lua">
+		<Vehicles>
+			<Vehicle PrototypeName="Scout01" Count="2" />
+			<Vehicle PrototypeName="Fighter01" Count="1" />
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "InfectionTeam3"
+		DecisionMatrix	        = "teammain.lua">
+		<Vehicles>
+			<Vehicle PrototypeName="Scout01" Count="1" />
+			<Vehicle PrototypeName="Fighter01" Count="1" />
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r3m1_RobotTeam"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "r3m1_RobotGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r3m1_RobotGenerator"
+                DesiredCount 				= "2-2"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.24"
+		partOfSchwartzForWares 			= "0.35" >
+		<Description 
+			VehiclesPrototypes	="RobotTron"		
+			WaresPrototypes="tobacco bottle"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="RobotTron" 	
+			WaresPrototypes="tobacco bottle"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="RobotBobot02" 	
+			WaresPrototypes="tobacco bottle"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r1m4_TraidersTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "r1m4_TraidersGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r1m4_TraidersGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Fighter02 Scout02"		
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter01 Scout03 Sml301" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Sml301" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		
+	</Prototype>
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r1m4_FishersTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "r1m4_FishersGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r1m4_FishersGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Fighter02 Scout02"		
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter01 Scout03 Sml301" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Sml301" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	</Prototype>
+
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r3m1_RaboynikTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "RaboynikGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "RaboynikGenerator"
+                DesiredCount 				= "2-2"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Fighter02 Hunter02"		
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter01 Hunter01" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02 Scout03" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r3m1_DruidTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "DruidGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "DruidGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Fighter02 Hunter02"		
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter01 Hunter01" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02 Scout03" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	
+    	</Prototype>
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r3m1_MechDruidTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "MechDruidGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "MechDruidGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		
+		<Description 
+			VehiclesPrototypes	="Hunter02 Fighter02"		
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter01 Hunter01" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02 Scout03" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	</Prototype>
+
+
+
+
+
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r3m2_RobotsTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "Robots32Generator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "Robots32Generator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.24"
+		partOfSchwartzForWares 			= "0.35" >
+		
+		<Description 
+			VehiclesPrototypes	="RobotBobot01"		
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+	</Prototype>
+
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r3m2_OracleDefendersTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "OracleDefendersGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "OracleDefendersGenerator"
+		DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Hunter02 Fighter02"		
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter01 Hunter01" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02 Scout03" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="book electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r3_BanditesTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "r3_BanditesGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r3_BanditesGenerator"
+		DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Hunter02 Fighter02"		
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Fighter01 Hunter01" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Scout02 Scout03" 	
+			WaresPrototypes="bottle tobacco"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Bug01 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Bug02 Scout02 Scout03 Sml301 Sml401" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	</Prototype>
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r4m1_GadadTeam"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "GadadGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "GadadGenerator"
+                DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Dozer01 Cruiser02"		
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Cruiser02 Hunter01" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout02 Hunter02 Dozer01" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Hunter02 Cruiser01" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02 " 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout03 " 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r4m1_KazifTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "KazifGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "KazifGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Scout03 Fighter02 Hunter01"		
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Hunter02 Cruiser01" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r4m1_KefTeam"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "KefGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "KefGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Fighter01 Cruiser02"		
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Scout01 Hunter01" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r4_BanditesTeam"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "r4_BanditesGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r4_BanditesGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Fighter02 Cruiser01"		
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Dozer01 Hunter02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural01 Hunter01 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Ural02 Fighter02 Scout03" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Fighter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Molokovoz02 Hunter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Belaz01 Hunter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+
+	</Prototype>
+
+	<Prototype
+		Class			= "InfectionTeam"
+		Name			= "r4m2_MilitaryTeam"
+		DecisionMatrix	        = "teammain.lua"
+		VehiclesGenerator 	= "r4m2_MilitaryGenerator">
+		<Vehicles/>
+	</Prototype>
+
+	<Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r4m2_MilitaryGenerator"
+                DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="Fighter02 Tank01"		
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="Dozer01 Hunter01" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+                <Description 
+			VehiclesPrototypes	="Hunter02 Cruiser02" 	
+			WaresPrototypes="electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Belaz01 Hunter02 Scout02" 	
+			WaresPrototypes="electronics book"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+
+
+	</Prototype>
+
+
+
+</Prototypes>
