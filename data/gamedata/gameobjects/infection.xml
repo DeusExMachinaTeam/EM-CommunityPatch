@@ -372,7 +372,7 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 
 		<Description VehiclesPrototypes="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 			PartOfSchwartz="0.2" />
 		<Description VehiclesPrototypes="ScoutEnemySpawn  FighterEnemySpawn HunterEnemySpawn CruiserEnemySpawn DozerEnemySpawn"	PartOfSchwartz="0.2" />
-		<Description VehiclesPrototypes="BugForSale MolokovozForSale UralForSale BelazForSale Mirotvorec01" 	PartOfSchwartz="0.2" />
+		<Description VehiclesPrototypes="BugForSale MolokovozForSale UralForSale BelazForSale MirotvorecForSale" 	PartOfSchwartz="0.2" />
 	</Prototype>
 
 
