@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DialogsResource><!--Root-->
+	<Reply
+		name="Dynamic00"
+		text="Приветствую тебя, путник."
+		role="NPC"
+		scriptResult="ConversationWnd:ShowDynamicQuestsMenu()"
+		nextReplies="EndDlg2 Dlg_pl_000020" />
+
+	<Reply
+		name="Dlg_pl_000020"
+		text="Кажется, я ошибся дверью."
+		role="PLAYER"
+		scriptCondition="GetCurNpc():HasNotTakenDynamicQuests()"
+		scriptResult="ConversationWnd:EndConversation()" />
+
+	<Reply
+		name="Dynamic00_plYes0"
+		text="Конечно, я согласен."
+		role="PLAYER"
+		scriptResult="ConversationWnd:GetCurrentDynamicQuest():Take(); ConversationWnd:EndConversation()" />
+
+	<Reply
+		name="Dynamic00_plNo0"
+		text="Я предпочту отказаться."
+		role="PLAYER"
+		scriptResult="ConversationWnd:EndConversation()" />
+
+	<Reply
+		name="Dynamic00_Destroy00"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Destroy00_npc0" />
+
+	<Reply
+		name="Dynamic00_Destroy00_npc0"
+		text="В окрестностях орудует вор-рецидивист. Награда за его голову – %3d."
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Destroy01"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Destroy01_npc0" />
+
+	<Reply
+		name="Dynamic00_Destroy01_npc0"
+		text="Кто-то жжет посевы и отравляет колодцы. Скорее всего – это вражеский шпион. Убей его и получишь %3d."
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Destroy02"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Destroy02_npc0" />
+
+	<Reply
+		name="Dynamic00_Destroy02_npc0"
+		text="По окрестностям разъезжает один сумасшедший, устраивает засады и пугает жителей деревень. Он не очень опасен, но люди жалуются. Разберешься с ним, и %3d – твои."
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Reach00"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Reach00_npc0" />
+
+	<Reply
+		name="Dynamic00_Reach00_npc0"
+		text="Нужно отвезти кое-какие исследовательские данные и образцы в поселение %2n. На месте с тобой рассчитаются. %3d - неплохой приз за такую пустяшную работу. "
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Reach01"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Reach01_npc0" />
+
+	<Reply
+		name="Dynamic00_Reach01_npc0"
+		text="Мы тут собрали кое-какую посылочку в селение %2n. Доставь ее, как будешь проезжать мимо. Дело не срочное. Как сделаешь – тебе заплатят %3d."
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Convoy00"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Convoy00_npc0" />
+
+	<Reply
+		name="Dynamic00_Convoy00_npc0"
+		text="По дорогам стало опасно передвигаться, а одному моему знакомому очень нужно попасть в %2n. Защити его по дороге, и получишь %3d по прибытии."
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Convoy01"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Convoy01_npc0" />
+
+	<Reply
+		name="Dynamic00_Convoy01_npc0"
+		text="Тут кое-кто налаживает торговлю с соседним городом и везет образцы товаров. Сопроводи их до селения %2n и проследи, чтобы не было хвоста. Ах, да! Награда – %3d."
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="EndDlg1"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		scriptResult="ConversationWnd:EndConversation()"
+		nextReplies="Dlg_npc_000017" />
+
+	<Reply
+		name="EndDlg2"
+		text="Какие новости?"
+		role="PLAYER"
+		scriptCondition="not GetCurNpc():HasNotTakenDynamicQuests()"
+		nextReplies="Dlg_npc_000017" />
+
+	<Reply
+		name="Dlg_npc_000017"
+		text="Представляешь, все в порядке! Порядочному наемнику не к чему руку приложить."
+		role="NPC"
+		nextReplies="Dlg_pl_000018" />
+
+	<Reply
+		name="Dlg_pl_000018"
+		text="Жаль. Ладно, зайду в другой раз."
+		role="PLAYER"
+		scriptResult="ConversationWnd:EndConversation()" />
+
+	<Reply
+		name="Dynamic00_Peace00"
+		text="У меня возникла одна проблема: я поссорился с группировкой %2b..."
+		role="PLAYER"
+		nextReplies="Dynamic00_Peace00_npc0" />
+
+	<Reply
+		name="Dynamic00_Peace00_npc0"
+		text="Ты, я вижу, здорово постарался, чтобы %2b объявили тебя кровным врагом… У меня есть кое-какие связи, так что за %3d процентов от твоих денежных запасов я могу замолвить за тебя словечко на городском совете. "
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Peace01"
+		text="На этот раз мне нужна помощь. %2b и я не сумели договориться по одному вопросу, и теперь..."
+		role="PLAYER"
+		nextReplies="Dynamic00_Peace01_npc0" />
+
+	<Reply
+		name="Dynamic00_Peace01_npc0"
+		text="Я знаю, что %2b не желают иметь с тобой никаких дел. За скромное вознаграждение в %3d процентов от твоих денежных запасов, я могу помочь тебе приобрести какой-никакой авторитет среди них. "
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Hunt00"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Hunt00_npc0" />
+
+	<Reply
+		name="Dynamic00_Hunt00_npc0"
+		text="Объявлен сезон охоты на бандитов. Уничтожение каждой враждебной машины принесёт вам %3d. Оплата производится по окончанию срока охоты. "
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+
+	<Reply
+		name="Dynamic00_Hunt01"
+		text="Есть ли для меня работа?"
+		role="PLAYER"
+		nextReplies="Dynamic00_Hunt01_npc0" />
+
+	<Reply
+		name="Dynamic00_Hunt01_npc0"
+		text="Бандиты потеряли всякий стыд! Совершают набеги на наши территории, как к себе на склад ходят. Надо преподать им хороший урок. Подстрели нескольких - пусть боятся. Уложишься в условленное время, получишь %3d за каждого из них."
+		role="NPC"
+		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
+</DialogsResource>

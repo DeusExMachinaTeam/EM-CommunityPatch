@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by JSinx (Targem) -->
+<resource>
+	<string
+		id="101"
+		modelName="mask_hero"
+		value="Мне придётся проехать через эту базу, чтобы добраться до цели. Выглядит угрожающе."
+		sound="data\sounds\Speech\r4m2\r4m2_101_hero.ogg"
+		time="1" />
+
+	<string
+		id="102"
+		modelName="mask_hero"
+		value="Мне не удалось добраться до цели... А счастье было так возможно, так близко..."
+		sound="data\sounds\Speech\r4m2\r4m2_102_hero.ogg"
+		time="1" />
+
+	<string
+		id="201"
+		modelName="mask_hero"
+		value="Мне как будто знаком этот грузовик. Этот символ, где-то я его уже видел..."
+		sound="data\sounds\Speech\r4m2\r4m2_201_hero.ogg"
+		time="1" />
+
+	<string
+		id="202"
+		modelName="mask_hero"
+		value="Точно, это же машина Айвена Го! Надо посмотреть поближе."
+		sound="data\sounds\Speech\r4m2\r4m2_202_hero.ogg"
+		time="1" />
+
+	<string
+		id="203"
+		modelName="mask_hero"
+		value="Его тела нет внутри, значит, дальше он пошел пешком."
+		sound="data\sounds\Speech\r4m2\r4m2_203_hero.ogg"
+		time="1" />
+
+	<string
+		id="204"
+		modelName="mask_hero"
+		value="Он уже совсем близко: почему же я боюсь того, что ждёт меня впереди?"
+		sound="data\sounds\Speech\r4m2\r4m2_204_hero.ogg"
+		time="1" />
+
+	<string
+		id="301"
+		modelName="mask_hero"
+		value="О боги! Что это за проклятое место?"
+		sound="data\sounds\Speech\r4m2\r4m2_301_hero.ogg"
+		time="1" />
+
+	<string
+		id="302"
+		modelName="mask_hero"
+		value="Кто все эти люди?"
+		sound="data\sounds\Speech\r4m2\r4m2_302_hero.ogg"
+		time="1" />
+
+	<string
+		id="303"
+		modelName="mask_hero"
+		value="Теперь я понимаю, о чем говорил Учёный."
+		sound="data\sounds\Speech\r4m2\r4m2_303_hero.ogg"
+		time="1" />
+
+	<string
+		id="304"
+		modelName="mask_hero"
+		value="Что же манит сюда этих людей? Вдруг я ещё могу спасти их?"
+		sound="data\sounds\Speech\r4m2\r4m2_304_hero.ogg"
+		time="1" />
+
+	<string
+		id="401"
+		modelName="mask_hero"
+		value="Чёрт, столько же здесь этих бандитов! И всё больше и больше!"
+		sound="data\sounds\Speech\r4m2\r4m2_401_hero.ogg"
+		time="1" />
+
+	<string
+		id="402"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="ЛАБОРАНТ|Здесь очень опасно. Поехали, мы выведем тебя отсюда."
+		sound="data\sounds\Speech\r4m2\r4m2_402_assistant.ogg"
+		time="1" />
+
+	<string
+		id="403"
+		modelName="mask_hero"
+		value="Кто вы такие? Всё равно, одному мне не справиться... Я с вами!"
+		sound="data\sounds\Speech\r4m2\r4m2_403_hero.ogg"
+		time="1" />
+
+	<string
+		id="404"
+		modelName="mask_hero"
+		value="Я никуда не поеду. Они - убийцы! Мы должны вместе сразиться с ними."
+		sound="data\sounds\Speech\r4m2\r4m2_404_hero.ogg"
+		time="1" />
+
+	<string
+		id="405"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="ЛАБОРАНТ|Ты не сможешь победить их, ни один, ни с нашей помощью. Следуй за нами, если хочешь жить."
+		sound="data\sounds\Speech\r4m2\r4m2_405_assistant.ogg"
+		time="1" />
+
+	<string
+		id="406"
+		modelName="mask_hero"
+		value="Я ещё вернусь и расквитаюсь с этими убийцами!"
+		sound="data\sounds\Speech\r4m2\r4m2_406_hero.ogg"
+		time="1" />
+<!-- Подъехали близко к падшей тарелке -->
+	<string
+		id="501"
+		modelName="mask_hero"
+		value="Я чувствую силу, манящую меня к тарелке."
+		sound="data\sounds\Speech\r4m2\r4m2_501_hero.ogg"
+		time="1" />
+
+	<string
+		id="502"
+		modelName="mask_hero"
+		value="Скорее. Как медленно катится эта машина! Ну её к чертям!"
+		sound="data\sounds\Speech\r4m2\r4m2_502_hero.ogg"
+		time="1" />
+
+	<string
+		id="503"
+		modelName="mask_hero"
+		value="Я не могу остановиться, но мне всё сложней идти..."
+		sound="data\sounds\Speech\r4m2\r4m2_503_hero.ogg"
+		time="1" />
+
+	<string
+		id="504"
+		modelName="mask_hero"
+		value="Чёрт побери... Я... Не... м-о-г-у... д...в...и...г...а...т...ь..."
+		sound="data\sounds\Speech\r4m2\r4m2_504_hero.ogg"
+		time="1" />
+<!-- когда поговорили с ученым и выбрали одну из сюжетных линий, игрока перебрасывают почти к выходу с карты -->
+	<string
+		id="510"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="ЛАБОРАНТ|Позволь, мы тебе покажем дорогу в обход военной базы."
+		sound="data\sounds\Speech\r4m2\r4m2_510_assistant.ogg"
+		time="1" />
+
+	<string
+		id="511"
+		modelName="mask_hero"
+		value="Зачем ехать окружным путем? Теперь я готов сразиться с ними! Вместе мы их одолеем!"
+		sound="data\sounds\Speech\r4m2\r4m2_511_hero.ogg"
+		time="1" />
+
+	<string
+		id="512"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="ЛАБОРАНТ|Не горячись. У тебя есть миссия, важная миссия, - и ты должен сосредоточить все силы на ней."
+		sound="data\sounds\Speech\r4m2\r4m2_512_assistant.ogg"
+		time="1" />
+
+	<string
+		id="513"
+		modelName="mask_hero"
+		value="Ладно. Показывайте дорогу."
+		sound="data\sounds\Speech\r4m2\r4m2_513_hero.ogg"
+		time="1" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8901"
+		value="Ты подъехал слишком близко к Источнику и был поглощён его силой, как и многие до тебя. И кто знает, как долго людям придётся ждать нового героя..." />
+</resource>
