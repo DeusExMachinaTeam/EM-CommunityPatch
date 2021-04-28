@@ -816,11 +816,6 @@
 		value="Вихрь" />
 
 	<Item
-		id="Sml301"
-		locForm="0"
-		value="Муравей" />
-
-	<Item
 		id="r1m1_sml01"
 		locForm="0"
 		value="Клоп" />
@@ -889,6 +884,11 @@
 		id="r1m2_hunter02"
 		locForm="0"
 		value="Охотник" />
+		
+	<Item
+		id="ScoutEnemySpawn"
+		locForm="0"
+		value="Скаут" />
 
 	<Item
 		id="Scout01"
@@ -909,6 +909,11 @@
 		id="ArcadeScout01"
 		locForm="0"
 		value="Скаут GT" />
+		
+	<Item
+		id="FighterEnemySpawn"
+		locForm="0"
+		value="Боец" />
 
 	<Item
 		id="Fighter01"
@@ -919,6 +924,11 @@
 		id="Fighter02"
 		locForm="0"
 		value="Боец" />
+		
+	<Item
+		id="HunterEnemySpawn"
+		locForm="0"
+		value="Охотник" />
 
 	<Item
 		id="Hunter01"
@@ -929,6 +939,11 @@
 		id="Hunter02"
 		locForm="0"
 		value="Охотник" />
+		
+	<Item
+		id="CruiserEnemySpawn"
+		locForm="0"
+		value="Крейсер" />
 
 	<Item
 		id="Cruiser01"
@@ -939,6 +954,11 @@
 		id="CruiserTest02"
 		locForm="0"
 		value="Крейсер" />
+		
+	<Item
+		id="DozerEnemySpawn"
+		locForm="0"
+		value="Бульдозер" />
 
 	<Item
 		id="Dozer01"
@@ -1124,9 +1144,34 @@
 		id="Sml201"
 		locForm="0"
 		value="Таракан" />
+		
+	<Item
+		id="Sml301"
+		locForm="0"
+		value="Муравей" />
 
 	<Item
 		id="Sml401"
+		locForm="0"
+		value="Кузнечик" />
+		
+	<Item
+		id="Sml1EnemySpawn"
+		locForm="0"
+		value="Клоп" />
+
+	<Item
+		id="Sml2EnemySpawn"
+		locForm="0"
+		value="Таракан" />
+		
+	<Item
+		id="Sml3EnemySpawn"
+		locForm="0"
+		value="Муравей" />
+
+	<Item
+		id="Sml4EnemySpawn"
 		locForm="0"
 		value="Кузнечик" />
 
