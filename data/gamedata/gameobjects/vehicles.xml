@@ -384,6 +384,50 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Wheel Prototype = "sml1Wheel02" />
 		</Wheels>
 	</Prototype>
+	
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Sml1EnemySpawn"
+		ParentPrototype 	= "Sml1"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "sml1Cab01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Sml2EnemySpawn"
+		ParentPrototype 	= "Sml2"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "sml2Cab01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Sml3EnemySpawn"
+		ParentPrototype 	= "Sml3"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "sml3Cab01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Sml4EnemySpawn"
+		ParentPrototype 	= "Sml4"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "sml4Cab01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
+	</Prototype>
 
 	<Prototype
 		Class			= "Vehicle"
@@ -432,6 +476,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Wheel Prototype = "scoutWheel02" />
 			<Wheel Prototype = "scoutWheel02" />
 		</Wheels>
+	</Prototype>
+	
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "ScoutEnemySpawn"
+		ParentPrototype 	= "Scout"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"		Prototype = "scoutCab01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
 	</Prototype>
 
 	<Prototype
@@ -569,7 +624,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription id = "CHASSIS" partResourceType = "FIGHTER_CHASSIS">
 			<PartDescription id = "CABIN" partResourceType = "FIGHTER_CABIN" lpName = "LP_CAB01" >
 				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_SML01" />
-				<PartDescription id="CABIN_BIG_GUN" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
+				<PartDescription id="CABIN_BIG_GUN_1" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
 			</PartDescription>
 			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
 		</MainPartDescription>
@@ -584,6 +639,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Wheel Prototype = "fighterWheel02l" />
 			<Wheel Prototype = "fighterWheel02r" />
 		</Wheels>
+	</Prototype>
+	
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "FighterEnemySpawn"
+		ParentPrototype 	= "Fighter"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "fighterCab01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
 	</Prototype>
 
 	<Prototype
@@ -618,7 +684,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription id = "CHASSIS" partResourceType = "HUNTER_CHASSIS">
 			<PartDescription id = "CABIN" partResourceType = "HUNTER_CABIN" lpName = "LP_CAB01" >
 				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_SML01" />
-				<PartDescription id="CABIN_BIG_GUN" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
+				<PartDescription id="CABIN_BIG_GUN_1" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
 				<PartDescription id="CABIN_GIANT_GUN" partResourceType = "GIANT_GUN" lpName = "LP_GIANT01" />
 			</PartDescription>
 			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
@@ -634,6 +700,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Wheel Prototype = "hunterWheel01l" />
 			<Wheel Prototype = "hunterWheel01r" />
 		</Wheels>
+	</Prototype>
+	
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "HunterEnemySpawn"
+		ParentPrototype 	= "Hunter"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "hunterCab02" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
 	</Prototype>
 
 	<Prototype
@@ -690,6 +767,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Wheel Prototype = "cruiserWheel01r" />
 		</Wheels>
 	</Prototype>
+	
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "CruiserEnemySpawn"
+		ParentPrototype 	= "Cruiser"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "cruiserCab01" />
+			<Part id = "BASKET"		Prototype = "fakeCargo" />
+		</Parts>
+	</Prototype>
 
 	<Prototype
 		Class			= "Vehicle"
@@ -723,8 +811,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<PartDescription id = "CABIN" partResourceType = "DOZER_CABIN" lpName = "LP_CAB01" >
 				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_SML01" />
 			</PartDescription>
-			<PartDescription id = "CHASSIS_BIG_GUN" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
-			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
+			<PartDescription id = "BASKET" partResourceType="DOZER_BASKET" lpName = "LP_BIG01" >
+				<PartDescription id="BASKET_BIG_GUN_0" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
+			</PartDescription>
 		</MainPartDescription>
 
 		<Parts>
@@ -739,6 +828,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Wheel Prototype = "dozerWheel02" />
 			<Wheel Prototype = "dozerWheel02l" />
 		</Wheels>
+	</Prototype>
+	
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "DozerEnemySpawn"
+		ParentPrototype 	= "Dozer"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "dozerCab01" />
+			<Part id = "BASKET"		Prototype = "dozerCargo01" />
+		</Parts>
 	</Prototype>
 
 	<Prototype
@@ -1315,7 +1415,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
 			<Part id = "CABIN_SMALL_GUN"	Prototype = "specter01" /> 
-			<Part id = "CABIN_BIG_GUN"		Prototype = "elephant01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "elephant01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 
 		</Parts>
@@ -1327,7 +1427,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 	= "Hunter">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
-			<Part id = "CABIN_BIG_GUN"		Prototype = "rapier01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "rapier01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 
 		</Parts>
@@ -1336,8 +1436,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Scout01"
-		ParentPrototype 	= "Scout"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Scout">
 		<Parts>
 			<Part id = "CABIN"		Prototype = "scoutCab01" />
 			<Part id = "CABIN_SMALL_GUN"	Prototype = "hornet01" />
@@ -1380,8 +1479,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Fighter01"
-		ParentPrototype 	= "Fighter"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Fighter">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "fighterCab01" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "specter01" /> 
@@ -1396,7 +1494,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "fighterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "kord01" />  
-			<Part id = "CABIN_BIG_GUN"		Prototype = "rapier01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "rapier01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -1415,8 +1513,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Hunter01"
-		ParentPrototype 	= "Hunter"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Hunter">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab01" />
 			<Part id = "CABIN_GIANT_GUN"		Prototype = "hunterLauncher" /> 
@@ -1431,7 +1528,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "maxim01" /> 
-			<Part id = "CABIN_BIG_GUN"		Prototype = "bumblebee01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "bumblebee01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 
 		</Parts>
@@ -1440,13 +1537,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Cruiser01"
-		ParentPrototype 	= "Cruiser"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Cruiser">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "cruiserCab01" />
-			<Part id = "CABIN_BIG_GUN_1"		Prototype = "octopus01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "flag01" /> 
 <!--			<Part id = "CABIN_BIG_GUN_2"		Prototype = "octopus01" /> -->
-			<Part id = "CABIN_GIANT_GUN"		Prototype = "flag01" /> 
+			<Part id = "CABIN_GIANT_GUN"		Prototype = "octopus01" /> 
 <!--			<Part id = "CABIN_SIDE_GUN_L"	Prototype = "hunter01" /> -->
 <!--			<Part id = "CABIN_SIDE_GUN_R"	Prototype = "hunter01" /> -->
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
@@ -1471,13 +1567,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Dozer01"
-		ParentPrototype 	= "Dozer"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Dozer">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "dozerCab01" />
 			<Part id = "CABIN_SMALL_GUN"	Prototype = "specter01" />
-			<Part id = "CHASSIS_BIG_GUN"	Prototype = "octopus01" />
-			<Part id = "BASKET"		Prototype = "fakeCargo" />
+			<Part id = "BASKET_BIG_GUN_0"	Prototype = "kpvt01" />
+			<Part id = "BASKET"		Prototype = "dozerCargo01" />
 		</Parts>
 	</Prototype>
 
@@ -1488,7 +1583,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"		Prototype = "dozerCab01" />
-			<Part id = "BASKET"		Prototype = "fakeCargo" />
+			<Part id = "BASKET"		Prototype = "dozerCargo01" />
 		</Parts>
 	</Prototype>
 
@@ -1802,7 +1897,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 	= "Hunter">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
-			<Part id = "CABIN_BIG_GUN"		Prototype = "vulcan01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "vulcan01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -1836,7 +1931,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 	= "Hunter">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
-			<Part id = "CABIN_BIG_GUN"		Prototype = "rainmetal01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "rainmetal01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -1847,7 +1942,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 	= "Hunter">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab01" />
-			<Part id = "CABIN_GIANT_GUN"		Prototype = "cyclops01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "cyclops01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2067,8 +2162,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Sml101"
-		ParentPrototype 	= "Sml1"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Sml1">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "sml1Cab01" />
 			<Part id = "CABIN_SMALL_GUN" 		Prototype = "hornet01" />
@@ -2079,8 +2173,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Sml201"
-		ParentPrototype 	= "Sml2"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Sml2">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "sml2Cab01" />
 			<Part id = "CABIN_SMALL_GUN" 		Prototype = "hornet01" />
@@ -2091,8 +2184,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Sml301"
-		ParentPrototype 	= "Sml3"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Sml3">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "sml3Cab01" />
 			<Part id = "CABIN_SMALL_GUN" 		Prototype = "hornet01" />
@@ -2103,8 +2195,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class			= "Vehicle"
 		Name			= "Sml401"
-		ParentPrototype 	= "Sml4"
-		VisibleInEncyclopedia	= "true">
+		ParentPrototype 	= "Sml4">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "sml4Cab01" />
 			<Part id = "CABIN_SMALL_GUN" 		Prototype = "hornet01" />
@@ -2270,8 +2361,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 	= "Ural">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "uralCab04" />
-			<Part id = "CABIN_BIG_GUN_1"		Prototype = "octopus01" /> 
-			<Part id = "CABIN_BIG_GUN_2"		Prototype = "octopus01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "kpvt01" /> 
 			<Part id = "BASKET"			Prototype = "uralCargo05" />
 			<Part id = "BASKET_BIG_GUN_0" 	Prototype = "bumblebee01" /> 
 			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "marsSideGun" /> 
@@ -2376,7 +2466,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "fighterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "storm01" />  
-			<Part id = "CABIN_BIG_GUN"		Prototype = "elephant01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "elephant01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2449,7 +2539,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "fighterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "hornet01" />  
-			<Part id = "CABIN_BIG_GUN"		Prototype = "bumblebee01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "bumblebee01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2462,7 +2552,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "fighterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "maxim01" />  
-			<Part id = "CABIN_BIG_GUN"		Prototype = "elephant01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "elephant01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2499,7 +2589,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "maxim01" /> 
-			<Part id = "CABIN_BIG_GUN"		Prototype = "bumblebee01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "bumblebee01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2511,7 +2601,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 		= "Hunter">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
-			<Part id = "CABIN_BIG_GUN"		Prototype = "elephant01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "elephant01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2524,7 +2614,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "specter01" /> 
-			<Part id = "CABIN_BIG_GUN"		Prototype = "rapier01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "rapier01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2635,7 +2725,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "fighterCab02" />
 			<Part id = "CABIN_SMALL_GUN"	Prototype = "storm01" />
-			<Part id = "CABIN_BIG_GUN"		Prototype = "elephant01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "elephant01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2648,7 +2738,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "maxim01" /> 
-			<Part id = "CABIN_BIG_GUN"		Prototype = "bumblebee01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "bumblebee01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -2734,7 +2824,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "specter01" /> 
-			<Part id = "CABIN_BIG_GUN"		Prototype = "bumblebee01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "bumblebee01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 
 		</Parts>
@@ -2748,7 +2838,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "hunterCab02" />
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "pkt01" /> 
-			<Part id = "CABIN_BIG_GUN"		Prototype = "vector01" /> 
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "vector01" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 
 		</Parts>
