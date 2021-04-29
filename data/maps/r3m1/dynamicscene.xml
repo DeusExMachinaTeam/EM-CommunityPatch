@@ -1209,7 +1209,7 @@
 				ModelName="r3_man"
 				skin="2"
 				cfg="379"
-				helloReplyNames="Set_Bar_Druid3_1_N01 Set_Bar_Customer1_1_N01 Set_Bar_Customer1_2_N01"
+				helloReplyNames="Set_Bar_Customer1_1_N01 Set_Bar_Customer1_2_N01 Set_Bar_Druid3_1_N01"
 				SpokenCount="0" />
 		</Object>
 

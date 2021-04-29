@@ -68,21 +68,18 @@
 		questName="Dynamic_Destroy_0"
 		briefDiz="”ничтожить врага"
 		fullDiz="√ород %1n просит вас уничтожить врага за вознаграждение в %3d."
-		requestForTalk="ѕривет, нет ли работенки дл€ мен€?"
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Destroy_1"
 		briefDiz="ќбезвредить бандита"
 		fullDiz="∆ители поселени€ %1n подвергаютс€ частым атакам хитрого бандита. я помогу им избавитьс€ от угрозы за %3d."
-		requestForTalk="ѕривет, нет ли работенки дл€ мен€?"
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Destroy_2"
 		briefDiz="¬ыследить агрессора"
 		fullDiz="я получу %3d, когда избавлю окрестности города %1n от присутстви€ одного негод€€."
-		requestForTalk="ѕривет, нет ли работенки дл€ мен€?"
 		isMainQuest="0" />
 
 	<QuestInfo
@@ -113,24 +110,18 @@
 		questName="Dynamic_Reach_0"
 		briefDiz="ќтвезти образцы в селение %2n"
 		fullDiz="√ород %1n просит вас отвезти кое-какие исследовательские образцы в поселение %2n. ѕо прибытии € получу %3d."
-		requestForTalk="ѕривет, нет ли работенки дл€ мен€?"
-		resuestForComplete="я привез тебе пакет от %1n."
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Reach_1"
 		briefDiz="ƒоставить посылку в селение %2n"
 		fullDiz="я получу %3d, когда доставлю посылку в селение %2n. “ам ее ждут, но за такие смешные деньги € не собираюсь уж очень торопитьс€."
-		requestForTalk="ѕривет, нет ли работенки дл€ мен€?"
-		resuestForComplete="я привез тебе пакет от %1n."
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Reach_2"
 		briefDiz="ƒобратьс€ до селени€ %2n"
 		fullDiz="ќдин чудак из города %1n готов заплатить %3d, если € передам привет его другу, живущему в поселении %2n."
-		requestForTalk="ѕривет, нет ли работенки дл€ мен€?"
-		resuestForComplete="я привез тебе пакет от %1n."
 		isMainQuest="0" />
 
 	<QuestInfo
@@ -2486,7 +2477,7 @@
 		briefDiz="ќтразить нападение машин"
 		isMainQuest="0">
 		<Map
-			name="r3m1" 
+			name="r3m1"
 			targetObjName="UlukArmy" />
 	</QuestInfo>
 
@@ -3006,7 +2997,7 @@
 	<QuestInfo
 		questName="r4m1_RBC_Evacuate"
 		briefDiz="Ёвакуировать людей Ѕухары в порт"
-		isMainQuest="1" >		
+		isMainQuest="1">
 		<Map
 			name="r4m1"
 			targetObjName="Buharers_vehicle_0" />

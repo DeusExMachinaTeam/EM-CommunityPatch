@@ -612,7 +612,7 @@
 
 			Fly("RescuePeople_cam01", CINEMATIC_NO_AIM, 0, 10, 1, 0 )
 			Fly("RescuePeople_cam02", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
-			Fly("RescuePeople_cam03", CINEMATIC_NO_AIM, 0, 10, 0, 1 )
+			Fly("RescuePeople_cam03", CINEMATIC_NO_AIM, 0, 7, 0, 1 )
 			StartCinematic()
 
 			CreateHuman( "Human", 1100, CVector( 1422.838, 261.208, 876.479 ), "Human_dead", "HumanRolik_Path04" )
