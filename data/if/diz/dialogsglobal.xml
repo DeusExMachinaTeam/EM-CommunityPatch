@@ -3586,7 +3586,8 @@
 	<Reply
 		name="Dlg_pl_001291"
 		text="Значит, мне придётся разнести это прибежище идиотов к чёртовой матери. Сейчас созову ребят из Союза Независимых Городов, они засиделись без работы…"
-		role="PLAYER" 
+		role="PLAYER"
+		scriptCondition="QuestStatus('r2m2_d_GetAkselBandit_Quest')==Q_COMPLETED"
 		nextReplies="Dlg_npc_000646" />
 
 	<Reply
@@ -3611,6 +3612,7 @@
 		name="Dlg_pl_000644"
 		text="Значит, мне придётся разнести это прибежище идиотов к чёртовой матери. Сейчас созову ребят из Алого Рассвета, они засиделись без работы…"
 		role="PLAYER"
+		scriptCondition="QuestStatus('r2m2_MoveToZeonToAlex')==Q_COMPLETED "
 		nextReplies="Dlg_npc_000646" />
 
 	<Reply
