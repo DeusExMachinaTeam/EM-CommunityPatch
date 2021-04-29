@@ -600,7 +600,7 @@
 		</script>
 	</trigger>
 
-<!-- 		Ролик "Спасти беженцев"			 -->
+	<!-- 		Ролик "Спасти беженцев"			 -->
 
 
 	<trigger Name="RolikBegin_RescuePeople" active="0">
@@ -630,8 +630,8 @@
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-		CreateVehicleEx("Bug01","vehUlukArmy01", CVector(1338.213, 271.588, 868.520) )
-		CreateVehicleEx("Ural01","vehUlukArmy02", CVector(1329.951, 270.648, 871.197) )
+		CreateVehicleEx("Bug01","vehUlukArmy01",CVector(1338.213, 271.588, 868.520), 1020)
+		CreateVehicleEx("Ural01","vehUlukArmy02",CVector(1329.951, 270.648, 871.197), 1020)
 
 		local vehUlukArmy01 = GetEntityByName("vehUlukArmy01")
 		local vehUlukArmy02 = GetEntityByName("vehUlukArmy02")
@@ -754,9 +754,8 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-		CreateTeam("UlukArmy",1020,CVector(getPos("RescueLeader_loc")),{"Bug01","Ural01"}, CVector(getPos("RescueCiv_loc")))
+		TeamCreate("UlukArmy",1020,CVector(1625.560, 259.948, 879.053),{"Bug01","Ural01"}, CVector(1913.881, 260.062, 989.066), 1, Quaternion(0.014, 0.504, -0.016, 0.864))
 		TActivate("trUlukArmyDie")
-
 
 		local vehUlukArmy01 = GetEntityByName("vehUlukArmy01")
 		local vehUlukArmy02 = GetEntityByName("vehUlukArmy02")
@@ -779,6 +778,7 @@
 		TDeactivate("trShooting")
 		SetCameraBehindPlayerVehicle()
 		RestoreAllToleranceStatus()
+		TakeQuest("r3m1_RescueUlukCivil_RepelAttack")
 		trigger:Deactivate()
 		</script>
 	</trigger>
@@ -790,7 +790,8 @@
 	<trigger Name="RolikBegin_ToGoInSet" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-
+			SaveAllToleranceStatus(RS_NEUTRAL)
+			
 			Fly("ToGoInSet_cam01", CINEMATIC_NO_AIM, 0, 10, 1,1 )
 			StartCinematic()
 
@@ -799,6 +800,7 @@
 	
 			TActivate("RolikEnd_ToGoInSet")
 			TActivate("trToGoInSet_cam01")
+			TDeactivate("trRescArmyDie")
 
 			trigger:Deactivate()
 		</script>
@@ -843,7 +845,12 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
+		RestoreAllToleranceStatus()
 
+		SetCameraBehindPlayerVehicle()
+
+		CompleteQuest("r3m1_RescueUlukCivil_RepelAttack")
+		
 		local vehPlayer = GetPlayerVehicle()
 
 		if vehPlayer then
@@ -851,17 +858,36 @@
 			vehPlayer:PlaceToEndOfPath("player_path07")
 		end
 
+		local FVehicle1 = GetEntityByName("RescueCars_vehicle_0")
+		if FVehicle1 then FVehicle1:Remove() end
+		local FVehicle2 = GetEntityByName("RescueCars_vehicle_1")
+		if FVehicle2 then FVehicle2:Remove() end
+		
+		local FVehicle1 = CreateVehicleEx("DemoMolokovoz1", "BezhenVeh1", CVector(1908.233, 250.992, 1085.887), 1064)
+		if FVehicle1 then
+			FVehicle1:SetRotation(Quaternion(-0.061, 0.822, -0.023, 0.566))
+			FVehicle1:SetExternalPathByName("Bezhen_Path1")
+			FVehicle1:SetCruisingSpeed(20)
+		end
+
+		local FVehicle2 = CreateVehicleEx("r1m1_bug02", "BezhenVeh2", CVector(1881.191, 250.156, 1095.800), 1064)
+		if FVehicle2 then
+			FVehicle2:SetRotation(Quaternion(-0.029, 0.821, -0.006, 0.571))
+			FVehicle2:SetExternalPathByName("Bezhen_Path1")
+			FVehicle2:SetCruisingSpeed(20)
+		end
+
 		TDeactivate("trToGoInSet_cam01")
-		SetCameraBehindPlayerVehicle()
+
+		TActivate("RCarsInPlace")
+		TActivate("trRescArmyDie")
+		TActivate("tr_RescueCarsDist")
+		TActivate("RBezhenVeh1InPlace")
+		TActivate("RBezhenVeh2InPlace")
+
 		trigger:Deactivate()
 		</script>
 	</trigger>
-
-<!-- 		getObj("Subm"):SetPosition( CVector(4010.692, 245.000, 1890.384))	 -->
-<!-- 		getObj("Subm"):SetRotation(Quaternion(-0.006, -0.592, -0.001, 0.806))	 -->
-<!-- 		getObj("Subm"):SetNodeAction(AT_STAND2)		-->
-<!--		getObj("Subm"):SetNextForAnimation(AT_STAND1, AT_STAND2) -->
-<!-- 	CreateNewDummyObject( "submarina",	"Subm", -1, -1, CVector(4010.692, 245.000, 1890.384), Quaternion(-0.006, -0.592, -0.001, 0.806),0 )		 -->
 
 <!-- 			Ролик приплытия подводной лодки			 -->
 

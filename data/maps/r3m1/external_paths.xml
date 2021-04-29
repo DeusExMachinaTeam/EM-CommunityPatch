@@ -1,5 +1,131 @@
-<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Paths>
+	<Path
+		Name="Bezhen_Path1">
+		<Point
+			coord="1943.710 1074.452" />
+
+		<Point
+			coord="2042.654 1031.500" />
+
+		<Point
+			coord="2201.824 1073.510" />
+
+		<Point
+			coord="2274.876 1105.514" />
+
+		<Point
+			coord="2279.359 1161.348" />
+
+		<Point
+			coord="2219.844 1222.808" />
+
+		<Point
+			coord="2121.714 1280.902" />
+
+		<Point
+			coord="2083.694 1318.990" />
+
+		<Point
+			coord="2053.382 1398.798" />
+
+		<Point
+			coord="2002.418 1418.579" />
+
+		<Point
+			coord="1974.619 1468.878" />
+
+		<Point
+			coord="1920.368 1492.915" />
+
+		<Point
+			coord="1809.161 1508.365" />
+
+		<Point
+			coord="1733.844 1566.151" />
+
+		<Point
+			coord="1667.283 1643.872" />
+
+		<Point
+			coord="1679.194 1681.999" />
+
+		<Point
+			coord="1670.839 1726.924" />
+
+		<Point
+			coord="1714.045 1830.093" />
+
+		<Point
+			coord="1672.734 1856.367" />
+
+		<Point
+			coord="1680.654 1911.644" />
+
+		<Point
+			coord="1581.209 2001.096" />
+
+		<Point
+			coord="1588.340 2176.830" />
+
+		<Point
+			coord="1605.075 2215.648" />
+
+		<Point
+			coord="1574.210 2277.602" />
+
+		<Point
+			coord="1548.224 2320.973" />
+
+		<Point
+			coord="1512.808 2388.322" />
+
+		<Point
+			coord="1469.760 2349.523" />
+
+		<Point
+			coord="1441.413 2304.309" />
+
+		<Point
+			coord="1386.806 2318.891" />
+
+		<Point
+			coord="1384.585 2362.000" />
+
+		<Point
+			coord="1333.599 2445.173" />
+
+		<Point
+			coord="1312.545 2494.500" />
+
+		<Point
+			coord="1339.963 2523.213" />
+
+		<Point
+			coord="1442.324 2615.233" />
+
+		<Point
+			coord="1478.094 2605.922" />
+	</Path>
+
+	<Path
+		Name="Bezhen_Path2">
+		<Point
+			coord="1506.885 2574.662" />
+
+		<Point
+			coord="1525.331 2556.317" />
+	</Path>
+
+	<Path
+		Name="Bezhen_Path3">
+		<Point
+			coord="1505.426 2577.993" />
+
+		<Point
+			coord="1527.878 2589.566" />
+	</Path>
+
 	<Path
 		Name="FistGuard1_1">
 		<Point

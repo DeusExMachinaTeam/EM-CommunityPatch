@@ -1993,7 +1993,7 @@
 		text="Я знал, что иноземцам нельзя доверять!"
 		role="NPC"
 		scriptCondition="QuestStatus('r3m1_ClearSanctuary')==Q_TAKEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid')==Q_TAKEN"
-		scriptResult="CompleteQuest('r3m1_ClearSanctuary_ReturnDruid'); TActivate('trDestroyExitFromDung'); TActivate('trCreateLoggersMech2')"
+		scriptResult="CompleteQuest('r3m1_ClearSanctuary_ReturnDruid'); TActivate('trDestroyExitFromDung'); TActivate('trCreateLoggersMech')"
 		nextReplies="Set_Bar_MainDruid_3_P02" />
 
 	<Reply
@@ -2086,6 +2086,18 @@
 	<Reply
 		name="Set_Bar_MainDruid_4_P04"
 		text="Теперь я найду его. Прощайте."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001291" />
+
+	<Reply
+		name="Dlg_npc_001291"
+		text="А. и ещё кое-что. Не мог бы ты перед отъездом заглянуть к друиду Фионию? Кажется, у него есть к тебе дело."
+		role="NPC"
+		nextReplies="Dlg_pl_001292" />
+
+	<Reply
+		name="Dlg_pl_001292"
+		text="Хорошо, я подумаю над этим."
 		role="PLAYER"
 		scriptResult="AddBook('r3_book_Druids'); EndConversation();" />
 
@@ -2240,7 +2252,7 @@
 		name="Set_Bar_Customer1_1_N01"
 		text="От жителей Улука уже давно не поступает никаких сведений. Пожалуйста, помоги нам выяснить, что с ними случилось!"
 		role="NPC"
-		scriptCondition="(not IsQuestTaken('r3m1_LureMainDriud')) and (not IsQuestTaken('r3m1_KnowAboutUluk'))"
+		scriptCondition="(not IsQuestTaken('r3m1_FindMoreNative')) and (not(IsQuestTaken('r3m1_KnowAboutUluk'))) and not(IsQuestComplete('r3m1_ClearSanctuary_ReturnDruid2')) and not(IsQuestTaken('r3m1_LureMainDriud'))"
 		nextReplies="Set_Bar_Customer2_1_P02" />
 
 	<Reply
@@ -2291,13 +2303,13 @@
 		name="Uluk_Bar_Customer1_3_N04"
 		text="Я передам им ваши слова. Что ещё я могу сделать?.."
 		role="PLAYER"
-		scriptResult="EndConversation()" />
+		scriptResult="TActivate('tr_PlayerLeavesUluk'); EndConversation()" />
 
 	<Reply
 		name="r3m1_NearUluk_Civilian1_1_N01"
 		text="Пс-с-ст, иноземец, послушай: деревня умирает, и жители страдают. Не все сошли с ума, многие против таких перемен, но боятся гнева чудовищ. Все кто могли – ушли, но одним им не добраться до Сета. Ты встретишь их в условном месте. Умоляю тебя, помоги этим людям спастись."
 		role="NPC"
-		scriptCondition="QuestStatus('r3m1_KnowAboutUluk_GotoSet')==Q_TAKEN and QuestStatus('r3m1_RescueUlukCivil')==Q_CANBEGIVEN"
+		scriptCondition="QuestStatus('r3m1_KnowAboutUluk_GotoSet')==Q_TAKEN and QuestStatus('r3m1_RescueUlukCivil')==Q_CANBEGIVEN and GetVar('BezhenAlive').AsInt==5 and GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="r3m1_NearUluk_Civilian1_1_P02" />
 
 	<Reply
@@ -2316,26 +2328,26 @@
 		name="r3m1_NearUluk_Civilian1_1_P042"
 		text="Какое мне дело до ваших бед? Разбирайтесь сами!"
 		role="PLAYER"
-		scriptResult="EndConversation();" />
+		scriptResult="GetCurNpc():SetSpokenCount(1); SetVar('BezhenAlive', 2); SetCoordinateForQuest( 'r3m1_KnowAboutUluk_GotoSet' ,   CVector(getPos('Set_enter'))); EndConversation();" />
 
 	<Reply
 		name="r3m1_NearUluk_Civilian1_1_P041"
 		text="Я помогу им. Пусть и тебе сопутствует удача! Прощай."
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m1_RescueUlukCivil'); EndConversation();" />
+		scriptResult="TakeQuest('r3m1_RescueUlukCivil'); CreateTeam('RescueCars',1064,CVector(getPos('RescueCiv_loc')),{'r1m1_bug02','DemoMolokovoz1'}); TActivate('trRescArmyPlace'); TActivate('trRescArmyDie'); TActivate('trWentCivCamp'); SetTolerance(1100,1064,RS_ALLY); SetTolerance(1019,1064,RS_ALLY); GetCurNpc():SetSpokenCount(1); SetVar('BezhenAlive', 0) EndConversation();" />
 
 	<Reply
 		name="Set_Bar_Customer1_2_N01"
 		text="Что случилось в Улуке?"
 		role="NPC"
-		scriptCondition="QuestStatus('r3m1_KnowAboutUluk_GotoSet')==Q_TAKEN"
+		scriptCondition="QuestStatus('r3m1_KnowAboutUluk_GotoSet')==Q_TAKEN and GetVar('BezhenAlive').AsInt>0"
 		nextReplies="Set_Bar_Customer2_2_P021 Set_Bar_Customer2_2_P022" />
 
 	<Reply
 		name="Set_Bar_Customer2_2_P022"
 		text="Старейшина уверовал в новых богов и поклоняется теперь металлическим монстрам."
 		role="PLAYER"
-		scriptCondition="QuestStatus('r3m1_KnowAboutUluk_GotoSet')==Q_TAKEN and QuestStatus('r3m1_RescueUlukCivil_TakeToSet')~=Q_TAKEN"
+		scriptCondition="QuestStatus('r3m1_KnowAboutUluk_GotoSet')==Q_TAKEN and GetVar('BezhenAlive').AsInt==2"
 		scriptResult="CompleteQuest('r3m1_KnowAboutUluk_GotoSet'); FailQuestIfTaken('r3m1_RescueUlukCivil');"
 		nextReplies="Set_Bar_Customer2_2_N032" />
 
@@ -2349,13 +2361,13 @@
 		name="Set_Bar_Customer2_2_P042"
 		text="Прощайте."
 		role="PLAYER"
-		scriptResult="EndConversation();" />
+		scriptResult="SetVar('BezhenAlive', 0); EndConversation();" />
 
 	<Reply
 		name="Set_Bar_Customer2_2_P021"
 		text="Старейшина уверовал в новых богов и поклоняется теперь металлическим монстрам. Впрочем, эти люди тебе всё лучше расскажут."
 		role="PLAYER"
-		scriptCondition="QuestStatus('r3m1_RescueUlukCivil_TakeToSet')==Q_TAKEN"
+		scriptCondition="QuestStatus('r3m1_RescueUlukCivil_TakeToSet')==Q_TAKEN and GetVar('BezhenAlive').AsInt==1"
 		scriptResult="CompleteQuest('r3m1_RescueUlukCivil_TakeToSet'); CompleteQuest('r3m1_KnowAboutUluk_GotoSet');"
 		nextReplies="Set_Bar_Customer2_2_N031" />
 
@@ -2369,7 +2381,7 @@
 		name="Set_Bar_Customer2_2_P041"
 		text="Спасибо и вам. Я рад, что ещё остались люди, живущие в согласии с природой."
 		role="PLAYER"
-		scriptResult="TActivate('trRescueEnd'); EndConversation();" />
+		scriptResult="TActivate('trRescueEnd'); TDeactivate('trRescArmyDie'); SetVar('BezhenAlive', 0); EndConversation();" />
 <!--Root/r3m1/С лисой у разбойников-->
 	<Reply
 		name="RazVill_Bar_Lisa_1_N01"
@@ -2467,7 +2479,7 @@
 		name="Set_Bar_Druid3_1_N01"
 		text="Я узнал, что ты направляешься к Оракулу?"
 		role="NPC"
-		scriptCondition="StatusQuest('q_VisitDruid')==Q_CANBEGIVEN"
+		scriptCondition="QuestStatus('q_VisitDruid')==Q_CANBEGIVEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid2')==Q_COMPLETED"
 		nextReplies="Set_Bar_Druid3_1_N02" />
 
 	<Reply

@@ -2404,11 +2404,10 @@
 
 	<QuestInfo
 		questName="r3m1_KnowAboutUluk_GotoSet"
-		briefDiz="Сообщить Верховному друиду"
+		briefDiz="Сообщить Фионию"
 		isMainQuest="0">
 		<Map
-			name="r3m1"
-			targetObjName="TheSet" />
+			name="r3m1" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2475,7 +2474,7 @@
 
 	<QuestInfo
 		questName="r3m1_RescueUlukCivil_GotoVillage"
-		briefDiz="Дохать до временного убежища"
+		briefDiz="Доехать до временного убежища"
 		isMainQuest="0">
 		<Map
 			name="r3m1"
@@ -2487,7 +2486,8 @@
 		briefDiz="Отразить нападение машин"
 		isMainQuest="0">
 		<Map
-			name="r3m1" />
+			name="r3m1" 
+			targetObjName="UlukArmy" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2496,7 +2496,7 @@
 		isMainQuest="0">
 		<Map
 			name="r3m1"
-			targetObjName="TheSet" />
+			targetObjName="BezhenVeh2" />
 	</QuestInfo>
 
 	<QuestInfo
