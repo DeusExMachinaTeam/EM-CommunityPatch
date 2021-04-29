@@ -12,6 +12,14 @@
 		Pos="1784.210 286.275 1453.526"
 		Radius="62.835" />
 
+		<Object
+		Flags="21"
+		Name="RCarsSet_loc"
+		Belong="1064"
+		Prototype="genericLocation"
+		Pos="1510.462 288.000 2567.540"
+		Radius="30.000" />
+
 	<Object
 		Name="NearStoneHendj_loc"
 		Belong="1100"
@@ -146,8 +154,8 @@
 		Name="RescueLeader_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="1494.892 259.408 867.332"
-		Radius="40.000">
+		Pos="1511.062 249.000 669.630"
+		Radius="186.000">
 		<Object
 			Name="r3m1_NearUluk_RescueMan1"
 			Belong="1100"
