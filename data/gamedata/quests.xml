@@ -610,7 +610,7 @@
 		CheckAll="1"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(8000)"
-		OnFail='TDeactivate("trWentCivCamp"); TDeactivate("trUlukArmyDie"); TDeactivate("trRescArmyDie"); TDeactivate("RBezhenVeh1InPlace"); TDeactivate("RBezhenVeh2InPlace"); TDeactivate("RCarsInPlace")'
+		OnFail='TDeactivate("trWentCivCamp"); TDeactivate("trUlukArmyDie"); TDeactivate("trRescArmyDie"); TDeactivate("RBezhenVeh1InPlace"); TDeactivate("RBezhenVeh2InPlace"); TDeactivate("RCarsInPlace"); TActivate("trRescueEnd")'
 		Levels="r3m1">
 		<quest
 			Name="r3m1_RescueUlukCivil_GotoVillage"

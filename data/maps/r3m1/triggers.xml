@@ -421,7 +421,6 @@
 
 			local count = trigger:GetCount()
 		    if 2>count then
-				println('not enough')
 		    	return
 		    end
 
