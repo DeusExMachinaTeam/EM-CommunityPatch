@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<Path
+		Name="FistGuard1_1">
+		<Point
+			coord="3463.804 1463.046" />
+
+		<Point
+			coord="3469.641 1479.857" />
+
+		<Point
+			coord="3477.051 1478.734" />
+	</Path>
+
+	<Path
+		Name="FistGuard2_1">
+		<Point
+			coord="3469.319 1458.486" />
+
+		<Point
+			coord="3482.960 1461.797" />
+
+		<Point
+			coord="3485.750 1472.933" />
+	</Path>
+
+	<Path
+		Name="FistGuard3_1">
+		<Point
+			coord="3566.837 1437.195" />
+
+		<Point
+			coord="3573.395 1459.199" />
+	</Path>
+
+	<Path
+		Name="Human10_Path">
+		<Point
+			coord="2948.219 1354.610" />
+
+		<Point
+			coord="2968.891 1354.883" />
+
+		<Point
+			coord="3015.816 1317.342" />
+
+		<Point
+			coord="3018.761 1268.000" />
+
+		<Point
+			coord="3084.415 1300.100" />
+
+		<Point
+			coord="3076.569 1350.351" />
+
+		<Point
+			coord="3011.336 1220.221" />
+
+		<Point
+			coord="3029.486 1235.134" />
+
+		<Point
+			coord="3081.514 1251.892" />
+
+		<Point
+			coord="2983.486 1347.238" />
+	</Path>
+
+	<Path
+		Name="Human11_Path">
+		<Point
+			coord="511.102 1803.583" />
+
+		<Point
+			coord="511.257 1794.315" />
+
+		<Point
+			coord="506.856 1771.666" />
+
+		<Point
+			coord="495.945 1760.811" />
+
+		<Point
+			coord="486.547 1759.005" />
+
+		<Point
+			coord="496.854 1761.435" />
+
+		<Point
+			coord="509.603 1777.663" />
+	</Path>
+
+	<Path
+		Name="Human12_Path">
+		<Point
+			coord="1550.490 2562.811" />
+
+		<Point
+			coord="1528.513 2553.560" />
+
+		<Point
+			coord="1510.351 2572.557" />
+
+		<Point
+			coord="1487.956 2595.251" />
+
+		<Point
+			coord="1463.081 2594.707" />
+
+		<Point
+			coord="1463.739 2601.597" />
+
+		<Point
+			coord="1438.165 2635.527" />
+
+		<Point
+			coord="1435.355 2664.740" />
+
+		<Point
+			coord="1463.851 2651.793" />
+
+		<Point
+			coord="1466.337 2639.067" />
+
+		<Point
+			coord="1483.929 2611.311" />
+
+		<Point
+			coord="1518.076 2557.684" />
+
+		<Point
+			coord="1544.681 2557.480" />
+	</Path>
+
+	<Path
+		Name="Human13_Path">
+		<Point
+			coord="3432.780 2212.016" />
+
+		<Point
+			coord="3445.308 2203.627" />
+
+		<Point
+			coord="3445.500 2189.312" />
+
+		<Point
+			coord="3437.132 2174.193" />
+
+		<Point
+			coord="3427.179 2163.555" />
+
+		<Point
+			coord="3419.807 2155.092" />
+
+		<Point
+			coord="3409.600 2154.731" />
+
+		<Point
+			coord="3387.051 2155.203" />
+
+		<Point
+			coord="3364.290 2155.039" />
+
+		<Point
+			coord="3359.240 2112.881" />
+
+		<Point
+			coord="3373.751 2097.557" />
+
+		<Point
+			coord="3375.048 2080.347" />
+
+		<Point
+			coord="3369.164 2110.929" />
+
+		<Point
+			coord="3373.728 2132.275" />
+
+		<Point
+			coord="3401.584 2144.101" />
+
+		<Point
+			coord="3432.698 2165.691" />
+
+		<Point
+			coord="3447.379 2184.675" />
+
+		<Point
+			coord="3441.170 2205.616" />
+	</Path>
+
+	<Path
+		Name="Human14_Path">
+		<Point
+			coord="3384.978 2045.921" />
+
+		<Point
+			coord="3409.890 2050.689" />
+
+		<Point
+			coord="3410.149 2077.954" />
+
+		<Point
+			coord="3405.435 2086.921" />
+
+		<Point
+			coord="3387.340 2096.249" />
+
+		<Point
+			coord="3378.577 2104.167" />
+
+		<Point
+			coord="3377.781 2116.700" />
+
+		<Point
+			coord="3385.247 2125.520" />
+
+		<Point
+			coord="3392.047 2127.019" />
+
+		<Point
+			coord="3401.382 2123.314" />
+
+		<Point
+			coord="3413.370 2115.786" />
+
+		<Point
+			coord="3415.657 2115.186" />
+
+		<Point
+			coord="3415.287 2116.968" />
+
+		<Point
+			coord="3413.668 2117.814" />
+
+		<Point
+			coord="3410.736 2117.213" />
+
+		<Point
+			coord="3410.289 2119.095" />
+
+		<Point
+			coord="3408.050 2121.544" />
+
+		<Point
+			coord="3404.155 2121.501" />
+
+		<Point
+			coord="3404.552 2123.643" />
+
+		<Point
+			coord="3398.975 2126.153" />
+
+		<Point
+			coord="3398.126 2128.769" />
+
+		<Point
+			coord="3394.681 2127.237" />
+
+		<Point
+			coord="3387.931 2127.702" />
+
+		<Point
+			coord="3382.620 2121.681" />
+
+		<Point
+			coord="3380.563 2122.787" />
+
+		<Point
+			coord="3377.423 2111.584" />
+
+		<Point
+			coord="3376.403 2106.780" />
+
+		<Point
+			coord="3380.586 2101.368" />
+
+		<Point
+			coord="3383.374 2098.780" />
+
+		<Point
+			coord="3391.077 2092.808" />
+
+		<Point
+			coord="3395.084 2092.060" />
+
+		<Point
+			coord="3402.016 2088.442" />
+
+		<Point
+			coord="3410.798 2086.863" />
+
+		<Point
+			coord="3413.038 2089.177" />
+
+		<Point
+			coord="3407.769 2130.747" />
+
+		<Point
+			coord="3373.075 2127.567" />
+
+		<Point
+			coord="3366.760 2104.118" />
+
+		<Point
+			coord="3391.864 2087.347" />
+
+		<Point
+			coord="3407.115 2073.905" />
+
+		<Point
+			coord="3404.515 2048.011" />
+
+		<Point
+			coord="3394.137 2045.540" />
+	</Path>
+
+	<Path
+		Name="Human1_Path">
+		<Point
+			coord="1458.667 2708.329" />
+
+		<Point
+			coord="1471.019 2680.662" />
+
+		<Point
+			coord="1464.930 2702.332" />
+
+		<Point
+			coord="1473.806 2715.334" />
+
+		<Point
+			coord="1494.587 2710.132" />
+
+		<Point
+			coord="1497.102 2693.646" />
+
+		<Point
+			coord="1488.889 2680.648" />
+
+		<Point
+			coord="1465.598 2657.689" />
+
+		<Point
+			coord="1472.276 2684.887" />
+
+		<Point
+			coord="1463.055 2706.880" />
+	</Path>
+
+	<Path
+		Name="Human2_Path">
+		<Point
+			coord="1569.304 2600.201" />
+
+		<Point
+			coord="1568.680 2608.638" />
+
+		<Point
+			coord="1557.937 2612.284" />
+
+		<Point
+			coord="1541.138 2601.474" />
+
+		<Point
+			coord="1527.207 2590.810" />
+
+		<Point
+			coord="1502.112 2586.646" />
+
+		<Point
+			coord="1482.693 2577.177" />
+
+		<Point
+			coord="1493.372 2558.934" />
+
+		<Point
+			coord="1491.893 2536.203" />
+
+		<Point
+			coord="1491.306 2555.338" />
+
+		<Point
+			coord="1503.278 2574.153" />
+
+		<Point
+			coord="1549.927 2612.819" />
+
+		<Point
+			coord="1573.673 2606.656" />
+	</Path>
+
+	<Path
+		Name="Human3_Path">
+		<Point
+			coord="1428.583 2722.792" />
+
+		<Point
+			coord="1418.392 2726.633" />
+
+		<Point
+			coord="1412.725 2718.850" />
+
+		<Point
+			coord="1417.237 2708.112" />
+
+		<Point
+			coord="1422.532 2700.167" />
+
+		<Point
+			coord="1435.693 2674.505" />
+
+		<Point
+			coord="1446.634 2656.052" />
+
+		<Point
+			coord="1415.261 2714.878" />
+
+		<Point
+			coord="1424.131 2729.554" />
+
+		<Point
+			coord="1428.807 2728.793" />
+	</Path>
+
+	<Path
+		Name="Human4_Path">
+		<Point
+			coord="1372.403 651.174" />
+
+		<Point
+			coord="1388.925 652.734" />
+
+		<Point
+			coord="1401.856 678.554" />
+
+		<Point
+			coord="1405.557 701.144" />
+
+		<Point
+			coord="1426.493 713.134" />
+
+		<Point
+			coord="1442.612 702.530" />
+
+		<Point
+			coord="1443.343 679.902" />
+
+		<Point
+			coord="1465.704 655.746" />
+
+		<Point
+			coord="1491.591 641.286" />
+
+		<Point
+			coord="1524.247 637.713" />
+
+		<Point
+			coord="1479.857 650.200" />
+
+		<Point
+			coord="1446.212 698.240" />
+
+		<Point
+			coord="1416.290 714.506" />
+
+		<Point
+			coord="1402.707 687.299" />
+
+		<Point
+			coord="1391.537 660.420" />
+
+		<Point
+			coord="1378.878 651.739" />
+	</Path>
+
+	<Path
+		Name="Human5_Path">
+		<Point
+			coord="1651.216 717.021" />
+
+		<Point
+			coord="1656.003 727.973" />
+
+		<Point
+			coord="1646.597 738.852" />
+
+		<Point
+			coord="1612.294 739.199" />
+
+		<Point
+			coord="1595.478 739.674" />
+
+		<Point
+			coord="1585.447 725.617" />
+
+		<Point
+			coord="1561.475 729.251" />
+
+		<Point
+			coord="1555.913 729.002" />
+
+		<Point
+			coord="1577.880 734.867" />
+
+		<Point
+			coord="1617.738 739.505" />
+
+		<Point
+			coord="1658.674 732.543" />
+	</Path>
+
+	<Path
+		Name="Human6_Path">
+		<Point
+			coord="1393.625 634.918" />
+
+		<Point
+			coord="1452.665 658.199" />
+
+		<Point
+			coord="1471.387 683.678" />
+
+		<Point
+			coord="1472.822 738.050" />
+
+		<Point
+			coord="1474.464 766.124" />
+
+		<Point
+			coord="1459.234 799.420" />
+
+		<Point
+			coord="1433.217 796.858" />
+
+		<Point
+			coord="1433.556 773.594" />
+
+		<Point
+			coord="1403.773 695.306" />
+
+		<Point
+			coord="1398.407 647.283" />
+	</Path>
+
+	<Path
+		Name="Human7_Path">
+		<Point
+			coord="1577.978 690.925" />
+
+		<Point
+			coord="1581.520 682.828" />
+
+		<Point
+			coord="1581.310 673.540" />
+
+		<Point
+			coord="1575.897 666.085" />
+
+		<Point
+			coord="1558.660 632.486" />
+
+		<Point
+			coord="1559.875 620.383" />
+
+		<Point
+			coord="1540.820 608.802" />
+
+		<Point
+			coord="1530.266 582.682" />
+
+		<Point
+			coord="1525.195 553.801" />
+
+		<Point
+			coord="1532.812 551.254" />
+
+		<Point
+			coord="1496.112 551.825" />
+
+		<Point
+			coord="1504.993 577.304" />
+
+		<Point
+			coord="1529.734 605.781" />
+
+		<Point
+			coord="1543.110 622.570" />
+
+		<Point
+			coord="1549.200 644.156" />
+
+		<Point
+			coord="1569.359 692.669" />
+	</Path>
+
+	<Path
+		Name="Human8_Path">
+		<Point
+			coord="3035.288 1326.382" />
+
+		<Point
+			coord="3080.164 1331.647" />
+
+		<Point
+			coord="3104.685 1312.435" />
+
+		<Point
+			coord="3131.485 1310.965" />
+
+		<Point
+			coord="3160.290 1329.243" />
+
+		<Point
+			coord="3189.705 1359.926" />
+
+		<Point
+			coord="3223.624 1388.478" />
+
+		<Point
+			coord="3229.801 1391.824" />
+
+		<Point
+			coord="3214.191 1390.401" />
+
+		<Point
+			coord="3200.144 1375.243" />
+
+		<Point
+			coord="3173.191 1346.373" />
+
+		<Point
+			coord="3143.960 1311.168" />
+
+		<Point
+			coord="3104.794 1295.701" />
+
+		<Point
+			coord="3036.504 1314.681" />
+	</Path>
+
+	<Path
+		Name="Human9_Path">
+		<Point
+			coord="3062.899 1223.874" />
+
+		<Point
+			coord="3079.742 1251.926" />
+
+		<Point
+			coord="3105.343 1276.420" />
+
+		<Point
+			coord="3032.972 1247.951" />
+
+		<Point
+			coord="3080.013 1341.551" />
+
+		<Point
+			coord="3104.996 1324.608" />
+
+		<Point
+			coord="3037.853 1318.708" />
+
+		<Point
+			coord="3056.983 1242.219" />
+	</Path>
+
+	<Path
+		Name="HumanRolik_Path01">
+		<Point
+			coord="1810.787 1160.909" />
+
+		<Point
+			coord="1827.478 1150.695" />
+
+		<Point
+			coord="1837.666 1153.694" />
+
+		<Point
+			coord="1846.142 1150.580" />
+
+		<Point
+			coord="1866.012 1140.064" />
+	</Path>
+
+	<Path
+		Name="HumanRolik_Path02">
+		<Point
+			coord="1816.733 1160.068" />
+
+		<Point
+			coord="1803.474 1174.945" />
+
+		<Point
+			coord="1823.303 1174.502" />
+
+		<Point
+			coord="1824.823 1196.510" />
+
+		<Point
+			coord="1845.159 1193.094" />
+	</Path>
+
+	<Path
+		Name="HumanRolik_Path03">
+		<Point
+			coord="1827.241 1193.419" />
+
+		<Point
+			coord="1858.642 1186.701" />
+
+		<Point
+			coord="1869.696 1190.697" />
+
+		<Point
+			coord="1878.697 1181.674" />
+
+		<Point
+			coord="1895.424 1173.769" />
+
+		<Point
+			coord="1903.269 1164.027" />
+
+		<Point
+			coord="1903.402 1155.305" />
+	</Path>
+
+	<Path
+		Name="HumanRolik_Path04">
+		<Point
+			coord="1425.703 876.963" />
+
+		<Point
+			coord="1440.955 877.454" />
+
+		<Point
+			coord="1454.525 880.981" />
+
+		<Point
+			coord="1504.514 894.122" />
+	</Path>
+
+	<Path
+		Name="Lisa_path01">
+		<Point
+			coord="852.708 972.397" />
+
+		<Point
+			coord="877.088 1001.668" />
+	</Path>
+
+	<Path
+		Name="Lisa_path02">
+		<Point
+			coord="886.688 1017.177" />
+
+		<Point
+			coord="895.498 1024.215" />
+
+		<Point
+			coord="907.532 1018.563" />
+
+		<Point
+			coord="920.138 1003.343" />
+
+		<Point
+			coord="932.117 988.096" />
+	</Path>
+
+	<Path
+		Name="ReturnPathR2M1">
+		<Point
+			coord="852.856 961.535" />
+
+		<Point
+			coord="858.457 975.187" />
+	</Path>
+
+	<Path
+		Name="ReturnPathR3M2">
+		<Point
+			coord="1122.441 3746.177" />
+
+		<Point
+			coord="1115.098 3728.858" />
+	</Path>
+
+	<Path
+		Name="UlukAmbGuard_path01">
+		<Point
+			coord="1723.089 1482.081" />
+
+		<Point
+			coord="1734.247 1471.956" />
+	</Path>
+
+	<Path
+		Name="UlukAmbGuard_path02">
+		<Point
+			coord="1678.879 1410.251" />
+
+		<Point
+			coord="1693.426 1428.793" />
+
+		<Point
+			coord="1720.061 1438.661" />
+	</Path>
+
+	<Path
+		Name="UlukAmbGuard_path03">
+		<Point
+			coord="1706.558 1372.472" />
+
+		<Point
+			coord="1725.262 1379.007" />
+
+		<Point
+			coord="1744.844 1408.426" />
+	</Path>
+
+	<Path
+		Name="UlukAmbGuard_path04">
+		<Point
+			coord="1795.524 1408.263" />
+
+		<Point
+			coord="1784.401 1422.367" />
+	</Path>
+
+	<Path
+		Name="UlukAmbGuard_path05">
+		<Point
+			coord="1802.511 1432.723" />
+
+		<Point
+			coord="1805.908 1447.687" />
+
+		<Point
+			coord="1787.176 1461.761" />
+	</Path>
+
+	<Path
+		Name="UlukArmy_Bug">
+		<Point
+			coord="1335.337 878.222" />
+
+		<Point
+			coord="1346.159 889.313" />
+
+		<Point
+			coord="1361.093 894.859" />
+
+		<Point
+			coord="1375.577 892.832" />
+
+		<Point
+			coord="1400.938 884.739" />
+
+		<Point
+			coord="1430.590 884.645" />
+
+		<Point
+			coord="1460.317 890.923" />
+
+		<Point
+			coord="1484.663 899.754" />
+
+		<Point
+			coord="1515.647 914.263" />
+
+		<Point
+			coord="1531.209 926.451" />
+	</Path>
+
+	<Path
+		Name="UlukArmy_ural">
+		<Point
+			coord="1345.638 878.703" />
+
+		<Point
+			coord="1357.812 886.084" />
+
+		<Point
+			coord="1374.601 886.150" />
+
+		<Point
+			coord="1390.605 878.943" />
+
+		<Point
+			coord="1444.385 872.275" />
+
+		<Point
+			coord="1493.312 884.402" />
+
+		<Point
+			coord="1542.124 917.254" />
+	</Path>
+
+	<Path
+		Name="player_path01">
+		<Point
+			coord="3448.413 1478.464" />
+
+		<Point
+			coord="3464.669 1468.954" />
+
+		<Point
+			coord="3482.873 1480.495" />
+	</Path>
+
+	<Path
+		Name="player_path02">
+		<Point
+			coord="1889.507 1504.289" />
+
+		<Point
+			coord="1848.401 1500.908" />
+
+		<Point
+			coord="1801.396 1485.685" />
+
+		<Point
+			coord="1767.044 1465.172" />
+	</Path>
+
+	<Path
+		Name="player_path03">
+		<Point
+			coord="1754.125 1453.158" />
+
+		<Point
+			coord="1730.208 1459.453" />
+
+		<Point
+			coord="1687.694 1456.767" />
+
+		<Point
+			coord="1650.251 1448.621" />
+
+		<Point
+			coord="1619.259 1429.597" />
+
+		<Point
+			coord="1580.888 1415.462" />
+
+		<Point
+			coord="1544.495 1398.970" />
+
+		<Point
+			coord="1516.381 1367.332" />
+
+		<Point
+			coord="1511.762 1330.594" />
+
+		<Point
+			coord="1512.805 1283.240" />
+
+		<Point
+			coord="1499.495 1212.701" />
+	</Path>
+
+	<Path
+		Name="player_path04">
+		<Point
+			coord="3211.813 3258.142" />
+
+		<Point
+			coord="3224.553 3283.890" />
+
+		<Point
+			coord="3232.096 3309.125" />
+
+		<Point
+			coord="3233.908 3331.367" />
+
+		<Point
+			coord="3209.510 3347.588" />
+	</Path>
+
+	<Path
+		Name="player_path05">
+		<Point
+			coord="3210.961 3289.761" />
+
+		<Point
+			coord="3198.339 3238.008" />
+
+		<Point
+			coord="3182.476 3224.270" />
+
+		<Point
+			coord="3162.499 3205.062" />
+	</Path>
+
+	<Path
+		Name="player_path06">
+		<Point
+			coord="1914.344 1108.169" />
+
+		<Point
+			coord="1897.651 1136.946" />
+
+		<Point
+			coord="1870.438 1161.355" />
+	</Path>
+
+	<Path
+		Name="player_path07">
+		<Point
+			coord="1870.461 1160.684" />
+
+		<Point
+			coord="1894.572 1136.911" />
+
+		<Point
+			coord="1910.436 1107.202" />
+
+		<Point
+			coord="1962.965 1069.578" />
+	</Path>
+
+	<Path
+		Name="player_path08">
+		<Point
+			coord="3936.188 1916.813" />
+	</Path>
+
+	<Path
+		Name="player_path09">
+		<Point
+			coord="3892.516 1931.236" />
+
+		<Point
+			coord="3837.776 1950.436" />
+
+		<Point
+			coord="3814.199 1951.975" />
+
+		<Point
+			coord="3802.879 1940.073" />
+	</Path>
+
+	<Path
+		Name="player_path10">
+		<Point
+			coord="868.212 974.876" />
+
+		<Point
+			coord="887.706 992.859" />
+	</Path>
+
+	<Path
+		Name="vehDruid_path01">
+		<Point
+			coord="1916.345 1489.211" />
+
+		<Point
+			coord="1867.186 1486.463" />
+
+		<Point
+			coord="1845.309 1474.216" />
+
+		<Point
+			coord="1801.084 1461.092" />
+
+		<Point
+			coord="1762.052 1431.070" />
+	</Path>
+
+	<Path
+		Name="vehProtect_path01">
+		<Point
+			coord="3489.294 1448.251" />
+
+		<Point
+			coord="3481.722 1467.307" />
+
+		<Point
+			coord="3489.563 1479.485" />
+	</Path>
+
+	<Path
+		Name="vehProtect_path02">
+		<Point
+			coord="3448.413 1478.464" />
+
+		<Point
+			coord="3464.669 1468.954" />
+
+		<Point
+			coord="3482.873 1480.495" />
+	</Path>
+</Paths>
