@@ -365,12 +365,6 @@
 			SetTolerance( 1100, 1047, RS_NEUTRAL )
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			TeamCreate("OilMineRuner",1044,CVector(6895,260,7002),{"DemoBandit"}, nil, 1)
-			local vehP = GetEntityByName("OilMineRuner_vehicle_0")
-			if vehP then
-				vehP:SetExternalPathByName("banditoilmine_path")
-			end
-
 			CinemaFiltersUse()
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
@@ -390,14 +384,24 @@
 
 			TActivate( "BOSSOILMINENDCINIMATIC" )
 
+			GetPlayerVehicle():SetPosition( CVector(6916.776, 260.655, 7040.848))
+			GetPlayerVehicle():SetRotation(Quaternion(0.015, -0.939, -0.018, 0.343))
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
+	
 	<trigger Name="BOSSOILMINENDCINIMATIC" active="0">
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<script>
 			GameFiltersUse()
+
+			TeamCreate("OilMineRuner",1044,CVector(6895,260,7002),{"DemoBandit"}, nil, 1)
+			local vehP = GetEntityByName("OilMineRuner_vehicle_0")
+			if vehP then
+				vehP:SetExternalPathByName("banditoilmine_path")
+			end
 
 			RestoreAllToleranceStatus()
 
