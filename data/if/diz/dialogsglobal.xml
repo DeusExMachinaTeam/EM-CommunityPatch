@@ -847,7 +847,7 @@
 		name="Kef_Bar_Customer1_2_N08"
 		text="Я верну его. Надеюсь, что к тому времени, когда я вернусь, вы мне сможете точно указать, где искать стариков."
 		role="PLAYER"
-		scriptResult="TActivate('trReturnPlCar'); TActivate('trRunDownEngineer'); EndConversation()" />
+		scriptResult="TActivate('trRunDownEngineer'); EndConversation()" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N01"
@@ -1343,7 +1343,7 @@
 		name="Dlg_pl_000204"
 		text="Надеюсь, оно того стоило."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); EndConversation();" />
+		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); StopPlayingCustomMusic(); EndConversation();" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N041"
@@ -1389,7 +1389,7 @@
 		name="r3m1_NearOracle_ODefenders_2_N042"
 		text="Для этого я и проделал весь этот долгий путь."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); RemoveQuestItem( 'quest_monster_head' ); EndConversation()" />
+		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); RemoveQuestItem( 'quest_monster_head' ); StopPlayingCustomMusic(); EndConversation()" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_2_N021"
@@ -1575,7 +1575,7 @@
 		name="r3m2_Oracle_Oracle_3_N08"
 		text="Я отправляюсь немедленно. У меня появилась надежда!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); TActivate('trVK2'); TActivate('trVK3'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); EndConversation()" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N01"
@@ -1993,7 +1993,7 @@
 		text="Я знал, что иноземцам нельзя доверять!"
 		role="NPC"
 		scriptCondition="QuestStatus('r3m1_ClearSanctuary')==Q_TAKEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid')==Q_TAKEN"
-		scriptResult="CompleteQuest('r3m1_ClearSanctuary_ReturnDruid'); TActivate('trDestroyExitFromDung'); TActivate('trCreateLoggersMech')"
+		scriptResult="CompleteQuest('r3m1_ClearSanctuary_ReturnDruid'); TActivate('trDestroyExitFromDung'); TActivate('trCreateLoggersMech');"
 		nextReplies="Set_Bar_MainDruid_3_P02" />
 
 	<Reply
@@ -3153,7 +3153,7 @@
 		name="Dlg_pl_000498"
 		text="Приятно иметь дело не с фанатиками, а с людьми."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r2m2_FindROMinCastle');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  TActivate('VINO');  EndConversation()" />
+		scriptResult="CompleteQuest('r2m2_FindROMinCastle');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  AddQuestItem('quest_wine_barrels');  EndConversation()" />
 
 	<Reply
 		name="Monah_hellodlg2"
