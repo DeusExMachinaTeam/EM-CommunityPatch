@@ -176,6 +176,10 @@
 
 			CreateNewObject{prototypeName = "InFatherHause_01",objName = "FathHause",belong = 1100}
 			getObj("FathHause"):SetPosition( CVector(6456.201, 260.465, 5863.605))
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(6457.741, 257.799, 5861.850), Quaternion(0.000, -0.174, 0.000, 0.985), 0)
 
 			AddCinematicMessage( 4, 1 )
@@ -203,7 +207,11 @@
 
 			local humPl = GetEntityByName("humPlayer")
 			if humPl then
+<<<<<<< Updated upstream
 				humPl:SetPosition( CVector(6459.136, 257.599, 5861.813))
+=======
+				humPl:SetPosition( CVector(6459.136, 257.799, 5861.813))
+>>>>>>> Stashed changes
 				humPl:SetRotation(Quaternion(0.016, 0.888, -0.031, 0.459))
 			end
 
@@ -506,8 +514,13 @@
 			local vehM = GetEntityByName("vehMer")
 			if vehM then
 				vehM:PlaceToEndOfPath("TheSpyMerRolik_path")
+<<<<<<< Updated upstream
 				vehM:SetGamePositionOnGround( CVector(5014.082, 203.493, 3997.039))
 				vehM:SetRotation(Quaternion(0.052, -0.145, 0.021, -0.988))
+=======
+				vehM:SetGamePositionOnGround( CVector(5015.094, 201.171, 4039.513))
+				vehM:SetRotation(Quaternion(0.011, 0.959, -0.006, 0.283))
+>>>>>>> Stashed changes
 			end
 
 			AddCinematicMessage( 17, 1 )
@@ -736,6 +749,10 @@
 			if vehP then
 				vehP:SetSkin(4)
 				vehP:SetExternalPathByName("pioneer_path")
+<<<<<<< Updated upstream
+=======
+				vehP:SetCanBeDistractedFromMoving( true )
+>>>>>>> Stashed changes
 				SetCameraDirectionToObj( vehP:GetId() )
 			end
 
