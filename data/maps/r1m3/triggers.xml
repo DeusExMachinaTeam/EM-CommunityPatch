@@ -383,11 +383,18 @@
 			AddCinematicMessage( 20, 1 )
 
 			TActivate( "BOSSOILMINENDCINIMATIC" )
-
-			GetPlayerVehicle():SetPosition( CVector(6916.776, 260.655, 7040.848))
-			GetPlayerVehicle():SetRotation(Quaternion(0.015, -0.939, -0.018, 0.343))
+			TActivate( "BOSSOILMINEDIE1" )
 
 			trigger:Deactivate()
+		</script>
+	</trigger>
+	
+	<trigger Name="BOSSOILMINEDIE1" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			GetPlayerVehicle():SetGamePositionOnGround( CVector(6916.776, 260.655, 7040.848))
+			GetPlayerVehicle():SetRotation(Quaternion(0.015, -0.939, -0.018, 0.343))
+			trigger:Deactivate() 
 		</script>
 	</trigger>
 	
