@@ -1038,7 +1038,7 @@
 	<trigger Name="TriggerLabirintCarCreate" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("OldTownOutsiderCar",1002,CVector(1387,259,3947), {"r1m3_molokovozInOldCity"},CVector(1387,259,3947), 1)
+			TeamCreate("OldTownOutsiderCar",1002,CVector(1387,259,3947), {"r1m3_molokovozInOldCity"}, nil, 1)
 
 			local tv = GetEntityByName("OldTownOutsiderCar")
 			if tv then
