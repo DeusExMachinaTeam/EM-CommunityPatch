@@ -11,7 +11,7 @@
 	</trigger>
 
 
-	
+	 
 	<trigger	Name="trVaterlandPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1091,24 +1091,32 @@
 	<trigger Name="CARAVANTOR1M4" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("KARAVAN14",1010,CVector(6081, 260, 5915),{"r2m2_CaravanUral02","r1m2_hunter02","Fighter02","Molokovoz02"}, nil, 1)
-			local vehP = GetEntityByName("KARAVAN14_vehicle_0")
-			if vehP then
-				vehP:SetExternalPathByName("karavan_path")
+			TeamCreate("KARAVAN14",1010,CVector(6080, 276, 5918),{"r2m2_CaravanUral02","r1m2_hunter02","Fighter02","Molokovoz02"}, nil, 1)
+
+			local caravan = GetEntityByName("KARAVAN14")
+			if caravan then
+				caravan:StackOpen()
+				caravan:SetDestination( CVector(6096, 277, 6038) )
+				caravan:SetDestination( CVector(6343, 273, 6079) )
+				caravan:SetDestination( CVector(6251, 276, 5849) )
+				caravan:SetDestination( CVector(6124, 272, 5809) )
+				caravan:SetDestination( CVector(5970, 256, 5637) )
+				caravan:SetDestination( CVector(5775, 251, 5980) )
+				caravan:SetDestination( CVector(5784, 259, 6297) )
+				caravan:SetDestination( CVector(6023, 256, 6671) )
+				caravan:SetDestination( CVector(6055, 254, 6842) )
+				caravan:SetDestination( CVector(6089, 255, 7310) )
+				caravan:SetDestination( CVector(6188, 256, 7959) )
+				caravan:SetDestination( CVector(6390, 249, 8136) )
+				caravan:StackClose()
 			end
-			local vehPP = GetEntityByName("KARAVAN14_vehicle_1")
-			if vehPP then
-				vehPP:SetExternalPathByName("karavan_path")
-			end
-			local vehPPP = GetEntityByName("KARAVAN14_vehicle_2")
-			if vehPPP then
-				vehPPP:SetExternalPathByName("karavan_path")
-			end
+
 			local GoluBoyWagon = GetEntityByName("KARAVAN14_vehicle_3")
 			if GoluBoyWagon then
 				GoluBoyWagon:SetExternalPathByName("karavan_path")
 				GoluBoyWagon:SetSkin(2)
 			end
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
