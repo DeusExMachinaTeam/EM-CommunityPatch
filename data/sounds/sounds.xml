@@ -431,6 +431,11 @@
 		file="data\sounds\Driving\Motors\tank_engine_noise_high.wav"
 		group="ENGINE"
 		/>
+		<model
+		id="S_ENGINE_FORMULA_1_HIGH"
+		file="data\sounds\Driving\Motors\formula_driving_high.wav"
+		group="ENGINE"
+		/>
 
 <!-- Missiles --> 
 
