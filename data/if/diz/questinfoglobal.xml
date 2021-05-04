@@ -68,21 +68,18 @@
 		questName="Dynamic_Destroy_0"
 		briefDiz="Уничтожить врага"
 		fullDiz="Город %1n просит вас уничтожить врага за вознаграждение в %3d."
-		requestForTalk="Привет, нет ли работенки для меня?"
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Destroy_1"
 		briefDiz="Обезвредить бандита"
 		fullDiz="Жители поселения %1n подвергаются частым атакам хитрого бандита. Я помогу им избавиться от угрозы за %3d."
-		requestForTalk="Привет, нет ли работенки для меня?"
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Destroy_2"
 		briefDiz="Выследить агрессора"
 		fullDiz="Я получу %3d, когда избавлю окрестности города %1n от присутствия одного негодяя."
-		requestForTalk="Привет, нет ли работенки для меня?"
 		isMainQuest="0" />
 
 	<QuestInfo
@@ -113,24 +110,18 @@
 		questName="Dynamic_Reach_0"
 		briefDiz="Отвезти образцы в селение %2n"
 		fullDiz="Город %1n просит вас отвезти кое-какие исследовательские образцы в поселение %2n. По прибытии я получу %3d."
-		requestForTalk="Привет, нет ли работенки для меня?"
-		resuestForComplete="Я привез тебе пакет от %1n."
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Reach_1"
 		briefDiz="Доставить посылку в селение %2n"
 		fullDiz="Я получу %3d, когда доставлю посылку в селение %2n. Там ее ждут, но за такие смешные деньги я не собираюсь уж очень торопиться."
-		requestForTalk="Привет, нет ли работенки для меня?"
-		resuestForComplete="Я привез тебе пакет от %1n."
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Reach_2"
 		briefDiz="Добраться до селения %2n"
 		fullDiz="Один чудак из города %1n готов заплатить %3d, если я передам привет его другу, живущему в поселении %2n."
-		requestForTalk="Привет, нет ли работенки для меня?"
-		resuestForComplete="Я привез тебе пакет от %1n."
 		isMainQuest="0" />
 
 	<QuestInfo
@@ -2404,11 +2395,10 @@
 
 	<QuestInfo
 		questName="r3m1_KnowAboutUluk_GotoSet"
-		briefDiz="Сообщить Верховному друиду"
+		briefDiz="Сообщить Фионию"
 		isMainQuest="0">
 		<Map
-			name="r3m1"
-			targetObjName="TheSet" />
+			name="r3m1" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2475,7 +2465,7 @@
 
 	<QuestInfo
 		questName="r3m1_RescueUlukCivil_GotoVillage"
-		briefDiz="Дохать до временного убежища"
+		briefDiz="Доехать до временного убежища"
 		isMainQuest="0">
 		<Map
 			name="r3m1"
@@ -2487,7 +2477,8 @@
 		briefDiz="Отразить нападение машин"
 		isMainQuest="0">
 		<Map
-			name="r3m1" />
+			name="r3m1"
+			targetObjName="UlukArmy" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2496,7 +2487,7 @@
 		isMainQuest="0">
 		<Map
 			name="r3m1"
-			targetObjName="TheSet" />
+			targetObjName="BezhenVeh2" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -3006,7 +2997,7 @@
 	<QuestInfo
 		questName="r4m1_RBC_Evacuate"
 		briefDiz="Эвакуировать людей Бухары в порт"
-		isMainQuest="1" >		
+		isMainQuest="1">
 		<Map
 			name="r4m1"
 			targetObjName="Buharers_vehicle_0" />

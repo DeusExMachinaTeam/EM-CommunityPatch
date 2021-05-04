@@ -12,6 +12,7 @@
 --		   println("Map Region 3 map 1: Initialised")
 		   SetVar("CanTalkResist",0)
 		   SetVar("MaxWalkHuman",14)
+		   SetVar("BezhenAlive",0)
 		   trigger:Deactivate()
 		</script>
 	</trigger>
@@ -290,21 +291,7 @@
 	</trigger>
 
 
-	<trigger	Name="trTalkRescueLeader"	active="1">
-		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="RescueLeader_loc" />
-		<script>
-			if QuestStatus("r3m1_KnowAboutUluk_GotoSet")==Q_TAKEN then
---				println("Talk with Rescue Leader")
-			    SetVar("CanTalkResist",1)
-				TActivate("trWentCivCamp")
-				CreateTeam("RescueCars",1064,CVector(getPos("RescueCiv_loc")),{"Scout01","Scout01","Scout02"})
-				TActivate("trRescArmyDie")
-			    trigger:Deactivate()
-			end
-		</script>
-	</trigger>
-
-<!-- –олик когда убивают лидера -->
+	<!-- –олик когда убивают лидера -->
 	<trigger	Name="trWentCivCamp"	active="0">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="RescueCiv_loc" />
 		<script>
@@ -313,70 +300,52 @@
 			SetTolerance(1065, 1020, RS_ENEMY)
 			CompleteQuest("r3m1_RescueUlukCivil_GotoVillage")
 
-			local newControllerId1 = CreateNewObject {
-				prototypeName	= "someNPCMotionController",
-				objName	= "RescCont1"
-			}
-
-			local newControllerId2 = CreateNewObject {
-				prototypeName	= "someNPCMotionController",
-				objName	= "RescCont2"
-			}
-
-			local newControllerId3 = CreateNewObject {
-				prototypeName	= "someNPCMotionController",
-				objName	= "RescCont3"
-			}
-
-			local newController1 = GetEntityByID(newControllerId1)
-			local newController2 = GetEntityByID(newControllerId2)
-			local newController3 = GetEntityByID(newControllerId3)
-
-			local FVehicle1 = GetEntityByName("RescueCars_vehicle_0")
-			local FVehicle2 = GetEntityByName("RescueCars_vehicle_1")
-			local FVehicle3 = GetEntityByName("RescueCars_vehicle_2")
-
-			if newController1 and FVehicle1 then
-				newController1:setVehicleUnderControl(FVehicle1)
-			end
-
-			if newController2 and FVehicle2 then
-				newController2:setVehicleUnderControl(FVehicle2)
-			end
-
-			if newController3 and FVehicle3 then
-				newController3:setVehicleUnderControl(FVehicle3)
-			end
-
-
---			AddCinematicMessage( 21, 0.25 )
---			AddCinematicMessage( 22, 0.25 )
---			AddCinematicMessage( 23, 0.25 )
---			AddCinematicMessage( 24, 0.25 )
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
+	
 <!-- –олик после того, как разбили атакующих-->
 	<trigger	Name="trUlukArmyDie"	active="0">
 		<event	eventid="GE_OBJECT_DIE"	ObjName="UlukArmy" />
 		<script>
-			CompleteQuest("r3m1_RescueUlukCivil_RepelAttack")
 			TActivate("RolikBegin_ToGoInSet")
-
---			AddCinematicMessage( 25, 0.25 )
---			AddCinematicMessage( 26, 0.25 )
-
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
+
+	<trigger	Name="trRescArmyPlace"	active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			local RescVeh1 = GetEntityByName("RescueCars_vehicle_0")
+			local RescVeh2 = GetEntityByName("RescueCars_vehicle_1")
+			
+			if RescVeh1 then
+				RescVeh1:SetGamePositionOnGround( CVector(1880.616, 249.790, 1087.037))
+				RescVeh1:SetRotation(Quaternion(-0.010, 0.229, 0.004, 0.973))
+			end
+			
+			if RescVeh2 then
+				RescVeh2:SetGamePositionOnGround( CVector(1907.178, 251.537, 1091.776))
+				RescVeh2:SetRotation(Quaternion(-0.066, -0.042, 0.050, 0.996))
+			end
+						
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 <!-- –олик, если убили всех жителей улука, которых надо было спасти-->
 	<trigger	Name="trRescArmyDie"	active="0">
-		<event	eventid="GE_OBJECT_DIE"	ObjName="RescueCars" />
+		<event	eventid="GE_OBJECT_DIE"	ObjName="RescueCars_vehicle_0" />
+		<event	eventid="GE_OBJECT_DIE"	ObjName="RescueCars_vehicle_1" />
+		<event	eventid="GE_OBJECT_DIE"	ObjName="BezhenVeh1" />
+		<event	eventid="GE_OBJECT_DIE"	ObjName="BezhenVeh2" />
 		<script>
-			FailQuestIfTaken("r3m1_RescueUlukCivil_TakeToSet")
-			FailQuest("r3m1_RescueUlukCivil_TakeToSet")
-
+			FailQuestIfTaken("r3m1_RescueUlukCivil")
+--			FailQuest("r3m1_RescueUlukCivil_TakeToSet")
+			
+			SetVar("BezhenAlive", 2)
+			
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
 			local PlfCoor = Plf:GetPosition()
@@ -388,30 +357,125 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			FlyAround(6, 0, 25, 17, PlfCoor, PlfID, 1, 1 )
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			FlyAround(6, 0, 25, 7, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 32, 0.25 )
+
+			TActivate("trRescArmyDieEnd")
+
+			TDeactivate("trUlukArmyDie")
+			TDeactivate("tr_RescueCarsDist")
+			TDeactivate("RBezhenVeh1InPlace")
+			TDeactivate("RBezhenVeh2InPlace")
+			TDeactivate("RCarsInPlace")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
+	<trigger Name="trRescArmyDieEnd" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			SetCoordinateForQuest( "r3m1_KnowAboutUluk_GotoSet", CVector(getPos("Set_enter")))
+
+			TActivate("trRescueEnd")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
 	<trigger	Name="trRescueEnd"	active="0">
 		<event	timeout="0.1"	eventid="GE_TIME_PERIOD" />
 		<script>
-			for i=1,3 do
+			for i=1,2 do
 			   if getObj("RescCont"..i) then
 			      getObj("RescCont"..i):Remove()
 			   end
 
-			   if getObj("RescueCars_vehicle_"..i-1) then
-			      getObj("RescueCars_vehicle_"..i-1):Remove()
+			   if getObj("BezhenVeh"..i) then
+			      getObj("BezhenVeh"..i):Remove()
 			   end
+
+			   if getObj("RescueCars_vehicle_"..i-1) then
+				getObj("RescueCars_vehicle_"..i-1):Remove()
+			 end
 			end
 
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RCarsInPlace" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="RCarsSet_loc" />
+		<script>
+
+			trigger:IncCount()
+
+			local count = trigger:GetCount()
+		    if 2>count then
+		    	return
+		    end
+
+			SetVar("BezhenAlive",1)
+
+			TDeactivate("tr_RescueCarsDist")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RBezhenVeh1InPlace" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="BezhenVeh1"/>
+		<script>
+
+			local FVehicle1 = GetEntityByName("BezhenVeh1")
+			if FVehicle1 then FVehicle1:SetExternalPathByName("Bezhen_Path2") end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RBezhenVeh2InPlace" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="BezhenVeh2"/>
+		<script>
+
+			local FVehicle2 = GetEntityByName("BezhenVeh2")
+			if FVehicle2 then FVehicle2:SetExternalPathByName("Bezhen_Path3") end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_RescueCarsDist" active="0">
+		<event        timeout="1"        eventid="GE_TIME_PERIOD" />
+		<script>
+			local run = GetEntityByName("BezhenVeh1")
+			local pl = GetEntityByName("BezhenVeh2")
+			local len
+			
+			if run and run:IsAlive() then
+				if pl and pl:IsAlive() then
+					len = Dist(pl, run)
+					if (len > 75) then
+						if Dist(run, getObj("Set_enter")) > Dist(pl, getObj("Set_enter")) then
+							pl:SetCustomLinearVelocity( 0 )
+							pl:SetThrottle( 0 )
+						else
+							run:SetCustomLinearVelocity( 0 )
+							run:SetThrottle( 0 )
+						end
+					end
+				end
+			end
+
 		</script>
 	</trigger>
 <!--  ¬ыход с карты во второй регион-->
@@ -546,7 +610,14 @@
 		</script>
 	</trigger>
 
-
+	<trigger	Name="tr_PlayerLeavesUluk"	active="0">
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="RescueLeader_loc" />
+		<script>
+			SetVar("BezhenAlive",5)
+			StartConversation("r3m1_NearUluk_RescueMan1")
+        	trigger:Deactivate()
+		</script>
+	</trigger>
 
 
 </triggers>
