@@ -1856,6 +1856,7 @@
 		name="r3m2_AloneDruid1_1_N01"
 		text="Что ты ищешь, путник, в этих убогих местах?"
 		role="NPC"
+		scriptCondition="not(IsQuestTaken('q_VisitDruid')) and GetCurNpc():GetSpokenCount()==0"
 		nextReplies="r3m2_AloneDruid1_1_N02" />
 
 	<Reply
@@ -1866,15 +1867,39 @@
 
 	<Reply
 		name="r3m2_AloneDruid1_1_N03"
-		text="Здесь его нет. Езжай на северо-запад. Может быть, там ты найдёшь свою цель."
+		text="Здесь его нет. Езжай на северо-запад. Может быть, там ты найдёшь свою цель. Ну а мне пора - надо приводить поля в порядок."
 		role="NPC"
 		nextReplies="r3m2_AloneDruid1_1_N04" />
 
 	<Reply
 		name="r3m2_AloneDruid1_1_N04"
-		text="Спасибо."
+		text="А что случилось с твоими полями?"
 		role="PLAYER"
-		scriptResult="EndConversation();" />
+		nextReplies="Dlg_npc_001293" />
+
+	<Reply
+		name="Dlg_npc_001293"
+		text="Кто-то потоптал мои посевы: то ли на грузовике проехался, то ли поджёг, и оставил странные следы."
+		role="NPC"
+		nextReplies="Dlg_pl_001294" />
+
+	<Reply
+		name="Dlg_pl_001294"
+		text="Кажется, я уже встречал что-то похожее. Покажи где твои посевы, я сообщу, куда следует."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001295" />
+
+	<Reply
+		name="Dlg_npc_001295"
+		text="Совсем близко, направо от выезда. Заранее тебе спасибо - за поля и за разговор."
+		role="NPC"
+		nextReplies="Dlg_pl_001296" />
+
+	<Reply
+		name="Dlg_pl_001296"
+		text="Рад буду помочь. Поеду, погляжу на знаки."
+		role="PLAYER"
+		scriptResult="TakeQuest('q_PlaceWithSign'); TActivate('trSignPlace'); GetCurNpc():SetSpokenCount(1); EndConversation()" />
 <!--Root/r3m1/Очистить стоухендж-->
 	<Reply
 		name="Fist_ambush_guard2_1_N01"
@@ -2479,7 +2504,7 @@
 		name="Set_Bar_Druid3_1_N01"
 		text="Я узнал, что ты направляешься к Оракулу?"
 		role="NPC"
-		scriptCondition="QuestStatus('q_VisitDruid')==Q_CANBEGIVEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid2')==Q_COMPLETED"
+		scriptCondition="QuestStatus('q_VisitDruid')==Q_CANBEGIVEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid2')==Q_COMPLETED and not(IsQuestTaken('q_PlaceWithSign')) and GetCurNpc():GetSpokenCount( ) == 0"
 		nextReplies="Set_Bar_Druid3_1_N02" />
 
 	<Reply

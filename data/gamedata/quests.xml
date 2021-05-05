@@ -281,7 +281,8 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(10000)"
-		Levels="r3m1 r3m2 r1m4 r1m3 r1m2">
+		OnFail='TDeactivate("trSignPlace");'
+		Levels="r3m1 r3m2 r2m1 r2m2 r1m4 r1m3 r1m2 r1m1">
 		<quest
 			Name="q_PWS1"
 			Automatic="1"
@@ -290,7 +291,7 @@
 			ConditionToGive="all taken"
 			PrecedingQuests="q_PlaceWithSign"
 			OnTake='ShowCircleOnMinimapByName("SignPlace_loc")'
-			Levels="r3m1 r3m2 r1m4 r1m3 r1m2" />
+			Levels="r3m2" />
 
 		<quest
 			Name="q_PWS2"
@@ -299,7 +300,7 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="q_PWS1"
-			Levels="r3m1 r3m2 r1m4 r1m3 r1m2" />
+			Levels="r3m1 r3m2 r2m1 r2m2 r1m4 r1m3 r1m2 r1m1" />
 	</quest>
 <!--Root/r3m2/Сюжетные/Преодолеть защитников оракула-->
 	<quest
@@ -667,7 +668,7 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="r2m2_Znaki2_Quest"
 		OnComplete="AddPlayerMoney(750)"
-		Levels="r2m2 r2m1 r1m3 r1m1 r1m2" />
+		Levels="r2m2 r2m1 r1m3 r1m1 r1m2 r1m4 r3m1 r3m2" />
 <!--Root/r2m2/Опциональные/Доставить головы сектантов-->
 	<quest
 		Name="r2m2_HeadsHunterQuest"

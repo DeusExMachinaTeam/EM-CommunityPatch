@@ -1363,6 +1363,10 @@
 		briefDiz="Сообщить в Мидгард ученым о знаках"
 		isMainQuest="0">
 		<Map
+			name="r1m1"
+			targetObjName="ToR1M2" />
+
+		<Map
 			name="r1m2"
 			targetObjName="Midragd" />
 
@@ -2248,6 +2252,10 @@
 		fullDiz="Ученых в Мидгарде заинтересует такая информация. Возможно, мне даже удастся на этом подзаработать деньжат."
 		isMainQuest="0">
 		<Map
+			name="r1m1"
+			targetObjName="ToR1M2" />
+
+		<Map
 			name="r1m2"
 			targetObjName="Midragd" />
 
@@ -2256,12 +2264,23 @@
 			targetObjName="ToR1M2" />
 
 		<Map
+			name="r1m4"
+			targetObjName="ToR1M3" />
+
+		<Map
 			name="r2m1"
 			targetObjName="ToR1M3" />
 
 		<Map
 			name="r2m2"
 			targetObjName="ToR2M1" />
+
+		<Map
+			name="r3m1" />
+
+		<Map
+			name="r3m2"
+			targetObjName="ToR3M1" />
 	</QuestInfo>
 
 	<QuestInfo
