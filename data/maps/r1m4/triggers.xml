@@ -193,12 +193,9 @@
 		    	return
 		    end
 --		    println("trLeaderCaravan DIEEEEEEEEEEEEEEEEEEEE")
-			CompleteQuestIfTaken("FreeExtremistLeader_Quest3")
-			TakeQuest("FreeExtremistLeader_Quest4")
-			TDeactivate("trLeaderCarDie")
-			if getObj("LeaderCar") then
-				getObj("LeaderCar"):Remove()
-			end
+			
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
 			local PlfCoor = Plf:GetPosition()
@@ -217,20 +214,37 @@
 			AddCinematicMessage( 11, 1 )
 			AddCinematicMessage( 12, 1 )
 
+			TActivate("trLeaderCaravanDie_End")
+			TDeactivate("trLeaderCarDie")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
+	<trigger Name="trLeaderCaravanDie_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			CompleteQuestIfTaken("FreeExtremistLeader_Quest3")
+			TakeQuest("FreeExtremistLeader_Quest4")
+
+			if getObj("LeaderCar") then
+				getObj("LeaderCar"):Remove()
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
 <!-- Машина с лидером померла -->
 	<trigger Name="trLeaderCarDie" active="0">
 		<!--event eventid="GE_OBJECT_DIE" ObjName="LeaderCar" /-->
 		<script>
 --		    println("trLeaderCar DIEEEEEEEEEEEEEEEEEEEE")
-			FailQuestIfTaken("TRS_Quest3b")
-			FailQuestIfTaken("FreeExtremistLeader_Quest3")
-			FailQuestIfTaken("FreeExtremistLeader_Quest1")
-			TakeQuest("KillExtremist_Quest1")
+			
+			SaveAllToleranceStatus(RS_NEUTRAL)
 
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
@@ -248,7 +262,24 @@
 
 			AddCinematicMessage( 13, 1 )
 			AddCinematicMessage( 14, 1 )
+
 			TDeactivate("trLeaderCaravanDie")
+			TActivate("trLeaderCarDie_End")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLeaderCarDie_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			FailQuestIfTaken("TRS_Quest3b")
+			FailQuestIfTaken("FreeExtremistLeader_Quest3")
+			FailQuestIfTaken("FreeExtremistLeader_Quest1")
+			TakeQuest("KillExtremist_Quest1")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -487,45 +518,4 @@
 			end
  		</script>
 	</trigger>
-
-<!-- Охрана лидера померла -->
-	<trigger Name="trFT" active="0">
-		<event	timeout="1"	eventid="GE_TIME_PERIOD" />
-		<script>
-			SaveAllToleranceStatus(RS_NEUTRAL)
-
-			PlayCustomMusic("IntenseDialogue03")
-			local Plf = GetPlayerVehicle()
-			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 5
-			PlfCoor.z = PlfCoor.z + 40
-
-			Plf:SetCustomControlEnabled( true )
-			Plf:SetCustomLinearVelocity( 0 )
-			Plf:SetThrottle( 0 )
-			Plf:SetCustomControlEnabled( false )
-
-			FlyAround(1, 0.01, 40, 25, PlfCoor, PlfID, 1, 1 )
-			StartCinematic()
-
-			AddCinematicMessage( 10, 0.5 )
-			AddCinematicMessage( 11, 0.5 )
-			AddCinematicMessage( 12, 0.5 )
-
-			TActivate("trFTend")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="trFTend" active="0">
-		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
-		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
-		<script>
-			RestoreAllToleranceStatus()
-			StopPlayingCustomMusic()
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
 </triggers>

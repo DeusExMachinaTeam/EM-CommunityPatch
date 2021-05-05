@@ -5,6 +5,7 @@
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
 --			println("--- ABVBVB")
+			SaveAllToleranceStatus(RS_NEUTRAL)
 			TActivate("cinExchangeVehFirst_End")
 			TActivate("cinExchangeVehFirst_FadeIn")
 			Fly("Garage_Path_First", CINEMATIC_NO_AIM, nil, 7, 1,1)
@@ -34,6 +35,7 @@
 		<script>
 			TActivate("trExcahgeVehAction")
 --			println("EEEEEEEEEEEEENNNNNNNNNNNDDDDDDDDDDDD")
+			RestoreAllToleranceStatus()
 			SetCameraBehindPlayerVehicle()
 			trigger:Deactivate()
 		</script>
@@ -47,6 +49,7 @@
 			GetPlayerVehicle():PlaceToEndOfPath("ExitToGaragePath")
 			setRot(GetPlayerVehicle(), Quaternion(0.008, 0.399, 0.003, -0.917))
 			SetCameraBehindPlayerVehicle()
+			RestoreAllToleranceStatus()
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -153,6 +156,7 @@
 			GetPlayerVehicle():PlaceToEndOfPath("EnterToFactoryPath")
 			setRot(GetPlayerVehicle(), Quaternion(0.009, 0.999, 0.004, -0.051))
 --			setPos(GetPlayerVehicle(), CVector(2389.690, 258.985, 2754.862))
+			RestoreAllToleranceStatus()
 			SetCameraBehindPlayerVehicle()
 			GetPlayerVehicle():UnlimitMaxSpeed()
 			trigger:Deactivate()
@@ -220,8 +224,9 @@
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
 			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			SaveAllToleranceStatus(RS_NEUTRAL)
 			PlayCustomMusic("IntenseDialogue03")
-			TActivate("cinStopMusik_End")
+			TActivate("cinMonsterDie_End")
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
 			local PlfCoor = Plf:GetPosition()
@@ -238,6 +243,18 @@
 			AddCinematicMessage( 1001, 0.25 )
 			AddCinematicMessage( 1002, 0.25 )
 			AddCinematicMessage( 1003, 0.25 )
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMonsterDie_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			StopPlayingCustomMusic()
+
 			trigger:Deactivate()
 		</script>
 	</trigger>

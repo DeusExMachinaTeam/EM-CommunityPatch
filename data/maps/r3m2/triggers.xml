@@ -376,6 +376,7 @@
 --function FlyLinked( PathName, Id, PlayTime, StartFade, EndFade, LookToId, VisPanel, RelativeRotations, 
 --				println("AAAAAAAAAAAAAA")
 				TActivate("cinExcahgeVehAction_End")
+				SaveAllToleranceStatus(RS_NEUTRAL)
 				FlyLinked( "Garage_Path", veh:GetId(), 6, 0, 1, veh:GetId(), nil, nil)
 				StartCinematic()
 				if excarname=="PlayerScout" then
@@ -438,6 +439,7 @@
 				TActivate("cinPlTurnRoundFactory_FadeIn")
 				TActivate("cinPlTurnRoundFactory_PathStart")
 				TActivate("cinPlTurnRoundFactory_End")
+				SaveAllToleranceStatus(RS_NEUTRAL)
 	  			Fly("WentFactory_TurnAround", CINEMATIC_NO_AIM, nil, 6, 1,0)
 	  			Fly("WentFactory_TurnAround2", CINEMATIC_NO_AIM, nil, 5, 0,1)
 	  			StartCinematic()

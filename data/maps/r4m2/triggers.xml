@@ -38,6 +38,8 @@
 			PlfCoor.y = PlfCoor.y + 25*0.74
 			PlfCoor.z = PlfCoor.z + 25*0.74
 
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
 			Plf:SetCustomControlEnabled( true )
 			Plf:SetCustomLinearVelocity( 0 )
 			Plf:SetThrottle( 0 )
@@ -51,9 +53,21 @@
 			AddCinematicMessage( 203, 0.25 )
 			AddCinematicMessage( 204, 0.25 )
 
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trMoveToFatherCar_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
 			AddPlayerMoney(20000)
-			AddHistory( "r4_FindFatherCar" );
-			AddFadingMsgId( "fm_history_got" );	
+			AddHistory( "r4_FindFatherCar" )
+			AddFadingMsgId( "fm_history_got" )
 			trigger:Deactivate()
 		</script>
 	</trigger>

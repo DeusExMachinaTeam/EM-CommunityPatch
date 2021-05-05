@@ -260,6 +260,8 @@
 		TActivate("trPortOut_cam01")
 		TActivate("trPortOut_cam02")
 
+		SaveAllToleranceStatus(RS_NEUTRAL)
+
 		Fly("PortOut_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
 		Fly("PlaneOut_cam02", CINEMATIC_NO_AIM, 0, 5, 0, 1 )
 		StartCinematic()
@@ -302,6 +304,8 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
+		RestoreAllToleranceStatus()
+
 		local vehPlayer = GetPlayerVehicle()
 		if vehPlayer then
 			vehPlayer:SetExternalPathByName("player_path02")
@@ -329,6 +333,9 @@
 		GetPlayerVehicle():SetCustomLinearVelocity( 0 )
 
 		PlayCustomMusic("Techno01")
+
+		EnableGodMode()
+
 		TActivate("RolikEnd_Boss02")
 		TActivate("trBoss02_cam01")
 		TActivate("trBoss02_cam02")
@@ -394,6 +401,8 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
+
+		DisableGodMode()
 
 		local vehPlayer = GetPlayerVehicle()
 		if vehPlayer then
