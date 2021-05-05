@@ -827,4 +827,10 @@
 		<Point
 			coord="2887.976 1948.914" />
 	</Path>
+
+	<Path
+		Name="subzaezd1">
+		<Point
+			coord="3077.961 2131.525" />
+	</Path>
 </Paths>

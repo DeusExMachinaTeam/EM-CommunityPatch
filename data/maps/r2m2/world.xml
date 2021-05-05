@@ -3594,9 +3594,9 @@
 	<Node
 		name="Object3194"
 		class="SgAnimatedModelNode"
-		org="3037.356 29.088 2104.761"
+		org="3034.976 31.898 2103.884"
 		orgRel="1"
-		rot="-0.0288 -0.8794 -0.0489 0.4727"
+		rot="-0.0042 0.4643 -0.0016 0.8857"
 		id="berth"
 		ndmAction="0" />
 

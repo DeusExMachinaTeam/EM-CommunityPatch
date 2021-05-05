@@ -954,4 +954,113 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+
+	<!-- Отплытие на подлодке в Вахат -->
+
+	<trigger Name="cinMovePlToR4M1_begin" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			SaveAllToleranceStatus(RS_NEUTRAL)
+			
+			EnableGodMode()
+			
+			Fly("lodka1", CINEMATIC_NO_AIM, 0, 21, 1, 0 )
+			Fly("lodka2", CINEMATIC_NO_AIM, 0, 15, 0, 1 )
+			StartCinematic()
+			
+			PlayCustomMusic("Bio02")
+			
+			TActivate("cinMovePlToR4M1_Fade")
+			TActivate("cinMovePlToR4M1_cam03")
+			TActivate("cinMovePlToR4M1_End")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR4M1_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			
+			CreateNewDummyObject( "submarina",	"SubmR2M2", -1, -1, CVector(3437.163, 216.000, 2342.168), Quaternion(0.0000, -0.8704, 0.0000, 0.4924), 0 )
+			
+			local moverId = CreateNewObject { prototypeName	= "cinematicMover", objName  = "" }
+			local mover = GetEntityByID( moverId ) 
+			local controlledObj = GetEntityByName("SubmR2M2")
+			if controlledObj then
+				mover:SetObjAndPath( controlledObj:GetId(), "lodka3", 20 )
+			end
+			
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetPosition( CVector(3001.291, 267.525, 2082.625))
+				vehPlayer:SetRotation(Quaternion(0.002, 0.482, 0.001, 0.876))
+			end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR4M1_cam03" active="0">
+		<event flypath="lodka2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			local podlodka = getObj("SubmR2M2")
+			if podlodka then
+				podlodka:SetNodeAction(AT_STAND2)
+			end
+
+			TActivate("subzaezd11")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="subzaezd11" active="0">
+		<event	timeout="7"		eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetExternalPathByName("subzaezd1")
+				vehPlayer:LimitMaxSpeed( 20 )
+			end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR4M1_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetExternalPathByName("subzaezd1")
+				vehPlayer:PlaceToEndOfPath("subzaezd1")
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:UnlimitMaxSpeed()
+			end
+
+			StopPlayingCustomMusic()
+
+			DisableGodMode()
+
+			TDeactivate("subzaezd11")
+			TDeactivate("cinMovePlToR4M1_cam03")
+
+			TActivate("trStartMap")
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+			
+			PassToMap("r4m1", "FromR2M2", 0 , 1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
 </triggers>

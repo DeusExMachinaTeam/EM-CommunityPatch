@@ -4418,4 +4418,10 @@
 		<Point
 			coord="6880.558 5208.330" />
 	</Path>
+
+	<Path
+		Name="subzaezd1">
+		<Point
+			coord="1202.604 3174.417" />
+	</Path>
 </Paths>
