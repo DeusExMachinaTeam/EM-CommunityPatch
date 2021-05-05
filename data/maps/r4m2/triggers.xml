@@ -53,6 +53,8 @@
 			AddCinematicMessage( 203, 0.25 )
 			AddCinematicMessage( 204, 0.25 )
 
+			TActivate("trMoveToFatherCar_End")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
