@@ -2941,6 +2941,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			ModelFile	= "r3_druids_mech_house1"
 			NodeScale	= "1 1 1" 
 
+			MusicName		= "bar"
+
 			GateModelFile 	= ""
 
 			IsIntersecting		= "true"
