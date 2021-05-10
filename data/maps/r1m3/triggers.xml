@@ -1091,12 +1091,12 @@
 	<trigger Name="CARAVANTOR1M4" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("KARAVAN14",1010,CVector(6080, 276, 5918),{"r2m2_CaravanUral02","r1m2_hunter02","Fighter02","Molokovoz02"}, nil, 1)
+			TeamCreate("KARAVAN14",1010,CVector(6080, 276, 5918),{"r2m2_CaravanUral02","Molokovoz02","Fighter02"}, nil, 1)
 
 			local caravan = GetEntityByName("KARAVAN14")
 			if caravan then
 				caravan:StackOpen()
-				caravan:SetDestination( CVector(6096, 277, 6038) )
+				caravan:SetDestination( CVector(6089, 277, 6053) )
 				caravan:SetDestination( CVector(6343, 273, 6079) )
 				caravan:SetDestination( CVector(6251, 276, 5849) )
 				caravan:SetDestination( CVector(6124, 272, 5809) )
@@ -1111,9 +1111,8 @@
 				caravan:StackClose()
 			end
 
-			local GoluBoyWagon = GetEntityByName("KARAVAN14_vehicle_3")
+			local GoluBoyWagon = GetEntityByName("KARAVAN14_vehicle_1")
 			if GoluBoyWagon then
-				GoluBoyWagon:SetExternalPathByName("karavan_path")
 				GoluBoyWagon:SetSkin(2)
 			end
 			
@@ -1121,21 +1120,25 @@
 		</script>
 	</trigger>
 
-	<trigger Name="DeleteCaravanIfExists" active="0">
+	<trigger Name="trDeleteCaravanIfExists" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+			local VehP = GetEntityByName("KARAVAN14_vehicle_0")
+			local GoluBoyWagon = GetEntityByName("KARAVAN14_vehicle_1")
+			local VehPP = GetEntityByName("KARAVAN14_vehicle_2")
 			if VehP then
 				VehP:Remove()
 			end
-			if VehPP then
-				VehPP:Remove()
-			end
-			if VehPPP then
-				VehPPP:Remove()
-			end
+			
 			if GoluBoyWagon then
 				GoluBoyWagon:Remove()
 			end
+			
+			if VehPP then
+				VehPP:Remove()
+			end
+			
+			trigger:Deactivate()
 		</script>
 	</trigger>
 				
@@ -1171,7 +1174,7 @@
 					if hs then hs:Remove() end
 				end
 
-				TActivate("DeleteCaravanIfExists")
+				TActivate("trDeleteCaravanIfExists")
 				PassToMap("r1m1", "FromR1M3", -1 )
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1250,7 +1253,7 @@
 						if hs then hs:Remove() end
 					end
 
-					TActivate("DeleteCaravanIfExists")
+					TActivate("trDeleteCaravanIfExists")
 					PassToMap("r1m2", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1338,7 +1341,7 @@
 					local hs = GetEntityByName ("FIRE06")
 					if hs then hs:Remove() end
 					
-					TActivate("DeleteCaravanIfExists")
+					TActivate("trDeleteCaravanIfExists")
 					PassToMap("r1m4", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
