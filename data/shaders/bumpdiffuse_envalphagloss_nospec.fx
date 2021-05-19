@@ -1,4 +1,4 @@
-/** Bump Specular Gloss Shader for Hardtruck Apocalypse
+/** Bump Gloss Shader for Hardtruck Apocalypse
  * 
  * Author:  Aleksandr Fateev (foggy1989@gmail.com)
  * Version: 2021-05-19
@@ -57,7 +57,7 @@ struct VS_OUTPUT {
     float  Fog:           FOG;
 };
 
-VS_OUTPUT BumpSpecularGlossVS(VS_INPUT input) {
+VS_OUTPUT BumpGlossVS(VS_INPUT input) {
     VS_OUTPUT output = (VS_OUTPUT) 0;
 
     float4 WorldPosition = mul(float4(input.Position, 1.0f), WorldMatrix);
@@ -74,7 +74,7 @@ VS_OUTPUT BumpSpecularGlossVS(VS_INPUT input) {
     return output;
 }
 
-float4 BumpSpecularGlossPS(VS_OUTPUT input,
+float4 BumpGlossPS(VS_OUTPUT input,
                            uniform float4 AmbientColor,
                            uniform float4 DiffuseColor,
                            uniform float3 SpecularColor) : COLOR {
@@ -98,24 +98,22 @@ float4 BumpSpecularGlossPS(VS_OUTPUT input,
 
     float3 Cubemap    = CalcReflection(EnvSampler, input.ViewDirection, Normal, WorldMatrix);
     float  LightPower = CalcLight(NdotL);
-    float3 Specular   = CalcSpecular(NrefL, -input.ViewDirection, Coeficient, SPECULAR_POWER, SpecularColor) * LightPower;
     float3 Light      = lerp(AmbientColor, AmbientColor + DiffuseColor.rgb, LightPower);
 
     float3 Color = Diffuse.rgb;
     Color        = lerp(Color, Cubemap, Reflection);
     Color       *= Light;
-    Color       += Specular;
 
-    return float4(Color, g_Transparent);
+    return float4(Color, g_Transparent * Diffuse.a);
 }
 
-technique BumpSpecularGloss <bool   ComputeTangentSpace = true;
+technique BumpGloss <bool   ComputeTangentSpace = true;
                              string VertexFormat = "VERTEX_XYZNT1T";
                              bool   Default = true;
                              bool   IsPs20 = true;
                              bool   UseAlpha = false;> {
     pass Default {
-        VertexShader = compile vs_2_0 BumpSpecularGlossVS();
-        PixelShader  = compile ps_2_0 BumpSpecularGlossPS(g_Ambient, g_Diffuse, g_Specular);
+        VertexShader = compile vs_2_0 BumpGlossVS();
+        PixelShader  = compile ps_2_0 BumpGlossPS(g_Ambient, g_Diffuse, g_Specular);
     }
 }

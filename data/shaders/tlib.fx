@@ -1,4 +1,4 @@
-/** Core shader lib for Hard Truck Apocalypse
+/** Core lib for Hard Truck Apocalypse
  * 
  * Author:  Aleksandr Fateev (foggy1989@gmail.com)
  * Version: 2021-05-10
@@ -74,3 +74,7 @@ float3 CalcReflection(samplerCUBE Cubemap,
     float3 coords = mul(reflect(-ViewDir, Normal), World).xzy;
     return texCUBE(Cubemap, coords);
 };
+
+float CalcFog( float4 position, const float2 FogTerm ) {
+	return saturate( ( FogTerm.x - position.z ) * FogTerm.y );
+}
