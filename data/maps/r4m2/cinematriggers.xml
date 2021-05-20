@@ -134,6 +134,14 @@
 	<trigger	Name="cinHelpers_FadeIn"	active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+			end
+
 			local poslist = {CVector(2595.265, 300, 1312.742),CVector(2602.535, 300, 1307.154),CVector(2605.818, 300, 1329.525),CVector(2618.733, 300, 1332.649)}
 			local modlist = {"Hunter01","Hunter02", "Cruiser02","Cruiser01"}
 			for i=1,4 do

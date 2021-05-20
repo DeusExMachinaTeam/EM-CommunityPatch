@@ -439,6 +439,7 @@
 			TActivate("RolikEnd_NearCaravanLeader")
 			TActivate("trCaravan_cam02")
 			TActivate("trCaravan_cam03")
+			TActivate("trCaravan_Fade")
 			PlayCustomMusic("Passage01unloop")
 			RuleConsole("cinematic_spring_coeff 3.0")
 
@@ -456,6 +457,25 @@
 			AddCinematicMessage( 4, 1 )
 			AddCinematicMessage( 5, 1 )
 
+			local PlVehicle = GetPlayerVehicle()
+			if PlVehicle then
+				PlVehicle:SetThrottle(0)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trCaravan_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+			end
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -465,6 +485,7 @@
 		<script>
 
 			PlayCustomMusic("IntenseDialogue01")
+
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
 				vehPlayer:SetThrottle(0)

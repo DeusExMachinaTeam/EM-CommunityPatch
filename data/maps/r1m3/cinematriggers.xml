@@ -161,6 +161,12 @@
 
 			PlayCustomMusic("Techno04")
 
+			local PlVehicle = GetPlayerVehicle()
+			if PlVehicle then
+				PlVehicle:SetCustomLinearVelocity(0)
+				PlVehicle:SetThrottle(0)
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -319,6 +325,12 @@
 
 			Fly("FATHERHOUSERETURN_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 1 )
 			StartCinematic()
+
+			local PlVehicle = GetPlayerVehicle()
+			if PlVehicle then
+				PlVehicle:SetCustomLinearVelocity(0)
+				PlVehicle:SetThrottle(0)
+			end
 
 			TActivate("RolikEnd_FATHERHOUSERETURN")
 			TActivate("trFATHERHOUSERETURN_cam01")
