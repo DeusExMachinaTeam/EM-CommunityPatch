@@ -4690,7 +4690,6 @@
 		text=" ак продвигаютс€ дела по спасению нашего лидера??"
 		role="NPC"
 		scriptCondition="QuestStatus('FreeExtremistLeader_Quest1')==Q_TAKEN and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN"
-		scriptResult="println('!!!!!!!!!!!!!!!!!!!!!!!!'..GetCurNpc():GetSpokenCount());"
 		nextReplies="r1m4_Storage_Guard1_2_P02 r1m4_Storage_Guard1_2_P03" />
 
 	<Reply

@@ -754,7 +754,7 @@ function AddPlayerItems(name, count)
 		while (pl:AddItemsToRepository(name,i) == nil) and (i>=1) do
 			i = i - 1
 		end
-		println( "Add result = "..tostring(i))
+--		println( "Add result = "..tostring(i))
 		if 0>=i then
 			return nil
 		else
@@ -770,9 +770,9 @@ function AddPlayerItemsWithBox(name, count, boxtype, pos)
 	local WasAdd=AddPlayerItems(name, count)
 	if WasAdd==nil then WasAdd=0 end
 	if count==nil or 0>count then count=1 end
-	println("WasAdd = "..WasAdd.." Count = "..count)
+--	println("WasAdd = "..WasAdd.." Count = "..count)
 	if count>WasAdd then
-println("count>WasAdd")
+--		println("count>WasAdd")
 		local chestID = CreateNewObject{	prototypeName = "someChest",
 											objName = "ItemsChest"..random(1000)
 								  	   }	
@@ -782,9 +782,9 @@ println("count>WasAdd")
 			pos.z = pos.z + GetPlayerVehicle():GetSize().z + 1
 		end
 		MyChest:SetPosition(pos)
-println("pos = "..pos)
+--		println("pos = "..pos)
 		for i=WasAdd+1, count do
-			println(" i = "..i)
+--			println(" i = "..i)
 			local itemID = CreateNewObject{	prototypeName = name,
 												objName = name..random(1000)
 									  	   }
@@ -916,7 +916,7 @@ function CapturePlayerVehicle(NeedRemove, TeamName, WalkPos)
 			GetPlayerVehicle():SetCustomControlEnabled(1)
 			team:AddChild(GetPlayerVehicle())
 			if WalkPos then
-				println("Walk !!!")
+--				println("Walk !!!")
 				team:SetDestination(WalkPos)
 			end
 
@@ -952,8 +952,8 @@ function ShowCircleOnMinimapByName(objName, mapname, radius)
 end
 
 function PlayerDead ( ppp )
-	LOG("Player DEAD")
-	println("Player DEAD")
+--	LOG("Player DEAD")
+--	println("Player DEAD")
 --    local ppp, rrr = GetCameraPos()
     local pos = CVector(ppp)
 	CreateNewDummyObject("cub", "yashik", -1, 1100, pos, Quaternion(0.0, 0.0, 0.0, 1.0), 0)
