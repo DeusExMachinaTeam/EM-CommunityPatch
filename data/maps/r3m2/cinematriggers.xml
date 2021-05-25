@@ -503,15 +503,34 @@
 			TActivate("cinPoleFly")
 --			TActivate("cinExit31Ok_FadeIn")
 			TActivate("cinExit31Ok_End")
+			TActivate("cinPoleFade")
 
 			Fly("Pole1", CINEMATIC_NO_AIM, nil, 5, 1,0)
 			Fly("Pole2", CINEMATIC_NO_AIM, nil, 15, 0,1)
 			StartCinematic()
 
+			local PlVehicle = GetPlayerVehicle()
+			if PlVehicle then
+				PlVehicle:SetThrottle(0)
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
+	<trigger Name="cinPoleFade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
 	<trigger Name="cinPoleFly" active="0">
 		<event flypath="Pole2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
