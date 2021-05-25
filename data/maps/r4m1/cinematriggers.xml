@@ -761,7 +761,7 @@
 			
 			SetCameraBehindPlayerVehicle()
 						
-			PassToMap("r2m2", "FromR4M1", 0 , 1)
+			PassToMap("r2m2", "FromR4M1", -1 , true)
 			
 			trigger:Deactivate()
 		</script>
