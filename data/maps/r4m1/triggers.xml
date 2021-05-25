@@ -39,6 +39,21 @@
 		</script>
 	</trigger>
 
+    <trigger	Name="trSubDelete"	active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			local submar = getObj("SubmR4M1")
+			if submar then
+				submar:Remove()
+			end
+			
+			TActivate("trMoveR2ToR2M2")
+			
+			trigger:Deactivate()
+	
+		</script>
+	</trigger>
+
 	<trigger	Name="trCreateMolokovoz"	active="0">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="TheKef" />
 		<script>
@@ -360,23 +375,61 @@
  		</script>
 	</trigger>
 
-	<trigger Name="trMovePlToR2M1" active="1">
+	<trigger Name="trMoveR2ToR2M2" active="1">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterToSubmarine_loc" />
 		<script>
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
-			GetPlayerVehicle():SetThrottle( 0 )
+			if QuestStatus("r4m2_TalkWithScientific")==Q_COMPLETED then
+				trigger:Deactivate()
+			
+				local Plf = GetPlayerVehicle()
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 25*0.74
+				PlfCoor.z = PlfCoor.z + 25*0.74
 
-			if QuestStatus("r4m2_TalkWithScientific")~=Q_COMPLETED then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
-					getObj("SubmarinaR4M1"):StartMotionToPort()
+
+					TActivate ("cinMovePlToR2M2_begin")
+
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					TActivate ("StartR2M2No")
+
+					FlyAround( 6, 0, 25, 5, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
 				end
-			else
-				SpawnMessageBox( "8804" )
 			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
+	<trigger	Name="StartR2M2No"	active="0">
+		<event	eventid="GE_SKIP_CINEMATIC"	ObjName="Player1" />
+		<event	eventid="GE_END_CINEMATIC"	ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			
+			SetCameraBehindPlayerVehicle()
 
- 		</script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetPosition( CVector(1361.777, 220.570, 3114.695))
+		   		vehPlayer:SetRotation(Quaternion(0.000, -0.826, 0.000, -0.564))
+		   	end
+
+			TActivate("trMoveR2ToR2M2")
+
+			trigger:Deactivate() 
+		</script>
 	</trigger>
 
 <!--

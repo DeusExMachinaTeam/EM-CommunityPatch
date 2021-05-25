@@ -5,28 +5,6 @@
 		Names="u1 u2 u3 u4 u5 u6 u7 u8 u9" />
 
 	<Object
-		Name="SubmarinaR2M2"
-		Belong="1100"
-		Prototype="SubmarinaLive"
-		Pos="3500.000 219.000 2381.000"
-		Rot="0.000 -0.869 0.000 0.495"
-		PlacePosition="3500.000 219.000 2381.000"
-		PortPosition="3055.000 264.000 2115.000"
-		NextMap="r4m1"
-		NextMapLocation="FromR2M2">
-		<EntryPath>
-			<Point
-				Pos="2981.000 2067.000" />
-
-			<Point
-				Pos="3011.000 2087.000" />
-
-			<Point
-				Pos="3052.000 2117.000" />
-		</EntryPath>
-	</Object>
-
-	<Object
 		Flags="21"
 		Name="EnterToSubmarine_loc"
 		Belong="1100"

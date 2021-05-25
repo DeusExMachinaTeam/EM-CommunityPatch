@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<Path Name = "destroy">
+		<Point  coord="5555 293 1617" rotation="-3 -0.3 0.0"/>  
+	</Path>
+
+	<Path Name = "bridge">
+		<Point  coord="5555 293 1617" rotation="-3 -0.3 0.0"/>  
+	</Path>
+
+	<Path Name = "house">
+		<Point  coord="5928 359 5817" rotation="-1 -0.3 0.0"/>  
+	</Path>
+
+	<Path Name = "FELIXMONAX_cam01">
+		<Point  coord="3262.837 281.651 1327.673" rotation="0.014 0.936 -0.038 -0.349"/>
+		<Point  coord="3262.391 281.651 1327.287" rotation="0.019 0.908 -0.042 -0.416"/>
+	</Path>
+
+	<Path Name = "FELIXMONAX_cam02">
+		<Point  coord="3192.100 280.891 1330.384" rotation="0.023 0.932 0.059 0.358"/>
+		<Point  coord="3191.628 280.981 1329.861" rotation="0.023 0.932 0.059 0.358"/>
+	</Path>
+
+	<Path Name = "AXELARENA_cam01">
+		<Point  coord="-50 8 0"/>
+		<Point  coord="8 5 0"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam01">
+		<Point  coord="3281.066 275.239 1402.883" rotation="0.058 0.602 0.044 0.795"/>
+		<Point  coord="3281.221 275.725 1403.119" rotation="0.048 0.616 0.037 0.785"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam02">
+		<Point  coord="3281.421 277.327 1409.317" rotation="-0.073 -0.670 0.066 0.736"/>
+		<Point  coord="3282.566 277.098 1409.423" rotation="-0.073 -0.670 0.066 0.736"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam03">
+		<Point  coord="3286.545 277.001 1412.988" rotation="-0.012 0.854 -0.020 0.520"/>
+		<Point  coord="3287.997 277.077 1413.739" rotation="-0.012 0.854 -0.020 0.520"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam04">
+		<Point  coord="3281.260 277.227 1415.486" rotation="0.008 0.963 -0.031 -0.266"/>
+		<Point  coord="3289.077 277.423 1415.232" rotation="-0.021 0.911 -0.048 0.409"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam05">
+		<Point  coord="3285.278 276.805 1411.646" rotation="0.016 0.740 0.017 0.673"/>
+		<Point  coord="3285.421 276.799 1411.659" rotation="0.016 0.740 0.017 0.673"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam06">
+		<Point  coord="3283.663 276.416 1411.374" rotation="0.009 0.925 -0.021 -0.378"/>
+		<Point  coord="3284.367 276.401 1410.667" rotation="-0.001 0.913 0.003 -0.408"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam07">
+		<Point  coord="3285.441 276.429 1412.854" rotation="0.028 0.897 0.057 0.438"/>
+		<Point  coord="3285.009 276.499 1412.517" rotation="0.028 0.897 0.057 0.438"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam08">
+		<Point  coord="3284.347 276.816 1409.563" rotation="-0.084 -0.612 0.066 0.784"/>
+		<Point  coord="3282.917 277.445 1407.422" rotation="-0.133 -0.268 0.038 0.953"/>
+		<Point  coord="3287.537 278.625 1403.953" rotation="-0.177 0.207 -0.038 0.961"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam09">
+		<Point  coord="3285.213 276.602 1412.398" rotation="0.019 0.881 0.036 0.471"/>
+		<Point  coord="3286.091 276.570 1414.496" rotation="-0.007 0.980 -0.034 0.197"/>
+	</Path>
+
+	<Path Name = "AXELARENADIE_cam10">
+		<Point  coord="3282.896 277.656 1411.426" rotation="0.102 0.848 -0.177 -0.489"/>
+		<Point  coord="3284.463 276.158 1410.430" rotation="0.060 -0.856 -0.102 0.503"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam01">
+		<Point  coord="2728.574 260.712 929.444" rotation="-0.077 0.400 -0.034 0.913"/>
+		<Point  coord="2728.812 260.766 929.226" rotation="-0.077 0.400 -0.034 0.913"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam02">
+		<Point  coord="2726.851 259.605 929.358" rotation="0.080 -0.756 -0.095 0.643"/>
+		<Point  coord="2726.592 259.539 929.400" rotation="0.080 -0.756 -0.095 0.643"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam03">
+		<Point  coord="2728.896 259.814 926.671" rotation="0.014 0.115 0.002 0.993"/>
+		<Point  coord="2728.949 260.107 926.443" rotation="-0.026 0.135 -0.004 0.991"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam04">
+		<Point  coord="2727.286 260.090 930.586" rotation="-0.012 0.917 0.027 -0.398"/>
+		<Point  coord="2727.457 259.814 930.418" rotation="-0.030 0.913 0.069 -0.402"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam05">
+		<Point  coord="2728.992 260.617 930.332" rotation="-0.064 0.615 -0.050 0.784"/>
+		<Point  coord="2729.735 260.742 930.151" rotation="-0.064 0.615 -0.050 0.784"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam06">
+		<Point  coord="2727.871 260.337 930.783" rotation="0.008 0.957 -0.025 -0.289"/>
+		<Point  coord="2728.042 260.321 930.526" rotation="0.008 0.957 -0.025 -0.289"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam07">
+		<Point  coord="2731.020 260.332 929.745" rotation="-0.052 0.618 -0.041 0.783"/>
+		<Point  coord="2732.112 259.964 929.577" rotation="0.002 0.642 0.002 0.767"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam08">
+		<Point  coord="2726.773 260.094 928.464" rotation="0.022 -0.511 -0.013 0.859"/>
+		<Point  coord="2726.978 260.106 928.575" rotation="0.022 -0.511 -0.013 0.859"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam09">
+		<Point  coord="2731.045 260.750 931.110" rotation="-0.082 0.814 -0.119 0.563"/>
+		<Point  coord="2732.077 261.079 931.501" rotation="-0.082 0.814 -0.119 0.563"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam10">
+		<Point  coord="2727.710 260.150 931.350" rotation="-0.002 0.960 0.008 -0.280"/>
+		<Point  coord="2728.010 260.160 930.880" rotation="-0.006 0.962 0.020 -0.272"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam11">
+		<Point  coord="2741.515 263.571 898.545" rotation="-0.029 0.184 -0.005 0.983"/>
+		<Point  coord="2736.533 263.571 897.216" rotation="-0.041 0.098 -0.004 0.994"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam12">
+		<Point  coord="2724.037 261.773 932.946" rotation="0.042 0.895 -0.086 -0.435"/>
+		<Point  coord="2724.991 261.536 932.197" rotation="0.044 0.894 -0.091 -0.437"/>
+	</Path>
+
+	<Path Name = "LISARUNOUTDIE_cam13">
+		<Point  coord="2719.353 259.249 928.643" rotation="0.049 0.342 0.018 0.938"/>
+		<Point  coord="2720.530 260.542 927.229" rotation="0.016 0.323 0.006 0.946"/>
+	</Path>
+
+	<Path Name = "ZNAKIZNAKI_cam01">
+		<Point  coord="1272.941 237.980 1603.895" rotation="-0.062 -0.366 0.024 0.928"/>
+		<Point  coord="1246.770 279.508 1650.701" rotation="0.165 0.833 -0.346 -0.398"/>
+		<Point  coord="1287.354 323.408 1679.927" rotation="-0.010 0.895 -0.446 0.021"/>
+		<Point  coord="1341.444 356.371 1649.246" rotation="-0.287 0.713 -0.445 0.460"/>
+		<Point  coord="1388.494 374.720 1609.492" rotation="-0.344 0.589 -0.305 0.665"/>
+	</Path>
+
+	<Path Name = "lodka1">
+		<Point  coord="3017.499 272.134 2104.572" rotation="-0.004 -0.502 0.002 0.865"/>
+		<Point  coord="2971.436 271.767 2076.865" rotation="-0.022 -0.530 0.014 0.848"/>
+	</Path>
+
+	<Path Name = "lodka2">
+		<Point  coord="3021.958 284.850 2055.021" rotation="-0.152 -0.172 0.027 0.973"/>
+		<Point  coord="2981.390 284.850 2084.624" rotation="-0.099 -0.539 0.064 0.834"/>
+	</Path>
+
+	<Path Name = "lodka3">
+		<Point  coord="3437.163 216.000 2342.168" rotation="0.0000 -0.8704 0.0000 0.4924"/>
+		<Point  coord="3139.108 268.500 2167.851" rotation="0.0000 -0.8767 0.0000 0.4810"/>
+	</Path>
+
+</Paths>

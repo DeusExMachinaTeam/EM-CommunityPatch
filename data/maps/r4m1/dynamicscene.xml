@@ -2091,19 +2091,6 @@
 	</Object>
 
 	<Object
-		Name="SubmarinaR4M1"
-		Belong="1100"
-		Prototype="SubmarinaLive"
-		Pos="110.279 163.053 3564.814"
-		Rot="0.000 0.816 0.000 0.578"
-		PlacePosition="110.279 163.053 3564.814"
-		PortPosition="1214.723 215.701 3175.388"
-		NextMap="r2m2"
-		NextMapLocation="FromR4M1">
-		<EntryPath />
-	</Object>
-
-	<Object
 		Flags="21"
 		Name="ExitFromMapToR1M1_loc"
 		Belong="1100"
