@@ -37,7 +37,7 @@
 			CreateNewDummyObject( "dweller_white", "HumanBandit03", -1, -1, CVector(5292.229, 99.638, 4656.556), Quaternion( -0.032, 0.549, 0.049, 0.834 ), 0)
 			CreateNewDummyObject( "dweller_lisa", "HumLisa", -1, -1, CVector(5323.626, 52.940, 4677.576), Quaternion( 0.000, 0.669, 0.000, 0.743 ), 0)
 
-			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(5320.740, 53.949, 4678.966) ))
+			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(5320.740, 53.949, 4678.966) ), 1042)
 			local vehLisa = GetEntityByName("vehLisa_0")
 			if vehLisa then
 				vehLisa:SetSkin(2)
@@ -107,7 +107,7 @@
 
 			RuleConsole("cinematic_spring_coeff 1.1")
 
-			local vehLisa = CreateVehicleEx("LisaCar","RolikVehLisa",( CVector(5320.740, 53.949, 4678.966) ))
+			local vehLisa = CreateVehicleEx("LisaCar","RolikVehLisa",( CVector(5320.740, 53.949, 4678.966) ), 1042)
 
 			CreateNewDummyObject( "cargo", "camToch01", -1, -1, CVector(5615.775, 68.402, 4058.987), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
 			CreateNewDummyObject( "cargo", "camToch02", -1, -1, CVector(5114.468, 165.310, 3582.015), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
@@ -369,7 +369,7 @@
 
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(7158.604, 167.977, 3378.776), Quaternion(0.003, 0.828, -0.001, -0.561), 0)
 
-			local RGlad2 = CreateVehicleEx("r1m1_bug02","RolikGlad1",( CVector(7108.745, 188.093, 3170.135) ))
+			local RGlad2 = CreateVehicleEx("r1m1_bug02","RolikGlad1",( CVector(7108.745, 188.093, 3170.135) ), 1002)
 
 			local RGlad2ID = RGlad2:GetId()
 			local PlVehicle = GetPlayerVehicle()
@@ -477,7 +477,7 @@
 
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(7158.604, 167.977, 3378.776), Quaternion(0.003, 0.828, -0.001, -0.561), 0)
 
-			local RGlad2 = CreateVehicleEx("Gladiator02","RolikGlad2",( CVector(7108.745, 188.093, 3170.135) ))
+			local RGlad2 = CreateVehicleEx("Gladiator02","RolikGlad2",( CVector(7108.745, 188.093, 3170.135) ), 1002)
 			local PlVehicle = GetPlayerVehicle()
 			local CToch = GetEntityByName("CamTochka")
 			local PlID = GetPlayerVehicleId()

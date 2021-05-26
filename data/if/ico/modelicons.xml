@@ -322,7 +322,7 @@
    <Item id="Belong_1002"		file="data\if\ico\clans\vagabonds03.dds" 			file1="data\if\ico\clans\vagabonds02.dds"/>
    <Item id="Belong_1003"		file="data\if\ico\clans\adventurers03.dds" 		file1="data\if\ico\clans\adventurers02.dds"/>
    <Item id="Belong_1004"		file="data\if\ico\clans\explorers03.dds" 			file1="data\if\ico\clans\explorers02.dds"/>
-   <Item id="Belong_1005"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico\clans\militarists02.dds"/>
+   <Item id="Belong_1005"		file="" 		file1=""/>
    <Item id="Belong_1006"		file="data\if\ico\clans\bounty_hunters03.dds" 		file1="data\if\ico\clans\bounty_hunters02.dds"/>
    <Item id="Belong_1007"		file="data\if\ico\clans\doom_bringers03.dds" 		file1="data\if\ico\clans\doom_bringers02.dds"/>
    <Item id="Belong_1008"		file="data\if\ico\clans\farmers_union03.dds" 		file1="data\if\ico\clans\farmers_union02.dds"/>
@@ -331,7 +331,7 @@
    <Item id="Belong_1011"		file="data\if\ico\clans\free_traders_alliance03.dds" 	file1="data\if\ico\clans\free_traders_alliance02.dds"/>
    <Item id="Belong_1012"		file="data\if\ico\clans\brigade03.dds" 			file1="data\if\ico\clans\brigade02.dds"/>
    <Item id="Belong_1013"		file="data\if\ico\clans\felixs_gang03.dds" 		file1="data\if\ico\clans\felixs_gang02.dds"/>
-   <Item id="Belong_1014"		file="data\if\ico\clans\beer03.dds" 			file1="data\if\ico\clans\beer02.dds"/>
+   <Item id="Belong_1014"		file="" 			file1=""/>
    <Item id="Belong_1015"		file="data\if\ico\clans\crimson_dawn03.dds" 		file1="data\if\ico\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1016"		file="data\if\ico\clans\commonwealth_of independent_towns03.dds" 	file1="data\if\ico\clans\commonwealth_of independent_towns02.dds"/>
    <Item id="Belong_1017"		file="data\if\ico\clans\church_of_enlightenment03.dds" 		file1="data\if\ico\clans\church_of_enlightenment02.dds"/>
@@ -361,11 +361,11 @@
    <Item id="Belong_1050"		file="data\if\ico\clans\adventurers03.dds" 				file1="data\if\ico\clans\adventurers02.dds"/>
    <Item id="Belong_1051"		file="data\if\ico\clans\farmers_union03.dds" 				file1="data\if\ico\clans\farmers_union02.dds"/>
    <Item id="Belong_1052"		file="data\if\ico\clans\technicians03.dds" 				file1="data\if\ico\clans\technicians02.dds"/>
-   <Item id="Belong_1053"		file="data\if\ico\clans\trappers03.dds" 					file1="data\if\ico\clans\trappers02.dds"/>
+   <Item id="Belong_1053"		file="data\if\ico\clans\commonwealth_of independent_towns03.dds" 	file1="data\if\ico\clans\commonwealth_of independent_towns02.dds"/>
    <Item id="Belong_1054"		file="data\if\ico\clans\commonwealth_of independent_towns03.dds" 	file1="data\if\ico\clans\commonwealth_of independent_towns02.dds"/>
 
-   <Item id="Belong_1060"		file="data\if\ico\clans\harakhat03.dds" 			file1="data\if\ico\clans\harakhat02.dds"/>
-   <Item id="Belong_1061"		file="data\if\ico\clans\technicians03.dds" 		file1="data\if\ico\clans\technicians02.dds"/>
+   <Item id="Belong_1060"		file="" 			file1=""/>
+   <Item id="Belong_1061"		file="" 		file1=""/>
    <Item id="Belong_1062"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico\clans\militarists02.dds"/>
    <Item id="Belong_1063"		file="data\if\ico\clans\brigade03.dds" 			file1="data\if\ico\clans\brigade02.dds"/>
    <Item id="Belong_1064"		file="data\if\ico\clans\children_of_iron03.dds" 	file1="data\if\ico\clans\children_of_iron02.dds"/>

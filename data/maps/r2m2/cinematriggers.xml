@@ -34,7 +34,7 @@
 	<trigger Name="trFELIXMONAX_cam01" active="0">
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
-			CreateVehicleEx("FelixVehicle2","vehFelix",( CVector(3277.711, 279.558, 1310.475) ))
+			CreateVehicleEx("FelixVehicle2","vehFelix",( CVector(3277.711, 279.558, 1310.475) ), 1013)
 
 			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(3189.766, 279.448, 1328.700), Quaternion(0.000, 0.788, 0.000, 0.616), 0)
 			CreateNewDummyObject( "dweller_felix", "humFelix", -1, -1, CVector(3264.972, 279.936, 1325.833), Quaternion(0.000, -0.789, 0.000, 0.614), 0)
@@ -113,7 +113,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("AxelVehicle","vehAxel",( CVector(3392.088, 272.974, 1298.150) ))
+			CreateVehicleEx("AxelVehicle","vehAxel",( CVector(3392.088, 272.974, 1298.150) ), 1015)
 
 			local vehAxelID = GetEntityByName("vehAxel"):GetId()
 			local PlfID = GetPlayerVehicleId()
@@ -676,7 +676,7 @@
 				FVehicle:Remove()
 			end
 
-			CreateVehicleEx("LisaCar","vehLisa",( CVector(2710.086, 259.346, 938.297) ))
+			CreateVehicleEx("LisaCar","vehLisa",( CVector(2710.086, 259.346, 938.297) ), 1042)
 
 			local vehLisa = GetEntityByName("vehLisa")
 			if vehLisa then

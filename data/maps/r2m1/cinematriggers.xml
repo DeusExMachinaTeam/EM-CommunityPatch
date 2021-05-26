@@ -422,7 +422,7 @@
 				vehPlayer:SetCustomLinearVelocity(0)
 			end
 
-			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(6110.662, 251.541, 6607.340) ))
+			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(6110.662, 251.541, 6607.340) ), 1042)
 			local vehLisa = GetEntityByName("vehLisa_0")
 			if vehLisa then
 				vehLisa:SetSkin(2)
@@ -562,7 +562,7 @@
 				vehPlayer:SetRotation(Quaternion(-0.002, 0.490, -0.002, 0.872))
 			end
 
-			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(6055.441, 251.229, 6577.806) ))
+			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(6055.441, 251.229, 6577.806) ), 1042)
 			local vehLisa = GetEntityByName("vehLisa_0")
 			if vehLisa then
 				vehLisa:SetSkin(2)

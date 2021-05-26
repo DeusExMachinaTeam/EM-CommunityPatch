@@ -257,7 +257,7 @@
 				Plf:SetExternalPathByName("player_path01")
 				Plf:SetCustomControlEnabled( false )
 
-				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ))
+				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ), 1015)
 
 				local vehNezn = GetEntityByName("vehNezn")
 				local vehNeznID = vehNezn:GetId()
@@ -306,7 +306,7 @@
 				Plf:SetExternalPathByName("player_path01")
 				Plf:SetCustomControlEnabled( false )
 
-				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ))
+				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ), 1015)
 
 				local vehNezn = GetEntityByName("vehNezn")
 				local vehNeznID = vehNezn:GetId()

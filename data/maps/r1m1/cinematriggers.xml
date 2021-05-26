@@ -383,7 +383,7 @@
 			local FVehicle = GetEntityByName("CARLISA_vehicle_0")
 			if FVehicle then
 				FVehicle:SetGamePositionOnGround( CVector(3924.175, 233.725, 200.033) )
-				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(1973.089, 301.500, 822.093) ))
+				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",(CVector(1973.089, 301.500, 822.093)), 1042)
 				vehLisa:SetSkin(2)
 			end
 
@@ -496,7 +496,7 @@
 			local FVehicle = GetEntityByName("CARLISA_vehicle_0")
 			if FVehicle then
 				FVehicle:SetGamePositionOnGround( CVector(3924.175, 233.725, 200.033) )
-				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3054.574, 317.000, 413.382) ))
+				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3054.574, 317.000, 413.382) ), 1042)
 				vehLisa:SetSkin(2)
 				vehLisa:SetExternalPathByName("lisa_path03")
 			end
@@ -613,7 +613,7 @@
 			local FVehicle = GetEntityByName("CARLISA_vehicle_0")
 			if FVehicle then
 				FVehicle:SetGamePositionOnGround( CVector(3924.175, 233.725, 200.033) )
-				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3180.535, 319.867, 1143.735) ))
+				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3180.535, 319.867, 1143.735) ), 1042)
 				vehLisa:SetSkin(2)
 				vehLisa:SetRotation(Quaternion(-0.087, -0.005, 0.000, 0.996))
 			end
@@ -816,19 +816,19 @@
 		<script>
 			CinemaFiltersUse()
 
-			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(2004.950, 321.673, 2438.249) ))
+			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(2004.950, 321.673, 2438.249) ), 1013)
 			if vehFelix0 then
 				vehFelix0:SetRotation(Quaternion(-0.003, -0.699, 0.012, 0.715))
 				vehFelix0:SetSkin(4)
 			end
 
-			local vehFelix1 = CreateVehicleEx("Sml101","FelixGv01",( CVector(2022.755, 321.985, 2426.375) ))
+			local vehFelix1 = CreateVehicleEx("Sml101","FelixGv01",( CVector(2022.755, 321.985, 2426.375) ), 1013)
 			if vehFelix1 then
 				vehFelix1:SetRotation(Quaternion(0.029, -0.597, -0.009, 0.801))
 				vehFelix1:SetSkin(1)
 			end
 
-			local vehFelix2 = CreateVehicleEx("Sml101","FelixGv02",( CVector(2018.729, 322.269, 2419.867) ))
+			local vehFelix2 = CreateVehicleEx("Sml101","FelixGv02",( CVector(2018.729, 322.269, 2419.867) ), 1013)
 			if vehFelix2 then
 				vehFelix2:SetRotation(Quaternion(0.036, -0.499, -0.011, 0.866))
 				vehFelix2:SetSkin(2)
@@ -1342,7 +1342,7 @@
 
 			CreateNewDummyObject( "dweller_felix", "felix01", -1, -1, CVector(479.414, 305.863, 1801.109), Quaternion(0.031, 0.925, 0.003, 0.379), 1)
 
-			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(477.554, 306.603, 1799.010) ))
+			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(477.554, 306.603, 1799.010) ), 1013)
 			if vehFelix0 then
 				vehFelix0:SetRotation(Quaternion(0.031, 0.925, 0.003, 0.379))
 				vehFelix0:SetSkin(4)
@@ -1420,7 +1420,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			local vehFelix = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(454.555, 305.278, 1954.817) ))
+			local vehFelix = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(454.555, 305.278, 1954.817) ), 1013)
 			if vehFelix then
 				vehFelix:SetRotation(Quaternion(-0.045, -0.955, 0.066, -0.286))
 				vehFelix:SetSkin(4)

@@ -218,12 +218,12 @@
 		<script>
 --			local bhteam = CreateTeam("Buharers",1026, CVector(getPos("BuhSpawn_loc")),{"DemoUral1","DemoMolokovoz1"})
 
-			local veh1 = CreateVehicleEx("DemoUral1","Buharers_vehicle_0",CVector(getPos("BuhSpawn_loc")))
+			local veh1 = CreateVehicleEx("DemoUral1","Buharers_vehicle_0",CVector(getPos("BuhSpawn_loc")), 1026)
 			if veh1 then
 				veh1:SetExternalPathByName("BuharsEvac_Path1_1")
 				veh1:SetCruisingSpeed(100)
-				end
-			local veh2 = CreateVehicleEx("DemoMolokovoz1","Buharers_vehicle_1",CVector(getPos("BuhSpawn_loc"))+CVector(7, 0, 7))
+			end
+			local veh2 = CreateVehicleEx("DemoMolokovoz1","Buharers_vehicle_1",CVector(getPos("BuhSpawn_loc"))+CVector(7, 0, 7), 1026)
 			if veh2 then
 				veh2:SetExternalPathByName("BuharsEvac_Path2_1")
 				veh2:SetCruisingSpeed(100)

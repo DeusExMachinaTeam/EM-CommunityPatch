@@ -20,7 +20,7 @@
 
 		CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(3500.806, 248.391, 1500.019), Quaternion(0, 0, 0, 0), 0)
 
-		CreateVehicleEx("Revolutioner1","Protection01",( CVector(3494.294, 250.661, 1438.581) ))
+		CreateVehicleEx("Revolutioner1","Protection01",( CVector(3494.294, 250.661, 1438.581) ), 1019)
 
 		local CToch = GetEntityByName("CamTochka")
 		local CTochID = CToch:GetId()
@@ -43,7 +43,7 @@
 	<trigger Name="trPostFist_cam01" active="0">
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
-		CreateVehicleEx("Revolutioner1","Protection02",( CVector(3444.530, 255.166, 1488.398) ))
+			CreateVehicleEx("Revolutioner1","Protection02",( CVector(3444.530, 255.166, 1488.398) ), 1019)
 		local vehProtect01 = GetEntityByName("Protection01")
 		local vehProtect02 = GetEntityByName("Protection02")
 		local vehPlayer = GetPlayerVehicle()
@@ -161,12 +161,12 @@
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-		local vehTraitor01 = CreateVehicleEx("Hunter02","UlukAmbGuard01",( CVector(1718.121, 288.301, 1495.965) ))
-		local vehTraitor02 = CreateVehicleEx("Hunter01","UlukAmbGuard02",( CVector(1680.786, 288.568, 1391.212) ))
-		local vehTraitor03 = CreateVehicleEx("Fighter02","UlukAmbGuard03",( CVector(1694.200, 287.604, 1374.268) ))
-		local vehTraitor04 = CreateVehicleEx("Fighter01","UlukAmbGuard04",( CVector(1807.631, 288.525, 1407.578) ))
-		local vehTraitor05 = CreateVehicleEx("Molokovoz01","UlukAmbGuard05",( CVector(1803.959, 288.069, 1423.401) ))
-		local vehDruid = CreateVehicleEx("Hunter02","vehDruid",( CVector(1993.072, 295.392, 1463.305) ))
+		local vehTraitor01 = CreateVehicleEx("Hunter02","UlukAmbGuard01",( CVector(1718.121, 288.301, 1495.965) ), 1020)
+		local vehTraitor02 = CreateVehicleEx("Hunter01","UlukAmbGuard02",( CVector(1680.786, 288.568, 1391.212) ), 1020)
+		local vehTraitor03 = CreateVehicleEx("Fighter02","UlukAmbGuard03",( CVector(1694.200, 287.604, 1374.268) ), 1020)
+		local vehTraitor04 = CreateVehicleEx("Fighter01","UlukAmbGuard04",( CVector(1807.631, 288.525, 1407.578) ), 1020)
+		local vehTraitor05 = CreateVehicleEx("Molokovoz01","UlukAmbGuard05",( CVector(1803.959, 288.069, 1423.401) ), 1020)
+		local vehDruid = CreateVehicleEx("Hunter02","vehDruid",( CVector(1993.072, 295.392, 1463.305) ), 1020)
 
 		if vehTraitor01 then 
 			vehTraitor01:SetRotation(Quaternion(0.000, 0.980, 0.000, 0.197))
@@ -630,8 +630,8 @@
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-		CreateVehicleEx("Bug01","vehUlukArmy01",CVector(1338.213, 271.588, 868.520), 1020)
-		CreateVehicleEx("Ural01","vehUlukArmy02",CVector(1329.951, 270.648, 871.197), 1020)
+		CreateVehicleEx("Bug01","vehUlukArmy01", CVector(1338.213, 271.588, 868.520), 1020 )
+		CreateVehicleEx("Ural01","vehUlukArmy02", CVector(1329.951, 270.648, 871.197), 1020 )
 
 		local vehUlukArmy01 = GetEntityByName("vehUlukArmy01")
 		local vehUlukArmy02 = GetEntityByName("vehUlukArmy02")
@@ -1123,7 +1123,7 @@
 			local lcar = getObj("LisaInCar")
 			if lcar then lcar:Remove() end
 			
-			local vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(837.450, 290.463, 953.718) ))
+			local vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(837.450, 290.463, 953.718) ), 1042)
 
 --			local vehLisa = GetEntityByName("vehLisa_0")
 			local vehPlayer = GetPlayerVehicle()
