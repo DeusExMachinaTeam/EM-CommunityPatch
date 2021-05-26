@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+$Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
+-->
+
+<Properties>
+
+	<Belongs
+		Values="1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1019 1020 1021 1022 1023 1024 1025 1026 1030"
+	/>
+
+	<IzvratRepository
+		MaxSize="13 12" />
+
+	<GroundRepository
+                        Size="13 10000" />
+	<Mult	
+		GameTimeMult 				= "60" 
+		VehicleAIFiringRangeMult	= "0.25"
+		/>
+
+	<BurstParameters	
+		MaxBurstTime		= "4000"
+		MinBurstTime		= "1000"
+		TimeBetweenBursts	= "500"
+		/>
+	
+	<DynamicQuest
+		ProbabilityToGenerateDynamicQuestInTown	= "0.8"
+		/>
+
+	<CommonPaths 
+		Relationship	= "data/gamedata/Relationship.xml" 
+		GameObjects		= "data/gamedata/GameObjects/GameObjects.xml" 
+		Quests			= "data/gamedata/Quests.xml"
+		ResourceTypes	= "data/gamedata/ResourceTypes.xml"
+		Affixes			= "data/gamedata/Affixes.xml"
+		VehiclePartTypes	= "data/gamedata/VehiclePartTypes.xml"
+	/>
+
+	<Physics
+		DistToTurnOnPhysics		= "600"
+		DistToTurnOffPhysics	= "650"
+		PhysicStepTime			= "0.033"
+	/>
+
+	<Npc
+		 BarmenModelName = "r1_man"
+	/>
+
+	<BreakableObjectSplinters
+		AutoDisableLinearThreshold	= "0.5"
+		AutoDisableAngularThreshold	= "0.5"
+		AutoDisableNumSteps			= "5"
+		/>
+
+	<Vehicles
+		VehiclesDropChests	= "true"
+		MaxSpeedWithNoFuel	= "10"
+		/>
+
+	<SmartCursor
+		InfoAreaRadius	= "50"
+                LockTimeout		= "1.5"
+		UnlockRegion	= "300 300"
+        />
+        
+	<CameraController
+		BlastWaveCameraShakeRadiusCoeff	= "1.0"
+		ShakeDamageToDurationCoeff		= "0.5"
+		MaxShakeDamage					= "50.0"
+	/>
+
+	<Caravans
+		DistanceFromPlayerToMoveout = "300"
+		/>
+                                
+	<Repair
+		HealthUnitPrice	= "1.0"
+	/>
+
+	<ObstacleAvoidance
+		DefaultLookBoxLength	= "100.0"
+		DefaultTargetBoxLength	= "40.0"
+		AttractiveCoeff			= "0.01"
+		RepulsiveCoeff			= "5.0"
+		MaxDistToAvoid			= "40.0"
+		PredictionTime			= "0.2"
+        />
+
+	<DeathProperties
+		ThrowCoeff					= "3.0"
+		FlowVpVelocity				= "6.0"
+		FlowWheelVelocity			= "4.0"
+		EnergyBlowDeltaTime			= "1.2"
+		EnergyVpBlowProbability		= "5"
+		EnergyWheelBlowProbability	= "2"
+        />
+        
+	<Articles
+		DefaultRegenerationTime 	= "60"
+		ProbabilityToDropArticlesFromDeadVehicles = "0.80"
+		ProbabilityToDropGunsFromDeadVehicles = "0.65"
+		/>
+		
+	<InfectionZones
+		ZoneRespawnTimeOutIncreaseCoeff 	= "1.0"
+		ZoneDefaultFirstSpawnTime			= "1"
+		/>
+	
+
+	<InterfaceStuff
+		ColorFriend			= "ff87e400"
+		ColorEnemy			= "ffff3300"
+		ColorTargetCaptured		= "ffff8700"
+		TargetInfoContourWidth		= "0.007"
+		TargetCapturedContourWidth	= "0.007"
+	/>
+
+	<PlayerPassmap 
+		PlayerPassMapUnpassableMu = "0.3"
+ 		PlayerPassMapUnpassableErp = "0.1"
+ 		PlayerPassMapUnpassableCfm = "0.01"
+	/>
+                                
+	<Weapon
+		MaxGroupingAngle="5"
+		TimeOutForReAimGuns		= "0.3"
+	/>
+                                
+    <DifficultyLevels>
+    	<Level
+    		Name				= "EasyLevel"
+    		EnemyWeaponCoeff	= "0.5"
+    		EnemyShootingDelay	= "1.0"
+    		/>
+
+    	<Level
+    		Name				= "MediumLevel"
+    		EnemyWeaponCoeff	= "1.0"
+    		EnemyShootingDelay	= "0.75"
+    		/>
+
+    	<Level
+    		Name				= "HardLevel"
+    		EnemyWeaponCoeff	= "1.5"
+    		EnemyShootingDelay	= "0.5"
+    		/>
+
+    	<Level
+    		Name				= "ImpossibleLevel"
+    		EnemyWeaponCoeff	= "3.0"
+    		EnemyShootingDelay	= "0.0"
+    		/>
+    </DifficultyLevels>
+
+	<Price
+		Property2PriceCoeff="2.0"
+	/>
+
+</Properties>
+	
