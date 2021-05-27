@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndWeaponGroups"
+		class="Wnd"
+		org="0.000 515.000 512.000 256.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\CharacteristicWnd\weapons.dds"
+		paneName="PaneBroun"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ff404040"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="wndWeaponSlot"
+			class="Wnd"
+			org="19.000 37.000 476.000 32.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndGunPartIco"
+			class="ImageWnd"
+			org="27.000 37.000 32.000 32.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndGunName"
+			class="Wnd"
+			org="63.000 37.000 274.000 32.000"
+			style="2816"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndGunIco"
+			class="ImageWnd"
+			org="450.000 37.000 32.000 32.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndWeaponGroups"
+			class="Wnd"
+			org="337.000 45.000 96.000 16.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnWeaponGroup_1"
+			class="ButtonWnd"
+			org="337.000 45.000 16.000 16.000"
+			style="262656"
+			order="8"
+			id="1000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>               
+
+		<Node
+			name="btnWeaponGroup_2"
+			class="ButtonWnd"
+			org="357.000 45.000 16.000 16.000"
+			style="262656"
+			order="8"
+			id="1000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>       
+
+		<Node
+			name="btnWeaponGroup_3"
+			class="ButtonWnd"
+			org="377.000 45.000 16.000 16.000"
+			style="262656"
+			order="8"
+			id="1000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="btnWeaponGroup_4"
+			class="ButtonWnd"
+			org="397.000 45.000 16.000 16.000"
+			style="262656"
+			order="8"
+			id="1000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="btnWeaponGroup_5"
+			class="ButtonWnd"
+			org="417.000 45.000 16.000 16.000"
+			style="262656"
+			order="8"
+			id="1000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndInactiveBg"
+			class="Wnd"
+			org="19.000 37.000 476.000 32.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\WeaponInfoList\weapon_shade.dds"
+			paneName=""
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+
+		<Animations />
+	</Node>
+</Prefabs>

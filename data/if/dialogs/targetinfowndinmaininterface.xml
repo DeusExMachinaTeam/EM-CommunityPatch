@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="TargetInfoWndMain"
+		class="Wnd"
+		org="432.000 266.000 160.000 216.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\SmartCursorWnd\cross1.dds"
+		paneName="Wnd3VeryAlpha"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="pbHealth"
+			class="ProgressBarWnd"
+			org="0.000 51.000 64.000 64.000"
+			style="768"
+			order="6"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			barColor="ff00ff00"
+			numOfSteps="8"
+			orientation="1"
+			barTexture="data\if\ico\TargetInfoWnd\hp.dds"
+			textStyle="0"
+			textureStyle="1">
+			<Animations />
+		</Node>
+
+		<Node
+			name="lblHealth"
+			class="Wnd"
+			org="0.000 28.000 40.000 16.000"
+			style="3840"
+			order="7"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>          
+
+		<Node
+			name="pbDurability"
+			class="ProgressBarWnd"
+			org="96.000 51.000 64.000 64.000"
+			style="768"
+			order="6"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			barColor="ff00ff00"
+			numOfSteps="8"
+			orientation="1"
+			barTexture="data\if\ico\TargetInfoWnd\armour.dds"
+			textStyle="0"
+			textureStyle="1">
+			<Animations />
+		</Node>
+
+		<Node
+			name="lblDurability"
+			class="Wnd"
+			org="120.000 28.000 40.000 16.000"
+			style="3840"
+			order="7"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDistance"
+			class="Wnd"
+			org="54.000 200.880 52.000 16.000"
+			style="3840"
+			order="7"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndName"
+			class="Wnd"
+			org="0.000 0.020 160.000 16.000"
+			style="3840"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndPiercingIco"
+			class="ImageWnd"
+			org="54.000 20.000 16.000 16.000"
+			style="768"
+			order="9"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\TargetInfoWnd\resist1.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndPiercingIcoBg"
+			class="Wnd"
+			org="54.000 20.000 16.000 16.000"
+			style="768"
+			order="9"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndBlastIco"
+			class="ImageWnd"
+			org="72.000 20.000 16.000 16.000"
+			style="768"
+			order="10"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\TargetInfoWnd\resist2.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBlastIcoBg"
+			class="Wnd"
+			org="72.000 20.000 16.000 16.000"
+			style="768"
+			order="10"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="wndEnergyIco"
+			class="ImageWnd"
+			org="90.000 20.000 16.000 16.000"
+			style="768"
+			order="11"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\TargetInfoWnd\resist3.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndEnergyIcoBg"
+			class="Wnd"
+			org="90.000 20.000 16.000 16.000"
+			style="768"
+			order="11"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndBasketCharacteristics"
+		class="Wnd"
+		org="242.000 0.000 256.000 256.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneBroun"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ff404040"
+		textColorDisabled="ff8f8f8f">
+
+		<Node
+			name="wndPiercingIco"
+			class="ImageWnd"
+			org="20.000 191.000 24.000 24.000"
+			style="512"
+			order="17"
+			id="0"
+			caption=""
+			tip="^PiercingResistance^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\Icons\Persing.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndPiercingVal"
+			class="Wnd"
+			org="46.000 193.000 50.000 20.000"
+			style="2560"
+			order="8"
+			id="0"
+			caption=""
+			tip="^PiercingResistance^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBlastIco"
+			class="ImageWnd"
+			org="98.000 191.000 24.000 24.000"
+			style="512"
+			order="18"
+			id="0"
+			caption=""
+			tip="^BlastResistance^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\Icons\Blast.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBlastVal"
+			class="Wnd"
+			org="124.000 193.000 50.000 20.000"
+			style="2560"
+			order="8"
+			id="0"
+			caption=""
+			tip="^BlastResistance^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndEnergyIco"
+			class="ImageWnd"
+			org="176.000 191.000 24.000 24.000"
+			style="512"
+			order="19"
+			id="0"
+			caption=""
+			tip="^EnergyResistance^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\Icons\Energy.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndEnergyVal"
+			class="Wnd"
+			org="202.000 193.000 50.000 20.000"
+			style="2560"
+			order="8"
+			id="0"
+			caption=""
+			tip="^EnergyResistance^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndMaxDurabilityIco"
+			class="ImageWnd"
+			org="146.000 75.000 18.000 18.000"
+			style="512"
+			order="16"
+			id="0"
+			caption=""
+			tip="^MaxArmor^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\Icons\Armor.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndMaxDurabilityVal"
+			class="Wnd"
+			org="175.000 74.000 70.000 20.000"
+			style="2560"
+			order="21"
+			id="0"
+			caption=""
+			tip="^MaxArmor^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="wndWeightIco"
+			class="ImageWnd"
+			org="146.000 97.000 18.000 18.000"
+			style="512"
+			order="37"
+			id="0"
+			caption=""
+			tip="^Weight^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\Icons\Weight.dds">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="wndWeightVal"
+			class="Wnd"
+			org="175.000 96.000 70.000 20.000"
+			style="2560"
+			order="8"
+			id="0"
+			caption=""
+			tip="^Weight^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndBasketCapacityIco"
+			class="ImageWnd"
+			org="146.000 119.000 18.000 18.000"
+			style="512"
+			order="35"
+			id="0"
+			caption=""
+			tip="^BasketCapacity^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\Icons\CargoTank.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBasketCapacityVal"
+			class="Wnd"
+			org="175.000 118.000 70.000 18.000"
+			style="2560"
+			order="8"
+			id="0"
+			caption=""
+			tip="^BasketCapacity^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCBName"
+			class="Wnd"
+			org="20.000 36.000 229.000 30.000"
+			style="2816"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="0"
+			font="1"
+			clientEdges="5.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCBIco"
+			class="ImageWnd"
+			org="28.000 77.000 100.000 100.000"
+			style="768"
+			order="39"
+			id="0"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

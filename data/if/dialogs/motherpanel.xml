@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="dlgMotherPanel"
+		class="ModalWnd"
+		org="0.000 0.000 1024.000 768.000"
+		style="25088"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\frames\Main_Back.dds"
+		paneName="WndAlphaHrrr"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="tabBtn_Questlog"
+			org="218.000 4.000 96.000 64.000"
+			style="262656"
+			order="0"
+			id="800"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtn_Map"
+			org="316.000 4.000 96.000 64.000"
+			style="262656"
+			order="1"
+			id="800"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtn_Journal"
+			org="414.000 4.000 96.000 64.000"
+			style="262656"
+			order="2"
+			id="800"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtn_AdditionalBuilding"
+			org="554.000 4.000 96.000 64.000"
+			style="262656"
+			order="3"
+			id="800"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtn_Bar"
+			org="652.000 4.000 96.000 64.000"
+			style="262656"
+			order="4"
+			id="800"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtn_Inventory"
+			org="750.000 4.000 96.000 64.000"
+			style="262656"
+			order="5"
+			id="800"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtn_Characteristic"
+			org="848.000 4.000 96.000 64.000"
+			style="262656"
+			order="6"
+			id="800"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnExit"
+			org="972.000 4.000 44.000 44.000"
+			style="262656"
+			order="7"
+			id="801"
+			caption=""
+			tip="^Exit^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\MotherPanel\close_e.dds"
+			btnImageDown="data\if\ico\MotherPanel\close_p.dds"
+			btnImageIn="data\if\ico\MotherPanel\close_h.dds"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDecor"
+			class="Wnd"
+			org="0.000 736.000 1024.000 32.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MotherPanel\env_btm.dds"
+			paneName="PaneMotherPanel"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDecorBar"
+			class="ImageWnd"
+			org="1008.000 0.000 16.000 1024.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneMotherPanel"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\TownDlg\bar_overlay.dds">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndTopPanel"
+			class="Wnd"
+			org="0.000 0.000 1024.000 128.000"
+			style="768"
+			order="9"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MotherPanel\env_top.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDecorBg"
+			class="ImageWnd"
+			org="0.000 0.000 1024.000 1024.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneMotherPanel"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\frames\Main_Back.dds">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

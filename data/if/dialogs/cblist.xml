@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="cbList"
+		class="Wnd"
+		org="166.000 85.000 336.000 659.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="wndList"
+			class="Wnd"
+			org="0.000 47.000 330.000 565.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameA"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnPrev"
+			org="296.000 5.000 32.000 32.000"
+			style="262656"
+			order="0"
+			id="300601"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneArrowGrayUp"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\GarageWnd\CBScroll\btn_prev-item_e.dds"
+			btnImageDown="data\if\ico\GarageWnd\CBScroll\btn_prev-item_p.dds"
+			btnImageIn="data\if\ico\GarageWnd\CBScroll\btn_prev-item_h.dds"
+			btnImageDisabled="data\if\ico\GarageWnd\CBScroll\btn_prev-item_d.dds"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBgPrev"
+			class="ImageWnd"
+			org="272.000 0.000 64.000 64.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameA"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\CBScroll\scr_top_bkg.dds">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="btnNext"
+			org="296.000 622.000 32.000 32.000"
+			style="262656"
+			order="1"
+			id="300600"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneArrowGrayDown"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\GarageWnd\CBScroll\btn_next-item_e.dds"
+			btnImageDown="data\if\ico\GarageWnd\CBScroll\btn_next-item_p.dds"
+			btnImageIn="data\if\ico\GarageWnd\CBScroll\btn_next-item_h.dds"
+			btnImageDisabled="data\if\ico\GarageWnd\CBScroll\btn_next-item_d.dds"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBgNext"
+			class="ImageWnd"
+			org="272.000 595.000 64.000 64.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameA"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\CBScroll\scr_btm_bkg.dds">
+			<Animations /> 	
+		</Node> 
+
+		<Animations />
+	</Node>
+</Prefabs>

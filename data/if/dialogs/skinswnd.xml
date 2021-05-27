@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndSkins"
+		class="Wnd"
+		org="166.000 403.000 330.000 66.000"
+		style="512"
+		order="-1"
+		id="300310"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneFrameA"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="btnPrev"
+			org="13.000 13.000 20.000 40.000"
+			style="262656"
+			order="0"
+			id="300700"
+			caption=""
+			tip="^PrevSkin^"
+			backimage=""
+			paneName="PaneArrowGrayLeft"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnNext"
+			org="35.000 13.000 20.000 40.000"
+			style="262656"
+			order="1"
+			id="300701"
+			caption=""
+			tip="^NextSkin^"
+			backimage=""
+			paneName="PaneArrowGrayRight"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndPrice"
+			class="Wnd"
+			org="259.000 13.000 50.000 40.000"
+			style="2880"
+			order="24"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnBuy"
+			org="60.000 13.000 257.000 40.000"
+			style="264704"
+			order="2"
+			id="300702"
+			caption="^BuySkin^"
+			tip="^BuySkin^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="5.000 0.000 58.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

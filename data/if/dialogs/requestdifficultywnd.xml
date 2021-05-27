@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndRequestDifficulty"
+		class="ModalWnd"
+		org="0.000 0.000 1024.000 768.000"
+		style="16896"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\HelpWnd\bkg_darkener.dds"
+		paneName="PaneBrown2"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="lbl"
+			class="Wnd"
+			org="352.000 298.000 320.000 50.000"
+			style="2816"
+			order="0"
+			id="0"
+			caption="^GameDifficulty^"
+			tip=""
+			backimage=""
+			paneName="PaneGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="cbDifficultyLevels"
+			class="ComboBoxWnd"
+			org="380.000 366.000 264.000 36.000"
+			style="576"
+			order="2"
+			id="10100"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="36"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndSeparator1"
+			class="LineWnd"
+			org="352.000 348.000 320.000 2.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndSeparator2"
+			class="LineWnd"
+			org="352.000 418.000 320.000 2.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnChose"
+			org="446.000 429.000 132.000 32.000"
+			style="331264"
+			order="2"
+			id="1"
+			caption="^Chose^"
+			tip="^ChoseDifficultyLevel^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_btnChose"
+			class="Wnd"
+			org="444.000 427.000 136.000 36.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+		<Node
+			name="wndMainFrame"
+			class="Wnd"
+			org="329.000 275.000 366.000 218.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

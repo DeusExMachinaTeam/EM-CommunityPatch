@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndVideo"
+		class="Wnd"
+		org="750.000 93.000 256.000 160.000"
+		style="512"
+		order="0"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+
+		<Node
+			name="wndModel"
+			class="Wnd"
+			org="0.000 0.000 256.000 160.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+</Node>
+</Prefabs>

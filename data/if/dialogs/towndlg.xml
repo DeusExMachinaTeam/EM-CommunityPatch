@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="TownDlg"
+		class="Wnd"
+		org="0.000 0.000 1024.000 1024.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\TownDlg\city_mainscreen.dds"
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"> 
+
+		<Node
+			name="lblTownName"
+			class="Wnd"
+			org="720.000 90.000 286.000 48.000"
+			style="3904"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040" />
+<!--
+
+		<Node
+			name="contextButton"
+			org="743.000 566.000 269.000 46.000"
+			style="265728"
+			order="11"
+			id="300001"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnBrown1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+-->
+		<Node
+			name="wndClanPicture"
+			class="ImageWnd"
+			org="773.000 308.000 180.000 180.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040" />
+
+	</Node>
+</Prefabs>

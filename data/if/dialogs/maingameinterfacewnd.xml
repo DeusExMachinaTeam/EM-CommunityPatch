@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndMainGameInterface"
+		class="Wnd"
+		org="0.000 0.000 1024.000 768.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+
+        	<Node
+        		name="wndLeftStripe"
+        		class="Wnd"
+        		org="128.000 0.000 128.000 16.000"
+        		style="768"
+        		order="-1"
+        		id="0"
+        		caption=""
+        		tip=""
+        		backimage="data\if\ico\MainGameInterfaceWnd\top_leftstripe.dds"
+        		paneName="defaultWnd"
+        		paneFlags="0"
+        		wrap="2"
+        		format="1"
+        		font="0"
+        		clientEdges="0.000 0.000 0.000 0.000">
+
+        	</Node>
+
+        	<Node
+        		name="wndRightStripe"
+        		class="Wnd"
+        		org="768.000 0.000 128.000 16.000"
+        		style="768"
+        		order="-1"
+        		id="0"
+        		caption=""
+        		tip=""
+        		backimage="data\if\ico\MainGameInterfaceWnd\top_rightstripe.dds"
+        		paneName="defaultWnd"
+        		paneFlags="0"
+        		wrap="2"
+        		format="1"
+        		font="0"
+        		clientEdges="0.000 0.000 0.000 0.000">
+
+        	</Node> 
+
+        	<Node
+        		name="wndNearbyChestsIco"
+        		class="ImageWnd"
+        		org="951.000 695.000 64.000 64.000"
+        		style="768"
+        		order="-1"
+        		id="0"
+        		caption=""
+        		tip=""
+        		backimage=""
+			image="data\if\ico\MainGameInterfaceWnd\get_drop.dds"
+        		paneName="defaultWnd"
+        		paneFlags="0"
+        		wrap="2"
+        		format="1"
+        		font="0"
+        		clientEdges="0.000 0.000 0.000 0.000">
+
+        	</Node> 
+
+        	<Node
+        		name="wndNearbyTownIco"
+        		class="ImageWnd"
+        		org="879.000 695.000 64.000 64.000"
+        		style="768"
+        		order="-1"
+        		id="0"
+        		caption=""
+        		tip=""
+        		backimage=""
+			image="data\if\ico\MainGameInterfaceWnd\horn.dds"
+        		paneName="defaultWnd"
+        		paneFlags="0"
+        		wrap="2"
+        		format="1"
+        		font="0"
+        		clientEdges="0.000 0.000 0.000 0.000">
+
+        	</Node> 
+
+	</Node>
+</Prefabs>

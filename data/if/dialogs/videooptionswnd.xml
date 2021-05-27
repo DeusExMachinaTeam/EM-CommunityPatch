@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndVideoOptions"
+		class="Wnd"
+		org="0.000 0.000 1024.000 768.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGray3"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="wndLine1"
+			class="LineWnd"
+			org="137.000 187.000 586.000 2.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndTitle"
+			class="Wnd"
+			org="137.000 137.000 568.000 50.000"
+			style="3904"
+			order="1"
+			id="0"
+			caption="^Video settings^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="cbResolution"
+			class="ComboBoxWnd"
+			org="448.000 207.000 241.000 28.000"
+			style="576"
+			order="2"
+			id="10100"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbResolution"
+			class="Wnd"
+			org="446.000 205.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+
+		<Node
+			name="sliderGamma"
+			class="SliderWnd"
+			org="478.000 241.000 181.000 32.000"
+			style="262656"
+			order="26"
+			id="10101"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray3"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnGammaPrev"
+			org="446.000 241.000 32.000 32.000"
+			style="265728"
+			order="25"
+			id="10113"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderPrev"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnGammaNext"
+			org="659.000 241.000 32.000 32.000"
+			style="265728"
+			order="25"
+			id="10114"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderNext"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="cbGraphicQuality"
+			class="ComboBoxWnd"
+			org="448.000 279.000 241.000 28.000"
+			style="576"
+			order="4"
+			id="10102"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbGraphicQuality"
+			class="Wnd"
+			org="446.000 277.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+
+		<Node
+			name="lblResolution"
+			class="Wnd"
+			org="137.000 205.000 277.000 32.000"
+			style="2880"
+			order="5"
+			id="0"
+			caption="^Resolution^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="lblGamma"
+			class="Wnd"
+			org="137.000 241.000 277.000 32.000"
+			style="2880"
+			order="6"
+			id="0"
+			caption="^Gamma^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="lblGraphicQuality"
+			class="Wnd"
+			org="137.000 277.000 277.000 32.000"
+			style="2880"
+			order="7"
+			id="0"
+			caption="^GraphicQuality^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="cbWaterQuality"
+			class="ComboBoxWnd"
+			org="448.000 327.000 241.000 28.000"
+			style="576"
+			order="2"
+			id="10106"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbWaterQuality"
+			class="Wnd"
+			org="446.000 325.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+		<Node
+			name="lblWaterQuality"
+			class="Wnd"
+			org="137.000 325.000 277.000 32.000"
+			style="2880"
+			order="15"
+			id="10106"
+			caption="^WaterQuality^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="cbGrass"
+			class="ComboBoxWnd"
+			org="448.000 363.000 241.000 28.000"
+			style="576"
+			order="10"
+			id="10104"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbGrass"
+			class="Wnd"
+			org="446.000 361.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+		<Node
+			name="lblGrass"
+			class="Wnd"
+			org="137.000 361.000 277.000 32.000"
+			style="2880"
+			order="11"
+			id="0"
+			caption="^Grass^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="cbShadows"
+			class="ComboBoxWnd"
+			org="448.000 399.000 241.000 28.000"
+			style="576"
+			order="13"
+			id="10105"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbShadows"
+			class="Wnd"
+			org="446.000 397.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+
+		<Node
+			name="lblShadows"
+			class="Wnd"
+			org="137.000 397.000 277.000 32.000"
+			style="2880"
+			order="14"
+			id="0"
+			caption="^ShadowsQuality^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="cbFiltration"
+			class="ComboBoxWnd"
+			org="448.000 435.000 241.000 28.000"
+			style="576"
+			order="2"
+			id="10109"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbFiltration"
+			class="Wnd"
+			org="446.000 433.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+
+		<Node
+			name="lblFiltration"
+			class="Wnd"
+			org="137.000 433.000 277.000 32.000"
+			style="2880"
+			order="21"
+			id="0"
+			caption="^Filtration^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+<!--
+		<Node
+			name="cbTextureResolution"
+			class="ComboBoxWnd"
+			org="328.000 325.000 251.000 32.000"
+			style="576"
+			order="16"
+			id="10107"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="3"
+			maxListHeight="100.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="lblTextureResolution"
+			class="Wnd"
+			org="10.000 325.000 290.000 32.000"
+			style="2880"
+			order="17"
+			id="0"
+			caption="^TextureResolution^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+-->
+		<Node
+			name="cbBlum"
+			class="ComboBoxWnd"
+			org="448.000 471.000 241.000 28.000"
+			style="576"
+			order="22"
+			id="10110"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbBlum"
+			class="Wnd"
+			org="446.000 469.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+
+		<Node
+			name="lblBlum"
+			class="Wnd"
+			org="137.000 469.000 277.000 32.000"
+			style="2880"
+			order="23"
+			id="0"
+			caption="^BlumQuality^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="cbAntialiasing"
+			class="ComboBoxWnd"
+			org="448.000 507.000 241.000 28.000"
+			style="576"
+			order="2"
+			id="10108"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="100.000"
+			selTextFixedHeight="28"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_cbAntialiasing"
+			class="Wnd"
+			org="446.000 505.000 245.000 32.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+                                 
+		<Node
+			name="lblAntialiasing"
+			class="Wnd"
+			org="137.000 505.000 277.000 32.000"
+			style="2880"
+			order="19"
+			id="0"
+			caption="^Antialiasing^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>               
+
+		<Node
+			name="sliderFarDistance"
+			class="SliderWnd"
+			org="478.000 541.000 181.000 32.000"
+			style="262656"
+			order="26"
+			id="10103"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray3"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnFarDistancePrev"
+			org="446.000 541.000 32.000 32.000"
+			style="265728"
+			order="25"
+			id="10115"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderPrev"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnFarDistanceNext"
+			org="659.000 541.000 32.000 32.000"
+			style="265728"
+			order="25"
+			id="10116"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderNext"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="lblFarDistance"
+			class="Wnd"
+			org="137.000 541.000 277.000 32.000"
+			style="2880"
+			order="9"
+			id="0"
+			caption="^Far dist^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndLine2"
+			class="LineWnd"
+			org="137.000 579.000 586.000 2.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="btnApply"
+			org="155.000 590.000 200.000 32.000"
+			style="265728"
+			order="24"
+			id="10111"
+			caption="^Apply^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="emboss_btnApply"
+			class="Wnd"
+			org="153.000 588.000 204.000 36.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+<!--
+		<Node
+			name="btnRecommended"
+			org="200.000 470.000 170.000 35.000"
+			style="265728"
+			order="25"
+			id="10112"
+			caption="^Recommended^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+-->
+		<Animations />
+	</Node>
+</Prefabs>

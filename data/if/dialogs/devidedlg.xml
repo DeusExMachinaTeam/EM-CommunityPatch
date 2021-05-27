@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="DevideDlg"
+		class="ModalWnd"
+		org="325.000 288.000 299.000 137.000"
+		style="49664"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="wnd3"
+		paneFlags="7"
+		wrap="2"
+		font="0">
+		<Node
+			name="sldAmount"
+			class="SliderWnd"
+			org="69.000 45.000 165.000 30.000"
+			style="12800"
+			order="0"
+			id="10002"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="7"
+			wrap="2"
+			font="0" />
+
+		<Node
+			name="lblOriginalAmount"
+			class="Wnd"
+			org="24.000 16.000 110.000 20.000"
+			style="3904"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="7"
+			wrap="2"
+			font="0" />
+
+		<Node
+			name="lblDragAmount"
+			class="Wnd"
+			org="167.000 16.000 110.000 20.000"
+			style="3904"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="7"
+			wrap="2"
+			font="0" />
+
+		<Node
+			name="btnMinus"
+			org="37.000 45.000 30.000 30.000"
+			style="15872"
+			order="6"
+			id="10001"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			paneFlags="7"
+			wrap="0"
+			font="0"
+			btnIsImaged="1"
+			btnImage="data\if\frames\Log_on.dds"
+			btnImageDown="data\if\frames\Log_on.dds"
+			btnImageIn="data\if\frames\Log_on.dds"
+			class="ButtonWnd" />
+
+		<Node
+			name="btnPlus"
+			org="235.000 45.000 30.000 30.000"
+			style="15872"
+			order="5"
+			id="10000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="plusBtn"
+			paneFlags="7"
+			wrap="0"
+			font="0"
+			btnIsImaged="1"
+			btnImage="data\if\frames\Log_in.dds"
+			btnImageDown="data\if\frames\Log_in.dds"
+			btnImageIn="data\if\frames\Log_in.dds"
+			class="ButtonWnd" />
+
+		<Node
+			name="btnOk"
+			org="87.000 84.000 132.000 40.000"
+			style="15872"
+			order="4"
+			id="1"
+			caption="OK"
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			paneFlags="7"
+			wrap="0"
+			font="0"
+			btnIsImaged="0"
+			class="ButtonWnd" />
+</Node>
+</Prefabs>

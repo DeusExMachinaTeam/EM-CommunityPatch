@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndCounter"
+		class="Wnd"                                            
+		org="834.000 55.000 128.000 32.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGrayThin"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+
+		<Animations>
+
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="USER"
+				animationSpeed="200"
+				animationAccel="0"
+				animationDelayTime="0"
+				animationStartPt="889 55"
+				animationEndPt="834 55"
+			/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="USER"
+				animationSpeed="200"
+				animationAccel="0"
+				animationDelayTime="0"
+				animationStartPt="834 55"
+				animationEndPt="889 55" 
+			/>              
+
+		</Animations>
+
+<!--
+		<Node
+			name="wndTitle"
+			class="Wnd"
+			org="5.000 5.000 120.000 20.000"
+			style="3904"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+-->
+		<Node
+			name="wndCounter"
+			class="Wnd"
+			org="0.000 0.000 128.000 32.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\CounterWnd\timer.dds"
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff3995b0"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCounter_0"
+			class="ImageWnd"
+			org="14.000 5.000 8.000 16.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff3995b0"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCounter_1"
+			class="ImageWnd"
+			org="23.000 5.000 8.000 16.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff3995b0"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCounter_2"
+			class="ImageWnd"
+			org="32.000 7.000 2.000 8.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff3995b0"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCounter_3"
+			class="ImageWnd"
+			org="36.000 5.000 8.000 16.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff3995b0"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCounter_4"
+			class="ImageWnd"
+			org="45.000 5.000 8.000 16.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff3995b0"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+	</Node>
+</Prefabs>

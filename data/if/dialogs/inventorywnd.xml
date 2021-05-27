@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="InventoryWnd"
+		class="Wnd"
+		org="0.000 0.000 512.000 768.000"
+		style="832"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="wnd3"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+
+		<Animations>
+
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_RIGHT"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"
+			/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_LEFT"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"
+			/>              
+
+		</Animations>
+
+</Node>
+</Prefabs>

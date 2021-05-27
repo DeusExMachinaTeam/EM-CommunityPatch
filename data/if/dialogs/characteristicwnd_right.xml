@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndCharacteristicsRight"
+		class="Wnd"
+		org="512.000 0.000 512.000 768.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\CharacteristicWnd\workshop_truckpanel.dds"
+		paneName="PaneBroun"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ff404040"
+		textColorDisabled="ff8f8f8f">
+
+		<Node
+			name="wndTruckPicture"
+			class="SgNodeArrayWnd"
+			org="52.000 147.000 408.000 355.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBroun"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			image=""
+			ModelRotation="0.0000 0.0000 0.0000 1.0000"
+			ModelTranslation="0.000 0.000 0.000"
+			ModelScale="1.000 1.000 1.000">
+			<Animations />
+		</Node>
+
+		<Node
+			name="lblName"
+			class="Wnd"
+			org="22.000 90.000 470.000 30.000"
+			style="3904"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndCBCharacteristics"
+			class="Wnd"
+			org="0.000 515.000 512.000 256.000"
+			style="768"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\CharacteristicWnd\cab_and_body.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtnVehicleCharacteristics"
+			org="20.000 515.000 158.000 32.000"
+			style="262656"
+			order="0"
+			id="300351"
+			caption=""
+			tip="^VehicleCharacteristics^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\CharacteristicWnd\overview_disabled.dds"
+			btnImageDown="data\if\ico\CharacteristicWnd\overview_disabled.dds"
+			btnImageIn="data\if\ico\CharacteristicWnd\overview_disabled.dds"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="tabBtnCBCharacteristics"
+			org="178.000 515.000 158.000 32.000"
+			style="262656"
+			order="0"
+			id="300352"
+			caption=""
+			tip="^CBCharacteristics^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\CharacteristicWnd\cab_and_body_disabled.dds"
+			btnImageDown="data\if\ico\CharacteristicWnd\cab_and_body_disabled.dds"
+			btnImageIn="data\if\ico\CharacteristicWnd\cab_and_body_disabled.dds"
+			class="ButtonWnd">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="tabBtnWeaponGroups"
+			org="336.000 515.000 158.000 32.000"
+			style="262656"
+			order="0"
+			id="300353"
+			caption=""
+			tip="^WeaponGroups^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\CharacteristicWnd\weapons_disabled.dds"
+			btnImageDown="data\if\ico\CharacteristicWnd\weapons_disabled.dds"
+			btnImageIn="data\if\ico\CharacteristicWnd\weapons_disabled.dds"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDecorLeft"
+			class="Wnd"
+			org="11.000 525.000 9.000 17.000"
+			style="768"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\CharacteristicWnd\holder_left.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDecorRight"
+			class="Wnd"
+			org="494.000 525.000 9.000 17.000"
+			style="768"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\CharacteristicWnd\holder_right.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDecorTabShadow"
+			class="Wnd"
+			org="12.000 503.000 490.000 32.000"
+			style="768"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\CharacteristicWnd\shadow.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_LEFT"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0" />
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_RIGHT"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0" />
+		</Animations>
+	</Node>
+</Prefabs>

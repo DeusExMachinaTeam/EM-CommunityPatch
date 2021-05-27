@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="BasketWnd"
+		class="Wnd"
+		org="512.000 329.000 512.000 512.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\InventoryDlg\panel_body.dds"
+		paneName="wnd3"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"> 
+
+		<Animations>
+
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_TOP"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0"
+			/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_BOTTOM"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0"
+			/>              
+
+		</Animations>
+ 
+
+		<Node
+			name="wndInventory"
+			class="Wnd"
+			org="48.000 16.000 416.000 384.000"
+			style="512"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneInventory"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndDisabledBg"
+			class="ImageWnd"
+			org="11.000 1.000 490.000 413.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\InventoryDlg\color_black.dds"
+			paneName="PaneYellowBrownThick"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndHidePictureBg"
+			class="ImageWnd"
+			org="116.000 0.000 256.000 256.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\InventoryDlg\body_hide.dds"
+			paneName="PaneYellowBrownThick"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+</Node>
+</Prefabs>

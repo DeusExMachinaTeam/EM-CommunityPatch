@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="StatsWnd"
+		class="Wnd"
+		org="0.000 0.000 1024.000 768.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGreenThin"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="statsList"
+			class="TextBoxWnd"
+			org="514.000 192.000 450.000 502.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="10.000 10.000 0.000 10.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			drawFlags="7">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndPlayerDiz"
+			class="TextBoxWnd"
+			org="78.000 463.000 427.000 213.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"           
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 2.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			drawFlags="7">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndPlayerDizFrame"
+			class="Wnd"
+			org="60.000 445.000 450.000 249.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"           
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndPlayerPortrait"
+			class="ModelWnd"
+			org="63.000 204.000 444.000 234.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneHrrr"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image=""
+			ModelRotation="0.0000 0.0000 0.0000 1.0000"
+			ModelTranslation="0.000 -0.700 1.600"
+			ModelScale="1.600 1.600 1.600" />
+
+		<Node
+			name="wndPlayerPortraitBg"
+			class="ImageWnd"
+			org="60.000 192.000 450.000 249.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneHrrr"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\PalmBoard\view_pedia.dds"/>
+
+
+		<Animations />
+	</Node>
+</Prefabs>

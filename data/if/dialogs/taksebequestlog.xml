@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndTakSebeQuestLog"
+		class="Wnd"
+		org="0.000 0.000 1024.000 1024.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\MotherPanel\map_quest_journal_texture.dds"
+		paneName="PaneGray"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+		<Node
+			name="cbMaps"
+			class="ComboBoxWnd"
+			org="62.000 140.000 366.000 34.000"
+			style="576"
+			order="0"
+			id="300"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			wndColor="ffffffff"
+			textColor="ff404040"
+			maxListHeight="100.000"
+			selTextFixedHeight="34.000"/>
+
+		<Node
+			name="emboss_cbMaps"
+			class="Wnd"
+			org="60.000 138.000 370.000 38.000"
+			style="768"
+			order="1"
+			id="411"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+
+		<Node
+			name="lstQuests"
+			class="StringsListBoxWnd"
+			org="70.000 210.000 435.000 466.000"
+			style="262656"
+			order="0"
+			id="303"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			drawFlags="3"/>
+
+		<Node
+			name="lstQuestsFrame"
+			class="Wnd"
+			org="60.000 192.000 450.000 502.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+
+		<Node
+			name="wndQuestDiz"
+			class="Wnd"
+			org="514.000 192.000 450.000 502.000"
+			style="512"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="2.000 10.000 10.000 10.000" />
+
+		<Node
+			name="btnShowQuestItemsList"
+			org="741.000 140.000 221.000 34.000"
+			style="265728"
+			order="2"
+			id="304"
+			caption=""
+			tip="^QuestItems^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			btnIsImaged="0"
+			textColor="ff404040"
+			class="ButtonWnd" />
+
+               	<Node
+			name="emboss_btnShowQuestItemsList"
+			class="Wnd"
+			org="739.000 138.000 225.000 38.000"
+			style="768"
+			order="1"
+			id="411"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" /> 
+
+		<Node
+			name="btnFilter"
+			org="444.000 137.000 64.000 40.000"
+			style="265728"
+			order="2"
+			id="301"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			btnIsImaged="1"
+			btnImage="data\if\ico\QuestLog\b_showall_e.dds"
+			btnImageDown="data\if\ico\QuestLog\b_showall_p.dds"
+			btnImageIn="data\if\ico\QuestLog\b_showall_s.dds"
+			class="ButtonWnd" />
+
+		<Node
+			name="emboss_btnFilter"
+			class="Wnd"
+			org="442.000 135.000 68.000 44.000"
+			style="768"
+			order="1"
+			id="411"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_TOP"
+					animationSpeed="1400"
+					animationAccel="1000"
+					animationDelayTime="0"
+					soundMoveEnabled="1"
+				/>
+
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_BOTTOM"
+					animationSpeed="1400"
+					animationAccel="1000"
+					animationDelayTime="0"
+					soundMoveEnabled="1"
+				 />
+			</Animations>
+
+</Node>
+</Prefabs>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="ReputationWnd"
+		class="Wnd"
+		org="115.000 189.000 802.000 489.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGray3"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="lblClanName"
+			class="Wnd"
+			org="50.000 8.000 280.000 32.000"
+			style="2880"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndClanIco"
+			class="ImageWnd"
+			org="16.000 11.000 26.000 26.000"
+			style="768"
+			order="2"
+			id="0"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndToleranceName"
+			class="Wnd"
+			org="338.000 8.000 54.000 32.000"
+			style="2880"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="reputationList"
+			class="Wnd"
+			org="8.000 8.000 786.000 474.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndReputationButton"
+			class="Wnd"
+			org="8.000 8.000 392.000 32.000"
+			style="512"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

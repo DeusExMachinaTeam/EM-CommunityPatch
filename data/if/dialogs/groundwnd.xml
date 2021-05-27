@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndGround"
+		class="Wnd"
+		org="512.000 0.000 512.000 1024.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\WorkshopDlg\ground_and_shop2_texture.dds"
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="wndRepository"
+			class="Wnd"
+			org="23.000 283.000 464.000 448.000"
+			style="512"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 16.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnPickUpAll"
+			org="21.000 203.000 64.000 48.000"
+			style="262656"
+			order="3"
+			id="200"
+			caption=""
+			tip="^PickUpAll^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\InventoryDlg\btn_moveall_e.dds"
+			btnImageDown="data\if\ico\InventoryDlg\btn_moveall_p.dds"
+			btnImageIn="data\if\ico\InventoryDlg\btn_moveall_s.dds"
+			btnImageDisabled="data\if\ico\InventoryDlg\btn_moveall_d.dds"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndGroundPicture"
+			class="ImageWnd"
+			org="10.000 85.000 219.000 175.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="">
+			<Animations />
+		</Node>
+
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_LEFT"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0" />
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_RIGHT"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0" />
+		</Animations>
+	</Node>
+</Prefabs>

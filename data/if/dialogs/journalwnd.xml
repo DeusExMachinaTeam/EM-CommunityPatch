@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="JournalWnd"
+		class="Wnd"
+		org="0.000 0.000 1024.000 1024.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\MotherPanel\map_quest_journal_texture.dds"
+		paneName="PaneGray"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+
+		<Node
+			name="btnHistory"
+			org="69.000 140.000 166.000 34.000"
+			style="265728"
+			order="1"
+			id="200000"
+			caption="^History^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnHistory_emboss"
+			class="Wnd"
+			org="67.000 138.000 170.000 38.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnBooks"
+			org="249.000 140.000 166.000 34.000"
+			style="265728"
+			order="2"
+			id="200001"
+			caption="^Books^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnBooks_emboss"
+			class="Wnd"
+			org="247.000 138.000 170.000 38.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="btnRelations"
+			org="429.000 140.000 166.000 34.000"
+			style="265728"
+			order="2"
+			id="200002"
+			caption="^Relations^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnRelations_emboss"
+			class="Wnd"
+			org="427.000 138.000 170.000 38.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="btnStats"
+			org="609.000 140.000 166.000 34.000"
+			style="265728"
+			order="2"
+			id="200003"
+			caption="^Statistic^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnStats_emboss"
+			class="Wnd"
+			org="607.000 138.000 170.000 38.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="btnEncyclopaedia"
+			org="789.000 140.000 166.000 34.000"
+			style="265728"
+			order="3"
+			id="200004"
+			caption="^Encyclopaedia^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnEncyclopaedia_emboss"
+			class="Wnd"
+			org="787.000 138.000 170.000 38.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node> 
+
+       		<Animations>
+       			<AnimationOnShow
+       				animationEnabled="1"
+       				animationType="TO_TOP"
+       				animationSpeed="1400"
+       				animationAccel="1000"
+       				animationDelayTime="0"
+				soundMoveEnabled="1"
+			/>
+
+       			<AnimationOnHide
+       				animationEnabled="1"
+       				animationType="TO_BEYOND_BOTTOM"
+       				animationSpeed="1400"
+       				animationAccel="1000"
+       				animationDelayTime="0"
+				soundMoveEnabled="1"
+			/>
+       		</Animations>
+
+	</Node>
+</Prefabs>

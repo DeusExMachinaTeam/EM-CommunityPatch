@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="DamageInfo"
+		class="Wnd"
+		org="12.000 127.000 490.000 256.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Animations />
+
+		<Node
+			name="wndHealth"
+			class="Wnd"
+			org="0.000 0.000 128.000 256.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\DamageInfoWndInCharacteristicWnd\hp.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>  
+
+		<Node
+			name="wndHpProgressBarOverlay"
+			class="Wnd"
+			org="2.000 32.000 32.000 128.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\DamageInfoWndInCharacteristicWnd\hp_overlay.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>               
+
+		<Node
+			name="wndHpProgressBar"
+			class="ProgressBarWnd"
+			org="9.000 48.000 18.000 95.000"
+			style="512"
+			order="6"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			barColor="ff00ff00"
+			numOfSteps="10"
+			orientation="0"
+			barTexture="data\if\ico\DamageInfoWndInCharacteristicWnd\hp_bar.dds"
+			textStyle="0"
+			textureStyle="1">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndLowHpLamp"
+			class="ImageWnd"
+			org="34.000 36.000 32.000 16.000"
+			style="512"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\DamageInfoWndInCharacteristicWnd\hp_light.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndHpValue"
+			class="Wnd"
+			org="14.000 10.000 61.000 16.000"
+			style="512"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff87e400"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndHpValue_0"
+			class="ImageWnd"
+			org="14.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndHpValue_1"
+			class="ImageWnd"
+			org="29.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndHpValue_2"
+			class="ImageWnd"
+			org="44.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndHpValue_3"
+			class="ImageWnd"
+			org="59.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndFuel"
+			class="Wnd"
+			org="362.000 0.000 128.000 256.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\DamageInfoWndInCharacteristicWnd\fuel.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>        
+
+		<Node
+			name="wndFuelProgressBarOverlay"
+			class="Wnd"
+			org="456.000 32.000 32.000 128.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\DamageInfoWndInCharacteristicWnd\fuel_overlay.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>               
+
+		<Node
+			name="wndFuelProgressBar"
+			class="ProgressBarWnd"
+			org="463.000 48.000 18.000 95.000"
+			style="512"
+			order="6"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			barColor="ff00ff00"
+			numOfSteps="10"
+			orientation="0"
+			barTexture="data\if\ico\DamageInfoWndInCharacteristicWnd\fuel_bar.dds"
+			textStyle="0"
+			textureStyle="1">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndLowFuelLamp"
+			class="ImageWnd"
+			org="424.000 36.000 32.000 16.000"
+			style="512"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""                                        
+			backimage=""
+			image="data\if\ico\DamageInfoWndInCharacteristicWnd\fuel_light.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>  
+
+		<Node
+			name="wndFuelValue"
+			class="Wnd"
+			org="419.000 10.000 61.000 16.000"
+			style="512"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff00aeff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndFuelValue_0"
+			class="ImageWnd"
+			org="419.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndFuelValue_1"
+			class="ImageWnd"
+			org="434.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndFuelValue_2"
+			class="ImageWnd"
+			org="449.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndFuelValue_3"
+			class="ImageWnd"
+			org="464.000 10.000 16.000 16.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="wndCabinDurability"
+			class="ImageWnd"
+			org="176.000 8.000 64.000 32.000"
+			style="512"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\DamageInfoWnd\machine_head.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBasketDurability"
+			class="ImageWnd"
+			org="240.000 8.000 64.000 32.000"
+			style="512"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\DamageInfoWnd\machine_tail.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node> 
+
+		<Node
+			name="wndBg"
+			class="Wnd"
+			org="181.000 0.000 128.000 64.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\DamageInfoWndInCharacteristicWnd\armour.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndHpProgressBarBg"
+			class="Wnd"
+			org="9.000 48.000 18.000 95.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\sblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndFuelProgressBarBg"
+			class="Wnd"
+			org="463.000 48.000 18.000 95.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\sblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node> 
+
+	</Node>
+</Prefabs>

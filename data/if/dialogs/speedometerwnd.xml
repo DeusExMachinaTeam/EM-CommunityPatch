@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="SpeedometerWnd"
+		class="Wnd"
+		org="896.000 0.000 128.000 128.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\SpeedometerWnd\top_speedometer.dds"
+		paneName="wnd3"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff8f8f8f">
+
+		<Node
+			name="wndHighlight_0"
+			class="ImageWnd"
+			org="3.000 5.000 128.000 128.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\MainGameInterfaceWnd\highlight.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndHighlight_1"
+			class="ImageWnd"
+			org="3.000 5.000 128.000 128.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\MainGameInterfaceWnd\highlight.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndSpeedNumber"
+			class="Wnd"
+			org="50.000 91.000 26.000 16.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndSpeedNumber_0"
+			class="ImageWnd"
+			org="50.000 91.000 8.000 16.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndSpeedNumber_1"
+			class="ImageWnd"
+			org="59.000 91.000 8.000 16.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndSpeedNumber_2"
+			class="ImageWnd"
+			org="68.000 91.000 8.000 16.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

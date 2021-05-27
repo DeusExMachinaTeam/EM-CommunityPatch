@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="CinematicPanel"
+		class="Wnd"
+		org="0.000 0.000 1024.000 768.000"
+		style="576"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		paneFlags="1"
+		wrap="2"
+		font="0">
+
+		<Node
+			name="wndText"
+			class="Wnd"
+			org="230.000 660.000 564.000 100.000"
+			style="832"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="7"
+			wrap="2"
+			font="0" />
+
+		<Node
+			name="wndPortraitOverlay"
+			class="ImageWnd"
+			org="0.000 640.000 1024.000 128.000"
+			style="768"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+			paneName="WndNoAlpha"
+			paneFlags="0"
+			wrap="2"
+			font="0" />
+
+		<Node
+			name="wndPortrait_0"
+			class="ModelWnd"
+			org="20.000 538.000 200.000 200.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneHrrr"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image=""
+			ModelRotation="0.0000 -0.3000 0.0000 1.0000"
+			ModelTranslation="0.000 -0.700 2.500"
+			ModelScale="2.100 2.100 2.100" />
+
+		<Node
+			name="wndPortrait_1"
+			class="ModelWnd"
+			org="804.000 538.000 200.000 200.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneHrrr"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image=""
+			ModelRotation="0.0000 0.3000 0.0000 1.0000"
+			ModelTranslation="0.000 -0.700 2.500"
+			ModelScale="2.100 2.100 2.100" />
+
+		<Node
+			name="DownPanel"
+			class="Wnd"
+			org="0.000 648.000 1024.000 120.000"
+			style="768"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="WndNoAlpha"
+			paneFlags="1"
+			wrap="2"
+			font="0" />
+
+		<Node
+			name="UpPanel"
+			class="Wnd"
+			org="0.000 0.000 1024.000 120.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="WndNoAlpha"
+			paneFlags="1"
+			wrap="2"
+			font="0" />
+
+		<Node
+			name="wndScrollImageUpOverlay"
+			class="ImageWnd"
+			org="0.000 0.000 1024.000 256.000"
+			style="768"
+			order="18"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\CinemaPanel\scene_top.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndScrollImageDownOverlay"
+			class="ImageWnd"
+			org="0.000 512.000 1024.000 256.000"
+			style="768"
+			order="18"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\CinemaPanel\scene_btm.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndScrollText"
+			class="Wnd"
+			org="64.000 128.000 896.000 512.000"
+			style="768"
+			order="18"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffdcc297"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndScrollImage"
+			class="ImageWnd"
+			org="0.000 128.000 1024.000 512.000"
+			style="768"
+			order="18"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\CinemaPanel\scene_middle.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+</Node>
+</Prefabs>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="PlayerWnd"
+		class="Wnd"
+		org="130.000 91.000 599.000 465.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\frames\Note_Back_1.dds"
+		paneName="PaneGray"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="lblPlayer"
+			class="Wnd"
+			org="1.000 1.000 598.000 30.000"
+			style="3840"
+			order="0"
+			id="0"
+			caption="^Character^"
+			tip=""
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnStats"
+			org="80.000 37.000 188.000 35.000"
+			style="265728"
+			order="1"
+			id="300000"
+			caption="^Statistic^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			class="Wnd">
+			<Animations />
+		</Node>
+
+		<Node
+			name="btnReputation"
+			org="330.000 37.000 188.000 35.000"
+			style="265728"
+			order="2"
+			id="300001"
+			caption="^Reputation^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			class="Wnd">
+			<Animations />
+		</Node>
+<!--
+		<Node
+			name="btnPerks"
+			org="400.000 37.000 188.000 35.000"
+			style="265728"
+			order="3"
+			id="300002"
+			caption="^Perks^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			class="Wnd">
+			<Animations />
+		</Node>
+-->
+		<Animations />
+	</Node>
+</Prefabs>

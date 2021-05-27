@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="RadarWnd"
+		class="Wnd"
+		org="0.000 0.000 254.000 133.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="Wnd3VeryAlpha"
+		paneFlags="0"
+		wrap="2"
+		font="0">
+
+         	<Node
+         		name="wndBg"
+         		class="Wnd"
+         		org="0.000 0.000 128.000 128.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage="data\if\ico\RadarWnd\top_Radar.dds"
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+
+         	<Node
+         		name="wndDistance_MainQuest"
+         		class="Wnd"
+         		org="62.000 33.000 128.000 32.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage="data\if\ico\RadarWnd\distance_primary-quest.dds"
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+			textColor="ffffaa00"
+         		font="0">
+
+               		<Animations>
+
+               			<AnimationOnShow
+               				animationEnabled="0"
+               				animationType="USER"
+               				animationSpeed="200"
+               				animationAccel="0"
+               				animationDelayTime="0"
+               				animationStartPt="62 33"
+               				animationEndPt="119 33"
+               			/>
+
+               			<AnimationOnHide
+               				animationEnabled="0"
+               				animationType="USER"
+               				animationSpeed="200"
+               				animationAccel="0"
+               				animationDelayTime="0"
+               				animationStartPt="119 33"
+               				animationEndPt="62 33" 
+               			/>              
+
+               		</Animations>
+               	</Node>
+
+         	<Node
+         		name="wndDistance_MainQuest_0"
+         		class="ImageWnd"
+         		org="78.000 38.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_MainQuest_1"
+         		class="ImageWnd"
+         		org="87.000 38.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_MainQuest_2"
+         		class="ImageWnd"
+         		org="96.000 38.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_MainQuest_3"
+         		class="ImageWnd"
+         		org="106.000 38.000 16.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserQuest"
+         		class="Wnd"
+         		org="69.000 55.000 128.000 32.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage="data\if\ico\RadarWnd\distance_secondary-quest.dds"
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+			textColor="ffdd00ff"
+         		font="0">
+
+               		<Animations>
+
+               			<AnimationOnShow
+               				animationEnabled="0"
+               				animationType="USER"
+               				animationSpeed="200"
+               				animationAccel="0"
+               				animationDelayTime="0"
+               				animationStartPt="69 55"
+               				animationEndPt="126 55"
+               			/>
+
+               			<AnimationOnHide
+               				animationEnabled="0"
+               				animationType="USER"
+               				animationSpeed="200"
+               				animationAccel="0"
+               				animationDelayTime="0"
+               				animationStartPt="126 55"
+               				animationEndPt="69 55" 
+               			/>              
+
+               		</Animations>
+               	</Node>
+
+         	<Node
+         		name="wndDistance_UserQuest_0"
+         		class="ImageWnd"
+         		org="81.000 60.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserQuest_1"
+         		class="ImageWnd"
+         		org="90.000 60.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserQuest_2"
+         		class="ImageWnd"
+         		org="99.000 60.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserQuest_3"
+         		class="ImageWnd"
+         		org="109.000 60.000 16.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserLocation"
+         		class="Wnd"
+         		org="62.000 77.000 128.000 32.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage="data\if\ico\RadarWnd\distance_user-navpoint.dds"
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+			textColor="ff00b0ff"
+         		font="0">
+
+               		<Animations>
+
+               			<AnimationOnShow
+               				animationEnabled="0"
+               				animationType="USER"
+               				animationSpeed="200"
+               				animationAccel="0"
+               				animationDelayTime="0"
+               				animationStartPt="62 77"
+               				animationEndPt="119 77"
+               			/>
+
+               			<AnimationOnHide
+               				animationEnabled="0"
+               				animationType="USER"
+               				animationSpeed="200"
+               				animationAccel="0"
+               				animationDelayTime="0"
+               				animationStartPt="119 77"
+               				animationEndPt="62 77" 
+               			/>              
+
+               		</Animations>        
+               	</Node>
+
+         	<Node
+         		name="wndDistance_UserLocation_0"
+         		class="ImageWnd"
+         		org="78.000 82.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserLocation_1"
+         		class="ImageWnd"
+         		org="87.000 82.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserLocation_2"
+         		class="ImageWnd"
+         		org="96.000 82.000 8.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+         	<Node
+         		name="wndDistance_UserLocation_3"
+         		class="ImageWnd"
+         		org="106.000 82.000 16.000 16.000"
+         		style="768"
+         		order="-1"
+         		id="0"
+         		caption=""
+         		tip=""
+         		backimage=""
+         		paneName="Wnd3VeryAlpha"
+         		paneFlags="0"
+         		wrap="2"
+         		font="0" />
+
+	</Node>
+		
+</Prefabs>

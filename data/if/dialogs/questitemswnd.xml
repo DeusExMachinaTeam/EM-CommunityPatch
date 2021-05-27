@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="QuestItemsWnd"
+		class="Wnd"
+		org="0.000 0.000 1024.000 1024.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGray"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+
+
+		<Node
+			name="wndItemsList"
+			class="TextBoxWnd"
+			org="72.000 210.000 286.000 466.000"
+			style="262656"
+			order="0"
+			id="350"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray3"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			drawFlags="3">
+			<Animations />
+		</Node>
+
+
+		<Node
+			name="wndDiz"
+			class="TextBoxWnd"
+			org="392.000 463.000 567.000 213.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 10.000 0.000"
+			wndColor="ffffffff"
+			textColor="ff404040"
+			drawFlags="5">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDizFrame"
+			class="Wnd"
+			org="374.000 445.000 590.000 249.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="ffffffff"
+			textColor="ff404040">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndPicture"
+			class="Wnd"
+			org="550.000 197.000 239.000 239.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>        
+
+		<Node
+			name="wndPictureBg"
+			class="ImageWnd"
+			org="374.000 192.000 590.000 249.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\PalmBoard\view_pedia.dds"
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndDecor0"
+			class="Wnd"
+			org="60.000 192.000 310.000 502.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="ffffffff"
+			textColor="ff505050">
+			<Animations />
+		</Node>
+                                      
+	</Node>
+</Prefabs>

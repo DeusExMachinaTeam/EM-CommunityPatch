@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="wndBossIndicator"
+		class="Wnd"
+		org="752.000 640.000 256.000 128.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\BossIndicator\background.dds"
+		paneName="PaneMsgBox"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ff404040"
+		textColorDisabled="ff7f7f7f">
+
+		<Node
+			name="wndBossImage"
+			class="ImageWnd"
+			org="184.000 8.000 64.000 64.000"
+			style="768"
+			order="15"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="wndBossName"
+			class="Wnd"
+			org="8.000 48.000 168.000 24.000"
+			style="2816"
+			order="15"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations />
+		</Node>
+
+		<Node
+			name="pbBossHealth"
+			class="ProgressBarWnd"
+			org="8.000 80.000 240.000 24.000"
+			style="768"
+			order="6"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			barColor="ff00ff00"
+			numOfSteps="48"
+			orientation="3"
+			barTexture="data\if\ico\BossIndicator\stripe.dds"
+			textStyle="0"
+			textureStyle="1">
+			<Animations />
+		</Node>
+
+		<Animations />
+	</Node>
+</Prefabs>

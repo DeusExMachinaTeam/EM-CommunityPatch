@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="CabinWnd"
+		class="Wnd"
+		org="512.000 74.000 512.000 256.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\InventoryDlg\panel_cab.dds"
+		paneName="wnd3"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+
+		<Animations>
+
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_BOTTOM"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0"
+			/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_TOP"
+				animationSpeed="1000"
+				animationAccel="1000"
+				animationDelayTime="0"
+			/>              
+
+		</Animations>
+
+
+		<Node
+			name="wndGadgetCommonIco00"
+			class="ImageWnd"
+			org="48.000 22.000 32.000 32.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetCommonIco01"
+			class="ImageWnd"
+			org="48.000 70.000 32.000 32.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetCommonIco02"
+			class="ImageWnd"
+			org="48.000 118.000 32.000 32.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetCommonIco03"
+			class="ImageWnd"
+			org="48.000 166.000 32.000 32.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetCommonIco04"
+			class="ImageWnd"
+			org="48.000 214.000 32.000 32.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetWeaponIco00"
+			class="ImageWnd"
+			org="112.000 21.000 32.000 64.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetWeaponIco01"
+			class="ImageWnd"
+			org="160.000 21.000 32.000 64.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetWeaponIco02"
+			class="ImageWnd"
+			org="208.000 21.000 32.000 64.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetWeaponIco03"
+			class="ImageWnd"
+			org="256.000 21.000 32.000 64.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetWeaponIco04"
+			class="ImageWnd"
+			org="304.000 21.000 32.000 64.000"
+			style="512"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image="" />
+
+		<Node
+			name="wndGadgetCommonBg00"
+			class="Wnd"
+			org="11.000 14.000 96.000 48.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_left.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetCommonBg01"
+			class="Wnd"
+			org="11.000 62.000 96.000 48.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_left.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetCommonBg02"
+			class="Wnd"
+			org="11.000 110.000 96.000 48.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_left.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetCommonBg03"
+			class="Wnd"
+			org="11.000 158.000 96.000 48.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_left.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetCommonBg04"
+			class="Wnd"
+			org="11.000 206.000 96.000 48.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_left.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetWeaponBg00"
+			class="Wnd"
+			org="104.000 12.000 48.000 128.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_top.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetWeaponBg01"
+			class="Wnd"
+			org="152.000 12.000 48.000 128.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_top.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetWeaponBg02"
+			class="Wnd"
+			org="200.000 12.000 48.000 128.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_top.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetWeaponBg03"
+			class="Wnd"
+			org="248.000 12.000 48.000 128.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_top.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndGadgetWeaponBg04"
+			class="Wnd"
+			org="296.000 12.000 48.000 128.000"
+			style="512"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\InventoryDlg\Gadget_top.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />  
+
+		<Node
+			name="wndDisabledBg"
+			class="ImageWnd"
+			org="11.000 12.000 490.000 243.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\InventoryDlg\color_black.dds"
+			paneName="PaneYellowBrownThick"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+		<Node
+			name="wndHidePictureBg"
+			class="ImageWnd"
+			org="159.000 64.000 192.000 192.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\InventoryDlg\cab_hide.dds"
+			paneName="PaneYellowBrownThick"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000" />
+
+</Node>
+</Prefabs>
