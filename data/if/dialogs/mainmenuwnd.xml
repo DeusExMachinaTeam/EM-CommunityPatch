@@ -3,7 +3,7 @@
 	<Node
 		name="mainMenu"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="512"
 		order="0"
 		id="0"
@@ -20,10 +20,9 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff8f8f8f">
-
 		<Node
 			name="itemNewGame"
-			org="717.000 206.000 240.000 32.000"
+			org="1248.000 290.000 338.000 45.000"
 			style="265728"
 			order="0"
 			id="600101"
@@ -45,12 +44,12 @@
 			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
 			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="itemLoad"
-			org="717.000 266.000 240.000 32.000"
+			org="1248.000 374.000 338.000 45.000"
 			style="265728"
 			order="0"
 			id="600102"
@@ -72,12 +71,12 @@
 			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
 			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="itemQuit"
-			org="773.000 595.000 128.000 32.000"
+			org="1327.000 857.000 180.000 45.000"
 			style="265728"
 			order="0"
 			id="600100"
@@ -97,14 +96,14 @@
 			btnIsImaged="1"
 			btnImage="data\if\ico\Mainmenu\mm_button_q1.dds"
 			btnImageDown="data\if\ico\Mainmenu\mm_button_q2.dds"
-			btnImageIn="data\if\ico\Mainmenu\mm_button_q1b.dds" 
+			btnImageIn="data\if\ico\Mainmenu\mm_button_q1b.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="itemOptions"
-			org="717.000 386.000 240.000 32.000"
+			org="1248.000 543.000 338.000 45.000"
 			style="265728"
 			order="1"
 			id="600103"
@@ -126,12 +125,12 @@
 			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
 			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="itemCredits"
-			org="717.000 506.000 240.000 32.000"
+			org="1248.000 712.000 338.000 45.000"
 			style="265728"
 			order="1"
 			id="600105"
@@ -153,12 +152,12 @@
 			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
 			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnChangeProfile"
-			org="717.000 326.000 240.000 32.000"
+			org="1248.000 458.000 338.000 45.000"
 			style="265728"
 			order="3"
 			id="600106"
@@ -180,12 +179,12 @@
 			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
 			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="itemIntro"
-			org="717.000 446.000 240.000 32.000"
+			org="1248.000 627.000 338.000 45.000"
 			style="265728"
 			order="1"
 			id="600104"
@@ -207,13 +206,13 @@
 			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
 			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndVersion"
 			class="Wnd"
-			org="15.000 15.000 560.000 18.000"
+			org="21.000 21.000 788.000 25.000"
 			style="2880"
 			order="4"
 			id="0"
@@ -230,13 +229,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndProfile"
 			class="Wnd"
-			org="250.000 680.000 540.000 30.000"
+			org="592.000 976.000 759.000 42.000"
 			style="3904"
 			order="4"
 			id="0"
@@ -253,13 +252,13 @@
 			wndColor="00000000"
 			textColor="ffcccccc"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndTopPanel"
 			class="Wnd"
-			org="0.000 0.000 1024.000 256.000"
+			org="0.000 0.000 1920.000 240.000"
 			style="768"
 			order="4"
 			id="0"
@@ -276,14 +275,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndBottomPanelPicture"
 			class="Wnd"
-			org="0.000 559.000 1024.000 128.000"
+			org="0.000 774.000 1920.000 240.000"
 			style="768"
 			order="4"
 			id="0"
@@ -300,13 +298,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBottomPanelBg"
 			class="Wnd"
-			org="0.000 600.000 1024.000 256.000"
+			org="0.000 844.000 1920.000 360.000"
 			style="768"
 			order="4"
 			id="0"
@@ -323,14 +321,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndMainBg"
 			class="Wnd"
-			org="512.000 107.000 512.000 512.000"
+			org="1212.000 179.000 410.000 820.000"
 			style="768"
 			order="4"
 			id="0"
@@ -347,9 +344,9 @@
 			wndColor="00000000"
 			textColor="fffed11b"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>
