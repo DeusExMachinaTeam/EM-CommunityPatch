@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!--
+$Id: Relationship.xml,v 1.19 2005/11/24 09:45:17 anton Exp $
+-->
+<relationship
+	MinPlayerID="1000"
+	MaxPlayerID="1200"
+	DefaultTolerance="enemy">
+	<set
+			forwhom="1002"
+			who="1005 1012 1013 1040 1041 1043 1044 1045 1046 1047 1048 1049"
+			tolerance="neutral" />
+
+		<set
+		forwhom="1003"
+			who="1004 1008 1009 1010 1011 1014 1015 1016 1017 1040 1041 1042 1043 1044 1045 1046 1048 1051 1052 1053 1054 1100"
+			tolerance="neutral" />
+		<set
+			forwhom="1004"
+			who="1003 1008 1009 1010 1011 1014 1015 1016 1017 1040 1041 1042 1043 1044 1045 1046 1048 1051 1052 1053 1054 1100"
+		tolerance="neutral" />
+
+	<set
+			forwhom="1005"
+			who="1002 1012 1013 1040 1041 1043 1044 1045 1046 1047 1048 1049"
+			tolerance="neutral" />
+
+		<set
+		forwhom="1008"
+			who="1003 1009 1010 1011 1051 1052"
+		tolerance="neutral" />
+
+		<set
+			forwhom="1008"
+			who="1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1009"
+			who="1052 1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1010"
+			who="1100 1042"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1011"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1012"
+			who="1100"
+			tolerance="neutral" />
+		<set
+			forwhom="1015"
+			who="1013 1017 1041 1042 1043 1053 1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1016"
+			who="1013 1017 1041 1042 1043 1053 1054 1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1017"
+			who="1053 1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1016"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1041"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1042"
+			who="1002 1003 1008 1009 1010 1013"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1042"
+			who="1100 1026"
+			tolerance="ally" />
+
+		<set
+			forwhom="1043"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1044"
+			who="1002 1003 1010 1011 1012 1013 1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1045"
+			who="1002 1003 1008 1009 1010 1011 1012 1013 1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1046"
+			who="1002 1010 1011 1013 1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1047"
+			who="1002 1010 1011 1044 1013"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1048"
+			who="1002 1015 1016"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1049"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1051"
+			who="1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1052"
+			who="1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1053"
+			who="1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1054"
+			who="1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1019"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1020"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1021"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1023"
+			who="1100"
+			tolerance="enemy" />
+
+		<set
+			forwhom="1024"
+			who="1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1025"
+			who="1100"
+			tolerance="enemy" />
+
+		<set
+			forwhom="1026"
+			who="1100 1042"
+			tolerance="ally" />
+
+		<set
+			forwhom="1060"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1061"
+			who="1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1061"
+			who="1062"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1062"
+			who="1100"
+			tolerance="enemy" />
+
+		<set
+			forwhom="1063"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1064"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1065"
+			who="1100"
+			tolerance="neutral" />
+
+		<set
+			forwhom="1065"
+			who="1014"
+			tolerance="ally" />
+
+		<set
+			forwhom="1080"
+			who="1000 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 1079 1100"
+			tolerance="ally" />
+
+		<set
+			forwhom="1081"
+			who="1000 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1100"
+			tolerance="enemy" />
+
+</relationship>
