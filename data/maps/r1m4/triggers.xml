@@ -337,6 +337,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			RestoreAllToleranceStatus()
+			if getObj("StorageVil") then getObj("StorageVil"):SetBelong(1010) end
 			trigger:Deactivate()
 		</script>
 	</trigger>
