@@ -19896,7 +19896,7 @@
 		Name="r3_tropicpalma22261"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3358.087 258.000 2848.021"
+		Pos="3379.531 257.478 2815.078"
 		Rot="0.000 0.766 0.000 0.643"
 		NodeScale="1.030" />
 
@@ -20032,7 +20032,7 @@
 		Name="r3_tropicpalma32278"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3359.604 301.773 2863.273"
+		Pos="3362.567 258.000 2820.206"
 		Rot="0.000 -0.887 0.000 0.462"
 		NodeScale="1.100" />
 
