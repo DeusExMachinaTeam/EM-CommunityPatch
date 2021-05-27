@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu credits slides of dev team -->
+<!-- Related to creditswnd.xml -->
 <Credits
 	breakTime="0.7"
 	breakSoundFile="data\sounds\Driving\shifter1.wav"
@@ -8,7 +11,7 @@
 	<Pages>
 		<Page
 			id="1"
-			text="Компания «Targem|Games»"
+			text="Компания|«Targem Games»"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -17,12 +20,12 @@
 
 		<Page
 			id="2"
-			text="Продюсер||Станислав|«scorp» Скорб"
+			text="Продюсер||Станислав «scorp» Скорб"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="294"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="3"
@@ -31,52 +34,52 @@
 			modelSkin="0"
 			modelCfg="182"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="4"
-			text="Менеджер проекта||Евгений|«Hrrr» Хрунов"
+			text="Менеджер проекта||Евгений «Hrrr» Хрунов"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="368"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="5"
-			text="Сценарий||Алексей|«Alex TG» Честных"
+			text="Сценарий||Алексей «Alex TG» Честных"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="87"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="6"
-			text="Ведущий программист проекта||Антон|«anger» Савин"
+			text="Ведущий программист проекта||Антон «anger» Савин"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="20"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="7"
-			text="Главный дизайнер проекта||Алексей|«Alex TG» Честных"
+			text="Главный дизайнер проекта||Алексей «Alex TG» Честных"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="87"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="8"
-			text="Ведущий художник проекта||Александр|«Alex ML» Маргушин"
+			text="Ведущий художник проекта||Александр «Alex ML» Маргушин"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="8"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="9"
@@ -85,7 +88,7 @@
 			modelSkin="2"
 			modelCfg="1917"
 			showTime="5"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="10"
@@ -94,7 +97,7 @@
 			modelSkin="1"
 			modelCfg="140"
 			showTime="5"
-			fontSize="18" />
+			fontSize="25" />
 
 		<Page
 			id="11"
@@ -103,7 +106,7 @@
 			modelSkin="1"
 			modelCfg="1529"
 			showTime="6"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="12"
@@ -112,7 +115,7 @@
 			modelSkin="1"
 			modelCfg="1529"
 			showTime="6"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="13"
@@ -121,16 +124,16 @@
 			modelSkin="2"
 			modelCfg="1917"
 			showTime="4"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="14"
-			text="Разработка интерфейсов||Михаил|«Rai» Матвиенко||Спецэффекты||Алексей|«Hal» Лобанов"
+			text="Разработка интерфейсов||Михаил «Rai» Матвиенко||Спецэффекты||Алексей «Hal» Лобанов"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="104"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="15"
@@ -139,16 +142,16 @@
 			modelSkin="1"
 			modelCfg="330"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="16"
-			text="Тестирование||Вячеслав|«ls» Авдеев"
+			text="Тестирование||Вячеслав «ls» Авдеев"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="84"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="17"
@@ -157,7 +160,7 @@
 			modelSkin="0"
 			modelCfg="20"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="18"
@@ -166,7 +169,7 @@
 			modelSkin="1"
 			modelCfg="132"
 			showTime="4"
-			fontSize="14" />
+			fontSize="20" />
 
 		<Page
 			id="19"
@@ -175,7 +178,7 @@
 			modelSkin="2"
 			modelCfg="24"
 			showTime="3"
-			fontSize="16" />
+			fontSize="22" />
 
 		<Page
 			id="20"
@@ -193,7 +196,7 @@
 			modelSkin="1"
 			modelCfg="2812"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="22"
@@ -202,7 +205,7 @@
 			modelSkin="0"
 			modelCfg="198"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="23"
@@ -211,7 +214,7 @@
 			modelSkin="2"
 			modelCfg="2298"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="24"
@@ -220,7 +223,7 @@
 			modelSkin="0"
 			modelCfg="57"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="25"
@@ -229,7 +232,7 @@
 			modelSkin="2"
 			modelCfg="1745"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="26"
@@ -238,7 +241,7 @@
 			modelSkin="2"
 			modelCfg="43"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="27"
@@ -247,7 +250,7 @@
 			modelSkin="2"
 			modelCfg="765"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="28"
@@ -256,7 +259,7 @@
 			modelSkin="2"
 			modelCfg="456"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="29"
@@ -265,7 +268,7 @@
 			modelSkin="1"
 			modelCfg="761"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="30"
@@ -274,7 +277,7 @@
 			modelSkin="2"
 			modelCfg="635"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="31"
@@ -283,7 +286,7 @@
 			modelSkin="0"
 			modelCfg="253"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="32"
@@ -292,7 +295,7 @@
 			modelSkin="1"
 			modelCfg="379"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="33"
@@ -301,7 +304,7 @@
 			modelSkin="1"
 			modelCfg="456"
 			showTime="5"
-			fontSize="20" />
+			fontSize="25" />
 
 		<Page
 			id="34"
@@ -310,7 +313,7 @@
 			modelSkin="1"
 			modelCfg="0"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="34_1"
@@ -319,7 +322,7 @@
 			modelSkin="1"
 			modelCfg="0"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="35"
@@ -328,7 +331,7 @@
 			modelSkin="0"
 			modelCfg="123"
 			showTime="5"
-			fontSize="14" />
+			fontSize="20" />
 
 		<Page
 			id="36"
@@ -337,7 +340,7 @@
 			modelSkin="0"
 			modelCfg="4"
 			showTime="5"
-			fontSize="14" />
+			fontSize="20" />
 
 		<Page
 			id="37"
@@ -346,7 +349,7 @@
 			modelSkin="2"
 			modelCfg="113"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="38"
@@ -355,7 +358,7 @@
 			modelSkin="2"
 			modelCfg="97"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="39"
@@ -364,7 +367,7 @@
 			modelSkin="0"
 			modelCfg="225"
 			showTime="5"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="40"
@@ -373,7 +376,7 @@
 			modelSkin="2"
 			modelCfg="369"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="41"
@@ -382,7 +385,7 @@
 			modelSkin="1"
 			modelCfg="381"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="42"
@@ -391,7 +394,7 @@
 			modelSkin="1"
 			modelCfg="2300"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="43"
@@ -400,7 +403,7 @@
 			modelSkin="2"
 			modelCfg="108"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="44"
@@ -409,7 +412,7 @@
 			modelSkin="1"
 			modelCfg="635"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="45"
@@ -418,7 +421,7 @@
 			modelSkin="0"
 			modelCfg="100"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="46"
@@ -427,7 +430,7 @@
 			modelSkin="1"
 			modelCfg="2812"
 			showTime="3"
-			fontSize="20" />
+			fontSize="28" />
 
 		<Page
 			id="47"
@@ -436,7 +439,7 @@
 			modelSkin="2"
 			modelCfg="1745"
 			showTime="5"
-			fontSize="14" />
+			fontSize="20" />
 
 		<Page
 			id="48"
@@ -445,6 +448,6 @@
 			modelSkin="1"
 			modelCfg="57"
 			showTime="5"
-			fontSize="14" />
+			fontSize="20" />
 	</Pages>
 </Credits>
