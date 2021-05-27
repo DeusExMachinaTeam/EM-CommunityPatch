@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu profile window dialog for creating a new profile -->
+<!-- Related to changeprofilewnd.xml -->
 <Prefabs>
 	<Node
 		name="wndNewProfile"
