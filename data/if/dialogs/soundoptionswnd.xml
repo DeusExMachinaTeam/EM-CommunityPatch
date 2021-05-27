@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu sound - SFX and music options -->
+<!-- Related to optionswnd.xml -->
 <Prefabs>
 	<Node
 		name="wndSoundOptions"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -23,7 +26,7 @@
 		<Node
 			name="wndLine1"
 			class="LineWnd"
-			org="137.000 187.000 586.000 2.000"
+			org="433.000 263.000 824.000 3.000"
 			style="768"
 			order="0"
 			id="0"
@@ -41,13 +44,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			lineDirection="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTitle"
 			class="Wnd"
-			org="137.000 137.000 586.000 50.000"
+			org="433.000 193.000 824.000 70.000"
 			style="3904"
 			order="1"
 			id="0"
@@ -64,14 +67,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="sliderMusicVolume"
 			class="SliderWnd"
-			org="478.000 205.000 181.000 32.000"
+			org="912.000 288.000 255.000 45.000"
 			style="262656"
 			order="26"
 			id="10200"
@@ -88,12 +90,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnMusicVolumePrev"
-			org="446.000 205.000 32.000 32.000"
+			org="867.000 288.000 45.000 45.000"
 			style="265728"
 			order="25"
 			id="10201"
@@ -112,12 +114,12 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnMusicVolumeNext"
-			org="659.000 205.000 32.000 32.000"
+			org="1167.000 288.000 45.000 45.000"
 			style="265728"
 			order="25"
 			id="10202"
@@ -136,13 +138,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="lblMusicVolume"
 			class="Wnd"
-			org="137.000 205.000 277.000 32.000"
+			org="433.000 288.000 390.000 45.000"
 			style="2880"
 			order="6"
 			id="0"
@@ -159,13 +161,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="sliderEffectsVolume"
 			class="SliderWnd"
-			org="478.000 241.000 181.000 32.000"
+			org="912.000 339.000 255.000 45.000"
 			style="262656"
 			order="26"
 			id="10203"
@@ -182,12 +184,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnEffectsVolumePrev"
-			org="446.000 241.000 32.000 32.000"
+			org="867.000 339.000 45.000 45.000"
 			style="265728"
 			order="25"
 			id="10204"
@@ -206,12 +208,12 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnEffectsVolumeNext"
-			org="659.000 241.000 32.000 32.000"
+			org="1167.000 339.000 45.000 45.000"
 			style="265728"
 			order="25"
 			id="10205"
@@ -230,14 +232,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
-		</Node> 
-
+			<Animations/>
+		</Node>
 
 		<Node
 			name="lblEffectsVolume"
 			class="Wnd"
-			org="137.000 241.000 277.000 32.000"
+			org="433.000 339.000 390.000 45.000"
 			style="2880"
 			order="6"
 			id="0"
@@ -254,14 +255,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
-
+			<Animations/>
+		</Node>
 
 		<Node
 			name="sliderSpeakVolume"
 			class="SliderWnd"
-			org="478.000 277.000 181.000 32.000"
+			org="912.000 390.000 255.000 45.000"
 			style="262656"
 			order="26"
 			id="10206"
@@ -278,12 +278,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnSpeakVolumePrev"
-			org="446.000 277.000 32.000 32.000"
+			org="867.000 390.000 45.000 45.000"
 			style="265728"
 			order="25"
 			id="10207"
@@ -302,12 +302,12 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnSpeakVolumeNext"
-			org="659.000 277.000 32.000 32.000"
+			org="1167.000 390.000 45.000 45.000"
 			style="265728"
 			order="25"
 			id="10208"
@@ -326,14 +326,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
-		</Node> 
-
+			<Animations/>
+		</Node>
 
 		<Node
 			name="lblSpeakVolume"
 			class="Wnd"
-			org="137.000 277.000 277.000 32.000"
+			org="433.000 390.000 390.000 45.000"
 			style="2880"
 			order="6"
 			id="0"
@@ -350,10 +349,9 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
-
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu window, containing button list with starting and quiting game, options etc -->
 <Prefabs>
 	<Node
 		name="mainMenu"
