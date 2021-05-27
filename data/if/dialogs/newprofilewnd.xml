@@ -3,7 +3,7 @@
 	<Node
 		name="wndNewProfile"
 		class="ModalWnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="16896"
 		order="-1"
 		id="0"
@@ -23,7 +23,7 @@
 		<Node
 			name="lbl"
 			class="Wnd"
-			org="352.000 298.000 320.000 50.000"
+			org="735.000 419.000 450.000 70.000"
 			style="2816"
 			order="0"
 			id="0"
@@ -40,13 +40,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSeparator1"
 			class="LineWnd"
-			org="352.000 348.000 320.000 2.000"
+			org="735.000 489.000 450.000 3.000"
 			style="768"
 			order="8"
 			id="0"
@@ -64,13 +64,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			lineDirection="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSeparator2"
 			class="LineWnd"
-			org="352.000 418.000 320.000 2.000"
+			org="735.000 588.000 450.000 3.000"
 			style="768"
 			order="8"
 			id="0"
@@ -88,13 +88,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			lineDirection="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="editName"
 			class="EditWnd"
-			org="400.000 366.000 224.000 36.000"
+			org="802.000 515.000 315.000 51.000"
 			style="2390560"
 			order="0"
 			id="200001"
@@ -112,12 +112,12 @@
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f"
 			cursorColor="00000001">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnCreate"
-			org="370.000 429.000 132.000 32.000"
+			org="760.000 603.000 186.000 45.000"
 			style="278016"
 			order="2"
 			id="200000"
@@ -136,13 +136,13 @@
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="emboss_btnCreate"
 			class="Wnd"
-			org="368.000 427.000 136.000 36.000"
+			org="758.000 600.000 191.000 51.000"
 			style="768"
 			order="1"
 			id=""
@@ -156,11 +156,11 @@
 			format="1"
 			font="0"
 			textColor="ff404040"
-			clientEdges="0.000 0.000 0.000 0.000" /> 
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="btnCancel"
-			org="522.000 429.000 132.000 32.000"
+			org="974.000 603.000 186.000 45.000"
 			style="278016"
 			order="3"
 			id="3"
@@ -179,13 +179,13 @@
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="emboss_btnCancel"
 			class="Wnd"
-			org="520.000 427.000 136.000 36.000"
+			org="971.000 600.000 191.000 51.000"
 			style="768"
 			order="1"
 			id=""
@@ -199,13 +199,12 @@
 			format="1"
 			font="0"
 			textColor="ff404040"
-			clientEdges="0.000 0.000 0.000 0.000" /> 
-
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="wndMainFrame"
 			class="Wnd"
-			org="329.000 275.000 366.000 218.000"
+			org="703.000 387.000 515.000 307.000"
 			style="768"
 			order="0"
 			id="0"
@@ -222,13 +221,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBg"
 			class="Wnd"
-			org="244.000 127.000 536.000 514.000"
+			org="583.000 179.000 754.000 723.000"
 			style="768"
 			order="0"
 			id="0"
@@ -245,10 +244,9 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
-
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>
