@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 
 <GuiResourceInfo>
-
 	<Item
 		class="MainMenuUI"
 		id="IW_WND_MAINMENU"
-		file="data\if\dialogs\mainmenuwnd.xml"
+		file="data\if\dialogs_16_9\mainmenuwnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
 	/>
@@ -13,7 +12,7 @@
 	<Item
 		class="BindKeysWnd"
 		id="IW_DLG_BINDKEYS"
-		file="data\if\dialogs\bindkeysdlg.xml"
+		file="data\if\dialogs_16_9\bindkeysdlg.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
 	/>
@@ -21,7 +20,7 @@
 	<Item
 		class="CabinWnd"
 		id="IW_WND_PLAYER_CABIN"
-		file="data\if\dialogs\CabinWnd.xml"
+		file="data\if\dialogs_16_9\CabinWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -29,42 +28,31 @@
 	<Item
 		class="CabinWnd"
 		id="IW_WND_WORKSHOP_CABIN"
-		file="data\if\dialogs\CabinWnd.xml"
+		file="data\if\dialogs_16_9\CabinWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
-
 
 	<Item
 		class="BasketWnd"
 		id="IW_WND_PLAYER_BASKET"
-		file="data\if\dialogs\BasketWnd.xml"
-		showImmediate="0"
-		loadType="AT_FIRST_LEVEL_START"
-	/>                                  
-
-	<Item
-		class="BasketWnd"
-		id="IW_WND_WORKSHOP_BASKET"
-		file="data\if\dialogs\BasketWnd.xml"
-		showImmediate="0"
-		loadType="AT_FIRST_LEVEL_START"
-	/>                                
-
-
-	<Item
-		class="InventoryWnd"
-		id="IW_WND_PLAYER_INVENTORY"
-		file="data\if\dialogs\InventoryWnd.xml"
+		file="data\if\dialogs_16_9\BasketWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
 
+	<Item
+		class="BasketWnd"
+		id="IW_WND_WORKSHOP_BASKET"
+		file="data\if\dialogs_16_9\BasketWnd.xml"
+		showImmediate="0"
+		loadType="AT_FIRST_LEVEL_START"
+	/>
 
 	<Item
 		class="InventoryWnd"
-		id="IW_WND_WORKSHOP_INVENTORY"
-		file="data\if\dialogs\InventoryWnd_workshop.xml"
+		id="IW_WND_PLAYER_INVENTORY"
+		file="data\if\dialogs_16_9\InventoryWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -72,17 +60,7 @@
 	<Item
 		class="ZnayuKakProdatWnd"
 		id="IW_WND_ZNAYU_KAK_PRODAT"
-		file="data\if\dialogs\ZnayuKakProdatWnd.xml"
-		showImmediate="0"
-		loadType="AT_FIRST_LEVEL_START"
-	/>
-
-
-
-	<Item
-		class="DevideDlg"
-		id="IW_DLG_DEVIDE"
-		file="data\if\dialogs\DevideDlg.xml"
+		file="data\if\dialogs_16_9\ZnayuKakProdatWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -90,7 +68,7 @@
 	<Item
 		class="BarDlg"
 		id="IW_DLG_BAR"
-		file="data\if\dialogs\BarDlg.xml"
+		file="data\if\dialogs_16_9\BarDlg.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -98,16 +76,15 @@
 	<Item
 		class="BarDlg"
 		id="IW_DLG_ADDITIONAL_BUILDING"
-		file="data\if\dialogs\BarDlg.xml"
+		file="data\if\dialogs_16_9\BarDlg.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
 
-
 	<Item
 		class="TownDlg"
 		id="IW_DLG_TOWN"
-		file="data\if\dialogs\TownDlg.xml"
+		file="data\if\dialogs_16_9\TownDlg.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -115,16 +92,15 @@
 	<Item
 		class="QuestItemsWnd"
 		id="IW_WND_QUEST_ITEMS"
-		file="data\if\dialogs\QuestItemsWnd.xml"
+		file="data\if\dialogs_16_9\QuestItemsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
 
-
 	<Item
 		class="TakSebeQuestLogWnd"
 		id="IW_WND_QUESTLOG"
-		file="data\if\dialogs\TakSebeQuestLog.xml"
+		file="data\if\dialogs_16_9\TakSebeQuestLog.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -132,7 +108,7 @@
 	<Item
 		class="LocalMapWnd"
 		id="IW_WND_LOCAL_MAP"
-		file="data\if\dialogs\LocalMapWnd.xml"
+		file="data\if\dialogs_16_9\LocalMapWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -140,7 +116,7 @@
 	<Item
 		class="GlobalMapWnd"
 		id="IW_WND_GLOBAL_MAP"
-		file="data\if\dialogs\GlobalMapWnd.xml"
+		file="data\if\dialogs_16_9\GlobalMapWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -148,23 +124,23 @@
 	<Item
 		class="HistoryWnd"
 		id="IW_WND_HISTORY"
-		file="data\if\dialogs\HistoryWnd.xml"
+		file="data\if\dialogs_16_9\HistoryWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="BooksWnd"
 		id="IW_WND_BOOKS"
-		file="data\if\dialogs\BooksWnd.xml"
+		file="data\if\dialogs_16_9\BooksWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="EncyclopaediaWnd"
 		id="IW_WND_ENCYCLOPAEDIA"
-		file="data\if\dialogs\EncyclopaediaWnd.xml"
+		file="data\if\dialogs_16_9\EncyclopaediaWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -172,32 +148,31 @@
 	<Item
 		class="StatsWnd"
 		id="IW_WND_STATS"
-		file="data\if\dialogs\StatsWnd.xml"
+		file="data\if\dialogs_16_9\StatsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="ReputationWnd"
 		id="IW_WND_REPUTATION"
-		file="data\if\dialogs\ReputationWnd.xml"
+		file="data\if\dialogs_16_9\ReputationWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
-
+	/>
 
 	<Item
 		class="JournalWnd"
 		id="IW_WND_JOURNAL"
-		file="data\if\dialogs\JournalWnd.xml"
+		file="data\if\dialogs_16_9\JournalWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="RadarWnd"
 		id="IW_WND_RADAR"
-		file="data\if\dialogs\RadarWnd.xml"
+		file="data\if\dialogs_16_9\RadarWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -205,15 +180,15 @@
 	<Item
 		class="SpeedometerWnd"
 		id="IW_WND_SPEEDOMETER"
-		file="data\if\dialogs\SpeedometerWnd.xml"
+		file="data\if\dialogs_16_9\SpeedometerWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>  
+	/>
 
 	<Item
 		class="ShopWnd"
 		id="IW_WND_SHOP"
-		file="data\if\dialogs\WorkshopWnd.xml"
+		file="data\if\dialogs_16_9\WorkshopWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -221,7 +196,7 @@
 	<Item
 		class="WeaponSlotList"
 		id="IW_WND_WEAPON_INFO_LIST_IN_CHAR_WND_LEFT"
-		file="data\if\dialogs\WeaponInfoListInCharWnd.xml"
+		file="data\if\dialogs_16_9\WeaponInfoListInCharWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -229,7 +204,7 @@
 	<Item
 		class="WeaponSlotList"
 		id="IW_WND_WEAPON_INFO_LIST_IN_CHAR_WND_RIGHT"
-		file="data\if\dialogs\WeaponInfoListInCharWnd.xml"
+		file="data\if\dialogs_16_9\WeaponInfoListInCharWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -237,7 +212,7 @@
 	<Item
 		class="WeaponSlotList"
 		id="IW_WND_WEAPON_INFO_LIST_IN_CHAR_WND_WORKSHOP"
-		file="data\if\dialogs\WeaponInfoListInCharWnd.xml"
+		file="data\if\dialogs_16_9\WeaponInfoListInCharWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
@@ -245,489 +220,449 @@
 	<Item
 		class="GroundWnd"
 		id="IW_WND_GROUND"
-		file="data\if\dialogs\GroundWnd.xml"
+		file="data\if\dialogs_16_9\GroundWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="PlayerMoneyWnd"
 		id="IW_WND_PLAYER_MONEY"
-		file="data\if\dialogs\PlayerMoneyWnd.xml"
+		file="data\if\dialogs_16_9\PlayerMoneyWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
-
+	/>
 	
 	<Item
 		class="MotherPanel"
 		id="IW_DLG_MOTHER_PANEL"
-		file="data\if\dialogs\MotherPanel.xml"
+		file="data\if\dialogs_16_9\MotherPanel.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="DamageInfoWnd"
 		id="IW_WND_DAMAGEINFO_IN_CHARACTERISTIC_WND_LEFT"
-		file="data\if\dialogs\DamageInfoInCharacteristicWnd.xml"
+		file="data\if\dialogs_16_9\DamageInfoInCharacteristicWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="DamageInfoWnd"
 		id="IW_WND_DAMAGEINFO_IN_CHARACTERISTIC_WND_RIGHT"
-		file="data\if\dialogs\DamageInfoInCharacteristicWnd.xml"
+		file="data\if\dialogs_16_9\DamageInfoInCharacteristicWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="VehicleCharacteristicsWnd"
 		id="IW_WND_PLAYER_VEHICLE_CHARACTERISTICS_LEFT"
-		file="data\if\dialogs\VehicleCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\VehicleCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="CabinCharacteristicsWnd"
 		id="IW_WND_PLAYER_CABIN_CHARACTERISTICS_LEFT"
-		file="data\if\dialogs\CabinCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\CabinCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="BasketCharacteristicsWnd"
 		id="IW_WND_PLAYER_BASKET_CHARACTERISTICS_LEFT"
-		file="data\if\dialogs\BasketCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\BasketCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
-
+	/>
 
 	<Item
 		class="PlayerVehicleWnd"
 		id="IW_WND_CHARACTERISTICS_LEFT"
-		file="data\if\dialogs\CharacteristicWnd_left.xml"
+		file="data\if\dialogs_16_9\CharacteristicWnd_left.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="VehicleCharacteristicsWnd"
 		id="IW_WND_PLAYER_VEHICLE_CHARACTERISTICS_RIGHT"
-		file="data\if\dialogs\VehicleCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\VehicleCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="CabinCharacteristicsWnd"
 		id="IW_WND_PLAYER_CABIN_CHARACTERISTICS_RIGHT"
-		file="data\if\dialogs\CabinCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\CabinCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="BasketCharacteristicsWnd"
 		id="IW_WND_PLAYER_BASKET_CHARACTERISTICS_RIGHT"
-		file="data\if\dialogs\BasketCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\BasketCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
-
+	/>
 
 	<Item
 		class="PlayerVehicleWnd"
 		id="IW_WND_CHARACTERISTICS_RIGHT"
-		file="data\if\dialogs\CharacteristicWnd_right.xml"
+		file="data\if\dialogs_16_9\CharacteristicWnd_right.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
-
+	/>
 
 	<Item
 		class="CinemaPanel"
 		id="IW_WND_CINEMA_PANEL"
-		file="data\if\dialogs\CinemaPanel.xml"
+		file="data\if\dialogs_16_9\CinemaPanel.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
-
-
-	<Item
-		class="CinemaFadePanel"
-		id="IW_WND_CINEMA_FADE_PANEL"
-		file=""
-		showImmediate="0"
-		loadType="AT_APP_START"
-	/>     
+	/>
 
 	<Item
 		class="VehicleCharacteristicsWnd"
 		id="IW_WND_WORKSHOP_VEHICLE_CHARACTERISTICS"
-		file="data\if\dialogs\VehicleCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\VehicleCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="CabinCharacteristicsWnd"
 		id="IW_WND_WORKSHOP_CABIN_CHARACTERISTICS"
-		file="data\if\dialogs\CabinCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\CabinCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="BasketCharacteristicsWnd"
 		id="IW_WND_WORKSHOP_BASKET_CHARACTERISTICS"
-		file="data\if\dialogs\BasketCharacteristicsWnd.xml"
+		file="data\if\dialogs_16_9\BasketCharacteristicsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
+	/>
 
 	<Item
 		class="WorkshopVehicleWnd"
 		id="IW_WND_BUY_VEHICLE"
-		file="data\if\dialogs\WorkshopVehicleWnd.xml"
+		file="data\if\dialogs_16_9\WorkshopVehicleWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>     
-
+	/>
 
 	<Item
 		class="VideoWnd"
 		id="IW_WND_VIDEO"
-		file="data\if\dialogs\VideoWnd.xml"
+		file="data\if\dialogs_16_9\VideoWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>  
+	/>
 
 	<Item
 		class="PlayerMoneyWnd"
 		id="IW_WND_PLAYER_MONEY_IN_NPC_DIALOG"
-		file="data\if\dialogs\playermoneywndInNpcDialog.xml"
+		file="data\if\dialogs_16_9\playermoneywndInNpcDialog.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>  
-
+	/>
 
 	<Item
 		class="TalkWithNpcDlg"
 		id="IW_DLG_TALK_WITH_NPC"
-		file="data\if\dialogs\TalkWithNpcDlg.xml"
+		file="data\if\dialogs_16_9\TalkWithNpcDlg.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
-
-	<Item
-		class="WeaponGroupChoiceDlg"
-		id="IW_DLG_WEAPON_GROUP_CHOICE"
-		file="data\if\dialogs\WeaponGroupChoiceDlg.xml"
-		showImmediate="0"
-		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="SplashWnd"
 		id="IW_WND_SPLASH"
-		file="data\if\dialogs\SplashWnd.xml"
+		file="data\if\dialogs_16_9\SplashWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/>   
-
+	/>
 
 	<Item
 		class="NewProfileWnd"
 		id="IW_WND_NEW_PROFILE"
-		file="data\if\dialogs\NewProfileWnd.xml"
+		file="data\if\dialogs_16_9\NewProfileWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/>   
-
-	<Item
-		class="NewProfileWnd"
-		id="IW_WND_NEW_PROFILE_ALONE"
-		file="data\if\dialogs\NewProfileWndAlone.xml"
-		showImmediate="0"
-		loadType="AT_APP_START"
-	/>   
-
+	/>
 
 	<Item
 		class="ChangeProfileWnd"
 		id="IW_WND_CHANGE_PROFILE"
-		file="data\if\dialogs\ChangeProfileWnd.xml"
+		file="data\if\dialogs_16_9\ChangeProfileWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/>   
-
+	/>
 
 	<Item
 		class="LoadWnd"
 		id="IW_WND_LOAD"
-		file="data\if\dialogs\LoadWnd.xml"
+		file="data\if\dialogs_16_9\LoadWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/>   
+	/>
 
 	<Item
 		class="SaveWnd"
 		id="IW_WND_SAVE"
-		file="data\if\dialogs\SaveWnd.xml"
+		file="data\if\dialogs_16_9\SaveWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="TargetInfoWnd"
 		id="IW_WND_TARGET_INFO_IN_MAIN_INTERFACE"
-		file="data\if\dialogs\targetinfowndinmaininterface.xml"
+		file="data\if\dialogs_16_9\targetinfowndinmaininterface.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
 
 	<Item
 		class="DamageInfoWnd"
 		id="IW_WND_DAMAGEINFO"
-		file="data\if\dialogs\DamageInfoInMainInterface.xml"
+		file="data\if\dialogs_16_9\DamageInfoInMainInterface.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
-
+	/>
 
 	<Item
 		class="WeaponInfoList"
 		id="IW_WND_WEAPON_INFO_LIST"
-		file="data\if\dialogs\WeaponInfoListInMainInterface.xml"
+		file="data\if\dialogs_16_9\WeaponInfoListInMainInterface.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="MainCursorWnd"
 		id="IW_WND_CURSOR_MAIN"
-		file="data\if\dialogs\SmartCursorWnd.xml"
+		file="data\if\dialogs_16_9\SmartCursorWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="FadingMsgList"
 		id="IW_WND_FADING_MSG_LIST"
-		file="data\if\dialogs\FadingMsgList.xml"
+		file="data\if\dialogs_16_9\FadingMsgList.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>              
+	/>
 
 	<Item
 		class="FadingMsgList"
 		id="IW_WND_IMPORTANT_FADING_MSG_LIST"
-		file="data\if\dialogs\ImportantFadingMsgList.xml"
+		file="data\if\dialogs_16_9\ImportantFadingMsgList.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>              
+	/>
 
 	<Item
 		class="RefuelList"
 		id="IW_WND_REFUEL_LIST"
-		file="data\if\dialogs\ServiceList.xml"
+		file="data\if\dialogs_16_9\ServiceList.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>              
+	/>
 
 	<Item
 		class="RepairList"
 		id="IW_WND_REPAIR_LIST"
-		file="data\if\dialogs\ServiceList.xml"
+		file="data\if\dialogs_16_9\ServiceList.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>              
-
+	/>
 
 	<Item
 		class="RechargeList"
 		id="IW_WND_RECHARGE_LIST"
-		file="data\if\dialogs\ServiceList.xml"
+		file="data\if\dialogs_16_9\ServiceList.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>              
-
+	/>
 
 	<Item
 		class="CabinButton"
 		id="IW_WND_CABIN_BUTTON_PATTERN"
-		file="data\if\dialogs\CabinButton.xml"
+		file="data\if\dialogs_16_9\CabinButton.xml"
 		showImmediate="0"
 		loadType="BY_DEMAND"
-	/>              
+	/>
 
 	<Item
 		class="BasketButton"
 		id="IW_WND_BASKET_BUTTON_PATTERN"
-		file="data\if\dialogs\BasketButton.xml"
+		file="data\if\dialogs_16_9\BasketButton.xml"
 		showImmediate="0"
 		loadType="BY_DEMAND"
-	/>              
-
+	/>
 
 	<Item
 		class="CabinList"
 		id="IW_WND_CABIN_LIST"
-		file="data\if\dialogs\CBList.xml"
+		file="data\if\dialogs_16_9\CBList.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>              
+	/>
 
 	<Item
 		class="BasketList"
 		id="IW_WND_BASKET_LIST"
-		file="data\if\dialogs\CBList.xml"
+		file="data\if\dialogs_16_9\CBList.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>  
+	/>
 
 	<Item
 		class="SkinsWnd"
 		id="IW_WND_SKINS"
-		file="data\if\dialogs\SkinsWnd.xml"
+		file="data\if\dialogs_16_9\SkinsWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>  
+	/>
 
 
 	<Item
 		class="GarageWnd"
 		id="IW_WND_WORKSHOP"
-		file="data\if\dialogs\GarageWnd.xml"
+		file="data\if\dialogs_16_9\GarageWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>                                                            
+	/>
 
 	<Item
 		class="IgrokaMochatWnd"
 		id="IW_WND_IGROKA_MOCHAT"
-		file="data\if\dialogs\IgrokaMochatWnd.xml"
+		file="data\if\dialogs_16_9\IgrokaMochatWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/>   
+	/>
                                                          
 	<Item
 		class="CounterWnd"
 		id="IW_WND_COUNTER"
-		file="data\if\dialogs\CounterWnd.xml"
+		file="data\if\dialogs_16_9\CounterWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="VideoOptionsWnd"
 		id="IW_WND_OPTIONS_VIDEO"
-		file="data\if\dialogs\VideoOptionsWnd.xml"
+		file="data\if\dialogs_16_9\VideoOptionsWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/> 
+	/>
 
 	<Item
 		class="SoundOptionsWnd"
 		id="IW_WND_OPTIONS_SOUND"
-		file="data\if\dialogs\SoundOptionsWnd.xml"
+		file="data\if\dialogs_16_9\SoundOptionsWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/>                         
+	/>
 
 	<Item
 		class="GameOptionsWnd"
 		id="IW_WND_OPTIONS_GAME"
-		file="data\if\dialogs\GameOptionsWnd.xml"
+		file="data\if\dialogs_16_9\GameOptionsWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/>                         
+	/>
 
 	<Item
 		class="ControlOptionsWnd"
 		id="IW_WND_OPTIONS_CONTROL"
-		file="data\if\dialogs\ControlOptionsWnd.xml"
+		file="data\if\dialogs_16_9\ControlOptionsWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/>                         
+	/>
 
 	<Item
 		class="OptionsWnd"
 		id="IW_WND_OPTIONS"
-		file="data\if\dialogs\OptionsWnd.xml"
+		file="data\if\dialogs_16_9\OptionsWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/> 
+	/>
 
 	<Item
 		class="BossIndicatorWnd"
 		id="IW_WND_BOSS_INDICATOR"
-		file="data\if\dialogs\BossIndicatorWnd.xml"
+		file="data\if\dialogs_16_9\BossIndicatorWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="MainGameInterfaceWnd"
 		id="IW_WND_MAIN_GAME_INTERFACE"
-		file="data\if\dialogs\MainGameInterfaceWnd.xml"
+		file="data\if\dialogs_16_9\MainGameInterfaceWnd.xml"
 		showImmediate="1"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="CreditsWnd"
 		id="IW_WND_CREDITS"
-		file="data\if\dialogs\CreditsWnd.xml"
+		file="data\if\dialogs_16_9\CreditsWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/> 
+	/>
 
 	<Item
 		class="FadePanelBeforeNextMap"
 		id="IW_WND_FADE_PANEL_BEFORE_NEXT_MAP"
-		file="data\if\dialogs\FadePanelBeforeNextMap.xml"
+		file="data\if\dialogs_16_9\FadePanelBeforeNextMap.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="HelpSimpleMsgWnd"
 		id="IW_WND_HELP_SIMPLE_MSG"
-		file="data\if\dialogs\HelpSimpleMsgWnd.xml"
+		file="data\if\dialogs_16_9\HelpSimpleMsgWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="HelpInMainGameInterfaceWnd"
 		id="IW_WND_HELP_MAIN_GAME_INTERFACE"
-		file="data\if\dialogs\HelpMainGameInterfaceWnd.xml"
+		file="data\if\dialogs_16_9\HelpMainGameInterfaceWnd.xml"
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
-	/> 
+	/>
 
 	<Item
 		class="MsgBox"
 		id="IW_WND_MSG_BOX"
-		file="data\if\dialogs\MsgBox.xml"
+		file="data\if\dialogs_16_9\MsgBox.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/> 
+	/>
 
 	<Item
 		class="RequestDifficultyWnd"
 		id="IW_WND_REQUEST_DIFFICULTY_LEVEL"
-		file="data\if\dialogs\RequestDifficultyWnd.xml"
+		file="data\if\dialogs_16_9\RequestDifficultyWnd.xml"
 		showImmediate="0"
 		loadType="AT_APP_START"
-	/> 
-
-           
+	/>
 </GuiResourceInfo>
