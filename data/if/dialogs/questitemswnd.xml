@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Quest items list available by clicking a button in quest log  -->
 <Prefabs>
 	<Node
 		name="QuestItemsWnd"
 		class="Wnd"
-		org="0.000 0.000 1024.000 1024.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -17,12 +19,10 @@
 		format="1"
 		font="0"
 		clientEdges="0.000 0.000 0.000 0.000">
-
-
 		<Node
 			name="wndItemsList"
 			class="TextBoxWnd"
-			org="72.000 210.000 286.000 466.000"
+			org="171.000 305.000 407.000 690.000"
 			style="262656"
 			order="0"
 			id="350"
@@ -39,14 +39,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			drawFlags="3">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndDiz"
 			class="TextBoxWnd"
-			org="392.000 463.000 567.000 213.000"
+			org="630.000 724.000 1132.000 250.000"
 			style="512"
 			order="0"
 			id="0"
@@ -63,13 +62,13 @@
 			wndColor="ffffffff"
 			textColor="ff404040"
 			drawFlags="5">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndDizFrame"
 			class="Wnd"
-			org="374.000 445.000 590.000 249.000"
+			org="605.000 699.000 1163.000 300.000"
 			style="768"
 			order="0"
 			id="0"
@@ -85,13 +84,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="ffffffff"
 			textColor="ff404040">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPicture"
 			class="Wnd"
-			org="550.000 197.000 239.000 239.000"
+			org="880.000 253.000 612.000 436.000"
 			style="512"
 			order="0"
 			id="0"
@@ -107,13 +106,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
-		</Node>        
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndPictureBg"
 			class="ImageWnd"
-			org="374.000 192.000 590.000 249.000"
+			org="605.000 249.000 1163.000 444.000"
 			style="512"
 			order="0"
 			id="0"
@@ -130,13 +129,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndDecor0"
 			class="Wnd"
-			org="60.000 192.000 310.000 502.000"
+			org="154.000 249.000 436.000 750.000"
 			style="768"
 			order="0"
 			id="0"
@@ -152,8 +151,7 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="ffffffff"
 			textColor="ff505050">
-			<Animations />
+			<Animations/>
 		</Node>
-                                      
 	</Node>
 </Prefabs>

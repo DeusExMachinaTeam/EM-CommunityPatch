@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Relationship status with different clans shown in journal -->
 <Prefabs>
 	<Node
 		name="ReputationWnd"
 		class="Wnd"
-		org="115.000 189.000 802.000 489.000"
+		org="209.000 238.000 1502.000 772.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -22,7 +24,7 @@
 		<Node
 			name="lblClanName"
 			class="Wnd"
-			org="50.000 8.000 280.000 32.000"
+			org="93.000 13.000 525.000 50.000"
 			style="2880"
 			order="3"
 			id="0"
@@ -38,13 +40,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndClanIco"
 			class="ImageWnd"
-			org="16.000 11.000 26.000 26.000"
+			org="29.000 17.000 42.000 42.000"
 			style="768"
 			order="2"
 			id="0"
@@ -61,13 +63,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			image="">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndToleranceName"
 			class="Wnd"
-			org="338.000 8.000 54.000 32.000"
+			org="633.000 13.000 101.000 50.000"
 			style="2880"
 			order="3"
 			id="0"
@@ -83,14 +85,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="reputationList"
 			class="Wnd"
-			org="8.000 8.000 786.000 474.000"
+			org="14.000 10.000 1476.000 756.000"
 			style="512"
 			order="0"
 			id="0"
@@ -106,13 +107,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndReputationButton"
 			class="Wnd"
-			org="8.000 8.000 392.000 32.000"
+			org="15.000 13.000 735.000 50.000"
 			style="512"
 			order="1"
 			id="0"
@@ -128,9 +129,9 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
+			<Animations/>
 		</Node>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>

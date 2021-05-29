@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Player money counter shown when speaking with NPC, related to talkwithnpcdlg.xml  -->
 <Prefabs>
 	<Node
 		name="wndPlayerMoney"
 		class="Wnd"
-		org="192.000 700.000 256.000 34.000"
+		org="1643.000 1026.000 246.000 29.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -16,11 +18,10 @@
 		format="1"
 		font="0"
 		clientEdges="0.000 0.000 0.000 0.000">
-
 		<Node
 			name="wndValue"
 			class="Wnd"
-			org="0.000 0.000 256.000 34.000"
+			org="0.000 0.000 246.000 29.000"
 			style="3904"
 			order="0"
 			id="0"
@@ -32,7 +33,7 @@
 			wrap="2"
 			format="0"
 			font="1"
-			textColor="FF404040"
-			clientEdges="0.000 0.000 0.000 0.000" />
-</Node>
+			textColor="FF74AB1F"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+	</Node>
 </Prefabs>

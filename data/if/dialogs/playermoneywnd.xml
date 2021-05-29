@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Player money counter in top left corner of town  -->
 <Prefabs>
 	<Node
 		name="wndPlayerMoney"
 		class="Wnd"
-		org="9.000 8.000 193.000 36.000"
+		org="13.000 13.000 271.000 51.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -16,32 +18,12 @@
 		format="1"
 		font="0"
 		clientEdges="0.000 0.000 0.000 0.000">
-<!--
-		<Animations>
-
-			<AnimationOnShow
-				animationEnabled="1"
-				animationType="TO_BOTTOM"
-				animationSpeed="10"
-				animationAccel="0"
-				animationDelayTime="200"
-			/>
-
-			<AnimationOnHide
-				animationEnabled="1"
-				animationType="TO_BEYOND_TOP"
-				animationSpeed="10"
-				animationAccel="0"
-				animationDelayTime="0"
-			/>              
-
-		</Animations>
--->
+		
 
 		<Node
 			name="wndValue"
 			class="Wnd"
-			org="0.000 0.000 193.000 36.000"
+			org="0.000 0.000 271.000 51.000"
 			style="3904"
 			order="0"
 			id="0"
@@ -53,7 +35,24 @@
 			wrap="2"
 			format="2"
 			font="1"
-			textColor="ff505050"
-			clientEdges="0.000 0.000 0.000 0.000" />
-</Node>
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="700"
+					animationAccel="-300"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
+		</Node>
 </Prefabs>

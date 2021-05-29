@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main Journal interface for all other panels - books, history etc  -->
 <Prefabs>
 	<Node
 		name="JournalWnd"
 		class="Wnd"
-		org="0.000 0.000 1024.000 1024.000"
+		org="0.000 0.000 1920.000 1065.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -19,10 +21,9 @@
 		clientEdges="0.000 0.000 0.000 0.000"
 		wndColor="00000000"
 		textColor="ffffffff">
-
 		<Node
 			name="btnHistory"
-			org="69.000 140.000 166.000 34.000"
+			org="298.000 164.000 233.000 48.000"
 			style="265728"
 			order="1"
 			id="200000"
@@ -40,13 +41,13 @@
 			textColor="ff505050"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnHistory_emboss"
 			class="Wnd"
-			org="67.000 138.000 170.000 38.000"
+			org="295.000 161.000 239.000 53.000"
 			style="768"
 			order="1"
 			id=""
@@ -62,12 +63,12 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnBooks"
-			org="249.000 140.000 166.000 34.000"
+			org="571.000 164.000 233.000 48.000"
 			style="265728"
 			order="2"
 			id="200001"
@@ -85,13 +86,13 @@
 			textColor="ff505050"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnBooks_emboss"
 			class="Wnd"
-			org="247.000 138.000 170.000 38.000"
+			org="568.000 161.000 239.000 53.000"
 			style="768"
 			order="1"
 			id=""
@@ -107,12 +108,12 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnRelations"
-			org="429.000 140.000 166.000 34.000"
+			org="844.000 164.000 238.000 48.000"
 			style="265728"
 			order="2"
 			id="200002"
@@ -130,13 +131,13 @@
 			textColor="ff505050"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnRelations_emboss"
 			class="Wnd"
-			org="427.000 138.000 170.000 38.000"
+			org="841.000 161.000 244.000 53.000"
 			style="768"
 			order="1"
 			id=""
@@ -152,12 +153,12 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnStats"
-			org="609.000 140.000 166.000 34.000"
+			org="1117.000 164.000 233.000 48.000"
 			style="265728"
 			order="2"
 			id="200003"
@@ -175,13 +176,13 @@
 			textColor="ff505050"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnStats_emboss"
 			class="Wnd"
-			org="607.000 138.000 170.000 38.000"
+			org="1115.000 161.000 239.000 53.000"
 			style="768"
 			order="1"
 			id=""
@@ -197,12 +198,12 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnEncyclopaedia"
-			org="789.000 140.000 166.000 34.000"
+			org="1391.000 164.000 233.000 48.000"
 			style="265728"
 			order="3"
 			id="200004"
@@ -220,13 +221,13 @@
 			textColor="ff505050"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnEncyclopaedia_emboss"
 			class="Wnd"
-			org="787.000 138.000 170.000 38.000"
+			org="1388.000 161.000 239.000 53.000"
 			style="768"
 			order="1"
 			id=""
@@ -242,28 +243,25 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
-       		<Animations>
-       			<AnimationOnShow
-       				animationEnabled="1"
-       				animationType="TO_TOP"
-       				animationSpeed="1400"
-       				animationAccel="1000"
-       				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_TOP"
+				animationSpeed="4500"
+				animationAccel="-4500"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
 
-       			<AnimationOnHide
-       				animationEnabled="1"
-       				animationType="TO_BEYOND_BOTTOM"
-       				animationSpeed="1400"
-       				animationAccel="1000"
-       				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
-       		</Animations>
-
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_BOTTOM"
+				animationSpeed="700"
+				animationAccel="5000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+		</Animations>
 	</Node>
 </Prefabs>
