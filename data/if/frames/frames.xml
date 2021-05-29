@@ -5,12 +5,13 @@
 		<Item
 			name="Scroll1"	
 
-                      	scrollBarWidth="28"
-                      	scrollThumbSize		= "32 32"
-			scrollBtnSize		= "32 32"
+			scrollBarWidth="35"
+			scrollThumbSize="40 40"
+			scrollBtnSize="40 40"
+			scrollSpace="-2.5"
 
-                      	scrollThumb		= "data\if\frames\Scroll1\scroller.dds"
-                      	scrollBarPane="PaneScrollBarDefault"
+			scrollThumb="data\if\frames\Scroll1\scroller.dds"
+			scrollBarPane="PaneScrollBarDefault"
 			scrollBtnPrevPane="PaneScrollBtnPrevDefault"
 			scrollBtnNextPane="PaneScrollBtnNextDefault"
 		/>
@@ -926,7 +927,14 @@
 			file="data\if\frames\Frame G\frameG_fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
-		/>                                  
+		/>
+		
+		<Item
+			name="BgFrameK"
+			file="data\if\frames\Frame K\fill.dds"
+			bgRepeatU="0"
+			bgRepeatV="0"
+		/> 
 
 		<Item
 			name="BgLineFrameB_horiz"
@@ -1010,7 +1018,7 @@
 			file="data\if\frames\Scroll1\btn_down_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
-		/>                                   
+		/>   
 
 		<Item
 			name="BgScrollBtnNextDefault_over"
@@ -1106,7 +1114,7 @@
 
 		<Item
 			name="BgMsgBox"
-			file="data\if\frames\MsgBox\mb_fill.tga"
+			file="data\if\frames\MsgBox\mb_fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
@@ -1141,56 +1149,56 @@
 
 		<Item
 			name="BgBtnSliderPrev_out"
-			file="data\if\frames\Slider\b_minus_e.tga"
+			file="data\if\frames\Slider\b_minus_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderPrev_over"
-			file="data\if\frames\Slider\b_minus_h.tga"
+			file="data\if\frames\Slider\b_minus_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderPrev_down"
-			file="data\if\frames\Slider\b_minus_p.tga"
+			file="data\if\frames\Slider\b_minus_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderPrev_disable"
-			file="data\if\frames\Slider\b_minus_d.tga"
+			file="data\if\frames\Slider\b_minus_d.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_out"
-			file="data\if\frames\Slider\b_plus_e.tga"
+			file="data\if\frames\Slider\b_plus_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_over"
-			file="data\if\frames\Slider\b_plus_h.tga"
+			file="data\if\frames\Slider\b_plus_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_down"
-			file="data\if\frames\Slider\b_plus_p.tga"
+			file="data\if\frames\Slider\b_plus_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_disable"
-			file="data\if\frames\Slider\b_plus_d.tga"
+			file="data\if\frames\Slider\b_plus_d.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/> 
@@ -1211,9 +1219,9 @@
            		corner_tr="data\if\frames\BigCor_UR.dds"
            		corner_bl="data\if\frames\BigCor_BL.dds"
            		corner_br="data\if\frames\BigCor_BR.dds"
-           		barTexWidth="16"
+           		barTexWidth="22"
 			barUsedWidthRatio="0.5"
-           		cornerSize="16"           		
+           		cornerSize="22"           		
            		barRepeat="1"
 		/>
 
@@ -1227,9 +1235,9 @@
            		corner_tr="data\if\frames\BigCor_UR.dds"
            		corner_bl="data\if\frames\BigCor_BL.dds"
            		corner_br="data\if\frames\BigCor_BR.dds"
-           		barTexWidth="32"
+           		barTexWidth="45"
 			barUsedWidthRatio="0.5"
-           		cornerSize="32"           		
+           		cornerSize="45"           		
            		barRepeat="1"
 		/>
 
@@ -1239,9 +1247,9 @@
              		bar_l="data\if\frames\left2.dds"
              		bar_t="data\if\frames\top2.dds"
              		corner_tl="data\if\frames\corner2.dds"
-             		barTexWidth="8"
+             		barTexWidth="11"
 			barUsedWidthRatio="1"
-             		cornerSize="16"             		
+             		cornerSize="22"             		
              		barRepeat="1"
 		/>
 
@@ -1255,9 +1263,9 @@
             		corner_tr="data\if\frames\corner3_TR.dds"
             		corner_bl="data\if\frames\corner3_DL.dds"
             		corner_br="data\if\frames\corner3_DR.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="0"
 		/>
 
@@ -1268,9 +1276,9 @@
             		bar_t="data\if\frames\top4.dds"
             		bar_b=""
             		corner_tl="data\if\frames\corner4.dds"
-            		barTexWidth="32"
+            		barTexWidth="45"
 			barUsedWidthRatio="0.4"
-            		cornerSize="32"            		
+            		cornerSize="45"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1284,9 +1292,9 @@
             		corner_tr="data\if\frames\Button_CornerTR.dds"
             		corner_bl="data\if\frames\Button_CornerDL.dds"
             		corner_br="data\if\frames\Button_CornerDR.dds"
-            		barTexWidth="16"
+            		barTexWidth="22"
 			barUsedWidthRatio="0.6"
-            		cornerSize="16"            		
+            		cornerSize="22"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1300,9 +1308,9 @@
             		corner_tr="data\if\frames\Button_CornerTR2.dds"
             		corner_bl="data\if\frames\Button_CornerDL2.dds"
             		corner_br="data\if\frames\Button_CornerDR2.dds"
-            		barTexWidth="16"
+            		barTexWidth="22"
 			barUsedWidthRatio="0.6"
-            		cornerSize="16"            		
+            		cornerSize="22"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1315,9 +1323,9 @@
             		corner_tr="data\if\frames\log_cornerTR.dds"
             		corner_bl="data\if\frames\log_cornerDL.dds"
             		corner_br="data\if\frames\log_cornerDR.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="1"
-            		cornerSize="16"                                        		
+            		cornerSize="22"                                        		
             		barRepeat="1"
 		/>
 
@@ -1328,8 +1336,8 @@
             		bar_t="data\if\frames\top5.dds"
             		bar_b=""
             		corner_tl="data\if\frames\left5.dds"
-            		barTexWidth="4"
-            		cornerSize="4"            		
+            		barTexWidth="5"
+            		cornerSize="5"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1340,10 +1348,10 @@
             		corner_bl="data\if\frames\tab_blue_bl.dds"
 			tabbtn_corner_tl="data\if\frames\tab_blue_btn_tl_out.dds"
 			tabbtn_corner_bl="data\if\frames\tab_blue_btn_bl.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
-			roundCornerSize="16"
+            		cornerSize="11"            		
+			roundCornerSize="22"
             		barRepeat="0"  
 		/>                     
 
@@ -1354,10 +1362,10 @@
             		corner_bl="data\if\frames\tab_blue_bl.dds"
 			tabbtn_corner_tl="data\if\frames\tab_blue_btn_tl_down.dds"
 			tabbtn_corner_bl="data\if\frames\tab_blue_btn_bl.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
-			roundCornerSize="16"
+            		cornerSize="11"            		
+			roundCornerSize="22"
             		barRepeat="0"  
 		/>                                          
 
@@ -1366,9 +1374,9 @@
             		bar_l="data\if\frames\smallcor_l.dds"
             		bar_t="data\if\frames\smallcor_u.dds"
             		corner_tl="data\if\frames\smallcor_ul.dds"
-            		barTexWidth="2"
+            		barTexWidth="3"
 			barUsedWidthRatio="1"
-            		cornerSize="2"            		
+            		cornerSize="3"            		
             		barRepeat="1"  
 		/>                                          
 
@@ -1382,9 +1390,9 @@
             		corner_tr="data\if\frames\cor1_ur.dds"
             		corner_bl="data\if\frames\cor1_dl.dds"
             		corner_br="data\if\frames\cor1_dr.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                                          
 
@@ -1398,9 +1406,9 @@
             		corner_tr="data\if\frames\cor2_ur.dds"
             		corner_bl="data\if\frames\cor2_dl.dds"
             		corner_br="data\if\frames\cor2_dr.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                                          
 
@@ -1413,10 +1421,10 @@
             		corner_tl="data\if\frames\BigCor_ul.dds"
             		corner_bl="data\if\frames\BigCor_dl.dds"
             		corner_br="data\if\frames\BigCor_dr.dds"
-            		barTexWidth="32"
+            		barTexWidth="45"
 			barUsedWidthRatio="0.5"
-            		cornerSize="32"            		
-			roundCornerSize="32"
+            		cornerSize="45"            		
+			roundCornerSize="45"
             		barRepeat="1"  
 		/>                                          
 
@@ -1425,9 +1433,9 @@
             		bar_l="data\if\frames\cornote1_l.dds"
             		bar_t="data\if\frames\cornote1_u.dds"
             		corner_tl="data\if\frames\cornote1_ul.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                                          
 
@@ -1436,9 +1444,9 @@
             		bar_l="data\if\frames\cornote2_l.dds"
             		bar_t="data\if\frames\cornote2_u.dds"
             		corner_tl="data\if\frames\cornote2_ul.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                                          
 
@@ -1447,9 +1455,9 @@
             		bar_l="data\if\frames\cornote1_gray_l.dds"
             		bar_t="data\if\frames\cornote1_gray_u.dds"
             		corner_tl="data\if\frames\cornote1_gray_ul.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.7"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                                      
 
@@ -1458,9 +1466,9 @@
             		bar_l="data\if\frames\cornote2_gray_l.dds"
             		bar_t="data\if\frames\cornote2_gray_u.dds"
             		corner_tl="data\if\frames\cornote2_gray_ul.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.7"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                           
 
@@ -1469,9 +1477,9 @@
             		bar_l="data\if\frames\cor_2x2.dds"
             		bar_t="data\if\frames\cor_2x2.dds"
             		corner_tl="data\if\frames\cor_2x2.dds"
-            		barTexWidth="2"
+            		barTexWidth="3"
 			barUsedWidthRatio="1"
-            		cornerSize="2"            		
+            		cornerSize="3"            		
             		barRepeat="1"  
 		/>                           
 
@@ -1480,9 +1488,9 @@
             		bar_l="data\if\frames\CorNote3_L.dds"
             		bar_t="data\if\frames\CorNote3_U.dds"
             		corner_tl="data\if\frames\CorNote3_UL.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                           
 
@@ -1491,9 +1499,9 @@
             		bar_l="data\if\ico\RadarWnd\enemy.dds"
             		bar_t="data\if\ico\RadarWnd\enemy.dds"
             		corner_tl="data\if\ico\RadarWnd\enemy.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="1"
-            		cornerSize="4"            		
+            		cornerSize="5"            		
             		barRepeat="0"  
 		/>                           
 
@@ -1507,9 +1515,9 @@
             		corner_tr="data\if\frames\MainCor_UR.dds"
             		corner_bl="data\if\frames\MainCor_DL.dds"
             		corner_br="data\if\frames\MainCor_DR.dds"
-            		barTexWidth="64"
+            		barTexWidth="90"
 			barUsedWidthRatio="0.25"
-            		cornerSize="64"            		
+            		cornerSize="90"            		
             		barRepeat="0"  
 		/>                           
 
@@ -1523,9 +1531,9 @@
             		corner_tr="data\if\frames\cor11_ur.dds"
             		corner_bl="data\if\frames\cor11_dl.dds"
             		corner_br="data\if\frames\cor11_dr.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                                          
 
@@ -1539,9 +1547,9 @@
             		corner_tr="data\if\frames\NoteB1_ur_2.dds"
             		corner_bl="data\if\frames\NoteB1_dl_2.dds"
             		corner_br="data\if\frames\NoteB1_dr_2.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.7"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1555,9 +1563,9 @@
             		corner_tr="data\if\frames\NoteB1_ur_1.dds"
             		corner_bl="data\if\frames\NoteB1_dl_1.dds"
             		corner_br="data\if\frames\NoteB1_dr_1.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.7"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1566,9 +1574,9 @@
             		bar_l="data\if\frames\cornote1_gray2_l.dds"
             		bar_t="data\if\frames\cornote1_gray2_u.dds"
             		corner_tl="data\if\frames\cornote1_gray2_ul.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1577,9 +1585,9 @@
             		bar_l="data\if\frames\cornote2_gray2_l.dds"
             		bar_t="data\if\frames\cornote2_gray2_u.dds"
             		corner_tl="data\if\frames\cornote2_gray2_ul.dds"
-            		barTexWidth="16"
+            		barTexWidth="22"
 			barUsedWidthRatio="0.5"
-            		cornerSize="16"            		
+            		cornerSize="22"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1588,9 +1596,9 @@
             		bar_l="data\if\frames\cornote1_gray3_l.dds"
             		bar_t="data\if\frames\cornote1_gray3_u.dds"
             		corner_tl="data\if\frames\cornote1_gray3_ul.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1599,9 +1607,9 @@
             		bar_l="data\if\frames\cornote2_gray3_l.dds"
             		bar_t="data\if\frames\cornote2_gray3_u.dds"
             		corner_tl="data\if\frames\cornote2_gray3_ul.dds"
-            		barTexWidth="16"
+            		barTexWidth="22"
 			barUsedWidthRatio="0.5"
-            		cornerSize="16"            		
+            		cornerSize="22"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1611,9 +1619,9 @@
             		bar_l="data\if\frames\cornote_line.dds"
             		bar_t="data\if\frames\cornote_line.dds"
             		corner_tl="data\if\frames\cornote_line.dds"
-            		barTexWidth="3"
+            		barTexWidth="4"
 			barUsedWidthRatio="1"
-            		cornerSize="3"            		
+            		cornerSize="4"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1623,9 +1631,9 @@
             		bar_l="data\if\frames\cornote31_l.dds"
             		bar_t="data\if\frames\cornote31_u.dds"
             		corner_tl="data\if\frames\cornote31_ul.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="1"
-            		cornerSize="4"            		
+            		cornerSize="5"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1634,9 +1642,9 @@
             		bar_l="data\if\frames\cornote31b_l.dds"
             		bar_t="data\if\frames\cornote31b_u.dds"
             		corner_tl="data\if\frames\cornote31b_ul.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="1"
-            		cornerSize="4"            		
+            		cornerSize="5"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1651,9 +1659,9 @@
             		corner_tr="data\if\frames\NoteB2_UR_1.dds"
             		corner_bl="data\if\frames\NoteB2_DL_1.dds"
             		corner_br="data\if\frames\NoteB2_DR_1.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="0.5"
-            		cornerSize="4"            		
+            		cornerSize="5"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1667,9 +1675,9 @@
             		corner_tr="data\if\frames\NoteB2_UR_2.dds"
             		corner_bl="data\if\frames\NoteB2_DL_2.dds"
             		corner_br="data\if\frames\NoteB2_DR_2.dds"
-            		barTexWidth="4"
+            		barTexWidth="5"
 			barUsedWidthRatio="0.5"
-            		cornerSize="4"            		
+            		cornerSize="5"            		
             		barRepeat="1"  
 		/>                     
 
@@ -1683,9 +1691,9 @@
             		corner_tr="data\if\frames\BtnGray1\Enabled\corner_top-right.dds"
             		corner_bl="data\if\frames\BtnGray1\Enabled\corner_bottom-left.dds"
             		corner_br="data\if\frames\BtnGray1\Enabled\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="14"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="14"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1699,9 +1707,9 @@
             		corner_tr="data\if\frames\BtnGray1\Pressed\corner_top-right.dds"
             		corner_bl="data\if\frames\BtnGray1\Pressed\corner_bottom-left.dds"
             		corner_br="data\if\frames\BtnGray1\Pressed\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="14"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="14"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1715,9 +1723,9 @@
             		corner_tr="data\if\frames\BtnGray1\Selected\corner_top-right.dds"
             		corner_bl="data\if\frames\BtnGray1\Selected\corner_bottom-left.dds"
             		corner_br="data\if\frames\BtnGray1\Selected\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="14"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="14"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1731,9 +1739,9 @@
             		corner_tr="data\if\frames\BtnGray1\Disabled\corner_top-right.dds"
             		corner_bl="data\if\frames\BtnGray1\Disabled\corner_bottom-left.dds"
             		corner_br="data\if\frames\BtnGray1\Disabled\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="14"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="14"            		
             		barRepeat="0"  
 		/> 
 
@@ -1747,9 +1755,9 @@
             		corner_tr="data\if\frames\BtnGray1\Orange\corner_top-right.dds"
             		corner_bl="data\if\frames\BtnGray1\Orange\corner_bottom-left.dds"
             		corner_br="data\if\frames\BtnGray1\Orange\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="14"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="14"            		
             		barRepeat="0"  
 		/> 
 
@@ -1763,9 +1771,9 @@
             		corner_tr="data\if\frames\Frame A\frameA_trc.dds"
             		corner_bl="data\if\frames\Frame A\frameA_blc.dds"
             		corner_br="data\if\frames\Frame A\frameA_brc.dds"
-            		barTexWidth="32"
+            		barTexWidth="45"
 			barUsedWidthRatio="0.5"
-            		cornerSize="32"            		
+            		cornerSize="45"            		
             		barRepeat="0"  
 		/> 
 
@@ -1779,9 +1787,9 @@
             		corner_tr="data\if\frames\Frame B\frameB_trc.dds"
             		corner_bl="data\if\frames\Frame B\frameB_blc.dds"
             		corner_br="data\if\frames\Frame B\frameB_brc.dds"
-            		barTexWidth="16"
+            		barTexWidth="22"
 			barUsedWidthRatio="0.7"
-            		cornerSize="16"            		
+            		cornerSize="22"            		
             		barRepeat="0"  
 		/> 
 
@@ -1795,9 +1803,9 @@
             		corner_tr="data\if\frames\Frame C\frameC_trc.dds"
             		corner_bl="data\if\frames\Frame C\frameC_blc.dds"
             		corner_br="data\if\frames\Frame C\frameC_brc.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="0"  
 		/> 
 
@@ -1811,9 +1819,9 @@
             		corner_tr="data\if\frames\Frame D\corner_top-right.dds"
             		corner_bl="data\if\frames\Frame D\corner_bottom-left.dds"
             		corner_br="data\if\frames\Frame D\corner_bottom-right.dds"
-            		barTexWidth="8"
-			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		barTexWidth="11"
+					barUsedWidthRatio="1"
+            		cornerSize="11"            		
             		barRepeat="0"  
 		/> 
 
@@ -1827,42 +1835,58 @@
             		corner_tr="data\if\frames\Frame G\frameg_trc.dds"
             		corner_bl="data\if\frames\Frame G\frameg_blc.dds"
             		corner_br="data\if\frames\Frame G\frameg_brc.dds"
-            		barTexWidth="16"
-			barUsedWidthRatio="0.7"
-            		cornerSize="16"            		
+            		barTexWidth="22"
+					barUsedWidthRatio="0.7"
+            		cornerSize="22"            		
             		barRepeat="0"  
+		/> 
+
+		<Item
+			name="FrFrameK"
+            		bar_l="data\if\frames\Frame K\fill.dds"
+            		bar_t="data\if\frames\Frame K\fill.dds"
+            		bar_r="data\if\frames\Frame K\fill.dds"
+            		bar_b="data\if\frames\Frame K\fill.dds"
+            		corner_tl="data\if\frames\Frame K\corner_TopLft.dds"
+            		corner_tr="data\if\frames\Frame K\corner_TopRgt.dds"
+            		corner_bl="data\if\frames\Frame K\corner_BtmLft.dds"
+            		corner_br="data\if\frames\Frame K\corner_BtmRgt.dds"
+            		barTexWidth="4"
+					barUsedWidthRatio="0.5"
+            		cornerSize="4"          		
+            		barRepeat="0" 
 		/> 
 
 
 		<Item
 			name="FrLineFrameB"
-            		barTexWidth="2"
+            		barTexWidth="3"
 			barUsedWidthRatio="1"
-            		cornerSize="2"            		
+            		cornerSize="3"            		
             		barRepeat="0"  
 		/>                     
 
 		<Item
 			name="FrLineFrameC"
-            		barTexWidth="2"
+            		barTexWidth="3"
 			barUsedWidthRatio="1"
-            		cornerSize="2"            		
+            		cornerSize="3"            		
             		barRepeat="0"  
 		/>                     
 
 		<Item
 			name="FrLineMinimap"
-            		barTexWidth="2"
+            		barTexWidth="3"
 			barUsedWidthRatio="1"
-            		cornerSize="2"            		
+            		cornerSize="3"            		
             		barRepeat="0"  
 		/>                     
                                                         
 		<Item
 			name="FrLineMenu"
-            		barTexWidth="2"
+            		barTexWidth="3"
 			barUsedWidthRatio="1"
-            		cornerSize="2"            		
+            		cornerSize="3"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1871,9 +1895,9 @@
             		bar_l="data\if\frames\dark_line.dds"
             		bar_t="data\if\frames\dark_line.dds"
             		corner_tl="data\if\frames\dark_line.dds"
-            		barTexWidth="2"
+            		barTexWidth="3"
 			barUsedWidthRatio="1"
-            		cornerSize="2"            		
+            		cornerSize="3"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1887,9 +1911,9 @@
             		corner_tr="data\if\frames\emboss\corner_top-right.dds"
             		corner_bl="data\if\frames\emboss\corner_bottom-left.dds"
             		corner_br="data\if\frames\emboss\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="13"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="13"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1903,9 +1927,9 @@
             		corner_tr="data\if\frames\SmallTitle\corner_top-right.dds"
             		corner_bl="data\if\frames\SmallTitle\corner_bottom-left.dds"
             		corner_br="data\if\frames\SmallTitle\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1919,9 +1943,9 @@
             		corner_tr="data\if\frames\ComboBox\frm_top-right.dds"
             		corner_bl="data\if\frames\ComboBox\frm_bottom-left.dds"
             		corner_br="data\if\frames\ComboBox\frm_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="12"
 			barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="12"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1935,9 +1959,9 @@
             		corner_tr="data\if\frames\Scroll1\scrollzone_top-right.dds"
             		corner_bl="data\if\frames\Scroll1\scrollzone_bottom-left.dds"
             		corner_br="data\if\frames\Scroll1\scrollzone_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="11"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1951,25 +1975,25 @@
             		corner_tr="data\if\frames\Frame E\corner_top-right.dds"
             		corner_bl="data\if\frames\Frame E\corner_bottom-left.dds"
             		corner_br="data\if\frames\Frame E\corner_bottom-right.dds"
-            		barTexWidth="8"
+            		barTexWidth="12"
 			barUsedWidthRatio="1"
-            		cornerSize="8"            		
+            		cornerSize="12"            		
             		barRepeat="0"  
 		/>   
                   
 		<Item
 			name="FrTooltip"
-            		bar_l="data\if\frames\tooltip\tooltip_l.dds"
-            		bar_r="data\if\frames\tooltip\tooltip_r.dds"
-            		bar_t="data\if\frames\tooltip\tooltip_t.dds"
-            		bar_b="data\if\frames\tooltip\tooltip_b.dds"
-            		corner_tl="data\if\frames\tooltip\tooltip_tl.dds"
-            		corner_tr="data\if\frames\tooltip\tooltip_tr.dds"
-            		corner_bl="data\if\frames\tooltip\tooltip_bl.dds"
-            		corner_br="data\if\frames\tooltip\tooltip_br.dds"
-            		barTexWidth="16"
+            		bar_l="data\if\frames\MsgBox\mb_l.dds"
+            		bar_r="data\if\frames\MsgBox\mb_r.dds"
+            		bar_t="data\if\frames\MsgBox\mb_t.dds"
+            		bar_b="data\if\frames\MsgBox\mb_b.dds"
+            		corner_tl="data\if\frames\MsgBox\mb_tl.dds"
+            		corner_tr="data\if\frames\MsgBox\mb_tr.dds"
+            		corner_bl="data\if\frames\MsgBox\mb_bl.dds"
+            		corner_br="data\if\frames\MsgBox\mb_br.dds"
+            		barTexWidth="22"
 			barUsedWidthRatio="0.25"
-            		cornerSize="16"            		
+            		cornerSize="22"            		
             		barRepeat="0"  
 		/>                     
 
@@ -1983,15 +2007,47 @@
             		corner_tr="data\if\frames\menu\menu_tr.dds"
             		corner_bl="data\if\frames\menu\menu_bl.dds"
             		corner_br="data\if\frames\menu\menu_br.dds"
-            		barTexWidth="32"
+            		barTexWidth="45"
 			barUsedWidthRatio="0.75"
-            		cornerSize="32"            		
+            		cornerSize="45"            		
             		barRepeat="0"  
-		/>                     
+		/>
+		
+		<Item
+		name="FrGuns"
+				bar_l="data\if\frames\guns\guns_l.dds"
+				bar_r="data\if\frames\guns\guns_r.dds"
+				bar_t="data\if\frames\guns\guns_t.dds"
+				bar_b="data\if\frames\guns\guns_b.dds"
+				corner_tl="data\if\frames\guns\guns_tl.dds"
+				corner_tr="data\if\frames\guns\guns_tr.dds"
+				corner_bl="data\if\frames\guns\guns_bl.dds"
+				corner_br="data\if\frames\guns\guns_br.dds"
+				barTexWidth="32"
+		barUsedWidthRatio="0.75"
+				cornerSize="32"            		
+				barRepeat="0"  
+		/>  
+
+		<Item
+		name="FrGunsGreen"
+				bar_l="data\if\frames\guns\guns_l_green.dds"
+				bar_r="data\if\frames\guns\guns_r_green.dds"
+				bar_t="data\if\frames\guns\guns_t_green.dds"
+				bar_b="data\if\frames\guns\guns_b_green.dds"
+				corner_tl="data\if\frames\guns\guns_tl_green.dds"
+				corner_tr="data\if\frames\guns\guns_tr_green.dds"
+				corner_bl="data\if\frames\guns\guns_bl_green.dds"
+				corner_br="data\if\frames\guns\guns_br_green.dds"
+				barTexWidth="32"
+		barUsedWidthRatio="0.75"
+				cornerSize="32"            		
+				barRepeat="0"  
+		/>
 
 		<Item
 			name="FrFrameF"
-            		bar_l="data\if\frames\Frame F\frameg_l.tga"
+            		bar_l="data\if\frames\Frame F\frameg_r.tga"
             		bar_r="data\if\frames\Frame F\frameg_r.tga"
             		bar_t="data\if\frames\Frame F\frameg_t.tga"
             		bar_b="data\if\frames\Frame F\frameg_b.tga"
@@ -1999,25 +2055,25 @@
             		corner_tr="data\if\frames\Frame F\frameg_tr.tga"
             		corner_bl="data\if\frames\Frame F\frameg_bl.tga"
             		corner_br="data\if\frames\Frame F\frameg_br.tga"
-            		barTexWidth="8"
+            		barTexWidth="11"
 					barUsedWidthRatio="0.5"
-            		cornerSize="8"            		
+            		cornerSize="11"            		
             		barRepeat="0"  
 		/>                     
 
 		<Item
 			name="FrMsgBox"
-            		bar_l="data\if\frames\MsgBox\mb_l.tga"
-            		bar_r="data\if\frames\MsgBox\mb_r.tga"
-            		bar_t="data\if\frames\MsgBox\mb_t.tga"
-            		bar_b="data\if\frames\MsgBox\mb_b.tga"
-            		corner_tl="data\if\frames\MsgBox\mb_tl.tga"
-            		corner_tr="data\if\frames\MsgBox\mb_tr.tga"
-            		corner_bl="data\if\frames\MsgBox\mb_bl.tga"
-            		corner_br="data\if\frames\MsgBox\mb_br.tga"
-            		barTexWidth="32"
+            		bar_l="data\if\frames\MsgBox\mb_l.dds"
+            		bar_r="data\if\frames\MsgBox\mb_r.dds"
+            		bar_t="data\if\frames\MsgBox\mb_t.dds"
+            		bar_b="data\if\frames\MsgBox\mb_b.dds"
+            		corner_tl="data\if\frames\MsgBox\mb_tl.dds"
+            		corner_tr="data\if\frames\MsgBox\mb_tr.dds"
+            		corner_bl="data\if\frames\MsgBox\mb_bl.dds"
+            		corner_br="data\if\frames\MsgBox\mb_br.dds"
+            		barTexWidth="45"
 					barUsedWidthRatio="0.5"
-            		cornerSize="32"            		
+            		cornerSize="45"            		
             		barRepeat="0"  
 		/>                     
 
@@ -2401,8 +2457,8 @@
 
 			name="PaneGun"
 			bgOut="black"
-			frameOut="FrInventory"
-			frameDown="FrGreenThick"
+			frameOut="FrGuns"
+			frameDown="FrGunsGreen"
 		/>
 
 		<Item
@@ -2668,6 +2724,13 @@
 			innerBg="true" 
               	/>
 
+				<Item
+			name="PaneFrameK"
+			bgOut="BgFrameK"
+			frameOut="FrFrameK" 
+			innerBg="true" 
+				/>
+
 		<Item
 			name="PaneLineFrameB"
 			bgOut="BgLineFrameB_horiz"
@@ -2805,4 +2868,3 @@
 	</Panes>
 
 </Themes>
-
