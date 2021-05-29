@@ -328,6 +328,14 @@
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
+	
+	<Item
+		class="CinemaFadePanel"
+		id="IW_WND_CINEMA_FADE_PANEL"
+		file=""
+		showImmediate="0"
+		loadType="AT_APP_START"
+	/>
 
 	<Item
 		class="VehicleCharacteristicsWnd"

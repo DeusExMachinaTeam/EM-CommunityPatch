@@ -10,7 +10,7 @@
 			scrollBtnSize="40 40"
 			scrollSpace="-2.5"
 
-			scrollThumb="data\if\frames\Scroll1\scroller.dds"
+			scrollThumb="data\if\frames\scroll1_hd\scroller.dds"
 			scrollBarPane="PaneScrollBarDefault"
 			scrollBtnPrevPane="PaneScrollBtnPrevDefault"
 			scrollBtnNextPane="PaneScrollBtnNextDefault"
@@ -615,14 +615,14 @@
 
 		<Item
 			name="BgLineGreenThinHorz"
-			file="data\if\frames\cornote1_u.dds"
+			file="data\if\frames\cornote1_u_hd.dds"
 			bgRepeatU="1"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgLineGreenThinVert"
-			file="data\if\frames\cornote1_l.dds"
+			file="data\if\frames\cornote1_l_hd.dds"
 			bgRepeatU="0"
 			bgRepeatV="1"
 		/>
@@ -728,42 +728,42 @@
 
 		<Item
 			name="BgPlusArrowOut1"
-			file="data\if\frames\BtnCloseOpenList\btn_openlist_e.dds"
+			file="data\if\frames\btncloseopenlist_hd\btn_openlist_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                 
 
 		<Item
 			name="BgPlusArrowDown1"
-			file="data\if\frames\BtnCloseOpenList\btn_openlist_p.dds"
+			file="data\if\frames\btncloseopenlist_hd\btn_openlist_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                 
 
 		<Item
 			name="BgPlusArrowOver1"
-			file="data\if\frames\BtnCloseOpenList\btn_openlist_s.dds"
+			file="data\if\frames\btncloseopenlist_hd\btn_openlist_s.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                 
 
 		<Item
 			name="BgMinusArrowOut1"
-			file="data\if\frames\BtnCloseOpenList\btn_closelist_e.dds"
+			file="data\if\frames\btncloseopenlist_hd\btn_closelist_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                 
 
 		<Item
 			name="BgMinusArrowDown1"
-			file="data\if\frames\BtnCloseOpenList\btn_closelist_p.dds"
+			file="data\if\frames\btncloseopenlist_hd\btn_closelist_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                 
 
 		<Item
 			name="BgMinusArrowOver1"
-			file="data\if\frames\BtnCloseOpenList\btn_closelist_s.dds"
+			file="data\if\frames\btncloseopenlist_hd\btn_closelist_s.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
@@ -819,77 +819,77 @@
 
 		<Item
 			name="BgComboToggleBtnOpenDefaultOut"
-			file="data\if\frames\Scroll1\btn_down_e.dds"
+			file="data\if\frames\scroll1_hd\btn_down_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgComboToggleBtnOpenDefaultOver"
-			file="data\if\frames\Scroll1\btn_down_h.dds"
+			file="data\if\frames\scroll1_hd\btn_down_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgComboToggleBtnOpenDefaultDown"
-			file="data\if\frames\Scroll1\btn_down_p.dds"
+			file="data\if\frames\scroll1_hd\btn_down_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgComboToggleBtnCloseDefaultOut"
-			file="data\if\frames\Scroll1\btn_up_e.dds"
+			file="data\if\frames\scroll1_hd\btn_up_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>  
 
 		<Item
 			name="BgComboToggleBtnCloseDefaultOver"
-			file="data\if\frames\Scroll1\btn_up_h.dds"
+			file="data\if\frames\scroll1_hd\btn_up_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>  
 
 		<Item
 			name="BgComboToggleBtnCloseDefaultDown"
-			file="data\if\frames\Scroll1\btn_up_p.dds"
+			file="data\if\frames\scroll1_hd\btn_up_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgBtnGray1Out"
-			file="data\if\frames\BtnGray1\Enabled\fill.dds"
+			file="data\if\frames\btngray1_hd\Enabled\fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgBtnGray1Down"
-			file="data\if\frames\BtnGray1\Pressed\fill.dds"
+			file="data\if\frames\btngray1_hd\Pressed\fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgBtnGray1Over"
-			file="data\if\frames\BtnGray1\Selected\fill.dds"
+			file="data\if\frames\btngray1_hd\Selected\fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>
 
 		<Item
 			name="BgBtnGray1Disable"
-			file="data\if\frames\BtnGray1\Disabled\fill.dds"
+			file="data\if\frames\btngray1_hd\Disabled\fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/> 
 
 		<Item
 			name="BgBtnGray1Orange"
-			file="data\if\frames\BtnGray1\Orange\fill.dds"
+			file="data\if\frames\btngray1_hd\Orange\fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/> 
@@ -966,7 +966,7 @@
 
 		<Item
 			name="BgLineMenu_horiz"
-			file="data\if\frames\menu\darkdot.dds"
+			file="data\if\frames\menu_hd\darkdot.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                                   
@@ -980,56 +980,56 @@
 
 		<Item
 			name="BgComboBox"
-			file="data\if\frames\ComboBox\fill_gray.dds"
+			file="data\if\frames\combobox_hd\fill_gray.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                                   
 
 		<Item
 			name="BgScrollBarDefault"
-			file="data\if\frames\Scroll1\scrollzone_center.dds"
+			file="data\if\frames\scroll1_hd\scrollzone_center.dds"
 			bgRepeatU="0"
 			bgRepeatV="1"
 		/>                                   
 
 		<Item
 			name="BgScrollBtnPrevDefault_out"
-			file="data\if\frames\Scroll1\btn_up_e.dds"
+			file="data\if\frames\scroll1_hd\btn_up_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                                   
 
 		<Item
 			name="BgScrollBtnPrevDefault_over"
-			file="data\if\frames\Scroll1\btn_up_h.dds"
+			file="data\if\frames\scroll1_hd\btn_up_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                                   
 
 		<Item
 			name="BgScrollBtnPrevDefault_down"
-			file="data\if\frames\Scroll1\btn_up_p.dds"
+			file="data\if\frames\scroll1_hd\btn_up_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                                   
 
 		<Item
 			name="BgScrollBtnNextDefault_out"
-			file="data\if\frames\Scroll1\btn_down_e.dds"
+			file="data\if\frames\scroll1_hd\btn_down_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>   
 
 		<Item
 			name="BgScrollBtnNextDefault_over"
-			file="data\if\frames\Scroll1\btn_down_h.dds"
+			file="data\if\frames\scroll1_hd\btn_down_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                                   
 
 		<Item
 			name="BgScrollBtnNextDefault_down"
-			file="data\if\frames\Scroll1\btn_down_p.dds"
+			file="data\if\frames\scroll1_hd\btn_down_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
@@ -1043,7 +1043,7 @@
 
 		<Item
 			name="BgMenu"
-			file="data\if\frames\menu\menu_fill.dds"
+			file="data\if\frames\menu_hd\menu_fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
@@ -1051,56 +1051,56 @@
 
 		<Item
 			name="BgDefaultCheckCheckedOut"
-			file="data\if\frames\CheckBox\chkbox_e_c.dds"
+			file="data\if\frames\checkbox_hd\chkbox_e_c.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgDefaultCheckCheckedOver"
-			file="data\if\frames\CheckBox\chkbox_s_c.dds"
+			file="data\if\frames\checkbox_hd\chkbox_s_c.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgDefaultCheckCheckedDown"
-			file="data\if\frames\CheckBox\chkbox_e_c.dds"
+			file="data\if\frames\checkbox_hd\chkbox_e_c.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgDefaultCheckCheckedDisabled"
-			file="data\if\frames\CheckBox\chkbox_d_c.dds"
+			file="data\if\frames\checkbox_hd\chkbox_d_c.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgDefaultCheckUncheckedOut"
-			file="data\if\frames\CheckBox\chkbox_e_n.dds"
+			file="data\if\frames\checkbox_hd\chkbox_e_n.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgDefaultCheckUncheckedOver"
-			file="data\if\frames\CheckBox\chkbox_s_n.dds"
+			file="data\if\frames\checkbox_hd\chkbox_s_n.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgDefaultCheckUncheckedDown"
-			file="data\if\frames\CheckBox\chkbox_e_n.dds"
+			file="data\if\frames\checkbox_hd\chkbox_e_n.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgDefaultCheckUncheckedDisabled"
-			file="data\if\frames\CheckBox\chkbox_d_n.dds"
+			file="data\if\frames\checkbox_hd\chkbox_d_n.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
@@ -1114,7 +1114,7 @@
 
 		<Item
 			name="BgMsgBox"
-			file="data\if\frames\MsgBox\mb_fill.dds"
+			file="data\if\frames\msgbox_hd\mb_fill.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
@@ -1149,56 +1149,56 @@
 
 		<Item
 			name="BgBtnSliderPrev_out"
-			file="data\if\frames\Slider\b_minus_e.dds"
+			file="data\if\frames\slider_hd\b_minus_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderPrev_over"
-			file="data\if\frames\Slider\b_minus_h.dds"
+			file="data\if\frames\slider_hd\b_minus_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderPrev_down"
-			file="data\if\frames\Slider\b_minus_p.dds"
+			file="data\if\frames\slider_hd\b_minus_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderPrev_disable"
-			file="data\if\frames\Slider\b_minus_d.dds"
+			file="data\if\frames\slider_hd\b_minus_d.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_out"
-			file="data\if\frames\Slider\b_plus_e.dds"
+			file="data\if\frames\slider_hd\b_plus_e.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_over"
-			file="data\if\frames\Slider\b_plus_h.dds"
+			file="data\if\frames\slider_hd\b_plus_h.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_down"
-			file="data\if\frames\Slider\b_plus_p.dds"
+			file="data\if\frames\slider_hd\b_plus_p.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/>                             
 
 		<Item
 			name="BgBtnSliderNext_disable"
-			file="data\if\frames\Slider\b_plus_d.dds"
+			file="data\if\frames\slider_hd\b_plus_d.dds"
 			bgRepeatU="0"
 			bgRepeatV="0"
 		/> 
@@ -1430,9 +1430,9 @@
 
 		<Item
 			name="FrGreenThin"
-            		bar_l="data\if\frames\cornote1_l.dds"
-            		bar_t="data\if\frames\cornote1_u.dds"
-            		corner_tl="data\if\frames\cornote1_ul.dds"
+            		bar_l="data\if\frames\cornote1_l_hd.dds"
+            		bar_t="data\if\frames\cornote1_u_hd.dds"
+            		corner_tl="data\if\frames\cornote1_ul_hd.dds"
             		barTexWidth="5"
 			barUsedWidthRatio="1"
             		cornerSize="11"            		
@@ -1441,9 +1441,9 @@
 
 		<Item
 			name="FrGreenThick"
-            		bar_l="data\if\frames\cornote2_l.dds"
-            		bar_t="data\if\frames\cornote2_u.dds"
-            		corner_tl="data\if\frames\cornote2_ul.dds"
+            		bar_l="data\if\frames\cornote2_l_hd.dds"
+            		bar_t="data\if\frames\cornote2_u_hd.dds"
+            		corner_tl="data\if\frames\cornote2_ul_hd.dds"
             		barTexWidth="11"
 			barUsedWidthRatio="0.5"
             		cornerSize="11"            		
@@ -1683,14 +1683,14 @@
 
 		<Item
 			name="FrBtnGray1Out"
-            		bar_l="data\if\frames\BtnGray1\Enabled\margin_left.dds"
-            		bar_t="data\if\frames\BtnGray1\Enabled\margin_top.dds"
-            		bar_r="data\if\frames\BtnGray1\Enabled\margin_right.dds"
-            		bar_b="data\if\frames\BtnGray1\Enabled\margin_bottom.dds"
-            		corner_tl="data\if\frames\BtnGray1\Enabled\corner_top-left.dds"
-            		corner_tr="data\if\frames\BtnGray1\Enabled\corner_top-right.dds"
-            		corner_bl="data\if\frames\BtnGray1\Enabled\corner_bottom-left.dds"
-            		corner_br="data\if\frames\BtnGray1\Enabled\corner_bottom-right.dds"
+            		bar_l="data\if\frames\btngray1_hd\Enabled\margin_left.dds"
+            		bar_t="data\if\frames\btngray1_hd\Enabled\margin_top.dds"
+            		bar_r="data\if\frames\btngray1_hd\Enabled\margin_right.dds"
+            		bar_b="data\if\frames\btngray1_hd\Enabled\margin_bottom.dds"
+            		corner_tl="data\if\frames\btngray1_hd\Enabled\corner_top-left.dds"
+            		corner_tr="data\if\frames\btngray1_hd\Enabled\corner_top-right.dds"
+            		corner_bl="data\if\frames\btngray1_hd\Enabled\corner_bottom-left.dds"
+            		corner_br="data\if\frames\btngray1_hd\Enabled\corner_bottom-right.dds"
             		barTexWidth="14"
 			barUsedWidthRatio="0.5"
             		cornerSize="14"            		
@@ -1699,14 +1699,14 @@
 
 		<Item
 			name="FrBtnGray1Down"
-            		bar_l="data\if\frames\BtnGray1\Pressed\margin_left.dds"
-            		bar_t="data\if\frames\BtnGray1\Pressed\margin_top.dds"
-            		bar_r="data\if\frames\BtnGray1\Pressed\margin_right.dds"
-            		bar_b="data\if\frames\BtnGray1\Pressed\margin_bottom.dds"
-            		corner_tl="data\if\frames\BtnGray1\Pressed\corner_top-left.dds"
-            		corner_tr="data\if\frames\BtnGray1\Pressed\corner_top-right.dds"
-            		corner_bl="data\if\frames\BtnGray1\Pressed\corner_bottom-left.dds"
-            		corner_br="data\if\frames\BtnGray1\Pressed\corner_bottom-right.dds"
+            		bar_l="data\if\frames\btngray1_hd\Pressed\margin_left.dds"
+            		bar_t="data\if\frames\btngray1_hd\Pressed\margin_top.dds"
+            		bar_r="data\if\frames\btngray1_hd\Pressed\margin_right.dds"
+            		bar_b="data\if\frames\btngray1_hd\Pressed\margin_bottom.dds"
+            		corner_tl="data\if\frames\btngray1_hd\Pressed\corner_top-left.dds"
+            		corner_tr="data\if\frames\btngray1_hd\Pressed\corner_top-right.dds"
+            		corner_bl="data\if\frames\btngray1_hd\Pressed\corner_bottom-left.dds"
+            		corner_br="data\if\frames\btngray1_hd\Pressed\corner_bottom-right.dds"
             		barTexWidth="14"
 			barUsedWidthRatio="0.5"
             		cornerSize="14"            		
@@ -1715,14 +1715,14 @@
 
 		<Item
 			name="FrBtnGray1Over"
-            		bar_l="data\if\frames\BtnGray1\Selected\margin_left.dds"
-            		bar_t="data\if\frames\BtnGray1\Selected\margin_top.dds"
-            		bar_r="data\if\frames\BtnGray1\Selected\margin_right.dds"
-            		bar_b="data\if\frames\BtnGray1\Selected\margin_bottom.dds"
-            		corner_tl="data\if\frames\BtnGray1\Selected\corner_top-left.dds"
-            		corner_tr="data\if\frames\BtnGray1\Selected\corner_top-right.dds"
-            		corner_bl="data\if\frames\BtnGray1\Selected\corner_bottom-left.dds"
-            		corner_br="data\if\frames\BtnGray1\Selected\corner_bottom-right.dds"
+            		bar_l="data\if\frames\btngray1_hd\Selected\margin_left.dds"
+            		bar_t="data\if\frames\btngray1_hd\Selected\margin_top.dds"
+            		bar_r="data\if\frames\btngray1_hd\Selected\margin_right.dds"
+            		bar_b="data\if\frames\btngray1_hd\Selected\margin_bottom.dds"
+            		corner_tl="data\if\frames\btngray1_hd\Selected\corner_top-left.dds"
+            		corner_tr="data\if\frames\btngray1_hd\Selected\corner_top-right.dds"
+            		corner_bl="data\if\frames\btngray1_hd\Selected\corner_bottom-left.dds"
+            		corner_br="data\if\frames\btngray1_hd\Selected\corner_bottom-right.dds"
             		barTexWidth="14"
 			barUsedWidthRatio="0.5"
             		cornerSize="14"            		
@@ -1731,14 +1731,14 @@
 
 		<Item
 			name="FrBtnGray1Disable"
-            		bar_l="data\if\frames\BtnGray1\Disabled\margin_left.dds"
-            		bar_t="data\if\frames\BtnGray1\Disabled\margin_top.dds"
-            		bar_r="data\if\frames\BtnGray1\Disabled\margin_right.dds"
-            		bar_b="data\if\frames\BtnGray1\Disabled\margin_bottom.dds"
-            		corner_tl="data\if\frames\BtnGray1\Disabled\corner_top-left.dds"
-            		corner_tr="data\if\frames\BtnGray1\Disabled\corner_top-right.dds"
-            		corner_bl="data\if\frames\BtnGray1\Disabled\corner_bottom-left.dds"
-            		corner_br="data\if\frames\BtnGray1\Disabled\corner_bottom-right.dds"
+            		bar_l="data\if\frames\btngray1_hd\Disabled\margin_left.dds"
+            		bar_t="data\if\frames\btngray1_hd\Disabled\margin_top.dds"
+            		bar_r="data\if\frames\btngray1_hd\Disabled\margin_right.dds"
+            		bar_b="data\if\frames\btngray1_hd\Disabled\margin_bottom.dds"
+            		corner_tl="data\if\frames\btngray1_hd\Disabled\corner_top-left.dds"
+            		corner_tr="data\if\frames\btngray1_hd\Disabled\corner_top-right.dds"
+            		corner_bl="data\if\frames\btngray1_hd\Disabled\corner_bottom-left.dds"
+            		corner_br="data\if\frames\btngray1_hd\Disabled\corner_bottom-right.dds"
             		barTexWidth="14"
 			barUsedWidthRatio="0.5"
             		cornerSize="14"            		
@@ -1747,14 +1747,14 @@
 
 		<Item
 			name="FrBtnGray1Orange"
-            		bar_l="data\if\frames\BtnGray1\Orange\margin_left.dds"
-            		bar_t="data\if\frames\BtnGray1\Orange\margin_top.dds"
-            		bar_r="data\if\frames\BtnGray1\Orange\margin_right.dds"
-            		bar_b="data\if\frames\BtnGray1\Orange\margin_bottom.dds"
-            		corner_tl="data\if\frames\BtnGray1\Orange\corner_top-left.dds"
-            		corner_tr="data\if\frames\BtnGray1\Orange\corner_top-right.dds"
-            		corner_bl="data\if\frames\BtnGray1\Orange\corner_bottom-left.dds"
-            		corner_br="data\if\frames\BtnGray1\Orange\corner_bottom-right.dds"
+            		bar_l="data\if\frames\btngray1_hd\Orange\margin_left.dds"
+            		bar_t="data\if\frames\btngray1_hd\Orange\margin_top.dds"
+            		bar_r="data\if\frames\btngray1_hd\Orange\margin_right.dds"
+            		bar_b="data\if\frames\btngray1_hd\Orange\margin_bottom.dds"
+            		corner_tl="data\if\frames\btngray1_hd\Orange\corner_top-left.dds"
+            		corner_tr="data\if\frames\btngray1_hd\Orange\corner_top-right.dds"
+            		corner_bl="data\if\frames\btngray1_hd\Orange\corner_bottom-left.dds"
+            		corner_br="data\if\frames\btngray1_hd\Orange\corner_bottom-right.dds"
             		barTexWidth="14"
 			barUsedWidthRatio="0.5"
             		cornerSize="14"            		
@@ -1903,14 +1903,14 @@
 
 		<Item
 			name="FrEmboss"
-            		bar_l="data\if\frames\emboss\shadow.dds"
-            		bar_t="data\if\frames\emboss\shadow.dds"
-            		bar_r="data\if\frames\emboss\light.dds"
-            		bar_b="data\if\frames\emboss\light.dds"
-            		corner_tl="data\if\frames\emboss\corner_top-left.dds"
-            		corner_tr="data\if\frames\emboss\corner_top-right.dds"
-            		corner_bl="data\if\frames\emboss\corner_bottom-left.dds"
-            		corner_br="data\if\frames\emboss\corner_bottom-right.dds"
+            		bar_l="data\if\frames\emboss_hd\shadow.dds"
+            		bar_t="data\if\frames\emboss_hd\shadow.dds"
+            		bar_r="data\if\frames\emboss_hd\light.dds"
+            		bar_b="data\if\frames\emboss_hd\light.dds"
+            		corner_tl="data\if\frames\emboss_hd\corner_top-left.dds"
+            		corner_tr="data\if\frames\emboss_hd\corner_top-right.dds"
+            		corner_bl="data\if\frames\emboss_hd\corner_bottom-left.dds"
+            		corner_br="data\if\frames\emboss_hd\corner_bottom-right.dds"
             		barTexWidth="13"
 			barUsedWidthRatio="1"
             		cornerSize="13"            		
@@ -1935,14 +1935,14 @@
 
 		<Item
 			name="FrComboBox"
-            		bar_l="data\if\frames\ComboBox\frm_margin_left.dds"
-            		bar_t="data\if\frames\ComboBox\frm_margin_top.dds"
-            		bar_r="data\if\frames\ComboBox\frm_margin_right.dds"
-            		bar_b="data\if\frames\ComboBox\frm_margin_bottom.dds"
-            		corner_tl="data\if\frames\ComboBox\frm_top-left.dds"
-            		corner_tr="data\if\frames\ComboBox\frm_top-right.dds"
-            		corner_bl="data\if\frames\ComboBox\frm_bottom-left.dds"
-            		corner_br="data\if\frames\ComboBox\frm_bottom-right.dds"
+            		bar_l="data\if\frames\combobox_hd\frm_margin_left.dds"
+            		bar_t="data\if\frames\combobox_hd\frm_margin_top.dds"
+            		bar_r="data\if\frames\combobox_hd\frm_margin_right.dds"
+            		bar_b="data\if\frames\combobox_hd\frm_margin_bottom.dds"
+            		corner_tl="data\if\frames\combobox_hd\frm_top-left.dds"
+            		corner_tr="data\if\frames\combobox_hd\frm_top-right.dds"
+            		corner_bl="data\if\frames\combobox_hd\frm_bottom-left.dds"
+            		corner_br="data\if\frames\combobox_hd\frm_bottom-right.dds"
             		barTexWidth="12"
 			barUsedWidthRatio="0.5"
             		cornerSize="12"            		
@@ -1951,14 +1951,14 @@
 
 		<Item
 			name="FrScrollBarDefault"
-            		bar_l="data\if\frames\Scroll1\scrollzone_left.dds"
-            		bar_t="data\if\frames\Scroll1\scrollzone_top.dds"
-            		bar_r="data\if\frames\Scroll1\scrollzone_right.dds"
-            		bar_b="data\if\frames\Scroll1\scrollzone_bottom.dds"
-            		corner_tl="data\if\frames\Scroll1\scrollzone_top-left.dds"
-            		corner_tr="data\if\frames\Scroll1\scrollzone_top-right.dds"
-            		corner_bl="data\if\frames\Scroll1\scrollzone_bottom-left.dds"
-            		corner_br="data\if\frames\Scroll1\scrollzone_bottom-right.dds"
+            		bar_l="data\if\frames\scroll1_hd\scrollzone_left.dds"
+            		bar_t="data\if\frames\scroll1_hd\scrollzone_top.dds"
+            		bar_r="data\if\frames\scroll1_hd\scrollzone_right.dds"
+            		bar_b="data\if\frames\scroll1_hd\scrollzone_bottom.dds"
+            		corner_tl="data\if\frames\scroll1_hd\scrollzone_top-left.dds"
+            		corner_tr="data\if\frames\scroll1_hd\scrollzone_top-right.dds"
+            		corner_bl="data\if\frames\scroll1_hd\scrollzone_bottom-left.dds"
+            		corner_br="data\if\frames\scroll1_hd\scrollzone_bottom-right.dds"
             		barTexWidth="11"
 			barUsedWidthRatio="1"
             		cornerSize="11"            		
@@ -1967,14 +1967,14 @@
 
 		<Item
 			name="FrInventory"
-            		bar_l="data\if\frames\Frame E\margin_vertical.dds"
-            		bar_r="data\if\frames\Frame E\margin_vertical.dds"
-            		bar_t="data\if\frames\Frame E\margin_horizontal.dds"
-            		bar_b="data\if\frames\Frame E\margin_horizontal.dds"
-            		corner_tl="data\if\frames\Frame E\corner_top-left.dds"
-            		corner_tr="data\if\frames\Frame E\corner_top-right.dds"
-            		corner_bl="data\if\frames\Frame E\corner_bottom-left.dds"
-            		corner_br="data\if\frames\Frame E\corner_bottom-right.dds"
+            		bar_l="data\if\frames\frame_e_hd\margin_vertical.dds"
+            		bar_r="data\if\frames\frame_e_hd\margin_vertical.dds"
+            		bar_t="data\if\frames\frame_e_hd\margin_horizontal.dds"
+            		bar_b="data\if\frames\frame_e_hd\margin_horizontal.dds"
+            		corner_tl="data\if\frames\frame_e_hd\corner_top-left.dds"
+            		corner_tr="data\if\frames\frame_e_hd\corner_top-right.dds"
+            		corner_bl="data\if\frames\frame_e_hd\corner_bottom-left.dds"
+            		corner_br="data\if\frames\frame_e_hd\corner_bottom-right.dds"
             		barTexWidth="12"
 			barUsedWidthRatio="1"
             		cornerSize="12"            		
@@ -1983,14 +1983,14 @@
                   
 		<Item
 			name="FrTooltip"
-            		bar_l="data\if\frames\MsgBox\mb_l.dds"
-            		bar_r="data\if\frames\MsgBox\mb_r.dds"
-            		bar_t="data\if\frames\MsgBox\mb_t.dds"
-            		bar_b="data\if\frames\MsgBox\mb_b.dds"
-            		corner_tl="data\if\frames\MsgBox\mb_tl.dds"
-            		corner_tr="data\if\frames\MsgBox\mb_tr.dds"
-            		corner_bl="data\if\frames\MsgBox\mb_bl.dds"
-            		corner_br="data\if\frames\MsgBox\mb_br.dds"
+            		bar_l="data\if\frames\msgbox_hd\mb_l.dds"
+            		bar_r="data\if\frames\msgbox_hd\mb_r.dds"
+            		bar_t="data\if\frames\msgbox_hd\mb_t.dds"
+            		bar_b="data\if\frames\msgbox_hd\mb_b.dds"
+            		corner_tl="data\if\frames\msgbox_hd\mb_tl.dds"
+            		corner_tr="data\if\frames\msgbox_hd\mb_tr.dds"
+            		corner_bl="data\if\frames\msgbox_hd\mb_bl.dds"
+            		corner_br="data\if\frames\msgbox_hd\mb_br.dds"
             		barTexWidth="22"
 			barUsedWidthRatio="0.25"
             		cornerSize="22"            		
@@ -1999,14 +1999,14 @@
 
 		<Item
 			name="FrMenu"
-            		bar_l="data\if\frames\menu\menu_l.dds"
-            		bar_r="data\if\frames\menu\menu_r.dds"
-            		bar_t="data\if\frames\menu\menu_t.dds"
-            		bar_b="data\if\frames\menu\menu_b.dds"
-            		corner_tl="data\if\frames\menu\menu_tl.dds"
-            		corner_tr="data\if\frames\menu\menu_tr.dds"
-            		corner_bl="data\if\frames\menu\menu_bl.dds"
-            		corner_br="data\if\frames\menu\menu_br.dds"
+            		bar_l="data\if\frames\menu_hd\menu_l.dds"
+            		bar_r="data\if\frames\menu_hd\menu_r.dds"
+            		bar_t="data\if\frames\menu_hd\menu_t.dds"
+            		bar_b="data\if\frames\menu_hd\menu_b.dds"
+            		corner_tl="data\if\frames\menu_hd\menu_tl.dds"
+            		corner_tr="data\if\frames\menu_hd\menu_tr.dds"
+            		corner_bl="data\if\frames\menu_hd\menu_bl.dds"
+            		corner_br="data\if\frames\menu_hd\menu_br.dds"
             		barTexWidth="45"
 			barUsedWidthRatio="0.75"
             		cornerSize="45"            		
@@ -2063,14 +2063,14 @@
 
 		<Item
 			name="FrMsgBox"
-            		bar_l="data\if\frames\MsgBox\mb_l.dds"
-            		bar_r="data\if\frames\MsgBox\mb_r.dds"
-            		bar_t="data\if\frames\MsgBox\mb_t.dds"
-            		bar_b="data\if\frames\MsgBox\mb_b.dds"
-            		corner_tl="data\if\frames\MsgBox\mb_tl.dds"
-            		corner_tr="data\if\frames\MsgBox\mb_tr.dds"
-            		corner_bl="data\if\frames\MsgBox\mb_bl.dds"
-            		corner_br="data\if\frames\MsgBox\mb_br.dds"
+            		bar_l="data\if\frames\msgbox_hd\mb_l.dds"
+            		bar_r="data\if\frames\msgbox_hd\mb_r.dds"
+            		bar_t="data\if\frames\msgbox_hd\mb_t.dds"
+            		bar_b="data\if\frames\msgbox_hd\mb_b.dds"
+            		corner_tl="data\if\frames\msgbox_hd\mb_tl.dds"
+            		corner_tr="data\if\frames\msgbox_hd\mb_tr.dds"
+            		corner_bl="data\if\frames\msgbox_hd\mb_bl.dds"
+            		corner_br="data\if\frames\msgbox_hd\mb_br.dds"
             		barTexWidth="45"
 					barUsedWidthRatio="0.5"
             		cornerSize="45"            		
