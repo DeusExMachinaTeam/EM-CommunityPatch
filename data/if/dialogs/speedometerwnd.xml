@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Player speedometer shown when driving-->
+<!-- Child of maingameinterfacewnd.xml, related to counterwnd.xml -->
 <Prefabs>
 	<Node
 		name="SpeedometerWnd"
 		class="Wnd"
-		org="896.000 0.000 128.000 128.000"
+		org="1715.000 0.000 205.000 205.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -20,18 +23,17 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff8f8f8f">
-
 		<Node
 			name="wndHighlight_0"
 			class="ImageWnd"
-			org="3.000 5.000 128.000 128.000"
+			org="4.000 8.000 205.000 205.000"
 			style="768"
 			order="2"
 			id="0"
 			caption=""
 			tip=""
 			backimage=""
-			image="data\if\ico\MainGameInterfaceWnd\highlight.dds"
+			image="data\if\ico\MainGameInterfaceWnd\highlight_speedometer.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
@@ -42,20 +44,20 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHighlight_1"
 			class="ImageWnd"
-			org="3.000 5.000 128.000 128.000"
+			org="4.000 8.000 205.000 205.000"
 			style="768"
 			order="2"
 			id="0"
 			caption=""
 			tip=""
 			backimage=""
-			image="data\if\ico\MainGameInterfaceWnd\highlight.dds"
+			image="data\if\ico\MainGameInterfaceWnd\highlight_speedometer.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
@@ -66,13 +68,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSpeedNumber"
 			class="Wnd"
-			org="50.000 91.000 26.000 16.000"
+			org="80.000 146.000 42.000 24.000"
 			style="768"
 			order="2"
 			id="0"
@@ -89,13 +91,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSpeedNumber_0"
 			class="ImageWnd"
-			org="50.000 91.000 8.000 16.000"
+			org="79.500 146.000 12.000 24.000"
 			style="768"
 			order="2"
 			id="0"
@@ -112,14 +114,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndSpeedNumber_1"
 			class="ImageWnd"
-			org="59.000 91.000 8.000 16.000"
+			org="94.000 146.000 12.000 24.000"
 			style="768"
 			order="2"
 			id="0"
@@ -136,13 +137,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSpeedNumber_2"
 			class="ImageWnd"
-			org="68.000 91.000 8.000 16.000"
+			org="108.500 146.000 12.000 24.000"
 			style="768"
 			order="2"
 			id="0"
@@ -159,9 +160,9 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>

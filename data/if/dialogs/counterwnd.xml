@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Pop-up panel showing counter for time left to finish dynamic quest, left of the speedometer -->
+<!-- Child of maingameinterfacewnd.xml, related to speedometerwnd.xml -->
 <Prefabs>
 	<Node
 		name="wndCounter"
-		class="Wnd"                                            
-		org="834.000 55.000 128.000 32.000"
+		class="Wnd"
+		org="1616.000 88.000 205.000 52.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -20,59 +23,30 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f">
-
 		<Animations>
-
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="USER"
-				animationSpeed="200"
-				animationAccel="0"
+				animationSpeed="600"
+				animationAccel="-200"
 				animationDelayTime="0"
-				animationStartPt="889 55"
-				animationEndPt="834 55"
-			/>
+				animationStartPt="1700 88"
+				animationEndPt="1609 88"/>
 
-			<AnimationOnHide
+			<!-- <AnimationOnHide
 				animationEnabled="1"
 				animationType="USER"
-				animationSpeed="200"
-				animationAccel="0"
+				animationSpeed="100"
+				animationAccel="400"
 				animationDelayTime="0"
-				animationStartPt="834 55"
-				animationEndPt="889 55" 
-			/>              
-
+				animationStartPt="1616 88"
+				animationEndPt="1707 88"/> -->
 		</Animations>
 
-<!--
-		<Node
-			name="wndTitle"
-			class="Wnd"
-			org="5.000 5.000 120.000 20.000"
-			style="3904"
-			order="0"
-			id="0"
-			caption=""
-			tip=""
-			backimage=""
-			paneName="defaultWnd"
-			scrollPaneName="Scroll1"
-			paneFlags="7"
-			wrap="2"
-			format="1"
-			font="1"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ffffffff"
-			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>
--->
 		<Node
 			name="wndCounter"
 			class="Wnd"
-			org="0.000 0.000 128.000 32.000"
+			org="0.000 0.000 141.000 36.000"
 			style="768"
 			order="1"
 			id="0"
@@ -89,13 +63,13 @@
 			wndColor="00000000"
 			textColor="ff3995b0"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCounter_0"
 			class="ImageWnd"
-			org="14.000 5.000 8.000 16.000"
+			org="27.000 8.000 12.000 24.000"
 			style="768"
 			order="1"
 			id="0"
@@ -112,13 +86,13 @@
 			wndColor="00000000"
 			textColor="ff3995b0"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCounter_1"
 			class="ImageWnd"
-			org="23.000 5.000 8.000 16.000"
+			org="40.000 8.000 12.000 24.000"
 			style="768"
 			order="1"
 			id="0"
@@ -135,13 +109,13 @@
 			wndColor="00000000"
 			textColor="ff3995b0"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCounter_2"
 			class="ImageWnd"
-			org="32.000 7.000 2.000 8.000"
+			org="56.000 12.000 3.000 12.000"
 			style="768"
 			order="1"
 			id="0"
@@ -158,13 +132,13 @@
 			wndColor="00000000"
 			textColor="ff3995b0"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCounter_3"
 			class="ImageWnd"
-			org="36.000 5.000 8.000 16.000"
+			org="62.000 8.000 12.000 24.000"
 			style="768"
 			order="1"
 			id="0"
@@ -181,13 +155,13 @@
 			wndColor="00000000"
 			textColor="ff3995b0"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCounter_4"
 			class="ImageWnd"
-			org="45.000 5.000 8.000 16.000"
+			org="75.000 8.000 12.000 24.000"
 			style="768"
 			order="1"
 			id="0"
@@ -204,9 +178,7 @@
 			wndColor="00000000"
 			textColor="ff3995b0"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
-
 	</Node>
 </Prefabs>

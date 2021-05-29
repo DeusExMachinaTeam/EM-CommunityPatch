@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Player vehicle weapon list shown when driving -->
+<!-- Child of maingameinterfacewnd.xml -->
 <Prefabs>
 	<Node
 		name="WeaponInfoList"
 		class="Wnd"
-		org="964.000 240.000 92.000 48.000"
+		org="1836.000 338.000 129.000 68.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -20,11 +23,10 @@
 		wndColor="00000000"
 		textColor="ff505050"
 		textColorDisabled="ff7f7f7f">
-
 		<Node
 			name="WeaponInfoWnd"
 			class="Wnd"
-			org="0.000 16.000 60.000 48.000"
+			org="0.000 22.000 84.000 68.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -41,37 +43,60 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-<!--
-		<Node
-			name="wndNoAmmoBg"
-			class="ImageWnd"
-			org="0.000 16.000 60.000 48.000"
-			style="768"
-			order="-1"
-			id="0"
-			caption=""
-			tip=""
-			backimage=""
-			image="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
-			paneName="PaneGrayThin"
-			scrollPaneName="Scroll1"
-			paneFlags="0"
-			wrap="2"
-			format="1"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ffffffff"
-			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>
+
+		<!--
+	<Node
+
+	name="wndNoAmmoBg"
+
+	class="ImageWnd"
+
+	org="0.000 16.000 60.000 48.000"
+
+	style="768"
+
+	order="-1"
+
+	id="0"
+
+	caption=""
+
+	tip=""
+
+	backimage=""
+
+	image="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+
+	paneName="PaneGrayThin"
+
+	scrollPaneName="Scroll1"
+
+	paneFlags="0"
+
+	wrap="2"
+
+	format="1"
+
+	font="0"
+
+	clientEdges="0.000 0.000 0.000 0.000"
+
+	wndColor="00000000"
+
+	textColor="ffffffff"
+
+	textColorDisabled="ff7f7f7f">
+
+	<Animations />
+
+	</Node>
 -->
 		<Node
 			name="wndIco"
 			class="ImageWnd"
-			org="9.000 21.000 38.000 38.000"
+			org="17.000 34.000 42.000 44.000"
 			style="768"
 			order="0"
 			id="0"
@@ -89,13 +114,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndAmmo"
 			class="Wnd"
-			org="18.000 41.000 27.000 20.000"
+			org="25.000 59.000 38.000 26.000"
 			style="2816"
 			order="8"
 			id="0"
@@ -112,13 +137,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndGroup"
 			class="Wnd"
-			org="11.000 41.000 7.000 20.000"
+			org="15.000 59.000 10.000 26.000"
 			style="2816"
 			order="8"
 			id="0"
@@ -135,13 +160,13 @@
 			wndColor="00000000"
 			textColor="fffed11b"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCanShotBg"
 			class="ImageWnd"
-			org="9.000 21.000 38.000 38.000"
+			org="14.000 31.000 49.500 51.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -159,13 +184,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBg"
 			class="ImageWnd"
-			org="0.000 16.000 60.000 48.000"
+			org="0.000 22.000 84.000 68.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -183,13 +208,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCharge"
 			class="ProgressBarWnd"
-			org="50.000 20.000 7.000 40.000"
+			org="70.000 28.000 10.000 56.000"
 			style="3840"
 			order="6"
 			id="0"
@@ -212,13 +237,13 @@
 			barTexture="data\if\ico\WeaponInfoList\weapon_bar_ready.dds"
 			textureStyle="1"
 			textStyle="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndDecorTop"
 			class="ImageWnd"
-			org="54.000 0.000 8.000 16.000"
+			org="76.000 0.000 11.000 22.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -236,13 +261,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndDecorBottom"
 			class="ImageWnd"
-			org="54.000 76.000 8.000 16.000"
+			org="76.000 107.000 11.000 22.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -260,9 +285,9 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>

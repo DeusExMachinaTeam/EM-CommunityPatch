@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Player vehicle status panel shown at the top center of the screen, health, fuel, armor -->
+<!-- Child of maingameinterfacewnd.xml -->
 <Prefabs>
 	<Node
 		name="DamageInfo"
 		class="Wnd"
-		org="256.000 0.000 512.000 64.000"
+		org="564.000 0.000 792.000 99.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -20,12 +23,12 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f">
-		<Animations />
+		<Animations/>
 
 		<Node
 			name="wndHealth"
 			class="Wnd"
-			org="15.000 6.000 194.000 39.000"
+			org="23.000 9.000 300.000 61.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -42,13 +45,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>  
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndHpProgressBarOverlay"
 			class="Wnd"
-			org="15.000 6.000 97.000 20.000"
+			org="23.000 9.000 150.000 31.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -65,13 +68,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>               
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndHpProgressBar"
 			class="ProgressBarWnd"
-			org="15.000 6.000 97.000 20.000"
+			org="22.000 6.000 153.000 38.250"
 			style="768"
 			order="6"
 			id="0"
@@ -94,13 +97,13 @@
 			barTexture="data\if\ico\DamageInfoWnd\bar_hp.dds"
 			textStyle="0"
 			textureStyle="1">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndLowHpLamp"
 			class="ImageWnd"
-			org="145.000 13.000 64.000 32.000"
+			org="225.000 24.000 99.000 46.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -118,13 +121,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue"
 			class="Wnd"
-			org="133.000 8.000 61.000 16.000"
+			org="199.000 11.000 110.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -141,13 +144,13 @@
 			wndColor="00000000"
 			textColor="ff87e400"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue_0"
 			class="ImageWnd"
-			org="133.000 8.000 16.000 16.000"
+			org="199.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -164,14 +167,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndHpValue_1"
 			class="ImageWnd"
-			org="148.000 8.000 16.000 16.000"
+			org="224.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -188,13 +190,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue_2"
 			class="ImageWnd"
-			org="163.000 8.000 16.000 16.000"
+			org="249.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -211,13 +213,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue_3"
 			class="ImageWnd"
-			org="178.000 8.000 16.000 16.000"
+			org="274.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -234,13 +236,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuel"
 			class="Wnd"
-			org="303.000 6.000 194.000 39.000"
+			org="469.000 9.000 300.000 61.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -257,13 +259,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndFuelProgressBarOverlay"
 			class="Wnd"
-			org="400.000 6.000 97.000 20.000"
+			org="618.000 9.000 150.000 31.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -280,13 +282,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>               
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndFuelProgressBar"
 			class="ProgressBarWnd"
-			org="400.000 6.000 97.000 20.000"
+			org="617.000 6.000 153.000 38.250"
 			style="768"
 			order="6"
 			id="0"
@@ -309,18 +311,18 @@
 			barTexture="data\if\ico\DamageInfoWnd\bar_fuel.dds"
 			textStyle="0"
 			textureStyle="1">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndLowFuelLamp"
 			class="ImageWnd"
-			org="303.000 13.000 64.000 32.000"
+			org="468.000 24.000 99.000 46.000"
 			style="768"
 			order="-1"
 			id="0"
 			caption=""
-			tip=""                                        
+			tip=""
 			backimage=""
 			image="data\if\ico\DamageInfoWnd\redlight_fuel.dds"
 			paneName="defaultWnd"
@@ -333,13 +335,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>  
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndFuelValue"
 			class="Wnd"
-			org="322.000 8.000 61.000 16.000"
+			org="491.000 11.000 110.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -356,13 +358,13 @@
 			wndColor="00000000"
 			textColor="ff00aeff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_0"
 			class="ImageWnd"
-			org="322.000 8.000 16.000 16.000"
+			org="490.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -379,13 +381,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_1"
 			class="ImageWnd"
-			org="337.000 8.000 16.000 16.000"
+			org="515.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -402,13 +404,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_2"
 			class="ImageWnd"
-			org="352.000 8.000 16.000 16.000"
+			org="540.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -425,13 +427,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_3"
 			class="ImageWnd"
-			org="367.000 8.000 16.000 16.000"
+			org="565.000 11.000 27.000 27.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -448,13 +450,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndCabinDurability"
 			class="ImageWnd"
-			org="186.000 8.000 64.000 32.000"
+			org="288.000 12.000 99.000 50.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -472,13 +474,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBasketDurability"
 			class="ImageWnd"
-			org="250.000 8.000 64.000 32.000"
+			org="387.000 12.000 99.000 50.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -496,13 +498,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndBg"
 			class="Wnd"
-			org="0.000 0.000 512.000 64.000"
+			org="0.000 0.000 792.000 99.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -519,13 +521,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpProgressBarBg"
 			class="Wnd"
-			org="15.000 6.000 97.000 20.000"
+			org="23.000 9.000 150.000 31.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -542,13 +544,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelProgressBarBg"
 			class="Wnd"
-			org="400.000 6.000 97.000 20.000"
+			org="618.000 9.000 150.000 31.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -565,8 +567,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
-
+			<Animations/>
+		</Node>
 	</Node>
 </Prefabs>

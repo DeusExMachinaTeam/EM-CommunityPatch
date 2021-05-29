@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main driving interface parent panel, containing few icons and decorative elements -->
+<!-- Parent of targetinfowndinmaininterface.xml, smartcursorwnd.xml, radarwnd.xml, speedometerwnd.xml -->
+<!-- ... counterwnd.xml, damageinfoinmaininterface.xml, weaponinfolistinmaininterface.xml -->
 <Prefabs>
 	<Node
 		name="wndMainGameInterface"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -16,84 +20,79 @@
 		format="1"
 		font="0"
 		clientEdges="0.000 0.000 0.000 0.000">
+		<Node
+			name="wndLeftStripe"
+			class="Wnd"
+			org="205.000 0.000 426.000 26.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\top_leftstripe.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000">
 
-        	<Node
-        		name="wndLeftStripe"
-        		class="Wnd"
-        		org="128.000 0.000 128.000 16.000"
-        		style="768"
-        		order="-1"
-        		id="0"
-        		caption=""
-        		tip=""
-        		backimage="data\if\ico\MainGameInterfaceWnd\top_leftstripe.dds"
-        		paneName="defaultWnd"
-        		paneFlags="0"
-        		wrap="2"
-        		format="1"
-        		font="0"
-        		clientEdges="0.000 0.000 0.000 0.000">
+				</Node>
+		<Node
+			name="wndRightStripe"
+			class="Wnd"
+			org="1289.000 0.000 426.000 26.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\top_rightstripe.dds"
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000">
 
-        	</Node>
-
-        	<Node
-        		name="wndRightStripe"
-        		class="Wnd"
-        		org="768.000 0.000 128.000 16.000"
-        		style="768"
-        		order="-1"
-        		id="0"
-        		caption=""
-        		tip=""
-        		backimage="data\if\ico\MainGameInterfaceWnd\top_rightstripe.dds"
-        		paneName="defaultWnd"
-        		paneFlags="0"
-        		wrap="2"
-        		format="1"
-        		font="0"
-        		clientEdges="0.000 0.000 0.000 0.000">
-
-        	</Node> 
-
-        	<Node
-        		name="wndNearbyChestsIco"
-        		class="ImageWnd"
-        		org="951.000 695.000 64.000 64.000"
-        		style="768"
-        		order="-1"
-        		id="0"
-        		caption=""
-        		tip=""
-        		backimage=""
+				</Node>
+		<Node
+			name="wndNearbyChestsIco"
+			class="ImageWnd"
+			org="1818.000 977.000 90.000 90.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
 			image="data\if\ico\MainGameInterfaceWnd\get_drop.dds"
-        		paneName="defaultWnd"
-        		paneFlags="0"
-        		wrap="2"
-        		format="1"
-        		font="0"
-        		clientEdges="0.000 0.000 0.000 0.000">
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000">
 
-        	</Node> 
-
-        	<Node
-        		name="wndNearbyTownIco"
-        		class="ImageWnd"
-        		org="879.000 695.000 64.000 64.000"
-        		style="768"
-        		order="-1"
-        		id="0"
-        		caption=""
-        		tip=""
-        		backimage=""
+				</Node>
+		<Node
+			name="wndNearbyTownIco"
+			class="ImageWnd"
+			org="1716.000 977.000 90.000 90.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
 			image="data\if\ico\MainGameInterfaceWnd\horn.dds"
-        		paneName="defaultWnd"
-        		paneFlags="0"
-        		wrap="2"
-        		format="1"
-        		font="0"
-        		clientEdges="0.000 0.000 0.000 0.000">
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000">
 
-        	</Node> 
-
+				</Node>
 	</Node>
 </Prefabs>
