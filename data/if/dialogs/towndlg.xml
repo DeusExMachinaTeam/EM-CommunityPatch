@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Interface for refueling, repairing and buying ammo for guns in Garage window  -->
 <Prefabs>
 	<Node
 		name="TownDlg"
