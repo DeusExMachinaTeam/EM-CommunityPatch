@@ -3,7 +3,7 @@
 	<Node
 		name="TownDlg"
 		class="Wnd"
-		org="0.000 0.000 1024.000 1024.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -18,12 +18,11 @@
 		font="0"
 		clientEdges="0.000 0.000 0.000 0.000"
 		wndColor="00000000"
-		textColor="ffffffff"> 
-
+		textColor="ffffffff">
 		<Node
 			name="lblTownName"
 			class="Wnd"
-			org="720.000 90.000 286.000 48.000"
+			org="1366.000 120.000 531.000 68.000"
 			style="3904"
 			order="1"
 			id="0"
@@ -38,37 +37,13 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ff404040" />
-<!--
-
-		<Node
-			name="contextButton"
-			org="743.000 566.000 269.000 46.000"
-			style="265728"
-			order="11"
-			id="300001"
-			caption=""
-			tip=""
-			backimage=""
-			paneName="PaneBtnBrown1"
-			scrollPaneName="Scroll1"
-			paneFlags="7"
-			wrap="0"
-			format="0"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ffffffff"
-			textColorDisabled="ff7f7f7f"
-			btnIsImaged="0"
-			class="ButtonWnd">
-			<Animations />
+			textColor="ff404040">
 		</Node>
--->
+
 		<Node
 			name="wndClanPicture"
 			class="ImageWnd"
-			org="773.000 308.000 180.000 180.000"
+			org="1503.000 480.000 256.000 256.000"
 			style="768"
 			order="1"
 			id="0"
@@ -83,7 +58,25 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ff404040" />
+			textColor="ff404040">
+		</Node>
 
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_RIGHT"
+				animationSpeed="8000"
+				animationAccel="-2000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_LEFT"
+				animationSpeed="6000"
+				animationAccel="4000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+		</Animations>
 	</Node>
 </Prefabs>

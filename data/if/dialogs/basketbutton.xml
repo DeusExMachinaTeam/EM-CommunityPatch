@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- List of Baskets sold in Garage after pressing the Cabin button  -->
+<!-- Parent: cbList in cblist.xml -->
 <Prefabs>
 	<Node
 		name="BasketButton"
 		class="Wnd"
-		org="0.000 0.000 322.000 187.000"
+		org="45.000 0.000 598.000 279.000"
 		style="262688"
 		order="-1"
 		id="300602"
@@ -20,11 +23,10 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f">
-
 		<Node
 			name="wndRepositoryCapacityLbl"
 			class="Wnd"
-			org="141.000 84.000 109.000 18.000"
+			org="249.000 119.000 168.000 25.000"
 			style="2656"
 			order="18"
 			id="0"
@@ -41,13 +43,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndRepositoryCapacityVal"
 			class="Wnd"
-			org="251.000 84.000 55.000 18.000"
+			org="481.000 119.000 85.000 25.000"
 			style="2656"
 			order="19"
 			id="0"
@@ -64,14 +66,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndResistEnergyVal"
 			class="Wnd"
-			org="271.000 152.000 30.000 24.000"
+			org="514.000 218.000 46.000 46.000"
 			style="2656"
 			order="17"
 			id="0"
@@ -88,13 +89,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndResistBlastVal"
 			class="Wnd"
-			org="209.000 152.000 30.000 24.000"
+			org="381.000 218.000 46.000 46.000"
 			style="2656"
 			order="16"
 			id="0"
@@ -111,13 +112,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndResistPiercingVal"
 			class="Wnd"
-			org="147.000 152.000 30.000 24.000"
+			org="250.000 218.000 46.000 46.000"
 			style="2656"
 			order="15"
 			id="0"
@@ -134,13 +135,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWeightLbl"
 			class="Wnd"
-			org="141.000 62.000 109.000 18.000"
+			org="249.000 88.000 168.000 25.000"
 			style="2656"
 			order="14"
 			id="0"
@@ -157,13 +158,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWeightVal"
 			class="Wnd"
-			org="251.000 62.000 55.000 18.000"
+			org="481.000 88.000 85.000 25.000"
 			style="2656"
 			order="14"
 			id="0"
@@ -180,18 +181,18 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndDurabilityLbl"
 			class="Wnd"
-			org="141.000 40.000 109.000 18.000"
+			org="249.000 57.000 168.000 25.000"
 			style="2656"
 			order="13"
 			id="0"
-			caption="^Durability^"
-			tip="^Durability^"
+			caption="^BasketDurability^"
+			tip="^BasketDurability^"
 			backimage=""
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
@@ -203,18 +204,18 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndDurabilityVal"
 			class="Wnd"
-			org="251.000 40.000 55.000 18.000"
+			org="481.000 57.000 85.000 25.000"
 			style="2656"
 			order="13"
 			id="0"
 			caption=""
-			tip="^Durability^"
+			tip="^BasketDurability^"
 			backimage=""
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
@@ -226,14 +227,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndRepositoryCapacityIco"
 			class="ImageWnd"
-			org="119.000 84.000 18.000 18.000"
+			org="204.000 118.000 28.000 28.000"
 			style="544"
 			order="11"
 			id="0"
@@ -251,14 +251,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\CargoTank.dds">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndWeightIco"
 			class="ImageWnd"
-			org="119.000 62.000 18.000 18.000"
+			org="204.000 87.000 28.000 28.000"
 			style="544"
 			order="9"
 			id="0"
@@ -276,13 +275,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Weight.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndResistEnergyIco"
 			class="ImageWnd"
-			org="243.000 152.000 24.000 24.000"
+			org="472.000 223.000 35.000 35.000"
 			style="544"
 			order="8"
 			id="0"
@@ -300,13 +299,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Energy.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndResistBlastIco"
 			class="ImageWnd"
-			org="181.000 152.000 24.000 24.000"
+			org="337.000 222.000 35.000 35.000"
 			style="544"
 			order="7"
 			id="0"
@@ -324,13 +323,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Blast.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndResistPiercingIco"
 			class="ImageWnd"
-			org="119.000 152.000 24.000 24.000"
+			org="209.000 222.000 35.000 35.000"
 			style="544"
 			order="6"
 			id="0"
@@ -348,18 +347,18 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Persing.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndDurabilityIco"
 			class="ImageWnd"
-			org="119.000 40.000 18.000 18.000"
+			org="204.000 56.000 28.000 28.000"
 			style="544"
 			order="5"
 			id="0"
 			caption=""
-			tip="^Durability^"
+			tip="^BasketDurability^"
 			backimage=""
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
@@ -372,13 +371,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Armor.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPrice"
 			class="Wnd"
-			org="9.000 110.000 100.000 20.000"
+			org="14.000 184.000 165.000 28.000"
 			style="3680"
 			order="4"
 			id="0"
@@ -395,13 +394,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndName"
 			class="Wnd"
-			org="15.000 5.000 290.000 28.000"
+			org="29.000 6.000 552.000 39.000"
 			style="3904"
 			order="1"
 			id="0"
@@ -418,13 +417,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnBuy"
 			class="ButtonWnd"
-			org="9.000 145.000 100.000 32.000"
+			org="13.000 222.000 165.000 42.000"
 			style="265760"
 			order="0"
 			id="300650"
@@ -441,13 +440,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPicture"
 			class="Wnd"
-			org="9.000 34.000 100.000 100.000"
+			org="13.000 50.000 165.000 165.000"
 			style="768"
 			order="2"
 			id="0"
@@ -464,13 +463,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFrame1"
 			class="Wnd"
-			org="112.000 33.000 202.000 146.000"
+			org="184.000 49.000 404.000 216.000"
 			style="768"
 			order="3"
 			id="0"
@@ -487,13 +486,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="line1"
 			class="LineWnd"
-			org="7.000 30.000 309.000 2.000"
+			org="7.000 42.000 587.000 3.000"
 			style="768"
 			order="21"
 			id="0"
@@ -511,13 +510,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			lineDirection="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="line2"
 			class="LineWnd"
-			org="114.000 150.000 198.000 2.000"
+			org="186.000 217.000 400.000 3.000"
 			style="768"
 			order="21"
 			id="0"
@@ -535,10 +534,9 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			lineDirection="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
-
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>

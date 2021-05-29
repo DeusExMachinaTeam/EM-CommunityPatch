@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main shop/workshop screen with tabs and ware list  -->
 <Prefabs>
 	<Node
 		name="wndWorkshop"
 		class="Wnd"
-		org="512.000 0.000 512.000 1024.000"
+		org="960.000 95.000 985.000 985.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -20,11 +22,10 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff8f8f8f">
-
 		<Node
 			name="wndRepositoryTabItem"
 			class="Wnd"
-			org="23.000 283.000 464.000 448.000"
+			org="29.000 299.000 818.000 643.000"
 			style="0"
 			order="1"
 			id="0"
@@ -37,17 +38,17 @@
 			wrap="2"
 			format="1"
 			font="0"
-			clientEdges="0.000 0.000 16.000 0.000"
+			clientEdges="0.000 0.000 2.000 0.000"
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndGoodsTabItem"
 			class="Wnd"
-			org="23.000 283.000 466.000 449.000"
+			org="33.000 283.000 810.000 675.000"
 			style="0"
 			order="1"
 			id="0"
@@ -64,13 +65,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTab"
 			class="TabWnd"
-			org="19.000 217.000 470.000 515.000"
+			org="30.000 213.000 818.000 733.000"
 			style="262912"
 			order="2"
 			id="300000"
@@ -87,13 +88,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTownPicture"
 			class="ImageWnd"
-			org="10.000 85.000 219.000 175.000"
+			org="15.000 17.000 345.000 259.000"
 			style="768"
 			order="4"
 			id="0"
@@ -111,13 +112,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWareList"
 			class="Wnd"
-			org="23.000 334.000 466.000 398.000"
+			org="35.000 361.000 813.000 583.000"
 			style="1311264"
 			order="1"
 			id="300260"
@@ -134,13 +135,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndItemPattern"
 			class="ButtonWnd"
-			org="23.000 334.000 466.000 38.000"
+			org="35.000 361.000 806.000 56.000"
 			style="262688"
 			order="14"
 			id="300250"
@@ -162,14 +163,13 @@
 			btnImageIn="data\if\ico\Shop\btn_listpos_s.dds"
 			btnImageDisabled="data\if\ico\Shop\btn_listpos_d.dds"
 			textColorDisabled="ff7f7f7f">
-
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnMode"
 			class="ButtonWnd"
-			org="31.000 289.000 32.000 32.000"
+			org="38.000 308.000 45.000 45.000"
 			style="262688"
 			order="14"
 			id="300261"
@@ -187,14 +187,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="emboss_btnMode"
 			class="Wnd"
-			org="31.000 289.000 32.000 32.000"
+			org="38.000 308.000 45.000 45.000"
 			style="768"
 			order="1"
 			id="411"
@@ -208,12 +207,12 @@
 			format="1"
 			font="0"
 			textColor="ff404040"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="wndCannotSellIco"
 			class="ImageWnd"
-			org="330.000 343.000 20.000 20.000"
+			org="571.000 382.000 16.000 16.000"
 			style="768"
 			order="13"
 			id="0"
@@ -231,13 +230,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\Shop\Shop_Zero.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCannotBuyIco"
 			class="ImageWnd"
-			org="392.000 343.000 20.000 20.000"
+			org="674.000 381.000 16.000 16.000"
 			style="768"
 			order="12"
 			id="0"
@@ -255,13 +254,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\Shop\Shop_Zero.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWareIco"
 			class="ImageWnd"
-			org="37.000 339.000 28.000 28.000"
+			org="62.000 368.000 42.000 42.000"
 			style="768"
 			order="7"
 			id="0"
@@ -279,13 +278,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBuyPricesIco"
 			class="ImageWnd"
-			org="378.000 292.000 48.000 32.000"
+			org="653.000 304.000 68.000 45.000"
 			style="512"
 			order="2"
 			id="0"
@@ -303,13 +302,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\Shop\icn_price_sell.dds">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndSellPricesIco"
 			class="ImageWnd"
-			org="316.000 292.000 48.000 32.000"
+			org="539.000 304.000 68.000 45.000"
 			style="512"
 			order="3"
 			id="0"
@@ -327,13 +326,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\Shop\icn_price_buy.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndAmountsIco"
 			class="ImageWnd"
-			org="437.000 292.000 48.000 32.000"
+			org="751.000 307.000 68.000 45.000"
 			style="512"
 			order="4"
 			id="0"
@@ -351,13 +350,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\Shop\icn_goods.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWareName"
 			class="Wnd"
-			org="89.000 334.000 209.000 38.000"
+			org="149.000 361.000 294.000 56.000"
 			style="2816"
 			order="8"
 			id="0"
@@ -372,15 +371,15 @@
 			font="1"
 			clientEdges="3.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ff444444"
+			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWareBuyPrice"
 			class="Wnd"
-			org="372.000 334.000 60.000 38.000"
+			org="632.000 361.000 100.000 56.000"
 			style="3840"
 			order="9"
 			id="0"
@@ -395,15 +394,15 @@
 			font="1"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ff444444"
+			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWareSellPrice"
 			class="Wnd"
-			org="310.000 334.000 60.000 38.000"
+			org="526.000 361.000 100.000 56.000"
 			style="3840"
 			order="10"
 			id="0"
@@ -418,15 +417,15 @@
 			font="1"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ff444444"
+			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWareAmount"
 			class="Wnd"
-			org="434.000 334.000 53.000 38.000"
+			org="740.000 361.000 90.000 56.000"
 			style="3840"
 			order="11"
 			id="0"
@@ -441,30 +440,27 @@
 			font="1"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ff444444"
+			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Animations>
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_LEFT"
-				animationSpeed="1000"
-				animationAccel="1000"
+				animationSpeed="3500"
+				animationAccel="-6000"
 				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
+				soundMoveEnabled="1"/>
 
 			<AnimationOnHide
 				animationEnabled="1"
 				animationType="TO_BEYOND_RIGHT"
-				animationSpeed="1000"
-				animationAccel="1000"
+				animationSpeed="500"
+				animationAccel="6000"
 				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
+				soundMoveEnabled="1"/>
 		</Animations>
 	</Node>
 </Prefabs>
-                                      	

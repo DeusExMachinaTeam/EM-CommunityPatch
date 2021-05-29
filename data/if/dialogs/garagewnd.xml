@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Menu available when pressing tab with wrench icon in Towns -->
+<!-- Children: cblist.xml, skinswnd.xml -->
 <Prefabs>
 	<Node
 		name="GarageWnd"
 		class="Wnd"
-		org="512.000 0.000 512.000 1024.000"
+		org="960.000 97.000 960.000 971.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -20,56 +23,11 @@
 		wndColor="00000000"
 		textColor="ff505050"
 		textColorDisabled="ff7f7f7f">
-		<Node
-			name="wndRechargePrice"
-			class="Wnd"
-			org="16.000 672.000 80.000 40.000"
-			style="3904"
-			order="19"
-			id="0"
-			caption=""
-			tip=""
-			backimage=""
-			paneName="defaultWnd"
-			scrollPaneName="Scroll1"
-			paneFlags="7"
-			wrap="2"
-			format="1"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ff505050"
-			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>
-
-		<Node
-			name="wndRepairPrice"
-			class="Wnd"
-			org="16.000 592.000 80.000 40.000"
-			style="3904"
-			order="18"
-			id="0"
-			caption=""
-			tip=""
-			backimage=""
-			paneName="defaultWnd"
-			scrollPaneName="Scroll1"
-			paneFlags="7"
-			wrap="2"
-			format="1"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ff505050"
-			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>
 
 		<Node
 			name="wndRefuelPrice"
 			class="Wnd"
-			org="16.000 512.000 80.000 40.000"
+			org="23.000 624.000 132.000 57.000"
 			style="3904"
 			order="17"
 			id="0"
@@ -86,12 +44,58 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndRepairPrice"
+			class="Wnd"
+			org="23.000 738.000 132.000 57.000"
+			style="3904"
+			order="18"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndRechargePrice"
+			class="Wnd"
+			org="23.000 852.000 132.000 57.000"
+			style="3904"
+			order="19"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnCabins"
-			org="16.000 118.000 128.000 52.000"
+			org="23.000 74.000 208.000 77.000"
 			style="265728"
 			order="0"
 			id="300300"
@@ -114,12 +118,12 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cab_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cab_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnBaskets"
-			org="16.000 186.000 128.000 52.000"
+			org="23.000 176.000 208.000 77.000"
 			style="265728"
 			order="1"
 			id="300301"
@@ -142,12 +146,12 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_body_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_body_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnSkin"
-			org="16.000 410.000 128.000 52.000"
+			org="23.000 476.500 208.000 77.000"
 			style="265728"
 			order="2"
 			id="300303"
@@ -170,12 +174,12 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_paint_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_paint_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnRefuelAll"
-			org="16.000 512.000 80.000 40.000"
+			org="23.000 625.000 132.000 57.000"
 			style="265728"
 			order="3"
 			id="300304"
@@ -198,12 +202,12 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cost_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cost_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnRepairAll"
-			org="16.000 592.000 80.000 40.000"
+			org="23.000 739.000 132.000 57.000"
 			style="265728"
 			order="4"
 			id="300306"
@@ -226,12 +230,12 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cost_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cost_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnRechargeAll"
-			org="16.000 672.000 80.000 40.000"
+			org="23.000 853.000 132.000 57.000"
 			style="265728"
 			order="5"
 			id="300308"
@@ -254,12 +258,14 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cost_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cost_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
+
+
 
 		<Node
 			name="btnRefuelList"
-			org="112.000 512.000 32.000 40.000"
+			org="176.000 625.000 57.000 57.000"
 			style="265728"
 			order="6"
 			id="300305"
@@ -272,7 +278,7 @@
 			wrap="0"
 			format="0"
 			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
+			clientEdges="0.000 20.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
@@ -282,12 +288,12 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnRepairList"
-			org="112.000 592.000 32.000 40.000"
+			org="176.000 739.000 57.000 57.000"
 			style="265728"
 			order="7"
 			id="300307"
@@ -310,12 +316,12 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnRechargeList"
-			org="112.000 672.000 32.000 40.000"
+			org="176.000 853.000 57.000 57.000"
 			style="265728"
 			order="8"
 			id="300309"
@@ -338,56 +344,53 @@
 			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
-			name="btnNewVehicle"
-			org="16.000 254.000 128.000 52.000"
-			style="265728"
-			order="9"
-			id="300302"
-			caption=""
-			tip="^BuyVehicle^"
-			backimage=""
-			paneName="defaultBtn"
-			scrollPaneName="Scroll1"
-			paneFlags="7"
-			wrap="0"
-			format="0"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ffffffff"
-			textColorDisabled="ff7f7f7f"
-			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_truck_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_truck_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_truck_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_truck_d.dds"
-			class="ButtonWnd">
-			<Animations />
-		</Node>
-
+		name="btnNewVehicle"
+		org="24.000 278.000 208.000 77.000"
+		style="265728"
+		order="9"
+		id="300302"
+		caption=""
+		tip="^BuyVehicle^"
+		backimage=""
+		paneName="defaultBtn"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="0"
+		format="0"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f"
+		btnIsImaged="1"
+		btnImage="data\if\ico\GarageWnd\action panel\bcb_truck_e.dds"
+		btnImageDown="data\if\ico\GarageWnd\action panel\bcb_truck_p.dds"
+		btnImageIn="data\if\ico\GarageWnd\action panel\bcb_truck_s.dds"
+		btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_truck_d.dds"
+		class="ButtonWnd">
+		<Animations/>
+	</Node>
 
 		<Animations>
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_LEFT"
-				animationSpeed="1000"
-				animationAccel="1000"
+				animationSpeed="3500"
+				animationAccel="-6000"
 				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
+				soundMoveEnabled="1"/>
 
 			<AnimationOnHide
 				animationEnabled="1"
 				animationType="TO_BEYOND_RIGHT"
-				animationSpeed="1000"
-				animationAccel="1000"
+				animationSpeed="500"
+				animationAccel="6000"
 				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
+				soundMoveEnabled="1"/>
 		</Animations>
 	</Node>
 </Prefabs>

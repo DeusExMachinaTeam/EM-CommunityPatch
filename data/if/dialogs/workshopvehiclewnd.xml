@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Car characteristics and buttons for buying cabins, baskets etc in Garage window  -->
 <Prefabs>
 	<Node
 		name="wndCharacteristics"
 		class="Wnd"
-		org="512.000 0.000 512.000 768.000"
+		org="960.000 0.000 960.000 1080.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -20,11 +22,10 @@
 		wndColor="00000000"
 		textColor="ff404040"
 		textColorDisabled="ff8f8f8f">
-
 		<Node
 			name="wndTruckPicture"
 			class="SgNodeArrayWnd"
-			org="52.000 147.000 408.000 355.000"
+			org="85.000 180.000 800.000 590.000"
 			style="512"
 			order="0"
 			id="0"
@@ -45,13 +46,13 @@
 			ModelRotation="0.0000 0.0000 0.0000 1.0000"
 			ModelTranslation="0.000 0.000 0.000"
 			ModelScale="1.000 1.000 1.000">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="lblName"
 			class="Wnd"
-			org="68.000 90.000 374.000 30.000"
+			org="31.000 129.000 897.000 41.000"
 			style="3904"
 			order="27"
 			id="0"
@@ -68,12 +69,12 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnSkinNext"
-			org="278.000 136.000 28.000 22.000"
+			org="521.000 191.000 39.000 31.000"
 			style="262656"
 			order="44"
 			id="300304"
@@ -96,12 +97,12 @@
 			btnImageIn="data\if\ico\GarageWnd\SkinScroll\paint_next_selected.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\SkinScroll\paint_next_disabled.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnSkinPrev"
-			org="206.000 136.000 28.000 22.000"
+			org="420.000 191.000 39.000 31.000"
 			style="262656"
 			order="43"
 			id="300305"
@@ -124,13 +125,13 @@
 			btnImageIn="data\if\ico\GarageWnd\SkinScroll\paint_prev_selected.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\SkinScroll\paint_prev_disabled.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSkinFrame"
 			class="ImageWnd"
-			org="192.000 127.000 128.000 64.000"
+			org="400.000 179.000 180.000 90.000"
 			style="512"
 			order="46"
 			id="0"
@@ -148,13 +149,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\paint_panel.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSkinFrameShadow"
 			class="ImageWnd"
-			org="190.000 127.000 132.000 44.000"
+			org="397.000 179.000 186.000 62.000"
 			style="768"
 			order="46"
 			id="0"
@@ -172,12 +173,12 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\paint_shadow.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnPrev"
-			org="18.000 90.000 32.000 32.000"
+			org="31.000 125.000 48.000 48.000"
 			style="262656"
 			order="39"
 			id="300301"
@@ -200,12 +201,12 @@
 			btnImageIn="data\if\ico\GarageWnd\VehicleScroll\truck_prev_selected.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\VehicleScroll\truck_prev_disabled.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnNext"
-			org="461.000 90.000 32.000 32.000"
+			org="907.000 125.000 48.000 48.000"
 			style="262656"
 			order="40"
 			id="300300"
@@ -228,13 +229,13 @@
 			btnImageIn="data\if\ico\GarageWnd\VehicleScroll\truck_next_selected.dds"
 			btnImageDisabled="data\if\ico\GarageWnd\VehicleScroll\truck_next_disabled.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTitleDecor1"
 			class="ImageWnd"
-			org="42.000 63.000 32.000 64.000"
+			org="70.000 89.000 38.000 90.000"
 			style="768"
 			order="27"
 			id="0"
@@ -252,13 +253,13 @@
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\split.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTitleDecor2"
 			class="ImageWnd"
-			org="439.000 63.000 32.000 64.000"
+			org="880.000 89.000 38.000 90.000"
 			style="768"
 			order="27"
 			id="0"
@@ -276,13 +277,13 @@
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\split.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPriceTitle"
 			class="Wnd"
-			org="193.000 506.000 125.000 24.000"
+			org="392.000 705.000 176.000 34.000"
 			style="2816"
 			order="15"
 			id="0"
@@ -299,14 +300,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndPrice"
 			class="Wnd"
-			org="193.000 506.000 125.000 24.000"
+			org="392.000 705.000 176.000 34.000"
 			style="2560"
 			order="15"
 			id="0"
@@ -323,13 +323,12 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="btnBuy"
-			org="41.000 509.000 122.000 26.000"
+			org="180.000 708.000 168.000 37.000"
 			style="265728"
 			order="41"
 			id="300302"
@@ -348,12 +347,12 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnCancel"
-			org="349.000 509.000 122.000 26.000"
+			org="610.000 708.000 168.000 37.000"
 			style="265728"
 			order="42"
 			id="300303"
@@ -372,13 +371,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBuyPanel"
 			class="Wnd"
-			org="0.000 478.000 512.000 64.000"
+			org="120.000 665.000 720.000 90.000"
 			style="768"
 			order="15"
 			id="0"
@@ -395,13 +394,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCBCharacteristics"
 			class="Wnd"
-			org="0.000 515.000 512.000 256.000"
+			org="18.000 716.000 924.000 368.000"
 			style="768"
 			order="27"
 			id="0"
@@ -418,27 +417,25 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Animations>
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_LEFT"
-				animationSpeed="1000"
-				animationAccel="1000"
+				animationSpeed="3500"
+				animationAccel="-6000"
 				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
+				soundMoveEnabled="1"/>
 
 			<AnimationOnHide
 				animationEnabled="1"
 				animationType="TO_BEYOND_RIGHT"
-				animationSpeed="1000"
-				animationAccel="1000"
+				animationSpeed="500"
+				animationAccel="6000"
 				animationDelayTime="0"
-				soundMoveEnabled="1"
-			/>
+				soundMoveEnabled="1"/>
 		</Animations>
 	</Node>
 </Prefabs>

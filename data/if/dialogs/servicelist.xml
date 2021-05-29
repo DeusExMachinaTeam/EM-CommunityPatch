@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Interface for refueling, repairing and buying ammo for guns in Garage window  -->
 <Prefabs>
 	<Node
 		name="wndServiceList"
 		class="Wnd"
-		org="678.000 489.000 330.000 150.000"
+		org="1222.000 688.000 560.000 264.000"
 		style="512"
 		order="20"
 		id="0"
@@ -20,10 +22,9 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f">
-
 		<Node
 			name="btnRight"
-			org="157.000 55.000 32.000 32.000"
+			org="302.000 92.000 48.000 48.000"
 			style="265728"
 			order="28"
 			id="300504"
@@ -42,12 +43,12 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnLeft"
-			org="25.000 55.000 32.000 32.000"
+			org="40.000 92.000 48.000 48.000"
 			style="265728"
 			order="26"
 			id="300503"
@@ -66,13 +67,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndUnits"
 			class="Wnd"
-			org="193.000 61.000 74.000 20.000"
+			org="350.000 99.000 105.000 35.000"
 			style="2624"
 			order="29"
 			id="0"
@@ -89,13 +90,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPrice"
 			class="Wnd"
-			org="193.000 23.000 80.000 20.000"
+			org="291.000 26.000 140.000 56.000"
 			style="2880"
 			order="24"
 			id="0"
@@ -112,13 +113,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndName"
 			class="Wnd"
-			org="57.000 23.000 134.000 20.000"
+			org="100.000 26.000 235.000 56.000"
 			style="2880"
 			order="23"
 			id="0"
@@ -135,13 +136,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndIco"
 			class="ImageWnd"
-			org="21.000 17.000 32.000 32.000"
+			org="30.000 24.000 56.000 56.000"
 			style="768"
 			order="22"
 			id="0"
@@ -159,13 +160,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndSlider"
 			class="SliderWnd"
-			org="57.000 55.000 100.000 32.000"
+			org="85.000 92.000 216.000 48.000"
 			style="262656"
 			order="27"
 			id="300502"
@@ -182,12 +183,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnActiveZone"
-			org="13.000 13.000 268.000 40.000"
+			org="17.000 20.000 471.000 68.000"
 			style="262656"
 			order="30"
 			id="300501"
@@ -206,14 +207,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndPattern"
 			class="Wnd"
-			org="0.000 13.000 330.000 130.000"
+			org="0.000 18.000 580.000 229.000"
 			style="832"
 			order="21"
 			id="300400"
@@ -230,13 +230,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-		
+
 		<Node
 			name="wndFrame"
 			class="Wnd"
-			org="15.000 17.000 264.000 78.000"
+			org="19.000 24.000 465.000 125.000"
 			style="512"
 			order="31"
 			id="0"
@@ -253,12 +253,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnAdvance"
-			org="287.000 17.000 32.000 32.000"
+			org="497.000 28.000 48.000 48.000"
 			style="265728"
 			order="25"
 			id="300500"
@@ -277,13 +277,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="emboss_btnAdvance"
 			class="Wnd"
-			org="287.000 17.000 32.000 32.000"
+			org="497.000 28.000 48.000 48.000"
 			style="768"
 			order="1"
 			id="411"
@@ -297,9 +297,8 @@
 			format="1"
 			font="0"
 			textColor="ff404040"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>
-                            	

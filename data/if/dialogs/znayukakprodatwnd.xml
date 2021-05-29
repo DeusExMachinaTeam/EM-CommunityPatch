@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Interface for buying vehicles in Garage  -->
 <Prefabs>
 	<Node
 		name="ZnayuKakProdatWnd"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -19,11 +21,10 @@
 		clientEdges="0.000 0.000 0.000 0.000"
 		wndColor="00000000"
 		textColor="ffffffff">
-
 		<Node
 			name="wndBottomPanel"
 			class="Wnd"
-			org="0.000 689.000 1024.000 64.000"
+			org="0.000 969.000 1920.000 90.000"
 			style="1049344"
 			order="1"
 			id="0"
@@ -36,34 +37,29 @@
 			wrap="2"
 			format="1"
 			font="0"
-
 			textColor="ff505050"
 			clientEdges="0.000 0.000 0.000 0.000">
-        		<Animations>
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_TOP"
+					animationSpeed="350"
+					animationAccel="-100"
+					animationDelayTime="0"/>
 
-        			<AnimationOnShow
-        				animationEnabled="1"
-        				animationType="TO_TOP"
-        				animationSpeed="200"
-        				animationAccel="0"
-        				animationDelayTime="0"
-        			/>
-
-        			<AnimationOnHide
-        				animationEnabled="1"
-        				animationType="TO_BEYOND_BOTTOM"
-        				animationSpeed="200"
-        				animationAccel="0"
-        				animationDelayTime="0"
-        			/>              
-
-        		</Animations>
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_BOTTOM"
+					animationSpeed="150"
+					animationAccel="300"
+					animationDelayTime="0"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="wndMoveAllFromPlayerToWorkshopIco"
 			class="ImageWnd"
-			org="70.000 728.000 32.000 16.000"
+			org="338.000 1024.000 45.000 22.000"
 			style="768"
 			order="1"
 			id="0"
@@ -78,12 +74,11 @@
 			font="0"
 			textColor="ff505050"
 			image="data\if\ico\ZnayuKakProdatWnd\MoveTo_Right.dds"
-			clientEdges="0.000 0.000 0.000 0.000" />
-
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="btnMoveAllFromPlayerToWorkshop"
-			org="32.000 724.000 105.000 24.000"
+			org="285.000 1018.000 148.000 34.000"
 			style="262656"
 			order="0"
 			id="800000"
@@ -100,12 +95,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			btnIsImaged="0"
-			class="ButtonWnd" />
+			class="ButtonWnd"/>
 
 		<Node
 			name="wndMoveAllFromPlayerToWorkshopPanel"
 			class="Wnd"
-			org="20.000 689.000 128.000 64.000"
+			org="268.000 969.000 180.000 90.000"
 			style="768"
 			order="1"
 			id="0"
@@ -119,12 +114,12 @@
 			format="1"
 			font="0"
 			textColor="ff505050"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="wndMoveAllFromWorkshopToPlayerIco"
 			class="ImageWnd"
-			org="930.000 728.000 32.000 16.000"
+			org="1548.000 1024.000 45.000 22.000"
 			style="768"
 			order="1"
 			id="0"
@@ -139,11 +134,11 @@
 			font="0"
 			textColor="ff505050"
 			image="data\if\ico\ZnayuKakProdatWnd\MoveTo_Left.dds"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="btnMoveAllFromWorkshopToPlayer"
-			org="892.000 724.000 105.000 24.000"
+			org="1494.000 1018.000 148.000 34.000"
 			style="262656"
 			order="0"
 			id="800001"
@@ -160,12 +155,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			btnIsImaged="0"
-			class="ButtonWnd" />
+			class="ButtonWnd"/>
 
 		<Node
 			name="wndMoveAllFromWorkshopToPlayerPanel"
 			class="Wnd"
-			org="880.000 689.000 128.000 64.000"
+			org="1478.000 969.000 180.000 90.000"
 			style="768"
 			order="1"
 			id="0"
@@ -179,11 +174,11 @@
 			format="1"
 			font="0"
 			textColor="ff505050"
-			clientEdges="0.000 0.000 0.000 0.000" /> 
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="btnCancel"
-			org="623.000 724.000 122.000 24.000"
+			org="1116.000 1018.000 172.000 34.000"
 			style="262656"
 			order="1"
 			id="800002"
@@ -200,11 +195,11 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			btnIsImaged="0"
-			class="ButtonWnd" />
+			class="ButtonWnd"/>
 
 		<Node
 			name="btnBuy"
-			org="281.000 724.000 122.000 24.000"
+			org="635.000 1018.000 172.000 34.000"
 			style="262656"
 			order="2"
 			id="800003"
@@ -221,12 +216,12 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			btnIsImaged="0"
-			class="ButtonWnd" />
+			class="ButtonWnd"/>
 
 		<Node
 			name="wndTradeCost"
 			class="Wnd"
-			org="422.000 724.000 183.000 24.000"
+			org="833.000 1018.000 257.000 34.000"
 			style="2560"
 			order="3"
 			id="0"
@@ -241,12 +236,12 @@
 			font="0"
 			clientEdges="0.000 0.000 5.000 0.000"
 			wndColor="00000000"
-			textColor="ff505050" />
+			textColor="ff505050"/>
 
 		<Node
 			name="wndTradeCostTitle"
 			class="Wnd"
-			org="422.000 724.000 183.000 24.000"
+			org="833.000 1018.000 257.000 34.000"
 			style="2816"
 			order="3"
 			id="0"
@@ -261,13 +256,12 @@
 			font="0"
 			clientEdges="5.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ff505050" />
-
+			textColor="ff505050"/>
 
 		<Node
 			name="wndMiddleBottomPanel"
 			class="Wnd"
-			org="256.000 689.000 512.000 64.000"
+			org="600.000 969.000 720.000 90.000"
 			style="768"
 			order="1"
 			id="0"
@@ -281,12 +275,12 @@
 			format="1"
 			font="0"
 			textColor="ff505050"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="wndPlayerItemsCost"
 			class="Wnd"
-			org="378.000 83.000 128.000 32.000"
+			org="752.000 125.000 180.000 45.000"
 			style="3584"
 			order="1"
 			id="0"
@@ -301,33 +295,27 @@
 			font="0"
 			textColor="ff505050"
 			clientEdges="0.000 0.000 0.000 0.000">
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="100"/>
 
-        		<Animations>
-
-        			<AnimationOnShow
-        				animationEnabled="1"
-        				animationType="TO_BOTTOM"
-        				animationSpeed="200"
-        				animationAccel="0"
-        				animationDelayTime="0"
-        			/>
-
-        			<AnimationOnHide
-        				animationEnabled="1"
-        				animationType="TO_BEYOND_TOP"
-        				animationSpeed="200"
-        				animationAccel="0"
-        				animationDelayTime="0"
-        			/>              
-
-        		</Animations>
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="0"/>
+			</Animations>
 		</Node>
-
 
 		<Node
 			name="wndWorkshopItemsCost"
 			class="Wnd"
-			org="890.000 83.000 128.000 32.000"
+			org="1712.000 125.000 180.000 45.000"
 			style="3584"
 			order="1"
 			id="0"
@@ -341,28 +329,22 @@
 			format="1"
 			font="0"
 			textColor="ff505050"
-			clientEdges="0.000 0.000 0.000 0.000"> 
+			clientEdges="0.000 0.000 0.000 0.000">
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="100"/>
 
-        		<Animations>
-
-        			<AnimationOnShow
-        				animationEnabled="1"
-        				animationType="TO_BOTTOM"
-        				animationSpeed="200"
-        				animationAccel="0"
-        				animationDelayTime="0"
-        			/>
-
-        			<AnimationOnHide
-        				animationEnabled="1"
-        				animationType="TO_BEYOND_TOP"
-        				animationSpeed="200"
-        				animationAccel="0"
-        				animationDelayTime="0"
-        			/>              
-
-        		</Animations>
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="0"/>
+			</Animations>
 		</Node>
-
 	</Node>
 </Prefabs>
