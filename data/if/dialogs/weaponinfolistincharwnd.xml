@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Weapon groups panel shown in tab on vehicle characteristics screen -->
+<!-- Related to other characteristics panels -->
 <Prefabs>
 	<Node
 		name="wndWeaponGroups"
 		class="Wnd"
-		org="0.000 515.000 512.000 256.000"
+		org="0.000 724.000 960.000 360.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -23,7 +26,7 @@
 		<Node
 			name="wndWeaponSlot"
 			class="Wnd"
-			org="19.000 37.000 476.000 32.000"
+			org="27.000 45.000 900.000 46.000"
 			style="768"
 			order="8"
 			id="0"
@@ -40,13 +43,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndGunPartIco"
 			class="ImageWnd"
-			org="27.000 37.000 32.000 32.000"
+			org="178.000 43.000 47.000 47.000"
 			style="768"
 			order="8"
 			id="0"
@@ -64,13 +67,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndGunName"
 			class="Wnd"
-			org="63.000 37.000 274.000 32.000"
+			org="219.000 44.000 385.000 45.000"
 			style="2816"
 			order="8"
 			id="0"
@@ -87,13 +90,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndGunIco"
 			class="ImageWnd"
-			org="450.000 37.000 32.000 32.000"
+			org="740.000 45.000 35.000 40.000"
 			style="768"
 			order="8"
 			id="0"
@@ -111,13 +114,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWeaponGroups"
 			class="Wnd"
-			org="337.000 45.000 96.000 16.000"
+			org="594.000 54.000 135.000 22.000"
 			style="768"
 			order="8"
 			id="0"
@@ -134,13 +137,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnWeaponGroup_1"
 			class="ButtonWnd"
-			org="337.000 45.000 16.000 16.000"
+			org="594.000 54.000 22.000 22.000"
 			style="262656"
 			order="8"
 			id="1000"
@@ -157,13 +160,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
-		</Node>               
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnWeaponGroup_2"
 			class="ButtonWnd"
-			org="357.000 45.000 16.000 16.000"
+			org="622.000 54.000 22.000 22.000"
 			style="262656"
 			order="8"
 			id="1000"
@@ -180,13 +183,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
-		</Node>       
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnWeaponGroup_3"
 			class="ButtonWnd"
-			org="377.000 45.000 16.000 16.000"
+			org="650.000 54.000 22.000 22.000"
 			style="262656"
 			order="8"
 			id="1000"
@@ -203,13 +206,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnWeaponGroup_4"
 			class="ButtonWnd"
-			org="397.000 45.000 16.000 16.000"
+			org="678.000 54.000 22.000 22.000"
 			style="262656"
 			order="8"
 			id="1000"
@@ -226,13 +229,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnWeaponGroup_5"
 			class="ButtonWnd"
-			org="417.000 45.000 16.000 16.000"
+			org="706.000 54.000 22.000 22.000"
 			style="262656"
 			order="8"
 			id="1000"
@@ -249,13 +252,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndInactiveBg"
 			class="Wnd"
-			org="19.000 37.000 476.000 32.000"
+			org="144.000 43.000 672.000 47.000"
 			style="768"
 			order="8"
 			id="0"
@@ -272,10 +275,9 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
-
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>

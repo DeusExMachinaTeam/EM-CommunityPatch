@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- HP, fuel and armor indicators shown on vehicle status screen -->
+<!-- Used both for characteristicwnd_right.xml and _left.xml, related to other characteristics panels -->
 <Prefabs>
 	<Node
 		name="DamageInfo"
 		class="Wnd"
-		org="12.000 127.000 490.000 256.000"
+		org="20.000 179.000 920.000 290.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -20,12 +23,12 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f">
-		<Animations />
+		<Animations/>
 
 		<Node
 			name="wndHealth"
 			class="Wnd"
-			org="0.000 0.000 128.000 256.000"
+			org="0.000 0.000 141.000 282.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -42,13 +45,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>  
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndHpProgressBarOverlay"
 			class="Wnd"
-			org="2.000 32.000 32.000 128.000"
+			org="1.000 47.000 51.000 201.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -65,13 +68,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>               
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndHpProgressBar"
 			class="ProgressBarWnd"
-			org="9.000 48.000 18.000 95.000"
+			org="10.000 72.000 32.000 149.000"
 			style="512"
 			order="6"
 			id="0"
@@ -94,13 +97,13 @@
 			barTexture="data\if\ico\DamageInfoWndInCharacteristicWnd\hp_bar.dds"
 			textStyle="0"
 			textureStyle="1">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndLowHpLamp"
 			class="ImageWnd"
-			org="34.000 36.000 32.000 16.000"
+			org="53.000 56.000 48.000 21.000"
 			style="512"
 			order="-1"
 			id="0"
@@ -118,13 +121,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue"
 			class="Wnd"
-			org="14.000 10.000 61.000 16.000"
+			org="17.000 16.000 95.000 24.000"
 			style="512"
 			order="-1"
 			id="0"
@@ -141,13 +144,13 @@
 			wndColor="00000000"
 			textColor="ff87e400"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue_0"
 			class="ImageWnd"
-			org="14.000 10.000 16.000 16.000"
+			org="17.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -164,14 +167,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndHpValue_1"
 			class="ImageWnd"
-			org="29.000 10.000 16.000 16.000"
+			org="40.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -188,13 +190,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue_2"
 			class="ImageWnd"
-			org="44.000 10.000 16.000 16.000"
+			org="63.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -211,13 +213,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpValue_3"
 			class="ImageWnd"
-			org="59.000 10.000 16.000 16.000"
+			org="86.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -234,13 +236,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuel"
 			class="Wnd"
-			org="362.000 0.000 128.000 256.000"
+			org="782.000 0.000 141.000 282.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -257,13 +259,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>        
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndFuelProgressBarOverlay"
 			class="Wnd"
-			org="456.000 32.000 32.000 128.000"
+			org="870.000 47.000 51.000 201.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -280,13 +282,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>               
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndFuelProgressBar"
 			class="ProgressBarWnd"
-			org="463.000 48.000 18.000 95.000"
+			org="879.000 72.000 32.000 149.000"
 			style="512"
 			order="6"
 			id="0"
@@ -309,18 +311,18 @@
 			barTexture="data\if\ico\DamageInfoWndInCharacteristicWnd\fuel_bar.dds"
 			textStyle="0"
 			textureStyle="1">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndLowFuelLamp"
 			class="ImageWnd"
-			org="424.000 36.000 32.000 16.000"
+			org="820.000 56.000 48.000 21.000"
 			style="512"
 			order="-1"
 			id="0"
 			caption=""
-			tip=""                                        
+			tip=""
 			backimage=""
 			image="data\if\ico\DamageInfoWndInCharacteristicWnd\fuel_light.dds"
 			paneName="defaultWnd"
@@ -333,13 +335,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>  
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndFuelValue"
 			class="Wnd"
-			org="419.000 10.000 61.000 16.000"
+			org="814.000 16.000 95.000 24.000"
 			style="512"
 			order="-1"
 			id="0"
@@ -356,13 +358,13 @@
 			wndColor="00000000"
 			textColor="ff00aeff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_0"
 			class="ImageWnd"
-			org="419.000 10.000 16.000 16.000"
+			org="814.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -379,13 +381,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_1"
 			class="ImageWnd"
-			org="434.000 10.000 16.000 16.000"
+			org="837.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -402,13 +404,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_2"
 			class="ImageWnd"
-			org="449.000 10.000 16.000 16.000"
+			org="860.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -425,13 +427,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelValue_3"
 			class="ImageWnd"
-			org="464.000 10.000 16.000 16.000"
+			org="883.000 16.000 22.000 24.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -448,13 +450,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndCabinDurability"
 			class="ImageWnd"
-			org="176.000 8.000 64.000 32.000"
+			org="350.000 13.000 101.000 49.000"
 			style="512"
 			order="-1"
 			id="0"
@@ -472,13 +474,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBasketDurability"
 			class="ImageWnd"
-			org="240.000 8.000 64.000 32.000"
+			org="451.000 13.000 101.000 49.000"
 			style="512"
 			order="-1"
 			id="0"
@@ -496,13 +498,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndBg"
 			class="Wnd"
-			org="181.000 0.000 128.000 64.000"
+			org="356.000 0.000 205.000 103.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -519,13 +521,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndHpProgressBarBg"
 			class="Wnd"
-			org="9.000 48.000 18.000 95.000"
+			org="13.000 68.000 25.000 134.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -542,13 +544,13 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndFuelProgressBarBg"
 			class="Wnd"
-			org="463.000 48.000 18.000 95.000"
+			org="878.000 68.000 25.000 134.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -565,8 +567,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
-
+			<Animations/>
+		</Node>
 	</Node>
 </Prefabs>

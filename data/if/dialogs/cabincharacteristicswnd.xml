@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Cabin characteristics panel shown in tab on vehicle characteristics screen -->
+<!-- Related to other characteristics panels -->
 <Prefabs>
 	<Node
 		name="wndCabinCharacteristics"
 		class="Wnd"
-		org="0.000 0.000 256.000 256.000"
+		org="0.000 0.000 480.000 360.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -20,11 +23,10 @@
 		wndColor="00000000"
 		textColor="ff404040"
 		textColorDisabled="ff8f8f8f">
-
 		<Node
 			name="wndPiercingIco"
 			class="ImageWnd"
-			org="20.000 191.000 24.000 24.000"
+			org="63.000 281.000 34.000 34.000"
 			style="512"
 			order="17"
 			id="0"
@@ -42,13 +44,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Persing.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPiercingVal"
 			class="Wnd"
-			org="46.000 193.000 50.000 20.000"
+			org="103.000 285.000 70.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -65,13 +67,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBlastIco"
 			class="ImageWnd"
-			org="98.000 191.000 24.000 24.000"
+			org="193.000 280.000 34.000 34.000"
 			style="512"
 			order="18"
 			id="0"
@@ -89,13 +91,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Blast.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndBlastVal"
 			class="Wnd"
-			org="124.000 193.000 50.000 20.000"
+			org="233.000 285.000 70.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -112,13 +114,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndEnergyIco"
 			class="ImageWnd"
-			org="176.000 191.000 24.000 24.000"
+			org="333.000 281.000 34.000 34.000"
 			style="512"
 			order="19"
 			id="0"
@@ -136,13 +138,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Energy.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndEnergyVal"
 			class="Wnd"
-			org="202.000 193.000 50.000 20.000"
+			org="369.000 285.000 70.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -159,13 +161,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndMaxDurabilityIco"
 			class="ImageWnd"
-			org="146.000 75.000 18.000 18.000"
+			org="206.000 109.000 25.000 25.000"
 			style="512"
 			order="16"
 			id="0"
@@ -183,13 +185,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Armor.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndMaxDurabilityVal"
 			class="Wnd"
-			org="175.000 74.000 70.000 20.000"
+			org="343.000 108.000 98.000 28.000"
 			style="2560"
 			order="21"
 			id="0"
@@ -206,13 +208,36 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndMaxDurabilityLbl"
+			class="Wnd"
+			org="235.000 108.000 160.000 28.000"
+			style="2656"
+			order="21"
+			id="0"
+			caption="^CabinDurability^"
+			tip="^CabinDurability^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndWeightIco"
 			class="ImageWnd"
-			org="146.000 97.000 18.000 18.000"
+			org="206.000 141.000 25.000 25.000"
 			style="512"
 			order="37"
 			id="0"
@@ -230,13 +255,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Weight.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndWeightVal"
 			class="Wnd"
-			org="175.000 96.000 70.000 20.000"
+			org="343.000 140.000 98.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -253,14 +278,36 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
 		</Node>
 
+		<Node
+			name="wndWeightLbl"
+			class="Wnd"
+			org="235.000 140.000 160.000 28.000"
+			style="2656"
+			order="21"
+			id="0"
+			caption="^Weight^"
+			tip="^Weight^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndMaxSpeedIco"
 			class="ImageWnd"
-			org="146.000 119.000 18.000 18.000"
+			org="206.000 173.000 25.000 25.000"
 			style="512"
 			order="35"
 			id="0"
@@ -278,13 +325,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\MAXSpeed.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndMaxSpeedVal"
 			class="Wnd"
-			org="175.000 118.000 70.000 18.000"
+			org="343.000 172.000 98.000 25.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -301,13 +348,36 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndMaxSpeedLbl"
+			class="Wnd"
+			org="235.000 172.000 160.000 28.000"
+			style="2656"
+			order="21"
+			id="0"
+			caption="^Speed^"
+			tip="^MaxSpeed^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTorqueIco"
 			class="ImageWnd"
-			org="146.000 141.000 18.000 18.000"
+			org="206.000 205.000 25.000 25.000"
 			style="512"
 			order="36"
 			id="0"
@@ -325,13 +395,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Power.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTorqueVal"
 			class="Wnd"
-			org="175.000 140.000 70.000 20.000"
+			org="343.000 204.000 98.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -348,13 +418,36 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTorqueLbl"
+			class="Wnd"
+			org="235.000 204.000 160.000 28.000"
+			style="2656"
+			order="21"
+			id="0"
+			caption="^Power^"
+			tip="^EnginePower^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndControlIco"
 			class="ImageWnd"
-			org="146.000 162.000 18.000 18.000"
+			org="206.000 236.000 25.000 25.000"
 			style="512"
 			order="38"
 			id="0"
@@ -372,13 +465,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Control.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndControlVal"
 			class="Wnd"
-			org="175.000 162.000 70.000 20.000"
+			org="343.000 236.000 98.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -395,13 +488,36 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations />
-		</Node>  
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndControlLbl"
+			class="Wnd"
+			org="235.000 236.000 160.000 28.000"
+			style="2656"
+			order="21"
+			id="0"
+			caption="^VehicleControl^"
+			tip="^VehicleControl^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndCBName"
 			class="Wnd"
-			org="20.000 36.000 229.000 30.000"
+			org="13.000 55.000 437.000 36.000"
 			style="2816"
 			order="27"
 			id="0"
@@ -418,13 +534,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndCBIco"
 			class="ImageWnd"
-			org="28.000 77.000 100.000 100.000"
+			org="22.000 101.000 167.000 167.000"
 			style="768"
 			order="39"
 			id="0"
@@ -442,9 +558,9 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="">
-			<Animations />
+			<Animations/>
 		</Node>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>
