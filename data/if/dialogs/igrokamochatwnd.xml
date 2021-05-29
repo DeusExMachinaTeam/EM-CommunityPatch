@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Red damage indicators showing direction of enemy fire -->
 <Prefabs>
 	<Node
 		name="IgrokaMochatWnd"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="832"
 		order="-1"
 		id="0"
@@ -23,7 +25,7 @@
 		<Node
 			name="borderLeft"
 			class="ImageWnd"
-			org="0.000 20.000 5.000 728.000"
+			org="-24.000 0.000 48.000 1080.000"
 			style="768"
 			order="0"
 			id="0"
@@ -41,13 +43,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\RadarWnd\vehicleEnemy.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="borderTop"
 			class="ImageWnd"
-			org="20.000 0.000 984.000 5.000"
+			org="0.000 -24.000 1920.000 48.000"
 			style="768"
 			order="1"
 			id="0"
@@ -65,13 +67,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\RadarWnd\vehicleEnemy.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="borderRight"
 			class="ImageWnd"
-			org="1019.000 20.000 5.000 728.000"
+			org="1896.000 0.000 48.000 1080.000"
 			style="768"
 			order="2"
 			id="0"
@@ -89,13 +91,13 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\RadarWnd\vehicleEnemy.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="borderBottom"
 			class="ImageWnd"
-			org="20.000 763.000 984.000 5.000"
+			org="0.000 1056.000 1920.000 48.000"
 			style="768"
 			order="3"
 			id="0"
@@ -113,9 +115,9 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\RadarWnd\vehicleEnemy.dds">
-			<Animations />
+			<Animations/>
 		</Node>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>

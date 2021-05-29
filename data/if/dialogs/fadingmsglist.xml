@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Fading messages shown at the bottom left of the screen, such as town enter prompt -->
 <Prefabs>
 	<Node
 		name="FadingMsgsList"
 		class="Wnd"
-		org="0.000 140.000 320.000 628.000"
+		org="0.000 197.000 450.000 883.000"
 		style="832"
 		order="-1"
 		id="0"
@@ -20,6 +22,6 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f">
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>
