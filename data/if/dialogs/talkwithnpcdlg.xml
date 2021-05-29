@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main NPC dialogue screen -->
 <Prefabs>
 	<Node
 		name="TalkWithNpcDlg"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="25152"
 		order="0"
 		id="0"
@@ -19,11 +21,10 @@
 		clientEdges="0.000 0.000 0.000 0.000"
 		wndColor="00000000"
 		textColor="ffffffff">
-
 		<Node
 			name="wndConversation"
 			class="Wnd"
-			org="200.000 346.000 627.000 344.000"
+			org="434.000 487.000 1052.000 484.000"
 			style="25152"
 			order="0"
 			id="500000"
@@ -39,13 +40,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ffffffff">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPlayerReplies"
 			class="TextBoxWnd"
-			org="200.000 574.000 627.000 116.000"
+			org="434.000 807.000 1052.000 216.000"
 			style="12864"
 			order="0"
 			id="500001"
@@ -61,13 +62,13 @@
 			clientEdges="0.000 0.000 5.000 0.000"
 			wndColor="00000000"
 			textColor="FF404040">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndNpcReplies"
 			class="TextBoxWnd"
-			org="200.000 346.000 627.000 192.000"
+			org="434.000 487.000 1052.000 271.000"
 			style="576"
 			order="6"
 			id="0"
@@ -83,13 +84,13 @@
 			clientEdges="0.000 0.000 5.000 0.000"
 			wndColor="00000000"
 			textColor="FF404040">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndNpcImage"
 			class="ModelWnd"
-			org="256.000 12.000 512.000 256.000"
+			org="540.000 17.000 844.000 360.000"
 			style="768"
 			order="4"
 			id="0"
@@ -108,14 +109,14 @@
 			image="data\if\ico\TalkWithNpcDlg\Dialog_Bar.dds"
 			ModelRotation="0.0000 0.0000 0.0000 1.0000"
 			ModelTranslation="0.000 -0.400 1.500"
-			ModelScale="1.0 1.0 1.0">
-			<Animations />
+			ModelScale="0.95 0.95 0.95">
+			<Animations/>
 		</Node>
 
 		<Node
 			name="lblNpcName"
 			class="Wnd"
-			org="384.000 280.000 256.000 32.000"
+			org="721.000 397.000 478.000 40.000"
 			style="3904"
 			order="13"
 			id="0"
@@ -131,13 +132,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="FF404040">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTopPanel"
 			class="Wnd"
-			org="0.000 0.000 1024.000 512.000"
+			org="0.000 0.000 1920.000 480.000"
 			style="768"
 			order="7"
 			id="0"
@@ -157,23 +158,23 @@
 				<AnimationOnShow
 					animationEnabled="1"
 					animationType="TO_BOTTOM"
-					animationSpeed="800"
-					animationAccel="800"
-					animationDelayTime="0" />
+					animationSpeed="2450"
+					animationAccel="-4500"
+					animationDelayTime="50"/>
 
 				<AnimationOnHide
 					animationEnabled="1"
 					animationType="TO_BEYOND_TOP"
-					animationSpeed="800"
-					animationAccel="800"
-					animationDelayTime="0" />
+					animationSpeed="500"
+					animationAccel="3000"
+					animationDelayTime="0"/>
 			</Animations>
 		</Node>
 
 		<Node
 			name="wndBottomPanel"
 			class="Wnd"
-			org="0.000 256.000 1024.000 512.000"
+			org="0.000 120.000 1920.000 960.000"
 			style="25344"
 			order="0"
 			id="0"
@@ -193,20 +194,19 @@
 				<AnimationOnShow
 					animationEnabled="1"
 					animationType="TO_TOP"
-					animationSpeed="800"
-					animationAccel="800"
-					animationDelayTime="0" />
+					animationSpeed="4350"
+					animationAccel="-7500"
+					animationDelayTime="0"/>
 
 				<AnimationOnHide
 					animationEnabled="1"
 					animationType="TO_BEYOND_BOTTOM"
-					animationSpeed="800"
-					animationAccel="800"
-					animationDelayTime="0" />
+					animationSpeed="700"
+					animationAccel="4000"
+					animationDelayTime="0"/>
 			</Animations>
 		</Node>
 
-
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>
