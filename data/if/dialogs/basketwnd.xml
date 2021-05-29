@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Basket/cargo interface in the bottom left part of the screen, show in towns and inventory screen -->
+<!-- Child of inventorywnd.xml, related to cabinwnd.xml -->
 <Prefabs>
 	<Node
 		name="BasketWnd"
 		class="Wnd"
-		org="512.000 329.000 512.000 512.000"
+		org="0.000 470.000 960.000 610.000"
 		style="512"
 		order="-1"
 		id="0"
@@ -15,33 +18,27 @@
 		wrap="2"
 		format="1"
 		font="0"
-		clientEdges="0.000 0.000 0.000 0.000"> 
-
+		clientEdges="0.000 0.000 0.000 0.000">
 		<Animations>
-
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_TOP"
-				animationSpeed="1000"
-				animationAccel="1000"
-				animationDelayTime="0"
-			/>
+				animationSpeed="3500"
+				animationAccel="-6000"
+				animationDelayTime="0"/>
 
 			<AnimationOnHide
 				animationEnabled="1"
 				animationType="TO_BEYOND_BOTTOM"
-				animationSpeed="1000"
-				animationAccel="1000"
-				animationDelayTime="0"
-			/>              
-
+				animationSpeed="3500"
+				animationAccel="-6000"
+				animationDelayTime="0"/>
 		</Animations>
- 
 
 		<Node
 			name="wndInventory"
 			class="Wnd"
-			org="48.000 16.000 416.000 384.000"
+			org="173.000 22.000 695.000 540.000"
 			style="512"
 			order="2"
 			id="0"
@@ -54,12 +51,12 @@
 			wrap="2"
 			format="1"
 			font="0"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="wndDisabledBg"
 			class="ImageWnd"
-			org="11.000 1.000 490.000 413.000"
+			org="-12.000 1.000 689.000 581.000"
 			style="768"
 			order="2"
 			id="0"
@@ -72,12 +69,12 @@
 			wrap="2"
 			format="1"
 			font="0"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="wndHidePictureBg"
 			class="ImageWnd"
-			org="116.000 0.000 256.000 256.000"
+			org="136.000 0.000 360.000 360.000"
 			style="768"
 			order="2"
 			id="0"
@@ -90,7 +87,6 @@
 			wrap="2"
 			format="1"
 			font="0"
-			clientEdges="0.000 0.000 0.000 0.000" />
-
-</Node>
+			clientEdges="0.000 0.000 0.000 0.000"/>
+	</Node>
 </Prefabs>

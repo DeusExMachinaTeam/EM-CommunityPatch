@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main panel of town and inventory windows, containing tabs for different interface functions and other panels -->
+<!-- Parent of inventorywnd.xml, groundwnd.xml -->
 <Prefabs>
 	<Node
 		name="dlgMotherPanel"
 		class="ModalWnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="25088"
 		order="-1"
 		id="0"
@@ -22,7 +25,7 @@
 		textColorDisabled="ff8f8f8f">
 		<Node
 			name="tabBtn_Questlog"
-			org="218.000 4.000 96.000 64.000"
+			org="325.000 6.000 151.000 90.000"
 			style="262656"
 			order="0"
 			id="800"
@@ -41,12 +44,28 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="tabBtn_Map"
-			org="316.000 4.000 96.000 64.000"
+			org="487.000 6.000 151.000 90.000"
 			style="262656"
 			order="1"
 			id="800"
@@ -65,12 +84,28 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="20"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="tabBtn_Journal"
-			org="414.000 4.000 96.000 64.000"
+			org="649.000 6.000 151.000 90.000"
 			style="262656"
 			order="2"
 			id="800"
@@ -89,12 +124,28 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="40"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="tabBtn_AdditionalBuilding"
-			org="554.000 4.000 96.000 64.000"
+			org="1205.000 6.000 151.000 90.000"
 			style="262656"
 			order="3"
 			id="800"
@@ -113,12 +164,28 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="60"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="tabBtn_Bar"
-			org="652.000 4.000 96.000 64.000"
+			org="1366.000 6.000 151.000 90.000"
 			style="262656"
 			order="4"
 			id="800"
@@ -137,12 +204,28 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="550"
+					animationAccel="-225"
+					animationDelayTime="80"
+					soundMoveEnabled="1"/>
+
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="tabBtn_Inventory"
-			org="750.000 4.000 96.000 64.000"
+			org="1527.000 6.000 151.000 90.000"
 			style="262656"
 			order="5"
 			id="800"
@@ -161,12 +244,28 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="100"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="tabBtn_Characteristic"
-			org="848.000 4.000 96.000 64.000"
+			org="1688.000 6.000 151.000 90.000"
 			style="262656"
 			order="6"
 			id="800"
@@ -185,12 +284,28 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="120"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="btnExit"
-			org="972.000 4.000 44.000 44.000"
+			org="1845.000 6.000 66.000 66.000"
 			style="262656"
 			order="7"
 			id="801"
@@ -212,13 +327,29 @@
 			btnImageDown="data\if\ico\MotherPanel\close_p.dds"
 			btnImageIn="data\if\ico\MotherPanel\close_h.dds"
 			class="ButtonWnd">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_LEFTBOTTOM"
+					animationSpeed="550"
+					animationAccel="-175"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_RIGHTTOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="100"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="wndDecor"
 			class="Wnd"
-			org="0.000 736.000 1024.000 32.000"
+			org="0.000 1035.000 1920.000 45.000"
 			style="768"
 			order="8"
 			id="0"
@@ -235,13 +366,29 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_TOP"
+					animationSpeed="300"
+					animationAccel="-100"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_BOTTOM"
+					animationSpeed="100"
+					animationAccel="300"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="wndDecorBar"
 			class="ImageWnd"
-			org="1008.000 0.000 16.000 1024.000"
+			org="1897.000 0.000 23.000 1080.000"
 			style="768"
 			order="8"
 			id="0"
@@ -259,13 +406,12 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\TownDlg\bar_overlay.dds">
-			<Animations />
 		</Node>
 
 		<Node
 			name="wndTopPanel"
 			class="Wnd"
-			org="0.000 0.000 1024.000 128.000"
+			org="0.000 0.000 1920.000 120.000"
 			style="768"
 			order="9"
 			id="0"
@@ -282,13 +428,29 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="700"
+					animationAccel="-300"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="150"
+					soundMoveEnabled="1"/>
+			</Animations>
 		</Node>
 
 		<Node
 			name="wndDecorBg"
 			class="ImageWnd"
-			org="0.000 0.000 1024.000 1024.000"
+			org="0.000 0.000 1920.000 1080.000"
 			style="768"
 			order="8"
 			id="0"
@@ -306,9 +468,25 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\frames\Main_Back.dds">
-			<Animations />
+			<!-- <Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_TOP"
+					animationSpeed="7000"
+					animationAccel="-2500"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/>
+	
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_BOTTOM"
+					animationSpeed="2000"
+					animationAccel="3500"
+					animationDelayTime="0"
+					soundMoveEnabled="1"/> -->
+			<Animations/>
 		</Node>
-
-		<Animations />
+		
+		<Animations/>
 	</Node>
 </Prefabs>

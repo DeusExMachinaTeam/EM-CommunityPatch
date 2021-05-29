@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Splash screen shown when going to another map of loading save -->
 <Prefabs>
 	<Node
 		name="wndSplash"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="832"
 		order="-1"
 		id="0"
@@ -22,7 +24,7 @@
 		<Node
 			name="progressBar"
 			class="ProgressBarWnd"
-			org="128.000 592.000 768.000 32.000"
+			org="225.000 888.000 1080.000 45.000"
 			style="768"
 			order="0"
 			id="0"
@@ -44,13 +46,13 @@
 			barTexture="data\if\ico\SplashWnd\loading_bar.dds"
 			textureStyle="1"
 			textStyle="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="lblText"
 			class="Wnd"
-			org="250.000 680.000 540.000 30.000"
+			org="592.000 996.000 759.000 42.000"
 			style="3904"
 			order="2"
 			id="0"
@@ -66,13 +68,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ffffffff">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPanelBottom"
 			class="Wnd"
-			org="0.000 580.000 1024.000 64.000"
+			org="0.000 871.000 1920.000 120.000"
 			style="768"
 			order="4"
 			id="0"
@@ -88,13 +90,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ffffffff">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPanelTop"
 			class="Wnd"
-			org="0.000 0.000 1024.000 256.000"
+			org="0.000 0.000 1920.000 240.000"
 			style="768"
 			order="3"
 			id="0"
@@ -110,13 +112,13 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ffffffff">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndImage"
 			class="ImageWnd"
-			org="0.000 128.000 1024.000 495.000"
+			org="0.000 100.000 1920.000 870.000"
 			style="768"
 			order="1"
 			id="0"
@@ -133,9 +135,9 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			image="">
-			<Animations />
+			<Animations/>
 		</Node>
 
-		<Animations />
+		<Animations/>
 	</Node>
 </Prefabs>
