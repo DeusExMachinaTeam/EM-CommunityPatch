@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Cinematic screen used in cutscenes -->
 <Prefabs>
 	<Node
 		name="CinematicPanel"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="576"
 		order="-1"
 		id="0"
@@ -14,11 +16,10 @@
 		paneFlags="1"
 		wrap="2"
 		font="0">
-
 		<Node
 			name="wndText"
 			class="Wnd"
-			org="230.000 660.000 564.000 100.000"
+			org="513.000 928.000 843.000 141.000"
 			style="832"
 			order="1"
 			id="0"
@@ -28,12 +29,12 @@
 			paneName="defaultWnd"
 			paneFlags="7"
 			wrap="2"
-			font="0" />
+			font="0"/>
 
 		<Node
 			name="wndPortraitOverlay"
 			class="ImageWnd"
-			org="0.000 640.000 1024.000 128.000"
+			org="0.000 900.000 1920.000 180.000"
 			style="768"
 			order="3"
 			id="0"
@@ -44,12 +45,12 @@
 			paneName="WndNoAlpha"
 			paneFlags="0"
 			wrap="2"
-			font="0" />
+			font="0"/>
 
 		<Node
 			name="wndPortrait_0"
 			class="ModelWnd"
-			org="20.000 538.000 200.000 200.000"
+			org="178.000 757.000 281.000 281.000"
 			style="768"
 			order="2"
 			id="0"
@@ -68,12 +69,12 @@
 			image=""
 			ModelRotation="0.0000 -0.3000 0.0000 1.0000"
 			ModelTranslation="0.000 -0.700 2.500"
-			ModelScale="2.100 2.100 2.100" />
+			ModelScale="2.100 2.100 2.100"/>
 
 		<Node
 			name="wndPortrait_1"
 			class="ModelWnd"
-			org="804.000 538.000 200.000 200.000"
+			org="1461.000 757.000 281.000 281.000"
 			style="768"
 			order="2"
 			id="0"
@@ -92,12 +93,12 @@
 			image=""
 			ModelRotation="0.0000 0.3000 0.0000 1.0000"
 			ModelTranslation="0.000 -0.700 2.500"
-			ModelScale="2.100 2.100 2.100" />
+			ModelScale="2.100 2.100 2.100"/>
 
 		<Node
 			name="DownPanel"
 			class="Wnd"
-			org="0.000 648.000 1024.000 120.000"
+			org="0.000 911.000 1920.000 169.000"
 			style="768"
 			order="3"
 			id="0"
@@ -107,12 +108,12 @@
 			paneName="WndNoAlpha"
 			paneFlags="1"
 			wrap="2"
-			font="0" />
+			font="0"/>
 
 		<Node
 			name="UpPanel"
 			class="Wnd"
-			org="0.000 0.000 1024.000 120.000"
+			org="0.000 0.000 1920.000 169.000"
 			style="768"
 			order="4"
 			id="0"
@@ -122,12 +123,12 @@
 			paneName="WndNoAlpha"
 			paneFlags="1"
 			wrap="2"
-			font="0" />
+			font="0"/>
 
 		<Node
 			name="wndScrollImageUpOverlay"
 			class="ImageWnd"
-			org="0.000 0.000 1024.000 256.000"
+			org="0.000 0.000 1920.000 360.000"
 			style="768"
 			order="18"
 			id="0"
@@ -145,13 +146,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndScrollImageDownOverlay"
 			class="ImageWnd"
-			org="0.000 512.000 1024.000 256.000"
+			org="0.000 720.000 1920.000 360.000"
 			style="768"
 			order="18"
 			id="0"
@@ -169,13 +170,13 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndScrollText"
 			class="Wnd"
-			org="64.000 128.000 896.000 512.000"
+			org="330.000 180.000 1260.000 720.000"
 			style="768"
 			order="18"
 			id="0"
@@ -192,13 +193,13 @@
 			wndColor="00000000"
 			textColor="ffdcc297"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="wndScrollImage"
 			class="ImageWnd"
-			org="0.000 128.000 1024.000 512.000"
+			org="0.000 180.000 1920.000 720.000"
 			style="768"
 			order="18"
 			id="0"
@@ -216,8 +217,7 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
-
-</Node>
+	</Node>
 </Prefabs>
