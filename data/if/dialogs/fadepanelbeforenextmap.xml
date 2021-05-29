@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Fading black screen when moving from one map to another -->
 <Prefabs>
 	<Node
 		name="wndFadePanel"
 		class="Wnd"
-		org="0.000 0.000 1024.000 768.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -15,5 +17,7 @@
 		wrap="2"
 		font="0">
 
-	</Node>
+
+</Node>
+
 </Prefabs>
