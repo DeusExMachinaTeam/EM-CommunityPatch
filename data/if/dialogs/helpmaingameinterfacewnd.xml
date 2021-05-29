@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- UI help screen shown at the start of the game and on pressing F1 -->
 <Prefabs>
 	<Node
 		name="wndMainGameInterfaceHelp"
 		class="ModalWnd"
-		org="0.000 0.000 1024.000 1024.000"
+		org="0.000 0.000 1920.000 1080.000"
 		style="768"
 		order="-1"
 		id="0"
@@ -20,12 +22,12 @@
 		wndColor="00000000"
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f">
-		<Animations />
+		<Animations/>
 
 		<Node
 			name="checkDisableAutoHelp"
 			class="CheckWnd"
-			org="230.000 724.000 32.000 32.000"
+			org="431.000 1000.000 45.000 45.000"
 			style="264704"
 			order="1"
 			id="11000"
@@ -46,13 +48,13 @@
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="checkDisableAutoHelp_emboss"
 			class="Wnd"
-			org="230.000 724.000 32.000 32.000"
+			org="431.000 1000.000 45.000 45.000"
 			style="768"
 			order="1"
 			id="11000"
@@ -69,13 +71,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="lblDisableAutoHelp"
 			class="Wnd"
-			org="278.000 724.000 320.000 32.000"
+			org="505.000 1000.000 550.000 45.000"
 			style="2816"
 			order="1"
 			id="0"
@@ -92,12 +94,12 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
+			<Animations/>
 		</Node>
 
 		<Node
 			name="btnExit"
-			org="630.000 724.000 160.000 32.000"
+			org="1280.000 1003.000 225.000 45.000"
 			style="265728"
 			order="2"
 			id="1"
@@ -116,13 +118,13 @@
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="0"
 			class="ButtonWnd">
-			<Animations />
-		</Node> 
+			<Animations/>
+		</Node>
 
 		<Node
 			name="btnExit_emboss"
 			class="Wnd"
-			org="628.000 722.000 164.000 36.000"
+			org="1277.000 1000.000 231.000 51.000"
 			style="768"
 			order="2"
 			id="1"
@@ -139,13 +141,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndTitle"
 			class="Wnd"
-			org="249.000 529.000 526.000 40.000"
+			org="467.000 705.000 986.000 56.000"
 			style="2816"
 			order="3"
 			id="0"
@@ -162,13 +164,13 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="lnHorz0"
 			class="LineWnd"
-			org="234.000 569.000 556.000 2.000"
+			org="439.000 761.000 1042.000 3.000"
 			style="768"
 			order="1"
 			id="0"
@@ -183,12 +185,12 @@
 			font="0"
 			textColor="ff404040"
 			lineDirection="0"
-			clientEdges="0.000 0.000 0.000 0.000" />
+			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
 			name="wndHelpText"
 			class="TextBoxWnd"
-			org="249.000 584.000 526.000 103.000"
+			org="467.000 782.000 986.000 160.000"
 			style="512"
 			order="0"
 			id="0"
@@ -206,21 +208,20 @@
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f"
 			drawFlags="7">
-			<Animations />
+			<Animations/>
 		</Node>
-
 
 		<Node
 			name="wndRadarLabel"
 			class="Wnd"
-			org="30.000 147.000 150.000 32.000"
+			org="25.000 215.000 211.000 45.000"
 			style="265728"
 			order="3"
 			id="70000"
 			caption="^Radar^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -230,21 +231,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
-
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndRadarZone"
 			class="Wnd"
-			org="0.000 0.000 128.000 128.000"
+			org="0.000 0.000 210.000 210.000"
 			style="265728"
 			order="3"
 			id="70000"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -254,20 +254,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndSpeedometerLabel"
 			class="Wnd"
-			org="843.000 147.000 150.000 32.000"
+			org="1684.000 215.000 211.000 45.000"
 			style="265728"
 			order="3"
 			id="70001"
 			caption="^Speedometer^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -277,20 +277,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndSpeedometerZone"
 			class="Wnd"
-			org="896.000 0.000 128.000 128.000"
+			org="1710.000 0.000 210.000 210.000"
 			style="265728"
 			order="3"
 			id="70001"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -300,20 +300,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndHpLabel"
 			class="Wnd"
-			org="232.000 57.000 150.000 32.000"
+			org="557.000 80.000 211.000 45.000"
 			style="265728"
 			order="3"
 			id="70002"
 			caption="^Construction^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -323,67 +323,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndHpZone"
 			class="Wnd"
-			org="592.000 6.000 160.000 20.000"
-			style="265728"
-			order="3"
-			id="70003"
-			caption=""
-			tip=""
-			backimage=""
-			paneName="PaneFrameF"
-			scrollPaneName="Scroll1"
-			paneFlags="0"
-			wrap="0"
-			format="0"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ff404040"
-			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-                         
-		<Node
-			name="wndFuelLabel"
-			class="Wnd"
-			org="641.000 57.000 150.000 32.000"
-			style="265728"
-			order="3"
-			id="70003"
-			caption="^Fuel^"
-			tip=""
-			backimage=""
-			paneName="PaneFrameF"
-			scrollPaneName="Scroll1"
-			paneFlags="7"
-			wrap="0"
-			format="0"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ff404040"
-			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
-
-
-		<Node
-			name="wndFuelZone"
-			class="Wnd"
-			org="271.000 6.000 160.000 20.000"
+			org="560.000 5.000 300.000 45.000"
 			style="265728"
 			order="3"
 			id="70002"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -393,20 +346,66 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndFuelLabel"
+			class="Wnd"
+			org="1152.000 80.000 211.000 45.000"
+			style="265728"
+			order="3"
+			id="70003"
+			caption="^Fuel^"
+			tip=""
+			backimage=""
+			paneName="PaneTooltip"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndFuelZone"
+			class="Wnd"
+			org="1060.000 5.000 300.000 45.000"
+			style="265728"
+			order="3"
+			id="70003"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneTooltip"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
 		<Node
 			name="wndDurabilityLabel"
 			class="Wnd"
-			org="437.000 67.000 150.000 32.000"
+			org="854.000 94.000 211.000 45.000"
 			style="265728"
 			order="3"
 			id="70004"
 			caption="^Armor^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -416,20 +415,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndDurabilityZone"
 			class="Wnd"
-			org="442.000 8.000 128.000 32.000"
+			org="880.000 11.000 160.000 45.000"
 			style="265728"
 			order="3"
 			id="70004"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -439,20 +438,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
 		<Node
 			name="wndTimerLabel"
 			class="Wnd"
-			org="740.000 97.000 150.000 32.000"
+			org="1450.000 136.000 211.000 45.000"
 			style="265728"
 			order="3"
 			id="70005"
 			caption="^Timer^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -462,20 +461,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndTimerZone"
 			class="Wnd"
-			org="834.000 55.000 128.000 32.000"
+			org="1605.000 77.000 120.000 45.000"
 			style="265728"
 			order="3"
 			id="70005"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -485,20 +484,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
 		<Node
 			name="wndWeaponLabel"
 			class="Wnd"
-			org="763.000 259.000 150.000 32.000"
+			org="1580.000 435.000 211.000 45.000"
 			style="265728"
 			order="3"
 			id="70006"
 			caption="^Weapon^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -508,20 +507,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndWeaponZone"
 			class="Wnd"
-			org="964.000 240.000 60.000 144.000"
+			org="1808.000 338.000 112.000 250.000"
 			style="265728"
 			order="3"
 			id="70006"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -531,20 +530,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
 		<Node
 			name="wndFadingMessagesLabel"
 			class="Wnd"
-			org="30.000 685.000 150.000 32.000"
+			org="74.000 950.000 211.000 45.000"
 			style="265728"
 			order="3"
 			id="70007"
 			caption="^FadingMessages^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -554,20 +553,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndFadingMessagesZone"
 			class="Wnd"
-			org="0.000 708.000 320.000 60.000"
+			org="0.000 960.000 360.000 120.000"
 			style="265728"
 			order="3"
 			id="70007"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -577,20 +576,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
 		<Node
 			name="wndImportantFadingMessagesLabel"
 			class="Wnd"
-			org="412.000 180.000 200.000 32.000"
+			org="819.000 210.000 281.000 45.000"
 			style="265728"
 			order="3"
 			id="70008"
 			caption="^ImportantFadingMessages^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -600,20 +599,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndImportantFadingMessagesZone"
 			class="Wnd"
-			org="256.000 128.000 512.000 56.000"
+			org="470.000 145.000 980.000 120.000"
 			style="265728"
 			order="3"
 			id="70008"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -623,20 +622,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
 		<Node
 			name="wndTargetInfoLabel"
 			class="Wnd"
-			org="182.000 261.000 200.000 32.000"
+			org="526.000 373.000 281.000 45.000"
 			style="265728"
 			order="3"
 			id="70009"
 			caption="^TargetInfo^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -646,20 +645,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>  
+			<Animations/>
+		</Node>
 
 		<Node
 			name="wndTargetInfoZone"
 			class="Wnd"
-			org="412.000 284.000 100.000 100.000"
+			org="800.000 350.000 310.000 90.000"
 			style="265728"
 			order="3"
 			id="70009"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -669,20 +668,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
 		<Node
 			name="wndTargetCaptureLabel"
 			class="Wnd"
-			org="182.000 391.000 200.000 32.000"
+			org="550.000 530.000 281.000 45.000"
 			style="265728"
 			order="3"
 			id="70010"
 			caption="^TargetCapture^"
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -692,44 +691,20 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
-                          
+			<Animations/>
+		</Node>
 
 		<Node
-			name="wndActionIconsLabel"
+			name="wndTargetCaptureZone"
 			class="Wnd"
-			org="843.000 644.000 150.000 32.000"
+			org="830.000 435.000 260.000 210.000"
 			style="265728"
 			order="3"
-			id="70011"
-			caption="^ActionIcons^"
-			tip=""
-			backimage=""
-			paneName="PaneFrameF"
-			scrollPaneName="Scroll1"
-			paneFlags="7"
-			wrap="0"
-			format="0"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ff404040"
-			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>                            
-
-		<Node
-			name="wndActionIconsZone"
-			class="Wnd"
-			org="879.000 695.000 128.000 64.000"
-			style="265728"
-			order="3"
-			id="70011"
+			id="70010"
 			caption=""
 			tip=""
 			backimage=""
-			paneName="PaneFrameF"
+			paneName="PaneTooltip"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
 			wrap="0"
@@ -739,8 +714,53 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f">
-			<Animations />
-		</Node>   
-            
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndActionIconsLabel"
+			class="Wnd"
+			org="1685.000 906.000 211.000 45.000"
+			style="265728"
+			order="3"
+			id="70011"
+			caption="^ActionIcons^"
+			tip=""
+			backimage=""
+			paneName="PaneTooltip"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndActionIconsZone"
+			class="Wnd"
+			org="1648.000 977.000 180.000 90.000"
+			style="265728"
+			order="3"
+			id="70011"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneTooltip"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
 	</Node>
 </Prefabs>
