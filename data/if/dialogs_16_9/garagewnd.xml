@@ -12,7 +12,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\GarageWnd\workshop_buycabandbodypanel.dds"
+		backimage="data\if\ico_hd\GarageWnd\workshop_buycabandbodypanel.dds"
 		paneName="defaultWnd"
 		scrollPaneName="Scroll1"
 		paneFlags="7"
@@ -113,10 +113,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_cab_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_cab_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cab_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cab_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_cab_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_cab_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_cab_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_cab_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -141,10 +141,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_body_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_body_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_body_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_body_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_body_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_body_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_body_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_body_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -169,10 +169,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_paint_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_paint_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_paint_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_paint_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_paint_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_paint_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_paint_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_paint_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -197,10 +197,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_cost_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_cost_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cost_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cost_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_cost_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_cost_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_cost_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_cost_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -225,10 +225,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_cost_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_cost_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cost_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cost_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_cost_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_cost_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_cost_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_cost_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -253,10 +253,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_cost_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_cost_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_cost_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_cost_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_cost_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_cost_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_cost_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_cost_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -283,10 +283,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_arrow_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_arrow_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -311,10 +311,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_arrow_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_arrow_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -339,10 +339,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\action panel\bcb_arrow_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\action panel\bcb_arrow_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -367,10 +367,10 @@
 		textColor="ffffffff"
 		textColorDisabled="ff7f7f7f"
 		btnIsImaged="1"
-		btnImage="data\if\ico\GarageWnd\action panel\bcb_truck_e.dds"
-		btnImageDown="data\if\ico\GarageWnd\action panel\bcb_truck_p.dds"
-		btnImageIn="data\if\ico\GarageWnd\action panel\bcb_truck_s.dds"
-		btnImageDisabled="data\if\ico\GarageWnd\action panel\bcb_truck_d.dds"
+		btnImage="data\if\ico_hd\GarageWnd\action panel\bcb_truck_e.dds"
+		btnImageDown="data\if\ico_hd\GarageWnd\action panel\bcb_truck_p.dds"
+		btnImageIn="data\if\ico_hd\GarageWnd\action panel\bcb_truck_s.dds"
+		btnImageDisabled="data\if\ico_hd\GarageWnd\action panel\bcb_truck_d.dds"
 		class="ButtonWnd">
 		<Animations/>
 	</Node>

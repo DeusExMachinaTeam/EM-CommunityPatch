@@ -84,41 +84,41 @@
 	<!-- <Item id="BuyBg"			file="data\if\ico\WorkshopDlg\cabin_buy.dds" 			file1=""/> -->
 	<!-- <Item id="BuyBtnBg"			file="data\if\ico\WorkshopDlg\shop_button.dds" 			file1=""/> -->
 
-	<Item id="ServiceBtnCabins_enabled"		file="data\if\ico\GarageWnd\action panel\bcb_cab_e.dds" 	file1=""/>
-	<Item id="ServiceBtnCabins_overrolled"	file="data\if\ico\GarageWnd\action panel\bcb_cab_s.dds" 	file1=""/>
-	<Item id="ServiceBtnCabins_pressed"		file="data\if\ico\GarageWnd\action panel\bcb_cab_p.dds" 	file1=""/>
-	<Item id="ServiceBtnCabins_disabled"	file="data\if\ico\GarageWnd\action panel\bcb_cab_d.dds" 	file1=""/>
-	<Item id="ServiceBtnCabins_selected"	file="data\if\ico\GarageWnd\action panel\bcb_cab_h.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_e.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_s.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_p.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_d.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_h.dds" 	file1=""/>
 
-	<Item id="ServiceBtnBaskets_enabled"	file="data\if\ico\GarageWnd\action panel\bcb_body_e.dds"	file1=""/>
-	<Item id="ServiceBtnBaskets_overrolled"	file="data\if\ico\GarageWnd\action panel\bcb_body_s.dds"	file1=""/>
-	<Item id="ServiceBtnBaskets_pressed"	file="data\if\ico\GarageWnd\action panel\bcb_body_p.dds"	file1=""/>
-	<Item id="ServiceBtnBaskets_disabled"	file="data\if\ico\GarageWnd\action panel\bcb_body_d.dds"	file1=""/>
-	<Item id="ServiceBtnBaskets_selected"	file="data\if\ico\GarageWnd\action panel\bcb_body_h.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_enabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_e.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_s.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_pressed"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_p.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_d.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_h.dds"	file1=""/>
 	                                       	
-	<Item id="ServiceBtnSkin_enabled"		file="data\if\ico\GarageWnd\action panel\bcb_paint_e.dds" 	file1=""/>
-	<Item id="ServiceBtnSkin_overrolled"	file="data\if\ico\GarageWnd\action panel\bcb_paint_s.dds" 	file1=""/>
-	<Item id="ServiceBtnSkin_pressed"		file="data\if\ico\GarageWnd\action panel\bcb_paint_p.dds" 	file1=""/>
-	<Item id="ServiceBtnSkin_disabled"		file="data\if\ico\GarageWnd\action panel\bcb_paint_d.dds" 	file1=""/>
-	<Item id="ServiceBtnSkin_selected"		file="data\if\ico\GarageWnd\action panel\bcb_paint_h.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_e.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_s.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_p.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_disabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_d.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_selected"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_h.dds" 	file1=""/>
 
-	<Item id="ServiceBtnRefuelList_enabled"		file="data\if\ico\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
-	<Item id="ServiceBtnRefuelList_overrolled"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
-	<Item id="ServiceBtnRefuelList_pressed"		file="data\if\ico\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
-	<Item id="ServiceBtnRefuelList_disabled"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
-	<Item id="ServiceBtnRefuelList_selected"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
 
-	<Item id="ServiceBtnRepairList_enabled"		file="data\if\ico\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
-	<Item id="ServiceBtnRepairList_overrolled"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
-	<Item id="ServiceBtnRepairList_pressed"		file="data\if\ico\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
-	<Item id="ServiceBtnRepairList_disabled"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
-	<Item id="ServiceBtnRepairList_selected"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
 
-	<Item id="ServiceBtnRechargeList_enabled"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
-	<Item id="ServiceBtnRechargeList_overrolled" file="data\if\ico\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
-	<Item id="ServiceBtnRechargeList_pressed"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
-	<Item id="ServiceBtnRechargeList_disabled"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
-	<Item id="ServiceBtnRechargeList_selected"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_enabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_overrolled" file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_pressed"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
 
 	<!-- Probably unused - TO TEST
 	<Item id="Cabin"		file="data\if\ico\GarageWnd\Icons\cab_buy.dds" 		file1=""/>
