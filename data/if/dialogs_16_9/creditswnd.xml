@@ -12,7 +12,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\CreditsWnd\Plan_temn.dds"
+		backimage="data\if\ico_hd\CreditsWnd\Plan_temn.dds"
 		paneName="defaultWnd"
 		scrollPaneName="Scroll1"
 		paneFlags="7"
