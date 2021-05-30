@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
+
+<icons>
+
+<!-- Опции -->
+	<Item id="BindKeysLineBg"			file="data\if\ico\OptionsWnd\list_hl.tga"			file1=""/>
+
+<!-- Кредитсы -->
+	<Item id="CreditsBg"				file="data\if\ico\CreditsWnd\Plan_svet.dds"			file1="data\if\ico\CreditsWnd\Plan_temn.dds"/>	
+	<Item id="CreditsPointer"			file="data\if\ico\CreditsWnd\strelka.dds"			file1=""/>	
+
+
+<!-- Текструра градиентного круга для локальной карты - здесь, т.к. инициализируется в конструкторе VisivilityMap -->
+	<Item id="VisibilityCircle"	file="data\if\ico\LocalMap\lens17.dds"			file1=""/>
+
+
+<!-- Окно загрузки/сохранения -->
+	<Item id="SortArrow"				file="data\if\ico\LoadSave\sort_inc.dds"			file1="data\if\ico\LoadSave\sort_dec.dds"/>
+
+
+</icons>
