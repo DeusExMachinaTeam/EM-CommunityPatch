@@ -12,7 +12,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\SmartCursorWnd\small_cross.dds"
+		backimage="data\if\ico_hd\SmartCursorWnd\small_cross.dds"
 		paneName="defaultWnd"
 		scrollPaneName="Scroll1"
 		paneFlags="0"
