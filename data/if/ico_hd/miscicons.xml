@@ -268,7 +268,7 @@
 	<Item id="MapSelFrame"		file="data\if\ico\GlobalMap\Gmap_Ico_Select.dds"	file1=""/>
 
 <!-- Journal -->
-	<Item id="RecordIco"		file="data\if\ico\QuestLog\select_quest.dds"		file1="data\if\ico\QuestLog\unselect_quest.dds"/>
+	<Item id="RecordIco"		file="data\if\ico_hd\QuestLog\select_quest.dds"		file1="data\if\ico_hd\QuestLog\unselect_quest.dds"/>
 
 <!--»конки по типам ресурсов - пока используютс€ подложки дл€ пушек-->
 	<Item id="BIG_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
