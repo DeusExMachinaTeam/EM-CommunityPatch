@@ -94,7 +94,7 @@
 			barColor="ff00ff00"
 			numOfSteps="10"
 			orientation="3"
-			barTexture="data\if\ico\DamageInfoWnd\bar_hp.dds"
+			barTexture="data\if\ico_hd\DamageInfoWnd\bar_hp.dds"
 			textStyle="0"
 			textureStyle="1">
 			<Animations/>
@@ -308,7 +308,7 @@
 			barColor="ff00ff00"
 			numOfSteps="10"
 			orientation="2"
-			barTexture="data\if\ico\DamageInfoWnd\bar_fuel.dds"
+			barTexture="data\if\ico_hd\DamageInfoWnd\bar_fuel.dds"
 			textStyle="0"
 			textureStyle="1">
 			<Animations/>
@@ -463,7 +463,7 @@
 			caption=""
 			tip=""
 			backimage=""
-			image="data\if\ico\DamageInfoWnd\machine_head.dds"
+			image="data\if\ico_hd\DamageInfoWnd\machine_head.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
@@ -487,7 +487,7 @@
 			caption=""
 			tip=""
 			backimage=""
-			image="data\if\ico\DamageInfoWnd\machine_tail.dds"
+			image="data\if\ico_hd\DamageInfoWnd\machine_tail.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
@@ -510,7 +510,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\DamageInfoWnd\top_center.dds"
+			backimage="data\if\ico_hd\DamageInfoWnd\top_center.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"

@@ -33,7 +33,8 @@
 				animationStartPt="1700 88"
 				animationEndPt="1609 88"/>
 
-			<!-- <AnimationOnHide
+			<!-- Causes pause menu to appear with a bugged delay 
+				<AnimationOnHide
 				animationEnabled="1"
 				animationType="USER"
 				animationSpeed="100"
