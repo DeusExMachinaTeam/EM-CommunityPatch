@@ -67,10 +67,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\CBScroll\btn_prev-item_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\CBScroll\btn_prev-item_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\CBScroll\btn_prev-item_h.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\CBScroll\btn_prev-item_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\CBScroll\btn_prev-item_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\CBScroll\btn_prev-item_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\CBScroll\btn_prev-item_h.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\CBScroll\btn_prev-item_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -95,7 +95,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\CBScroll\scr_top_bkg.dds">
+			image="data\if\ico_hd\GarageWnd\CBScroll\scr_top_bkg.dds">
 			<Animations/>
 		</Node>
 
@@ -119,10 +119,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\CBScroll\btn_next-item_e.dds"
-			btnImageDown="data\if\ico\GarageWnd\CBScroll\btn_next-item_p.dds"
-			btnImageIn="data\if\ico\GarageWnd\CBScroll\btn_next-item_h.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\CBScroll\btn_next-item_d.dds"
+			btnImage="data\if\ico_hd\GarageWnd\CBScroll\btn_next-item_e.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\CBScroll\btn_next-item_p.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\CBScroll\btn_next-item_h.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\CBScroll\btn_next-item_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -147,7 +147,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\CBScroll\scr_top_bkg.dds">
+			image="data\if\ico_hd\GarageWnd\CBScroll\scr_top_bkg.dds">
 			<Animations/>
 		</Node>
 
