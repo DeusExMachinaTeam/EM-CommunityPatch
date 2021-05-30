@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<LevelInfoResource>
+	<LevelInfo
+		name="mainmenu"
+		file="data\maps\mainmenu.ssl"
+		fullName="Хель"
+		diz0=""
+		diz1=""
+		image0="data\if\map\r1m4.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\Loading_Screen_1.dds"
+		musicBlocks="" />
+
+	<LevelInfo
+		name="t"
+		file="data\maps\t.ssl"
+		fullName="Край1"
+		diz0=""
+		diz1=""
+		image0="data\if\map\r1m1.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\plane.dds"
+		musicBlocks="block0 block1" />
+
+	<LevelInfo
+		name="r1m1"
+		file="data\maps\r1m1.ssl"
+		fullName="Край"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r1m1.dds"
+		image1="data\if\ico\GlobalMap\r1m1.dds"
+		splashes="data\if\ico\Splashes\Loading_Screen_4.dds"
+		musicBlocks="block0 block1" />
+
+	<LevelInfo
+		name="r1m2"
+		file="data\maps\r1m2.ssl"
+		fullName="Риджин"
+		diz0=""
+		diz1=""
+		image0="data\if\map\r1m2.dds"
+		image1="data\if\ico\GlobalMap\r1m2.dds"
+		splashes="data\if\ico\Splashes\Loading_Screen_1.dds"
+		musicBlocks="block0 block1" />
+
+	<LevelInfo
+		name="r1m3"
+		file="data\maps\r1m3.ssl"
+		fullName="Фатерлянд"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r1m3.dds"
+		image1="data\if\ico\GlobalMap\r1m3.dds"
+		splashes="data\if\ico\Splashes\zavod.dds"
+		musicBlocks="block0 block1" />
+
+	<LevelInfo
+		name="r1m4"
+		file="data\maps\r1m4.ssl"
+		fullName="Хель"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r1m4.dds"
+		image1="data\if\ico\GlobalMap\r1m4.dds"
+		splashes="data\if\ico\Splashes\plane.dds"
+		musicBlocks="r1_4 block1" />
+
+	<LevelInfo
+		name="r2m1"
+		file="data\maps\r2m1.ssl"
+		fullName="Либриум"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r2m1.dds"
+		image1="data\if\ico\GlobalMap\r2m1.dds"
+		splashes="data\if\ico\Splashes\paris.dds"
+		musicBlocks="r2_1 r2_2" />
+
+	<LevelInfo
+		name="r2m2"
+		file="data\maps\r2m2.ssl"
+		fullName="Аржан"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r2m2.dds"
+		image1="data\if\ico\GlobalMap\r2m2.dds"
+		splashes="data\if\ico\Splashes\ogon.dds"
+		musicBlocks="r2_1 r2_2" />
+
+	<LevelInfo
+		name="r3m1"
+		file="data\maps\r3m1.ssl"
+		fullName="Роща друидов"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r3m1.dds"
+		image1="data\if\ico\GlobalMap\r3m1.dds"
+		splashes="data\if\ico\Splashes\druids.dds"
+		musicBlocks="r3_1 r3_2" />
+
+	<LevelInfo
+		name="r3m2"
+		file="data\maps\r3m2.ssl"
+		fullName="Игнотт"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r3m2.dds"
+		image1="data\if\ico\GlobalMap\r3m2.dds"
+		splashes="data\if\ico\Splashes\arack.dds"
+		musicBlocks="r3_1 r3_2" />
+
+	<LevelInfo
+		name="r4m1"
+		file="data\maps\r4m1.ssl"
+		fullName="Вахат"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r4m1.dds"
+		image1="data\if\ico\GlobalMap\r4m1.dds"
+		splashes="data\if\ico\Splashes\gonki.dds"
+		musicBlocks="r4_1 r4_2" />
+
+	<LevelInfo
+		name="r4m2"
+		file="data\maps\r4m2.ssl"
+		fullName="Зармек"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r4m2.dds"
+		image1="data\if\ico\GlobalMap\r4m2.dds"
+		splashes="data\if\ico\Splashes\chel.dds"
+		musicBlocks="r4_1 r4_2" />
+</LevelInfoResource>
