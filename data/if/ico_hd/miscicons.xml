@@ -316,46 +316,46 @@
    <Item id="AloneDruid_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
 
  <!-- MotherPanel -->
-	<Item id="TabBtn_Questlog_InField"		file="data\if\ico\MotherPanel\tab_quest_s.dds"			file1="data\if\ico\MotherPanel\tab_quest_e.dds"/>	
-	<Item id="TabBtn_Map_InField"			file="data\if\ico\MotherPanel\tab_map_s.dds"			file1="data\if\ico\MotherPanel\tab_map_e.dds"/>	
-	<Item id="TabBtn_Journal_InField"		file="data\if\ico\MotherPanel\tab_journal_s.dds"		file1="data\if\ico\MotherPanel\tab_journal_e.dds"/>	
-	<Item id="TabBtn_AdditionalBuilding_InTown"	file="data\if\ico\MotherPanel\tab_house_s.dds"		file1="data\if\ico\MotherPanel\tab_house_e.dds"/>	
-	<Item id="TabBtn_Bar_InTown"			file="data\if\ico\MotherPanel\tab_bar_s.dds"			file1="data\if\ico\MotherPanel\tab_bar_e.dds"/>	
-	<Item id="TabBtn_Inventory_InField"		file="data\if\ico\MotherPanel\tab_invent_s.dds"			file1="data\if\ico\MotherPanel\tab_invent_e.dds"/>	
-	<Item id="TabBtn_Inventory_InTown"		file="data\if\ico\MotherPanel\tab_shop_s.dds"			file1="data\if\ico\MotherPanel\tab_shop_e.dds"/>	
-	<Item id="TabBtn_Characteristic_InField" file="data\if\ico\MotherPanel\tab_stats_s.dds"			file1="data\if\ico\MotherPanel\tab_stats_e.dds"/>	
-	<Item id="TabBtn_Characteristic_InTown"	file="data\if\ico\MotherPanel\tab_repair_s.dds"			file1="data\if\ico\MotherPanel\tab_repair_e.dds"/>	
+	<Item id="TabBtn_Questlog_InField"		file="data\if\ico\MotherPanel\tab_quest_s.dds"		file1="data\if\ico\MotherPanel\tab_quest_e.dds"/>	
+	<Item id="TabBtn_Map_InField"			file="data\if\ico\MotherPanel\tab_map_s.dds"		file1="data\if\ico\MotherPanel\tab_map_e.dds"/>	
+	<Item id="TabBtn_Journal_InField"		file="data\if\ico\MotherPanel\tab_journal_s.dds"	file1="data\if\ico\MotherPanel\tab_journal_e.dds"/>	
+	<Item id="TabBtn_AdditionalBuilding_InTown"	file="data\if\ico\MotherPanel\tab_house_s.dds"	file1="data\if\ico\MotherPanel\tab_house_e.dds"/>	
+	<Item id="TabBtn_Bar_InTown"			file="data\if\ico\MotherPanel\tab_bar_s.dds"		file1="data\if\ico\MotherPanel\tab_bar_e.dds"/>	
+	<Item id="TabBtn_Inventory_InField"		file="data\if\ico\MotherPanel\tab_invent_s.dds"		file1="data\if\ico\MotherPanel\tab_invent_e.dds"/>	
+	<Item id="TabBtn_Inventory_InTown"		file="data\if\ico\MotherPanel\tab_shop_s.dds"		file1="data\if\ico\MotherPanel\tab_shop_e.dds"/>	
+	<Item id="TabBtn_Characteristic_InField" file="data\if\ico\MotherPanel\tab_stats_s.dds"		file1="data\if\ico\MotherPanel\tab_stats_e.dds"/>	
+	<Item id="TabBtn_Characteristic_InTown"	file="data\if\ico\MotherPanel\tab_repair_s.dds"		file1="data\if\ico\MotherPanel\tab_repair_e.dds"/>	
 
 
 <!-- Цифры, имитирующие электронные -->
-	<Item id="Symbol_0_Small"			file="data\if\ico_hd\Digitals\Small\num_small_0.dds"			file1=""/>	
-	<Item id="Symbol_1_Small"			file="data\if\ico_hd\Digitals\Small\num_small_1.dds"			file1=""/>	
-	<Item id="Symbol_2_Small"			file="data\if\ico_hd\Digitals\Small\num_small_2.dds"			file1=""/>	
-	<Item id="Symbol_3_Small"			file="data\if\ico_hd\Digitals\Small\num_small_3.dds"			file1=""/>	
-	<Item id="Symbol_4_Small"			file="data\if\ico_hd\Digitals\Small\num_small_4.dds"			file1=""/>	
-	<Item id="Symbol_5_Small"			file="data\if\ico_hd\Digitals\Small\num_small_5.dds"			file1=""/>	
-	<Item id="Symbol_6_Small"			file="data\if\ico_hd\Digitals\Small\num_small_6.dds"			file1=""/>	
-	<Item id="Symbol_7_Small"			file="data\if\ico_hd\Digitals\Small\num_small_7.dds"			file1=""/>	
-	<Item id="Symbol_8_Small"			file="data\if\ico_hd\Digitals\Small\num_small_8.dds"			file1=""/>	
-	<Item id="Symbol_9_Small"			file="data\if\ico_hd\Digitals\Small\num_small_9.dds"			file1=""/>	
-	<Item id="Symbol_Meter_Small"		file="data\if\ico_hd\Digitals\Small\num_small_m.dds"			file1=""/>	
-	<Item id="Symbol_Kilometer_Small"	file="data\if\ico_hd\Digitals\Small\num_small_km.dds"			file1=""/>	
-	<Item id="Symbol_Colon_Small"		file="data\if\ico_hd\Digitals\Small\num_small_pts.dds"			file1=""/>	
+	<Item id="Symbol_0_Small"			file="data\if\ico_hd\Digitals\Small\num_small_0.dds"	file1=""/>	
+	<Item id="Symbol_1_Small"			file="data\if\ico_hd\Digitals\Small\num_small_1.dds"	file1=""/>	
+	<Item id="Symbol_2_Small"			file="data\if\ico_hd\Digitals\Small\num_small_2.dds"	file1=""/>	
+	<Item id="Symbol_3_Small"			file="data\if\ico_hd\Digitals\Small\num_small_3.dds"	file1=""/>	
+	<Item id="Symbol_4_Small"			file="data\if\ico_hd\Digitals\Small\num_small_4.dds"	file1=""/>	
+	<Item id="Symbol_5_Small"			file="data\if\ico_hd\Digitals\Small\num_small_5.dds"	file1=""/>	
+	<Item id="Symbol_6_Small"			file="data\if\ico_hd\Digitals\Small\num_small_6.dds"	file1=""/>	
+	<Item id="Symbol_7_Small"			file="data\if\ico_hd\Digitals\Small\num_small_7.dds"	file1=""/>	
+	<Item id="Symbol_8_Small"			file="data\if\ico_hd\Digitals\Small\num_small_8.dds"	file1=""/>	
+	<Item id="Symbol_9_Small"			file="data\if\ico_hd\Digitals\Small\num_small_9.dds"	file1=""/>	
+	<Item id="Symbol_Meter_Small"		file="data\if\ico_hd\Digitals\Small\num_small_m.dds"	file1=""/>	
+	<Item id="Symbol_Kilometer_Small"	file="data\if\ico_hd\Digitals\Small\num_small_km.dds"	file1=""/>	
+	<Item id="Symbol_Colon_Small"		file="data\if\ico_hd\Digitals\Small\num_small_pts.dds"	file1=""/>	
 
-	<Item id="Symbol_0_Large"			file="data\if\ico_hd\Digitals\Large\num_large_0.dds"			file1=""/>	
-	<Item id="Symbol_1_Large"			file="data\if\ico_hd\Digitals\Large\num_large_1.dds"			file1=""/>	
-	<Item id="Symbol_2_Large"			file="data\if\ico_hd\Digitals\Large\num_large_2.dds"			file1=""/>	
-	<Item id="Symbol_3_Large"			file="data\if\ico_hd\Digitals\Large\num_large_3.dds"			file1=""/>	
-	<Item id="Symbol_4_Large"			file="data\if\ico_hd\Digitals\Large\num_large_4.dds"			file1=""/>	
-	<Item id="Symbol_5_Large"			file="data\if\ico_hd\Digitals\Large\num_large_5.dds"			file1=""/>	
-	<Item id="Symbol_6_Large"			file="data\if\ico_hd\Digitals\Large\num_large_6.dds"			file1=""/>	
-	<Item id="Symbol_7_Large"			file="data\if\ico_hd\Digitals\Large\num_large_7.dds"			file1=""/>	
-	<Item id="Symbol_8_Large"			file="data\if\ico_hd\Digitals\Large\num_large_8.dds"			file1=""/>	
-	<Item id="Symbol_9_Large"			file="data\if\ico_hd\Digitals\Large\num_large_9.dds"			file1=""/>	
+	<Item id="Symbol_0_Large"			file="data\if\ico_hd\Digitals\Large\num_large_0.dds"	file1=""/>	
+	<Item id="Symbol_1_Large"			file="data\if\ico_hd\Digitals\Large\num_large_1.dds"	file1=""/>	
+	<Item id="Symbol_2_Large"			file="data\if\ico_hd\Digitals\Large\num_large_2.dds"	file1=""/>	
+	<Item id="Symbol_3_Large"			file="data\if\ico_hd\Digitals\Large\num_large_3.dds"	file1=""/>	
+	<Item id="Symbol_4_Large"			file="data\if\ico_hd\Digitals\Large\num_large_4.dds"	file1=""/>	
+	<Item id="Symbol_5_Large"			file="data\if\ico_hd\Digitals\Large\num_large_5.dds"	file1=""/>	
+	<Item id="Symbol_6_Large"			file="data\if\ico_hd\Digitals\Large\num_large_6.dds"	file1=""/>	
+	<Item id="Symbol_7_Large"			file="data\if\ico_hd\Digitals\Large\num_large_7.dds"	file1=""/>	
+	<Item id="Symbol_8_Large"			file="data\if\ico_hd\Digitals\Large\num_large_8.dds"	file1=""/>	
+	<Item id="Symbol_9_Large"			file="data\if\ico_hd\Digitals\Large\num_large_9.dds"	file1=""/>	
 
 <!-- Всплывающие сообщения -->
 	<Item id="FadingMsgBg"				file="data\if\frames\Up_panel_back.dds"					file1=""/>	
 
 <!-- Игровое меню --> 
-	<Item id="ExMachinaLogo"			file="data\if\ico\GameMenu\menu_logo_xm.dds"				file1=""/>	
+	<Item id="ExMachinaLogo"			file="data\if\ico_hd\GameMenu\menu_logo_xm.dds"			file1=""/>	
 </icons>

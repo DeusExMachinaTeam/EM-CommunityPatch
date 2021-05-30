@@ -587,7 +587,7 @@
 			caption=""
 			tip=""
 			backimage=""
-			image="data\if\ico\GameMenu\menu_logo_xm.dds"
+			image="data\if\ico_hd\GameMenu\menu_logo_xm.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
