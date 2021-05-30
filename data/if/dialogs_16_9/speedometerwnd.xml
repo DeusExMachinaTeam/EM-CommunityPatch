@@ -12,7 +12,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\SpeedometerWnd\top_speedometer.dds"
+		backimage="data\if\ico_hd\SpeedometerWnd\top_speedometer.dds"
 		paneName="wnd3"
 		scrollPaneName="Scroll1"
 		paneFlags="0"
