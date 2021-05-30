@@ -76,7 +76,7 @@
 
 	<Item id="CameraSight"				file="data\if\ico\RadarWnd\radar_fov.dds" 			file1=""/>
 	<Item id="RadarPlayerVehicle"		file="data\if\ico\RadarWnd\radar_machine.dds" 		file1=""/>
-	<Item id="RadarHighlight"			file="data\if\ico\MainGameInterfaceWnd\highlight.dds" file1=""/>
+	<Item id="RadarHighlight"			file="data\if\ico_hd\MainGameInterfaceWnd\highlight.dds" file1=""/>
 
 <!--Workshop-->
 	<Item id="GunsAndGadgets"	file="data\if\ico\WorkshopDlg\tab_weapon_e.dds" 		file1="data\if\ico\WorkshopDlg\tab_weapon_n.dds"/>
