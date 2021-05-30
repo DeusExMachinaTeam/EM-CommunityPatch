@@ -8,7 +8,7 @@
 		diz1=""
 		image0="data\if\map\r1m4.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\Loading_Screen_1.dds"
+		splashes="data\if\ico_hd\Splashes\Loading_Screen_1.dds"
 		musicBlocks="" />
 
 	<LevelInfo
@@ -42,7 +42,7 @@
 		diz1=""
 		image0="data\if\map\r1m2.dds"
 		image1="data\if\ico\GlobalMap\r1m2.dds"
-		splashes="data\if\ico\Splashes\Loading_Screen_1.dds"
+		splashes="data\if\ico_hd\Splashes\Loading_Screen_1.dds"
 		musicBlocks="block0 block1" />
 
 	<LevelInfo
@@ -102,7 +102,7 @@
 		north="0 0 1"
 		image0="data\if\map\r3m1.dds"
 		image1="data\if\ico\GlobalMap\r3m1.dds"
-		splashes="data\if\ico\Splashes\druids.dds"
+		splashes="data\if\ico_hd\Splashes\druids.dds"
 		musicBlocks="r3_1 r3_2" />
 
 	<LevelInfo
@@ -114,7 +114,7 @@
 		north="0 0 1"
 		image0="data\if\map\r3m2.dds"
 		image1="data\if\ico\GlobalMap\r3m2.dds"
-		splashes="data\if\ico\Splashes\arack.dds"
+		splashes="data\if\ico_hd\Splashes\arack.dds"
 		musicBlocks="r3_1 r3_2" />
 
 	<LevelInfo
@@ -126,7 +126,7 @@
 		north="0 0 1"
 		image0="data\if\map\r4m1.dds"
 		image1="data\if\ico\GlobalMap\r4m1.dds"
-		splashes="data\if\ico\Splashes\gonki.dds"
+		splashes="data\if\ico_hd\Splashes\gonki.dds"
 		musicBlocks="r4_1 r4_2" />
 
 	<LevelInfo
@@ -138,6 +138,6 @@
 		north="0 0 1"
 		image0="data\if\map\r4m2.dds"
 		image1="data\if\ico\GlobalMap\r4m2.dds"
-		splashes="data\if\ico\Splashes\chel.dds"
+		splashes="data\if\ico_hd\Splashes\chel.dds"
 		musicBlocks="r4_1 r4_2" />
 </LevelInfoResource>
