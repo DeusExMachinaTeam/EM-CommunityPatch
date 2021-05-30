@@ -3,17 +3,17 @@
 <GuiResourceInfo>
 
 	<Item
-		file="data\if\ico\MainMenuIcons.xml"
+		file="data\if\ico_hd\MainMenuIcons.xml"
 		loadType="AT_APP_START"
 	/>                       
 
 	<Item
-		file="data\if\ico\ModelIcons.xml"
+		file="data\if\ico_hd\ModelIcons.xml"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
 
 	<Item
-		file="data\if\ico\MiscIcons.xml"
+		file="data\if\ico_hd\MiscIcons.xml"
 		loadType="AT_FIRST_LEVEL_START"
 	/>                       
 
