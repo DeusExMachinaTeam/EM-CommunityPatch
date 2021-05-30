@@ -74,7 +74,7 @@
 	<Item id="RadarWorldsideNord"		file="data\if\ico\RadarWnd\radar_north.dds" 		file1=""/>
 	<Item id="RadarWorldsideSouth"		file="data\if\ico\RadarWnd\radar_south.dds" 		file1=""/>
 
-	<Item id="CameraSight"				file="data\if\ico\RadarWnd\radar_fov.dds" 			file1=""/>
+	<Item id="CameraSight"				file="data\if\ico_hd\RadarWnd\radar_fov.dds" 			file1=""/>
 	<Item id="RadarPlayerVehicle"		file="data\if\ico\RadarWnd\radar_machine.dds" 		file1=""/>
 	<Item id="RadarHighlight"			file="data\if\ico_hd\MainGameInterfaceWnd\highlight.dds" file1=""/>
 
