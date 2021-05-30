@@ -2,9 +2,9 @@
 <!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
 
 <icons>
-	<Item id="Cross"              	file="data\if\ico\TownDlg\T_Bar.dds"		file1=""/>
-<!--Inventory-->
+<!-- <Item id="Cross"              	file="data\if\ico\TownDlg\T_Bar.dds"		file1=""/> -->
 
+<!--Inventory-->
 	<Item id="Cell"             	file="data\if\ico\InventoryDlg\cell_free.dds" 		file1=""/>
 	<Item id="CellSelected"     	file="data\if\ico\InventoryDlg\cell_busy.dds" 		file1=""/>
 	<Item id="CellSuitable"     	file="data\if\ico\InventoryDlg\color_green.dds" 	file1=""/>
@@ -20,11 +20,10 @@
 	<Item id="GunAngle"    			file="data\if\ico\InventoryDlg\firesector_090.dds"  file1=""/>
 
 <!--Town-->
-
-	<Item id="Administration"   file="data\if\ico\TownDlg\ManLevel.dds"         file1=""/>
+	<!-- <Item id="Administration"   file="data\if\ico\TownDlg\ManLevel.dds"         file1=""/>
 	<Item id="Bar"           	file="data\if\ico\TownDlg\T_Bar.dds"            file1="data\if\ico\TownDlg\food.dds"/>
 	<Item id="Shop"          	file="data\if\ico\TownDlg\T_Shop.dds"           file1="data\if\ico\TownDlg\gold.dds"/>
-	<Item id="Workshop"			file="data\if\ico\TownDlg\T_WorkShop.dds"       file1="data\if\ico\TownDlg\xp.dds"/>
+	<Item id="Workshop"			file="data\if\ico\TownDlg\T_WorkShop.dds"       file1="data\if\ico\TownDlg\xp.dds"/> -->
 
 <!--QuestLog-->
 	<Item id="QuestComplete"  					file="data\if\ico\QuestLog\b_mark_done.dds"   	file1="data\if\ico\QuestLog\b_mark_done.dds"/>
@@ -82,8 +81,8 @@
 <!--Workshop-->
 	<Item id="GunsAndGadgets"	file="data\if\ico\WorkshopDlg\tab_weapon_e.dds" 		file1="data\if\ico\WorkshopDlg\tab_weapon_n.dds"/>
 	<Item id="Goods"			file="data\if\ico\WorkshopDlg\tab_goods_e.dds" 			file1="data\if\ico\WorkshopDlg\tab_goods_n.dds"/>
-	<Item id="BuyBg"			file="data\if\ico\WorkshopDlg\cabin_buy.dds" 			file1=""/>
-	<Item id="BuyBtnBg"			file="data\if\ico\WorkshopDlg\shop_button.dds" 			file1=""/>
+	<!-- <Item id="BuyBg"			file="data\if\ico\WorkshopDlg\cabin_buy.dds" 			file1=""/> -->
+	<!-- <Item id="BuyBtnBg"			file="data\if\ico\WorkshopDlg\shop_button.dds" 			file1=""/> -->
 
 	<Item id="ServiceBtnCabins_enabled"		file="data\if\ico\GarageWnd\action panel\bcb_cab_e.dds" 	file1=""/>
 	<Item id="ServiceBtnCabins_overrolled"	file="data\if\ico\GarageWnd\action panel\bcb_cab_s.dds" 	file1=""/>
@@ -121,11 +120,12 @@
 	<Item id="ServiceBtnRechargeList_disabled"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
 	<Item id="ServiceBtnRechargeList_selected"	file="data\if\ico\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
 
-	<Item id="Cabin"		file="data\if\ico\GarageWnd\Icons\cab_buy.dds" 			file1=""/>
-	<Item id="Basket"		file="data\if\ico\GarageWnd\Icons\cargo_buy.dds" 		file1=""/>
+	<!-- Probably unused - TO TEST
+	<Item id="Cabin"		file="data\if\ico\GarageWnd\Icons\cab_buy.dds" 		file1=""/>
+	<Item id="Basket"		file="data\if\ico\GarageWnd\Icons\cargo_buy.dds" 	file1=""/>
 	<Item id="Construction"	file="data\if\ico\GarageWnd\Icons\hp.dds" 			file1=""/>
-	<Item id="Refuelling"	file="data\if\ico\GarageWnd\Icons\refuel.dds" 			file1=""/>
-	<Item id="SliderNotch"	file="data\if\ico\GarageWnd\Icons\slider.dds" 			file1=""/>
+	<Item id="Refuelling"	file="data\if\ico\GarageWnd\Icons\refuel.dds" 		file1=""/>
+	<Item id="SliderNotch"	file="data\if\ico\GarageWnd\Icons\slider.dds" 		file1=""/> -->
 
 <!-- Окно характеристик машины -->
 	<Item id="tabBtnVehicleCharacteristics"	file="data\if\ico\CharacteristicWnd\overview_disabled.dds" 	file1="data\if\ico\CharacteristicWnd\overview_enabled.dds"/>
@@ -141,6 +141,7 @@
 	<Item id="Damage"		file="" 			file1=""/>
 
 <!--HealthIndicatorWnd-->
+<!-- Unused, probably can be deleted - TO TEST	
 	<Item id="HpStep"				file="data\if\ico\DamageInfoWnd\hp.dds"				file1=""/>
 	<Item id="BasketSafe"			file="data\if\ico\DamageInfoWnd\cargo_dur.dds"		file1=""/>
 	<Item id="BasketBroken"			file="data\if\ico\DamageInfoWnd\cargo_dur_b.dds"	file1=""/>
@@ -148,7 +149,6 @@
 	<Item id="CabBroken"			file="data\if\ico\DamageInfoWnd\cab_dur_b.dds"		file1=""/>
 	<Item id="FuelPB"				file="data\if\ico\DamageInfoWnd\fuel.dds"			file1=""/>
 	<Item id="SpeedPointer"			file="data\if\ico\SpeedometerWnd\speedometer_arrow.dds" file1=""/>
-<!-- Unused, probably can be deleted - TO TEST	
 	<Item id="HealthGreenFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_Blue.dds"	file1=""/>
 	<Item id="HealthYellowFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_yellow.dds"	file1=""/>
 	<Item id="HealthRedFignya"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_red.dds"		file1=""/>
@@ -175,7 +175,7 @@
 	<Item id="BasketDurGreenFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_blue.dds"		file1=""/>
 	<Item id="BasketDurYellowFignya" file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_yellow.dds"		file1=""/>
 	<Item id="BasketDurRedFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_red.dds"			file1=""/>
-	<Item id="BasketDurDeadFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_dead.dds"		file1=""/> -->
+	<Item id="BasketDurDeadFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_dead.dds"		file1=""/>
 
 	<Item id="CabinDurGreenChar"	file="data\if\ico\GarageWnd\Icons\Cab_Armor_blue.dds"				file1=""/>
 	<Item id="CabinDurYellowChar"	file="data\if\ico\GarageWnd\Icons\Cab_Armor_blue.dds"				file1=""/>
@@ -184,7 +184,7 @@
 	<Item id="BasketDurGreenChar"	file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/>
 	<Item id="BasketDurYellowChar"	file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/>
 	<Item id="BasketDurRedChar"		file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/>
-	<Item id="BasketDurDeadChar"	file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/>
+	<Item id="BasketDurDeadChar"	file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/> -->
 
 <!--WeaponInfoList-->
 	<Item id="ChargeBar"				file="data\if\ico\WeaponInfoList\weapon_bar_ready.dds"	file1="data\if\ico\WeaponInfoList\weapon_bar_reload.dds"/>
@@ -262,7 +262,6 @@
 	<Item id="BtnEnableObjectNames_inactive_out"	file="data\if\ico\LocalMap\map_show_titles_e.dds"	file1=""/>
 	<Item id="BtnEnableObjectNames_inactive_in"		file="data\if\ico\LocalMap\map_show_titles_s.dds"	file1=""/>
 	<Item id="BtnEnableObjectNames_inactive_down"	file="data\if\ico\LocalMap\map_show_titles_p.dds"	file1=""/>
-
 
 <!--GlobalMap-->
 	<Item id="Connection"		file="data\if\ico\GlobalMap\GMap_Line.dds"		file1=""/>
