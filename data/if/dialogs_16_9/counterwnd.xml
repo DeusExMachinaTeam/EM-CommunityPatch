@@ -52,7 +52,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\CounterWnd\timer.dds"
+			backimage="data\if\ico_hd\CounterWnd\timer.dds"
 			paneName="PaneGrayThin"
 			scrollPaneName="Scroll1"
 			paneFlags="0"

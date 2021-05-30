@@ -313,7 +313,7 @@
    <Item id="Belong_1005"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico\clans\militarists02.dds"/>
    <Item id="Belong_1006"		file="data\if\ico\clans\bounty_hunters03.dds" 	file1="data\if\ico\clans\bounty_hunters02.dds"/>
    <Item id="Belong_1007"		file="data\if\ico\clans\doom_bringers03.dds" 	file1="data\if\ico\clans\doom_bringers02.dds"/>
-   <Item id="Belong_1008"		file="data\if\ico\clans\farmers_union03.dds" 	file1="data\if\ico\clans\farmers_union02.dds"/>
+   <Item id="Belong_1008"		file="data\if\ico\clans\farmers_union03.dds" 	file1="data\if\ico_hd\clans\farmers_union02.dds"/>
    <Item id="Belong_1009"		file="data\if\ico\clans\technicians03.dds" 		file1="data\if\ico\clans\technicians02.dds"/>
    <Item id="Belong_1010"		file="data\if\ico\clans\north_nath_traders03.dds" 	file1="data\if\ico\clans\north_nath_traders02.dds"/>
    <Item id="Belong_1011"		file="data\if\ico\clans\free_traders_alliance03.dds" 	file1="data\if\ico\clans\free_traders_alliance02.dds"/>
@@ -347,7 +347,7 @@
    <Item id="Belong_1048"		file="data\if\ico\clans\crimson_dawn03.dds" 			file1="data\if\ico\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1049"		file="data\if\ico\clans\oracles_disciples03.dds" 	file1="data\if\ico\clans\oracles_disciples02.dds"/>
    <Item id="Belong_1050"		file="data\if\ico\clans\adventurers03.dds" 			file1="data\if\ico\clans\adventurers02.dds"/>
-   <Item id="Belong_1051"		file="data\if\ico\clans\farmers_union03.dds" 		file1="data\if\ico\clans\farmers_union02.dds"/>
+   <Item id="Belong_1051"		file="data\if\ico\clans\farmers_union03.dds" 		file1="data\if\ico_hd\clans\farmers_union02.dds"/>
    <Item id="Belong_1052"		file="data\if\ico\clans\technicians03.dds" 			file1="data\if\ico\clans\technicians02.dds"/>
    <Item id="Belong_1053"		file="data\if\ico\clans\trappers03.dds" 				file1="data\if\ico\clans\trappers02.dds"/>
    <Item id="Belong_1054"		file="data\if\ico\clans\commonwealth_of independent_towns03.dds" 	file1="data\if\ico\clans\commonwealth_of independent_towns02.dds"/>
