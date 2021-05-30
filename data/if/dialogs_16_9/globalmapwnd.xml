@@ -410,7 +410,7 @@
 			format="1"
 			font="0"
 			textColor="ff505050"
-			image="data\if\ico\GlobalMap\gmap.dds"
+			image="data\if\ico_hd\GlobalMap\gmap.dds"
 			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
