@@ -9,7 +9,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\BossIndicator\background.dds"
+		backimage="data\if\ico_hd\BossIndicator\background.dds"
 		paneName="PaneMsgBox"
 		scrollPaneName="Scroll1"
 		paneFlags="0"
@@ -90,7 +90,7 @@
 			barColor="ff00ff00"
 			numOfSteps="48"
 			orientation="3"
-			barTexture="data\if\ico\BossIndicator\stripe.dds"
+			barTexture="data\if\ico_hd\BossIndicator\stripe.dds"
 			textStyle="0"
 			textureStyle="1">
 			<Animations/>
