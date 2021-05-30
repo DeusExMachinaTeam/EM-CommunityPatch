@@ -12,7 +12,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\InventoryDlg\panel_body.dds"
+		backimage="data\if\ico_hd\InventoryDlg\panel_body.dds"
 		paneName="wnd3"
 		paneFlags="7"
 		wrap="2"

@@ -5,19 +5,19 @@
 <!-- <Item id="Cross"              	file="data\if\ico\TownDlg\T_Bar.dds"		file1=""/> -->
 
 <!--Inventory-->
-	<Item id="Cell"             	file="data\if\ico\InventoryDlg\cell_free.dds" 		file1=""/>
+	<Item id="Cell"             	file="data\if\ico_hd\InventoryDlg\cell_free.dds" 		file1=""/>
 	<Item id="CellSelected"     	file="data\if\ico\InventoryDlg\cell_busy.dds" 		file1=""/>
 	<Item id="CellSuitable"     	file="data\if\ico\InventoryDlg\color_green.dds" 	file1=""/>
 	<Item id="CellUnsuitable"   	file="data\if\ico\InventoryDlg\color_red.dds" 		file1=""/>
 	<Item id="BgUnsuitable"    		file="data\if\ico\InventoryDlg\color_red.dds" 		file1=""/>
-	<Item id="ItemUncompatible" 	file="data\if\ico\InventoryDlg\lumber.dds" 			file1=""/>
+	<Item id="ItemUncompatible" 	file="data\if\ico_hd\InventoryDlg\lumber.dds" 			file1=""/>
 	<Item id="ItemTooRich"    		file="data\if\ico\InventoryDlg\gold.dds" 			file1=""/>
 	<Item id="InventoryGround"  	file="data\if\ico\InventoryDlg\Opacity1.dds" 		file1=""/>
-	<Item id="InventoryTown"  		file="data\if\ico\InventoryDlg\Shop_ID_TownR1.dds" 	file1=""/>
-	<Item id="GunCellSelected"  	file="data\if\ico\InventoryDlg\Slot_Back_Buse.dds"	file1=""/>
-	<Item id="GunCellSuitable"  	file="data\if\ico\InventoryDlg\Slot_Back_Open.dds"  file1=""/>
+	<Item id="InventoryTown"  		file="data\if\ico_hd\InventoryDlg\Shop_ID_TownR1.dds" 	file1=""/>
+	<Item id="GunCellSelected"  	file="data\if\ico_hd\InventoryDlg\Slot_Back_Buse.dds"	file1=""/>
+	<Item id="GunCellSuitable"  	file="data\if\ico_hd\InventoryDlg\Slot_Back_Open.dds"  file1=""/>
 	<Item id="GunCellUnsuitable" 	file="data\if\ico\InventoryDlg\item_off.dds"     	file1=""/>
-	<Item id="GunAngle"    			file="data\if\ico\InventoryDlg\firesector_090.dds"  file1=""/>
+	<Item id="GunAngle"    			file="data\if\ico_hd\InventoryDlg\firesector_090.dds"  file1=""/>
 
 <!--Town-->
 	<!-- <Item id="Administration"   file="data\if\ico\TownDlg\ManLevel.dds"         file1=""/>
@@ -271,11 +271,11 @@
 	<Item id="RecordIco"		file="data\if\ico\QuestLog\select_quest.dds"		file1="data\if\ico\QuestLog\unselect_quest.dds"/>
 
 <!--Иконки по типам ресурсов - пока используются подложки для пушек-->
-	<Item id="BIG_GUN"			file="data\if\ico\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="SMALL_GUN"		file="data\if\ico\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="SIDE_GUN"			file="data\if\ico\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="GIANT_GUN"		file="data\if\ico\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="SPECIAL_WEAPON"	file="data\if\ico\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="BIG_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="SMALL_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="SIDE_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="GIANT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="SPECIAL_WEAPON"	file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
 
 <!-- То что вместо курсора -->
 <!-- Unused, probably can be deleted - TO TEST

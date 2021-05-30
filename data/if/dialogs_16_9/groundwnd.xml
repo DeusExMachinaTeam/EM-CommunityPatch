@@ -66,10 +66,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\InventoryDlg\btn_moveall_e.dds"
-			btnImageDown="data\if\ico\InventoryDlg\btn_moveall_p.dds"
-			btnImageIn="data\if\ico\InventoryDlg\btn_moveall_s.dds"
-			btnImageDisabled="data\if\ico\InventoryDlg\btn_moveall_d.dds"
+			btnImage="data\if\ico_hd\InventoryDlg\btn_moveall_e.dds"
+			btnImageDown="data\if\ico_hd\InventoryDlg\btn_moveall_p.dds"
+			btnImageIn="data\if\ico_hd\InventoryDlg\btn_moveall_s.dds"
+			btnImageDisabled="data\if\ico_hd\InventoryDlg\btn_moveall_d.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
