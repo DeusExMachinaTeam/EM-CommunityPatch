@@ -316,15 +316,15 @@
    <Item id="AloneDruid_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
 
  <!-- MotherPanel -->
-	<Item id="TabBtn_Questlog_InField"		file="data\if\ico\MotherPanel\tab_quest_s.dds"		file1="data\if\ico\MotherPanel\tab_quest_e.dds"/>	
-	<Item id="TabBtn_Map_InField"			file="data\if\ico\MotherPanel\tab_map_s.dds"		file1="data\if\ico\MotherPanel\tab_map_e.dds"/>	
-	<Item id="TabBtn_Journal_InField"		file="data\if\ico\MotherPanel\tab_journal_s.dds"	file1="data\if\ico\MotherPanel\tab_journal_e.dds"/>	
-	<Item id="TabBtn_AdditionalBuilding_InTown"	file="data\if\ico\MotherPanel\tab_house_s.dds"	file1="data\if\ico\MotherPanel\tab_house_e.dds"/>	
-	<Item id="TabBtn_Bar_InTown"			file="data\if\ico\MotherPanel\tab_bar_s.dds"		file1="data\if\ico\MotherPanel\tab_bar_e.dds"/>	
-	<Item id="TabBtn_Inventory_InField"		file="data\if\ico\MotherPanel\tab_invent_s.dds"		file1="data\if\ico\MotherPanel\tab_invent_e.dds"/>	
-	<Item id="TabBtn_Inventory_InTown"		file="data\if\ico\MotherPanel\tab_shop_s.dds"		file1="data\if\ico\MotherPanel\tab_shop_e.dds"/>	
-	<Item id="TabBtn_Characteristic_InField" file="data\if\ico\MotherPanel\tab_stats_s.dds"		file1="data\if\ico\MotherPanel\tab_stats_e.dds"/>	
-	<Item id="TabBtn_Characteristic_InTown"	file="data\if\ico\MotherPanel\tab_repair_s.dds"		file1="data\if\ico\MotherPanel\tab_repair_e.dds"/>	
+	<Item id="TabBtn_Questlog_InField"			file="data\if\ico_hd\MotherPanel\tab_quest_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_quest_e.dds"/>	
+	<Item id="TabBtn_Map_InField"				file="data\if\ico_hd\MotherPanel\tab_map_s.dds"			file1="data\if\ico_hd\MotherPanel\tab_map_e.dds"/>	
+	<Item id="TabBtn_Journal_InField"			file="data\if\ico_hd\MotherPanel\tab_journal_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_journal_e.dds"/>	
+	<Item id="TabBtn_AdditionalBuilding_InTown"	file="data\if\ico_hd\MotherPanel\tab_house_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_house_e.dds"/>	
+	<Item id="TabBtn_Bar_InTown"				file="data\if\ico_hd\MotherPanel\tab_bar_s.dds"			file1="data\if\ico_hd\MotherPanel\tab_bar_e.dds"/>	
+	<Item id="TabBtn_Inventory_InField"			file="data\if\ico_hd\MotherPanel\tab_invent_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_invent_e.dds"/>	
+	<Item id="TabBtn_Inventory_InTown"			file="data\if\ico_hd\MotherPanel\tab_shop_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_shop_e.dds"/>	
+	<Item id="TabBtn_Characteristic_InField" 	file="data\if\ico_hd\MotherPanel\tab_stats_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_stats_e.dds"/>	
+	<Item id="TabBtn_Characteristic_InTown"		file="data\if\ico_hd\MotherPanel\tab_repair_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_repair_e.dds"/>	
 
 
 <!-- Цифры, имитирующие электронные -->
