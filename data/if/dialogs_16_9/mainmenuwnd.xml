@@ -266,7 +266,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\SplashWnd\loading_up.dds"
+			backimage="data\if\ico_hd\SplashWnd\loading_up.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="7"

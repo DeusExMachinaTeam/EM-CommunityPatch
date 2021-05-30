@@ -43,7 +43,7 @@
 			barColor="ff0000ff"
 			numOfSteps="0"
 			orientation="2"
-			barTexture="data\if\ico\SplashWnd\loading_bar.dds"
+			barTexture="data\if\ico_hd\SplashWnd\loading_bar.dds"
 			textureStyle="1"
 			textStyle="0">
 			<Animations/>
@@ -80,7 +80,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\SplashWnd\Loading_Down.dds"
+			backimage="data\if\ico_hd\SplashWnd\Loading_Down.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
@@ -102,7 +102,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\SplashWnd\Loading_Up.dds"
+			backimage="data\if\ico_hd\SplashWnd\Loading_Up.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
