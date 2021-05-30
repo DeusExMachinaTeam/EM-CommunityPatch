@@ -158,10 +158,10 @@
 			wndColor="00000000"
 			textColor="ff505050"
 			btnIsImaged="1"
-			btnImage="data\if\ico\Shop\btn_listpos_e.dds"
-			btnImageDown="data\if\ico\Shop\btn_listpos_p.dds"
-			btnImageIn="data\if\ico\Shop\btn_listpos_s.dds"
-			btnImageDisabled="data\if\ico\Shop\btn_listpos_d.dds"
+			btnImage="data\if\ico_hd\Shop\btn_listpos_e.dds"
+			btnImageDown="data\if\ico_hd\Shop\btn_listpos_p.dds"
+			btnImageIn="data\if\ico_hd\Shop\btn_listpos_s.dds"
+			btnImageDisabled="data\if\ico_hd\Shop\btn_listpos_d.dds"
 			textColorDisabled="ff7f7f7f">
 			<Animations/>
 		</Node>
@@ -229,7 +229,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\Shop\Shop_Zero.dds">
+			image="data\if\ico_hd\Shop\Shop_Zero.dds">
 			<Animations/>
 		</Node>
 
@@ -253,7 +253,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\Shop\Shop_Zero.dds">
+			image="data\if\ico_hd\Shop\Shop_Zero.dds">
 			<Animations/>
 		</Node>
 
@@ -301,7 +301,7 @@
 			wndColor="ffffffff"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\Shop\icn_price_sell.dds">
+			image="data\if\ico_hd\Shop\icn_price_sell.dds">
 			<Animations/>
 		</Node>
 
@@ -325,7 +325,7 @@
 			wndColor="ffffffff"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\Shop\icn_price_buy.dds">
+			image="data\if\ico_hd\Shop\icn_price_buy.dds">
 			<Animations/>
 		</Node>
 
@@ -349,7 +349,7 @@
 			wndColor="ffffffff"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\Shop\icn_goods.dds">
+			image="data\if\ico_hd\Shop\icn_goods.dds">
 			<Animations/>
 		</Node>
 

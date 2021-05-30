@@ -441,7 +441,7 @@
 			format="1"
 			font="0"
 			textColor="ff404040"
-			image="data\if\ico\Shop\icn_price_buy.dds"
+			image="data\if\ico_hd\Shop\icn_price_buy.dds"
 			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
@@ -461,7 +461,7 @@
 			format="1"
 			font="0"
 			textColor="ff404040"
-			image="data\if\ico\Shop\icn_price_sell.dds"
+			image="data\if\ico_hd\Shop\icn_price_sell.dds"
 			clientEdges="0.000 0.000 0.000 0.000"/>
 
 		<Node
