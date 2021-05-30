@@ -43,7 +43,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\Icons\Persing.dds">
+			image="data\if\ico_hd\GarageWnd\Icons\Piercing.dds">
 			<Animations/>
 		</Node>
 
@@ -90,7 +90,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\Icons\Blast.dds">
+			image="data\if\ico_hd\GarageWnd\Icons\Blast.dds">
 			<Animations/>
 		</Node>
 
@@ -137,7 +137,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\Icons\Energy.dds">
+			image="data\if\ico_hd\GarageWnd\Icons\Energy.dds">
 			<Animations/>
 		</Node>
 
