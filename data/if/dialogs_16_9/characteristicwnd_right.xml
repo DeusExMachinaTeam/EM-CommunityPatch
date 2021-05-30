@@ -12,7 +12,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\CharacteristicWnd\workshop_truckpanel.dds"
+		backimage="data\if\ico_hd\characteristicwnd\workshop_truckpanel.dds"
 		paneName="PaneBroun"
 		scrollPaneName="Scroll1"
 		paneFlags="0"
@@ -82,7 +82,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\CharacteristicWnd\cab_and_body.dds"
+			backimage="data\if\ico_hd\characteristicwnd\cab_and_body.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
@@ -116,9 +116,9 @@
 			textColor="fffed11b"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\CharacteristicWnd\overview_disabled.dds"
-			btnImageDown="data\if\ico\CharacteristicWnd\overview_disabled.dds"
-			btnImageIn="data\if\ico\CharacteristicWnd\overview_disabled.dds"
+			btnImage="data\if\ico_hd\characteristicwnd\overview_disabled.dds"
+			btnImageDown="data\if\ico_hd\characteristicwnd\overview_disabled.dds"
+			btnImageIn="data\if\ico_hd\characteristicwnd\overview_disabled.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -143,9 +143,9 @@
 			textColor="fffed11b"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\CharacteristicWnd\cab_and_body_disabled.dds"
-			btnImageDown="data\if\ico\CharacteristicWnd\cab_and_body_disabled.dds"
-			btnImageIn="data\if\ico\CharacteristicWnd\cab_and_body_disabled.dds"
+			btnImage="data\if\ico_hd\characteristicwnd\cab_and_body_disabled.dds"
+			btnImageDown="data\if\ico_hd\characteristicwnd\cab_and_body_disabled.dds"
+			btnImageIn="data\if\ico_hd\characteristicwnd\cab_and_body_disabled.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -170,9 +170,9 @@
 			textColor="fffed11b"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\CharacteristicWnd\weapons_disabled.dds"
-			btnImageDown="data\if\ico\CharacteristicWnd\weapons_disabled.dds"
-			btnImageIn="data\if\ico\CharacteristicWnd\weapons_disabled.dds"
+			btnImage="data\if\ico_hd\characteristicwnd\weapons_disabled.dds"
+			btnImageDown="data\if\ico_hd\characteristicwnd\weapons_disabled.dds"
+			btnImageIn="data\if\ico_hd\characteristicwnd\weapons_disabled.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -232,7 +232,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\CharacteristicWnd\shadow.dds"
+			backimage="data\if\ico_hd\characteristicwnd\shadow.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
