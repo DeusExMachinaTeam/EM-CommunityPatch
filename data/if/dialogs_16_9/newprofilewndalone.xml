@@ -25,7 +25,7 @@
 		<Node
 			name="lbl"
 			class="Wnd"
-			org="495.000 419.000 450.000 70.000"
+			org="735.000 419.000 450.000 70.000"
 			style="2816"
 			order="0"
 			id="0"
@@ -48,7 +48,7 @@
 		<Node
 			name="wndSeparator1"
 			class="LineWnd"
-			org="495.000 489.000 450.000 3.000"
+			org="735.000 489.000 450.000 3.000"
 			style="768"
 			order="8"
 			id="0"
@@ -72,7 +72,7 @@
 		<Node
 			name="wndSeparator2"
 			class="LineWnd"
-			org="495.000 588.000 450.000 3.000"
+			org="735.000 588.000 450.000 3.000"
 			style="768"
 			order="8"
 			id="0"
@@ -96,7 +96,7 @@
 		<Node
 			name="editName"
 			class="EditWnd"
-			org="562.000 515.000 315.000 51.000"
+			org="802.000 515.000 315.000 51.000"
 			style="2390560"
 			order="0"
 			id="200001"
@@ -119,7 +119,7 @@
 
 		<Node
 			name="btnCreate"
-			org="520.000 603.000 186.000 45.000"
+			org="760.000 603.000 186.000 45.000"
 			style="278016"
 			order="2"
 			id="200000"
@@ -144,7 +144,7 @@
 		<Node
 			name="emboss_btnCreate"
 			class="Wnd"
-			org="518.000 600.000 191.000 51.000"
+			org="758.000 600.000 191.000 51.000"
 			style="768"
 			order="1"
 			id=""
@@ -162,7 +162,7 @@
 
 		<Node
 			name="btnCancel"
-			org="734.000 603.000 186.000 45.000"
+			org="974.000 603.000 186.000 45.000"
 			style="278016"
 			order="3"
 			id="3"
@@ -187,7 +187,7 @@
 		<Node
 			name="emboss_btnCancel"
 			class="Wnd"
-			org="731.000 600.000 191.000 51.000"
+			org="971.000 600.000 191.000 51.000"
 			style="768"
 			order="1"
 			id=""
@@ -206,7 +206,7 @@
 		<Node
 			name="wndMainFrame"
 			class="Wnd"
-			org="463.000 387.000 515.000 307.000"
+			org="703.000 387.000 515.000 307.000"
 			style="768"
 			order="0"
 			id="0"
