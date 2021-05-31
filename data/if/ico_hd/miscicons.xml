@@ -120,11 +120,11 @@
 	<Item id="ServiceBtnRechargeList_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
 	<Item id="ServiceBtnRechargeList_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
 
-	<!-- Probably unused - TO TEST
 	<Item id="Cabin"		file="data\if\ico\GarageWnd\Icons\cab_buy.dds" 		file1=""/>
 	<Item id="Basket"		file="data\if\ico\GarageWnd\Icons\cargo_buy.dds" 	file1=""/>
 	<Item id="Construction"	file="data\if\ico\GarageWnd\Icons\hp.dds" 			file1=""/>
 	<Item id="Refuelling"	file="data\if\ico\GarageWnd\Icons\refuel.dds" 		file1=""/>
+	<!-- Probably unused - TO TEST
 	<Item id="SliderNotch"	file="data\if\ico\GarageWnd\Icons\slider.dds" 		file1=""/> -->
 
 <!-- Окно характеристик машины -->
