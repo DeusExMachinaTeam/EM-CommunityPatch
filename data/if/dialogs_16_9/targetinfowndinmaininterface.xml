@@ -47,7 +47,7 @@
 			barColor="ff00ff00"
 			numOfSteps="1"
 			orientation="2"
-			barTexture="data\if\ico\TargetInfoWnd\hp_light.dds"
+			barTexture="data\if\ico_hd\TargetInfoWnd\hp_light.dds"
 			textStyle="0"
 			textureStyle="1">
 			<Animations/>
@@ -100,7 +100,7 @@
 			barColor="ff00ff00"
 			numOfSteps="1"
 			orientation="2"
-			barTexture="data\if\ico\TargetInfoWnd\armour_light.dds"
+			barTexture="data\if\ico_hd\TargetInfoWnd\armour_light.dds"
 			textStyle="0"
 			textureStyle="1">
 			<Animations/>
@@ -195,7 +195,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\TargetInfoWnd\resist1.dds">
+			image="data\if\ico_hd\TargetInfoWnd\resist1.dds">
 			<Animations/>
 		</Node>
 
@@ -242,7 +242,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\TargetInfoWnd\resist2.dds">
+			image="data\if\ico_hd\TargetInfoWnd\resist2.dds">
 			<Animations/>
 		</Node>
 
@@ -289,7 +289,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\TargetInfoWnd\resist3.dds">
+			image="data\if\ico_hd\TargetInfoWnd\resist3.dds">
 			<Animations/>
 		</Node>
 
