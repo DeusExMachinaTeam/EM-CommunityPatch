@@ -405,7 +405,7 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\TownDlg\bar_overlay.dds">
+			image="data\if\ico_hd\TownDlg\bar_overlay.dds">
 		</Node>
 
 		<Node

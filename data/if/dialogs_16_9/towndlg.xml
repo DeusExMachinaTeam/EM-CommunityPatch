@@ -11,7 +11,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\TownDlg\city_mainscreen.dds"
+		backimage="data\if\ico_hd\TownDlg\city_mainscreen.dds"
 		paneName="defaultWnd"
 		scrollPaneName="Scroll1"
 		paneFlags="7"

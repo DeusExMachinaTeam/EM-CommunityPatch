@@ -11,7 +11,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\TownDlg\bar_panel.dds"
+		backimage="data\if\ico_hd\TownDlg\bar_panel.dds"
 		paneName="defaultWnd"
 		scrollPaneName="Scroll1"
 		paneFlags="0"
@@ -79,7 +79,7 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ffffffff"
-			image="data\if\ico\TownDlg\bar_button_bkg.dds"/>
+			image="data\if\ico_hd\TownDlg\bar_button_bkg.dds"/>
 
 		<Node
 			name="wndNpcIco"
@@ -124,7 +124,7 @@
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
 			textColor="ffffffff"
-			image="data\if\ico\TownDlg\bar_char_bkg.dds"/>
+			image="data\if\ico_hd\TownDlg\bar_char_bkg.dds"/>
 
 		<Node
 			name="wndNpcList"
