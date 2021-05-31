@@ -31,7 +31,7 @@
 		north="0 0 1"
 		image0="data\if\map\r1m1.dds"
 		image1="data\if\ico\GlobalMap\r1m1.dds"
-		splashes="data\if\ico\Splashes\Loading_Screen_4.dds"
+		splashes="data\if\ico_hd\Splashes\Loading_Screen_4.dds"
 		musicBlocks="block0 block1" />
 
 	<LevelInfo
