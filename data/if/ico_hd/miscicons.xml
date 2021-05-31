@@ -79,8 +79,8 @@
 	<Item id="RadarHighlight"			file="data\if\ico_hd\MainGameInterfaceWnd\highlight.dds" file1=""/>
 
 <!--Workshop-->
-	<Item id="GunsAndGadgets"	file="data\if\ico\WorkshopDlg\tab_weapon_e.dds" 		file1="data\if\ico\WorkshopDlg\tab_weapon_n.dds"/>
-	<Item id="Goods"			file="data\if\ico\WorkshopDlg\tab_goods_e.dds" 			file1="data\if\ico\WorkshopDlg\tab_goods_n.dds"/>
+	<Item id="GunsAndGadgets"	file="data\if\ico_hd\WorkshopDlg\tab_weapon_e.dds" 	file1="data\if\ico_hd\WorkshopDlg\tab_weapon_n.dds"/>
+	<Item id="Goods"			file="data\if\ico_hd\WorkshopDlg\tab_goods_e.dds" 	file1="data\if\ico_hd\WorkshopDlg\tab_goods_n.dds"/>
 	<!-- <Item id="BuyBg"			file="data\if\ico\WorkshopDlg\cabin_buy.dds" 			file1=""/> -->
 	<!-- <Item id="BuyBtnBg"			file="data\if\ico\WorkshopDlg\shop_button.dds" 			file1=""/> -->
 

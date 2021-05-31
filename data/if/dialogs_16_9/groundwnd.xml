@@ -12,7 +12,7 @@
 		id="0"
 		caption=""
 		tip=""
-		backimage="data\if\ico\WorkshopDlg\ground_and_shop2_texture.dds"
+		backimage="data\if\ico_hd\WorkshopDlg\ground_and_shop2_texture.dds"
 		paneName="defaultWnd"
 		scrollPaneName="Scroll1"
 		paneFlags="0"
