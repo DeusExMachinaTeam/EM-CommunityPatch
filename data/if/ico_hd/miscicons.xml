@@ -291,7 +291,7 @@
 <!-- Unused, probably can be deleted - TO TEST
 	<Item id="RpmPointer"		file="data\if\ico\VehicleInfoPanel\Engine.dds"		file1=""/>
 -->
-	<Item id="SpeedPointer"		file="data\if\ico\VehicleInfoPanel\Engine.dds"		file1=""/>
+	<Item id="SpeedPointer"		file="data\if\ico\SpeedometerWnd\Engine.dds"		file1=""/>
 
 <!-- Фон для Npc -->
 	<Item id="NpcBgBar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>	
