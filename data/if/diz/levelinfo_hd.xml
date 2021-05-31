@@ -19,7 +19,7 @@
 		diz1=""
 		image0="data\if\map\r1m1.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\plane.dds"
+		splashes="data\if\ico_hd\Splashes\plane.dds"
 		musicBlocks="block0 block1" />
 
 	<LevelInfo
@@ -54,7 +54,7 @@
 		north="0 0 1"
 		image0="data\if\map\r1m3.dds"
 		image1="data\if\ico\GlobalMap\r1m3.dds"
-		splashes="data\if\ico\Splashes\zavod.dds"
+		splashes="data\if\ico_hd\Splashes\zavod.dds"
 		musicBlocks="block0 block1" />
 
 	<LevelInfo
@@ -66,7 +66,7 @@
 		north="0 0 1"
 		image0="data\if\map\r1m4.dds"
 		image1="data\if\ico\GlobalMap\r1m4.dds"
-		splashes="data\if\ico\Splashes\plane.dds"
+		splashes="data\if\ico_hd\Splashes\plane.dds"
 		musicBlocks="r1_4 block1" />
 
 	<LevelInfo
@@ -78,7 +78,7 @@
 		north="0 0 1"
 		image0="data\if\map\r2m1.dds"
 		image1="data\if\ico\GlobalMap\r2m1.dds"
-		splashes="data\if\ico\Splashes\paris.dds"
+		splashes="data\if\ico_hd\Splashes\paris.dds"
 		musicBlocks="r2_1 r2_2" />
 
 	<LevelInfo
@@ -90,7 +90,7 @@
 		north="0 0 1"
 		image0="data\if\map\r2m2.dds"
 		image1="data\if\ico\GlobalMap\r2m2.dds"
-		splashes="data\if\ico\Splashes\ogon.dds"
+		splashes="data\if\ico_hd\Splashes\ogon.dds"
 		musicBlocks="r2_1 r2_2" />
 
 	<LevelInfo
