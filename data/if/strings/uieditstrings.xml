@@ -118,7 +118,7 @@
 
 	<string
 		id="OpenSavesList"
-		value="Открыть список сохраненных игр" />
+		value="Открыть список сохранённых игр" />
 
 	<string
 		id="ShowIntro"
@@ -138,15 +138,15 @@
 
 	<string
 		id="LoadGame"
-		value="Загрузить сохраненную игру" />
+		value="Загрузить сохранённую игру" />
 
 	<string
 		id="SavedGameLoading"
-		value="Загрузка сохраненной игры" />
+		value="Загрузка сохранённой игры" />
 <!-- Профиль -->
 	<string
 		id="DeleteProfileWarning"
-		value="Все сохраненные игры будут удалены.|Продолжить?" />
+		value="Все сохранённые игры будут удалены.|Продолжить?" />
 
 	<string
 		id="DefaultProfileName"
