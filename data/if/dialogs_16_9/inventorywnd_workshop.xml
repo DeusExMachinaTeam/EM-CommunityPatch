@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <!-- Seel's comments: -->
-<!-- Parent window of cabinwnd.xml and basketwnd.xml, shown when opening inventory -->
-<!-- Child of motherpanel.xml -->
+<!-- Parent of panels shown when buying new car -->
+<!-- Related to znayukakprodatwnd.xml -->
 <Prefabs>
 	<Node
 		name="InventoryWnd"
 		class="Wnd"
-		org="0.000 0.000 960.000 1080.000"
+		org="960.000 0.000 960.000 1080.000"
 		style="832"
 		order="-1"
 		id="0"
@@ -22,19 +22,17 @@
 		<Animations>
 			<AnimationOnShow
 				animationEnabled="1"
-				animationType="TO_RIGHT"
+				animationType="TO_LEFT"
 				animationSpeed="3500"
 				animationAccel="-6000"
-				animationDelayTime="0"
-				soundMoveEnabled="1"/>
+				animationDelayTime="0"/>
 
 			<AnimationOnHide
 				animationEnabled="1"
-				animationType="TO_BEYOND_LEFT"
+				animationType="TO_BEYOND_RIGHT"
 				animationSpeed="500"
 				animationAccel="6000"
-				animationDelayTime="0"
-				soundMoveEnabled="1"/>
+				animationDelayTime="0"/>
 		</Animations>
 	</Node>
 </Prefabs>

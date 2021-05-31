@@ -56,6 +56,14 @@
 		showImmediate="0"
 		loadType="AT_FIRST_LEVEL_START"
 	/>
+	
+	<Item
+		class="InventoryWnd"
+		id="IW_WND_WORKSHOP_INVENTORY"
+		file="data\if\dialogs_16_9\InventoryWnd_workshop.xml"
+		showImmediate="0"
+		loadType="AT_FIRST_LEVEL_START"
+	/>
 
 	<Item
 		class="ZnayuKakProdatWnd"
@@ -408,6 +416,14 @@
 		showImmediate="0"
 		loadType="AT_APP_START"
 	/>
+
+	<Item
+		class="NewProfileWnd"
+		id="IW_WND_NEW_PROFILE_ALONE"
+		file="data\if\dialogs_16_9\NewProfileWndAlone.xml"
+		showImmediate="0"
+		loadType="AT_APP_START"
+	/>   
 
 	<Item
 		class="ChangeProfileWnd"
