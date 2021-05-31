@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<?xml version="1.0" encoding="Windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
 <resource><!--Default buttons--><!-- Общие в игре -->
 	<string
 		id="Price"
@@ -42,7 +42,7 @@
 
 	<string
 		id="NotSelledByTown"
-		value="@ff904040Не продается городом" />
+		value="@ff904040Не продаётся городом" />
 
 	<string
 		id="NotBuyedByTown"
@@ -50,7 +50,7 @@
 
 	<string
 		id="WareNotSelledByTown"
-		value="Город не продает товары этого типа" />
+		value="Город не продаёт товары этого типа" />
 
 	<string
 		id="WareNotBuyedByTown"
@@ -210,7 +210,7 @@
 <!-- Игровое меню -->
 	<string
 		id="ExitCurGame"
-		value="Завершить текущую игру?|Внимание: все несохраненные данные будут утеряны." />
+		value="Завершить текущую игру?|Внимание: все несохранённые данные будут утеряны." />
 
 	<string
 		id="Quit to Main Menu"
@@ -238,7 +238,7 @@
 
 	<string
 		id="quitGameWithSaveWarn"
-		value="Выйти из игры?|Внимание: все несохраненные данные будут утеряны." />
+		value="Выйти из игры?|Внимание: все несохранённые данные будут утеряны." />
 <!-- Окно сохранения -->
 	<string
 		id="SaveNameDemand"
@@ -258,7 +258,7 @@
 
 	<string
 		id="DeleteGame"
-		value="Удалить сохраненную игру" />
+		value="Удалить сохранённую игру" />
 <!-- Характеристики машины/кабины/кузова/оружия/гаджетов -->
 	<string
 		id="Power"
@@ -304,6 +304,10 @@
 		id="Armor"
 		value="Броня" />
 
+		<string
+		id="ArmorTip"
+		value="Общая броня кузова и кабины" />
+
 	<string
 		id="MaxArmor"
 		value="Максимальная броня" />
@@ -330,7 +334,7 @@
 
 	<string
 		id="BasketCapacity"
-		value="Объем кузова" />
+		value="Объём кузова" />
 
 	<string
 		id="GADGET_COMMON"
@@ -359,6 +363,22 @@
 	<string
 		id="Energy"
 		value="энергия" />
+
+	<string
+		id="ResistDamage"
+		value="Сопротивление урону" />
+
+	<string
+		id="PiercingCap"
+		value="Пули" />
+
+	<string
+		id="BlastCap"
+		value="Взрыв" />
+
+	<string
+		id="EnergyCap"
+		value="Энергия" />
 
 	<string
 		id="Fuel"
@@ -390,7 +410,7 @@
 
 	<string
 		id="FuelTankCapacity"
-		value="Объем бензобака" />
+		value="Объём бензобака" />
 
 	<string
 		id="Accuracy"
@@ -410,7 +430,7 @@
 
 	<string
 		id="MachineGun"
-		value="Пулемет" />
+		value="Пулемёт" />
 
 	<string
 		id="Cannon"
@@ -434,11 +454,11 @@
 
 	<string
 		id="Artillery"
-		value="Миномет" />
+		value="Миномёт" />
 
 	<string
 		id="Thunderbolt"
-		value="Молниемет" />
+		value="Молниемёт" />
 
 	<string
 		id="Mine"
