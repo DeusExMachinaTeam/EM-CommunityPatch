@@ -112,6 +112,18 @@
 	</Path>
 
 	<Path
+		Name="oilminerunner_path">
+		<Point
+			coord="6958.928 7069.322" />
+
+		<Point
+			coord="6906.223 7010.973" />
+
+		<Point
+			coord="6858.241 7022.742" />
+	</Path>
+	
+	<Path
 		Name="banditoilmine_path">
 		<Point
 			coord="6824.049 7036.086" />
