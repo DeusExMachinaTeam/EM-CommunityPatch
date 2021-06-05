@@ -393,6 +393,36 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+		
+	<trigger Name="BOSSOILMINEDIE_FADEIN" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>	
+			local runVeh = getObj("OilMineRuner_vehicle_0")
+			local Plf = GetPlayerVehicle()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 10
+			PlfCoor.z = PlfCoor.z + 20
+
+			if runVeh then
+				runVeh:SetExternalPathByName("oilminerunner_path")
+				runVeh:SetCruisingSpeed(10)
+			end
+
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+				Plf:SetGamePositionOnGround(CVector(6984.255, 263.272, 7091.308))
+				Plf:SetRotation(Quaternion(0.0000, -0.9063, 0.0000, 0.4226))
+			end
+
+			AddCinematicMessage( 20, 1 )
+						
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	
 	<trigger Name="BOSSOILMINENDCINIMATIC" active="0">
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
