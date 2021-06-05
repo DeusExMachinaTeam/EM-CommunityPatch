@@ -362,35 +362,24 @@
 		<script>
    			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
 
-			SetTolerance( 1100, 1047, RS_NEUTRAL )
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			TeamCreate("OilMineRuner",1044,CVector(6895,260,7002),{"DemoBandit"}, nil, 1)
-			local vehP = GetEntityByName("OilMineRuner_vehicle_0")
-			if vehP then
-				vehP:SetExternalPathByName("banditoilmine_path")
-			end
-
-			CinemaFiltersUse()
+			TeamCreate("OilMineRuner",1002,CVector(6895,260,7002),{"DemoBandit"}, nil, 1)
+			
+			local runVeh = getObj("OilMineRuner_vehicle_0")
+			local RunID = runVeh:GetId()
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 25*0.74
-			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			Plf:SetCustomControlEnabled( true )
-			Plf:SetCustomLinearVelocity( 0 )
-			Plf:SetThrottle( 0 )
-			Plf:SetCustomControlEnabled( false )
-
-			FlyAround(6, 0, 25, 10, PlfCoor, PlfID, 1, 1)
+			if runVeh then
+				runVeh:SetSkin(1)
+			end
+			
+			FlyLinked( "OilMineRunner_cam01", PlfID, 13, 1, 1, RunID )
 			StartCinematic()
-
-			AddCinematicMessage( 20, 1 )
-
+			
+			TActivate( "BOSSOILMINEDIE_FADEIN" )
 			TActivate( "BOSSOILMINENDCINIMATIC" )
-
-			trigger:Deactivate()
 		</script>
 	</trigger>
 		
