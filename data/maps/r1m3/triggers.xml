@@ -420,6 +420,12 @@
 
 			RestoreAllToleranceStatus()
 
+			local vehP = GetEntityByName("OilMineRuner_vehicle_0")
+			if vehP then
+				vehP:PlaceToEndOfPath("oilminerunner_path")
+				vehP:SetExternalPathByName("banditoilmine_path")
+			end
+			
 			TActivate("RUNTORUNER")
 			TActivate("RUNTORUNERENDRACE")
 
