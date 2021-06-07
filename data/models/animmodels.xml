@@ -6137,6 +6137,11 @@
 				restartOnAnimationChange="0" />
 
 			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
+			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_HUNTER_CAB01"
 				restartOnAnimationChange="0" />
@@ -6224,6 +6229,16 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_HUNTER_CAB02"
