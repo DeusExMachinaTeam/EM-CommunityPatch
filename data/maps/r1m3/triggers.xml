@@ -364,7 +364,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			TeamCreate("OilMineRuner",1002,CVector(6895,260,7002),{"DemoBandit"}, nil, 1)
+			TeamCreate("OilMineRuner",1002,CVector(6959, 260, 7059),{"DemoBandit"}, nil, 1)
 			
 			local runVeh = getObj("OilMineRuner_vehicle_0")
 			local RunID = runVeh:GetId()
