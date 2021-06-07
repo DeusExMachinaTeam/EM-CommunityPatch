@@ -925,11 +925,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			LoadPoints			= "LP_GIANT01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "2"	
-				    	Breakable2   = "4"
-					Breakable3   = "4"
+				    Breakable1   = "4"
+					Breakable2   = "4"
+					Breakable3   = "3"
 					Breakable4   = "3"
-					Breakable5   = "3"
 				/>
 		</Prototype>
 
@@ -954,11 +953,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			LoadPoints			= "LP_SML01 LP_BIG01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "2"	
-				    	Breakable2   = "3"
-					Breakable3   = "4"
-					Breakable4   = "3"
-					Breakable5   = "3"
+				    Breakable1   = "1"
+					Breakable2   = "2"
+					Breakable3   = "3"
+					Breakable4   = "4"
 				/>
 		</Prototype>
 
