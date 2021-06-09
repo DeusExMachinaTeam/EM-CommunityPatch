@@ -12176,11 +12176,6 @@
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_GLOW02"
-				effect_id="ET_PS_GLOW_QUAD"
-				restartOnAnimationChange="0" />
 		</action>
 
 		<action
