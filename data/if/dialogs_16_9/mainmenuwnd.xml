@@ -24,7 +24,7 @@
 		textColorDisabled="ff8f8f8f">
 		<Node
 			name="itemNewGame"
-			org="1248.000 290.000 338.000 45.000"
+			org="1423.000 290.000 338.000 45.000"
 			style="265728"
 			order="0"
 			id="600101"
@@ -51,7 +51,7 @@
 
 		<Node
 			name="itemLoad"
-			org="1248.000 374.000 338.000 45.000"
+			org="1423.000 374.000 338.000 45.000"
 			style="265728"
 			order="0"
 			id="600102"
@@ -78,7 +78,7 @@
 
 		<Node
 			name="itemQuit"
-			org="1327.000 857.000 180.000 45.000"
+			org="1423.000 712.000 338.000 45.000"
 			style="265728"
 			order="0"
 			id="600100"
@@ -105,7 +105,7 @@
 
 		<Node
 			name="itemOptions"
-			org="1248.000 543.000 338.000 45.000"
+			org="1423.000 543.000 338.000 45.000"
 			style="265728"
 			order="1"
 			id="600103"
@@ -132,7 +132,7 @@
 
 		<Node
 			name="itemCredits"
-			org="1248.000 712.000 338.000 45.000"
+			org="1423.000 627.000 338.000 45.000"
 			style="265728"
 			order="1"
 			id="600105"
@@ -159,7 +159,7 @@
 
 		<Node
 			name="btnChangeProfile"
-			org="1248.000 458.000 338.000 45.000"
+			org="1423.000 458.000 338.000 45.000"
 			style="265728"
 			order="3"
 			id="600106"
@@ -184,7 +184,7 @@
 			<Animations/>
 		</Node>
 
-		<Node
+		<!-- <Node
 			name="itemIntro"
 			org="1248.000 627.000 338.000 45.000"
 			style="265728"
@@ -209,7 +209,7 @@
 			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
 			<Animations/>
-		</Node>
+		</Node> -->
 
 		<Node
 			name="wndVersion"
@@ -329,7 +329,7 @@
 		<Node
 			name="wndMainBg"
 			class="Wnd"
-			org="1212.000 179.000 410.000 820.000"
+			org="1387.000 179.000 410.000 820.000"
 			style="768"
 			order="4"
 			id="0"
