@@ -145,7 +145,7 @@
 			local poslist = {CVector(2595.265, 300, 1312.742),CVector(2602.535, 300, 1307.154),CVector(2605.818, 300, 1329.525),CVector(2618.733, 300, 1332.649)}
 			local modlist = {"Hunter01","Hunter02", "Cruiser02","Cruiser01"}
 			for i=1,4 do
-				local veh = CreateVehicleEx(modlist[i],"SciefVeh"..i,poslist[i])
+				local veh = CreateVehicleEx(modlist[i],"SciefVeh"..i,poslist[i], 1061)
 				if veh then
 					veh:setGodMode(true)
 					veh:SetRotation(Quaternion(0.015, -0.881, -0.051, 0.470))

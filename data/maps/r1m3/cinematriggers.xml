@@ -392,7 +392,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_MerScout","vehMer",( CVector(6226,277,6001) ))
+			CreateVehicleEx("r1m3_MerScout","vehMer",( CVector(6226,277,6001) ), 1010)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(6311.421, 280.051, 5881.835), Quaternion(0, 0, 0, 0), 0)
 
 			local vehPlayer = GetPlayerVehicle()
@@ -461,7 +461,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m1_scout03","vehMer",( CVector(0, 0, 0) ))
+			CreateVehicleEx("r1m1_scout03","vehMer",( CVector(0, 0, 0) ), 1010)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(5343.372, 241.556, 4436.097), Quaternion(0, 0, 0, 0), 0)
 
 			local vehPlayer = GetPlayerVehicle()
@@ -667,7 +667,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_hunter02","vehPioneer",( CVector(0, 10000, 0) ))
+			CreateVehicleEx("r1m3_hunter02","vehPioneer",( CVector(0, 10000, 0) ), 1015)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(1757.628, 285.696, 5439.641), Quaternion(0, 0, 0, 0), 0)
 
 			local vehP = GetEntityByName("vehPioneer")
@@ -771,7 +771,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_hunter02","vehPioneer",CVector(0, 10000, 0))
+			CreateVehicleEx("r1m3_hunter02","vehPioneer",CVector(0, 10000, 0), 1015)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(3722.334, 302.636, 6176.265), Quaternion(0, 0, 0, 0), 0)
 
 			local vehP = GetEntityByName("vehPioneer")
@@ -879,7 +879,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(0, 10000, 0) ))
+			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(0, 10000, 0) ), 1042)
 
 			local vehLisa = GetEntityByName("vehLisa_0")
 			local vehLisaID = vehLisa:GetId()
