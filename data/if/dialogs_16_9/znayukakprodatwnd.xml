@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Interface for buying vehicles in Garage  -->
+<Prefabs>
+	<Node
+		name="ZnayuKakProdatWnd"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="wndBottomPanel"
+			class="Wnd"
+			org="0.000 969.000 1920.000 90.000"
+			style="1049344"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000">
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_TOP"
+					animationSpeed="350"
+					animationAccel="-100"
+					animationDelayTime="0"/>
+
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_BOTTOM"
+					animationSpeed="150"
+					animationAccel="300"
+					animationDelayTime="0"/>
+			</Animations>
+		</Node>
+
+		<Node
+			name="wndMoveAllFromPlayerToWorkshopIco"
+			class="ImageWnd"
+			org="338.000 1024.000 45.000 22.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			image="data\if\ico\ZnayuKakProdatWnd\MoveTo_Right.dds"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnMoveAllFromPlayerToWorkshop"
+			org="285.000 1018.000 148.000 34.000"
+			style="262656"
+			order="0"
+			id="800000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			btnIsImaged="0"
+			class="ButtonWnd"/>
+
+		<Node
+			name="wndMoveAllFromPlayerToWorkshopPanel"
+			class="Wnd"
+			org="268.000 969.000 180.000 90.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\ZnayuKakProdatWnd\MoveItem_panel.dds"
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndMoveAllFromWorkshopToPlayerIco"
+			class="ImageWnd"
+			org="1548.000 1024.000 45.000 22.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			image="data\if\ico\ZnayuKakProdatWnd\MoveTo_Left.dds"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnMoveAllFromWorkshopToPlayer"
+			org="1494.000 1018.000 148.000 34.000"
+			style="262656"
+			order="0"
+			id="800001"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			btnIsImaged="0"
+			class="ButtonWnd"/>
+
+		<Node
+			name="wndMoveAllFromWorkshopToPlayerPanel"
+			class="Wnd"
+			org="1478.000 969.000 180.000 90.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\ZnayuKakProdatWnd\MoveItem_panel.dds"
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnCancel"
+			org="1116.000 1018.000 172.000 34.000"
+			style="262656"
+			order="1"
+			id="800002"
+			caption="^Cancel^"
+			tip="^Cancel^"
+			backimage=""
+			paneName="PaneBtnGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			btnIsImaged="0"
+			class="ButtonWnd"/>
+
+		<Node
+			name="btnBuy"
+			org="635.000 1018.000 172.000 34.000"
+			style="262656"
+			order="2"
+			id="800003"
+			caption="^Buy^"
+			tip="^Buy^"
+			backimage=""
+			paneName="PaneBtnGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			btnIsImaged="0"
+			class="ButtonWnd"/>
+
+		<Node
+			name="wndTradeCost"
+			class="Wnd"
+			org="833.000 1018.000 257.000 34.000"
+			style="2560"
+			order="3"
+			id="0"
+			caption=""
+			tip="^TotalPrice^"
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 5.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"/>
+
+		<Node
+			name="wndTradeCostTitle"
+			class="Wnd"
+			org="833.000 1018.000 257.000 34.000"
+			style="2816"
+			order="3"
+			id="0"
+			caption="^Sum:^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="5.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"/>
+
+		<Node
+			name="wndMiddleBottomPanel"
+			class="Wnd"
+			org="600.000 969.000 720.000 90.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\ZnayuKakProdatWnd\Veh_buy2_panel.dds"
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndPlayerItemsCost"
+			class="Wnd"
+			org="752.000 125.000 180.000 45.000"
+			style="3584"
+			order="1"
+			id="0"
+			caption=""
+			tip="^SellItemsCost^"
+			backimage="data\if\ico\ZnayuKakProdatWnd\Value_panel.dds"
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000">
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="100"/>
+
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="0"/>
+			</Animations>
+		</Node>
+
+		<Node
+			name="wndWorkshopItemsCost"
+			class="Wnd"
+			org="1712.000 125.000 180.000 45.000"
+			style="3584"
+			order="1"
+			id="0"
+			caption=""
+			tip="^BuyItemsCost^"
+			backimage="data\if\ico\ZnayuKakProdatWnd\Value_panel.dds"
+			paneName="PaneLineGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000">
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="600"
+					animationAccel="-300"
+					animationDelayTime="100"/>
+
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="300"
+					animationAccel="350"
+					animationDelayTime="0"/>
+			</Animations>
+		</Node>
+	</Node>
+</Prefabs>

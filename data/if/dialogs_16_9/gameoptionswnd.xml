@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu gameplay options -->
+<!-- Related to optionswnd.xml -->
+<Prefabs>
+	<Node
+		name="wndGameOptions"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGray3"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="wndLine1"
+			class="LineWnd"
+			org="433.000 263.000 824.000 3.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTitle"
+			class="Wnd"
+			org="433.000 193.000 824.000 70.000"
+			style="3904"
+			order="1"
+			id="0"
+			caption="^Game settings^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="cbGameDifficulty"
+			class="ComboBoxWnd"
+			org="870.000 291.000 339.000 39.000"
+			style="576"
+			order="2"
+			id="10305"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			maxListHeight="200.000"
+			selTextFixedHeight="39"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_cbGameDifficulty"
+			class="Wnd"
+			org="867.000 288.000 345.000 45.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lblGameDifficulty"
+			class="Wnd"
+			org="433.000 288.000 390.000 45.000"
+			style="2880"
+			order="6"
+			id="0"
+			caption="^GameDifficulty^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<!--
+<Node
+
+
+
+name="checkAutoSave"
+
+
+
+class="CheckWnd"
+
+
+
+org="446.000 277.000 32.000 32.000"
+
+
+
+style="262656"
+
+
+
+order="12"
+
+
+
+id="10300"
+
+
+
+caption=""
+
+
+
+tip=""
+
+
+
+backimage=""
+
+
+
+paneName="PaneCheckGray"
+
+
+
+scrollPaneName="Scroll1"
+
+
+
+paneFlags="1"
+
+
+
+wrap="2"
+
+
+
+format="1"
+
+
+
+font="0"
+
+
+
+clientEdges="0.000 0.000 0.000 0.000"
+
+
+
+wndColor="00000000"
+
+
+
+textColor="ffffffff"
+
+
+
+textColorDisabled="ff7f7f7f"
+
+
+
+btnIsImaged="0">
+
+
+
+<Animations />
+
+
+
+</Node>
+
+
+
+<Node
+
+
+
+name="emboss_checkAutoSave"
+
+
+
+class="Wnd"
+
+
+
+org="446.000 277.000 32.000 32.000"
+
+
+
+style="768"
+
+
+
+order="1"
+
+
+
+id=""
+
+
+
+caption=""
+
+
+
+tip=""
+
+
+
+backimage=""
+
+
+
+paneName="PaneEmboss"
+
+
+
+scrollPaneName="Scroll1"
+
+
+
+paneFlags="6"
+
+
+
+wrap="2"
+
+
+
+format="1"
+
+
+
+font="0"
+
+
+
+textColor="ff404040"
+
+
+
+clientEdges="0.000 0.000 0.000 0.000" /> 
+
+
+
+<Node
+
+
+
+name="lblAutoSave"
+
+
+
+class="Wnd"
+
+
+
+org="137.000 277.000 277.000 32.000"
+
+
+
+style="2880"
+
+
+
+order="6"
+
+
+
+id="0"
+
+
+
+caption="^AutoSave^"
+
+
+
+tip=""
+
+
+
+backimage=""
+
+
+
+paneName="defaultWnd"
+
+
+
+scrollPaneName="Scroll1"
+
+
+
+paneFlags="7"
+
+
+
+wrap="0"
+
+
+
+format="2"
+
+
+
+font="0"
+
+
+
+clientEdges="0.000 0.000 0.000 0.000"
+
+
+
+wndColor="00000000"
+
+
+
+textColor="fF404040"
+
+
+
+textColorDisabled="ff7f7f7f">
+
+
+
+<Animations />
+
+
+
+</Node>   
+
+-->
+		<Node
+			name="sliderNumReplies"
+			class="SliderWnd"
+			org="912.000 339.000 255.000 45.000"
+			style="262656"
+			order="26"
+			id="10301"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray3"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnNumRepliesPrev"
+			org="867.000 339.000 45.000 45.000"
+			style="265728"
+			order="25"
+			id="10302"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderPrev"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnNumRepliesNext"
+			org="1167.000 339.000 45.000 45.000"
+			style="265728"
+			order="25"
+			id="10303"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderNext"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lblNumReplies"
+			class="Wnd"
+			org="433.000 339.000 390.000 45.000"
+			style="2880"
+			order="6"
+			id="0"
+			caption="^NumBattleReplies^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="checkAutoHelp"
+			class="CheckWnd"
+			org="867.000 390.000 45.000 45.000"
+			style="262656"
+			order="12"
+			id="10304"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneCheckGray"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_checkAutoHelp"
+			class="Wnd"
+			org="867.000 390.000 45.000 45.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lblAutoHelp"
+			class="Wnd"
+			org="433.000 390.000 390.000 45.000"
+			style="2880"
+			order="6"
+			id="0"
+			caption="^AutoHelp^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

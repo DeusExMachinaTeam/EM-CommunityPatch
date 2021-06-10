@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- General help message dialog, explaining different game screens on pressing F1 -->
+<Prefabs>
+	<Node
+		name="wndSimpleMsgHelp"
+		class="ModalWnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\HelpWnd\bkg_darkener.dds"
+		paneName="PaneMenu"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="wndLogo"
+			class="ImageWnd"
+			org="1147.000 172.000 360.000 90.000"
+			style="768"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico_hd\GameMenu\menu_logo_xm.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndHelpText"
+			class="TextBoxWnd"
+			org="455.000 288.000 1010.000 503.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameC"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 2.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			drawFlags="7">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="checkDisableAutoHelp"
+			class="CheckWnd"
+			org="455.000 830.000 45.000 45.000"
+			style="264704"
+			order="1"
+			id="11000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultCheckUnchecked"
+			checkedPaneName="defaultCheckChecked"
+			uncheckedPaneName="defaultCheckUnchecked"
+			isChecked="0"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="checkDisableAutoHelp_emboss"
+			class="Wnd"
+			org="455.000 830.000 45.000 45.000"
+			style="768"
+			order="1"
+			id="11000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lblDisableAutoHelp"
+			class="Wnd"
+			org="528.000 830.000 562.000 45.000"
+			style="2816"
+			order="1"
+			id="0"
+			caption="^DontShowAutoHelp^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnExit"
+			org="1181.000 830.000 281.000 45.000"
+			style="265728"
+			order="2"
+			id="1"
+			caption="^Close^"
+			tip="^CloseWindow^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnExit_emboss"
+			class="Wnd"
+			org="1178.000 827.000 287.000 51.000"
+			style="768"
+			order="2"
+			id="1"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTitle"
+			class="Wnd"
+			org="455.000 193.000 830.000 70.000"
+			style="2816"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lnHorz0"
+			class="LineWnd"
+			org="433.000 263.000 1055.000 3.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			lineDirection="0"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lnHorz1"
+			class="LineWnd"
+			org="433.000 814.000 1055.000 3.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			lineDirection="0"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndFrame"
+			class="Wnd"
+			org="400.000 160.000 1119.000 759.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

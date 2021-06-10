@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Encyclopaedia in Journal  -->
+<Prefabs>
+	<Node
+		name="EncyclopaediaWnd"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGreenThin"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="wndDiz"
+			class="TextBoxWnd"
+			org="630.000 724.000 1128.000 250.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 10.000 0.000"
+			wndColor="ffffffff"
+			textColor="ff404040"
+			drawFlags="5">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndDizFrame"
+			class="Wnd"
+			org="605.000 699.000 1163.000 300.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="ffffffff"
+			textColor="ff404040">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="subjectList"
+			class="TextBoxWnd"
+			org="171.000 315.000 407.000 670.000"
+			style="262656"
+			order="0"
+			id="400001"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray3"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="ffffffff"
+			textColor="ff404040"
+			drawFlags="3">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndModel"
+			class="Wnd"
+			org="880.000 253.000 612.000 436.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndModelBg"
+			class="ImageWnd"
+			org="605.000 249.000 1163.000 444.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\PalmBoard\view_pedia.dds"
+			paneName="PaneGray3"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="comboThemes"
+			class="ComboBoxWnd"
+			org="164.000 259.000 413.000 45.000"
+			style="576"
+			order="0"
+			id="400000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneComboBox"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			state="0"
+			comboStyle="7"
+			wndColor="ffffffff"
+			textColor="ff404040"
+			maxListHeight="200.000"
+			selTextFixedHeight="45.000">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndDecor0"
+			class="Wnd"
+			org="154.000 249.000 436.000 750.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="ffffffff"
+			textColor="ff505050">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>
