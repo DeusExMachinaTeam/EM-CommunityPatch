@@ -364,7 +364,7 @@
    <Item id="Belong_1053"		file="data\if\ico\clans\commonwealth_of independent_towns03.dds" 	file1="data\if\ico\clans\commonwealth_of independent_towns02.dds"/>
    <Item id="Belong_1054"		file="data\if\ico\clans\commonwealth_of independent_towns03.dds" 	file1="data\if\ico\clans\commonwealth_of independent_towns02.dds"/>
 
-   <Item id="Belong_1060"		file="" 			file1=""/>
+   <Item id="Belong_1060"		file="data\if\ico\clans\kurtadam03.dds" 			file1="data\if\ico\clans\kurtadam02.dds"/>
    <Item id="Belong_1061"		file="" 		file1=""/>
    <Item id="Belong_1062"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico\clans\militarists02.dds"/>
    <Item id="Belong_1063"		file="data\if\ico\clans\brigade03.dds" 			file1="data\if\ico\clans\brigade02.dds"/>
