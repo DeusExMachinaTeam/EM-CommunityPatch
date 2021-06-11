@@ -362,6 +362,7 @@
 		<script>
    			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
 
+			SetTolerance( 1100, 1047, RS_NEUTRAL )
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
 			TeamCreate("OilMineRuner",1002,CVector(6959, 260, 7059),{"DemoBandit"}, nil, 1)
