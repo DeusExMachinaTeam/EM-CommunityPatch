@@ -158,8 +158,8 @@
 				<AnimationOnShow
 					animationEnabled="1"
 					animationType="TO_BOTTOM"
-					animationSpeed="2450"
-					animationAccel="-4500"
+					animationSpeed="2200"
+					animationAccel="-1500"
 					animationDelayTime="50"/>
 
 				<AnimationOnHide
@@ -194,8 +194,8 @@
 				<AnimationOnShow
 					animationEnabled="1"
 					animationType="TO_TOP"
-					animationSpeed="4350"
-					animationAccel="-7500"
+					animationSpeed="3500"
+					animationAccel="-2100"
 					animationDelayTime="0"/>
 
 				<AnimationOnHide

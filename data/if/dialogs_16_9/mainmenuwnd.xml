@@ -96,9 +96,9 @@
 			textColor="fffed11b"
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\Mainmenu\mm_button_q1.dds"
-			btnImageDown="data\if\ico\Mainmenu\mm_button_q2.dds"
-			btnImageIn="data\if\ico\Mainmenu\mm_button_q1b.dds"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
