@@ -2103,7 +2103,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		OnComplete="AddPlayerMoney(200)"
+		OnComplete='AddPlayerMoney(200); TDeactivate("ZASADA_1")'
 		OnTake='ShowCircleOnMinimapByName("TheTown")' />
 <!--Root/r1m1/Сюжетные/Вернуться домой -->
 	<quest
