@@ -55,4 +55,10 @@
 		alarm	="r4_2_alarm"
 		battle	="r4_2_battle" />
 
+	<Block 
+		name	="block_menu"
+		driving	="mainmenu"
+		alarm	="block0_alarm"
+		battle	="block0_battle" />
+
 </MusicBlocks>

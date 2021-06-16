@@ -9,7 +9,7 @@
 		image0="data\if\map\r1m4.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico_hd\Splashes\Loading_Screen_1.dds"
-		musicBlocks="" />
+		musicBlocks="block_menu" />
 
 	<LevelInfo
 		name="t"
