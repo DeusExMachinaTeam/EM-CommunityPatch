@@ -30,6 +30,8 @@
 		<script>
 			CreateVehicleEx("r1m3_CaravanMolokovoz01","KARAVANPORTO_vehicle_0", CVector(4340.774, 260, 881.814), 1052)
 
+			TakeQuest("d_CaravanToPortoBen_Quest")
+
 			TActivate( "trCaravanToPorto5sec" )
 			TActivate( "trCaravanToPortoINPLACE" )
 			TActivate( "trCaravanToPortoDIE" )
@@ -97,6 +99,8 @@
 			GetEntityByName("KARAVANPORTO_vehicle_0"):Remove()
 
 			CreateVehicleEx("r1m3_CaravanMolokovoz02","KARAVANMIDGARD_vehicle_0", CVector(6797.209, 260, 6501.624), 1052)
+
+			TakeQuest("d_CaravanToMidgardBen_Quest")
 
 			TActivate( "trCaravanToMidgard5sec" )
 			TActivate( "trCaravanToMidgardINPLACE" )
