@@ -4177,7 +4177,7 @@
 		name="r1m4Random_Bar_Gomer1_P14"
 		text="Спасибо, добрый человек."
 		role="PLAYER"
-		scriptResult="if CanQuestBeGiven('r1m4_OvercomeMirras') then TakeQuest('r1m4_OvercomeMirras') end; CompleteQuest('FindGomerA_Quest1'); CompleteQuest('r1m3_FindVrata_KnowPlace'); EndConversation()" />
+		scriptResult="if CanQuestBeGiven('r1m4_OvercomeMirras') then TakeQuest('r1m4_OvercomeMirras') end; CompleteQuest('FindGomerA_Quest1'); CompleteQuest('r1m3_FindVrata_KnowPlace'); SetCoordinateForQuest( 'd_FindOracul_Quest' , CVector(getPos('ToR3M1'))) EndConversation()" />
 
 	<Reply
 		name="r1m4_RandomBar_Gomer_1_N01"
