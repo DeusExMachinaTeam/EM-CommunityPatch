@@ -1084,6 +1084,7 @@
 			TDeactivate( "trFatherDe_cam04" )
 			TDeactivate( "trFatherDe_cam05" )
 			TDeactivate( "RolikBegin_FatherDeath" )
+			TDeactivate("METALFELIX")
 
 			TActivate("trStopMusic")
 
