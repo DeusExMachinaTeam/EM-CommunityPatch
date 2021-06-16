@@ -320,7 +320,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			FlyAround(6, 0, 25, 25, PlfCoor, PlfID, 1, 1 )
+			FlyAround(6, 0, 25, 13, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 21, 1 )

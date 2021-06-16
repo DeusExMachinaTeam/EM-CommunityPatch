@@ -705,8 +705,7 @@
 			name="r1m3" />
 
 		<Map
-			name="r1m4"
-			targetObjName="ToR3M1" />
+			name="r1m4" />
 
 		<Map
 			name="r2m1"
@@ -1792,7 +1791,7 @@
 		questName="r1m4_OvercomeMirras"
 		briefDiz="Преодолеть болото"
 		fullDiz="Путь к Вратам преграждает болото, Нужно найти мелкое место или тропу, чтобы перебраться на другую сторону."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m4"
 			targetObjName="MorassRoad_loc" />
