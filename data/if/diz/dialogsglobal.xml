@@ -7448,7 +7448,7 @@ EndConversation()" />
 		name="WorkGiver_hellodlg0"
 		text="я вижу, у вас вли€тельные знакомые, молодой человек. Ќе окажете ли ¬ы мне небольшую услугу?"
 		role="NPC"
-		scriptCondition="not(IsQuestTaken( 'WorkGiver_Quest1' ))  and (GetCurNpc():GetSpokenCount() == 0)  and not(IsQuestComplete( 'TalkWithFather_Quest' ))"
+		scriptCondition="not(IsQuestTaken( 'WorkGiver_Quest1' ))  and (GetCurNpc():GetSpokenCount() == 0)  and not(IsQuestComplete( 'TalkWithFather_Quest' )) and QuestStatus('Buyer_Quest1')==Q_COMPLETED"
 		nextReplies="WorkGiver_hellodlg0_P1" />
 
 	<Reply
