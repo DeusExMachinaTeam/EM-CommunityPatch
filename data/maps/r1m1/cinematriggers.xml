@@ -178,7 +178,7 @@
 				FVehicle:SetSkin ( 1 )
 				FVehicle:SetRotation(Quaternion(0.021, 0.472, 0.040, 0.880))
 				FVehicle:SetThrottle( 1 )
-				FVehicle:SetCustomLinearVelocity( 10 )
+				FVehicle:SetCustomLinearVelocity( 22.5 )
 				FVehicle:SetExternalPathByName("fun1_5road")
 			end
 
