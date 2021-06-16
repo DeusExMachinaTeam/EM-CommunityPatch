@@ -371,8 +371,13 @@
 	<trigger Name="ANTISIENCER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("CarOfSiencer",1005,CVector(7468.556, 184.763, 5213.779),{"r1m1_bug02"}, nil, 1)
+			TeamCreate("CarOfSiencer",1067,CVector(7468.556, 184.763, 5213.779),{"r1m1_bug02"}, nil, 1)
 			TeamCreate("CarOfAntiSiencer",1003,CVector(6713.479, 102.893, 4048.343),{"DemoBandit"},CVector(7468.556, 184.763, 5213.779), 1)
+
+			SetTolerance(1100, 1067, RS_ENEMY)
+			SetTolerance(1067, 1003, RS_ENEMY)
+			SetTolerance(1009, 1067, RS_NEUTRAL)
+			SetTolerance(1008, 1067, RS_NEUTRAL)
 
 			TActivate("RUINSWAR2")
 
