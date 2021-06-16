@@ -194,6 +194,8 @@
 
 				SaveAllToleranceStatus(RS_NEUTRAL)
 
+				PlayCustomMusic("Bio02")
+
 				local Plf = GetPlayerVehicle()
 				Plf:SetCustomControlEnabled( true )
 				Plf:SetCustomLinearVelocity( 0 )
@@ -219,6 +221,8 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<script>
 			GameFiltersUse()
+
+			StopPlayingCustomMusic()
 
 			RestoreAllToleranceStatus()
 
