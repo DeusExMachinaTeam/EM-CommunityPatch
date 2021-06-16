@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<MusicBlocks>
+
+	<Block 
+		name	="block0"
+		driving	="block0_driving"
+		alarm	="block0_alarm"
+		battle	="block0_battle" />
+
+	<Block 
+		name	="block1"
+		driving	="block1_driving"
+		alarm	="block1_alarm"
+		battle	="block1_battle" />
+
+	<Block 
+		name	="r1_4"
+		driving	="r1_4_driving"
+		alarm	="r1_4_alarm"
+		battle	="r1_4_battle" />
+
+	<Block 
+		name	="r2_1"
+		driving	="r2_1_driving"
+		alarm	="r2_1_alarm"
+		battle	="r2_1_battle" />
+
+	<Block 
+		name	="r2_2"
+		driving	="r2_2_driving"
+		alarm	="r2_2_alarm"
+		battle	="r2_2_battle" />
+
+	<Block 
+		name	="r3_1"
+		driving	="r3_1_driving"
+		alarm	="r3_1_alarm"
+		battle	="r3_1_battle" />
+
+	<Block 
+		name	="r3_2"
+		driving	="r3_2_driving"
+		alarm	="r3_2_alarm"
+		battle	="r3_2_battle" />
+
+	<Block 
+		name	="r4_1"
+		driving	="r4_1_driving"
+		alarm	="r4_1_alarm"
+		battle	="r4_1_battle" />
+
+	<Block 
+		name	="r4_2"
+		driving	="r4_2_driving"
+		alarm	="r4_2_alarm"
+		battle	="r4_2_battle" />
+
+</MusicBlocks>
