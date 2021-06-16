@@ -1812,8 +1812,7 @@
 			Belong="1100"
 			Prototype="NPC"
 			ModelName="r1_man"
-			skin="2"
-			cfg="23"
+			cfg="118"
 			helloReplyNames="KonnyBlide_hellodlg1"
 			SpokenCount="0" />
 	</Object>

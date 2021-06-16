@@ -378,7 +378,7 @@
 		questName="d_BarForTunel_Quest"
 		briefDiz="Поговорить с барменом в Асгарде"
 		fullDiz="Судя по всему, жители этого города знают, как проехать через горы на запад. "
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Asgard" />
@@ -589,7 +589,7 @@
 		questName="d_FindKeyInTunel_Quest"
 		briefDiz="Поговорить с барменом"
 		fullDiz="Скорее всего, у него есть ключ от тоннеля, и он его сможет продать. Если я правильно понимаю законы рынка."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Asgard" />
@@ -775,7 +775,7 @@
 		questName="d_FindZasadaInTunel_Quest"
 		briefDiz="Найти место для засады"
 		fullDiz="Наверняка рано или поздно кто-то выедет из туннеля. У него-то я и экспроприирую ключ. Главное – дождаться. "
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="ZasadaLocQ" />
@@ -1074,7 +1074,7 @@
 		questName="d_OpenTunel_Quest"
 		briefDiz="Открыть тоннель ключом"
 		fullDiz="Ключ от тоннеля у меня. Осталось только открыть его."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="ToR2M1" />
@@ -1185,7 +1185,7 @@
 		questName="d_SerchCarTunel_Quest"
 		briefDiz="Проследить за машиной"
 		fullDiz="Я могу проследить за машиной из тоннеля и попробовать забрать ключ, когда водитель выйдет из нее."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Pioneer_vehicle_0" />

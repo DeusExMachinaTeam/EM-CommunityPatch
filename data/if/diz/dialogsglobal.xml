@@ -5090,7 +5090,7 @@
 		name="Dlg_pl_001105"
 		text="Не вопрос! Сейчас поймаем его!"
 		role="PLAYER"
-		scriptResult="GetCurNpc():SetSpokenCount( 1 );  TakeQuest('r1m3_OldTownOutsiderCar_Quest');  TActivate ('TriggerLabirintCarCreate');  EndConversation()" />
+		scriptResult="GetCurNpc():SetSpokenCount( 1 ); TActivate ('TriggerLabirintCarCreate');  EndConversation()" />
 <!--Root/r1m3/Опциональные/Цирк-->
 	<Reply
 		name="Circus_hellodlg0"
@@ -5447,7 +5447,7 @@ EndConversation()" />
 		name="AsgardBarman_hellodlg1"
 		text="Снова ты."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_FindKeyInTunel_Quest')   and   not(IsQuestComplete('d_FindKeyInTunel_Quest'))   and   not(IsQuestFailed('d_FindKeyInTunel_Quest'))   and   GetCurNpc():GetSpokenCount() == 0"
+		scriptCondition="not(QuestStatus('d_SerchCarTunel_Quest')==Q_TAKEN) and QuestStatus('d_FindKeyInTunel_Quest')==Q_TAKEN and GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_xyz449" />
 
 	<Reply
@@ -5491,7 +5491,7 @@ EndConversation()" />
 		name="AsgardBarman_hellodlg2"
 		text="Если забыл, то цена за ключ 10000."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_FindKeyInTunel_Quest')   and   not(IsQuestComplete('d_FindKeyInTunel_Quest'))   and   not(IsQuestFailed('d_FindKeyInTunel_Quest'))   and   GetCurNpc():GetSpokenCount() > 0"
+		scriptCondition="not(QuestStatus('d_SerchCarTunel_Quest')==Q_TAKEN) and QuestStatus('d_FindKeyInTunel_Quest')==Q_TAKEN and GetCurNpc():GetSpokenCount() > 0"
 		nextReplies="Dlg_pl_xyz457 Dlg_pl_xyz465" />
 
 	<Reply
@@ -6005,7 +6005,7 @@ EndConversation()" />
 		name="Dlg_pl_d3d240"
 		text="Что же делать? Придётся разобраться, что здесь у вас происходит."
 		role="PLAYER"
-		scriptResult="TakeQuest('d_IntrigaOfMerMinin_Quest');  TActivate('SPYMER');  LeaveTown(true)" />
+		scriptResult="TActivate('SPYMER');  LeaveTown(true)" />
 
 	<Reply
 		name="Dlg_pl_d3d242"
