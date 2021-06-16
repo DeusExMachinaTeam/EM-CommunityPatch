@@ -46,7 +46,7 @@
 			getObj("fatherDw"):SetNodeAction(AT_RESERVED1) 
 			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
 
-			CreateNewDummyObject( "dweller_player", "hero2Dw", -1, -1, CVector(3352.5, 368.13, 3306.266), Quaternion(0.0000, 0.8930, 0.0000, -0.4501), 0)
+			CreateNewDummyObject( "dweller_player", "hero2Dw", -1, -1, CVector(3352.5, 367.858, 3306.266), Quaternion(0.0000, 0.8930, 0.0000, -0.4501), 0)
 
 			local rrr = GetEntityByName ("hero1Dw")
 			if rrr then rrr:Remove() end
