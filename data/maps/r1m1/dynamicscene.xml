@@ -80,8 +80,8 @@
 		Name="LisaRolik_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="1239.533 292.591 2862.537"
-		Radius="43.863"
+		Pos="1227.048 300.228 2900.870"
+		Radius="79.863"
 		LookingTimeOut="15.000" />
 
 	<Object
