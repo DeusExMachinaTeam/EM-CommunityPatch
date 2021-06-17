@@ -1593,7 +1593,7 @@
 
 	<QuestInfo
 		questName="r1m3_BonnyAndKlideQuest"
-		briefDiz="Помочь Конни и Блайду."
+		briefDiz="Помочь Конни и Блайд."
 		fullDiz="Надо отвезти странную молодую семью домой. Они обещают высокую награду денег за несложную работенку."
 		isMainQuest="0">
 		<Map
