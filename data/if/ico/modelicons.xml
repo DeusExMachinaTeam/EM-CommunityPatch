@@ -371,7 +371,7 @@
    <Item id="Belong_1064"		file="data\if\ico\clans\children_of_iron03.dds" 	file1="data\if\ico\clans\children_of_iron02.dds"/>
    <Item id="Belong_1066"		file="data\if\ico\clans\fishermen03.dds" 			file1="data\if\ico\clans\fishermen02.dds"/>
 
-   <Item id="Belong_1080"		file="data\if\ico\clans\trappers03.dds" 					file1="data\if\ico\clans\trappers02.dds"/>
+   <Item id="Belong_1080"		file="data\if\ico\clans\death.dds" 					file1="data\if\ico\clans\death.dds"/>
    <Item id="Belong_1081"		file="data\if\ico\clans\militarists03.dds" 				file1="data\if\ico\clans\militarists02.dds"/>
 
 </icons>
