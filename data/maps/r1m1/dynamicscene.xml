@@ -107,8 +107,8 @@
 		Name="GameLoc_1"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="3061.159 336.068 2445.625"
-		Radius="115.000"
+		Pos="3032.641 334.981 2430.012"
+		Radius="145.000"
 		LookingTimeOut="15.000" />
 
 	<Object
