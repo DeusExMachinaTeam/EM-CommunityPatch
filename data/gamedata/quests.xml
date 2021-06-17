@@ -1295,7 +1295,6 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(2000)"
-		OnTake='TActivate("trExtrTeamMustDie_Take")'
 		Levels="r1m4" />
 <!--Root/r1m4/Преодолеть болото-->
 	<quest
@@ -1956,7 +1955,7 @@
 
 		<quest
 			Name="d_CaravanToPortoBen_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -1965,7 +1964,7 @@
 
 		<quest
 			Name="d_CaravanToMidgardBen_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -2063,6 +2062,7 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(100)"
+		OnFail='TActivate("REVOLUTIONFAIL")'
 		OnTake='ShowCircleOnMinimapByName("RevolutionTimeEndLoc")'
 		Levels="r1m1" />
 <!--Root/r1m1/Опциональные/Квест про госпиталь-->
@@ -2102,7 +2102,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		OnComplete="AddPlayerMoney(200)"
+		OnComplete='AddPlayerMoney(200); TDeactivate("ZASADA_1")'
 		OnTake='ShowCircleOnMinimapByName("TheTown")' />
 <!--Root/r1m1/Сюжетные/Вернуться домой -->
 	<quest
@@ -2270,9 +2270,6 @@
 
 		<mutex
 			quests="d_IntrigaOfMerMinin_Quest d_PayWorkersMoney_Quest" />
-
-		<mutex
-			quests="d_FindKeyInTunel_Quest d_FindZasadaInTunel_Quest" />
 
 		<mutex
 			quests="d_FindVerbInAR_Quest d_FindVerbInSNG_Quest" />

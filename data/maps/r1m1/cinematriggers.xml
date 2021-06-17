@@ -46,7 +46,7 @@
 			getObj("fatherDw"):SetNodeAction(AT_RESERVED1) 
 			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
 
-			CreateNewDummyObject( "dweller_player", "hero2Dw", -1, -1, CVector(3352.5, 368.13, 3306.266), Quaternion(0.0000, 0.8930, 0.0000, -0.4501), 0)
+			CreateNewDummyObject( "dweller_player", "hero2Dw", -1, -1, CVector(3352.5, 367.858, 3306.266), Quaternion(0.0000, 0.8930, 0.0000, -0.4501), 0)
 
 			local rrr = GetEntityByName ("hero1Dw")
 			if rrr then rrr:Remove() end
@@ -178,7 +178,7 @@
 				FVehicle:SetSkin ( 1 )
 				FVehicle:SetRotation(Quaternion(0.021, 0.472, 0.040, 0.880))
 				FVehicle:SetThrottle( 1 )
-				FVehicle:SetCustomLinearVelocity( 10 )
+				FVehicle:SetCustomLinearVelocity( 22.5 )
 				FVehicle:SetExternalPathByName("fun1_5road")
 			end
 
@@ -1084,6 +1084,7 @@
 			TDeactivate( "trFatherDe_cam04" )
 			TDeactivate( "trFatherDe_cam05" )
 			TDeactivate( "RolikBegin_FatherDeath" )
+			TDeactivate("METALFELIX")
 
 			TActivate("trStopMusic")
 
@@ -1420,13 +1421,6 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			local vehFelix = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(454.555, 305.278, 1954.817) ), 1013)
-			if vehFelix then
-				vehFelix:SetRotation(Quaternion(-0.045, -0.955, 0.066, -0.286))
-				vehFelix:SetSkin(4)
-			end
-
-			local FLID = vehFelix:GetId()
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
 			local PlfCoor = Plf:GetPosition()
@@ -1434,7 +1428,6 @@
 			PlfCoor.z = PlfCoor.z + 20
 
 			FlyAround( 1, 0, 25, 6, PlfCoor, PlfID, 1, 0 )
-			FlyLinked( "felix3_cam01", FLID, 12, 0, 1, PlfID )
 			StartCinematic()
 
 			if Plf then
@@ -1443,8 +1436,6 @@
 			end
 
 			TActivate( "trFelix3_cam01" )
-			TActivate( "trFelix3" )
-			TActivate( "RolikEnd_Felix3" )
 
 			AddCinematicMessage( 1153, 0.25 )
 
@@ -1453,16 +1444,33 @@
 	</trigger>
 
 	<trigger Name="trFelix3_cam01" active="0">
-		<event flypath="felix3_cam01" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
+
+			local vehFelix = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(454.555, 305.278, 1954.817) ), 1013)
+			if vehFelix then
+				vehFelix:SetRotation(Quaternion(-0.045, -0.955, 0.066, -0.286))
+				vehFelix:SetSkin(4)
+			end
+
+			local FLID = vehFelix:GetId()
+			local PlfID = GetPlayerVehicleId()
+
+			FlyLinked( "felix3_cam01", FLID, 12, 0, 1, PlfID )
+			StartCinematic()
+
 			AddCinematicMessage( 11540, 0.25 )
+
+			TActivate( "trFelix3" )
+			TActivate( "RolikEnd_Felix3" )
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="trFelix3" active="0">
-	<event msgid="11541" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<event        timeout="12"        eventid="GE_TIME_PERIOD" />
 		<script>
 			local vehFelix = GetEntityByName("FelixVehicle01")
 			if vehFelix then

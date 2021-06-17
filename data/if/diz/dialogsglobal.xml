@@ -4177,7 +4177,7 @@
 		name="r1m4Random_Bar_Gomer1_P14"
 		text="Спасибо, добрый человек."
 		role="PLAYER"
-		scriptResult="if CanQuestBeGiven('r1m4_OvercomeMirras') then TakeQuest('r1m4_OvercomeMirras') end; CompleteQuest('FindGomerA_Quest1'); CompleteQuest('r1m3_FindVrata_KnowPlace'); EndConversation()" />
+		scriptResult="if CanQuestBeGiven('r1m4_OvercomeMirras') then TakeQuest('r1m4_OvercomeMirras') end; CompleteQuest('FindGomerA_Quest1'); CompleteQuest('r1m3_FindVrata_KnowPlace'); SetCoordinateForQuest( 'd_FindOracul_Quest' , CVector(getPos('ToR3M1'))) EndConversation()" />
 
 	<Reply
 		name="r1m4_RandomBar_Gomer_1_N01"
@@ -4665,7 +4665,7 @@
 		name="Dlg_pl_000095"
 		text="Слишком это хлопотно, проще убить вас всех."
 		role="PLAYER"
-		scriptResult="TakeQuest('KillExtremist_Quest1'); EndConversation()" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); EndConversation()" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_1_N10"
@@ -4703,7 +4703,7 @@
 		name="r1m4_Storage_Guard1_2_P03"
 		text="Я передумал. Лучше я убью вас и захвачу склад."
 		role="PLAYER"
-		scriptResult="TakeQuest('KillExtremist_Quest1'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_3_N01"
@@ -4947,10 +4947,10 @@
 		text="Спасибо. До свидания."
 		role="PLAYER"
 		scriptResult="CompleteQuest('q_FH2'); EndConversation();" />
-<!--Root/r1m3/Сюжетные--><!--Root/r1m3/Опциональные--><!--Root/r1m3/Опциональные/Кони и Блайд-->
+<!--Root/r1m3/Сюжетные--><!--Root/r1m3/Опциональные--><!--Root/r1m3/Опциональные/Конни и Блайд-->
 	<Reply
 		name="KonnyBlide_hellodlg0"
-		text="Привет, мы молодая семейная пара - Кони и Блайд. Не мог бы ты нам помочь доехать до дома, а то наша машина совсем сломалась… Мы тебе очень хорошо заплатим…"
+		text="Привет, мы молодая семейная пара - Конни и Блайд. Не мог бы ты нам помочь доехать до дома, а то наша машина совсем сломалась… Мы тебе очень хорошо заплатим…"
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_001080 Dlg_pl_001081" />
@@ -5090,7 +5090,7 @@
 		name="Dlg_pl_001105"
 		text="Не вопрос! Сейчас поймаем его!"
 		role="PLAYER"
-		scriptResult="GetCurNpc():SetSpokenCount( 1 );  TakeQuest('r1m3_OldTownOutsiderCar_Quest');  TActivate ('TriggerLabirintCarCreate');  EndConversation()" />
+		scriptResult="GetCurNpc():SetSpokenCount( 1 ); TActivate ('TriggerLabirintCarCreate');  EndConversation()" />
 <!--Root/r1m3/Опциональные/Цирк-->
 	<Reply
 		name="Circus_hellodlg0"
@@ -5447,7 +5447,7 @@ EndConversation()" />
 		name="AsgardBarman_hellodlg1"
 		text="Снова ты."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_FindKeyInTunel_Quest')   and   not(IsQuestComplete('d_FindKeyInTunel_Quest'))   and   not(IsQuestFailed('d_FindKeyInTunel_Quest'))   and   GetCurNpc():GetSpokenCount() == 0"
+		scriptCondition="not(QuestStatus('d_SerchCarTunel_Quest')==Q_TAKEN) and QuestStatus('d_FindKeyInTunel_Quest')==Q_TAKEN and GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_xyz449" />
 
 	<Reply
@@ -5485,13 +5485,13 @@ EndConversation()" />
 		name="Dlg_pl_xyz459"
 		text="Теперь я смогу проехать на запад!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('d_FindKeyInTunel_Quest');  TakeQuest('d_OpenTunel_Quest');  TDeactivate ('ZASADATUNEL');  AddPlayerMoney( -10000 );  AddQuestItem('quest_key_for_tunnel');  EndConversation()" />
+		scriptResult="CompleteQuest('d_FindKeyInTunel_Quest'); FailQuestIfTaken('d_FindZasadaInTunel_Quest');  TakeQuest('d_OpenTunel_Quest');  TDeactivate ('ZASADATUNEL');  AddPlayerMoney( -10000 );  AddQuestItem('quest_key_for_tunnel');  EndConversation()" />
 
 	<Reply
 		name="AsgardBarman_hellodlg2"
 		text="Если забыл, то цена за ключ 10000."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_FindKeyInTunel_Quest')   and   not(IsQuestComplete('d_FindKeyInTunel_Quest'))   and   not(IsQuestFailed('d_FindKeyInTunel_Quest'))   and   GetCurNpc():GetSpokenCount() > 0"
+		scriptCondition="not(QuestStatus('d_SerchCarTunel_Quest')==Q_TAKEN) and QuestStatus('d_FindKeyInTunel_Quest')==Q_TAKEN and GetCurNpc():GetSpokenCount() > 0"
 		nextReplies="Dlg_pl_xyz457 Dlg_pl_xyz465" />
 
 	<Reply
@@ -6005,7 +6005,7 @@ EndConversation()" />
 		name="Dlg_pl_d3d240"
 		text="Что же делать? Придётся разобраться, что здесь у вас происходит."
 		role="PLAYER"
-		scriptResult="TakeQuest('d_IntrigaOfMerMinin_Quest');  TActivate('SPYMER');  LeaveTown(true)" />
+		scriptResult="TActivate('SPYMER');  LeaveTown(true)" />
 
 	<Reply
 		name="Dlg_pl_d3d242"
@@ -7448,7 +7448,7 @@ EndConversation()" />
 		name="WorkGiver_hellodlg0"
 		text="Я вижу, у вас влиятельные знакомые, молодой человек. Не окажете ли Вы мне небольшую услугу?"
 		role="NPC"
-		scriptCondition="not(IsQuestTaken( 'WorkGiver_Quest1' ))  and (GetCurNpc():GetSpokenCount() == 0)  and not(IsQuestComplete( 'TalkWithFather_Quest' ))"
+		scriptCondition="not(IsQuestTaken( 'WorkGiver_Quest1' ))  and (GetCurNpc():GetSpokenCount() == 0)  and not(IsQuestComplete( 'TalkWithFather_Quest' )) and QuestStatus('Buyer_Quest1')==Q_COMPLETED"
 		nextReplies="WorkGiver_hellodlg0_P1" />
 
 	<Reply

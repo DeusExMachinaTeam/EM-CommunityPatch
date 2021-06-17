@@ -220,7 +220,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m4"
-			targetObjName="StorageVil_enter" />
+			targetObjName="ExtrGuardTeam" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -378,7 +378,7 @@
 		questName="d_BarForTunel_Quest"
 		briefDiz="Поговорить с барменом в Асгарде"
 		fullDiz="Судя по всему, жители этого города знают, как проехать через горы на запад. "
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Asgard" />
@@ -589,7 +589,7 @@
 		questName="d_FindKeyInTunel_Quest"
 		briefDiz="Поговорить с барменом"
 		fullDiz="Скорее всего, у него есть ключ от тоннеля, и он его сможет продать. Если я правильно понимаю законы рынка."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Asgard" />
@@ -705,8 +705,7 @@
 			name="r1m3" />
 
 		<Map
-			name="r1m4"
-			targetObjName="ToR3M1" />
+			name="r1m4" />
 
 		<Map
 			name="r2m1"
@@ -775,7 +774,7 @@
 		questName="d_FindZasadaInTunel_Quest"
 		briefDiz="Найти место для засады"
 		fullDiz="Наверняка рано или поздно кто-то выедет из туннеля. У него-то я и экспроприирую ключ. Главное – дождаться. "
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="ZasadaLocQ" />
@@ -1074,7 +1073,7 @@
 		questName="d_OpenTunel_Quest"
 		briefDiz="Открыть тоннель ключом"
 		fullDiz="Ключ от тоннеля у меня. Осталось только открыть его."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="ToR2M1" />
@@ -1102,7 +1101,7 @@
 
 	<QuestInfo
 		questName="d_PunishBandits_Quest"
-		briefDiz="Проучить бандитов"
+		briefDiz="Помочь Эду разобраться с бандитами"
 		fullDiz="Жители округа решили проучить бандитов.  Это отличный шанс потренироваться в стрельбе."
 		isMainQuest="0">
 		<Map
@@ -1185,7 +1184,7 @@
 		questName="d_SerchCarTunel_Quest"
 		briefDiz="Проследить за машиной"
 		fullDiz="Я могу проследить за машиной из тоннеля и попробовать забрать ключ, когда водитель выйдет из нее."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Pioneer_vehicle_0" />
@@ -1594,7 +1593,7 @@
 
 	<QuestInfo
 		questName="r1m3_BonnyAndKlideQuest"
-		briefDiz="Помочь Конни и Блайду."
+		briefDiz="Помочь Конни и Блайд."
 		fullDiz="Надо отвезти странную молодую семью домой. Они обещают высокую награду денег за несложную работенку."
 		isMainQuest="0">
 		<Map
@@ -1792,7 +1791,7 @@
 		questName="r1m4_OvercomeMirras"
 		briefDiz="Преодолеть болото"
 		fullDiz="Путь к Вратам преграждает болото, Нужно найти мелкое место или тропу, чтобы перебраться на другую сторону."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m4"
 			targetObjName="MorassRoad_loc" />

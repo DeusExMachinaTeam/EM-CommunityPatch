@@ -126,7 +126,7 @@ $Id: Relationship.xml,v 1.19 2005/11/24 09:45:17 anton Exp $
 
 		<set
 			forwhom="1051"
-			who="1100"
+			who="1042 1100"
 			tolerance="ally" />
 
 		<set
