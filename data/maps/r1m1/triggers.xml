@@ -314,7 +314,20 @@
 		</script>
 	</trigger>
 
+	<!-- Если игрок провалил квест с Революционером Эдом -->
+	<trigger Name="REVOLUTIONFAIL" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			TDeactivate("REVOLUTIONTIMEEND")
 
+			for i = 0,1 do
+				local FVehicle = GetEntityByName("Punishers_vehicle_"..i)
+				if FVehicle then FVehicle:Remove() end
+			end
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
 
 
 	<trigger Name="LISA1" active="1">
@@ -435,6 +448,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TheGloohoeQ" />
 		<script>
 			FailQuestIfTaken( "WorkGiver_Quest1" )
+			FailQuestIfTaken( "d_PunishBandits_Quest" )
 
 			if  not(IsQuestComplete("d_Lisa_Quest")) and IsQuestComplete("Buyer_Quest1") then
 				local town = GetEntityByName ("TheGloohoe")

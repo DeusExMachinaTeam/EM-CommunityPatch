@@ -2063,7 +2063,7 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(100)"
-		OnFail='TDeactivate("REVOLUTIONTIMEEND");'
+		OnFail='TActivate("REVOLUTIONFAIL")'
 		OnTake='ShowCircleOnMinimapByName("RevolutionTimeEndLoc")'
 		Levels="r1m1" />
 <!--Root/r1m1/ќпциональные/ вест про госпиталь-->
