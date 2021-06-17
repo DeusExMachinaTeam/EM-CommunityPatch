@@ -220,7 +220,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m4"
-			targetObjName="StorageVil_enter" />
+			targetObjName="ExtrGuardTeam" />
 	</QuestInfo>
 
 	<QuestInfo

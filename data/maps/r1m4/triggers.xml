@@ -294,6 +294,7 @@
 			end
 			FailQuestIfTaken("TRS_Quest3b")
 			FailQuestIfTaken("FreeExtremistLeader_Quest3")
+			TakeQuest('KillExtremist_Quest1')
 			TActivate("trExtrGuardTeamDie")
 			trigger:Deactivate()
 		</script>

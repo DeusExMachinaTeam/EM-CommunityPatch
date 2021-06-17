@@ -4665,7 +4665,7 @@
 		name="Dlg_pl_000095"
 		text="Слишком это хлопотно, проще убить вас всех."
 		role="PLAYER"
-		scriptResult="TakeQuest('KillExtremist_Quest1'); EndConversation()" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); EndConversation()" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_1_N10"
@@ -4703,7 +4703,7 @@
 		name="r1m4_Storage_Guard1_2_P03"
 		text="Я передумал. Лучше я убью вас и захвачу склад."
 		role="PLAYER"
-		scriptResult="TakeQuest('KillExtremist_Quest1'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_3_N01"
@@ -5485,7 +5485,7 @@ EndConversation()" />
 		name="Dlg_pl_xyz459"
 		text="Теперь я смогу проехать на запад!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('d_FindKeyInTunel_Quest');  TakeQuest('d_OpenTunel_Quest');  TDeactivate ('ZASADATUNEL');  AddPlayerMoney( -10000 );  AddQuestItem('quest_key_for_tunnel');  EndConversation()" />
+		scriptResult="CompleteQuest('d_FindKeyInTunel_Quest'); FailQuestIfTaken('d_FindZasadaInTunel_Quest');  TakeQuest('d_OpenTunel_Quest');  TDeactivate ('ZASADATUNEL');  AddPlayerMoney( -10000 );  AddQuestItem('quest_key_for_tunnel');  EndConversation()" />
 
 	<Reply
 		name="AsgardBarman_hellodlg2"

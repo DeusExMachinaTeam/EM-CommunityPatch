@@ -1295,7 +1295,6 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(2000)"
-		OnTake='TActivate("trExtrTeamMustDie_Take")'
 		Levels="r1m4" />
 <!--Root/r1m4/Преодолеть болото-->
 	<quest
