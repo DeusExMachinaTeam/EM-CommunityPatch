@@ -272,10 +272,10 @@
    <Item id="someLair4"		file1="data\if\ico\LocalMap\Map_Turret.dds" file=""/> -->
 
 <!-- Боссы -->
-   <Item id="bossMetalArm" file="data\if\ico\BossIndicator\BossIcons\boss1.dds" file1=""/>
-   <Item id="boss02"			file="data\if\ico\BossIndicator\BossIcons\boss1.dds" file1=""/>
-   <Item id="boss03"			file="data\if\ico\BossIndicator\BossIcons\boss2.dds" file1=""/>
-   <Item id="boss04"			file="data\if\ico\BossIndicator\BossIcons\boss3.dds" file1=""/>
+   <Item id="bossMetalArm" file="data\if\ico_hd\BossIndicator\BossIcons\boss1.dds" file1=""/>
+   <Item id="boss02"			file="data\if\ico_hd\BossIndicator\BossIcons\boss1.dds" file1=""/>
+   <Item id="boss03"			file="data\if\ico_hd\BossIndicator\BossIcons\boss2.dds" file1=""/>
+   <Item id="boss04"			file="data\if\ico_hd\BossIndicator\BossIcons\boss3.dds" file1=""/>
 
 <!-- аффиксы -->
    <Item id="useless_cabin"		         file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
