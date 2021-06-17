@@ -1101,7 +1101,7 @@
 
 	<QuestInfo
 		questName="d_PunishBandits_Quest"
-		briefDiz="Проучить бандитов"
+		briefDiz="Помочь Эду разобраться с бандитами"
 		fullDiz="Жители округа решили проучить бандитов.  Это отличный шанс потренироваться в стрельбе."
 		isMainQuest="0">
 		<Map
