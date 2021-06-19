@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <!-- Seel's comments: -->
-<!-- Car characteristics and buttons for buying cabins, baskets etc in Garage window  -->
+<!-- Truck shop, characteristics and buttons for buying cabins, baskets etc in Garage window  -->
 <Prefabs>
 	<Node
 		name="wndCharacteristics"
@@ -92,10 +92,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\SkinScroll\paint_next_enabled.dds"
-			btnImageDown="data\if\ico\GarageWnd\SkinScroll\paint_next_pressed.dds"
-			btnImageIn="data\if\ico\GarageWnd\SkinScroll\paint_next_selected.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\SkinScroll\paint_next_disabled.dds"
+			btnImage="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_enabled.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_pressed.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_selected.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_disabled.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
@@ -120,10 +120,10 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			btnIsImaged="1"
-			btnImage="data\if\ico\GarageWnd\SkinScroll\paint_prev_enabled.dds"
-			btnImageDown="data\if\ico\GarageWnd\SkinScroll\paint_prev_pressed.dds"
-			btnImageIn="data\if\ico\GarageWnd\SkinScroll\paint_prev_selected.dds"
-			btnImageDisabled="data\if\ico\GarageWnd\SkinScroll\paint_prev_disabled.dds"
+			btnImage="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_enabled.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_pressed.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_selected.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_disabled.dds"
 			class="ButtonWnd">
 			<Animations/>
 		</Node>
