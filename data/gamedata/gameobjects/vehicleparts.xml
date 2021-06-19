@@ -2739,25 +2739,29 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Price				= "140000"
 			RepairCoef			= "0.4"
 
-			LoadPoints			= "LP_GIANT01" >
+			LoadPoints			= "LP_GIANT01 LP_GIANT02" >
 
 			<RepositoryDescription
 				RepositorySize		= "8 12">
 				<Slot
 					Name		= "BASKET_GIANT_GUN"
-					Pos		= "2 5"
+					Pos		= "2 1"
+				/>
+				
+				<Slot
+					Name		= "BASKET_GIANT_GUN_0"
+					Pos		= "2 7"
 				/>
 			</RepositoryDescription>
 			<GroupsHealth
-				Main   = "0"	
-				Breakable1   = "0.7"	
-			    	Breakable2   = "0.2"
-				Breakable3   = "0.5"
-				Breakable4   = "0.2"
-				Breakable5   = "1.5"
-				Breakable6   = "0.7"
-				Breakable7   = "0.1"
-				Breakable8   = "1.5"
+				Main			= "0"	
+				Breakable1		= "0.7"	
+				Breakable2		= "0.05"
+				Breakable3		= "0.5"
+				Breakable4		= "2.5"
+				Breakable5		= "0.7"
+				Breakable6		= "0.1"
+				Breakable7		= "2"
 			/>			
 		</Prototype>
 
