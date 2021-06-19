@@ -148,11 +148,11 @@
 			wndColor="00000000"
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\paint_panel.dds">
+			image="data\if\ico_hd\GarageWnd\paint_panel.dds">
 			<Animations/>
 		</Node>
 
-		<Node
+		<!-- <Node
 			name="wndSkinFrameShadow"
 			class="ImageWnd"
 			org="397.000 179.000 186.000 62.000"
@@ -174,11 +174,11 @@
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\paint_shadow.dds">
 			<Animations/>
-		</Node>
+		</Node> -->
 
 		<Node
 			name="btnPrev"
-			org="31.000 125.000 48.000 48.000"
+			org="28.000 122.000 48.000 47.500"
 			style="262656"
 			order="39"
 			id="300301"
@@ -206,7 +206,7 @@
 
 		<Node
 			name="btnNext"
-			org="907.000 125.000 48.000 48.000"
+			org="885.500 122.000 48.000 47.500"
 			style="262656"
 			order="40"
 			id="300300"
@@ -235,7 +235,7 @@
 		<Node
 			name="wndTitleDecor1"
 			class="ImageWnd"
-			org="70.000 89.000 38.000 90.000"
+			org="66.000 114.000 38.000 63.000"
 			style="768"
 			order="27"
 			id="0"
@@ -252,14 +252,14 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\split.dds">
+			image="data\if\ico_hd\GarageWnd\split.dds">
 			<Animations/>
 		</Node>
 
 		<Node
 			name="wndTitleDecor2"
 			class="ImageWnd"
-			org="880.000 89.000 38.000 90.000"
+			org="857.000 114.000 38.000 63.000"
 			style="768"
 			order="27"
 			id="0"
@@ -276,14 +276,14 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\split.dds">
+			image="data\if\ico_hd\GarageWnd\split.dds">
 			<Animations/>
 		</Node>
 
 		<Node
 			name="wndPriceTitle"
 			class="Wnd"
-			org="392.000 705.000 176.000 34.000"
+			org="392.000 705.000 174.000 34.000"
 			style="2816"
 			order="15"
 			id="0"
@@ -306,7 +306,7 @@
 		<Node
 			name="wndPrice"
 			class="Wnd"
-			org="392.000 705.000 176.000 34.000"
+			org="392.000 705.000 174.000 34.000"
 			style="2560"
 			order="15"
 			id="0"
@@ -328,7 +328,7 @@
 
 		<Node
 			name="btnBuy"
-			org="180.000 708.000 168.000 37.000"
+			org="178.000 708.000 170.000 37.000"
 			style="265728"
 			order="41"
 			id="300302"
@@ -352,7 +352,7 @@
 
 		<Node
 			name="btnCancel"
-			org="610.000 708.000 168.000 37.000"
+			org="611.000 708.000 170.000 37.000"
 			style="265728"
 			order="42"
 			id="300303"
@@ -383,7 +383,7 @@
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\GarageWnd\buy_panel.dds"
+			backimage="data\if\ico_hd\GarageWnd\buy_panel.dds"
 			paneName="defaultWnd"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
@@ -425,7 +425,7 @@
 				animationEnabled="1"
 				animationType="TO_LEFT"
 				animationSpeed="3500"
-				animationAccel="-6000"
+				animationAccel="-2000"
 				animationDelayTime="0"
 				soundMoveEnabled="1"/>
 
@@ -433,7 +433,7 @@
 				animationEnabled="1"
 				animationType="TO_BEYOND_RIGHT"
 				animationSpeed="500"
-				animationAccel="6000"
+				animationAccel="4000"
 				animationDelayTime="0"
 				soundMoveEnabled="1"/>
 		</Animations>

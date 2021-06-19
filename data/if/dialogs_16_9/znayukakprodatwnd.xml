@@ -24,7 +24,7 @@
 		<Node
 			name="wndBottomPanel"
 			class="Wnd"
-			org="0.000 969.000 1920.000 90.000"
+			org="0.000 969.000 1920.000 111.000"
 			style="1049344"
 			order="1"
 			id="0"
@@ -59,7 +59,7 @@
 		<Node
 			name="wndMoveAllFromPlayerToWorkshopIco"
 			class="ImageWnd"
-			org="338.000 1024.000 45.000 22.000"
+			org="338.000 1031.000 45.000 22.000"
 			style="768"
 			order="1"
 			id="0"
@@ -78,7 +78,7 @@
 
 		<Node
 			name="btnMoveAllFromPlayerToWorkshop"
-			org="285.000 1018.000 148.000 34.000"
+			org="285.000 1025.000 148.000 34.000"
 			style="262656"
 			order="0"
 			id="800000"
@@ -100,7 +100,7 @@
 		<Node
 			name="wndMoveAllFromPlayerToWorkshopPanel"
 			class="Wnd"
-			org="268.000 969.000 180.000 90.000"
+			org="268.000 976.000 180.000 90.000"
 			style="768"
 			order="1"
 			id="0"
@@ -119,7 +119,7 @@
 		<Node
 			name="wndMoveAllFromWorkshopToPlayerIco"
 			class="ImageWnd"
-			org="1548.000 1024.000 45.000 22.000"
+			org="1548.000 1031.000 45.000 22.000"
 			style="768"
 			order="1"
 			id="0"
@@ -138,7 +138,7 @@
 
 		<Node
 			name="btnMoveAllFromWorkshopToPlayer"
-			org="1494.000 1018.000 148.000 34.000"
+			org="1494.000 1025.000 148.000 34.000"
 			style="262656"
 			order="0"
 			id="800001"
@@ -160,7 +160,7 @@
 		<Node
 			name="wndMoveAllFromWorkshopToPlayerPanel"
 			class="Wnd"
-			org="1478.000 969.000 180.000 90.000"
+			org="1478.000 976.000 180.000 90.000"
 			style="768"
 			order="1"
 			id="0"
@@ -178,14 +178,14 @@
 
 		<Node
 			name="btnCancel"
-			org="1116.000 1018.000 172.000 34.000"
+			org="1104.000 1017.000 188.000 41.000"
 			style="262656"
 			order="1"
 			id="800002"
 			caption="^Cancel^"
 			tip="^Cancel^"
 			backimage=""
-			paneName="PaneBtnGray2"
+			paneName="PaneBtnGray1"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -199,14 +199,14 @@
 
 		<Node
 			name="btnBuy"
-			org="635.000 1018.000 172.000 34.000"
+			org="628.000 1017.000 188.000 41.000"
 			style="262656"
 			order="2"
 			id="800003"
 			caption="^Buy^"
 			tip="^Buy^"
 			backimage=""
-			paneName="PaneBtnGray2"
+			paneName="PaneBtnGray1"
 			scrollPaneName="Scroll1"
 			paneFlags="7"
 			wrap="0"
@@ -221,7 +221,7 @@
 		<Node
 			name="wndTradeCost"
 			class="Wnd"
-			org="833.000 1018.000 257.000 34.000"
+			org="855.000 1015.000 212.000 34.000"
 			style="2560"
 			order="3"
 			id="0"
@@ -241,7 +241,7 @@
 		<Node
 			name="wndTradeCostTitle"
 			class="Wnd"
-			org="833.000 1018.000 257.000 34.000"
+			org="855.000 1015.000 212.000 34.000"
 			style="2816"
 			order="3"
 			id="0"
@@ -261,13 +261,13 @@
 		<Node
 			name="wndMiddleBottomPanel"
 			class="Wnd"
-			org="600.000 969.000 720.000 90.000"
+			org="564.000 970.000 792.000 99.000"
 			style="768"
 			order="1"
 			id="0"
 			caption=""
 			tip=""
-			backimage="data\if\ico\ZnayuKakProdatWnd\Veh_buy2_panel.dds"
+			backimage="data\if\ico_hd\GarageWnd\buy_panel.dds"
 			paneName="PaneLineGray1"
 			scrollPaneName="Scroll1"
 			paneFlags="0"
