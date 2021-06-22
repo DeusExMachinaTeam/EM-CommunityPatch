@@ -693,6 +693,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			EngineHighSound		        = "ET_S_ENGINE_SCOUT_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxSpeed			= "200.0"
+			FuelConsumption		= "0.3"
 			LoadPoints			= "LP_SML01" >
 				<GroupsHealth
 					Main   = "3" />
@@ -1033,13 +1034,12 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale			= "1 1 1"
 			Durability			= "200"
 			DurCoeffsForDamageTypes	= "25 -25 25"
-			VisibleInEncyclopedia = "false"
 			Mass				= "30.0"
 			MaxPower			= "10"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxTorque			= "150"
 			EngineHighSound		= "ET_S_ENGINE_MIR_5_HIGH"
-	                VisibleInEncyclopedia = "false"
+	        VisibleInEncyclopedia = "false"
 			Price				= "50000"	
 			MaxSpeed			= "85.0"
 			FuelConsumption                 = "0.001"

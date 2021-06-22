@@ -48,6 +48,10 @@
 			id="dweller3" 
 			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="dweller_player" 
+			file="data\models\AnimModels.xml"/>
+
 		<!-- Segments -->
 		<Item 
 			id="segments01" 

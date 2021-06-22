@@ -8,7 +8,7 @@
 			SaveAllToleranceStatus(RS_NEUTRAL)
 			TActivate("cinExchangeVehFirst_End")
 			TActivate("cinExchangeVehFirst_FadeIn")
-			Fly("Garage_Path_First", CINEMATIC_NO_AIM, nil, 7, 1,1)
+			Fly("Garage_Path_First", CINEMATIC_NO_AIM, nil, 15, 1,1)
 			StartCinematic()
 			AddCinematicMessage( 8, 0.25 )
 			AddCinematicMessage( 9, 0.25 )
@@ -19,6 +19,11 @@
 	<trigger	Name="cinExchangeVehFirst_FadeIn"	active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
+			CreateNewDummyObject("dweller_player", "humPlayer", -1, -1, CVector(2777.719, 264.000, 2090.509 ), Quaternion(0.0000, 0.9100, -0.0000, 0.4147), 0)
+
+			getObj("humPlayer"):SetNodeAction(AT_STAND2)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND2, AT_STAND1)
+
 			if GetPlayerVehicle() then
 				GetPlayerVehicle():SetThrottle( 0 )
 				GetPlayerVehicle():SetCustomLinearVelocity( 0 )
@@ -37,6 +42,7 @@
 --			println("EEEEEEEEEEEEENNNNNNNNNNNDDDDDDDDDDDD")
 			RestoreAllToleranceStatus()
 			SetCameraBehindPlayerVehicle()
+			if getObj("humPlayer") then getObj("humPlayer"):Remove() end
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -238,7 +244,7 @@
 			Plf:SetThrottle(0)
 --			Plf:SetCustomControlEnabled(false)
 
-			FlyAround(6, 0.3, 25, 11, PlfCoor, PlfID, 0, 0)
+			FlyAround(6, 0.3, 25, 21, PlfCoor, PlfID, 1, 1)
 			StartCinematic()
 			AddCinematicMessage( 1001, 0.25 )
 			AddCinematicMessage( 1002, 0.25 )
@@ -317,20 +323,13 @@
 	</trigger>
 
 	<trigger	Name="cinTurnOracleDef"	active="0">
-		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<event	timeout="0"		eventid="GE_TIME_PERIOD" />
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
-			TActivate("cinTurnOracleDef_FadeIn")
 			TActivate("cinTurnOracleDef_End")
-		    FlyLinked( "OralceDef_Path1", GetPlayerVehicle():GetId(), 8, 1, 0, GetPlayerVehicle():GetId(), nil, 1)
+		    FlyLinked( "OralceDef_Path1", GetPlayerVehicle():GetId(), 8, 0, 1, GetPlayerVehicle():GetId(), nil, 1)
 			StartCinematic()
-			trigger:Deactivate()
-		</script>
-	</trigger>
 
-	<trigger	Name="cinTurnOracleDef_FadeIn"	active="0">
-		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
-		<script>
 			if GetPlayerVehicle() then
 				GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("PointPlayer2_loc")))
 				GetPlayerVehicle():SetRotation(Quaternion(0.017, 0.788, -0.072, 0.611))
@@ -339,7 +338,6 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
 
 	<trigger	Name="cinTurnOracleDef_End"	active="0">
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
@@ -498,7 +496,7 @@
 		<script>
 			EnableGodMode()
 			SaveAllToleranceStatus(RS_NEUTRAL)
-			PlayCustomMusic("Bio1")
+			PlayCustomMusic("Bio01")
 --			TDeactivate("trExitToR3M1")
 			TActivate("cinPoleFly")
 --			TActivate("cinExit31Ok_FadeIn")
@@ -506,7 +504,7 @@
 			TActivate("cinPoleFade")
 
 			Fly("Pole1", CINEMATIC_NO_AIM, nil, 5, 1,0)
-			Fly("Pole2", CINEMATIC_NO_AIM, nil, 15, 0,1)
+			Fly("Pole2", CINEMATIC_NO_AIM, nil, 17, 0,1)
 			StartCinematic()
 
 			local PlVehicle = GetPlayerVehicle()

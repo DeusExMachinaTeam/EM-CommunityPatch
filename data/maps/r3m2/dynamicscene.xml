@@ -1388,7 +1388,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace23_loc"
+		Name="SecretPlace22_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="2994.186 268.216 1262.953"
