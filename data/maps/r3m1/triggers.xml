@@ -181,7 +181,8 @@
 	<trigger	Name="trCreateMainDruid"	active="0">
 		<event	timeout="0.01"	eventid="GE_TIME_PERIOD" />
 		<script>
-			local DruidTeam = TeamCreate("MainDruidTeam",1019,CVector(1488.960, 288.000, 2591.133),{"Hunter02"})
+		   SetTolerance(1100, 1068, RS_ALLY)
+			local DruidTeam = TeamCreate("MainDruidTeam",1068,CVector(1488.960, 288.000, 2591.133),{"Hunter02"})
 			if DruidTeam==nil then 
 			   LOG("TRIGGER ERROR: Can't create druid vehicle")
 			   return
@@ -201,6 +202,8 @@
 
 			if newController1 and DruidVeh then
 				newController1:setVehicleUnderControl(DruidVeh)
+				DruidVeh:setGodMode(1)
+				DruidVeh:setImmortalMode(1)
 			end
 
 

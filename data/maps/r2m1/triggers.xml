@@ -1147,7 +1147,7 @@
 
 			local b = SpawnMessageBox( "8801" )
 			if b == 1 then
-				PassToMap("r3m1", "FromR2M1", -1 )
+				PassToMap("r3m1", "FromR2M1", -50 )
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
 

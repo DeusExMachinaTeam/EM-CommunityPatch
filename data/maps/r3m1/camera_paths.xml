@@ -142,8 +142,8 @@
 	</Path>
 
 	<Path	Name="SubmMove1">
-			<Point  coord="4085.434 230.635 1890.995" rotation="-0.006 -0.592 -0.001 0.806"/>
-			<Point  coord="4010.692 245.000 1890.384" rotation="-0.006 -0.592 -0.001 0.806"/>
+			<Point  coord="4010.692 200.000 1890.384" rotation="-0.006 -0.592 -0.001 0.806"/>
+			<Point  coord="4013.202 245.000 1890.942" rotation="-0.006 -0.592 -0.001 0.806"/>
 	</Path>
 
 	<Path	Name="MoveFromR2M1_cam01">
