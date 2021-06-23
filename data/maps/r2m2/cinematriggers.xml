@@ -317,7 +317,7 @@
 				vehPlayer:SetCustomControlEnabled( false )
 			end
 
-			if IsQuestComplete("MQ_r1m1_AliceSearch") then
+			if IsQuestComplete("d_Lisa_Quest") then
 				AddCinematicMessage( 34, 0.01 )
 			elseif (IsQuestComplete("FindBen_Quest") and IsQuestComplete("d_TakeGeneralOfBandits_Quest")) then
 				AddCinematicMessage( 25, 0.01 )
@@ -439,8 +439,8 @@
 	<trigger Name="trAXELARENADIE_cam10" active="0">
 		<event flypath="AXELARENADIE_cam10" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-				AddCinematicMessage( 24, 0.25 )
-				AddCinematicMessage( 241, 0.25 )
+			AddCinematicMessage( 24, 0.25 )
+			AddCinematicMessage( 241, 0.25 )
 
 			trigger:Deactivate()
 		</script>
