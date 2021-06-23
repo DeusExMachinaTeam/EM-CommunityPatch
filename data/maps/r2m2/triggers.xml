@@ -381,7 +381,7 @@
 				AddHistory( "r2_After_Axel_01" )
 				AddFadingMsgId( "fm_history_got" )
 			else
-				TActivate("RolikBegin_AXELARENADIE2")
+				TActivate("RolikBegin_AXELARENADIE")
 				
 				TakeQuest( "r2m2_ToLisaToMonastir" )
 
