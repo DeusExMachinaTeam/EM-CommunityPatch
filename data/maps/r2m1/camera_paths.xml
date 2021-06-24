@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<Path Name = "start_game">
+		<Point  coord="0 0 0" rotation="0 0 0 1"/>   
+	</Path>
+
+<Path
+	Name="dron1"
+	FullTime="1.000"
+	FullLength="926.097">
+	<Point
+		coord="1229.981 480.227 1764.315"
+		rotation="-0.0288 -0.9481 0.0899 0.3036"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+	<Point
+		coord="1362.255 463.763 1927.172"
+		rotation="-0.0960 -0.1644 0.0161 0.9816"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+	<Point
+		coord="1436.767 500.320 1787.560"
+		rotation="-0.0213 -0.4624 0.0111 0.8863"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+</Path>
+
+<Path
+	Name="dron2"
+	FullTime="1.000"
+	FullLength="926.097">
+	<Point
+		coord="1329.488 442.736 1664.373"
+		rotation="-0.0213 -0.4624 0.0111 0.8863"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+	<Point
+		coord="1507.769 538.924 1844.278"
+		rotation="-0.0960 -0.1644 0.0161 0.9816"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+	<Point
+		coord="1313.040 481.730 1921.323"
+		rotation="-0.0288 -0.9481 0.0899 0.3036"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+</Path>
+
+<Path
+	Name="dron3"
+	FullTime="1.000"
+	FullLength="926.097">
+	<Point
+		coord="1409.305 501.182 1695.132"
+		rotation="-0.0213 -0.4624 0.0111 0.8863"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+	<Point
+		coord="1498.738 475.446 1860.301"
+		rotation="-0.0960 -0.1644 0.0161 0.9816"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+	<Point
+		coord="1224.924 450.546 1815.108"
+		rotation="-0.0288 -0.9481 0.0899 0.3036"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="3" />
+</Path>
+
+<Path
+	Name="bossMove"
+	FullTime="1.000"
+	FullLength="926.097">
+	<Point
+		coord="1383.220 515.542 1540.781"
+		rotation="-0.0213 -0.4624 0.0111 0.8863"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+	<Point
+		coord="1400.619 462.026 1476.412"
+		rotation="-0.0960 -0.1644 0.0161 0.9816"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+	<Point
+		coord="1421.446 375.011 1401.193"
+		rotation="-0.0288 -0.9481 0.0899 0.3036"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+</Path>
+
+<Path Name="Start01_cam01">
+	<Point  coord="7734.014 288.025 4920.030" rotation="0.050 -0.302 -0.016 0.952"/>
+	<Point  coord="7728.244 287.857 4922.781" rotation="0.057 -0.340 -0.021 0.938"/>
+
+</Path>
+
+<Path Name="Start01_cam02">
+	<Point  coord="10 5 -25"/>
+	<Point  coord="12 4 -20"/>
+
+</Path>
+
+<Path Name="Start01_cam03">
+	<Point  coord="-50 7 -30"/>
+	<Point  coord="-70 7 0"/>
+	<Point  coord="-50 7 30"/>
+
+</Path>
+
+<Path Name="Start01_cam04">
+	<Point  coord="2 5 -15"/>
+	<Point  coord="0 10 -25"/>
+
+</Path>
+
+<Path Name="TAKEBOSSARLOC_cam01">
+	<Point  coord="-50 5 -30"/>
+
+</Path>
+
+<Path Name="Lisa_cam01">
+
+	<Point  coord="6088.166 251.260 6595.255" rotation="-0.013 0.763 -0.015 0.646"/>
+	<Point  coord="6087.455 251.260 6599.539" rotation="-0.009 0.785 -0.011 0.620"/>
+
+</Path>
+
+<Path Name="Lisa_cam02">
+
+	<Point  coord="0 1 8" rotation="0 0 0 1"/>
+
+</Path>
+
+<Path Name="Lisa_cam03">
+
+	<Point  coord="6001.587 249.943 6599.373" rotation="-0.002 0.990 0.017 -0.136"/>
+	<Point  coord="6000.667 255.142 6596.261" rotation="0.015 0.978 -0.079 -0.190"/>
+
+</Path>
+
+<Path Name="LISADIED_cam01">
+
+	<Point  coord="6025.215 256.936 6584.362" rotation="-0.126 -0.724 0.138 0.665"/>
+	<Point  coord="6026.586 256.393 6584.245" rotation="-0.126 -0.724 0.138 0.665"/>
+
+</Path>
+
+<Path Name="LISADIED_cam02">
+
+	<Point  coord="6046.354 250.431 6582.748" rotation="0.071 0.662 0.064 0.744"/>
+	<Point  coord="6046.120 250.477 6582.775" rotation="0.071 0.662 0.064 0.744"/>
+
+</Path>
+
+<Path Name="LISADIED_cam03">
+
+	<Point  coord="6040.939 251.506 6586.938" rotation="0.038 0.883 -0.072 -0.463"/>
+	<Point  coord="6041.491 251.396 6586.557" rotation="0.038 0.883 -0.072 -0.463"/>
+
+</Path>
+
+<Path Name="LISADIED_cam04">
+
+	<Point  coord="6045.424 250.890 6585.019" rotation="0.001 0.963 0.003 0.269"/>
+	<Point  coord="6045.175 250.892 6584.609" rotation="0.002 0.962 0.008 0.272"/>
+
+</Path>
+
+<Path Name="LISADIED_cam05">
+
+	<Point  coord="6074.641 265.728 6578.279" rotation="-0.157 0.650 -0.139 0.730"/>
+	<Point  coord="6064.437 265.728 6558.934" rotation="-0.201 0.323 -0.070 0.922"/>
+
+</Path>
+
+<Path Name="LISADIED_cam06">
+
+	<Point  coord="6046.882 252.337 6587.376" rotation="-0.047 0.953 -0.198 0.225"/>
+	<Point  coord="6046.489 252.337 6587.574" rotation="-0.033 0.967 -0.181 0.176"/>
+
+</Path>
+
+<Path Name="LISADIED_cam07">
+
+	<Point  coord="6045.148 251.245 6582.183" rotation="-0.085 -0.306 0.027 0.948"/>
+	<Point  coord="6044.820 251.347 6581.728" rotation="-0.085 -0.306 0.027 0.948"/>
+
+</Path>
+
+<Path Name="LISADIED_cam08">
+
+	<Point  coord="6047.921 251.085 6582.388" rotation="-0.004 0.600 -0.003 0.800"/>
+	<Point  coord="6045.827 251.047 6582.847" rotation="0.012 0.636 0.010 0.772"/>
+
+</Path>
+
+<Path Name="LISADIED_cam09">
+
+	<Point  coord="6044.840 250.815 6583.274" rotation="0.034 -0.532 -0.022 0.846"/>
+	<Point  coord="6044.606 250.794 6583.162" rotation="0.034 -0.532 -0.022 0.846"/>
+
+</Path>
+
+<Path Name="LISADIED_cam10">
+
+	<Point  coord="6044.529 250.589 6585.039" rotation="-0.000 0.994 0.107 -0.002"/>
+	<Point  coord="6043.918 250.566 6586.479" rotation="-0.010 0.980 0.048 -0.195"/>
+	<Point  coord="6040.053 253.295 6597.239" rotation="0.016 0.980 -0.085 -0.180"/>
+
+</Path>
+
+<Path Name="OPARIS_cam01">
+
+	<Point  coord="2177.378 238.864 5765.884" rotation="-0.006 -0.858 0.010 0.513"/>
+	<Point  coord="2180.876 238.864 5772.382" rotation="-0.006 -0.858 0.010 0.513"/>
+
+</Path>
+
+<Path Name="OPARIS_cam02">
+
+	<Point  coord="2246.481 261.746 5745.263" rotation="-0.389 0.401 -0.193 0.807" speed="0.100"/>
+	<Point  coord="2216.018 252.500 5768.550" rotation="-0.253 0.640 -0.236 0.686" speed="1.000"/>
+	<Point  coord="2188.613 250.497 5780.048" rotation="-0.086 0.907 -0.228 0.344" speed="1.000"/>
+	<Point  coord="2182.545 249.375 5773.927" rotation="-0.013 0.936 -0.035 0.349" speed="1.000"/>
+	<Point  coord="2178.725 248.971 5769.737" rotation="-0.009 0.861 -0.015 0.509" speed="1.000"/>
+	<Point  coord="2172.254 248.749 5765.725" rotation="-0.002 0.952 -0.006 0.306" speed="1.000"/>
+	<Point  coord="2164.689 248.528 5756.006" rotation="-0.007 0.922 -0.016 0.387" speed="1.000"/>
+	<Point  coord="2142.967 254.982 5737.070" rotation="-0.142 0.406 -0.064 0.901" speed="1.000"/>
+	<Point  coord="2087.956 245.245 5793.474" rotation="-0.080 0.443 -0.040 0.892" speed="1.000"/>
+	<Point  coord="2068.618 242.683 5811.103" rotation="-0.019 0.278 -0.006 0.960" speed="1.000"/>
+	<Point  coord="2024.145 246.109 5838.888" rotation="-0.131 0.446 -0.066 0.883" speed="1.000"/>
+	<Point  coord="1969.208 269.240 5897.201" rotation="-0.003 0.411 -0.001 0.911" speed="1.000"/>
+	<Point  coord="1953.795 306.985 5917.022" rotation="0.017 0.202 0.004 0.979" speed="0.1"/>
+
+</Path>
+
+<Path Name="OPARIS_cam021">
+
+	<Point  coord="2246.481 261.746 5745.263" rotation="-0.389 0.401 -0.193 0.807" />
+	<Point  coord="2216.018 252.500 5768.550" rotation="-0.253 0.640 -0.236 0.686" />
+	<Point  coord="2188.613 250.497 5780.048" rotation="-0.086 0.907 -0.228 0.344" />
+	<Point  coord="2182.545 249.375 5773.927" rotation="-0.013 0.936 -0.035 0.349" />
+	<Point  coord="2178.725 248.971 5769.737" rotation="-0.009 0.861 -0.015 0.509" />
+	<Point  coord="2172.254 248.749 5765.725" rotation="-0.002 0.952 -0.006 0.306" />
+	<Point  coord="2164.689 248.528 5756.006" rotation="-0.007 0.922 -0.016 0.387" />
+	<Point  coord="2142.967 254.982 5737.070" rotation="-0.142 0.406 -0.064 0.901" />
+	<Point  coord="2087.956 245.245 5793.474" rotation="-0.080 0.443 -0.040 0.892" />
+	<Point  coord="2068.618 242.683 5811.103" rotation="-0.019 0.278 -0.006 0.960" />
+	<Point  coord="2024.145 246.109 5838.888" rotation="-0.131 0.446 -0.066 0.883" />
+	<Point  coord="1969.208 269.240 5897.201" rotation="-0.003 0.411 -0.001 0.911"/>
+	<Point  coord="1953.795 306.985 5917.022" rotation="0.017 0.202 0.004 0.979" />
+
+</Path>
+
+<Path Name="OPARIS_cam03">
+
+	<Point  coord="2140.328 238.252 5919.963" rotation="0.010 0.969 -0.040 -0.242" speed="1"/>
+<!-- 	<Point  coord="2140.428 238.252 5819.863" rotation="-0.008 0.618 -0.006 0.786" speed="0.1"/> -->
+	<Point  coord="2144.644 235.191 5921.265" rotation="0.039 0.500 0.023 0.865" speed="0.2"/>
+
+</Path>
+
+<Path Name="OPARIS_cam04">
+
+	<Point  coord="2139.833 235.119 5823.220" rotation="0.005 0.170 0.001 0.985"/> 
+	<Point  coord="2139.895 234.353 5823.115" rotation="0.118 0.183 0.022 0.976"/> 
+
+</Path>
+
+<Path Name="BOSSDIE_cam01">
+	<Point  coord="0 3 -30"/>
+
+</Path>
+
+<Path Name="BOSSDIE_cam02">
+	<Point  coord="0 2 0"/>
+	<Point  coord="0 4 0"/>
+
+</Path>
+
+<Path Name="UFO_cam01">
+
+	<Point  coord="6149.155 331.369 4357.498" rotation="-0.032 0.642 -0.027 0.766"/> 
+	<Point  coord="6149.832 331.369 4361.311" rotation="-0.034 0.651 -0.029 0.758"/> 
+
+</Path>
+
+<Path Name="UFO_cam02">
+
+	<Point  coord="6220.990 288.279 4468.243" rotation="0.000 1.000 -0.007 -0.010"/> 
+	<Point  coord="6220.261 288.293 4469.188" rotation="0.000 1.000 -0.007 -0.010"/> 
+
+</Path>
+
+<Path Name="UFO_cam011">
+
+	<Point  coord="5855.819 329.602 4311.161" rotation="-0.069 -0.550 0.046 0.831"/> 
+	<Point  coord="5863.072 329.602 4297.126" rotation="-0.076 -0.453 0.039 0.888"/> 
+
+</Path>
+
+<Path Name="UFO_cam022">
+
+	<Point  coord="6315.097 301.334 4393.072" rotation="-0.044 0.733 -0.048 0.677"/> 
+	<Point  coord="6314.688 301.334 4398.176" rotation="-0.044 0.733 -0.048 0.677"/> 
+
+</Path>
+
+<Path Name="UFO_cam03">
+	<Point  coord="823.549 371.638 1935.475" rotation="0.120 -0.775 -0.154 0.601"/>
+<!-- 	<Point  coord="427.794 272.265 2215.543" rotation="0.052 -0.850 -0.085 0.517"/> 
+	<Point  coord="423.911 272.265 2207.030" rotation="0.064 -0.841 -0.101 0.528"/>  -->
+	<Point  coord="832.881 375.794 1931.515" rotation="0.120 -0.775 -0.154 0.601"/>
+
+</Path>
+
+<Path Name="bossMove1">
+	<Point  coord="1385.801 465.342 1818.543" rotation="0.000 0.617 0.000 -0.787" speed="1.000"/>
+	<Point  coord="1759.442 437.830 1721.916" rotation="0.032 0.928 -0.082 -0.363" speed="1.000"/>
+	<Point  coord="1759.442 427.830 1721.916" rotation="0.032 0.928 -0.082 -0.363" speed="3.000"/>
+	<Point  coord="1880.473 350.572 1580.850" rotation="0.060 0.927 -0.166 -0.332" speed="1.000"/>
+	<Point  coord="2046.418 365.196 1379.187" rotation="-0.089 0.907 0.241 -0.334" speed="1.000"/>
+	<Point  coord="1900.168 350.978 1610.655" rotation="0.154 0.815 -0.251 -0.499" speed="1.000"/>
+	<Point  coord="1900.168 360.978 1610.655" rotation="0.154 0.815 -0.251 -0.499" speed="3.000"/>
+	<Point  coord="1900.168 280.978 1610.655" rotation="0.154 0.815 -0.251 -0.499" speed="3.000"/>
+
+</Path>
+
+<Path Name="UFODIE_cam01">
+
+	<Point  coord="1363.489 411.982 1795.427" rotation="0.428 -0.232 -0.115 0.866"/>
+
+	<Point  coord="1363.489 411.982 1795.427" rotation="0.442 -0.252 -0.131 0.851"/>
+
+</Path>
+
+<Path Name="UFODIE_cam02">
+
+	<Point  coord="1939.225 369.333 1747.293" rotation="0.128 0.728 0.142 0.658"/>
+
+	<Point  coord="1941.916 370.333 1685.981" rotation="0.165 0.671 0.157 0.705"/>
+
+</Path>
+
+<Path Name="UFODIE_cam03">
+
+	<Point  coord="2730.278 337.226 2159.304" rotation="0.011 0.913 0.024 0.407"/>
+	<Point  coord="2730.278 340.226 2159.304" rotation="0.011 0.913 0.024 0.407"/>
+
+</Path>
+
+<Path Name="UFODIE_cam031">
+
+	<Point  coord="1956.825 299.408 1165.555" rotation="0.240 0.030 0.007 0.970"/>
+	<Point  coord="1956.825 299.408 1165.555" rotation="0.285 0.021 0.006 0.958"/>
+
+</Path>
+
+<Path Name="UFODIE_cam032">
+
+	<Point  coord="2262.258 274.993 1909.128" rotation="0.030 0.952 0.100 0.286"/>
+	<Point  coord="2269.350 274.993 1904.442" rotation="0.030 0.952 0.100 0.289"/>
+
+</Path>
+
+<Path Name="UFODIE_cam04">
+
+	<Point  coord="1888.221 275.605 1625.827" rotation="-0.004 0.993 0.114 -0.038"/>
+	<Point  coord="1888.221 275.605 1625.827" rotation="-0.003 0.990 0.137 -0.020"/>
+
+</Path>
+
+<Path Name="DroidMove">
+
+	<Point  coord="1253.609 458.484 1528.178" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1237.693 442.681 1511.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1238.693 442.381 1509.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1236.693 442.481 1508.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1239.693 442.381 1510.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1238.693 442.581 1512.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1237.693 442.281 1510.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1239.693 442.381 1511.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1236.693 442.281 1510.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1237.693 442.581 1512.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1236.693 442.281 1510.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1239.693 442.481 1511.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1236.693 442.281 1510.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1238.693 442.381 1512.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1236.693 442.281 1510.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1239.693 442.581 1511.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1235.693 442.281 1510.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1236.693 442.881 1512.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1236.693 442.281 1510.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+	<Point  coord="1239.693 442.581 1511.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1235.693 442.281 1510.628" rotation="-0.043 -0.927 0.115 0.356"/>
+	<Point  coord="1236.693 442.881 1512.628" rotation="-0.043 -0.927 -0.115 0.356"/>
+</Path>
+
+<Path Name="DroidMoveOut">
+	<Point  coord="1228.499 435.600 1502.986" rotation="-0.045 0.954 -0.185 0.231"/>
+</Path>
+
+<Path Name="UFODIOLOG_cam01">
+
+	<Point  coord="1339.401 474.784 1471.193" rotation="0.106 0.241 0.027 0.964"/>
+	<Point  coord="1339.401 474.784 1471.193" rotation="0.081 0.264 0.022 0.961"/>
+
+</Path>
+
+<Path Name="UFODIOLOG_cam02">
+
+	<Point  coord="1226.289 436.642 1499.043" rotation="0.146 -0.391 -0.063 0.907"/>
+	<Point  coord="1226.536 436.642 1498.771" rotation="0.127 -0.347 -0.047 0.928"/>
+
+</Path>
+
+<Path Name="UFODIOLOG_cam03">
+	<Point  coord="0 0 5"/>
+</Path>
+
+<Path Name="UFODIOLOG_cam04">
+
+	<Point  coord="1228.573 437.382 1502.713" rotation="0.176 -0.367 -0.071 0.910"/>
+	<Point  coord="1228.573 437.382 1502.713" rotation="0.174 -0.354 -0.067 0.916"/>
+
+</Path>
+
+<Path Name="UFODIOLOG_cam05">
+	<Point  coord="0 0 5"/>
+</Path>
+
+<Path Name="UFODIOLOG_cam06">
+
+	<Point  coord="1227.830 437.297 1505.399" rotation="0.002 0.981 -0.011 -0.193"/>
+	<Point  coord="1228.343 437.297 1505.601" rotation="0.003 0.995 -0.029 -0.098"/>
+
+</Path>
+
+<Path Name="UFODIOLOG_cam07">
+
+	<Point  coord="1255.643 441.339 1483.477" rotation="0.008 0.317 0.003 0.948"/>
+	<Point  coord="1235.024 441.339 1476.532" rotation="-0.012 -0.008 0.000 1.000"/>
+
+</Path>
+
+<Path Name="UFODIOLOG_cam08">
+
+	<Point  coord="1228.405 437.408 1502.367" rotation="0.155 -0.319 -0.053 0.934"/>
+	<Point  coord="1228.405 437.408 1502.367" rotation="0.174 -0.360 -0.069 0.914"/>
+	<Point  coord="1228.405 437.408 1502.367" rotation="0.155 -0.361 -0.061 0.917"/>
+
+</Path>
+
+<Path Name="UFODIOLOG_cam09">
+
+	<Point  coord="0 0 5"/>
+
+</Path>
+
+<Path Name="UFODIOLOG_cam10">
+
+	<Point  coord="1226.195 436.352 1502.557" rotation="0.148 -0.512 -0.090 0.842"/>
+	<Point  coord="1224.691 437.149 1502.081" rotation="0.069 -0.525 -0.043 0.847"/>
+
+</Path>
+
+<Path Name="BattleUFO_cam01">
+	<Point  coord="0 2 -10"/>
+</Path>
+
+<Path Name="BattleUFO_cam02">
+
+	<Point  coord="1215.334 434.797 1488.051" rotation="0.148 -0.356 -0.057 0.921"/>
+	<Point  coord="1215.023 435.814 1487.629" rotation="0.149 -0.332 -0.053 0.930"/>
+
+</Path>
+
+<Path Name="BattleUFO_cam03">
+
+	<Point  coord="1258.368 453.696 1511.809" rotation="-0.107 0.813 -0.157 0.551"/>
+	<Point  coord="1257.359 453.696 1514.075" rotation="-0.098 0.850 -0.169 0.490"/>
+
+</Path>
+
+<Path Name="BattleUFO_cam04">
+
+	<Point  coord="1218.326 443.991 1470.340" rotation="-0.139 -0.180 0.026 0.973"/>
+	<Point  coord="1216.154 447.309 1468.016" rotation="-0.083 -0.161 0.014 0.983"/>
+
+</Path>
+
+
+</Paths>
+
