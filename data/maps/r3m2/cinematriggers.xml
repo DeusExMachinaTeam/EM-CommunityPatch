@@ -29,6 +29,13 @@
 				GetPlayerVehicle():SetCustomLinearVelocity( 0 )
 				GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("PlCarPos_loc")))
 			end
+
+			if GetEntityByName("PlayerScout") then
+				GetEntityByName("PlayerScout"):SetGamePositionOnGround(CVector(2780.496, 264.953, 2087.660))
+				GetEntityByName("PlayerScout"):SetRotation(Quaternion(0.001, -0.000, 0.000, 1.000))
+				GetEntityByName("PlayerScout"):SetCustomLinearVelocity(0)
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>

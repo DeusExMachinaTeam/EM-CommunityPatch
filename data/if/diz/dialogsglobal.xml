@@ -1650,7 +1650,7 @@
 		name="r3m2_Oracle_Oracle_4_N121"
 		text="Пожалуй, стоит ещё раз побывать в доме отца. "
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_RideToFatherRoomAfterOracul'); AddHistory( 'r3_Oracle_NeedDisc2' ) AddFadingMsgId( 'fm_history_got' ) EndConversation();" />
+		scriptResult="TakeQuest('r3m2_RideToFatherRoomAfterOracul'); GetPlayerVehicle():SetCustomLinearVelocity(0); AddHistory( 'r3_Oracle_NeedDisc2' ) AddFadingMsgId( 'fm_history_got' ) EndConversation();" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N032"

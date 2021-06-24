@@ -407,6 +407,10 @@
 				GetPlayerVehicle():AddModifier("hp", "+ 1")
 				GetPlayerVehicle():SetCustomControlEnabled(0)
 				veh:SetExternalPathByName("ExitToGaragePath")
+				local vehtype=GetPlayerVehicle():GetProperty("Prototype").AsString
+				if vehtype=="ArcadeScout01" then
+					GetPlayerVehicle():AddModifier("fuel","+ 300")
+				end
 			end
 			if oldveh then
 --			   LOG(4)
@@ -444,10 +448,6 @@
 			   veh:SetRotation(Quaternion(0.007, -0.458, 0.004, 0.889))
 			end
 
-			local vehtype=GetPlayerVehicle():GetProperty("Prototype").AsString
-			if vehtype=="ArcadeScout01" then
-				GetPlayerVehicle():AddModifier("fuel","= 300")
-			end
 --			trigger:Deactivate()
 		</script>
 	</trigger>
