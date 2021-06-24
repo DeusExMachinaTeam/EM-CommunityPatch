@@ -129,7 +129,6 @@
 			TActivate("cinWentToFactory")
 			TActivate("trGetThing1")
 			TActivate("trGetThing2")
-			TActivate("trRotateArt")
 
 			local art1 = CreateNewSgNodeObject( "artefact1", "or_artefact1", -1, -1, CVector(3238.540, 257.977, 3167.584), Quaternion(0, 0, 0, 1), 1)
 			local art2 = CreateNewSgNodeObject( "artefact2", "or_artefact2", -1, -1, CVector(3170.026, 260.000, 3538.743), Quaternion(0, 0, 0, 1), 0.35)
@@ -137,22 +136,6 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
-	<trigger	Name="trRotateArt"	active="0">
-		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
-		<script>
-			for i=1,2 do
-			    local art = getObj("or_artefact"..i)
-			    local zq = 	Quaternion(0, 0, 0, 1)
-			    zq:RotY(RAD(7))
-			    if art then
-			    	local rot = art:GetRotation()
-            	    art:SetRotation(zq*rot)
-				end
-			end
-		</script>
-	</trigger>
-
 
 	<trigger	Name="trGetThing1"	active="0">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="Thing1_loc" />
