@@ -522,12 +522,12 @@
 			Fly("LISADIED_cam02", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
 			Fly("LISADIED_cam03", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
 			Fly("LISADIED_cam04", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
-			Fly("LISADIED_cam05", CINEMATIC_NO_AIM, 0, 36, 0, 0 )
+			Fly("LISADIED_cam05", CINEMATIC_NO_AIM, 0, 42, 0, 0 )
 			Fly("LISADIED_cam06", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
 			Fly("LISADIED_cam07", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
-			Fly("LISADIED_cam08", CINEMATIC_NO_AIM, 0, 14, 0, 0 )
+			Fly("LISADIED_cam08", CINEMATIC_NO_AIM, 0, 19, 0, 0 )
 			Fly("LISADIED_cam09", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
-			Fly("LISADIED_cam10", CINEMATIC_NO_AIM, 0, 32, 0, 1 )
+			Fly("LISADIED_cam10", CINEMATIC_NO_AIM, 0, 36, 0, 1 )
 			StartCinematic()
 
 			TActivate("RolikEnd_LISADIED")
@@ -541,6 +541,12 @@
 			TActivate("trLISADIED_cam08")
 			TActivate("trLISADIED_cam09")
 			TActivate("trLISADIED_cam10")
+			TActivate("trLISADIED_msg36")
+			TActivate("trLISADIED_msg37_39")
+			TActivate("trLISADIED_msg45")
+			TActivate("trLISADIED_msg46")
+			TActivate("trLISADIED_msg47")
+			TActivate("trLISADIED_msg48")
 
 			trigger:Deactivate()
 		</script>
@@ -575,7 +581,9 @@
 			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(6044.253, 249.267, 6583.188), Quaternion(0.000, 0.487, 0.000, 0.874), 0)
 
 			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 31, 1)
 
@@ -586,7 +594,9 @@
 		<event flypath="LISADIED_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND1)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 
 			AddCinematicMessage( 32, 0.5)
 
@@ -597,7 +607,9 @@
 		<event flypath="LISADIED_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 33, 0.5)
 
@@ -608,7 +620,9 @@
 		<event flypath="LISADIED_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND1)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 
 			AddCinematicMessage( 34, 0.5)
 
@@ -619,8 +633,9 @@
 		<event flypath="LISADIED_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_STAND1)
-			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_RESERVED1, AT_STAND2, AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 35, 0.5)
 			AddCinematicMessage( 36, 0.5)
@@ -635,7 +650,9 @@
 		<event flypath="LISADIED_cam06" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND1)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 
 			AddCinematicMessage( 40, 0.5)
 
@@ -646,7 +663,9 @@
 		<event flypath="LISADIED_cam07" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 41, 0.5)
 
@@ -657,7 +676,9 @@
 		<event flypath="LISADIED_cam08" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND1)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 
 			AddCinematicMessage( 42, 0.5)
 
@@ -668,7 +689,9 @@
 		<event flypath="LISADIED_cam09" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 43, 0.5)
 
@@ -679,22 +702,9 @@
 		<event flypath="LISADIED_cam10" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
-			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_RESERVED1)
-	
-			getObj("humLisa"):SetNodeAction(AT_STAND1)
-			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND2)
-	
-			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
 			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
-
-			getObj("humLisa"):SetNodeAction(AT_STAND2)
-			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
-
-			getObj("humPlayer"):SetNodeAction(AT_STAND1)
-			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_RESERVED1)
-
 			getObj("humLisa"):SetNodeAction(AT_STAND1)
-			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 
 			AddCinematicMessage( 44, 0.5)
 			AddCinematicMessage( 45, 0.5)
@@ -765,6 +775,12 @@
 			TDeactivate("trLISADIED_cam08")
 			TDeactivate("trLISADIED_cam09")
 			TDeactivate("trLISADIED_cam10")
+			TDeactivate("trLISADIED_msg36")
+			TDeactivate("trLISADIED_msg37_39")
+			TDeactivate("trLISADIED_msg45")
+			TDeactivate("trLISADIED_msg46")
+			TDeactivate("trLISADIED_msg47")
+			TDeactivate("trLISADIED_msg48")
 
 			StopPlayingCustomMusic()
 
@@ -774,9 +790,88 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trLISADIED_msg36" active="0">
+		<event msgid="36" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
 
+			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+			getObj("humLisa"):SetNodeAction(AT_STAND1)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
+	<trigger Name="trLISADIED_msg37_39" active="0">
+--		<event timeout="11" eventid="GE_TIME_PERIOD" />
+		<event msgid="37" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+
+		<script>
+
+			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+			println("gg_anim_set")
+			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2)
+			println("lisas_anim_set")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLISADIED_msg45" active="0">
+		<event msgid="45" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLISADIED_msg46" active="0">
+		<event msgid="46" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+			getObj("humLisa"):SetNodeAction(AT_STAND1)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLISADIED_msg47" active="0">
+		<event msgid="47" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLISADIED_msg48" active="0">
+		<event msgid="48" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
+			getObj("humLisa"):SetNodeAction(AT_STAND1)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
 <!-- Игрок приезжает в Париж -->
 	<trigger Name="RolikBegin_OPARIS" active="0">
@@ -1305,8 +1400,8 @@
 			if IsQuestTaken("r2m1_TW_AlienInShip") then
 				PlayCustomMusic("Techno01")
 
-				CreateNewDummyObject( "boss04dronegun", "Droid", -1, -1, CVector(1282.018, 523.862, 1646.997), Quaternion(0.049, 0.950, -0.189, -0.244), 0)
-				CreateNewDummyObject( "boss04drone", "Droid0", -1, -1, CVector(1282.018, 523.862, 1646.997), Quaternion(0.049, 0.950, -0.189, -0.244), 0)
+				CreateNewDummyObject( "boss04dronegun", "Droid", -1, -1, CVector(1282.018, 0.600, 1646.997), Quaternion(0.049, 0.950, -0.189, -0.244), 0)
+				CreateNewDummyObject( "boss04drone", "Droid0", -1, -1, CVector(1282.018, 0.600, 1646.997), Quaternion(0.049, 0.950, -0.189, -0.244), 0)
 				CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(1228.499, 0.600, 1502.986), Quaternion(-0.065, 0.205, -0.028, 0.976), 1)
 
 				local CToch = GetEntityByName("Droid")
@@ -1319,13 +1414,13 @@
 				Fly(		"UFODIOLOG_cam01", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
 				FlyLinked(	"BattleUFO_cam01", CTochID , 5, 0, 0, humPlID, nil, nil, nil, nil )
 				Fly(		"UFODIOLOG_cam02", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
-				FlyLinked(	"UFODIOLOG_cam03", CTochID , 12, 0, 0, humPlID, nil, nil, nil, nil )
+				FlyLinked(	"UFODIOLOG_cam03", CTochID , 14, 0, 0, humPlID, nil, nil, nil, nil )
 				Fly(		"UFODIOLOG_cam04", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
-				FlyLinked(	"UFODIOLOG_cam05", CTochID , 37, 0, 0, humPlID, nil, nil, nil, nil )
+				FlyLinked(	"UFODIOLOG_cam05", CTochID , 41, 0, 0, humPlID, nil, nil, nil, nil )
 				Fly(		"UFODIOLOG_cam06", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
-				Fly(		"UFODIOLOG_cam07", CINEMATIC_NO_AIM, 0, 27, 0, 0 )
+				Fly(		"UFODIOLOG_cam07", CINEMATIC_NO_AIM, 0, 47, 0, 0 )
 				Fly(		"UFODIOLOG_cam08", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
-				FlyLinked(	"UFODIOLOG_cam09", CTochID , 15, 0, 0, humPlID, nil, nil, nil, nil )
+				FlyLinked(	"UFODIOLOG_cam09", CTochID , 23, 0, 0, humPlID, nil, nil, nil, nil )
 				Fly(		"UFODIOLOG_cam10", CINEMATIC_NO_AIM, 0, 18, 0, 1 )
 				StartCinematic()
 
@@ -1409,10 +1504,12 @@
 			local controlledObj = GetEntityByName("Droid")
 			local controlledObj1 = GetEntityByName("Droid0")
 			if controlledObj then
-				mover:SetObjAndPath( controlledObj:GetId(), "DroidMove", 180 )
+				controlledObj:SetPosition(CVector(1282.018, 523.862, 1646.997))
+				mover:SetObjAndPath( controlledObj:GetId(), "DroidMove", 200 )
 			end
 			if controlledObj1 then
-				mover1:SetObjAndPath( controlledObj1:GetId(), "DroidMove", 180 )
+				controlledObj1:SetPosition(CVector(1282.018, 523.862, 1646.997))
+				mover1:SetObjAndPath( controlledObj1:GetId(), "DroidMove", 200 )
 			end
 
 			trigger:Deactivate()

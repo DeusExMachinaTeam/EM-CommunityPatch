@@ -3531,7 +3531,7 @@
 		name="Dlg_pl_001128"
 		text="Скоро вернусь."
 		role="PLAYER"
-		scriptResult="TActivate ('Trigger_NarcotikCaravan');  TakeQuest('r2m1_TakeNarcotics_Quest');  GetCurNpc():SetSpokenCount( 1 );  EndConversation()" />
+		scriptResult="TActivate ('Trigger_NarcotikCaravan');  GetCurNpc():SetSpokenCount( 1 );  EndConversation()" />
 <!--Root/r2m1/Опциональные/Убить Босса-->
 	<Reply
 		name="Gulik_hellodlg1"
@@ -3562,7 +3562,7 @@
 		name="Dlg_pl_001131"
 		text="Я сделаю это."
 		role="PLAYER"
-		scriptResult=" TActivate ('Trigger_NarcotikBoss');  CompleteQuest('r2m1_ReturnNarcotics_Quest');  TakeQuest('r2m1_KillGodFather_Quest');  RemoveQuestItem('quest_mafia_narcotik');  EndConversation()" />
+		scriptResult=" TActivate ('Trigger_NarcotikBoss');  CompleteQuest('r2m1_ReturnNarcotics_Quest');  RemoveQuestItem('quest_mafia_narcotik');  EndConversation()" />
 <!--Root/r2m1/Сюжетные/Гражданин в Сели-->
 	<Reply
 		name="SelCitizen_hellodlg0"

@@ -769,8 +769,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="r2m2_DestroySNGKaravan"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_GoToLibrium"
 			OnTake='ShowCircleOnMinimapByName("ToR2M1");' />
 
 		<quest
@@ -781,6 +781,14 @@
 			ConditionToGive="all complete"
 			PrecedingQuests="r2m2_FindSNGKaravan"
 			OnTake='ShowCircleOnMinimapByName("ToR2M2"); ShowCircleOnMinimap("r2m2",CVector(1829.361, 316.000, 3300.456))' />
+
+		<quest
+			Name="r2m2_GoToLibrium"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_DestroySNGKaravan" />
 	</quest>
 <!--Root/r2m2/Сюжетные/Привезти вина-->
 	<quest
@@ -924,7 +932,7 @@
 <!--Root/r2m1/Опциональные/Найти Жулика-->
 	<quest
 		Name="r2m1_ArtGulik_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -1042,7 +1050,7 @@
 <!--Root/r2m1/Сюжетные/ караван по деревням -->
 	<quest
 		Name="d_CaravanFromTuzzToVillage_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="1"
 		ConditionToGive="all complete"
@@ -1062,8 +1070,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="d_CaravanFromTuzzToVillage_Quest"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FirstVillage_Quest"
 			OnTake='ShowCircleOnMinimapByName("TheVill2_Loc")' />
 
 		<quest

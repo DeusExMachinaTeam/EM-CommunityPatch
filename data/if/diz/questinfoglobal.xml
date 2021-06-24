@@ -782,7 +782,7 @@
 
 	<QuestInfo
 		questName="d_FirstVillage_Quest"
-		briefDiz="Следовать за транспортом до деревни Роторск"
+		briefDiz="Следовать за транспортом до деревни Генденбургск"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
@@ -1173,7 +1173,7 @@
 
 	<QuestInfo
 		questName="d_SecondVillage_Quest"
-		briefDiz="Следовать за транспортом до деревни Геденбургск"
+		briefDiz="Следовать за транспортом до деревни Роторск"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
@@ -1872,7 +1872,7 @@
 		isMainQuest="0">
 		<Map
 			name="r2m1"
-			targetObjName="KINGPIN" />
+			targetObjName="BossNarcotikCar_vehicle_0" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1881,7 +1881,7 @@
 		isMainQuest="0">
 		<Map
 			name="r2m1"
-			targetObjName="CaravanWithNarcotikCars_vehicle_0" />
+			targetObjName="CaravanWithNarcotikCars" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2039,11 +2039,7 @@
 		isMainQuest="1">
 		<Map
 			name="r2m1"
-			targetObjName="KaravanSNGTill_vehicle_0" />
-
-		<Map
-			name="r2m2"
-			targetObjName="ToR2M1" />
+			targetObjName="KaravanSNGTill" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2091,6 +2087,15 @@
 		<Map
 			name="r3m2"
 			targetObjName="Oracle_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_GoToLibrium"
+		briefDiz="Пробраться на территорию врага"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="ToR2M1" />
 	</QuestInfo>
 
 	<QuestInfo

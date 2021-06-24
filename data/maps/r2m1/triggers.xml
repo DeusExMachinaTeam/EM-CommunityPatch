@@ -58,6 +58,7 @@
 			TActivate( "trCaravanToVill15sec" )
 			TActivate( "trCaravanToVill1INPLACE" )
 			TActivate( "trCaravanLength" )
+			TakeQuest("d_CaravanFromTuzzToVillage_Quest")
 
 			trigger:Deactivate()
 		</script>
@@ -350,9 +351,9 @@
 
 
 	<trigger Name="Start000" active="1">
-		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			if IsQuestTaken("r2m2_FindSNGKaravan") and not( IsQuestComplete("r2m2_FindSNGKaravan"))  then
+			if IsQuestTaken("r2m2_GoToLibrium") and not( IsQuestComplete("r2m2_GoToLibrium"))  then
 				SetTolerance( 1100, 1016, RS_ENEMY )
 
 				local r1 = random(2)
@@ -365,6 +366,8 @@
 				}
 				
 				TeamCreate("KaravanSNGTill", 1016, RandCoord1[r1], {"r2m1_scout01","r2m1_Molokovoz01","r2m1_scout02"}, RandCoord2[r2], 1)
+
+				CompleteQuest("r2m2_GoToLibrium")
 
 				TActivate ("KARAVANSNGDIE")
 
@@ -854,6 +857,8 @@
 
 			TActivate("Trigger_Antipod_Die")
 
+			TakeQuest("r2m1_ArtGulik_Quest")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -861,6 +866,35 @@
 	<trigger Name="Trigger_Antipod_Die" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="GulikCar" />
 		<script>
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+			Plf:SetCustomLinearVelocity(0)
+			Plf:SetThrottle(0)
+			FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+			AddCinematicMessage(70, 1)
+
+			TActivate("Trigger_Antipod_Die_End")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Trigger_Antipod_Die_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			
+			SetCameraBehindPlayerVehicle()
+
 			CompleteQuest( "r2m1_ArtGulik_Quest" )
 
 			AddQuestItem("quest_art_masterpice")
@@ -868,8 +902,6 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
-
 
 
 
@@ -890,6 +922,8 @@
 			end
 
 			TActivate("Trigger_NarcotikCaravan_Die")
+
+			TakeQuest("r2m1_TakeNarcotics_Quest")
 
 			trigger:Deactivate()
 		</script>
@@ -916,6 +950,8 @@
 			TeamCreate("BossNarcotikCar",1002,CVector(4153,245,6402),{"r2m1_HunterNarcBoss"}, nil, 1)
 
 			TActivate("Trigger_NarcotikBoss_Die")
+
+			TakeQuest("r2m1_KillGodFather_Quest")
 
 			trigger:Deactivate()
 		</script>

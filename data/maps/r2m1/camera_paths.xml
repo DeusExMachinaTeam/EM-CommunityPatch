@@ -201,8 +201,8 @@
 
 <Path Name="LISADIED_cam08">
 
-	<Point  coord="6047.921 251.085 6582.388" rotation="-0.004 0.600 -0.003 0.800"/>
-	<Point  coord="6045.827 251.047 6582.847" rotation="0.012 0.636 0.010 0.772"/>
+	<Point  coord="6049.193 251.126 6580.905" rotation="-0.039 0.541 -0.025 0.840"/>
+	<Point  coord="6046.725 250.889 6582.040" rotation="-0.026 0.545 -0.017 0.838"/>
 
 </Path>
 
@@ -427,13 +427,13 @@
 </Path>
 
 <Path Name="UFODIOLOG_cam03">
-	<Point  coord="0 0 5"/>
+	<Point  coord="0 0 7"/>
 </Path>
 
 <Path Name="UFODIOLOG_cam04">
 
-	<Point  coord="1228.573 437.382 1502.713" rotation="0.176 -0.367 -0.071 0.910"/>
-	<Point  coord="1228.573 437.382 1502.713" rotation="0.174 -0.354 -0.067 0.916"/>
+	<Point  coord="1226.536 436.642 1498.771" rotation="0.127 -0.347 -0.047 0.928"/>
+	<Point  coord="1226.289 436.642 1499.043" rotation="0.146 -0.391 -0.063 0.907"/>
 
 </Path>
 
@@ -503,4 +503,3 @@
 
 
 </Paths>
-
