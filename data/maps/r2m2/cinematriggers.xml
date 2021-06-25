@@ -321,11 +321,13 @@
 				AddCinematicMessage( 34, 0.01 )
 			elseif (IsQuestComplete("FindBen_Quest") and IsQuestComplete("d_TakeGeneralOfBandits_Quest")) then
 				AddCinematicMessage( 25, 0.01 )
+				
+				TActivate("trExplosion")
 			else
-				AddCinematicMessage( 11, 0.01 )	
+				AddCinematicMessage( 11, 0.01 )
+				
+				TActivate("trExplosion")
 			end
-
-			TActivate("trExplosion")
 
 			trigger:Deactivate()
 		</script>
