@@ -48,7 +48,7 @@ VS_OUTPUT VertexTriPlanar(VS_INPUT input) {
 
     output.Position = mul(float4(input.Position, 1.0), FinalMatrix);
     output.UVMap0   = input.UVMap0;
-    output.UVMap1   = input.Position; //mul(float4(input.Position, 1.0), WorldMatrix).xyz;
+    output.UVMap1   = input.Position / 16; //mul(float4(input.Position, 1.0), WorldMatrix).xyz;
     output.Tangent  = input.Tangent;
     output.Binormal = cross(input.Normal, input.Tangent) * input.Tangent.w;
     output.Normal   = input.Normal;
@@ -97,7 +97,7 @@ float4 FragmentTriPlanar(VS_OUTPUT input,
     float3 Specular   = CalcSpecular(NrefL, -input.ViewDirection, Bump.a, SPECULAR_POWER, SpecularColor) * LightPower;
     float3 Light      = lerp(AmbientColor, AmbientColor + DiffuseColor.rgb, LightPower);
 
-    //Color.rgb *= Detail.rgb;
+    Color.rgb *= Detail.rgb;
     Color.rgb *= Light;
     Color.rgb += Specular;
 
