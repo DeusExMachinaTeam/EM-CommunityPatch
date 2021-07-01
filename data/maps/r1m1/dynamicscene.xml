@@ -1212,8 +1212,8 @@
 		HadPlayerInside="0">
 		<Polygon>
 			<Point
-				x="1154.489"
-				y="1454.439" />
+				x="775.715"
+				y="2231.774" />
 
 			<Point
 				x="472.354"
@@ -1236,8 +1236,8 @@
 				y="1167.408" />
 
 			<Point
-				x="1531.320"
-				y="1268.788" />
+				x="1725.265"
+				y="1519.990" />
 		</Polygon>
 
 		<DropOut>
@@ -1727,12 +1727,12 @@
 				y="2260.423" />
 
 			<Point
-				x="1361.315"
-				y="1502.869" />
+				x="1413.015"
+				y="1777.306" />
 
 			<Point
-				x="817.768"
-				y="1611.615" />
+				x="812.692"
+				y="2233.113" />
 
 			<Point
 				x="898.252"
@@ -37112,10 +37112,6 @@
 	</Object>
 
 	<Object
-		Belong="1100"
-		Prototype="someRecollection" />
-
-	<Object
 		Name="InfectionZone2"
 		Belong="1002"
 		Prototype="InfectionZone"
@@ -37469,4 +37465,8 @@
 				y="1825.522" />
 		</DropOut>
 	</Object>
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
 </DynamicScene>
