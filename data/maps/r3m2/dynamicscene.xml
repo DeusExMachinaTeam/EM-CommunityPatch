@@ -1308,7 +1308,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace15_loc"
+		Name="SecretPlace14_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="3005.904 274.626 2224.616"
@@ -1316,7 +1316,7 @@
 
 	<Object
 		Flags="21"
-		Name="MegaSecretPlace1_loc"
+		Name="SecretPlace15_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="2214.009 274.000 2511.314"
@@ -1324,7 +1324,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace14_loc"
+		Name="SecretPlace16_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="1995.161 266.210 2637.904"
@@ -1332,7 +1332,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace16_loc"
+		Name="SecretPlace17_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="1662.897 270.436 3111.157"
@@ -1340,7 +1340,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace17_loc"
+		Name="SecretPlace18_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="1700.379 264.000 2355.746"
@@ -1348,7 +1348,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace18_loc"
+		Name="SecretPlace19_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="1235.826 319.685 2692.007"
@@ -1356,7 +1356,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace19_loc"
+		Name="SecretPlace20_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="593.265 262.093 3403.660"
@@ -1364,7 +1364,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace20_loc"
+		Name="SecretPlace21_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="1270.554 301.025 2999.129"
@@ -1372,7 +1372,7 @@
 
 	<Object
 		Flags="21"
-		Name="MegaSecretPlace2_loc"
+		Name="SecretPlace22_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="3764.655 394.376 2050.521"
@@ -1380,7 +1380,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace21_loc"
+		Name="SecretPlace23_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="3032.323 264.000 1817.663"
@@ -1388,7 +1388,7 @@
 
 	<Object
 		Flags="21"
-		Name="SecretPlace23_loc"
+		Name="SecretPlace24_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="2994.186 268.216 1262.953"
