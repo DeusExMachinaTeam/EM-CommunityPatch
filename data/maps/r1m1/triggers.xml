@@ -16,7 +16,7 @@
 
 			for i=1,4 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)])
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0,2))
 			end
 			trigger:Deactivate()
 		</script>
