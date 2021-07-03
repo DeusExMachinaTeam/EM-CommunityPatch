@@ -609,7 +609,7 @@
 
 			while getObj("SecretPlace"..i.."_loc")~=nil do
 --				println(i)
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
 				i = i + 1
 			end
 
