@@ -1099,8 +1099,14 @@ function CreateRandomAffixesForGun(CountAffixes)
 						{{ "with_truncated_barrel_gun", "without_sight_gun", "without_cooling_gun" },
 						{ "with_enlarged_barrel_gun", "with_long_barrel_gun", "with_laser_sight_gun","with_electric_sight_gun", "with_water_cooling_gun", "with_nitro_cooling_gun" }}}
 		affixTypes = { random(1, 3), random(1, 3) }
-		while affixTypes[1] == affixTypes[2] do
-			affixTypes[2] = random(1, 3)
+		if affixTypes[1] == affixTypes[2] then
+			otherTypes = {}
+			for i = 1, 3 do
+				if i ~= affixTypes[1] then
+					insert(otherTypes, i)
+					affixTypes[2] = otherTypes[random(getn(otherTypes))]
+				end
+			end
 		end
 		quality = random(1, 2)
 		for i = 1, CountAffixes do
