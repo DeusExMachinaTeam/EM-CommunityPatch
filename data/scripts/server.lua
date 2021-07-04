@@ -1103,7 +1103,7 @@ function CreateRandomAffixesForGun(CountAffixes)
 			otherTypes = {}
 			for i = 1, 3 do
 				if i ~= affixTypes[1] then
-					insert(otherTypes, i)
+					table.insert(otherTypes, i)
 					affixTypes[2] = otherTypes[random(getn(otherTypes))]
 				end
 			end
