@@ -1,11 +1,28 @@
-/** Bump Specular Gloss Shader for Hardtruck Apocalypse
- * 
- * Author:  Aleksandr Fateev (foggy1989@gmail.com)
- * Version: 2021-05-19
- * License: Attribution-NonCommercial-ShareAlike 4.0 International 
+/**
+ *  Reworked default bumpdiffuse_envalphagloss_spec shader
+ *  Migrated from vertex to pixel light model
  *
- * https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+ *  Meta:
+ *    Author: Alexander Fateev
+ *    Version: 1.2.0
+ *    License: Attribution-NonCommercial-ShareAlike 4.0 International
  *
+ * !!DataSpecification:
+ *    ShaderName: bumpdiffuse_envalphagloss_spec
+ *    VertexType: XYZNT1T
+ *    UVChannels: 1
+ *    Requires:
+ *      - "tlib.fx"
+ *    Textures:
+ *      Diffuse:
+ *        Color: RGB
+ *        Reflection: A
+ *      Bump:
+ *        Normal: RGB
+ *        Specular: A
+ *      Cubemap:
+ *        # Required value "lobbycube.dds"
+ *        Color: RGB
  **/
 
 

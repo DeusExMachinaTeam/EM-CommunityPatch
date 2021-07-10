@@ -1,3 +1,28 @@
+/**
+ *  Simplest triplanar shader
+ *
+ *  Meta:
+ *    Author: Alexander Fateev
+ *    Version: 1.0.0
+ *    License: Attribution-NonCommercial-ShareAlike 4.0 International
+ *
+ * !!DataSpecification:
+ *    ShaderName: TriPlanar
+ *    VertexType: XYZNT1T
+ *    UVChannels: 1
+ *    Requires:
+ *      - "tlib.fx"
+ *    Textures:
+ *      Diffuse:
+ *        Color: RGB
+ *        Transparency: A
+ *      Detail:
+ *        Color: RGB
+ *      Bump:
+ *        Normal: RGB
+ *        Specular: A
+ **/
+
 #include "lib.fx"
 #include "tlib.fx"
 
