@@ -2799,7 +2799,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 		= "Robot03">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "robot01Cab02" />
-			<Part id = "BASKET"			Prototype = "fakeCargo" />
+			<Part id = "BASKET"			Prototype = "bigfakeCargo" />
 			<Part id = "BASKET_GIANT_GUN"		Prototype = "robotgun01" />
 		</Parts>
 	</Prototype>
@@ -2811,7 +2811,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 		= "Robot03">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "robot01Cab03" />
-			<Part id = "BASKET"			Prototype = "fakeCargo" />
+			<Part id = "BASKET"			Prototype = "bigfakeCargo" />
 			<Part id = "BASKET_GIANT_GUN"		Prototype = "robotgun01" />
 		</Parts>
 	</Prototype>

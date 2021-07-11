@@ -1324,7 +1324,7 @@
 		name="r3m1_NearOracle_ODefenders_1_N16221"
 		text="Я привезу голову чудовища!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_MonterHead'); TActivate('trPlTurnRoundOracleDef'); EndConversation() " />
+		scriptResult="TakeQuest('r3m2_MonterHead'); TActivate('cinTurnOracleDef'); EndConversation() " />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N1021"
@@ -1395,7 +1395,7 @@
 		name="r3m1_NearOracle_ODefenders_2_N021"
 		text="Пока я не смог с ним справиться."
 		role="PLAYER"
-		scriptResult="TActivate('trPlTurnRoundOracleDef'); EndConversation()" />
+		scriptResult="TActivate('cinTurnOracleDef'); EndConversation()" />
 <!--Root/r3m2/Оракул 1 раз-->
 	<Reply
 		name="r3m2_Oracle_Oracle_1_N01"
@@ -1445,7 +1445,7 @@
 		name="r3m2_Oracle_Oracle_1_P08"
 		text="Хорошо, я скоро вернусь."
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_TwoMagicThing'); TActivate('trWentToFactory'); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_TwoMagicThing'); TActivate('trWentToFactory'); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation()" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_2_N01"
@@ -1575,7 +1575,7 @@
 		name="r3m2_Oracle_Oracle_3_N08"
 		text="Я отправляюсь немедленно. У меня появилась надежда!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation()" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N01"
@@ -1650,7 +1650,7 @@
 		name="r3m2_Oracle_Oracle_4_N121"
 		text="Пожалуй, стоит ещё раз побывать в доме отца. "
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_RideToFatherRoomAfterOracul'); AddHistory( 'r3_Oracle_NeedDisc2' ) AddFadingMsgId( 'fm_history_got' ) EndConversation();" />
+		scriptResult="TakeQuest('r3m2_RideToFatherRoomAfterOracul'); GetPlayerVehicle():SetCustomLinearVelocity(0); AddHistory( 'r3_Oracle_NeedDisc2' ) AddFadingMsgId( 'fm_history_got' ) EndConversation();" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N032"
@@ -1711,7 +1711,7 @@
 		name="r3m2_Oracle_Oracle_4_N122"
 		text="Эй, погоди! Я с тобой ещё не закончил!.. Похоже, придётся задать пару вопросов Лисе. "
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_TalkWithLisa'); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_TalkWithLisa'); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation()" />
 <!--Root/r3m2/принесли 2ой диск-->
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N01"
@@ -1800,7 +1800,7 @@
 		name="Dlg_pl_000205"
 		text="Ты всё-таки обманул меня! Хорошо хоть я успел получить нужные мне сведения…"
 		role="PLAYER"
-		scriptResult="CompleteQuest('r2m2_GiveDisk2ToOrakul'); AddFadingMsgId( 'fm_history_got' ); RemoveQuestItem( 'quest_disk_1' ); RemoveQuestItem( 'quest_disk_2' ); EndConversation();" />
+		scriptResult="CompleteQuest('r2m2_GiveDisk2ToOrakul'); AddFadingMsgId( 'fm_history_got' ); RemoveQuestItem( 'quest_disk_1' ); RemoveQuestItem( 'quest_disk_2' ); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation();" />
 <!--Root/r3m2/У друида и знаки-->
 	<Reply
 		name="r3m2_AloneDruid1_2_N01"
@@ -3531,7 +3531,7 @@
 		name="Dlg_pl_001128"
 		text="Скоро вернусь."
 		role="PLAYER"
-		scriptResult="TActivate ('Trigger_NarcotikCaravan');  TakeQuest('r2m1_TakeNarcotics_Quest');  GetCurNpc():SetSpokenCount( 1 );  EndConversation()" />
+		scriptResult="TActivate ('Trigger_NarcotikCaravan');  GetCurNpc():SetSpokenCount( 1 );  EndConversation()" />
 <!--Root/r2m1/Опциональные/Убить Босса-->
 	<Reply
 		name="Gulik_hellodlg1"
@@ -3562,7 +3562,7 @@
 		name="Dlg_pl_001131"
 		text="Я сделаю это."
 		role="PLAYER"
-		scriptResult=" TActivate ('Trigger_NarcotikBoss');  CompleteQuest('r2m1_ReturnNarcotics_Quest');  TakeQuest('r2m1_KillGodFather_Quest');  RemoveQuestItem('quest_mafia_narcotik');  EndConversation()" />
+		scriptResult=" TActivate ('Trigger_NarcotikBoss');  CompleteQuest('r2m1_ReturnNarcotics_Quest');  RemoveQuestItem('quest_mafia_narcotik');  EndConversation()" />
 <!--Root/r2m1/Сюжетные/Гражданин в Сели-->
 	<Reply
 		name="SelCitizen_hellodlg0"
