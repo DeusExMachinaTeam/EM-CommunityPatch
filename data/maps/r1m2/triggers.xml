@@ -14,12 +14,12 @@
 	<trigger	Name="trRidzinPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local gunlist = {"hornet01","specter01","pkt01","kord01","storm01","minePusher_1","hurricane01","vulcan01"}
+			local gunlist = {"specter01","pkt01","kord01","hornet01","storm01","hurricane01","vulcan01"}
 			local len = getn(gunlist)
 
 			for i=1,10 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
 			end
 			trigger:Deactivate()
 		</script>
