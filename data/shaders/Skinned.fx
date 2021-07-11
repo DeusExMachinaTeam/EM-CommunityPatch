@@ -3,7 +3,7 @@
  *
  *  Meta:
  *    Author: Alexander Fateev
- *    Version: 1.0.1
+ *    Version: 1.0.3
  *    License: Attribution-NonCommercial-ShareAlike 4.0 International
  *
  * !!DataSpecification:
@@ -20,8 +20,8 @@
  *        Color: RGB
  *        Blend Coeficient: A
  *      Lightmap:
- *        Reflect: R
- *        Specular: G
+ *        Specular: R
+ *        Reflect: G
  *        Ambient Occlusion: B
  *      Bump:
  *        Normal: RGB
@@ -127,9 +127,10 @@ float4 SkinnedPS(VS_OUTPUT input,
 
     float3 Cubemap    = CalcReflection(EnvSampler, input.ViewDirection, Normal, WorldMatrix);
     float  LightPower = CalcLight(NdotL);
+    LightPower       *= Params.b;
     float3 Specular   = CalcSpecular(NrefL, -input.ViewDirection, Coeficient, SPECULAR_POWER, SpecularColor) * LightPower;
     float3 Light      = lerp(AmbientColor, AmbientColor + DiffuseColor.rgb, LightPower);
-    Light             *= Params.b;
+    Light            *= Params.b;
 
     float3 Final = lerp(Mask.rgb, Diffuse.rgb, Mask.a);
     Final        = lerp(Final, Cubemap, Reflection);
@@ -143,7 +144,7 @@ technique Skinned <bool   ComputeTangentSpace = true;
                    string VertexFormat = "VERTEX_XYZNT1T";
                    bool   Default = true;
                    bool   IsPs20 = true;
-                   bool   UseAlpha = false;> {
+                   bool   UseAlpha = true;> {
     pass Default {
         VertexShader = compile vs_2_0 SkinnedVS();
         PixelShader  = compile ps_2_0 SkinnedPS(g_Ambient, g_Diffuse, g_Specular);
