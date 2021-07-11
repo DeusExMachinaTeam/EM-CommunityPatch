@@ -3,7 +3,7 @@
  *
  *  Meta:
  *    Author: Alexander Fateev
- *    Version: 1.0.0
+ *    Version: 1.0.1
  *    License: Attribution-NonCommercial-ShareAlike 4.0 International
  *
  * !!DataSpecification:
@@ -47,7 +47,7 @@ texture BumpTexture: BUMP_MAP_0;
 DECLARE_BUMP_SAMPLER(BumpSampler, BumpTexture)
 
 texture LightTexture: LIGHT_MAP_0;
-DECLARE_BUMP_SAMPLER(LightSampler, LightTexture)
+DECLARE_DIFFUSE_SAMPLER(LightSampler, LightTexture)
 
 texture EnvTexture: CUBE_MAP_0;
 DECLARE_CUBEMAP_SAMPLER(EnvSampler, EnvTexture)
@@ -110,8 +110,8 @@ float4 SkinnedPS(VS_OUTPUT input,
     Bump.xyz       = normalize(Bump.xyz * 2.0f - 1.0f);
     float3 Normal  = mul(Bump, float3x3(input.Tangent.xyz, input.Binormal, input.Normal));
 
-    float Reflection = pow(Params.r, 2);
-    float Coeficient = pow(Params.g, 2);
+    float Reflection = pow(Params.g, 2);
+    float Coeficient = pow(Params.r, 2);
 
     #ifdef WEATHER
     if (SpecularColor.r > 0.97f) {
@@ -126,11 +126,12 @@ float4 SkinnedPS(VS_OUTPUT input,
     float3 NrefL      = reflect(-LightDirection, Normal);
 
     float3 Cubemap    = CalcReflection(EnvSampler, input.ViewDirection, Normal, WorldMatrix);
-    float  LightPower = CalcLight(NdotL) * Params.b;
+    float  LightPower = CalcLight(NdotL);
     float3 Specular   = CalcSpecular(NrefL, -input.ViewDirection, Coeficient, SPECULAR_POWER, SpecularColor) * LightPower;
     float3 Light      = lerp(AmbientColor, AmbientColor + DiffuseColor.rgb, LightPower);
+    Light             *= Params.b;
 
-    float3 Final = lerp(Diffuse.rgb, Mask.rgb, Mask.a);
+    float3 Final = lerp(Mask.rgb, Diffuse.rgb, Mask.a);
     Final        = lerp(Final, Cubemap, Reflection);
     Final       *= Light;
     Final       += Specular;
