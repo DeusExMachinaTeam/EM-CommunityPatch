@@ -43,15 +43,15 @@
 				<AnimationOnShow
 					animationEnabled="1"
 					animationType="TO_TOP"
-					animationSpeed="350"
-					animationAccel="-100"
+					animationSpeed="200"
+					animationAccel="0"
 					animationDelayTime="0"/>
 
 				<AnimationOnHide
 					animationEnabled="1"
 					animationType="TO_BEYOND_BOTTOM"
-					animationSpeed="150"
-					animationAccel="300"
+					animationSpeed="200"
+					animationAccel="0"
 					animationDelayTime="0"/>
 			</Animations>
 		</Node>
@@ -299,15 +299,15 @@
 				<AnimationOnShow
 					animationEnabled="1"
 					animationType="TO_BOTTOM"
-					animationSpeed="600"
-					animationAccel="-300"
-					animationDelayTime="100"/>
+					animationSpeed="200"
+					animationAccel="0"
+					animationDelayTime="0"/>
 
 				<AnimationOnHide
 					animationEnabled="1"
 					animationType="TO_BEYOND_TOP"
-					animationSpeed="300"
-					animationAccel="350"
+					animationSpeed="200"
+					animationAccel="0"
 					animationDelayTime="0"/>
 			</Animations>
 		</Node>
@@ -334,15 +334,15 @@
 				<AnimationOnShow
 					animationEnabled="1"
 					animationType="TO_BOTTOM"
-					animationSpeed="600"
-					animationAccel="-300"
-					animationDelayTime="100"/>
+					animationSpeed="200"
+					animationAccel="0"
+					animationDelayTime="0"/>
 
 				<AnimationOnHide
 					animationEnabled="1"
 					animationType="TO_BEYOND_TOP"
-					animationSpeed="300"
-					animationAccel="350"
+					animationSpeed="200"
+					animationAccel="0"
 					animationDelayTime="0"/>
 			</Animations>
 		</Node>
