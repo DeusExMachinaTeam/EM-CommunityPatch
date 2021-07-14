@@ -388,7 +388,7 @@
 		<Node
 			name="wndDisabledBg"
 			class="ImageWnd"
-			org="106.000 17.000 689.000 342.000"
+			org="106.000 17.000 836.000 359.000"
 			style="768"
 			order="2"
 			id="0"
@@ -406,7 +406,7 @@
 		<Node
 			name="wndHidePictureBg"
 			class="ImageWnd"
-			org="448.000 90.000 270.000 270.000"
+			org="347.000 79.000 335.000 298.000"
 			style="768"
 			order="2"
 			id="0"

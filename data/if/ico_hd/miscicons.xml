@@ -354,7 +354,7 @@
 	<Item id="Symbol_9_Large"			file="data\if\ico_hd\Digitals\Large\num_large_9.dds"	file1=""/>	
 
 <!-- Всплывающие сообщения -->
-	<Item id="FadingMsgBg"				file="data\if\frames\Up_panel_back.dds"					file1=""/>	
+	<Item id="FadingMsgBg"				file="data\if\frames\Up_panel_back_darker.dds"					file1=""/>	
 
 <!-- Игровое меню --> 
 	<Item id="ExMachinaLogo"			file="data\if\ico_hd\GameMenu\menu_logo_xm.dds"			file1=""/>	

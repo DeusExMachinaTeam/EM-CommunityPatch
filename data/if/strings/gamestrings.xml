@@ -110,11 +110,11 @@
 
 	<string
 		id="GameWasSaved"
-		value="Игра сохранена: @fffed11b%1s" />
+		value="Игра сохранена: @ffffd86e%1s" />
 
 	<string
 		id="GameWasLoaded"
-		value="Игра загружена: @fffed11b%1s" />
+		value="Игра загружена: @ffffd86e%1s" />
 
 	<string
 		id="GameSaving"
