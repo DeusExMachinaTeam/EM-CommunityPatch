@@ -107,7 +107,7 @@
    <!-- <Item id="avenger01"		      file="data\if\ico\InventoryDlg\weapon\01.dds"			file1="data\if\ico\InventoryDlg\weapon\01.dds"/> -->
    <Item id="bumblebee01"	      file="data\if\ico_hd\InventoryDlg\weapon\Bumblebee.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Bumblebee_min.dds"/>
    <Item id="omega01"		      file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
-   <Item id="tank01"			      file="data\if\ico\InventoryDlg\weapon\tank.dds"			file1="data\if\ico\InventoryDlg\weapon\tank.dds"/>
+   <Item id="tank01"			      file="data\if\ico_hd\InventoryDlg\weapon\tank.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\tank_min.dds"/>
 
    <Item id="rocketLauncher"		file="data\if\ico\InventoryDlg\weapon\Dragon.dds"		file1="data\if\ico\InventoryDlg\weapon\Dragon.dds"/>
 
