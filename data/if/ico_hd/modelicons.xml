@@ -109,7 +109,7 @@
    <Item id="omega01"		      file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
    <Item id="tank01"			      file="data\if\ico_hd\InventoryDlg\weapon\tank.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\tank_min.dds"/>
 
-   <Item id="rocketLauncher"		file="data\if\ico\InventoryDlg\weapon\Dragon.dds"		file1="data\if\ico\InventoryDlg\weapon\Dragon.dds"/>
+   <Item id="rocketLauncher"		file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
 
    <Item id="minePusher"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
    <Item id="minePusher_1"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
@@ -125,8 +125,8 @@
    <Item id="zeusSideGun"		   file="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"/>
    <Item id="marsSideGun"		   file="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"/>
 
-   <Item id="big_swingfire01"	   file="data\if\ico\InventoryDlg\weapon\Swingfire.dds"		file1="data\if\ico\InventoryDlg\weapon\Swingfire.dds"/>
-   <Item id="dragon01"			   file="data\if\ico\InventoryDlg\weapon\Dragon.dds"		   file1="data\if\ico\InventoryDlg\weapon\Dragon.dds"/>
+   <Item id="big_swingfire01"	   file="data\if\ico_hd\InventoryDlg\weapon\swingfire.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\swingfire_min.dds"/>
+   <Item id="dragon01"			   file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		   file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
    <Item id="hammer01"			   file="data\if\ico_hd\InventoryDlg\weapon\hammer01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\hammer01_min.dds"/>
 
 
