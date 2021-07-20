@@ -560,7 +560,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			FlyAround(6, 0, 25, 17, PlfCoor, PlfID, 0, 1 )
+			FlyAround(6, 0, 25, 24, PlfCoor, PlfID, 0, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 510, 0.25 )
@@ -597,7 +597,8 @@
 		<script>
 			DisableGodMode()
 			RestoreAllToleranceStatus()
-			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("ExitFromSecretTonnel_loc")))
+			GetPlayerVehicle():SetRotation(Quaternion(0.000, 0.738, -0.000, -0.675))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(1109.688, 315.825, 2865.407))
 			SetCameraBehindPlayerVehicle()
 			trigger:Deactivate()
 		</script>
