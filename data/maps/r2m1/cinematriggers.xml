@@ -1435,6 +1435,8 @@
 				TActivate("trUFODIOLOG_cam09")
 				TActivate("trUFODIOLOG_cam10")
 				TActivate("RolikEnd_UFODIOLOG")
+
+				AddBelongToEncyclopaedia(1030)
 			end
 
 			if IsQuestTaken("r2m1_DestroyAlienShip") then
@@ -1474,6 +1476,8 @@
 				TActivate("trBattleUFO_cam03")
 				TActivate("trBattleUFO_cam04")
 				TActivate("RolikEnd_BattleUFO")
+
+				AddBelongToEncyclopaedia(1030)
 			end
 
 			trigger:Deactivate()
