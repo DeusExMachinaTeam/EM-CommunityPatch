@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="ExitTo41Ok">
+		<Point
+			coord="574.734 3277.099" />
+
+		<Point
+			coord="559.885 3308.054" />
+
+		<Point
+			coord="548.465 3341.249" />
+	</Path>
+
+	<Path
+		Name="HelpMens1_path1">
+		<Point
+			coord="2594.590 1309.552" />
+
+		<Point
+			coord="2550.061 1252.919" />
+	</Path>
+
+	<Path
+		Name="HelpMens1_path2">
+		<Point
+			coord="2602.535 1307.154" />
+
+		<Point
+			coord="2556.873 1245.301" />
+	</Path>
+
+	<Path
+		Name="HelpMens1_path3">
+		<Point
+			coord="2605.818 1329.525" />
+
+		<Point
+			coord="2575.617 1273.076" />
+	</Path>
+
+	<Path
+		Name="HelpMens1_path4">
+		<Point
+			coord="2618.733 1332.649" />
+
+		<Point
+			coord="2580.847 1267.692" />
+	</Path>
+
+	<Path
+		Name="HelpMens1r_path1">
+		<Point
+			coord="2610.603 1336.547" />
+
+		<Point
+			coord="2628.689 1355.324" />
+
+		<Point
+			coord="2647.637 1368.108" />
+	</Path>
+
+	<Path
+		Name="HelpMens1r_path2">
+		<Point
+			coord="2621.363 1337.481" />
+
+		<Point
+			coord="2663.884 1368.672" />
+	</Path>
+
+	<Path
+		Name="HelpMens1r_path3">
+		<Point
+			coord="2604.174 1320.025" />
+
+		<Point
+			coord="2625.049 1345.510" />
+
+		<Point
+			coord="2656.666 1367.948" />
+	</Path>
+
+	<Path
+		Name="HelpMens1r_path4">
+		<Point
+			coord="2597.561 1296.187" />
+
+		<Point
+			coord="2616.255 1331.779" />
+
+		<Point
+			coord="2660.920 1366.443" />
+	</Path>
+
+	<Path
+		Name="HelpMens1r_path5">
+		<Point
+			coord="2589.748 1296.728" />
+
+		<Point
+			coord="2604.794 1333.136" />
+
+		<Point
+			coord="2637.384 1363.644" />
+
+		<Point
+			coord="2661.451 1376.144" />
+	</Path>
+
+	<Path
+		Name="HelpMens2_path1">
+		<Point
+			coord="2864.397 1496.905" />
+
+		<Point
+			coord="2868.530 1516.615" />
+
+		<Point
+			coord="2859.852 1543.767" />
+
+		<Point
+			coord="2848.236 1561.187" />
+
+		<Point
+			coord="2821.444 1597.166" />
+	</Path>
+
+	<Path
+		Name="HelpMens2_path2">
+		<Point
+			coord="2859.570 1500.454" />
+
+		<Point
+			coord="2857.692 1534.435" />
+
+		<Point
+			coord="2786.880 1621.644" />
+	</Path>
+
+	<Path
+		Name="HelpMens2_path3">
+		<Point
+			coord="2858.375 1490.024" />
+
+		<Point
+			coord="2865.345 1513.846" />
+
+		<Point
+			coord="2852.529 1548.653" />
+
+		<Point
+			coord="2835.799 1574.933" />
+
+		<Point
+			coord="2802.767 1609.093" />
+	</Path>
+
+	<Path
+		Name="HelpMens2_path4">
+		<Point
+			coord="2853.286 1476.432" />
+
+		<Point
+			coord="2866.769 1498.761" />
+
+		<Point
+			coord="2869.026 1519.334" />
+
+		<Point
+			coord="2841.519 1570.953" />
+	</Path>
+
+	<Path
+		Name="HelpMens2_path5">
+		<Point
+			coord="2849.125 1482.235" />
+
+		<Point
+			coord="2861.718 1505.821" />
+
+		<Point
+			coord="2860.699 1525.014" />
+
+		<Point
+			coord="2831.177 1573.111" />
+	</Path>
+
+	<Path
+		Name="HelpMens2a_path1">
+		<Point
+			coord="2775.772 1765.517" />
+
+		<Point
+			coord="2801.403 1776.723" />
+
+		<Point
+			coord="2823.024 1789.395" />
+
+		<Point
+			coord="2841.421 1811.533" />
+
+		<Point
+			coord="2865.594 1861.884" />
+	</Path>
+
+	<Path
+		Name="HelpMens2a_path2">
+		<Point
+			coord="2774.299 1773.674" />
+
+		<Point
+			coord="2810.917 1788.528" />
+
+		<Point
+			coord="2831.567 1806.410" />
+
+		<Point
+			coord="2847.569 1833.054" />
+	</Path>
+
+	<Path
+		Name="HelpMens2a_path3">
+		<Point
+			coord="2763.021 1763.392" />
+
+		<Point
+			coord="2773.365 1769.461" />
+
+		<Point
+			coord="2793.917 1777.122" />
+
+		<Point
+			coord="2820.288 1791.716" />
+
+		<Point
+			coord="2840.434 1813.756" />
+	</Path>
+
+	<Path
+		Name="HelpMens2a_path4">
+		<Point
+			coord="2759.521 1751.736" />
+
+		<Point
+			coord="2768.866 1763.945" />
+
+		<Point
+			coord="2788.213 1771.180" />
+
+		<Point
+			coord="2822.747 1788.636" />
+
+		<Point
+			coord="2847.050 1816.672" />
+	</Path>
+
+	<Path
+		Name="HelpMens2a_path5">
+		<Point
+			coord="2759.248 1762.875" />
+
+		<Point
+			coord="2780.991 1775.887" />
+
+		<Point
+			coord="2805.699 1785.663" />
+
+		<Point
+			coord="2826.646 1801.270" />
+
+		<Point
+			coord="2846.777 1831.672" />
+	</Path>
+
+	<Path
+		Name="HelpMens3_path1">
+		<Point
+			coord="3318.065 2001.583" />
+
+		<Point
+			coord="3316.821 1965.458" />
+
+		<Point
+			coord="3283.986 1943.700" />
+	</Path>
+
+	<Path
+		Name="HelpMens3_path2">
+		<Point
+			coord="3325.100 2002.163" />
+
+		<Point
+			coord="3320.855 1954.052" />
+
+		<Point
+			coord="3328.204 1927.943" />
+	</Path>
+
+	<Path
+		Name="HelpMens3_path3">
+		<Point
+			coord="3315.300 2017.859" />
+
+		<Point
+			coord="3324.483 1983.400" />
+
+		<Point
+			coord="3315.704 1943.589" />
+
+		<Point
+			coord="3303.059 1908.833" />
+
+		<Point
+			coord="3299.903 1891.427" />
+
+		<Point
+			coord="3312.507 1877.067" />
+	</Path>
+
+	<Path
+		Name="HelpMens3_path4">
+		<Point
+			coord="3296.973 2036.113" />
+
+		<Point
+			coord="3319.821 1996.377" />
+
+		<Point
+			coord="3316.432 1968.133" />
+
+		<Point
+			coord="3306.607 1931.091" />
+
+		<Point
+			coord="3285.230 1912.259" />
+
+		<Point
+			coord="3264.289 1914.865" />
+	</Path>
+
+	<Path
+		Name="HelpMens3_path5">
+		<Point
+			coord="3307.902 2038.657" />
+
+		<Point
+			coord="3328.334 1987.456" />
+
+		<Point
+			coord="3320.836 1948.308" />
+
+		<Point
+			coord="3300.508 1912.635" />
+
+		<Point
+			coord="3283.439 1888.421" />
+	</Path>
+
+	<Path
+		Name="ReturnPathR4M1">
+		<Point
+			coord="589.598 3251.288" />
+
+		<Point
+			coord="602.518 3234.875" />
+	</Path>
+
+	<Path
+		Name="ToTarelkaHuman_Path">
+		<Point
+			coord="2921.522 2363.626" />
+
+		<Point
+			coord="2918.928 2367.469" />
+	</Path>
+
+	<Path
+		Name="ToTarelkaHuman_Path2">
+		<Point
+			coord="2917.205 2370.017" />
+
+		<Point
+			coord="2914.838 2373.518" />
+	</Path>
+
+	<Path
+		Name="ToTarelka_Path">
+		<Point
+			coord="2947.427 2337.246" />
+
+		<Point
+			coord="2935.508 2350.685" />
+
+		<Point
+			coord="2928.118 2362.586" />
+	</Path>
+</Paths>
