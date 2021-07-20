@@ -351,7 +351,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			RuleConsole("cinematic_spring_coeff 1.3")
+--			RuleConsole("cinematic_spring_coeff 1.3")
 
 			local PlVehicle = GetPlayerVehicle()
 			if PlVehicle then
@@ -448,7 +448,7 @@
 			local Plf = GetPlayerVehicle()
 			Plf:PlaceToEndOfPath()
 
-			RuleConsole("cinematic_spring_coeff 0.7")
+--			RuleConsole("cinematic_spring_coeff 0.7")
 
 			SetCameraBehindPlayerVehicle()
 
