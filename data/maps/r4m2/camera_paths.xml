@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<Path Name = "ExitTo41Return">
+		<Point  coord="563.674 302.971 3218.489" rotation="-0.116 -0.301 0.037 0.946"/>
+	</Path>
+
+	<Path Name = "ExitTo41Ok">
+		<Point  coord="619.276 302.075 3211.128" rotation="-0.052 0.273 -0.015 0.960"/>
+	</Path>
+
+
+	<Path Name = "NearBase">
+		<Point  coord="1916.104 327.118 1115.399" rotation="-0.030 -0.722 0.031 0.690"/>
+		<Point  coord="1916.104 327.118 1115.399" rotation="-0.024 -0.532 0.015 0.846"/>
+	</Path>
+
+	<Path Name = "SavePlInBase1">
+		<Point  coord="2374.137 332.390 1102.836" rotation="-0.138 0.452 -0.071 0.878"/>
+		<Point  coord="2374.137 332.390 1102.836" rotation="-0.142 -0.366 0.056 0.918"/>
+	</Path>
+
+	<Path Name = "SavePlInBase2">
+		<Point  coord="2374.137 332.390 1102.836" rotation="-0.142 -0.366 0.056 0.918"/>
+		<Point  coord="2533.874 319.028 1230.741" rotation="-0.132 -0.414 0.061 0.899"/>
+	</Path>
+
+	<Path Name = "SavePlInBase3">
+		<Point  coord="2640.260 331.206 1329.874" rotation="-0.306 0.271 -0.091 0.908"/>
+		<Point  coord="2639.940 324.771 1330.013" rotation="-0.189 0.293 -0.059 0.935"/>
+	</Path>
+
+	<Path Name = "SavePlInBase4">
+		<Point  coord="2802.182 291.435 1549.657" rotation="-0.026 0.957 0.093 -0.273"/>
+		<Point  coord="2815.851 292.584 1563.077" rotation="-0.019 0.976 0.099 -0.192"/>
+	</Path>
+
+	<Path Name = "SavePlInBase5">
+		<Point  coord="2976.597 310.340 1823.661" rotation="-0.047 0.782 -0.060 0.619"/>
+		<Point  coord="2988.413 330.568 1826.744" rotation="-0.095 0.759 -0.113 0.634"/>
+	</Path>
+
+	<Path Name = "SavePlInBase6">
+		<Point  coord="3241.520 292.674 1868.705" rotation="-0.144 -0.342 0.053 0.927"/>
+		<Point  coord="3252.080 292.674 1859.667" rotation="-0.140 -0.271 0.040 0.951"/>
+	</Path>
+
+	<Path Name = "ToTarelka">
+		<Point  coord="2975.369 245.602 2284.166" rotation="-0.182 0.264 -0.051 0.946"/>
+		<Point  coord="2952.739 230.107 2320.297" rotation="-0.051 0.303 -0.016 0.952"/>
+		<Point  coord="2934.024 227.957 2345.662" rotation="-0.027 0.312 -0.009 0.950"/>
+	</Path>
+
+	<Path Name = "ToTarelka2">
+		<Point  coord="2937.345 225.547 2367.777" rotation="0.017 0.875 0.031 0.484"/>
+		<Point  coord="2910.963 223.900 2383.244" rotation="0.002 0.993 -0.013 -0.116"/>
+	</Path>
+
+	<Path Name = "ToTarelka3">
+		<Point  coord="2910.963 223.900 2383.244" rotation="0.002 0.993 -0.013 -0.116"/>
+		<Point  coord="2913.875 224.979 2375.140" rotation="-0.003 0.966 0.010 -0.257"/>
+	</Path>
+
+	<Path Name = "NearTarelka1">
+		<Point  coord="2983.215 227.129 2377.472" rotation="-0.103 0.188 -0.020 0.977"/>
+		<Point  coord="2983.215 227.129 2377.472" rotation="0.102 0.482 0.057 0.868"/>
+	</Path>
+
+	<Path Name = "NearTarelka2">
+		<Point  coord="2907.291 227.474 2411.286" rotation="0.040 0.956 -0.155 -0.244"/>
+		<Point  coord="2946.170 232.564 2339.657" rotation="0.025 0.972 -0.125 -0.198"/>
+	</Path>
+
+
+</Paths>
+
+
