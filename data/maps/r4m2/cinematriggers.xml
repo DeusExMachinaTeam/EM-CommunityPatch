@@ -383,15 +383,18 @@
 			GetPlayerVehicle():PlaceToEndOfPath("ToTarelka_Path")
 			GetPlayerVehicle():SetRotation(Quaternion(0.063, -0.316, -0.030, 0.946))
 			
-			CreateHuman( "Human_player", 1100, CVector(2921.602, 226.276, 2359.396), "PlayerHuman", "ToTarelkaHuman_Path")
+			CreateHuman( "Human_player_slow", 1100, CVector(2921.602, 226.276, 2359.396), "PlayerHuman", "ToTarelkaHuman_Path2")
+			CreateHuman( "Human_player_slow", 1100, CVector(0, 0, 0), "PlayerHuman3")
 			TActivate("cinPlate_HumReach1")
 
 --			println("cinPlateFirstAAAAAAA")
 			Fly("ToTarelka2", CINEMATIC_NO_AIM, nil, 17, 0,0)
-			Fly("ToTarelka3", CINEMATIC_NO_AIM, nil, 6, 0,1)
+			Fly("ToTarelka3", CINEMATIC_NO_AIM, nil, 11, 0,1)
 			StartCinematic()
 
 			AddCinematicMessage( 502, 0.25 )
+
+			AddCinematicMessage( 503, 2 )
 
 			local tr = getObj("cinPlate_FullEnd")
 			if tr then
@@ -408,45 +411,16 @@
 		<script>
 --			println("AAAAAAAA")
 			local hum = getObj("PlayerHuman")
-			local rot = Quaternion(0, 0, 0, 1)
+			local rot = hum:GetRotation()
+			local pos = hum:GetPosition()
 			if hum then
-			   rot=hum:GetRotation()
 			   hum:Remove()
 			end
-			AddCinematicMessage( 503, 1 )
-			CreateHuman( "Human_player_slow", 1100, CVector(2918.915, 224, 2366.947), "PlayerHuman2", "ToTarelkaHuman_Path2")
-			TActivate("cinPlate_HumReach2")
 
-			local hum2 = getObj("PlayerHuman2")
-			if hum2 then
-			   hum2:SetRotation(rot)
-			end
-
-			CreateHuman( "Human_player_slow", 1100, CVector(0, 0, 0), "PlayerHuman3")
-
-			local hum3 = getObj("PlayerHuman3")
-			if hum3 then
-			   hum3:SetRotation(rot)
-			end
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="cinPlate_HumReach2" active="0">
-		<event eventid="GE_TARGET_REACHED" ObjName="PlayerHuman2"/>
-		<script>
---			println("BBBBBBBBB")
-			local hum = getObj("PlayerHuman2")
-			local rot = Quaternion(0, 0, 0, 1)
-			if hum then
-			   rot=hum:GetRotation()
-			   hum:Remove()
-			end
 			local hum2 = getObj("PlayerHuman3")
 			if hum2 then
 			   hum2:SetRotation(rot)
-			   hum2:SetPosition(CVector(2914.838, 223, 2373.518))
+			   hum2:SetPosition(pos)
 			end
 			trigger:Deactivate()
 		</script>
