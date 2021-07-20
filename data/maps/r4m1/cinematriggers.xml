@@ -92,9 +92,10 @@
 			if veh then
 --	            LOG("A3")
 				veh:SetExternalPathByName("playerMolokPath")
+				veh:SetCruisingSpeed(15)
 			end
 --            LOG("A4")
-			Fly("molokovozExit", CINEMATIC_NO_AIM, nil, 10, 1,1)
+			Fly("molokovozExit", CINEMATIC_NO_AIM, nil, 11, 1,1)
 			StartCinematic()
 --            LOG("A5")
 			trigger:Deactivate()
