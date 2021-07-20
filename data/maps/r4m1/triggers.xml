@@ -179,10 +179,11 @@
 				AddVehicleGunsWithRandomAffix( attm:GetVehicle(2), "hunterSideGun",  3, 8+random(2))
 				AddVehicleGunsWithRandomAffix( attm:GetVehicle(3), "vulcan01", 3, 10)
 			end
-
+			CompleteQuest("r4m1_FPR_MeetWithOldMan")
 			SetTolerance(1100,1025, RS_ENEMY)
 			SetTolerance(1026,1025, RS_ENEMY)
 			TActivate("trBuharsAttackersDie")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -239,6 +240,8 @@
 			TActivate("trBuharsDie")
 			TActivate("trBuharsEnterToPort")
 			TActivate("trBuhReachPoint")
+
+			TakeQuest("r4m1_RBC_Evacuate")
 			trigger:Deactivate() 
 		</script>
 	</trigger>

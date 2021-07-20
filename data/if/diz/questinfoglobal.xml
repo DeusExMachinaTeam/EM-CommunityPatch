@@ -2974,6 +2974,15 @@
 
 	<QuestInfo
 		questName="r4m1_KNO_FindSpecialist"
+		briefDiz="Искать нефтегонщика в Алихаме"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r4_AlihamVil" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r4m1_KNO_FindSpecialist_1"
 		briefDiz="Догнать специалиста по перегонке"
 		isMainQuest="1">
 		<Map
@@ -3015,7 +3024,11 @@
 	<QuestInfo
 		questName="r4m1_RBC_DefendCountry"
 		briefDiz="Защитить деревню от нападения"
-		isMainQuest="1" />
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="BuharsAttackers" />
+	</QuestInfo>
 
 	<QuestInfo
 		questName="r4m1_RBC_Evacuate"

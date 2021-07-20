@@ -302,7 +302,7 @@
 
 			TActivate("cinBuhArmy_End")
 
-			Fly("BuharsAttackPath", CINEMATIC_NO_AIM, nil, 6, 1,0)
+			Fly("BuharsAttackPath", CINEMATIC_NO_AIM, nil, 8, 1,1)
 			StartCinematic()
 
 			trigger:Deactivate()
