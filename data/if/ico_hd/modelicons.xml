@@ -120,8 +120,8 @@
    <Item id="engineOilPusher"		file="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"	file1="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"/>
    <Item id="someTurboAccelerationPusher" file="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"	file1="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"/>
 
-   <Item id="mrakSideGun"		   file="data\if\ico\InventoryDlg\weapon\mrakSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\mrakSideGun.dds"/>
-   <Item id="hunterSideGun"	   file="data\if\ico\InventoryDlg\weapon\hunterSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\hunterSideGun.dds"/>
+   <Item id="mrakSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\mraksidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\mraksidegun_min.dds"/>
+   <Item id="hunterSideGun"	   file="data\if\ico_hd\InventoryDlg\weapon\huntersidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\huntersidegun_min.dds"/>
    <Item id="zeusSideGun"		   file="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"/>
    <Item id="marsSideGun"		   file="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"/>
 
