@@ -301,13 +301,14 @@
 		name="r4m2_Bar_Scientist_3_N01"
 		text="Больше я ничем не могу тебе помочь. Иди и выполни задуманное!"
 		role="NPC"
-		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_COMPLETE"
+		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_COMPLETED"
 		nextReplies="r4m2_Bar_Scientist_3_N02" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_3_N02"
 		text="Это будет непросто, но я справлюсь."
-		role="PLAYER" />
+		role="PLAYER"
+		scriptResult="EndConversation()" />
 <!--Root/r4m1/Сюжетные--><!--Root/r4m1/Опциональные--><!--Root/r4m1/Разговоры о книгах-->
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N01"
