@@ -185,7 +185,7 @@ function FlyLinked( PathName, Id, PlayTime, StartFade, EndFade, LookToId, VisPan
 	WaitWhenStop, InterpolateFromPrevious )
 	
 	local cinematic = GetCinematic()
-	RuleConsole("FogOfWar 0")	
+--	RuleConsole("FogOfWar 0")	
 
 	SetCinematicFadeParams( StartFade, EndFade )
 
@@ -224,7 +224,7 @@ function FlyAround( Phi, Theta, Radius, PlayTime, curPos, Id, StartFade, EndFade
 	WaitWhenStop, InterpolateFromPrevious )
 	
 	local cinematic = GetCinematic()
-	RuleConsole("FogOfWar 0")
+--	RuleConsole("FogOfWar 0")
 
 	SetCinematicFadeParams( StartFade, EndFade )
 	
@@ -259,7 +259,7 @@ function Fly( PathName, AimType, Target, Time, StartFade, EndFade, VisPanel,
 	WaitWhenStop, InterpolateFromPrevious )
 	
 	local cinematic = GetCinematic()
-	RuleConsole("FogOfWar 0")
+--	RuleConsole("FogOfWar 0")
 
 	if not cinematic then
 		println( "Error: couldn't get cinematic" )
