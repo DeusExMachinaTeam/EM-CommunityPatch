@@ -114,16 +114,16 @@
    <Item id="minePusher"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
    <Item id="minePusher_1"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
    <Item id="minePusher_2"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
-   <Item id="nailsPusher"		   file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"		file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
+   <Item id="nailsPusher"		   file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"		   file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
    <Item id="nails1Pusher"		   file="data\if\ico\InventoryDlg\weapon\gvozdorazbrasivatel.dds"	file1="data\if\ico\InventoryDlg\weapon\gvozdorazbrasivatel.dds"/>
-   <Item id="Smoke"			      file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"	   file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
-   <Item id="engineOilPusher"		file="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"	file1="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"/>
+   <Item id="Smoke"			      file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"	      file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
+   <Item id="engineOilPusher"		file="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"	   file1="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"/>
    <Item id="someTurboAccelerationPusher" file="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"	file1="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"/>
 
    <Item id="mrakSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\mraksidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\mraksidegun_min.dds"/>
    <Item id="hunterSideGun"	   file="data\if\ico_hd\InventoryDlg\weapon\huntersidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\huntersidegun_min.dds"/>
-   <Item id="zeusSideGun"		   file="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"/>
-   <Item id="marsSideGun"		   file="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"/>
+   <Item id="zeusSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\zeussidegun.dds"   file1="data\if\ico_hd\InventoryDlg\weapon\zeussidegun_min.dds"/>
+   <Item id="marsSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\marssidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\marssidegun_min.dds"/>
 
    <Item id="big_swingfire01"	   file="data\if\ico_hd\InventoryDlg\weapon\swingfire.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\swingfire_min.dds"/>
    <Item id="dragon01"			   file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		   file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
