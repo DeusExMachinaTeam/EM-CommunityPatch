@@ -89,6 +89,10 @@
 		FullName="Галанис" />
 
 	<Object
+		Name="r4_Aliham_Bar_Visitor"
+		FullName="ОЛЛИ ГА-Тор" />
+
+	<Object
 		Name="r4_Aliham_Workshop"
 		FullName="Чинилка" />
 

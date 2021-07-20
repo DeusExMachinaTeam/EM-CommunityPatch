@@ -960,6 +960,7 @@
 			if team then
 --			   team:SetDestination()    
 			   team:SetExternalPathByName("engineerGoAwayPath")
+			   team:setImmortalMode(1)
 			   TActivate("trEngineerFree")
 			end
 			trigger:Deactivate()
@@ -997,6 +998,13 @@
 		</script>
 	</trigger>
 
+	<trigger Name="cinEngineer_MusicStop" active="0">
+	<event        timeout="20"        eventid="GE_TIME_PERIOD" />
+		<script>
+			StopPlayingCustomMusic()
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
 	<trigger	Name="trPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />

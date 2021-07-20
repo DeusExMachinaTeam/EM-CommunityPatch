@@ -26,7 +26,7 @@
 
 	<Path Name = "EngineerCamPath2">
 		<Point  coord="4171.372 265.488 5924.656" rotation="-0.169 -0.392 0.073 0.901"/>
-		<Point  coord="4171.884 265.378 5924.762" rotation="-0.172 -0.055 0.010 0.983"/>
+		<Point  coord="4146.311 260.216 5985.294" rotation="-0.037 0.226 -0.009 0.973"/>
 	</Path>
 
 	<Path Name = "EngineerCamPath3">
