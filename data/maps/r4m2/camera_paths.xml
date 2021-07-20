@@ -70,7 +70,9 @@
 		<Point  coord="2946.170 232.564 2339.657" rotation="0.025 0.972 -0.125 -0.198"/>
 	</Path>
 
+	<Path Name = "FatherCar_Cam">
+		<Point  coord="1573.958 347.360 306.011" rotation="-0.215 0.218 -0.049 0.951"/>
+		<Point  coord="1569.835 339.009 326.884" rotation="-0.205 0.387 -0.089 0.895"/>
+	</Path>
 
 </Paths>
-
-

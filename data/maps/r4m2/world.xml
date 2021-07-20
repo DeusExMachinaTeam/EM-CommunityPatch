@@ -2,7 +2,7 @@
 <World
 	name="Object321"
 	class="SgNode"
-	LastId="77650859">
+	LastId="77650926">
 	<Node
 		name="Object54"
 		class="SgAnimatedModelNode"
@@ -5491,5 +5491,133 @@
 		rot="0.0000 0.6899 0.0000 0.7239"
 		scale="1.647 1.647 1.647"
 		id="barbed_wire_high1"
+		ndmAction="0" />
+
+		<Node
+		name="Object77650908"
+		class="SgAnimatedModelNode"
+		org="1561.281 -0.109 335.754"
+		orgRel="1"
+		rot="0.2237 -0.6543 -0.2337 0.6835"
+		id="mirotvorecWheel01"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650909"
+		class="SgAnimatedModelNode"
+		org="1557.536 0.000 335.492"
+		orgRel="1"
+		rot="0.2189 -0.6357 -0.2410 0.6999"
+		id="mirotvorecWheel01"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650910"
+		class="SgAnimatedModelNode"
+		org="1554.163 -0.213 335.663"
+		orgRel="1"
+		rot="0.1631 -0.6540 -0.1787 0.7168"
+		id="mirotvorecWheel01"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650911"
+		class="SgAnimatedModelNode"
+		org="1561.225 0.000 341.141"
+		orgRel="1"
+		rot="-0.1119 0.6872 -0.1154 0.7085"
+		id="mirotvorecWheel01"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650912"
+		class="SgAnimatedModelNode"
+		org="1554.063 0.091 341.158"
+		orgRel="1"
+		rot="-0.0772 0.7203 -0.2243 0.6518"
+		id="mirotvorecWheel01"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650913"
+		class="SgAnimatedModelNode"
+		org="1557.478 0.000 341.239"
+		orgRel="1"
+		rot="-0.1628 0.7114 -0.1552 0.6658"
+		id="mirotvorecWheel01"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650914"
+		class="SgAnimatedModelNode"
+		org="1554.833 1.934 340.371"
+		orgRel="1"
+		rot="0.3927 0.5139 0.0039 0.7627"
+		id="mrak01Lgun"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650915"
+		class="SgAnimatedModelNode"
+		org="1554.969 1.137 336.012"
+		orgRel="1"
+		rot="0.4634 0.8092 -0.2995 0.2020"
+		id="mrak01Rgun"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650919"
+		class="SgAnimatedModelNode"
+		org="1551.785 2.684 337.976"
+		orgRel="1"
+		rot="-0.1874 -0.4881 0.1082 0.8455"
+		id="odin01gun"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650920"
+		class="SgAnimatedModelNode"
+		org="1562.306 1.456 338.441"
+		orgRel="1"
+		rot="-0.0217 0.8369 0.1679 0.5204"
+		id="rainmetal01gun"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650921"
+		class="SgAnimatedModelNode"
+		org="1559.539 1.566 339.019"
+		orgRel="1"
+		rot="0.0234 0.5331 -0.0368 0.8449"
+		id="big_hammer01gun"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650922"
+		class="SgAnimatedModelNode"
+		org="1554.534 2.515 338.174"
+		orgRel="1"
+		rot="-0.0024 0.7860 -0.0826 0.6126"
+		id="cyclops01gun"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object77650925"
+		class="SgAnimatedModelNode"
+		org="1564.458 0.000 339.732"
+		orgRel="1"
+		id="mina"
 		ndmAction="0" />
 </World>
