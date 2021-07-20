@@ -6007,7 +6007,7 @@ EndConversation()" />
 		name="Dlg_pl_d3d240"
 		text="Что же делать? Придётся разобраться, что здесь у вас происходит."
 		role="PLAYER"
-		scriptResult="TActivate('SPYMER');  LeaveTown(true)" />
+		scriptResult="TActivate('SPYMER');  LeaveTown()" />
 
 	<Reply
 		name="Dlg_pl_d3d242"
