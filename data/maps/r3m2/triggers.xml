@@ -344,9 +344,13 @@
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterToGarage_loc" />
 		<script>
 --			println("trExcahgeVehFirst")
-			TActivate("cinExchangeVehFirst")
+			if QuestStatus("r3m2_TwoMagicThing_Return")==Q_TAKEN then
+				trigger:Deactivate()
+			else
+				TActivate("cinExchangeVehFirst")
+				trigger:Deactivate()
+			end
 --			TActivate()
-			trigger:Deactivate()
 		</script>
 	</trigger>
 
