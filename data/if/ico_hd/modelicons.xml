@@ -80,55 +80,55 @@
    <!-- <Item id="magic_thing2"		   file="data\if\ico\InventoryDlg\magicthing2.dds"    file1=""/> -->
    <!-- <Item id="explosion_stone"	   file="data\if\ico\InventoryDlg\exp_stone.dds"      file1=""/> -->
 
-
+   <!-- Giant -->
+   <Item id="dragon01"			   file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		   file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
+   <Item id="hammer01"			   file="data\if\ico_hd\InventoryDlg\weapon\hammer01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\hammer01_min.dds"/>
    <Item id="cyclops01"			   file="data\if\ico_hd\InventoryDlg\weapon\Cyclops.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Cyclops_min.dds"/>
+   <Item id="octopus01"		      file="data\if\ico_hd\InventoryDlg\weapon\Octopus.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Octopus_min.dds"/>
+   <Item id="big_swingfire01"	   file="data\if\ico_hd\InventoryDlg\weapon\swingfire.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\swingfire_min.dds"/>
+
+   <Item id="rocketLauncher"		file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
+
+   <!-- Big -->
    <Item id="storm01"			   file="data\if\ico_hd\InventoryDlg\weapon\Storm.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Storm_min.dds"/>
    <Item id="vulcan01"			   file="data\if\ico_hd\InventoryDlg\weapon\Vulcan.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Vulcan_min.dds"/>
    <Item id="flag01"			      file="data\if\ico_hd\InventoryDlg\weapon\Flag.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\Flag_min.dds"/>
    <Item id="rainmetal01"		   file="data\if\ico_hd\InventoryDlg\weapon\Rainmetal.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Rainmetal_min.dds"/>
+   <Item id="rapier01"			   file="data\if\ico_hd\InventoryDlg\weapon\Rapier.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Rapier_min.dds"/>
+   <Item id="kpvt01"			      file="data\if\ico_hd\InventoryDlg\weapon\kpvt01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\kpvt01_min.dds"/>
+   <Item id="elephant01"	      file="data\if\ico_hd\InventoryDlg\weapon\elephant01.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\elephant01_min.dds"/>
+   <Item id="hurricane01"	      file="data\if\ico_hd\InventoryDlg\weapon\hurricane01.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hurricane01_min.dds"/>
+   <Item id="odin01"			      file="data\if\ico_hd\InventoryDlg\weapon\odin01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\odin01_min.dds"/>
+   <Item id="bumblebee01"	      file="data\if\ico_hd\InventoryDlg\weapon\Bumblebee.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Bumblebee_min.dds"/>
+   <Item id="omega01"		      file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
 
+   <!-- Small -->
    <Item id="hornet01"			   file="data\if\ico_hd\InventoryDlg\weapon\Hornet.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Hornet_min.dds"/>
    <Item id="specter01"			   file="data\if\ico_hd\InventoryDlg\weapon\Specter.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Specter_min.dds"/>
    <Item id="pkt01"			      file="data\if\ico_hd\InventoryDlg\weapon\Pkt.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\Pkt_min.dds"/>
    <Item id="kord01"			      file="data\if\ico_hd\InventoryDlg\weapon\Kord.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\Kord_min.dds"/>
    <Item id="vector01"			   file="data\if\ico_hd\InventoryDlg\weapon\vector01.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\vector01_min.dds"/>
    <Item id="maxim01"			   file="data\if\ico_hd\InventoryDlg\weapon\maxim01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\maxim01_min.dds"/>
-   <Item id="rapier01"			   file="data\if\ico_hd\InventoryDlg\weapon\Rapier.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Rapier_min.dds"/>
    <Item id="fagot01"			   file="data\if\ico_hd\InventoryDlg\weapon\fagot01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\fagot01_min.dds"/>
 
-   <Item id="kpvt01"			      file="data\if\ico_hd\InventoryDlg\weapon\kpvt01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\kpvt01_min.dds"/>
-   <Item id="octopus01"		      file="data\if\ico_hd\InventoryDlg\weapon\Octopus.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Octopus_min.dds"/>
-   <!-- <Item id="d1701"			      file="data\if\ico\InventoryDlg\weapon\01.dds"			file1="data\if\ico\InventoryDlg\weapon\01.dds"/> -->
-   <Item id="elephant01"	      file="data\if\ico_hd\InventoryDlg\weapon\elephant01.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\elephant01_min.dds"/>
-   <!-- <Item id="javelin01"		      file="data\if\ico\InventoryDlg\weapon\01.dds"			file1="data\if\ico\InventoryDlg\weapon\01.dds"/> -->
-   <Item id="hurricane01"	      file="data\if\ico_hd\InventoryDlg\weapon\hurricane01.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hurricane01_min.dds"/>
-   <Item id="hailSideGun"	      file="data\if\ico_hd\InventoryDlg\weapon\hailSideGun.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hailSideGun_min.dds"/>
-   <Item id="odin01"			      file="data\if\ico_hd\InventoryDlg\weapon\odin01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\odin01_min.dds"/>
-   <!-- <Item id="avenger01"		      file="data\if\ico\InventoryDlg\weapon\01.dds"			file1="data\if\ico\InventoryDlg\weapon\01.dds"/> -->
-   <Item id="bumblebee01"	      file="data\if\ico_hd\InventoryDlg\weapon\Bumblebee.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Bumblebee_min.dds"/>
-   <Item id="omega01"		      file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
-   <Item id="tank01"			      file="data\if\ico_hd\InventoryDlg\weapon\tank.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\tank_min.dds"/>
+   <!-- Special -->
+   <Item id="minePusher"		   file="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1_min.dds"/>
+   <Item id="minePusher_1"		   file="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1_min.dds"/>
+   <Item id="minePusher_2"		   file="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1_min.dds"/>
+   <Item id="nailsPusher"		   file="data\if\ico_hd\InventoryDlg\weapon\gvozdorazbrasivatel.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\gvozdorazbrasivatel_min.dds"/>
+   <Item id="Smoke"			      file="data\if\ico_hd\InventoryDlg\weapon\dimzavesa.dds"	      file1="data\if\ico_hd\InventoryDlg\weapon\dimzavesa_min.dds"/>
+   <Item id="engineOilPusher"		file="data\if\ico_hd\InventoryDlg\weapon\maslorazliv.dds"	   file1="data\if\ico_hd\InventoryDlg\weapon\maslorazliv_min.dds"/>
+   <Item id="someTurboAccelerationPusher" file="data\if\ico_hd\InventoryDlg\weapon\turboakselerator.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\turboakselerator_min.dds"/>
 
-   <Item id="rocketLauncher"		file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
-
-   <Item id="minePusher"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
-   <Item id="minePusher_1"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
-   <Item id="minePusher_2"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
-   <Item id="nailsPusher"		   file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"		   file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
-   <Item id="nails1Pusher"		   file="data\if\ico\InventoryDlg\weapon\gvozdorazbrasivatel.dds"	file1="data\if\ico\InventoryDlg\weapon\gvozdorazbrasivatel.dds"/>
-   <Item id="Smoke"			      file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"	      file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
-   <Item id="engineOilPusher"		file="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"	   file1="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"/>
-   <Item id="someTurboAccelerationPusher" file="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"	file1="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"/>
-
+   <!-- Side -->
    <Item id="mrakSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\mraksidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\mraksidegun_min.dds"/>
    <Item id="hunterSideGun"	   file="data\if\ico_hd\InventoryDlg\weapon\huntersidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\huntersidegun_min.dds"/>
    <Item id="zeusSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\zeussidegun.dds"   file1="data\if\ico_hd\InventoryDlg\weapon\zeussidegun_min.dds"/>
    <Item id="marsSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\marssidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\marssidegun_min.dds"/>
+   <Item id="hailSideGun"	      file="data\if\ico_hd\InventoryDlg\weapon\hailSideGun.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hailSideGun_min.dds"/>
 
-   <Item id="big_swingfire01"	   file="data\if\ico_hd\InventoryDlg\weapon\swingfire.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\swingfire_min.dds"/>
-   <Item id="dragon01"			   file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		   file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
-   <Item id="hammer01"			   file="data\if\ico_hd\InventoryDlg\weapon\hammer01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\hammer01_min.dds"/>
-
+   <!-- Tank -->
+   <Item id="tank01"			      file="data\if\ico_hd\InventoryDlg\weapon\tank.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\tank_min.dds"/>
 
    <Item id="cooling_system_guns" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
    <Item id="cooling_system_energy" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
