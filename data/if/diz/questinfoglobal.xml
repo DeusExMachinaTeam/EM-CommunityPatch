@@ -209,6 +209,23 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="FreeExtremistLeader_Quest3_1"
+		briefDiz="”ничтожить охрану"
+		isMainQuest="0">
+		<Map
+			name="r1m4"
+			targetObjName="LeaderGuardTeam" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="FreeExtremistLeader_Quest3_2"
+		briefDiz="”ничтожить головную машину"
+		isMainQuest="0">
+		<Map
+			name="r1m4" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="FreeExtremistLeader_Quest4"
 		briefDiz="ќтвезти лидера к его бойцам"
 		isMainQuest="0">

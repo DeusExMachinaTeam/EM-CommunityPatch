@@ -6,6 +6,7 @@
 		<script>
 			SetVar("Boloto",0)
 			SetVar("SubMarPh",0)
+			SetVar("MainCarDead", 0)
 		    trigger:Deactivate()
 		</script>
 	</trigger>
@@ -187,6 +188,12 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="LeaderGuardTeam" />
 		<event eventid="GE_OBJECT_DIE" ObjName="LeaderCar_vehicle_0" />
 		<script>
+			if getObj("LeaderCar_vehicle_0"):IsAlive() or GetVar("MainCarDead").AsInt==1 then
+				CompleteQuest("FreeExtremistLeader_Quest3_1")
+			else
+				CompleteQuest("FreeExtremistLeader_Quest3_2")
+				SetVar("MainCarDead", 1)
+			end
 			trigger:IncCount()
 			local count = trigger:GetCount()
 		    if 2>count then
@@ -227,12 +234,12 @@
 		<script>
 			RestoreAllToleranceStatus()
 
-			CompleteQuestIfTaken("FreeExtremistLeader_Quest3")
-			TakeQuest("FreeExtremistLeader_Quest4")
-
 			if getObj("LeaderCar") then
 				getObj("LeaderCar"):Remove()
 			end
+
+			CompleteQuestIfTaken("FreeExtremistLeader_Quest3_1")
+			CompleteQuestIfTaken("FreeExtremistLeader_Quest3_2")
 
 			trigger:Deactivate()
 		</script>
