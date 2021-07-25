@@ -453,7 +453,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
-			targetObjName="TheShahts" />
+			targetObjName="ShahtsBoss" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -515,7 +515,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
-			targetObjName="TheBanditOilMine" />
+			targetObjName="OilMineBoss" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -939,7 +939,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
-			targetObjName="TheBase" />
+			targetObjName="Argument" />
 	</QuestInfo>
 
 	<QuestInfo

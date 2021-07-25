@@ -6191,7 +6191,7 @@ EndConversation()" />
 		name="Dlg_pl_dd2168"
 		text="Опять двадцать пять. Ни дня без боя, что за жизнь!"
 		role="PLAYER"
-		scriptResult="TakeQuest( 'd_BombShahtsAtakBandits_Quest' );  TActivate('SHAHTSBANDIT');  GetCurNpc():SetSpokenCount( 1 );  LeaveTown(true)" />
+		scriptResult="TActivate('SHAHTSBANDIT');  GetCurNpc():SetSpokenCount( 1 );  LeaveTown(true)" />
 
 	<Reply
 		name="Dlg_pl_dd2170"

@@ -1504,7 +1504,7 @@
 
 		<quest
 			Name="d_DriveBanditFromOilMine_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -1596,7 +1596,7 @@
 <!--Root/r1m3/—южетные/ ƒратьс€ на базе -->
 	<quest
 		Name="d_GiveProblemToBase_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -1678,7 +1678,7 @@
 <!--Root/r1m3/—южетные/ќтобрать диск2 у вора-->
 	<quest
 		Name="r1m3_FightWithThief"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
