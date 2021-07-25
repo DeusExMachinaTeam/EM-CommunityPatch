@@ -136,29 +136,29 @@
    <Item id="firing_rate_guns" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_bul.dds" file1=""/>
    <Item id="firing_rate_energy" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_enrg.dds" file1=""/>
    <Item id="grouping_angle_guns" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_bul.dds" file1=""/>
-   <Item id="add_damage_guns" 				file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_energy" 				file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_explosion" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="firing_range_guns"  			file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
+   <Item id="add_damage_guns" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_bul.dds" file1=""/>
+   <Item id="add_damage_energy" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_enrg.dds" file1=""/>
+   <Item id="add_damage_explosion" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_exp.dds" file1=""/>
+   <Item id="firing_range_guns"  			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget7_bul.dds" file1=""/>
    <Item id="cooling_system_guns2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_bul.dds" file1=""/>
    <Item id="cooling_system_energy2" 		file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_enrg.dds" file1=""/>
    <Item id="cooling_system_explosion2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_exp.dds" file1=""/>
    <Item id="firing_rate_guns2" 			   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_v2_bul.dds" file1=""/>
    <Item id="firing_rate_energy2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_v2_enrg.dds" file1=""/>
    <Item id="grouping_angle_guns2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v2_bul.dds" file1=""/>
-   <Item id="add_damage_guns2" 				file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_energy2" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_explosion2" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
+   <Item id="add_damage_guns2" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_bul.dds" file1=""/>
+   <Item id="add_damage_energy2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_enrg.dds" file1=""/>
+   <Item id="add_damage_explosion2" 		file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_exp.dds" file1=""/>
 
-   <Item id="cooling_system_guns_and_firing_rate_guns" 		   file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
-   <Item id="cooling_system_energy_and_firing_rate_energy" 	   file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
-   <Item id="cooling_system_explosion_and_firing_rate_explosion" file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
+   <Item id="cooling_system_guns_and_firing_rate_guns" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget5_bul.dds" file1=""/>
+   <Item id="cooling_system_energy_and_firing_rate_energy" 	   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget5_enrg.dds" file1=""/>
+   <Item id="cooling_system_explosion_and_firing_rate_explosion" file="data\if\ico_hd\InventoryDlg\Gadgets\gadget5_exp.dds" file1=""/>
    <Item id="firing_rate_guns_and_add_damage_guns" 		      file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v3_bul.dds" file1=""/>
    <Item id="firing_rate_energy_and_add_damage_energy" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v3_enrg.dds" file1=""/>
    <Item id="firing_rate_explosion_and_add_damage_explosion" 	file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v3_exp.dds" file1=""/>
-   <Item id="add_damage_guns_and_grouping_angle_guns" 		   file="data\if\ico\InventoryDlg\Gadgets\GadgetW_03.dds" file1=""/>
-   <Item id="add_damage_energy_and_firing_rate_energy" 		   file="data\if\ico\InventoryDlg\Gadgets\GadgetW_03.dds" file1=""/>
-   <Item id="add_damage_explosion_firing_rate_explosion" 	   file="data\if\ico\InventoryDlg\Gadgets\GadgetW_03.dds" file1=""/>
+   <Item id="add_damage_guns_and_grouping_angle_guns" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_bul.dds" file1=""/>
+   <Item id="add_damage_energy_and_firing_rate_energy" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_enrg.dds" file1=""/>
+   <Item id="add_damage_explosion_firing_rate_explosion" 	   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_exp.dds" file1=""/>
 
    <Item id="additional_fuel_tank" 	   file="data\if\ico\InventoryDlg\Gadgets\fueltank.dds" file1=""/>
    <Item id="additional_torque" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
