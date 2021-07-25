@@ -38,7 +38,7 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="r1m2_RedkiyMineral_Quest" />
+			PrecedingQuests="r1m2_GoToArena_Quest" />
 
 		<quest
 			Name="r1m2_MovemineralToMidgard_Quest"
@@ -47,6 +47,14 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="r1m2_Glagiators_Quest" />
+
+		<quest
+			Name="r1m2_GoToArena_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_RedkiyMineral_Quest" />
 	</quest>
 <!--Root/Доехать до локации и вернуться -->
 	<quest
@@ -1792,7 +1800,23 @@
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(175)"
 		OnTake='ShowCircleOnMinimapByName("Kolizey_location")'
-		Levels="r1m2" />
+		Levels="r1m2">
+		<quest
+			Name="CombatInKollizey_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="CombatInKollizey_Quest" />
+
+		<quest
+			Name="CombatInKollizey_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="CombatInKollizey_Quest1" />
+	</quest>
 
 	<quest
 		Name="ReturnToDirector2_Quest"
@@ -2003,7 +2027,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="d_FindLisaInBandit_Quest"
+		PrecedingQuests="d_FindLisaOnSever_Quest"
 		OnComplete="AddPlayerMoney(1000)" />
 <!--Root/r1m2/Сюжетные/  Спросить в Асгарде про Тоннель -->
 	<quest
@@ -2207,6 +2231,14 @@
 			ConditionToGive="all complete"
 			PrecedingQuests="d_FindLisaInPorto_Quest"
 			OnTake='ShowCircleOnMinimapByName("LisaInBanditPlen")' />
+
+		<quest
+			Name="d_DefeatLisasBandits"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FindLisaInBandit_Quest" />
 	</quest>
 <!--Root/r1m1/Сюжетные/Найти Бена -->
 	<quest

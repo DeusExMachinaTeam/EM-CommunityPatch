@@ -24,10 +24,24 @@
 		questName="CombatInKollizey_Quest"
 		briefDiz="Показательное выступление"
 		fullDiz="Я должен устроить в Колизее показательное сражение, чтобы привлечь публику."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="CombatInKollizey_Quest1"
+		briefDiz="Добраться до Арены"
 		isMainQuest="0">
 		<Map
 			name="r1m2"
 			targetObjName="Kolizey_location" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CombatInKollizey_Quest2"
+		briefDiz="Одержать победу в поединке"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Gladiator1" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -37,7 +51,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m2"
-			targetObjName="Ruins_location" />
+			targetObjName="CarOfSiencer" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -210,7 +224,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m2"
-			targetObjName="Ruins_location" />
+			targetObjName="CarOfAntiSiencer" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -467,6 +481,22 @@
 		<Map
 			name="r1m2"
 			targetObjName="KARAVANPORTO_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_DefeatLisasBandits"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="ToR1M2" />
+
+		<Map
+			name="r1m2"
+			targetObjName="LisaInBanditDen" />
+
+		<Map
+			name="r1m3"
+			targetObjName="ToR1M2" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1477,7 +1507,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m2"
-			targetObjName="Kolizey_location" />
+			targetObjName="Gladiator2" />
 
 		<Map
 			name="r1m3" />
@@ -1488,6 +1518,38 @@
 
 		<Map
 			name="r2m1" />
+
+		<Map
+			name="r3m1" />
+
+		<Map
+			name="r3m2"
+			targetObjName="ToR3M1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r1m2_GoToArena_Quest"
+		briefDiz="Добраться до Арены"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Kolizey_location" />
+
+		<Map
+			name="r1m3"
+			targetObjName="ToR1M2" />
+
+		<Map
+			name="r1m4"
+			targetObjName="ToR1M3" />
+
+		<Map
+			name="r2m1"
+			targetObjName="ToR1M3" />
+
+		<Map
+			name="r2m2"
+			targetObjName="ToR2M1" />
 
 		<Map
 			name="r3m1" />

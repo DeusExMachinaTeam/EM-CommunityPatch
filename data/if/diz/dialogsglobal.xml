@@ -6329,7 +6329,7 @@ EndConversation()" />
 		name="Anticwar_hellodlg0_P1_1"
 		text="Давай посмотрим, что там творится…"
 		role="PLAYER"
-		scriptResult="TActivate('ANTICWAR'); TakeQuest('HelpRuins_Quest'); EndConversation()" />
+		scriptResult="TActivate('ANTICWAR'); EndConversation()" />
 
 	<Reply
 		name="Anticwar_hellodlg0_P1_2"
@@ -6348,7 +6348,7 @@ EndConversation()" />
 		name="Antisincer_hellodlg0_P1_1"
 		text="Я в деле."
 		role="PLAYER"
-		scriptResult="TActivate('ANTISIENCER'); TakeQuest('DestroyRuins_Quest'); EndConversation()" />
+		scriptResult="TActivate('ANTISIENCER'); EndConversation()" />
 
 	<Reply
 		name="Antisincer_hellodlg0_P1_2"
