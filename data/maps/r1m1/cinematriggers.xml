@@ -1398,6 +1398,8 @@
 
 			TeamCreate("FelixBanditCars2",1013,CVector(493.000, 303.000, 1883.000),{"Sml201","Sml301","Sml401"})
 
+			CompleteQuest("d_ArriveToFelix_Quest")
+
 			TActivate( "METALFELIXDIE2" )
 
 			SetCameraBehindPlayerVehicle()
@@ -1501,6 +1503,8 @@
 				FVehicle0:SetSkin ( 4 )
 				FVehicle0:setImmortalMode(1)
 			end
+
+			CompleteQuest("d_AttackFelixBase_Quest")
 
 			TDeactivate( "RolikBegin_Felix3" )
 			TDeactivate( "trFelix3" )

@@ -375,6 +375,24 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="d_ArriveToFelix_Quest"
+		briefDiz="Приехать на базу Феликса"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="FelixBaseLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_AttackFelixBase_Quest"
+		briefDiz="Избавиться от охраны"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="FelixBanditCars2" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="d_BarForTunel_Quest"
 		briefDiz="Поговорить с барменом в Асгарде"
 		fullDiz="Судя по всему, жители этого города знают, как проехать через горы на запад. "
@@ -926,7 +944,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m1"
-			targetObjName="FelixBaseLoc" />
+			targetObjName="FelixBanditCars3" />
 	</QuestInfo>
 
 	<QuestInfo

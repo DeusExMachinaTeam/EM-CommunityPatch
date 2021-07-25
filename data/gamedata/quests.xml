@@ -2275,8 +2275,24 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="d_GetBigBoom_Quest"
+			PrecedingQuests="d_AttackFelixBase"
 			OnTake='ShowCircleOnMinimapByName("FelixBaseLoc")' />
+
+		<quest
+			Name="d_AttackFelixBase_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_ArriveToFelix" />
+
+		<quest
+			Name="d_ArriveToFelix_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_GetBigBoom_Quest" />
 	</quest>
 
 	<MutuallyExclusives>
