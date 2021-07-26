@@ -498,6 +498,7 @@
 
 			TActivate( "HELPHELPHELP_ce" )
 
+			CompleteQuest("d_HelpSideVillageSNG_Quest1")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -547,7 +548,7 @@
 
 			TActivate( "RAZBOYINVILLAGEDEAD_ce" )
 
-			CompleteQuest( "d_HelpSideVillageSNG_Quest" )
+			CompleteQuest( "d_HelpSideVillageSNG_Quest2" )
 
 			trigger:Deactivate()
 		</script>
@@ -621,6 +622,8 @@
 
 			SetCameraBehindPlayerVehicle()
 
+			CompleteQuest("d_FreeTunel_Quest1")
+
 			trigger:Deactivate() 
 		</script>
 	</trigger>
@@ -649,7 +652,7 @@
 
 			TActivate ("TUNELFIGHTERDEAD_ce")
 
-			CompleteQuest( "d_FreeTunel_Quest" )
+			CompleteQuest( "d_FreeTunel_Quest2" )
 
 			trigger:Deactivate()
 		</script>
@@ -691,6 +694,8 @@
 			TActivate ("TAKEBOSSARDEAD")
 			TActivate ("RolikBegin_TAKEBOSSARLOC")
 
+			CompleteQuest("d_TakeGeneralOfBandits_Quest1")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -718,7 +723,7 @@
 
 			TActivate( "TAKEBOSSARDEAD_ce" )
 
-			CompleteQuest( "d_TakeGeneralOfBandits_Quest" )
+			CompleteQuest( "d_TakeGeneralOfBandits_Quest2" )
 			CompleteQuest( "d_FindAksel_Quest" )
 
 			trigger:Deactivate()

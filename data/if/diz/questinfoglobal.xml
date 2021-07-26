@@ -872,10 +872,24 @@
 		questName="d_FreeTunel_Quest"
 		briefDiz="Освободить тоннель"
 		fullDiz="До сих пор АР получает ресурсы и наемников через тоннель. Захватив его, СНГ обрубит захватчикам важную артерию. Чтобы сделать это, придется убить всех охранников."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="d_FreeTunel_Quest1"
+		briefDiz="Добраться до тоннеля"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
 			targetObjName="TunnelAttackLocation" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_FreeTunel_Quest2"
+		briefDiz="Убить бандитов"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="TunelTeamFighters" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -984,10 +998,24 @@
 		questName="d_HelpSideVillageSNG_Quest"
 		briefDiz="Защитить пограничную деревню"
 		fullDiz="Небольшие поселения постоянно повергаются атакам головорезов Алого Рассвета. Я могу предотвратить нападение и я сделаю это. "
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="d_HelpSideVillageSNG_Quest1"
+		briefDiz="Добраться до деревни"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
 			targetObjName="TheUnderAttaks" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_HelpSideVillageSNG_Quest2"
+		briefDiz="Отразить нападение"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Razboy" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1295,6 +1323,24 @@
 		<Map
 			name="r2m1"
 			targetObjName="BossARLocation" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_TakeGeneralOfBandits_Quest1"
+		briefDiz="Добраться до места засады"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="BossARLocation" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_TakeGeneralOfBandits_Quest2"
+		briefDiz="Захватить генерала АР"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="BossARCar" />
 	</QuestInfo>
 
 	<QuestInfo

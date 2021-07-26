@@ -1083,7 +1083,23 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="d_PatrulSideSNG_Quest"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000, "pkt01", 3, 10)'
-		OnTake='ShowCircleOnMinimapByName("TheUnderAttaks")' />
+		OnTake='ShowCircleOnMinimapByName("TheUnderAttaks")'>
+		<quest
+			Name="d_HelpSideVillageSNG_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_HelpSideVillageSNG_Quest" />
+
+		<quest
+			Name="d_HelpSideVillageSNG_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_HelpSideVillageSNG_Quest1" />
+	</quest>
 <!--Root/r2m1/Сюжетные/  Вернeуться в Тузз -->
 	<quest
 		Name="d_ReturnTuzz_Quest"
@@ -1139,7 +1155,23 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="d_CaravanFromTuzzToVillage_Quest"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000, "pkt01", 3, 10)'
-		OnTake='ShowCircleOnMinimapByName("TunnelAttackLocation")' />
+		OnTake='ShowCircleOnMinimapByName("TunnelAttackLocation")'>
+		<quest
+			Name="d_FreeTunel_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_FreeTunel_Quest" />
+
+		<quest
+			Name="d_FreeTunel_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FreeTunel_Quest1" />
+	</quest>
 <!--Root/r2m1/Сюжетные/ В Гельветцию  -->
 	<quest
 		Name="d_FromTuzzToGelvetcia_Quest"
@@ -1194,7 +1226,23 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		OnTake='ShowCircleOnMinimapByName("BossARLocation")' />
+		OnTake='ShowCircleOnMinimapByName("BossARLocation")'>
+		<quest
+			Name="d_TakeGeneralOfBandits_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_TakeGeneralOfBandits_Quest" />
+
+		<quest
+			Name="d_TakeGeneralOfBandits_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_TakeGeneralOfBandits_Quest1" />
+	</quest>
 <!--Root/r2m1/Сюжетные/ В Гельвецию с генералом -->
 	<quest
 		Name="d_MoveWithGeneralToGelvetcia_Quest"
