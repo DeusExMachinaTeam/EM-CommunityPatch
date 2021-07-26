@@ -560,9 +560,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="r3m1_ClearSanctuary"
-			OnTake='ShowCircleOnMinimapByName("NearStoneHendj_loc")' />
+			ConditionToGive="all complete"
+			PrecedingQuests="r3m1_ClearSanctuary_GotoSanctuary" />
 
 		<quest
 			Name="r3m1_ClearSanctuary_ReturnDruid"
@@ -588,6 +587,15 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="r3m1_ClearSanctuary_DestroyOut" />
+
+		<quest
+			Name="r3m1_ClearSanctuary_GotoSanctuary"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r3m1_ClearSanctuary"
+			OnTake='ShowCircleOnMinimapByName("NearStoneHendj_loc")' />
 	</quest>
 <!--Root/r3m1/опциональные/Спасти жителей улука от чокнутых-->
 	<quest

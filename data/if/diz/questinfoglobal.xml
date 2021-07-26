@@ -2421,12 +2421,21 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="r3m1_ClearSanctuary_GotoSanctuary"
+		briefDiz="Добраться до святилища"
+		isMainQuest="1">
+		<Map
+			name="r3m1"
+			targetObjName="NearStoneHendj_loc" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="r3m1_ClearSanctuary_KillMonster"
 		briefDiz="Уничтожить монстров"
 		isMainQuest="1">
 		<Map
 			name="r3m1"
-			targetObjName="NearStoneHendj_loc" />
+			targetObjName="TeamLoggers" />
 	</QuestInfo>
 
 	<QuestInfo

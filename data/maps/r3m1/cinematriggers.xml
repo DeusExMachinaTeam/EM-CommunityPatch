@@ -392,7 +392,7 @@
 			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
 
 			PlayCustomMusic("Techno01")
-			if QuestStatus("r3m1_ClearSanctuary_KillMonster")==Q_TAKEN then
+			if QuestStatus("r3m1_ClearSanctuary_GotoSanctuary")==Q_TAKEN then
 				Fly("LoggersMech_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 1 )
 			else
 				Fly("LoggersMech_cam02", CINEMATIC_NO_AIM, 0, 9, 1, 1 )
@@ -409,7 +409,7 @@
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-			if QuestStatus("r3m1_ClearSanctuary_KillMonster")==Q_TAKEN then
+			if QuestStatus("r3m1_ClearSanctuary_GotoSanctuary")==Q_TAKEN then
 				local rbteam = TeamCreate("TeamLoggers",1022,CVector(2828.247, 326.091, 2871.083),{"RobotBobot02", "RobotBobot02", "RobotBobot01"})
 				if rbteam then
 					rbteam:GetVehicle(0):AddItemsToRepository("fuel", 3)
@@ -457,8 +457,9 @@
 		    RestoreAllToleranceStatus()
 			StopPlayingCustomMusic()
 
-			if QuestStatus("r3m1_ClearSanctuary_KillMonster")==Q_TAKEN then
+			if QuestStatus("r3m1_ClearSanctuary_GotoSanctuary")==Q_TAKEN then
 				TActivate("trLoggersDie")
+				CompleteQuest("r3m1_ClearSanctuary_GotoSanctuary")
 --				TDeactivate("trLoggersMech_cam01")
 			end
 
