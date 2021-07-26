@@ -344,9 +344,13 @@
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterToGarage_loc" />
 		<script>
 --			println("trExcahgeVehFirst")
-			TActivate("cinExchangeVehFirst")
+			if QuestStatus("r3m2_TwoMagicThing_Return")==Q_TAKEN then
+				trigger:Deactivate()
+			else
+				TActivate("cinExchangeVehFirst")
+				trigger:Deactivate()
+			end
 --			TActivate()
-			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -435,10 +439,10 @@
 		<event	eventid="GE_OBJECT_LEAVES_LOCATION"	ObjName="NearGarage_loc" />
 		<script>
 --			println("trExcahgeVehSwitchOn")
-			if not(QuestStatus("r3m2_TwoMagicThing_Return")==Q_TAKEN) then
-				TActivate("trExcahgeVeh")
-			else
+			if QuestStatus("r3m2_TwoMagicThing_Return")==Q_TAKEN and GetPlayerVehicle():GetProperty("Prototype").AsString~="ArcadeScout01" then
 				trigger:Deactivate()
+			else
+				TActivate("trExcahgeVeh")
 			end
 
 			local name = GetVar("GarVehName").AsString

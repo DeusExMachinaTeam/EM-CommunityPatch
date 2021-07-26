@@ -301,13 +301,14 @@
 		name="r4m2_Bar_Scientist_3_N01"
 		text="Больше я ничем не могу тебе помочь. Иди и выполни задуманное!"
 		role="NPC"
-		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_COMPLETE"
+		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_COMPLETED"
 		nextReplies="r4m2_Bar_Scientist_3_N02" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_3_N02"
 		text="Это будет непросто, но я справлюсь."
-		role="PLAYER" />
+		role="PLAYER"
+		scriptResult="EndConversation()" />
 <!--Root/r4m1/Сюжетные--><!--Root/r4m1/Опциональные--><!--Root/r4m1/Разговоры о книгах-->
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N01"
@@ -839,7 +840,7 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N07"
-		text="У нас особо никуда не спрячешься. Деревни все сожжены. Скорее всего, он отправился в Гадад, больше некуда."
+		text="У нас особо никуда не спрячешься. Деревни все сожжены. Скорее всего, он отправился в Алихам, больше некуда."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_2_N08" />
 
@@ -847,7 +848,7 @@
 		name="Kef_Bar_Customer1_2_N08"
 		text="Я верну его. Надеюсь, что к тому времени, когда я вернусь, вы мне сможете точно указать, где искать стариков."
 		role="PLAYER"
-		scriptResult="TActivate('trRunDownEngineer'); EndConversation()" />
+		scriptResult="EndConversation()" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N01"
@@ -885,6 +886,7 @@
 		text="Чего ищешь?"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist')==Q_TAKEN"
+		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist')"
 		nextReplies="r4m1_SomeWhere_Man1_1_N02" />
 
 	<Reply
@@ -907,7 +909,7 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Man1_1_N05"
-		text="Он что-то говорил про кладбище кораблей."
+		text="Он поехал дальше по дороге."
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Man1_1_N06" />
 
@@ -915,14 +917,14 @@
 		name="r4m1_SomeWhere_Man1_1_N06"
 		text="Спасибо."
 		role="PLAYER"
-		scriptResult="EndConversation()" />
+		scriptResult="TActivate('trRunDownEngineer'); EndConversation()" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N01"
 		text="Умоляю, не трогайте меня!"
 		role="NPC"
-		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist')==Q_TAKEN"
-		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist')"
+		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist_1')==Q_TAKEN"
+		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist_1')"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N02" />
 
 	<Reply
@@ -989,7 +991,7 @@
 		name="r4m1_SomeWhere_Engineer_1_N11b"
 		text="А мне придётся как-то выкручиваться в Кефе."
 		role="PLAYER"
-		scriptResult="TActivate('trEngineerGoAway'); EndConversation();" />
+		scriptResult="TActivate('trEngineerGoAway'); TActivate('cinEngineer_MusicStop'); EndConversation();" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N07a"
@@ -1052,7 +1054,7 @@
 		text="Они нашли нас, спасайся, кто может!"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_FPR_MeetWithOldMan')==Q_TAKEN"
-		scriptResult="CompleteQuest('r4m1_FPR_MeetWithOldMan'); TActivate('trBuhArmy')"
+		scriptResult="TActivate('trBuhArmy')"
 		nextReplies="r4_Dlg_pl_000072" />
 
 	<Reply
@@ -1169,7 +1171,7 @@
 		text="Мы победили, но они вернутся. Это только вопрос времени. У нас не осталось больше сил сражаться."
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_RBC_GotoPort')==Q_CANBEGIVEN"
-		scriptResult="TakeQuest('r4m1_RBC_GotoPort'); TakeQuest('r4m1_RBC_Evacuate'); TActivate('trPlayerEnterToPort'); TActivate('trCreateBuharers');"
+		scriptResult="TakeQuest('r4m1_RBC_GotoPort'); TActivate('trPlayerEnterToPort'); TActivate('trCreateBuharers');"
 		nextReplies="r4_Dlg_pl_000091" />
 
 	<Reply
@@ -6005,7 +6007,7 @@ EndConversation()" />
 		name="Dlg_pl_d3d240"
 		text="Что же делать? Придётся разобраться, что здесь у вас происходит."
 		role="PLAYER"
-		scriptResult="TActivate('SPYMER');  LeaveTown(true)" />
+		scriptResult="TActivate('SPYMER');  LeaveTown()" />
 
 	<Reply
 		name="Dlg_pl_d3d242"

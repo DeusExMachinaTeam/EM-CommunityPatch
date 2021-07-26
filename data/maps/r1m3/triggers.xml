@@ -558,6 +558,17 @@
 	<trigger Name="SPYMER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+
+			TActivate("SPYMER_Start")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SPYMER_Start" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
 			TActivate( "RolikBegin_SPYMER" )
 
 			trigger:Deactivate()

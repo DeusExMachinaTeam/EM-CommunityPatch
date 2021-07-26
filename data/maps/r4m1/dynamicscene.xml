@@ -1492,6 +1492,14 @@
 				skin="1"
 				NpcType="BARMAN"
 				SpokenCount="0" />
+			<Object
+				Name="r4_Aliham_Bar_Visitor"
+				Belong="1060"
+				Prototype="NPC"
+				ModelName="r4_man"
+				cfg="129"
+				helloReplyNames="r4m1_SomeWhere_Man1_1_N01"
+				SpokenCount="0" />
 		</Object>
 
 		<Object
