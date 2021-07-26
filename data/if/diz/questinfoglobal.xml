@@ -569,10 +569,24 @@
 		questName="d_FindBanditBaseOfOilMine_Quest"
 		briefDiz="Найти и уничтожить лагерь бандитов"
 		fullDiz="Последний противник убегает. Я могу проследить за ним до базы бандитов и уничтожить это паучье гнездо."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="d_FindBanditBaseOfOilMine_Quest1"
+		briefDiz="Проследить за беглецом"
 		isMainQuest="0">
 		<Map
 			name="r1m3"
 			targetObjName="OilMineRuner_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_FindBanditBaseOfOilMine_Quest2"
+		briefDiz="Напасть на базу"
+		isMainQuest="0">
+		<Map
+			name="r1m3"
+			targetObjName="OilMineBaseBoss" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2679,6 +2693,11 @@
 		questName="r3m2_MonterHead"
 		briefDiz="Принести голову чудища"
 		fullDiz="Защитники оракула пропустят меня, если чудище будет убито. В качестве доказательства нужно принести его голову."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r3m2_MonterHead_1"
+		briefDiz="Добраться до города живых мертвецов"
 		isMainQuest="1">
 		<Map
 			name="r3m1"
@@ -2687,6 +2706,32 @@
 		<Map
 			name="r3m2"
 			targetObjName="Monster_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r3m2_MonterHead_2"
+		briefDiz="Победить монстра"
+		isMainQuest="1">
+		<Map
+			name="r3m1"
+			targetObjName="ToR3M2" />
+
+		<Map
+			name="r3m2"
+			targetObjName="TeamBigMonster_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r3m2_MonterHead_3"
+		briefDiz="Отдать голову защитникам"
+		isMainQuest="1">
+		<Map
+			name="r3m1"
+			targetObjName="ToR3M2" />
+
+		<Map
+			name="r3m2"
+			targetObjName="OracleDefenders_loc" />
 	</QuestInfo>
 
 	<QuestInfo

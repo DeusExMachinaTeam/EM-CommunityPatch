@@ -228,6 +228,7 @@
 			SetCameraDirectionToObj(getObj("TeamBigMonster_vehicle_0"):GetId())
 			TDeactivate("cinNearMonster_Cam2")
 			RestoreAllToleranceStatus()
+			CompleteQuest("r3m2_MonterHead_1")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -267,6 +268,8 @@
 			RestoreAllToleranceStatus()
 
 			StopPlayingCustomMusic()
+
+			CompleteQuest("r3m2_MonterHead_2")
 
 			trigger:Deactivate()
 		</script>

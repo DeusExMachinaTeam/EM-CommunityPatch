@@ -535,6 +535,8 @@
 		<script>
 			TeamCreate("OilMineBaseBoss",1002,CVector(4483, 265, 7496),{"r1m3_Fighter01","r1m3_Fighter02"},CVector(4546, 263, 7479), 1)
 
+			CompleteQuest("d_FindBanditBaseOfOilMine_Quest1")
+
 			SetTolerance( 1100, 1044, RS_ENEMY )
 
 			TActivate("KILLBOSSOILMINEBASE")
@@ -548,7 +550,7 @@
 	<trigger Name="KILLBOSSOILMINEBASE" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="OilMineBaseBoss" />
 		<script>
-   			CompleteQuest( "d_FindBanditBaseOfOilMine_Quest" )
+   			CompleteQuest( "d_FindBanditBaseOfOilMine_Quest2" )
 
 			trigger:Deactivate()
 		</script>

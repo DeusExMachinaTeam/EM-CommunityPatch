@@ -1378,7 +1378,7 @@
 		text="¬от его голова! я выполнил то, что вы просили."
 		role="PLAYER"
 		scriptCondition="IsQuestItemPresent( 'quest_monster_head' )"
-		scriptResult="CompleteQuest('r3m2_MonterHead')"
+		scriptResult="CompleteQuest('r3m2_MonterHead_3')"
 		nextReplies="r3m1_NearOracle_ODefenders_2_N032" />
 
 	<Reply
