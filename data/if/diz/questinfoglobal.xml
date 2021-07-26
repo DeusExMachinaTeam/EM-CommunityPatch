@@ -222,7 +222,8 @@
 		briefDiz="Уничтожить головную машину"
 		isMainQuest="0">
 		<Map
-			name="r1m4" />
+			name="r1m4"
+			targetObjName="LeaderCar_vehicle_0" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -471,6 +472,15 @@
 		<Map
 			name="r1m3"
 			targetObjName="ShahtsBoss" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_BombShahtsReturn_Quest"
+		briefDiz="Вернуться в посёлок"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="TheShahts" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1319,11 +1329,7 @@
 		questName="d_TakeGeneralOfBandits_Quest"
 		briefDiz="Захватить генерала бандитов"
 		fullDiz="Вместе с несколькими машинами СНГ я должен захватить генерала АР."
-		isMainQuest="1">
-		<Map
-			name="r2m1"
-			targetObjName="BossARLocation" />
-	</QuestInfo>
+		isMainQuest="1" />
 
 	<QuestInfo
 		questName="d_TakeGeneralOfBandits_Quest1"
@@ -1798,7 +1804,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
-			targetObjName="TheBase" />
+			targetObjName="ThiefCar" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2919,25 +2925,7 @@
 		questName="r3m2_ReadyToTravel"
 		briefDiz="Подготовиться к путешествию в пустыню"
 		fullDiz="Машину надо модернизировать, чтобы я смог на ней пересечь пустыню. У меня есть чертеж, так что нужно найти мастера, который выполнит работу."
-		isMainQuest="1">
-		<Map
-			name="r1m2" />
-
-		<Map
-			name="r1m3" />
-
-		<Map
-			name="r1m4" />
-
-		<Map
-			name="r2m1" />
-
-		<Map
-			name="r3m1" />
-
-		<Map
-			name="r3m2" />
-	</QuestInfo>
+		isMainQuest="1" />
 
 	<QuestInfo
 		questName="r3m2_RevengeDestroyVillage"

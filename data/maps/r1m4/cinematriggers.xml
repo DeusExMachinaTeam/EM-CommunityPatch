@@ -523,6 +523,7 @@
 		TDeactivate("trCaravan_cam02")           
 		TDeactivate("trCaravan_cam03")           
 		SetCameraBehindPlayerVehicle()
+		CompleteQuest("FreeExtremistLeader_Quest3")
 		trigger:Deactivate()
 		</script>
 	</trigger>

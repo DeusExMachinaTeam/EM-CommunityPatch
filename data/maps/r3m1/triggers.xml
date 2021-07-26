@@ -257,6 +257,9 @@
 			    AddCinematicMessage( 31, 0.5 )
 
 				TActivate("trLoggersDieEnd")
+
+				CompleteQuest("r3m1_ClearSanctuary_KillMonster")
+				
 			    trigger:Deactivate()
 		</script>
 	</trigger>
@@ -268,8 +271,6 @@
 			RestoreAllToleranceStatus()
 
 			SetCameraBehindPlayerVehicle()
-
-			CompleteQuest("r3m1_ClearSanctuary_KillMonster")
 
 			trigger:Deactivate()
 		</script>

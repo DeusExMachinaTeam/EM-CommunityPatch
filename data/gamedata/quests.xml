@@ -1304,7 +1304,7 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
+			ConditionToGive="all complete"
 			PrecedingQuests="d_TakeGeneralOfBandits_Quest1" />
 	</quest>
 <!--Root/r2m1/Сюжетные/ В Гельвецию с генералом -->
@@ -1464,7 +1464,7 @@
 
 		<quest
 			Name="FreeExtremistLeader_Quest3_2"
-			Automatic="0"
+			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -1633,6 +1633,14 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete" />
+
+		<quest
+			Name="d_BombShahtsReturn_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_BombShahtsAtakBandits_Quest" />
 	</quest>
 <!--Root/r1m3/Сюжетные/ Взорвать мост -->
 	<quest
@@ -2479,12 +2487,11 @@
 
 		<quest
 			Name="d_KillFelix_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="d_AttackFelixBase"
-			OnTake='ShowCircleOnMinimapByName("FelixBaseLoc")' />
+			PrecedingQuests="d_AttackFelixBase_Quest" />
 
 		<quest
 			Name="d_AttackFelixBase_Quest"
@@ -2492,7 +2499,7 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="d_ArriveToFelix" />
+			PrecedingQuests="d_ArriveToFelix_Quest" />
 
 		<quest
 			Name="d_ArriveToFelix_Quest"

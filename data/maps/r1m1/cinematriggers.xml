@@ -1504,7 +1504,7 @@
 				FVehicle0:setImmortalMode(1)
 			end
 
-			CompleteQuest("d_AttackFelixBase_Quest")
+			TakeQuest("d_KillFelix_Quest")
 
 			TDeactivate( "RolikBegin_Felix3" )
 			TDeactivate( "trFelix3" )

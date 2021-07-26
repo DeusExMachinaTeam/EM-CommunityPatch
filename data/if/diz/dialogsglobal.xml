@@ -5286,7 +5286,7 @@ EndConversation()" />
 		name="Bomber_hellodlg1"
 		text="Спасибо за помощь! После такого отпора они долго к нам не сунутся. Что тебе нужно было? Взрывчатка? Да бери сколько нужно! Для хорошего человека не жалко."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_BombInShahts_Quest')  and  not(IsQuestComplete('d_BombInShahts_Quest'))  and  IsQuestComplete('d_BombShahtsAtakBandits_Quest')  and  (GetCurNpc():GetSpokenCount() > 0)"
+		scriptCondition="IsQuestTaken('d_BombShahtsReturn_Quest')  and  not(IsQuestComplete('d_BombShahtsReturn_Quest'))  and  (GetCurNpc():GetSpokenCount() > 0)"
 		nextReplies="Dlg_pl_dd2170" />
 <!--Root/r1m3/Сюжетные/Мер Минина-->
 	<Reply
@@ -6191,13 +6191,13 @@ EndConversation()" />
 		name="Dlg_pl_dd2168"
 		text="Опять двадцать пять. Ни дня без боя, что за жизнь!"
 		role="PLAYER"
-		scriptResult="TActivate('SHAHTSBANDIT');  GetCurNpc():SetSpokenCount( 1 );  LeaveTown(true)" />
+		scriptResult="TActivate('SHAHTSBANDIT'); CompleteQuest('d_BombInShahts_Quest');  GetCurNpc():SetSpokenCount( 1 );  LeaveTown(true)" />
 
 	<Reply
 		name="Dlg_pl_dd2170"
 		text="Вот и хорошо…"
 		role="PLAYER"
-		scriptResult="CompleteQuest( 'd_BombInShahts_Quest' );  AddQuestItem('quest_explosive');  TActivate('BOOOM');  EndConversation()" />
+		scriptResult="CompleteQuest( 'd_BombShahtsReturn_Quest' );  AddQuestItem('quest_explosive');  TActivate('BOOOM');  EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_dd2201"
