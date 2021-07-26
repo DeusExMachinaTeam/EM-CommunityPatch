@@ -2,7 +2,7 @@
 <World
 	name="Object16"
 	class="SgNode"
-	LastId="76475489">
+	LastId="76475629">
 	<Node
 		name="ET_PS_AUTOCANNON_STAND"
 		class="SgNode"
@@ -18976,7 +18976,7 @@
 	<Node
 		name="Object205784004"
 		class="SgAnimatedModelNode"
-		org="3350.557 8.332 3133.280"
+		org="3350.557 7.650 3133.280"
 		orgRel="1"
 		rot="-0.2498 -0.9605 -0.0241 -0.1203"
 		scale="0.899 0.899 0.899"
@@ -21903,7 +21903,7 @@
 	<Node
 		name="Object205784764"
 		class="SgAnimatedModelNode"
-		org="3323.826 0.000 3083.274"
+		org="3323.826 -0.098 3083.274"
 		orgRel="1"
 		rot="0.0000 0.9703 0.0000 -0.2419"
 		scale="1.082 1.082 1.082"
@@ -23031,5 +23031,23 @@
 		rot="0.0000 -0.9859 0.0000 0.1672"
 		scale="1.701 1.701 1.701"
 		id="crag_boulder1"
+		ndmAction="0" />
+
+	<Node
+		name="Object76475627"
+		class="SgAnimatedModelNode"
+		org="2353.085 0.445 2941.216"
+		orgRel="1"
+		rot="0.0000 -0.9852 0.0000 0.1715"
+		id="hoisting_crane_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object76475628"
+		class="SgAnimatedModelNode"
+		org="2398.317 22.182 2924.405"
+		orgRel="1"
+		rot="-0.0515 0.1980 -0.8077 0.5529"
+		id="concrete_tube1"
 		ndmAction="0" />
 </World>
