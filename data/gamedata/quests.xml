@@ -775,7 +775,7 @@
 <!--Root/r2m2/Сюжетные/Внести сумятицу в ряды противника-->
 	<quest
 		Name="r2m2_GiveBardakToEnemy"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -785,13 +785,29 @@
 <!--Root/r2m2/Сюжетные/Напасть на деревню-->
 	<quest
 		Name="r2m2_GiveBardakToSideVillage"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
 		PrecedingQuests="r2m2_GiveBardakToEnemy"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000, "storm01", 3, 3)'
-		OnTake='ShowCircleOnMinimapByName("VillDesLoc")' />
+		OnTake='ShowCircleOnMinimapByName("VillDesLoc")'>
+		<quest
+			Name="r2m2_GiveBardakToSideVillage_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_GiveBardakToSideVillage" />
+
+		<quest
+			Name="r2m2_GiveBardakToSideVillage_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_GiveBardakToSideVillage_1" />
+	</quest>
 <!--Root/r2m2/Сюжетные/Вернуться в Мареццию-->
 	<quest
 		Name="r2m2_ReturnToMarecciaFromVillage"
@@ -855,7 +871,23 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000,"storm01",3,4)'
-		OnTake='ShowCircleOnMinimapByName("Arena")' />
+		OnTake='ShowCircleOnMinimapByName("Arena")'>
+		<quest
+			Name="r2m2_FightFelix_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_FightFelix" />
+
+		<quest
+			Name="r2m2_FightFelix_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_FightFelix_1" />
+	</quest>
 <!--Root/r2m2/Сюжетные/Отчитаться в Марецции-->
 	<quest
 		Name="r2m2_ReturnToMarecciaFromCastle"
@@ -874,7 +906,23 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="r2m2_ReturnToMarecciaFromCastle"
 		OnComplete="AddPlayerMoney(1000)"
-		OnTake='ShowCircleOnMinimapByName("Lager")' />
+		OnTake='ShowCircleOnMinimapByName("Lager")'>
+		<quest
+			Name="r2m2_ToKillAllSNGPeople_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_ToKillAllSNGPeople" />
+
+		<quest
+			Name="r2m2_ToKillAllSNGPeople_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_ToKillAllSNGPeople_1" />
+	</quest>
 <!--Root/r2m2/Сюжетные/Спасти лидера повстанцев-->
 	<quest
 		Name="r2m2_HelpAllSNGPeople"
@@ -907,7 +955,7 @@
 <!--Root/r2m2/Сюжетные/Убить лидеров СНГ во время переговоров-->
 	<quest
 		Name="r2m2_KillMrPresidentAndOther"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -931,7 +979,23 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000,"pkt01",3,9)'
-		OnTake='ShowCircleOnMinimapByName("Arena")' />
+		OnTake='ShowCircleOnMinimapByName("Arena")'>
+		<quest
+			Name="r2m2_FightWithAxelInArena_Quest_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_FightWithAxelInArena_Quest" />
+
+		<quest
+			Name="r2m2_FightWithAxelInArena_Quest_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_FightWithAxelInArena_Quest_1" />
+	</quest>
 <!--Root/r2m2/Сюжетные/ После драки с Акселем искать Лису в Туззе, так как она обманула со смертью родителей -->
 	<quest
 		Name="r2m2_FindLisAfterAxelAndFatherDie_Quest"
@@ -951,7 +1015,7 @@
 <!--Root/r2m2/Сюжетные/Победить Лису в поединке-->
 	<quest
 		Name="r2m2_FightLisaToMonastir"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"

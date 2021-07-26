@@ -47,6 +47,8 @@
 			
 			TActivate("SNGPROVIANTDIE")
 
+			TakeQuest("r2m2_GiveBardakToEnemy")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -94,6 +96,8 @@
 
 			TeamCreate("SNGInVill1",1016,CVector(1367, 261, 3709),{"r2m1_scout01","r2m2_Fighter01","r2m1_scout02"}, CVector(1233, 261, 3656), 1)
 
+			TakeQuest("r2m2_GiveBardakToSideVillage")
+
 			TActivate( "INVILL1DIE" )
 
 			trigger:Deactivate() 
@@ -105,6 +109,8 @@
 		<script>
 			TeamCreate("SNGInVill2",1016,CVector(1143, 261, 3951),{"r2m1_scout03","r2m1_scout01","r2m1_scout02","r2m1_scout03"}, CVector(1233, 261, 3656), 1)
 
+			CompleteQuest("r2m2_GiveBardakToSideVillage_1")
+
 			TActivate( "INVILL2DIE" )
 
 			trigger:Deactivate()
@@ -114,7 +120,7 @@
 	<trigger	Name="INVILL2DIE" active="0">
 		<event	eventid="GE_OBJECT_DIE" ObjName="SNGInVill2" />
 		<script>
-			CompleteQuest( "r2m2_GiveBardakToSideVillage" )
+			CompleteQuest( "r2m2_GiveBardakToSideVillage_2" )
 
 			CinemaFiltersUse()
 
@@ -170,7 +176,7 @@
 	<trigger Name="FELIXMONAXDIE" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="FelixCars" />
 		<script>
-			CompleteQuest( "r2m2_FightFelix" )
+			CompleteQuest( "r2m2_FightFelix_2" )
 
 			CinemaFiltersUse()
 
@@ -241,6 +247,8 @@
 
 			TActivate( "LAGERWARBEGINDIE" )
 
+			CompleteQuest("r2m2_ToKillAllSNGPeople_1")
+
 			trigger:Deactivate()    
 		</script>
 	</trigger>
@@ -248,7 +256,7 @@
 	<trigger	Name="LAGERWARBEGINDIE"	active="0">
 		<event	eventid="GE_OBJECT_DIE" ObjName="LagerCarrrs" />
 		<script>
-			CompleteQuest( "r2m2_ToKillAllSNGPeople" )
+			CompleteQuest( "r2m2_ToKillAllSNGPeople_2" )
 
 			CinemaFiltersUse()
 
@@ -300,6 +308,8 @@
 			SetTolerance( 1100, 1016, RS_ENEMY )
 
 			TeamCreate("LeadersSNG",1016,CVector(770,261,3281),{"r2m2_Hunter01","r2m2_scout01","r2m2_Ural01"}, nil, 1)
+
+			TakeQuest("r2m2_KillMrPresidentAndOther")
 
 			TActivate( "LEADERMEETDIE" )
 
@@ -371,7 +381,7 @@
 		<script>
 			GameFiltersUse()
 
-			CompleteQuest( "r2m2_FightWithAxelInArena_Quest" )
+			CompleteQuest( "r2m2_FightWithAxelInArena_Quest_2" )
 
 			if IsQuestComplete("d_Lisa_Quest") then
 				TActivate("RolikBegin_AXELARENADIE")
@@ -408,6 +418,8 @@
 				FVehicle:setImmortalMode(1)
 				FVehicle:AddItemsToRepository("add_damage_guns_and_grouping_angle_guns", 1)
 			end
+
+			TakeQuest("r2m2_FightLisaToMonastir")
 
 			TActivate( "LISARUNOUTDIE" )
 

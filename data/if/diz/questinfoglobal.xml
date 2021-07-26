@@ -2123,6 +2123,11 @@
 		questName="r2m2_FightFelix"
 		briefDiz="Победить Феликса"
 		fullDiz="Феликс снова встал у меня на пути. На этот раз я не пощажу его!"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r2m2_FightFelix_1"
+		briefDiz="Добраться до арены"
 		isMainQuest="1">
 		<Map
 			name="r2m2"
@@ -2130,10 +2135,19 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="r2m2_FightFelix_2"
+		briefDiz="Победить Феликса"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="FelixCars_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="r2m2_FightLisaToMonastir"
 		briefDiz="Остановить Лису"
 		fullDiz="Любым способом надо остановить Лису. Я больше не позволю ей обманывать меня или кого бы то ни было!"
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r2m2"
 			targetObjName="LisaRunCar_vehicle_0" />
@@ -2142,12 +2156,8 @@
 	<QuestInfo
 		questName="r2m2_FightWithAxelInArena_Quest"
 		briefDiz="Драться с Акселем"
-		fullDiz="Я сражусь с Акселем на арене и заставлю его рассказать мне все."
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			targetObjName="Arena" />
-	</QuestInfo>
+		fullDiz="Я сражусь с Акселем на арене и заставлю его рассказать мне всё."
+		isMainQuest="1" />
 
 	<QuestInfo
 		questName="r2m2_FightWithAxelInArena_Quest1"
@@ -2155,6 +2165,24 @@
 		<Map
 			name="r2m2"
 			coordinate="3318.000 280.000 1260.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_FightWithAxelInArena_Quest_1"
+		briefDiz="Встретиться с Акселем на Арене"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Arena" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_FightWithAxelInArena_Quest_2"
+		briefDiz="Победить Акселя"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="AxelCarWar_vehicle_0" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2213,10 +2241,24 @@
 		questName="r2m2_GiveBardakToSideVillage"
 		briefDiz="Напасть на деревню"
 		fullDiz="Жители этой деревни были замечены в связях с врагом. Я нападу на нее, чтобы оттянуть силы СНГ с основного направления атаки."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r2m2_GiveBardakToSideVillage_1"
+		briefDiz="Уничтожить охрану"
 		isMainQuest="1">
 		<Map
 			name="r2m2"
-			targetObjName="VillDesLoc" />
+			targetObjName="SNGInVill1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_GiveBardakToSideVillage_2"
+		briefDiz="Уничтожить подкрепление"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="SNGInVill2" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2303,7 +2345,7 @@
 		isMainQuest="1">
 		<Map
 			name="r2m2"
-			targetObjName="Leaders" />
+			targetObjName="LeadersSNG" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2391,10 +2433,24 @@
 		questName="r2m2_ToKillAllSNGPeople"
 		briefDiz="Уничтожить лагерь повстанцев"
 		fullDiz="Мой приказ - убить беззащитных повстанцев. Меня терзают сомнения, ведь это-настоящее злодеяние."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r2m2_ToKillAllSNGPeople_1"
+		briefDiz="Найти повстанцев"
 		isMainQuest="1">
 		<Map
 			name="r2m2"
 			targetObjName="Lager" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_ToKillAllSNGPeople_2"
+		briefDiz="Уничтожить повстанцев"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="LagerCarrrs" />
 	</QuestInfo>
 
 	<QuestInfo
