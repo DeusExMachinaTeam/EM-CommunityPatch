@@ -384,6 +384,9 @@
 			
 			TActivate( "BOSSOILMINEDIE_FADEIN" )
 			TActivate( "BOSSOILMINENDCINIMATIC" )
+
+			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
+			
 		</script>
 	</trigger>
 		
@@ -434,8 +437,6 @@
 			TActivate("RUNTORUNERENDRACE")
 
 			SetCameraBehindPlayerVehicle()
-
-			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
 
 			trigger:Deactivate() 
 		</script>

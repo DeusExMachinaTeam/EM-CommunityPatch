@@ -259,6 +259,9 @@
 			AddCinematicMessage( 1001, 0.25 )
 			AddCinematicMessage( 1002, 0.25 )
 			AddCinematicMessage( 1003, 0.25 )
+
+			CompleteQuest("r3m2_MonterHead_2")
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -270,8 +273,6 @@
 			RestoreAllToleranceStatus()
 
 			StopPlayingCustomMusic()
-
-			CompleteQuest("r3m2_MonterHead_2")
 
 			trigger:Deactivate()
 		</script>

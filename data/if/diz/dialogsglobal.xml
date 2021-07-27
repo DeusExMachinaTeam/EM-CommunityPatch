@@ -4667,7 +4667,7 @@
 		name="Dlg_pl_000095"
 		text="Слишком это хлопотно, проще убить вас всех."
 		role="PLAYER"
-		scriptResult="TActivate('trExtrTeamMustDie_Take'); EndConversation()" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); TakeQuest('TRS_Quest3a'); LeaveTown()" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_1_N10"
@@ -4692,20 +4692,21 @@
 		name="r1m4_Storage_Guard1_2_N01"
 		text="Как продвигаются дела по спасению нашего лидера??"
 		role="NPC"
-		scriptCondition="QuestStatus('FreeExtremistLeader_Quest1')==Q_TAKEN and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN"
+		scriptCondition="QuestStatus('TRS_Quest2')==Q_COMPLETED and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN and not(IsQuestTaken('TRS_Quest4')) and not(IsQuestTaken('KillExtremist_Quest1')) and not(IsQuestComplete('FreeExtremistLeader_Quest1')) "
 		nextReplies="r1m4_Storage_Guard1_2_P02 r1m4_Storage_Guard1_2_P03" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_2_P02"
 		text="Я работаю над этим."
 		role="PLAYER"
+		scriptCondition="QuestStatus('FreeExtremistLeader_Quest1')==Q_TAKEN and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN"
 		scriptResult="EndConversation();" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_2_P03"
 		text="Я передумал. Лучше я убью вас и захвачу склад."
 		role="PLAYER"
-		scriptResult="TActivate('trExtrTeamMustDie_Take'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); TakeQuest('TRS_Quest3a'); LeaveTown();" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_3_N01"
@@ -4731,7 +4732,7 @@
 		name="r1m4_Storage_Guard1_3_P04"
 		text="Обязательно вернусь."
 		role="PLAYER"
-		scriptResult="CompleteQuest('TRS_Quest3b'); EndConversation()" />
+		scriptResult="CompleteQuest('TRS_Quest3b'); TakeQuest('TRS_Quest4'); EndConversation()" />
 
 	<Reply
 		name="Olme_Bar_Customer2_3_N01"

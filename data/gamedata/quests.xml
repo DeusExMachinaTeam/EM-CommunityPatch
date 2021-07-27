@@ -1379,6 +1379,7 @@
 		CheckAll="1"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(2000)"
+		OnFail='SetTolerance(1100, 1010, RS_NEUTRAL); TDeactivate("trNearCaravanLeader"); TDeactivate("trLeaderCaravanDie"); TDeactivate("trLeaderCarDie")'
 		Levels="r1m4">
 		<quest
 			Name="TRS_Quest2"
@@ -1391,11 +1392,10 @@
 
 		<quest
 			Name="TRS_Quest3a"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="KillExtremist_Quest1"
+			ConditionToGive="all complete"
 			Levels="r1m4" />
 
 		<quest
@@ -1409,7 +1409,7 @@
 
 		<quest
 			Name="TRS_Quest4"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="any complete"

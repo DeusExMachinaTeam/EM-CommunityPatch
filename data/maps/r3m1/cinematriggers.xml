@@ -429,8 +429,12 @@
 					rbtm:GetVehicle(0):AddItemsToRepository("add_torque_and_stability", 1)
 					rbtm:GetVehicle(0):SetGamePositionOnGround( CVector (3049.747, 306.141, 2850.620) )
 					rbtm:GetVehicle(0):SetRotation(Quaternion(-0.000, 0.944, 0.000, -0.331))
+					rbtm:GetVehicle(0):AddModifier("maxhp", "= 2500")
+					rbtm:GetVehicle(0):AddModifier("hp", "= 2500")
 					rbtm:GetVehicle(1):SetGamePositionOnGround( CVector(3042.293, 306.145, 2858.027) )
 					rbtm:GetVehicle(1):SetRotation(Quaternion(-0.000, -0.937, -0.000, 0.350))
+					rbtm:GetVehicle(1):AddModifier("maxhp", "= 2500")
+					rbtm:GetVehicle(1):AddModifier("hp", "= 2500")
 					AddVehicleGunsWithRandomAffix( rbtm:GetVehicle(1), "octopus01",  3, 8+random(2))
 					AddVehicleGunsWithRandomAffix( rbtm:GetVehicle(0), "elephant01", 3, 8+random(2))
 				end
