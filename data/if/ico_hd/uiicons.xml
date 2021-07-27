@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+
+<GuiResourceInfo>
+
+	<Item
+		file="data\if\ico_hd\MainMenuIcons.xml"
+		loadType="AT_APP_START"
+	/>                       
+
+	<Item
+		file="data\if\ico_hd\ModelIcons.xml"
+		loadType="AT_FIRST_LEVEL_START"
+	/>
+
+	<Item
+		file="data\if\ico_hd\MiscIcons.xml"
+		loadType="AT_FIRST_LEVEL_START"
+	/>                       
+
+	<Item
+		file="data\maps\r1m1\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r1m1"
+	/>                       
+
+	<Item
+		file="data\maps\r1m2\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r1m2"
+	/>                       
+
+	<Item
+		file="data\maps\r1m3\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r1m3"
+	/>                       
+
+	<Item
+		file="data\maps\r1m4\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r1m4"
+	/>                       
+
+	<Item
+		file="data\maps\r2m1\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r2m1"
+	/>                       
+
+	<Item
+		file="data\maps\r2m2\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r2m2"
+	/>                       
+
+	<Item
+		file="data\maps\r3m1\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r3m1"
+	/>                       
+
+	<Item
+		file="data\maps\r3m2\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r3m2"
+	/>                 
+
+	<Item
+		file="data\maps\r4m1\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r4m1"
+	/>                       
+
+	<Item
+		file="data\maps\r4m2\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r4m2"
+	/>                       
+
+	<Item
+		file="data\maps\d1\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="d1"
+	/>                       
+
+
+</GuiResourceInfo>

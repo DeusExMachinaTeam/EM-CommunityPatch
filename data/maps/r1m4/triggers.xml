@@ -14,12 +14,12 @@
 	<trigger	Name="trHelPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local gunlist = {"hornet01","specter01","kord01","vector01","hurricane01","hunter01","engineOilPusher"}
+			local gunlist = {"hornet01","specter01","kord01","vector01","hurricane01","hunter01"}
 			local len = getn(gunlist)
 
 			for i=1,14 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(0, 2))
 			end
 			trigger:Deactivate()
 		</script>
@@ -294,6 +294,7 @@
 			end
 			FailQuestIfTaken("TRS_Quest3b")
 			FailQuestIfTaken("FreeExtremistLeader_Quest3")
+			TakeQuest('KillExtremist_Quest1')
 			TActivate("trExtrGuardTeamDie")
 			trigger:Deactivate()
 		</script>
@@ -320,7 +321,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			FlyAround(6, 0, 25, 25, PlfCoor, PlfID, 1, 1 )
+			FlyAround(6, 0, 25, 13, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 21, 1 )
@@ -337,6 +338,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			RestoreAllToleranceStatus()
+			if getObj("StorageVil") then getObj("StorageVil"):SetBelong(1010) end
 			trigger:Deactivate()
 		</script>
 	</trigger>

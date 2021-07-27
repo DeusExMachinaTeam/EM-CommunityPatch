@@ -3,7 +3,7 @@
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|Какоё гиблое место. Не хочу соваться в это болото без важной причины."
+		value="|Это гиблое место. Не хочу соваться в это болото без важной причины."
 		sound="data\sounds\Speech\r1m4\r1m4_1_hero.ogg" />
 
 	<string

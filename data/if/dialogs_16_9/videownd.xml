@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Rotating model preview of inventory and shop items, show in inventory or town window -->
+<!-- Child of motherpanel.xml -->
+<Prefabs>
+	<Node
+		name="wndVideo"
+		class="Wnd"
+		org="1335.000 122.000 474.000 250.000"
+		style="512"
+		order="0"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+		<Node
+			name="wndModel"
+			class="Wnd"
+			org="0.000 0.000 474.000 250.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			image=""/>
+
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_LEFT"
+				animationSpeed="1650"
+				animationAccel="-1800"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_RIGHT"
+				animationSpeed="2000"
+				animationAccel="3000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+		</Animations>
+	</Node>
+</Prefabs>

@@ -685,6 +685,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "scoutCab01"
 			ResourceType		= "SCOUT_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "20"
 			DurCoeffsForDamageTypes	= "0 0 0"
 			Mass				= "2.0"
@@ -693,6 +694,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			EngineHighSound		        = "ET_S_ENGINE_SCOUT_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxSpeed			= "200.0"
+			FuelConsumption		= "0.3"
 			LoadPoints			= "LP_SML01" >
 				<GroupsHealth
 					Main   = "3" />
@@ -704,6 +706,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "scoutCab02"
 			ResourceType			= "SCOUT_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "50"
 			DurCoeffsForDamageTypes		= "0 0 0"
 			VisibleInEncyclopedia = "false"
@@ -780,6 +783,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "scoutCab02"
 			ResourceType			= "SCOUT_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "10"
 			VisibleInEncyclopedia = "false"
 			DurCoeffsForDamageTypes	= "0 0 0"
@@ -884,6 +888,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "fighterCab02"
 			ResourceType			= "FIGHTER_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "60"
 			VisibleInEncyclopedia = "false"
 			DurCoeffsForDamageTypes	= "20 10 10"
@@ -925,11 +930,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			LoadPoints			= "LP_GIANT01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "2"	
-				    	Breakable2   = "4"
-					Breakable3   = "4"
+				    Breakable1   = "4"
+					Breakable2   = "4"
+					Breakable3   = "3"
 					Breakable4   = "3"
-					Breakable5   = "3"
 				/>
 		</Prototype>
 
@@ -954,11 +958,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			LoadPoints			= "LP_SML01 LP_BIG01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "2"	
-				    	Breakable2   = "3"
-					Breakable3   = "4"
-					Breakable4   = "3"
-					Breakable5   = "3"
+				    Breakable1   = "1"
+					Breakable2   = "2"
+					Breakable3   = "3"
+					Breakable4   = "4"
 				/>
 		</Prototype>
 
@@ -1035,13 +1038,12 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale			= "1 1 1"
 			Durability			= "200"
 			DurCoeffsForDamageTypes	= "25 -25 25"
-			VisibleInEncyclopedia = "false"
 			Mass				= "30.0"
 			MaxPower			= "10"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxTorque			= "150"
 			EngineHighSound		= "ET_S_ENGINE_MIR_5_HIGH"
-	                VisibleInEncyclopedia = "false"
+	        VisibleInEncyclopedia = "false"
 			Price				= "50000"	
 			MaxSpeed			= "85.0"
 			FuelConsumption                 = "0.001"
@@ -1250,6 +1252,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "molokovozCab02"
 			ResourceType			= "MOLOKOVOZ_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "50"
 			DurCoeffsForDamageTypes	= "10 0 0"
 			VisibleInEncyclopedia = "false"
@@ -1554,6 +1557,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "uralCab05"
 			ResourceType			= "URAL_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Mass				= "20.0" 
 			Durability			= "140"
 			VisibleInEncyclopedia = "false"
@@ -1683,6 +1687,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile				= "belazCab02"
 			ResourceType			= "BELAZ_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Mass				= "30.0" 
 			Durability				= "170"
 			DurCoeffsForDamageTypes		= "15 15 15"
@@ -2115,6 +2120,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Class				= "Basket"
 			Name				= "bigfakeCargo"
 			ModelFile			= "cub"
+			CanBeUsedInAutogenerating  =  "0"
 			VisibleInEncyclopedia   = "false"
 			ResourceType		= "FAKE_BIGBASKET"
 			Durability			= "0"
@@ -2355,6 +2361,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability			= "60"
 			DurCoeffsForDamageTypes	= "10 5 5"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
                         VisibleInEncyclopedia = "false"
 			Price				= "12000"
@@ -2741,25 +2748,29 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Price				= "140000"
 			RepairCoef			= "0.4"
 
-			LoadPoints			= "LP_GIANT01" >
+			LoadPoints			= "LP_GIANT01 LP_GIANT02" >
 
 			<RepositoryDescription
 				RepositorySize		= "8 12">
 				<Slot
 					Name		= "BASKET_GIANT_GUN"
-					Pos		= "2 5"
+					Pos		= "2 1"
+				/>
+				
+				<Slot
+					Name		= "BASKET_GIANT_GUN_0"
+					Pos		= "2 7"
 				/>
 			</RepositoryDescription>
 			<GroupsHealth
-				Main   = "0"	
-				Breakable1   = "0.7"	
-			    	Breakable2   = "0.2"
-				Breakable3   = "0.5"
-				Breakable4   = "0.2"
-				Breakable5   = "1.5"
-				Breakable6   = "0.7"
-				Breakable7   = "0.1"
-				Breakable8   = "1.5"
+				Main			= "0"	
+				Breakable1		= "0.7"	
+				Breakable2		= "0.05"
+				Breakable3		= "0.5"
+				Breakable4		= "2.5"
+				Breakable5		= "0.7"
+				Breakable6		= "0.1"
+				Breakable7		= "2"
 			/>			
 		</Prototype>
 
@@ -3549,6 +3560,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "belazCab05"
 			ResourceType		= "BELAZ_CABIN"
 			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "0"
 			Mass				= "30.0"
 			Durability			= "200"
 			DurCoeffsForDamageTypes		= "20 20 20"

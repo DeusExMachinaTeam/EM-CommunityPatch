@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main NPC dialogue screen -->
+<Prefabs>
+	<Node
+		name="TalkWithNpcDlg"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="25152"
+		order="0"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="wndConversation"
+			class="Wnd"
+			org="434.000 487.000 1052.000 484.000"
+			style="25152"
+			order="0"
+			id="500000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndPlayerReplies"
+			class="TextBoxWnd"
+			org="434.000 807.000 1052.000 216.000"
+			style="12864"
+			order="0"
+			id="500001"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 5.000 0.000"
+			wndColor="00000000"
+			textColor="FF404040">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndNpcReplies"
+			class="TextBoxWnd"
+			org="434.000 487.000 1052.000 271.000"
+			style="576"
+			order="6"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 5.000 0.000"
+			wndColor="00000000"
+			textColor="FF404040">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndNpcImage"
+			class="ModelWnd"
+			org="540.000 17.000 844.000 360.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\TalkWithNpcDlg\Dialog_Bar.dds"
+			ModelRotation="0.0000 0.0000 0.0000 1.0000"
+			ModelTranslation="0.000 -0.400 1.500"
+			ModelScale="0.95 0.95 0.95">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lblNpcName"
+			class="Wnd"
+			org="721.000 397.000 478.000 40.000"
+			style="3904"
+			order="13"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="FF404040">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTopPanel"
+			class="Wnd"
+			org="0.000 0.000 1920.000 480.000"
+			style="768"
+			order="7"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico_hd\TalkWithNpcDlg\dialogue_top.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff">
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_BOTTOM"
+					animationSpeed="2200"
+					animationAccel="-1500"
+					animationDelayTime="50"/>
+
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_TOP"
+					animationSpeed="500"
+					animationAccel="3000"
+					animationDelayTime="0"/>
+			</Animations>
+		</Node>
+
+		<Node
+			name="wndBottomPanel"
+			class="Wnd"
+			org="0.000 120.000 1920.000 960.000"
+			style="25344"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico_hd\TalkWithNpcDlg\dialogue_btm.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff">
+			<Animations>
+				<AnimationOnShow
+					animationEnabled="1"
+					animationType="TO_TOP"
+					animationSpeed="3500"
+					animationAccel="-2100"
+					animationDelayTime="0"/>
+
+				<AnimationOnHide
+					animationEnabled="1"
+					animationType="TO_BEYOND_BOTTOM"
+					animationSpeed="700"
+					animationAccel="4000"
+					animationDelayTime="0"/>
+			</Animations>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>
