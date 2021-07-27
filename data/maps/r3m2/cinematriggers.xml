@@ -207,6 +207,8 @@
 			    TActivate("trBigMonsterDie")
 	     	    AddVehicleGunsWithRandomAffix(mnstr:GetVehicle(0), "hammer01", 3, 8+random(2))
 				mnstr:GetVehicle(0):AddItemsToRepository("firing_rate_guns_and_add_damage_guns", 1)
+				mnstr:GetVehicle(0):AddModifier("maxhp", "= 2500")
+				mnstr:GetVehicle(0):AddModifier("hp", "= 2500")
 		    end
 			trigger:Deactivate()
 		</script>
