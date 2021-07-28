@@ -3131,7 +3131,7 @@
 		name="Dlg_pl_000492"
 		text="Что? Феликс?!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r2m2_FightFelix');  TActivate('FELIXMONAX');  EndConversation()" />
+		scriptResult="CompleteQuest('r2m2_FindROMinCastle'); TakeQuest('r2m2_FightFelix');  TActivate('FELIXMONAX');  EndConversation()" />
 
 	<Reply
 		name="Monah_hellodlg1"
@@ -3186,14 +3186,14 @@
 		name="Monah_hellodlg2"
 		text="Ты доказал свою правоту. Можешь отправляться назад, и не забудь вино. "
 		role="NPC"
-		scriptCondition="IsQuestComplete('r2m2_FightFelix')   and   not(IsQuestTaken('r2m2_ReturnToMarecciaFromCastle'))   and   not(IsQuestComplete('r2m2_ReturnToMarecciaFromCastle'))"
+		scriptCondition="IsQuestComplete('r2m2_FightFelix_2')   and   not(IsQuestTaken('r2m2_ReturnToMarecciaFromCastle'))   and   not(IsQuestComplete('r2m2_ReturnToMarecciaFromCastle'))"
 		nextReplies="Dlg_pl_000500" />
 
 	<Reply
 		name="Dlg_pl_000500"
 		text="Да, конечно… Я же приехал за вином…"
 		role="PLAYER"
-		scriptResult="CompleteQuest('r2m2_FindROMinCastle');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  AddQuestItem('quest_wine_barrels');  EndConversation()" />
+		scriptResult="CompleteQuest('r2m2_FightFelix_3');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  AddQuestItem('quest_wine_barrels');  EndConversation()" />
 
 	<Reply
 		name="Monah_hellodlg3"

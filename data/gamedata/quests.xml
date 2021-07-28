@@ -887,6 +887,14 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="r2m2_FightFelix_1" />
+
+		<quest
+			Name="r2m2_FightFelix_3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_FightFelix_2" />
 	</quest>
 <!--Root/r2m2/Сюжетные/Отчитаться в Марецции-->
 	<quest
@@ -2220,7 +2228,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="d_FindLisaInBandit_Quest"
+		PrecedingQuests="d_DefeatLisasBandits"
 		OnComplete="AddPlayerMoney(100)"
 		OnTake='ShowCircleOnMinimapByName("ToR1M3"); ShowCircleOnMinimap("r1m3",CVector(3599.582, 289.622, 6165.195))' />
 <!--Root/r1m2/Сюжетные/Искать хмыря в Мидгарде-->

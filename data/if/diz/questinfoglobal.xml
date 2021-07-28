@@ -513,6 +513,7 @@
 
 	<QuestInfo
 		questName="d_DefeatLisasBandits"
+		briefDiz="Спасти Лису"
 		isMainQuest="1">
 		<Map
 			name="r1m1"
@@ -687,7 +688,7 @@
 
 	<QuestInfo
 		questName="d_FindLisaInBandit_Quest"
-		briefDiz="Спасти Лису"
+		briefDiz="Проверить возможное место засады"
 		isMainQuest="1">
 		<Map
 			name="r1m1" />
@@ -1450,7 +1451,7 @@
 		isMainQuest="1">
 		<Map
 			name="r2m1"
-			targetObjName="LisaFindLocation" />
+			targetObjName="LisaInCar_vehicle_0" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2148,6 +2149,15 @@
 		<Map
 			name="r2m2"
 			targetObjName="FelixCars_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_FightFelix_3"
+		briefDiz="Вернуться в монастырь"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Monastery" />
 	</QuestInfo>
 
 	<QuestInfo
