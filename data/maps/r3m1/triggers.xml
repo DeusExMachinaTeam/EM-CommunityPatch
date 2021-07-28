@@ -535,20 +535,14 @@
 	<trigger Name="trMovePlToR1M4" active="1">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterToSubmarine_loc" />
 		<script>
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
-			local b = SpawnMessageBox( "8801" )
-   			if b == 1 then
---				println ("Yes")
-				if IsQuestTaken("r3m1_FindNative_2") then 
+			if IsQuestTaken("r3m1_FindNative_2") then
+				GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+				local b = SpawnMessageBox( "8801" )
+				if b == 1 then
 					TActivate("RolikBegin_ToComeSubmarine")
 					TActivate("trPriplitieMap")
 					TDeactivate("trAutoSave")
---					GetPlayerVehicle():SetThrottle( 0 )
---					getObj("SubmarinaR3M1"):StartMotionToPort()
 				end
-			else
---				println ("No")
---				GetPlayerVehicle():SetExternalPathByName("ReturnPathR2M1")
 			end
 
  		</script>

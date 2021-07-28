@@ -598,9 +598,19 @@
 			PlfCoor.y = PlfCoor.y + 25*0.74
 			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			local b = SpawnMessageBox( "8801" )
-			if b == 1 then
-				PassToMap("r2m1", "FromR2M2", -1 )
+			if QuestStatus("r2m2_FightLisaToMonastir")~=Q_TAKEN and QuestStatus("r2m2_FightWithAxelInArena_Quest_2")~=Q_TAKEN and QuestStatus("r2m2_FightFelix_2")~=Q_TAKEN then
+				local b = SpawnMessageBox( "8801" )
+				if b == 1 then
+					PassToMap("r2m1", "FromR2M2", -1 )
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					TActivate ("RolikExitToMap21")
+					TActivate ("RolikENDExitToMap21")
+				end
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
 
@@ -657,7 +667,7 @@
 			PlfCoor.y = PlfCoor.y + 25*0.74
 			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			if IsQuestTaken("d_GetAkselBandit_Quest") then 
+			if IsQuestTaken("d_GetAkselBandit_Quest") and QuestStatus("r2m2_FightLisaToMonastir")~=Q_TAKEN and QuestStatus("r2m2_FightWithAxelInArena_Quest_2")~=Q_TAKEN and QuestStatus("r2m2_FightFelix_2")~=Q_TAKEN then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
 					PassToMap("r2m1", "FromR2M2small", -1 )
@@ -673,7 +683,9 @@
 			else
 				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
 				StartCinematic()
-				AddCinematicMessage( 8803, 0.5 )
+				if not(IsQuestTaken("d_GetAkselBandit_Quest")) then
+					AddCinematicMessage( 8803, 0.5 )
+				end
 
 				TActivate ("RolikExitToMap21small")
 				TActivate ("RolikENDExitToMap21small")
