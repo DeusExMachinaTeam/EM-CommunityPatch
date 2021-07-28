@@ -3,7 +3,7 @@
  *
  *  Meta:
  *    Author: Alexander Fateev
- *    Version: 1.0.0
+ *    Version: 1.0.1
  *    License: Attribution-NonCommercial-ShareAlike 4.0 International
  *
  * !!DataSpecification:
@@ -68,7 +68,7 @@ VS_OUTPUT VertexSpecularAO(VS_INPUT input) {
     output.UVMap1        = input.UVMap1;
     output.Normal        = input.Normal;
     output.ViewDirection = normalize(ViewPosition - input.Position);
-    output.Fog           = VertexFog(output.FinalPosition, g_FogTerm);
+    output.Fog           = CalcFog(output.FinalPosition, g_FogTerm);
     return output;
 }
 
