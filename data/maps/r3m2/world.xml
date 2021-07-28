@@ -2,7 +2,7 @@
 <World
 	name="Object16"
 	class="SgNode"
-	LastId="76475629">
+	LastId="76475773">
 	<Node
 		name="ET_PS_AUTOCANNON_STAND"
 		class="SgNode"
@@ -23034,20 +23034,60 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object76475627"
+		name="Object76475698"
 		class="SgAnimatedModelNode"
-		org="2353.085 0.445 2941.216"
+		org="2749.462 16.876 3315.929"
 		orgRel="1"
-		rot="0.0000 -0.9852 0.0000 0.1715"
-		id="hoisting_crane_1"
+		rot="0.5120 -0.0478 0.8570 -0.0328"
+		scale="0.593 0.593 0.593"
+		id="concrete_plate"
 		ndmAction="0" />
 
 	<Node
-		name="Object76475628"
+		name="Object76475699"
 		class="SgAnimatedModelNode"
-		org="2398.317 22.182 2924.405"
+		org="2765.973 9.921 3327.318"
 		orgRel="1"
-		rot="-0.0515 0.1980 -0.8077 0.5529"
-		id="concrete_tube1"
+		rot="-0.2169 0.9046 0.1684 -0.3261"
+		scale="0.593 0.593 0.593"
+		id="concrete_plate"
+		ndmAction="0" />
+
+	<Node
+		name="Object76475700"
+		class="SgAnimatedModelNode"
+		org="2729.454 -0.482 3326.554"
+		orgRel="1"
+		rot="-0.2631 -0.2358 0.6680 0.6550"
+		id="pole_factory_big"
+		ndmAction="0" />
+
+	<Node
+		name="Object76475701"
+		class="SgAnimatedModelNode"
+		org="2753.259 2.506 3342.071"
+		orgRel="1"
+		rot="-0.0074 0.3002 0.1612 0.9401"
+		scale="0.593 0.593 0.593"
+		id="concrete_plate"
+		ndmAction="0" />
+
+	<Node
+		name="Object76475702"
+		class="SgAnimatedModelNode"
+		org="2739.691 2.510 3322.061"
+		orgRel="1"
+		rot="-0.6661 -0.6762 0.2156 0.2293"
+		scale="0.593 0.593 0.593"
+		id="concrete_plate"
+		ndmAction="0" />
+
+	<Node
+		name="Object76475703"
+		class="SgAnimatedModelNode"
+		org="2762.634 0.118 3361.302"
+		orgRel="1"
+		rot="-0.1381 0.1274 -0.7036 0.6853"
+		id="pole_factory_big"
 		ndmAction="0" />
 </World>
