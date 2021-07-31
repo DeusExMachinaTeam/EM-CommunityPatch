@@ -161,18 +161,19 @@
    <Item id="add_damage_explosion_firing_rate_explosion" 	   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_exp.dds" file1=""/>
 
    <Item id="additional_fuel_tank" 	   file="data\if\ico\InventoryDlg\Gadgets\fueltank.dds" file1=""/>
-   <Item id="additional_torque" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
-   <Item id="additional_durability" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetG_01.dds" file1=""/>
-   <Item id="additional_stability" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_04.dds" file1=""/>
-
    <Item id="additional_fuel_tank2" 	file="data\if\ico\InventoryDlg\Gadgets\fueltank.dds" file1=""/>
-   <Item id="additional_torque2" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
-   <Item id="additional_durability2" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetG_01.dds" file1=""/>
-
-   <Item id="add_speed_and_torque" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
-   <Item id="add_stability_and_speed" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetG_04.dds" file1=""/>
-   <Item id="add_torque_and_stability" file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
    <Item id="additional_fuel_tank2_add_damage_guns" 	file="data\if\ico\InventoryDlg\Gadgets\fueltank.dds" file1=""/>
+   
+   <Item id="additional_torque" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
+   <Item id="additional_torque2" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
+   <Item id="add_speed_and_torque" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
+   <Item id="add_torque_and_stability" file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
+
+   <Item id="additional_durability" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1.dds" file1=""/>
+   <Item id="additional_durability2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1_v2.dds" file1=""/>
+   
+   <Item id="additional_stability" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_04.dds" file1=""/>
+   <Item id="add_stability_and_speed" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetG_04.dds" file1=""/>
 
 
    <Item id="TownSouth"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
