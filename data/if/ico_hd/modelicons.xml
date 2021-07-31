@@ -58,14 +58,14 @@
    <Item id="potato"			      file="data\if\ico\InventoryDlg\goods\potatoe.dds" 	file1="data\if\ico\InventoryDlg\goods\potatoe.dds"/>
    <Item id="firewood"		      file="data\if\ico\InventoryDlg\goods\trees.dds" 	file1="data\if\ico\InventoryDlg\goods\trees.dds"/>
    <Item id="scrap_metal"	      file="data\if\ico\InventoryDlg\goods\lom.dds" 		file1="data\if\ico\InventoryDlg\goods\lom.dds"/>
-   <Item id="oil"				      file="data\if\ico\InventoryDlg\goods\oil.dds" 		file1="data\if\ico\InventoryDlg\goods\oil.dds"/>
+   <Item id="oil"				      file="data\if\ico_hd\InventoryDlg\goods\oil.dds" 		file1="data\if\ico_hd\InventoryDlg\goods\oil.dds"/>
    <!-- <Item id="gear"			      file="data\if\ico\InventoryDlg\goods\details.dds" 	file1="data\if\ico\InventoryDlg\goods\details.dds"/> -->
-   <Item id="bottle"			      file="data\if\ico\InventoryDlg\goods\bottles.dds" 	file1="data\if\ico\InventoryDlg\goods\bottles.dds"/>
+   <Item id="bottle"			      file="data\if\ico_hd\InventoryDlg\goods\bottles.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\bottles.dds"/>
    <Item id="fuel"			      file="data\if\ico\InventoryDlg\goods\kanistra.dds" file1="data\if\ico\InventoryDlg\goods\kanistra.dds"/>
    <Item id="fibreboard"		   file="data\if\ico\InventoryDlg\goods\doski.dds" 	file1="data\if\ico\InventoryDlg\goods\doski.dds"/>
    <Item id="machinery"			   file="data\if\ico\InventoryDlg\goods\rabochee_oborudovanie.dds" 	file1="data\if\ico\InventoryDlg\goods\rabochee_oborudovanie.dds"/>
    <Item id="tobacco"			   file="data\if\ico\InventoryDlg\goods\tobacco.dds" 	file1="data\if\ico\InventoryDlg\goods\tobacco.dds"/>
-   <Item id="book"			      file="data\if\ico\InventoryDlg\goods\books.dds"		file1="data\if\ico\InventoryDlg\goods\books.dds"/>
+   <Item id="book"			      file="data\if\ico_hd\InventoryDlg\goods\books.dds"		file1="data\if\ico_hd\InventoryDlg\goods\books.dds"/>
    <!-- <Item id="ostrich_feather"	   file="data\if\ico\InventoryDlg\goods\shkatylka.dds" file1="data\if\ico\InventoryDlg\goods\shkatylka.dds"/> -->
    <Item id="electronics"		   file="data\if\ico\InventoryDlg\goods\mikro.dds" 	file1="data\if\ico\InventoryDlg\goods\mikro.dds"/>
    <!-- <Item id="human"			      file="data\if\ico\InventoryDlg\Opacity.dds" 			file1="data\if\ico\InventoryDlg\Opacity.dds"/> -->
