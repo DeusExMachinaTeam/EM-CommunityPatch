@@ -3,7 +3,7 @@
  *
  *  Meta:
  *    Author: Alexander Fateev
- *    Version: 1.0.1
+ *    Version: 1.1.1
  *    License: Attribution-NonCommercial-ShareAlike 4.0 International
  *
  **/
@@ -78,6 +78,7 @@ float4 diffuse(float3 dir_view,
                float  Specular,
                float  Ambient,
                float  Reflection) {
+    dir_light = normalize(dir_light);
 
     float3 NrefL = reflect(-dir_light, Normal);
     float  NdotL = dot    (-dir_light, Normal);
@@ -87,6 +88,7 @@ float4 diffuse(float3 dir_view,
 
     float  luminance = max(0.0, NdotL);
     float3 light = g_Ambient.rgb + g_Diffuse.rgb * luminance;
+
     float3 color = Color;
 
     #ifdef ENABLE_AMBIENT
