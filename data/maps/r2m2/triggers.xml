@@ -7,6 +7,20 @@
 		</script>
 	</trigger>
 
+	<trigger	Name="trStartMap"	active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			local submar = getObj("SubmR2M2")
+			if submar then
+				submar:Remove()
+			end
+			
+			TActivate("trMoveR2ToR4M1")
+			
+			trigger:Deactivate()
+
+		</script>
+	</trigger>
 
 	<trigger	Name="trGraciassPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
@@ -16,7 +30,7 @@
 
 			for i=1,19 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(0, 2))
 			end
 			trigger:Deactivate()
 		</script>
@@ -367,7 +381,7 @@
 				AddHistory( "r2_After_Axel_01" )
 				AddFadingMsgId( "fm_history_got" )
 			else
-				TActivate("RolikBegin_AXELARENADIE2")
+				TActivate("RolikBegin_AXELARENADIE")
 				
 				TakeQuest( "r2m2_ToLisaToMonastir" )
 
@@ -476,11 +490,7 @@
  
 				local b = SpawnMessageBox( "8800" )
 				if b == 1 then
-					SaveAllToleranceStatus(RS_NEUTRAL)
-
-					TActivate ("StartR4M1Yes")
-
-					getObj("SubmarinaR2M2"):StartMotionToPort()
+					TActivate ("cinMovePlToR4M1_begin")
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
 
@@ -493,37 +503,29 @@
 				end
 			end
 
-			trigger:Activate()
+			trigger:Deactivate()
  		</script>
-	</trigger>
-	<trigger	Name="StartR4M1Yes"	active="0">
-		<event	eventid="GE_SKIP_CINEMATIC"	ObjName="Player1" />
-		<event	eventid="GE_END_CINEMATIC"	ObjName="Player1" />
-		<script>
-			GameFiltersUse()
-
-			RestoreAllToleranceStatus()
-
-			PassToMap("r4m1", "FromR2M2", -1 )
-
-			SetCameraBehindPlayerVehicle()
-
-			trigger:Deactivate() 
-		</script>
 	</trigger>
 
 	<trigger	Name="StartR4M1No"	active="0">
 		<event	eventid="GE_SKIP_CINEMATIC"	ObjName="Player1" />
 		<event	eventid="GE_END_CINEMATIC"	ObjName="Player1" />
 		<script>
-			GameFiltersUse()
-
 			RestoreAllToleranceStatus()
 
-			local Plf = GetPlayerVehicle()
-			Plf:PlaceToEndOfPath()
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetExternalPathByName("r4m1_path")
+				vehPlayer:PlaceToEndOfPath("r4m1_path")
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetPosition( CVector(2944.455, 267.272, 2014.799))
+		   		vehPlayer:SetRotation(Quaternion(0.002, 0.944, -0.001, -0.331))
+		   	end
 
 			SetCameraBehindPlayerVehicle()
+
+			TActivate("trMoveR2ToR4M1")
 
 			trigger:Deactivate() 
 		</script>

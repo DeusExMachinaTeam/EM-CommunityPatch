@@ -39,6 +39,21 @@
 		</script>
 	</trigger>
 
+    <trigger	Name="trSubDelete"	active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			local submar = getObj("SubmR4M1")
+			if submar then
+				submar:Remove()
+			end
+			
+			TActivate("trMoveR2ToR2M2")
+			
+			trigger:Deactivate()
+	
+		</script>
+	</trigger>
+
 	<trigger	Name="trCreateMolokovoz"	active="0">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="TheKef" />
 		<script>
@@ -164,10 +179,11 @@
 				AddVehicleGunsWithRandomAffix( attm:GetVehicle(2), "hunterSideGun",  3, 8+random(2))
 				AddVehicleGunsWithRandomAffix( attm:GetVehicle(3), "vulcan01", 3, 10)
 			end
-
+			CompleteQuest("r4m1_FPR_MeetWithOldMan")
 			SetTolerance(1100,1025, RS_ENEMY)
 			SetTolerance(1026,1025, RS_ENEMY)
 			TActivate("trBuharsAttackersDie")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -203,12 +219,12 @@
 		<script>
 --			local bhteam = CreateTeam("Buharers",1026, CVector(getPos("BuhSpawn_loc")),{"DemoUral1","DemoMolokovoz1"})
 
-			local veh1 = CreateVehicleEx("DemoUral1","Buharers_vehicle_0",CVector(getPos("BuhSpawn_loc")))
+			local veh1 = CreateVehicleEx("DemoUral1","Buharers_vehicle_0",CVector(getPos("BuhSpawn_loc")), 1026)
 			if veh1 then
 				veh1:SetExternalPathByName("BuharsEvac_Path1_1")
 				veh1:SetCruisingSpeed(100)
-				end
-			local veh2 = CreateVehicleEx("DemoMolokovoz1","Buharers_vehicle_1",CVector(getPos("BuhSpawn_loc"))+CVector(7, 0, 7))
+			end
+			local veh2 = CreateVehicleEx("DemoMolokovoz1","Buharers_vehicle_1",CVector(getPos("BuhSpawn_loc"))+CVector(7, 0, 7), 1026)
 			if veh2 then
 				veh2:SetExternalPathByName("BuharsEvac_Path2_1")
 				veh2:SetCruisingSpeed(100)
@@ -224,6 +240,8 @@
 			TActivate("trBuharsDie")
 			TActivate("trBuharsEnterToPort")
 			TActivate("trBuhReachPoint")
+
+			TakeQuest("r4m1_RBC_Evacuate")
 			trigger:Deactivate() 
 		</script>
 	</trigger>
@@ -360,23 +378,61 @@
  		</script>
 	</trigger>
 
-	<trigger Name="trMovePlToR2M1" active="1">
+	<trigger Name="trMoveR2ToR2M2" active="1">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterToSubmarine_loc" />
 		<script>
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
-			GetPlayerVehicle():SetThrottle( 0 )
+			if QuestStatus("r4m2_TalkWithScientific")==Q_COMPLETED then
+				trigger:Deactivate()
+			
+				local Plf = GetPlayerVehicle()
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 25*0.74
+				PlfCoor.z = PlfCoor.z + 25*0.74
 
-			if QuestStatus("r4m2_TalkWithScientific")~=Q_COMPLETED then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
-					getObj("SubmarinaR4M1"):StartMotionToPort()
+
+					TActivate ("cinMovePlToR2M2_begin")
+
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					TActivate ("StartR2M2No")
+
+					FlyAround( 6, 0, 25, 5, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
 				end
-			else
-				SpawnMessageBox( "8804" )
 			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
+	<trigger	Name="StartR2M2No"	active="0">
+		<event	eventid="GE_SKIP_CINEMATIC"	ObjName="Player1" />
+		<event	eventid="GE_END_CINEMATIC"	ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			
+			SetCameraBehindPlayerVehicle()
 
- 		</script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetPosition( CVector(1361.777, 220.570, 3114.695))
+		   		vehPlayer:SetRotation(Quaternion(0.000, -0.826, 0.000, -0.564))
+		   	end
+
+			TActivate("trMoveR2ToR2M2")
+
+			trigger:Deactivate() 
+		</script>
 	</trigger>
 
 <!--
@@ -907,6 +963,7 @@
 			if team then
 --			   team:SetDestination()    
 			   team:SetExternalPathByName("engineerGoAwayPath")
+			   team:setImmortalMode(1)
 			   TActivate("trEngineerFree")
 			end
 			trigger:Deactivate()
@@ -944,6 +1001,13 @@
 		</script>
 	</trigger>
 
+	<trigger Name="cinEngineer_MusicStop" active="0">
+	<event        timeout="20"        eventid="GE_TIME_PERIOD" />
+		<script>
+			StopPlayingCustomMusic()
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
 	<trigger	Name="trPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
@@ -954,7 +1018,7 @@
 
 			while getObj("SecretPlace"..i.."_loc")~=nil do
 --				println(i)
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
 				i = i + 1
 			end
 

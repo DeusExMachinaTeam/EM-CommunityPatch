@@ -243,8 +243,7 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="r4m1_KNO_BringOil"
-			OnComplete="AddPlayerMoney(5000)"
-			OnTake='TActivate("trRunDownEngineer")' />
+			OnComplete="AddPlayerMoney(5000)" />
 
 		<quest
 			Name="r4m1_KNO_ReportToKef"
@@ -252,8 +251,16 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="r4m1_KNO_FindSpecialist"
+			PrecedingQuests="r4m1_KNO_FindSpecialist_1"
 			OnComplete="AddPlayerMoney(5000)" />
+
+		<quest
+			Name="r4m1_KNO_FindSpecialist_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r4m1_KNO_FindSpecialist" />
 	</quest>
 
 	<quest
@@ -281,7 +288,8 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(10000)"
-		Levels="r3m1 r3m2 r1m4 r1m3 r1m2">
+		OnFail='TDeactivate("trSignPlace");'
+		Levels="r3m1 r3m2 r2m1 r2m2 r1m4 r1m3 r1m2 r1m1">
 		<quest
 			Name="q_PWS1"
 			Automatic="1"
@@ -290,7 +298,7 @@
 			ConditionToGive="all taken"
 			PrecedingQuests="q_PlaceWithSign"
 			OnTake='ShowCircleOnMinimapByName("SignPlace_loc")'
-			Levels="r3m1 r3m2 r1m4 r1m3 r1m2" />
+			Levels="r3m2" />
 
 		<quest
 			Name="q_PWS2"
@@ -299,7 +307,7 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="q_PWS1"
-			Levels="r3m1 r3m2 r1m4 r1m3 r1m2" />
+			Levels="r3m1 r3m2 r2m1 r2m2 r1m4 r1m3 r1m2 r1m1" />
 	</quest>
 <!--Root/r3m2/Сюжетные/Преодолеть защитников оракула-->
 	<quest
@@ -667,7 +675,7 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="r2m2_Znaki2_Quest"
 		OnComplete="AddPlayerMoney(750)"
-		Levels="r2m2 r2m1 r1m3 r1m1 r1m2" />
+		Levels="r2m2 r2m1 r1m3 r1m1 r1m2 r1m4 r3m1 r3m2" />
 <!--Root/r2m2/Опциональные/Доставить головы сектантов-->
 	<quest
 		Name="r2m2_HeadsHunterQuest"
@@ -768,8 +776,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="r2m2_DestroySNGKaravan"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_GoToLibrium"
 			OnTake='ShowCircleOnMinimapByName("ToR2M1");' />
 
 		<quest
@@ -780,6 +788,14 @@
 			ConditionToGive="all complete"
 			PrecedingQuests="r2m2_FindSNGKaravan"
 			OnTake='ShowCircleOnMinimapByName("ToR2M2"); ShowCircleOnMinimap("r2m2",CVector(1829.361, 316.000, 3300.456))' />
+
+		<quest
+			Name="r2m2_GoToLibrium"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_DestroySNGKaravan" />
 	</quest>
 <!--Root/r2m2/Сюжетные/Привезти вина-->
 	<quest
@@ -923,7 +939,7 @@
 <!--Root/r2m1/Опциональные/Найти Жулика-->
 	<quest
 		Name="r2m1_ArtGulik_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -1041,7 +1057,7 @@
 <!--Root/r2m1/Сюжетные/ караван по деревням -->
 	<quest
 		Name="d_CaravanFromTuzzToVillage_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="1"
 		ConditionToGive="all complete"
@@ -1061,8 +1077,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="d_CaravanFromTuzzToVillage_Quest"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FirstVillage_Quest"
 			OnTake='ShowCircleOnMinimapByName("TheVill2_Loc")' />
 
 		<quest
@@ -1294,7 +1310,6 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(2000)"
-		OnTake='TActivate("trExtrTeamMustDie_Take")'
 		Levels="r1m4" />
 <!--Root/r1m4/Преодолеть болото-->
 	<quest
@@ -1955,7 +1970,7 @@
 
 		<quest
 			Name="d_CaravanToPortoBen_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -1964,7 +1979,7 @@
 
 		<quest
 			Name="d_CaravanToMidgardBen_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -2062,6 +2077,7 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(100)"
+		OnFail='TActivate("REVOLUTIONFAIL")'
 		OnTake='ShowCircleOnMinimapByName("RevolutionTimeEndLoc")'
 		Levels="r1m1" />
 <!--Root/r1m1/Опциональные/Квест про госпиталь-->
@@ -2101,7 +2117,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		OnComplete="AddPlayerMoney(200)"
+		OnComplete='AddPlayerMoney(200); TDeactivate("ZASADA_1")'
 		OnTake='ShowCircleOnMinimapByName("TheTown")' />
 <!--Root/r1m1/Сюжетные/Вернуться домой -->
 	<quest
@@ -2269,9 +2285,6 @@
 
 		<mutex
 			quests="d_IntrigaOfMerMinin_Quest d_PayWorkersMoney_Quest" />
-
-		<mutex
-			quests="d_FindKeyInTunel_Quest d_FindZasadaInTunel_Quest" />
 
 		<mutex
 			quests="d_FindVerbInAR_Quest d_FindVerbInSNG_Quest" />

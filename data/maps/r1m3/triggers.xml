@@ -15,12 +15,12 @@
 	<trigger	Name="trVaterlandPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local gunlist = {"hornet01","specter01","pkt01","storm01","vector01","vulcan01","hurricane01"}
+			local gunlist = {"specter01","storm01","pkt01","hornet01","vector01","vulcan01","hurricane01"}
 			local len = getn(gunlist)
 
 			for i=1,12 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
 			end
 			trigger:Deactivate()
 		</script>
@@ -360,39 +360,58 @@
 	<trigger Name="BOSSOILMINEDIE" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="OilMineBoss" />
 		<script>
-   			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
 
 			SetTolerance( 1100, 1047, RS_NEUTRAL )
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			TeamCreate("OilMineRuner",1044,CVector(6895,260,7002),{"DemoBandit"}, nil, 1)
-			local vehP = GetEntityByName("OilMineRuner_vehicle_0")
-			if vehP then
-				vehP:SetExternalPathByName("banditoilmine_path")
-			end
-
-			CinemaFiltersUse()
+			TeamCreate("OilMineRuner",1002,CVector(6959, 260, 7059),{"DemoBandit"}, nil, 1)
+			
+			local runVeh = getObj("OilMineRuner_vehicle_0")
+			local RunID = runVeh:GetId()
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 25*0.74
-			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			Plf:SetCustomControlEnabled( true )
-			Plf:SetCustomLinearVelocity( 0 )
-			Plf:SetThrottle( 0 )
-			Plf:SetCustomControlEnabled( false )
-
-			FlyAround(6, 0, 25, 10, PlfCoor, PlfID, 1, 1)
+			if runVeh then
+				runVeh:SetSkin(1)
+			end
+			
+			FlyLinked( "OilMineRunner_cam01", PlfID, 13, 1, 1, RunID )
 			StartCinematic()
+			
+			TActivate( "BOSSOILMINEDIE_FADEIN" )
+			TActivate( "BOSSOILMINENDCINIMATIC" )
+		</script>
+	</trigger>
+		
+	<trigger Name="BOSSOILMINEDIE_FADEIN" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>	
+			local runVeh = getObj("OilMineRuner_vehicle_0")
+			local Plf = GetPlayerVehicle()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 10
+			PlfCoor.z = PlfCoor.z + 20
+
+			if runVeh then
+				runVeh:SetExternalPathByName("oilminerunner_path")
+				runVeh:SetCruisingSpeed(10)
+			end
+
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+				Plf:SetGamePositionOnGround(CVector(6984.255, 263.272, 7091.308))
+				Plf:SetRotation(Quaternion(0.0000, -0.9063, 0.0000, 0.4226))
+			end
 
 			AddCinematicMessage( 20, 1 )
-
-			TActivate( "BOSSOILMINENDCINIMATIC" )
-
+						
 			trigger:Deactivate()
 		</script>
 	</trigger>
+	
 	<trigger Name="BOSSOILMINENDCINIMATIC" active="0">
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
@@ -401,10 +420,18 @@
 
 			RestoreAllToleranceStatus()
 
+			local vehP = GetEntityByName("OilMineRuner_vehicle_0")
+			if vehP then
+				vehP:PlaceToEndOfPath("oilminerunner_path")
+				vehP:SetExternalPathByName("banditoilmine_path")
+			end
+			
 			TActivate("RUNTORUNER")
 			TActivate("RUNTORUNERENDRACE")
 
 			SetCameraBehindPlayerVehicle()
+
+			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
 
 			trigger:Deactivate() 
 		</script>
@@ -500,7 +527,7 @@
 	</trigger>
 
 	<trigger Name="RUNTORUNERENDRACE" active="0">
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="EndRaceLoc" />
+		<event eventid="GE_TARGET_REACHED" ObjName="OilMineRuner_vehicle_0" />
 		<script>
 			TeamCreate("OilMineBaseBoss",1002,CVector(4483, 265, 7496),{"r1m3_Fighter01","r1m3_Fighter02"},CVector(4546, 263, 7479), 1)
 
@@ -530,6 +557,17 @@
 <!-- слежка за мэром -->
 	<trigger Name="SPYMER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			TActivate("SPYMER_Start")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SPYMER_Start" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			TActivate( "RolikBegin_SPYMER" )
 
@@ -735,8 +773,7 @@
 	<trigger Name="ZASADATUNEL" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ZasadaLocQ" />
 		<script>
-   			CompleteQuest( "d_FindZasadaInTunel_Quest" )
-
+   			
 			TActivate( "RolikBegin_Zasada" )
 
 			trigger:Deactivate()
@@ -753,7 +790,7 @@
 			if run and run:IsAlive() then
 				len = Dist(pl, run)
 
-				if (len > 305) or (15 > len) then
+				if (15 > len) then
 					SetTolerance( 1100, 1046, RS_ENEMY )
 
 					local parentrun = GetEntityByName("Pioneer")
@@ -762,6 +799,35 @@
 					end
 
 					TDeactivate( "PIONEERASGARD" )
+
+					trigger:Deactivate()
+
+				elseif (len > 305) then
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					local Plf = GetPlayerVehicle()
+					local PlfID = GetPlayerVehicleId()
+					local PlfCoor = Plf:GetPosition()
+					PlfCoor.y = PlfCoor.y + 25*0.74
+					PlfCoor.z = PlfCoor.z + 25*0.74
+
+					Plf:SetCustomControlEnabled( true )
+					Plf:SetCustomLinearVelocity( 0 )
+					Plf:SetThrottle( 0 )
+					Plf:SetCustomControlEnabled( false )
+
+					FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1)
+					StartCinematic()
+
+					AddCinematicMessage( 18, 1 )
+
+					TActivate("PIONEERDEAD_cp")
+
+					TDeactivate( "PIONEERASGARD" )
+					TDeactivate("PIONEERDEAD")
+
+					FailQuest("d_SerchCarTunel_Quest")
+
 
 					trigger:Deactivate()
 				end
@@ -800,6 +866,7 @@
 
    			TakeQuest( "d_OpenTunel_Quest" )
    			FailQuest( "d_SerchCarTunel_Quest" )
+			FailQuest("d_FindKeyInTunel_Quest")
 
 			AddQuestItem("quest_key_for_tunnel")
 
@@ -816,6 +883,11 @@
 
 			SetCameraBehindPlayerVehicle()
 
+			local run = GetEntityByName("Pioneer_vehicle_0")
+			if run then
+				run:Remove()
+			end
+
 			trigger:Deactivate() 
 		</script>
 	</trigger>
@@ -824,6 +896,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="PioneerLoc" />
 		<script>
    			CompleteQuest( "d_SerchCarTunel_Quest" )
+			FailQuest("d_FindKeyInTunel_Quest")
 
 			TDeactivate( "PIONEERDEAD" )
 			TDeactivate( "RUNTOPIONEER" )
@@ -1052,6 +1125,8 @@
 				tv:StackClose()
 			end
 
+			TakeQuest("r1m3_OldTownOutsiderCar_Quest")
+			
 			TActivate("TriggerLabirintCarDie")
 
 			trigger:Deactivate()

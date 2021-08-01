@@ -92,9 +92,10 @@
 			if veh then
 --	            LOG("A3")
 				veh:SetExternalPathByName("playerMolokPath")
+				veh:SetCruisingSpeed(15)
 			end
 --            LOG("A4")
-			Fly("molokovozExit", CINEMATIC_NO_AIM, nil, 10, 1,1)
+			Fly("molokovozExit", CINEMATIC_NO_AIM, nil, 11, 1,1)
 			StartCinematic()
 --            LOG("A5")
 			trigger:Deactivate()
@@ -181,7 +182,7 @@
 
 
             Fly("EngineerCamPath1", CINEMATIC_NO_AIM, nil, 7.3, 1,0)
-			Fly("EngineerCamPath2", CINEMATIC_NO_AIM, nil, 3, 0,0)
+			Fly("EngineerCamPath2", CINEMATIC_NO_AIM, nil, 7, 0,1)
 			StartCinematic()
 			trigger:Deactivate()
 		</script>
@@ -193,9 +194,10 @@
 			if GetPlayerVehicle() then
 				GetPlayerVehicle():SetGamePositionOnGround(CVector(4396.869, 300, 5880.139))
 				GetPlayerVehicle():SetRotation(Quaternion(-0.018, -0.664, 0.004, 0.748))
-				GetPlayerVehicle():SetMaxTorque(400)
-				GetPlayerVehicle():SetMaxSpeed(60)
-				GetPlayerVehicle():SetCruisingSpeed(60)
+--				GetPlayerVehicle():SetMaxTorque(400)
+				GetPlayerVehicle():SetMaxSpeed(30)
+				GetPlayerVehicle():SetCruisingSpeed(30)
+				GetPlayerVehicle():SetForcedMaxTorque(350)
 				GetPlayerVehicle():SetExternalPathByName("NearEngineerPlayerPath")
 			end
 
@@ -241,9 +243,10 @@
 				GetPlayerVehicle():PlaceToEndOfPath("NearEngineerPlayerPath")
 				GetPlayerVehicle():SetGamePositionOnGround(CVector(4097.918, 249.925, 6058.852))
 				GetPlayerVehicle():SetRotation(Quaternion(-0.016, 0.831, 0.003, 0.555))
-				GetPlayerVehicle():SetMaxTorque(torq)
+--				GetPlayerVehicle():SetMaxTorque(torq)
 				GetPlayerVehicle():SetMaxSpeed(speed)
 				GetPlayerVehicle():SetCruisingSpeed(crspeed)
+				GetPlayerVehicle():ResetForcedMaxTorque()
 
 			end
 			PlayCustomMusic("Bio05")
@@ -258,17 +261,16 @@
 	</trigger>
 
 	<trigger	Name="cinEngineerMustDieFirst"	active="0">
-		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<event	timeout="0"		eventid="GE_TIME_PERIOD" />
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 			ShowHostileVehicles(false)
 			TActivate("cinEngineerMustDie_End")
-			TActivate("cinEngineerMustDie_StartFly")
 			local enveh=getObj("EngCar")
 			if enveh then
 				enveh:setGodMode( false )
 				enveh:SetExternalPathByName("engineerWantDiePath")
-				Fly("EngineerCamPath3", CINEMATIC_NO_AIM, nil, 6, 1,0)
+				Fly("EngineerCamPath3", CINEMATIC_NO_AIM, nil, 6, 0,0)
 				Fly("EngineerCamPath4", CINEMATIC_NO_AIM, nil, 3.5, 0,1)
 				StartCinematic()
 				AddCinematicMessage( 16, 0.5 )
@@ -300,7 +302,7 @@
 
 			TActivate("cinBuhArmy_End")
 
-			Fly("BuharsAttackPath", CINEMATIC_NO_AIM, nil, 6, 1,0)
+			Fly("BuharsAttackPath", CINEMATIC_NO_AIM, nil, 8, 1,1)
 			StartCinematic()
 
 			trigger:Deactivate()
@@ -658,5 +660,112 @@
 		</script>
 	</trigger>
 
+	<!-- Отплытие на подлодке в Аржан -->
 
+	<trigger Name="cinMovePlToR2M2_begin" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			SaveAllToleranceStatus(RS_NEUTRAL)
+			
+			EnableGodMode()
+			
+			Fly("lodka1", CINEMATIC_NO_AIM, 0, 21, 1, 0 )
+			Fly("lodka2", CINEMATIC_NO_AIM, 0, 15, 0, 1 )
+			StartCinematic()
+			
+			PlayCustomMusic("Bio02")
+			
+			TActivate("cinMovePlToR2M2_Fade")
+			TActivate("cinMovePlToR2M2_cam03")
+			TActivate("cinMovePlToR2M2_End")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR2M2_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			
+			CreateNewDummyObject( "submarina",	"SubmR4M1", -1, -1, CVector(318.837, 150.000, 3490.127), Quaternion(0.0000, 0.8204, 0.0000, 0.5718), 0 )
+			
+			local moverId = CreateNewObject { prototypeName	= "cinematicMover", objName  = "" }
+			local mover = GetEntityByID( moverId ) 
+			local controlledObj = GetEntityByName("SubmR4M1")
+			if controlledObj then
+				mover:SetObjAndPath( controlledObj:GetId(), "lodka3", 20 )
+			end
+			
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetPosition( CVector(1262.583, 214.190, 3151.562))
+		   		vehPlayer:SetRotation(Quaternion(-0.005, 0.557, -0.006, -0.830))
+		   	end
+		   	
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR2M2_cam03" active="0">
+		<event flypath="lodka2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			local podlodka = getObj("SubmR4M1")
+			if podlodka then
+				podlodka:SetNodeAction(AT_STAND2)
+			end
+
+			TActivate("subzaezd11")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="subzaezd11" active="0">
+		<event	timeout="7"		eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetExternalPathByName("subzaezd1")
+				vehPlayer:LimitMaxSpeed( 20 )
+		   	end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="cinMovePlToR2M2_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetExternalPathByName("subzaezd1")
+				vehPlayer:PlaceToEndOfPath()
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:UnlimitMaxSpeed()
+		   	end
+			
+			StopPlayingCustomMusic()
+			
+			DisableGodMode()
+			
+			TActivate("trSubDelete")
+			
+			TDeactivate("subzaezd11")
+			TDeactivate("cinMovePlToR2M2_cam03")
+			
+			RestoreAllToleranceStatus()
+			
+			SetCameraBehindPlayerVehicle()
+						
+			PassToMap("r2m2", "FromR4M1", -1 , true)
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
 </triggers>

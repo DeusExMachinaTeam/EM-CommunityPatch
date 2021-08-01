@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Truck shop, characteristics and buttons for buying cabins, baskets etc in Garage window  -->
+<Prefabs>
+	<Node
+		name="wndCharacteristics"
+		class="Wnd"
+		org="960.000 0.000 960.000 1080.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico_hd\characteristicwnd\workshop_truckpanel.dds"
+		paneName="PaneBroun"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ff404040"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="wndTruckPicture"
+			class="SgNodeArrayWnd"
+			org="85.000 180.000 800.000 590.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBroun"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			image=""
+			ModelRotation="0.0000 0.0000 0.0000 1.0000"
+			ModelTranslation="0.000 0.000 0.000"
+			ModelScale="1.000 1.000 1.000">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lblName"
+			class="Wnd"
+			org="31.000 129.000 897.000 41.000"
+			style="3904"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnSkinNext"
+			org="521.000 191.000 39.000 31.000"
+			style="262656"
+			order="44"
+			id="300304"
+			caption=""
+			tip="^NextSkin^"
+			backimage=""
+			paneName="PaneArrowGrayRight3"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_enabled.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_pressed.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_selected.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\SkinScroll\paint_next_disabled.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnSkinPrev"
+			org="420.000 191.000 39.000 31.000"
+			style="262656"
+			order="43"
+			id="300305"
+			caption=""
+			tip="^PrevSkin^"
+			backimage=""
+			paneName="PaneArrowGrayLeft3"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_enabled.dds"
+			btnImageDown="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_pressed.dds"
+			btnImageIn="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_selected.dds"
+			btnImageDisabled="data\if\ico_hd\GarageWnd\SkinScroll\paint_prev_disabled.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndSkinFrame"
+			class="ImageWnd"
+			org="400.000 179.000 180.000 90.000"
+			style="512"
+			order="46"
+			id="0"
+			caption=""
+			tip="^Skinning^"
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico_hd\GarageWnd\paint_panel.dds">
+			<Animations/>
+		</Node>
+
+		<!-- <Node
+			name="wndSkinFrameShadow"
+			class="ImageWnd"
+			org="397.000 179.000 186.000 62.000"
+			style="768"
+			order="46"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico\GarageWnd\paint_shadow.dds">
+			<Animations/>
+		</Node> -->
+
+		<Node
+			name="btnPrev"
+			org="28.000 122.000 48.000 47.500"
+			style="262656"
+			order="39"
+			id="300301"
+			caption=""
+			tip="^PrevVehicle^"
+			backimage=""
+			paneName="PaneArrowGrayLeft2"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\GarageWnd\VehicleScroll\truck_prev_enabled.dds"
+			btnImageDown="data\if\ico\GarageWnd\VehicleScroll\truck_prev_pressed.dds"
+			btnImageIn="data\if\ico\GarageWnd\VehicleScroll\truck_prev_selected.dds"
+			btnImageDisabled="data\if\ico\GarageWnd\VehicleScroll\truck_prev_disabled.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnNext"
+			org="885.500 122.000 48.000 47.500"
+			style="262656"
+			order="40"
+			id="300300"
+			caption=""
+			tip="^NextVehicle^"
+			backimage=""
+			paneName="PaneArrowGrayRight2"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\GarageWnd\VehicleScroll\truck_next_enabled.dds"
+			btnImageDown="data\if\ico\GarageWnd\VehicleScroll\truck_next_pressed.dds"
+			btnImageIn="data\if\ico\GarageWnd\VehicleScroll\truck_next_selected.dds"
+			btnImageDisabled="data\if\ico\GarageWnd\VehicleScroll\truck_next_disabled.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTitleDecor1"
+			class="ImageWnd"
+			org="66.000 114.000 38.000 63.000"
+			style="768"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico_hd\GarageWnd\split.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTitleDecor2"
+			class="ImageWnd"
+			org="857.000 114.000 38.000 63.000"
+			style="768"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico_hd\GarageWnd\split.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndPriceTitle"
+			class="Wnd"
+			org="392.000 705.000 174.000 34.000"
+			style="2816"
+			order="15"
+			id="0"
+			caption="^Price^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndPrice"
+			class="Wnd"
+			org="392.000 705.000 174.000 34.000"
+			style="2560"
+			order="15"
+			id="0"
+			caption=""
+			tip="^VehiclePrice^"
+			backimage=""
+			paneName="PaneBtnGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnBuy"
+			org="178.000 708.000 170.000 37.000"
+			style="265728"
+			order="41"
+			id="300302"
+			caption="^Select^"
+			tip="^EnterVehicleTrade^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnCancel"
+			org="611.000 708.000 170.000 37.000"
+			style="265728"
+			order="42"
+			id="300303"
+			caption="^cancel^"
+			tip="^ReturnToWorkshop^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndBuyPanel"
+			class="Wnd"
+			org="120.000 665.000 720.000 90.000"
+			style="768"
+			order="15"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico_hd\GarageWnd\buy_panel.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndCBCharacteristics"
+			class="Wnd"
+			org="18.000 716.000 924.000 368.000"
+			style="768"
+			order="27"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico_hd\characteristicwnd\cab_and_body.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_LEFT"
+				animationSpeed="3500"
+				animationAccel="-2000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_RIGHT"
+				animationSpeed="500"
+				animationAccel="4000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+		</Animations>
+	</Node>
+</Prefabs>

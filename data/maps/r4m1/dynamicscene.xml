@@ -1492,6 +1492,14 @@
 				skin="1"
 				NpcType="BARMAN"
 				SpokenCount="0" />
+			<Object
+				Name="r4_Aliham_Bar_Visitor"
+				Belong="1060"
+				Prototype="NPC"
+				ModelName="r4_man"
+				cfg="129"
+				helloReplyNames="r4m1_SomeWhere_Man1_1_N01"
+				SpokenCount="0" />
 		</Object>
 
 		<Object
@@ -2088,19 +2096,6 @@
 				Prototype="jsCaravanTeam"
 				Locations="locGadad locationG2a locationG2b locationG2c locationG2d locationG2End" />
 		</Caravans>
-	</Object>
-
-	<Object
-		Name="SubmarinaR4M1"
-		Belong="1100"
-		Prototype="SubmarinaLive"
-		Pos="110.279 163.053 3564.814"
-		Rot="0.000 0.816 0.000 0.578"
-		PlacePosition="110.279 163.053 3564.814"
-		PortPosition="1214.723 215.701 3175.388"
-		NextMap="r2m2"
-		NextMapLocation="FromR4M1">
-		<EntryPath />
 	</Object>
 
 	<Object

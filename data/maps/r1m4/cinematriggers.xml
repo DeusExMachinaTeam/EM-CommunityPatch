@@ -12,7 +12,7 @@
 			TActivate("RolikEnd_BolotoOF")
 			TActivate("trBolotoOF_cam01")
 			TActivate("BolotoOF_PathOut")
-			Fly("BolotoOF_cam01", CINEMATIC_NO_AIM, 0, 25, 1, 1 )
+			Fly("BolotoOF_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 1 )
 			StartCinematic()
 			AddCinematicMessage( 1, 0.25 )
 			trigger:Deactivate()
@@ -260,6 +260,8 @@
 		TActivate("trPortOut_cam01")
 		TActivate("trPortOut_cam02")
 
+		SaveAllToleranceStatus(RS_NEUTRAL)
+
 		Fly("PortOut_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
 		Fly("PlaneOut_cam02", CINEMATIC_NO_AIM, 0, 5, 0, 1 )
 		StartCinematic()
@@ -302,6 +304,8 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
+		RestoreAllToleranceStatus()
+
 		local vehPlayer = GetPlayerVehicle()
 		if vehPlayer then
 			vehPlayer:SetExternalPathByName("player_path02")
@@ -329,6 +333,9 @@
 		GetPlayerVehicle():SetCustomLinearVelocity( 0 )
 
 		PlayCustomMusic("Techno01")
+
+		EnableGodMode()
+
 		TActivate("RolikEnd_Boss02")
 		TActivate("trBoss02_cam01")
 		TActivate("trBoss02_cam02")
@@ -395,6 +402,8 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
+		DisableGodMode()
+
 		local vehPlayer = GetPlayerVehicle()
 		if vehPlayer then
 			vehPlayer:SetExternalPathByName("player_path06")
@@ -430,6 +439,7 @@
 			TActivate("RolikEnd_NearCaravanLeader")
 			TActivate("trCaravan_cam02")
 			TActivate("trCaravan_cam03")
+			TActivate("trCaravan_Fade")
 			PlayCustomMusic("Passage01unloop")
 			RuleConsole("cinematic_spring_coeff 3.0")
 
@@ -447,6 +457,25 @@
 			AddCinematicMessage( 4, 1 )
 			AddCinematicMessage( 5, 1 )
 
+			local PlVehicle = GetPlayerVehicle()
+			if PlVehicle then
+				PlVehicle:SetThrottle(0)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trCaravan_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+			end
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -456,6 +485,7 @@
 		<script>
 
 			PlayCustomMusic("IntenseDialogue01")
+
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
 				vehPlayer:SetThrottle(0)

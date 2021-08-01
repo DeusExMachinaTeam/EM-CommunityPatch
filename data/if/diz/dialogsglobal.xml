@@ -201,7 +201,7 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N14"
-		text="Значит, ты и подобные тебе разрушили мир ради удовлетворения своего любопытства. "
+		text="Значит, ты и подобные тебе разрушили мир ради удовлетворения своего любопытства? "
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N15" />
 
@@ -301,13 +301,14 @@
 		name="r4m2_Bar_Scientist_3_N01"
 		text="Больше я ничем не могу тебе помочь. Иди и выполни задуманное!"
 		role="NPC"
-		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_COMPLETE"
+		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_COMPLETED"
 		nextReplies="r4m2_Bar_Scientist_3_N02" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_3_N02"
 		text="Это будет непросто, но я справлюсь."
-		role="PLAYER" />
+		role="PLAYER"
+		scriptResult="EndConversation()" />
 <!--Root/r4m1/Сюжетные--><!--Root/r4m1/Опциональные--><!--Root/r4m1/Разговоры о книгах-->
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N01"
@@ -839,7 +840,7 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N07"
-		text="У нас особо никуда не спрячешься. Деревни все сожжены. Скорее всего, он отправился в Гадад, больше некуда."
+		text="У нас особо никуда не спрячешься. Деревни все сожжены. Скорее всего, он отправился в Алихам, больше некуда."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_2_N08" />
 
@@ -847,7 +848,7 @@
 		name="Kef_Bar_Customer1_2_N08"
 		text="Я верну его. Надеюсь, что к тому времени, когда я вернусь, вы мне сможете точно указать, где искать стариков."
 		role="PLAYER"
-		scriptResult="TActivate('trRunDownEngineer'); EndConversation()" />
+		scriptResult="EndConversation()" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N01"
@@ -885,6 +886,7 @@
 		text="Чего ищешь?"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist')==Q_TAKEN"
+		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist')"
 		nextReplies="r4m1_SomeWhere_Man1_1_N02" />
 
 	<Reply
@@ -907,7 +909,7 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Man1_1_N05"
-		text="Он что-то говорил про кладбище кораблей."
+		text="Он поехал дальше по дороге."
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Man1_1_N06" />
 
@@ -915,14 +917,14 @@
 		name="r4m1_SomeWhere_Man1_1_N06"
 		text="Спасибо."
 		role="PLAYER"
-		scriptResult="EndConversation()" />
+		scriptResult="TActivate('trRunDownEngineer'); EndConversation()" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N01"
 		text="Умоляю, не трогайте меня!"
 		role="NPC"
-		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist')==Q_TAKEN"
-		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist')"
+		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist_1')==Q_TAKEN"
+		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist_1')"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N02" />
 
 	<Reply
@@ -989,7 +991,7 @@
 		name="r4m1_SomeWhere_Engineer_1_N11b"
 		text="А мне придётся как-то выкручиваться в Кефе."
 		role="PLAYER"
-		scriptResult="TActivate('trEngineerGoAway'); EndConversation();" />
+		scriptResult="TActivate('trEngineerGoAway'); TActivate('cinEngineer_MusicStop'); EndConversation();" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N07a"
@@ -1052,7 +1054,7 @@
 		text="Они нашли нас, спасайся, кто может!"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_FPR_MeetWithOldMan')==Q_TAKEN"
-		scriptResult="CompleteQuest('r4m1_FPR_MeetWithOldMan'); TActivate('trBuhArmy')"
+		scriptResult="TActivate('trBuhArmy')"
 		nextReplies="r4_Dlg_pl_000072" />
 
 	<Reply
@@ -1169,7 +1171,7 @@
 		text="Мы победили, но они вернутся. Это только вопрос времени. У нас не осталось больше сил сражаться."
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_RBC_GotoPort')==Q_CANBEGIVEN"
-		scriptResult="TakeQuest('r4m1_RBC_GotoPort'); TakeQuest('r4m1_RBC_Evacuate'); TActivate('trPlayerEnterToPort'); TActivate('trCreateBuharers');"
+		scriptResult="TakeQuest('r4m1_RBC_GotoPort'); TActivate('trPlayerEnterToPort'); TActivate('trCreateBuharers');"
 		nextReplies="r4_Dlg_pl_000091" />
 
 	<Reply
@@ -1324,7 +1326,7 @@
 		name="r3m1_NearOracle_ODefenders_1_N16221"
 		text="Я привезу голову чудовища!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_MonterHead'); TActivate('trPlTurnRoundOracleDef'); EndConversation() " />
+		scriptResult="TakeQuest('r3m2_MonterHead'); TActivate('cinTurnOracleDef'); EndConversation() " />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N1021"
@@ -1395,7 +1397,7 @@
 		name="r3m1_NearOracle_ODefenders_2_N021"
 		text="Пока я не смог с ним справиться."
 		role="PLAYER"
-		scriptResult="TActivate('trPlTurnRoundOracleDef'); EndConversation()" />
+		scriptResult="TActivate('cinTurnOracleDef'); EndConversation()" />
 <!--Root/r3m2/Оракул 1 раз-->
 	<Reply
 		name="r3m2_Oracle_Oracle_1_N01"
@@ -1445,7 +1447,7 @@
 		name="r3m2_Oracle_Oracle_1_P08"
 		text="Хорошо, я скоро вернусь."
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_TwoMagicThing'); TActivate('trWentToFactory'); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_TwoMagicThing'); TActivate('trWentToFactory'); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation()" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_2_N01"
@@ -1575,7 +1577,7 @@
 		name="r3m2_Oracle_Oracle_3_N08"
 		text="Я отправляюсь немедленно. У меня появилась надежда!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_OracleMemory'); TActivate('trVK1'); AddQuestItem( 'quest_repair_robot1' ); AddQuestItem( 'quest_repair_robot2' ); AddQuestItem( 'quest_repair_robot3' ); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation()" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N01"
@@ -1650,7 +1652,7 @@
 		name="r3m2_Oracle_Oracle_4_N121"
 		text="Пожалуй, стоит ещё раз побывать в доме отца. "
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_RideToFatherRoomAfterOracul'); AddHistory( 'r3_Oracle_NeedDisc2' ) AddFadingMsgId( 'fm_history_got' ) EndConversation();" />
+		scriptResult="TakeQuest('r3m2_RideToFatherRoomAfterOracul'); GetPlayerVehicle():SetCustomLinearVelocity(0); AddHistory( 'r3_Oracle_NeedDisc2' ) AddFadingMsgId( 'fm_history_got' ) EndConversation();" />
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N032"
@@ -1711,7 +1713,7 @@
 		name="r3m2_Oracle_Oracle_4_N122"
 		text="Эй, погоди! Я с тобой ещё не закончил!.. Похоже, придётся задать пару вопросов Лисе. "
 		role="PLAYER"
-		scriptResult="TakeQuest('r3m2_TalkWithLisa'); EndConversation()" />
+		scriptResult="TakeQuest('r3m2_TalkWithLisa'); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation()" />
 <!--Root/r3m2/принесли 2ой диск-->
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N01"
@@ -1800,7 +1802,7 @@
 		name="Dlg_pl_000205"
 		text="Ты всё-таки обманул меня! Хорошо хоть я успел получить нужные мне сведения…"
 		role="PLAYER"
-		scriptResult="CompleteQuest('r2m2_GiveDisk2ToOrakul'); AddFadingMsgId( 'fm_history_got' ); RemoveQuestItem( 'quest_disk_1' ); RemoveQuestItem( 'quest_disk_2' ); EndConversation();" />
+		scriptResult="CompleteQuest('r2m2_GiveDisk2ToOrakul'); AddFadingMsgId( 'fm_history_got' ); RemoveQuestItem( 'quest_disk_1' ); RemoveQuestItem( 'quest_disk_2' ); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation();" />
 <!--Root/r3m2/У друида и знаки-->
 	<Reply
 		name="r3m2_AloneDruid1_2_N01"
@@ -1856,6 +1858,7 @@
 		name="r3m2_AloneDruid1_1_N01"
 		text="Что ты ищешь, путник, в этих убогих местах?"
 		role="NPC"
+		scriptCondition="not(IsQuestTaken('q_VisitDruid')) and GetCurNpc():GetSpokenCount()==0"
 		nextReplies="r3m2_AloneDruid1_1_N02" />
 
 	<Reply
@@ -1866,15 +1869,39 @@
 
 	<Reply
 		name="r3m2_AloneDruid1_1_N03"
-		text="Здесь его нет. Езжай на северо-запад. Может быть, там ты найдёшь свою цель."
+		text="Здесь его нет. Езжай на северо-запад. Может быть, там ты найдёшь свою цель. Ну а мне пора - надо приводить поля в порядок."
 		role="NPC"
 		nextReplies="r3m2_AloneDruid1_1_N04" />
 
 	<Reply
 		name="r3m2_AloneDruid1_1_N04"
-		text="Спасибо."
+		text="А что случилось с твоими полями?"
 		role="PLAYER"
-		scriptResult="EndConversation();" />
+		nextReplies="Dlg_npc_001293" />
+
+	<Reply
+		name="Dlg_npc_001293"
+		text="Кто-то потоптал мои посевы: то ли на грузовике проехался, то ли поджёг, и оставил странные следы."
+		role="NPC"
+		nextReplies="Dlg_pl_001294" />
+
+	<Reply
+		name="Dlg_pl_001294"
+		text="Кажется, я уже встречал что-то похожее. Покажи где твои посевы, я сообщу, куда следует."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001295" />
+
+	<Reply
+		name="Dlg_npc_001295"
+		text="Совсем близко, направо от выезда. Заранее тебе спасибо - за поля и за разговор."
+		role="NPC"
+		nextReplies="Dlg_pl_001296" />
+
+	<Reply
+		name="Dlg_pl_001296"
+		text="Рад буду помочь. Поеду, погляжу на знаки."
+		role="PLAYER"
+		scriptResult="TakeQuest('q_PlaceWithSign'); TActivate('trSignPlace'); GetCurNpc():SetSpokenCount(1); EndConversation()" />
 <!--Root/r3m1/Очистить стоухендж-->
 	<Reply
 		name="Fist_ambush_guard2_1_N01"
@@ -2479,7 +2506,7 @@
 		name="Set_Bar_Druid3_1_N01"
 		text="Я узнал, что ты направляешься к Оракулу?"
 		role="NPC"
-		scriptCondition="QuestStatus('q_VisitDruid')==Q_CANBEGIVEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid2')==Q_COMPLETED"
+		scriptCondition="QuestStatus('q_VisitDruid')==Q_CANBEGIVEN and QuestStatus('r3m1_ClearSanctuary_ReturnDruid2')==Q_COMPLETED and not(IsQuestTaken('q_PlaceWithSign')) and GetCurNpc():GetSpokenCount( ) == 0"
 		nextReplies="Set_Bar_Druid3_1_N02" />
 
 	<Reply
@@ -3506,7 +3533,7 @@
 		name="Dlg_pl_001128"
 		text="Скоро вернусь."
 		role="PLAYER"
-		scriptResult="TActivate ('Trigger_NarcotikCaravan');  TakeQuest('r2m1_TakeNarcotics_Quest');  GetCurNpc():SetSpokenCount( 1 );  EndConversation()" />
+		scriptResult="TActivate ('Trigger_NarcotikCaravan');  GetCurNpc():SetSpokenCount( 1 );  EndConversation()" />
 <!--Root/r2m1/Опциональные/Убить Босса-->
 	<Reply
 		name="Gulik_hellodlg1"
@@ -3537,7 +3564,7 @@
 		name="Dlg_pl_001131"
 		text="Я сделаю это."
 		role="PLAYER"
-		scriptResult=" TActivate ('Trigger_NarcotikBoss');  CompleteQuest('r2m1_ReturnNarcotics_Quest');  TakeQuest('r2m1_KillGodFather_Quest');  RemoveQuestItem('quest_mafia_narcotik');  EndConversation()" />
+		scriptResult=" TActivate ('Trigger_NarcotikBoss');  CompleteQuest('r2m1_ReturnNarcotics_Quest');  RemoveQuestItem('quest_mafia_narcotik');  EndConversation()" />
 <!--Root/r2m1/Сюжетные/Гражданин в Сели-->
 	<Reply
 		name="SelCitizen_hellodlg0"
@@ -3617,11 +3644,12 @@
 		name="Dlg_pl_000644"
 		text="Значит, мне придётся разнести это прибежище идиотов к чёртовой матери. Сейчас созову ребят из Алого Рассвета, они засиделись без работы…"
 		role="PLAYER"
+		scriptCondition="IsQuestComplete('r2m2_MoveToZeonToAlex')"
 		nextReplies="Dlg_npc_000646" />
 
 	<Reply
 		name="Dlg_npc_000646"
-		text="Спокойно, приятель. Ты герой войны, у тебя психологическая травма, я тебе помогу. Все, электричества нет."
+		text="Спокойно, приятель. Ты герой войны, у тебя психологическая травма, я тебе помогу. Всё, электричества нет."
 		role="NPC"
 		nextReplies="Dlg_pl_000650" />
 
@@ -4151,7 +4179,7 @@
 		name="r1m4Random_Bar_Gomer1_P14"
 		text="Спасибо, добрый человек."
 		role="PLAYER"
-		scriptResult="if CanQuestBeGiven('r1m4_OvercomeMirras') then TakeQuest('r1m4_OvercomeMirras') end; CompleteQuest('FindGomerA_Quest1'); CompleteQuest('r1m3_FindVrata_KnowPlace'); EndConversation()" />
+		scriptResult="if CanQuestBeGiven('r1m4_OvercomeMirras') then TakeQuest('r1m4_OvercomeMirras') end; CompleteQuest('FindGomerA_Quest1'); CompleteQuest('r1m3_FindVrata_KnowPlace'); SetCoordinateForQuest( 'd_FindOracul_Quest' , CVector(getPos('ToR3M1'))) EndConversation()" />
 
 	<Reply
 		name="r1m4_RandomBar_Gomer_1_N01"
@@ -4639,7 +4667,7 @@
 		name="Dlg_pl_000095"
 		text="Слишком это хлопотно, проще убить вас всех."
 		role="PLAYER"
-		scriptResult="TakeQuest('KillExtremist_Quest1'); EndConversation()" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); EndConversation()" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_1_N10"
@@ -4665,7 +4693,6 @@
 		text="Как продвигаются дела по спасению нашего лидера??"
 		role="NPC"
 		scriptCondition="QuestStatus('FreeExtremistLeader_Quest1')==Q_TAKEN and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN"
-		scriptResult="println('!!!!!!!!!!!!!!!!!!!!!!!!'..GetCurNpc():GetSpokenCount());"
 		nextReplies="r1m4_Storage_Guard1_2_P02 r1m4_Storage_Guard1_2_P03" />
 
 	<Reply
@@ -4678,7 +4705,7 @@
 		name="r1m4_Storage_Guard1_2_P03"
 		text="Я передумал. Лучше я убью вас и захвачу склад."
 		role="PLAYER"
-		scriptResult="TakeQuest('KillExtremist_Quest1'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_3_N01"
@@ -4922,10 +4949,10 @@
 		text="Спасибо. До свидания."
 		role="PLAYER"
 		scriptResult="CompleteQuest('q_FH2'); EndConversation();" />
-<!--Root/r1m3/Сюжетные--><!--Root/r1m3/Опциональные--><!--Root/r1m3/Опциональные/Кони и Блайд-->
+<!--Root/r1m3/Сюжетные--><!--Root/r1m3/Опциональные--><!--Root/r1m3/Опциональные/Конни и Блайд-->
 	<Reply
 		name="KonnyBlide_hellodlg0"
-		text="Привет, мы молодая семейная пара - Кони и Блайд. Не мог бы ты нам помочь доехать до дома, а то наша машина совсем сломалась… Мы тебе очень хорошо заплатим…"
+		text="Привет, мы молодая семейная пара - Конни и Блайд. Не мог бы ты нам помочь доехать до дома, а то наша машина совсем сломалась… Мы тебе очень хорошо заплатим…"
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_001080 Dlg_pl_001081" />
@@ -5065,7 +5092,7 @@
 		name="Dlg_pl_001105"
 		text="Не вопрос! Сейчас поймаем его!"
 		role="PLAYER"
-		scriptResult="GetCurNpc():SetSpokenCount( 1 );  TakeQuest('r1m3_OldTownOutsiderCar_Quest');  TActivate ('TriggerLabirintCarCreate');  EndConversation()" />
+		scriptResult="GetCurNpc():SetSpokenCount( 1 ); TActivate ('TriggerLabirintCarCreate');  EndConversation()" />
 <!--Root/r1m3/Опциональные/Цирк-->
 	<Reply
 		name="Circus_hellodlg0"
@@ -5119,7 +5146,7 @@
 
 	<Reply
 		name="Dlg_npc_001237"
-		text="Правильно! Чёрный водитель на Белой машине - это обычный труженик-дальнобойщик, который все силы тратит на свой грузовик, а самому даже умыться некогда. А Белый водитель на Чёной тачке – это бандит, который всегда следит только за собой, а машину держит в непотребном виде. Дальнобойщик будет сопротивляться до последнего, но всё равно погибнет, потому что жизнь - не сказка, здесь всегда побеждает зло…"
+		text="Правильно! Чёрный водитель на Белой машине - это обычный труженик-дальнобойщик, который все силы тратит на свой грузовик, а самому даже умыться некогда. А Белый водитель на Чёрной тачке – это бандит, который всегда следит только за собой, а машину держит в непотребном виде. Дальнобойщик будет сопротивляться до последнего, но всё равно погибнет, потому что жизнь - не сказка, здесь всегда побеждает зло…"
 		role="NPC"
 		nextReplies="Dlg_pl_001238" />
 
@@ -5422,7 +5449,7 @@ EndConversation()" />
 		name="AsgardBarman_hellodlg1"
 		text="Снова ты."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_FindKeyInTunel_Quest')   and   not(IsQuestComplete('d_FindKeyInTunel_Quest'))   and   not(IsQuestFailed('d_FindKeyInTunel_Quest'))   and   GetCurNpc():GetSpokenCount() == 0"
+		scriptCondition="not(QuestStatus('d_SerchCarTunel_Quest')==Q_TAKEN) and QuestStatus('d_FindKeyInTunel_Quest')==Q_TAKEN and GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_xyz449" />
 
 	<Reply
@@ -5460,13 +5487,13 @@ EndConversation()" />
 		name="Dlg_pl_xyz459"
 		text="Теперь я смогу проехать на запад!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('d_FindKeyInTunel_Quest');  TakeQuest('d_OpenTunel_Quest');  TDeactivate ('ZASADATUNEL');  AddPlayerMoney( -10000 );  AddQuestItem('quest_key_for_tunnel');  EndConversation()" />
+		scriptResult="CompleteQuest('d_FindKeyInTunel_Quest'); FailQuestIfTaken('d_FindZasadaInTunel_Quest');  TakeQuest('d_OpenTunel_Quest');  TDeactivate ('ZASADATUNEL');  AddPlayerMoney( -10000 );  AddQuestItem('quest_key_for_tunnel');  EndConversation()" />
 
 	<Reply
 		name="AsgardBarman_hellodlg2"
 		text="Если забыл, то цена за ключ 10000."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_FindKeyInTunel_Quest')   and   not(IsQuestComplete('d_FindKeyInTunel_Quest'))   and   not(IsQuestFailed('d_FindKeyInTunel_Quest'))   and   GetCurNpc():GetSpokenCount() > 0"
+		scriptCondition="not(QuestStatus('d_SerchCarTunel_Quest')==Q_TAKEN) and QuestStatus('d_FindKeyInTunel_Quest')==Q_TAKEN and GetCurNpc():GetSpokenCount() > 0"
 		nextReplies="Dlg_pl_xyz457 Dlg_pl_xyz465" />
 
 	<Reply
@@ -5980,7 +6007,7 @@ EndConversation()" />
 		name="Dlg_pl_d3d240"
 		text="Что же делать? Придётся разобраться, что здесь у вас происходит."
 		role="PLAYER"
-		scriptResult="TakeQuest('d_IntrigaOfMerMinin_Quest');  TActivate('SPYMER');  LeaveTown(true)" />
+		scriptResult="TActivate('SPYMER');  LeaveTown()" />
 
 	<Reply
 		name="Dlg_pl_d3d242"
@@ -7423,7 +7450,7 @@ EndConversation()" />
 		name="WorkGiver_hellodlg0"
 		text="Я вижу, у вас влиятельные знакомые, молодой человек. Не окажете ли Вы мне небольшую услугу?"
 		role="NPC"
-		scriptCondition="not(IsQuestTaken( 'WorkGiver_Quest1' ))  and (GetCurNpc():GetSpokenCount() == 0)  and not(IsQuestComplete( 'TalkWithFather_Quest' ))"
+		scriptCondition="not(IsQuestTaken( 'WorkGiver_Quest1' ))  and (GetCurNpc():GetSpokenCount() == 0)  and not(IsQuestComplete( 'TalkWithFather_Quest' )) and QuestStatus('Buyer_Quest1')==Q_COMPLETED"
 		nextReplies="WorkGiver_hellodlg0_P1" />
 
 	<Reply

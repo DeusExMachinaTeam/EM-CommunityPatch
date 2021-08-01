@@ -2163,19 +2163,19 @@
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_OCTOPUS_FIRE"
+				effect_id="ET_PS_OCTOPUS_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE03"
-				effect_id="ET_PS_OCTOPUS_FIRE"
+				effect_id="ET_PS_OCTOPUS_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE04"
-				effect_id="ET_PS_OCTOPUS_FIRE"
+				effect_id="ET_PS_OCTOPUS_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 				
@@ -2261,19 +2261,19 @@
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_KPVT_FIRE"
+				effect_id="ET_PS_KPVT_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE03"
-				effect_id="ET_PS_KPVT_FIRE"
+				effect_id="ET_PS_KPVT_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE04"
-				effect_id="ET_PS_KPVT_FIRE"
+				effect_id="ET_PS_KPVT_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 				
@@ -6137,6 +6137,11 @@
 				restartOnAnimationChange="0" />
 
 			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
+			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_HUNTER_CAB01"
 				restartOnAnimationChange="0" />
@@ -6224,6 +6229,16 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_HUNTER_CAB02"
@@ -8974,12 +8989,6 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH07"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -9010,12 +9019,6 @@
 
 			<lp
 				id="LP_EXH06"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH07"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -9052,12 +9055,6 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH07"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -9084,11 +9081,6 @@
 
 			<lp
 				id="LP_LIGHT05"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT06"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
@@ -12161,11 +12153,6 @@
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_GLOW02"
-				effect_id="ET_PS_GLOW_QUAD"
-				restartOnAnimationChange="0" />
 		</action>
 
 		<action
@@ -13934,18 +13921,6 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
-<!--	<model
-		id="shell01"
-		file="data\models\ammo\shell01.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />	-->
-	<model
-		id="shell02"
-		file="data\models\ammo\shell02.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
 
 	<model
 		id="shell_big_gun01"
@@ -14974,13 +14949,6 @@
 	<model
 		id="helvecia"
 		file="data\models\buildings\region2\helvecia.gam"
-		shadow="0"
-		windwavy="0"
-		trans="0" />
-
-	<model
-		id="helvecia"
-		file="data\models\buildings\region2\helvecia.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />
@@ -15897,13 +15865,6 @@
 	<model
 		id="rr_columne"
 		file="data\models\buildings\region3\factory\rr_columne.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
-
-	<model
-		id="1_riback"
-		file="data\models\buildings\region4\kladbishe\1_riback.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />

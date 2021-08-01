@@ -27,6 +27,7 @@
 				SetCoordinateForQuest( "r1m2_Glagiators_Quest" , CVector(getPos("ToR1M4")))
 				SetCoordinateForQuest( "r1m2_MovemineralToMidgard_Quest" , CVector(getPos("ToR1M4")))
 				SetCoordinateForQuest( "q_PWS2" , CVector(getPos("ToR1M4")))
+				SetCoordinateForQuest( "r2m2_Znaki2Midgard_Quest" , CVector(getPos("ToR1M4")))
 
 
 				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(7738.129, 286.901, 4949.968), "r2m1")
@@ -43,6 +44,7 @@
 				SetCoordinateForQuest( "r1m2_Glagiators_Quest" , 			 CVector(getPos("ToR2M1")))
 				SetCoordinateForQuest( "r1m2_MovemineralToMidgard_Quest" ,   CVector(getPos("ToR2M1")))
 				SetCoordinateForQuest( "q_PWS2" , CVector(getPos("ToR2M1")))
+				SetCoordinateForQuest( "r2m2_Znaki2Midgard_Quest" , CVector(getPos("ToR2M1")))
 
 				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(2114.268, 235.762, 5967.831), "r2m1")
 				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul",	CVector(1444.032, 290.169, 5539.769), "r1m3")
@@ -179,7 +181,8 @@
 	<trigger	Name="trCreateMainDruid"	active="0">
 		<event	timeout="0.01"	eventid="GE_TIME_PERIOD" />
 		<script>
-			local DruidTeam = TeamCreate("MainDruidTeam",1019,CVector(1488.960, 288.000, 2591.133),{"Hunter02"})
+		   SetTolerance(1100, 1068, RS_ALLY)
+			local DruidTeam = TeamCreate("MainDruidTeam",1068,CVector(1488.960, 288.000, 2591.133),{"Hunter02"})
 			if DruidTeam==nil then 
 			   LOG("TRIGGER ERROR: Can't create druid vehicle")
 			   return
@@ -199,6 +202,8 @@
 
 			if newController1 and DruidVeh then
 				newController1:setVehicleUnderControl(DruidVeh)
+				DruidVeh:setGodMode(1)
+				DruidVeh:setImmortalMode(1)
 			end
 
 
@@ -511,6 +516,8 @@
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
 --					println ("Yes")
+					local scp = getObj("Set_Bar_Customer1")
+					if scp:GetSpokenCount()==0 then scp:SetSpokenCount(1) end
 					PassToMap("r3m2", "FromR3M1", -1 )
 				else
 --					println ("No")
@@ -602,7 +609,7 @@
 
 			while getObj("SecretPlace"..i.."_loc")~=nil do
 --				println(i)
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
 				i = i + 1
 			end
 
