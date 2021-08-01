@@ -1,94 +1,81 @@
-/** DiffuseVC Shader for Hardtruck Apocalypse
- * 
- * Author:  Aleksandr Fateev (foggy1989@gmail.com)
- * Version: 2021-05-19
- * License: Attribution-NonCommercial-ShareAlike 4.0 International 
+/**
+ *  Custom Diffuse shader
  *
- * https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+ *  Meta:
+ *    Author: Alexander Fateev
+ *    Version: 1.0.1
+ *    License: Attribution-NonCommercial-ShareAlike 4.0 International
  *
+ * !!DataSpecification:
+ *    ShaderName: Diffuse
+ *    VertexType: XYZNÑT1
+ *    UVChannels: 1
+ *    Requires:
+ *      - "template.fx"
+ *    Textures:
+ *      Diffuse:
+ *        Color: RGB
+ *        Transparency: A
  **/
 
-#include "lib.fx"
-#include "tlib.fx"
+#include "template.fx"
 
-#ifndef SPECULAR_POWER
-#define SPECULAR_POWER 8
-#endif
+DeclareTexture2D(DIFFUSE_MAP_0, DiffuseTexture, DiffuseSampler, Wrap)
 
-texture DiffuseTexture: DIFFUSE_MAP_0;
-DECLARE_DIFFUSE_SAMPLER(DiffuseSampler, DiffuseTexture)
-
-float4 ViewPosition: VIEW_POS<int Space = SPACE_WORLD;>;
 float3 LightDirection: TMP_LIGHT0_DIR<int Space = SPACE_OBJECT;>;
+float4 ViewPosition: VIEW_POS<int Space = SPACE_OBJECT;>;
 row_major float4x4 FinalMatrix: TOTAL_MATRIX;
-
-shared const float4 g_Ambient:     LIGHT_AMBIENT  = {0.2f, 0.2f, 0.2f, 1.0f};
-shared const float4 g_Diffuse:     LIGHT_DEFFUSE  = {1.0f, 1.0f, 1.0f, 1.0f};
-shared const float3 g_Specular:    LIGHT_SPECULAR = {1.0f, 1.0f, 1.0f};
-shared const float2 g_FogTerm:     FOG_TERM       = {1.0f, 800.0f};
-shared const float  g_Transparent: TRANSPARENCY   = 1.0f;
 
 struct VS_INPUT {
     float3 Position: POSITION;
-    float3 Normal:   NORMAL;
-    float2 UV0:      TEXCOORD0;
-    float4 Color:    COLOR0;
+    float3 Normal: NORMAL;
+    float2 UVMap0: TEXCOORD0;
 };
 
-struct VS_OUTPUT {
-    float4 FinalPosition: POSITION;
-    float4 Color:         COLOR0;
-    float2 UV0:           TEXCOORD0;
-    float3 Normal:        TEXCOORD2;
-    float3 ViewDirection: TEXCOORD4;
-    float  Fog:           FOG;
+struct VS_OUTPUT{
+    float4 Position: POSITION;
+    float2 UVMap0: TEXCOORD0;
+    float3 Normal: TEXCOORD1;
+    float3 ViewDirection: TEXCOORD2;
+    float  Fog: FOG;
 };
 
+VS_OUTPUT VertexDiffuse(VS_INPUT input) {
+    VS_OUTPUT output = (VS_OUTPUT)0;
 
-VS_OUTPUT DiffuseVCVS(VS_INPUT input) {
-    VS_OUTPUT output = (VS_OUTPUT) 0;
-
-    float4 FinalPosition = mul(float4(input.Position, 1.0f), FinalMatrix);
-
-    output.FinalPosition = FinalPosition;
-    output.UV0           = input.UV0;
-
-    output.Color         = input.Color;
+    output.Position      = mul(float4(input.Position, 1.0f), FinalMatrix);;
+    output.UVMap0        = input.UVMap0;
     output.Normal        = input.Normal;
     output.ViewDirection = normalize(ViewPosition - input.Position);
-    output.Fog           = CalcFog(FinalPosition, g_FogTerm);
+    output.Fog           = fog(output.Position, g_FogTerm);
+
     return output;
+}
+
+float4 FragmentDiffuse(VS_OUTPUT input) : COLOR {
+    float4 Diffuse  = tex2D(DiffuseSampler, input.UVMap0);
+
+    return diffuse(
+        input.ViewDirection,
+        LightDirection,
+        Diffuse.rgb,
+        float3(0, 0, 0),
+        input.Normal,
+        float3(0, 0, 0),
+        Diffuse.a,
+        0,
+        0,
+        0
+    );
 };
 
-float4 DiffuseVCPS(VS_OUTPUT input,
-                  uniform float4 AmbientColor,
-                  uniform float4 DiffuseColor,
-                  uniform float3 SpecularColor) : COLOR {
-
-    float4 Diffuse = tex2D(DiffuseSampler, input.UV0);
-    float3 Normal  = input.Normal;
-
-    float  NdotL      = dot(Normal, -LightDirection);
-    float  NdotV      = dot(Normal, -input.ViewDirection);
-    float  LdotV      = dot(-LightDirection, input.ViewDirection);
-    float3 NrefL      = reflect(-LightDirection, Normal);
-
-    float  LightPower = CalcLight(NdotL);
-    float3 Light      = lerp(AmbientColor, AmbientColor + DiffuseColor.rgb, LightPower);
-
-    float3 Color = Diffuse.rgb * input.Color.rgb;
-    Color       *= Light;
-
-    return float4(Color, g_Transparent * Diffuse.a * input.Color.a);
-};
-
-technique DiffuseVC <bool   ComputeTangentSpace = true;
-                             string VertexFormat = "VERTEX_XYZNCT1";
-                             bool   Default = true;
-                             bool   IsPs20 = true;
-                             bool   UseAlpha = false;> {
+technique Diffuse <bool   ComputeTangentSpace = false;
+                   string VertexFormat = "VERTEX_XYZNT1";
+                   bool   Default = true;
+                   bool   IsPs20 = true;
+                   bool   UseAlpha = true;> {
     pass Default {
-        VertexShader = compile vs_2_0 DiffuseVCVS();
-        PixelShader  = compile ps_2_0 DiffuseVCPS(g_Ambient, g_Diffuse, g_Specular);
+        VertexShader = compile vs_2_0 VertexDiffuse();
+        PixelShader  = compile ps_2_0 FragmentDiffuse();
     }
 }

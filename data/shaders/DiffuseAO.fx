@@ -51,23 +51,23 @@ struct VS_INPUT {
 };
 
 struct VS_OUTPUT {
-    float4 FinalPosition : POSITION;
+    float4 Position      : POSITION;
     float2 UVMap0        : TEXCOORD0;
     float2 UVMap1        : TEXCOORD1;
     float3 Normal        : TEXCOORD2;
-    float3 ViewDirection : TEXCOORD4;
+    float3 ViewDirection : TEXCOORD3;
     float  Fog           : FOG;
 };
 
 VS_OUTPUT VertexDiffuseAO(VS_INPUT input) {
     VS_OUTPUT output = (VS_OUTPUT) 0;
 
-    output.FinalPosition = mul(float4(input.Position, 1.0f), FinalMatrix);;
+    output.Position      = mul(float4(input.Position, 1.0f), FinalMatrix);;
     output.UVMap0        = input.UVMap0;
     output.UVMap1        = input.UVMap1;
     output.Normal        = input.Normal;
     output.ViewDirection = normalize(ViewPosition - input.Position);
-    output.Fog           = CalcFog(output.FinalPosition, g_FogTerm);
+    output.Fog           = CalcFog(output.Position, g_FogTerm);
     return output;
 }
 
@@ -90,11 +90,11 @@ float4 FragmentDiffuseAO(VS_OUTPUT input) : COLOR {
     );
 };
 
-technique DiffuseAO <bool ComputeTangentSpace = true;
-                           string VertexFormat = "VERTEX_XYZNT2";
-                           bool   Default = true;
-                           bool   IsPs20 = true;
-                           bool   UseAlpha = false;> {
+technique DiffuseAO <bool   ComputeTangentSpace = true;
+                     string VertexFormat = "VERTEX_XYZNT2";
+                     bool   Default = true;
+                     bool   IsPs20 = true;
+                     bool   UseAlpha = false;> {
     pass Default {
         VertexShader = compile vs_2_0 VertexDiffuseAO();
         PixelShader  = compile ps_2_0 FragmentDiffuseAO();
