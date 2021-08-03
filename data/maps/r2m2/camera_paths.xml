@@ -78,6 +78,11 @@
 		<Point  coord="3284.463 276.158 1410.430" rotation="0.060 -0.856 -0.102 0.503"/>
 	</Path>
 
+	<Path Name = "AXELARENADIE_cam11">
+		<Point  coord="3285.441 276.429 1412.854" rotation="0.028 0.897 0.057 0.438"/>
+		<Point  coord="3285.009 276.499 1412.517" rotation="0.028 0.897 0.057 0.438"/>
+	</Path>
+	
 	<Path Name = "LISARUNOUTDIE_cam01">
 		<Point  coord="2728.574 260.712 929.444" rotation="-0.077 0.400 -0.034 0.913"/>
 		<Point  coord="2728.812 260.766 929.226" rotation="-0.077 0.400 -0.034 0.913"/>

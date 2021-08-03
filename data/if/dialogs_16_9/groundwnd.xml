@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Ground "inventory" screen, shown when picking up items from the ground or dropping something from player cargo -->
+<!-- Child of motherpanel.xml -->
+<Prefabs>
+	<Node
+		name="wndGround"
+		class="Wnd"
+		org="960.000 95.000 985.000 985.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico_hd\WorkshopDlg\ground_and_shop2_texture.dds"
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="wndRepository"
+			class="Wnd"
+			org="29.000 299.000 818.000 643.000"
+			style="512"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 2.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnPickUpAll"
+			org="32.000 192.000 94.000 70.000"
+			style="262656"
+			order="3"
+			id="200"
+			caption=""
+			tip="^PickUpAll^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="1"
+			btnImage="data\if\ico_hd\InventoryDlg\btn_moveall_e.dds"
+			btnImageDown="data\if\ico_hd\InventoryDlg\btn_moveall_p.dds"
+			btnImageIn="data\if\ico_hd\InventoryDlg\btn_moveall_s.dds"
+			btnImageDisabled="data\if\ico_hd\InventoryDlg\btn_moveall_d.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndGroundPicture"
+			class="ImageWnd"
+			org="14.000 120.000 308.000 246.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="">
+			<Animations/>
+		</Node>
+
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_LEFT"
+				animationSpeed="3500"
+				animationAccel="-6000"
+				animationDelayTime="0"/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_RIGHT"
+				animationSpeed="500"
+				animationAccel="6000"
+				animationDelayTime="0"/>
+		</Animations>
+	</Node>
+</Prefabs>

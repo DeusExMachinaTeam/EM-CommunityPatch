@@ -11,12 +11,12 @@
 	<trigger	Name="trKraiPlaceSecret"	active="0">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local gunlist = {"hornet01","specter01","storm01","vector01"}
+			local gunlist = {"specter01","hornet01","storm01","vector01"}
 			local len = getn(gunlist)
 
 			for i=1,4 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0,2))
 			end
 			trigger:Deactivate()
 		</script>
@@ -314,7 +314,20 @@
 		</script>
 	</trigger>
 
+	<!-- Если игрок провалил квест с Революционером Эдом -->
+	<trigger Name="REVOLUTIONFAIL" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			TDeactivate("REVOLUTIONTIMEEND")
 
+			for i = 0,1 do
+				local FVehicle = GetEntityByName("Punishers_vehicle_"..i)
+				if FVehicle then FVehicle:Remove() end
+			end
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
 
 
 	<trigger Name="LISA1" active="1">
@@ -435,6 +448,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TheGloohoeQ" />
 		<script>
 			FailQuestIfTaken( "WorkGiver_Quest1" )
+			FailQuestIfTaken( "d_PunishBandits_Quest" )
 
 			if  not(IsQuestComplete("d_Lisa_Quest")) and IsQuestComplete("Buyer_Quest1") then
 				local town = GetEntityByName ("TheGloohoe")
@@ -503,6 +517,8 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="FelixBanditCars2" />
 		<script>
 			TActivate( "RolikBegin_Felix3" )
+
+			CompleteQuest("d_AttackFelixBase_Quest")
 
 			trigger:Deactivate() 
 		</script>

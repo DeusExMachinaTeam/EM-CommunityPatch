@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
+
+<Splashes>
+	<Files
+	Value="data\if\ico_hd\Splashes\Loading_Screen_1.dds data\if\ico_hd\Splashes\Loading_Screen_4.dds data\if\ico_hd\Splashes\arack.dds data\if\ico_hd\Splashes\chel.dds data\if\ico_hd\Splashes\druids.dds data\if\ico_hd\Splashes\gonki.dds data\if\ico_hd\Splashes\ogon.dds data\if\ico_hd\Splashes\paris.dds data\if\ico_hd\Splashes\plane.dds data\if\ico_hd\Splashes\zavod.dds"/>
+</Splashes>
+
+<!-- <Splashes>
+	<Files
+	Value="
+	data\if\ico\Splashes\Loading_Screen_1.dds - r1m2, mainmenu
+	data\if\ico\Splashes\Loading_Screen_2.dds - unused
+	data\if\ico\Splashes\Loading_Screen_3.dds - unused
+	data\if\ico\Splashes\Loading_Screen_4.dds - r1m1
+	data\if\ico\Splashes\arack.dds - r3m2
+	data\if\ico\Splashes\chel.dds - r4m2
+	data\if\ico\Splashes\druids.dds - r3m1
+	data\if\ico\Splashes\gonki.dds - r3m1
+	data\if\ico\Splashes\les.dds - unused
+	data\if\ico\Splashes\most_slon.dds - unused
+	data\if\ico\Splashes\noch.dds - unused
+	data\if\ico\Splashes\OGON.dds - r2m2
+	data\if\ico\Splashes\paris.dds - r2m1
+	data\if\ico\Splashes\plane.dds - r1m4, t
+	data\if\ico\Splashes\zavod.dds - r1m3
+	"/>
+</Splashes> -->

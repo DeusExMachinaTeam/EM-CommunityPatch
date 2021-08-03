@@ -454,7 +454,7 @@
 
 	<Object
 		Name="FVOnOcean"
-		Belong="1011"
+		Belong="1066"
 		Prototype="r1m4_SaliniomVillage"
 		Pos="2801.324 216.000 3640.781"
 		Rot="0.000 -0.225 0.000 0.974"
@@ -462,11 +462,11 @@
 		CaravansDest="">
 		<Object
 			Name="FVOnOcean_Bar"
-			Belong="1011"
+			Belong="1066"
 			Prototype="bar">
 			<Object
 				Name="FVOnOcean_Bar_Barman"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="14"
@@ -475,7 +475,7 @@
 
 			<Object
 				Name="FVOnOcean_Bar_Customer1"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				skin="1"
@@ -485,7 +485,7 @@
 
 			<Object
 				Name="FVOnOcean_Bar_Customer3"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="182"
@@ -494,7 +494,7 @@
 
 			<Object
 				Name="FVOnOcean_Bar_Gomer"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -505,7 +505,7 @@
 
 		<Object
 			Name="FVOnOcean_Shop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -542,13 +542,13 @@
 
 		<Object
 			Name="FVOnOcean_Workshop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVOnOcean_enter"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2738.503 215.867 3627.521"
 			Radius="75.196"
@@ -557,7 +557,7 @@
 		<Object
 			Flags="21"
 			Name="FVOnOcean_defend"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2759.887 216.359 3631.184"
 			Radius="137.000"
@@ -566,7 +566,7 @@
 		<Object
 			Flags="21"
 			Name="FVOnOcean_deploy"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2692.083 215.996 3585.041"
 			Radius="17.238"
@@ -575,7 +575,7 @@
 		<Object
 			Flags="21"
 			Name="FVOnOcean_caravan"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2692.083 215.996 3585.041"
 			Radius="17.238"
@@ -593,7 +593,7 @@
 
 	<Object
 		Name="FVNearOlme"
-		Belong="1011"
+		Belong="1066"
 		Prototype="r1m4_LaukaVillage"
 		Pos="2974.371 249.000 1803.868"
 		Rot="0.000 -0.352 0.000 0.936"
@@ -601,11 +601,11 @@
 		CaravansDest="">
 		<Object
 			Name="FVNearOlme_Bar"
-			Belong="1011"
+			Belong="1066"
 			Prototype="bar">
 			<Object
 				Name="FVNearOlme_Bar_Barman"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="166"
@@ -614,7 +614,7 @@
 
 			<Object
 				Name="FVNearOlme_Bar_Customer2"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="220"
@@ -623,7 +623,7 @@
 
 			<Object
 				Name="FVNearOlme_Bar_Customer3"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				skin="1"
@@ -634,7 +634,7 @@
 
 		<Object
 			Name="FVNearOlme_Shop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -678,7 +678,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_enter"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2943.487 249.138 1787.201"
 			Radius="53.832"
@@ -687,7 +687,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_defend"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2967.603 248.701 1795.116"
 			Radius="120.000"
@@ -696,7 +696,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_deploy"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2922.563 249.113 1822.649"
 			Radius="20.000"
@@ -705,7 +705,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_caravan"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="2922.563 249.113 1822.649"
 			Radius="20.000"
@@ -713,7 +713,7 @@
 
 		<Object
 			Name="FVNearOlme_Workshop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="workshop" />
 
 		<Parts>
@@ -728,7 +728,7 @@
 
 	<Object
 		Name="FVCalis"
-		Belong="1011"
+		Belong="1066"
 		Prototype="r1m4_CalisVillage"
 		Pos="3264.369 224.231 2139.292"
 		Rot="0.000 -0.998 0.000 0.060"
@@ -737,7 +737,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_enter"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3263.132 224.232 2106.436"
 			Radius="72.450"
@@ -746,7 +746,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_defend"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3261.931 224.232 2101.389"
 			Radius="137.000"
@@ -755,7 +755,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_deploy"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3258.089 218.931 2044.945"
 			Radius="20.000"
@@ -764,7 +764,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_caravan"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3258.089 218.931 2044.945"
 			Radius="20.000"
@@ -772,11 +772,11 @@
 
 		<Object
 			Name="FVCalis_Bar"
-			Belong="1011"
+			Belong="1066"
 			Prototype="bar">
 			<Object
 				Name="FVCalis_Bar_Barman"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -786,7 +786,7 @@
 
 			<Object
 				Name="FVCalis_Bar_Customer3"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -796,7 +796,7 @@
 
 			<Object
 				Name="FVCalis_Bar_Customer1"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="190"
@@ -805,7 +805,7 @@
 
 			<Object
 				Name="FVCalis_Bar_Husbent1"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -816,7 +816,7 @@
 
 		<Object
 			Name="FVCalis_Shop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -847,7 +847,7 @@
 
 		<Object
 			Name="FVCalis_Workshop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="workshop" />
 
 		<Parts>
@@ -862,7 +862,7 @@
 
 	<Object
 		Name="FVCordan"
-		Belong="1011"
+		Belong="1066"
 		Prototype="r1m4_CordanVillage"
 		Pos="1663.391 270.000 1851.340"
 		Rot="0.000 0.998 0.000 -0.069"
@@ -871,7 +871,7 @@
 		<Object
 			Flags="21"
 			Name="FVCordan_enter"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="1706.994 270.363 1852.181"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -881,7 +881,7 @@
 		<Object
 			Flags="21"
 			Name="FVCordan_defend"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="1674.797 270.000 1848.786"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -890,11 +890,11 @@
 
 		<Object
 			Name="FVCordan_Bar"
-			Belong="1011"
+			Belong="1066"
 			Prototype="bar">
 			<Object
 				Name="FVCordan_Bar_Barman"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="156"
@@ -903,7 +903,7 @@
 
 			<Object
 				Name="FVCordan_Bar_Customer2"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -914,7 +914,7 @@
 
 		<Object
 			Name="FVCordan_Shop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -945,13 +945,13 @@
 
 		<Object
 			Name="FVCordan_Workshop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVCordan_deploy"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="1685.207 270.000 1936.121"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -961,7 +961,7 @@
 		<Object
 			Flags="21"
 			Name="FVCordan_caravan"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="1685.207 270.000 1936.121"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -980,7 +980,7 @@
 
 	<Object
 		Name="FVPerch"
-		Belong="1011"
+		Belong="1066"
 		Prototype="r1m4_PerchVillage"
 		Pos="344.466 335.061 3168.327"
 		Rot="0.000 0.657 0.000 0.754"
@@ -988,11 +988,11 @@
 		CaravansDest="">
 		<Object
 			Name="FVPerch_Houses"
-			Belong="1011"
+			Belong="1066"
 			Prototype="barWithoutBarman">
 			<Object
 				Name="LookingWife1"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="92"
@@ -1002,11 +1002,11 @@
 
 		<Object
 			Name="FVPerch_Bar"
-			Belong="1011"
+			Belong="1066"
 			Prototype="bar">
 			<Object
 				Name="FVPerch_Bar_Barman"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				skin="2"
@@ -1016,7 +1016,7 @@
 
 			<Object
 				Name="FVPerch_Bar_Customer2"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -1027,7 +1027,7 @@
 
 		<Object
 			Name="FVPerch_Shop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -1070,13 +1070,13 @@
 
 		<Object
 			Name="FVPerch_Workshop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVPerch_enter"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="367.174 335.561 3197.501"
 			Radius="93.722"
@@ -1085,7 +1085,7 @@
 		<Object
 			Flags="21"
 			Name="FVPerch_defend"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="354.350 335.262 3176.614"
 			Radius="137.000"
@@ -1094,7 +1094,7 @@
 		<Object
 			Flags="21"
 			Name="FVPerch_deploy"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="448.655 335.000 3224.042"
 			Radius="20.000"
@@ -1103,7 +1103,7 @@
 		<Object
 			Flags="21"
 			Name="FVPerch_caravan"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="448.655 335.000 3224.042"
 			Radius="20.000"
@@ -1121,7 +1121,7 @@
 
 	<Object
 		Name="FVBerko"
-		Belong="1011"
+		Belong="1066"
 		Prototype="r1m4_BerkoVillage"
 		Pos="3067.184 226.000 755.059"
 		Rot="0.000 -0.555 0.000 0.832"
@@ -1129,11 +1129,11 @@
 		CaravansDest="">
 		<Object
 			Name="FVBerko_Bar"
-			Belong="1011"
+			Belong="1066"
 			Prototype="bar">
 			<Object
 				Name="FVBerko_Bar_Barman"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="104"
@@ -1142,7 +1142,7 @@
 
 			<Object
 				Name="FVBerko_Bar_Customer2"
-				Belong="1011"
+				Belong="1066"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="188"
@@ -1152,7 +1152,7 @@
 
 		<Object
 			Name="FVBerko_Shop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -1189,13 +1189,13 @@
 
 		<Object
 			Name="FVBerko_Workshop"
-			Belong="1011"
+			Belong="1066"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVBerko_enter"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3049.434 226.000 740.076"
 			Radius="71.030"
@@ -1204,7 +1204,7 @@
 		<Object
 			Flags="21"
 			Name="FVBerko_defend"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3067.038 226.000 734.085"
 			Radius="137.000"
@@ -1213,7 +1213,7 @@
 		<Object
 			Flags="21"
 			Name="FVBerko_deploy"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3031.622 226.000 724.816"
 			Radius="20.000"
@@ -1222,7 +1222,7 @@
 		<Object
 			Flags="21"
 			Name="FVBerko_caravan"
-			Belong="1011"
+			Belong="1066"
 			Prototype="genericLocation"
 			Pos="3031.622 226.000 724.816"
 			Radius="20.000"

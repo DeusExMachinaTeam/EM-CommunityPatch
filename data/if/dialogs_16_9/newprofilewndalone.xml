@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Profile creation dialog shown at the first start of the game -->
+<Prefabs>
+	<Node
+		name="wndNewProfile"
+		class="ModalWnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="16896"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\HelpWnd\bkg_darkener.dds"
+		paneName="PaneBrown2"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="lbl"
+			class="Wnd"
+			org="735.000 419.000 450.000 70.000"
+			style="2816"
+			order="0"
+			id="0"
+			caption="^NewProfile^"
+			tip=""
+			backimage=""
+			paneName="PaneGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndSeparator1"
+			class="LineWnd"
+			org="735.000 489.000 450.000 3.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndSeparator2"
+			class="LineWnd"
+			org="735.000 588.000 450.000 3.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="editName"
+			class="EditWnd"
+			org="802.000 515.000 315.000 51.000"
+			style="2390560"
+			order="0"
+			id="200001"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameC"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f"
+			cursorColor="00000001">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnCreate"
+			org="760.000 603.000 186.000 45.000"
+			style="278016"
+			order="2"
+			id="200000"
+			caption="^Create^"
+			tip="^CreateProfile^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_btnCreate"
+			class="Wnd"
+			org="758.000 600.000 191.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnCancel"
+			org="974.000 603.000 186.000 45.000"
+			style="278016"
+			order="3"
+			id="3"
+			caption="^Cancel^"
+			tip="^CancelExit^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_btnCancel"
+			class="Wnd"
+			org="971.000 600.000 191.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndMainFrame"
+			class="Wnd"
+			org="703.000 387.000 515.000 307.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff8f8f8f">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

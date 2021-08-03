@@ -38,7 +38,7 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="r1m2_RedkiyMineral_Quest" />
+			PrecedingQuests="r1m2_GoToArena_Quest" />
 
 		<quest
 			Name="r1m2_MovemineralToMidgard_Quest"
@@ -47,6 +47,14 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="r1m2_Glagiators_Quest" />
+
+		<quest
+			Name="r1m2_GoToArena_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_RedkiyMineral_Quest" />
 	</quest>
 <!--Root/Доехать до локации и вернуться -->
 	<quest
@@ -243,8 +251,7 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="r4m1_KNO_BringOil"
-			OnComplete="AddPlayerMoney(5000)"
-			OnTake='TActivate("trRunDownEngineer")' />
+			OnComplete="AddPlayerMoney(5000)" />
 
 		<quest
 			Name="r4m1_KNO_ReportToKef"
@@ -252,8 +259,16 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="r4m1_KNO_FindSpecialist"
+			PrecedingQuests="r4m1_KNO_FindSpecialist_1"
 			OnComplete="AddPlayerMoney(5000)" />
+
+		<quest
+			Name="r4m1_KNO_FindSpecialist_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r4m1_KNO_FindSpecialist" />
 	</quest>
 
 	<quest
@@ -320,7 +335,31 @@
 		ConditionToGive="all taken"
 		PrecedingQuests="r3m2_OvercomeOracleGuard"
 		OnComplete="AddPlayerMoney(5000)"
-		OnTake='ShowCircleOnMinimapByName("Monster_loc"); TActivate("trNearMonster")' />
+		OnTake='ShowCircleOnMinimapByName("Monster_loc"); TActivate("trNearMonster")'>
+		<quest
+			Name="r3m2_MonterHead_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r3m2_MonterHead" />
+
+		<quest
+			Name="r3m2_MonterHead_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r3m2_MonterHead_1" />
+
+		<quest
+			Name="r3m2_MonterHead_3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r3m2_MonterHead_2" />
+	</quest>
 <!--Root/r3m2/Сюжетные/Оракул 1 раз-->
 	<quest
 		Name="r3m2_TwoMagicThing"
@@ -545,9 +584,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="r3m1_ClearSanctuary"
-			OnTake='ShowCircleOnMinimapByName("NearStoneHendj_loc")' />
+			ConditionToGive="all complete"
+			PrecedingQuests="r3m1_ClearSanctuary_GotoSanctuary" />
 
 		<quest
 			Name="r3m1_ClearSanctuary_ReturnDruid"
@@ -573,6 +611,15 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="r3m1_ClearSanctuary_DestroyOut" />
+
+		<quest
+			Name="r3m1_ClearSanctuary_GotoSanctuary"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r3m1_ClearSanctuary"
+			OnTake='ShowCircleOnMinimapByName("NearStoneHendj_loc")' />
 	</quest>
 <!--Root/r3m1/опциональные/Спасти жителей улука от чокнутых-->
 	<quest
@@ -728,7 +775,7 @@
 <!--Root/r2m2/Сюжетные/Внести сумятицу в ряды противника-->
 	<quest
 		Name="r2m2_GiveBardakToEnemy"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -738,13 +785,29 @@
 <!--Root/r2m2/Сюжетные/Напасть на деревню-->
 	<quest
 		Name="r2m2_GiveBardakToSideVillage"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
 		PrecedingQuests="r2m2_GiveBardakToEnemy"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000, "storm01", 3, 3)'
-		OnTake='ShowCircleOnMinimapByName("VillDesLoc")' />
+		OnTake='ShowCircleOnMinimapByName("VillDesLoc")'>
+		<quest
+			Name="r2m2_GiveBardakToSideVillage_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_GiveBardakToSideVillage" />
+
+		<quest
+			Name="r2m2_GiveBardakToSideVillage_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_GiveBardakToSideVillage_1" />
+	</quest>
 <!--Root/r2m2/Сюжетные/Вернуться в Мареццию-->
 	<quest
 		Name="r2m2_ReturnToMarecciaFromVillage"
@@ -769,8 +832,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="r2m2_DestroySNGKaravan"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_GoToLibrium"
 			OnTake='ShowCircleOnMinimapByName("ToR2M1");' />
 
 		<quest
@@ -781,6 +844,14 @@
 			ConditionToGive="all complete"
 			PrecedingQuests="r2m2_FindSNGKaravan"
 			OnTake='ShowCircleOnMinimapByName("ToR2M2"); ShowCircleOnMinimap("r2m2",CVector(1829.361, 316.000, 3300.456))' />
+
+		<quest
+			Name="r2m2_GoToLibrium"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_DestroySNGKaravan" />
 	</quest>
 <!--Root/r2m2/Сюжетные/Привезти вина-->
 	<quest
@@ -800,7 +871,31 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000,"storm01",3,4)'
-		OnTake='ShowCircleOnMinimapByName("Arena")' />
+		OnTake='ShowCircleOnMinimapByName("Arena")'>
+		<quest
+			Name="r2m2_FightFelix_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_FightFelix" />
+
+		<quest
+			Name="r2m2_FightFelix_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_FightFelix_1" />
+
+		<quest
+			Name="r2m2_FightFelix_3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_FightFelix_2" />
+	</quest>
 <!--Root/r2m2/Сюжетные/Отчитаться в Марецции-->
 	<quest
 		Name="r2m2_ReturnToMarecciaFromCastle"
@@ -819,7 +914,23 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="r2m2_ReturnToMarecciaFromCastle"
 		OnComplete="AddPlayerMoney(1000)"
-		OnTake='ShowCircleOnMinimapByName("Lager")' />
+		OnTake='ShowCircleOnMinimapByName("Lager")'>
+		<quest
+			Name="r2m2_ToKillAllSNGPeople_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_ToKillAllSNGPeople" />
+
+		<quest
+			Name="r2m2_ToKillAllSNGPeople_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_ToKillAllSNGPeople_1" />
+	</quest>
 <!--Root/r2m2/Сюжетные/Спасти лидера повстанцев-->
 	<quest
 		Name="r2m2_HelpAllSNGPeople"
@@ -852,7 +963,7 @@
 <!--Root/r2m2/Сюжетные/Убить лидеров СНГ во время переговоров-->
 	<quest
 		Name="r2m2_KillMrPresidentAndOther"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -876,7 +987,23 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000,"pkt01",3,9)'
-		OnTake='ShowCircleOnMinimapByName("Arena")' />
+		OnTake='ShowCircleOnMinimapByName("Arena")'>
+		<quest
+			Name="r2m2_FightWithAxelInArena_Quest_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r2m2_FightWithAxelInArena_Quest" />
+
+		<quest
+			Name="r2m2_FightWithAxelInArena_Quest_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r2m2_FightWithAxelInArena_Quest_1" />
+	</quest>
 <!--Root/r2m2/Сюжетные/ После драки с Акселем искать Лису в Туззе, так как она обманула со смертью родителей -->
 	<quest
 		Name="r2m2_FindLisAfterAxelAndFatherDie_Quest"
@@ -896,7 +1023,7 @@
 <!--Root/r2m2/Сюжетные/Победить Лису в поединке-->
 	<quest
 		Name="r2m2_FightLisaToMonastir"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -924,7 +1051,7 @@
 <!--Root/r2m1/Опциональные/Найти Жулика-->
 	<quest
 		Name="r2m1_ArtGulik_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -1028,7 +1155,23 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="d_PatrulSideSNG_Quest"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000, "pkt01", 3, 10)'
-		OnTake='ShowCircleOnMinimapByName("TheUnderAttaks")' />
+		OnTake='ShowCircleOnMinimapByName("TheUnderAttaks")'>
+		<quest
+			Name="d_HelpSideVillageSNG_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_HelpSideVillageSNG_Quest" />
+
+		<quest
+			Name="d_HelpSideVillageSNG_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_HelpSideVillageSNG_Quest1" />
+	</quest>
 <!--Root/r2m1/Сюжетные/  Вернeуться в Тузз -->
 	<quest
 		Name="d_ReturnTuzz_Quest"
@@ -1042,7 +1185,7 @@
 <!--Root/r2m1/Сюжетные/ караван по деревням -->
 	<quest
 		Name="d_CaravanFromTuzzToVillage_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="1"
 		ConditionToGive="all complete"
@@ -1062,8 +1205,8 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="d_CaravanFromTuzzToVillage_Quest"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FirstVillage_Quest"
 			OnTake='ShowCircleOnMinimapByName("TheVill2_Loc")' />
 
 		<quest
@@ -1084,7 +1227,23 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="d_CaravanFromTuzzToVillage_Quest"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000, "pkt01", 3, 10)'
-		OnTake='ShowCircleOnMinimapByName("TunnelAttackLocation")' />
+		OnTake='ShowCircleOnMinimapByName("TunnelAttackLocation")'>
+		<quest
+			Name="d_FreeTunel_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_FreeTunel_Quest" />
+
+		<quest
+			Name="d_FreeTunel_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FreeTunel_Quest1" />
+	</quest>
 <!--Root/r2m1/Сюжетные/ В Гельветцию  -->
 	<quest
 		Name="d_FromTuzzToGelvetcia_Quest"
@@ -1139,7 +1298,23 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		OnTake='ShowCircleOnMinimapByName("BossARLocation")' />
+		OnTake='ShowCircleOnMinimapByName("BossARLocation")'>
+		<quest
+			Name="d_TakeGeneralOfBandits_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_TakeGeneralOfBandits_Quest" />
+
+		<quest
+			Name="d_TakeGeneralOfBandits_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_TakeGeneralOfBandits_Quest1" />
+	</quest>
 <!--Root/r2m1/Сюжетные/ В Гельвецию с генералом -->
 	<quest
 		Name="d_MoveWithGeneralToGelvetcia_Quest"
@@ -1212,6 +1387,7 @@
 		CheckAll="1"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(2000)"
+		OnFail='SetTolerance(1100, 1010, RS_NEUTRAL); TDeactivate("trNearCaravanLeader"); TDeactivate("trLeaderCaravanDie"); TDeactivate("trLeaderCarDie")'
 		Levels="r1m4">
 		<quest
 			Name="TRS_Quest2"
@@ -1224,11 +1400,10 @@
 
 		<quest
 			Name="TRS_Quest3a"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
-			PrecedingQuests="KillExtremist_Quest1"
+			ConditionToGive="all complete"
 			Levels="r1m4" />
 
 		<quest
@@ -1242,7 +1417,7 @@
 
 		<quest
 			Name="TRS_Quest4"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="any complete"
@@ -1284,8 +1459,24 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="FreeExtremistLeader_Quest3"
+			PrecedingQuests="FreeExtremistLeader_Quest3_2 FreeExtremistLeader_Quest3_1"
 			Levels="r1m4" />
+
+		<quest
+			Name="FreeExtremistLeader_Quest3_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="FreeExtremistLeader_Quest3" />
+
+		<quest
+			Name="FreeExtremistLeader_Quest3_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="FreeExtremistLeader_Quest3" />
 	</quest>
 <!--Root/r1m4/Убить эктремистов-->
 	<quest
@@ -1295,7 +1486,6 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(2000)"
-		OnTake='TActivate("trExtrTeamMustDie_Take")'
 		Levels="r1m4" />
 <!--Root/r1m4/Преодолеть болото-->
 	<quest
@@ -1451,6 +1641,14 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete" />
+
+		<quest
+			Name="d_BombShahtsReturn_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_BombShahtsAtakBandits_Quest" />
 	</quest>
 <!--Root/r1m3/Сюжетные/ Взорвать мост -->
 	<quest
@@ -1482,7 +1680,7 @@
 
 		<quest
 			Name="d_DriveBanditFromOilMine_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -1507,7 +1705,23 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="d_DriveBanditFromOilMine_Quest"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 350, "specter01", 3, 10)'
-		OnTake='ShowCircleOnMinimapByName("OilMineRuner")' />
+		OnTake='ShowCircleOnMinimapByName("OilMineRuner")'>
+		<quest
+			Name="d_FindBanditBaseOfOilMine_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="d_FindBanditBaseOfOilMine_Quest" />
+
+		<quest
+			Name="d_FindBanditBaseOfOilMine_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FindBanditBaseOfOilMine_Quest1" />
+	</quest>
 <!--Root/r1m3/Сюжетные/ Разобраться в интриге  -->
 	<quest
 		Name="d_IntrigaOfMerMinin_Quest"
@@ -1574,7 +1788,7 @@
 <!--Root/r1m3/Сюжетные/ Драться на базе -->
 	<quest
 		Name="d_GiveProblemToBase_Quest"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -1656,7 +1870,7 @@
 <!--Root/r1m3/Сюжетные/Отобрать диск2 у вора-->
 	<quest
 		Name="r1m3_FightWithThief"
-		Automatic="1"
+		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
@@ -1778,7 +1992,23 @@
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(175)"
 		OnTake='ShowCircleOnMinimapByName("Kolizey_location")'
-		Levels="r1m2" />
+		Levels="r1m2">
+		<quest
+			Name="CombatInKollizey_Quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="CombatInKollizey_Quest" />
+
+		<quest
+			Name="CombatInKollizey_Quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="CombatInKollizey_Quest1" />
+	</quest>
 
 	<quest
 		Name="ReturnToDirector2_Quest"
@@ -1956,7 +2186,7 @@
 
 		<quest
 			Name="d_CaravanToPortoBen_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -1965,7 +2195,7 @@
 
 		<quest
 			Name="d_CaravanToMidgardBen_Quest"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
@@ -1989,7 +2219,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="d_FindLisaInBandit_Quest"
+		PrecedingQuests="d_FindLisaOnSever_Quest"
 		OnComplete="AddPlayerMoney(1000)" />
 <!--Root/r1m2/Сюжетные/  Спросить в Асгарде про Тоннель -->
 	<quest
@@ -1998,7 +2228,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="d_FindLisaInBandit_Quest"
+		PrecedingQuests="d_DefeatLisasBandits"
 		OnComplete="AddPlayerMoney(100)"
 		OnTake='ShowCircleOnMinimapByName("ToR1M3"); ShowCircleOnMinimap("r1m3",CVector(3599.582, 289.622, 6165.195))' />
 <!--Root/r1m2/Сюжетные/Искать хмыря в Мидгарде-->
@@ -2063,6 +2293,7 @@
 		CheckAll="0"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(100)"
+		OnFail='TActivate("REVOLUTIONFAIL")'
 		OnTake='ShowCircleOnMinimapByName("RevolutionTimeEndLoc")'
 		Levels="r1m1" />
 <!--Root/r1m1/Опциональные/Квест про госпиталь-->
@@ -2102,7 +2333,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		OnComplete="AddPlayerMoney(200)"
+		OnComplete='AddPlayerMoney(200); TDeactivate("ZASADA_1")'
 		OnTake='ShowCircleOnMinimapByName("TheTown")' />
 <!--Root/r1m1/Сюжетные/Вернуться домой -->
 	<quest
@@ -2192,6 +2423,14 @@
 			ConditionToGive="all complete"
 			PrecedingQuests="d_FindLisaInPorto_Quest"
 			OnTake='ShowCircleOnMinimapByName("LisaInBanditPlen")' />
+
+		<quest
+			Name="d_DefeatLisasBandits"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_FindLisaInBandit_Quest" />
 	</quest>
 <!--Root/r1m1/Сюжетные/Найти Бена -->
 	<quest
@@ -2256,12 +2495,27 @@
 
 		<quest
 			Name="d_KillFelix_Quest"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_AttackFelixBase_Quest" />
+
+		<quest
+			Name="d_AttackFelixBase_Quest"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="d_GetBigBoom_Quest"
-			OnTake='ShowCircleOnMinimapByName("FelixBaseLoc")' />
+			PrecedingQuests="d_ArriveToFelix_Quest" />
+
+		<quest
+			Name="d_ArriveToFelix_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="d_GetBigBoom_Quest" />
 	</quest>
 
 	<MutuallyExclusives>
@@ -2270,9 +2524,6 @@
 
 		<mutex
 			quests="d_IntrigaOfMerMinin_Quest d_PayWorkersMoney_Quest" />
-
-		<mutex
-			quests="d_FindKeyInTunel_Quest d_FindZasadaInTunel_Quest" />
 
 		<mutex
 			quests="d_FindVerbInAR_Quest d_FindVerbInSNG_Quest" />

@@ -62,6 +62,7 @@
 			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(5535.000, 206, 1423.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
 			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(5545.000, 213, 1425.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
 			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(5555.000, 209, 1422.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
+			CreateEffectInsertedInRemove( "ET_PS_VEH_EXP1_MED1", CVector(5555.000, 209, 1422.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), true )
 
 			CreateEffectTTLed("ET_PS_PLASMAWATERSPLASH", CVector(5535.000, 202, 1423.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
 			CreateEffectTTLed("ET_PS_PLASMAWATERSPLASH", CVector(5545.000, 202, 1425.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
@@ -139,9 +140,9 @@
 
 			Fly("FATHERHOUSE_cam01", CINEMATIC_NO_AIM, 0, 20, 1, 0 )
 			Fly("FATHERHOUSE_cam02", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
-			Fly("FATHERHOUSE_cam03", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
+			Fly("FATHERHOUSE_cam03", CINEMATIC_NO_AIM, 0, 19, 0, 0 )
 			Fly("FATHERHOUSE_cam04", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
-			Fly("FATHERHOUSE_cam05", CINEMATIC_NO_AIM, 0, 20, 0, 0 )
+			Fly("FATHERHOUSE_cam05", CINEMATIC_NO_AIM, 0, 28, 0, 0 )
 			Fly("FATHERHOUSE_cam06", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
 			Fly("FATHERHOUSE_cam07", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
 			Fly("FATHERHOUSE_cam08", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
@@ -209,7 +210,7 @@
 
 			local humPl = GetEntityByName("humPlayer")
 			if humPl then
-				humPl:SetPosition( CVector(6459.136, 257.599, 5861.813))
+				humPl:SetPosition( CVector(6459.136, 257.799, 5861.813))
 				humPl:SetRotation(Quaternion(0.016, 0.888, -0.031, 0.459))
 			end
 
@@ -230,6 +231,7 @@
 		<event flypath="FATHERHOUSE_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			AddCinematicMessage( 404, 0.1 )
+			AddCinematicMessage( 4041, 0.1 )
 
 			trigger:Deactivate()
 		</script>
@@ -350,7 +352,7 @@
 
 			CreateNewObject{prototypeName = "InFatherHause_02",objName = "FathHause",belong = 1100}
 			getObj("FathHause"):SetPosition( CVector(6456.201, 260.465, 5863.605))
-			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(6457.741, 257.799, 5861.850), Quaternion(0.000, -0.174, 0.000, 0.985), 0)
+			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(6457.741, 257.556, 5861.850), Quaternion(0.000, -0.174, 0.000, 0.985), 0)
 
 			AddCinematicMessage( 30, 5 )
 
@@ -392,7 +394,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_MerScout","vehMer",( CVector(6226,277,6001) ))
+			CreateVehicleEx("r1m3_MerScout","vehMer",( CVector(6226,277,6001) ), 1010)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(6311.421, 280.051, 5881.835), Quaternion(0, 0, 0, 0), 0)
 
 			local vehPlayer = GetPlayerVehicle()
@@ -438,6 +440,7 @@
 			if veh then
 				veh:SetSkin(1)
 				veh:SetExternalPathByName("mer_path")
+				veh:SetCruisingSpeed(30)
 			end
 
 			TActivate("RUNMER")
@@ -446,6 +449,8 @@
 			StopPlayingCustomMusic()
 
 			SetCameraBehindPlayerVehicle()
+
+			TakeQuest("d_IntrigaOfMerMinin_Quest")
 
 			trigger:Deactivate()
 		</script>
@@ -461,7 +466,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m1_scout03","vehMer",( CVector(0, 0, 0) ))
+			CreateVehicleEx("r1m1_scout03","vehMer",( CVector(0, 0, 0) ), 1010)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(5343.372, 241.556, 4436.097), Quaternion(0, 0, 0, 0), 0)
 
 			local vehPlayer = GetPlayerVehicle()
@@ -612,7 +617,7 @@
 		<event flypath="Tunel_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			local vehPlayer = GetPlayerVehicle()
-			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(1466.568, 292.363, 5546.978), Quaternion(0.000, -0.731, 0.000, 0.682), 0)
+			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(1466.568, 292.173, 5546.978), Quaternion(0.000, -0.731, 0.000, 0.682), 0)
 
 			if vehPlayer then
 				vehPlayer:SetThrottle( 0 )                      
@@ -667,7 +672,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_hunter02","vehPioneer",( CVector(0, 10000, 0) ))
+			CreateVehicleEx("r1m3_hunter02","vehPioneer",( CVector(0, 10000, 0) ), 1015)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(1757.628, 285.696, 5439.641), Quaternion(0, 0, 0, 0), 0)
 
 			local vehP = GetEntityByName("vehPioneer")
@@ -748,6 +753,7 @@
 			if vehP then
 				vehP:SetSkin(4)
 				vehP:SetExternalPathByName("pioneer_path")
+				vehP:SetCanBeDistractedFromMoving( true )
 				SetCameraDirectionToObj( vehP:GetId() )
 			end
 
@@ -756,6 +762,8 @@
 			TActivate( "PIONEERASGARD" )
 
 			StopPlayingCustomMusic()
+
+			CompleteQuest( "d_FindZasadaInTunel_Quest" )
 
 			trigger:Deactivate()
 		</script>
@@ -771,7 +779,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_hunter02","vehPioneer",CVector(0, 10000, 0))
+			CreateVehicleEx("r1m3_hunter02","vehPioneer",CVector(0, 10000, 0), 1015)
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(3722.334, 302.636, 6176.265), Quaternion(0, 0, 0, 0), 0)
 
 			local vehP = GetEntityByName("vehPioneer")
@@ -879,7 +887,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(0, 10000, 0) ))
+			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(0, 10000, 0) ), 1042)
 
 			local vehLisa = GetEntityByName("vehLisa_0")
 			local vehLisaID = vehLisa:GetId()

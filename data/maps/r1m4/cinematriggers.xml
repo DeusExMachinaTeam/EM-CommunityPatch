@@ -12,7 +12,7 @@
 			TActivate("RolikEnd_BolotoOF")
 			TActivate("trBolotoOF_cam01")
 			TActivate("BolotoOF_PathOut")
-			Fly("BolotoOF_cam01", CINEMATIC_NO_AIM, 0, 25, 1, 1 )
+			Fly("BolotoOF_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 1 )
 			StartCinematic()
 			AddCinematicMessage( 1, 0.25 )
 			trigger:Deactivate()
@@ -523,6 +523,7 @@
 		TDeactivate("trCaravan_cam02")           
 		TDeactivate("trCaravan_cam03")           
 		SetCameraBehindPlayerVehicle()
+		CompleteQuest("FreeExtremistLeader_Quest3")
 		trigger:Deactivate()
 		</script>
 	</trigger>
