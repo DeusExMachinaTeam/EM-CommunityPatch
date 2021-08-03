@@ -1378,7 +1378,7 @@
 		text="Вот его голова! Я выполнил то, что вы просили."
 		role="PLAYER"
 		scriptCondition="IsQuestItemPresent( 'quest_monster_head' )"
-		scriptResult="CompleteQuest('r3m2_MonterHead')"
+		scriptResult="CompleteQuest('r3m2_MonterHead_3')"
 		nextReplies="r3m1_NearOracle_ODefenders_2_N032" />
 
 	<Reply
@@ -3131,7 +3131,7 @@
 		name="Dlg_pl_000492"
 		text="Что? Феликс?!"
 		role="PLAYER"
-		scriptResult="TakeQuest('r2m2_FightFelix');  TActivate('FELIXMONAX');  EndConversation()" />
+		scriptResult="CompleteQuest('r2m2_FindROMinCastle'); TakeQuest('r2m2_FightFelix');  TActivate('FELIXMONAX');  EndConversation()" />
 
 	<Reply
 		name="Monah_hellodlg1"
@@ -3186,14 +3186,14 @@
 		name="Monah_hellodlg2"
 		text="Ты доказал свою правоту. Можешь отправляться назад, и не забудь вино. "
 		role="NPC"
-		scriptCondition="IsQuestComplete('r2m2_FightFelix')   and   not(IsQuestTaken('r2m2_ReturnToMarecciaFromCastle'))   and   not(IsQuestComplete('r2m2_ReturnToMarecciaFromCastle'))"
+		scriptCondition="IsQuestComplete('r2m2_FightFelix_2')   and   not(IsQuestTaken('r2m2_ReturnToMarecciaFromCastle'))   and   not(IsQuestComplete('r2m2_ReturnToMarecciaFromCastle'))"
 		nextReplies="Dlg_pl_000500" />
 
 	<Reply
 		name="Dlg_pl_000500"
 		text="Да, конечно… Я же приехал за вином…"
 		role="PLAYER"
-		scriptResult="CompleteQuest('r2m2_FindROMinCastle');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  AddQuestItem('quest_wine_barrels');  EndConversation()" />
+		scriptResult="CompleteQuest('r2m2_FightFelix_3');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  AddQuestItem('quest_wine_barrels');  EndConversation()" />
 
 	<Reply
 		name="Monah_hellodlg3"
@@ -4667,7 +4667,7 @@
 		name="Dlg_pl_000095"
 		text="Слишком это хлопотно, проще убить вас всех."
 		role="PLAYER"
-		scriptResult="TActivate('trExtrTeamMustDie_Take'); EndConversation()" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); TakeQuest('TRS_Quest3a'); LeaveTown()" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_1_N10"
@@ -4692,20 +4692,21 @@
 		name="r1m4_Storage_Guard1_2_N01"
 		text="Как продвигаются дела по спасению нашего лидера??"
 		role="NPC"
-		scriptCondition="QuestStatus('FreeExtremistLeader_Quest1')==Q_TAKEN and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN"
+		scriptCondition="QuestStatus('TRS_Quest2')==Q_COMPLETED and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN and not(IsQuestTaken('TRS_Quest4')) and not(IsQuestTaken('KillExtremist_Quest1')) and not(IsQuestComplete('FreeExtremistLeader_Quest1')) "
 		nextReplies="r1m4_Storage_Guard1_2_P02 r1m4_Storage_Guard1_2_P03" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_2_P02"
 		text="Я работаю над этим."
 		role="PLAYER"
+		scriptCondition="QuestStatus('FreeExtremistLeader_Quest1')==Q_TAKEN and QuestStatus('FreeExtremistLeader_Quest4')~=Q_TAKEN"
 		scriptResult="EndConversation();" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_2_P03"
 		text="Я передумал. Лучше я убью вас и захвачу склад."
 		role="PLAYER"
-		scriptResult="TActivate('trExtrTeamMustDie_Take'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); EndConversation();" />
+		scriptResult="TActivate('trExtrTeamMustDie_Take'); FailQuestIfTaken('FreeExtremistLeader_Quest1'); TakeQuest('TRS_Quest3a'); LeaveTown();" />
 
 	<Reply
 		name="r1m4_Storage_Guard1_3_N01"
@@ -4731,7 +4732,7 @@
 		name="r1m4_Storage_Guard1_3_P04"
 		text="Обязательно вернусь."
 		role="PLAYER"
-		scriptResult="CompleteQuest('TRS_Quest3b'); EndConversation()" />
+		scriptResult="CompleteQuest('TRS_Quest3b'); TakeQuest('TRS_Quest4'); EndConversation()" />
 
 	<Reply
 		name="Olme_Bar_Customer2_3_N01"
@@ -5286,7 +5287,7 @@ EndConversation()" />
 		name="Bomber_hellodlg1"
 		text="Спасибо за помощь! После такого отпора они долго к нам не сунутся. Что тебе нужно было? Взрывчатка? Да бери сколько нужно! Для хорошего человека не жалко."
 		role="NPC"
-		scriptCondition="IsQuestTaken('d_BombInShahts_Quest')  and  not(IsQuestComplete('d_BombInShahts_Quest'))  and  IsQuestComplete('d_BombShahtsAtakBandits_Quest')  and  (GetCurNpc():GetSpokenCount() > 0)"
+		scriptCondition="IsQuestTaken('d_BombShahtsReturn_Quest')  and  not(IsQuestComplete('d_BombShahtsReturn_Quest'))  and  (GetCurNpc():GetSpokenCount() > 0)"
 		nextReplies="Dlg_pl_dd2170" />
 <!--Root/r1m3/Сюжетные/Мер Минина-->
 	<Reply
@@ -6191,13 +6192,13 @@ EndConversation()" />
 		name="Dlg_pl_dd2168"
 		text="Опять двадцать пять. Ни дня без боя, что за жизнь!"
 		role="PLAYER"
-		scriptResult="TakeQuest( 'd_BombShahtsAtakBandits_Quest' );  TActivate('SHAHTSBANDIT');  GetCurNpc():SetSpokenCount( 1 );  LeaveTown(true)" />
+		scriptResult="TActivate('SHAHTSBANDIT'); CompleteQuest('d_BombInShahts_Quest');  GetCurNpc():SetSpokenCount( 1 );  LeaveTown(true)" />
 
 	<Reply
 		name="Dlg_pl_dd2170"
 		text="Вот и хорошо…"
 		role="PLAYER"
-		scriptResult="CompleteQuest( 'd_BombInShahts_Quest' );  AddQuestItem('quest_explosive');  TActivate('BOOOM');  EndConversation()" />
+		scriptResult="CompleteQuest( 'd_BombShahtsReturn_Quest' );  AddQuestItem('quest_explosive');  TActivate('BOOOM');  EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_dd2201"
@@ -6329,7 +6330,7 @@ EndConversation()" />
 		name="Anticwar_hellodlg0_P1_1"
 		text="Давай посмотрим, что там творится…"
 		role="PLAYER"
-		scriptResult="TActivate('ANTICWAR'); TakeQuest('HelpRuins_Quest'); EndConversation()" />
+		scriptResult="TActivate('ANTICWAR'); EndConversation()" />
 
 	<Reply
 		name="Anticwar_hellodlg0_P1_2"
@@ -6348,7 +6349,7 @@ EndConversation()" />
 		name="Antisincer_hellodlg0_P1_1"
 		text="Я в деле."
 		role="PLAYER"
-		scriptResult="TActivate('ANTISIENCER'); TakeQuest('DestroyRuins_Quest'); EndConversation()" />
+		scriptResult="TActivate('ANTISIENCER'); EndConversation()" />
 
 	<Reply
 		name="Antisincer_hellodlg0_P1_2"

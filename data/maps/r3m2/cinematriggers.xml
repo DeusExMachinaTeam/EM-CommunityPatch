@@ -207,6 +207,8 @@
 			    TActivate("trBigMonsterDie")
 	     	    AddVehicleGunsWithRandomAffix(mnstr:GetVehicle(0), "hammer01", 3, 8+random(2))
 				mnstr:GetVehicle(0):AddItemsToRepository("firing_rate_guns_and_add_damage_guns", 1)
+				mnstr:GetVehicle(0):AddModifier("maxhp", "= 2500")
+				mnstr:GetVehicle(0):AddModifier("hp", "= 2500")
 		    end
 			trigger:Deactivate()
 		</script>
@@ -228,6 +230,7 @@
 			SetCameraDirectionToObj(getObj("TeamBigMonster_vehicle_0"):GetId())
 			TDeactivate("cinNearMonster_Cam2")
 			RestoreAllToleranceStatus()
+			CompleteQuest("r3m2_MonterHead_1")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -256,6 +259,9 @@
 			AddCinematicMessage( 1001, 0.25 )
 			AddCinematicMessage( 1002, 0.25 )
 			AddCinematicMessage( 1003, 0.25 )
+
+			CompleteQuest("r3m2_MonterHead_2")
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>

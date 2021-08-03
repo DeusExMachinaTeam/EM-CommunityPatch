@@ -386,6 +386,10 @@
 			StopPlayingCustomMusic()
 			SetCameraBehindPlayerVehicle()
 			RestoreAllToleranceStatus()
+
+			local a = GetEntityByName("StartGonka_loc")
+			if a then a:SetProperty("Active",1) end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -459,8 +463,12 @@
 			TActivate("cinExit42Return_FadeIn")
 			TActivate("cinExit42Return_End")
 
-			Fly("ExitTo42Return", CINEMATIC_NO_AIM, nil, 4, 1,1)
+			Fly("ExitTo42Return", CINEMATIC_NO_AIM, nil, 6, 1,1)
 			StartCinematic()
+
+			if QuestStatus("r4m1_RescueBuharsCivilian")~=Q_COMPLETED then
+				AddCinematicMessage( 8802, 0.5 )
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -469,8 +477,8 @@
 	<trigger	Name="cinExit42Return_FadeIn"	active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
-			GetPlayerVehicle():SetGamePositionOnGround(CVector(7479.856, 274.318, 3697.699))
-			GetPlayerVehicle():SetRotation(Quaternion(0.020, -0.770, 0.030, 0.637))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(7469.020, 274.164, 3698.224))
+			GetPlayerVehicle():SetRotation(Quaternion(0.019, -0.761, 0.027, 0.648))
 			GetPlayerVehicle():SetExternalPathByName("ReturnPathR4M2")
 			trigger:Deactivate()
 		</script>
@@ -552,8 +560,8 @@
 	<trigger	Name="cinExit11Return_FadeIn"	active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
-			GetPlayerVehicle():SetGamePositionOnGround(CVector(3101.792, 274.133, 7493.445))
-			GetPlayerVehicle():SetRotation(Quaternion(0.034, 0.925, 0.009, 0.378))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(3113.161, 274.148, 7483.117))
+			GetPlayerVehicle():SetRotation(Quaternion(0.011, 0.919, -0.008, 0.393))
 			GetPlayerVehicle():SetExternalPathByName("ReturnPathR1M1")
 			trigger:Deactivate()
 		</script>

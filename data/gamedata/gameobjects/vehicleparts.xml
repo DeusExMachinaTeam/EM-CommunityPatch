@@ -50,7 +50,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType= "ROBOT1_CHASSIS"
 			NodeScale	= "1 1 1"
 			Mass		= "50.0" 			
-			MaxHealth	= "2500" 
+			MaxHealth	= "1500" 
 			MaxFuel	= "1000"
 			BrakingSound="ET_S_BRAKE01"
 			VisibleInEncyclopedia = "false"

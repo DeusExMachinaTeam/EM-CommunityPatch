@@ -96,6 +96,8 @@
 			end
 
 			TActivate( "FELIXMONAXDIE" )
+
+			CompleteQuest("r2m2_FightFelix_1")
 	
 			trigger:Deactivate()
 		</script>
@@ -184,6 +186,8 @@
 
 			PlayCustomMusic("Passage03")
 
+			CompleteQuest("r2m2_FightWithAxelInArena_Quest_1")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -193,6 +197,7 @@
 
 
 <!-- ТруЪ Саныч побеждает Аксенича. Едет искать Форкс на другой карте or искать Форкс в монастыре -->
+<!-- by zatinu322: ничего не понял, но очень интересно -->
 	<trigger Name="RolikBegin_AXELARENADIE" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>

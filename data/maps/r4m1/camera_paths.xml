@@ -65,6 +65,7 @@
 
 	<Path Name = "ExitTo42Return">
 		<Point  coord="7475.230 285.147 3653.854" rotation="-0.076 -0.062 0.005 0.995"/>
+		<Point  coord="7475.230 285.147 3653.854" rotation="-0.077 0.325 -0.026 0.942"/>
 	</Path>
 
 	<Path Name = "ExitTo42Ok">
@@ -72,7 +73,8 @@
 	</Path>
 
 	<Path Name = "ExitTo11Return">
-		<Point  coord="3112.431 277.778 7461.789" rotation="-0.022 -0.024 0.001 0.999"/>
+		<Point  coord="3127.460 279.751 7451.502" rotation="-0.033 0.258 -0.009 0.966"/>
+		<Point  coord="3127.460 279.751 7451.502" rotation="-0.161 -0.452 0.083 0.874"/>
 	</Path>
 
 

@@ -4266,19 +4266,19 @@
 	<Path
 		Name="ReturnPathR1M1">
 		<Point
-			coord="3108.153 7487.238" />
+			coord="3126.931 7474.900" />
 
 		<Point
-			coord="3117.751 7479.375" />
+			coord="3140.977 7459.200" />
 	</Path>
 
 	<Path
 		Name="ReturnPathR4M2">
 		<Point
-			coord="7471.128 3697.675" />
+			coord="7440.931 3693.357" />
 
 		<Point
-			coord="7448.403 3693.889" />
+			coord="7410.738 3690.090" />
 	</Path>
 
 	<Path

@@ -6,6 +6,7 @@
 		<script>
 			SetVar("Boloto",0)
 			SetVar("SubMarPh",0)
+			SetVar("MainCarDead", 0)
 		    trigger:Deactivate()
 		</script>
 	</trigger>
@@ -187,6 +188,12 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="LeaderGuardTeam" />
 		<event eventid="GE_OBJECT_DIE" ObjName="LeaderCar_vehicle_0" />
 		<script>
+			if getObj("LeaderCar_vehicle_0"):IsAlive() or GetVar("MainCarDead").AsInt==1 then
+				CompleteQuest("FreeExtremistLeader_Quest3_1")
+			else
+				CompleteQuest("FreeExtremistLeader_Quest3_2")
+				SetVar("MainCarDead", 1)
+			end
 			trigger:IncCount()
 			local count = trigger:GetCount()
 		    if 2>count then
@@ -227,12 +234,12 @@
 		<script>
 			RestoreAllToleranceStatus()
 
-			CompleteQuestIfTaken("FreeExtremistLeader_Quest3")
-			TakeQuest("FreeExtremistLeader_Quest4")
-
-			if getObj("LeaderCar") then
-				getObj("LeaderCar"):Remove()
+			if getObj("LeaderCar_vehicle_0") then
+				getObj("LeaderCar_vehicle_0"):Remove()
 			end
+
+			CompleteQuestIfTaken("FreeExtremistLeader_Quest3_1")
+			CompleteQuestIfTaken("FreeExtremistLeader_Quest3_2")
 
 			trigger:Deactivate()
 		</script>
@@ -257,7 +264,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			FlyAround(2, 0, 35, 25, PlfCoor, PlfID, 1, 1 )
+			FlyAround(2, 0, 35, 16, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 13, 1 )
@@ -275,10 +282,17 @@
 		<script>
 			RestoreAllToleranceStatus()
 
+			for i = 0,2 do
+				if GetEntityByName("LeaderGuardTeam_vehicle_"..i) then GetEntityByName("LeaderGuardTeam_vehicle_"..i):Remove() end
+			end
+
+			local LeadCar = GetEntityByName("LeaderCar_vehicle_0")
+			if LeadCar then LeadCar:Remove() end
+
 			FailQuestIfTaken("TRS_Quest3b")
 			FailQuestIfTaken("FreeExtremistLeader_Quest3")
 			FailQuestIfTaken("FreeExtremistLeader_Quest1")
-			TakeQuest("KillExtremist_Quest1")
+			TakeQuest("TRS_Quest3a")
 
 			trigger:Deactivate()
 		</script>
@@ -287,13 +301,26 @@
 	<trigger	Name="trExtrTeamMustDie_Take" active="0">
 		<event	timeout="0.01"	eventid="GE_TIME_PERIOD" />
 		<script>
+			TDeactivate("trNearCaravanLeader")
+			TDeactivate("trLeaderCaravanDie")
+			TDeactivate("trLeaderCarDie")
+			
 			TeamCreate("ExtrGuardTeam",1065,CVector(getPos("StorageVil_deploy")),{"Revolutioner1","Revolutioner2","Bug01","Bug01","Revolutioner2"})			
 			SetTolerance(1100, 1065, RS_ENEMY)
 			if  RS_NEUTRAL>GetTolerance(1100, 1010) then
 				SetTolerance(1100, 1010, RS_NEUTRAL)
 			end
+
+			for i = 0,2 do
+				if GetEntityByName("LeaderGuardTeam_vehicle_"..i) then GetEntityByName("LeaderGuardTeam_vehicle_"..i):Remove() end
+			end
+
+			local LeadCar = GetEntityByName("LeaderCar_vehicle_0")
+			if LeadCar then LeadCar:Remove() end
+
 			FailQuestIfTaken("TRS_Quest3b")
 			FailQuestIfTaken("FreeExtremistLeader_Quest3")
+			CompleteQuest("TRS_Quest3a")
 			TakeQuest('KillExtremist_Quest1')
 			TActivate("trExtrGuardTeamDie")
 			trigger:Deactivate()
@@ -308,7 +335,7 @@
 			SaveAllToleranceStatus(RS_NEUTRAL)
 		    SetTolerance(1100, 1010, RS_NEUTRAL)
 			CompleteQuest("KillExtremist_Quest1")
-			CompleteQuest("TRS_Quest3a")
+			TakeQuest("TRS_Quest4")
 
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
