@@ -37,8 +37,22 @@ sampler sampler_name = sampler_state \
     AddressV  = mapping;             \
     MinFilter = MIN_MAG_FILTER;      \
     MagFilter = MIN_MAG_FILTER;      \
-    MipFilter = MIP_FILTER;          \
 };
+
+
+#define DeclareTextureCube(slot, texture_name, sampler_name, mapping) \
+texture texture_name: slot;             \
+samplerCUBE sampler_name = sampler_state\
+{						                \
+	Texture = <texture_name>;           \
+	AddressU = mapping;                 \
+	AddressV = mapping;                 \
+	AddressW = mapping;                 \
+	MinFilter = Linear;                 \
+	MagFilter = Linear;                 \
+	MipFilter = Linear;                 \
+};
+
 
 
 static const float PI = 3.141592;
@@ -54,6 +68,11 @@ shared const float  g_Transparent: TRANSPARENCY   = 1.0f;
 
 float3 binormal(float3 normal, float4 tangent) {
     return cross(normal, tangent.xyz) * tangent.w;
+};
+
+
+float3 reflection(float3 View, float3 Normal, float4x4 World) {
+    return normalize(mul(reflect(View, Normal), World));
 };
 
 
@@ -96,7 +115,7 @@ float4 diffuse(float3 dir_view,
     #endif
 
     #ifdef ENABLE_REFLECTION
-    float3 color = lerp(color, Cubemap, Reflection);
+    color = lerp(color, Cubemap, Reflection);
     #endif
 
     color *= light;
