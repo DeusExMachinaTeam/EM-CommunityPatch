@@ -101,7 +101,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ExplosionType		= "MACHINEGUN"
 		FiringEffect		= "none"
 		Damage		= "320"
-		NumBulletsInShot	= "20"
+		NumBulletsInShot	= "10"
 		FiringRate		= "14"
 		GroupingAngle		= "3"
 		FiringRange		= "2000"
