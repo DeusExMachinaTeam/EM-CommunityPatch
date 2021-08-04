@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Basket/cargo interface in the bottom left part of the screen, show in towns and inventory screen -->
+<!-- Child of inventorywnd.xml, related to cabinwnd.xml -->
+<Prefabs>
+	<Node
+		name="BasketWnd"
+		class="Wnd"
+		org="0.000 470.000 960.000 610.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico_hd\InventoryDlg\panel_body.dds"
+		paneName="wnd3"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000">
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_TOP"
+				animationSpeed="3500"
+				animationAccel="-6000"
+				animationDelayTime="0"/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_BOTTOM"
+				animationSpeed="3500"
+				animationAccel="-6000"
+				animationDelayTime="0"/>
+		</Animations>
+
+		<Node
+			name="wndInventory"
+			class="Wnd"
+			org="173.000 22.000 695.000 540.000"
+			style="512"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneInventory"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndDisabledBg"
+			class="ImageWnd"
+			org="106.000 1.000 836.000 581.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\InventoryDlg\color_black.dds"
+			paneName="PaneYellowBrownThick"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndHidePictureBg"
+			class="ImageWnd"
+			org="317.000 0.000 395.000 410.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico_hd\InventoryDlg\body_hide.dds"
+			paneName="PaneYellowBrownThick"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+	</Node>
+</Prefabs>

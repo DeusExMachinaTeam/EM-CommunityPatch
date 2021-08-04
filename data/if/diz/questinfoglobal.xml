@@ -24,10 +24,24 @@
 		questName="CombatInKollizey_Quest"
 		briefDiz="Показательное выступление"
 		fullDiz="Я должен устроить в Колизее показательное сражение, чтобы привлечь публику."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="CombatInKollizey_Quest1"
+		briefDiz="Добраться до Арены"
 		isMainQuest="0">
 		<Map
 			name="r1m2"
 			targetObjName="Kolizey_location" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CombatInKollizey_Quest2"
+		briefDiz="Одержать победу в поединке"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Gladiator1" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -37,7 +51,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m2"
-			targetObjName="Ruins_location" />
+			targetObjName="CarOfSiencer" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -195,6 +209,24 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="FreeExtremistLeader_Quest3_1"
+		briefDiz="Уничтожить охрану"
+		isMainQuest="0">
+		<Map
+			name="r1m4"
+			targetObjName="LeaderGuardTeam" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="FreeExtremistLeader_Quest3_2"
+		briefDiz="Уничтожить головную машину"
+		isMainQuest="0">
+		<Map
+			name="r1m4"
+			targetObjName="LeaderCar_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="FreeExtremistLeader_Quest4"
 		briefDiz="Отвезти лидера к его бойцам"
 		isMainQuest="0">
@@ -210,7 +242,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m2"
-			targetObjName="Ruins_location" />
+			targetObjName="CarOfAntiSiencer" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -220,7 +252,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m4"
-			targetObjName="StorageVil_enter" />
+			targetObjName="ExtrGuardTeam" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -305,7 +337,8 @@
 		briefDiz="Убить захватчиков"
 		isMainQuest="0">
 		<Map
-			name="r1m4" />
+			name="r1m4"
+			targetObjName="StorageVil_enter" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -375,10 +408,28 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="d_ArriveToFelix_Quest"
+		briefDiz="Приехать на базу Феликса"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="FelixBaseLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_AttackFelixBase_Quest"
+		briefDiz="Избавиться от охраны"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="FelixBanditCars2" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="d_BarForTunel_Quest"
 		briefDiz="Поговорить с барменом в Асгарде"
 		fullDiz="Судя по всему, жители этого города знают, как проехать через горы на запад. "
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Asgard" />
@@ -421,6 +472,15 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
+			targetObjName="ShahtsBoss" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_BombShahtsReturn_Quest"
+		briefDiz="Вернуться в посёлок"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
 			targetObjName="TheShahts" />
 	</QuestInfo>
 
@@ -452,6 +512,23 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="d_DefeatLisasBandits"
+		briefDiz="Спасти Лису"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="ToR1M2" />
+
+		<Map
+			name="r1m2"
+			targetObjName="LisaInBanditDen" />
+
+		<Map
+			name="r1m3"
+			targetObjName="ToR1M2" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="d_DestroyBridge_Quest"
 		briefDiz="Заложить бомбу"
 		fullDiz="У меня есть взрывчатка. Осталось только заминировать мост."
@@ -467,7 +544,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
-			targetObjName="TheBanditOilMine" />
+			targetObjName="OilMineBoss" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -504,10 +581,24 @@
 		questName="d_FindBanditBaseOfOilMine_Quest"
 		briefDiz="Найти и уничтожить лагерь бандитов"
 		fullDiz="Последний противник убегает. Я могу проследить за ним до базы бандитов и уничтожить это паучье гнездо."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="d_FindBanditBaseOfOilMine_Quest1"
+		briefDiz="Проследить за беглецом"
 		isMainQuest="0">
 		<Map
 			name="r1m3"
 			targetObjName="OilMineRuner_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_FindBanditBaseOfOilMine_Quest2"
+		briefDiz="Напасть на базу"
+		isMainQuest="0">
+		<Map
+			name="r1m3"
+			targetObjName="OilMineBaseBoss" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -589,7 +680,7 @@
 		questName="d_FindKeyInTunel_Quest"
 		briefDiz="Поговорить с барменом"
 		fullDiz="Скорее всего, у него есть ключ от тоннеля, и он его сможет продать. Если я правильно понимаю законы рынка."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Asgard" />
@@ -597,7 +688,7 @@
 
 	<QuestInfo
 		questName="d_FindLisaInBandit_Quest"
-		briefDiz="Спасти Лису"
+		briefDiz="Проверить возможное место засады"
 		isMainQuest="1">
 		<Map
 			name="r1m1" />
@@ -705,8 +796,7 @@
 			name="r1m3" />
 
 		<Map
-			name="r1m4"
-			targetObjName="ToR3M1" />
+			name="r1m4" />
 
 		<Map
 			name="r2m1"
@@ -775,7 +865,7 @@
 		questName="d_FindZasadaInTunel_Quest"
 		briefDiz="Найти место для засады"
 		fullDiz="Наверняка рано или поздно кто-то выедет из туннеля. У него-то я и экспроприирую ключ. Главное – дождаться. "
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="ZasadaLocQ" />
@@ -783,7 +873,7 @@
 
 	<QuestInfo
 		questName="d_FirstVillage_Quest"
-		briefDiz="Следовать за транспортом до деревни Роторск"
+		briefDiz="Следовать за транспортом до деревни Генденбургск"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
@@ -794,10 +884,24 @@
 		questName="d_FreeTunel_Quest"
 		briefDiz="Освободить тоннель"
 		fullDiz="До сих пор АР получает ресурсы и наемников через тоннель. Захватив его, СНГ обрубит захватчикам важную артерию. Чтобы сделать это, придется убить всех охранников."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="d_FreeTunel_Quest1"
+		briefDiz="Добраться до тоннеля"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
 			targetObjName="TunnelAttackLocation" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_FreeTunel_Quest2"
+		briefDiz="Убить бандитов"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="TunelTeamFighters" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -892,7 +996,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
-			targetObjName="TheBase" />
+			targetObjName="Argument" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -906,10 +1010,24 @@
 		questName="d_HelpSideVillageSNG_Quest"
 		briefDiz="Защитить пограничную деревню"
 		fullDiz="Небольшие поселения постоянно повергаются атакам головорезов Алого Рассвета. Я могу предотвратить нападение и я сделаю это. "
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="d_HelpSideVillageSNG_Quest1"
+		briefDiz="Добраться до деревни"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
 			targetObjName="TheUnderAttaks" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_HelpSideVillageSNG_Quest2"
+		briefDiz="Отразить нападение"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Razboy" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -927,7 +1045,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m1"
-			targetObjName="FelixBaseLoc" />
+			targetObjName="FelixBanditCars3" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1074,7 +1192,7 @@
 		questName="d_OpenTunel_Quest"
 		briefDiz="Открыть тоннель ключом"
 		fullDiz="Ключ от тоннеля у меня. Осталось только открыть его."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="ToR2M1" />
@@ -1102,7 +1220,7 @@
 
 	<QuestInfo
 		questName="d_PunishBandits_Quest"
-		briefDiz="Проучить бандитов"
+		briefDiz="Помочь Эду разобраться с бандитами"
 		fullDiz="Жители округа решили проучить бандитов.  Это отличный шанс потренироваться в стрельбе."
 		isMainQuest="0">
 		<Map
@@ -1174,7 +1292,7 @@
 
 	<QuestInfo
 		questName="d_SecondVillage_Quest"
-		briefDiz="Следовать за транспортом до деревни Геденбургск"
+		briefDiz="Следовать за транспортом до деревни Роторск"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
@@ -1185,7 +1303,7 @@
 		questName="d_SerchCarTunel_Quest"
 		briefDiz="Проследить за машиной"
 		fullDiz="Я могу проследить за машиной из тоннеля и попробовать забрать ключ, когда водитель выйдет из нее."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m3"
 			targetObjName="Pioneer_vehicle_0" />
@@ -1213,10 +1331,24 @@
 		questName="d_TakeGeneralOfBandits_Quest"
 		briefDiz="Захватить генерала бандитов"
 		fullDiz="Вместе с несколькими машинами СНГ я должен захватить генерала АР."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="d_TakeGeneralOfBandits_Quest1"
+		briefDiz="Добраться до места засады"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
 			targetObjName="BossARLocation" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="d_TakeGeneralOfBandits_Quest2"
+		briefDiz="Захватить генерала АР"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="BossARCar" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1319,7 +1451,7 @@
 		isMainQuest="1">
 		<Map
 			name="r2m1"
-			targetObjName="LisaFindLocation" />
+			targetObjName="LisaInCar_vehicle_0" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1460,7 +1592,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m2"
-			targetObjName="Kolizey_location" />
+			targetObjName="Gladiator2" />
 
 		<Map
 			name="r1m3" />
@@ -1471,6 +1603,38 @@
 
 		<Map
 			name="r2m1" />
+
+		<Map
+			name="r3m1" />
+
+		<Map
+			name="r3m2"
+			targetObjName="ToR3M1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r1m2_GoToArena_Quest"
+		briefDiz="Добраться до Арены"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Kolizey_location" />
+
+		<Map
+			name="r1m3"
+			targetObjName="ToR1M2" />
+
+		<Map
+			name="r1m4"
+			targetObjName="ToR1M3" />
+
+		<Map
+			name="r2m1"
+			targetObjName="ToR1M3" />
+
+		<Map
+			name="r2m2"
+			targetObjName="ToR2M1" />
 
 		<Map
 			name="r3m1" />
@@ -1594,7 +1758,7 @@
 
 	<QuestInfo
 		questName="r1m3_BonnyAndKlideQuest"
-		briefDiz="Помочь Конни и Блайду."
+		briefDiz="Помочь Конни и Блайд."
 		fullDiz="Надо отвезти странную молодую семью домой. Они обещают высокую награду денег за несложную работенку."
 		isMainQuest="0">
 		<Map
@@ -1642,7 +1806,7 @@
 		isMainQuest="1">
 		<Map
 			name="r1m3"
-			targetObjName="TheBase" />
+			targetObjName="ThiefCar" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1792,7 +1956,7 @@
 		questName="r1m4_OvercomeMirras"
 		briefDiz="Преодолеть болото"
 		fullDiz="Путь к Вратам преграждает болото, Нужно найти мелкое место или тропу, чтобы перебраться на другую сторону."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r1m4"
 			targetObjName="MorassRoad_loc" />
@@ -1873,7 +2037,7 @@
 		isMainQuest="0">
 		<Map
 			name="r2m1"
-			targetObjName="KINGPIN" />
+			targetObjName="BossNarcotikCar_vehicle_0" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1882,7 +2046,7 @@
 		isMainQuest="0">
 		<Map
 			name="r2m1"
-			targetObjName="CaravanWithNarcotikCars_vehicle_0" />
+			targetObjName="CaravanWithNarcotikCars" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1967,6 +2131,11 @@
 		questName="r2m2_FightFelix"
 		briefDiz="Победить Феликса"
 		fullDiz="Феликс снова встал у меня на пути. На этот раз я не пощажу его!"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r2m2_FightFelix_1"
+		briefDiz="Добраться до арены"
 		isMainQuest="1">
 		<Map
 			name="r2m2"
@@ -1974,10 +2143,28 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="r2m2_FightFelix_2"
+		briefDiz="Победить Феликса"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="FelixCars_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_FightFelix_3"
+		briefDiz="Вернуться в монастырь"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Monastery" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="r2m2_FightLisaToMonastir"
 		briefDiz="Остановить Лису"
 		fullDiz="Любым способом надо остановить Лису. Я больше не позволю ей обманывать меня или кого бы то ни было!"
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="r2m2"
 			targetObjName="LisaRunCar_vehicle_0" />
@@ -1986,12 +2173,8 @@
 	<QuestInfo
 		questName="r2m2_FightWithAxelInArena_Quest"
 		briefDiz="Драться с Акселем"
-		fullDiz="Я сражусь с Акселем на арене и заставлю его рассказать мне все."
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			targetObjName="Arena" />
-	</QuestInfo>
+		fullDiz="Я сражусь с Акселем на арене и заставлю его рассказать мне всё."
+		isMainQuest="1" />
 
 	<QuestInfo
 		questName="r2m2_FightWithAxelInArena_Quest1"
@@ -1999,6 +2182,24 @@
 		<Map
 			name="r2m2"
 			coordinate="3318.000 280.000 1260.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_FightWithAxelInArena_Quest_1"
+		briefDiz="Встретиться с Акселем на Арене"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Arena" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_FightWithAxelInArena_Quest_2"
+		briefDiz="Победить Акселя"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="AxelCarWar_vehicle_0" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2040,11 +2241,7 @@
 		isMainQuest="1">
 		<Map
 			name="r2m1"
-			targetObjName="KaravanSNGTill_vehicle_0" />
-
-		<Map
-			name="r2m2"
-			targetObjName="ToR2M1" />
+			targetObjName="KaravanSNGTill" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2061,10 +2258,24 @@
 		questName="r2m2_GiveBardakToSideVillage"
 		briefDiz="Напасть на деревню"
 		fullDiz="Жители этой деревни были замечены в связях с врагом. Я нападу на нее, чтобы оттянуть силы СНГ с основного направления атаки."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r2m2_GiveBardakToSideVillage_1"
+		briefDiz="Уничтожить охрану"
 		isMainQuest="1">
 		<Map
 			name="r2m2"
-			targetObjName="VillDesLoc" />
+			targetObjName="SNGInVill1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_GiveBardakToSideVillage_2"
+		briefDiz="Уничтожить подкрепление"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="SNGInVill2" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2092,6 +2303,15 @@
 		<Map
 			name="r3m2"
 			targetObjName="Oracle_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_GoToLibrium"
+		briefDiz="Пробраться на территорию врага"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="ToR2M1" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2142,7 +2362,7 @@
 		isMainQuest="1">
 		<Map
 			name="r2m2"
-			targetObjName="Leaders" />
+			targetObjName="LeadersSNG" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2230,10 +2450,24 @@
 		questName="r2m2_ToKillAllSNGPeople"
 		briefDiz="Уничтожить лагерь повстанцев"
 		fullDiz="Мой приказ - убить беззащитных повстанцев. Меня терзают сомнения, ведь это-настоящее злодеяние."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r2m2_ToKillAllSNGPeople_1"
+		briefDiz="Найти повстанцев"
 		isMainQuest="1">
 		<Map
 			name="r2m2"
 			targetObjName="Lager" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r2m2_ToKillAllSNGPeople_2"
+		briefDiz="Уничтожить повстанцев"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="LagerCarrrs" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2320,12 +2554,21 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="r3m1_ClearSanctuary_GotoSanctuary"
+		briefDiz="Добраться до святилища"
+		isMainQuest="1">
+		<Map
+			name="r3m1"
+			targetObjName="NearStoneHendj_loc" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="r3m1_ClearSanctuary_KillMonster"
 		briefDiz="Уничтожить монстров"
 		isMainQuest="1">
 		<Map
 			name="r3m1"
-			targetObjName="NearStoneHendj_loc" />
+			targetObjName="TeamLoggers" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2569,6 +2812,11 @@
 		questName="r3m2_MonterHead"
 		briefDiz="Принести голову чудища"
 		fullDiz="Защитники оракула пропустят меня, если чудище будет убито. В качестве доказательства нужно принести его голову."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r3m2_MonterHead_1"
+		briefDiz="Добраться до города живых мертвецов"
 		isMainQuest="1">
 		<Map
 			name="r3m1"
@@ -2577,6 +2825,32 @@
 		<Map
 			name="r3m2"
 			targetObjName="Monster_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r3m2_MonterHead_2"
+		briefDiz="Победить монстра"
+		isMainQuest="1">
+		<Map
+			name="r3m1"
+			targetObjName="ToR3M2" />
+
+		<Map
+			name="r3m2"
+			targetObjName="TeamBigMonster_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r3m2_MonterHead_3"
+		briefDiz="Отдать голову защитникам"
+		isMainQuest="1">
+		<Map
+			name="r3m1"
+			targetObjName="ToR3M2" />
+
+		<Map
+			name="r3m2"
+			targetObjName="OracleDefenders_loc" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2662,25 +2936,7 @@
 		questName="r3m2_ReadyToTravel"
 		briefDiz="Подготовиться к путешествию в пустыню"
 		fullDiz="Машину надо модернизировать, чтобы я смог на ней пересечь пустыню. У меня есть чертеж, так что нужно найти мастера, который выполнит работу."
-		isMainQuest="1">
-		<Map
-			name="r1m2" />
-
-		<Map
-			name="r1m3" />
-
-		<Map
-			name="r1m4" />
-
-		<Map
-			name="r2m1" />
-
-		<Map
-			name="r3m1" />
-
-		<Map
-			name="r3m2" />
-	</QuestInfo>
+		isMainQuest="1" />
 
 	<QuestInfo
 		questName="r3m2_RevengeDestroyVillage"
@@ -2970,6 +3226,15 @@
 
 	<QuestInfo
 		questName="r4m1_KNO_FindSpecialist"
+		briefDiz="Искать нефтегонщика в Алихаме"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r4_AlihamVil" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r4m1_KNO_FindSpecialist_1"
 		briefDiz="Догнать специалиста по перегонке"
 		isMainQuest="1">
 		<Map
@@ -3011,7 +3276,11 @@
 	<QuestInfo
 		questName="r4m1_RBC_DefendCountry"
 		briefDiz="Защитить деревню от нападения"
-		isMainQuest="1" />
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="BuharsAttackers" />
+	</QuestInfo>
 
 	<QuestInfo
 		questName="r4m1_RBC_Evacuate"

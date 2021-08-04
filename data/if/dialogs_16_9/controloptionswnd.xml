@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu other control options: mouse sensetivity and axis inversion only -->
+<!-- Related to optionswnd.xml. Other part of control options is bindkeysdlg.xml -->
+<Prefabs>
+	<Node
+		name="wndControlOptions"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGray3"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="wndLine1"
+			class="LineWnd"
+			org="433.000 263.000 824.000 3.000"
+			style="524"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTitle"
+			class="Wnd"
+			org="433.000 193.000 824.000 70.000"
+			style="3904"
+			order="1"
+			id="0"
+			caption="^Control settings^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="checkMouseFlipY"
+			class="CheckWnd"
+			org="1167.000 750.000 45.000 45.000"
+			style="262656"
+			order="12"
+			id="10403"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneCheckGray"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_checkMouseFlipY"
+			class="Wnd"
+			org="1167.000 750.000 45.000 45.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="checkMouseFlipX"
+			class="CheckWnd"
+			org="867.000 750.000 45.000 45.000"
+			style="262656"
+			order="12"
+			id="10404"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneCheckGray"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_checkMouseFlipX"
+			class="Wnd"
+			org="867.000 750.000 45.000 45.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lblMouseFlipY"
+			class="Wnd"
+			org="912.000 750.000 210.000 45.000"
+			style="2880"
+			order="6"
+			id="0"
+			caption="^MouseYAxisFlip^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lblMouseFlipX"
+			class="Wnd"
+			org="433.000 750.000 390.000 45.000"
+			style="2880"
+			order="6"
+			id="0"
+			caption="^MouseXAxisFlip^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="sliderMouseSensitivity"
+			class="SliderWnd"
+			org="912.000 699.000 255.000 45.000"
+			style="262656"
+			order="26"
+			id="10400"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray3"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnMouseSensitivityPrev"
+			org="867.000 699.000 45.000 45.000"
+			style="265728"
+			order="25"
+			id="10401"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderPrev"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnMouseSensitivityNext"
+			org="1167.000 699.000 45.000 45.000"
+			style="265728"
+			order="25"
+			id="10402"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneBtnSliderNext"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lblMouseSensitivity"
+			class="Wnd"
+			org="433.000 699.000 390.000 45.000"
+			style="2880"
+			order="6"
+			id="0"
+			caption="^MouseSensitivity^"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="2"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fF404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndLine2"
+			class="LineWnd"
+			org="433.000 814.000 824.000 3.000"
+			style="524"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations/>
+		</Node>
+
+		<!--
+<Node
+
+
+
+name="btnApply"
+
+
+
+org="10.000 375.000 170.000 35.000"
+
+
+
+style="265728"
+
+
+
+order="27"
+
+
+
+id="0"
+
+
+
+caption="^Apply^"
+
+
+
+tip=""
+
+
+
+backimage=""
+
+
+
+paneName="PaneBtnGray1"
+
+
+
+scrollPaneName="Scroll1"
+
+
+
+paneFlags="7"
+
+
+
+wrap="0"
+
+
+
+format="0"
+
+
+
+font="0"
+
+
+
+clientEdges="0.000 0.000 0.000 0.000"
+
+
+
+wndColor="00000000"
+
+
+
+textColor="ffffffff"
+
+
+
+textColorDisabled="ff7f7f7f"
+
+
+
+btnIsImaged="0"
+
+
+
+class="ButtonWnd">
+
+
+
+<Animations />
+
+
+
+</Node>
+
+
+
+<Node
+
+
+
+name="btnDefault"
+
+
+
+org="190.000 375.000 170.000 35.000"
+
+
+
+style="265728"
+
+
+
+order="27"
+
+
+
+id="0"
+
+
+
+caption="^Default^"
+
+
+
+tip=""
+
+
+
+backimage=""
+
+
+
+paneName="PaneBtnGray1"
+
+
+
+scrollPaneName="Scroll1"
+
+
+
+paneFlags="7"
+
+
+
+wrap="0"
+
+
+
+format="0"
+
+
+
+font="0"
+
+
+
+clientEdges="0.000 0.000 0.000 0.000"
+
+
+
+wndColor="00000000"
+
+
+
+textColor="ffffffff"
+
+
+
+textColorDisabled="ff7f7f7f"
+
+
+
+btnIsImaged="0"
+
+
+
+class="ButtonWnd">
+
+
+
+<Animations />
+
+
+
+</Node>
+
+
+
+
+
+-->
+		<Animations/>
+	</Node>
+</Prefabs>

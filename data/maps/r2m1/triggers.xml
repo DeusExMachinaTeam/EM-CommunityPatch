@@ -22,7 +22,7 @@
 
 			for i=1,19 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(0, 2))
 			end
 			trigger:Deactivate()
 		</script>
@@ -58,6 +58,8 @@
 			TActivate( "trCaravanToVill15sec" )
 			TActivate( "trCaravanToVill1INPLACE" )
 			TActivate( "trCaravanLength" )
+			TakeQuest("d_CaravanFromTuzzToVillage_Quest")
+			TDeactivate("triggerExitToMap13")
 
 			trigger:Deactivate()
 		</script>
@@ -199,6 +201,7 @@
 
 			TDeactivate( "trCaravanDIE" )
 			TDeactivate( "trCaravanLength" )
+			TActivate("triggerExitToMap13")
 
 			trigger:Deactivate()
 		</script>
@@ -257,7 +260,7 @@
 				Plf:SetExternalPathByName("player_path01")
 				Plf:SetCustomControlEnabled( false )
 
-				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ))
+				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ), 1015)
 
 				local vehNezn = GetEntityByName("vehNezn")
 				local vehNeznID = vehNezn:GetId()
@@ -306,7 +309,7 @@
 				Plf:SetExternalPathByName("player_path01")
 				Plf:SetCustomControlEnabled( false )
 
-				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ))
+				CreateVehicleEx("r2m1_Bug1","vehNezn",( CVector(7620.150, 279.045, 4857.137) ), 1015)
 
 				local vehNezn = GetEntityByName("vehNezn")
 				local vehNeznID = vehNezn:GetId()
@@ -350,9 +353,9 @@
 
 
 	<trigger Name="Start000" active="1">
-		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			if IsQuestTaken("r2m2_FindSNGKaravan") and not( IsQuestComplete("r2m2_FindSNGKaravan"))  then
+			if IsQuestTaken("r2m2_GoToLibrium") and not( IsQuestComplete("r2m2_GoToLibrium"))  then
 				SetTolerance( 1100, 1016, RS_ENEMY )
 
 				local r1 = random(2)
@@ -365,6 +368,8 @@
 				}
 				
 				TeamCreate("KaravanSNGTill", 1016, RandCoord1[r1], {"r2m1_scout01","r2m1_Molokovoz01","r2m1_scout02"}, RandCoord2[r2], 1)
+
+				CompleteQuest("r2m2_GoToLibrium")
 
 				TActivate ("KARAVANSNGDIE")
 
@@ -495,6 +500,7 @@
 
 			TActivate( "HELPHELPHELP_ce" )
 
+			CompleteQuest("d_HelpSideVillageSNG_Quest1")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -544,7 +550,7 @@
 
 			TActivate( "RAZBOYINVILLAGEDEAD_ce" )
 
-			CompleteQuest( "d_HelpSideVillageSNG_Quest" )
+			CompleteQuest( "d_HelpSideVillageSNG_Quest2" )
 
 			trigger:Deactivate()
 		</script>
@@ -618,6 +624,8 @@
 
 			SetCameraBehindPlayerVehicle()
 
+			CompleteQuest("d_FreeTunel_Quest1")
+
 			trigger:Deactivate() 
 		</script>
 	</trigger>
@@ -646,7 +654,7 @@
 
 			TActivate ("TUNELFIGHTERDEAD_ce")
 
-			CompleteQuest( "d_FreeTunel_Quest" )
+			CompleteQuest( "d_FreeTunel_Quest2" )
 
 			trigger:Deactivate()
 		</script>
@@ -688,6 +696,8 @@
 			TActivate ("TAKEBOSSARDEAD")
 			TActivate ("RolikBegin_TAKEBOSSARLOC")
 
+			CompleteQuest("d_TakeGeneralOfBandits_Quest1")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -715,7 +725,7 @@
 
 			TActivate( "TAKEBOSSARDEAD_ce" )
 
-			CompleteQuest( "d_TakeGeneralOfBandits_Quest" )
+			CompleteQuest( "d_TakeGeneralOfBandits_Quest2" )
 			CompleteQuest( "d_FindAksel_Quest" )
 
 			trigger:Deactivate()
@@ -745,6 +755,7 @@
 		<script>
 			if  IsQuestTaken("d_FindLisaInGelvetcia_Quest") and not(IsQuestComplete("d_FindLisaInGelvetcia_Quest") or IsQuestFailed("d_FindLisaInGelvetcia_Quest"))  then
 				TActivate( "RolikBegin_Lisa" )
+				TDeactivate("triggerExitToMap13")
 
 				trigger:Deactivate()
 			end
@@ -755,6 +766,7 @@
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="LisaInCar_vehicle_0" />
 		<script>
 			TActivate("RolikBegin_LISADIED")
+			TActivate("triggerExitToMap13")
 
 			AddHistory( "r2_Lisa_After_Axel_02" )
 			AddHistory( "r2_With_Lisa_To_Oracul_01" )
@@ -854,6 +866,8 @@
 
 			TActivate("Trigger_Antipod_Die")
 
+			TakeQuest("r2m1_ArtGulik_Quest")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -861,6 +875,35 @@
 	<trigger Name="Trigger_Antipod_Die" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="GulikCar" />
 		<script>
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+			Plf:SetCustomLinearVelocity(0)
+			Plf:SetThrottle(0)
+			FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+			AddCinematicMessage(70, 1)
+
+			TActivate("Trigger_Antipod_Die_End")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Trigger_Antipod_Die_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			
+			SetCameraBehindPlayerVehicle()
+
 			CompleteQuest( "r2m1_ArtGulik_Quest" )
 
 			AddQuestItem("quest_art_masterpice")
@@ -868,8 +911,6 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
-
 
 
 
@@ -890,6 +931,8 @@
 			end
 
 			TActivate("Trigger_NarcotikCaravan_Die")
+
+			TakeQuest("r2m1_TakeNarcotics_Quest")
 
 			trigger:Deactivate()
 		</script>
@@ -916,6 +959,8 @@
 			TeamCreate("BossNarcotikCar",1002,CVector(4153,245,6402),{"r2m1_HunterNarcBoss"}, nil, 1)
 
 			TActivate("Trigger_NarcotikBoss_Die")
+
+			TakeQuest("r2m1_KillGodFather_Quest")
 
 			trigger:Deactivate()
 		</script>
@@ -946,7 +991,7 @@
 			PlfCoor.y = PlfCoor.y + 25*0.74
 			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			if IsQuestTaken("d_FindVerbInAR_Quest") then 
+			if IsQuestTaken("d_FindVerbInAR_Quest") and QuestStatus("d_CaravanFromTuzzToVillage_Quest")~=Q_TAKEN and QuestStatus("d_WinLisaInBattle_Quest")~=Q_TAKEN then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
 					PassToMap("r2m2", "FromR2M1", -1 )
@@ -964,7 +1009,7 @@
 
 				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
 				StartCinematic()
-				AddCinematicMessage( 8802, 0.5 )
+--				AddCinematicMessage( 8802, 0.5 )
 
 				TActivate ("RolikExitToMap22")
 				TActivate ("RolikENDExitToMap22")
@@ -1016,7 +1061,7 @@
 			PlfCoor.y = PlfCoor.y + 25*0.74
 			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			if IsQuestTaken("d_GetAkselBandit_Quest") then 
+			if IsQuestTaken("d_GetAkselBandit_Quest") and QuestStatus("d_WinLisaInBattle_Quest")~=Q_TAKEN then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
 					PassToMap("r2m2", "FromR2M1small", -1 )
@@ -1034,7 +1079,9 @@
 
 				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
 				StartCinematic()
-				AddCinematicMessage( 8803, 0.5 )
+				if not(IsQuestTaken("d_GetAkselBandit_Quest")) then
+					AddCinematicMessage( 8803, 0.5 )
+				end
 
 				TActivate ("RolikExitToMap22small")
 				TActivate ("RolikENDExitToMap22small")
@@ -1147,7 +1194,7 @@
 
 			local b = SpawnMessageBox( "8801" )
 			if b == 1 then
-				PassToMap("r3m1", "FromR2M1", -1 )
+				PassToMap("r3m1", "FromR2M1", -50 )
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
 

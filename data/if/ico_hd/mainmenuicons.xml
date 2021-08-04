@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<icons>
+<!-- Опции, подсветка для "полосатой" таблицы назначения клавиш -->
+	<Item id="BindKeysLineBg"		file="data\if\ico\OptionsWnd\list_hl.tga"	file1=""/>
+
+<!-- Экран титров -->
+	<Item id="CreditsBg"			file="data\if\ico_hd\CreditsWnd\Plan_svet.dds"	file1="data\if\ico_hd\CreditsWnd\Plan_temn.dds"/>	
+	<Item id="CreditsPointer"		file="data\if\ico\CreditsWnd\strelka.dds"	file1=""/>	
+
+<!-- Текструра градиентного круга для локальной карты - здесь, т.к. инициализируется в конструкторе VisibilityMap -->
+	<Item id="VisibilityCircle"		file="data\if\ico\LocalMap\lens17.dds"		file1=""/>
+
+<!-- Окно загрузки/сохранения -->
+	<Item id="SortArrow"			file="data\if\ico\LoadSave\sort_inc.dds"	file1="data\if\ico\LoadSave\sort_dec.dds"/>
+</icons>

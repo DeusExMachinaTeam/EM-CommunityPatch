@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu credits menu background, text windows and character portraits -->
+<!-- Related to credits.xml which is displayed inside text window -->
+<Prefabs>
+	<Node
+		name="wndCredits"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico_hd\CreditsWnd\Plan_temn.dds"
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="wndText"
+			class="Wnd"
+			org="695.000 142.000 1010.000 470.000"
+			style="3904"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff000000">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndPortrait"
+			class="ModelWnd"
+			org="60.000 768.000 375.000 259.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image=""
+			ModelRotation="0.0000 0.0000 0.0000 1.0000"
+			ModelTranslation="0.000 -0.700 1.500"
+			ModelScale="1.600 1.600 1.600">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

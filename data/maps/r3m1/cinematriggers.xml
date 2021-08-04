@@ -20,7 +20,7 @@
 
 		CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(3500.806, 248.391, 1500.019), Quaternion(0, 0, 0, 0), 0)
 
-		CreateVehicleEx("Revolutioner1","Protection01",( CVector(3494.294, 250.661, 1438.581) ))
+		CreateVehicleEx("Revolutioner1","Protection01",( CVector(3494.294, 250.661, 1438.581) ), 1019)
 
 		local CToch = GetEntityByName("CamTochka")
 		local CTochID = CToch:GetId()
@@ -43,7 +43,7 @@
 	<trigger Name="trPostFist_cam01" active="0">
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
-		CreateVehicleEx("Revolutioner1","Protection02",( CVector(3444.530, 255.166, 1488.398) ))
+			CreateVehicleEx("Revolutioner1","Protection02",( CVector(3444.530, 255.166, 1488.398) ), 1019)
 		local vehProtect01 = GetEntityByName("Protection01")
 		local vehProtect02 = GetEntityByName("Protection02")
 		local vehPlayer = GetPlayerVehicle()
@@ -139,13 +139,13 @@
 		TActivate("trAmbushDruid_cam05")
 		TActivate("trAmbushDruid_cam06")
 
-			Fly("AmbushDruid_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
-			Fly("AmbushDruid_cam02", CINEMATIC_NO_AIM, 0, 12, 0, 0 )
-			Fly("AmbushDruid_cam03", CINEMATIC_NO_AIM, 0, 12, 0, 0 )
-			Fly("AmbushDruid_cam04", CINEMATIC_NO_AIM, 0, 12, 0, 0 )
-			Fly("AmbushDruid_cam05", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
-			Fly("AmbushDruid_cam06", CINEMATIC_NO_AIM, 0, 10, 0, 1 )
-			StartCinematic()
+		Fly("AmbushDruid_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
+		Fly("AmbushDruid_cam02", CINEMATIC_NO_AIM, 0, 12, 0, 0 )
+		Fly("AmbushDruid_cam03", CINEMATIC_NO_AIM, 0, 12, 0, 0 )
+		Fly("AmbushDruid_cam04", CINEMATIC_NO_AIM, 0, 12, 0, 0 )
+		Fly("AmbushDruid_cam05", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
+		Fly("AmbushDruid_cam06", CINEMATIC_NO_AIM, 0, 10, 0, 1 )
+		StartCinematic()
 
 		local druid = getObj("MainDruidTeam")
 		if druid then
@@ -161,12 +161,12 @@
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-		local vehTraitor01 = CreateVehicleEx("Hunter02","UlukAmbGuard01",( CVector(1718.121, 288.301, 1495.965) ))
-		local vehTraitor02 = CreateVehicleEx("Hunter01","UlukAmbGuard02",( CVector(1680.786, 288.568, 1391.212) ))
-		local vehTraitor03 = CreateVehicleEx("Fighter02","UlukAmbGuard03",( CVector(1694.200, 287.604, 1374.268) ))
-		local vehTraitor04 = CreateVehicleEx("Fighter01","UlukAmbGuard04",( CVector(1807.631, 288.525, 1407.578) ))
-		local vehTraitor05 = CreateVehicleEx("Molokovoz01","UlukAmbGuard05",( CVector(1803.959, 288.069, 1423.401) ))
-		local vehDruid = CreateVehicleEx("Hunter02","vehDruid",( CVector(1993.072, 295.392, 1463.305) ))
+		local vehTraitor01 = CreateVehicleEx("Hunter02","UlukAmbGuard01",( CVector(1718.121, 288.301, 1495.965) ), 1020)
+		local vehTraitor02 = CreateVehicleEx("Hunter01","UlukAmbGuard02",( CVector(1680.786, 288.568, 1391.212) ), 1020)
+		local vehTraitor03 = CreateVehicleEx("Fighter02","UlukAmbGuard03",( CVector(1694.200, 287.604, 1374.268) ), 1020)
+		local vehTraitor04 = CreateVehicleEx("Fighter01","UlukAmbGuard04",( CVector(1807.631, 288.525, 1407.578) ), 1020)
+		local vehTraitor05 = CreateVehicleEx("Molokovoz01","UlukAmbGuard05",( CVector(1803.959, 288.069, 1423.401) ), 1020)
+		local vehDruid = CreateVehicleEx("Hunter02","vehDruid",( CVector(1993.072, 295.392, 1463.305) ), 1019)
 
 		if vehTraitor01 then 
 			vehTraitor01:SetRotation(Quaternion(0.000, 0.980, 0.000, 0.197))
@@ -193,6 +193,7 @@
 			vehDruid:SetThrottle( 1 )             
 			vehDruid:SetCustomLinearVelocity( 10 )
 			vehDruid:SetExternalPathByName("vehDruid_path01")
+			vehDruid:setImmortalMode(1)
 		end
 
 		trigger:Deactivate()
@@ -360,6 +361,7 @@
 		if  vehTraitor05 then vehTraitor05:Remove() end
 		if  vehDruid then 
 			vehDruid:SetGamePositionOnGround( CVector(1762.052, 300, 1431.070))
+			vehDruid:setImmortalMode(0)
 			vehDruid:AddModifier("hp", "= 0")
 		end
 
@@ -390,7 +392,7 @@
 			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
 
 			PlayCustomMusic("Techno01")
-			if QuestStatus("r3m1_ClearSanctuary_KillMonster")==Q_TAKEN then
+			if QuestStatus("r3m1_ClearSanctuary_GotoSanctuary")==Q_TAKEN then
 				Fly("LoggersMech_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 1 )
 			else
 				Fly("LoggersMech_cam02", CINEMATIC_NO_AIM, 0, 9, 1, 1 )
@@ -407,13 +409,13 @@
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-			if QuestStatus("r3m1_ClearSanctuary_KillMonster")==Q_TAKEN then
+			if QuestStatus("r3m1_ClearSanctuary_GotoSanctuary")==Q_TAKEN then
 				local rbteam = TeamCreate("TeamLoggers",1022,CVector(2828.247, 326.091, 2871.083),{"RobotBobot02", "RobotBobot02", "RobotBobot01"})
 				if rbteam then
 					rbteam:GetVehicle(0):AddItemsToRepository("fuel", 3)
-					rbteam:GetVehicle(0):AddItemsToRepository("scrap_metal", 20)
+					rbteam:GetVehicle(0):AddItemsToRepository("scrap_metal", 3)
 					rbteam:GetVehicle(1):AddItemsToRepository("fuel", 3)
-					rbteam:GetVehicle(1):AddItemsToRepository("scrap_metal", 20)
+					rbteam:GetVehicle(1):AddItemsToRepository("scrap_metal", 3)
 					for i=1,3 do
 						setPos(rbteam:GetVehicle(i-1), CVector(getPos("StoneRobot"..i.."_loc")))
 					end
@@ -427,8 +429,12 @@
 					rbtm:GetVehicle(0):AddItemsToRepository("add_torque_and_stability", 1)
 					rbtm:GetVehicle(0):SetGamePositionOnGround( CVector (3049.747, 306.141, 2850.620) )
 					rbtm:GetVehicle(0):SetRotation(Quaternion(-0.000, 0.944, 0.000, -0.331))
+					rbtm:GetVehicle(0):AddModifier("maxhp", "= 2500")
+					rbtm:GetVehicle(0):AddModifier("hp", "= 2500")
 					rbtm:GetVehicle(1):SetGamePositionOnGround( CVector(3042.293, 306.145, 2858.027) )
 					rbtm:GetVehicle(1):SetRotation(Quaternion(-0.000, -0.937, -0.000, 0.350))
+					rbtm:GetVehicle(1):AddModifier("maxhp", "= 2500")
+					rbtm:GetVehicle(1):AddModifier("hp", "= 2500")
 					AddVehicleGunsWithRandomAffix( rbtm:GetVehicle(1), "octopus01",  3, 8+random(2))
 					AddVehicleGunsWithRandomAffix( rbtm:GetVehicle(0), "elephant01", 3, 8+random(2))
 				end
@@ -455,8 +461,9 @@
 		    RestoreAllToleranceStatus()
 			StopPlayingCustomMusic()
 
-			if QuestStatus("r3m1_ClearSanctuary_KillMonster")==Q_TAKEN then
+			if QuestStatus("r3m1_ClearSanctuary_GotoSanctuary")==Q_TAKEN then
 				TActivate("trLoggersDie")
+				CompleteQuest("r3m1_ClearSanctuary_GotoSanctuary")
 --				TDeactivate("trLoggersMech_cam01")
 			end
 
@@ -630,8 +637,8 @@
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-		CreateVehicleEx("Bug01","vehUlukArmy01",CVector(1338.213, 271.588, 868.520), 1020)
-		CreateVehicleEx("Ural01","vehUlukArmy02",CVector(1329.951, 270.648, 871.197), 1020)
+		CreateVehicleEx("Bug01","vehUlukArmy01", CVector(1338.213, 271.588, 868.520), 1020 )
+		CreateVehicleEx("Ural01","vehUlukArmy02", CVector(1329.951, 270.648, 871.197), 1020 )
 
 		local vehUlukArmy01 = GetEntityByName("vehUlukArmy01")
 		local vehUlukArmy02 = GetEntityByName("vehUlukArmy02")
@@ -889,7 +896,7 @@
 		</script>
 	</trigger>
 
-<!-- 			Ролик приплытия подводной лодки			 -->
+<!-- 			Ролик когда уплываем в r1m4			 -->
 
 
 	<trigger Name="RolikBegin_ToComeSubmarine" active="0">
@@ -919,7 +926,7 @@
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 
-			CreateNewDummyObject( "submarina",	"Subm", -1, -1, CVector(4035.027, 200.270, 1620.457), Quaternion(-0.144, -0.057, -0.008, 0.988),0 )
+			CreateNewDummyObject( "submarina",	"Subm", -1, -1, CVector(4010.692, 190.000, 1890.384), Quaternion(-0.006, -0.592, -0.001, 0.806),0 )
 
 			local moverId = CreateNewObject { prototypeName	= "cinematicMover", objName  = "" }
 			local mover = GetEntityByID( moverId ) 
@@ -944,6 +951,7 @@
 			vehPlayer:SetCustomLinearVelocity( 0 )
 		end
 
+		getObj("Subm"):SetPosition( CVector(4010.692, 245.000, 1890.384))
 		getObj("Subm"):SetNodeAction(AT_STAND2)
 
 		trigger:Deactivate()
@@ -980,14 +988,14 @@
 
 			TDeactivate("trToGoInSet_cam01")
 
-			PassToMap("r1m4", "FromR3M1", 0 , 1)
+			PassToMap("r1m4", "FromR3M1", -90 , 1)
 			
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
 
-<!-- 					Ролик отплытия субмарины				 -->
+<!-- 					Ролик когда приплыли из r1m4				 -->
 
 
 
@@ -1101,6 +1109,7 @@
 		TActivate("trMoveFromR2M1_cam04")
 		TActivate("trMoveFromR2M1_cam05")
 		TActivate("trMoveFromR2M1_cam06")
+		TActivate("trMoveFromR2M1_anim01")
 
 		Fly("MoveFromR2M1_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
 		Fly("MoveFromR2M1_cam02", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
@@ -1123,7 +1132,7 @@
 			local lcar = getObj("LisaInCar")
 			if lcar then lcar:Remove() end
 			
-			local vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(837.450, 290.463, 953.718) ))
+			local vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(837.450, 290.463, 953.718) ), 1042)
 
 --			local vehLisa = GetEntityByName("vehLisa_0")
 			local vehPlayer = GetPlayerVehicle()
@@ -1171,7 +1180,7 @@
 		getObj("humLisa"):SetNodeAction(AT_STAND1)
 		getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
-		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 
 			AddCinematicMessage( 1020, 1 )
 
@@ -1184,9 +1193,9 @@
 		<script>
 
 		getObj("humPlayer"):SetNodeAction(AT_STAND1)
-		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND2)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 		getObj("humLisa"):SetNodeAction(AT_STAND2)
-		getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2)
+		getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 		AddCinematicMessage( 1021, 0.25)
 
@@ -1200,7 +1209,9 @@
 		<script>
 
 		getObj("humLisa"):SetNodeAction(AT_STAND1)
+		getObj("humLisa"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 
 		AddCinematicMessage( 1022, 0.25)
 		AddCinematicMessage( 1023, 0.25)
@@ -1209,6 +1220,17 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trMoveFromR2M1_anim01" active="0">
+		<event msgid="1023" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+			getObj("humLisa"):SetNodeAction(AT_STAND2)
+			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
 	<trigger Name="trMoveFromR2M1_cam05" active="0">
 		<event flypath="MoveFromR2M1_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
@@ -1216,7 +1238,7 @@
 		getObj("humPlayer"):SetNodeAction(AT_STAND1)
 		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
 		getObj("humLisa"):SetNodeAction(AT_STAND2)
-		getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2)
+		getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 		AddCinematicMessage( 1024, 0.25)
 
@@ -1238,8 +1260,8 @@
 			vehLisa:SetCustomLinearVelocity(5)
 			vehLisa:SetExternalPathByName("Lisa_path02")
 		end
-		getObj("humPlayer"):SetNodeAction(AT_STAND1)
-		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND2, AT_STAND1)
+		getObj("humPlayer"):SetNodeAction(AT_STAND2)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			trigger:Deactivate()
 		</script>
@@ -1279,14 +1301,13 @@
 		TDeactivate("trMoveFromR2M1_cam04")
 		TDeactivate("trMoveFromR2M1_cam05")
 		TDeactivate("trMoveFromR2M1_cam06")
+		TDeactivate("trMoveFromR2M1_anim01")
 
 		TActivate("trExitFromMap21")
 		StopPlayingCustomMusic()
 		SetCameraBehindPlayerVehicle()
 		RestoreAllToleranceStatus()
-
-		TActivate("trAutoSave")
-
+		
 		trigger:Deactivate()
 		</script>
 	</trigger>
