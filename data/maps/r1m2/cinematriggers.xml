@@ -85,6 +85,8 @@
 
 			TeamCreate("LisaInBanditDen",1002,CVector(5476,49,4567),{"r1m2_bug04","r1m1_sml03"})
 
+			CompleteQuest("d_FindLisaInBandit_Quest")
+
 			TActivate("PLENLISADIE")
 
 			SetCameraBehindPlayerVehicle()
@@ -452,6 +454,8 @@
 
 			TeamCreate("Gladiator1",1002,CVector(7244.941, 156, 3477.613),{"r1m1_bug02"},CVector(7117, 156, 3758))
 
+			CompleteQuest("CombatInKollizey_Quest1")
+
 			TDeactivate("trKol1_cam02")
 
 			TActivate("KOLIZEYFIGHTDIE1")
@@ -565,6 +569,8 @@
 			end
 
 			TeamCreate("Gladiator2",1002,CVector(7189, 164, 3567),{"Gladiator02"},CVector(7117, 156, 3758))
+
+			CompleteQuest("r1m2_GoToArena_Quest")
 
 			CreateNewDummyObject( "rotund", "ZABOR", -1, -1, CVector(7084, 155, 3942), Quaternion(0.0037,0.9063,0.0079,0.4226), 0)
 
