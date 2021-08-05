@@ -1464,7 +1464,7 @@
 
 		<quest
 			Name="FreeExtremistLeader_Quest3_1"
-			Automatic="1"
+			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
