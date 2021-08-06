@@ -1,5 +1,5 @@
 /**
- *  Custom Diffuse + Specular + AO shader
+ *  Custom Diffuse + AO shader
  *
  *  Meta:
  *    Author: Alexander Fateev
@@ -7,7 +7,7 @@
  *    License: Attribution-NonCommercial-ShareAlike 4.0 International
  *
  * !!DataSpecification:
- *    ShaderName: SpecularAO
+ *    ShaderName: DiffuseAO
  *    VertexType: XYZNT2
  *    UVChannels: 2
  *    Requires:
@@ -16,29 +16,18 @@
  *    Textures:
  *      Diffuse:
  *        Color: RGB
- *        Specular: A
+ *        Transparency: A
  *      Lightmap:
  *        # Required value "lobbycube.dds"
  *        AO: R
  **/
 
-#define SPECULAR 1
+#define ENABLE_AMBIENT
+#define ENABLE_SPECULAR
+#include "template.fx"
 
-shared const float4 g_Ambient:     LIGHT_AMBIENT  = {0.2f, 0.2f, 0.2f, 1.0f};
-shared const float4 g_Diffuse:     LIGHT_DIFFUSE  = {1.0f, 1.0f, 1.0f, 1.0f};
-shared const float3 g_Specular:    LIGHT_SPECULAR = {1.0f, 1.0f, 1.0f};
-shared const float2 g_FogTerm:     FOG_TERM       = {1.0f, 800.0f};
-shared const float  g_Transparent: TRANSPARENCY   = 1.0f;
-
-#include "lib.fx"
-#include "tlib.fx"
-#include "lightmodel.fx"
-
-texture DiffuseTexture: DIFFUSE_MAP_0;
-DECLARE_DIFFUSE_SAMPLER(DiffuseSampler, DiffuseTexture)
-
-texture LightmapTexture: LIGHT_MAP_0;
-DECLARE_DIFFUSE_SAMPLER(LightmapSampler, LightmapTexture)
+DeclareTexture2D(DIFFUSE_MAP_0, DiffuseTexture, DiffuseSampler, Wrap)
+DeclareTexture2D(LIGHT_MAP_0, LightmapTexture, LightmapSampler, Wrap)
 
 float4 ViewPosition: VIEW_POS<int Space = SPACE_OBJECT;>;
 float3 LightDirection: TMP_LIGHT0_DIR<int Space = SPACE_OBJECT;>;
@@ -60,7 +49,7 @@ struct VS_OUTPUT {
     float  Fog           : FOG;
 };
 
-VS_OUTPUT VertexSpecularAO(VS_INPUT input) {
+VS_OUTPUT VertexDiffuseSpecularAO(VS_INPUT input) {
     VS_OUTPUT output = (VS_OUTPUT) 0;
 
     output.FinalPosition = mul(float4(input.Position, 1.0f), FinalMatrix);;
@@ -68,37 +57,36 @@ VS_OUTPUT VertexSpecularAO(VS_INPUT input) {
     output.UVMap1        = input.UVMap1;
     output.Normal        = input.Normal;
     output.ViewDirection = normalize(ViewPosition - input.Position);
-    output.Fog           = CalcFog(output.FinalPosition, g_FogTerm);
+    output.Fog           = fog(output.FinalPosition, g_FogTerm);
     return output;
 }
 
-float4 FragmentSpecularAO(VS_OUTPUT input) : COLOR {
+float4 FragmentDiffuseSpecularAO(VS_OUTPUT input) : COLOR {
 
-    float4 Lightmap = tex2D(LightmapSampler, input.UVMap0);
-    float4 Diffuse  = tex2D(DiffuseSampler, input.UVMap1);
-    float  Specular = pow(Diffuse.a, 2);
+    float4 Lightmap = tex2D(LightmapSampler, input.UVMap1);
+    float4 Diffuse  = tex2D(DiffuseSampler, input.UVMap0);
 
-    return DSPMaterial(
+    return diffuse(
         input.ViewDirection,
         LightDirection,
         Diffuse.rgb,
         float3(0, 0, 0),
         input.Normal,
         float3(0, 0, 0),
-        Specular,
         1,
+        Diffuse.a,
         pow(Lightmap.r, 1.25),
         0
     );
 };
 
-technique SpecularAO <bool ComputeTangentSpace = true;
+technique DiffuseSpecularAO <bool ComputeTangentSpace = true;
                            string VertexFormat = "VERTEX_XYZNT2";
                            bool   Default = true;
                            bool   IsPs20 = true;
                            bool   UseAlpha = false;> {
     pass Default {
-        VertexShader = compile vs_2_0 VertexSpecularAO();
-        PixelShader  = compile ps_2_0 FragmentSpecularAO();
+        VertexShader = compile vs_2_0 VertexDiffuseSpecularAO();
+        PixelShader  = compile ps_2_0 FragmentDiffuseSpecularAO();
     }
 }

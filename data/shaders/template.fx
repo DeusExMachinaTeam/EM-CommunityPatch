@@ -110,10 +110,6 @@ float4 diffuse(float3 dir_view,
 
     float3 color = Color;
 
-    #ifdef ENABLE_AMBIENT
-    light *= Ambient;
-    #endif
-
     #ifdef ENABLE_REFLECTION
     color = lerp(color, Cubemap, Reflection);
     #endif
@@ -123,6 +119,10 @@ float4 diffuse(float3 dir_view,
     #ifdef ENABLE_SPECULAR
     float3 specular = pow(max(0, RdotV) * luminance * Specular, SPECULAR_POWER) * g_Specular.rgb;
     color += specular;
+    #endif
+
+    #ifdef ENABLE_AMBIENT
+    color *= Ambient;
     #endif
 
     #ifdef ENABLE_EMMISION
