@@ -55,19 +55,19 @@
    <Item id="mirotvorecCargo05"	file="data\if\ico\InventoryDlg\mirotvorec\mirotvorecCargo05.dds" file1=""/>
 
 
-   <Item id="potato"			      file="data\if\ico\InventoryDlg\goods\potatoe.dds" 	file1="data\if\ico\InventoryDlg\goods\potatoe.dds"/>
-   <Item id="firewood"		      file="data\if\ico\InventoryDlg\goods\trees.dds" 	file1="data\if\ico\InventoryDlg\goods\trees.dds"/>
-   <Item id="scrap_metal"	      file="data\if\ico\InventoryDlg\goods\lom.dds" 		file1="data\if\ico\InventoryDlg\goods\lom.dds"/>
-   <Item id="oil"				      file="data\if\ico\InventoryDlg\goods\oil.dds" 		file1="data\if\ico\InventoryDlg\goods\oil.dds"/>
-   <!-- <Item id="gear"			      file="data\if\ico\InventoryDlg\goods\details.dds" 	file1="data\if\ico\InventoryDlg\goods\details.dds"/> -->
-   <Item id="bottle"			      file="data\if\ico\InventoryDlg\goods\bottles.dds" 	file1="data\if\ico\InventoryDlg\goods\bottles.dds"/>
-   <Item id="fuel"			      file="data\if\ico\InventoryDlg\goods\kanistra.dds" file1="data\if\ico\InventoryDlg\goods\kanistra.dds"/>
-   <Item id="fibreboard"		   file="data\if\ico\InventoryDlg\goods\doski.dds" 	file1="data\if\ico\InventoryDlg\goods\doski.dds"/>
-   <Item id="machinery"			   file="data\if\ico\InventoryDlg\goods\rabochee_oborudovanie.dds" 	file1="data\if\ico\InventoryDlg\goods\rabochee_oborudovanie.dds"/>
-   <Item id="tobacco"			   file="data\if\ico\InventoryDlg\goods\tobacco.dds" 	file1="data\if\ico\InventoryDlg\goods\tobacco.dds"/>
-   <Item id="book"			      file="data\if\ico\InventoryDlg\goods\books.dds"		file1="data\if\ico\InventoryDlg\goods\books.dds"/>
-   <!-- <Item id="ostrich_feather"	   file="data\if\ico\InventoryDlg\goods\shkatylka.dds" file1="data\if\ico\InventoryDlg\goods\shkatylka.dds"/> -->
-   <Item id="electronics"		   file="data\if\ico\InventoryDlg\goods\mikro.dds" 	file1="data\if\ico\InventoryDlg\goods\mikro.dds"/>
+   <Item id="potato"			      file="data\if\ico_hd\InventoryDlg\goods\potatoe.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\potatoe.dds"/>
+   <Item id="firewood"		      file="data\if\ico_hd\InventoryDlg\goods\trees.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\trees.dds"/>
+   <Item id="scrap_metal"	      file="data\if\ico_hd\InventoryDlg\goods\lom.dds" 		file1="data\if\ico_hd\InventoryDlg\goods\lom.dds"/>
+   <Item id="oil"				      file="data\if\ico_hd\InventoryDlg\goods\oil.dds" 		file1="data\if\ico_hd\InventoryDlg\goods\oil.dds"/>
+   <!-- <Item id="gear"			      file="data\if\ico_hd\InventoryDlg\goods\details.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\details.dds"/> -->
+   <Item id="bottle"			      file="data\if\ico_hd\InventoryDlg\goods\bottles.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\bottles.dds"/>
+   <Item id="fuel"			      file="data\if\ico_hd\InventoryDlg\goods\kanistra.dds" file1="data\if\ico_hd\InventoryDlg\goods\kanistra.dds"/>
+   <!-- <Item id="fibreboard"		   file="data\if\ico_hd\InventoryDlg\goods\doski.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\doski.dds"/> -->
+   <Item id="machinery"			   file="data\if\ico_hd\InventoryDlg\goods\rabochee_oborudovanie.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\rabochee_oborudovanie.dds"/>
+   <Item id="tobacco"			   file="data\if\ico_hd\InventoryDlg\goods\tobacco.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\tobacco.dds"/>
+   <Item id="book"			      file="data\if\ico_hd\InventoryDlg\goods\books.dds"		file1="data\if\ico_hd\InventoryDlg\goods\books.dds"/>
+   <!-- <Item id="ostrich_feather"	   file="data\if\ico_hd\InventoryDlg\goods\shkatylka.dds" file1="data\if\ico_hd\InventoryDlg\goods\shkatylka.dds"/> -->
+   <Item id="electronics"		   file="data\if\ico_hd\InventoryDlg\goods\mikro.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\mikro.dds"/>
    <!-- <Item id="human"			      file="data\if\ico\InventoryDlg\Opacity.dds" 			file1="data\if\ico\InventoryDlg\Opacity.dds"/> -->
    <!-- <Item id="packet"			      file="data\if\ico\InventoryDlg\Opacity.dds" 			file1="data\if\ico\InventoryDlg\Opacity.dds"/> -->
    <!-- <Item id="explosive"			   file="data\if\ico\InventoryDlg\Opacity.dds" 			file1="data\if\ico\InventoryDlg\Opacity.dds"/> -->
@@ -80,99 +80,100 @@
    <!-- <Item id="magic_thing2"		   file="data\if\ico\InventoryDlg\magicthing2.dds"    file1=""/> -->
    <!-- <Item id="explosion_stone"	   file="data\if\ico\InventoryDlg\exp_stone.dds"      file1=""/> -->
 
-
+   <!-- Giant -->
+   <Item id="dragon01"			   file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		   file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
+   <Item id="hammer01"			   file="data\if\ico_hd\InventoryDlg\weapon\hammer01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\hammer01_min.dds"/>
    <Item id="cyclops01"			   file="data\if\ico_hd\InventoryDlg\weapon\Cyclops.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Cyclops_min.dds"/>
+   <Item id="octopus01"		      file="data\if\ico_hd\InventoryDlg\weapon\Octopus.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Octopus_min.dds"/>
+   <Item id="big_swingfire01"	   file="data\if\ico_hd\InventoryDlg\weapon\swingfire.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\swingfire_min.dds"/>
+
+   <Item id="rocketLauncher"		file="data\if\ico_hd\InventoryDlg\weapon\dragon.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\dragon_min.dds"/>
+
+   <!-- Big -->
    <Item id="storm01"			   file="data\if\ico_hd\InventoryDlg\weapon\Storm.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Storm_min.dds"/>
    <Item id="vulcan01"			   file="data\if\ico_hd\InventoryDlg\weapon\Vulcan.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Vulcan_min.dds"/>
    <Item id="flag01"			      file="data\if\ico_hd\InventoryDlg\weapon\Flag.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\Flag_min.dds"/>
    <Item id="rainmetal01"		   file="data\if\ico_hd\InventoryDlg\weapon\Rainmetal.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Rainmetal_min.dds"/>
+   <Item id="rapier01"			   file="data\if\ico_hd\InventoryDlg\weapon\Rapier.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Rapier_min.dds"/>
+   <Item id="kpvt01"			      file="data\if\ico_hd\InventoryDlg\weapon\kpvt01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\kpvt01_min.dds"/>
+   <Item id="elephant01"	      file="data\if\ico_hd\InventoryDlg\weapon\elephant01.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\elephant01_min.dds"/>
+   <Item id="hurricane01"	      file="data\if\ico_hd\InventoryDlg\weapon\hurricane01.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hurricane01_min.dds"/>
+   <Item id="odin01"			      file="data\if\ico_hd\InventoryDlg\weapon\odin01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\odin01_min.dds"/>
+   <Item id="bumblebee01"	      file="data\if\ico_hd\InventoryDlg\weapon\Bumblebee.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Bumblebee_min.dds"/>
+   <Item id="omega01"		      file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
 
+   <!-- Small -->
    <Item id="hornet01"			   file="data\if\ico_hd\InventoryDlg\weapon\Hornet.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Hornet_min.dds"/>
    <Item id="specter01"			   file="data\if\ico_hd\InventoryDlg\weapon\Specter.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Specter_min.dds"/>
    <Item id="pkt01"			      file="data\if\ico_hd\InventoryDlg\weapon\Pkt.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\Pkt_min.dds"/>
    <Item id="kord01"			      file="data\if\ico_hd\InventoryDlg\weapon\Kord.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\Kord_min.dds"/>
    <Item id="vector01"			   file="data\if\ico_hd\InventoryDlg\weapon\vector01.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\vector01_min.dds"/>
    <Item id="maxim01"			   file="data\if\ico_hd\InventoryDlg\weapon\maxim01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\maxim01_min.dds"/>
-   <Item id="rapier01"			   file="data\if\ico_hd\InventoryDlg\weapon\Rapier.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Rapier_min.dds"/>
    <Item id="fagot01"			   file="data\if\ico_hd\InventoryDlg\weapon\fagot01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\fagot01_min.dds"/>
 
-   <Item id="kpvt01"			      file="data\if\ico_hd\InventoryDlg\weapon\kpvt01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\kpvt01_min.dds"/>
-   <Item id="octopus01"		      file="data\if\ico_hd\InventoryDlg\weapon\Octopus.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Octopus_min.dds"/>
-   <!-- <Item id="d1701"			      file="data\if\ico\InventoryDlg\weapon\01.dds"			file1="data\if\ico\InventoryDlg\weapon\01.dds"/> -->
-   <Item id="elephant01"	      file="data\if\ico_hd\InventoryDlg\weapon\elephant01.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\elephant01_min.dds"/>
-   <!-- <Item id="javelin01"		      file="data\if\ico\InventoryDlg\weapon\01.dds"			file1="data\if\ico\InventoryDlg\weapon\01.dds"/> -->
-   <Item id="hurricane01"	      file="data\if\ico_hd\InventoryDlg\weapon\hurricane01.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hurricane01_min.dds"/>
+   <!-- Special -->
+   <Item id="minePusher"		   file="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1_min.dds"/>
+   <Item id="minePusher_1"		   file="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1_min.dds"/>
+   <Item id="minePusher_2"		   file="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\minoykladchik1_min.dds"/>
+   <Item id="nailsPusher"		   file="data\if\ico_hd\InventoryDlg\weapon\gvozdorazbrasivatel.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\gvozdorazbrasivatel_min.dds"/>
+   <Item id="Smoke"			      file="data\if\ico_hd\InventoryDlg\weapon\dimzavesa.dds"	      file1="data\if\ico_hd\InventoryDlg\weapon\dimzavesa_min.dds"/>
+   <Item id="engineOilPusher"		file="data\if\ico_hd\InventoryDlg\weapon\maslorazliv.dds"	   file1="data\if\ico_hd\InventoryDlg\weapon\maslorazliv_min.dds"/>
+   <Item id="someTurboAccelerationPusher" file="data\if\ico_hd\InventoryDlg\weapon\turboakselerator.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\turboakselerator_min.dds"/>
+
+   <!-- Side -->
+   <Item id="mrakSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\mraksidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\mraksidegun_min.dds"/>
+   <Item id="hunterSideGun"	   file="data\if\ico_hd\InventoryDlg\weapon\huntersidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\huntersidegun_min.dds"/>
+   <Item id="zeusSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\zeussidegun.dds"   file1="data\if\ico_hd\InventoryDlg\weapon\zeussidegun_min.dds"/>
+   <Item id="marsSideGun"		   file="data\if\ico_hd\InventoryDlg\weapon\marssidegun.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\marssidegun_min.dds"/>
    <Item id="hailSideGun"	      file="data\if\ico_hd\InventoryDlg\weapon\hailSideGun.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hailSideGun_min.dds"/>
-   <Item id="odin01"			      file="data\if\ico_hd\InventoryDlg\weapon\odin01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\odin01_min.dds"/>
-   <!-- <Item id="avenger01"		      file="data\if\ico\InventoryDlg\weapon\01.dds"			file1="data\if\ico\InventoryDlg\weapon\01.dds"/> -->
-   <Item id="bumblebee01"	      file="data\if\ico_hd\InventoryDlg\weapon\Bumblebee.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Bumblebee_min.dds"/>
-   <Item id="omega01"		      file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
-   <Item id="tank01"			      file="data\if\ico\InventoryDlg\weapon\tank.dds"			file1="data\if\ico\InventoryDlg\weapon\tank.dds"/>
 
-   <Item id="rocketLauncher"		file="data\if\ico\InventoryDlg\weapon\Dragon.dds"		file1="data\if\ico\InventoryDlg\weapon\Dragon.dds"/>
+   <!-- Tank -->
+   <Item id="tank01"			      file="data\if\ico_hd\InventoryDlg\weapon\tank.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\tank_min.dds"/>
 
-   <Item id="minePusher"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
-   <Item id="minePusher_1"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
-   <Item id="minePusher_2"		   file="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"	file1="data\if\ico\InventoryDlg\weapon\Minoykladchik1.dds"/>
-   <Item id="nailsPusher"		   file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"		file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
-   <Item id="nails1Pusher"		   file="data\if\ico\InventoryDlg\weapon\gvozdorazbrasivatel.dds"	file1="data\if\ico\InventoryDlg\weapon\gvozdorazbrasivatel.dds"/>
-   <Item id="Smoke"			      file="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"	   file1="data\if\ico\InventoryDlg\weapon\dimzavesa.dds"/>
-   <Item id="engineOilPusher"		file="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"	file1="data\if\ico\InventoryDlg\weapon\maslorazliv.dds"/>
-   <Item id="someTurboAccelerationPusher" file="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"	file1="data\if\ico\InventoryDlg\weapon\turboakselerator.dds"/>
+   <Item id="cooling_system_guns" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_bul.dds" file1=""/>
+   <Item id="cooling_system_energy" 		file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_enrg.dds" file1=""/>
+   <Item id="cooling_system_explosion" 	file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_exp.dds" file1=""/>
+   <Item id="firing_rate_guns" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_bul.dds" file1=""/>
+   <Item id="firing_rate_energy" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_enrg.dds" file1=""/>
+   <Item id="grouping_angle_guns" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_bul.dds" file1=""/>
+   <Item id="add_damage_guns" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_bul.dds" file1=""/>
+   <Item id="add_damage_energy" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_enrg.dds" file1=""/>
+   <Item id="add_damage_explosion" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_exp.dds" file1=""/>
+   <Item id="firing_range_guns"  			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget7_bul.dds" file1=""/>
+   <Item id="cooling_system_guns2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_bul.dds" file1=""/>
+   <Item id="cooling_system_energy2" 		file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_enrg.dds" file1=""/>
+   <Item id="cooling_system_explosion2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_exp.dds" file1=""/>
+   <Item id="firing_rate_guns2" 			   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_v2_bul.dds" file1=""/>
+   <Item id="firing_rate_energy2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_v2_enrg.dds" file1=""/>
+   <Item id="grouping_angle_guns2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v2_bul.dds" file1=""/>
+   <Item id="add_damage_guns2" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_bul.dds" file1=""/>
+   <Item id="add_damage_energy2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_enrg.dds" file1=""/>
+   <Item id="add_damage_explosion2" 		file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_exp.dds" file1=""/>
 
-   <Item id="mrakSideGun"		   file="data\if\ico\InventoryDlg\weapon\mrakSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\mrakSideGun.dds"/>
-   <Item id="hunterSideGun"	   file="data\if\ico\InventoryDlg\weapon\hunterSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\hunterSideGun.dds"/>
-   <Item id="zeusSideGun"		   file="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\zeusSideGun.dds"/>
-   <Item id="marsSideGun"		   file="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"	file1="data\if\ico\InventoryDlg\weapon\marsSideGun.dds"/>
+   <Item id="cooling_system_guns_and_firing_rate_guns" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget5_bul.dds" file1=""/>
+   <Item id="cooling_system_energy_and_firing_rate_energy" 	   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget5_enrg.dds" file1=""/>
+   <Item id="cooling_system_explosion_and_firing_rate_explosion" file="data\if\ico_hd\InventoryDlg\Gadgets\gadget5_exp.dds" file1=""/>
+   <Item id="firing_rate_guns_and_add_damage_guns" 		      file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v3_bul.dds" file1=""/>
+   <Item id="firing_rate_energy_and_add_damage_energy" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v3_enrg.dds" file1=""/>
+   <Item id="firing_rate_explosion_and_add_damage_explosion" 	file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v3_exp.dds" file1=""/>
+   <Item id="add_damage_guns_and_grouping_angle_guns" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_bul.dds" file1=""/>
+   <Item id="add_damage_energy_and_firing_rate_energy" 		   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_enrg.dds" file1=""/>
+   <Item id="add_damage_explosion_firing_rate_explosion" 	   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget6_exp.dds" file1=""/>
 
-   <Item id="big_swingfire01"	   file="data\if\ico\InventoryDlg\weapon\Swingfire.dds"		file1="data\if\ico\InventoryDlg\weapon\Swingfire.dds"/>
-   <Item id="dragon01"			   file="data\if\ico\InventoryDlg\weapon\Dragon.dds"		   file1="data\if\ico\InventoryDlg\weapon\Dragon.dds"/>
-   <Item id="hammer01"			   file="data\if\ico_hd\InventoryDlg\weapon\hammer01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\hammer01_min.dds"/>
+   <Item id="additional_fuel_tank" 	   file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget2.dds" file1=""/>
+   <Item id="additional_fuel_tank2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget2_v2.dds" file1=""/>
+   <Item id="additional_fuel_tank2_add_damage_guns" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget2_v3.dds" file1=""/>
+   
+   <Item id="additional_torque" 			file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3_v3.dds" file1=""/>
+   <Item id="additional_torque2" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3_v2.dds" file1=""/>
+   <Item id="add_speed_and_torque" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3.dds" file1=""/>
 
-
-   <Item id="cooling_system_guns" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
-   <Item id="cooling_system_energy" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
-   <Item id="cooling_system_explosion" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
-   <Item id="firing_rate_guns" 				file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="firing_rate_energy" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="grouping_angle_guns" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="add_damage_guns" 				file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_energy" 				file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_explosion" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="firing_range_guns"  			file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
-   <Item id="cooling_system_guns2" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
-   <Item id="cooling_system_energy2" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
-   <Item id="cooling_system_explosion2" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetE_01.dds" file1=""/>
-   <Item id="firing_rate_guns2" 			   file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="firing_rate_energy2" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="grouping_angle_guns2" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="add_damage_guns2" 				file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_energy2" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-   <Item id="add_damage_explosion2" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetW_01.dds" file1=""/>
-
-   <Item id="cooling_system_guns_and_firing_rate_guns" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
-   <Item id="cooling_system_energy_and_firing_rate_energy" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
-   <Item id="cooling_system_explosion_and_firing_rate_explosion" file="data\if\ico\InventoryDlg\Gadgets\GadgetE_04.dds" file1=""/>
-   <Item id="firing_rate_guns_and_add_damage_guns" 		   file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="firing_rate_energy_and_add_damage_energy" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="firing_rate_explosion_and_add_damage_explosion" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetW_02.dds" file1=""/>
-   <Item id="add_damage_guns_and_grouping_angle_guns" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetW_03.dds" file1=""/>
-   <Item id="add_damage_energy_and_firing_rate_energy" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetW_03.dds" file1=""/>
-   <Item id="add_damage_explosion_firing_rate_explosion" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetW_03.dds" file1=""/>
-
-   <Item id="additional_fuel_tank" 	   file="data\if\ico\InventoryDlg\Gadgets\fueltank.dds" file1=""/>
-   <Item id="additional_torque" 			file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
-   <Item id="additional_durability" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetG_01.dds" file1=""/>
-   <Item id="additional_stability" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_04.dds" file1=""/>
-
-   <Item id="additional_fuel_tank2" 	file="data\if\ico\InventoryDlg\Gadgets\fueltank.dds" file1=""/>
-   <Item id="additional_torque2" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
-   <Item id="additional_durability2" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetG_01.dds" file1=""/>
-
-   <Item id="add_speed_and_torque" 		file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
-   <Item id="add_stability_and_speed" 	file="data\if\ico\InventoryDlg\Gadgets\GadgetG_04.dds" file1=""/>
-   <Item id="add_torque_and_stability" file="data\if\ico\InventoryDlg\Gadgets\GadgetG_03.dds" file1=""/>
-   <Item id="additional_fuel_tank2_add_damage_guns" 	file="data\if\ico\InventoryDlg\Gadgets\fueltank.dds" file1=""/>
+   <Item id="additional_durability" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1.dds" file1=""/>
+   <Item id="additional_durability2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1_v2.dds" file1=""/>
+   
+   <Item id="additional_stability" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4.dds" file1=""/>
+   <Item id="add_stability_and_speed" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v2.dds" file1=""/>
+   <Item id="add_torque_and_stability" file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v3.dds" file1=""/>
 
 
    <Item id="TownSouth"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
@@ -272,10 +273,10 @@
    <Item id="someLair4"		file1="data\if\ico\LocalMap\Map_Turret.dds" file=""/> -->
 
 <!-- Боссы -->
-   <Item id="bossMetalArm" file="data\if\ico\BossIndicator\BossIcons\boss1.dds" file1=""/>
-   <Item id="boss02"			file="data\if\ico\BossIndicator\BossIcons\boss1.dds" file1=""/>
-   <Item id="boss03"			file="data\if\ico\BossIndicator\BossIcons\boss2.dds" file1=""/>
-   <Item id="boss04"			file="data\if\ico\BossIndicator\BossIcons\boss3.dds" file1=""/>
+   <Item id="bossMetalArm" file="data\if\ico_hd\BossIndicator\BossIcons\boss1.dds" file1=""/>
+   <Item id="boss02"			file="data\if\ico_hd\BossIndicator\BossIcons\boss1.dds" file1=""/>
+   <Item id="boss03"			file="data\if\ico_hd\BossIndicator\BossIcons\boss2.dds" file1=""/>
+   <Item id="boss04"			file="data\if\ico_hd\BossIndicator\BossIcons\boss3.dds" file1=""/>
 
 <!-- аффиксы -->
    <Item id="useless_cabin"		         file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	

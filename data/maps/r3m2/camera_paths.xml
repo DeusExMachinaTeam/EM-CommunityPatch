@@ -95,6 +95,28 @@
 		<Point  coord="3376.546 525.728 1124.426" rotation="-0.424 -0.568 0.431 0.558"/>
 	</Path>
 
+	<Path Name = "VK1_path">
+		<Point  coord="1817.939 289.332 3142.412" rotation="0.069 -0.658 -0.060 0.747"/>
+		<Point  coord="1821.299 289.958 3142.842" rotation="0.147 -0.656 -0.133 0.728"/>
+	</Path>
 
+	<Path Name = "VK2_path">
+		<Point  coord="681.373 269.911 1837.854" rotation="0.201 -0.005 -0.001 0.980"/>
+		<Point  coord="681.191 268.408 1830.582" rotation="0.102 -0.013 -0.001 0.995"/>
+	</Path>
 
+	<Path Name = "VK3_path">
+		<Point  coord="1222.667 336.873 1091.980" rotation="-0.018 0.016 -0.000 1.000"/>
+		<Point  coord="1222.097 336.223 1110.271" rotation="-0.018 0.016 -0.000 1.000"/>
+	</Path>
+
+	<Path Name = "1stArtefact_path">
+		<Point  coord="3255.558 267.458 3187.343" rotation="-0.067 0.901 -0.151 0.400"/>
+		<Point  coord="3249.170 264.477 3181.550" rotation="-0.067 0.901 -0.151 0.400"/>
+	</Path>
+
+	<Path Name = "2ndArtefact_path">
+		<Point  coord="3183.411 263.844 3527.663" rotation="-0.140 0.354 -0.054 0.923"/>
+		<Point  coord="3188.404 263.844 3539.652" rotation="-0.120 0.699 -0.121 0.695"/>
+	</Path>
 </Paths>

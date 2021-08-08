@@ -2163,19 +2163,19 @@
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_OCTOPUS_FIRE"
+				effect_id="ET_PS_OCTOPUS_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE03"
-				effect_id="ET_PS_OCTOPUS_FIRE"
+				effect_id="ET_PS_OCTOPUS_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE04"
-				effect_id="ET_PS_OCTOPUS_FIRE"
+				effect_id="ET_PS_OCTOPUS_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 				
@@ -2261,19 +2261,19 @@
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_KPVT_FIRE"
+				effect_id="ET_PS_KPVT_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE03"
-				effect_id="ET_PS_KPVT_FIRE"
+				effect_id="ET_PS_KPVT_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE04"
-				effect_id="ET_PS_KPVT_FIRE"
+				effect_id="ET_PS_KPVT_FIRE_WOUT_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 				
@@ -13921,18 +13921,6 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
-<!--	<model
-		id="shell01"
-		file="data\models\ammo\shell01.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />	-->
-	<model
-		id="shell02"
-		file="data\models\ammo\shell02.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
 
 	<model
 		id="shell_big_gun01"
@@ -14961,13 +14949,6 @@
 	<model
 		id="helvecia"
 		file="data\models\buildings\region2\helvecia.gam"
-		shadow="0"
-		windwavy="0"
-		trans="0" />
-
-	<model
-		id="helvecia"
-		file="data\models\buildings\region2\helvecia.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />
@@ -15884,13 +15865,6 @@
 	<model
 		id="rr_columne"
 		file="data\models\buildings\region3\factory\rr_columne.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
-
-	<model
-		id="1_riback"
-		file="data\models\buildings\region4\kladbishe\1_riback.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />

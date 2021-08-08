@@ -398,7 +398,7 @@
 
 	<string
 		id="Belong_1064_abb"
-		value="ЖД" />
+		value="ДЖ" />
 
 	<string
 		id="Belong_1065"
@@ -423,6 +423,14 @@
 	<string
 		id="Belong_1067_abb"
 		value="Учёный" />
+
+	<string
+		id="Belong_1068"
+		value="Верховный Друид" />
+
+	<string
+		id="Belong_1068_abb"
+		value="Друид" />
 
 	<string
 		id="Belong_1080"
@@ -639,6 +647,10 @@
 	<string
 		id="Belong_1067_diz"
 		value="Группа археологов, исследующая древние руины между городом Порто и деревней Олимпийская." />
+
+	<string
+		id="Belong_1068_diz"
+		value="Верховный Друид" />
 
 	<string
 		id="Belong_1080_diz"

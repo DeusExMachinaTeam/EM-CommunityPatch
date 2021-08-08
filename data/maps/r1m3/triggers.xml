@@ -15,12 +15,12 @@
 	<trigger	Name="trVaterlandPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local gunlist = {"hornet01","specter01","pkt01","storm01","vector01","vulcan01","hurricane01"}
+			local gunlist = {"specter01","storm01","pkt01","hornet01","vector01","vulcan01","hurricane01"}
 			local len = getn(gunlist)
 
 			for i=1,12 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
 			end
 			trigger:Deactivate()
 		</script>
@@ -245,6 +245,8 @@
 		<script>
 			TeamCreate("ShahtsBoss",1002,CVector(2202, 285, 6936),{"Sml301","r1m3_Fighter01","Sml401"}, CVector(2041, 287, 7182), 1)
 
+			TakeQuest( "d_BombShahtsAtakBandits_Quest" )
+
 			TActivate("SHAHTSBANDITBOSSDIE")
 
 			trigger:Deactivate()
@@ -351,6 +353,8 @@
 		<script>
 			TeamCreate("OilMineBoss",1002,CVector(6969,257,7068),{"Sml401","r1m3_Fighter01","r1m1_scout02"}, nil, 1)
 
+			TakeQuest("d_DriveBanditFromOilMine_Quest")
+
 			TActivate("BOSSOILMINEDIE")
 
 			trigger:Deactivate()
@@ -380,6 +384,9 @@
 			
 			TActivate( "BOSSOILMINEDIE_FADEIN" )
 			TActivate( "BOSSOILMINENDCINIMATIC" )
+
+			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
+			
 		</script>
 	</trigger>
 		
@@ -430,8 +437,6 @@
 			TActivate("RUNTORUNERENDRACE")
 
 			SetCameraBehindPlayerVehicle()
-
-			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
 
 			trigger:Deactivate() 
 		</script>
@@ -531,6 +536,8 @@
 		<script>
 			TeamCreate("OilMineBaseBoss",1002,CVector(4483, 265, 7496),{"r1m3_Fighter01","r1m3_Fighter02"},CVector(4546, 263, 7479), 1)
 
+			CompleteQuest("d_FindBanditBaseOfOilMine_Quest1")
+
 			SetTolerance( 1100, 1044, RS_ENEMY )
 
 			TActivate("KILLBOSSOILMINEBASE")
@@ -544,7 +551,7 @@
 	<trigger Name="KILLBOSSOILMINEBASE" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="OilMineBaseBoss" />
 		<script>
-   			CompleteQuest( "d_FindBanditBaseOfOilMine_Quest" )
+   			CompleteQuest( "d_FindBanditBaseOfOilMine_Quest2" )
 
 			trigger:Deactivate()
 		</script>
@@ -557,6 +564,17 @@
 <!-- слежка за мэром -->
 	<trigger Name="SPYMER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			TActivate("SPYMER_Start")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SPYMER_Start" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			TActivate( "RolikBegin_SPYMER" )
 
@@ -676,6 +694,8 @@
 			if town then town:SetOpenGateToPlayer(false) end
 
 			TeamCreate("Argument",1002,CVector(6960,296,1056),{"r1m1_bug02","r1m1_scout03"},CVector(6965,295,1131), 1)
+
+			TakeQuest("d_GiveProblemToBase_Quest")
 
 			TActivate("ARGUMENDIE")
 
@@ -918,6 +938,8 @@
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
 			TeamCreate("ThiefCar",1002,CVector(6960,296,1056),{"UralShot"},CVector(6965,295,1131), 1)
+
+			TakeQuest("r1m3_FightWithThief")
 
 			TActivate("TRIGGER_THIEFDIE")
 

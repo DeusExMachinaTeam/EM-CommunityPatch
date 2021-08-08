@@ -4224,34 +4224,22 @@
 			coord="4396.869 5880.139" />
 
 		<Point
-			coord="4371.113 5883.268" />
-
-		<Point
 			coord="4341.814 5889.821" />
-
-		<Point
-			coord="4312.358 5899.598" />
 
 		<Point
 			coord="4271.182 5921.361" />
 
 		<Point
-			coord="4242.744 5935.424" />
-
-		<Point
 			coord="4224.723 5947.078" />
-
-		<Point
-			coord="4201.132 5957.320" />
 
 		<Point
 			coord="4180.693 5973.044" />
 
 		<Point
-			coord="4161.740 5993.668" />
+			coord="4129.835 6035.219" />
 
 		<Point
-			coord="4129.835 6035.219" />
+			coord="4107.983 6052.313" />
 	</Path>
 
 	<Path
@@ -4278,19 +4266,19 @@
 	<Path
 		Name="ReturnPathR1M1">
 		<Point
-			coord="3108.153 7487.238" />
+			coord="3126.931 7474.900" />
 
 		<Point
-			coord="3117.751 7479.375" />
+			coord="3140.977 7459.200" />
 	</Path>
 
 	<Path
 		Name="ReturnPathR4M2">
 		<Point
-			coord="7471.128 3697.675" />
+			coord="7440.931 3693.357" />
 
 		<Point
-			coord="7448.403 3693.889" />
+			coord="7410.738 3690.090" />
 	</Path>
 
 	<Path
@@ -4407,16 +4395,16 @@
 	<Path
 		Name="playerMolokPath">
 		<Point
-			coord="6909.251 5258.314" />
+			coord="6898.330 5224.154" />
 
 		<Point
-			coord="6907.415 5243.596" />
+			coord="6863.851 5192.571" />
 
 		<Point
-			coord="6897.516 5226.681" />
+			coord="6838.456 5145.417" />
 
 		<Point
-			coord="6880.558 5208.330" />
+			coord="6793.449 5108.512" />
 	</Path>
 
 	<Path

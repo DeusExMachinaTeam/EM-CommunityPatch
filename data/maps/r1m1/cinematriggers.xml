@@ -351,7 +351,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			RuleConsole("cinematic_spring_coeff 1.3")
+--			RuleConsole("cinematic_spring_coeff 1.3")
 
 			local PlVehicle = GetPlayerVehicle()
 			if PlVehicle then
@@ -448,7 +448,7 @@
 			local Plf = GetPlayerVehicle()
 			Plf:PlaceToEndOfPath()
 
-			RuleConsole("cinematic_spring_coeff 0.7")
+--			RuleConsole("cinematic_spring_coeff 0.7")
 
 			SetCameraBehindPlayerVehicle()
 
@@ -1398,6 +1398,8 @@
 
 			TeamCreate("FelixBanditCars2",1013,CVector(493.000, 303.000, 1883.000),{"Sml201","Sml301","Sml401"})
 
+			CompleteQuest("d_ArriveToFelix_Quest")
+
 			TActivate( "METALFELIXDIE2" )
 
 			SetCameraBehindPlayerVehicle()
@@ -1501,6 +1503,8 @@
 				FVehicle0:SetSkin ( 4 )
 				FVehicle0:setImmortalMode(1)
 			end
+
+			TakeQuest("d_KillFelix_Quest")
 
 			TDeactivate( "RolikBegin_Felix3" )
 			TDeactivate( "trFelix3" )

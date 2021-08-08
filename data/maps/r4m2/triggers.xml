@@ -19,10 +19,20 @@
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			if QuestStatus("r4m2_FightWithCrazy")==Q_CANBEGIVEN then
-			   TActivate("trMoveToFatherCar")
-			   TActivate("trMoveToMilitaryBase")
-			   TActivate("trNearBase")
-			   trigger:Deactivate()
+				TActivate("trMoveToFatherCar")
+				TActivate("trMoveToMilitaryBase")
+				TActivate("trNearBase")
+
+				CreateNewDummyObject( "mirotvorecCargo05", "mirCargo", -1, -1, CVector(1554.298, 329.958, 338.369), Quaternion(-0.0383, 0.7107, 0.0388, 0.7014), 8)
+				CreateNewDummyObject( "mirotvorecCab05", "mirCab", -1, -1, CVector(1559.402, 329.696, 338.649), Quaternion(0.0278, 0.7066, -0.0278, 0.7066), 8)
+
+				local Acab = GetEntityByName("mirCab")
+				if Acab then Acab:SetBelong(1042) end
+
+				local Acargo = GetEntityByName("mirCargo")
+				if Acargo then Acargo:SetBelong(1042) end
+
+				trigger:Deactivate()
 			end
 		</script>
 	</trigger>
@@ -32,20 +42,15 @@
 		<script>
 --			println("Father Car")
 
-			local Plf = GetPlayerVehicle()
-			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 25*0.74
-			PlfCoor.z = PlfCoor.z + 25*0.74
-
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
+			local Plf = GetPlayerVehicle()
 			Plf:SetCustomControlEnabled( true )
 			Plf:SetCustomLinearVelocity( 0 )
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			FlyAround(6, 0, 25, 17, PlfCoor, PlfID, 1, 1 )
+			Fly("FatherCar_Cam", CINEMATIC_NO_AIM, 0, 28, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 201, 0.25 )

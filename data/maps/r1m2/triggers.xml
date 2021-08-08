@@ -14,12 +14,12 @@
 	<trigger	Name="trRidzinPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local gunlist = {"hornet01","specter01","pkt01","kord01","storm01","minePusher_1","hurricane01","vulcan01"}
+			local gunlist = {"specter01","pkt01","kord01","hornet01","storm01","hurricane01","vulcan01"}
 			local len = getn(gunlist)
 
 			for i=1,10 do
 				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
 			end
 			trigger:Deactivate()
 		</script>
@@ -242,13 +242,13 @@
 	<trigger Name="KOLIZEYFIGHT" active="1">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Kolizey_location" />
 		<script>
-			if IsQuestTaken("CombatInKollizey_Quest") and not(IsQuestComplete("CombatInKollizey_Quest") or IsQuestFailed("CombatInKollizey_Quest"))   then
+			if IsQuestTaken("CombatInKollizey_Quest1") and not(IsQuestComplete("CombatInKollizey_Quest1") or IsQuestFailed("CombatInKollizey_Quest1"))   then
 				TActivate( "RolikBegin_Kolizey1" )
 
 				trigger:Deactivate()
 			end
 
-			if IsQuestTaken("r1m2_Glagiators_Quest") and not(IsQuestComplete("r1m2_Glagiators_Quest") or IsQuestFailed("r1m2_Glagiators_Quest")) then
+			if IsQuestTaken("r1m2_GoToArena_Quest") and not(IsQuestComplete("r1m2_GoToArena_Quest") or IsQuestFailed("r1m2_GoToArena_Quest")) then
 				TActivate( "RolikBegin_Kolizey2" )
 
 				trigger:Deactivate()
@@ -259,7 +259,7 @@
 	<trigger Name="KOLIZEYFIGHTDIE1" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="Gladiator1" />
 		<script>
-			CompleteQuestIfTaken( "CombatInKollizey_Quest" )
+			CompleteQuestIfTaken( "CombatInKollizey_Quest2" )
 
 			CinemaFiltersUse()
 
@@ -362,6 +362,8 @@
 		<script>
 			TeamCreate("CarOfAntiSiencer",1002,CVector(7468.556, 184.763, 5213.779),{"DemoBandit"}, nil, 1)
 
+			TakeQuest("HelpRuins_Quest")
+
 			TActivate("RUINSWAR1")
 
 			trigger:Deactivate()
@@ -378,6 +380,8 @@
 			SetTolerance(1067, 1003, RS_ENEMY)
 			SetTolerance(1009, 1067, RS_NEUTRAL)
 			SetTolerance(1008, 1067, RS_NEUTRAL)
+
+			TakeQuest("DestroyRuins_Quest")
 
 			TActivate("RUINSWAR2")
 
@@ -419,7 +423,7 @@
 	<trigger Name="PLENLISADIE" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="LisaInBanditDen" />
 		<script>
-			CompleteQuestIfTaken( "d_FindLisaInBandit_Quest" )
+			CompleteQuestIfTaken( "d_DefeatLisasBandits" )
 
 			TActivate( "RolikBegin_LisaPlenDie" )
 
@@ -437,22 +441,33 @@
 	<trigger Name="triggerExitToMap11" active="1">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR1M1" />
 		<script>
-			local Plf = GetPlayerVehicle()
-			Plf:SetThrottle( 0 )
-			Plf:SetCustomLinearVelocity( 0 )
+				local Plf = GetPlayerVehicle()
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomLinearVelocity( 0 )
 
-			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 25*0.74
-			PlfCoor.z = PlfCoor.z + 25*0.74
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 25*0.74
+				PlfCoor.z = PlfCoor.z + 25*0.74
 
-			local b = SpawnMessageBox( "8801" )
-			if b == 1 then
-				PassToMap("r1m1", "FromR1M2", -1 )
+			if QuestStatus("d_CaravanToPortoBen_Quest")~=Q_TAKEN and QuestStatus("d_CaravanToMidgardBen_Quest")~=Q_TAKEN then
+
+				local b = SpawnMessageBox( "8801" )
+				if b == 1 then
+					PassToMap("r1m1", "FromR1M2", -1 )
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					TActivate ("RolikExitToMap11")
+					TActivate ("RolikENDExitToMap11")
+				end
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
 
-				FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+				FlyAround(1, 0, 25, 3, PlfCoor, PlfID, 1, 1 )
 				StartCinematic()
 
 				TActivate ("RolikExitToMap11")
