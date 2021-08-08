@@ -272,6 +272,12 @@
 
 			TDeactivate("trLeaderCaravanDie")
 			TActivate("trLeaderCarDie_End")
+
+			FailQuestIfTaken("TRS_Quest3b")
+			FailQuestIfTaken("FreeExtremistLeader_Quest1")
+			FailQuestIfTaken("FreeExtremistLeader_Quest3_1")
+			FailQuestIfTaken("FreeExtremistLeader_Quest3_2")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -288,10 +294,7 @@
 
 			local LeadCar = GetEntityByName("LeaderCar_vehicle_0")
 			if LeadCar then LeadCar:Remove() end
-
-			FailQuestIfTaken("TRS_Quest3b")
-			FailQuestIfTaken("FreeExtremistLeader_Quest3")
-			FailQuestIfTaken("FreeExtremistLeader_Quest1")
+		
 			TakeQuest("TRS_Quest3a")
 
 			trigger:Deactivate()
