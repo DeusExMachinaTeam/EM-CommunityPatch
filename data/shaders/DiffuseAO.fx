@@ -73,8 +73,8 @@ VS_OUTPUT VertexDiffuseAO(VS_INPUT input) {
 
 float4 FragmentDiffuseAO(VS_OUTPUT input) : COLOR {
 
-    float4 Lightmap = tex2D(LightmapSampler, input.UVMap0);
-    float4 Diffuse  = tex2D(DiffuseSampler, input.UVMap1);
+    float4 Lightmap = tex2D(LightmapSampler, input.UVMap1);
+    float4 Diffuse  = tex2D(DiffuseSampler, input.UVMap0);
 
     return DSPMaterial(
         input.ViewDirection,
