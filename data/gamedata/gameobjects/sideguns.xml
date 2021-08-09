@@ -91,7 +91,7 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 	<Prototype
 		Class			= "MortarVolleyLauncher"
 		Name			= "mars01R"
-		ModelFile		= "mars01L"
+		ModelFile		= "mars01R"
 		ResourceType		= "SIDE_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
@@ -124,7 +124,7 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 	<Prototype
 		Class			= "MortarVolleyLauncher"
 		Name			= "mars01L"
-		ModelFile		= "mars01R"
+		ModelFile		= "mars01L"
 		ResourceType		= "SIDE_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
