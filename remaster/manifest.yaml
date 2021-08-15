@@ -1,0 +1,47 @@
+# unique service name
+name: community_remaster
+
+# required human readable info
+display_name: Community Remaster
+version: 1.10 dev
+description: |
+  Расширенная версия Community Patch, включающая улучшения интерфейса, графики, новый саундтрек и многое другое.
+  TBD
+authors: DEM Team, EM2ch
+
+# optional human readable info
+release_date: TBD
+language: ru
+link: https://deuswiki.com/w/Community_Remaster
+
+# installation confguration
+prerequisites: 
+  - community_patch
+patcher_version_requirement: 1.10
+patcher_options:
+  gravity: -19.62
+no_base_content: false
+# optional_content:
+#   - name: hd_gun_models
+#     display_name: HD модели оружия
+#     description: |
+#       Новые модели для многих орудий.
+#       Переработаны: Шершень, Спектр, Спрут и т.д.
+#   - name: hd_vehicle_models
+#     display_name: HD модели транспорта
+#     description: |
+#       Новые модели для стартовых автомобилей и переработка других, для добавления новых скинов.
+#       Переработаны: Вен, Молоковоз.
+#       Новый шейдер и раскраски: Урал, Белаз, Миротворец, Скаут, Боец.
+#   - name: ost_remaster
+#     display_name: Ремастер Саундтрека
+#     description: |
+#       Ремастер OST от Антона Попова, включая треки главного меню и передвижения по локациям
+#     default_option: all_new
+#     install_settings:
+#       - name: all_new
+#         description: |
+#           Старые треки заменены новыми
+#       - name: combined
+#         description: |
+#           Новые и старые треки будут звучать наравне
