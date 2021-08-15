@@ -19,7 +19,7 @@
  *      Detail:
  *        Color: RGB
  **/
-
+#define ENABLE_AMBIENT
 #include "template.fx"
 
 DeclareTexture2D(DIFFUSE_MAP_0, DiffuseTexture, DiffuseSampler, Wrap)
@@ -34,6 +34,7 @@ struct VS_INPUT {
     float3 Normal: NORMAL;
     float2 UVMap0: TEXCOORD0;
     float2 UVMap1: TEXCOORD1;
+    float4 Color: COLOR0;
 };
 
 struct VS_OUTPUT{
@@ -42,6 +43,7 @@ struct VS_OUTPUT{
     float2 UVMap1: TEXCOORD1;
     float3 Normal: TEXCOORD2;
     float3 ViewDirection: TEXCOORD3;
+    float4 Color: COLOR0;
     float  Fog: FOG;
 };
 
@@ -52,6 +54,7 @@ VS_OUTPUT VertexDiffuseDetail(VS_INPUT input) {
     output.UVMap0        = input.UVMap0;
     output.UVMap1        = input.UVMap1;
     output.Normal        = input.Normal;
+    output.Color         = input.Color;
     output.ViewDirection = normalize(ViewPosition - input.Position);
     output.Fog           = fog(output.Position, g_FogTerm);
 
@@ -71,7 +74,7 @@ float4 FragmentDiffuseDetail(VS_OUTPUT input) : COLOR {
         float3(0, 0, 0),
         Diffuse.a,
         0,
-        0,
+        pow(input.Color.r, 1.25),
         0
     );
 };

@@ -19,6 +19,7 @@
  **/
 
 #define ENABLE_SPECULAR
+#define ENABLE_AMBIENT
 #include "template.fx"
 
 DeclareTexture2D(DIFFUSE_MAP_0, DiffuseTexture, DiffuseSampler, Wrap)
@@ -33,6 +34,7 @@ struct VS_INPUT {
     float3 Normal: NORMAL;
     float2 UVMap0: TEXCOORD0;
 	float4 Tangent: TANGENT;
+    float4 Color: COLOR0;
 };
 
 struct VS_OUTPUT{
@@ -40,6 +42,7 @@ struct VS_OUTPUT{
     float2 UVMap0: TEXCOORD0;
     float3 Normal: TEXCOORD1;
     float3 ViewDirection: TEXCOORD4;
+    float4 Color: COLOR0;
     float  Fog: FOG;
 };
 
@@ -48,7 +51,8 @@ VS_OUTPUT VertexSpecular(VS_INPUT input) {
 
     output.Position      = mul(float4(input.Position, 1.0f), FinalMatrix);;
     output.UVMap0        = input.UVMap0;
-    output.Normal        = input.Normal;
+    output.Normal        = input.Normal; 
+    output.Color         = input.Color;
     output.ViewDirection = normalize(ViewPosition - input.Position);
     output.Fog           = fog(output.Position, g_FogTerm);
 
@@ -67,7 +71,7 @@ float4 FragmentSpecular(VS_OUTPUT input) : COLOR {
         float3(0, 0, 0),
         1,
         Diffuse.a,
-        0,
+        pow(input.Color.r, 1.25),
         0
     );
 };
