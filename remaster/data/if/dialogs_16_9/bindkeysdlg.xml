@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu control options - key bindings -->
+<!-- Related to optionswnd.xml. Other part of control options is controloptionswnd.xml -->
+<Prefabs>
+	<Node
+		name="dlgBindKey"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		paneFlags="0"
+		wrap="2"
+		font="0">
+		<Node
+			name="lstBindings"
+			class="StringsListBoxWnd"
+			org="480.000 300.000 751.000 360.000"
+			style="12864"
+			order="1"
+			id="700003"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			font="1"
+			clientEdges="0.000 0.000 2.000 0.000"/>
+
+		<Node
+			name="btnSave"
+			org="458.000 830.000 281.000 45.000"
+			style="265728"
+			order="4"
+			id="700001"
+			caption="^Apply^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			paneFlags="7"
+			wrap="0"
+			font="0"
+			btnIsImaged="0"
+			textColor="fF404040"
+			class="ButtonWnd"/>
+
+		<Node
+			name="emboss_btnSave"
+			class="Wnd"
+			org="455.000 827.000 287.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnDefaults"
+			org="790.000 830.000 281.000 45.000"
+			style="265728"
+			order="5"
+			id="700002"
+			caption="^Default^"
+			tip=""
+			backimage=""
+			paneName="PaneBtnGray1"
+			paneFlags="7"
+			wrap="0"
+			font="0"
+			btnIsImaged="0"
+			textColor="fF404040"
+			class="ButtonWnd"/>
+
+		<Node
+			name="emboss_btnDefaults"
+			class="Wnd"
+			org="787.000 827.000 287.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndBindingsFrame"
+			class="Wnd"
+			org="455.000 288.000 782.000 388.000"
+			style="768"
+			order="30"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameC"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+	</Node>
+</Prefabs>

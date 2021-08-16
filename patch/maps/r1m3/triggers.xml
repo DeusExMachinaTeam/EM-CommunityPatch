@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+	<trigger	Name="GlobalVar"	active="1">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			SetVar("globalEnterToPesht",1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	
+	<trigger	Name="trVaterlandPlaceSecret"	active="1">
+		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
+		<script>
+			local gunlist = {"specter01","storm01","pkt01","hornet01","vector01","vulcan01","hurricane01"}
+			local len = getn(gunlist)
+
+			for i=1,12 do
+				--println("step"..i.."succesful")
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="trAutoSave"	active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger	Name="trStartMap"	active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			if IsQuestTaken("d_FindVrata_Quest") then
+
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul" , CVector(getPos("ToR1M4")))
+
+				trigger:Deactivate()
+
+			else 
+				SetCoordinateForQuest( "r2m2_GiveDisk2ToOrakul" , CVector(getPos("ToR2M1")))
+
+				trigger:Deactivate()
+			end
+		</script>
+	</trigger>
+
+
+
+
+	<trigger Name="tr_Start0" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			if IsQuestTaken("d_FindRealFatherRoom_Quest") then
+				local tp = GetEntityByName("Pesht")
+				if tp then
+					tp:SetOpenGateToPlayer( false )
+				end
+			else
+				local tp = GetEntityByName("Pesht")
+				if tp then
+					tp:SetOpenGateToPlayer( true )
+				end
+			end
+
+			SetConditionalClosingForTown( "Pesht", "r1m3", true )
+
+			CreateNewDummyObject( "arena_barricade8", "zagr1", -1, -1, CVector(5523.000, 217, 1423.368), Quaternion(0.000, -0.706, 0.000, 0.709), 0)
+			CreateNewDummyObject( "arena_barricade8", "zagr2", -1, -1, CVector(5631.000, 217, 1422.771), Quaternion(0.000, -0.706, 0.000, 0.709), 0)
+
+			CreateNewDummyObject( "bridge_military", "BridgeForDestroy", -1, -1, CVector(5576.837, 202.7, 1423.237), Quaternion(0.0000, 0.7086, 0.0000, 0.7056), 0)
+
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE01", -1, -1, CVector(4214.315, 231.049, 1020.738), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE02", -1, -1, CVector(4136.448, 252.076, 834.866), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE03", -1, -1, CVector(4183.487, 235.000, 1217.818), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE04", -1, -1, CVector(4043.283, 235.428, 723.935), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE05", -1, -1, CVector(4045.008, 234.819, 1037.936), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE06", -1, -1, CVector(4221.199, 231.304, 1010.331), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_OpenTownAndShowButtonInPesht" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local tp = GetEntityByName("Pesht")
+			if tp then
+				tp:SetOpenGateToPlayer( true )
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_PeshtTrue" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="locPeshtTrue" />
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="locPeshtTrue" />
+		<script>
+			SetVar("globalEnterToPesht",1)
+		</script>
+	</trigger>
+
+	<trigger Name="tr_PeshtFalse" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="locPeshtFalse" />
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="locPeshtFalse" />
+		<script>
+			SetVar("globalEnterToPesht",-1)
+		</script>
+	</trigger>
+
+	<trigger Name="tr_LeavePesht" active="1">
+		<event eventid="GE_TOWN_CONDITIONAL_CLOSING" ObjName="Pesht" />
+		<script>
+			if IsQuestComplete("d_DestroyBridge_Quest") then
+				local b = SpawnMessageBox( "8804" )
+				if b == 1 then
+					local a = (-1)*(GetVar("globalEnterToPesht").AsInt)
+					SetVar("globalEnterToPesht",a)
+
+					TActivate ("tr_RolikAndPosLeavePesht")
+				else
+					TActivate ("tr_RolikAndPosLeavePesht")
+				end
+			else
+				local b = SpawnMessageBox( "8805" )
+				if b == 1 then
+					if GetPlayerMoney() >= 250 then
+						AddPlayerMoney( -250 )
+
+						local a = (-1)*(GetVar("globalEnterToPesht").AsInt)
+						SetVar("globalEnterToPesht",a)
+
+						TActivate ("tr_RolikAndPosLeavePesht")
+					else
+						SpawnMessageBox( "6006" )	
+
+						TActivate ("tr_RolikAndPosLeavePesht")			
+					end
+				else
+					TActivate ("tr_RolikAndPosLeavePesht")
+				end
+			end
+		</script>
+	</trigger>
+
+	<trigger Name="tr_RolikAndPosLeavePesht" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			LeaveTown()
+
+			CinemaFiltersUse()
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 75
+			PlfCoor.z = PlfCoor.z + 15
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(6, 0, 10, 5, PlfCoor, PlfID, 0, 1)
+			StartCinematic()
+
+			local a = GetVar("globalEnterToPesht").AsInt
+			if a == 1 then
+				Plf:SetCustomControlEnabled( true ) 
+				Plf:SetGamePositionOnGround( CVector(3912.081, 245, 3718.224))
+				Plf:SetRotation(Quaternion(-0.059, -0.707, -0.033, 0.704))
+				Plf:SetExternalPathByName("pesht_true")
+				Plf:SetCustomControlEnabled( false )  
+
+				TActivate( "tr_RolikAndPosLeavePesht_true" )    
+			else
+				Plf:SetCustomControlEnabled( true ) 
+				Plf:SetGamePositionOnGround( CVector(4224.247, 245, 3705.479))
+				Plf:SetRotation(Quaternion(0.039, 0.778, -0.046, 0.626))
+				Plf:SetExternalPathByName("pesht_false")
+				Plf:SetCustomControlEnabled( false ) 
+
+				TActivate( "tr_RolikAndPosLeavePesht_false" )     
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_RolikAndPosLeavePesht_true" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			local Plf = GetPlayerVehicle()
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetRotation(Quaternion(-0.059, -0.707, -0.033, 0.704))
+			Plf:PlaceToEndOfPath("pesht_true")
+			Plf:SetCustomControlEnabled( false )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<trigger Name="tr_RolikAndPosLeavePesht_false" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			local Plf = GetPlayerVehicle()
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetRotation(Quaternion(0.039, 0.778, -0.046, 0.626))
+			Plf:PlaceToEndOfPath("pesht_false")
+			Plf:SetCustomControlEnabled( false )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+
+
+
+	<trigger Name="SHAHTSBANDIT" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("ShahtsBoss",1002,CVector(2202, 285, 6936),{"Sml301","r1m3_Fighter01","Sml401"}, CVector(2041, 287, 7182), 1)
+
+			TakeQuest( "d_BombShahtsAtakBandits_Quest" )
+
+			TActivate("SHAHTSBANDITBOSSDIE")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SHAHTSBANDITBOSSDIE" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="ShahtsBoss" />
+		<script>
+   			CompleteQuest( "d_BombShahtsAtakBandits_Quest" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="BOOOM" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TheDestroyBridgeLoc" />
+		<script>
+  			if IsQuestTaken("d_DestroyBridge_Quest") then
+				RemoveQuestItem("quest_explosive")
+
+   				CompleteQuest( "d_DestroyBridge_Quest" )
+
+				local a = GetEntityByName("BaseGuardian_enter")
+				if a then a:SetProperty("Active",0) end
+
+				TActivate( "RolikBegin_BOOOM" )
+
+				trigger:Deactivate()
+  			end
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="BASEATTACK" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD"/>
+		<script>
+			local rrr = GetEntityByName ("zagr1")
+			if rrr then rrr:Remove() end
+			local rrr = GetEntityByName ("zagr2")
+			if rrr then rrr:Remove() end
+
+			local a = GetEntityByName("BaseGuardian_enter")
+			if a then a:SetProperty("Active",0) end
+
+			TActivate( "BASEATTACKEND" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="BASEATTACKEND" active="0">
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="BaseGuardianLoc_out" />
+		<script>
+			CreateNewDummyObject( "arena_barricade8", "zagr1", -1, -1, CVector(5523.000, 217, 1423.368), Quaternion(0.0000, -0.7056, 0.0000, 0.7086), 0)
+			CreateNewDummyObject( "arena_barricade8", "zagr2", -1, -1, CVector(5631.000, 217, 1422.771), Quaternion(0.0000, -0.7056, 0.0000, 0.7086), 0)
+
+			local a = GetEntityByName("BaseGuardian_enter")
+			if a then a:SetProperty("Active",1) end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="FATHERHOUSE" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="HouseLoc" />
+		<script>
+ 			if  IsQuestTaken("d_FatherRoomInMinin_Quest") and not(IsQuestComplete("d_FatherRoomInMinin_Quest")) then
+				TActivate( "RolikBegin_FATHERHOUSE" )
+
+   				CompleteQuest( "d_FatherRoomInMinin_Quest" )
+
+				AddHistory( "r1_Father_Room_00" )
+				AddFadingMsgId( "fm_history_got" )
+				AddQuestItem("quest_key_for_submarine")
+			end
+
+			if  IsQuestTaken("r3m2_RideToFatherRoomAfterOracul") and not(IsQuestComplete("r3m2_RideToFatherRoomAfterOracul")) then
+				TActivate( "RolikBegin_FATHERHOUSERETURN" )
+
+   				CompleteQuest( "r3m2_RideToFatherRoomAfterOracul" )
+			end
+		</script>
+	</trigger>
+
+
+
+
+
+<!-- освобождение вышки -->
+	<trigger Name="ATTACKOILMINE" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("OilMineBoss",1002,CVector(6969,257,7068),{"Sml401","r1m3_Fighter01","r1m1_scout02"}, nil, 1)
+
+			TakeQuest("d_DriveBanditFromOilMine_Quest")
+
+			TActivate("BOSSOILMINEDIE")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="BOSSOILMINEDIE" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="OilMineBoss" />
+		<script>
+
+			SetTolerance( 1100, 1047, RS_NEUTRAL )
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			TeamCreate("OilMineRuner",1002,CVector(6959, 260, 7059),{"DemoBandit"}, nil, 1)
+			
+			local runVeh = getObj("OilMineRuner_vehicle_0")
+			local RunID = runVeh:GetId()
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+
+			if runVeh then
+				runVeh:SetSkin(1)
+			end
+			
+			FlyLinked( "OilMineRunner_cam01", PlfID, 13, 1, 1, RunID )
+			StartCinematic()
+			
+			TActivate( "BOSSOILMINEDIE_FADEIN" )
+			TActivate( "BOSSOILMINENDCINIMATIC" )
+
+			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
+			
+		</script>
+	</trigger>
+		
+	<trigger Name="BOSSOILMINEDIE_FADEIN" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>	
+			local runVeh = getObj("OilMineRuner_vehicle_0")
+			local Plf = GetPlayerVehicle()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 10
+			PlfCoor.z = PlfCoor.z + 20
+
+			if runVeh then
+				runVeh:SetExternalPathByName("oilminerunner_path")
+				runVeh:SetCruisingSpeed(10)
+			end
+
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+				Plf:SetGamePositionOnGround(CVector(6984.255, 263.272, 7091.308))
+				Plf:SetRotation(Quaternion(0.0000, -0.9063, 0.0000, 0.4226))
+			end
+
+			AddCinematicMessage( 20, 1 )
+						
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	
+	<trigger Name="BOSSOILMINENDCINIMATIC" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			local vehP = GetEntityByName("OilMineRuner_vehicle_0")
+			if vehP then
+				vehP:PlaceToEndOfPath("oilminerunner_path")
+				vehP:SetExternalPathByName("banditoilmine_path")
+			end
+			
+			TActivate("RUNTORUNER")
+			TActivate("RUNTORUNERENDRACE")
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+
+
+
+<!-- слежка за бандитом -->
+	<trigger Name="RUNTORUNER" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local run = GetEntityByName("OilMineRuner_vehicle_0")
+			local pl = GetPlayerVehicle()
+			local len
+
+			if run and run:IsAlive() then
+				len = Dist(pl, run)
+
+				if (len > 305) or (15 > len) then
+					CinemaFiltersUse()
+
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					local Plf = GetPlayerVehicle()
+					local PlfID = GetPlayerVehicleId()
+					local PlfCoor = Plf:GetPosition()
+					PlfCoor.y = PlfCoor.y + 25*0.74
+					PlfCoor.z = PlfCoor.z + 25*0.74
+
+					Plf:SetCustomControlEnabled( true )
+					Plf:SetCustomLinearVelocity( 0 )
+					Plf:SetThrottle( 0 )
+					Plf:SetCustomControlEnabled( false )
+
+					FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1)
+					StartCinematic()
+
+					AddCinematicMessage( 18, 1 )
+
+					TActivate("RUNTORUNER_cp")
+
+					TDeactivate("RUNTORUNERENDRACE")
+
+					trigger:Deactivate()
+				end
+			else
+				CinemaFiltersUse()
+
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				local Plf = GetPlayerVehicle()
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 25*0.74
+				PlfCoor.z = PlfCoor.z + 25*0.74
+
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+
+				FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1)
+				StartCinematic()
+
+				AddCinematicMessage( 38, 1 )
+
+				TActivate("RUNTORUNER_cp")
+
+				TDeactivate("RUNTORUNERENDRACE")
+
+				trigger:Deactivate()
+			end
+		</script>
+	</trigger>
+	<trigger Name="RUNTORUNER_cp" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			local r = GetEntityByName ("OilMineRuner")
+			if r then r:Remove() end
+
+			FailQuestIfTaken("d_FindBanditBaseOfOilMine_Quest")
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<trigger Name="RUNTORUNERENDRACE" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="OilMineRuner_vehicle_0" />
+		<script>
+			TeamCreate("OilMineBaseBoss",1002,CVector(4483, 265, 7496),{"r1m3_Fighter01","r1m3_Fighter02"},CVector(4546, 263, 7479), 1)
+
+			CompleteQuest("d_FindBanditBaseOfOilMine_Quest1")
+
+			SetTolerance( 1100, 1044, RS_ENEMY )
+
+			TActivate("KILLBOSSOILMINEBASE")
+
+			TDeactivate("RUNTORUNER")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="KILLBOSSOILMINEBASE" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="OilMineBaseBoss" />
+		<script>
+   			CompleteQuest( "d_FindBanditBaseOfOilMine_Quest2" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+<!-- слежка за мэром -->
+	<trigger Name="SPYMER" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			TActivate("SPYMER_Start")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SPYMER_Start" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			TActivate( "RolikBegin_SPYMER" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RUNMER" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local run = GetEntityByName("MerCar_vehicle_0")
+			local pl = GetPlayerVehicle()
+			local len
+
+			if run and run:IsAlive()  then
+				len = Dist(pl, run)
+				if (len > 305) or (15 > len) then
+					CinemaFiltersUse()
+
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					local Plf = GetPlayerVehicle()
+					local PlfID = GetPlayerVehicleId()
+					local PlfCoor = Plf:GetPosition()
+					PlfCoor.y = PlfCoor.y + 25*0.74
+					PlfCoor.z = PlfCoor.z + 25*0.74
+
+					Plf:SetCustomControlEnabled( true )
+					Plf:SetCustomLinearVelocity( 0 )
+					Plf:SetThrottle( 0 )
+					Plf:SetCustomControlEnabled( false )
+
+					FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1)
+					StartCinematic()
+
+					AddCinematicMessage( 19, 1 )
+
+					TActivate( "RUNMER_cp" )
+
+					TDeactivate("RUNMEREND")
+
+					trigger:Deactivate()
+				end
+			else
+				CinemaFiltersUse()
+
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				local Plf = GetPlayerVehicle()
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 25*0.74
+				PlfCoor.z = PlfCoor.z + 25*0.74
+
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+
+				FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1)
+				StartCinematic()
+
+				AddCinematicMessage( 37, 1 )
+
+				TActivate( "RUNMER_cp" )
+
+				TDeactivate("RUNMEREND")
+
+				trigger:Deactivate()
+			end
+		</script>
+	</trigger>
+	<trigger Name="RUNMER_cp" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			local r = GetEntityByName ("MerCar")
+			if r then r:Remove() end
+
+			FailQuestIfTaken("d_MoveToMer_Quest")
+			FailQuestIfTaken("d_FindWorkersToOilMine_Quest")
+
+			TakeQuest("d_PayWorkersMoney_Quest")
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<trigger Name="RUNMEREND" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TheSpy" />
+		<script>
+			TDeactivate("RUNMER")
+			
+			CompleteQuestIfTaken("d_MoveToMer_Quest")
+
+			TActivate( "RolikBegin_THESPY" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+<!-- поиски лисы -->
+	<trigger Name="BASEABOUTLISA" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local town = GetEntityByName ("TheBase")
+			if town then town:SetOpenGateToPlayer(false) end
+
+			TeamCreate("Argument",1002,CVector(6960,296,1056),{"r1m1_bug02","r1m1_scout03"},CVector(6965,295,1131), 1)
+
+			TakeQuest("d_GiveProblemToBase_Quest")
+
+			TActivate("ARGUMENDIE")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="ARGUMENDIE" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="Argument" />
+		<script>
+			local town = GetEntityByName ("TheBase")
+			if town then town:SetOpenGateToPlayer(true) end
+
+			CinemaFiltersUse()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(6, 0, 25, 35, PlfCoor, PlfID, 1, 1)
+			StartCinematic()
+
+			AddCinematicMessage( 11, 1 )
+			AddCinematicMessage( 12, 0.25 )
+			AddCinematicMessage( 13, 0.25  )
+			AddCinematicMessage( 14, 0.25  )
+			AddCinematicMessage( 15, 0.25  )
+
+			TActivate( "ARGUMENDIE_cp" )
+
+   			CompleteQuest( "d_GiveProblemToBase_Quest" )
+
+			AddHistory( "r1_About_Lisa_After_Base_00" )
+			AddFadingMsgId( "fm_history_got" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="ARGUMENDIE_cp" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+
+
+
+<!-- Узнать где туннель -->
+	<trigger Name="TUNNELLOCATION" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TunnelLoc" />
+		<script>
+			CompleteQuestIfTaken("d_FindDoorInTunel_Quest")
+
+			TActivate("RolikBegin_Tunel")
+
+			AddHistory( "r1_See_Tonnel_00" )
+			AddFadingMsgId( "fm_history_got" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+<!-- Устроить засаду  -->
+	<trigger Name="ZASADATUNEL" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ZasadaLocQ" />
+		<script>
+   			
+			TActivate( "RolikBegin_Zasada" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RUNTOPIONEER" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local run = GetEntityByName("Pioneer_vehicle_0")
+			local pl = GetPlayerVehicle()
+			local len
+
+			if run and run:IsAlive() then
+				len = Dist(pl, run)
+
+				if (15 > len) then
+					SetTolerance( 1100, 1046, RS_ENEMY )
+
+					local parentrun = GetEntityByName("Pioneer")
+					if parentrun then
+						parentrun:SetDestination(pl:GetPosition())
+					end
+
+					TDeactivate( "PIONEERASGARD" )
+
+					trigger:Deactivate()
+
+				elseif (len > 305) then
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					local Plf = GetPlayerVehicle()
+					local PlfID = GetPlayerVehicleId()
+					local PlfCoor = Plf:GetPosition()
+					PlfCoor.y = PlfCoor.y + 25*0.74
+					PlfCoor.z = PlfCoor.z + 25*0.74
+
+					Plf:SetCustomControlEnabled( true )
+					Plf:SetCustomLinearVelocity( 0 )
+					Plf:SetThrottle( 0 )
+					Plf:SetCustomControlEnabled( false )
+
+					FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1)
+					StartCinematic()
+
+					AddCinematicMessage( 18, 1 )
+
+					TActivate("PIONEERDEAD_cp")
+
+					TDeactivate( "PIONEERASGARD" )
+					TDeactivate("PIONEERDEAD")
+
+					FailQuest("d_SerchCarTunel_Quest")
+
+
+					trigger:Deactivate()
+				end
+			end
+		</script>
+	</trigger>
+
+	<trigger Name="PIONEERDEAD" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="Pioneer" />
+		<script>
+			TDeactivate( "PIONEERASGARD" )
+			TDeactivate( "RUNTOPIONEER" )
+			TActivate( "TRIGGER_TUNNELOPEN" )
+
+			CinemaFiltersUse()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(6, 0, 25, 8, PlfCoor, PlfID, 3, 1)
+			StartCinematic()
+
+			AddCinematicMessage(9, 2)
+
+			TActivate( "PIONEERDEAD_cp" )
+
+   			TakeQuest( "d_OpenTunel_Quest" )
+   			FailQuest( "d_SerchCarTunel_Quest" )
+			FailQuest("d_FindKeyInTunel_Quest")
+
+			AddQuestItem("quest_key_for_tunnel")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="PIONEERDEAD_cp" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			local run = GetEntityByName("Pioneer_vehicle_0")
+			if run then
+				run:Remove()
+			end
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<trigger Name="PIONEERASGARD" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="PioneerLoc" />
+		<script>
+   			CompleteQuest( "d_SerchCarTunel_Quest" )
+			FailQuest("d_FindKeyInTunel_Quest")
+
+			TDeactivate( "PIONEERDEAD" )
+			TDeactivate( "RUNTOPIONEER" )
+
+			TActivate( "RolikBegin_PIONEERASGARD" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TRIGGER_TUNNELOPEN" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TunnelLoc" />
+		<script>
+			if  IsQuestTaken("d_OpenTunel_Quest") then
+				local b = GetEntityByName("ToR2M1")
+				if b then b:SetProperty("Active",1) end
+			end
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TRIGGER_THIEFWAR" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("ThiefCar",1002,CVector(6960,296,1056),{"UralShot"},CVector(6965,295,1131), 1)
+
+			TakeQuest("r1m3_FightWithThief")
+
+			TActivate("TRIGGER_THIEFDIE")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="TRIGGER_THIEFDIE" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="ThiefCar" />
+		<script>
+			CinemaFiltersUse()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(6, 0, 25, 6, PlfCoor, PlfID, 1, 1)
+			StartCinematic()
+
+			AddCinematicMessage(31, 1 )
+
+			TActivate("TRIGGER_THIEFDIE_cp")
+
+   			CompleteQuest( "r1m3_FightWithThief" )
+
+			AddQuestItem("quest_disk_2")
+			
+			TActivate("TRIGGER_LISAAFTERTHIEF")
+			
+			if IsQuestComplete("d_FindLisaOnSever_Quest") then
+			AddQuestItem("quest_key_for_submarine")
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="TRIGGER_THIEFDIE_cp" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TRIGGER_LISAAFTERTHIEF" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SnatchLoc" />
+		<script>
+			TActivate( "RolikBegin_LISAAFTERTHIEF" )
+
+   			FailQuest( "r1m3_MoveToOraculAfterThief" )
+
+			RemoveQuestItem("quest_disk_1")
+			RemoveQuestItem("quest_disk_2")
+			RemoveQuestItem("quest_key_for_submarine")
+
+			AddHistory( "r1_Lisa_Thief_00" )
+			AddFadingMsgId( "fm_history_got" )
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TRIGGER_ORACLEABOTPLATE" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SnatchLoc" />
+		<script>
+			if  IsQuestTaken("r1m3_TW_OralceAboutAlien") and not(IsQuestComplete("r1m3_TW_OralceAboutAlien") or IsQuestFailed("r1m3_TW_OralceAboutAlien")) then
+   				CompleteQuest( "r1m3_TW_OralceAboutAlien" )
+
+				TActivate( "RolikBegin_ORACLEABOTPLATE" )
+
+				AddHistory( "r1_Before_Fight_Aliens" )
+				AddFadingMsgId( "fm_history_got" )
+
+				trigger:Deactivate()
+			end
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TRIGGER_ORACLEAGRESSOR" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="OraculEndLoc" />
+		<script>
+			if  IsQuestTaken("r2m1_DeployBloks") and not(IsQuestComplete("r2m1_DeployBloks") or IsQuestFailed("r2m1_DeployBloks")) then
+   				TakeQuest( "r1m3_DestroyOracle" )
+
+				TActivate( "RolikBegin_ORACLEAGRESSOR" )
+
+				trigger:Deactivate()
+			end
+		</script>
+	</trigger>
+
+	<trigger Name="TRIGGER_ORACLEAGRESSORDIE" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="OracleFlyBoss" /> 
+		<script>
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+   			CompleteQuest( "r2m1_DeployBloks" )
+   			CompleteQuest( "r1m3_DestroyOracle" )
+   			CompleteQuest( "r4m2_NeutralizePlate" )
+
+			SetWeather(0)
+
+			PlayCustomMusic("Bio07unloop")
+
+			Fly("start_game", CINEMATIC_NO_AIM, 0, 57, 1, 1 )
+			StartCinematic()
+
+			AddCinematicMessage( 77771, 0.1)
+
+			TActivate("TRIGGER_ORACLEAGRESSORDIECINEMATIC")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="TRIGGER_ORACLEAGRESSORDIECINEMATIC" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			StopPlayingCustomMusic()
+			ShowDeathMenu()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="ORACLEHACK" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local FV = GetEntityByName("OracleFlyBoss")
+			if FV then
+				FV:SetPosition( CVector(2517, 0, 6042) )
+			end
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TriggerBonnyTrap" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("BonnyTeam",1005,CVector(2176,293,6461), {"r1m1_molokovoz02"},CVector(2315,295,6407), 1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TriggerLabirintCarCreate" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("OldTownOutsiderCar",1002,CVector(1387,259,3947), {"r1m3_molokovozInOldCity"}, nil, 1)
+
+			local tv = GetEntityByName("OldTownOutsiderCar")
+			if tv then
+				tv:StackOpen()
+				tv:SetDestination( CVector(1847,259,4119))
+				tv:SetDestination( CVector(1781,259,3925))
+				tv:SetDestination( CVector(1989,259,3742))
+				tv:SetDestination( CVector(2415,259,4126))
+				tv:SetDestination( CVector(1688,259,3769))
+				tv:StackLoop()
+				tv:StackClose()
+			end
+
+			TakeQuest("r1m3_OldTownOutsiderCar_Quest")
+			
+			TActivate("TriggerLabirintCarDie")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TriggerLabirintCarDie" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="OldTownOutsiderCar" />
+		<script>
+   			CompleteQuest( "r1m3_OldTownOutsiderCar_Quest" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="TriggerFindCircus" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TheCircus" />
+		<script>
+   			CompleteQuest( "r1m3_CrazyManQuest" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="CARAVANTOR1M4" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("KARAVAN14",1010,CVector(6081, 260, 5915),{"r2m2_CaravanUral02","r1m2_hunter02","Fighter02","Molokovoz02"}, nil, 1)
+			local vehP = GetEntityByName("KARAVAN14_vehicle_0")
+			if vehP then
+				vehP:SetExternalPathByName("karavan_path")
+			end
+			local vehPP = GetEntityByName("KARAVAN14_vehicle_1")
+			if vehPP then
+				vehPP:SetExternalPathByName("karavan_path")
+			end
+			local vehPPP = GetEntityByName("KARAVAN14_vehicle_2")
+			if vehPPP then
+				vehPPP:SetExternalPathByName("karavan_path")
+			end
+			local GoluBoyWagon = GetEntityByName("KARAVAN14_vehicle_3")
+			if GoluBoyWagon then
+				GoluBoyWagon:SetExternalPathByName("karavan_path")
+				GoluBoyWagon:SetSkin(2)
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="DeleteCaravanIfExists" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			if VehP then
+				VehP:Remove()
+			end
+			if VehPP then
+				VehPP:Remove()
+			end
+			if VehPPP then
+				VehPPP:Remove()
+			end
+			if GoluBoyWagon then
+				GoluBoyWagon:Remove()
+			end
+		</script>
+	</trigger>
+				
+
+	<trigger Name="triggerExitToMap11" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR1M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			local b = SpawnMessageBox( "8801" )
+			if b == 1 then
+				local cWom = getObj("CircusMan")
+				local cWomSC = cWom:GetSpokenCount()
+				if cWomSC > 0 then
+					local hs = GetEntityByName ("FIRE01")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE02")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE03")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE04")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE05")	
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE06")
+					if hs then hs:Remove() end
+				end
+
+				TActivate("DeleteCaravanIfExists")
+				PassToMap("r1m1", "FromR1M3", -1 )
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				TActivate ("RolikExitToMap11")
+				TActivate ("RolikENDExitToMap11")
+			end
+ 		</script>
+	</trigger>
+	<trigger Name="RolikExitToMap11" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			CinemaFiltersUse()
+
+			RotationPlayerByPoints(CVector(getPos("ToR1M1")), CVector(getPos("FromR1M1")))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR1M1")))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+	<trigger Name="RolikENDExitToMap11" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR1M1")))
+
+			TDeactivate( "RolikExitToMap11" )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+
+	<trigger Name="triggerExitToMap12" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR1M2" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			if IsQuestTaken("d_FindBenInEast_Quest") or IsQuestTaken("d_FindLisaInMidragd_Quest") then 
+				local b = SpawnMessageBox( "8801" )
+				if b == 1 then
+					local cWom = getObj("CircusMan")
+					local cWomSC = cWom:GetSpokenCount()
+					if cWomSC > 0 then
+						local hs = GetEntityByName ("FIRE01")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE02")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE03")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE04")
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE05")	
+						if hs then hs:Remove() end
+						local hs = GetEntityByName ("FIRE06")
+						if hs then hs:Remove() end
+					end
+
+					TActivate("DeleteCaravanIfExists")
+					PassToMap("r1m2", "FromR1M3", -1 )
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					TActivate ("RolikExitToMap12")
+					TActivate ("RolikENDExitToMap12")
+				end
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				AddCinematicMessage( 8802, 0.5 )
+
+				TActivate ("RolikExitToMap12")
+				TActivate ("RolikENDExitToMap12")
+			end
+ 		</script>
+	</trigger>
+	<trigger Name="RolikExitToMap12" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			CinemaFiltersUse()
+
+			RotationPlayerByPoints(CVector(getPos("ToR1M2")), CVector(getPos("FromR1M2")))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR1M2")))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+	<trigger Name="RolikENDExitToMap12" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR1M2")))
+
+			TDeactivate( "RolikExitToMap12" )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+
+	<trigger Name="triggerExitToMap14" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR1M4" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			if IsQuestTaken("d_FindVrata_Quest") or IsQuestTaken("r1m4_TalkWithOldTraderAboutSecondDisk") then 
+				local b = SpawnMessageBox( "8801" )
+				if b == 1 then
+					local cWom = getObj("CircusMan")
+					if cWom then cWom:SetSpokenCount(1) end
+					local hs = GetEntityByName ("FIRE01")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE02")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE03")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE04")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE05")	
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE06")
+					if hs then hs:Remove() end
+					
+					TActivate("DeleteCaravanIfExists")
+					PassToMap("r1m4", "FromR1M3", -1 )
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					TActivate ("RolikExitToMap14")
+					TActivate ("RolikENDExitToMap14")
+				end
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				AddCinematicMessage( 8802, 0.5 )
+
+				TActivate ("RolikExitToMap14")
+				TActivate ("RolikENDExitToMap14")
+			end
+ 		</script>
+	</trigger>
+	<trigger Name="RolikExitToMap14" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+
+			CinemaFiltersUse()
+
+			RotationPlayerByPoints(CVector(getPos("ToR1M4")), CVector(getPos("FromR1M4")))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR1M4")))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+	<trigger Name="RolikENDExitToMap14" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR1M4")))
+
+			TDeactivate( "RolikExitToMap14" )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="triggerExitToMap21" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR2M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			if IsQuestTaken("d_OpenTunel_Quest") then 
+				local b = SpawnMessageBox( "8801" )
+				if b == 1 then
+				
+					local cWom = getObj("CircusMan")
+					if cWom then cWom:SetSpokenCount(1) end
+					local hs = GetEntityByName ("FIRE01")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE02")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE03")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE04")
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE05")	
+					if hs then hs:Remove() end
+					local hs = GetEntityByName ("FIRE06")
+					if hs then hs:Remove() end
+
+					PassToMap("r2m1", "FromR1M3", -1 )
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					TActivate ("RolikExitToMap21")
+					TActivate ("RolikENDExitToMap21")
+				end
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				AddCinematicMessage( 8803, 0.5 )
+
+				TActivate ("RolikExitToMap21")
+				TActivate ("RolikENDExitToMap21")
+			end
+ 		</script>
+	</trigger>
+	<trigger Name="RolikExitToMap21" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			CinemaFiltersUse()
+
+			RotationPlayerByPoints(CVector(getPos("ToR2M1")), CVector(getPos("FromR2M1")))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR2M1")))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+	<trigger Name="RolikENDExitToMap21" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR2M1")))
+
+			TDeactivate( "RolikExitToMap21" )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

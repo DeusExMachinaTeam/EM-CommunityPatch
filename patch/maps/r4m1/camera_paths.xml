@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<Path Name = "engineer">
+		<Point coord="4133.374 278.584 6017.557" rotation="-0.063 0.936 -0.238 0.250"/>
+		<Point coord="4133.374 278.584 6017.557" rotation="-0.097 0.884 -0.211 0.405"/>
+	</Path>
+
+	<Path Name = "engineer2">
+		<Point coord="4052.010 255.879 5999.663" rotation="-0.049 -0.743 0.055 0.665"/>
+		<Point coord="4052.010 255.879 5999.663" rotation="-0.082 -0.524 0.050 0.846"/>
+	</Path>
+
+	<Path Name = "molokovozExit">
+		<Point  coord="6901.536 313.774 5284.921" rotation="0.037 0.936 -0.335 -0.105"/>
+		<Point  coord="6926.370 314.351 5267.711" rotation="-0.066 0.916 -0.171 0.356"/>
+		<Point  coord="6881.158 305.112 5208.522" rotation="-0.035 0.932 -0.093 0.350"/>
+		<Point  coord="6869.420 305.785 5193.351" rotation="-0.036 0.942 -0.108 0.316"/>
+	</Path>
+
+	<Path Name = "EngineerCamPath1">
+		<Point  coord="4374.104 252.942 5883.236" rotation="-0.017 -0.770 0.020 0.638"/>
+		<Point  coord="4323.410 252.882 5895.207" rotation="-0.026 -0.822 0.037 0.568"/>
+		<Point  coord="4239.631 251.139 5938.035" rotation="0.001 -0.858 -0.001 0.513"/>
+		<Point  coord="4171.372 265.488 5924.656" rotation="-0.169 -0.392 0.073 0.901"/>
+	</Path>
+
+	<Path Name = "EngineerCamPath2">
+		<Point  coord="4171.372 265.488 5924.656" rotation="-0.169 -0.392 0.073 0.901"/>
+		<Point  coord="4146.311 260.216 5985.294" rotation="-0.037 0.226 -0.009 0.973"/>
+	</Path>
+
+	<Path Name = "EngineerCamPath3">
+		<Point  coord="4118.938 254.659 6031.023" rotation="-0.070 0.132 -0.009 0.989"/>
+		<Point  coord="4118.938 254.659 6031.023" rotation="-0.062 -0.107 0.007 0.992"/>
+	</Path>
+
+	<Path Name = "EngineerCamPath4">
+		<Point  coord="4140.220 252.064 6115.730" rotation="0.012 0.974 -0.051 -0.221"/>
+		<Point  coord="4140.220 252.064 6115.730" rotation="0.020 0.893 -0.040 -0.448"/>
+	</Path>
+
+	<Path Name = "BuharsAttackPath">
+		<Point  coord="1703.407 244.706 6140.654" rotation="-0.038 0.254 -0.010 0.966"/>
+		<Point  coord="1641.897 238.144 6272.266" rotation="-0.041 0.218 -0.009 0.975"/>
+	</Path>
+
+
+	<Path Name = "BuharsInPortPath">
+		<Point  coord="1422.299 228.675 3193.721" rotation="-0.007 0.931 -0.018 0.366"/>
+		<Point  coord="1422.299 228.675 3193.720" rotation="-0.007 0.931 -0.018 0.366"/>
+	</Path>
+
+
+	<Path Name = "OilPath1">
+		<Point  coord="6569.000 272.986 3562.821" rotation="0.001 0.998 -0.054 -0.020"/>
+		<Point  coord="6562.559 272.986 3563.092" rotation="-0.001 0.998 -0.057 0.022"/>
+	</Path>
+
+
+	<Path Name = "OilPath2">
+		<Point  coord="6526.005 274.458 3542.872" rotation="-0.014 -0.709 0.014 0.705"/>
+		<Point  coord="6509.371 275.117 3542.981" rotation="-0.014 -0.709 0.014 0.705"/>
+	</Path>
+
+
+	<Path Name = "ExitTo42Return">
+		<Point  coord="7475.230 285.147 3653.854" rotation="-0.076 -0.062 0.005 0.995"/>
+		<Point  coord="7475.230 285.147 3653.854" rotation="-0.077 0.325 -0.026 0.942"/>
+	</Path>
+
+	<Path Name = "ExitTo42Ok">
+		<Point  coord="7437.083 279.015 3691.363" rotation="0.001 -0.622 -0.001 0.783"/>
+	</Path>
+
+	<Path Name = "ExitTo11Return">
+		<Point  coord="3127.460 279.751 7451.502" rotation="-0.033 0.258 -0.009 0.966"/>
+		<Point  coord="3127.460 279.751 7451.502" rotation="-0.161 -0.452 0.083 0.874"/>
+	</Path>
+
+
+	<Path Name = "ExitTo11Ok">
+		<Point  coord="3119.839 283.629 7478.335" rotation="-0.043 0.276 -0.012 0.960"/>
+	</Path>
+
+
+	<Path Name = "FirstPriezd">
+		<Point  coord="3154.568 276.153 7451.825" rotation="-0.006 0.392 -0.002 0.920"/>
+		<Point  coord="3197.695 276.955 7426.953" rotation="-0.005 0.525 -0.003 0.851"/>
+		<Point  coord="3257.986 270.974 7411.343" rotation="0.015 0.626 0.012 0.779"/>
+	</Path>
+
+	<Path Name = "lodka1">
+		<Point  coord="1294.135 258.574 2961.988" rotation="-0.059 0.337 -0.021 0.939"/>
+		<Point  coord="1295.283 239.079 3091.007" rotation="-0.138 0.399 -0.061 0.905"/>
+	</Path>
+
+	<Path Name = "lodka2">
+		<Point  coord="1288.037 218.064 3177.231" rotation="0.012 0.879 0.022 0.475"/>
+		<Point  coord="1288.037 218.064 3177.231" rotation="-0.006 0.813 -0.009 0.582"/>
+	</Path>
+
+	<Path Name = "lodka3">
+		<Point  coord="318.837 150.000 3490.127" rotation="0.0000 0.8204 0.0000 0.5718"/>
+		<Point  coord="1134.856 215.500 3201.983" rotation="0.0000 0.8204 0.0000 0.5718"/>
+	</Path>
+
+</Paths>

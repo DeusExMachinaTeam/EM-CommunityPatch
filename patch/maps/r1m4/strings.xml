@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="|Это гиблое место. Не хочу соваться в это болото без важной причины."
+		sound="data\sounds\Speech\r1m4\r1m4_1_hero.ogg" />
+
+	<string
+		id="2"
+		modelName="mask_hero"
+		value="|Похоже, именно об этом месте и говорил Гомер. Попробую пересечь болото здесь."
+		sound="data\sounds\Speech\r1m4\r1m4_2_hero.ogg" />
+
+	<string
+		id="3"
+		modelName="mask_hero"
+		value="|Старик не обманул, под слоем жижи было твёрдое дно. Интересно, что ждёт меня по эту сторону?"
+		sound="data\sounds\Speech\r1m4\r1m4_3_hero.ogg" />
+
+	<string
+		id="4"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="132"
+		modelSlot="1"
+		value="СТРАЖ|Не приближаться! Любые подозрительные действия будут расцениваться как агрессия!"
+		sound="data\sounds\Speech\r1m4\r1m4_4_guard.ogg"
+		time="4" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		value="|Вы перевозите груз, который мне нужен. Я готов щедро заплатить."
+		sound="data\sounds\Speech\r1m4\r1m4_5_hero.ogg"
+		time="4" />
+
+	<string
+		id="6"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="132"
+		modelSlot="1"
+		value="СТРАЖ|Попытка подкупа должностного лица при исполнении!"
+		sound="data\sounds\Speech\r1m4\r1m4_6_guard.ogg"
+		time="4" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		value="|Похоже, придётся действовать по-плохому. Освободите пленника и катитесь на все четыре стороны. Второго шанса у вас не будет."
+		sound="data\sounds\Speech\r1m4\r1m4_7_hero.ogg"
+		time="4" />
+
+	<string
+		id="8"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="132"
+		modelSlot="1"
+		value="СТРАЖ|Все к орудиям! Покажем этому наглецу, как связываться со служителями порядка!"
+		sound="data\sounds\Speech\r1m4\r1m4_8_guard.ogg"
+		time="4" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		value="|Вы сами этого захотели. Главное не задеть прицеп с пленником. Все остальные пусть горят синим пламенем!"
+		sound="data\sounds\Speech\r1m4\r1m4_9_hero.ogg"
+		time="4" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		value="|Чего ждёшь? Садись в мою машину. Торопись, они могли вызвать подмогу!"
+		sound="data\sounds\Speech\r1m4\r1m4_10_hero.ogg"
+		time="4" />
+
+	<string
+		id="11"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="86"
+		modelSlot="1"
+		value="ЛИДЕР|Спасибо, что освободил меня, незнакомец. Но каковы твои мотивы? Я не уверен, могу ли тебе доверять."
+		sound="data\sounds\Speech\r1m4\r1m4_11_leader.ogg"
+		time="4" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		value="|Я заключил договор с твоими бойцами, что освобожу тебя в обмен на одну нужную мне вещь. И лучше бы им выполнить свою часть сделки!"
+		sound="data\sounds\Speech\r1m4\r1m4_12_hero.ogg"
+		time="4" />
+
+	<string
+		id="13"
+		modelName="mask_hero"
+		value="|Вот незадача, машина пленника попалась под горячую руку. Он погиб, и мне нечего предложить экстремистам..."
+		sound="data\sounds\Speech\r1m4\r1m4_13_hero.ogg"
+		time="4" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		value="|Похоже, мне придётся захватить склад силой. Невелика задача!"
+		sound="data\sounds\Speech\r1m4\r1m4_14_hero.ogg"
+		time="4" />
+
+	<string
+		id="15"
+		value="ШЕФ|Запретная зона!"
+		sound="data\sounds\Speech\r1m4\r1m4_15_boss.ogg"
+		time="4" />
+
+	<string
+		id="16"
+		modelName="mask_hero"
+		value="|О, господи! Это что ещё за...? Зачем только людям древности нужны были такие машины?"
+		sound="data\sounds\Speech\r1m4\r1m4_16_hero.ogg"
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		value="|Этот монстр охраняет проезд к Морским Вратам. Мне нужно как-то справиться с ним... Не уверен, подействуют ли на его шкуру обычные патроны."
+		sound="data\sounds\Speech\r1m4\r1m4_17_hero.ogg"
+		time="4" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		value="|Это то самое место, которое указал Гомер, но я не вижу никаких врат. Неужели всё зря?!"
+		sound="data\sounds\Speech\r1m4\r1m4_18_hero.ogg"
+		time="4" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		value="|Что это лезет из-под воды? Покой нам только снится... Только прикончил одного монстра, как второй на подходе... Впрочем, этот поспокойнее будет."
+		sound="data\sounds\Speech\r1m4\r1m4_19_hero.ogg"
+		time="4" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		value="|Похоже, он приглашает меня к себе в пасть. Так это же и есть Морские Врата! В животе чудища я и доплыву до Оракула. Страшно, конечно... Ну, терять мне нечего. Только вперёд!"
+		sound="data\sounds\Speech\r1m4\r1m4_20_hero.ogg"
+		time="4" />
+
+	<string
+		id="21"
+		modelName="mask_hero"
+		value="|Эти бандиты больше не будут мешать торговцам."
+		sound="data\sounds\Speech\r1m4\r1m4_21_hero.ogg"
+		time="4" />
+
+	<string
+		id="22"
+		modelName="mask_hero"
+		value="|Осталось сообщить в Ольм об освобождении склада."
+		sound="data\sounds\Speech\r1m4\r1m4_22_hero.ogg"
+		time="4" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		value="Пока что я не знаю дорогу, поэтому останусь здесь." />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		value="Что-то там непонятное. Не буду туда соваться." />
+</resource>

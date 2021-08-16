@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Simple crosshair at the center of the screen, fading to targetinfownd when pointing at an NPC -->
+<!-- Related to targetinfowndinmaininterface.xml -->
+<Prefabs>
+	<Node
+		name="SmartCursor"
+		class="Wnd"
+		org="932.300 508.000 56.000 56.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico_hd\SmartCursorWnd\small_cross.dds"
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Animations/>
+	</Node>
+</Prefabs>
