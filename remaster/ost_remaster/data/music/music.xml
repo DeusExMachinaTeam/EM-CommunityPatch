@@ -3,7 +3,7 @@
 
 	<model
 		id="mainmenu"
-		file="data\music\mainmenu_compatch.ogg"
+		file="data\music\mainmenu_remaster.ogg"
 		/>
 		
 		
@@ -34,7 +34,7 @@
 	<!-- Blocks -->		
 	<model
 		id="block0_driving"
-		file="data\music\blocks\Region1\1-3\driving1.ogg"
+		file="data\music\blocks\Region1\1-3\driving1_remaster.ogg"
 		/>
 		
 	<model
@@ -50,7 +50,7 @@
 
 	<model
 		id="block1_driving"
-		file="data\music\blocks\Region1\1-3\driving2.ogg"
+		file="data\music\blocks\Region1\1-3\driving2_remaster.ogg"
 		/>
 		
 	<model
@@ -66,7 +66,7 @@
 
 	<model
 		id="r1_4_driving"
-		file="data\music\blocks\Region1\4\driving7.ogg"
+		file="data\music\blocks\Region1\4\driving7_remaster.ogg"
 		/>
 		
 	<model
@@ -82,7 +82,7 @@
 
 	<model
 		id="r2_1_driving"
-		file="data\music\blocks\Region2\France\driving6.ogg"
+		file="data\music\blocks\Region2\France\driving6_remaster.ogg"
 		/>
 		
 	<model
@@ -98,7 +98,7 @@
 
 	<model
 		id="r2_2_driving"
-		file="data\music\blocks\Region2\Neutral\driving3.ogg"
+		file="data\music\blocks\Region2\Neutral\driving3_remaster.ogg"
 		/>
 		
 	<model
@@ -148,7 +148,7 @@
 
 	<model
 		id="r4_1_driving"
-		file="data\music\blocks\Region4\Desert_1\driving8.ogg"
+		file="data\music\blocks\Region4\Desert_1\driving8_remaster.ogg"
 		/>
 		
 	<model
