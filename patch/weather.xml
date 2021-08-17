@@ -1077,7 +1077,7 @@
 		waterWaveSizeBig="0.440"
 		waterWaveSizeSmall="1.370"
 		waterCourseAngle="0.960"
-		waterSpecularM="1.000"
+		waterSpecularM="12.000"
 		waterSpecularS="0.002">
 		<Sky
 			sunriseColor="128.000 128.000 128.000"
