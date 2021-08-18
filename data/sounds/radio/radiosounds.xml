@@ -29,7 +29,7 @@
 			<Sound id="first_see_other" samples="36 37" probability="50"/>
 			<Sound id="player_hit_me" samples="38 39" probability="100"/>
 			<Sound id="player_become_enemy" samples="40 41" probability="100"/>
-			<Sound id="enemy_broken" samples="42 43" probability="50"/>
+			<Sound id="enemy_broken" samples="42 43		" probability="50"/>
 			<Sound id="self_broken" samples="44 45" probability="50"/>
 			<Sound id="enemy_died" samples="46 47" probability="50"/>
 			<Sound id="self_died" samples="48 49 50" probability="50"/>
