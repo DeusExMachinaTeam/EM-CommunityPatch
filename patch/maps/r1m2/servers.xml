@@ -1,0 +1,2588 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="cargo"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="box"
+			file="data\models\AnimModels.xml" />
+		<Item
+			id="cub"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="conteiner"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mask_father"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mask_hero"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r1_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r1_woman"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mask_lisa"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mask_ben"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="point"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dweller_player"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dweller_father"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dweller_lisa"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dweller_felix"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_stone1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_stone2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_stone3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_stone4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sml_stone1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sml_stone2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sml_stone3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boulder_stone1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boulder_stone2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_7"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_8"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_9"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_10"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_11"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_12"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="elka1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="elka2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="elka3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kustarnik1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kustarnik2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kustarnik3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="listvenoe1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="listvenoe2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="listvenoe3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="specter01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="specter01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hornet01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hornet01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="vulcan01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="vulcan01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="minin"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_gate01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="stolb1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="stolb2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="oilmine1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="oilmine2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="tube1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="tube2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="tube3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_dot1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_wall1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_wall2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_dot1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_dot2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_wall1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_wall2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bridge_concrete"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="transformator1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="transformator2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bar1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bar2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="house1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="house2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="house3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="townhall"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="workshop1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="workshop2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="civilhouse1_skin"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="civilhouse2_skin"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="civilhouse3_skin"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brokvehicle1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brokvehicle2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_bigwall1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_dot1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_dot2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_dot3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_dot4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_smallwall1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="wood_fence1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="wood_fence_broken1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="wood_fence2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="tankeg"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="civilhouse5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="civilhouse6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="petrolhouse1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="petrolhouse2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="petrolhouse3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="petrolstation"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="billboard1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="billboard2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rr_sign1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bridge_stone"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="windmil"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_dot_brocken2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rr_column1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rr_lamp"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rusty_car_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rusty_car_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rusty_car_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rusty_car_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="waste1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="waste2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="waste3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_cube"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_line"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_round_line"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="angar1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="angar2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins7"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruin_town_hose_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruin_town_hose_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="car_cemetery05"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r1_Dub_Kust1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r1_Dub_Kust2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="electro_stolb2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="electro_stolb3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lamppost1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lamppost2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lamppost3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_tube1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="fence_long_brockcen1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_tube_middle"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_box"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="metal_plate1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="metal_plate3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_cistern1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_conteiner2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="metal_tube_angle"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="metal_tube1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="poddon"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_element"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="wood_fence2_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="billboard1_broken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="billboard2_broken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_wall1_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_wall2_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_wall1_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_wall2_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_1_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_1_destroy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_2_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_2_destroy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_3_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_3_destroy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_structure_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_structure_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign002_broken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign003_broken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign005_broken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="arena_barricade10"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="arena_barricade11"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="pack"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="IntactCable"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="IntactCable_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="BrokenCable"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="BrokenCable_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lamppost1_broken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lamppost2_broken"
+			file="data\models\AnimModels.xml" />
+
+<!-- objects -->
+		<Item
+			id="exit"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			 id="cannonbullet"
+			 file="data\models\AnimModels.xml"/>
+
+<!-- dweller ragdoll -->
+		<Item
+			id="dweller"
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller3" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- Segments -->
+		<Item 
+			id="segments01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments04" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments05" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments06" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_04" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_05" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_06" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_07" 
+			file="data\models\AnimModels.xml"/>
+		<Item 
+			id="segments_big_08"
+			file="data\models\AnimModels.xml"/>
+
+<!-- For Effect -->
+		<Item 
+			id="barrel_debris" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="barrel_debris_1" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="brick_debris1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="brick_debris2" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="tankeg_dyn" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sack_debris" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="wood_debris1" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="wood_debris2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sedge_grass_3" 
+			file="data\models\AnimModels.xml"/>
+			
+<!-- goods -->
+		<Item 
+			id="back_exp" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="books" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bottles" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="detail" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="doski" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="kanistr" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="koroldrov" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lom" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mikro" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="potatoe" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rabochee_oborudovanie" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shkatulka_a" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="tobacco" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- gadgets -->
+		<Item 
+			id="gadget_01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_04" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_05" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_06" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_07" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_08" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_09" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_10" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_11" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_12" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- guns -->
+		<Item 
+			id="dragon01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dragon01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="octopus01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="octopus01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bumblebee01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bumblebee01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_swingfire01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_swingfire01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="kord01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="kord01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="pkt01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="pkt01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunter01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mrak01R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mrak01Rgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mrak01L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mrak01Lgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rainmetal01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rainmetal01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rapier01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rapier01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="flag01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="flag01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="storm01" 
+			file="data\models\AnimModels.xml"/>
+		<Item 
+			id="storm01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cyclops01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cyclops01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rocket01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_sml_pulemet01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_elephant01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_elephant01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_hammer01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_hammer01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rocket_sml01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rocket_long01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rockets" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rockets_big01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_big_gun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_big_gun02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="giant_hurricane01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="giant_hurricane01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hail01L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hail01Lgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hail01R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hail01Rgun" 
+			file="data\models\AnimModels.xml"/>
+
+
+		<Item 
+			id="vector01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fagot01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="vector01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fagot01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="kpvt01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="kpvt01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="omega01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="omega01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mars01L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mars01Lgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mars01R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mars01Rgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="zeus01L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="zeus01Lgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="zeus01R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="zeus01Rgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="odin01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="odin01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="maxim01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="maxim01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunter01L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunter01Lgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunter01R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunter01Rgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="plasma01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="laser01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="laser02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mine_01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="plasma_big01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotgun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotgun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="MasloRazliF" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="Dimzavesa" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="meXaNizm" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="minoYkladchiK" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="Turboakselerator" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mine02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="MasloRazliFgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="Dimzavesagun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="meXaNizmgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="minoYkladchiKgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="Turboakseleratorgun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="minoYkladchiK_1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="minoYkladchiK_2" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- vehicles -->
+		<Item 
+			id="tankChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="tank01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="tank01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="tankWheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dozerChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dozerCab01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dozerSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dozerSusp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dozerWheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml1Chassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 	
+			id="sml1Cab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="sml1Susp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml1Susp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml1Wheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml1Wheel02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml2Chassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml2Cab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="sml2Cab01_formula" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="sml2Susp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml2Susp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml2Wheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml2Wheel02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml3Chassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml3Cab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="sml3Susp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml3Susp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 	
+			id="sml3Wheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml4Chassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml4Cab01" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="sml4Susp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 	
+			id="sml4Susp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml4Wheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml4Wheel02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="scoutChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="scoutCab01" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="scoutCab02" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="scoutCab03" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="scoutSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="scoutSusp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="scoutWheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="scoutWheel02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 	
+			id="fighterCab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="fighterCab02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 	
+			id="fighterSusp01l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterSusp01r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterSusp02l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterSusp02r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterWheel01l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterWheel01r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterWheel02l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fighterWheel02r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunterChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunterCab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="hunterCab02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="hunterSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunterWheel01l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hunterWheel01r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="cruiserCab02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="cruiserSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserWheel01l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserWheel01r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bugChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bugCab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="bugCab02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="bugCab03" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="bugCargo01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="bugCargo02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="bugCargo03" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="bugSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bugSusp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bugWheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bugWheel02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="uralChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="uralCab01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCab02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCab03" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCab04" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCab05" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCargo01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCargo02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCargo03" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCargo04" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralCargo05" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="uralSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="uralSusp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="uralWheel01l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="uralWheel01r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="uralWheel02l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="uralWheel02r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="molokovozChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="molokovozCab01" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="molokovozCab02" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="molokovozCab03" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="molokovozCargo01" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="molokovozCargo02" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="molokovozCargo03" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="molokovozCargo04" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="molokovozSusp01l" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="molokovozSusp01r" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="molokovozSusp02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="molokovozWheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="molokovozTrailer01Chassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="molokovozTrailer01Basket" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="belazChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="belazCab01" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCab02" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCab03" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCab04" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCab05" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCargo01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCargo02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCargo03" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCargo04" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazCargo05" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="belazSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="belazWheel01L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="belazWheel01R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mirotvorecChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mirotvorecSusp01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mirotvorecWheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mirotvorecCab01" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCargo01" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCab02" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCargo02" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCab03" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCargo03" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCab04" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 	
+			id="mirotvorecCargo04" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCab05" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="mirotvorecCargo05" 
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="robotshassis01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension01_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension01_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension02_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension02_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension03_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension03_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension04_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension04_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension05_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotsuspension05_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotcab01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 	
+			id="robotwheel_big_left" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotwheel_big_right" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotwheel_sml_left" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotwheel_sml_right" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotcab02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robotshassis02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension01_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension01_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension02_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension02_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension03_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension03_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension04_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension04_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension05_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension05_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension06_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension06_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension07_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension07_R" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension08_L" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="robot2suspension08_R" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- quest items -->
+		<Item 
+			id="artefact1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="artefact2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="monster_head" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mol_stone" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="parsel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_bomb" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_drags" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_head1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_head2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_letter" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_medicine_box" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 	
+			id="quest_komp_splav" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="quest_wine_barrels" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_cd1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_cd2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="boss_barrel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="repair_robot" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_key_for_submarine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quest_key_for_tunnel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="heavy_dot_brocken1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_dot_brocken2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_dot_brocken3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="heavy_dot_brocken4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="light_dots_brocken1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="light_dots_brocken2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_dots_brocken1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_dots_brocken2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sack_dot_brocken1"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<StaticModelsServer />
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer>
+		<Item id="S_CRASH_METAL01" />
+		<Item id="S_CRASH_METAL02" />
+		<Item id="S_CRASH_METAL03" />
+		<Item id="S_CRASH_METAL04" />
+		
+		<Item id="S_CRASH_TREE01" />
+		<Item id="S_CRASH_TREE02" />
+		<Item id="S_CRASH_TREE03" />
+		<Item id="S_CRASH_TREE04" />
+		<Item id="S_CRASH_TREE05" />
+		
+		<Item id="S_CRASH_WOOD01" />
+		<Item id="S_CRASH_WOOD02" />
+		<Item id="S_CRASH_WOOD03" />
+		<Item id="S_CRASH_WOOD04" />
+		<Item id="S_CRASH_WOOD05" />
+		<Item id="S_CRASH_WOOD06" />
+		<Item id="S_CRASH_WOOD07" />
+		<Item id="S_CRASH_WOOD08" />
+<!--            <Item id="S_WOODVEHICLEHIT" /> -->
+		<Item id="S_WOODVEHICLECRASH" />
+            <Item id="S_BRICKVEHICLEHIT01" />
+            <Item id="S_BRICKVEHICLEHIT02" />
+            <Item id="S_SACKVEHICLEHIT" />
+            <Item id="S_VEHICLESPARKLE" />
+            <Item id="S_VEHICLESPARKLE_SLOW" />
+            <Item id="S_VEHICLEONGROUND" />
+            <Item id="S_VEHICLEONGROUND_SLOW" />
+            <Item id="S_STATICSSPARKLE" />
+            <Item id="S_STATICSSPARKLE_SLOW" />
+
+
+		<!-- Braking -->
+
+		<Item id="S_BRAKE01" />
+		<Item id="S_PNEUMO_BRAKE01" />
+		<Item id="S_GEAR_SHIFT01" />
+
+		<!-- Engines --> 
+
+		<Item id="S_ENGINE_BEETLE_1_HIGH" />
+		<Item id="S_ENGINE_BEETLE_2_HIGH" />
+		<Item id="S_ENGINE_BEETLE_3_HIGH" />
+
+		<Item id="S_ENGINE_MOLOKO_1_HIGH" />
+		<Item id="S_ENGINE_MOLOKO_2_HIGH" />
+		<Item id="S_ENGINE_MOLOKO_3_HIGH" />
+
+		<Item id="S_ENGINE_URAL_1_HIGH" />
+		<Item id="S_ENGINE_URAL_2_HIGH" />
+		<Item id="S_ENGINE_URAL_3_HIGH" />
+		<Item id="S_ENGINE_URAL_4_HIGH" />
+		<Item id="S_ENGINE_URAL_5_HIGH" />
+		<Item id="S_ENGINE_BELAZ_1_HIGH" />
+		<Item id="S_ENGINE_BELAZ_2_HIGH" />
+		<Item id="S_ENGINE_BELAZ_3_HIGH" />
+		<Item id="S_ENGINE_BELAZ_4_HIGH" />
+		<Item id="S_ENGINE_BELAZ_5_HIGH" />
+
+		<Item id="S_BELAZ_ENGINE_HIGH" />
+
+
+		<Item id="S_ENGINE_MIR_1_HIGH" />
+		<Item id="S_ENGINE_MIR_2_HIGH" />
+		<Item id="S_ENGINE_MIR_3_HIGH" />
+		<Item id="S_ENGINE_MIR_4_HIGH" />
+		<Item id="S_ENGINE_MIR_5_HIGH" />
+		<Item id="S_ENGINE_SMALL_1_HIGH" />
+		<Item id="S_ENGINE_SCOUT_1_HIGH" />
+		<Item id="S_ENGINE_FIGHTER_1_HIGH" />
+		<Item id="S_ENGINE_HUNTER_1_HIGH" />
+		<Item id="S_ENGINE_CRUISER_1_HIGH" />
+
+		<!-- Missiles --> 
+
+		<Item id="S_MISSILE1" />
+		<Item id="S_MISSILE2" />
+
+		<!-- Shooting --> 
+
+
+		<Item id="S_SHOOTING_CANNON01" />
+		<Item id="S_SHOOTING_CANNON02" />
+		<Item id="S_SHOOTING_MACHINE_GUN" />
+		<Item id="S_SHOOTING_MACHINE_GUN_SINGLE" />
+		<Item id="S_SHOOTING_MACHINE_GUN_LOOP" />
+		<Item id="S_SHOOTING_2MACHINE_GUN_SINGLE" />
+		<Item id="S_SHOOTING_SHOT_GUN01" />
+		<Item id="S_SHOOTING_SHOT_GUN02" />
+		<Item id="S_SHOOTING_MISSILE_LAUNCH01" />
+		<Item id="S_SHOOTING_MISSILE_LAUNCH02" />
+		<Item id="S_SHOOTING_LASER_GUN01" />
+		<Item id="S_SHOOTING_LASER_GUN02" />
+		<Item id="S_SHOOTING_LASER_GUN03" />
+		<Item id="S_SHOOTING_PLASMA_GUN01" />
+		<Item id="S_SHOOTING_PLASMA_GUN02" />
+		<Item id="S_SHOOTING_ELEPHANT" />
+		<Item id="S_SHOOTING_FLAG" />
+		<Item id="S_SHOOTING_ODIN" />
+		<Item id="S_SHOOTING_RAINMETAL" />
+
+		<Item id="S_SHOOTING_VECTOR" />
+		<Item id="S_SHOOTING_VULCAN" />
+		<Item id="S_SHOOTING_CYCLOPS" />
+		<Item id="S_SHOOTING_DRAGON" />
+		<Item id="S_SHOOTING_HAMMER" />
+		<Item id="S_SHOOTING_HURRICANE" />
+		<Item id="S_SHOOTING_SWINGFIRE" />
+		<Item id="S_SHOOTING_FAGOT" />
+		<Item id="S_SHOOTING_HORNET" />
+
+		<Item id="S_SHOOTING_KORD" />
+		<Item id="S_SHOOTING_MAXIM" />
+		<Item id="S_SHOOTING_PKT" />
+		<Item id="S_SHOOTING_STORM" />
+		<Item id="S_SHOOTING_SPECTER" />
+		<Item id="S_SHOOTING_KPVT" />
+		<Item id="S_SHOOTING_RAPIER" />
+		<Item id="S_SHOOTING_BUMBLEBEE" />
+		<Item id="S_SHOOTING_OMEGA" />
+		<Item id="S_SHOOTING_OCTOPUS" />
+		<Item id="S_SHOOTING_HAIL" />
+		<Item id="S_SHOOTING_HUNTER" />
+		<Item id="S_SHOOTING_MARS" />
+		<Item id="S_SHOOTING_MRAK" />
+		<Item id="S_SHOOTING_ZEUS" />
+		<Item id="S_SHOOTING_OIL" />
+		<Item id="S_SHOOTING_HEDGEHOG1_MINE" />
+		<Item id="S_SHOOTING_HEDGEHOG2_MINE" />
+		<Item id="S_SHOOTING_NAILS_ON_GROUND" />
+		<Item id="S_SHOOTING_SMOKE" />
+		<Item id="S_SHOOTING_SQUAL_MINE" />
+		<Item id="S_SHOOTING_TURBO" />
+		<Item id="S_TANK_SHOOT" />
+
+		<!-- Shoot hits --> 
+
+		<Item id="S_SHOOT_HIT01" />
+		<Item id="S_SHOOT_HIT02" />
+		<Item id="S_SHOOT_HIT03" />
+		<Item id="S_SHOOT_HIT04" />
+		<Item id="S_SHOOT_HIT05" />
+		<Item id="S_SHOOT_HIT06" />
+		<Item id="S_SHOOT_HIT07" />
+		<Item id="S_SHOOT_HIT08" />
+		<Item id="S_SHOOT_HIT09" />
+		<Item id="S_SHOOT_HIT10" />
+		<Item id="S_SHOOT_HIT11" />
+		<Item id="S_SHOOT_HIT12" />
+		<Item id="S_SHOOT_HIT13" />
+		<Item id="S_SHOOT_HIT14" />
+		<Item id="S_BULLET09" />
+		<Item id="S_BULLET05" />
+
+		<!-- Explosions --> 
+
+
+		<Item id="S_EXPLOSION01" />
+		<Item id="S_EXPLOSION02" />
+		<Item id="S_EXPLOSION03" />
+		<Item id="S_EXPLOSION04" />
+		<Item id="S_EXPLOSION05" />
+		<Item id="S_EXPLOSION06" />
+		<Item id="S_EXPLOSION07" />
+		<Item id="S_EXPLOSION08" />
+		<Item id="S_EXPLOSION09" />
+		<Item id="S_EXPLOSION10" />
+
+		<!-- Braking -->
+
+		<Item id="S_BRAKING01" />
+		<Item id="S_BRAKING02" />
+
+		<!-- Horns -->
+
+		<Item id="S_HORN01" />
+		<Item id="S_HORN02" />
+		<Item id="S_HORN03" />
+		<Item id="S_HORN04" />
+		<Item id="S_HORN05" />
+		<Item id="S_HORN06" />
+		<Item id="S_HORN07" />
+		<Item id="S_HORN08" />
+
+		<!-- Гром -->
+
+		<Item id="S_THUNDER" />
+		<Item id="S_RAIN" />
+
+
+		<!-- Starting -->
+
+		<Item id="S_STARTING01" />
+		<Item id="S_STARTING02" />
+		<Item id="S_STARTING03" />
+		<Item id="S_STARTING04" />
+		<Item id="S_STARTING05" />
+		<Item id="S_STARTING06" />
+		<Item id="S_STARTING07" />
+		<Item id="S_STARTING08" />
+		<Item id="S_STARTING09" />
+		<Item id="S_SOMESHOT" />
+		<Item id="S_SHELL_SMALL" />
+		<Item id="S_SHELL_MEDIUM" />
+		<Item id="S_MISSILE_FLAME" />
+		<Item id="S_HORNET_TAIL" />
+		<Item id="S_STATIC07" />
+		<Item id="S_WATER02" />
+		<Item id="S_BULLET01" />
+		<Item id="S_ROAD04" />
+		<Item id="S_ROCK05" />
+		<Item id="S_GROUND06" />
+		<Item id="S_SAND03" />
+		<Item id="S_GRASS01" />
+		<Item id="S_ROCK04" />
+		<Item id="S_BULLET04" />
+		<Item id="S_SAND04" />
+		<Item id="S_WOOD05" />
+		<Item id="S_WATER_EXPL" />
+		<Item id="S_STATIC_EXPL" />
+		<Item id="S_CAR_EXPL" />
+		<Item id="S_ROAD_EXPL" />
+		<Item id="S_ROCK_EXPL" />
+		<Item id="S_GROUND_EXPL" />
+		<Item id="S_SAND_EXPL" />
+		<Item id="S_GROUND_EXPL" />
+		<Item id="S_WOOD_EXPL" />
+		<Item id="S_WATER_AC" />
+		<Item id="S_STATIC_AC" />
+		<Item id="S_CAR_AC" />
+		<Item id="S_ROAD_AC" />
+		<Item id="S_ROCK_AC" />
+		<Item id="S_GROUND_AC" />
+		<Item id="S_SAND_AC" />
+		<Item id="S_WOOD_AC" />
+		<Item id="S_WATER_GR" />
+		<Item id="S_STATIC_GR" />
+		<Item id="S_CAR_GR" />
+		<Item id="S_ROAD_GR" />
+		<Item id="S_ROCK_GR" />
+		<Item id="S_GROUND_GR" />
+		<Item id="S_SAND_GR" />
+		<Item id="S_WOOD_GR" />
+		<Item id="S_WATER_LAS" />
+		<Item id="S_STATIC_LAS" />
+		<Item id="S_CAR_LAS" />
+		<Item id="S_ROCK_LAS" />
+		<Item id="S_GROUND_LAS" />
+		<Item id="S_SAND_LAS" />
+		<Item id="S_PLAZMA01" />
+		<Item id="S_PLAZMA02" />
+		<Item id="S_PLAZMA03" />
+		<Item id="S_PLAZMA04" />
+		<Item id="S_WATER_BL" />
+		<Item id="S_STATIC_BL" />
+		<Item id="S_CAR_BL" />
+		<Item id="S_ROCK_BL" />
+		<Item id="S_GROUND_BL" />
+		<Item id="S_SAND_BL" />
+		<Item id="S_WOOD_BL" />
+
+		<!-- Bosses -->
+
+		<Item id="S_BOSS01_STAND1" />
+		<Item id="S_BOSS01_STAND2" />
+		<Item id="S_BOSS01_ATTACK1" />
+		<Item id="S_BOSS01_ATTACK2" />
+		<Item id="S_BOSS01_BLOCK1" />
+		<Item id="S_BOSS01_BLOCK2" />
+
+
+
+		<Item id="S_BOAT_STAND1" />
+		<Item id="S_BOAT_STAND2" />
+
+		<Item id="S_BOSS02_STAND1" />
+		<Item id="S_BOSS02_STAND2" />
+		<Item id="S_BOSS02_ATTACK1" />
+		<Item id="S_BOSS02_ATTACK2" />
+		<Item id="S_BOSS02_BLOCK1" />
+		    
+
+		<Item id="S_BOSS03_STAND1" />
+
+		<Item id="S_BOSS04_STAND1" />
+
+
+
+		<!-- Environment -->
+		<Item id="S_SEA" />
+		<Item id="S_WIND_GRASS" />
+		<Item id="S_MARSH" />
+		<Item id="S_MOUNT" />
+		<Item id="S_LAKE" />
+
+		<Item id="S_FOREST" />
+		<Item id="S_DESERT" />
+		<Item id="S_JUNGLE" />
+
+		<Item id="S_OIL_FIELD" />
+		<Item id="S_VILLAGE01" />
+		<Item id="S_VILLAGE_BURNING01" />
+
+		<Item id="S_MAN_DEATH01"/>
+		<Item id="S_MAN_DEATH02"/>
+		<Item id="S_MAN_SCREAM1"/>
+		<Item id="S_MAN_SCREAM2"/>
+		<Item id="S_WOODVEHICLEHIT1"/>
+	      <Item id="S_WOODVEHICLEHIT2"/>
+	      <Item id="S_WOODVEHICLEHIT3"/>
+		<Item id="S_WOODVEHICLECRASH"/>
+		<Item id="S_BRICKVEHICLEHIT01"/>
+		<Item id="S_BRICKVEHICLEHIT02"/>
+            <Item id="S_BRICKVEHICLEHIT03"/>
+
+		<Item id="S_SACKVEHICLEHIT"/>
+            <Item id="S_SACKVEHICLEHIT02"/>
+            <Item id="S_TREEVEHICLECRASH"/>
+		<Item id="S_VEHICLEONGROUND"/>
+		<Item id="S_VEHICLESPARKLE"/>
+		<Item id="S_VEHICLEONGROUND"/>
+		<Item id="S_DRIFT01"/>
+            <Item id="S_CARJUMP"/>
+
+
+		<Item id="S_VEH_HIT_BULLET01"/>
+		<Item id="S_VEH_HIT_BULLET02"/>
+		<Item id="S_VEH_HIT_BULLET03"/>
+		<Item id="S_VEH_HIT_BULLET04"/>
+		<Item id="S_VEH_HIT_BULLET05"/>
+		<Item id="S_VEH_HIT_BULLET06"/>
+		<Item id="S_VEH_HIT_BULLET07"/>
+		<Item id="S_VEH_HIT_BULLET08"/>
+		<Item id="S_VEH_HIT_BULLET09"/>
+		<Item id="S_VEH_HIT_BULLET10"/>
+		<Item id="S_VEH_HIT_BULLET11"/>
+		<Item id="S_VEH_HIT_BULLET12"/>
+		<Item id="S_VEH_HIT_BULLET13"/>
+
+		<Item id="S_BRAKE"/>
+		<Item id="S_RECHARGE_WEAPON"/>
+		<Item id="S_CAR_BURNING_SMALL"/>
+		<Item id="S_CAR_BURNING"/>
+
+            <Item id="S_ENGINE_TANK_HIGH"/>
+		<Item id="S_SHOOTING_ROBOTGUN_01"/>
+
+	</SoundsServer>
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>
