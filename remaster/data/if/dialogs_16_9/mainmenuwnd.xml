@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu window, containing button list with starting and quiting game, options etc -->
+<Prefabs>
+	<Node
+		name="mainMenu"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="512"
+		order="0"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff8f8f8f">
+		<Node
+			name="itemNewGame"
+			org="1423.000 290.000 338.000 45.000"
+			style="265728"
+			order="0"
+			id="600101"
+			caption="^New Game^"
+			tip="^StartNetGame^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="itemLoad"
+			org="1423.000 374.000 338.000 45.000"
+			style="265728"
+			order="0"
+			id="600102"
+			caption="^Load Game^"
+			tip="^OpenSavesList^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="itemQuit"
+			org="1423.000 712.000 338.000 45.000"
+			style="265728"
+			order="0"
+			id="600100"
+			caption="^Exit^"
+			tip="^Quit to Windows^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="itemOptions"
+			org="1423.000 543.000 338.000 45.000"
+			style="265728"
+			order="1"
+			id="600103"
+			caption="^Options^"
+			tip="^HandleGameOptions^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="itemCredits"
+			org="1423.000 627.000 338.000 45.000"
+			style="265728"
+			order="1"
+			id="600105"
+			caption="^Credits^"
+			tip="^ShowCredits^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnChangeProfile"
+			org="1423.000 458.000 338.000 45.000"
+			style="265728"
+			order="3"
+			id="600106"
+			caption="^Profile^"
+			tip="^ChangeProfile^"
+			backimage=""
+			paneName="PaneBtnBrown"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<!-- <Node
+			name="itemIntro"
+			org="1248.000 627.000 338.000 45.000"
+			style="265728"
+			order="1"
+			id="600104"
+			caption="^Intro^"
+			tip="^ShowIntro^"
+			backimage=""
+			paneName="defaultBtn"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f"
+			btnIsImaged="1"
+			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
+			btnImageDown="data\if\ico\Mainmenu\mm_button_2.dds"
+			btnImageIn="data\if\ico\Mainmenu\mm_button_1b.dds"
+			class="ButtonWnd">
+			<Animations/>
+		</Node> -->
+
+		<Node
+			name="wndVersion"
+			class="Wnd"
+			org="21.000 21.000 788.000 25.000"
+			style="2880"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndProfile"
+			class="Wnd"
+			org="592.000 976.000 759.000 42.000"
+			style="3904"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffcccccc"
+			textColorDisabled="ff8f8f8f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndTopPanel"
+			class="Wnd"
+			org="0.000 0.000 1920.000 240.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico_hd\SplashWnd\loading_up.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndBottomPanelPicture"
+			class="Wnd"
+			org="0.000 774.000 1920.000 240.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico_hd\MainMenu\Mainmenu_down.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndBottomPanelBg"
+			class="Wnd"
+			org="0.000 844.000 1920.000 360.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="WndNoAlpha"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndMainBg"
+			class="Wnd"
+			org="1387.000 179.000 410.000 820.000"
+			style="768"
+			order="4"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico_hd\MainMenu\menu_bkg.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="fffed11b"
+			textColorDisabled="ff8f8f8f">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

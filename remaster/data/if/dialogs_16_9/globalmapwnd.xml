@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Global map showing all game locations -->
+<Prefabs>
+	<Node
+		name="GlobalMapWnd"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1065.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico_hd\MotherPanel\map_quest_journal_texture.dds"
+		paneName="PaneGray"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="btnToLocalMap"
+			class="ButtonWnd"
+			org="151.000 159.000 90.000 56.000"
+			style="262656"
+			order="1"
+			id="300001"
+			caption=""
+			tip="^ToLocalMap^"
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			btnIsImaged="1"
+			btnImage="data\if\ico\GlobalMap\map_mode_zoomin_e.dds"
+			btnImageDown="data\if\ico\GlobalMap\map_mode_zoomin_p.dds"
+			btnImageIn="data\if\ico\GlobalMap\map_mode_zoomin_s.dds"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="emboss_btnToLocalMap"
+			class="Wnd"
+			org="148.000 156.000 96.000 62.000"
+			style="768"
+			order="1"
+			id="300001"
+			caption=""
+			tip="^ToLocalMap^"
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="r3m1_ico"
+			class="ImageWnd"
+			org="689.000 483.000 96.000 96.000"
+			style="512"
+			order="1"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r3m2_ico"
+			class="ImageWnd"
+			org="670.000 352.000 96.000 96.000"
+			style="512"
+			order="2"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r2m1_ico"
+			class="ImageWnd"
+			org="714.000 625.000 96.000 96.000"
+			style="512"
+			order="3"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r2m2_ico"
+			class="ImageWnd"
+			org="562.000 715.000 96.000 96.000"
+			style="512"
+			order="4"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r1m3_ico"
+			class="ImageWnd"
+			org="1000.000 558.000 96.000 96.000"
+			style="512"
+			order="5"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r1m4_ico"
+			class="ImageWnd"
+			org="978.000 346.000 96.000 96.000"
+			style="512"
+			order="6"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r1m2_ico"
+			class="ImageWnd"
+			org="877.000 718.000 96.000 96.000"
+			style="512"
+			order="7"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r1m1_ico"
+			class="ImageWnd"
+			org="1032.000 688.000 96.000 96.000"
+			style="512"
+			order="8"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r4m1_ico"
+			class="ImageWnd"
+			org="1146.000 836.000 96.000 96.000"
+			style="512"
+			order="9"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="r4m2_ico"
+			class="ImageWnd"
+			org="1291.000 771.000 96.000 96.000"
+			style="512"
+			order="10"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lnHorz0"
+			class="LineWnd"
+			org="352.000 503.000 1218.000 3.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMinimap"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			lineDirection="0"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lnHorz1"
+			class="LineWnd"
+			org="352.000 806.000 1218.000 3.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMinimap"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			lineDirection="0"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lnVert0"
+			class="LineWnd"
+			org="656.000 255.000 3.000 738.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMinimap"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			lineDirection="1"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lnVert1"
+			class="LineWnd"
+			org="961.000 255.000 3.000 738.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMinimap"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			lineDirection="1"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lnVert2"
+			class="LineWnd"
+			org="1264.000 255.000 3.000 738.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMinimap"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			lineDirection="1"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndChart"
+			class="ImageWnd"
+			org="352.000 255.000 1218.000 738.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneChart"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			image="data\if\ico_hd\GlobalMap\gmap.dds"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="wndChartFrame"
+			class="Wnd"
+			org="338.000 240.000 1246.000 768.000"
+			style="768"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff505050"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_TOP"
+				animationSpeed="1400"
+				animationAccel="1000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_BOTTOM"
+				animationSpeed="1400"
+				animationAccel="1000"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+		</Animations>
+	</Node>
+</Prefabs>

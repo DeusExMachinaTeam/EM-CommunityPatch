@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
+
+<icons>
+<!-- <Item id="Cross"              	file="data\if\ico\TownDlg\T_Bar.dds"		file1=""/> -->
+
+<!--Inventory-->
+	<Item id="Cell"             	file="data\if\ico_hd\InventoryDlg\cell_free.dds" 		file1=""/>
+	<Item id="CellSelected"     	file="data\if\ico\InventoryDlg\cell_busy.dds" 		file1=""/>
+	<Item id="CellSuitable"     	file="data\if\ico\InventoryDlg\color_green.dds" 	file1=""/>
+	<Item id="CellUnsuitable"   	file="data\if\ico\InventoryDlg\color_red.dds" 		file1=""/>
+	<Item id="BgUnsuitable"    		file="data\if\ico\InventoryDlg\color_red.dds" 		file1=""/>
+	<Item id="ItemUncompatible" 	file="data\if\ico_hd\InventoryDlg\lumber.dds" 			file1=""/>
+	<Item id="ItemTooRich"    		file="data\if\ico\InventoryDlg\gold.dds" 			file1=""/>
+	<Item id="InventoryGround"  	file="data\if\ico\InventoryDlg\Opacity1.dds" 		file1=""/>
+	<Item id="InventoryTown"  		file="data\if\ico_hd\InventoryDlg\Shop_ID_TownR1.dds" 	file1=""/>
+	<Item id="GunCellSelected"  	file="data\if\ico_hd\InventoryDlg\Slot_Back_Buse.dds"	file1=""/>
+	<Item id="GunCellSuitable"  	file="data\if\ico_hd\InventoryDlg\Slot_Back_Open.dds"  file1=""/>
+	<Item id="GunCellUnsuitable" 	file="data\if\ico\InventoryDlg\item_off.dds"     	file1=""/>
+	<Item id="GunAngle"    			file="data\if\ico_hd\InventoryDlg\firesector_090.dds"  file1=""/>
+
+<!--Town-->
+	<!-- <Item id="Administration"   file="data\if\ico\TownDlg\ManLevel.dds"         file1=""/>
+	<Item id="Bar"           	file="data\if\ico\TownDlg\T_Bar.dds"            file1="data\if\ico\TownDlg\food.dds"/>
+	<Item id="Shop"          	file="data\if\ico\TownDlg\T_Shop.dds"           file1="data\if\ico\TownDlg\gold.dds"/>
+	<Item id="Workshop"			file="data\if\ico\TownDlg\T_WorkShop.dds"       file1="data\if\ico\TownDlg\xp.dds"/> -->
+
+<!--QuestLog-->
+	<Item id="QuestComplete"  					file="data\if\ico\QuestLog\b_mark_done.dds"   	file1="data\if\ico\QuestLog\b_mark_done.dds"/>
+	<Item id="QuestNoncomplete"  				file="data\if\ico\QuestLog\b_mark_progress.dds" file1="data\if\ico\QuestLog\b_mark_progress.dds"/>
+	<Item id="QuestFail"  						file="data\if\ico\QuestLog\b_mark_undone.dds"   file1="data\if\ico\QuestLog\b_mark_undone.dds"/>
+	<Item id="QuestCrossLine"  					file="data\if\ico\QuestLog\redline.dds"   		file1="data\if\ico\QuestLog\greenline.dds"/>
+	<Item id="QuestFilterShowAll_out"  			file="data\if\ico\QuestLog\b_showall_h.dds"   	file1=""/>
+	<Item id="QuestFilterShowAll_in"  			file="data\if\ico\QuestLog\b_showall_h.dds"   	file1=""/>
+	<Item id="QuestFilterShowAll_down"  		file="data\if\ico\QuestLog\b_showall_h.dds"   	file1=""/>
+	<Item id="QuestFilterShowNoncompleted_out"	file="data\if\ico\QuestLog\b_showall_e.dds" 	file1=""/>
+	<Item id="QuestFilterShowNoncompleted_in"	file="data\if\ico\QuestLog\b_showall_s.dds" 	file1=""/>
+	<Item id="QuestFilterShowNoncompleted_down"	file="data\if\ico\QuestLog\b_showall_p.dds" 	file1=""/>
+
+<!-- Кнопки навигационных точек -->
+	<Item id="QuestLogNavPointBtn_mainQuest"  	file="data\if\ico\RadarWnd\icn_quest-a.dds"   	file1=""/>
+	<Item id="QuestLogNavPointBtn_userQuest"  	file="data\if\ico\RadarWnd\icn_quest-b.dds"   	file1=""/>
+	<Item id="NavPointBtnBg_out"  				file="data\if\ico\QuestLog\b_mark_e.dds"   		file1=""/>
+	<Item id="NavPointBtnBg_in"  				file="data\if\ico\QuestLog\b_mark_s.dds"   		file1=""/>
+	<Item id="NavPointBtnBg_down"  				file="data\if\ico\QuestLog\b_mark_p.dds"   		file1=""/>
+
+
+<!--RadarWnd-->
+	<Item id="RadarVehicleOwnSmall"		file="data\if\ico\RadarWnd\truck_ally.dds" 			file1=""/>
+	<Item id="RadarVehicleEnemySmall"	file="data\if\ico\RadarWnd\truck_enemy.dds" 		file1=""/>
+	<Item id="RadarVehicleNeutralSmall"	file="data\if\ico\RadarWnd\truck_neutral.dds" 		file1=""/>
+	<Item id="RadarVehicleAllySmall"  	file="data\if\ico\RadarWnd\truck_ally.dds" 			file1=""/>
+	<Item id="RadarVehicleOwnLarge"		file="data\if\ico\RadarWnd\truck_ally.dds" 			file1=""/>
+	<Item id="RadarVehicleEnemyLarge"	file="data\if\ico\RadarWnd\truck_enemy.dds" 		file1=""/>
+	<Item id="RadarVehicleNeutralLarge"	file="data\if\ico\RadarWnd\truck_neutral.dds" 		file1=""/>
+	<Item id="RadarVehicleAllyLarge"  	file="data\if\ico\RadarWnd\truck_ally.dds" 			file1=""/> 
+
+	<Item id="RadarTurretOwnSmall"		file="data\if\ico\RadarWnd\turret_ally.dds" 		file1=""/>
+	<Item id="RadarTurretEnemySmall"	file="data\if\ico\RadarWnd\turret_enemy.dds" 		file1=""/>
+	<Item id="RadarTurretNeutralSmall"	file="data\if\ico\RadarWnd\turret_neutral.dds" 		file1=""/>
+	<Item id="RadarTurretAllySmall"  	file="data\if\ico\RadarWnd\turret_ally.dds" 		file1=""/>
+	<Item id="RadarTurretOwnLarge"		file="data\if\ico\RadarWnd\turret_ally.dds" 		file1=""/>
+	<Item id="RadarTurretEnemyLarge"	file="data\if\ico\RadarWnd\turret_enemy.dds" 		file1=""/>
+	<Item id="RadarTurretNeutralLarge"	file="data\if\ico\RadarWnd\turret_neutral.dds" 		file1=""/>
+	<Item id="RadarTurretAllyLarge"  	file="data\if\ico\RadarWnd\turret_ally.dds" 		file1=""/>
+
+	<Item id="RadarQuestMainFar"		file="data\if\ico\RadarWnd\icn_arrow_quest-a.dds" 	file1=""/>
+	<Item id="RadarQuestMainNear"		file="data\if\ico\RadarWnd\icn_quest-a.dds" 		file1=""/>
+	<Item id="RadarQuestUserFar"		file="data\if\ico\RadarWnd\icn_arrow_quest-b.dds" 	file1=""/>
+	<Item id="RadarQuestUserNear"		file="data\if\ico\RadarWnd\icn_quest-b.dds" 		file1=""/>
+	<Item id="RadarNavPointFar"			file="data\if\ico\RadarWnd\icn_arrow_navpoint.dds" 	file1=""/>
+	<Item id="RadarNavPointNear"		file="data\if\ico\RadarWnd\icn_navpoint.dds" 		file1=""/>
+
+	<Item id="RadarWorldsideNord"		file="data\if\ico\RadarWnd\radar_north.dds" 		file1=""/>
+	<Item id="RadarWorldsideSouth"		file="data\if\ico\RadarWnd\radar_south.dds" 		file1=""/>
+
+	<Item id="CameraSight"				file="data\if\ico_hd\RadarWnd\radar_fov.dds" 			file1=""/>
+	<Item id="RadarPlayerVehicle"		file="data\if\ico\RadarWnd\radar_machine.dds" 		file1=""/>
+	<Item id="RadarHighlight"			file="data\if\ico_hd\MainGameInterfaceWnd\highlight.dds" file1=""/>
+
+<!--Workshop-->
+	<Item id="GunsAndGadgets"	file="data\if\ico_hd\WorkshopDlg\tab_weapon_e.dds" 	file1="data\if\ico_hd\WorkshopDlg\tab_weapon_n.dds"/>
+	<Item id="Goods"			file="data\if\ico_hd\WorkshopDlg\tab_goods_e.dds" 	file1="data\if\ico_hd\WorkshopDlg\tab_goods_n.dds"/>
+	<!-- <Item id="BuyBg"			file="data\if\ico\WorkshopDlg\cabin_buy.dds" 			file1=""/> -->
+	<!-- <Item id="BuyBtnBg"			file="data\if\ico\WorkshopDlg\shop_button.dds" 			file1=""/> -->
+
+	<Item id="ServiceBtnCabins_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_e.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_s.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_p.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_d.dds" 	file1=""/>
+	<Item id="ServiceBtnCabins_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_cab_h.dds" 	file1=""/>
+
+	<Item id="ServiceBtnBaskets_enabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_e.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_s.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_pressed"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_p.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_d.dds"	file1=""/>
+	<Item id="ServiceBtnBaskets_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_body_h.dds"	file1=""/>
+	                                       	
+	<Item id="ServiceBtnSkin_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_e.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_s.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_p.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_disabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_d.dds" 	file1=""/>
+	<Item id="ServiceBtnSkin_selected"		file="data\if\ico_hd\GarageWnd\action panel\bcb_paint_h.dds" 	file1=""/>
+
+	<Item id="ServiceBtnRefuelList_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
+	<Item id="ServiceBtnRefuelList_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
+
+	<Item id="ServiceBtnRepairList_enabled"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_overrolled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_pressed"		file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
+	<Item id="ServiceBtnRepairList_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
+
+	<Item id="ServiceBtnRechargeList_enabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_e.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_overrolled" file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_s.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_pressed"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_p.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_disabled"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_d.dds" 	file1=""/>
+	<Item id="ServiceBtnRechargeList_selected"	file="data\if\ico_hd\GarageWnd\action panel\bcb_arrow_h.dds" 	file1=""/>
+
+	<Item id="Cabin"		file="data\if\ico\GarageWnd\Icons\cab_buy.dds" 		file1=""/>
+	<Item id="Basket"		file="data\if\ico\GarageWnd\Icons\cargo_buy.dds" 	file1=""/>
+	<Item id="Construction"	file="data\if\ico\GarageWnd\Icons\hp.dds" 			file1=""/>
+	<Item id="Refuelling"	file="data\if\ico\GarageWnd\Icons\refuel.dds" 		file1=""/>
+	<!-- Probably unused - TO TEST
+	<Item id="SliderNotch"	file="data\if\ico\GarageWnd\Icons\slider.dds" 		file1=""/> -->
+
+<!-- Окно характеристик машины -->
+	<Item id="tabBtnVehicleCharacteristics"	file="data\if\ico_hd\characteristicwnd\overview_disabled.dds" 	file1="data\if\ico_hd\characteristicwnd\overview_enabled.dds"/>
+	<Item id="tabBtnCBCharacteristics"		file="data\if\ico_hd\characteristicwnd\cab_and_body_disabled.dds" 	file1="data\if\ico_hd\characteristicwnd\cab_and_body_enabled.dds"/>
+	<Item id="tabBtnWeaponGroups"			file="data\if\ico_hd\characteristicwnd\weapons_disabled.dds" 	file1="data\if\ico_hd\characteristicwnd\weapons_enabled.dds"/>
+
+<!--InfoWnd-->
+	<Item id="Amount"		file="" 			file1=""/>
+	<Item id="Durability"	file="" 			file1=""/>
+	<Item id="Speed"		file="" 			file1=""/>
+	<Item id="Torque"		file="" 			file1=""/>
+	<Item id="Power"		file="" 			file1=""/>
+	<Item id="Damage"		file="" 			file1=""/>
+
+<!--HealthIndicatorWnd-->
+<!-- Unused, probably can be deleted - TO TEST	
+	<Item id="HpStep"				file="data\if\ico\DamageInfoWnd\hp.dds"				file1=""/>
+	<Item id="BasketSafe"			file="data\if\ico\DamageInfoWnd\cargo_dur.dds"		file1=""/>
+	<Item id="BasketBroken"			file="data\if\ico\DamageInfoWnd\cargo_dur_b.dds"	file1=""/>
+	<Item id="CabSafe"				file="data\if\ico\DamageInfoWnd\cab_dur.dds"		file1=""/>
+	<Item id="CabBroken"			file="data\if\ico\DamageInfoWnd\cab_dur_b.dds"		file1=""/>
+	<Item id="FuelPB"				file="data\if\ico\DamageInfoWnd\fuel.dds"			file1=""/>
+	<Item id="SpeedPointer"			file="data\if\ico\SpeedometerWnd\speedometer_arrow.dds" file1=""/>
+	<Item id="HealthGreenFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_Blue.dds"	file1=""/>
+	<Item id="HealthYellowFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_yellow.dds"	file1=""/>
+	<Item id="HealthRedFignya"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_red.dds"		file1=""/>
+	<Item id="HealthGreenMain"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_Blue.dds"			file1=""/>
+	<Item id="HealthYellowMain"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_yellow.dds"			file1=""/>
+	<Item id="HealthRedMain"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_red.dds"				file1=""/>
+
+	<Item id="HealthGreenChar"		file="data\if\ico\GarageWnd\icons\hp_blue.dds"						file1=""/>
+	<Item id="HealthYellowChar"		file="data\if\ico\GarageWnd\icons\hp_blue.dds"						file1=""/>
+	<Item id="HealthRedChar"		file="data\if\ico\GarageWnd\icons\hp_blue.dds"						file1=""/>
+	<Item id="CabinDurGreenMain"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_blue.dds"		file1=""/>
+
+	<Item id="CabinDurYellowMain"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_yellow.dds"		file1=""/>
+	<Item id="CabinDurRedMain"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_red.dds"			file1=""/>
+	<Item id="CabinDurDeadMain"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_dead.dds"		file1=""/>
+	<Item id="BasketDurGreenMain"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_blue.dds"		file1=""/>
+	<Item id="BasketDurYellowMain"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_yellow.dds"		file1=""/>
+	<Item id="BasketDurRedMain"		file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_red.dds"			file1=""/>
+	<Item id="BasketDurDeadMain"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_dead.dds"		file1=""/>
+	<Item id="CabinDurGreenFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_blue.dds"		file1=""/>
+	<Item id="CabinDurYellowFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_yellow.dds"		file1=""/>
+	<Item id="CabinDurRedFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_red.dds"			file1=""/>
+	<Item id="CabinDurDeadFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_dead.dds"		file1=""/>
+	<Item id="BasketDurGreenFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_blue.dds"		file1=""/>
+	<Item id="BasketDurYellowFignya" file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_yellow.dds"		file1=""/>
+	<Item id="BasketDurRedFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_red.dds"			file1=""/>
+	<Item id="BasketDurDeadFignya"	file="data\if\ico\FignyaVCentreWnd\Right_Panel_1_A_dead.dds"		file1=""/>
+
+	<Item id="CabinDurGreenChar"	file="data\if\ico\GarageWnd\Icons\Cab_Armor_blue.dds"				file1=""/>
+	<Item id="CabinDurYellowChar"	file="data\if\ico\GarageWnd\Icons\Cab_Armor_blue.dds"				file1=""/>
+	<Item id="CabinDurRedChar"		file="data\if\ico\GarageWnd\Icons\Cab_Armor_blue.dds"				file1=""/>
+	<Item id="CabinDurDeadChar"		file="data\if\ico\GarageWnd\Icons\Cab_Armor_blue.dds"				file1=""/>
+	<Item id="BasketDurGreenChar"	file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/>
+	<Item id="BasketDurYellowChar"	file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/>
+	<Item id="BasketDurRedChar"		file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/>
+	<Item id="BasketDurDeadChar"	file="data\if\ico\GarageWnd\Icons\Cargo_Armor_blue.dds"				file1=""/> -->
+
+<!--WeaponInfoList-->
+	<Item id="ChargeBar"				file="data\if\ico\WeaponInfoList\weapon_bar_ready.dds"	file1="data\if\ico\WeaponInfoList\weapon_bar_reload.dds"/>
+<!-- Probably unused - TO TEST
+	<Item id="WeaponGroupInMainUi"		file="data\if\ico\WeaponInfoList\group_back.dds"	file1="data\if\ico\WeaponInfoList\group_active.dds"/>
+	<Item id="WeaponGroupInCharWnd"		file="data\if\ico\WeaponInfoList\group_back.dds"	file1="data\if\ico\WeaponInfoList\group_active.dds"/>
+	<Item id="WeaponGroupInFignyaWnd_0"	file="data\if\ico\WeaponInfoList\group_back.dds"	file1="data\if\ico\WeaponInfoList\group_active.dds"/>
+	<Item id="WeaponGroupInFignyaWnd_1"	file="data\if\ico\WeaponInfoList\heavygun.dds"		file1="data\if\ico\WeaponInfoList\heavygun_red.dds"/>
+	<Item id="WeaponGroupInFignyaWnd_2"	file="data\if\ico\WeaponInfoList\machinegun.dds"	file1="data\if\ico\WeaponInfoList\machinegun_red.dds"/>
+	<Item id="WeaponGroupInFignyaWnd_3"	file="data\if\ico\WeaponInfoList\laser.dds"		file1="data\if\ico\WeaponInfoList\laser_red.dds"/>
+	<Item id="WeaponGroupInFignyaWnd_4"	file="data\if\ico\WeaponInfoList\group_back.dds"	file1="data\if\ico\WeaponInfoList\group_active.dds"/>
+	<Item id="WeaponGroupInFignyaWnd_5"	file="data\if\ico\WeaponInfoList\group_back.dds"	file1="data\if\ico\WeaponInfoList\group_active.dds"/> -->
+
+	<Item id="Piercing"		file="data\if\ico\WeaponInfoList\machinegun.dds"	file1=""/>
+	<Item id="Blast"		file="data\if\ico\WeaponInfoList\rockets.dds"		file1=""/>
+	<Item id="Energy"		file="data\if\ico\WeaponInfoList\laser.dds"			file1=""/>
+	<Item id="Cannon"		file="data\if\ico\WeaponInfoList\heavygun.dds"		file1="data\if\ico\WeaponInfoList\heavygun_red.dds"/>
+	<Item id="MachineGun"	file="data\if\ico\WeaponInfoList\machinegun.dds"	file1="data\if\ico\WeaponInfoList\machinegun_red.dds"/>
+	<Item id="Laser"		file="data\if\ico\WeaponInfoList\laser.dds"			file1="data\if\ico\WeaponInfoList\laser_red.dds"/>
+	<Item id="Plasma"		file="data\if\ico\WeaponInfoList\plasma.dds"		file1="data\if\ico\WeaponInfoList\plasma_red.dds"/>
+	<Item id="Rocket"		file="data\if\ico\WeaponInfoList\rockets.dds"		file1="data\if\ico\WeaponInfoList\rockets_red.dds"/>
+	<Item id="ShotGun"		file="data\if\ico\WeaponInfoList\shotgun.dds"		file1="data\if\ico\WeaponInfoList\shotgun_red.dds"/>
+	<Item id="Artillery"	file="data\if\ico\WeaponInfoList\artillery.dds"		file1="data\if\ico\WeaponInfoList\artillery_red.dds"/>
+	<Item id="Thunderbolt"	file="data\if\ico\WeaponInfoList\thunderbolt.dds"	file1="data\if\ico\WeaponInfoList\thunderbolt_red.dds"/>
+	<Item id="Mine"			file="data\if\ico\WeaponInfoList\mine.dds"			file1="data\if\ico\WeaponInfoList\mine_red.dds"/>
+	<Item id="Nail"			file="data\if\ico\WeaponInfoList\nails.dds"			file1="data\if\ico\WeaponInfoList\nails_red.dds"/>
+	<Item id="Turbo"		file="data\if\ico\WeaponInfoList\turbo.dds"			file1="data\if\ico\WeaponInfoList\turbo_red.dds"/>
+	<Item id="Oil"			file="data\if\ico\WeaponInfoList\oil.dds"			file1="data\if\ico\WeaponInfoList\oil_red.dds"/>
+	<Item id="Type_Smoke"	file="data\if\ico\WeaponInfoList\smoke.dds"			file1="data\if\ico\WeaponInfoList\smoke_red.dds"/>
+
+	<Item id="WeaponGroupBtnSel_1"		file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgpressed_1.dds"	file1=""/>
+	<Item id="WeaponGroupBtnSel_2"		file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgpressed_2.dds"	file1=""/>
+	<Item id="WeaponGroupBtnSel_3"		file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgpressed_3.dds"	file1=""/>
+	<Item id="WeaponGroupBtnSel_4"		file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgpressed_4.dds"	file1=""/>
+	<Item id="WeaponGroupBtnSel_5"		file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgpressed_5.dds"	file1=""/>
+	<Item id="WeaponGroupBtnUnselOut"	file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgenabled.dds"		file1=""/>
+	<Item id="WeaponGroupBtnUnselIn"	file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgMouseOver.dds"	file1=""/>
+	<Item id="WeaponGroupBtnDisabled"	file="data\if\ico\WeaponInfoList\WeaponGroupButtons\wgDisabled.dds"		file1=""/>
+
+	<Item id="GunSlot_2x1"			file="data\if\ico\WeaponInfoList\WeaponSlots\weapon21b.dds"		file1="data\if\ico\WeaponInfoList\WeaponSlots\weapon21r.dds"/>
+	<Item id="GunSlot_2x2"			file="data\if\ico\WeaponInfoList\WeaponSlots\weapon22b.dds"		file1="data\if\ico\WeaponInfoList\WeaponSlots\weapon22r.dds"/>
+	<Item id="GunSlot_2x3"			file="data\if\ico\WeaponInfoList\WeaponSlots\weapon23b.dds"		file1="data\if\ico\WeaponInfoList\WeaponSlots\weapon23r.dds"/>
+	<Item id="GunSlot_3x2"			file="data\if\ico\WeaponInfoList\WeaponSlots\weapon32b.dds"		file1="data\if\ico\WeaponInfoList\WeaponSlots\weapon32r.dds"/>
+	<Item id="GunSlot_3x4"			file="data\if\ico\WeaponInfoList\WeaponSlots\weapon34b.dds"		file1="data\if\ico\WeaponInfoList\WeaponSlots\weapon34r.dds"/>
+	<Item id="GunSlot_None"			file="data\if\ico\WeaponInfoList\WeaponSlots\weaponna.dds"		file1=""/>
+
+
+<!--LocalMap-->
+	<Item id="MapCellBg"			file="data\if\frames\bg3.dds"					file1=""/>
+	<Item id="MapCellLine"			file="data\if\frames\dark_line.dds"				file1=""/>
+	<Item id="PlayerMark"			file="data\if\ico\LocalMap\icn_player.dds"		file1=""/>
+	<Item id="DeleteSavePrices"		file="data\if\ico\QuestLog\Failed_select.dds"	file1=""/>
+	<Item id="MapMarkUserLocation"	file="data\if\ico\RadarWnd\icn_navpoint.dds"	file1=""/>
+	<Item id="MapMarkMainQuest"		file="data\if\ico\RadarWnd\icn_quest-a.dds"		file1=""/>
+	<Item id="MapMarkUserQuest"		file="data\if\ico\RadarWnd\icn_quest-b.dds"		file1=""/>
+	<Item id="MapMarkSelection"		file="data\if\ico\LocalMap\icn_select.dds"		file1=""/>
+
+	<Item id="BtnSavePrices_active_out"		file="data\if\ico\LocalMap\map_mark_town_h.dds"	file1=""/>
+	<Item id="BtnSavePrices_active_in"		file="data\if\ico\LocalMap\map_mark_town_h.dds"	file1=""/>
+	<Item id="BtnSavePrices_active_down"	file="data\if\ico\LocalMap\map_mark_town_h.dds"	file1=""/>
+	<Item id="BtnSavePrices_inactive_out"	file="data\if\ico\LocalMap\map_mark_town_e.dds"	file1=""/>
+	<Item id="BtnSavePrices_inactive_in"	file="data\if\ico\LocalMap\map_mark_town_s.dds"	file1=""/>
+	<Item id="BtnSavePrices_inactive_down"	file="data\if\ico\LocalMap\map_mark_town_p.dds"	file1=""/>
+
+	<Item id="NavPointBtn_userLocation_active_out"		file="data\if\ico\LocalMap\map_set_navpoint_h.dds"	file1=""/>
+	<Item id="NavPointBtn_userLocation_active_in"		file="data\if\ico\LocalMap\map_set_navpoint_h.dds"	file1=""/>
+	<Item id="NavPointBtn_userLocation_active_down"		file="data\if\ico\LocalMap\map_set_navpoint_h.dds"	file1=""/>
+	<Item id="NavPointBtn_userLocation_inactive_out"	file="data\if\ico\LocalMap\map_set_navpoint_e.dds"	file1=""/>
+	<Item id="NavPointBtn_userLocation_inactive_in"		file="data\if\ico\LocalMap\map_set_navpoint_s.dds"	file1=""/>
+	<Item id="NavPointBtn_userLocation_inactive_down"	file="data\if\ico\LocalMap\map_set_navpoint_p.dds"	file1=""/>
+
+	<Item id="BtnEnableObjectNames_active_out"		file="data\if\ico\LocalMap\map_show_titles_h.dds"	file1=""/>
+	<Item id="BtnEnableObjectNames_active_in"		file="data\if\ico\LocalMap\map_show_titles_h.dds"	file1=""/>
+	<Item id="BtnEnableObjectNames_active_down"		file="data\if\ico\LocalMap\map_show_titles_h.dds"	file1=""/>
+	<Item id="BtnEnableObjectNames_inactive_out"	file="data\if\ico\LocalMap\map_show_titles_e.dds"	file1=""/>
+	<Item id="BtnEnableObjectNames_inactive_in"		file="data\if\ico\LocalMap\map_show_titles_s.dds"	file1=""/>
+	<Item id="BtnEnableObjectNames_inactive_down"	file="data\if\ico\LocalMap\map_show_titles_p.dds"	file1=""/>
+
+<!--GlobalMap-->
+	<Item id="Connection"		file="data\if\ico\GlobalMap\GMap_Line.dds"		file1=""/>
+	<Item id="MapSelFrame"		file="data\if\ico\GlobalMap\Gmap_Ico_Select.dds"	file1=""/>
+
+<!-- Journal -->
+	<Item id="RecordIco"		file="data\if\ico_hd\QuestLog\select_quest.dds"		file1="data\if\ico_hd\QuestLog\unselect_quest.dds"/>
+
+<!--Иконки по типам ресурсов - пока используются подложки для пушек-->
+	<Item id="BIG_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="SMALL_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="SIDE_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="GIANT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="SPECIAL_WEAPON"	file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+
+<!-- То что вместо курсора -->
+<!-- Unused, probably can be deleted - TO TEST
+	<Item id="CursorToleranceNone"	file="data\if\ico\SmartCursorWnd\Sight_Blue.dds"	file1=""/>
+	<Item id="CursorToleranceEnemy"	file="data\if\ico\SmartCursorWnd\Sight_red.dds"		file1=""/>
+	<Item id="CursorToleranceAlly"	file="data\if\ico\SmartCursorWnd\Sight_green.dds"	file1=""/>
+	<Item id="CursorRocket"			file="data\if\ico\SmartCursorWnd\Sight_Missile.dds"	file1=""/>
+	<Item id="CursorAim"			file="data\if\ico\SmartCursorWnd\Sight_Gun.dds"		file1=""/>
+	<Item id="CursorInfo"			file="data\if\ico\SmartCursorWnd\sight_target.dds"	file1=""/> -->
+	<Item id="CursorCapture"		file="data\if\ico\SmartCursorWnd\missile_lock.dds"	file1=""/>
+
+<!-- Cпидометр -->
+<!-- Unused, probably can be deleted - TO TEST
+	<Item id="RpmPointer"		file="data\if\ico\VehicleInfoPanel\Engine.dds"		file1=""/>
+-->
+	<Item id="SpeedPointer"		file="data\if\ico_hd\SpeedometerWnd\Engine.dds"		file1=""/>
+
+<!-- Фон для Npc -->
+	<Item id="NpcBgBar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>	
+	<Item id="NpcBgLocation"	file="data\if\ico\TalkWithNpcDlg\cardialog1.dds"		file1=""/>	
+
+<!-- Какого ситха эти иконки запихали в этот файл?! Они должны быть в файлах иконок соответствующих карт -->
+<!-- ComPatch Team: Мы тоже всё ещё задаёмся этим вопросом -->
+
+   <Item id="Olme_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+   <Item id="FVOnOcean_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+   <Item id="FVNearOlme_Bar" file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+   <Item id="FVCalis_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+   <Item id="FVCordan_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+   <Item id="FVPerch_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+   <Item id="FVBerko_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+   <Item id="StorageVilBar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
+
+   <Item id="TheRazboynik_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
+   <Item id="Fist_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
+   <Item id="Set_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
+   <Item id="Uluk_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
+   <Item id="AloneDruid_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
+
+ <!-- MotherPanel -->
+	<Item id="TabBtn_Questlog_InField"			file="data\if\ico_hd\MotherPanel\tab_quest_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_quest_e.dds"/>	
+	<Item id="TabBtn_Map_InField"				file="data\if\ico_hd\MotherPanel\tab_map_s.dds"			file1="data\if\ico_hd\MotherPanel\tab_map_e.dds"/>	
+	<Item id="TabBtn_Journal_InField"			file="data\if\ico_hd\MotherPanel\tab_journal_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_journal_e.dds"/>	
+	<Item id="TabBtn_AdditionalBuilding_InTown"	file="data\if\ico_hd\MotherPanel\tab_house_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_house_e.dds"/>	
+	<Item id="TabBtn_Bar_InTown"				file="data\if\ico_hd\MotherPanel\tab_bar_s.dds"			file1="data\if\ico_hd\MotherPanel\tab_bar_e.dds"/>	
+	<Item id="TabBtn_Inventory_InField"			file="data\if\ico_hd\MotherPanel\tab_invent_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_invent_e.dds"/>	
+	<Item id="TabBtn_Inventory_InTown"			file="data\if\ico_hd\MotherPanel\tab_shop_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_shop_e.dds"/>	
+	<Item id="TabBtn_Characteristic_InField" 	file="data\if\ico_hd\MotherPanel\tab_stats_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_stats_e.dds"/>	
+	<Item id="TabBtn_Characteristic_InTown"		file="data\if\ico_hd\MotherPanel\tab_repair_s.dds"		file1="data\if\ico_hd\MotherPanel\tab_repair_e.dds"/>	
+
+
+<!-- Цифры, имитирующие электронные -->
+	<Item id="Symbol_0_Small"			file="data\if\ico_hd\Digitals\Small\num_small_0.dds"	file1=""/>	
+	<Item id="Symbol_1_Small"			file="data\if\ico_hd\Digitals\Small\num_small_1.dds"	file1=""/>	
+	<Item id="Symbol_2_Small"			file="data\if\ico_hd\Digitals\Small\num_small_2.dds"	file1=""/>	
+	<Item id="Symbol_3_Small"			file="data\if\ico_hd\Digitals\Small\num_small_3.dds"	file1=""/>	
+	<Item id="Symbol_4_Small"			file="data\if\ico_hd\Digitals\Small\num_small_4.dds"	file1=""/>	
+	<Item id="Symbol_5_Small"			file="data\if\ico_hd\Digitals\Small\num_small_5.dds"	file1=""/>	
+	<Item id="Symbol_6_Small"			file="data\if\ico_hd\Digitals\Small\num_small_6.dds"	file1=""/>	
+	<Item id="Symbol_7_Small"			file="data\if\ico_hd\Digitals\Small\num_small_7.dds"	file1=""/>	
+	<Item id="Symbol_8_Small"			file="data\if\ico_hd\Digitals\Small\num_small_8.dds"	file1=""/>	
+	<Item id="Symbol_9_Small"			file="data\if\ico_hd\Digitals\Small\num_small_9.dds"	file1=""/>	
+	<Item id="Symbol_Meter_Small"		file="data\if\ico_hd\Digitals\Small\num_small_m.dds"	file1=""/>	
+	<Item id="Symbol_Kilometer_Small"	file="data\if\ico_hd\Digitals\Small\num_small_km.dds"	file1=""/>	
+	<Item id="Symbol_Colon_Small"		file="data\if\ico_hd\Digitals\Small\num_small_pts.dds"	file1=""/>	
+
+	<Item id="Symbol_0_Large"			file="data\if\ico_hd\Digitals\Large\num_large_0.dds"	file1=""/>	
+	<Item id="Symbol_1_Large"			file="data\if\ico_hd\Digitals\Large\num_large_1.dds"	file1=""/>	
+	<Item id="Symbol_2_Large"			file="data\if\ico_hd\Digitals\Large\num_large_2.dds"	file1=""/>	
+	<Item id="Symbol_3_Large"			file="data\if\ico_hd\Digitals\Large\num_large_3.dds"	file1=""/>	
+	<Item id="Symbol_4_Large"			file="data\if\ico_hd\Digitals\Large\num_large_4.dds"	file1=""/>	
+	<Item id="Symbol_5_Large"			file="data\if\ico_hd\Digitals\Large\num_large_5.dds"	file1=""/>	
+	<Item id="Symbol_6_Large"			file="data\if\ico_hd\Digitals\Large\num_large_6.dds"	file1=""/>	
+	<Item id="Symbol_7_Large"			file="data\if\ico_hd\Digitals\Large\num_large_7.dds"	file1=""/>	
+	<Item id="Symbol_8_Large"			file="data\if\ico_hd\Digitals\Large\num_large_8.dds"	file1=""/>	
+	<Item id="Symbol_9_Large"			file="data\if\ico_hd\Digitals\Large\num_large_9.dds"	file1=""/>	
+
+<!-- Всплывающие сообщения -->
+	<Item id="FadingMsgBg"				file="data\if\frames\Up_panel_back_darker.dds"					file1=""/>	
+
+<!-- Игровое меню --> 
+	<Item id="ExMachinaLogo"			file="data\if\ico_hd\GameMenu\menu_logo_xm.dds"			file1=""/>	
+</icons>

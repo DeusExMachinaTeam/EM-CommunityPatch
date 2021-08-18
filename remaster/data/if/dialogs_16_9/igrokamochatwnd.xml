@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Red damage indicators showing direction of enemy fire -->
+<Prefabs>
+	<Node
+		name="IgrokaMochatWnd"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="832"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="borderLeft"
+			class="ImageWnd"
+			org="-24.000 0.000 48.000 1080.000"
+			style="768"
+			order="0"
+			id="0"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico_hd\RadarWnd\damage_indicator.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="borderTop"
+			class="ImageWnd"
+			org="0.000 -24.000 1920.000 48.000"
+			style="768"
+			order="1"
+			id="0"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico_hd\RadarWnd\damage_indicator.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="borderRight"
+			class="ImageWnd"
+			org="1896.000 0.000 48.000 1080.000"
+			style="768"
+			order="2"
+			id="0"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico_hd\RadarWnd\damage_indicator.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="borderBottom"
+			class="ImageWnd"
+			org="0.000 1056.000 1920.000 48.000"
+			style="768"
+			order="3"
+			id="0"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="data\if\ico_hd\RadarWnd\damage_indicator.dds">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>
