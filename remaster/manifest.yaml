@@ -22,11 +22,11 @@ patcher_options:
   gravity: -19.62
 no_base_content: false
 optional_content:
-#   - name: hd_gun_models
-#     display_name: HD модели оружия
-#     description: |
-#       Новые модели для многих орудий.
-#       Переработаны: Шершень, Спектр, Спрут и т.д.
+  - name: hd_gun_models
+    display_name: HD модели оружия
+    description: |
+      Новые модели для части орудий.
+      Переработаны: Шершень, Спектр, ПКТ, Корд, Вулкан, Рейнметал и Спрут.
 #   - name: hd_vehicle_models
 #     display_name: HD модели транспорта
 #     description: |
