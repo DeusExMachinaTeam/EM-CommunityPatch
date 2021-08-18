@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Books list in Journal  -->
+<Prefabs>
+	<Node
+		name="BooksWnd"
+		class="Wnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="PaneGreenThin"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="bookList"
+			class="TextBoxWnd"
+			org="173.000 274.000 769.000 700.000"
+			style="262656"
+			order="0"
+			id="300000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 2.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			drawFlags="3">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="bookListFrame"
+			class="Wnd"
+			org="154.000 249.000 799.000 750.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndBookText"
+			class="TextBoxWnd"
+			org="994.000 274.000 764.000 699.000"
+			style="512"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 10.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050"
+			drawFlags="5">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndBookTextFrame"
+			class="Wnd"
+			org="969.000 249.000 799.000 750.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameD"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="2"
+			format="3"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff505050">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

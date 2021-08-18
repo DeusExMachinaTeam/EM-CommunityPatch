@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Main menu profile main window -->
+<!-- Related to newprofilewnd.xml -->
+<Prefabs>
+	<Node
+		name="ChangeProfileDlg"
+		class="ModalWnd"
+		org="0.000 0.000 1920.000 1080.000"
+		style="16896"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico\HelpWnd\bkg_darkener.dds"
+		paneName="PaneBrown2"
+		scrollPaneName="Scroll1"
+		paneFlags="7"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Node
+			name="lbl"
+			class="Wnd"
+			org="620.000 193.000 526.000 70.000"
+			style="2816"
+			order="0"
+			id="0"
+			caption="^ChangePlayerProfile^"
+			tip=""
+			backimage=""
+			paneName="PaneGray2"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndSeparator1"
+			class="LineWnd"
+			org="597.000 263.000 726.000 3.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndSeparator2"
+			class="LineWnd"
+			org="597.000 814.000 726.000 3.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneLineMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="1"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			lineDirection="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="lblCurProfileName"
+			class="Wnd"
+			org="645.000 300.000 630.000 28.000"
+			style="2880"
+			order="1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndProfileList"
+			class="StringsListBoxWnd"
+			org="645.000 375.000 402.000 391.000"
+			style="406048"
+			order="0"
+			id="300003"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameC"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 10.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f"
+			drawFlags="1">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndProfileListFrame"
+			class="Wnd"
+			org="620.000 350.000 433.000 442.000"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameC"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="btnChose"
+			org="1078.000 353.000 219.000 45.000"
+			style="265728"
+			order="3"
+			id="300000"
+			caption="^Chose^"
+			tip="^ChoseProfile^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_btnChose"
+			class="Wnd"
+			org="1075.000 350.000 225.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnExit"
+			org="1078.000 830.000 219.000 45.000"
+			style="265728"
+			order="4"
+			id="1"
+			caption="^Exit^"
+			tip="^CloseWindow^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_btnExit"
+			class="Wnd"
+			org="1075.000 827.000 225.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnDelete"
+			org="1078.000 501.000 219.000 45.000"
+			style="265728"
+			order="5"
+			id="300001"
+			caption="^Delete^"
+			tip="^DeleteProfile^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_btnDelete"
+			class="Wnd"
+			org="1075.000 498.000 225.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="btnCreate"
+			org="1078.000 426.000 219.000 45.000"
+			style="265728"
+			order="6"
+			id="300002"
+			caption="^Create^"
+			tip="^CreateProfile^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="0"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			btnIsImaged="0"
+			class="ButtonWnd">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="emboss_btnCreate"
+			class="Wnd"
+			org="1075.000 423.000 225.000 51.000"
+			style="768"
+			order="1"
+			id=""
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneEmboss"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			textColor="ff404040"
+			clientEdges="0.000 0.000 0.000 0.000"/>
+
+		<Node
+			name="lblCurProfileFrame"
+			class="Wnd"
+			org="620.000 288.000 681.000 51.000"
+			style="768"
+			order="7"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneFrameC"
+			scrollPaneName="Scroll1"
+			paneFlags="6"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndLogo"
+			class="ImageWnd"
+			org="962.000 172.000 360.000 90.000"
+			style="768"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico_hd\GameMenu\menu_logo_xm.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndMainFrame"
+			class="Wnd"
+			org="565.000 160.000 790.000 759.000"
+			style="768"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneMenu"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="0"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

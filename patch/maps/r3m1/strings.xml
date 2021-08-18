@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource><!--
+***************************************************************************
+	Предали друида, диалог с механопоклонниками и друидом
+***************************************************************************
+-->
+	<string
+		id="1001"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="1496"
+		modelSlot="1"
+		value="ПРЕДАТЕЛЬ|Попался, Друид! Теперь мы посмотрим, кто властен устанавливать законы на этой земле. Ты заплатишь нам за гонения наших братьев."
+		sound="data\sounds\Speech\r3m1\r3m1_1001_traitor.ogg"
+		time="4" />
+
+	<string
+		id="1002"
+		modelName="r3_man"
+		modelSkin="2"
+		modelCfg="1915"
+		modelSlot="1"
+		value="ДРУИД|Значит, ты обманул меня... Я не виню тебя, ведь ты не ведаешь, что творишь. Но любое зло не остаётся безнаказанным. Это закон жизни."
+		sound="data\sounds\Speech\r3m1\r3m1_1002_druid.ogg"
+		time="5" />
+
+	<string
+		id="1003"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="1496"
+		modelSlot="1"
+		value="ПРЕДАТЕЛЬ|Не слушай этого вздорного старика! Отправляйся в Улук, там ты получишь свою награду."
+		sound="data\sounds\Speech\r3m1\r3m1_1003_traitor.ogg"
+		time="4" />
+
+	<string
+		id="1004"
+		modelName="mask_hero"
+		value="|Увидимся там."
+		sound="data\sounds\Speech\r3m1\r3m1_1004_hero.ogg"
+		time="3" />
+<!--
+***************************************************************************
+	Приехали на карту с лисой через туннель
+***************************************************************************
+-->
+	<string
+		id="1020"
+		modelName="mask_hero"
+		value="|Наконец-то мы добрались до острова. Не знаешь, где здесь живут люди?"
+		sound="data\sounds\Speech\r3m1\r3m1_1020_hero.ogg"
+		time="4" />
+
+	<string
+		id="1021"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Знаю я здесь кое-кого, но они вряд ли тебе помогут."
+		sound="data\sounds\Speech\r3m1\r3m1_1021_alice.ogg"
+		time="4" />
+
+	<string
+		id="1022"
+		modelName="mask_hero"
+		value="|А кто это такие?"
+		sound="data\sounds\Speech\r3m1\r3m1_1022_hero.ogg"
+		time="4" />
+
+	<string
+		id="1023"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Мои старые знакомые с бурным прошлым. К ним я как раз и собираюсь."
+		sound="data\sounds\Speech\r3m1\r3m1_1023_alice.ogg"
+		time="4" />
+
+	<string
+		id="1024"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Отправляйся пока без меня. Когда понадоблюсь, ищи меня у них."
+		sound="data\sounds\Speech\r3m1\r3m1_1024_alice.ogg"
+		time="4" />
+<!--
+***************************************************************************
+
+***************************************************************************
+-->
+	<string
+		id="21"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2173"
+		modelSlot="1"
+		value="ПОВСТАНЕЦ|Бежим, быстрее! Мы ещё можем спастись!"
+		sound="data\sounds\Speech\r3m1\r3m1_21_rebel.ogg" />
+
+	<string
+		id="22"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="637"
+		modelSlot="1"
+		value="БЕЖЕНЦЫ|Спаси нас, добрый человек! Мы отказались принимать богомерзкую веру машинопоклонников. Теперь нас повсюду преследуют разъяренные еретики!"
+		sound="data\sounds\Speech\r3m1\r3m1_22_refugee.ogg" />
+
+	<string
+		id="23"
+		modelName="mask_hero"
+		value="|Не бойтесь, братья! Вместе мы отразим атаку! Те, кто может держать оружие в руках, пусть сражаются!"
+		sound="data\sounds\Speech\r3m1\r3m1_23_hero.ogg" />
+
+	<string
+		id="24"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="637"
+		modelSlot="1"
+		value="БЕЖЕНЦЫ|Хватит отступать! Настало время принять бой! Ур-р-ра-а-а!"
+		sound="data\sounds\Speech\r3m1\r3m1_24_refugee.ogg" />
+
+	<string
+		id="25"
+		modelName="mask_hero"
+		value="|Мы отбили нападение, но еретики могут вернуться. Скорей едем в Сет! За его стенами нас никто не тронет!"
+		sound="data\sounds\Speech\r3m1\r3m1_25_hero.ogg"
+		time="4" />
+
+	<string
+		id="26"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="637"
+		modelSlot="1"
+		value="БЕЖЕНЦЫ|Спасибо за помощь, добрый человек! Ты дал нам надежду на завтра."
+		sound="data\sounds\Speech\r3m1\r3m1_26_refugee.ogg"
+		time="4" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		value="|Я не смог их защитить! Горе мне..."
+		sound="data\sounds\Speech\r3m1\r3m1_32_hero.ogg"
+		time="4" />
+
+	<string
+		id="27"
+		modelName="mask_hero"
+		value="|Что за невиданные машины? Теперь я понимаю, чего испугались друиды. Мурашки по коже от такой мерзости."
+		sound="data\sounds\Speech\r3m1\r3m1_27_hero.ogg"
+		time="4" />
+
+	<string
+		id="28"
+		modelName="mask_hero"
+		value="|Мне не впервой сражаться с чудищами. Наше дело правое, мы победим!"
+		sound="data\sounds\Speech\r3m1\r3m1_28_hero.ogg"
+		time="4" />
+
+	<string
+		id="31"
+		modelName="mask_hero"
+		value="|Осквернители святилища убиты. Можно возвращаться к друидам."
+		sound="data\sounds\Speech\r3m1\r3m1_31_hero.ogg"
+		time="4" />
+
+	<string
+		id="29"
+		modelName="mask_hero"
+		value="|Молельный камень заложен, нужно бежать отсюда, пока гнев матери-земли не обрушился и на меня вместе с логовом чудищ."
+		sound="data\sounds\Speech\r3m1\r3m1_29_hero.ogg"
+		time="4" />
+
+	<string
+		id="1010"
+		modelName="mask_hero"
+		value="|Еле уцелел. Вот она – сила природы."
+		sound="data\sounds\Speech\r3m1\r3m1_1010_hero.ogg"
+		time="4" />
+
+	<string
+		id="30"
+		modelName="mask_hero"
+		value="|Надо возвращаться в Сет и оправдать себя в глазах Верховного друида."
+		sound="data\sounds\Speech\r3m1\r3m1_30_hero.ogg"
+		time="4" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь." />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше." />
+</resource>

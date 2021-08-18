@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Bar panel containing character list -->
+<Prefabs>
+	<Node
+		name="wndBar"
+		class="Wnd"
+		org="1357.000 194.000 550.000 856.000"
+		style="512"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage="data\if\ico_hd\TownDlg\bar_panel.dds"
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ffffffff">
+		<Animations>
+			<AnimationOnShow
+				animationEnabled="1"
+				animationType="TO_LEFT"
+				animationSpeed="1700"
+				animationAccel="-1800"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+
+			<AnimationOnHide
+				animationEnabled="1"
+				animationType="TO_BEYOND_RIGHT"
+				animationSpeed="500"
+				animationAccel="2600"
+				animationDelayTime="0"
+				soundMoveEnabled="1"/>
+		</Animations>
+
+		<Node
+			name="btnNpcName"
+			class="ButtonWnd"
+			org="185.000 73.000 340.000 50.000"
+			style="265728"
+			order="3"
+			id="200100"
+			caption=""
+			tip="^TalkWithNpc^"
+			backimage=""
+			paneName="PaneBtnGray1"
+			scrollPaneName="Scroll1"
+			paneFlags="7"
+			wrap="1"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ff404040"
+			btnIsImaged="0"/>
+
+		<Node
+			name="wndNpcNameBg"
+			class="ImageWnd"
+			org="179.000 68.000 352.000 60.000"
+			style="768"
+			order="3"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGray"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico_hd\TownDlg\bar_button_bkg.dds"/>
+
+		<Node
+			name="wndNpcIco"
+			class="ModelWnd"
+			org="23.000 23.000 150.000 150.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneHrrr"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image=""
+			ModelRotation="0.0000 0.0000 0.0000 1.0000"
+			ModelTranslation="0.000 -0.700 1.600"
+			ModelScale="1.600 1.600 1.600"/>
+
+		<Node
+			name="wndNpcIcoBg"
+			class="ImageWnd"
+			org="20.000 21.000 156.000 156.000"
+			style="768"
+			order="2"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneHrrr"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico_hd\TownDlg\bar_char_bkg.dds"/>
+
+		<Node
+			name="wndNpcList"
+			class="TextBoxWnd"
+			org="3.000 21.000 539.000 814.000"
+			style="1049344"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"/>
+
+		<Node
+			name="wndNpcButton"
+			org="0.000 21.000 545.000 156.000"
+			style="768"
+			order="1"
+			id="200000"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			class="Wnd"/>
+	</Node>
+</Prefabs>

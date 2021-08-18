@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="|Мост взорван. Бандиты ещё долго не смогут ездить по этому пути. Пора возвращаться."
+		sound="data\sounds\Speech\r1m3\r1m3_1_hero.ogg"
+		time="4" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="|Сколько же здесь всего... странного, и повсюду следы погрома. На этой доске вырезано моё имя... Это же тайник, а внутри – какой-то оберег. Любопытная штуковина – возьму себе."
+		sound="data\sounds\Speech\r1m3\r1m3_4_hero.ogg"
+		time="8" />
+
+	<string
+		id="401"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="РАДИО|Эй! [КХХХ!] Ага, кажется, заработала! [КХХХ!] Это Бен, приём. Я настроил радиопередатчик. Как движутся поиски?"
+		sound="data\sounds\Speech\r1m3\r1m3_401_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="402"
+		modelName="mask_hero"
+		value="|Радиосвязь на таком расстоянии? Да ты просто волшебник! Поиски ничего не дали, к сожалению. Тут только рухлядь. Правда, я нашёл забавный амулет с кнопочками и надписью: &quot;UB-627 Red access&quot;."
+		sound="data\sounds\Speech\r1m3\r1m3_402_hero.ogg"
+		time="8" />
+
+	<string
+		id="403"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="РАДИО|Точно как в старых манускриптах! [КХХХ!] Это же ключ от морских врат! Но откуда он взялся у твоего отца? Впрочем, неважно. Слушай внимательно:"
+		sound="data\sounds\Speech\r1m3\r1m3_403_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="404"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="РАДИО|Рассказывают, что на затерянном в океане острове живёт Оракул. [КХХХ!] Тот, кто пройдёт через все испытания на пути к его жилищу, получит ответ на любой свой вопрос. Естественно, всё это - выдумки. Однако, есть основания полагать, что у легенды этой имеется вполне научное основание."
+		sound="data\sounds\Speech\r1m3\r1m3_404_ben_radio.ogg"
+		time="12" />
+
+	<string
+		id="4041"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="РАДИО|И ключ, который ты сейчас носишь на шее, явное тому свидетельство."
+		sound="data\sounds\Speech\r1m3\r1m3_4041_ben_radio.ogg"
+		time="6" />
+
+	<string
+		id="405"
+		modelName="mask_hero"
+		value="|Было бы неплохо узнать у этого Оракула, что случилось с Айвеном. В любом случае, не зря такая редкая вещь оказалась в его тайнике."
+		sound="data\sounds\Speech\r1m3\r1m3_405_hero.ogg"
+		time="8" />
+
+	<string
+		id="406"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="РАДИО|Я читал старинные документы, где говорилось, а точнее сказать - можно было прочесть между строк, что [КХХХ!] на одном острове было какое-то крупное и очень засекреченное строительство."
+		sound="data\sounds\Speech\r1m3\r1m3_406_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="407"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_407_ben_radio.ogg"
+		value="РАДИО|Поезжай всё время на север. Где-то на самом краю земли находятся морские врата. Ты сразу их узнаешь, когда увидишь. [КХХХ!] Больше я и сам не знаю. [КХХХ!] Похоже, мой радиоприемник совсем сломал... [КХХХ!]"
+		time="12" />
+
+	<string
+		id="408"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_408_hero.ogg"
+		value="|Связь оборвалась... Но я понял, о чём говорил Бен. Узнаю подробности в Минине."
+		time="4" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_5_hero.ogg"
+		value="|И как же открыть эти громадные ворота? Бармен не так прост, как я думал. Если вернусь, заломит такую цену за ключ... Может быть, стоит придумать другой план?"
+		time="8" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_6_hero.ogg"
+		value="|Раз уж я сюда приехал, тут и буду ждать! Кто-нибудь да появится. Надо только найти неприметное место, где спрятаться."
+		time="8" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_7_hero.ogg"
+		value="|Вот здесь и спрячусь. Отличное место для засады."
+		time="4" />
+
+	<string
+		id="8"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_8_hero.ogg"
+		value="|Кто-то выезжает из тоннеля! Можно атаковать сразу. Или лучше проследить за ним и попробовать решить дело миром?"
+		time="8" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_9_hero.ogg"
+		value="|Прости, что так нехорошо получилось, но мне необходим этот ключ."
+		time="4" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_10_hero.ogg"
+		value="|Ага, он поехал развлечься в бар.  Мне точно нужно последовать за ним."
+		time="4" />
+
+	<string
+		id="11"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_11_bob.ogg"
+		value="ПРОЙДОХА БОБ|А ты отчаянный парень, как я погляжу. Не хочешь работать с нами в команде? Нам бы пригодился такой псих, как ты."
+		time="8" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_12_hero.ogg"
+		value="|Мне не до вас с вашими мерзкими бандитскими делами! Я ищу убийцу моего отца!"
+		time="4" />
+
+	<string
+		id="13"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_13_bob.ogg"
+		value="ПРОЙДОХА БОБ|Лучше у тебя на пути не стоять. Лиса была здесь недавно с посланием от своего шефа. Но она явно торопилась, и как только покончила с делами, сразу же уехала."
+		time="8" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_14_hero.ogg"
+		value="|Вы знаете куда?"
+		time="4" />
+
+	<string
+		id="15"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_15_bob.ogg"
+		value="ПРОЙДОХА БОБ|Она не говорила напрямую, но, похоже, ей была нужна какая-то хитрая аппаратура. А достать такую можно только в Мидгарде, как я слышал."
+		time="8" />
+
+	<string
+		id="16"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_16_hero.ogg"
+		value="|По-моему, в этой машине едет мэр! Куда, интересно, он так торопится? Надо бы проследить..."
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_17_hero.ogg"
+		value="|Сколько добра свалено в этом тайнике! Значит, мэр действительно вор! Если я расскажу об этом в Минине, то его точно прогонят с управляющего поста. Если не хуже. И работники могут захотеть работать!"
+		time="12" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_18_hero.ogg"
+		value="|М-да. Слежка не удалась..."
+		time="4" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_19_hero.ogg"
+		value="|Слежка за мэром потерпела неудачу..."
+		time="4" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_20_hero.ogg"
+		value="|Что ж, вышка освобождена! Последний враг бежал. Он может привести меня к базе бандитов. Но надо ли мне это?!"
+		time="8" />
+
+	<string
+		id="30"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_30_hero.ogg"
+		value="|Что здесь произошло? Стенные панели сняты!!! За ними был тайник, но он открыт... Там пусто... Кто-то здесь хорошо поработал!"
+		time="8" />
+
+	<string
+		id="31"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_31_hero.ogg"
+		value="|Враг повержен! Диск у меня! Пора ехать к Оракулу!"
+		time="4" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_32_hero.ogg"
+		value="|Лиса, ты?! Нечасто увидишь в чужих краях знакомое лицо. Как поживаешь?"
+		time="4" />
+
+	<string
+		id="33"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_33_alice.ogg"
+		value="ЛИСА|Спасибо, ничего. Ты возмужал со времени нашей последней встречи. Если бы я сразу знала, кто ты такой, это сберегло бы мне кучу времени. Впрочем, всё складывается не так уж плохо."
+		time="8" />
+
+	<string
+		id="34"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_34_hero.ogg"
+		value="|Что ты делаешь? Стой! Это моё! Воровка, я доберусь до тебя! Она украла диск, без него я ничего не смогу выяснить у Оракула!"
+		time="8" />
+
+	<string
+		id="3412"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3412_hero.ogg"
+		value="|Это ещё что такое?!"
+		time="4" />
+
+	<string
+		id="35"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_35_oracle.ogg"
+		value="ОРАКУЛ|Человек! Ты прибыл вовремя."
+		time="4" />
+
+	<string
+		id="36"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_36_hero.ogg"
+		value="|Оракул? Ты изменился. Какая удача, что мы встретились! Я должен поговорить с тобой."
+		time="4" />
+
+	<string
+		id="361"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_361_oracle.ogg"
+		value="ОРАКУЛ|Сначала выслушай меня. Я полностью доверяю тебе и хочу открыть одну тайну. Это очень важно. Много лет назад иноземные захватчики облучили нашу планету лучами смерти, результатом чего стало резкое сокращение биомассы планеты."
+		time="22" />
+
+	<string
+		id="3610"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3610_oracle.ogg"
+		value="ОРАКУЛ|Находясь в спящем режиме, я анализировал данные и готовил контратаку. Мне почти удалось локализовать источник излучения, но нужны более точные данные."
+		time="15" />
+
+	<string
+		id="362"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_362_hero.ogg"
+		value="|Он находится в пустыне! Я обнаружил страшное место посреди дюн, убивающее каждого, кто приблизится! Это источник заразы, отравившей планету и убившей столько людей! Дьявольская машина должна быть остановлена, чтобы очистить наш мир!"
+		time="12" />
+
+	<string
+		id="363"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_363_oracle.ogg"
+		value="ОРАКУЛ|Твои данные бесценны. Эти координаты совпадают с моими расчётами. Я, как и ты, вижу только один путь – полное уничтожение чужеродного элемента."
+		time="8" />
+
+	<string
+		id="364"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_364_hero.ogg"
+		value="|Нужно только найти достаточно мощное оружие, а я укажу координаты цели. Наверняка у древних людей были запасы вооружения. Напряги память!"
+		time="8" />
+
+	<string
+		id="365"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_365_oracle.ogg"
+		value="ОРАКУЛ|Действительно, люди накопили огромное количество смертоносных устройств. Прямо сейчас в небе над нами кружат десятки спутников, начинённых атомными боеголовками. Орбитальная бомбардировка – это оптимальный способ атаки в сложившейся ситуации."
+		time="12" />
+
+	<string
+		id="366"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_366_hero.ogg"
+		value="|Чего же ты медлишь?!"
+		time="4" />
+
+	<string
+		id="367"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_367_oracle.ogg"
+		value="ОРАКУЛ|Мощный источник помех, блокирующий большинство моих сигналов, находится в Либриуме. Предполагаю, что питает его электростанция города Сель. Обезвредь его, и мой контроль над всей техникой древних будет полным."
+		time="12" />
+
+	<string
+		id="368"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_368_hero.ogg"
+		value="|Я рад иметь такого союзника, как ты, Оракул."
+		time="4" />
+
+	<string
+		id="369"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_369_oracle.ogg"
+		value="ОРАКУЛ|Скоро планета будет спасена!"
+		time="4" />
+
+	<string
+		id="37"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_37_hero.ogg"
+		value="|Придётся теперь искать работников в другой деревне."
+		time="4" />
+
+	<string
+		id="38"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_38_hero.ogg"
+		value="|Теперь мне уже не узнать, где находится база бандитов."
+		time="4" />
+
+	<string
+		id="3001"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3001_hero.ogg"
+		value="|Это ещё что такое?!"
+		time="4" />
+
+	<string
+		id="3002"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3002_oracle.ogg"
+		value="ОРАКУЛ|Человек, ты помог мне обрести прежнее могущество, но сейчас вмешиваешься в вещи, сути которых не понимаешь!"
+		time="8" />
+
+	<string
+		id="3003"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3003_hero.ogg"
+		value="|Оракул?! У тебя теперь крылья! Это же просто здорово! Твоя помощь мне пригодится! Человечество в опасности!"
+		time="8" />
+
+	<string
+		id="3004"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3004_oracle.ogg"
+		value="ОРАКУЛ|Я знаю об источнике излучения и ищу средства его уничтожить."
+		time="4" />
+
+	<string
+		id="3005"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3005_hero.ogg"
+		value="|Зачем уничтожать? Там же полно людей вокруг! Всегда есть другой путь. Достаточно применить это устройство и..."
+		time="8" />
+
+	<string
+		id="3006"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3006_oracle.ogg"
+		value="ОРАКУЛ|Глупец! Я знаю, кто дал тебе это. Как только ты включишь своё устройство, жизнь на земле прекратится. Это последняя часть их плана по захвату планеты! Отступись!"
+		time="8" />
+
+	<string
+		id="3007"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3007_hero.ogg"
+		value="|Ты безумен! Я намерен спасти всех вас, и никто меня не остановит."
+		time="4" />
+
+	<string
+		id="3008"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3008_oracle.ogg"
+		value="ОРАКУЛ|Сотрудничество с врагом недопустимо. Предатель должен быть уничтожен."
+		time="4" />
+
+	<string
+		id="3009"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3009_hero.ogg"
+		value="|Значит, мне придётся сразиться с тобой!"
+		time="4" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше."
+		time="3" />
+
+	<string
+		id="8804"
+		value="Хотите переехать через мост?"
+		numButtons="2" />
+
+	<string
+		id="8805"
+		value="Хотите переехать через мост?|Цена проезда - 250"
+		numButtons="2" />
+
+	<string
+		id="6006"
+		value="Чтобы пересечь мост, Вам надо иметь 250 монет. Ваших текущих средств явно недостаточно." />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    Хотя мобильный модуль Оракула и был разрушен, сам компьютер остался цел. Его металлические слуги вернулись в джунгли, и совершают иногда неожиданные набеги на экспедиции Ньери. Успешная установка блокиратора вызвала заметные изменения в жизни людей. База пришельцев переместилась в Зармек, где они, наконец, смогли спокойно исследовать излучение и его действие на людей. Первые эксперименты оказались довольно успешными: некоторым людям удалось снять маски и выжить. Правда, лишь в стенах лаборатории Ньери. Впервые за много лет, у людей появилась надежда на восстановление прежнего мира. Но самые прозорливые начали понимать, что падение тарелки не было случайным, и планы новых союзников могут сильно расходиться с чаяниями людей."
+		sound="data\sounds\Speech\rolik\ending1.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="57" />
+</resource>

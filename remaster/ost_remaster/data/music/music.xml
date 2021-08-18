@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Music>
+
+	<model
+		id="mainmenu"
+		file="data\music\mainmenu_remaster.ogg"
+		/>
+		
+		
+	<!-- Towns -->
+	<model
+		id="bar"
+		file="data\music\bar.ogg" />
+
+
+	<model 
+		id="trade_town1"
+		file="data\music\towns\town1(commercial).ogg" />
+
+	<model 
+		id="agriculruar_town1"
+		file="data\music\towns\town2(country).ogg" />
+
+	<model 
+		id="techno_town1"
+		file="data\music\towns\town3(techno).ogg" />
+
+	<model 
+		id="military_town1"
+		file="data\music\towns\town4(military).ogg" />
+		
+
+		
+	<!-- Blocks -->		
+	<model
+		id="block0_driving"
+		file="data\music\blocks\Region1\1-3\driving1_remaster.ogg"
+		/>
+		
+	<model
+		id="block0_alarm"
+		file="data\music\blocks\Region1\1-3\alarm1.ogg"
+		/>
+		
+	<model
+		id="block0_battle"
+		file="data\music\blocks\Region1\1-3\battle1.ogg"
+		/>
+		
+
+	<model
+		id="block1_driving"
+		file="data\music\blocks\Region1\1-3\driving2_remaster.ogg"
+		/>
+		
+	<model
+		id="block1_alarm"
+		file="data\music\blocks\Region1\1-3\alarm2.ogg"
+		/>
+		
+	<model
+		id="block1_battle"
+		file="data\music\blocks\Region1\1-3\battle2.ogg"
+		/>
+		
+
+	<model
+		id="r1_4_driving"
+		file="data\music\blocks\Region1\4\driving7_remaster.ogg"
+		/>
+		
+	<model
+		id="r1_4_alarm"
+		file="data\music\blocks\Region1\4\alarm7.ogg"
+		/>
+		
+	<model
+		id="r1_4_battle"
+		file="data\music\blocks\Region1\4\battle7.ogg"
+		/>
+		
+
+	<model
+		id="r2_1_driving"
+		file="data\music\blocks\Region2\France\driving6_remaster.ogg"
+		/>
+		
+	<model
+		id="r2_1_alarm"
+		file="data\music\blocks\Region2\France\alarm6.ogg"
+		/>
+		
+	<model
+		id="r2_1_battle"
+		file="data\music\blocks\Region2\France\battle6.ogg"
+		/>
+		
+
+	<model
+		id="r2_2_driving"
+		file="data\music\blocks\Region2\Neutral\driving3_remaster.ogg"
+		/>
+		
+	<model
+		id="r2_2_alarm"
+		file="data\music\blocks\Region2\Neutral\alarm3.ogg"
+		/>
+		
+	<model
+		id="r2_2_battle"
+		file="data\music\blocks\Region2\Neutral\battle3.ogg"
+		/>
+		
+
+	<model
+		id="r3_1_driving"
+		file="data\music\blocks\Region3\Jungle_1\driving4.ogg"
+		/>
+		
+	<model
+		id="r3_1_alarm"
+		file="data\music\blocks\Region3\Jungle_1\alarm4.ogg"
+		/>
+		
+	<model
+		id="r3_1_battle"
+		file="data\music\blocks\Region3\Jungle_1\battle4.ogg"
+		/>
+		
+
+
+	<model
+		id="r3_2_driving"
+		file="data\music\blocks\Region3\Jungle_2\driving5.ogg"
+		/>
+		
+	<model
+		id="r3_2_alarm"
+		file="data\music\blocks\Region3\Jungle_2\alarm5.ogg"
+		/>
+		
+	<model
+		id="r3_2_battle"
+		file="data\music\blocks\Region3\Jungle_2\battle5.ogg"
+		/>
+		
+
+
+	<model
+		id="r4_1_driving"
+		file="data\music\blocks\Region4\Desert_1\driving8_remaster.ogg"
+		/>
+		
+	<model
+		id="r4_1_alarm"
+		file="data\music\blocks\Region4\Desert_1\alarm8.ogg"
+		/>
+		
+	<model
+		id="r4_1_battle"
+		file="data\music\blocks\Region4\Desert_1\battle8.ogg"
+		/>
+		
+
+	<model
+		id="r4_2_driving"
+		file="data\music\blocks\Region4\Desert_2\driving9.ogg"
+		/>
+		
+	<model
+		id="r4_2_alarm"
+		file="data\music\blocks\Region4\Desert_2\alarm9.ogg"
+		/>
+		
+	<model
+		id="r4_2_battle"
+		file="data\music\blocks\Region4\Desert_2\battle9.ogg"
+		/>
+
+<!-- 		cinematics music		 -->
+
+	<model
+		id="Battle01"
+		file="data\music\cinematics\Battle01.ogg" />
+	<model
+		id="Battle02"
+		file="data\music\cinematics\Battle02.ogg" />
+	<model
+		id="Battle03"
+		file="data\music\cinematics\Battle03.ogg" />
+	<model
+		id="Bio01"
+		file="data\music\cinematics\Bio01.ogg" />
+	<model
+		id="Bio02"
+		file="data\music\cinematics\Bio02.ogg" />
+	<model
+		id="Bio03"
+		file="data\music\cinematics\Bio03.ogg" />
+	<model
+		id="Bio04"
+		file="data\music\cinematics\Bio04.ogg" />
+	<model
+		id="Bio05"
+		file="data\music\cinematics\Bio05.ogg" />
+	<model
+		id="Bio06"
+		file="data\music\cinematics\Bio06.ogg" />
+	<model
+		id="Bio07unloop"
+		file="data\music\cinematics\Bio07unloop.ogg" />
+	<model
+		id="Bio08"
+		file="data\music\cinematics\Bio08.ogg" />
+	<model
+		id="Death01"
+		file="data\music\cinematics\Death01.ogg" />
+	<model
+		id="Death02"
+		file="data\music\cinematics\Death02.ogg" />
+	<model
+		id="IntenseDialogue01"
+		file="data\music\cinematics\IntenseDialogue01.ogg" />
+	<model
+		id="IntenseDialogue02"
+		file="data\music\cinematics\IntenseDialogue02.ogg" />
+	<model
+		id="IntenseDialogue03"
+		file="data\music\cinematics\IntenseDialogue03.ogg" />
+	<model
+		id="IntenseDialogue04"
+		file="data\music\cinematics\IntenseDialogue04.ogg" />
+	<model
+		id="Passage01unloop"
+		file="data\music\cinematics\Passage01unloop.ogg" />
+	<model
+		id="Passage02"
+		file="data\music\cinematics\Passage02.ogg" />
+	<model
+		id="Passage02a"
+		file="data\music\cinematics\Passage02a.ogg" />
+	<model
+		id="Passage02b"
+		file="data\music\cinematics\Passage02b.ogg" />
+	<model
+		id="Passage03"
+		file="data\music\cinematics\Passage03.ogg" />
+	<model
+		id="Passage03a"
+		file="data\music\cinematics\Passage03a.ogg" />
+	<model
+		id="Passage03b"
+		file="data\music\cinematics\Passage03b.ogg" />
+	<model
+		id="Passage04"
+		file="data\music\cinematics\Passage04.ogg" />
+	<model
+		id="Passage05"
+		file="data\music\cinematics\Passage05.ogg" />
+	<model
+		id="QuietDialogue01"
+		file="data\music\cinematics\QuietDialogue01.ogg" />
+	<model
+		id="QuietDialogue02"
+		file="data\music\cinematics\QuietDialogue02.ogg" />
+	<model
+		id="QuietDialogue03"
+		file="data\music\cinematics\QuietDialogue03.ogg" />
+	<model
+		id="QuietDialogue04"
+		file="data\music\cinematics\QuietDialogue04.ogg" />
+	<model
+		id="Sadness1"
+		file="data\music\cinematics\Sadness1.ogg" />
+	<model
+		id="Techno01"
+		file="data\music\cinematics\Techno01.ogg" />
+	<model
+		id="Techno02"
+		file="data\music\cinematics\Techno02.ogg" />
+	<model
+		id="Techno03"
+		file="data\music\cinematics\Techno03.ogg" />
+	<model
+		id="Techno04"
+		file="data\music\cinematics\Techno04.ogg" />
+</Music>
