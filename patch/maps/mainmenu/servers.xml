@@ -2,6 +2,10 @@
 <Servers>
 	<AnimatedModelsServer>
 		<Item
+			id="cub"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="cargo"
 			file="data\models\AnimModels.xml" />
 
