@@ -1037,7 +1037,7 @@
 		id="hunter01L"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="hunter01Lgun"
@@ -1066,7 +1066,7 @@
 		id="hunter01R"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="hunter01Rgun"
@@ -1095,7 +1095,7 @@
 		id="mrak01L"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="mrak01Lgun"
@@ -1124,7 +1124,7 @@
 		id="mrak01R"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="mrak01Rgun"
@@ -1281,7 +1281,7 @@
 		id="zeus01L"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="zeus01Lgun"
@@ -1310,7 +1310,7 @@
 		id="zeus01R"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="zeus01Rgun"
