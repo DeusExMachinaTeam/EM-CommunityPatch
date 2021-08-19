@@ -82,7 +82,7 @@
 
 		<Render
 			TrailLen="5"
-			ScaleParts="1.000"
+			ScaleParts="0.950"
 			BlendMode="1"
 			UpdateXForm="0"
 			SpriteAngle="0.000"
