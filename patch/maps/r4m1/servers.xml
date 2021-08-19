@@ -2126,14 +2126,13 @@
 		<Item id="S_CRASH_WOOD06" />
 		<Item id="S_CRASH_WOOD07" />
 		<Item id="S_CRASH_WOOD08" />
-            <Item id="S_WOODVEHICLEHIT" />
-		<Item id="S_WOODVEHICLECRASH" />
-            <Item id="S_BRICKVEHICLEHIT01" />
-            <Item id="S_BRICKVEHICLEHIT02" />
-            <Item id="S_SACKVEHICLEHIT" />
-            <Item id="S_VEHICLESPARKLE" />
-            <Item id="S_VEHICLESPARKLE_SLOW" />
-            <Item id="S_VEHICLEONGROUND" />
+            <!-- <Item id="S_WOODVEHICLEHIT" /> -->
+		<!-- <Item id="S_WOODVEHICLECRASH" /> -->
+            <!-- <Item id="S_BRICKVEHICLEHIT01" /> -->
+            <!-- <Item id="S_BRICKVEHICLEHIT02" /> -->
+            <!-- <Item id="S_SACKVEHICLEHIT" /> -->
+            <!-- <Item id="S_VEHICLESPARKLE" /> -->
+            <!-- <Item id="S_VEHICLEONGROUND" /> -->
             <Item id="S_VEHICLEONGROUND_SLOW" />
             <Item id="S_STATICSSPARKLE" />
             <Item id="S_STATICSSPARKLE_SLOW" />
@@ -2332,7 +2331,6 @@
 		<Item id="S_ROCK_EXPL" />
 		<Item id="S_GROUND_EXPL" />
 		<Item id="S_SAND_EXPL" />
-		<Item id="S_GROUND_EXPL" />
 		<Item id="S_WOOD_EXPL" />
 		<Item id="S_WATER_AC" />
 		<Item id="S_STATIC_AC" />
@@ -2401,7 +2399,6 @@
 		<Item id="S_MARSH" />
 		<Item id="S_MOUNT" />
 		<Item id="S_LAKE" />
-
 		<Item id="S_FOREST" />
 		<Item id="S_DESERT" />
 		<Item id="S_JUNGLE" />
@@ -2415,22 +2412,21 @@
 		<Item id="S_MAN_SCREAM1"/>
 		<Item id="S_MAN_SCREAM2"/>
 		<Item id="S_WOODVEHICLEHIT1"/>
-	      <Item id="S_WOODVEHICLEHIT2"/>
-	      <Item id="S_WOODVEHICLEHIT3"/>
+		<Item id="S_WOODVEHICLEHIT2"/>
+		<Item id="S_WOODVEHICLEHIT3"/>
 		<Item id="S_WOODVEHICLECRASH"/>
 		<Item id="S_BRICKVEHICLEHIT01"/>
 		<Item id="S_BRICKVEHICLEHIT02"/>
-            <Item id="S_BRICKVEHICLEHIT03"/>
+		<Item id="S_BRICKVEHICLEHIT03"/>
 
 		<Item id="S_SACKVEHICLEHIT"/>
-            <Item id="S_SACKVEHICLEHIT02"/>
-            <Item id="S_TREEVEHICLECRASH"/>
-		<Item id="S_VEHICLEONGROUND"/>
+		<Item id="S_SACKVEHICLEHIT02"/>
+		<Item id="S_TREEVEHICLECRASH"/>
 		<Item id="S_VEHICLESPARKLE"/>
+		<Item id="S_VEHICLESPARKLE_SLOW"/>
 		<Item id="S_VEHICLEONGROUND"/>
 		<Item id="S_DRIFT01"/>
-            <Item id="S_CARJUMP"/>
-
+		<Item id="S_CARJUMP"/>
 
 		<Item id="S_VEH_HIT_BULLET01"/>
 		<Item id="S_VEH_HIT_BULLET02"/>
@@ -2451,7 +2447,7 @@
 		<Item id="S_CAR_BURNING_SMALL"/>
 		<Item id="S_CAR_BURNING"/>
 
-            <Item id="S_ENGINE_TANK_HIGH"/>
+		<Item id="S_ENGINE_TANK_HIGH"/>
 
 	</SoundsServer>
 
