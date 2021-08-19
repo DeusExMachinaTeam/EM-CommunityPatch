@@ -118,7 +118,7 @@
 		<Node
 			name="wndMaxHealthLbl"
 			class="Wnd"
-			org="73.000 53.000 295.000 45.000"
+			org="73.000 51.000 295.000 45.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -279,7 +279,7 @@
 		<Node
 			name="wndTorqueLbl"
 			class="Wnd"
-			org="416.000 225.000 295.000 28.000"
+			org="416.000 227.000 295.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -302,7 +302,7 @@
 		<Node
 			name="wndTorqueVal"
 			class="Wnd"
-			org="750.000 225.000 134.000 28.000"
+			org="750.000 227.000 134.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -514,7 +514,7 @@
 		<Node
 			name="wndMaxHealthVal"
 			class="Wnd"
-			org="229.000 53.000 91.000 45.000"
+			org="229.000 51.000 91.000 45.000"
 			style="2560"
 			order="20"
 			id="0"
@@ -583,7 +583,7 @@
 		<Node
 			name="wndBasketCapacityLbl"
 			class="Wnd"
-			org="416.000 120.00 295.000 28.000"
+			org="416.000 119.00 295.000 28.000"
 			style="2560"
 			order="23"
 			id="0"
@@ -629,7 +629,7 @@
 		<Node
 			name="wndBasketCapacityVal"
 			class="Wnd"
-			org="750.000 120.000 134.000 28.000"
+			org="750.000 119.000 134.000 28.000"
 			style="2560"
 			order="25"
 			id="0"
@@ -676,7 +676,7 @@
 		<Node
 			name="wndBasketCapacityIco"
 			class="ImageWnd"
-			org="375.000 120.000 28.000 28.000"
+			org="375.000 118.000 28.000 28.000"
 			style="512"
 			order="34"
 			id="0"
@@ -724,7 +724,7 @@
 		<Node
 			name="wndTorqueIco"
 			class="ImageWnd"
-			org="374.000 225.000 28.000 28.000"
+			org="374.000 226.000 28.000 28.000"
 			style="512"
 			order="36"
 			id="0"
