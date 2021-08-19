@@ -445,33 +445,9 @@
 		</Node>
 
 		<Node
-			name="wndControlIco"
-			class="ImageWnd"
-			org="206.000 236.000 25.000 25.000"
-			style="512"
-			order="38"
-			id="0"
-			caption=""
-			tip="^VehicleControl^"
-			backimage=""
-			paneName="defaultWnd"
-			scrollPaneName="Scroll1"
-			paneFlags="0"
-			wrap="2"
-			format="1"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ffffffff"
-			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\Icons\Control.dds">
-			<Animations/>
-		</Node>
-
-		<Node
 			name="wndControlVal"
 			class="Wnd"
-			org="343.000 236.000 98.000 28.000"
+			org="343.000 666.000 98.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -488,29 +464,6 @@
 			wndColor="00000000"
 			textColor="ff404040"
 			textColorDisabled="ff8f8f8f">
-			<Animations/>
-		</Node>
-
-		<Node
-			name="wndControlLbl"
-			class="Wnd"
-			org="235.000 236.000 160.000 28.000"
-			style="2656"
-			order="21"
-			id="0"
-			caption="^VehicleControl^"
-			tip="^VehicleControl^"
-			backimage=""
-			paneName="defaultWnd"
-			scrollPaneName="Scroll1"
-			paneFlags="0"
-			wrap="0"
-			format="1"
-			font="1"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ff404040"
-			textColorDisabled="ff7f7f7f">
 			<Animations/>
 		</Node>
 
