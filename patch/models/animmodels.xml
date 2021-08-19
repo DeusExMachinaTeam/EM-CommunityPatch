@@ -1159,7 +1159,7 @@
 		id="hail01Lgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_hail02.gam">
+		file="data\models\guns\side_hail01.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1194,7 +1194,7 @@
 		id="hail01Rgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_hail01.gam">
+		file="data\models\guns\side_hail02.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1229,7 +1229,7 @@
 		id="mars01Lgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_mars02.gam">
+		file="data\models\guns\side_mars01.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1258,7 +1258,7 @@
 		id="mars01Rgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_mars01.gam">
+		file="data\models\guns\side_mars02.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1287,7 +1287,7 @@
 		id="zeus01Lgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_zeus02.gam">
+		file="data\models\guns\side_zeus01.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1316,7 +1316,7 @@
 		id="zeus01Rgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_zeus01.gam">
+		file="data\models\guns\side_zeus02.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
