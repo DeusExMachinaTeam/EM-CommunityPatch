@@ -167,8 +167,8 @@ function giveguns ()
 			local slots={"SMALL_","BIG_","GIANT_","SIDE_"}
 			local guns={"GUN","GUN_0","GUN_1","GUN_2"}
 			local smallgun={"hornet01","specter01","pkt01","kord01","maxim01","storm01","fagot01"}
-			local biggun={"rapier01","vector01","vulcan01","flag01","kpvt01","rainmetal01","elephant01","odin01","bumblebee01","omega01"}
-			local giantgun={"cyclops01","octopus01","hurricane01","rocketLauncher","big_swingfire01"}
+			local biggun={"rapier01","vector01","vulcan01","flag01","kpvt01","rainmetal01","elephant01","odin01","bumblebee01","omega01","hurricane01"}
+			local giantgun={"cyclops01","octopus01","rocketLauncher","big_swingfire01"}
 			local sidegun={"hailSideGun","marsSideGun","zeusSideGun","hunterSideGun"}
 			local i,j,k=1,1,1
 			while parts[i] do
@@ -180,9 +180,9 @@ function giveguns ()
 						if j==1 then
 							gun=smallgun[random(7)]
 						elseif j==2 then
-							gun=biggun[random(10)]
+							gun=biggun[random(11)]
 						elseif j==3 then
-							gun=giantgun[random(5)]
+							gun=giantgun[random(4)]
 						elseif j==4 then
 							gun=sidegun[random(4)]
 						end
