@@ -1037,7 +1037,7 @@
 		id="hunter01L"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="hunter01Lgun"
@@ -1066,7 +1066,7 @@
 		id="hunter01R"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="hunter01Rgun"
@@ -1095,7 +1095,7 @@
 		id="mrak01L"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="mrak01Lgun"
@@ -1124,7 +1124,7 @@
 		id="mrak01R"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="mrak01Rgun"
@@ -1159,7 +1159,7 @@
 		id="hail01Lgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_hail02.gam">
+		file="data\models\guns\side_hail01.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1194,7 +1194,7 @@
 		id="hail01Rgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_hail01.gam">
+		file="data\models\guns\side_hail02.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1229,7 +1229,7 @@
 		id="mars01Lgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_mars02.gam">
+		file="data\models\guns\side_mars01.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1258,7 +1258,7 @@
 		id="mars01Rgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_mars01.gam">
+		file="data\models\guns\side_mars02.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1281,13 +1281,13 @@
 		id="zeus01L"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="zeus01Lgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_zeus02.gam">
+		file="data\models\guns\side_zeus01.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -1310,13 +1310,13 @@
 		id="zeus01R"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" />
+		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="zeus01Rgun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\guns\side_zeus01.gam">
+		file="data\models\guns\side_zeus02.gam">
 		<action
 			name="DEATH1"
 			skin="8"/>
@@ -2013,11 +2013,9 @@
 		<action
 			name="DEATH1"
 			skin="8"/>
-
 		<action
 			name="DEATH2"
 			skin="8"/>
-
 		<action
 			name="MOVE1">
 			<lp
@@ -2026,11 +2024,28 @@
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
-
 		<action
 			name="STAND1">
 			<lp
 				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
 				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />

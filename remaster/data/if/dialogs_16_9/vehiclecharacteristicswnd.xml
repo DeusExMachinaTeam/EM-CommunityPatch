@@ -95,7 +95,7 @@
 		<Node
 			name="wndMaxSpeedLbl"
 			class="Wnd"
-			org="416.000 151.000 295.000 28.000"
+			org="416.000 172.250 295.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -118,7 +118,7 @@
 		<Node
 			name="wndMaxHealthLbl"
 			class="Wnd"
-			org="73.000 53.000 295.000 45.000"
+			org="73.000 51.000 295.000 45.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -256,7 +256,7 @@
 		<Node
 			name="wndMaxSpeedVal"
 			class="Wnd"
-			org="750.000 151.000 134.000 28.000"
+			org="750.000 172.250 134.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -279,7 +279,7 @@
 		<Node
 			name="wndTorqueLbl"
 			class="Wnd"
-			org="416.000 195.000 295.000 28.000"
+			org="416.000 227.000 295.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -302,7 +302,7 @@
 		<Node
 			name="wndTorqueVal"
 			class="Wnd"
-			org="750.000 194.000 134.000 28.000"
+			org="750.000 227.000 134.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -325,7 +325,7 @@
 		<Node
 			name="wndWeightLbl"
 			class="Wnd"
-			org="416.000 240.000 295.000 28.000"
+			org="416.000 280.000 295.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -348,7 +348,7 @@
 		<Node
 			name="wndWeightVal"
 			class="Wnd"
-			org="750.000 240.000 134.000 28.000"
+			org="750.000 280.000 134.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -369,32 +369,9 @@
 		</Node>
 
 		<Node
-			name="wndControlLbl"
-			class="Wnd"
-			org="416.000 285.000 295.000 28.000"
-			style="2560"
-			order="8"
-			id="0"
-			caption="^VehicleControl^"
-			tip="^VehicleControl^"
-			backimage=""
-			paneName="defaultWnd"
-			scrollPaneName="Scroll1"
-			paneFlags="0"
-			wrap="2"
-			format="1"
-			font="1"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ff404040"
-			textColorDisabled="ff8f8f8f">
-			<Animations/>
-		</Node>
-
-		<Node
 			name="wndControlVal"
 			class="Wnd"
-			org="750.000 285.000 134.000 28.000"
+			org="750.000 666.000 134.000 28.000"
 			style="2560"
 			order="8"
 			id="0"
@@ -537,7 +514,7 @@
 		<Node
 			name="wndMaxHealthVal"
 			class="Wnd"
-			org="229.000 53.000 91.000 45.000"
+			org="229.000 51.000 91.000 45.000"
 			style="2560"
 			order="20"
 			id="0"
@@ -583,7 +560,7 @@
 		<Node
 			name="wndMaxFuelLbl"
 			class="Wnd"
-			org="416.000 60.000 295.000 28.000"
+			org="416.000 65.000 295.000 28.000"
 			style="2560"
 			order="22"
 			id="0"
@@ -606,7 +583,7 @@
 		<Node
 			name="wndBasketCapacityLbl"
 			class="Wnd"
-			org="416.000 105.000 295.000 28.000"
+			org="416.000 119.00 295.000 28.000"
 			style="2560"
 			order="23"
 			id="0"
@@ -629,7 +606,7 @@
 		<Node
 			name="wndMaxFuelVal"
 			class="Wnd"
-			org="750.000 60.000 134.000 28.000"
+			org="750.000 65.000 134.000 28.000"
 			style="2560"
 			order="24"
 			id="0"
@@ -652,7 +629,7 @@
 		<Node
 			name="wndBasketCapacityVal"
 			class="Wnd"
-			org="750.000 105.000 134.000 28.000"
+			org="750.000 119.000 134.000 28.000"
 			style="2560"
 			order="25"
 			id="0"
@@ -675,7 +652,7 @@
 		<Node
 			name="wndMaxFuelIco"
 			class="ImageWnd"
-			org="374.000 60.000 28.000 28.000"
+			org="374.000 65.000 28.000 28.000"
 			style="512"
 			order="33"
 			id="0"
@@ -699,7 +676,7 @@
 		<Node
 			name="wndBasketCapacityIco"
 			class="ImageWnd"
-			org="375.000 105.000 28.000 28.000"
+			org="375.000 118.000 28.000 28.000"
 			style="512"
 			order="34"
 			id="0"
@@ -723,7 +700,7 @@
 		<Node
 			name="wndMaxSpeedIco"
 			class="ImageWnd"
-			org="374.000 151.000 28.000 28.000"
+			org="374.000 172.250 28.000 28.000"
 			style="512"
 			order="35"
 			id="0"
@@ -747,7 +724,7 @@
 		<Node
 			name="wndTorqueIco"
 			class="ImageWnd"
-			org="374.000 195.000 28.000 28.000"
+			org="374.000 226.000 28.000 28.000"
 			style="512"
 			order="36"
 			id="0"
@@ -771,7 +748,7 @@
 		<Node
 			name="wndWeightIco"
 			class="ImageWnd"
-			org="374.000 240.000 28.000 28.000"
+			org="374.000 280.000 28.000 28.000"
 			style="512"
 			order="37"
 			id="0"
@@ -789,30 +766,6 @@
 			textColor="ffffffff"
 			textColorDisabled="ff7f7f7f"
 			image="data\if\ico\GarageWnd\Icons\Weight.dds">
-			<Animations/>
-		</Node>
-
-		<Node
-			name="wndControlIco"
-			class="ImageWnd"
-			org="374.000 284.000 28.000 28.000"
-			style="512"
-			order="38"
-			id="0"
-			caption=""
-			tip="^VehicleControl^"
-			backimage=""
-			paneName="defaultWnd"
-			scrollPaneName="Scroll1"
-			paneFlags="0"
-			wrap="2"
-			format="1"
-			font="0"
-			clientEdges="0.000 0.000 0.000 0.000"
-			wndColor="00000000"
-			textColor="ffffffff"
-			textColorDisabled="ff7f7f7f"
-			image="data\if\ico\GarageWnd\Icons\Control.dds">
 			<Animations/>
 		</Node>
 

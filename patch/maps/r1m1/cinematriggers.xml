@@ -279,7 +279,7 @@
 
 			local PlVehicle = GetPlayerVehicle()
 			if PlVehicle then
-				PlVehicle:SetPosition( CVector(1245.248, 291.696, 2853.315) )
+				PlVehicle:SetGamePositionOnGround( CVector(1245.248, 291.696, 2853.315) )
 				PlVehicle:SetRotation(Quaternion(0.070, 0.539, 0.000, -0.839))
 				PlVehicle:SetCustomControlEnabled( true )
 				PlVehicle:SetExternalPathByName("player_path01")
