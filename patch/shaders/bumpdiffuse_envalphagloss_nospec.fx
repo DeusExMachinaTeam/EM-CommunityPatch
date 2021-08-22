@@ -52,7 +52,7 @@ float4 FragmentBumpEnv(VS_OUTPUT input) : COLOR {
     float4 Diffuse = tex2D(DiffuseSampler, input.UVMap0);
     float4 Bump    = tex2D(BumpSampler, input.UVMap0);
     float3 Normal  = bump(Bump.rgb, input.Normal, input.Tangent, input.Binormal);
-    float3 UVMap1  = reflection(input.ViewDirection, input.Normal, WorldMatrix);
+    float3 UVMap1  = reflection(input.ViewDirection, Normal, WorldMatrix);
     float4 Cubemap = texCUBE(CubeSampler, UVMap1);
 
     return diffuse(
