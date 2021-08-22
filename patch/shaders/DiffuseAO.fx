@@ -22,22 +22,11 @@
  *        AO: R
  **/
 
+#define ENABLE_AMBIENT
+#include "template.fx"
 
-shared const float4 g_Ambient:     LIGHT_AMBIENT  = {0.2f, 0.2f, 0.2f, 1.0f};
-shared const float4 g_Diffuse:     LIGHT_DIFFUSE  = {1.0f, 1.0f, 1.0f, 1.0f};
-shared const float3 g_Specular:    LIGHT_SPECULAR = {1.0f, 1.0f, 1.0f};
-shared const float2 g_FogTerm:     FOG_TERM       = {1.0f, 800.0f};
-shared const float  g_Transparent: TRANSPARENCY   = 1.0f;
-
-#include "lib.fx"
-#include "tlib.fx"
-#include "lightmodel.fx"
-
-texture DiffuseTexture: DIFFUSE_MAP_0;
-DECLARE_DIFFUSE_SAMPLER(DiffuseSampler, DiffuseTexture)
-
-texture LightmapTexture: LIGHT_MAP_0;
-DECLARE_DIFFUSE_SAMPLER(LightmapSampler, LightmapTexture)
+DeclareTexture2D(DIFFUSE_MAP_0, DiffuseTexture, DiffuseSampler, Wrap)
+DeclareTexture2D(LIGHT_MAP_0, LightmapTexture, LightmapSampler, Wrap)
 
 float4 ViewPosition: VIEW_POS<int Space = SPACE_OBJECT;>;
 float3 LightDirection: TMP_LIGHT0_DIR<int Space = SPACE_OBJECT;>;
@@ -67,7 +56,7 @@ VS_OUTPUT VertexDiffuseAO(VS_INPUT input) {
     output.UVMap1        = input.UVMap1;
     output.Normal        = input.Normal;
     output.ViewDirection = normalize(ViewPosition - input.Position);
-    output.Fog           = CalcFog(output.FinalPosition, g_FogTerm);
+    output.Fog           = fog(output.FinalPosition, g_FogTerm);
     return output;
 }
 
@@ -76,15 +65,15 @@ float4 FragmentDiffuseAO(VS_OUTPUT input) : COLOR {
     float4 Lightmap = tex2D(LightmapSampler, input.UVMap1);
     float4 Diffuse  = tex2D(DiffuseSampler, input.UVMap0);
 
-    return DSPMaterial(
+    return diffuse(
         input.ViewDirection,
         LightDirection,
         Diffuse.rgb,
         float3(0, 0, 0),
         input.Normal,
         float3(0, 0, 0),
-        0,
         Diffuse.a,
+        0,
         pow(Lightmap.r, 1.25),
         0
     );
