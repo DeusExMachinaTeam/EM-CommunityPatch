@@ -2,7 +2,7 @@
 <World
 	name="Object299"
 	class="SgNode"
-	LastId="76476428">
+	LastId="76476523">
 	<Node
 		name="Object3"
 		class="SgAnimatedModelNode"
@@ -118,7 +118,7 @@
 	<Node
 		name="Object702"
 		class="SgAnimatedModelNode"
-		org="1274.657 -0.001 2871.145"
+		org="1274.657 -0.117 2871.145"
 		orgRel="1"
 		rot="-0.0166 -0.7207 0.0173 0.6929"
 		id="heavy_bigwall1"
@@ -127,7 +127,7 @@
 	<Node
 		name="Object703"
 		class="SgAnimatedModelNode"
-		org="1274.132 0.137 2881.878"
+		org="1274.132 0.791 2881.878"
 		orgRel="1"
 		rot="-0.0302 -0.7202 0.0314 0.6924"
 		id="heavy_bigwall1"
@@ -136,7 +136,7 @@
 	<Node
 		name="Object704"
 		class="SgAnimatedModelNode"
-		org="1273.721 -1.814 2892.478"
+		org="1273.721 -0.384 2892.478"
 		orgRel="1"
 		rot="-0.0468 -0.7193 0.0487 0.6915"
 		id="heavy_bigwall1"
@@ -173,16 +173,16 @@
 	<Node
 		name="Object739"
 		class="SgAnimatedModelNode"
-		org="1261.797 -1.000 2829.321"
+		org="1261.797 -0.866 2829.321"
 		orgRel="1"
-		rot="0.0000 -0.2714 0.0000 0.9625"
+		rot="0.0053 -0.2713 -0.0189 0.9623"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object740"
 		class="SgAnimatedModelNode"
-		org="1210.954 0.218 2827.224"
+		org="1210.954 1.495 2827.224"
 		orgRel="1"
 		id="heavy_smallwall1"
 		ndmAction="0" />
@@ -190,7 +190,7 @@
 	<Node
 		name="Object741"
 		class="SgNode"
-		org="3107.170 0.000 406.802"
+		org="3107.170 0.078 406.802"
 		orgRel="1"
 		rot="0.0000 0.5206 0.0000 0.8538">
 		<Node
@@ -283,7 +283,7 @@
 		<Node
 			name="Object4958"
 			class="SgGameUnitNode"
-			org="12.305 0.349 40.418"
+			org="12.305 -0.506 40.418"
 			orgRel="0"
 			id="kustarnik3"
 			ndmAction="0" />
@@ -322,8 +322,7 @@
 				orgRel="0"
 				rot="0.0000 0.7193 0.0000 0.6947"
 				id="civilhouse1_skin"
-				ndmAction="0"
-				skin="1" />
+				ndmAction="0" />
 
 			<Node
 				name="Object5210"
@@ -340,8 +339,7 @@
 				orgRel="0"
 				rot="0.0000 -0.7254 0.0000 0.6884"
 				id="civilhouse3_skin"
-				ndmAction="0"
-				skin="1" />
+				ndmAction="0" />
 
 			<Node
 				name="Object5241"
@@ -418,7 +416,7 @@
 		<Node
 			name="Object5163"
 			class="SgGameUnitNode"
-			org="11.480 -3.000 18.459"
+			org="11.480 0.000 18.459"
 			orgRel="0"
 			id="tube2"
 			ndmAction="0" />
@@ -427,60 +425,61 @@
 	<Node
 		name="Object771"
 		class="SgAnimatedModelNode"
-		org="1190.849 0.687 2989.546"
+		org="1190.189 0.099 2988.788"
 		orgRel="1"
-		rot="0.0000 -0.0958 0.0000 0.9954"
+		rot="-0.0313 -0.1322 -0.0131 0.9906"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object772"
 		class="SgAnimatedModelNode"
-		org="1201.210 -0.155 2990.532"
+		org="1200.695 -0.767 2990.350"
 		orgRel="1"
+		rot="-0.0065 -0.0284 -0.0002 0.9996"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object773"
 		class="SgAnimatedModelNode"
-		org="1181.282 1.243 2985.970"
+		org="1180.668 0.994 2985.016"
 		orgRel="1"
-		rot="0.0000 -0.2567 0.0000 0.9665"
+		rot="-0.0473 -0.2752 -0.0158 0.9601"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object774"
 		class="SgAnimatedModelNode"
-		org="1174.083 0.456 2979.214"
+		org="1174.039 1.005 2977.531"
 		orgRel="1"
-		rot="0.0000 -0.4656 0.0000 0.8850"
+		rot="-0.0290 -0.4845 -0.0086 0.8743"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object775"
 		class="SgAnimatedModelNode"
-		org="1169.945 0.779 2970.115"
+		org="1170.505 1.013 2969.305"
 		orgRel="1"
-		rot="0.0000 -0.6105 0.0000 0.7920"
+		rot="-0.0269 -0.6696 -0.0142 0.7421"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object776"
 		class="SgAnimatedModelNode"
-		org="1169.255 -0.902 2960.009"
+		org="1170.512 -0.116 2958.571"
 		orgRel="1"
-		rot="0.0000 -0.7461 0.0000 0.6659"
+		rot="-0.0043 -0.7163 0.0018 0.6978"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object778"
 		class="SgAnimatedModelNode"
-		org="1225.980 -2.490 2990.546"
+		org="1225.980 -1.085 2990.546"
 		orgRel="1"
 		id="heavy_bigwall1"
 		ndmAction="0" />
@@ -488,7 +487,7 @@
 	<Node
 		name="Object779"
 		class="SgAnimatedModelNode"
-		org="1211.524 -0.225 2990.515"
+		org="1211.431 0.398 2990.545"
 		orgRel="1"
 		id="heavy_bigwall1"
 		ndmAction="0" />
@@ -3331,7 +3330,7 @@
 	<Node
 		name="Object3328"
 		class="SgAnimatedModelNode"
-		org="2465.003 0.000 2683.675"
+		org="2461.741 -1.546 2678.152"
 		orgRel="1"
 		rot="0.0000 0.9659 0.0000 0.2588"
 		scale="0.884 0.884 0.884"
@@ -3351,7 +3350,7 @@
 	<Node
 		name="Object3330"
 		class="SgAnimatedModelNode"
-		org="2463.580 0.000 2675.383"
+		org="2463.291 0.000 2666.890"
 		orgRel="1"
 		rot="0.0000 0.4924 0.0000 0.8704"
 		scale="0.785 0.785 0.785"
@@ -3499,16 +3498,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object3345"
-		class="SgAnimatedModelNode"
-		org="2510.780 0.000 2770.271"
-		orgRel="1"
-		rot="0.0000 0.6361 0.0000 0.7716"
-		scale="1.159 1.159 1.159"
-		id="big_stone2"
-		ndmAction="0" />
-
-	<Node
 		name="Object3346"
 		class="SgAnimatedModelNode"
 		org="2489.860 0.000 2773.759"
@@ -3525,16 +3514,6 @@
 		orgRel="1"
 		rot="0.0000 0.9588 0.0000 -0.2840"
 		scale="1.142 1.142 1.142"
-		id="big_stone4"
-		ndmAction="0" />
-
-	<Node
-		name="Object3348"
-		class="SgAnimatedModelNode"
-		org="2484.250 0.000 2795.233"
-		orgRel="1"
-		rot="0.0000 0.2672 0.0000 0.9636"
-		scale="0.825 0.825 0.825"
 		id="big_stone4"
 		ndmAction="0" />
 
@@ -3589,16 +3568,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object3366"
-		class="SgAnimatedModelNode"
-		org="2462.784 0.000 2984.692"
-		orgRel="1"
-		rot="0.0000 0.5878 0.0000 -0.8090"
-		scale="0.936 0.936 0.936"
-		id="big_stone1"
-		ndmAction="0" />
-
-	<Node
 		name="Object3367"
 		class="SgAnimatedModelNode"
 		org="2474.932 0.000 2988.761"
@@ -3636,16 +3605,6 @@
 		rot="0.0000 0.9272 0.0000 0.3746"
 		scale="1.184 1.184 1.184"
 		id="big_stone1"
-		ndmAction="0" />
-
-	<Node
-		name="Object3371"
-		class="SgAnimatedModelNode"
-		org="2462.493 0.000 3008.445"
-		orgRel="1"
-		rot="0.0000 0.3502 0.0000 0.9367"
-		scale="0.871 0.871 0.871"
-		id="big_stone3"
 		ndmAction="0" />
 
 	<Node
@@ -4104,46 +4063,6 @@
 		rot="0.0000 0.6157 0.0000 -0.7880"
 		scale="0.890 0.890 0.890"
 		id="big_stone4"
-		ndmAction="0" />
-
-	<Node
-		name="Object3452"
-		class="SgAnimatedModelNode"
-		org="2480.044 0.000 2739.713"
-		orgRel="1"
-		rot="0.0000 0.9483 0.0000 0.3173"
-		scale="1.001 1.001 1.001"
-		id="big_stone1"
-		ndmAction="0" />
-
-	<Node
-		name="Object3453"
-		class="SgAnimatedModelNode"
-		org="2480.929 0.000 2766.288"
-		orgRel="1"
-		rot="0.0000 0.7193 0.0000 -0.6947"
-		scale="1.016 1.016 1.016"
-		id="big_stone4"
-		ndmAction="0" />
-
-	<Node
-		name="Object3454"
-		class="SgAnimatedModelNode"
-		org="2539.555 0.000 2696.365"
-		orgRel="1"
-		rot="0.0000 0.5000 0.0000 0.8660"
-		scale="0.964 0.964 0.964"
-		id="big_stone2"
-		ndmAction="0" />
-
-	<Node
-		name="Object3455"
-		class="SgAnimatedModelNode"
-		org="2518.396 0.000 2688.934"
-		orgRel="1"
-		rot="0.0000 0.6361 0.0000 0.7716"
-		scale="0.995 0.995 0.995"
-		id="big_stone3"
 		ndmAction="0" />
 
 	<Node
@@ -4827,16 +4746,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object3550"
-		class="SgAnimatedModelNode"
-		org="2333.301 0.000 3660.526"
-		orgRel="1"
-		rot="0.0000 0.8746 0.0000 0.4848"
-		scale="1.078 1.078 1.078"
-		id="big_stone3"
-		ndmAction="0" />
-
-	<Node
 		name="Object3551"
 		class="SgAnimatedModelNode"
 		org="2345.629 0.000 3647.485"
@@ -4847,16 +4756,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object3552"
-		class="SgAnimatedModelNode"
-		org="2347.450 0.000 3680.494"
-		orgRel="1"
-		rot="0.0000 0.9781 0.0000 0.2079"
-		scale="1.052 1.052 1.052"
-		id="big_stone1"
-		ndmAction="0" />
-
-	<Node
 		name="Object3553"
 		class="SgAnimatedModelNode"
 		org="2336.743 0.000 3681.213"
@@ -4864,16 +4763,6 @@
 		rot="0.0000 0.1994 0.0000 0.9799"
 		scale="1.129 1.129 1.129"
 		id="big_stone2"
-		ndmAction="0" />
-
-	<Node
-		name="Object3554"
-		class="SgAnimatedModelNode"
-		org="2351.539 0.000 3696.594"
-		orgRel="1"
-		rot="0.0000 0.8616 0.0000 0.5075"
-		scale="0.828 0.828 0.828"
-		id="big_stone1"
 		ndmAction="0" />
 
 	<Node
@@ -4897,26 +4786,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object3557"
-		class="SgAnimatedModelNode"
-		org="2331.726 0.000 3668.177"
-		orgRel="1"
-		rot="0.0000 0.3827 0.0000 0.9239"
-		scale="0.884 0.884 0.884"
-		id="big_stone2"
-		ndmAction="0" />
-
-	<Node
-		name="Object3558"
-		class="SgAnimatedModelNode"
-		org="2319.573 0.000 3664.545"
-		orgRel="1"
-		rot="0.0000 0.9367 0.0000 -0.3502"
-		scale="1.040 1.040 1.040"
-		id="big_stone2"
-		ndmAction="0" />
-
-	<Node
 		name="Object3559"
 		class="SgAnimatedModelNode"
 		org="2300.686 0.000 3689.086"
@@ -4924,26 +4793,6 @@
 		rot="0.0000 0.8949 0.0000 -0.4462"
 		scale="1.168 1.168 1.168"
 		id="big_stone4"
-		ndmAction="0" />
-
-	<Node
-		name="Object3560"
-		class="SgAnimatedModelNode"
-		org="2344.815 0.000 3692.627"
-		orgRel="1"
-		rot="0.0000 0.6820 0.0000 -0.7314"
-		scale="1.055 1.055 1.055"
-		id="big_stone1"
-		ndmAction="0" />
-
-	<Node
-		name="Object3561"
-		class="SgAnimatedModelNode"
-		org="2340.410 0.000 3669.296"
-		orgRel="1"
-		rot="0.0000 0.7373 0.0000 0.6756"
-		scale="1.115 1.115 1.115"
-		id="big_stone3"
 		ndmAction="0" />
 
 	<Node
@@ -4994,16 +4843,6 @@
 		rot="0.0000 0.1650 0.0000 -0.9863"
 		scale="1.091 1.091 1.091"
 		id="big_stone4"
-		ndmAction="0" />
-
-	<Node
-		name="Object3567"
-		class="SgAnimatedModelNode"
-		org="2348.201 0.000 3686.153"
-		orgRel="1"
-		rot="0.0000 0.9135 0.0000 -0.4067"
-		scale="0.797 0.797 0.797"
-		id="big_stone2"
 		ndmAction="0" />
 
 	<Node
@@ -6071,8 +5910,7 @@
 		org="2524.720 -2.145 625.973"
 		orgRel="1"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3857"
@@ -6082,8 +5920,7 @@
 		rot="0.0000 -0.5336 0.0000 0.8457"
 		scale="1.428 1.428 1.428"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3861"
@@ -6092,8 +5929,7 @@
 		orgRel="1"
 		scale="1.268 1.268 1.268"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3863"
@@ -6103,8 +5939,7 @@
 		rot="0.0000 -0.9524 0.0000 0.3049"
 		scale="2.639 2.639 2.639"
 		id="big_crag_4"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3864"
@@ -6112,8 +5947,7 @@
 		org="2296.350 0.000 1042.473"
 		orgRel="1"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3865"
@@ -6121,8 +5955,7 @@
 		org="2327.582 0.000 1020.226"
 		orgRel="1"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3866"
@@ -6131,8 +5964,7 @@
 		orgRel="1"
 		rot="0.0000 0.7239 0.0000 0.6899"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3870"
@@ -6142,8 +5974,7 @@
 		rot="0.0000 -0.9812 0.0000 0.1930"
 		scale="0.464 0.464 0.464"
 		id="big_crag_7"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3871"
@@ -6273,8 +6104,7 @@
 		rot="0.0000 0.3214 0.0000 0.9469"
 		scale="1.848 1.848 1.848"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3885"
@@ -6283,8 +6113,7 @@
 		orgRel="1"
 		rot="0.0000 0.7102 0.0000 0.7040"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3886"
@@ -6293,8 +6122,7 @@
 		orgRel="1"
 		rot="0.0000 0.8638 0.0000 0.5038"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3887"
@@ -6303,8 +6131,7 @@
 		orgRel="1"
 		rot="0.0000 -0.7646 0.0000 0.6445"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3888"
@@ -6312,8 +6139,7 @@
 		org="2078.427 0.000 1363.055"
 		orgRel="1"
 		id="big_crag_5"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3889"
@@ -6422,8 +6248,7 @@
 		orgRel="1"
 		scale="1.577 1.577 1.577"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3900"
@@ -6432,8 +6257,7 @@
 		orgRel="1"
 		rot="0.0000 0.6868 0.0000 0.7269"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3901"
@@ -6443,8 +6267,7 @@
 		rot="0.0000 0.6962 0.0000 0.7178"
 		scale="1.373 1.373 1.373"
 		id="big_crag_2"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3902"
@@ -6454,8 +6277,7 @@
 		rot="0.0000 0.6225 0.0000 0.7826"
 		scale="1.776 1.776 1.776"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3903"
@@ -6465,8 +6287,7 @@
 		rot="0.1574 -0.6750 0.1637 0.7020"
 		scale="1.294 1.294 1.294"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3904"
@@ -6476,8 +6297,7 @@
 		rot="-0.4976 0.0007 -0.2514 0.8302"
 		scale="1.577 1.577 1.577"
 		id="big_crag_5"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3905"
@@ -6485,8 +6305,7 @@
 		org="1777.913 -4.038 2284.515"
 		orgRel="1"
 		id="big_crag_7"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3906"
@@ -6496,8 +6315,7 @@
 		rot="0.0000 -0.1262 0.0000 0.9920"
 		scale="1.922 1.922 1.922"
 		id="big_crag_5"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3907"
@@ -6506,8 +6324,7 @@
 		orgRel="1"
 		scale="2.122 2.122 2.122"
 		id="big_crag_4"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3908"
@@ -6575,8 +6392,7 @@
 		org="2403.331 -0.474 2724.027"
 		orgRel="1"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object3915"
@@ -6585,8 +6401,7 @@
 		orgRel="1"
 		rot="0.3332 -0.3179 -0.1204 0.8794"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object4487"
@@ -8720,8 +8535,7 @@
 		orgRel="1"
 		scale="2.165 2.165 2.165"
 		id="big_crag_1"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object4926"
@@ -8731,8 +8545,7 @@
 		rot="0.0000 -0.9840 0.0000 0.1779"
 		scale="2.000 2.000 2.000"
 		id="big_crag_9"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object5336"
@@ -8881,16 +8694,6 @@
 		orgRel="1"
 		rot="0.0000 0.1650 0.0000 -0.9863"
 		scale="1.247 1.247 1.247"
-		id="r1_Dub_Kust1"
-		ndmAction="0" />
-
-	<Node
-		name="Object5361"
-		class="SgAnimatedModelNode"
-		org="1124.009 0.000 3879.701"
-		orgRel="1"
-		rot="0.0000 0.9763 0.0000 -0.2164"
-		scale="1.048 1.048 1.048"
 		id="r1_Dub_Kust1"
 		ndmAction="0" />
 
@@ -9755,16 +9558,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object5449"
-		class="SgAnimatedModelNode"
-		org="1517.036 0.000 785.948"
-		orgRel="1"
-		rot="0.0000 0.8387 0.0000 -0.5446"
-		scale="0.991 0.991 0.991"
-		id="big_stone2"
-		ndmAction="0" />
-
-	<Node
 		name="Object5450"
 		class="SgAnimatedModelNode"
 		org="1510.887 0.000 803.229"
@@ -10377,7 +10170,7 @@
 	<Node
 		name="Object5530"
 		class="SgAnimatedModelNode"
-		org="1088.411 0.000 2911.601"
+		org="1088.411 -0.007 2911.601"
 		orgRel="1"
 		rot="0.0000 -0.7064 0.0000 0.7078"
 		id="house2"
@@ -10386,7 +10179,7 @@
 	<Node
 		name="Object5531"
 		class="SgAnimatedModelNode"
-		org="1088.472 0.000 2941.709"
+		org="1088.472 0.314 2941.709"
 		orgRel="1"
 		rot="0.0000 -0.7064 0.0000 0.7078"
 		id="house3"
@@ -10395,7 +10188,7 @@
 	<Node
 		name="Object5532"
 		class="SgAnimatedModelNode"
-		org="1088.534 0.000 2971.817"
+		org="1088.534 -0.064 2971.817"
 		orgRel="1"
 		rot="0.0000 -0.7064 0.0000 0.7078"
 		id="house2"
@@ -10404,7 +10197,7 @@
 	<Node
 		name="Object5533"
 		class="SgAnimatedModelNode"
-		org="1088.603 0.000 3005.690"
+		org="1088.603 0.655 3005.690"
 		orgRel="1"
 		rot="0.0000 -0.7064 0.0000 0.7078"
 		id="house2"
@@ -10413,7 +10206,7 @@
 	<Node
 		name="Object5535"
 		class="SgAnimatedModelNode"
-		org="1042.386 0.000 2987.990"
+		org="1042.386 0.382 2987.990"
 		orgRel="1"
 		rot="0.0000 0.7121 0.0000 0.7020"
 		id="house3"
@@ -10422,7 +10215,7 @@
 	<Node
 		name="Object5536"
 		class="SgAnimatedModelNode"
-		org="1042.009 0.000 2961.650"
+		org="1042.009 0.320 2961.650"
 		orgRel="1"
 		rot="0.0000 0.7121 0.0000 0.7020"
 		id="house3"
@@ -10431,7 +10224,7 @@
 	<Node
 		name="Object5537"
 		class="SgAnimatedModelNode"
-		org="1041.604 0.000 2933.269"
+		org="1041.604 0.425 2933.269"
 		orgRel="1"
 		rot="0.0000 0.7121 0.0000 0.7020"
 		id="house1"
@@ -10440,7 +10233,7 @@
 	<Node
 		name="Object5538"
 		class="SgAnimatedModelNode"
-		org="1041.198 0.000 2904.888"
+		org="1041.198 0.314 2904.888"
 		orgRel="1"
 		rot="0.0000 0.7121 0.0000 0.7020"
 		id="house3"
@@ -10449,16 +10242,16 @@
 	<Node
 		name="Object5540"
 		class="SgAnimatedModelNode"
-		org="1000.232 0.000 2988.760"
+		org="1000.232 0.216 2988.760"
 		orgRel="1"
-		rot="0.0000 0.7160 0.0000 0.6981"
+		rot="-0.0094 0.7159 -0.0091 0.6980"
 		id="house2"
 		ndmAction="0" />
 
 	<Node
 		name="Object5541"
 		class="SgAnimatedModelNode"
-		org="999.376 0.000 2954.906"
+		org="999.376 0.224 2954.906"
 		orgRel="1"
 		rot="0.0000 0.7160 0.0000 0.6981"
 		id="house2"
@@ -10467,7 +10260,7 @@
 	<Node
 		name="Object5542"
 		class="SgAnimatedModelNode"
-		org="998.614 0.000 2924.814"
+		org="998.614 0.177 2924.814"
 		orgRel="1"
 		rot="0.0000 0.7160 0.0000 0.6981"
 		id="house3"
@@ -10476,7 +10269,7 @@
 	<Node
 		name="Object5543"
 		class="SgAnimatedModelNode"
-		org="997.948 0.000 2898.485"
+		org="997.948 0.184 2898.485"
 		orgRel="1"
 		rot="0.0000 0.7160 0.0000 0.6981"
 		id="house3"
@@ -10485,7 +10278,7 @@
 	<Node
 		name="Object5544"
 		class="SgAnimatedModelNode"
-		org="980.386 0.000 2901.370"
+		org="980.386 0.361 2901.370"
 		orgRel="1"
 		rot="0.0000 -0.6989 0.0000 0.7152"
 		id="house3"
@@ -10494,7 +10287,7 @@
 	<Node
 		name="Object5545"
 		class="SgAnimatedModelNode"
-		org="981.042 0.000 2929.743"
+		org="981.042 0.675 2929.743"
 		orgRel="1"
 		rot="0.0000 -0.6989 0.0000 0.7152"
 		id="house1"
@@ -10503,7 +10296,7 @@
 	<Node
 		name="Object5546"
 		class="SgAnimatedModelNode"
-		org="981.698 0.000 2958.116"
+		org="981.698 0.295 2958.116"
 		orgRel="1"
 		rot="0.0000 -0.6989 0.0000 0.7152"
 		id="house3"
@@ -10512,7 +10305,7 @@
 	<Node
 		name="Object5547"
 		class="SgAnimatedModelNode"
-		org="982.306 0.000 2984.449"
+		org="982.306 0.428 2984.449"
 		orgRel="1"
 		rot="0.0000 -0.6989 0.0000 0.7152"
 		id="house3"
@@ -10521,7 +10314,7 @@
 	<Node
 		name="Object5551"
 		class="SgAnimatedModelNode"
-		org="1004.682 0.000 2849.758"
+		org="1004.682 0.616 2849.758"
 		orgRel="1"
 		rot="0.0000 -0.0332 0.0000 0.9994"
 		id="house1"
@@ -10530,7 +10323,7 @@
 	<Node
 		name="Object5552"
 		class="SgAnimatedModelNode"
-		org="1035.040 0.000 2851.779"
+		org="1035.040 0.177 2851.779"
 		orgRel="1"
 		rot="0.0000 -0.0332 0.0000 0.9994"
 		id="house1"
@@ -10539,7 +10332,7 @@
 	<Node
 		name="Object5553"
 		class="SgAnimatedModelNode"
-		org="1065.398 0.000 2853.799"
+		org="1065.398 0.136 2853.799"
 		orgRel="1"
 		rot="0.0000 -0.0332 0.0000 0.9994"
 		id="house1"
@@ -10548,7 +10341,7 @@
 	<Node
 		name="Object5554"
 		class="SgAnimatedModelNode"
-		org="1095.756 0.000 2855.820"
+		org="1095.756 0.134 2855.820"
 		orgRel="1"
 		rot="0.0000 -0.0332 0.0000 0.9994"
 		id="house1"
@@ -10677,7 +10470,7 @@
 	<Node
 		name="Object6037"
 		class="SgAnimatedModelNode"
-		org="1092.260 0.000 2832.881"
+		org="1092.260 1.240 2832.881"
 		orgRel="1"
 		rot="0.0000 -0.6411 0.0000 0.7674"
 		scale="5.000 5.000 5.000"
@@ -10906,7 +10699,7 @@
 	<Node
 		name="Object6060"
 		class="SgAnimatedModelNode"
-		org="984.570 0.000 2671.396"
+		org="984.570 0.681 2671.396"
 		orgRel="1"
 		rot="0.0000 -1.0000 0.0000 0.0044"
 		scale="0.974 0.974 0.974"
@@ -10916,7 +10709,7 @@
 	<Node
 		name="Object6061"
 		class="SgAnimatedModelNode"
-		org="931.522 0.000 2957.774"
+		org="931.522 0.852 2957.774"
 		orgRel="1"
 		rot="0.0000 -0.6868 0.0000 0.7269"
 		scale="1.104 1.104 1.104"
@@ -10966,7 +10759,7 @@
 	<Node
 		name="Object6066"
 		class="SgAnimatedModelNode"
-		org="3197.388 0.000 424.314"
+		org="3197.388 1.064 424.314"
 		orgRel="1"
 		rot="0.0000 0.8339 0.0000 0.5519"
 		scale="1.600 1.600 1.600"
@@ -10986,7 +10779,7 @@
 	<Node
 		name="Object6074"
 		class="SgAnimatedModelNode"
-		org="3096.958 0.000 407.649"
+		org="3096.958 0.118 407.649"
 		orgRel="1"
 		rot="0.0000 -0.3543 0.0000 0.9351"
 		id="house2"
@@ -10995,7 +10788,7 @@
 	<Node
 		name="Object6075"
 		class="SgAnimatedModelNode"
-		org="3082.736 0.000 381.642"
+		org="3082.736 0.037 381.642"
 		orgRel="1"
 		rot="0.0000 0.1240 0.0000 -0.9923"
 		scale="1.219 1.219 1.219"
@@ -11005,7 +10798,7 @@
 	<Node
 		name="Object6076"
 		class="SgAnimatedModelNode"
-		org="3137.367 -0.625 748.068"
+		org="3137.367 0.265 748.068"
 		orgRel="1"
 		rot="0.0000 0.0523 0.0000 0.9986"
 		scale="1.397 1.397 1.397"
@@ -11223,7 +11016,7 @@
 	<Node
 		name="Object6845"
 		class="SgAnimatedModelNode"
-		org="1956.110 0.000 804.157"
+		org="1956.110 0.107 804.157"
 		orgRel="1"
 		rot="0.0000 -0.7299 0.0000 -0.6836"
 		id="townhall"
@@ -11232,7 +11025,7 @@
 	<Node
 		name="Object6846"
 		class="SgAnimatedModelNode"
-		org="1999.719 0.000 830.699"
+		org="1999.719 0.293 830.699"
 		orgRel="1"
 		rot="0.0000 -0.6947 0.0000 0.7193"
 		id="workshop2"
@@ -11250,7 +11043,7 @@
 	<Node
 		name="Object6848"
 		class="SgAnimatedModelNode"
-		org="1951.235 0.000 825.760"
+		org="1951.235 0.072 825.760"
 		orgRel="1"
 		id="house2"
 		ndmAction="0" />
@@ -11258,7 +11051,7 @@
 	<Node
 		name="Object6849"
 		class="SgAnimatedModelNode"
-		org="1982.615 0.000 850.242"
+		org="1981.750 0.203 851.169"
 		orgRel="1"
 		rot="0.0000 -0.9336 0.0000 0.3584"
 		id="house1"
@@ -11267,18 +11060,18 @@
 	<Node
 		name="Object6855"
 		class="SgAnimatedModelNode"
-		org="2003.754 0.000 800.968"
+		org="2003.754 0.336 800.968"
 		orgRel="1"
-		rot="0.0000 -0.6577 0.0000 0.7533"
+		rot="0.0115 -0.6576 -0.0131 0.7532"
 		id="house2"
 		ndmAction="0" />
 
 	<Node
 		name="Object6856"
 		class="SgAnimatedModelNode"
-		org="1954.577 0.000 778.287"
+		org="1954.577 -0.036 778.287"
 		orgRel="1"
-		rot="0.0000 0.7117 0.0000 0.7025"
+		rot="0.0186 0.7114 0.0184 0.7023"
 		id="house1"
 		ndmAction="0" />
 
@@ -11552,7 +11345,7 @@
 	<Node
 		name="Object6957"
 		class="SgAnimatedModelNode"
-		org="3233.933 -0.226 1237.059"
+		org="3233.933 0.755 1237.059"
 		orgRel="1"
 		rot="0.0000 0.8375 0.0000 0.5465"
 		id="tube3"
@@ -11607,7 +11400,7 @@
 	<Node
 		name="Object6992"
 		class="SgAnimatedModelNode"
-		org="3152.091 0.000 1166.882"
+		org="3152.664 0.000 1167.869"
 		orgRel="1"
 		rot="0.0000 -1.0000 0.0000 0.0070"
 		id="heavy_bigwall1"
@@ -11616,7 +11409,7 @@
 	<Node
 		name="Object6993"
 		class="SgAnimatedModelNode"
-		org="3141.274 0.000 1167.034"
+		org="3141.847 0.000 1168.021"
 		orgRel="1"
 		rot="0.0000 -1.0000 0.0000 0.0070"
 		id="heavy_bigwall1"
@@ -11625,7 +11418,7 @@
 	<Node
 		name="Object6994"
 		class="SgAnimatedModelNode"
-		org="3131.269 0.000 1231.788"
+		org="3129.660 0.000 1229.703"
 		orgRel="1"
 		rot="0.0000 0.6838 0.0000 0.7297"
 		id="heavy_bigwall1"
@@ -11634,7 +11427,7 @@
 	<Node
 		name="Object6995"
 		class="SgAnimatedModelNode"
-		org="3131.970 0.000 1220.994"
+		org="3130.361 0.000 1218.909"
 		orgRel="1"
 		rot="0.0000 0.6838 0.0000 0.7297"
 		id="heavy_bigwall1"
@@ -11643,7 +11436,7 @@
 	<Node
 		name="Object6996"
 		class="SgAnimatedModelNode"
-		org="3132.671 0.000 1210.199"
+		org="3131.062 0.000 1208.114"
 		orgRel="1"
 		rot="0.0000 0.6838 0.0000 0.7297"
 		id="heavy_bigwall1"
@@ -11652,7 +11445,7 @@
 	<Node
 		name="Object6997"
 		class="SgAnimatedModelNode"
-		org="3133.373 0.000 1199.404"
+		org="3131.764 0.000 1197.319"
 		orgRel="1"
 		rot="0.0000 0.6838 0.0000 0.7297"
 		id="heavy_bigwall1"
@@ -11661,7 +11454,7 @@
 	<Node
 		name="Object6998"
 		class="SgAnimatedModelNode"
-		org="3134.074 0.000 1188.610"
+		org="3132.465 0.000 1186.525"
 		orgRel="1"
 		rot="0.0000 0.6838 0.0000 0.7297"
 		id="heavy_bigwall1"
@@ -11670,7 +11463,7 @@
 	<Node
 		name="Object6999"
 		class="SgAnimatedModelNode"
-		org="3134.775 0.000 1177.815"
+		org="3133.166 0.000 1175.730"
 		orgRel="1"
 		rot="0.0000 0.6838 0.0000 0.7297"
 		id="heavy_bigwall1"
@@ -11679,36 +11472,36 @@
 	<Node
 		name="Object7000"
 		class="SgAnimatedModelNode"
-		org="3195.041 0.000 1166.974"
+		org="3195.063 0.005 1168.105"
 		orgRel="1"
-		rot="0.0000 -0.0077 0.0000 1.0000"
+		rot="-0.0022 0.0272 -0.0001 0.9996"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object7001"
 		class="SgAnimatedModelNode"
-		org="3205.854 0.000 1167.139"
+		org="3205.862 -0.002 1167.516"
 		orgRel="1"
-		rot="0.0000 -0.0077 0.0000 1.0000"
+		rot="-0.0022 0.0272 -0.0001 0.9996"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object7002"
 		class="SgAnimatedModelNode"
-		org="3216.667 0.000 1167.305"
+		org="3216.659 0.007 1166.929"
 		orgRel="1"
-		rot="0.0000 -0.0077 0.0000 1.0000"
+		rot="-0.0022 0.0272 -0.0001 0.9996"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
 	<Node
 		name="Object7003"
 		class="SgAnimatedModelNode"
-		org="3227.479 0.000 1167.470"
+		org="3227.457 0.081 1166.338"
 		orgRel="1"
-		rot="0.0000 -0.0077 0.0000 1.0000"
+		rot="-0.0022 0.0272 -0.0001 0.9996"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
@@ -11890,7 +11683,7 @@
 		class="SgAnimatedModelNode"
 		org="2552.044 0.000 1604.594"
 		orgRel="1"
-		rot="0.0000 0.6699 0.0000 -0.7426"
+		rot="-0.0263 0.6693 0.0292 -0.7419"
 		id="concrete_ruins3"
 		ndmAction="0" />
 
@@ -11899,7 +11692,7 @@
 		class="SgAnimatedModelNode"
 		org="2553.298 0.000 1595.422"
 		orgRel="1"
-		rot="0.0000 0.7065 0.0000 0.7078"
+		rot="0.0354 0.7056 0.0355 0.7069"
 		id="concrete_ruins3"
 		ndmAction="0" />
 
@@ -12410,8 +12203,7 @@
 		rot="0.0000 0.7314 0.0000 0.6820"
 		scale="1.516 1.516 1.516"
 		id="civilhouse3_skin"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7161"
@@ -12421,8 +12213,7 @@
 		rot="0.0000 0.6852 0.0000 0.7284"
 		scale="1.219 1.219 1.219"
 		id="big_crag_1"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7162"
@@ -12432,8 +12223,7 @@
 		rot="0.0000 0.7604 0.0000 0.6494"
 		scale="1.961 1.961 1.961"
 		id="big_crag_12"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7163"
@@ -12443,8 +12233,7 @@
 		rot="0.0000 -0.6528 0.0000 0.7576"
 		scale="1.123 1.123 1.123"
 		id="big_crag_10"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7164"
@@ -12453,8 +12242,7 @@
 		orgRel="1"
 		scale="1.319 1.319 1.319"
 		id="big_crag_6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7165"
@@ -12463,8 +12251,7 @@
 		orgRel="1"
 		scale="0.616 0.616 0.616"
 		id="big_crag_7"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7166"
@@ -12473,8 +12260,7 @@
 		orgRel="1"
 		scale="1.741 1.741 1.741"
 		id="big_crag_5"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7167"
@@ -12483,8 +12269,7 @@
 		orgRel="1"
 		scale="1.776 1.776 1.776"
 		id="big_crag_4"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7168"
@@ -12492,8 +12277,7 @@
 		org="2169.147 0.000 2891.944"
 		orgRel="1"
 		id="big_crag_4"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7173"
@@ -12747,7 +12531,7 @@
 	<Node
 		name="Object7211"
 		class="SgAnimatedModelNode"
-		org="3346.738 0.000 3369.435"
+		org="3346.492 0.000 3371.014"
 		orgRel="1"
 		rot="0.0000 0.5150 0.0000 -0.8572"
 		scale="0.880 0.880 0.880"
@@ -12940,7 +12724,7 @@
 	<Node
 		name="Object7305"
 		class="SgAnimatedModelNode"
-		org="2009.379 0.000 719.311"
+		org="2009.379 0.178 719.311"
 		orgRel="1"
 		rot="0.0000 -1.0000 0.0000 0.0044"
 		id="transformator1"
@@ -12949,7 +12733,7 @@
 	<Node
 		name="Object7306"
 		class="SgAnimatedModelNode"
-		org="2006.255 0.000 738.638"
+		org="2006.255 0.522 738.638"
 		orgRel="1"
 		id="petrolhouse3"
 		ndmAction="0" />
@@ -12975,17 +12759,16 @@
 	<Node
 		name="Object7354"
 		class="SgAnimatedModelNode"
-		org="2104.961 0.000 787.394"
+		org="2104.961 0.149 787.394"
 		orgRel="1"
 		rot="0.0000 0.0131 0.0000 0.9999"
 		id="civilhouse5"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7355"
 		class="SgAnimatedModelNode"
-		org="3155.962 0.000 513.223"
+		org="3155.962 0.175 513.223"
 		orgRel="1"
 		id="civilhouse6"
 		ndmAction="0" />
@@ -12997,13 +12780,12 @@
 		orgRel="1"
 		rot="0.0000 -0.0980 0.0000 0.9952"
 		id="civilhouse6"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7357"
 		class="SgAnimatedModelNode"
-		org="3036.188 0.000 566.818"
+		org="3036.188 0.145 566.818"
 		orgRel="1"
 		rot="0.0097 0.4501 -0.0049 0.8929"
 		id="civilhouse5"
@@ -13021,7 +12803,7 @@
 	<Node
 		name="Object7359"
 		class="SgAnimatedModelNode"
-		org="3077.009 0.000 515.539"
+		org="3077.009 0.173 515.539"
 		orgRel="1"
 		rot="0.0000 0.7025 0.0000 0.7117"
 		id="civilhouse5"
@@ -13030,22 +12812,20 @@
 	<Node
 		name="Object7360"
 		class="SgAnimatedModelNode"
-		org="3103.021 0.000 515.491"
+		org="3103.021 0.232 515.491"
 		orgRel="1"
 		rot="0.0000 -0.7056 0.0000 0.7086"
 		id="civilhouse5"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7361"
 		class="SgAnimatedModelNode"
-		org="3166.804 0.000 545.325"
+		org="3166.804 0.214 545.325"
 		orgRel="1"
 		rot="0.0000 0.7117 0.0000 -0.7025"
 		id="civilhouse5"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object7363"
@@ -13220,9 +13000,9 @@
 	<Node
 		name="Object7595"
 		class="SgAnimatedModelNode"
-		org="1171.873 -3.833 2949.248"
+		org="1170.235 -4.189 2948.450"
 		orgRel="1"
-		rot="-0.1603 0.5647 -0.1228 0.8002"
+		rot="-0.1423 0.6675 -0.1433 0.7167"
 		id="heavy_bigwall1"
 		ndmAction="0" />
 
@@ -13555,7 +13335,7 @@
 	<Node
 		name="Object7763"
 		class="SgAnimatedModelNode"
-		org="1330.597 0.000 1740.086"
+		org="1330.597 0.089 1740.086"
 		orgRel="1"
 		rot="0.0000 0.1435 0.0000 0.9897"
 		id="petrolhouse3"
@@ -13564,7 +13344,7 @@
 	<Node
 		name="Object7764"
 		class="SgAnimatedModelNode"
-		org="1328.384 0.000 1732.043"
+		org="1328.384 0.139 1732.043"
 		orgRel="1"
 		rot="0.0000 0.1435 0.0000 0.9897"
 		id="petrolhouse3"
@@ -13573,34 +13353,34 @@
 	<Node
 		name="Object7765"
 		class="SgAnimatedModelNode"
-		org="1336.433 -0.334 1762.661"
+		org="1336.433 0.314 1762.661"
 		orgRel="1"
-		rot="0.0000 0.9917 0.0000 -0.1284"
+		rot="-0.0260 0.9914 0.0034 -0.1284"
 		id="petrolhouse2"
 		ndmAction="0" />
 
 	<Node
 		name="Object7766"
 		class="SgAnimatedModelNode"
-		org="1339.146 -0.563 1773.200"
+		org="1339.146 -0.267 1773.200"
 		orgRel="1"
-		rot="0.0000 0.1413 0.0000 0.9900"
+		rot="-0.0253 0.1401 0.0388 0.9891"
 		id="petrolhouse2"
 		ndmAction="0" />
 
 	<Node
 		name="Object7771"
 		class="SgAnimatedModelNode"
-		org="1340.802 -0.524 1787.675"
+		org="1340.802 -0.357 1787.675"
 		orgRel="1"
-		rot="-0.0261 -0.6273 0.0159 0.7782"
+		rot="0.0130 -0.6257 0.0473 0.7785"
 		id="petrolhouse3"
 		ndmAction="0" />
 
 	<Node
 		name="Object7806"
 		class="SgAnimatedModelNode"
-		org="1311.442 0.000 1721.365"
+		org="1311.442 0.164 1721.365"
 		orgRel="1"
 		rot="0.0000 0.1435 0.0000 0.9897"
 		id="petrolhouse3"
@@ -14438,8 +14218,7 @@
 		rot="0.0000 0.3297 0.0000 0.9441"
 		scale="0.922 0.922 0.922"
 		id="big_crag_8"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object83371"
@@ -14448,8 +14227,7 @@
 		orgRel="1"
 		scale="0.886 0.886 0.886"
 		id="big_crag_9"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object83391"
@@ -14480,8 +14258,7 @@
 		rot="0.0186 -0.7482 0.0395 0.6620"
 		scale="0.817 0.817 0.817"
 		id="big_crag_8"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object8336"
