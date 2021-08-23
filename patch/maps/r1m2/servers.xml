@@ -2580,7 +2580,7 @@
 		<Item id="S_CAR_EXPL" />
 		<Item id="S_ROAD_EXPL" />
 		<Item id="S_ROCK_EXPL" />
-		<Item id="S_GROUND_EXPL" />
+		<!-- <Item id="S_GROUND_EXPL" /> -->
 		<Item id="S_SAND_EXPL" />
 		<Item id="S_GROUND_EXPL" />
 		<Item id="S_WOOD_EXPL" />
