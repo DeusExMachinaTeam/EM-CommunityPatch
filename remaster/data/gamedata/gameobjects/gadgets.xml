@@ -348,7 +348,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Name			= "additional_stability"
 		ResourceType	        = "GADGET_COMMON" 
 		Price			= "4640"	
-		Modifications	        = "CABIN Control += 10"
+		Modifications	        = "CHASSIS MaxHealth += 50"
 		ModelFile		= "gadget_08"
 		SkinNum			= "0"
 		/>
@@ -403,7 +403,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Name			= "add_stability_and_speed"
 		ResourceType		= "GADGET_COMMON" 
 		Price			= "83410"	
-		Modifications		= "CABIN Control += 15; CABIN MaxSpeed 20"
+		Modifications		= "CHASSIS MaxHealth += 75; CABIN MaxSpeed 20"
 		ModelFile		= "gadget_08"
 		SkinNum			= "2"
 		/>
@@ -414,7 +414,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Name			= "add_torque_and_stability"
 		ResourceType		= "GADGET_COMMON" 
 		Price			= "76200"	
-		Modifications		= "CABIN MaxTorque 15; CABIN Control += 15"
+		Modifications		= "CABIN MaxTorque 15; CHASSIS MaxHealth += 100"
 		ModelFile		= "gadget_07"
 		SkinNum			= "2"
 		/>
@@ -424,7 +424,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Name			= "additional_fuel_tank2_add_damage_guns"
 		ResourceType		= "GADGET_COMMON" 
 		Price			= "63200"	
-		Modifications		= "CHASSIS MaxFuel 75; CABIN Control += 15"
+		Modifications		= "CHASSIS MaxFuel 75; CHASSIS MaxHealth += 125"
 		ModelFile		= "gadget_06"
 		SkinNum			= "2"
 		/>
