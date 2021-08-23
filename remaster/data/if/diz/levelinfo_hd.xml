@@ -12,17 +12,6 @@
 		musicBlocks="block_menu" />
 
 	<LevelInfo
-		name="t"
-		file="data\maps\t.ssl"
-		fullName="Край1"
-		diz0=""
-		diz1=""
-		image0="data\if\map\r1m1.dds"
-		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico_hd\Splashes\plane.dds"
-		musicBlocks="block0 block1" />
-
-	<LevelInfo
 		name="r1m1"
 		file="data\maps\r1m1.ssl"
 		fullName="Край"
