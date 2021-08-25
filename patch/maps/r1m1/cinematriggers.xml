@@ -266,7 +266,6 @@
 
 			TActivate("RolikBegin_Lisa")
 			TActivate("RolikEnd_Lisa")
-			TActivate("trLisa_npc")
 
 			trigger:Deactivate()    
 		</script>
