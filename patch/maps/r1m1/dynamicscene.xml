@@ -89,8 +89,8 @@
 		Name="FirstLisaLoc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="0.000 368.000 0.000"
-		Radius="1.000"
+		Pos="0 0 0"
+		Radius="1.0"
 		LookingTimeOut="15.000">
 		<Object
 			Name="Lisa"
@@ -588,11 +588,17 @@
 					PosX="0"
 					PosY="0"
 					Flags="16"
+					Prototype="additional_fuel_tank" />
+
+				<Item
+					PosX="0"
+					PosY="1"
+					Flags="16"
 					Prototype="cooling_system_guns" />
 
 				<Item
 					PosX="1"
-					PosY="0"
+					PosY="1"
 					Flags="16"
 					Prototype="firing_rate_guns" />
 			</GunsAndGadgets>
@@ -823,11 +829,17 @@
 					PosX="0"
 					PosY="0"
 					Flags="16"
-					Prototype="additional_durability" />
+					Prototype="additional_fuel_tank" />
 
 				<Item
 					PosX="1"
 					PosY="0"
+					Flags="16"
+					Prototype="additional_durability" />
+
+				<Item
+					PosX="0"
+					PosY="1"
 					Flags="16"
 					Prototype="cooling_system_guns" />
 			</GunsAndGadgets>
@@ -924,6 +936,12 @@
 				<Item
 					PosX="0"
 					PosY="0"
+					Flags="16"
+					Prototype="additional_fuel_tank" />
+
+				<Item
+					PosX="0"
+					PosY="1"
 					Flags="16"
 					Prototype="cooling_system_energy" />
 			</GunsAndGadgets>
@@ -1043,13 +1061,20 @@
 					PosX="0"
 					PosY="0"
 					Flags="16"
+					Prototype="additional_fuel_tank" />
+
+				<Item
+					PosX="0"
+					PosY="1"
+					Flags="16"
 					Prototype="cooling_system_guns" />
 
 				<Item
 					PosX="1"
-					PosY="0"
+					PosY="1"
 					Flags="16"
 					Prototype="grouping_angle_guns" />
+
 			</GunsAndGadgets>
 		</Object>
 
@@ -1133,6 +1158,12 @@
 				<Item
 					PosX="0"
 					PosY="0"
+					Flags="16"
+					Prototype="additional_fuel_tank" />
+
+				<Item
+					PosX="0"
+					PosY="1"
 					Flags="16"
 					Prototype="cooling_system_explosion" />
 			</GunsAndGadgets>
