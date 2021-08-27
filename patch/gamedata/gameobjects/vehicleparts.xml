@@ -1679,6 +1679,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Breakable7   = "1"
 				Breakable8   = "0.3"
 				Breakable9   = "0.3"
+				Breakable10   = "0.1"
 			/>
 		</Prototype>
 		<Prototype
@@ -1761,10 +1762,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Breakable3   = "1"
 				Breakable4   = "1.5"
 				Breakable5   = "1"
-				Breakable6   = "1"
+				Breakable6   = "1.5"
 				Breakable7   = "1.5"
-				Breakable8   = "1.5"
-				Breakable9   = "0.3"
+				Breakable8   = "0.3"
 			/>
 		</Prototype>
 

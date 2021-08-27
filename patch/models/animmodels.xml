@@ -11275,33 +11275,6 @@
 			skin="8" />
 
 		<action
-			name="STAND1">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="MOVE2">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
 			name="RESERVED2">
 			<lp
 				id="LP_LIGHT01"
@@ -11343,6 +11316,46 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT11"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT12"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT13"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT14"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT15"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT16"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB01"
@@ -11387,21 +11400,6 @@
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_LIGHT05"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT06"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT07"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB02"
 				restartOnAnimationChange="0" />
@@ -11440,11 +11438,6 @@
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_LIGHT04"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB03"
 				restartOnAnimationChange="0" />
@@ -11472,12 +11465,6 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -11487,24 +11474,12 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
 			name="MOVE2">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11552,6 +11527,21 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT11"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB04"
@@ -11615,6 +11605,11 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
+			<lp
+				id="LP_LIGHT14"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB04"
@@ -11733,36 +11728,12 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
 			name="MOVE1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11777,29 +11748,12 @@
 				ImmediateRemove="0" />
 
 			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_GLOW02"
-				effect_id="ET_PS_GLOW"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_GLOW03"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 		</action>
