@@ -17,6 +17,12 @@
 			id="BrokenCable_1"
 			file="data\models\AnimModels.xml" />
 
+		<Item
+			id="submarina"
+			file="data\models\AnimModels.xml" />
+
+
+
 		<!-- masks -->
 		<Item
 			id="mask_lisa"
@@ -27,8 +33,18 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="r4_man"
+			id="r1_man"
 			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_oracle"
+			file="data\models\AnimModels.xml" />
+
+
 
 		<!-- dweller ragdoll -->
 		<Item
@@ -42,6 +58,15 @@
 		<Item 
 			id="dweller3" 
 			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller_lisa" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller_player" 
+			file="data\models\AnimModels.xml"/>
+
 
 		<!-- Segments -->
 		<Item 
@@ -96,7 +121,6 @@
 			id="segments_big_07" 
 			file="data\models\AnimModels.xml"/>
 		<Item 
-
 			id="segments_big_08"
 			file="data\models\AnimModels.xml"/>
 
@@ -108,7 +132,7 @@
 		<Item 
 			id="barrel_debris_1" 
 			file="data\models\AnimModels.xml"/>
-
+			
 		<Item 
 			id="brick_debris1" 
 			file="data\models\AnimModels.xml"/>
@@ -140,7 +164,10 @@
 		<Item 
 			id="kustarnik2" 
 			file="data\models\AnimModels.xml"/>
-
+			
+		<Item 
+			id="barrel3_dyn" 
+			file="data\models\AnimModels.xml"/>
 
 		<!-- goods -->
 		<Item 
@@ -633,7 +660,7 @@
 			id="minoYkladchiK_2" 
 			file="data\models\AnimModels.xml"/>
 
-<!-- vehicles -->
+		<!-- vehicles -->
 		<Item 
 			id="tankChassis" 
 			file="data\models\AnimModels.xml"/>
@@ -677,7 +704,7 @@
 		<Item 	
 			id="sml1Cab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="sml1Susp01" 
@@ -702,11 +729,12 @@
 		<Item 
 			id="sml2Cab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="sml2Cab01_formula" 
-			file="data\models\AnimModels.xml" />
+			file="data\models\AnimModels.xml"    
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="sml2Susp01" 
@@ -731,7 +759,7 @@
 		<Item 
 			id="sml3Cab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="sml3Susp01" 
@@ -752,7 +780,7 @@
 		<Item 
 			id="sml4Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="sml4Susp01" 
@@ -777,17 +805,17 @@
 		<Item 
 			id="scoutCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="scoutCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 2 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="scoutCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="scoutSusp01" 
@@ -812,12 +840,12 @@
 		<Item 	
 			id="fighterCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="fighterCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 	
 			id="fighterSusp01l" 
@@ -858,12 +886,12 @@
 		<Item 
 			id="hunterCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="hunterCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="hunterSusp01" 
@@ -884,12 +912,12 @@
 		<Item 
 			id="cruiserCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="cruiserCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="cruiserSusp01" 
@@ -910,32 +938,32 @@
 		<Item 
 			id="bugCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="bugCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="bugCab03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="bugCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="bugCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="bugCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="bugSusp01" 
@@ -960,52 +988,52 @@
 		<Item 
 			id="uralCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCab03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCab04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCab05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCargo04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralCargo05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="uralSusp01" 
@@ -1038,37 +1066,37 @@
 		<Item 
 			id="molokovozCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="molokovozCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="molokovozCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="molokovozCargo01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="molokovozCargo02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="molokovozCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="molokovozCargo04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="molokovozSusp01l" 
@@ -1101,52 +1129,52 @@
 		<Item 
 			id="belazCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCab04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCab05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCargo03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCargo04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazCargo05" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="belazSusp01" 
@@ -1175,52 +1203,52 @@
 		<Item 
 			id="mirotvorecCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCargo01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCargo02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCab03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCargo03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCab04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 	
 			id="mirotvorecCargo04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCab05" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="mirotvorecCargo05" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="robotshassis01" 
@@ -1436,12 +1464,25 @@
 			file="data\models\AnimModels.xml"/>
 
 
+
 		<Item
-			id="stolb1"
+			id="big_crag_4"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="stolb2"
+			id="big_crag_5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_crag_12"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="stolb1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1450,30 +1491,6 @@
 
 		<Item
 			id="oilmine2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="tube1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="tube2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="tube3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="brick_dot1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="brick_dots_brocken1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="brick_wall1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1497,15 +1514,15 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="brokvehicle1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="brokvehicle2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="heavy_bigwall1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="heavy_dot1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1517,44 +1534,27 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="heavy_dot4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="heavy_smallwall1"
 			file="data\models\AnimModels.xml" />
 
-
 		<Item
-			id="submarina"
+			id="wood_fence1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="petrolstation"
+			id="wood_fence_broken1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="billboard2"
+			id="wood_fence2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="billboard3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_barrier1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_barrier3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_sign1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_sign2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="heavy_dot_brocken1"
+			id="tankeg"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1578,55 +1578,7 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="vagon3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_vagon1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_vagon2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_vagon3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_vagon4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_column1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_column2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_column3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_lamp"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_platform"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_station"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_watertower"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="y_r_road"
+			id="rusty_car_1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1658,27 +1610,15 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="quay_g_round_line"
+			id="quay_g_line"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="quay_line"
+			id="quay_round_line"
 			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="agro_tech1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="agro_tech2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="agro_tech3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="agro_tech4"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1690,6 +1630,10 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="barrel3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="barbed_wire_high1"
 			file="data\models\AnimModels.xml" />
 
@@ -1698,15 +1642,79 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="r4_desert_palma_1"
+			id="r3_junglebush1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="r4_desert_palma_2"
+			id="r3_junglebush2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="r4_desert_palma_3"
+			id="r3_junglebush3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_t_bush_flower1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_t_bush_flower2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_t_bush_flower3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicfern1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicfern2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicfern3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropictree1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropictree2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house5"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1718,11 +1726,43 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="car_cemetery03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="car_cemetery04"
 			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="car_cemetery05"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="car_cemetery06"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="car_cemetery07"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druids_mech_house1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druids_mech_house2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druids_mech_house3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druids_mech_house5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_set-fest"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1734,15 +1774,15 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="traffic_lights1"
+			id="concrete_tube_angle"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="traffic_lights3"
+			id="concrete_tube_middle"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="factory_conteiner"
+			id="factory_box"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1750,43 +1790,27 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="metal_plate2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="metal_plate3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="factory_conteiner2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="factory_rr_angar1"
+			id="poddon"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="garage"
+			id="prom_element"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="rr_columne"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="1_riback"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="2_ribasky"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="3_ribask"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="bochka1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="bochka2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="bochka3"
+			id="wood_tramp"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1794,59 +1818,7 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="bochka5"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="boevoy"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="esmin"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="kabina"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="kater"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="mina"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="minonos"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ostov"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="shlupka"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="torgovy"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="vint"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="billboard2_broken"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="billboard3_broken"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="brick_wall1_brocken"
+			id="wood_fence2_brocken"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1878,11 +1850,15 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="hoisting_crane_1"
+			id="barrel_3_brocken"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="hoisting_crane_2"
+			id="barrel_3_destroy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_crane_1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1894,95 +1870,19 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="desert_fence1"
+			id="arena_barricade1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="desert_fence2"
+			id="arena_barricade2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="desert_house1"
+			id="arena_barricade3"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="desert_house2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_house3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_house4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_house5"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_pole"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="well_col"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="gadad_city"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_house6"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="crag_desert_1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="crag_desert_2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="crag_desert_3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="crag_desert_4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="crag_desert_5"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="crag_desert_6"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="crag_desert_7"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="arena_barricade7"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="arena_barricade8"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="arena_barricade9"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="arena_barricade10"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="arena_barricade13"
+			id="arena_barricade4"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1990,27 +1890,15 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="arena_barricade16"
+			id="bridge_jungle"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="arena_barricade17"
+			id="stonehendge"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="BRIDGE_INDUSTRY"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_house_br1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_house_br3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_houses_brock1"
+			id="uluc"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -2018,7 +1906,31 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="kef"
+			id="crag_boulder1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_boulder2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_boulder3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_boulder4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="t_greattree1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="t_greattree2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="t_greattree3_"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -2026,59 +1938,7 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="r4_freehouse3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="r4_freehouse4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_dtree_1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_dtree_2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_tree_1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_tree_2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="desert_tree_3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="bigTribune2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="nadTrasnizza+"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="polosaDuga"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="polosaLittle"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="tribune1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="tribune2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="bigTribune1"
+			id="druid_gate"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -2088,15 +1948,8 @@
 		<Item
 			id="lamppost2_broken"
 			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="gadad_gate"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="kef_gate"
-			file="data\models\AnimModels.xml" />
 	</AnimatedModelsServer>
+
 
 	<StaticModelsServer />
 
@@ -2178,7 +2031,6 @@
 		<Item id="S_ENGINE_FIGHTER_1_HIGH" />
 		<Item id="S_ENGINE_HUNTER_1_HIGH" />
 		<Item id="S_ENGINE_CRUISER_1_HIGH" />
-		<Item id="S_ENGINE_FORMULA_1_HIGH" />
 
 		<!-- Missiles --> 
 
@@ -2448,6 +2300,7 @@
 		<Item id="S_CAR_BURNING"/>
 
 		<Item id="S_ENGINE_TANK_HIGH"/>
+		<Item id="S_SHOOTING_ROBOTGUN_01"/>
 
 	</SoundsServer>
 
