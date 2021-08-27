@@ -2,7 +2,7 @@
 <World
 	name="Object16"
 	class="SgNode"
-	LastId="76473484">
+	LastId="76473578">
 	<Node
 		name="Object12"
 		class="SgAnimatedModelNode"
@@ -1535,9 +1535,9 @@
 	<Node
 		name="Object900"
 		class="SgAnimatedModelNode"
-		org="1461.732 0.000 3761.225"
+		org="1460.536 -0.490 3758.813"
 		orgRel="1"
-		rot="0.0000 -0.3786 0.0000 0.9255"
+		rot="-0.0117 -0.3599 -0.0302 0.9324"
 		id="brick_house1"
 		ndmAction="0" />
 
