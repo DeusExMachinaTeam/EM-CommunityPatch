@@ -448,7 +448,7 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="fuel machinery electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
@@ -491,7 +491,7 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="fuel machinery electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
@@ -599,12 +599,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
@@ -656,12 +656,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
@@ -712,12 +712,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
@@ -768,12 +768,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="electronics"
+			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
@@ -825,12 +825,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="book electronics"
+			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="book electronics"
+			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
@@ -911,12 +911,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="book electronics"
+			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="book electronics"
+			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
@@ -965,12 +965,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="book"
+			WaresPrototypes="bottle tobacco book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="book"
+			WaresPrototypes="bottle tobacco book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
