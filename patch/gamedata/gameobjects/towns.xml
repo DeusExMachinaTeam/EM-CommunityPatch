@@ -621,7 +621,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 		<Prototype
 			Class		= "Town"
 			Name		= "TownPesht"
-			ModelFile	= "brick_debris1"
+			ModelFile	= "point"
 			NodeScale	= "1 1 1" 
 
 			MusicName		= "bar"
@@ -1524,7 +1524,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 		<Prototype
 			Class		= "Town"
 			Name		= "r1m1_GloohoeVillage"
-			ModelFile	= "brick_debris1"
+			ModelFile	= "point"
 			NodeScale	= "1 1 1" 
 
 			MusicName		= "agriculruar_town1"
@@ -1564,7 +1564,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 		<Prototype
 			Class		= "Town"
 			Name		= "r1m1_OilVillage"
-			ModelFile	= "brick_debris1"
+			ModelFile	= "point"
 			NodeScale	= "1 1 1" 
 		
 			MusicName		= "agriculruar_town1"
@@ -1616,7 +1616,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 		<Prototype
 			Class		= "Town"
 			Name		= "r1m1_ContraVillage"
-			ModelFile	= "brick_debris1"
+			ModelFile	= "point"
 			NodeScale	= "1 1 1" 
 		
 			MusicName		= "agriculruar_town1"
@@ -1667,7 +1667,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 		<Prototype
 			Class		= "Town"
 			Name		= "r1m1_FreedomVillage"
-			ModelFile	= "brick_debris1"
+			ModelFile	= "point"
 			NodeScale	= "1 1 1" 
 		
 			MusicName		= "agriculruar_town1"
@@ -2293,7 +2293,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 		<Prototype
 			Class		= "Town"
 			Name		= "r2m2_GranicaVillage"
-			ModelFile	= "brick_debris1"
+			ModelFile	= "point"
 			NodeScale	= "1 1 1" 
 
 			MusicName		= "bar"
