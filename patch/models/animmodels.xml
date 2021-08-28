@@ -11318,7 +11318,7 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
-				<lp
+			<lp
 				id="LP_LIGHT09"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
@@ -11529,7 +11529,7 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
-				<lp
+			<lp
 				id="LP_LIGHT09"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
@@ -11607,7 +11607,7 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
-				<lp
+			<lp
 				id="LP_LIGHT14"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
