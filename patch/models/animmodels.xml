@@ -17150,8 +17150,8 @@
 	<model
 		id="IntactCable_1"
 		file="data\models\objects\provoda\tselniy_1.gam"
-		shadow="1"
-		shadowVolume="1"
+		shadow="0"
+		shadowVolume="0"
 		windwavy="0"
 		trans="2"
 		composite="0" />
