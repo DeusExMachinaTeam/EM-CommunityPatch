@@ -52,8 +52,8 @@
 
 	<model
 		id="MidGard"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\MidGard.gam" />
 
@@ -2591,14 +2591,15 @@
 <!-- buildings -->
 	<model
 		id="tunnel"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\tunnel.gam" />
 
 	<model
 		id="tunnel_gate"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		bBoxMin="-30 -30 -30"
 		bBoxMax=" 30  30  30" 
@@ -2606,14 +2607,15 @@
 
 	<model
 		id="minin"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\minin.gam" />
 
 	<model
 		id="big_gate01"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\big_gate01.gam" />
 
@@ -11541,7 +11543,7 @@
 				id="LP_LIGHT11"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
-				
+
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB04"
@@ -13171,21 +13173,24 @@
 	<model
 		id="bridge_span1"
 		file="data\models\buildings\region1\bridge_span1.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="bridge_span2"
 		file="data\models\buildings\region1\bridge_span2.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="bridge_span3"
 		file="data\models\buildings\region1\bridge_span3.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -14129,6 +14134,7 @@
 		id="port"
 		file="data\models\buildings\region1\port.gam"
 		shadow="0"
+		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
 
@@ -14616,14 +14622,16 @@
 	<model
 		id="monastery"
 		file="data\models\buildings\region2\monastery.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="minintown"
 		file="data\models\buildings\region1\minintown.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -14911,7 +14919,8 @@
 	<model
 		id="millitary_town"
 		file="data\models\buildings\region1\millitary_town.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -14919,28 +14928,31 @@
 		id="helvecia"
 		file="data\models\buildings\region2\helvecia.gam"
 		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="zion"
 		file="data\models\buildings\region2\zion.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="zion_gate"
 		file="data\models\buildings\region2\zion_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r3_grand_tree1"
 		file="data\models\nature\region3\trees\gt.gam"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15094,7 +15106,8 @@
 	<model
 		id="r2_marezzia"
 		file="data\models\buildings\region2\marezzia.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15221,13 +15234,15 @@
 		id="r2_high_voltage"
 		file="data\models\buildings\region2\r2_high_voltage.gam"
 		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r2_seil"
 		file="data\models\buildings\region2\r2_seil.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15329,7 +15344,7 @@
 		id="electro_stolb1"
 		file="data\models\buildings\region1\electro_stolb1.gam"
 		shadowVolume="1"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15337,7 +15352,7 @@
 		id="electro_stolb2"
 		file="data\models\buildings\region1\electro_stolb2.gam"
 		shadowVolume="1"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15345,7 +15360,7 @@
 		id="electro_stolb3"
 		file="data\models\buildings\region1\electro_stolb3.gam"
 		shadowVolume="1"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15440,8 +15455,8 @@
 	<model
 		id="r3_oracle"
 		file="data\models\buildings\region3\r3_oracle.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15472,8 +15487,8 @@
 	<model
 		id="factory_bridge"
 		file="data\models\buildings\region3\factory\factory_bridge.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		passable="1"
 		windwavy="0"
 		trans="0" />
@@ -15654,7 +15669,7 @@
 	<model
 		id="metal_plate1"
 		file="data\models\buildings\region3\factory\metal_plate1.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -15663,7 +15678,7 @@
 	<model
 		id="metal_plate2"
 		file="data\models\buildings\region3\factory\metal_plate2.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -15672,7 +15687,7 @@
 	<model
 		id="metal_plate3"
 		file="data\models\buildings\region3\factory\metal_plate3.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -16102,16 +16117,16 @@
 	<model
 		id="hoisting_crane_1"
 		file="data\models\buildings\region1\hoisting_crane_1.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="hoisting_crane_2"
 		file="data\models\buildings\region1\hoisting_crane_2.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16552,7 +16567,8 @@
 	<model
 		id="bridge_jungle"
 		file="data\models\buildings\region3\bridge_jungle\bridge_jungle.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		passable="1"
 		windwavy="0"
 		trans="0"
@@ -16561,7 +16577,8 @@
 	<model
 		id="oracle_gate"
 		file="data\models\buildings\region3\oracle_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -16593,7 +16610,7 @@
 	<model
 		id="gate_monastyr"
 		file="data\models\buildings\region2\gate_monastyr.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17133,7 +17150,8 @@
 	<model
 		id="IntactCable_1"
 		file="data\models\objects\provoda\tselniy_1.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="2"
 		composite="0" />
@@ -17745,7 +17763,8 @@
 	<model
 		id="druid_gate"
 		file="data\models\buildings\region3\druid_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17817,7 +17836,8 @@
 	<model
 		id="agro_gate"
 		file="data\models\buildings\region1\agro_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0"
 		passable="1"
@@ -18349,7 +18369,7 @@
 	<model
 		id="midgard_gate"
 		file="data\models\buildings\region1\MidGard_gate.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -18357,14 +18377,14 @@
 	<model
 		id="gadad_gate"
 		file="data\models\buildings\region4\gadad_gate.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="kef_gate"
 		file="data\models\buildings\region4\kef_gate.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
