@@ -141,7 +141,7 @@
 			name="TRIGGERSNAME">triggers.xml</Key>
 
 		<Key
-			name="CINEMATRIGGERSNAME"></Key>
+			name="CINEMATRIGGERSNAME">cinematriggers.xml</Key>
 
 		<Key
 			name="DLGSTRINGS">strings.xml</Key>
