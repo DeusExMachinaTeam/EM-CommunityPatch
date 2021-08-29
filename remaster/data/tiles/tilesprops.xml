@@ -5,29 +5,29 @@
 			name="ROCK_GENERAL"
 			splash="ROCK"
 			wheeltracetexture="data\fx\protectors\protector_rock.tga"
-			friction="1.1"
-			resistance="0.2" />
+			friction="0.8"
+			resistance="0.1" />
 
 		<type 
 			name="GROUND_GENERAL"
 			splash="GROUND"
 			wheeltracetexture="data\fx\protectors\protector_ground.tga"
 			friction="1.0"
-			resistance="0.3" />
+			resistance="0.2" />
 
 		<type 
 			name="GRASS_GENERAL"
 			splash="GRASS"
 			wheeltracetexture="data\fx\protectors\protector_grass.tga"
-			friction="1.0"
-			resistance="0.3" />
+			friction="0.4"
+			resistance="0.2" />
 
 		<type 
 			name="SAND_GENERAL"
 			splash="SAND"
 			wheeltracetexture="data\fx\protectors\protector_grass.tga"
-			friction="1.0"
-			resistance="0.3" />
+			friction="0.4"
+			resistance="0.6" />
 	</types>
 
 	<tiles>
