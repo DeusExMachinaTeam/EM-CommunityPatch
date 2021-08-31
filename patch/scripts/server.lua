@@ -1128,8 +1128,7 @@ function CreateBoxWithAffixGun(pos, GunPrototype, CountAffixes, ClassAffixes, Bo
 		LOG("TRIGGER ERROR: Can't create box or gun. Not positiun ot gun prototype")			
 		return nil
 	end
-	--local afflist = GenerateRandomAffixList ( CountAffixes, ClassAffixes )
-	local afflist = CreateRandomAffixesForGun ( CountAffixes )
+	
 	local chestID = CreateNewObject{	prototypeName = "someChest",
 										objName = name
 							  	   }	
@@ -1149,10 +1148,23 @@ function CreateBoxWithAffixGun(pos, GunPrototype, CountAffixes, ClassAffixes, Bo
        return nil
     end
 
+	local afflist = {}
+
+	--if gun:IsKindOf("PlasmaBunchLauncher") then
+	if GunPrototype == "maxim01" or GunPrototype == "fagot01" or GunPrototype == "odin01" or GunPrototype == "elephant01" or GunPrototype == "hammer01" then
+		local damageAffixes = { "weak_gun", "deadly_gun", "destructive_gun" }
+		local i = random(1,4)
+		if i ~= 4 then
+			table.insert(afflist, damageAffixes[i])
+		end
+	else
+		--local afflist = GenerateRandomAffixList ( CountAffixes, ClassAffixes )
+		afflist = CreateRandomAffixesForGun ( CountAffixes )
+	end
 	if afflist ~= nil then
-    	for i=1,getn(afflist) do
+		for i=1,getn(afflist) do
 			gun:ApplyAffixByName(afflist[i])
-    	end
+		end
 	end
 	MyChest:AddChild(gun)
 end
