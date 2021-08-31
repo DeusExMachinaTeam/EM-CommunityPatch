@@ -1151,7 +1151,7 @@ function CreateBoxWithAffixGun(pos, GunPrototype, CountAffixes, ClassAffixes, Bo
 	local afflist = {}
 
 	--if gun:IsKindOf("PlasmaBunchLauncher") then
-	if GunPrototype == "maxim01" or GunPrototype == "fagot01" or GunPrototype == "odin01" or GunPrototype == "elephant01" or GunPrototype == "hammer01" or GunPrototype == "bumblebee01" or GunPrototype == "omega01" or GunPrototype == "big_swingfire01" or GunPrototype == "hurricane01" or GunPrototype == "mrakSideGun" or GunPrototype == "hailSideGun" or GunPrototype == "marsSideGun" or GunPrototype = "zeusSideGun" or GunPrototype == "hunterSideGun" then
+	if GunPrototype == "maxim01" or GunPrototype == "fagot01" or GunPrototype == "odin01" or GunPrototype == "elephant01" or GunPrototype == "hammer01" or GunPrototype == "bumblebee01" or GunPrototype == "omega01" or GunPrototype == "big_swingfire01" or GunPrototype == "hurricane01" or GunPrototype == "mrakSideGun" or GunPrototype == "hailSideGun" or GunPrototype == "marsSideGun" or GunPrototype == "zeusSideGun" or GunPrototype == "hunterSideGun" then
 		local damageAffixes = { "weak_gun", "deadly_gun", "destructive_gun" }
 		local i = random(1,4)
 		if i ~= 4 then
