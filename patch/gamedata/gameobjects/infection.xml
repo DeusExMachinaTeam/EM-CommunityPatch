@@ -17,7 +17,7 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		Class			= "InfectionZone"
 		Name			= "InfectionZone"
 		MinDistToPlayer	= "200"
-		CriticalTeamDist = "500"
+		CriticalTeamDist = "800"
 		CriticalTeamTime = "5" 
 		BlindTeamDist = "200"
 		BlindTeamTime = "20"
