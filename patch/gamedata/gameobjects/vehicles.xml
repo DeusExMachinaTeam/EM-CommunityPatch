@@ -341,7 +341,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "Sml1"
 		ResourceType			= "VEHICLE"
 
-		DiffRatio			= "2.0"
+		DiffRatio			= "6.0"
 		MaxEngineRpm		= "7000"
 		LowGearShiftLimit		= "1000"
 		HighGearShiftLimit	= "2000"
