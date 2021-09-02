@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+$Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
+-->
+
+<Prototypes>
+<!--
+        <Prototype
+                Class="CaravanTeam"
+                Name="testCaravanTeam"
+
+                DecisionMatrix="teammain.lua"
+                VehiclesGenerator="testCaravanVehiclesGenerator"
+
+                UpdateTimeOut="1.0"
+                />
+                
+        <Prototype
+                Class="VehiclesGenerator"
+                Name="testCaravanVehiclesGenerator"
+                DesiredCount="2">
+                <Description VehiclesPrototypes="r1m1_molokovoz01 r1m1_molokovoz02 r1m1_molokovoz03"/>
+        </Prototype>
+
+
+
+        <Prototype
+                Class="WanderersGenerator"
+                Name="tradersWanderersGenerator"
+                DesiredCount="2">
+
+                <Vehicles>
+                        <Vehicle Prototype="Bug">
+                                <Cabin Prototypes="bugCab01 bugCab02"/>
+                                <CabinSmallGun Present="false"/>
+                        </Vehicle>
+                </Vehicles>
+        </Prototype>
+ -->
+ 
+ 	<Prototype
+		Class="WanderersManager"
+		Name="testWanderersManager"/>
+
+	<Prototype
+		Class="CaravanTeam"
+		Name="testCaravanTeam"
+		DecisionMatrix="teammain.lua"
+		
+		TradersVehiclesGeneratorName="testTradersWanderersGenerator"
+		GuardVehiclesGeneratorName="testGuardVehiclesGenerator"
+		WaresPrototypes="potato	firewood">
+		<!-- formation overrides -->
+		<Formation Prototype="caravanFormation" />
+	</Prototype>
+				
+				
+	<Prototype
+		Class="VagabondTeam"
+		Name="testVagabondTeam"
+		DecisionMatrix="teammain.lua"
+		
+		VehicleGeneratorPrototype="testTradersWanderersGenerator"
+			
+		WaresPrototypes="potato	firewood"/>
+				
+	<Prototype
+		Class="WanderersGenerator"
+		Name="testTradersWanderersGenerator"
+		DesiredCount="1-2">
+		<Vehicles>
+			<Vehicle Prototype="r1m1_molokovoz01">
+					<Cabin Prototypes="bugCab01	bugCab02"/>
+					<BasketSmallGun0 Present="false"/>
+			</Vehicle>
+			<Vehicle Prototype="r1m1_molokovoz02">
+			</Vehicle>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class="WanderersGenerator"
+		Name="testGuardVehiclesGenerator"
+		DesiredCount="0-3">
+		<Vehicles>
+			<Vehicle Prototype="r1m1_sml01"/>
+		</Vehicles>
+	</Prototype>
+
+
+
+
+
+	<Prototype
+		Class="WanderersGenerator"
+		Name="jsTestGenerator"
+		DesiredCount="1-2">
+
+		<Vehicles>
+			<Vehicle Prototype="r1m1_molokovoz01"/>
+			<Vehicle Prototype="r1m1_molokovoz02"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class="WanderersGenerator"
+		Name="jsTestGeneratorFighters"
+		DesiredCount="1-3">
+
+		<Vehicles>
+			<Vehicle Prototype="r2m2_Fighter01"/>
+			<Vehicle Prototype="r2m1_scout03"/>
+			<Vehicle Prototype="r1m3_Fighter02"/>
+			<Vehicle Prototype="r2m1_Hunter01"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class="CaravanTeam"
+		Name="jsCaravanTeam"
+		DecisionMatrix="teammain.lua"
+		
+		TradersVehiclesGeneratorName="jsTestGenerator"
+		GuardVehiclesGeneratorName="jsTestGeneratorFighters"
+		WaresPrototypes="potato	firewood">
+
+		<Formation Prototype="wedgeFormation"/>
+	</Prototype>
+
+
+	<Prototype
+		Class="WanderersManager"
+		Name="JSinxManager">
+	</Prototype>
+
+	<Prototype
+		Class	=	"WanderersManager"
+		Name	=	"LiveCaravanManager">
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m1_CaravanTeam"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m1_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	"r1m1_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"potato	firewood">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m1_CaravanOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m1_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	""
+		WaresPrototypes			=	"potato	firewood">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m1_BanditOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	""
+		GuardVehiclesGeneratorName	=	"r1m1_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m1_CaravanCarGenerator"
+		DesiredCount		=	"1">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanBug01"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug02"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug03"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug04"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m1_CaravanCarGuardianGenerator"
+		DesiredCount		=	"1-2">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml101"/>
+			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml201"/>
+		</Vehicles>
+	</Prototype>
+
+
+
+
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m2_CaravanTeam"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m2_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	"r1m2_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"potato	firewood scrap-metal">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m2_CaravanOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m2_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	""
+		WaresPrototypes			=	"potato	firewood scrap-metal">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m2_BanditOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	""
+		GuardVehiclesGeneratorName	=	"r1m2_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m2_CaravanCarGenerator"
+		DesiredCount		=	"1">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanBug01"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug02"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug03"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug04"/>
+			<Vehicle Prototype	=	"r1m2_CaravanBug01"/>
+			<Vehicle Prototype	=	"r1m2_CaravanBug02"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m2_CaravanCarGuardianGenerator"
+		DesiredCount		=	"1-2">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml101"/>
+			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml201"/>
+			<Vehicle Prototype	=	"r1m2_CaravanGuardianSml301"/>
+		</Vehicles>
+	</Prototype>
+
+
+
+
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m3_CaravanTeam"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m3_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	"r1m3_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"potato	firewood scrap-metal oil">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m3_CaravanOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m3_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	""
+		WaresPrototypes			=	"potato	firewood scrap-metal oil">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m3_BanditOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	""
+		GuardVehiclesGeneratorName	=	"r1m3_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m3_CaravanCarGenerator"
+		DesiredCount		=	"1">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanBug01"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug03"/>
+			<Vehicle Prototype	=	"r1m2_CaravanBug01"/>
+			<Vehicle Prototype	=	"r1m2_CaravanBug02"/>
+			<Vehicle Prototype	=	"r1m3_CaravanMolokovoz01"/>
+			<Vehicle Prototype	=	"r1m3_CaravanMolokovoz02"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m3_CaravanCarGuardianGenerator"
+		DesiredCount		=	"1-2">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml201"/>
+			<Vehicle Prototype	=	"r1m2_CaravanGuardianSml301"/>
+			<Vehicle Prototype	=	"r1m3_CaravanGuardianSml401"/>
+		</Vehicles>
+	</Prototype>
+
+
+
+
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r2m1_CaravanTeam"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r2m1_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	"r2m1_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r2m1_CaravanOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r2m1_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	""
+		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r2m1_BanditOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	""
+		GuardVehiclesGeneratorName	=	"r2m1_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r2m1_CaravanCarGenerator"
+		DesiredCount		=	"1">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m3_CaravanMolokovoz01"/>
+			<Vehicle Prototype	=	"r1m3_CaravanMolokovoz02"/>
+			<Vehicle Prototype	=	"r2m1_CaravanMolokovoz01"/>
+			<Vehicle Prototype	=	"r2m1_CaravanMolokovoz02"/>
+			<Vehicle Prototype	=	"r2m1_CaravanUral01"/>
+			<Vehicle Prototype	=	"r2m1_CaravanUral02"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r2m1_CaravanCarGuardianGenerator"
+		DesiredCount		=	"1-2">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m3_CaravanGuardianSml401"/>
+			<Vehicle Prototype	=	"r2m1_CaravanGuardianSml401"/>
+			<Vehicle Prototype	=	"r2m1_CaravanGuardianScout201"/>
+		</Vehicles>
+	</Prototype>
+
+
+
+
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r2m2_CaravanTeam"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r2m2_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	"r2m2_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r2m2_CaravanOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r2m2_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	""
+		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r2m2_BanditOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	""
+		GuardVehiclesGeneratorName	=	"r2m2_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r2m2_CaravanCarGenerator"
+		DesiredCount		=	"1">
+		<Vehicles>
+			<Vehicle Prototype	=	"r2m1_CaravanMolokovoz01"/>
+			<Vehicle Prototype	=	"r2m1_CaravanMolokovoz02"/>
+			<Vehicle Prototype	=	"r2m1_CaravanUral01"/>
+			<Vehicle Prototype	=	"r2m1_CaravanUral02"/>
+			<Vehicle Prototype	=	"r2m2_CaravanUral01"/>
+			<Vehicle Prototype	=	"r2m2_CaravanUral02"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r2m2_CaravanCarGuardianGenerator"
+		DesiredCount		=	"1-2">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m3_CaravanGuardianSml401"/>
+			<Vehicle Prototype	=	"r2m1_CaravanGuardianSml401"/>
+			<Vehicle Prototype	=	"r2m2_CaravanGuardianScout301"/>
+		</Vehicles>
+	</Prototype>
+
+</Prototypes>
