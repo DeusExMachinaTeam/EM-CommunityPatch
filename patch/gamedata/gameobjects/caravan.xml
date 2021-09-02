@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 
-<?xml version="1.0" encoding="windows-1251"?>
-
 <!--
 $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 -->
@@ -203,7 +201,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r1m2_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	"r1m2_CaravanCarGuardianGenerator"
-		WaresPrototypes			=	"potato	firewood scrap-metal">
+		WaresPrototypes			=	"potato	firewood scrap_metal">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
@@ -213,7 +211,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r1m2_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	""
-		WaresPrototypes			=	"potato	firewood scrap-metal">
+		WaresPrototypes			=	"potato	firewood scrap_metal">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
@@ -262,7 +260,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r1m3_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	"r1m3_CaravanCarGuardianGenerator"
-		WaresPrototypes			=	"potato	firewood scrap-metal oil">
+		WaresPrototypes			=	"potato	firewood scrap_metal oil">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
@@ -272,7 +270,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r1m3_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	""
-		WaresPrototypes			=	"potato	firewood scrap-metal oil">
+		WaresPrototypes			=	"potato	firewood scrap_metal oil">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
@@ -321,7 +319,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r2m1_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	"r2m1_CaravanCarGuardianGenerator"
-		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		WaresPrototypes			=	"potato	firewood scrap_metal oil fuel">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
@@ -331,7 +329,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r2m1_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	""
-		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		WaresPrototypes			=	"potato	firewood scrap_metal oil fuel">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
@@ -380,7 +378,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r2m2_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	"r2m2_CaravanCarGuardianGenerator"
-		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		WaresPrototypes			=	"potato	firewood scrap_metal oil fuel">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
@@ -390,7 +388,7 @@ $Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
 		DecisionMatrix			=	"teammain.lua"
 		TradersVehiclesGeneratorName	=	"r2m2_CaravanCarGenerator"
 		GuardVehiclesGeneratorName	=	""
-		WaresPrototypes			=	"potato	firewood scrap-metal oil fuel">
+		WaresPrototypes			=	"potato	firewood scrap_metal oil fuel">
 		<Formation Prototype		=	"wedgeFormation"/>
 	</Prototype>
 
