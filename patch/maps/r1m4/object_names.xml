@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="TheOlme"
+		FullName="ОЛЬМ" />
+
+	<Object
+		Name="Olme_Bar"
+		FullName="На окраине" />
+
+	<Object
+		Name="Olme_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="Olme_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Olme_Bar_Customer1"
+		FullName="Перчитто" />
+
+	<Object
+		Name="Olme_Bar_Customer2"
+		FullName="Галден" />
+<!--Object 
+		Name="Olme_Bar_Customer3"
+FullName = "Маркизыч"/-->
+	<Object
+		Name="Olme_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="FVOnOcean"
+		FullName="САЛИНИОМ" />
+
+	<Object
+		Name="FVOnOcean_Bar"
+		FullName="У моря" />
+
+	<Object
+		Name="FVOnOcean_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="FVOnOcean_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="FVOnOcean_Bar_Customer1"
+		FullName="Талион" />
+
+	<Object
+		Name="FVOnOcean_Bar_Customer3"
+		FullName="Хелм" />
+
+	<Object
+		Name="FVOnOcean_Bar_Gomer"
+		FullName="Гомер" />
+
+	<Object
+		Name="FVOnOcean_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="FVNearOlme"
+		FullName="ЛАУКА" />
+
+	<Object
+		Name="FVNearOlme_Bar"
+		FullName="Селинд" />
+
+	<Object
+		Name="FVNearOlme_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="FVNearOlme_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="FVNearOlme_Bar_Customer2"
+		FullName="Палинесс" />
+
+	<Object
+		Name="FVNearOlme_Bar_Customer3"
+		FullName="Кристал" />
+
+	<Object
+		Name="FVNearOlme_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="FVCalis"
+		FullName="КАЛИС" />
+
+	<Object
+		Name="FVCalis_Bar"
+		FullName="Гладиатор" />
+
+	<Object
+		Name="FVCalis_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="FVCalis_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="FVCalis_Bar_Customer3"
+		FullName="Эрик" />
+
+	<Object
+		Name="FVCalis_Bar_Customer2"
+		FullName="Кристиан" />
+
+	<Object
+		Name="FVCalis_Bar_Customer1"
+		FullName="Джэйм" />
+
+	<Object
+		Name="FVCalis_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="FVCalis_Bar_Fioniy"
+		FullName="Филимон" />
+
+	<Object
+		Name="FVCordan"
+		FullName="КОРДАН" />
+
+	<Object
+		Name="FVCordan_Bar"
+		FullName="Пасть акулы" />
+
+	<Object
+		Name="FVCordan_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="FVCordan_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="FVCordan_Bar_Customer2"
+		FullName="Матвей" />
+
+	<Object
+		Name="FVCordan_Bar_Barman"
+		FullName="Повариха Нюра" />
+
+	<Object
+		Name="FVPerch"
+		FullName="Перчь" />
+
+	<Object
+		Name="FVPerch_Bar"
+		FullName="Золотая жила" />
+
+	<Object
+		Name="FVPerch_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="FVPerch_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="FVPerch_Bar_Customer2"
+		FullName="Дарен" />
+
+	<Object
+		Name="FVPerch_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="FVBerko"
+		FullName="Берко" />
+
+	<Object
+		Name="FVBerko_Bar"
+		FullName="Закоулок" />
+
+	<Object
+		Name="FVBerko_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="FVBerko_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="FVBerko_Bar_Customer2"
+		FullName="Неил" />
+
+	<Object
+		Name="FVBerko_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="StorageVil"
+		FullName="СКЛАД" />
+
+	<Object
+		Name="StorageVilBar"
+		FullName="Складской" />
+
+	<Object
+		Name="StorageVil_Shop"
+		FullName="Будка продавца" />
+
+	<Object
+		Name="r1m4_Storage_Guard1"
+		FullName="Охранник" />
+
+	<Object
+		Name="StorageVil_enter"
+		FullName="СКЛАД" />
+
+	<Object
+		Name="TheOlme_enter"
+		FullName="ОЛЬМ" />
+
+	<Object
+		Name="FVPerch_enter"
+		FullName="ПЕРЧЬ" />
+
+	<Object
+		Name="FVCalis_Bar_Husbent1"
+		FullName="Филимон" />
+
+	<Object
+		Name="LookingWife"
+		FullName="жена Аллушка" />
+
+	<Object
+		Name="LookingWife1"
+		FullName="жена Аллушка" />
+
+	<Object
+		Name="Port_loc"
+		FullName="Морские врата" />
+
+	<Object
+		Name="FVPerch_Houses"
+		FullName="Зал ожидания" />
+
+	<Object
+		Name="ToR1M3"
+		FullName="Выезд на Фатерлянд" />
+
+	<Object
+		Name="ToR3M1"
+		FullName="Порт в Рощу друидов" />
+
+	<Object
+		Name="Olme_Bar_Traider"
+		FullName="Торговец" />
+
+	<Object
+		Name="bigboss1"
+		FullName="Босс" />
+
+	<Object
+		Name="urod1"
+		FullName="Винни" />
+
+	<Object
+		Name="urod2"
+		FullName="Дон" />
+
+	<Object
+		Name="urod3"
+		FullName="Юкка" />
+
+	<Object
+		Name="urod4"
+		FullName="Дэйзи" />
+
+	<Object
+		Name="urod5"
+		FullName="Гейтс" />
+
+	<Object
+		Name="urod6"
+		FullName="Фолко" />
+
+	<Object
+		Name="urod7"
+		FullName="Бортан" />
+
+	<Object
+		Name="urod8"
+		FullName="Дюк" />
+
+	<Object
+		Name="urod9"
+		FullName="Красный 13" />
+</ObjectNames>
