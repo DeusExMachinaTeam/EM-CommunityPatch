@@ -232,11 +232,11 @@ FullName = "Маркизыч"/-->
 
 	<Object
 		Name="LookingWife"
-		FullName="жена Аллушка" />
+		FullName="Жена Аллушка" />
 
 	<Object
 		Name="LookingWife1"
-		FullName="жена Аллушка" />
+		FullName="Жена Аллушка" />
 
 	<Object
 		Name="Port_loc"
