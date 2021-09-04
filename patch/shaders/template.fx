@@ -19,7 +19,11 @@
 
 
 #ifndef SPECULAR_POWER
-#define SPECULAR_POWER 8
+#define SPECULAR_POWER 4
+#endif
+
+#ifndef SPECULAR_MULTIPLY
+#define SPECULAR_MULTIPLY 4
 #endif
 
 
@@ -117,7 +121,7 @@ float4 diffuse(float3 dir_view,
     color *= light;
 
     #ifdef ENABLE_SPECULAR
-    float3 specular = pow(max(0, RdotV) * luminance * Specular, SPECULAR_POWER) * g_Specular.rgb;
+    float3 specular = pow(max(0, RdotV) * luminance * Specular, SPECULAR_POWER) * g_Specular.rgb * SPECULAR_MULTIPLY;
     color += specular;
     #endif
 
@@ -129,7 +133,11 @@ float4 diffuse(float3 dir_view,
     color += Emmisive;
     #endif
 
-    return float4(color, Opacity * g_Transparent);
+    #ifdef GLOBAL_OPACITY
+    Opacity *= g_Transparent;
+    #endif
+
+    return float4(color, Opacity);
 };
 
 /**
