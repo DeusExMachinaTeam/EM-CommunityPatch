@@ -209,35 +209,35 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		Class			= "InfectionTeam"
 		Name			= "r1m3BanditsGang"
 		DecisionMatrix	= "teammain.lua"
-		VehiclesGenerator = "r1m2BanditsGangGenerator">
+		VehiclesGenerator = "r1m3BanditsGangGenerator">
 		<Vehicles/>
 	</Prototype>
 	<Prototype
 		Class 		= "VehiclesGenerator"
 		Name			= "r1m3BanditsGangGenerator"
 		DesiredCount 				= "1-3"
-		partOfSchwartzForCabin 			= "0.15"  
-		partOfSchwartzForBasket 		= "0.15"
-		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForCabin 			= "0.20"  
+		partOfSchwartzForBasket 		= "0.20"
+		partOfSchwartzForGuns 			= "0.25"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn"		
-			WaresPrototypes="scrap_metal"
+			WaresPrototypes="scrap_metal potato"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
 			VehiclesPrototypes	="ScoutEnemySpawn Sml2EnemySpawn Sml3EnemySpawn" 	
-			WaresPrototypes="scrap_metal"
+			WaresPrototypes="scrap_metal potato"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
-			WaresPrototypes="scrap_metal"
+			WaresPrototypes="scrap_metal potato"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
-			WaresPrototypes="oil"
+			WaresPrototypes="scrap_metal potato"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
