@@ -219,7 +219,7 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForCabin 			= "0.20"  
 		partOfSchwartzForBasket 		= "0.20"
 		partOfSchwartzForGuns 			= "0.25"
-		partOfSchwartzForWares 			= "0.20" >
+		partOfSchwartzForWares 			= "0.25" >
 		<Description 
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn"		
 			WaresPrototypes="scrap_metal potato"
@@ -254,12 +254,12 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 
 		<Description 
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="oil"
+			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="oil"
+			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
