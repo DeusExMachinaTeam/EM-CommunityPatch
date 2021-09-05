@@ -55,9 +55,10 @@ REAL4 WaterPS( VS_OUTPUT v ): COLOR
         // frenel term
 	float k = tex1D ( FresnelSampler,  - dot( v.camDir, normalN ) );
 
+	// float2 texcoord  = v.TexRefl;// / v.TexRefl.w;
 	float2 texcoord  = v.TexRefl / v.TexRefl.w;
 	// shift for restoring fov
-	texcoord += 0.5f - 0.5f / 1.115f;
+	//texcoord.y = texcoord.y / 1.77f;
 	float2 texcoord1 = v.TexRefr / v.TexRefr.w;
 
         normal /= v.camDir.w;
@@ -66,16 +67,16 @@ REAL4 WaterPS( VS_OUTPUT v ): COLOR
 	float4 Spec = waveHeightSpecular.z * pow( max( 0, dot( R, -v.camDir.xyz ) ), waveHeightSpecular.w ) * sunColor;
 
 	// refraction
-	texcoord1.xy += 0.001 * normal.xz;
+	texcoord1.xy += 0.01 * normal.xz;
 	REAL4 refraction = tex2D( RefractionSampler, texcoord1 ) * float4 ( 0.925f, 0.925f, 0.925f, 1.f );
 
 	// reflection
-	texcoord.xy += 0.005 * normal.xz;
+	texcoord.xy += 0.05 * normal.xz;
 	REAL4 reflection = tex2D( ReflectionSampler, texcoord );
 
 	//	
 	REAL4 color;
-	color.rgb = lerp( reflection, refraction, (1 - k * refraction.a ) );
+	color.rgb = lerp( reflection, refraction, (1 - k * refraction.a * 0.75f ) );
 
 	color.a = 0.75;
 
