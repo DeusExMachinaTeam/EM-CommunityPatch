@@ -2364,6 +2364,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			Price				= "3000"
 			RepairCoef			= "0.2"
 
@@ -2397,6 +2398,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			Price				= "8000"
 			RepairCoef			= "0.2"
 
@@ -2437,6 +2439,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			Price				= "11000"
 			RepairCoef			= "0.2"
 
@@ -2725,6 +2728,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "0 0 -25"
 			NodeScale			= "1 1 1"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			Price				= "13000"
 			RepairCoef			= "0.3"
 
@@ -2758,6 +2762,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "12 12 -25"
 			NodeScale			= "1 1 1"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			Price				= "45000"
 			RepairCoef			= "0.3"
 
@@ -2798,6 +2803,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 			NodeScale			= "1 1 1"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			RepairCoef			= "0.3"
 			Price				= "22000"
 
@@ -2840,6 +2846,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "8 8 -25"
 			NodeScale			= "1 1 1"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			Price				= "30000"
 			RepairCoef			= "0.3"
 
@@ -2875,6 +2882,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "10 15 -15"
 			NodeScale			= "1 1 1"
 			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
 			Price				= "58000"
