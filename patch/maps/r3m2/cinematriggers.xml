@@ -200,8 +200,15 @@
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
 --			println("!!!!!!!!!!!")
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
-			GetPlayerVehicle():SetThrottle(0)
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+				vehPlayer:SetGamePositionOnGround(CVector(1247.468, 326.605, 1387.435))
+				vehPlayer:SetRotation(Quaternion(0.136, -0.474, 0.003, -0.870))
+			end
 			local mnstr = TeamCreate("TeamBigMonster",1022,CVector(getPos("Monster_loc")),{"RobotTron"})
 			if mnstr then
 			    TActivate("trBigMonsterDie")

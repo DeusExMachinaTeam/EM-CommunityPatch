@@ -1069,10 +1069,13 @@
 
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
 				vehPlayer:SetGamePositionOnGround( CVector(6140.754, 259.915, 7647.122))
 				vehPlayer:SetRotation(Quaternion(-0.014, 0.087, -0.007, 0.996))
 				vehPlayer:SetExternalPathByName("player_path02")
-				vehPlayer:SetThrottle( 0 )
 			end
 
 			AddCinematicMessage( 3412, 1 )
@@ -1093,6 +1096,7 @@
 			if vehPlayer then
 				vehPlayer:PlaceToEndOfPath("player_path02")
 				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomLinearVelocity( 0 )
 			end
 
 			AddCinematicMessage( 362, 0.5 )
@@ -1128,6 +1132,7 @@
 			if vehPlayer then
 				vehPlayer:PlaceToEndOfPath("player_path02")
 				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomLinearVelocity( 0 )
 			end
 
 			if bossOracle then
