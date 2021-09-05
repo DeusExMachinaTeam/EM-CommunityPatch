@@ -73,7 +73,9 @@ float4 FragmentBumpSpecularEnv(VS_OUTPUT input) : COLOR {
 
 technique BumpSpecularEnv <bool   ComputeTangentSpace = true;
                    string VertexFormat = "VERTEX_XYZNT1T";
-                   bool   Default = true;> {
+                   bool   Default = true;
+                   bool   IsPs20 = true;
+                   bool   UseAlpha = false;> {
     pass Default {
         VertexShader = compile vs_2_0 VertexBumpSpecularEnv();
         PixelShader = compile ps_2_0 FragmentBumpSpecularEnv();
