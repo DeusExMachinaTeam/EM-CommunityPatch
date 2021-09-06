@@ -296,7 +296,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BrakingSound="ET_S_BRAKE01"
 			PneumoSound	="ET_S_PNEUMO_BRAKE01"
 			GearShiftSound="ET_S_GEAR_SHIFT01"
-			LoadPoints	= "LP_CAB01" >
+			LoadPoints	= "LP_CAB01 LP_BSK01" >
 				<GroupsHealth
 					Main   = "10000"	
 				/>
