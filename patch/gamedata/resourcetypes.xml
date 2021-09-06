@@ -64,6 +64,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name="URAL_BASKET" />
 			<Type Name="MOLOKOVOZ_TRAILER_BASKET" />
 			<Type Name="MIROTVOTEC_BASKET" />
+			<Type Name="CRUISER_BASKET" />
 			<Type Name="DOZER_BASKET" />
 			<Type Name="FAKE_BASKET" />
 			<Type Name="FAKE_BIGBASKET" />

@@ -973,8 +973,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "cruiserCab01"
 			ResourceType			= "CRUISER_CABIN"
 			NodeScale			= "1 1 1"
-			Durability			= "200"
-			DurCoeffsForDamageTypes	= "25 25 -25"
+			Durability			= "60"
+			DurCoeffsForDamageTypes	= "10 10 -25"
 			VisibleInEncyclopedia = "false"
 			Mass				= "7"
 			EngineHighSound			= "ET_S_ENGINE_CRUISER_1_HIGH"
@@ -983,17 +983,13 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxTorque			= "125"
 			Price				= "50000"	
 			MaxSpeed			= "160.0"
-			LoadPoints			= "LP_BIG01 LP_GIANT01" >
+			LoadPoints			= "LP_BIG01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "3"	
-				    	Breakable2   = "3"
-					Breakable3   = "3"
-					Breakable4   = "3"
-					Breakable5   = "2"
-					Breakable6   = "2"
-					Breakable7   = "2"
-					Breakable8   = "3"
+					Breakable1   = "0.5"	
+				    Breakable2   = "1.25"
+					Breakable3   = "0.75"
+					Breakable4   = "0.75"
 				/>
 		</Prototype>
 
@@ -1005,8 +1001,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "cruiserCab02"
 			ResourceType			= "CRUISER_CABIN"
 			NodeScale			= "1 1 1"
-			Durability			= "200"
-			DurCoeffsForDamageTypes	= "25 25 -10"
+			Durability			= "40"
+			DurCoeffsForDamageTypes	= "5 5 -10"
 			VisibleInEncyclopedia = "false"
 			Mass				= "7"
 			MaxPower			= "120"
@@ -1015,18 +1011,13 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxTorque			= "150"
 			Price				= "70000"	
 			MaxSpeed			= "140.0"
-			LoadPoints			= "LP_BIG01 LP_BIG02 LP_SIDE01L LP_SIDE01R" >
+			LoadPoints			= "LP_BIG01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "2"	
-				    	Breakable2   = "2"
-					Breakable3   = "2"
-					Breakable4   = "2"
-					Breakable5   = "2"
-					Breakable6   = "2"
-					Breakable7   = "2"
-					Breakable8   = "2"
-					Breakable9   = "2"
+					Breakable1   = "0.5"	
+				    Breakable2   = "0.5"
+					Breakable3   = "1.25"
+					Breakable4   = "1.25"
 				/>
 		</Prototype>
 
@@ -2138,6 +2129,78 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		</Prototype>
 
 
+		<Prototype
+			Class				= "Basket"
+			Name				= "cruiserCargo01"
+			ModelFile			= "cruiserCargo01"
+			ResourceType			= "CRUISER_BASKET"
+			Durability			= "140"
+			DurCoeffsForDamageTypes		= "15 15 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+
+			Price				= "100000"
+			RepairCoef			= "0.2"
+
+			Mass				= "15.0"
+			LoadPoints			= "LP_GIANT01" >
+			<RepositoryDescription
+				RepositorySize		= "9 8">
+				<Slot
+					Name		= "BASKET_GIANT_GUN"
+					Pos		= "2 2"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.25"	
+			    Breakable2   = "1.25"
+				Breakable3   = "0.5"
+				Breakable4   = "0.5"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "cruiserCargo02"
+			ModelFile			= "cruiserCargo02"
+			ResourceType			= "CRUISER_BASKET"
+			Durability			= "160"
+			DurCoeffsForDamageTypes		= "20 20 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+
+			Price				= "140000"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0"
+			LoadPoints			= "LP_BIG01 LP_SIDE01L LP_SIDE01R" >
+			<RepositoryDescription
+				RepositorySize		= "10 10">
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "10 0"
+				/>
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "10 5"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.3"	
+			    Breakable2   = "0.3"
+				Breakable3   = "0.5"
+				Breakable4   = "0.3"
+				Breakable5   = "1.25"
+				Breakable6   = "1.25"
+				Breakable7   = "1.25"
+				Breakable8  = "1.25"
+			/>			
+		</Prototype>
+		
 		<Prototype
 			Class				= "Basket"
 			Name				= "bugCargo01"
