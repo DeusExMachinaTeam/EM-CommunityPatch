@@ -1742,6 +1742,16 @@
 		value="Кабина Крейсера" />
 
 	<Item
+		id="cruiserCargo01"
+		locForm="0"
+		value="Кузов Крейсера" />
+
+	<Item
+		id="cruiserCargo02"
+		locForm="0"
+		value="Кузов Крейсера" />
+		
+	<Item
 		id="Smoke"
 		locForm="0"
 		value="Дымовая завеса" />

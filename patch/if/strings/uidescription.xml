@@ -643,6 +643,14 @@
 	<string
 		id="cruiserCab02_diz"
 		value="Модифицированная кабина Крейсера." />
+		
+	<string
+		id="cruiserCargo01_diz"
+		value="Кузов Крейсера." />
+
+	<string
+		id="cruiserCargo02_diz"
+		value="Модифицированный кузов Крейсера." />
 <!-- Gadgets ______________________________________________--><!-- QuestItems ___________________________________________-->
 	<string
 		id="quest_monster_head_diz"
