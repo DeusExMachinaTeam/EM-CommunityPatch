@@ -222,33 +222,33 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForWares 			= "0.25" >
 		<Description 
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn"		
-			WaresPrototypes="scrap_metal potato"
+			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
 			VehiclesPrototypes	="ScoutEnemySpawn Sml2EnemySpawn Sml3EnemySpawn" 	
-			WaresPrototypes="scrap_metal potato"
+			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
-			WaresPrototypes="scrap_metal potato"
+			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
-			WaresPrototypes="scrap_metal potato"
+			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="oil"
+			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
-			WaresPrototypes="oil"
+			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
