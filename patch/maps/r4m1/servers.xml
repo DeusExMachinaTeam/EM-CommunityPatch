@@ -652,11 +652,13 @@
 
 		<Item 
 			id="dozerChassis" 
-			file="data\models\AnimModels.xml"/>
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 3 7 8;" />
 
 		<Item 
 			id="dozerCab01" 
-			file="data\models\AnimModels.xml"/>
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 3 7 8;" />
 
 		<Item 
 			id="dozerSusp01" 
