@@ -48871,10 +48871,6 @@
 	</Object>
 
 	<Object
-		Belong="1100"
-		Prototype="someRecollection" />
-
-	<Object
 		Name="E_InfectionZone49"
 		Belong="1002"
 		Prototype="InfectionZone"
@@ -49204,14 +49200,6 @@
 			<Point
 				x="5663.428"
 				y="6421.597" />
-
-			<Point
-				x="6218.808"
-				y="6552.286" />
-
-			<Point
-				x="6082.410"
-				y="6659.971" />
 		</DropOut>
 	</Object>
 
@@ -54510,4 +54498,8 @@
 				y="6317.537" />
 		</DropOut>
 	</Object>
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
 </DynamicScene>
