@@ -83,7 +83,7 @@ technique DiffuseAO <bool ComputeTangentSpace = true;
                            string VertexFormat = "VERTEX_XYZNT2";
                            bool   Default = true;
                            bool   IsPs20 = true;
-                           bool   UseAlpha = false;> {
+                           bool   UseAlpha = true;> {
     pass Default {
         VertexShader = compile vs_2_0 VertexDiffuseAO();
         PixelShader  = compile ps_2_0 FragmentDiffuseAO();
