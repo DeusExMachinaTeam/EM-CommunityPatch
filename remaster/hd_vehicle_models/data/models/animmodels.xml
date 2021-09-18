@@ -8882,11 +8882,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -8922,6 +8922,12 @@
 
 			<lp
 				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -8964,6 +8970,12 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -9000,6 +9012,12 @@
 
 			<lp
 				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -9038,6 +9056,12 @@
 				restartOnAnimationChange="0" />
 
 			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BUG_CAB01"
 				restartOnAnimationChange="0" />
@@ -9053,11 +9077,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -9121,23 +9145,6 @@
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
-			<lp
-				id="LP_EXH12"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH13"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH14"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -9202,23 +9209,6 @@
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
-			<lp
-				id="LP_EXH12"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH13"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH14"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -9283,23 +9273,6 @@
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
-			<lp
-				id="LP_EXH12"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH13"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH14"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -9330,6 +9303,11 @@
 				restartOnAnimationChange="0" />
 
 			<lp
+				id="LP_LIGHT06"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BUG_CAB02"
 				restartOnAnimationChange="0" />
@@ -9345,11 +9323,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -9493,11 +9471,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -9522,11 +9500,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -9546,11 +9524,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -9600,7 +9578,7 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -9610,7 +9588,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -9628,7 +9606,7 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -9638,7 +9616,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -10974,7 +10952,7 @@
 		file="data\models\vehicles\molokovoz\chassis01.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -10984,7 +10962,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"
@@ -10994,45 +10972,59 @@
 	</model>
 
 	<model
-		id="molokovozSusp01l"
+		id="molokovozSus_f_r"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\molokovoz\suspension01L.gam">
+		file="data\models\vehicles\molokovoz\sus_f_r.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
-		id="molokovozSusp01r"
+		id="molokovozSus_f_l"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\molokovoz\suspension01R.gam">
+		file="data\models\vehicles\molokovoz\sus_f_l.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
-		id="molokovozSusp02"
+		id="molokovozSus_r_r"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\molokovoz\suspension02.gam">
+		file="data\models\vehicles\molokovoz\sus_r_r.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
+	</model>
+	
+	<model
+		id="molokovozSus_r_l"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\molokovoz\sus_r_l.gam">
+		<action
+			name="DEATH1"
+			skin="16" />
+
+		<action
+			name="DEATH2"
+			skin="16" />
 	</model>
 
 	<model
@@ -11043,7 +11035,7 @@
 		file="data\models\vehicles\molokovoz\wheel01.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -11053,7 +11045,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"
@@ -11070,11 +11062,11 @@
 		file="data\models\vehicles\molokovoz\cab01.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -11174,11 +11166,11 @@
 		file="data\models\vehicles\molokovoz\cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -11196,6 +11188,18 @@
 
 			<lp
 				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+			
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11220,6 +11224,18 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -11238,6 +11254,18 @@
 
 			<lp
 				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11262,6 +11290,16 @@
 
 			<lp
 				id="LP_LIGHT04"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT05"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT06"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
@@ -11280,11 +11318,11 @@
 		file="data\models\vehicles\molokovoz\cab03.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -11302,6 +11340,18 @@
 
 			<lp
 				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11326,6 +11376,18 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -11344,6 +11406,18 @@
 
 			<lp
 				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11372,6 +11446,16 @@
 				restartOnAnimationChange="0" />
 
 			<lp
+				id="LP_LIGHT05"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT06"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_MOLOKOVOZ_CAB03"
 				restartOnAnimationChange="0" />
@@ -11386,24 +11470,98 @@
 		file="data\models\vehicles\molokovoz\cargo01.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
 
 		<action
 			name="MOVE2">
 			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_GLOW02"
-				effect_id="ET_PS_GLOW_QUAD"
-				restartOnAnimationChange="0" />
 		</action>
+
 	</model>
 
 	<model
@@ -11414,11 +11572,11 @@
 		file="data\models\vehicles\molokovoz\cargo02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -11442,11 +11600,11 @@
 		file="data\models\vehicles\molokovoz\cargo03.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -11470,16 +11628,26 @@
 		file="data\models\vehicles\molokovoz\cargo04.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
 			<lp
 				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW_QUAD"
+				restartOnAnimationChange="0" />
+			
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW_QUAD"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
 		</action>
@@ -11493,7 +11661,7 @@
 		file="data\models\vehicles\molokovoz\chassis_trail01.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -11503,7 +11671,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"
