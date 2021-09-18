@@ -104,7 +104,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		NumBulletsInShot	= "10"
 		FiringRate		= "14"
 		GroupingAngle		= "3"
-		FiringRange		= "2000"
+		FiringRange		= "300"
 		RecoilForce		= "1000"
 
 		Decal			= "DC_BIG_MACHINEGUN"
