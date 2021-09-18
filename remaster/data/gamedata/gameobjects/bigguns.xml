@@ -112,7 +112,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize     = "1"
 		RechargingTime = "4"
 
-		Price			= "8960"
+		Price			= "17860"
                 FiringType		= "ShotGun"
 		BlastWavePrototype      = "smallBlastWave"
 		Durability		= "200"/>
@@ -165,7 +165,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize     = "50"
 		RechargingTime = "5"
 
-		Price			= "7680"
+		Price			= "24580"
                 FiringType		= "Cannon"
 		BlastWavePrototype      = "smallBlastWave"
 		Durability		= "100" />
