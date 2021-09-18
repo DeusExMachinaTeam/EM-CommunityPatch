@@ -1073,11 +1073,13 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<GroupsHealth
 					Main   = "0"	
 					Breakable1   = "0.5"	
-				    	Breakable2   = "0.5"
+					Breakable2   = "0.5"
 					Breakable3   = "0.5"
 					Breakable4   = "0.5"
 					Breakable5   = "0.5"
 					Breakable6   = "0.5"
+					Breakable7   = "0.5"
+					Breakable8   = "0.5"
 				/>
 		</Prototype>
 
@@ -1118,8 +1120,6 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 					Breakable7   = "0.5"
 					Breakable8   = "0.5"
 					Breakable9   = "0.5"
-					Breakable10   = "0.5"
-					Breakable11   = "0.5"
 				/>
 		</Prototype>
 
@@ -1155,7 +1155,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<GroupsHealth
 					Main   = "0"	
 					Breakable1   = "0.5"	
-				    	Breakable2   = "0.5"
+					Breakable2   = "0.5"
 					Breakable3   = "0.5"
 					Breakable4   = "0.5"
 					Breakable5   = "0.5"
@@ -1192,7 +1192,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<GroupsHealth
 					Main   = "0"
 					Breakable1   = "0.5"	
-				    	Breakable2   = "0.3"
+					Breakable2   = "0.3"
 					Breakable3   = "0.1"
 					Breakable4   = "0.5"
 					Breakable5   = "0.8"
@@ -1227,12 +1227,15 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<GroupsHealth
 					Main   = "0"
 					Breakable1   = "0.5"	
-				    	Breakable2   = "0.3"
+					Breakable2   = "0.3"
 					Breakable3   = "0.3"
 					Breakable4   = "0.5"
 					Breakable5   = "0.8"
 					Breakable6   = "0.8"
-					Breakable7   = "0.8"
+					Breakable7   = "0.7"
+					Breakable8   = "0.1"
+					Breakable9   = "0.1"
+					Breakable10  = "0.1"
 				/>
 		</Prototype>
 
@@ -2556,6 +2559,12 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			</RepositoryDescription>
 			<GroupsHealth
 				Main   = "0"	
+				Breakable1   = "0.6"	
+				Breakable2   = "1"
+				Breakable3   = "0.7"
+				Breakable4   = "1"
+				Breakable5   = "0.2"
+				Breakable6   = "0.5"
 			/>			
 		</Prototype>
 
@@ -3801,13 +3810,13 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			EffectType		= "SMALLWHEEL" />
 
 
-		<Prototype
+			<Prototype
 			Class			= "Wheel"
-			Name			= "molokovozWheel01l"
+			Name			= "molokovozWheel_f_r"
 			ModelFile		= "molokovozWheel01"
 			NodeScale		= "1 1 1"
 			Mass			= "11.0"
-			SuspensionModelFile	= "molokovozSusp01l"
+			SuspensionModelFile	= "molokovozSus_f_r"
 			SuspensionCFM		= "0.0025"
 			SuspensionERP		= "0.25"
 			SuspensionRange	= "1.0"
@@ -3816,11 +3825,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class			= "Wheel"
-			Name			= "molokovozWheel01r"
+			Name			= "molokovozWheel_f_l"
 			ModelFile		= "molokovozWheel01"
 			NodeScale		= "1 1 1"
 			Mass			= "11.0"
-			SuspensionModelFile	= "molokovozSusp01r"
+			SuspensionModelFile	= "molokovozSus_f_l"
 			SuspensionCFM		= "0.0025"
 			SuspensionERP		= "0.25"
 			SuspensionRange	= "1.0"
@@ -3829,11 +3838,24 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class			= "Wheel"
-			Name			= "molokovozWheel02"
+			Name			= "molokovozWheel_r_r"
 			ModelFile		= "molokovozWheel01"
 			NodeScale		= "1 1 1"
 			Mass			= "11.0"
-			SuspensionModelFile	= "molokovozSusp02"
+			SuspensionModelFile	= "molokovozSus_r_r"
+			SuspensionCFM		= "0.002"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+			
+		<Prototype
+			Class			= "Wheel"
+			Name			= "molokovozWheel_r_l"
+			ModelFile		= "molokovozWheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "molokovozSus_r_l"
 			SuspensionCFM		= "0.002"
 			SuspensionERP		= "0.25"
 			SuspensionRange	= "1.0"
