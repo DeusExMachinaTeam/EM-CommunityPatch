@@ -89,8 +89,8 @@
 		Name="FirstLisaLoc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="0.000 368.000 0.000"
-		Radius="1.000"
+		Pos="0.000 0.000 0.000"
+		Radius="1.0"
 		LookingTimeOut="15.000">
 		<Object
 			Name="Lisa"
@@ -1435,7 +1435,7 @@
 		Name="Human010"
 		Belong="1001"
 		Prototype="Human"
-		Pos="1257.000 308.000 2939.000"
+		Pos="1257.000 321.517 2939.000"
 		Rot="0.000 -0.369 0.000 0.930" />
 
 	<Object
