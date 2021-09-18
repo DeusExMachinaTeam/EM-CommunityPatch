@@ -2,7 +2,7 @@
 <World
 	name="Object31"
 	class="SgNode"
-	LastId="76483511">
+	LastId="76483668">
 	<Node
 		name="Object27"
 		class="SgAnimatedModelNode"
@@ -35026,5 +35026,175 @@
 		orgRel="1"
 		rot="-0.1611 -0.7854 0.4715 -0.3673"
 		id="metal_tube1"
+		ndmAction="0" />
+
+	<Node
+		name="Object76483577"
+		class="SgAnimatedModelNode"
+		org="2741.974 0.000 1778.092"
+		orgRel="1"
+		rot="0.0000 0.9998 0.0000 0.0196"
+		id="grave1"
+		ndmAction="0" />
+
+	<Node
+		name="Object76483578"
+		class="SgAnimatedModelNode"
+		org="2726.155 0.000 1799.817"
+		orgRel="1"
+		rot="0.0000 -0.9997 0.0000 -0.0262"
+		id="grave1"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object76483579"
+		class="SgAnimatedModelNode"
+		org="2734.752 0.000 1787.844"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 -0.0022"
+		id="grave1"
+		ndmAction="0"
+		skin="2" />
+
+	<Node
+		name="Object76483580"
+		class="SgAnimatedModelNode"
+		org="2741.701 0.000 1787.485"
+		orgRel="1"
+		rot="0.0000 -0.9997 0.0000 0.0240"
+		id="grave1"
+		ndmAction="0"
+		skin="3" />
+
+	<Node
+		name="Object76483581"
+		class="SgAnimatedModelNode"
+		org="2728.152 0.000 1787.607"
+		orgRel="1"
+		rot="0.0000 -0.9987 0.0000 -0.0502"
+		id="grave1"
+		ndmAction="0"
+		skin="4" />
+
+	<Node
+		name="Object76483582"
+		class="SgAnimatedModelNode"
+		org="2762.492 -0.047 1800.752"
+		orgRel="1"
+		rot="0.0024 0.9974 0.0588 -0.0413"
+		id="grave1"
+		ndmAction="0"
+		skin="5" />
+
+	<Node
+		name="Object76483583"
+		class="SgAnimatedModelNode"
+		org="2766.873 0.003 1800.047"
+		orgRel="1"
+		rot="-0.0041 -0.9959 -0.0631 0.0653"
+		id="grave1"
+		ndmAction="0"
+		skin="6" />
+
+	<Node
+		name="Object76483584"
+		class="SgAnimatedModelNode"
+		org="2741.847 0.000 1800.506"
+		orgRel="1"
+		rot="0.0000 0.9997 0.0000 0.0240"
+		id="grave1"
+		ndmAction="0"
+		skin="7" />
+
+	<Node
+		name="Object76483585"
+		class="SgAnimatedModelNode"
+		org="2735.893 0.000 1800.249"
+		orgRel="1"
+		rot="0.0000 0.9998 0.0000 0.0175"
+		id="grave1"
+		ndmAction="0"
+		skin="8" />
+
+	<Node
+		name="Object76483586"
+		class="SgAnimatedModelNode"
+		org="2749.361 0.000 1787.987"
+		orgRel="1"
+		rot="0.0000 -0.9998 0.0000 -0.0218"
+		id="grave1"
+		ndmAction="0"
+		skin="9" />
+
+	<Node
+		name="Object76483587"
+		class="SgAnimatedModelNode"
+		org="2749.494 -0.056 1776.607"
+		orgRel="1"
+		rot="-0.0109 -0.9981 0.0007 -0.0610"
+		id="grave2"
+		ndmAction="0" />
+
+	<Node
+		name="Object76483588"
+		class="SgAnimatedModelNode"
+		org="2747.329 0.424 1789.813"
+		orgRel="1"
+		rot="0.0000 -0.4266 0.0000 0.9045"
+		id="grib1"
+		ndmAction="0" />
+
+	<Node
+		name="Object76483589"
+		class="SgAnimatedModelNode"
+		org="2729.698 0.076 1789.881"
+		orgRel="1"
+		rot="0.0000 -0.0610 0.0000 0.9981"
+		id="grib3"
+		ndmAction="0" />
+
+	<Node
+		name="Object26483663"
+		class="SgAnimatedModelNode"
+		org="2749.122 0.781 1788.306"
+		orgRel="1"
+		rot="0.0295 -0.9520 0.0117 0.3044"
+		scale="0.600 0.600 0.600"
+		id="quest_drags"
+		ndmAction="0" />
+
+	<Node
+		name="Object26483664"
+		class="SgAnimatedModelNode"
+		org="2765.526 0.000 1806.567"
+		orgRel="1"
+		id="kustarnik2"
+		ndmAction="0" />
+
+	<Node
+		name="Object26483665"
+		class="SgAnimatedModelNode"
+		org="2733.358 0.000 1803.916"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		id="kustarnik2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object26483666"
+		class="SgAnimatedModelNode"
+		org="2764.792 0.600 1801.735"
+		orgRel="1"
+		id="grib6"
+		ndmAction="0" />
+
+	<Node
+		name="Object26483667"
+		class="SgAnimatedModelNode"
+		org="2728.033 0.355 1801.709"
+		orgRel="1"
+		id="grib4"
 		ndmAction="0" />
 </World>
