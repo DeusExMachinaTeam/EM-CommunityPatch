@@ -351,7 +351,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		FiringRange		= "800"
 		RecoilForce		= "0"
                 FiringType		= "Laser"
-		Price			= "53200"
+		Price			= "26600"
 		
 		Decal				= "DC_LASER"
 
@@ -405,7 +405,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		FiringRange		= "2000"
 		RecoilForce		= "1"
                 FiringType		= "Plasma"
-		Price			= "51000"
+		Price			= "25500"
 				
 		Decal				= "DC_LASER"
 
