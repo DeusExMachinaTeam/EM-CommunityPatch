@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Textures>
+<!-- Common shared textures for Skinned shader -->
+	<file
+		name="0_dead.dds"
+		path="data\models\vehicles\shared\0_dead.dds" />
+	<file
+		name="0_lobbycube.dds"
+		path="data\models\vehicles\shared\0_lobbycube.dds" />
+	<file
+		name="0_glass.dds"
+		path="data\models\vehicles\shared\0_glass.dds" />
+		
+	<file
+		name="camo1.tga"
+		path="data\models\vehicles\shared\camo1.tga" />
+	<file
+		name="camo2.tga"
+		path="data\models\vehicles\shared\camo2.tga" />
+	<file
+		name="camo3.tga"
+		path="data\models\vehicles\shared\camo3.tga" />	
+	<file
+		name="camo4.tga"
+		path="data\models\vehicles\shared\camo4.tga" />
+		
+	<file
+		name="color1.tga"
+		path="data\models\vehicles\shared\color1.tga" />
+	<file
+		name="color2.tga"
+		path="data\models\vehicles\shared\color2.tga" />
+	<file
+		name="color3.tga"
+		path="data\models\vehicles\shared\color3.tga" />
+	<file
+		name="color4.tga"
+		path="data\models\vehicles\shared\color4.tga" />
+	<file
+		name="color5.tga"
+		path="data\models\vehicles\shared\color5.tga" />
+	<file
+		name="color6.tga"
+		path="data\models\vehicles\shared\color6.tga" />
+	<file
+		name="color7.tga"
+		path="data\models\vehicles\shared\color7.tga" />
+	<file
+		name="color8.tga"
+		path="data\models\vehicles\shared\color8.tga" />
+	<file
+		name="color9.tga"
+		path="data\models\vehicles\shared\color9.tga" />
+	<file
+		name="color10.tga"
+		path="data\models\vehicles\shared\color10.tga" />
+	<file
+		name="color11.tga"
+		path="data\models\vehicles\shared\color11.tga" />
+	<file
+		name="color12.tga"
+		path="data\models\vehicles\shared\color12.tga" />
+
+<!-- End of shared block -->
+
 	<file
 		name="ancient_arc.dds"
 		path="data\models\textures\acient\ancient_arc.dds" />
