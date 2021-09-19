@@ -250,8 +250,8 @@
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_LEFT"
-				animationSpeed="3500"
-				animationAccel="-6000"
+				animationSpeed="4500"
+				animationAccel="-4000"
 				animationDelayTime="0"/>
 
 			<AnimationOnHide

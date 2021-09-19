@@ -41,7 +41,7 @@
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_LEFT"
-				animationSpeed="1650"
+				animationSpeed="2000"
 				animationAccel="-1800"
 				animationDelayTime="0"
 				soundMoveEnabled="1"/>

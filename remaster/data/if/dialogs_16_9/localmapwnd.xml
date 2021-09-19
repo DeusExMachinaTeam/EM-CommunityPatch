@@ -671,7 +671,7 @@
 				animationEnabled="1"
 				animationType="TO_TOP"
 				animationSpeed="4500"
-				animationAccel="-7500"
+				animationAccel="-4000"
 				animationDelayTime="0"/>
 
 			<AnimationOnHide
