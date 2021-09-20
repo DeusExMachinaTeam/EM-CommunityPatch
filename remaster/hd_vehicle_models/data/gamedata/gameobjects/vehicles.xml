@@ -1006,10 +1006,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</Parts>
 
 		<Wheels>
-			<Wheel Prototype = "molokovozWheel01l" steering = "correct" />
-			<Wheel Prototype = "molokovozWheel01r" steering = "correct" />
-			<Wheel Prototype = "molokovozWheel02" />
-			<Wheel Prototype = "molokovozWheel02" />
+			<Wheel Prototype = "molokovozWheel_f_l" steering = "correct" />
+			<Wheel Prototype = "molokovozWheel_f_r" steering = "correct" />
+			<Wheel Prototype = "molokovozWheel_r_l" />
+			<Wheel Prototype = "molokovozWheel_r_r" />
 		</Wheels>
 	</Prototype>
 
@@ -1039,10 +1039,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</Parts>
 
 		<Wheels>
-			<Wheel Prototype = "molokovozWheel01l" steering = "correct" />
-			<Wheel Prototype = "molokovozWheel01r" steering = "correct" />
-			<Wheel Prototype = "molokovozWheel02" />
-			<Wheel Prototype = "molokovozWheel02" />
+			<Wheel Prototype = "molokovozWheel_r_l" steering = "correct" />
+			<Wheel Prototype = "molokovozWheel_r_r" steering = "correct" />
+			<Wheel Prototype = "molokovozWheel_r_l" />
+			<Wheel Prototype = "molokovozWheel_r_r" />
 		</Wheels>
 	</Prototype>
 
