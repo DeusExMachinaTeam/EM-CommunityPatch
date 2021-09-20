@@ -2263,19 +2263,17 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GroupsHealth
 				Main   = "0"	
 				Breakable1   = "0.5"	
-			    	Breakable2   = "0.5"
+				Breakable2   = "0.5"
 				Breakable3   = "0.4"
 				Breakable4   = "0.5"
 				Breakable5   = "0.5"
 				Breakable6   = "0.5"
 				Breakable7   = "0.4"
 				Breakable8   = "0.3"
-				Breakable9   = "0.2"
-				Breakable10   = "0.2"
-				Breakable11   = "0.2"
-				Breakable12   = "0.3"
-				Breakable13   = "0.1"
-				Breakable14   = "0.3"
+				Breakable9   = "0.1"
+				Breakable10   = "0.1"
+				Breakable11   = "0.1"
+				Breakable12   = "0.1"
 			/>			
 		</Prototype>
 
