@@ -70,9 +70,9 @@ $Id: affixes.xml,v 1.19 2005/11/10 08:35:45 lena Exp $
 			</AffixGroup>
 
 			<AffixGroup Name = "cooling_system" order = "2">
-				<Affix Name = "without_cooling_gun"	modifications = "ReChargingTime +5 +7" />
-				<Affix Name = "with_water_cooling_gun"	modifications = "ReChargingTime -5 -7" />
-				<Affix Name = "with_nitro_cooling_gun"	modifications = "ReChargingTime -10 -15" />
+				<Affix Name = "without_cooling_gun"	modifications = "ReChargingTime +5 +7; Price -5 -7" />
+				<Affix Name = "with_water_cooling_gun"	modifications = "ReChargingTime -5 -7; Price +5 +7" />
+				<Affix Name = "with_nitro_cooling_gun"	modifications = "ReChargingTime -10 -15; Price +10 +15" />
 			</AffixGroup>
 
 	
