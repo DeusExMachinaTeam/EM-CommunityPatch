@@ -1524,6 +1524,14 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="grave1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="grave2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="r1_Dub_Kust1"
 			file="data\models\AnimModels.xml" />
 
@@ -2657,7 +2665,7 @@
 		<Item id="S_HORN06" />
 		<Item id="S_HORN07" />
 		<Item id="S_HORN08" />
-		<!-- Гром -->
+		<!-- пїЅпїЅпїЅпїЅ -->
 		<Item id="S_THUNDER" />
 		<Item id="S_RAIN" />
 		<!-- Starting -->
