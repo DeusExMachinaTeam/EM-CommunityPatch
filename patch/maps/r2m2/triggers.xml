@@ -28,7 +28,7 @@
 			local gunlist = {"hornet01","specter01","pkt01","kord01","vector01","kpvt01","rainmetal01","flag01","maxim01","fagot01","octopus01","elephant01","odin01"}
 			local len = getn(gunlist)
 
-			for i=1,19 do
+			for i=1,12 do
 				--println("step"..i.."succesful")
 				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(0, 2))
 			end
