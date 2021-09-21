@@ -3,39 +3,47 @@ name: community_remaster
 
 # required human readable info
 display_name: Community Remaster
-version: 1.10 dev
+version: "1.10"
 description: |
-  Расширенная версия Community Patch, включающая улучшения интерфейса, графики, новый саундтрек и многое другое.
-  TBD
+  Расширенная версия Community Patch, включающая улучшения интерфейса, графики.
+  Опции включают новые модели машин и оружия, а так же новый саундтрек.
 authors: DEM Team, EM2ch
 
 # optional human readable info
-release_date: TBD
+release_date: "27.09.2021"
 language: ru
 link: https://deuswiki.com/w/Community_Remaster
 
 # installation confguration
 prerequisites: 
-  - community_patch
+  - name: community_patch
+    versions: 
+      - "1.10"
 patcher_version_requirement: 1.10
 patcher_options:
   gravity: -19.62
+  blast_damage_friendly_fire: false
 no_base_content: false
 optional_content:
   - name: hd_gun_models
-    display_name: HD модели оружия
+    display_name: HD Модели Оружия
     description: |
       Новые модели для части орудий.
-      Переработаны: Шершень, Спектр, ПКТ, Корд, Вулкан, Рейнметал и Спрут.
+      Переработаны:
+      Шершень, Спектр, ПКТ, Корд, Вулкан, Рейнметал и Спрут.
   - name: hd_vehicle_models
-    display_name: HD модели транспорта
+    display_name: HD Модели Грузовиков
     description: |
-      Замена колёс авто на варианты высокого качества.
-      Затронутые машины: Белаз, Охотник, Крейсер.
+      Полностью новые модели Вена и Молоковоза высокого качества с дополнительным раскрасками. 
+      + Замена колёс на варианты высокого качества для машин:
+      Таракан, Клоп, Муравей, Кузнечик, Скаут, Охотник, Боец, Крейсер, Белаз.
+    patcher_options: 
+      skins_in_shop: 16
   - name: ost_remaster
     display_name: Ремастер Саундтрека
     description: |
-      Ремастер OST от Антона Попова, включая треки главного меню и передвижения по локациям
+      Ремастер OST от автора оригинального саундтрека - Антона Попова.
+      Включает новый трек главного меню и многие темы поездки игровых локаций.
     # default_option: all_new
     # install_settings:
     #   - name: all_new
