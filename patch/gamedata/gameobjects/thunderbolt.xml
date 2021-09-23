@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Thunderbolt.xml,v 1.14 2005/11/01 07:18:49 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class			= "Thunderbolt"
+		Name			= "someThunderbolt"			
+		FlyTime			= "3"
+		Damage			= "1000"
+		AverageSegmentLength	= "5"
+		Effect			= "ET_PS_ZEUS01_FIRE"	
+	/>
+
+	<Prototype
+		Class			= "Thunderbolt"
+		Name			= "zeusThunderbolt"			
+		FlyTime			= "3"
+		Damage			= "1000"
+		AverageSegmentLength	= "0.5"
+		Price			= "2000"
+		Effect			= "ET_PS_ZEUS01_FIRE"	
+	/>
+
+	<Prototype
+		Class			= "ThunderboltLauncher"
+		Name			= "someThunderboltLauncher"		
+	
+		ModelFile		= "big_hammer01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringType		= "Plasma"
+		BulletPrototype		= "someThunderbolt"	
+                VisibleInEncyclopedia = "false"
+                CanBeUsedInAutogenerating  =  "0"
+		ActionDist		= "1000"		
+		ExplosionType		= "PLASMA"
+		FiringEffect		= "none"
+		FiringRate		= "300"
+		GroupingAngle		= "0.1"
+		FiringRange		= "200"
+		RecoilForce		= "550"
+
+		ChargeSize     		= "100"
+		RechargingTime		= "20"
+
+		Price			= "35000"
+
+		Durability		= "400"
+	/>
+
+</Prototypes>
+
