@@ -308,7 +308,6 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 		ChargeSize     = "6"
 		RechargingTime = "12"
 
-                CanBeUsedInAutogenerating  =  "0"
                 ShellsPoolSize          = "18"
                 WithShellsPoolLimit     = "true"
 
@@ -362,7 +361,6 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 RechargingTime = "12"
                 MaxCharges = "3"
 
-                CanBeUsedInAutogenerating  =  "0"
                 Price           = "82000" 
 
                 Durability                      = "400" />
@@ -413,7 +411,6 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 		RecoilForce             = "150"
 		Durability              = "200"
 
-		CanBeUsedInAutogenerating  =  "0"
 		ChargeSize     = "6"
 		RechargingTime = "12"
 
@@ -538,7 +535,6 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 
                 Decal                           = "DC_ROKET"
 
-                CanBeUsedInAutogenerating  =  "0"
      		ApplyAffixes	= "false"
                 Price           = "35200"
                 ResourceType            = "SIDE_GUN">   
