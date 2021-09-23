@@ -79,7 +79,6 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 
 		Decal				= "DC_ROKET"
 
-		CanBeUsedInAutogenerating  =  "0"
      		ApplyAffixes	= "false"
 		ResourceType		= "SIDE_GUN">	
 		<Part id = "BASKET_SIDE_GUN_L"	Prototype = "hail01L" /> 
@@ -99,6 +98,7 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 		ActionDist		= "1000"		
 		InitialVelocity		= "70"
      		ApplyAffixes	= "false"
+			CanBeUsedInAutogenerating  =  "0"
 		BulletPrototype		= "marsMortarShell"
 		ExplosionType		= "GRENADE"
 		FiringEffect		= "none"
@@ -132,6 +132,7 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 		ActionDist		= "1000"		
 		InitialVelocity		= "70"
      		ApplyAffixes	= "false"
+			CanBeUsedInAutogenerating  =  "0"
 		BulletPrototype		= "marsMortarShell"
 		ExplosionType		= "GRENADE"
 		FiringEffect		= "none"
@@ -238,7 +239,6 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 		Price		= "160000"
 		Decal				= "DC_LASER"
 
-		CanBeUsedInAutogenerating  =  "0"
      		ApplyAffixes	= "false"
 		ResourceType		= "SIDE_GUN">	
 
@@ -317,7 +317,6 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 		Decal				= "DC_ROKET"
 
 
-		CanBeUsedInAutogenerating  =  "0"
      		ApplyAffixes	= "false"
 		ResourceType		= "SIDE_GUN">	
 
