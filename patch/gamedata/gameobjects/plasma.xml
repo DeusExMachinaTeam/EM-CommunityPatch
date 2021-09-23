@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Plasma.xml,v 1.16 2005/10/18 06:12:48 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class			= "PlasmaBunch"
+		Name			= "somePlasmaBunch"		
+	
+		ModelFile		= "plasma01"
+		ExplosionType	= "PLASMA" 
+
+		Velocity		= "150"
+		Acceleration	= "1000"
+		FlyTime		= "30.0"
+		Size			= "0.5 0.5 1"
+	/>
+
+	<Prototype
+		Class			= "PlasmaBunch"
+		Name			= "somePlasmaBunchBig"		
+	
+		ModelFile		= "plasma_big01"
+		ExplosionType	= "PLASMA" 
+
+		Velocity		= "150"
+		Acceleration	= "1000"
+		FlyTime		= "15.0"
+		Size			= "0.5 0.5 1"
+	/>
+
+
+	<Prototype
+		Class			= "PlasmaBunch"
+		Name			= "someLaserBeamGreen"		
+	
+		ModelFile		= "laser01"
+		ExplosionType	= "LASER" 
+
+		Velocity		= "800"
+		Acceleration	= "1000"
+		FlyTime		= "25.0"
+		Size			= "0.5 0.5 1"
+	/>
+	<Prototype
+		Class			= "PlasmaBunch"
+		Name			= "someLaserBeamBlue"		
+	
+		ModelFile		= "laser02"
+		ExplosionType	= "LASER" 
+
+		Velocity		= "800"
+		Acceleration	= "1000"
+		FlyTime		= "25.0"
+		Size			= "0.5 0.5 1"
+	/>
+
+	<Prototype
+
+
+
+		Class			= "PlasmaBunchLauncher"
+		Name			= "hammer01"
+		ModelFile		= "big_hammer01"
+		ResourceType	= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal				= "DC_LASER"
+
+		BulletPrototype	= "somePlasmaBunchBig"
+		ExplosionType	= "PLASMA"
+		FiringEffect	= "none"
+		Damage		= "1500"
+		FiringRate		= "12"
+		GroupingAngle	= "0.1"
+		FiringRange		= "200"
+		RecoilForce		= "550"
+		FiringType		= "Plasma"
+		ChargeSize     = "1"
+		RechargingTime = "5"
+                CanBeUsedInAutogenerating  =  "0"
+		Price		= "174000"
+
+		Durability		= "400"/>
+
+</Prototypes>
