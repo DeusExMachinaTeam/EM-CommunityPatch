@@ -83,7 +83,7 @@ $Id: Plasma.xml,v 1.16 2005/10/18 06:12:48 anton Exp $
 		ChargeSize     = "1"
 		RechargingTime = "5"
 		
-		Price		= "174000"
+		Price		= "87000"
 
 		Durability		= "400"/>
 
