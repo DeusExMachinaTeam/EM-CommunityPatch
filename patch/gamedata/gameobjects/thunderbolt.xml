@@ -19,13 +19,13 @@ $Id: Thunderbolt.xml,v 1.14 2005/11/01 07:18:49 anton Exp $
 		Class			= "Thunderbolt"
 		Name			= "zeusThunderbolt"			
 		FlyTime			= "3"
-		Damage			= "1000"
+		Damage			= "3000"
 		AverageSegmentLength	= "0.5"
 		Price			= "2000"
 		Effect			= "ET_PS_ZEUS01_FIRE"	
 	/>
 
-	<Prototype
+<!--	<Prototype
 		Class			= "ThunderboltLauncher"
 		Name			= "someThunderboltLauncher"		
 	
@@ -51,7 +51,6 @@ $Id: Thunderbolt.xml,v 1.14 2005/11/01 07:18:49 anton Exp $
 		Price			= "35000"
 
 		Durability		= "400"
-	/>
+	/>-->
 
 </Prototypes>
-
