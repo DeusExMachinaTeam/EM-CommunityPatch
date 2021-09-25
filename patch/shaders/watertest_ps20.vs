@@ -12,16 +12,13 @@
 // $Id: waterTest_ps20.vs,v 1.8 2005/10/05 08:18:14 goryh Exp $
 //
 //////////////////////////////////////////////////////////////////////////////
-#ifndef REFLECTION_DISTANCE
-#define REFLECTION_DISTANCE 90
-#endif
+
 #include "lib.fx"
 
 // vertex model*view*projection
 float4x4 mViewProj: register( c0 ); 
 // texture model*view*projection
 float4x4 mTexture: register( c4 );
-float4x4 InvWorld: INV_WORLD_MATRIX;
 
 //const float2 g_FogTerm: register( c9 );
 float2 g_FogTerm: register( c9 );
@@ -37,7 +34,7 @@ const float fresnelPower: register( c14 );
 
 const float3 lightDir: register( c15 );
 // camera origin (world frame)
-const float3 viewPos: VIEW_POS<int Space = SPACE_OBJECT;>;
+const float3 viewPos: register( c16 );
 
 float distBetwVert: register( c17 );
 /**
@@ -91,8 +88,9 @@ VS_OUTPUT WaterVS( VS_INPUT v )
 	worldPos.xz += distBetwVert * v.PackedPosInfo.xy;
 	worldPos.w = 1;
 
-    o.camDir.xyz = normalize(viewPos.xyz - worldPos.xyz);
+        o.camDir.xyz = normalize( worldPos.xyz - viewPos.xyz );
 	o.sunDir.xyz = float4( normalize( lightDir - worldPos.xyz ), 0);
+        o.camDir.w = length( o.camDir.xyz ) / 35.f;
         
 	o.Noise.x = waveSize.x * ( worldPos.z / 50.0 + sin( timeVal ) * 0.1 );    // small wave
 	o.Noise.y = waveSize.x * ( worldPos.x / 50.0 - cos( timeVal ) * 0.1 );
@@ -103,12 +101,10 @@ VS_OUTPUT WaterVS( VS_INPUT v )
 	// project position
 	o.Pos = mul( worldPos, mViewProj );
 	// project texcoords
-	//float4 texCoords = mul( worldPos, mTexture );
-	float3 ref = reflection(o.camDir);
-	ref.y *= 2;
-	float4 texCoords = mul( ref, InvWorld );
+	float4 texCoords = mul( worldPos, mTexture );
 	o.TexRefl = texCoords;
 	o.TexRefr = texCoords;
+        o.TexRefl.w *= 1.115f;
 
 	// fog terms
 	o.fog = VertexFog( o.Pos.z, g_FogTerm );

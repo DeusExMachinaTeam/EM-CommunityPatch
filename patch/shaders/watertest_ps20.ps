@@ -1,3 +1,4 @@
+
 //////////////////////////////////////////////////////////////////////////////
 //
 // Workfile: waterTest_ps20.ps
@@ -6,7 +7,7 @@
 // simple water ps_2_0 shader w/ reflection/refraction 
 // and per-vertex fresnel term
 //
-// $Id: waterTest_ps20.ps,v 1.9 2005/07/26 07:06:33 goryh Exp $
+// $Id: waterTestMed_ps20.ps,v 1.1 2005/06/30 13:08:09 goryh Exp $
 //
 //////////////////////////////////////////////////////////////////////////////
 
@@ -24,7 +25,6 @@ sampler RefractionSampler: register( s4 );
 
 //
 const float4 waveHeightSpecular: register( c2 );
-
 const float4 sunColor: register( c4 );
 
 
@@ -40,6 +40,7 @@ struct VS_OUTPUT
 };
 
 
+
 // 
 REAL4 WaterPS( VS_OUTPUT v ): COLOR
 {
@@ -48,37 +49,35 @@ REAL4 WaterPS( VS_OUTPUT v ): COLOR
                     bx2( tex2D( NoiseSampler, v.Noise.zw ) ).xy * waveHeightSpecular.y;    // big
 
      	normal.y = 1;
-    	normal.xz *= 0.3f;
+    	normal.xz *= 0.25f;
 	float3 normalN = normalize( normal );
-        float3 R = normalize( -reflect( v.sunDir, normalN ) );
 
         // frenel term
 	float k = tex1D ( FresnelSampler,  - dot( v.camDir, normalN ) );
 
-	// float2 texcoord  = v.TexRefl;// / v.TexRefl.w;
 	float2 texcoord  = v.TexRefl / v.TexRefl.w;
 	// shift for restoring fov
-	//texcoord.y = texcoord.y / 1.77f;
+	texcoord += 0.5f - 0.5f / 1.115f;
 	float2 texcoord1 = v.TexRefr / v.TexRefr.w;
 
         normal /= v.camDir.w;
 
-	// Specular color
+	float3 R = normalize( -reflect( v.sunDir, normalN ) );
 	float4 Spec = waveHeightSpecular.z * pow( max( 0, dot( R, -v.camDir.xyz ) ), waveHeightSpecular.w ) * sunColor;
 
 	// refraction
 	texcoord1.xy += 0.01 * normal.xz;
-	REAL4 refraction = tex2D( RefractionSampler, texcoord1 ) * float4 ( 0.925f, 0.925f, 0.925f, 1.f );
+	REAL4 refraction = tex2D( RefractionSampler, texcoord1 );
 
 	// reflection
 	texcoord.xy += 0.05 * normal.xz;
-	REAL4 reflection = tex2D( ReflectionSampler, texcoord );
+	REAL4 reflection = tex2D( ReflectionSampler, float2(0.0f, 0.0f) );
 
 	//	
 	REAL4 color;
-	color.rgb = lerp( reflection, refraction, (1 - k * refraction.a * 0.75f ) );
+	color.rgb = lerp(reflection, refraction, (1 - k * refraction.a ) );
 
-	color.a = 0.75;
+	color.a = 1;
 
-	return color + Spec * refraction.a * 3.f;
+	return color + Spec;
 }
