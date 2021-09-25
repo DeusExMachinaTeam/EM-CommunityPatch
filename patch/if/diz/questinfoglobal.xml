@@ -1898,7 +1898,7 @@
 		isMainQuest="0">
 		<Map
 			name="r1m3"
-			targetObjName="OldTownOutsiderCar_vehicle_0" />
+			targetObjName="OldTownOutsiderCar" />
 	</QuestInfo>
 
 	<QuestInfo

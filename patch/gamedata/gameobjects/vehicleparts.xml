@@ -296,7 +296,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BrakingSound="ET_S_BRAKE01"
 			PneumoSound	="ET_S_PNEUMO_BRAKE01"
 			GearShiftSound="ET_S_GEAR_SHIFT01"
-			LoadPoints	= "LP_CAB01" >
+			LoadPoints	= "LP_CAB01 LP_BSK01" >
 				<GroupsHealth
 					Main   = "10000"	
 				/>
@@ -552,7 +552,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			VisibleInEncyclopedia = "false"
 			Mass				= "10.0"
 			MaxPower			= "30"
-			MaxTorque			= "30"
+			MaxTorque			= "40"
 			EngineHighSound		        = "ET_S_ENGINE_SMALL_1_HIGH"
 			Price				= "500"	
 			MaxSpeed			= "100.0"
@@ -582,7 +582,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxPower			= "30"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
-			MaxTorque			= "30"
+			MaxTorque			= "40"
 			EngineHighSound		        = "ET_S_ENGINE_SMALL_1_HIGH"
 			Price				= "700"	
 			MaxSpeed			= "100.0"
@@ -635,7 +635,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			VisibleInEncyclopedia = "false"
 			Mass				= "10.0"
 			MaxPower			= "30"
-			MaxTorque			= "50"
+			MaxTorque			= "60"
 			EngineHighSound		        = "ET_S_ENGINE_SMALL_1_HIGH"
 			Price				= "900"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
@@ -662,7 +662,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			VisibleInEncyclopedia = "false"
 			Mass				= "10.0"
 			MaxPower			= "30"
-			MaxTorque			= "50"
+			MaxTorque			= "60"
 			EngineHighSound		        = "ET_S_ENGINE_SMALL_1_HIGH"
 			Price				= "1200"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
@@ -735,7 +735,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxPower			= "30"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			EngineHighSound		        = "ET_S_ENGINE_SCOUT_1_HIGH"
-			MaxTorque			= "30"
+			MaxTorque			= "40"
 			Price				= "1500"	
 			MaxSpeed			= "110.0"
 			LoadPoints			= "LP_SML01" >
@@ -761,7 +761,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Mass				= "2.0"
 			MaxPower			= "30"
 			EngineHighSound			= "ET_S_ENGINE_SCOUT_1_HIGH"
-			MaxTorque			= "30"
+			MaxTorque			= "50"
 			Price				= "1800"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxSpeed			= "100.0"
@@ -820,7 +820,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Mass				= "2.0"
 			MaxPower			= "120"
 			EngineHighSound			= "ET_S_ENGINE_SCOUT_1_HIGH"
-			MaxTorque			= "60"
+			MaxTorque			= "65"
 			Price				= "2100"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxSpeed			= "90.0"
@@ -847,7 +847,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Mass				= "3.0"
 			MaxPower			= "120"
 			EngineHighSound			= "ET_S_ENGINE_FIGHTER_1_HIGH"
-			MaxTorque			= "70"
+			MaxTorque			= "80"
 			Price				= "3000"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxSpeed			= "100.0"
@@ -871,7 +871,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			EngineHighSound			= "ET_S_ENGINE_FIGHTER_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxPower			= "120"
-			MaxTorque			= "70"
+			MaxTorque			= "80"
 			Price				= "6000"	
 			MaxSpeed			= "100.0"
 			LoadPoints			= "LP_SML01 LP_BIG01" >
@@ -924,7 +924,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxPower			= "120"
-			MaxTorque			= "70"
+			MaxTorque			= "80"
 			Price				= "5000"	
 			MaxSpeed			= "100.0"
 			LoadPoints			= "LP_GIANT01" >
@@ -952,7 +952,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxPower			= "120"
 			EngineHighSound		        = "ET_S_ENGINE_HUNTER_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-			MaxTorque			= "70"
+			MaxTorque			= "80"
 			Price				= "3000"	
 			MaxSpeed			= "100.0"
 			LoadPoints			= "LP_SML01 LP_BIG01" >
@@ -973,27 +973,23 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "cruiserCab01"
 			ResourceType			= "CRUISER_CABIN"
 			NodeScale			= "1 1 1"
-			Durability			= "200"
-			DurCoeffsForDamageTypes	= "25 25 -25"
+			Durability			= "60"
+			DurCoeffsForDamageTypes	= "10 10 -25"
 			VisibleInEncyclopedia = "false"
 			Mass				= "7"
 			EngineHighSound			= "ET_S_ENGINE_CRUISER_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxPower			= "120"
-			MaxTorque			= "100"
+			MaxTorque			= "125"
 			Price				= "50000"	
 			MaxSpeed			= "160.0"
-			LoadPoints			= "LP_BIG01 LP_GIANT01" >
+			LoadPoints			= "LP_BIG01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "3"	
-				    	Breakable2   = "3"
-					Breakable3   = "3"
-					Breakable4   = "3"
-					Breakable5   = "2"
-					Breakable6   = "2"
-					Breakable7   = "2"
-					Breakable8   = "3"
+					Breakable1   = "0.5"	
+				    Breakable2   = "1.25"
+					Breakable3   = "0.75"
+					Breakable4   = "0.75"
 				/>
 		</Prototype>
 
@@ -1005,28 +1001,23 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile			= "cruiserCab02"
 			ResourceType			= "CRUISER_CABIN"
 			NodeScale			= "1 1 1"
-			Durability			= "200"
-			DurCoeffsForDamageTypes	= "25 25 -10"
+			Durability			= "40"
+			DurCoeffsForDamageTypes	= "5 5 -10"
 			VisibleInEncyclopedia = "false"
 			Mass				= "7"
 			MaxPower			= "120"
 			EngineHighSound			= "ET_S_ENGINE_CRUISER_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-			MaxTorque			= "100"
+			MaxTorque			= "150"
 			Price				= "70000"	
 			MaxSpeed			= "140.0"
-			LoadPoints			= "LP_BIG01 LP_BIG02 LP_SIDE01L LP_SIDE01R" >
+			LoadPoints			= "LP_BIG01" >
 				<GroupsHealth
 					Main   = "5"	
-					Breakable1   = "2"	
-				    	Breakable2   = "2"
-					Breakable3   = "2"
-					Breakable4   = "2"
-					Breakable5   = "2"
-					Breakable6   = "2"
-					Breakable7   = "2"
-					Breakable8   = "2"
-					Breakable9   = "2"
+					Breakable1   = "0.5"	
+				    Breakable2   = "0.5"
+					Breakable3   = "1.25"
+					Breakable4   = "1.25"
 				/>
 		</Prototype>
 
@@ -1066,7 +1057,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "0 -25 -25"
 			Mass				= "30.0"
 			MaxPower			= "200"
-			MaxTorque			= "45"
+			MaxTorque			= "50"
 			EngineHighSound			= "ET_S_ENGINE_BEETLE_1_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			FuelConsumption                 = "0.2"
@@ -1102,7 +1093,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "0 -25 -25"
 			Mass				= "35.0"
 			MaxPower			= "200"
-			MaxTorque			= "55"
+			MaxTorque			= "60"
 			EngineHighSound			= "ET_S_ENGINE_BEETLE_2_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
@@ -1143,7 +1134,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "8 -25 -25"
 			Mass				= "50.0"
 			MaxPower			= "200"
-			MaxTorque			= "75"
+			MaxTorque			= "82"
 			EngineHighSound			= "ET_S_ENGINE_BEETLE_3_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
@@ -1185,7 +1176,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "4 -25 -25"
 			Mass				= "40.0"
 			MaxPower			= "120"
-			MaxTorque			= "80"
+			MaxTorque			= "88"
 
 			Price				= "3500"
 			RepairCoef			= "0.3"
@@ -1221,7 +1212,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "6 -25 -25"
 			Mass				= "45.0"
 			MaxPower			= "120"
-			MaxTorque			= "90"
+			MaxTorque			= "100"
                         EngineHighSound			= "ET_S_ENGINE_MOLOKO_2_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 			Price				= "7000"
@@ -1290,7 +1281,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "8 -15 -25"
 			Mass				= "52.0"
 			MaxPower			= "120"
-			MaxTorque			= "110"
+			MaxTorque			= "120"
                         EngineHighSound			= "ET_S_ENGINE_MOLOKO_3_HIGH"
 
 			Price				= "12000"
@@ -1334,7 +1325,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType			= "URAL_CABIN"
 			NodeScale			= "1 1 1"
 			Mass				= "60.0" 
-			Durability			= "75"
+			Durability			= "80"
 			DurCoeffsForDamageTypes		= "8 0 -25"
 			MaxPower			= "120"
 			MaxTorque			= "180"
@@ -1379,7 +1370,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType			= "URAL_CABIN"
 			NodeScale			= "1 1 1"
 			Mass				= "65.0" 
-			Durability			= "85"
+			Durability			= "90"
 			DurCoeffsForDamageTypes		= "9 4 -25"
 			MaxPower			= "120"
 			MaxTorque			= "200"
@@ -2140,6 +2131,78 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class				= "Basket"
+			Name				= "cruiserCargo01"
+			ModelFile			= "cruiserCargo01"
+			ResourceType			= "CRUISER_BASKET"
+			Durability			= "140"
+			DurCoeffsForDamageTypes		= "15 15 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+
+			Price				= "100000"
+			RepairCoef			= "0.2"
+
+			Mass				= "15.0"
+			LoadPoints			= "LP_GIANT01" >
+			<RepositoryDescription
+				RepositorySize		= "9 8">
+				<Slot
+					Name		= "BASKET_GIANT_GUN"
+					Pos		= "5 6"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.25"	
+			    Breakable2   = "1.25"
+				Breakable3   = "0.5"
+				Breakable4   = "0.5"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "cruiserCargo02"
+			ModelFile			= "cruiserCargo02"
+			ResourceType			= "CRUISER_BASKET"
+			Durability			= "160"
+			DurCoeffsForDamageTypes		= "20 20 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+
+			Price				= "140000"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0"
+			LoadPoints			= "LP_BIG01 LP_SIDE01L LP_SIDE01R" >
+			<RepositoryDescription
+				RepositorySize		= "10 9">
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "5 2"
+				/>
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "2 7"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.3"	
+			    Breakable2   = "0.3"
+				Breakable3   = "0.5"
+				Breakable4   = "0.3"
+				Breakable5   = "1.25"
+				Breakable6   = "1.25"
+				Breakable7   = "1.25"
+				Breakable8  = "1.25"
+			/>			
+		</Prototype>
+		
+		<Prototype
+			Class				= "Basket"
 			Name				= "bugCargo01"
 			ModelFile			= "bugCargo01"
 			ResourceType			= "BUG_BASKET"
@@ -2244,7 +2307,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			/>			
 		</Prototype>
 
-
+<!-- Кузова Молоковоза для игрока начало -->
 		<Prototype
 			Class				= "Basket"
 			Name				= "molokovozCargo01"
@@ -2254,7 +2317,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "0 -25 -25"
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
-
+			CanBeUsedInAutogenerating  =  "0"
 			Price				= "3000"
 			RepairCoef			= "0.2"
 
@@ -2287,7 +2350,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "5 -25 -25"
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
-
+			CanBeUsedInAutogenerating  =  "0"
 			Price				= "8000"
 			RepairCoef			= "0.2"
 
@@ -2327,7 +2390,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "8 -15 -25"
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
-
+			CanBeUsedInAutogenerating  =  "0"
 			Price				= "11000"
 			RepairCoef			= "0.2"
 
@@ -2352,7 +2415,119 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Breakable5   = "0.2"
 			/>			
 		</Prototype>
+<!-- Кузова Молоковоза для игрока конец -->
+<!-- Кузова молоковоза для врагов начало-->
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_molokovozCargo01"
+			ModelFile			= "molokovozCargo01"
+			ResourceType		= "MOLOKOVOZ_BASKET"
+			Durability			= "20"
+			DurCoeffsForDamageTypes		= "0 -25 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			Price				= "3000"
+			RepairCoef			= "0.2"
 
+			Mass				= "20.0"
+			LoadPoints			= "LP_SML01" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "9 1"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.7"	
+			    Breakable2   = "0.7"
+				Breakable3   = "0.5"
+				Breakable4   = "0.7"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_molokovozCargo02"
+			ModelFile			= "molokovozCargo02"
+			ResourceType		= "MOLOKOVOZ_BASKET"
+			Durability			= "60"
+			DurCoeffsForDamageTypes		= "5 -25 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			Price				= "8000"
+			RepairCoef			= "0.2"
+
+			Mass				= "45.0"
+			LoadPoints			= "LP_SML01 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "9 1"
+				/>
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "10 10"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.5"	
+			    Breakable2   = "0.2"
+				Breakable3   = "0.5"
+				Breakable4   = "0.2"
+				Breakable5   = "0.5"
+				Breakable6   = "0.5"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_molokovozCargo03"
+			ModelFile			= "molokovozCargo03"
+			ResourceType		= "MOLOKOVOZ_BASKET"
+			Durability			= "80"
+			DurCoeffsForDamageTypes		= "8 -15 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			Price				= "11000"
+			RepairCoef			= "0.2"
+
+			Mass				= "55.0" 
+			LoadPoints			= "LP_BIG01" >
+	
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "9 1"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.6"	
+			    Breakable2   = "1"
+				Breakable3   = "0.7"
+				Breakable4   = "1"
+				Breakable5   = "0.2"
+			/>			
+		</Prototype>
+<!-- Кузова Молоковоза для врагов конец -->
 		<Prototype
 			Class				= "Basket"
 			Name				= "molokovozCargo04"
@@ -2413,7 +2588,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Main   = "0"	
 			/>			
 		</Prototype>
-
+<!-- Кузова Урала начало -->
 		<Prototype
 			Class				= "Basket"
 			Name				= "uralCargo01"
@@ -2422,7 +2597,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability			= "60"
 			DurCoeffsForDamageTypes		= "0 0 -25"
 			NodeScale			= "1 1 1"
-
+			CanBeUsedInAutogenerating  =  "0"
 			Price				= "13000"
 			RepairCoef			= "0.3"
 
@@ -2455,7 +2630,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability			= "100"
 			DurCoeffsForDamageTypes		= "12 12 -25"
 			NodeScale			= "1 1 1"
-
+			CanBeUsedInAutogenerating  =  "0"
 			Price				= "45000"
 			RepairCoef			= "0.3"
 
@@ -2495,7 +2670,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "7 6 -25"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 			NodeScale			= "1 1 1"
-
+			CanBeUsedInAutogenerating  =  "0"
 			RepairCoef			= "0.3"
 			Price				= "22000"
 
@@ -2537,7 +2712,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability			= "95"
 			DurCoeffsForDamageTypes		= "8 8 -25"
 			NodeScale			= "1 1 1"
-
+			CanBeUsedInAutogenerating  =  "0"
 			Price				= "30000"
 			RepairCoef			= "0.3"
 
@@ -2572,7 +2747,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability			= "115"
 			DurCoeffsForDamageTypes		= "10 15 -15"
 			NodeScale			= "1 1 1"
-
+			CanBeUsedInAutogenerating  =  "0"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
 			Price				= "58000"
@@ -2605,7 +2780,205 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Breakable10   = "0.4"
 			/>			
 		</Prototype>
+<!-- Кузова Урала конец -->
+<!-- Кузова Урала для врагов начало -->
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_uralCargo01"
+			ModelFile			= "uralCargo01"
+			ResourceType		= "URAL_BASKET"
+			Durability			= "60"
+			DurCoeffsForDamageTypes		= "0 0 -25"
+			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			Price				= "13000"
+			RepairCoef			= "0.3"
 
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "30.0"
+			LoadPoints			= "LP_BIG01" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "2 2"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.5"	
+			    Breakable2   = "0.5"
+				Breakable3   = "0.2"
+				Breakable4   = "0.7"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_uralCargo02"
+			ModelFile			= "uralCargo02"
+			ResourceType		= "URAL_BASKET"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "12 12 -25"
+			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			Price				= "45000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "55.0"
+			LoadPoints			= "LP_SIDE01L LP_SIDE01R NO_LP" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "1 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "10 10"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			    Breakable2   = "0.2"
+				Breakable3   = "0.5"
+				Breakable4   = "0.5"
+				Breakable5   = "0.4"
+				Breakable6   = "1"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_uralCargo03"
+			ModelFile			= "uralCargo03"
+			ResourceType		= "URAL_BASKET"
+			Durability			= "85"
+			DurCoeffsForDamageTypes		= "7 6 -25"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			RepairCoef			= "0.3"
+			Price				= "22000"
+
+			Mass				= "45.0" 
+			LoadPoints			= "LP_BIG01 LP_GIANT01 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "11 8"
+				/>
+				<Slot
+					Name		= "BASKET_GIANT_GUN"
+					Pos		= "4 0"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "11 0"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.7"	
+			    Breakable2   = "0.2"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_uralCargo04"
+			ModelFile			= "uralCargo04"
+			ResourceType		= "URAL_BASKET"
+			Durability			= "95"
+			DurCoeffsForDamageTypes		= "8 8 -25"
+			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			Price				= "30000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "50.0"
+			LoadPoints			= "LP_BIG01" >
+			<RepositoryDescription
+				RepositorySize		= "8 9">
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "10 0"
+				/>
+			
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.5"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+				Breakable6   = "0.5"
+				Breakable7   = "0.2"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "e_uralCargo05"
+			ModelFile			= "uralCargo05"
+			ResourceType		= "URAL_BASKET"
+			Durability			= "115"
+			DurCoeffsForDamageTypes		= "10 15 -15"
+			NodeScale			= "1 1 1"
+			CanBeUsedInAutogenerating  =  "1"
+			VisibleInEncyclopedia   = "false"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "58000"
+			RepairCoef			= "0.3"
+
+			Mass				= "60.0"
+			LoadPoints			= "LP_BIG01 LP_SIDE01L LP_SIDE01R" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "10 0"
+				/>
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "10 5"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			    Breakable2   = "0.1"
+				Breakable3   = "0.5"
+				Breakable4   = "0.5"
+				Breakable5   = "0.2"
+				Breakable6   = "0.5"
+				Breakable7   = "1.5"
+				Breakable8   = "1.5"
+				Breakable9   = "0.5"
+				Breakable10   = "0.4"
+			/>			
+		</Prototype>
+<!-- Кузова Урала для врагов конец -->
 		<Prototype
 			Class				= "Basket"
 			Name				= "belazCargo01"

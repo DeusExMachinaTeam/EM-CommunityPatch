@@ -2,6 +2,10 @@
 <Servers>
 	<AnimatedModelsServer>
 		<Item
+			id="point"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="cargo"
 			file="data\models\AnimModels.xml" />
 
@@ -679,11 +683,13 @@
 
 		<Item 
 			id="dozerChassis" 
-			file="data\models\AnimModels.xml"/>
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="dozerCab01" 
-			file="data\models\AnimModels.xml"/>
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 2 3 6 8;" />
 
 		<Item 
 			id="dozerSusp01" 
@@ -919,6 +925,16 @@
 			file="data\models\AnimModels.xml"   
 			params = "skins: 0 2 3 6 8;" />
 
+		<Item 
+			id="cruiserCargo01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 2 3 6 8;" />
+
+		<Item 
+			id="cruiserCargo02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 2 3 6 8;" />
+			
 		<Item 
 			id="cruiserSusp01" 
 			file="data\models\AnimModels.xml"/>

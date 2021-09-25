@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Servers>
 	<AnimatedModelsServer>
-
+		<Item
+			id="point"
+			file="data\models\AnimModels.xml" />
+			
 		<Item
 			id="tunnel_gate"
 			file="data\models\AnimModels.xml" />
@@ -413,11 +416,13 @@
 
 		<Item 
 			id="dozerChassis" 
-			file="data\models\AnimModels.xml"/>
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
 
 		<Item 
 			id="dozerCab01" 
-			file="data\models\AnimModels.xml"/>
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
 
 		<Item 
 			id="dozerSusp01" 
@@ -653,6 +658,16 @@
 			file="data\models\AnimModels.xml"    
 			params = "skins: 0 1 2 4 8;" />
 
+		<Item 
+			id="cruiserCargo01" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+
+		<Item 
+			id="cruiserCargo02" 
+			file="data\models\AnimModels.xml"   
+			params = "skins: 0 1 2 4 8;" />
+			
 		<Item 
 			id="cruiserSusp01" 
 			file="data\models\AnimModels.xml"/>
@@ -1506,6 +1521,14 @@
 
 		<Item
 			id="car_cemetery07"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="grave1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="grave2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -2642,7 +2665,7 @@
 		<Item id="S_HORN06" />
 		<Item id="S_HORN07" />
 		<Item id="S_HORN08" />
-		<!-- Гром -->
+		<!-- пїЅпїЅпїЅпїЅ -->
 		<Item id="S_THUNDER" />
 		<Item id="S_RAIN" />
 		<!-- Starting -->
