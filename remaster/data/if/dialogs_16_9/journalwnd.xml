@@ -250,8 +250,8 @@
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_TOP"
-				animationSpeed="3500"
-				animationAccel="-3500"
+				animationSpeed="4500"
+				animationAccel="-4500"
 				animationDelayTime="0"
 				soundMoveEnabled="1"/>
 
