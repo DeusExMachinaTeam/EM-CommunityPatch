@@ -7260,13 +7260,6 @@
 		Rot="0.000 0.431 0.000 0.902" />
 
 	<Object
-		Name="listvenoe2676"
-		Belong="-1"
-		Prototype="Breakable_Listvenoe2"
-		Pos="1030.174 239.000 2192.920"
-		Rot="0.000 0.993 0.000 0.122" />
-
-	<Object
 		Name="listvenoe2677"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
@@ -8060,15 +8053,8 @@
 		Name="elka2809"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1099.779 274.000 1894.450"
+		Pos="1093.034 274.371 1891.065"
 		Rot="0.000 0.731 0.000 0.682" />
-
-	<Object
-		Name="elka1810"
-		Belong="-1"
-		Prototype="Breakable_Elka1"
-		Pos="1109.219 271.149 1926.807"
-		Rot="0.000 -0.755 0.000 0.656" />
 
 	<Object
 		Name="elka1812"
@@ -8181,27 +8167,6 @@
 		Prototype="Breakable_Elka2"
 		Pos="1066.568 265.862 1990.557"
 		Rot="0.000 -0.848 0.000 0.530" />
-
-	<Object
-		Name="elka3842"
-		Belong="-1"
-		Prototype="Breakable_Elka3"
-		Pos="1056.600 267.451 1987.098"
-		Rot="0.000 0.879 0.000 0.477" />
-
-	<Object
-		Name="elka3843"
-		Belong="-1"
-		Prototype="Breakable_Elka3"
-		Pos="1058.903 263.706 1998.627"
-		Rot="0.000 0.843 0.000 0.537" />
-
-	<Object
-		Name="elka3844"
-		Belong="-1"
-		Prototype="Breakable_Elka3"
-		Pos="1064.610 272.750 1974.556"
-		Rot="0.000 -0.804 0.000 0.595" />
 
 	<Object
 		Name="elka3847"
@@ -35450,7 +35415,7 @@
 		Name="elka35245"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="6096.324 252.040 7835.680"
+		Pos="6096.324 252.041 7835.680"
 		Rot="0.000 0.994 0.000 0.105" />
 
 	<Object
@@ -36556,7 +36521,7 @@
 		Name="elka25436"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="6657.159 263.743 6857.211"
+		Pos="6657.159 263.742 6857.211"
 		Rot="0.000 -0.943 0.000 0.334" />
 
 	<Object
@@ -65446,20 +65411,6 @@
 		Prototype="Breakable_Dub3"
 		Pos="3325.107 252.411 152.391"
 		Rot="0.000 0.415 0.000 0.910" />
-
-	<Object
-		Name="Object76483516"
-		Belong="-1"
-		Prototype="Breakable_Dub3"
-		Pos="3380.200 252.709 123.360"
-		Rot="0.000 0.663 0.000 0.749" />
-
-	<Object
-		Name="Object76483519"
-		Belong="-1"
-		Prototype="Breakable_Dub1"
-		Pos="3414.865 251.884 96.637"
-		Rot="0.000 0.809 0.000 0.588" />
 
 	<Object
 		Name="Object76483523"
