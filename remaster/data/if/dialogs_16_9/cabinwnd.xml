@@ -23,8 +23,8 @@
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_BOTTOM"
-				animationSpeed="4500"
-				animationAccel="-4000"
+				animationSpeed="3500"
+				animationAccel="-3500"
 				animationDelayTime="0"/>
 
 			<AnimationOnHide
