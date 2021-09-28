@@ -15798,6 +15798,20 @@
 		shadow="1"
 		windwavy="0"
 		trans="0" />
+		
+	<model
+		id="grave1"
+		file="data\models\buildings\region1\cemetery\grave1.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="grave2"
+		file="data\models\buildings\region1\cemetery\grave2.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
 
 	<model
 		id="r3_druids_mech_house1"
