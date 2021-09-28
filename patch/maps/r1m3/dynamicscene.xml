@@ -3209,6 +3209,24 @@
 	</Object>
 
 	<Object
+		Name="cemeteryChest"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="2749.822 241.740 1776.220"
+		Rot="-0.593 -0.406 0.328 -0.613">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="rainmetal01"
+			Durability="0.000"/>
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="firewood" />
+	</Object>
+
+	<Object
 		Name="someChest23"
 		Belong="1001"
 		Prototype="someChest"
