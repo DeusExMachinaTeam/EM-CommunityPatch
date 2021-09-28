@@ -17,7 +17,7 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
                         Size="13 10000" />
 	<Mult	
 		GameTimeMult 				= "60" 
-		VehicleAIFiringRangeMult	= "0.5"
+		VehicleAIFiringRangeMult	= "0.25"
 		/>
 
 	<BurstParameters	
