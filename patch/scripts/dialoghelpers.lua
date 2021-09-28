@@ -280,7 +280,7 @@ function SetRadarUpgrade( upgradeStatus )
 		Radar:AllowVehicles( true )
 		Radar:AllowTurrets( true )
 		Radar:AllowDistances( true )
-		Radar:SetScanRadius( 200 )
+		Radar:SetScanRadius( 300 )
 	else
 		LOG( "SetRadarUpgrade error - invalid upgrade status ("..upgradeStatus..")" )
 
