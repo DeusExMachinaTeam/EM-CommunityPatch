@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<SoundGroups>
+	<group id="MUSIC" volume="100" />
+
+	<group id="SOUND2D"	volume="255" />
+
+	<group id="SOUND3D" volume="100">
+		<group 
+			id		= "GUNFIRE" 
+			volume	= "160" 
+			minDist	= "30"
+		/>
+
+		<group 
+			id		= "WEATHER" 
+			volume	= "130" 
+			minDist	= "5500"
+		/>
+
+		<group
+			id		= "EXPLOSIONS"
+			volume	= "255" 
+			minDist	= "100"
+		/>
+
+		<group
+			id		= "ENGINE"
+			volume	= "150" 
+			minDist	= "30"
+		/>
+		
+		<group
+			id		= "ENERGIE"
+			volume	= "250" 
+			minDist	= "20"
+		/>
+
+		
+		<group
+			id		= "ENGINE_1"
+			volume	= "180" 
+			minDist	= "10"
+		/>
+		
+		<group 
+			id		= "HORNS"
+			volume	= "130" 
+			minDist	= "30"
+		/>
+
+		
+		<group
+			id		= "BOSS01"
+			volume	= "250" 
+			minDist	= "90"
+		/>
+		<group
+			id		= "BOSS02"
+			volume	= "250" 
+			minDist	= "90"
+		/>
+		<group
+			id		= "BOSS03"
+			volume	= "250" 
+			minDist	= "90"
+		/>
+		<group
+			id		= "BOSS04"
+			volume	= "250" 
+			minDist	= "40"
+		/>
+		<group
+			id		= "BOAT"
+			volume	= "230" 
+			minDist	= "90"
+		/>
+
+
+		<group
+			id		= "ENV"
+			volume	= "150" 
+			minDist	= "50"
+		/>
+		<group
+			id		= "WATER"
+			volume	= "100" 
+			minDist	= "50"
+		/>
+		<group
+			id		= "GRASS"
+			volume	= "100" 
+			minDist	= "50"
+		/>
+
+		<group
+			id		= "GRASS_1"
+			volume	= "150" 
+			minDist	= "100"
+		/>
+
+		<group
+			id		= "MARSH"
+			volume	= "100" 
+			minDist	= "50"
+		/>
+		<group
+			id		= "MOUNT"
+			volume	= "100" 
+			minDist	= "50"
+		/>
+		<group
+			id		= "LAKE"
+			volume	= "100" 
+			minDist	= "50"
+		/>
+
+		<group
+			id		= "FACTORY"
+			volume	= "200" 
+			minDist	= "20"
+		/>
+
+		<group
+			id		= "FACTORY_1"
+			volume	= "180" 
+			minDist	= "20"
+		/>
+
+		<group
+			id		= "OIL"
+			volume	= "250" 
+			minDist	= "20"
+		/>
+
+		<group
+			id		= "DEATH"
+			volume	= "100" 
+			minDist	= "20"
+		/>
+
+		<group
+			id		= "CINEMATIC"
+			volume	= "255" 
+			minDist	= "80"
+		/>
+		<group
+			id		= "CINEMATIC_1"
+			volume	= "255" 
+			minDist	= "800"
+		/>
+		<group
+			id		= "DEATH_1"
+			volume	= "250" 
+			minDist	= "40"
+		/>
+
+		<group
+			id		= "VEHICLEONGROUND"
+			volume	= "170" 
+			minDist	= "20"
+		/>
+
+		<group
+			id		= "DRIFT01"
+			volume	= "75" 
+			minDist	= "1"
+		/>
+            <group
+			id		= "BRAKE01"
+			volume	= "85" 
+			minDist	= "5"
+		/>
+
+            <group
+			id		= "JUMP"
+			volume	= "85" 
+			minDist	= "5"
+		/>
+            <group
+			id		= "SHOOTHITS"
+			volume	= "250" 
+			minDist	= "10"
+		/>
+	      <group
+			id		= "CRASH"
+			volume	= "200" 
+			minDist	= "20"
+		/>
+            <group
+			id		= "BURNING"
+			volume	= "200" 
+			minDist	= "50"
+		/>
+
+            <group
+			id		= "BURNING_SMALL"
+			volume	= "150" 
+			minDist	= "25"
+		/>
+
+
+	</group>
+</SoundGroups>
