@@ -584,6 +584,10 @@
 		<Item
 			id="IntactCable"
 			file="data\models\AnimModels.xml" />
+		
+		<Item
+			id="r1_man"
+			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="r2_man"
@@ -595,6 +599,10 @@
 
 		<Item
 			id="r3_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_man"
 			file="data\models\AnimModels.xml" />
 
 	</AnimatedModelsServer>
