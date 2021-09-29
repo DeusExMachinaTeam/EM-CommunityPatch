@@ -479,7 +479,7 @@
 
 		<Page
 			id="51"
-			text="Александр «Seel» Парфененков||проджект менеджер, инструментарий, дизайн"
+			text="Александр «Seel» Парфененков||менеджер проекта, инструментарий, дизайн"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
@@ -641,7 +641,7 @@
 		
 		<Page
 			id="69"
-			text="Отдельное спасибо:||Сообществу Deus Ex Machina|https://discord.gg/qKK2Efx||Сообществу EM2ch|https://vk.com/em2ch||Паблику Ex Machina Вконтакте|https://vk.com/exmachina2"
+			text="Отдельное спасибо:||Сообществу Deus Ex Machina|discord.gg/qKK2Efx||Сообществу EM2ch|vk.com/em2ch||Паблику Ex Machina Вконтакте|vk.com/exmachina2"
 			modelName="r1_man"
 			modelSkin="2"
 			modelCfg="92"
