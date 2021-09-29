@@ -465,12 +465,12 @@
 			showTime="3"
 			fontSize="26" />
 		
-			<Page
+		<Page
 			id="50_1"
 			text="Àëåêñàíäð «Seel» Ïàðôåíåíêîâ|Àëåêñàíäð «ThePlain» Ôàòååâ|Àëåêñåé «__nEmPoBu4__» Ñìèðíîâ|Àííà Æóêîâà|Àíòîí Ïîïîâ|Âëàäèñëàâ «OverLine» Êóðî÷êèí|Äìèòðèé «Ãíîì» Ñàùåíêî|Èâàí «ICAS-14» ×åðåïàíîâ|Ëåîíèä «KoYoT» Êî÷åòîâ|Ìàêñèì «Spok» Áåðäíèêîâ|Ìàðê «Apocalypse007» Ìàëûãèí|Íèê «EL_BIBIKA» Êîíîíåíêî|Ïàâåë «pavlikrpg» Èâàíîâ|Ñåðàôèì «Varisane» Øàãèí"
-			modelName=""
-			modelSkin="0"
-			modelCfg="0"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="765"
 			showTime="3"
 			fontSize="12" />
 
@@ -486,9 +486,9 @@
 		<Page
 			id="52"
 			text="Àëåêñàíäð «ThePlain» Ôàòååâ||èíñòðóìåíòàðèé, ãðàôèêà,|3D ìîäåëèðîâàíèå"
-			modelName="r2_man"
-			modelSkin="2"
-			modelCfg="84"
+			modelName="mask_oracul"
+			modelSkin="0"
+			modelCfg="0"
 			showTime="3"
 			fontSize="20" />
 		
@@ -568,17 +568,17 @@
 			id="61"
 			text="Ìàðê «Apocalypse007» Ìàëûãèí||òåêñòîâûå ïðàâêè"
 			modelName="r3_man"
-			modelSkin="1"
-			modelCfg="2612"
+			modelSkin="2"
+			modelCfg="2169"
 			showTime="3"
 			fontSize="20" />
 		
 		<Page
 			id="62"
 			text="Íèê «EL_BIBIKA» Êîíîíåíêî||3D ìîäåëèðîâàíèå"
-			modelName="r3_man"
+			modelName="r1_man"
 			modelSkin="1"
-			modelCfg="0"
+			modelCfg="4"
 			showTime="3"
 			fontSize="20" />
 		
