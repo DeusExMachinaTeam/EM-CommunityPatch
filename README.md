@@ -12,6 +12,7 @@
 **Ссылки:**
 
 Информация о проекте: https://deuswiki.com/w/Community_Patch
+
 Наш Discord: https://discord.gg/jZHxYdF
 
 
