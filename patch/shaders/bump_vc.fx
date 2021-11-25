@@ -83,7 +83,7 @@ technique Bump <bool   ComputeTangentSpace = false;
                    string VertexFormat = "VERTEX_XYZNT1T";
                    bool   Default = true;
                    bool   IsPs20 = true;
-                   bool   UseAlpha = true;> {
+                   bool   UseAlpha = false;> {
     pass Default {
         VertexShader = compile vs_2_0 VertexBump();
         PixelShader  = compile ps_2_0 FragmentBump();

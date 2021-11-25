@@ -52,8 +52,8 @@
 
 	<model
 		id="MidGard"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\MidGard.gam" />
 
@@ -2591,14 +2591,15 @@
 <!-- buildings -->
 	<model
 		id="tunnel"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\tunnel.gam" />
 
 	<model
 		id="tunnel_gate"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		bBoxMin="-30 -30 -30"
 		bBoxMax=" 30  30  30" 
@@ -2606,14 +2607,15 @@
 
 	<model
 		id="minin"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\minin.gam" />
 
 	<model
 		id="big_gate01"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		file="data\models\buildings\region1\big_gate01.gam" />
 
@@ -8065,241 +8067,6 @@
 			skin="8" />
 
 		<action
-			name="STAND1">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH06"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH07"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH08"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH09"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH10"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH11"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH12"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH06"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH07"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH08"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH09"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH10"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH11"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH12"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="MOVE2">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH12"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH06"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH07"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH08"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH09"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH10"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH11"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_GLOW01"
-				effect_id="ET_PS_GLOW"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_GLOW02"
-				effect_id="ET_PS_GLOW"
-				restartOnAnimationChange="0" />
-		</action>
-
-		<action
 			name="RESERVED2">
 			<lp
 				id="LP_LIGHT01"
@@ -8322,11 +8089,6 @@
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_LIGHT05"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_CRUISER_CAB01"
 				restartOnAnimationChange="0" />
@@ -8339,6 +8101,44 @@
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\vehicles\cruiser\cab02.gam">
+		<action
+			name="DEATH1"
+			skin="8" />
+
+		<action
+			name="DEATH2"
+			skin="8" />
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_PROJECTOR_CRUISER_CAB02"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiserCargo01"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\vehicles\cruiser\cargo01.gam">
 		<action
 			name="DEATH1"
 			skin="8" />
@@ -8372,6 +8172,54 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH08"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH09"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH10"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH11"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH12"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -8396,6 +8244,54 @@
 
 			<lp
 				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH08"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH09"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH10"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH11"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH12"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -8428,45 +8324,527 @@
 				ImmediateRemove="0" />
 
 			<lp
+				id="LP_EXH12"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH08"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH09"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH10"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH11"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH12"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiserCargo02"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\vehicles\cruiser\cargo02.gam">
+		<action
+			name="DEATH1"
+			skin="8" />
+
+		<action
+			name="DEATH2"
+			skin="8" />
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH08"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH09"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH10"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH11"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH12"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH13"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH14"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH15"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH16"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH17"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH18"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH19"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH20"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH21"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH22"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH23"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH24"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH08"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH09"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH10"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH11"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH12"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH13"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH14"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH15"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH16"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH17"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH18"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH19"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH20"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
+				id="LP_EXH21"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH22"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH23"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH24"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH08"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH09"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH10"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH11"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH12"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH13"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH14"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH15"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH16"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH17"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH18"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH19"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH20"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH21"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH22"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH23"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH24"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+				
+			<lp
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_GLOW02"
+				id="LP_GLOW04"
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
 		</action>
-
-		<action
-			name="RESERVED2">
-			<lp
-				id="LP_LIGHT01"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT02"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT03"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT04"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_PROJECTOR"
-				effect_id="ET_PS_PROJECTOR_CRUISER_CAB02"
-				restartOnAnimationChange="0" />
-		</action>
 	</model>
-
+	
 	<model
 		id="bugChassis"
 		file="data\models\vehicles\bug\shassis01.gam"
@@ -11275,33 +11653,6 @@
 			skin="8" />
 
 		<action
-			name="STAND1">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="MOVE2">
-			<lp
-				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
 			name="RESERVED2">
 			<lp
 				id="LP_LIGHT01"
@@ -11343,6 +11694,46 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT11"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT12"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT13"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT14"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT15"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT16"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB01"
@@ -11387,21 +11778,6 @@
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_LIGHT05"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT06"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT07"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB02"
 				restartOnAnimationChange="0" />
@@ -11440,11 +11816,6 @@
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_LIGHT04"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB03"
 				restartOnAnimationChange="0" />
@@ -11472,12 +11843,6 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -11487,24 +11852,12 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
 			name="MOVE2">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11549,6 +11902,21 @@
 
 			<lp
 				id="LP_LIGHT08"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT11"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
@@ -11615,6 +11983,11 @@
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
+			<lp
+				id="LP_LIGHT14"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+				
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB04"
@@ -11733,36 +12106,12 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
 			name="MOVE1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -11777,29 +12126,12 @@
 				ImmediateRemove="0" />
 
 			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_GLOW02"
-				effect_id="ET_PS_GLOW"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_GLOW03"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 		</action>
@@ -13007,7 +13339,7 @@
 
 	<model
 		id="boss03machinegun_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13030,7 +13362,7 @@
 
 	<model
 		id="boss03machinegun_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13053,7 +13385,7 @@
 
 	<model
 		id="boss03rocketlauncher_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13082,7 +13414,7 @@
 
 	<model
 		id="boss03rocketlauncher_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13217,21 +13549,24 @@
 	<model
 		id="bridge_span1"
 		file="data\models\buildings\region1\bridge_span1.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="bridge_span2"
 		file="data\models\buildings\region1\bridge_span2.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="bridge_span3"
 		file="data\models\buildings\region1\bridge_span3.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -14175,6 +14510,7 @@
 		id="port"
 		file="data\models\buildings\region1\port.gam"
 		shadow="0"
+		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
 
@@ -14662,14 +14998,16 @@
 	<model
 		id="monastery"
 		file="data\models\buildings\region2\monastery.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="minintown"
 		file="data\models\buildings\region1\minintown.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -14957,7 +15295,8 @@
 	<model
 		id="millitary_town"
 		file="data\models\buildings\region1\millitary_town.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -14965,28 +15304,31 @@
 		id="helvecia"
 		file="data\models\buildings\region2\helvecia.gam"
 		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="zion"
 		file="data\models\buildings\region2\zion.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="zion_gate"
 		file="data\models\buildings\region2\zion_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r3_grand_tree1"
 		file="data\models\nature\region3\trees\gt.gam"
-		shadow="0"
-		shadowVolume="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15140,7 +15482,8 @@
 	<model
 		id="r2_marezzia"
 		file="data\models\buildings\region2\marezzia.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15227,6 +15570,20 @@
 		shadow="1"
 		windwavy="0"
 		trans="0" />
+		
+	<model
+		id="grave1"
+		file="data\models\buildings\region1\cemetery\grave1.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="grave2"
+		file="data\models\buildings\region1\cemetery\grave2.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
 
 	<model
 		id="r3_druids_mech_house1"
@@ -15267,13 +15624,15 @@
 		id="r2_high_voltage"
 		file="data\models\buildings\region2\r2_high_voltage.gam"
 		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r2_seil"
 		file="data\models\buildings\region2\r2_seil.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15375,7 +15734,7 @@
 		id="electro_stolb1"
 		file="data\models\buildings\region1\electro_stolb1.gam"
 		shadowVolume="1"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15383,7 +15742,7 @@
 		id="electro_stolb2"
 		file="data\models\buildings\region1\electro_stolb2.gam"
 		shadowVolume="1"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15391,7 +15750,7 @@
 		id="electro_stolb3"
 		file="data\models\buildings\region1\electro_stolb3.gam"
 		shadowVolume="1"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15486,8 +15845,8 @@
 	<model
 		id="r3_oracle"
 		file="data\models\buildings\region3\r3_oracle.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15518,8 +15877,8 @@
 	<model
 		id="factory_bridge"
 		file="data\models\buildings\region3\factory\factory_bridge.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		passable="1"
 		windwavy="0"
 		trans="0" />
@@ -15700,7 +16059,7 @@
 	<model
 		id="metal_plate1"
 		file="data\models\buildings\region3\factory\metal_plate1.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -15709,7 +16068,7 @@
 	<model
 		id="metal_plate2"
 		file="data\models\buildings\region3\factory\metal_plate2.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -15718,7 +16077,7 @@
 	<model
 		id="metal_plate3"
 		file="data\models\buildings\region3\factory\metal_plate3.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -16148,16 +16507,16 @@
 	<model
 		id="hoisting_crane_1"
 		file="data\models\buildings\region1\hoisting_crane_1.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="hoisting_crane_2"
 		file="data\models\buildings\region1\hoisting_crane_2.gam"
-		shadowVolume="0"
-		shadow="0"
+		shadowVolume="1"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16598,7 +16957,8 @@
 	<model
 		id="bridge_jungle"
 		file="data\models\buildings\region3\bridge_jungle\bridge_jungle.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		passable="1"
 		windwavy="0"
 		trans="0"
@@ -16607,7 +16967,8 @@
 	<model
 		id="oracle_gate"
 		file="data\models\buildings\region3\oracle_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -16639,7 +17000,7 @@
 	<model
 		id="gate_monastyr"
 		file="data\models\buildings\region2\gate_monastyr.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -16932,7 +17293,7 @@
 		id="boss04drone"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" >
+		file="data\models\Ammo\loadpoint.gam" >
 		<action
 			name="DEATH1"
 			skin="8">
@@ -17180,6 +17541,7 @@
 		id="IntactCable_1"
 		file="data\models\objects\provoda\tselniy_1.gam"
 		shadow="0"
+		shadowVolume="0"
 		windwavy="0"
 		trans="2"
 		composite="0" />
@@ -17791,7 +18153,8 @@
 	<model
 		id="druid_gate"
 		file="data\models\buildings\region3\druid_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17863,7 +18226,8 @@
 	<model
 		id="agro_gate"
 		file="data\models\buildings\region1\agro_gate.gam"
-		shadow="0"
+		shadow="1"
+		shadowVolume="1"
 		windwavy="0"
 		trans="0"
 		passable="1"
@@ -18395,7 +18759,7 @@
 	<model
 		id="midgard_gate"
 		file="data\models\buildings\region1\MidGard_gate.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -18403,14 +18767,14 @@
 	<model
 		id="gadad_gate"
 		file="data\models\buildings\region4\gadad_gate.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="kef_gate"
 		file="data\models\buildings\region4\kef_gate.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 

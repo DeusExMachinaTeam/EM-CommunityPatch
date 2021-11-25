@@ -945,11 +945,6 @@
 		group="EXPLOSIONS"
             />
         <model
-		id="S_GROUND_EXPL"
-		file="data\sounds\Shoot_hits\cannon\ground_expl.wav"
-		group="EXPLOSIONS"
-            />
-        <model
 		id="S_WOOD_EXPL"
 		file="data\sounds\Shoot_hits\cannon\wood_expl.wav"
 		group="SHOOTHITS"

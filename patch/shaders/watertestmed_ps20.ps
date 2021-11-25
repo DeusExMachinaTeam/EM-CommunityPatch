@@ -1,0 +1,76 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: waterTest_ps20.ps
+// Created by: Plus
+//
+// simple water ps_2_0 shader w/ reflection/refraction 
+// and per-vertex fresnel term
+//
+// $Id: waterTestMed_ps20.ps,v 1.1 2005/06/30 13:08:09 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+
+#include "lib.fx"
+
+
+//
+sampler NoiseSampler: register( s0 );
+sampler NoiseSamplerSmall: register( s1 );
+sampler FresnelSampler: register( s2 );
+sampler ReflectionSampler: register( s3 );
+sampler RefractionSampler: register( s4 );
+
+
+//
+const float4 waveHeightSpecular: register( c2 );
+
+
+// vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 TexRefl	: TEXCOORD0;
+	float4 TexRefr	: TEXCOORD1;
+	float4 camDir	: TEXCOORD2;
+	float4 Noise	: TEXCOORD4;
+	float  fog	: FOG;
+};
+
+
+// 
+REAL4 WaterPS( VS_OUTPUT v ): COLOR
+{
+	float3 normal;
+        normal.xz = bx2( tex2D( NoiseSamplerSmall, v.Noise.xy ) ).xy * waveHeightSpecular.x -   // smalll
+                    bx2( tex2D( NoiseSampler, v.Noise.zw ) ).xy * waveHeightSpecular.y;    // big
+
+     	normal.y = 1;
+    	normal.xz *= 0.3f;
+	float3 normalN = normalize( normal );
+
+        // frenel term
+	float k = tex1D ( FresnelSampler,  - dot( v.camDir, normalN ) );
+
+	float2 texcoord  = v.TexRefl / v.TexRefl.w;
+	// shift for restoring fov
+	texcoord += 0.5f - 0.5f / 1.115f;
+	float2 texcoord1 = v.TexRefr / v.TexRefr.w;
+
+        normal /= v.camDir.w;
+
+	// refraction
+	texcoord1.xy += 0.001 * normal.xz;
+	REAL4 refraction = tex2D( RefractionSampler, texcoord1 );
+
+	// reflection
+	texcoord.xy += 0.005 * normal.xz;
+	REAL4 reflection = tex2D( ReflectionSampler, texcoord );
+
+	//	
+	REAL4 color;
+	color.rgb = lerp( reflection, refraction, (1 - k * refraction.a ) );
+
+	color.a = 1;
+
+	return color;
+}

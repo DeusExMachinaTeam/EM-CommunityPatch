@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Ini>
+	<Section
+		name="LEVEL">
+		<Key
+			name="WEATHERTYPES">main_menu</Key>
+
+		<Key
+			name="WEATHERTYPE">main_menu</Key>
+
+		<Key
+			name="CURRENTDAYTIME">1</Key>
+
+		<Key
+			name="PATH">data\maps\MainMenu</Key>
+
+		<Key
+			name="LEVELNAME">mainmenu</Key>
+
+		<Key
+			name="HIGHMAP">displace.bin</Key>
+
+		<Key
+			name="DETMAP">water.raw</Key>
+
+		<Key
+			name="CAMERAMAP">cameramap.raw</Key>
+
+		<Key
+			name="COLORMAP">colormap.raw</Key>
+
+		<Key
+			name="CLIFFMAP">level.cliff</Key>
+
+		<Key
+			name="CLIFFSET">Cliffs.xml</Key>
+
+		<Key
+			name="ROADMAP">LevelRoads.xml</Key>
+
+		<Key
+			name="ROADSET">Roads.xml</Key>
+
+		<Key
+			name="WAYPOINTS">ways.xml</Key>
+
+		<Key
+			name="BEACHSETS">Beachsets.xml</Key>
+
+		<Key
+			name="SHORELINE">ShoreLine.xml</Key>
+
+		<Key
+			name="NORMALMAP">NormalMap.bin</Key>
+
+		<Key
+			name="CUBEMAP">data/models/textures/lobbycube.dds</Key>
+
+		<Key
+			name="LEVELSIZE">16</Key>
+
+		<Key
+			name="MAXHEIGHT">2500.000</Key>
+
+		<Key
+			name="WATERLEVEL">217.320</Key>
+
+		<Key
+			name="BASEWATERLEVEL">1811.000</Key>
+
+		<Key
+			name="REFLECTIONTINT">255 255 255</Key>
+
+		<Key
+			name="REFRACTIONTINT">255 255 255</Key>
+
+		<Key
+			name="SKYDOMEDIVIDER">25.000</Key>
+
+		<Key
+			name="WATERSMALLTEX">WaterSm.tga</Key>
+
+		<Key
+			name="WATERBIGTEX">Water.tga</Key>
+
+		<Key
+			name="WATERABSRED">0.017</Key>
+
+		<Key
+			name="WATERABSGREEN">0.014</Key>
+
+		<Key
+			name="WATERABSBLUE">0.011</Key>
+
+		<Key
+			name="MINSAFEX">40.000</Key>
+
+		<Key
+			name="MINSAFEY">40.000</Key>
+
+		<Key
+			name="MAXSAFEX">2008.000</Key>
+
+		<Key
+			name="MAXSAFEY">2008.000</Key>
+
+		<Key
+			name="SERVERDYN">DynamicScene.xml</Key>
+
+		<Key
+			name="SERVERQUESTSTATES">QuestStates.xml</Key>
+
+		<Key
+			name="MODELNAMES">data\if\diz\model_names.xml</Key>
+
+		<Key
+			name="OBJECTNAMES">object_names.xml</Key>
+
+		<Key
+			name="SERVEREXTERNALPATHS">external_paths.xml</Key>
+
+		<Key
+			name="STATICOBSTACLES">static_obstacles.xml</Key>
+
+		<Key
+			name="PLAYERPASSMAP">player_passmap.xml</Key>
+
+		<Key
+			name="SERVERS">data\maps\MainMenu\servers.xml</Key>
+
+		<Key
+			name="STATICSERVERS">data\models\commonservers.xml</Key>
+
+		<Key
+			name="PASSMAP">passmap.raw</Key>
+
+		<Key
+			name="PASSMAPCELLSIZE">16</Key>
+
+		<Key
+			name="TRIGGERSNAME">triggers.xml</Key>
+
+		<Key
+			name="CINEMATRIGGERSNAME">cinematriggers.xml</Key>
+
+		<Key
+			name="DLGSTRINGS">strings.xml</Key>
+
+		<Key
+			name="SKYTYPE">1</Key>
+
+		<Key
+			name="ENV_SKY_Z_POS">data\env\day4.front.tga</Key>
+
+		<Key
+			name="ENV_SKY_Z_NEG">data\env\day4.back.tga</Key>
+
+		<Key
+			name="ENV_SKY_Y_POS">data\env\day4.up.tga</Key>
+
+		<Key
+			name="ENV_SKY_Y_NEG"></Key>
+
+		<Key
+			name="ENV_SKY_X_POS">data\env\day4.right.tga</Key>
+
+		<Key
+			name="ENV_SKY_X_NEG">data\env\day4.left.tga</Key>
+
+		<Key
+			name="ENV_SKY_SCALE_S">0.800</Key>
+
+		<Key
+			name="ENV_SKY_SCALE_T">0.400</Key>
+
+		<Key
+			name="ENV_SKY_SCROLL_SPEED">1.000</Key>
+
+		<Key
+			name="ENV_SKY_ROTATE_SPEED">2.000</Key>
+
+		<Key
+			name="ENV_SKY_CLOUDS_ENABLE">1</Key>
+
+		<Key
+			name="SUN_AZIMUTH_SPEED">0.000</Key>
+
+		<Key
+			name="SUN_AZIMUTH">45.000</Key>
+
+		<Key
+			name="SUN_DAY_ASCENTION">65.000</Key>
+
+		<Key
+			name="SUN_RISE_ASCENTION">45.000</Key>
+
+		<Key
+			name="SUN_SET_ASCENTION">45.000</Key>
+
+		<Key
+			name="TILES">level.tile</Key>
+	</Section>
+
+	<Section
+		name="CAMERA">
+		<Key
+			name="X">1879.170</Key>
+
+		<Key
+			name="Y">251.344</Key>
+
+		<Key
+			name="Z">1202.735</Key>
+
+		<Key
+			name="A">114.778</Key>
+
+		<Key
+			name="B">-0.243</Key>
+
+		<Key
+			name="G">0.000</Key>
+	</Section>
+
+	<Section
+		name="DEMO">
+		<Key
+			name="STARTUP">0</Key>
+
+		<Key
+			name="FILE">demo.rec</Key>
+	</Section>
+
+	<Section
+		name="ILLUMINATION">
+		<Key
+			name="MODEL_AMBIENT">25 109 192</Key>
+
+		<Key
+			name="MODEL_DIFFUSE">0 0 52</Key>
+
+		<Key
+			name="LS_COLOR">0 0 0</Key>
+
+		<Key
+			name="LS_DIFFUSE">255 255 255</Key>
+
+		<Key
+			name="LS_TFACTOR">0.000</Key>
+
+		<Key
+			name="SKY_COLOR">25 138 32</Key>
+
+		<Key
+			name="FOG_COLOR">0 0 0</Key>
+	</Section>
+</Ini>
