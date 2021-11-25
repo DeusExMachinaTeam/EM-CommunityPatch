@@ -309,7 +309,7 @@
 
 <!-- группировки -->	
    <Item id="Belong_1002"		file="data\if\ico\clans\vagabonds03.dds" 			file1="data\if\ico\clans\vagabonds02.dds"/>
-   <Item id="Belong_1003"		file="data\if\ico\clans\adventurers03.dds" 		file1="data\if\ico\clans\adventurers02.dds"/>
+   <Item id="Belong_1003"		file="data\if\ico\clans\adventurers03.dds" 		file1="data\if\ico_hd\clans\adventurers02.dds"/>
    <Item id="Belong_1004"		file="data\if\ico\clans\explorers03.dds" 			file1="data\if\ico\clans\explorers02.dds"/>
    <Item id="Belong_1005"		file="data\if\ico\clans\nomads03.dds" 		file1="data\if\ico\clans\nomads02.dds"/>
    <Item id="Belong_1006"		file="data\if\ico\clans\bounty_hunters03.dds" 	file1="data\if\ico\clans\bounty_hunters02.dds"/>
@@ -339,7 +339,7 @@
    <Item id="Belong_1030"		file="data\if\ico\clans\njeri03.dds" 			   file1="data\if\ico\clans\njeri02.dds"/>
    <Item id="Belong_1040"		file="data\if\ico\clans\crimson_dawn03.dds" 		file1="data\if\ico\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1041"		file="data\if\ico\clans\crimson_dawn03.dds" 		file1="data\if\ico\clans\crimson_dawn02.dds"/>
-   <Item id="Belong_1042"		file="data\if\ico\clans\adventurers03.dds" 		file1="data\if\ico\clans\adventurers02.dds"/>
+   <Item id="Belong_1042"		file="data\if\ico\clans\adventurers03.dds" 		file1="data\if\ico_hd\clans\adventurers02.dds"/>
    <Item id="Belong_1043"		file="data\if\ico\clans\crimson_dawn03.dds" 		file1="data\if\ico\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1044"		file="data\if\ico\clans\vagabonds03.dds" 				file1="data\if\ico\clans\vagabonds02.dds"/>
    <Item id="Belong_1045"		file="data\if\ico\clans\north_nath_traders03.dds" 	file1="data\if\ico\clans\north_nath_traders02.dds"/>
@@ -347,7 +347,7 @@
    <Item id="Belong_1047"		file="data\if\ico\clans\north_nath_traders03.dds" 	file1="data\if\ico\clans\north_nath_traders02.dds"/>
    <Item id="Belong_1048"		file="data\if\ico\clans\crimson_dawn03.dds" 			file1="data\if\ico\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1049"		file="data\if\ico\clans\oracles_disciples03.dds" 	file1="data\if\ico\clans\oracles_disciples02.dds"/>
-   <Item id="Belong_1050"		file="data\if\ico\clans\adventurers03.dds" 			file1="data\if\ico\clans\adventurers02.dds"/>
+   <Item id="Belong_1050"		file="data\if\ico\clans\adventurers03.dds" 			file1="data\if\ico_hd\clans\adventurers02.dds"/>
    <Item id="Belong_1051"		file="data\if\ico\clans\farmers_union03.dds" 		file1="data\if\ico_hd\clans\farmers_union02.dds"/>
    <Item id="Belong_1052"		file="data\if\ico\clans\technicians03.dds" 			file1="data\if\ico\clans\technicians02.dds"/>
    <Item id="Belong_1053"		file="data\if\ico\clans\npp03.dds"						file1="data\if\ico\clans\npp02.dds"/>
