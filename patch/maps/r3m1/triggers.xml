@@ -488,8 +488,14 @@
 	<trigger Name="trExitFromMap21" active="1">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="ExitFromMapTo21" />
 		<script>
---			println("ToR2M2")
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
 
 			if IsQuestTaken("r3m1_FindNative") then 
 				local b = SpawnMessageBox( "8801" )
@@ -497,38 +503,109 @@
 --					println ("Yes")
 					PassToMap("r2m1", "FromR3M1", -1 )
 				else
---					println ("No")
-					GetPlayerVehicle():SetExternalPathByName("ReturnPathR2M1")
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 7, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					Plf:SetExternalPathByName("ReturnPathR2M1")
+
+					TActivate("trExitFromMap21_End")
+
+					trigger:Deactivate()
 				end
 			else
-				AddFadingMsgId( "fm_not_suzet" )
-				GetPlayerVehicle():SetExternalPathByName("ReturnPathR2M1")
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 7, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				Plf:SetExternalPathByName("ReturnPathR2M1")
+
+				AddCinematicMessage(8803, 0.5)
+
+				TActivate("trExitFromMap21_End")
+
+				trigger:Deactivate()
 			end
  		</script>
 	</trigger>
+
+	<trigger Name="trExitFromMap21_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+	<script>
+		RestoreAllToleranceStatus()
+
+		SetCameraBehindPlayerVehicle()
+
+		Plf = GetPlayerVehicle()
+		Plf:PlaceToEndOfPath("ReturnPathR2M1")
+
+		TActivate("trExitFromMap21")
+
+		trigger:Deactivate()
+	</script>
+</trigger>
 
 <!-- Выход с карты в 3й регион-->
 	<trigger Name="trExitFromMap32" active="1">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="ExitFromMapTo32" />
 		<script>
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
 
 			if IsQuestTaken("r3m1_GoToOracle")~=nil then 
 				local b = SpawnMessageBox( "8801" )
+
 				if b == 1 then
---					println ("Yes")
 					local scp = getObj("Set_Bar_Customer1")
 					if scp:GetSpokenCount()==0 then scp:SetSpokenCount(1) end
+
 					PassToMap("r3m2", "FromR3M1", -1 )
 				else
---					println ("No")
-					GetPlayerVehicle():SetExternalPathByName("ReturnPathR3M2")
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					Plf:SetExternalPathByName("ReturnPathR3M2")
+
+					TActivate("trExitFromMap32_End")
 				end
 			else
-				AddFadingMsgId( "fm_cant_move" )
-				GetPlayerVehicle():SetExternalPathByName("ReturnPathR3M2")
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+				Plf:SetExternalPathByName("ReturnPathR3M2")
+
+				AddCinematicMessage(8802, 0.5)
+
+				TActivate("trExitFromMap32_End")
 			end
  		</script>
+	</trigger>
+
+	<trigger Name="trExitFromMap32_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			Plf = GetPlayerVehicle()
+			Plf:PlaceToEndOfPath("ReturnPathR3M2")
+
+			trigger:Deactivate()
+		</script>
 	</trigger>
 
 <!-- Выход с карты на подводной лодке-->
@@ -541,7 +618,6 @@
 				if b == 1 then
 					TActivate("RolikBegin_ToComeSubmarine")
 					TActivate("trPriplitieMap")
-					TDeactivate("trAutoSave")
 				end
 			end
 
