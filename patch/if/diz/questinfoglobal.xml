@@ -2771,6 +2771,16 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="r3m2_DestroyOracleGuard"
+		briefDiz="Уничтожить защитников Оракула"
+		fullDiz="Если фанатики не понимают по-хорошему, значит придётся разговаривать с ними на их же языке."
+		isMainQuest="1">
+		<Map
+			name="r3m2"
+			targetObjName="OracleDefenders" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="r3m2_FindInfoAboutFather"
 		briefDiz="Найти информацию об отце"
 		fullDiz="Дневник пролил свет на судьбу отца. Теперь я точно знаю, что искать его следует по ту сторону Пустыни смерти."

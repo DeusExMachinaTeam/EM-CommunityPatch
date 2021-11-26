@@ -36,7 +36,7 @@
 --			println("Enter to r3m2")
 			if QuestStatus("r3m1_GoToOracle")==Q_TAKEN then
 
-			 	local ortm = TeamCreate("OracleDefenders",1021,CVector(getPos("OracleDefendSpawn_loc")),{"Cruiser01","Hunter01"})
+			 	local ortm = TeamCreate("OracleDefenders",1069,CVector(getPos("OracleDefendSpawn_loc")),{"Cruiser01","Hunter01"})
 
 --			 	println("trOracleDefendersDie - Ativate")
 				TActivate("trOracleDefendersDie")
@@ -47,7 +47,7 @@
 --				 	println(2)
 			    	AddVehicleGunsWithRandomAffix(ortm:GetVehicle(0), "elephant01", 3, 8+random(2))
 					ortm:GetVehicle(0):AddItemsToRepository("cooling_system_energy_and_firing_rate_energy", 1)
-					ortm:GetVehicle(1):AddItemsToRepository("Oil", 2)
+					ortm:GetVehicle(1):AddItemsToRepository("oil", 2)
 					
 			    end
 --			 	println(3)
@@ -57,6 +57,7 @@
 --				 	println(4)
 					  veh:SetExternalPathByName("OracleDef"..(i+1).."_1")
 					  veh:setGodMode(1)
+					  veh:setImmortalMode(1)
 			 	   end
 			 	end
 			end
@@ -69,15 +70,19 @@
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
 			PlayCustomMusic("Passage04")
-			SetTolerance(1100, 1021, RS_ENEMY);
+			SetTolerance(1100, 1021, RS_ENEMY)
+			SetTolerance(1100, 1069, RS_ENEMY)
 		 	for i=0,1 do
 --		 	   println(" i = "..i)
 		 	   local veh = getObj("OracleDefenders_vehicle_"..i)
 		 	   if veh then 
 --		 	   	  println("OracleDefenders_vehicle_"..i)
 				  veh:setGodMode(0)
+				  veh:setImmortalMode(0)
 		 	   end
 		 	end
+			FailQuestIfTaken("r3m2_OvercomeOracleGuard")
+			TakeQuest("r3m2_DestroyOracleGuard")
 		    trigger:Deactivate()
 		</script>
 	</trigger>
@@ -86,7 +91,8 @@
 		<event	eventid="GE_OBJECT_DIE"	ObjName="OracleDefenders" />
 		<script>
 --			println("AAAAAAAAAAAAAAAAAAAAAAAAAAA")
-	        CompleteQuest("r3m2_OvercomeOracleGuard")
+			CompleteQuestIfTaken("r3m2_OvercomeOracleGuard")
+	        CompleteQuestIfTaken("r3m2_DestroyOracleGuard")
 	        TDeactivate("trBigMonsterDie")
 	        FailQuestIfTaken("r3m2_MonterHead")
 	        StopPlayingCustomMusic()
