@@ -1320,7 +1320,7 @@
 		name="Dlg_pl_000203"
 		text="Надеюсь, его совет стоит того, что я пережил на пути сюда."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); EndConversation()" />
+		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); TDeactivate('trOracleDefendersDie'); EndConversation()" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N16221"
@@ -1345,7 +1345,7 @@
 		name="Dlg_pl_000204"
 		text="Надеюсь, оно того стоило."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); StopPlayingCustomMusic(); EndConversation();" />
+		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); TDeactivate('trOracleDefendersDie'); StopPlayingCustomMusic(); EndConversation();" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N041"
@@ -1391,7 +1391,7 @@
 		name="r3m1_NearOracle_ODefenders_2_N042"
 		text="Для этого я и проделал весь этот долгий путь."
 		role="PLAYER"
-		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); RemoveQuestItem( 'quest_monster_head' ); StopPlayingCustomMusic(); EndConversation()" />
+		scriptResult="CompleteQuest('r3m2_OvercomeOracleGuard'); RemoveQuestItem( 'quest_monster_head' ); StopPlayingCustomMusic(); TDeactivate('trOracleDefendersDie'); EndConversation()" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_2_N021"

@@ -540,7 +540,11 @@
 		SetCameraBehindPlayerVehicle()
 
 		Plf = GetPlayerVehicle()
-		Plf:PlaceToEndOfPath("ReturnPathR2M1")
+		if Plf then
+			Plf:PlaceToEndOfPath("ReturnPathR2M1")
+			Plf:SetGamePositionOnGround(CVector(877.703, 289.290, 998.304))
+			Plf:SetRotation(Quaternion(0.002, 0.354, 0.004, 0.935))
+		end
 
 		TActivate("trExitFromMap21")
 
@@ -602,7 +606,11 @@
 			SetCameraBehindPlayerVehicle()
 
 			Plf = GetPlayerVehicle()
-			Plf:PlaceToEndOfPath("ReturnPathR3M2")
+			if Plf then
+				Plf:PlaceToEndOfPath("ReturnPathR3M2")
+				Plf:SetGamePositionOnGround(CVector(1110.618, 354.281, 3722.601))
+				Plf:SetRotation(Quaternion(-0.000, 0.968, 0.000, -0.250))
+			end
 
 			trigger:Deactivate()
 		</script>

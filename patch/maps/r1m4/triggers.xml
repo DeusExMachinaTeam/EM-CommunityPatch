@@ -411,7 +411,11 @@
 			SetCameraBehindPlayerVehicle()
 
 			Plf = GetPlayerVehicle()
-			Plf:PlaceToEndOfPath("ReturnPath")
+			if Plf then
+				Plf:PlaceToEndOfPath("ReturnPath")
+				Plf:SetGamePositionOnGround(CVector(2740.853, 228.788, 489.311))
+				Plf:SetRotation(Quaternion(-0.025, -0.193, 0.010, 0.981))
+			end
 
 			trigger:Deactivate()
 		</script>
