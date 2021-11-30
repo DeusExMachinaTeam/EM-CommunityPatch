@@ -1397,6 +1397,7 @@
 		name="r3m1_NearOracle_ODefenders_2_N021"
 		text="Пока я не смог с ним справиться."
 		role="PLAYER"
+		scriptCondition="not(IsQuestItemPresent( 'quest_monster_head' ))"
 		scriptResult="TActivate('cinTurnOracleDef'); EndConversation()" />
 <!--Root/r3m2/Оракул 1 раз-->
 	<Reply
