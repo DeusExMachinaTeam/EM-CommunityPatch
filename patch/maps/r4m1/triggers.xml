@@ -60,11 +60,13 @@
 			local veh=CreateVehicleEx("Molokovoz01","PlayerMolokovoz",CVector(getPos("MolokovozSpawn_loc")))
 			if veh then
 				veh:SetRotation(Quaternion(-0.007, -0.769, -0.008, 0.639))
+				veh:SetRandomSkin()
 				veh:AttachTrailer("MolokovozTrailer")
 
 			   local nametr = veh:GetName().."_Trailer"
 			   local trailer = getObj(nametr)
 			   if trailer then
+				   trailer:SetSkin(veh:GetSkin())
 				   local tr = getObj("trTrailerDie")
 				   if tr then
 				      tr:AddEvent("GE_OBJECT_DIE",nametr)
