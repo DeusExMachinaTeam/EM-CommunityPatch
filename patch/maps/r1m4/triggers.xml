@@ -122,6 +122,7 @@
 				local nametr = lcar:GetName().."_Trailer"
 				local trailer = getObj(nametr)
 				if trailer then
+					trailer:SetSkin(lcar:GetSkin())
 				   local tr = getObj("trLeaderCarDie")
 				   if tr then
 				      tr:AddEvent("GE_OBJECT_DIE",nametr)
