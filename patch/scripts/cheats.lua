@@ -139,6 +139,10 @@ function teleport ()
 	MovePlayerToCamera()
 end
 
+function tp ()
+	teleport()
+end
+
 function cab (num)
 	if testcheat()~=1 then return end
    local number=1

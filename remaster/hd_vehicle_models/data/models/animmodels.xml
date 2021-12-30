@@ -13567,7 +13567,7 @@
 
 	<model
 		id="boss03machinegun_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13590,7 +13590,7 @@
 
 	<model
 		id="boss03machinegun_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13613,7 +13613,7 @@
 
 	<model
 		id="boss03rocketlauncher_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13642,7 +13642,7 @@
 
 	<model
 		id="boss03rocketlauncher_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -17521,7 +17521,7 @@
 		id="boss04drone"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" >
+		file="data\models\Ammo\loadpoint.gam" >
 		<action
 			name="DEATH1"
 			skin="8">

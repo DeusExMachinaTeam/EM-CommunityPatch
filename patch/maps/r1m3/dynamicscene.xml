@@ -3209,6 +3209,24 @@
 	</Object>
 
 	<Object
+		Name="cemeteryChest"
+		Belong="1001"
+		Prototype="someChest"
+		Pos="2749.822 241.740 1776.220"
+		Rot="-0.593 -0.406 0.328 -0.613">
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="rainmetal01"
+			Durability="0.000"/>
+
+		<Object
+			Flags="16"
+			Belong="1001"
+			Prototype="firewood" />
+	</Object>
+
+	<Object
 		Name="someChest23"
 		Belong="1001"
 		Prototype="someChest"
@@ -7260,13 +7278,6 @@
 		Rot="0.000 0.431 0.000 0.902" />
 
 	<Object
-		Name="listvenoe2676"
-		Belong="-1"
-		Prototype="Breakable_Listvenoe2"
-		Pos="1030.174 239.000 2192.920"
-		Rot="0.000 0.993 0.000 0.122" />
-
-	<Object
 		Name="listvenoe2677"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
@@ -8060,15 +8071,8 @@
 		Name="elka2809"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1099.779 274.000 1894.450"
+		Pos="1093.034 274.371 1891.065"
 		Rot="0.000 0.731 0.000 0.682" />
-
-	<Object
-		Name="elka1810"
-		Belong="-1"
-		Prototype="Breakable_Elka1"
-		Pos="1109.219 271.149 1926.807"
-		Rot="0.000 -0.755 0.000 0.656" />
 
 	<Object
 		Name="elka1812"
@@ -8181,27 +8185,6 @@
 		Prototype="Breakable_Elka2"
 		Pos="1066.568 265.862 1990.557"
 		Rot="0.000 -0.848 0.000 0.530" />
-
-	<Object
-		Name="elka3842"
-		Belong="-1"
-		Prototype="Breakable_Elka3"
-		Pos="1056.600 267.451 1987.098"
-		Rot="0.000 0.879 0.000 0.477" />
-
-	<Object
-		Name="elka3843"
-		Belong="-1"
-		Prototype="Breakable_Elka3"
-		Pos="1058.903 263.706 1998.627"
-		Rot="0.000 0.843 0.000 0.537" />
-
-	<Object
-		Name="elka3844"
-		Belong="-1"
-		Prototype="Breakable_Elka3"
-		Pos="1064.610 272.750 1974.556"
-		Rot="0.000 -0.804 0.000 0.595" />
 
 	<Object
 		Name="elka3847"
@@ -35450,7 +35433,7 @@
 		Name="elka35245"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="6096.324 252.040 7835.680"
+		Pos="6096.324 252.041 7835.680"
 		Rot="0.000 0.994 0.000 0.105" />
 
 	<Object
@@ -36556,7 +36539,7 @@
 		Name="elka25436"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="6657.159 263.743 6857.211"
+		Pos="6657.159 263.742 6857.211"
 		Rot="0.000 -0.943 0.000 0.334" />
 
 	<Object
@@ -65448,20 +65431,6 @@
 		Rot="0.000 0.415 0.000 0.910" />
 
 	<Object
-		Name="Object76483516"
-		Belong="-1"
-		Prototype="Breakable_Dub3"
-		Pos="3380.200 252.709 123.360"
-		Rot="0.000 0.663 0.000 0.749" />
-
-	<Object
-		Name="Object76483519"
-		Belong="-1"
-		Prototype="Breakable_Dub1"
-		Pos="3414.865 251.884 96.637"
-		Rot="0.000 0.809 0.000 0.588" />
-
-	<Object
 		Name="Object76483523"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
@@ -65854,7 +65823,7 @@
 		Rot="0.000 0.629 0.000 0.777" />
 
 	<Object
-		Name="E_InfectionZone36"
+		Name="E_InfectionZone1"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66003,7 +65972,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone32"
+		Name="E_InfectionZone2"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66080,7 +66049,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone85"
+		Name="E_InfectionZone3"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66253,7 +66222,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone71"
+		Name="E_InfectionZone4"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66342,7 +66311,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone25"
+		Name="E_InfectionZone5"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66487,7 +66456,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone31"
+		Name="E_InfectionZone6"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66616,7 +66585,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone39"
+		Name="E_InfectionZone7"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66685,7 +66654,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone91"
+		Name="E_InfectionZone8"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66826,7 +66795,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone97"
+		Name="E_InfectionZone9"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -66943,7 +66912,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone76"
+		Name="E_InfectionZone10"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67088,7 +67057,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone40"
+		Name="E_InfectionZone11"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67249,7 +67218,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone21"
+		Name="E_InfectionZone12"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67418,7 +67387,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone76"
+		Name="E_InfectionZone13"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67515,7 +67484,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone21"
+		Name="E_InfectionZone14"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67580,7 +67549,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone86"
+		Name="E_InfectionZone15"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67693,7 +67662,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone33"
+		Name="E_InfectionZone16"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67802,7 +67771,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone98"
+		Name="E_InfectionZone17"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -67947,7 +67916,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone40"
+		Name="E_InfectionZone18"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -68124,7 +68093,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone78"
+		Name="E_InfectionZone19"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -68341,7 +68310,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone16"
+		Name="E_InfectionZone20"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -68466,7 +68435,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone77"
+		Name="E_InfectionZone21"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -68575,7 +68544,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone27"
+		Name="E_InfectionZone22"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -68644,7 +68613,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone66"
+		Name="E_InfectionZone23"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -68825,7 +68794,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone56"
+		Name="E_InfectionZone24"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -68946,7 +68915,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone91"
+		Name="E_InfectionZone25"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -69143,7 +69112,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone53"
+		Name="E_InfectionZone26"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"
@@ -69268,7 +69237,7 @@
 	</Object>
 
 	<Object
-		Name="E_InfectionZone61"
+		Name="E_InfectionZone27"
 		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m3BanditsGang"

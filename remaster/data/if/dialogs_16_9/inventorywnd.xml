@@ -24,7 +24,7 @@
 				animationEnabled="1"
 				animationType="TO_RIGHT"
 				animationSpeed="3500"
-				animationAccel="-6000"
+				animationAccel="-3500"
 				animationDelayTime="0"
 				soundMoveEnabled="1"/>
 

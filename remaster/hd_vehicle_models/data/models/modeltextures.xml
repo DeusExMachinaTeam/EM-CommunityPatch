@@ -12,54 +12,54 @@
 		path="data\models\vehicles\shared\0_glass.dds" />
 		
 	<file
-		name="camo1.tga"
-		path="data\models\vehicles\shared\camo1.tga" />
+		name="camo1.dds"
+		path="data\models\vehicles\shared\camo1.dds" />
 	<file
-		name="camo2.tga"
-		path="data\models\vehicles\shared\camo2.tga" />
+		name="camo2.dds"
+		path="data\models\vehicles\shared\camo2.dds" />
 	<file
-		name="camo3.tga"
-		path="data\models\vehicles\shared\camo3.tga" />	
+		name="camo3.dds"
+		path="data\models\vehicles\shared\camo3.dds" />	
 	<file
-		name="camo4.tga"
-		path="data\models\vehicles\shared\camo4.tga" />
+		name="camo4.dds"
+		path="data\models\vehicles\shared\camo4.dds" />
 		
 	<file
-		name="color1.tga"
-		path="data\models\vehicles\shared\color1.tga" />
+		name="color1.dds"
+		path="data\models\vehicles\shared\color1.dds" />
 	<file
-		name="color2.tga"
-		path="data\models\vehicles\shared\color2.tga" />
+		name="color2.dds"
+		path="data\models\vehicles\shared\color2.dds" />
 	<file
-		name="color3.tga"
-		path="data\models\vehicles\shared\color3.tga" />
+		name="color3.dds"
+		path="data\models\vehicles\shared\color3.dds" />
 	<file
-		name="color4.tga"
-		path="data\models\vehicles\shared\color4.tga" />
+		name="color4.dds"
+		path="data\models\vehicles\shared\color4.dds" />
 	<file
-		name="color5.tga"
-		path="data\models\vehicles\shared\color5.tga" />
+		name="color5.dds"
+		path="data\models\vehicles\shared\color5.dds" />
 	<file
-		name="color6.tga"
-		path="data\models\vehicles\shared\color6.tga" />
+		name="color6.dds"
+		path="data\models\vehicles\shared\color6.dds" />
 	<file
-		name="color7.tga"
-		path="data\models\vehicles\shared\color7.tga" />
+		name="color7.dds"
+		path="data\models\vehicles\shared\color7.dds" />
 	<file
-		name="color8.tga"
-		path="data\models\vehicles\shared\color8.tga" />
+		name="color8.dds"
+		path="data\models\vehicles\shared\color8.dds" />
 	<file
-		name="color9.tga"
-		path="data\models\vehicles\shared\color9.tga" />
+		name="color9.dds"
+		path="data\models\vehicles\shared\color9.dds" />
 	<file
-		name="color10.tga"
-		path="data\models\vehicles\shared\color10.tga" />
+		name="color10.dds"
+		path="data\models\vehicles\shared\color10.dds" />
 	<file
-		name="color11.tga"
-		path="data\models\vehicles\shared\color11.tga" />
+		name="color11.dds"
+		path="data\models\vehicles\shared\color11.dds" />
 	<file
-		name="color12.tga"
-		path="data\models\vehicles\shared\color12.tga" />
+		name="color12.dds"
+		path="data\models\vehicles\shared\color12.dds" />
 
 <!-- End of shared block -->
 
