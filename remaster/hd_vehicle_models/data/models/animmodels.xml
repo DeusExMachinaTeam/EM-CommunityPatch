@@ -18491,7 +18491,7 @@
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
-		file="data\models\vehicles\small_car\cab02.gam">
+		file="data\models\vehicles\small_car\cab02_gt.gam">
 		<action
 			name="DEATH1"
 			skin="8" />

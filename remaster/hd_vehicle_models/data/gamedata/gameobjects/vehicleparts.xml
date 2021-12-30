@@ -612,8 +612,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxTorque			= "600"
 			EngineHighSound		        = "ET_S_ENGINE_FORMULA_1_HIGH"
 			Price				= "300"	
-			MaxSpeed			= "320.0"
-			LoadPoints			= "LP_SML01" >
+			MaxSpeed			= "320.0" >
 				<GroupsHealth
 					Main   = "5"	
 					Breakable1   = "3"	
@@ -3436,8 +3435,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile		= "sml2Wheel02"
 			NodeScale		= "1 1 1"
 			Mass			= "3"
-			SuspensionModelFile = "sml2Susp01"
-			SuspensionCFM	= "0.0035"
+			SuspensionModelFile = "sml2Susp02"
+			SuspensionCFM	= "0.005"
 			SuspensionERP		= "0.25"
 			SuspensionRange	= "1.0"
 			mU			= "1.0"
@@ -3462,7 +3461,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile		= "sml2Wheel02"
 			NodeScale		= "1 1 1"
 			Mass			= "25"
-			SuspensionModelFile = "sml2Susp01"
+			SuspensionModelFile = "sml2Susp02"
 			SuspensionCFM	= "0.0003"
 			SuspensionERP		= "0.25"
 			SuspensionRange	= "1.0"
