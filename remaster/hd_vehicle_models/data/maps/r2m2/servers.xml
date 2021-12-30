@@ -268,12 +268,12 @@
 		<Item 
 			id="sml2Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8;" />
+			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="sml2Cab01_formula" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
+			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="sml2Susp01" 
