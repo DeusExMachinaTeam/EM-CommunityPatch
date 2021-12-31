@@ -311,6 +311,7 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 ShellsPoolSize          = "18"
                 WithShellsPoolLimit     = "true"
 
+                CanBeUsedInAutogenerating  =  "0"
                 Price           = "9870" 
 
                 Durability                      = "300"/>
@@ -361,6 +362,7 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 RechargingTime = "12"
                 MaxCharges = "3"
 
+                CanBeUsedInAutogenerating  =  "0"
                 Price           = "82000" 
 
                 Durability                      = "400" />
@@ -416,7 +418,8 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 
 		ShellsPoolSize          = "12"
 		WithShellsPoolLimit     = "true"
-
+                
+                CanBeUsedInAutogenerating  =  "0"
 		Price           = "9400" 
         />
 
