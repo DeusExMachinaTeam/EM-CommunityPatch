@@ -3,7 +3,7 @@
 	<Item
 		id="cooling_system_guns"
 		locForm="0"
-		value="Водяная система охлаждения  для огнестрельного оружия" />
+		value="Водяная система охлаждения для огнестрельного оружия" />
 
 	<Item
 		id="cooling_system_energy"
