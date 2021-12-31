@@ -60,11 +60,13 @@
 			local veh=CreateVehicleEx("Molokovoz01","PlayerMolokovoz",CVector(getPos("MolokovozSpawn_loc")))
 			if veh then
 				veh:SetRotation(Quaternion(-0.007, -0.769, -0.008, 0.639))
+				veh:SetRandomSkin()
 				veh:AttachTrailer("MolokovozTrailer")
 
 			   local nametr = veh:GetName().."_Trailer"
 			   local trailer = getObj(nametr)
 			   if trailer then
+				   trailer:SetSkin(veh:GetSkin())
 				   local tr = getObj("trTrailerDie")
 				   if tr then
 				      tr:AddEvent("GE_OBJECT_DIE",nametr)
@@ -456,7 +458,7 @@
 				SaveWeaponGroups()
 			end
 --			println("Name = "..GetVar("PlayerCarName").AsString)
-			CapturePlayerVehicle(0, "PlayerRace",CVector(getPos("PlayerCarOnRacePos_loc")))
+			CapturePlayerVehicle(0, "PlayerRace")
 			AddPlayerMoney(-10000)
 --			if team then 
 --			   team:SetDestination(CVector(getPos("MolokovozSpawn_loc")))
@@ -494,6 +496,17 @@
 			   plcar:setImmortalMode(1)
 			   pl:AddChild(plcar)
 			end
+
+			local explayercar = getObj("PlayerCarGonki")
+			if explayercar then
+				explayercar:SetGamePositionOnGround(CVector(4410.569, 281.094, 2051.014))
+				explayercar:SetRotation(Quaternion(0.003, 0.571, 0.001, 0.821))
+				explayercar:SetCustomControlEnabled( true )
+				explayercar:SetCustomLinearVelocity( 0 )
+				explayercar:SetThrottle( 0 )
+				explayercar:SetCustomControlEnabled( false )
+			end
+
 
 			SetVar("nummsg",5)
 			SetVar("PlayerPlace",8)

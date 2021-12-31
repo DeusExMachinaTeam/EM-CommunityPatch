@@ -94,7 +94,8 @@
 		modelCfg="2173"
 		modelSlot="1"
 		value="ПОВСТАНЕЦ|Бежим, быстрее! Мы ещё можем спастись!"
-		sound="data\sounds\Speech\r3m1\r3m1_21_rebel.ogg" />
+		sound="data\sounds\Speech\r3m1\r3m1_21_rebel.ogg" 
+		time="4"/>
 
 	<string
 		id="22"
@@ -118,7 +119,8 @@
 		modelCfg="637"
 		modelSlot="1"
 		value="БЕЖЕНЦЫ|Хватит отступать! Настало время принять бой! Ур-р-ра-а-а!"
-		sound="data\sounds\Speech\r3m1\r3m1_24_refugee.ogg" />
+		sound="data\sounds\Speech\r3m1\r3m1_24_refugee.ogg" 
+		time="6"/>
 
 	<string
 		id="25"
@@ -195,11 +197,13 @@
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь." />
+		value="|Я не знаю, куда ведёт эта дорога, поэтому останусь здесь." 
+		time="5"/>
 
 	<string
 		id="8803"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
-		value="Какое-то странное место. Лучше держаться отсюда подальше." />
+		value="|Какое-то странное место. Лучше держаться отсюда подальше." 
+		time="5"/>
 </resource>

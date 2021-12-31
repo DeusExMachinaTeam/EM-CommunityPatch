@@ -509,6 +509,7 @@
 		<script>
 			RestoreAllToleranceStatus()
 			SetCameraBehindPlayerVehicle()
+			DisableGodMode()
 			trigger:Deactivate()
 		</script>
 	</trigger>

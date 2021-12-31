@@ -360,6 +360,13 @@
 			ConditionToGive="all complete"
 			PrecedingQuests="r3m2_MonterHead_2" />
 	</quest>
+
+	<quest
+		Name="r3m2_DestroyOracleGuard"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete" />
 <!--Root/r3m2/—южетные/ќракул 1 раз-->
 	<quest
 		Name="r3m2_TwoMagicThing"
@@ -367,7 +374,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="r3m1_GoToOracle r3m2_OvercomeOracleGuard"
+		PrecedingQuests="r3m1_GoToOracle"
 		OnComplete="AddPlayerMoney(15000)">
 		<quest
 			Name="r3m2_TwoMagicThing_Factory"

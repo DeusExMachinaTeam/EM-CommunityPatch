@@ -681,6 +681,7 @@
 					TActivate ("RolikENDExitToMap21small")
 				end
 			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
 				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
 				StartCinematic()
 				if not(IsQuestTaken("d_GetAkselBandit_Quest")) then

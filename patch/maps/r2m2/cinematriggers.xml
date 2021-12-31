@@ -1080,8 +1080,8 @@
 	<trigger Name="trLISARUNOUTDIE_cam01" active="0">
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
-			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(2728.863, 258.503, 929.269), Quaternion(0.000, -0.535, 0.000, 0.845), 0)
-			CreateNewDummyObject( "dweller_lisa", "humLisa", -1, -1, CVector(2727.115, 258.503, 930.763), Quaternion(0.000, 0.843, 0.000, 0.537), 0)
+			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(2728.863, 258.604, 929.269), Quaternion(0.000, -0.535, 0.000, 0.845), 0)
+			CreateNewDummyObject( "dweller_lisa", "humLisa", -1, -1, CVector(2727.115, 258.592, 930.763), Quaternion(0.000, 0.843, 0.000, 0.537), 0)
 
 			local FVehicle = GetEntityByName("LisaRunCar_vehicle_0")
 			if FVehicle then
