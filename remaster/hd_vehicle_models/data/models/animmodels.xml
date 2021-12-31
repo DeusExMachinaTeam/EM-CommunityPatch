@@ -3599,7 +3599,7 @@
 		file="data\models\vehicles\small_car\chassis02.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS_SMALL"
@@ -3609,7 +3609,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS1_SMALL"
@@ -3625,11 +3625,11 @@
 		file="data\models\vehicles\small_car\suspension01_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -3639,11 +3639,11 @@
 		file="data\models\vehicles\small_car\suspension02_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -3654,7 +3654,7 @@
 		file="data\models\vehicles\small_car\wheel01_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -3664,7 +3664,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -3681,7 +3681,7 @@
 		file="data\models\vehicles\small_car\wheel02_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -3691,7 +3691,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -3708,11 +3708,11 @@
 		file="data\models\vehicles\small_car\cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -18491,14 +18491,14 @@
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
-		file="data\models\vehicles\small_car\cab02.gam">
+		file="data\models\vehicles\small_car\cab02_gt.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
