@@ -564,8 +564,6 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				    	Breakable2   = "1"
 					Breakable3   = "2"
 					Breakable4   = "5"
-					Breakable5   = "5"
-					Breakable6   = "5"
 				/>
 		</Prototype>
 
