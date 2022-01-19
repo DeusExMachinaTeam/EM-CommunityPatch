@@ -1712,7 +1712,7 @@
 		ConditionToGive="all complete"
 		PrecedingQuests="d_DriveBanditFromOilMine_Quest"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 350, "specter01", 3, 10)'
-		OnTake='ShowCircleOnMinimapByName("OilMineRuner")'>
+		OnTake='ShowCircleOnMinimapByName("OilMineRuner_vehicle_0")'>
 		<quest
 			Name="d_FindBanditBaseOfOilMine_Quest1"
 			Automatic="1"
