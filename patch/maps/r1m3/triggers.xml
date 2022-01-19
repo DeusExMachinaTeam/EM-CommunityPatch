@@ -386,6 +386,8 @@
 			TActivate( "BOSSOILMINENDCINIMATIC" )
 
 			CompleteQuest( "d_DriveBanditFromOilMine_Quest" )
+
+			trigger:Deactivate()
 			
 		</script>
 	</trigger>
