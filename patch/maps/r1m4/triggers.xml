@@ -15,7 +15,7 @@
 	<trigger	Name="trHelPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local gunlist = {"hornet01","specter01","kord01","vector01","hurricane01","hunter01"}
+			local gunlist = {"hornet01","specter01","kord01","vector01","hurricane01","hunterSideGun"}
 			local len = getn(gunlist)
 
 			for i=1,14 do
