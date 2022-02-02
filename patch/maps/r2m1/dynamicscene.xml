@@ -165,8 +165,8 @@
 		Name="LisaFindLocation"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="6017.000 249.000 6571.000"
-		Radius="75.000" />
+		Pos="6222.411 247.477 6743.357"
+		Radius="400.000" />
 
 	<Object
 		Flags="21"
