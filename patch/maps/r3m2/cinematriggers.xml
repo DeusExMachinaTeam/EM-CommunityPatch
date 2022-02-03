@@ -314,7 +314,10 @@
 			end
 			local veh = getObj("OracleDefenders_vehicle_0")
 			if veh then
-			  veh:SetExternalPathByName("OracleDef1_2")
+				veh:SetExternalPathByName("OracleDef1_1")
+				veh:PlaceToEndOfPath("OracleDef1_1")
+				veh:SetRotation(Quaternion(-0.025, -0.863, 0.060, -0.501))
+			  	veh:SetExternalPathByName("OracleDef1_2")
 			end
 			trigger:Deactivate()
 		</script>

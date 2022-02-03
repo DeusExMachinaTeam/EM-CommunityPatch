@@ -13339,7 +13339,7 @@
 
 	<model
 		id="boss03machinegun_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13362,7 +13362,7 @@
 
 	<model
 		id="boss03machinegun_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13385,7 +13385,7 @@
 
 	<model
 		id="boss03rocketlauncher_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13414,7 +13414,7 @@
 
 	<model
 		id="boss03rocketlauncher_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -15570,6 +15570,20 @@
 		shadow="1"
 		windwavy="0"
 		trans="0" />
+		
+	<model
+		id="grave1"
+		file="data\models\buildings\region1\cemetery\grave1.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="grave2"
+		file="data\models\buildings\region1\cemetery\grave2.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
 
 	<model
 		id="r3_druids_mech_house1"
@@ -17279,7 +17293,7 @@
 		id="boss04drone"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" >
+		file="data\models\Ammo\loadpoint.gam" >
 		<action
 			name="DEATH1"
 			skin="8">

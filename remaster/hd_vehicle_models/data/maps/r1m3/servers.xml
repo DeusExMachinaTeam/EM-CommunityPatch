@@ -468,12 +468,12 @@
 		<Item 
 			id="sml2Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="sml2Cab01_formula" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="sml2Susp01" 
@@ -1525,6 +1525,14 @@
 
 		<Item
 			id="car_cemetery07"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="grave1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="grave2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -2661,7 +2669,7 @@
 		<Item id="S_HORN06" />
 		<Item id="S_HORN07" />
 		<Item id="S_HORN08" />
-		<!-- Гром -->
+		<!-- Thunder -->
 		<Item id="S_THUNDER" />
 		<Item id="S_RAIN" />
 		<!-- Starting -->

@@ -222,7 +222,7 @@
 				ModelName="r3_man"
 				skin="2"
 				cfg="2173"
-				helloReplyNames="r3m2_AloneDruid1_2_N01 r3m2_AloneDruid1_1_N01"
+				helloReplyNames="r3m2_AloneDruid1_2_N01 r3m2_AloneDruid1_1_N01 Dlg_npc_001297"
 				SpokenCount="0" />
 		</Object>
 
@@ -1024,7 +1024,7 @@
 
 	<Object
 		Name="heavy_dot3_vulcan1"
-		Belong="1021"
+		Belong="1069"
 		Prototype="heavy_dot3_vulcan"
 		Pos="1296.685 292.169 2835.144">
 		<Parts />
@@ -1032,7 +1032,7 @@
 
 	<Object
 		Name="sack_dot2_kord2"
-		Belong="1021"
+		Belong="1069"
 		Prototype="sack_dot2_kord"
 		Pos="1288.680 292.828 2814.091"
 		Rot="0.000 0.078 0.000 0.997">

@@ -23,15 +23,15 @@
 			<AnimationOnShow
 				animationEnabled="1"
 				animationType="TO_TOP"
-				animationSpeed="3500"
-				animationAccel="-6000"
+				animationSpeed="4500"
+				animationAccel="-4500"
 				animationDelayTime="0"/>
 
 			<AnimationOnHide
 				animationEnabled="1"
 				animationType="TO_BEYOND_BOTTOM"
-				animationSpeed="3500"
-				animationAccel="-6000"
+				animationSpeed="500"
+				animationAccel="6000"
 				animationDelayTime="0"/>
 		</Animations>
 

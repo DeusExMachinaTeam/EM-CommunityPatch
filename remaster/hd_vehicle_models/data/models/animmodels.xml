@@ -3599,7 +3599,7 @@
 		file="data\models\vehicles\small_car\chassis02.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS_SMALL"
@@ -3609,7 +3609,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS1_SMALL"
@@ -3625,11 +3625,11 @@
 		file="data\models\vehicles\small_car\suspension01_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -3639,11 +3639,11 @@
 		file="data\models\vehicles\small_car\suspension02_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -3654,7 +3654,7 @@
 		file="data\models\vehicles\small_car\wheel01_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -3664,7 +3664,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -3681,7 +3681,7 @@
 		file="data\models\vehicles\small_car\wheel02_cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -3691,7 +3691,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -3708,11 +3708,11 @@
 		file="data\models\vehicles\small_car\cab02.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -13567,7 +13567,7 @@
 
 	<model
 		id="boss03machinegun_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13590,7 +13590,7 @@
 
 	<model
 		id="boss03machinegun_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13613,7 +13613,7 @@
 
 	<model
 		id="boss03rocketlauncher_left"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -13642,7 +13642,7 @@
 
 	<model
 		id="boss03rocketlauncher_right"
-		file="data\models\guns\cub.gam"
+		file="data\models\Ammo\loadpoint.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
@@ -15798,6 +15798,20 @@
 		shadow="1"
 		windwavy="0"
 		trans="0" />
+		
+	<model
+		id="grave1"
+		file="data\models\buildings\region1\cemetery\grave1.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="grave2"
+		file="data\models\buildings\region1\cemetery\grave2.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
 
 	<model
 		id="r3_druids_mech_house1"
@@ -17507,7 +17521,7 @@
 		id="boss04drone"
 		shadow="0"
 		windwavy="0"
-		file="data\models\guns\cub.gam" >
+		file="data\models\Ammo\loadpoint.gam" >
 		<action
 			name="DEATH1"
 			skin="8">
@@ -18477,14 +18491,14 @@
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
-		file="data\models\vehicles\small_car\cab02.gam">
+		file="data\models\vehicles\small_car\cab02_gt.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">

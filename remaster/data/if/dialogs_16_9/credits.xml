@@ -449,5 +449,212 @@
 			modelCfg="57"
 			showTime="5"
 			fontSize="20" />
+
+		<Page
+			id="49"
+			text="Community Patch / Remaster"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="38" />
+
+		<Page
+			id="50"
+			text="Команда разработки"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="34" />
+		
+			<Page
+			id="50_1"
+			text="Александр «Seel» Парфененков|Александр «ThePlain» Фатеев|Алексей «__nEmPoBu4__» Смирнов|Анна Жукова|Антон Попов|Владислав «OverLine» Курочкин|Дмитрий «Гном» Сащенко|Иван «ICAS-14» Черепанов|Леонид «KoYoT» Кочетов|Максим «Spok» Бердников|Марк «Apocalypse007» Малыгин|Ник «EL_BIBIKA» Кононенко|Павел «pavlikrpg» Иванов|Серафим «Varisane» Шагин"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="765"
+			showTime="3"
+			fontSize="19" />
+
+		<Page
+			id="51"
+			text="Александр «Seel» Парфененков||менеджер проекта, инструментарий, дизайн"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="761"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="52"
+			text="Александр «ThePlain» Фатеев||инструментарий, графика,|3D моделирование"
+			modelName="mask_oracul"
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="53"
+			text="Алексей «__nEmPoBu4__» Смирнов||3D моделирование, скрипты, квесты"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="1531"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="54"
+			text="Анна Жукова||графический дизайн"
+			modelName="r2_woman"
+			modelSkin="0"
+			modelCfg="104"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="55"
+			text="Антон Попов||музыка"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="381"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="56"
+			text="Владислав «OverLine» Курочкин||контент-дизайн, картостроение"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="765"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="57"
+			text="Дмитрий «Гном» Сащенко||скрипты, квесты,|3D моделирование"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="1917"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="58"
+			text="Иван «ICAS-14» Черепанов||3D моделирование"
+			modelName="r2_man"
+			modelSkin="2"
+			modelCfg="168"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="59"
+			text="Леонид «KoYoT» Кочетов||исправление ошибок"
+			modelName="r2_woman"
+			modelSkin="0"
+			modelCfg="91"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="60"
+			text="Максим «Spok» Бердников||3D моделирование"
+			modelName="r1_man"
+			modelSkin="0"
+			modelCfg="14"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="61"
+			text="Марк «Apocalypse007» Малыгин||текстовые правки"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="2169"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="62"
+			text="Ник «EL_BIBIKA» Кононенко||3D моделирование"
+			modelName="r1_man"
+			modelSkin="1"
+			modelCfg="4"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="63"
+			text="Павел «pavlikrpg» Иванов||скрипты, квесты"
+			modelName="r2_woman"
+			modelSkin="1"
+			modelCfg="91"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="64"
+			text="Серафим «Varisane» Шагин||контент-дизайн"
+			modelName="r4_man"
+			modelSkin="2"
+			modelCfg="85"
+			showTime="3"
+			fontSize="28" />
+		
+		<Page
+			id="65"
+			text="Экспертный совет"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="34" />
+		
+		<Page
+			id="66"
+			text="Buba|Oracle|Rusya_27|Traygen|Леонид «KoYoT» Кочетов|Семимахов"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="379"
+			showTime="5"
+			fontSize="28" />
+		
+		<Page
+			id="67"
+			text="Тестирование"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="34" />
+		
+		<Page
+			id="68"
+			text="Suslo Red|Иван «MrKarfen» Атаманов|Семён «Omezera» Озерицкий|Pushistik_7977|Anarxolis|ScorpyX|Александр192|Terorchat"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="635"
+			showTime="5"
+			fontSize="25" />
+		
+		<Page
+			id="69"
+			text="Отдельное спасибо:||Сообществу Deus Ex Machina|discord.gg/qKK2Efx||Сообществу EM2ch|vk.com/em2ch||Паблику Ex Machina Вконтакте|vk.com/exmachina2"
+			modelName="r1_man"
+			modelSkin="2"
+			modelCfg="92"
+			showTime="5"
+			fontSize="22" />
+
+		<Page
+			id="70"
+			text="А также:||Зрителям канала «Павлик RPG»||Нашим жёнам, девушкам, родственникам и кошкам, которые терпели нас во время разработки||Всем тем, кто ждал и поддерживал этот проект"
+			modelName="r1_man"
+			modelSkin="1"
+			modelCfg="102"
+			showTime="7"
+			fontSize="22" />
 	</Pages>
 </Credits>

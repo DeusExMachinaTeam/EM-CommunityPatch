@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Credits
+	breakTime="0.7"
+	breakSoundFile="data\sounds\Driving\shifter1.wav"
+	showSoundFile="data\sounds\Driving\shifter1.wav"
+	ambientSoundFile=""
+	musicFile="data\music\credits.ogg">
+	<Pages>
+		<Page
+			id="1"
+			text="Компания «Targem|Games»"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="40" />
+
+		<Page
+			id="2"
+			text="Продюсер||Станислав|«scorp» Скорб"
+			modelName="r2_man"
+			modelSkin="0"
+			modelCfg="294"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="3"
+			text="Технический директор проекта||Алексей Скрябин"
+			modelName="r2_man"
+			modelSkin="0"
+			modelCfg="182"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="4"
+			text="Менеджер проекта||Евгений|«Hrrr» Хрунов"
+			modelName="r2_man"
+			modelSkin="2"
+			modelCfg="368"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="5"
+			text="Сценарий||Алексей|«Alex TG» Честных"
+			modelName="r2_man"
+			modelSkin="0"
+			modelCfg="87"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="6"
+			text="Ведущий программист проекта||Антон|«anger» Савин"
+			modelName="r2_man"
+			modelSkin="0"
+			modelCfg="20"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="7"
+			text="Главный дизайнер проекта||Алексей|«Alex TG» Честных"
+			modelName="r2_man"
+			modelSkin="0"
+			modelCfg="87"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="8"
+			text="Ведущий художник проекта||Александр|«Alex ML» Маргушин"
+			modelName="r2_man"
+			modelSkin="2"
+			modelCfg="8"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="9"
+			text="Дизайн игры||Денис «mif2000» Галанин|Сергей «JSinx» Удюрминский|Алексей «Razaz» Ануфриев|Станислав «scorp» Скорб|Борис «borg» Смирнов"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="1917"
+			showTime="5"
+			fontSize="20" />
+
+		<Page
+			id="10"
+			text="Программирование||Елена «SoftKitty» Евдокимова|Иван «Vano» Власов|Илья «phosgen» Рузаков|Максим «Shadow» Сарманов|Сергей «Ice Cat» Ключковский|Игорь «Goryh» Дегтярев"
+			modelName="r2_man"
+			modelSkin="1"
+			modelCfg="140"
+			showTime="5"
+			fontSize="18" />
+
+		<Page
+			id="11"
+			text="Графика|Александр «Alex ML» Маргушин|Иван Снигирев|Евгений «Dzhin» Гольцов|Владимир «Price» Селезнев|Станислав «Staz» Черва"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="1529"
+			showTime="6"
+			fontSize="20" />
+
+		<Page
+			id="12"
+			text="Графика||Рустам «Rychi» Турей|Евгений Токарев|Сергей «Sega» Митряев|Виктор «isymbosi» Корьякин|Роман Латынов"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="1529"
+			showTime="6"
+			fontSize="20" />
+
+		<Page
+			id="13"
+			text="Дизайн миссий||Денис «mif2000» Галанин|Сергей «JSinx» Удюрминский|Артем «solo» Соловьев|Кондратьев «HiKiller» Даниил|Станислав «Staz» Черва"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="1917"
+			showTime="4"
+			fontSize="20" />
+
+		<Page
+			id="14"
+			text="Разработка интерфейсов||Михаил|«Rai» Матвиенко||Спецэффекты||Алексей|«Hal» Лобанов"
+			modelName="r2_man"
+			modelSkin="2"
+			modelCfg="104"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="15"
+			text="Музыка/звуки||Антон Попов|Екатерина Швеммер"
+			modelName="r2_man"
+			modelSkin="1"
+			modelCfg="330"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="16"
+			text="Тестирование||Вячеслав|«ls» Авдеев"
+			modelName="r2_man"
+			modelSkin="2"
+			modelCfg="84"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="17"
+			text="PR-менеджер||Светлана|«Сrystal» Честных"
+			modelName="r2_woman"
+			modelSkin="0"
+			modelCfg="20"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="18"
+			text="В игре использовались композиции победителей музыкального конкурса:||Александр Чекстер|Борис Веденский и Александр Трегер|Михаил Сидоров|Александр Лисенков|Paralaxeen|Игорь Белоусов"
+			modelName="r2_man"
+			modelSkin="1"
+			modelCfg="132"
+			showTime="4"
+			fontSize="14" />
+
+		<Page
+			id="19"
+			text="ТАК ЖЕ ПРИНИМАЛИ УЧАСТИЕ НА РАЗНЫХ ЭТАПАХ||Константин Сохарев - программирование|Святослав Паташников - руководство|Алексей Андрущенко-Веб-дизайн"
+			modelName="r2_man"
+			modelSkin="2"
+			modelCfg="24"
+			showTime="3"
+			fontSize="16" />
+
+		<Page
+			id="20"
+			text="Компания «Бука»"
+			modelName="r2_man"
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="40" />
+
+		<Page
+			id="21"
+			text="Продюсер||Иван Бунаков"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="2812"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="22"
+			text="Старший продюсер||Иван Мороз"
+			modelName="r2_man"
+			modelSkin="0"
+			modelCfg="198"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="23"
+			text="Менеджеры по продвижению продуктов||Юрий Вирич|Алексей Писклюков"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="2298"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="24"
+			text="Технический эксперт||Кирилл Бестемьянов"
+			modelName="r3_man"
+			modelSkin="0"
+			modelCfg="57"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="25"
+			text="Эксперт по звуку||Руслан Дмитриев"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="1745"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="26"
+			text="Дизайнеры-полиграфисты||Санан Ушанов|Даниелла Климашевская"
+			modelName="r2_woman"
+			modelSkin="2"
+			modelCfg="43"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="27"
+			text="PR-менеджер||Алексей Пастушенко"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="765"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="28"
+			text="Ассистент PR-менеджера||Олег Морозов"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="456"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="29"
+			text="Ассистент продюсера||Алексей Пешехонов|Николай Сафронов"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="761"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="30"
+			text="Менеджер по новым командам||Николай Сафронов"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="635"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="31"
+			text="Выпускающий продюсер||Александр Пак"
+			modelName="r3_man"
+			modelSkin="0"
+			modelCfg="253"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="32"
+			text="Старший тестировщик||Евгений Попов|Иван Рид"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="379"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="33"
+			text="Служба тестирования||Антон Епишин|Алексей Петров|Александр Полосин|Евгений Попов|Иван Райнов|Иван Рид|Алексей Чеботарев"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="456"
+			showTime="5"
+			fontSize="20" />
+
+		<Page
+			id="34"
+			text="Внешнее тестирование||Петр Беляев|Алексей Бунак|Игорь Дмитриев|Михаил Матюшов|Денис Соколов"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="0"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="34_1"
+			text="Внешнее тестирование||Игорь Пешехонцев|Дмитрий Чичков|Алексей Шеховцов|Илья Юсипов|Тимур Юсипов"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="0"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="35"
+			text="Служба продаж||Максим О. Алексеев| Максим Ю. Алексеев|Максим А. Алексеев|Наталья Анкундинова|Елена Антонова|Илья Бровченко|Павел Григорьев|Виктория Киселева|Александр Кочетков"
+			modelName="r3_man"
+			modelSkin="0"
+			modelCfg="123"
+			showTime="5"
+			fontSize="14" />
+
+		<Page
+			id="36"
+			text="Служба продаж||Павел Круглов|Андрей Осипов|Александр Петринский|Ольга Полковникова|Лариса Савельева|Евгений Самсонов|Светлана Самсонова|Валерий Тихвинский|Сергей Федосов"
+			modelName="r2_woman"
+			modelSkin="0"
+			modelCfg="4"
+			showTime="5"
+			fontSize="14" />
+
+		<Page
+			id="37"
+			text="Торговый маркетинг||Татьяна Васекина"
+			modelName="r2_woman"
+			modelSkin="2"
+			modelCfg="113"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="38"
+			text="Комьюнити менеджер||Александр Ковалев"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="97"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="39"
+			text="Экспертный совет||Владимир Миняев|Максим Н. Михалев|Иван Мороз|Сергей Руденко|Виталий Харитоненко"
+			modelName="r3_man"
+			modelSkin="0"
+			modelCfg="225"
+			showTime="5"
+			fontSize="20" />
+
+		<Page
+			id="40"
+			text="Юридическая поддержка||Георгий Виталиев"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="369"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="41"
+			text="Техническая поддержка||Евгений Дмитриев"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="381"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="42"
+			text="Генеральный директор||Александр Михайлов"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="2300"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="43"
+			text="Финансовый директор||Марина Равун"
+			modelName="r2_woman"
+			modelSkin="2"
+			modelCfg="108"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="44"
+			text="Руководитель отдела маркетинга||Максим Н. Михалев"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="635"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="45"
+			text="Руководитель коммерческого отдела||Татьяна Устинова"
+			modelName="r2_woman"
+			modelSkin="0"
+			modelCfg="100"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="46"
+			text="Руководитель отдела разработок||Иван Бунаков"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="2812"
+			showTime="3"
+			fontSize="20" />
+
+		<Page
+			id="47"
+			text="Отдельное спасибо:||Юлия Белова|Сергей Бобков|Илья Бровченко|Дмитрий Захаров|Дмитрий Кулешов|Дмитрий Лесин|Владимир Миняев|Иван Мороз"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="1745"
+			showTime="5"
+			fontSize="14" />
+
+		<Page
+			id="48"
+			text="Отдельное спасибо:||Марина Равун|Иван Рид|Инна Суцепина|Игорь Устинов|Ирина Царева|Виктория Эннс"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="57"
+			showTime="5"
+			fontSize="14" />
+		
+		<Page
+			id="49"
+			text="Community|Patch / Remaster"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="30" />
+
+		<Page
+			id="50"
+			text="Команда разработки"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="26" />
+		
+		<Page
+			id="50_1"
+			text="Александр «Seel» Парфененков|Александр «ThePlain» Фатеев|Алексей «__nEmPoBu4__» Смирнов|Анна Жукова|Антон Попов|Владислав «OverLine» Курочкин|Дмитрий «Гном» Сащенко|Иван «ICAS-14» Черепанов|Леонид «KoYoT» Кочетов|Максим «Spok» Бердников|Марк «Apocalypse007» Малыгин|Ник «EL_BIBIKA» Кононенко|Павел «pavlikrpg» Иванов|Серафим «Varisane» Шагин"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="765"
+			showTime="3"
+			fontSize="12" />
+
+		<Page
+			id="51"
+			text="Александр «Seel» Парфененков||менеджер проекта, инструментарий, дизайн"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="761"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="52"
+			text="Александр «ThePlain» Фатеев||инструментарий, графика,|3D моделирование"
+			modelName="mask_oracul"
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="53"
+			text="Алексей «__nEmPoBu4__» Смирнов||3D моделирование, скрипты, квесты"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="1531"
+			showTime="3"
+			fontSize="18" />
+		
+		<Page
+			id="54"
+			text="Анна Жукова||графический дизайн"
+			modelName="r2_woman"
+			modelSkin="0"
+			modelCfg="104"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="55"
+			text="Антон Попов||музыка"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="381"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="56"
+			text="Владислав «OverLine» Курочкин||контент-дизайн, картостроение"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="765"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="57"
+			text="Дмитрий «Гном» Сащенко||скрипты, квесты,|3D моделирование"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="1917"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="58"
+			text="Иван «ICAS-14» Черепанов||3D моделирование"
+			modelName="r2_man"
+			modelSkin="2"
+			modelCfg="168"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="59"
+			text="Леонид «KoYoT» Кочетов||исправление ошибок"
+			modelName="r2_woman"
+			modelSkin="0"
+			modelCfg="91"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="60"
+			text="Максим «Spok» Бердников||3D моделирование"
+			modelName="r1_man"
+			modelSkin="0"
+			modelCfg="14"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="61"
+			text="Марк «Apocalypse007» Малыгин||текстовые правки"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="2169"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="62"
+			text="Ник «EL_BIBIKA» Кононенко||3D моделирование"
+			modelName="r1_man"
+			modelSkin="1"
+			modelCfg="4"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="63"
+			text="Павел «pavlikrpg» Иванов||скрипты, квесты"
+			modelName="r2_woman"
+			modelSkin="1"
+			modelCfg="91"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="64"
+			text="Серафим «Varisane» Шагин||контент-дизайн"
+			modelName="r4_man"
+			modelSkin="2"
+			modelCfg="85"
+			showTime="3"
+			fontSize="20" />
+		
+		<Page
+			id="65"
+			text="Экспертный совет"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="26" />
+		
+		<Page
+			id="66"
+			text="Buba|Oracle|Rusya_27|Traygen|Леонид «KoYoT» Кочетов|Семимахов"
+			modelName="r3_man"
+			modelSkin="1"
+			modelCfg="379"
+			showTime="5"
+			fontSize="20" />
+		
+		<Page
+			id="67"
+			text="Тестирование"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="3"
+			fontSize="26" />
+		
+		<Page
+			id="68"
+			text="Suslo Red|Иван «MrKarfen» Атаманов|Семён «Omezera» Озерицкий|Pushistik_7977|Anarxolis|ScorpyX|Александр192|Terorchat"
+			modelName="r3_man"
+			modelSkin="2"
+			modelCfg="635"
+			showTime="5"
+			fontSize="18" />
+		
+		<Page
+			id="69"
+			text="Отдельное спасибо:||Сообществу Deus Ex Machina|discord.gg/qKK2Efx||Сообществу EM2ch|vk.com/em2ch||Паблику Ex Machina Вконтакте|vk.com/exmachina2"
+			modelName="r1_man"
+			modelSkin="2"
+			modelCfg="92"
+			showTime="5"
+			fontSize="14" />
+
+		<Page
+			id="70"
+			text="А также:||Зрителям канала «Павлик RPG»||Нашим жёнам, девушкам, родственникам и кошкам, которые терпели нас во время разработки||Всем тем, кто ждал и поддерживал этот проект"
+			modelName="r1_man"
+			modelSkin="1"
+			modelCfg="102"
+			showTime="7"
+			fontSize="14" />
+	</Pages>
+</Credits>
