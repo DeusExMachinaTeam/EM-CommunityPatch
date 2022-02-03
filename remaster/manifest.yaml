@@ -19,7 +19,7 @@ prerequisites:
   - name: community_patch
     versions: 
       - "1.10"
-patcher_version_requirement: 1.10
+patcher_version_requirement: "1.10"
 patcher_options:
   gravity: -19.62
   blast_damage_friendly_fire: false
