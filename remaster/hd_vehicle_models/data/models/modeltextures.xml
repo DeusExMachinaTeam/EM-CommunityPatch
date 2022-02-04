@@ -12,6 +12,10 @@
 		path="data\models\vehicles\shared\0_glass.dds" />
 		
 	<file
+		name="grate.tga"
+		path="data\models\vehicles\shared\grate.tga" /> <!-- тут тоже нужно изменить на .dds -->
+		
+	<file
 		name="camo1.dds"
 		path="data\models\vehicles\shared\camo1.dds" />
 	<file
