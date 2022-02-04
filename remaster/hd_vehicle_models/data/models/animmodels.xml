@@ -3455,18 +3455,10 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+<<<<<<< Updated upstream
+=======
 
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
+>>>>>>> Stashed changes
 		</action>
 
 		<action
@@ -3482,18 +3474,10 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+<<<<<<< Updated upstream
+=======
 
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
+>>>>>>> Stashed changes
 		</action>
 
 		<action
@@ -3508,16 +3492,10 @@
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 
-			<lp
-				id="LP_GLOW03"
-				effect_id="ET_PS_GLOW"
-				restartOnAnimationChange="0" />
+<<<<<<< Updated upstream
 
-			<lp
-				id="LP_GLOW04"
-				effect_id="ET_PS_GLOW"
-				restartOnAnimationChange="0" />
-
+=======
+>>>>>>> Stashed changes
 			<lp
 				id="LP_EXH01"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
@@ -3529,18 +3507,10 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+<<<<<<< Updated upstream
+=======
 
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
+>>>>>>> Stashed changes
 		</action>
 
 		<action
@@ -3557,31 +3527,6 @@
 
 			<lp
 				id="LP_LIGHT03"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT04"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT05"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT06"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT07"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT08"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
 
