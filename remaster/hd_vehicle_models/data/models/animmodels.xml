@@ -3455,10 +3455,6 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 		</action>
 
 		<action
@@ -3474,10 +3470,6 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 		</action>
 
 		<action
@@ -3492,10 +3484,6 @@
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 			<lp
 				id="LP_EXH01"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
@@ -3507,10 +3495,6 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 		</action>
 
 		<action
