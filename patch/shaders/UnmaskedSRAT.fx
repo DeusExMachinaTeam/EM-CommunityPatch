@@ -1,14 +1,13 @@
 /**
- *  Skinned material for separate details and main color
+ * Non masked modern material with new artists pipeline
  *
  *  !!YAML
  *  Meta:
  *    Author: Alexander Fateev
  *    Version: 1.0.4
  *    License: Attribution-NonCommercial-ShareAlike 4.0 International
- *
  *  DataSpecification:
- *    ShaderName: Skinned
+ *    ShaderName: UnmaskedSRAT
  *    VertexType: XYZNT1T
  *    UVChannels: 1
  *    Requires:
@@ -16,9 +15,6 @@
  *    Textures:
  *      Diffuse:
  *        Color: RGB
- *      Detail:
- *        Color: RGB
- *        Blend Coeficient: A
  *      Lightmap:
  *        Specular: R
  *        Reflect: G
@@ -32,6 +28,7 @@
  *  !!YAML
  *
  **/
+
 #define ENABLE_REFLECTION
 #define ENABLE_SPECULAR
 #define ENABLE_AMBIENT
@@ -39,7 +36,6 @@
 #include "template.fx"
 
 DeclareTexture2D   (DIFFUSE_MAP_0, DiffuseTexture, DiffuseSampler, Wrap)
-DeclareTexture2D   (DETAIL_MAP_0,  DetailTexture,  DetailSampler,  Wrap)
 DeclareTexture2D   (BUMP_MAP_0,    BumpTexture,    BumpSampler,    Wrap)
 DeclareTexture2D   (LIGHT_MAP_0,   LightTexture,   LightSampler,   Wrap)
 DeclareTextureCube (CUBE_MAP_0,    CubeTexture,    CubeSampler,    Clamp)
@@ -84,7 +80,6 @@ VS_OUTPUT SkinnedVS(VS_INPUT input) {
 
 float4 SkinnedPS(VS_OUTPUT input) : COLOR {
     float4 Diffuse = tex2D(DiffuseSampler, input.UVMap0);
-    float4 Mask    = tex2D(DetailSampler, input.UVMap0);
     float4 Bump    = tex2D(BumpSampler, input.UVMap0);
     float4 Params  = tex2D(LightSampler, input.UVMap0);
     float3 Normal  = bump(Bump.rgb, input.Normal, input.Tangent, input.Binormal);
@@ -97,7 +92,7 @@ float4 SkinnedPS(VS_OUTPUT input) : COLOR {
     return diffuse(
         input.ViewDirection,
         LightDirection,
-        lerp(Mask.rgb, Diffuse.rgb, Mask.a),
+        Diffuse.rgb,
         float3(0.0, 0.0, 0.0),
         Normal,
         Cubemap,
