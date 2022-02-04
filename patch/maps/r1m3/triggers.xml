@@ -1400,6 +1400,7 @@
 		<script>
 			if GetPlayerVehicle() then
 				GetPlayerVehicle():setGodMode(1)
+				GetPlayerVehicle():LimitMaxSpeed(21)
 				--GetPlayerVehicle():SetGamePositionOnGround(CVector(5930.773, 259.023, 7592.678))
 			end
 
@@ -1469,6 +1470,7 @@
 
 			if GetPlayerVehicle() then
 				GetPlayerVehicle():setGodMode(0)
+				GetPlayerVehicle():UnlimitMaxSpeed()
 			end
 			local vehP = GetEntityByName("vehP")
 			if vehP then
