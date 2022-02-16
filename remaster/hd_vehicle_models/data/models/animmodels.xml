@@ -3327,7 +3327,7 @@
 		file="data\models\vehicles\small_car\chassis01.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS_SMALL"
@@ -3353,11 +3353,11 @@
 		file="data\models\vehicles\small_car\suspension01_cab01.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -3367,11 +3367,11 @@
 		file="data\models\vehicles\small_car\suspension02_cab01.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -3382,7 +3382,7 @@
 		file="data\models\vehicles\small_car\wheel01_cab01.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -3392,7 +3392,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -3409,7 +3409,7 @@
 		file="data\models\vehicles\small_car\wheel02_cab01.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -3419,7 +3419,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -3436,11 +3436,11 @@
 		file="data\models\vehicles\small_car\cab01.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -3978,7 +3978,7 @@
 		file="data\models\vehicles\small_car\chassis03.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS_SMALL"
@@ -3988,7 +3988,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS1_SMALL"
@@ -4004,11 +4004,11 @@
 		file="data\models\vehicles\small_car\suspension01_cab03.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -4018,11 +4018,11 @@
 		file="data\models\vehicles\small_car\suspension02_cab03.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -4033,7 +4033,7 @@
 		file="data\models\vehicles\small_car\wheel01_cab03.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
@@ -4043,7 +4043,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
@@ -4060,11 +4060,11 @@
 		file="data\models\vehicles\small_car\cab03.gam">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -9442,36 +9442,12 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
 			name="MOVE1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
@@ -9486,10 +9462,6 @@
 				restartOnAnimationChange="0" />
 			<lp
 				id="LP_GLOW02"
-				effect_id="ET_PS_GLOW"
-				restartOnAnimationChange="0" />
-			<lp
-				id="LP_GLOW03"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 		</action>
