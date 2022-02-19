@@ -3360,7 +3360,7 @@
 <!--Root/r2m2/—южетные/јксель в «ионе-->
 	<Reply
 		name="Axel_hellodlg0"
-		text="я јксель. я слышал, ты искал мен€?!"
+		text="я јксель. —лышал, ты искал мен€?!"
 		role="NPC"
 		scriptCondition="(IsQuestTaken('r2m2_MoveToZeonToAlex')   and   not(IsQuestComplete('r2m2_MoveToZeonToAlex')))  or  (IsQuestTaken('d_GetAkselBandit_Quest')  and  not(IsQuestComplete('d_GetAkselBandit_Quest')))"
 		nextReplies="Dlg_pl_000530 Dlg_pl_000533" />
