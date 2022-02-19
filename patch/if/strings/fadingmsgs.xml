@@ -162,7 +162,7 @@
 
 	<string
 		id="fm_cheat_is_allowed"
-		value="@FF22FF22При тестировании игры, @FF2222FFиспользование читов может привести к ошибкам!@FFFFFFFF" />
+		value="@FF22FF22При тестировании игры @FF2222FFиспользование читов может привести к ошибкам!@FFFFFFFF" />
 
 	<string
 		id="fm_items_remained_on_ground"
