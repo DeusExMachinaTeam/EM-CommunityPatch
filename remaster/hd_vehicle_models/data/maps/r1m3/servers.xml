@@ -443,7 +443,7 @@
 		<Item 	
 			id="sml1Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="sml1Susp01" 
@@ -498,7 +498,7 @@
 		<Item 
 			id="sml3Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="sml3Susp01" 

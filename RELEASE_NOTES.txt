@@ -1,0 +1,12 @@
+--- 220320a ---
+* Public release with new MemManager and patcher
+* Bug Cargo02 and Molokovoz Cab02 texture fixes
+* Skinned shader full support for Sml1 and Sml3 cars
+* agro_tech1.gam wrong texture skin fix
+
+
+--- 220216a ---
+* Test release of new MemManager
+* New patcher with support for MM patching and build version logging and display
+* Complex collisions for trees and some dynamic objects
+* Start of the build version change log journal
