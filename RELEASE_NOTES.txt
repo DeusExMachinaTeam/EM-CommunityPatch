@@ -8,4 +8,5 @@
 --- 220216a ---
 * Test release of new MemManager
 * New patcher with support for MM patching and build version logging and display
+* Complex collisions for trees and some dynamic objects
 * Start of the build version change log journal
