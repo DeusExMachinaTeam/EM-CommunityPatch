@@ -3357,7 +3357,7 @@
 		text="“иран будет повержен."
 		role="PLAYER"
 		scriptResult="CompleteQuest( 'd_BarInGelvetcia_Quest' );  EndConversation()" />
-<!--Root/r2m2/—южетные/јксель в «ионе-->
+<!--Root/r2m2/—южетные/јксель в «еоне-->
 	<Reply
 		name="Axel_hellodlg0"
 		text="я јксель. я слышал, ты искал мен€?!"
