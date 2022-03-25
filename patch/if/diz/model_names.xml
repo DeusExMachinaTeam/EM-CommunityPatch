@@ -143,12 +143,12 @@
 	<Item
 		id="additional_fuel_tank"
 		locForm="0"
-		value="Обычная канистра." />
+		value="Обычная канистра" />
 
 	<Item
 		id="additional_torque"
 		locForm="0"
-		value="Дополнительная выхлопная труба." />
+		value="Дополнительная выхлопная труба" />
 
 	<Item
 		id="additional_durability"
@@ -378,7 +378,7 @@
 	<Item
 		id="minePusher"
 		locForm="0"
-		value="Еж-1" />
+		value="Ёж-1" />
 
 	<Item
 		id="cyclops01"
@@ -583,7 +583,7 @@
 	<Item
 		id="MolokovozCargo04"
 		locForm="0"
-		value="Болт с прицепом" />
+		value="Бокс с прицепом" />
 
 	<Item
 		id="mirotvorecCab01"
@@ -808,7 +808,7 @@
 	<Item
 		id="minePusher_1"
 		locForm="0"
-		value="Еж-2" />
+		value="Ёж-2" />
 
 	<Item
 		id="minePusher_2"
@@ -1703,27 +1703,27 @@
 
 	<Item
 		id="hunterCab01"
-		locForm="0"
+		locForm="1"
 		value="Кабина Охотника" />
 
 	<Item
 		id="hunterCab02"
-		locForm="0"
+		locForm="1"
 		value="Кабина Охотника" />
 
 	<Item
 		id="fighterCab01"
-		locForm="0"
+		locForm="1"
 		value="Кабина Бойца" />
 
 	<Item
 		id="fighterCab02"
-		locForm="0"
+		locForm="1"
 		value="Кабина Бойца" />
 
 	<Item
 		id="arcadescoutCab"
-		locForm="0"
+		locForm="1"
 		value="Кабина Вездеходного скаута" />
 
 	<Item
@@ -1733,12 +1733,12 @@
 
 	<Item
 		id="cruiserCab01"
-		locForm="0"
+		locForm="1"
 		value="Кабина Крейсера" />
 
 	<Item
 		id="cruiserCab02"
-		locForm="0"
+		locForm="1"
 		value="Кабина Крейсера" />
 
 	<Item

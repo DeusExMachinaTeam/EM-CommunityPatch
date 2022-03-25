@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="ScientiferVillage"
+		FullName="Поселок ученого" />
+
+	<Object
+		Name="ScientiferVillage_Bar"
+		FullName="Лаборатория" />
+
+	<Object
+		Name="ScientiferVillage_Shop"
+		FullName="Промтовары" />
+
+	<Object
+		Name="ScientiferVillage_WorkShop"
+		FullName="Умелые ручки" />
+
+	<Object
+		Name="ScientiferVillage_Bar_Scientif"
+		FullName="Ученый Василий" />
+
+	<Object
+		Name="ToR4M1"
+		FullName="Выезд на Вахат" />
+
+	<Object
+		Name="MilitaryBase_loc"
+		FullName="Военная база" />
+
+	<Object
+		Name="PlateRadiation_loc"
+		FullName="Иноземный корабль" />
+
+	<Object
+		Name="PetrolStationTown61"
+		FullName="Старая заправка" />
+
+	<Object
+		Name="CrazyBase"
+		FullName="Военная база с сумасшедшими" />
+
+	<Object
+		Name="PetrolStationTown61_workshop"
+		FullName="Заправка" />
+
+	<Object
+		Name="urod1"
+		FullName="Тидус" />
+
+	<Object
+		Name="urod2"
+		FullName="Шаман" />
+
+	<Object
+		Name="urod3"
+		FullName="Борг" />
+
+	<Object
+		Name="urod4"
+		FullName="Алекс" />
+
+	<Object
+		Name="urod5"
+		FullName="Скорп" />
+
+	<Object
+		Name="urod6"
+		FullName="Гайя" />
+
+	<Object
+		Name="urod7"
+		FullName="Шерман" />
+
+	<Object
+		Name="urod8"
+		FullName="Хррр" />
+
+	<Object
+		Name="urod9"
+		FullName="Дядя Фу" />
+</ObjectNames>

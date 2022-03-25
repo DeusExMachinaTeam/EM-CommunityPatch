@@ -18,7 +18,7 @@
 	<Sample
 		id="4"
 		sound="data\sounds\radio\r_player_attack_4.ogg"
-		text="И снова в бой." />
+		text="И снова в бой!" />
 
 	<Sample
 		id="5"
@@ -123,7 +123,7 @@
 	<Sample
 		id="25"
 		sound="data\sounds\radio\r_bandit_attack_3.ogg"
-		text="Умриииии!!" />
+		text="Умри-и-и-и-и!!" />
 
 	<Sample
 		id="26"
@@ -158,7 +158,7 @@
 	<Sample
 		id="32"
 		sound="data\sounds\radio\r_bandit_dead_1.ogg"
-		text="ААААААААА!" />
+		text="А-А-А-А-А-А-А-А-А!" />
 
 	<Sample
 		id="33"
@@ -243,12 +243,12 @@
 	<Sample
 		id="49"
 		sound="data\sounds\radio\r_farmer_dead_2.ogg"
-		text="За меня отомстят. " />
+		text="За меня отомстят." />
 
 	<Sample
 		id="50"
 		sound="data\sounds\radio\r_farmer_dead_3.ogg"
-		text="Не надо!!!" />
+		text="Не надо!" />
 
 	<Sample
 		id="51"
@@ -488,7 +488,7 @@
 	<Sample
 		id="98"
 		sound="data\sounds\radio\r_ar_dead_2.ogg"
-		text="Моя нога! Моя ..." />
+		text="Моя нога! Моя..." />
 
 	<Sample
 		id="99"
@@ -648,7 +648,7 @@
 	<Sample
 		id="130"
 		sound="data\sounds\radio\r_iron_dead_2.ogg"
-		text="Я горю! Нееет!!!" />
+		text="Я горю! Не-е-ет!!!" />
 
 	<Sample
 		id="131"
@@ -748,7 +748,7 @@
 	<Sample
 		id="150"
 		sound="data\sounds\radio\r_arab_attack_1.ogg"
-		text="Ба-а-алшая ошибка!" />
+		text="Ба-а-альшая ошибка!" />
 
 	<Sample
 		id="151"
@@ -758,7 +758,7 @@
 	<Sample
 		id="152"
 		sound="data\sounds\radio\r_arab_ishit_1.ogg"
-		text="А как тебе это?!!! " />
+		text="А как тебе это?!" />
 
 	<Sample
 		id="153"
@@ -808,12 +808,12 @@
 	<Sample
 		id="162"
 		sound="data\sounds\radio\r_madman_attack_1.ogg"
-		text="Смеерть! " />
+		text="Смее-рть!" />
 
 	<Sample
 		id="163"
 		sound="data\sounds\radio\r_madman_attack_2.ogg"
-		text="Умриии!" />
+		text="Умри-и-и!" />
 
 	<Sample
 		id="164"
@@ -843,7 +843,7 @@
 	<Sample
 		id="169"
 		sound="data\sounds\radio\r_madman_kill_1.ogg"
-		text="Й-ии-хха!" />
+		text="Й-ии-х-ха!" />
 
 	<Sample
 		id="170"

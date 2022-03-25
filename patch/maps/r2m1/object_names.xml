@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="TheGelvetcia"
+		FullName="ГЕЛЬВЕЦИЯ" />
+
+	<Object
+		Name="TheGelvetcia_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheGelvetcia_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheGelvetcia_House"
+		FullName="СЕНАТ" />
+
+	<Object
+		Name="TheGelvetcia_Bar"
+		FullName="Рюмочная" />
+
+	<Object
+		Name="TheGelvetcia_Bar_Barman"
+		FullName="Секретарша Блэр" />
+
+	<Object
+		Name="Senat"
+		FullName="Сенатор Шварц" />
+
+	<Object
+		Name="Gulik"
+		FullName="Жулик Инкс" />
+
+	<Object
+		Name="TheSel"
+		FullName="СЕЛЬ" />
+
+	<Object
+		Name="TheSel_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheSel_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheSel_House"
+		FullName="Станция" />
+
+	<Object
+		Name="TheSel_Bar"
+		FullName="Бар ''Лавин''" />
+
+	<Object
+		Name="TheSel_Bar_Barman"
+		FullName="Работодатель Би" />
+
+	<Object
+		Name="SelCitizen"
+		FullName="Электрик Ил" />
+
+	<Object
+		Name="SelBarmen"
+		FullName="Барменша Воля" />
+
+	<Object
+		Name="Estet"
+		FullName="Эстет Кауфман" />
+
+	<Object
+		Name="TheTuzz"
+		FullName="ТУЗ" />
+
+	<Object
+		Name="TheTuzz_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheTuzz_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheTuzz_House"
+		FullName="Штаб вербовки" />
+
+	<Object
+		Name="TheTuzz_Bar"
+		FullName="Столовая" />
+
+	<Object
+		Name="TheTuzz_Bar_Barman"
+		FullName="Агитаторша Бо" />
+
+	<Object
+		Name="TuzVerb"
+		FullName="Вербовщик Хэнк" />
+
+	<Object
+		Name="TheDoubtful"
+		FullName="РАЗДОЛЬНОЕ" />
+
+	<Object
+		Name="TheDoubtful_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheDoubtful_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheDoubtful_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="TheDoubtful_Bar_Barman"
+		FullName="Барменша" />
+
+	<Object
+		Name="AntipodEstet"
+		FullName="Ценитель старины" />
+
+	<Object
+		Name="TheUnderAttaks"
+		FullName="ПЕТРОПАВЛОВСК" />
+
+	<Object
+		Name="TheUnderAttaks_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheUnderAttaks_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheUnderAttaks_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="TheUnderAttaks_Bar_Barman"
+		FullName="Барменша" />
+
+	<Object
+		Name="TheVill2"
+		FullName="РОТОРСК" />
+
+	<Object
+		Name="TheVill2_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheVill2_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheVill2_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="TheVill2_Bar_Barman"
+		FullName="Барменша" />
+
+	<Object
+		Name="TheVill1"
+		FullName="ГЕНДЕНБУРГСК" />
+
+	<Object
+		Name="TheVill1_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheVill1_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheVill1_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="TheVill1_Bar_Barman"
+		FullName="Барменша" />
+
+	<Object
+		Name="PetrolStationTown1"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown1_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown2"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown2_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown3"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown3_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown4"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown4_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown5"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown5_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheGelvetcia_enter"
+		FullName="ГЕЛЬВЕЦИЯ" />
+
+	<Object
+		Name="TheSel_enter"
+		FullName="СЕЛЬ" />
+
+	<Object
+		Name="TheTuzz_enter"
+		FullName="ТУЗ" />
+
+	<Object
+		Name="TheDoubtful_enter"
+		FullName="РАЗДОЛЬНОЕ" />
+
+	<Object
+		Name="TheUnderAttaks_enter"
+		FullName="ПЕТРОПАВЛОВСК" />
+
+	<Object
+		Name="TheVill1_enter"
+		FullName="ГЕНДЕНБУРГСК" />
+
+	<Object
+		Name="TheVill2_enter"
+		FullName="РОТОРСК" />
+
+	<Object
+		Name="ToR1M3"
+		FullName="Тоннель" />
+
+	<Object
+		Name="ToR3M1"
+		FullName="Подводный тоннель" />
+
+	<Object
+		Name="ToR2M2"
+		FullName="Дорога в Аржан" />
+
+	<Object
+		Name="ToR2M2small"
+		FullName="Тропа в Аржан" />
+
+	<Object
+		Name="u1"
+		FullName="Шрайк" />
+
+	<Object
+		Name="u2"
+		FullName="Пит" />
+
+	<Object
+		Name="u3"
+		FullName="Ричи" />
+
+	<Object
+		Name="u4"
+		FullName="Джин" />
+
+	<Object
+		Name="u5"
+		FullName="Мира" />
+
+	<Object
+		Name="u6"
+		FullName="Рэй" />
+
+	<Object
+		Name="u7"
+		FullName="Шэдоу" />
+
+	<Object
+		Name="u8"
+		FullName="Фосген" />
+
+	<Object
+		Name="u9"
+		FullName="Жан" />
+</ObjectNames>

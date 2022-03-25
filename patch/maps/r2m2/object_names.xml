@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="LagerGuardian"
+		FullName="Повстанец" />
+
+	<Object
+		Name="Monastery"
+		FullName="МОНАСТЫРЬ" />
+
+	<Object
+		Name="Monastery_Bar"
+		FullName="Трапезная" />
+
+	<Object
+		Name="Monastery_Bar_Barman"
+		FullName="Грешница Дарья" />
+
+	<Object
+		Name="Monastery_Cell"
+		FullName="Келья" />
+
+	<Object
+		Name="Monastery_Shop"
+		FullName="Паперть" />
+
+	<Object
+		Name="Monah"
+		FullName="Монашка Иоанна" />
+
+	<Object
+		Name="SektantMain"
+		FullName="Настоятельница" />
+
+	<Object
+		Name="Marezzia"
+		FullName="МАРЕЦЦИЯ" />
+
+	<Object
+		Name="Marezzia_Shtab"
+		FullName="Штаб АР" />
+
+	<Object
+		Name="Marezzia_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Marezzia_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="Marezzia_Bar"
+		FullName="Бар ''Василек''" />
+
+	<Object
+		Name="Marezzia_Bar_Barman"
+		FullName="Официант Антонио" />
+
+	<Object
+		Name="RecruiterInAR"
+		FullName="Оппозиционер Хукс" />
+
+	<Object
+		Name="TrashFarmer"
+		FullName="Мусорщик Сакс" />
+
+	<Object
+		Name="Zeon"
+		FullName="ЗЕОН" />
+
+	<Object
+		Name="Zeon_CentralHouse"
+		FullName="Бункер" />
+
+	<Object
+		Name="Axel"
+		FullName="Аксель" />
+
+	<Object
+		Name="Zeon_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Zeon_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="Toskana"
+		FullName="ТОСКАНА" />
+
+	<Object
+		Name="Toskana_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Toskana_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="Toskana_Bar"
+		FullName="Кафе ''Ностальгия''" />
+
+	<Object
+		Name="Toskana_Bar_Barman"
+		FullName="Бармен Вилли" />
+
+	<Object
+		Name="Agent"
+		FullName="Агент Хрунович" />
+
+	<Object
+		Name="GranicaVillage"
+		FullName="ПОГРАНИЧЬЕ" />
+
+	<Object
+		Name="GranicaVillage_Bar"
+		FullName="Столовая" />
+
+	<Object
+		Name="GranicaVillage_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="GranicaVillage_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="GranicaVillage_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="ZnakiVillage"
+		FullName="САРАЕВО" />
+
+	<Object
+		Name="ZnakiVillage_Bar"
+		FullName="Домик в деревне" />
+
+	<Object
+		Name="ZnakiVillage_Bar_Barman"
+		FullName="Староста" />
+
+	<Object
+		Name="ZnakiVillage_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="ZnakiVillage_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="Aborigen"
+		FullName="Деревенщина Серж" />
+
+	<Object
+		Name="NewVillage"
+		FullName="АСТРИЯ" />
+
+	<Object
+		Name="NewVillage_Bar"
+		FullName="Бар ''Заблудший''" />
+
+	<Object
+		Name="NewVillage_Bar_Barman"
+		FullName="Староста" />
+
+	<Object
+		Name="NewVillage_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="NewVillage_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="NewMechanik"
+		FullName="Механик Жерс" />
+
+	<Object
+		Name="PetrolStationTown1"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown1_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown2"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown2_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown3"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown3_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Toskana_enter"
+		FullName="ТОСКАНА" />
+
+	<Object
+		Name="ZnakiVillage_enter"
+		FullName="САРАЕВО" />
+
+	<Object
+		Name="NewVillage_enter"
+		FullName="АСТРИЯ" />
+
+	<Object
+		Name="EnterToSubmarine_loc"
+		FullName="Морские врата" />
+
+	<Object
+		Name="ToR2M1"
+		FullName="Дорога в Либриум" />
+
+	<Object
+		Name="ToR2M1small"
+		FullName="Тропа в Либриум" />
+
+	<Object
+		Name="u1"
+		FullName="Сэм" />
+
+	<Object
+		Name="u2"
+		FullName="Прайс" />
+
+	<Object
+		Name="u3"
+		FullName="Чистильщик" />
+
+	<Object
+		Name="u4"
+		FullName="Федот" />
+
+	<Object
+		Name="u5"
+		FullName="Пунтус" />
+
+	<Object
+		Name="u6"
+		FullName="Пико" />
+
+	<Object
+		Name="u7"
+		FullName="Чу" />
+
+	<Object
+		Name="u8"
+		FullName="Фосген" />
+
+	<Object
+		Name="u9"
+		FullName="Жан" />
+</ObjectNames>
