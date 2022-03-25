@@ -1,3 +1,11 @@
+--- 220326a ---
+* Text, dialogs proofreading and fixes
+* Bigger activation location for Lisa cutscene in quest FindLisaInGelvetcia
+* Fix for cooling_system affix price
+* Straigtforward price balancing for energy guns as a followup to previous changes to other guns
+* VehicleAIFiringRangeMult doubling to improve bots ability to have a longer range fights
+
+
 --- 220320a ---
 * Public release with new MemManager and patcher
 * Bug Cargo02 and Molokovoz Cab02 texture fixes
