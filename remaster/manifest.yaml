@@ -4,7 +4,7 @@ name: community_remaster
 # required human readable info
 display_name: Community Remaster
 version: "1.11"
-build: "220326a"
+build: "220326b"
 description: |
   Расширенная версия Community Patch, включающая улучшения интерфейса, графики.
   Опции включают новые модели машин и оружия, а так же новый саундтрек.

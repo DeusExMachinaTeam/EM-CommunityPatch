@@ -1,3 +1,7 @@
+--- 220326b ---
+* Patcher now correctly scales fonts on HiDPI monitors and with OS scaling other than 100%
+* Patcher is now compiled with Python3.10 and nuitka
+
 --- 220326a ---
 * Text, dialogs proofreading and fixes
 * Bigger activation location for Lisa cutscene in quest FindLisaInGelvetcia
