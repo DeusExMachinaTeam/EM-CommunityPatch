@@ -104,4 +104,8 @@
 		<Point  coord="1134.856 215.500 3201.983" rotation="0.0000 0.8204 0.0000 0.5718"/>
 	</Path>
 
+	<Path Name = "linkedcam">
+		<Point  coord="0 -1 0" />
+	</Path>
+
 </Paths>
