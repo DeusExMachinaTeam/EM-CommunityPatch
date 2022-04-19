@@ -977,7 +977,7 @@
 		PrecedingQuests="r2m2_AfterAfera"
 		OnComplete='AddPlayerGunsWithRandomAffixOrMoney( 1000,"pkt01",3,8)'
 		OnTake='ShowCircleOnMinimapByName("Leaders")' />
-<!--Root/r2m2/Сюжетные/Приехать в Зион-->
+<!--Root/r2m2/Сюжетные/Приехать в Зеон-->
 	<quest
 		Name="r2m2_MoveToZeonToAlex"
 		Automatic="1"

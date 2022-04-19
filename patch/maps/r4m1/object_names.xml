@@ -6,7 +6,7 @@
 
 	<Object
 		Name="Gadad_Bar"
-		FullName="Кафе 'Жажда'" />
+		FullName="Кафе ''Жажда''" />
 
 	<Object
 		Name="Gadad_Bar_Barman"
@@ -54,7 +54,7 @@
 
 	<Object
 		Name="Kazif_Bar"
-		FullName="Бар 'Черная жижа'" />
+		FullName="Бар ''Черная жижа''" />
 
 	<Object
 		Name="Kazif_Bar_Barman"
@@ -311,16 +311,4 @@
 	<Object
 		Name="urod9"
 		FullName="Дядя Фу" />
-
-	<Object
-		Name=""
-		FullName="" />
-
-	<Object
-		Name=""
-		FullName="" />
-
-	<Object
-		Name=""
-		FullName="" />
 </ObjectNames>

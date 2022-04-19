@@ -3,14 +3,15 @@ name: community_remaster
 
 # required human readable info
 display_name: Community Remaster
-version: "1.10"
+version: "1.11"
+build: "220326b"
 description: |
   Расширенная версия Community Patch, включающая улучшения интерфейса, графики.
   Опции включают новые модели машин и оружия, а так же новый саундтрек.
 authors: DEM Team, EM2ch
 
 # optional human readable info
-release_date: "27.09.2021"
+release_date: "26.03.2022"
 language: ru
 link: https://deuswiki.com/w/Community_Remaster
 
@@ -18,8 +19,8 @@ link: https://deuswiki.com/w/Community_Remaster
 prerequisites: 
   - name: community_patch
     versions: 
-      - "1.10"
-patcher_version_requirement: "1.10"
+      - "1.11"
+patcher_version_requirement: "1.11"
 patcher_options:
   gravity: -19.62
   blast_damage_friendly_fire: false
@@ -35,9 +36,9 @@ optional_content:
     display_name: HD Модели Автомобилей
     description: |
       Полностью новые модели Вена и Молоковоза высокого качества с дополнительным раскрасками.
-      Новый Таракан и его гоночный вариант Турбо GT. 
+      Новый Клоп, Таракан и его гоночный вариант Турбо GT, новый Муравей. 
       + Замена колёс на варианты высокого качества для машин:
-      Клоп, Муравей, Кузнечик, Скаут, Охотник, Боец, Крейсер, Белаз.
+      Кузнечик, Скаут, Охотник, Боец, Крейсер, Белаз.
     patcher_options: 
       skins_in_shop: 16
   - name: ost_remaster

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="OracleDefendersVil"
+		FullName="АПУЛЬКО" />
+
+	<Object
+		Name="OracleDefendersVil_Shop"
+		FullName="Лавка вора" />
+
+	<Object
+		Name="OracleDefendersVil_WorkShop"
+		FullName="Инвалид - ремонтник" />
+
+	<Object
+		Name="AloneDruid"
+		FullName="Одинокий Друид" />
+
+	<Object
+		Name="AloneDruidBuilding"
+		FullName="Хижина друида" />
+
+	<Object
+		Name="OracleDefenders_loc"
+		FullName="Пост стражей Оракула" />
+
+	<Object
+		Name="ToR3M1"
+		FullName="Выезд в Рощу друидов" />
+
+	<Object
+		Name="Monster_loc"
+		FullName="Страшный монстр" />
+
+	<Object
+		Name="VK1_loc"
+		FullName="Вычислительный комплекс 1" />
+
+	<Object
+		Name="VK2_loc"
+		FullName="Вычислительный комплекс 2" />
+
+	<Object
+		Name="VK3_loc"
+		FullName="Вычислительный комплекс 3" />
+
+	<Object
+		Name="Factory_loc"
+		FullName="Заброшенный завод" />
+
+	<Object
+		Name="Oracle_loc"
+		FullName="ОРАКУЛ" />
+
+	<Object
+		Name="OracleNPC"
+		FullName="Оракул" />
+
+	<Object
+		Name="OracleGuardian_1"
+		FullName="Защитник оракула" />
+
+	<Object
+		Name="AloneDruid_Workshop"
+		FullName="Мастерская друида" />
+
+	<Object
+		Name="heavy_dot3_vulcan1"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_kord2"
+		FullName="Дот" />
+
+	<Object
+		Name="urod1"
+		FullName="Тидус" />
+
+	<Object
+		Name="urod2"
+		FullName="Микко" />
+
+	<Object
+		Name="urod3"
+		FullName="Борг" />
+
+	<Object
+		Name="urod4"
+		FullName="Алекс" />
+
+	<Object
+		Name="urod5"
+		FullName="Скорп" />
+
+	<Object
+		Name="urod6"
+		FullName="Гайя" />
+
+	<Object
+		Name="urod7"
+		FullName="Шерман" />
+
+	<Object
+		Name="urod8"
+		FullName="Хррр" />
+
+	<Object
+		Name="urod9"
+		FullName="Дядя Фу" />
+</ObjectNames>

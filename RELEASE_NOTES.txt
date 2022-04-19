@@ -1,0 +1,25 @@
+--- 220326b ---
+* Patcher now correctly scales fonts on HiDPI monitors and with OS scaling other than 100%
+* Patcher is now compiled with Python3.10 and nuitka
+
+--- 220326a ---
+* Text, dialogs proofreading and fixes
+* Bigger activation location for Lisa cutscene in quest FindLisaInGelvetcia
+* Fix for cooling_system affix price
+* Straigtforward price balancing for energy guns as a followup to previous changes to other guns
+* VehicleAIFiringRangeMult doubling to improve bots ability to have a longer range fights
+
+
+--- 220320a ---
+* Public release with new MemManager and patcher
+* Bug Cargo02 and Molokovoz Cab02 texture fixes
+* Skinned shader full support for Sml1 and Sml3 cars
+* agro_tech1.gam wrong texture skin fix
+
+
+--- 220216a ---
+* Test release of new MemManager
+* New patcher with support for MM patching and build version logging and display
+* Complex collisions for trees and some dynamic objects
+* New enemy Sml1, Sml3 HD cars in remaster HD vehicles option
+* Start of the build version change log journal

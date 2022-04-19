@@ -192,7 +192,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Decal				= "DC_LASER"
                 FiringType		= "Plasma"
-		Price			= "90200"
+		Price			= "45100"
 
 		Durability		= "250"/>
 	
@@ -219,7 +219,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize     		= "20"
 		RechargingTime 		= "3.5"
                 FiringType		= "Laser"
-		Price			= "102500"
+		Price			= "51250"
 
 		Durability		= "250"/>
 
@@ -276,7 +276,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		GroupingAngle		= "1.1"
 		FiringRange		= "500"
 		RecoilForce		= "300"
-               	CanBeUsedInAutogenerating  =  "0"
+        
 		ChargeSize     = "18"
 		RechargingTime = "8"
 

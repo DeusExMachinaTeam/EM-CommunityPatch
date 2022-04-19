@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="TheSet"
+		FullName="СЕТ" />
+
+	<Object
+		Name="Set_Bar"
+		FullName="Кафетерий ''У дуба''" />
+
+	<Object
+		Name="Set_Bar_Barman"
+		FullName="Ферен" />
+
+	<Object
+		Name="Set_Bar_MainDruid"
+		FullName="Верховный друид" />
+
+	<Object
+		Name="Set_Bar_Customer1"
+		FullName="Фионий" />
+
+	<Object
+		Name="Set_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="Set_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheFist"
+		FullName="ФИСТ" />
+
+	<Object
+		Name="Fist_Bar"
+		FullName="Бар ''Скала''" />
+
+	<Object
+		Name="Fist_Bar_Barman"
+		FullName="Стальоне" />
+
+	<Object
+		Name="Fist_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Fist_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TheUluk"
+		FullName="УЛУК" />
+
+	<Object
+		Name="Uluk_Bar"
+		FullName="Бар ''Коленвал''" />
+
+	<Object
+		Name="Uluk_Bar_Barman"
+		FullName="Картер" />
+
+	<Object
+		Name="Uluk_Bar_Leader"
+		FullName="Движитель" />
+
+	<Object
+		Name="Uluk_Bar_Customer1"
+		FullName="Карб" />
+
+	<Object
+		Name="Uluk_Workshop"
+		FullName="Мастерская ''Сделай Сам''" />
+
+	<Object
+		Name="Uluk_Shop"
+		FullName="Магазин ''У Боба''" />
+
+	<Object
+		Name="r3m1_NearFist_Guard1"
+		FullName="Охранник Фиста" />
+
+	<Object
+		Name="r3m1_NearFist_Guard2"
+		FullName="Охранник Фиста" />
+
+	<Object
+		Name="r3m1_NearUluk_RescueMan1"
+		FullName="Дениссио" />
+
+	<Object
+		Name="TheRazboynik"
+		FullName="ХАЙДАУТ" />
+
+	<Object
+		Name="TheRazboynik_Bar"
+		FullName="Синий нос" />
+
+	<Object
+		Name="TheRazboynik_Workshop"
+		FullName="АвтоЛекарь" />
+
+	<Object
+		Name="Razboynik_Bar_Barman"
+		FullName="Наливай-ка" />
+
+	<Object
+		Name="TheRazboynik_Shop"
+		FullName="У децибела" />
+
+	<Object
+		Name="Raz_Bar_Lisa"
+		FullName="Лиса" />
+
+	<Object
+		Name="ToR2M1"
+		FullName="Дорога на Либриум" />
+
+	<Object
+		Name="ToR3M2"
+		FullName="Дорога на Игнотт" />
+
+	<Object
+		Name="UlukAmush_loc"
+		FullName="Место засады" />
+
+	<Object
+		Name="ToR1M4"
+		FullName="Порт в Хель" />
+
+	<Object
+		Name="r3_FarVillage"
+		FullName="Эльминст" />
+
+	<Object
+		Name="Razboynic_Bar_Customer1"
+		FullName="Жельванто" />
+
+	<Object
+		Name="Uluk_Hram"
+		FullName="Храм поклонения" />
+
+	<Object
+		Name="Uluk_Hram_Zrec1"
+		FullName="Жрец" />
+
+	<Object
+		Name="Set_HouseMainDruid"
+		FullName="Дом уединения" />
+
+	<Object
+		Name="r3_FarVillage_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r3_FarVillage_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="heavy_dot2_vector1"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot2_vulcan2"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot2_vulcan3"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot2_vulcan4"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan5"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan6"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus7"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus8"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot3_vulcan9"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot2_vector10"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot1_vulcan11"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan12"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_kord13"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_kord14"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_flag15"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_big_kpvt16"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_big_kpvt17"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_vulcan18"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_omega19"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_big_kpvt20"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan21"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_kord22"
+		FullName="Дот" />
+
+	<Object
+		Name="urod1"
+		FullName="Крауд" />
+
+	<Object
+		Name="urod2"
+		FullName="Шквол" />
+
+	<Object
+		Name="urod3"
+		FullName="Борг" />
+
+	<Object
+		Name="urod4"
+		FullName="Мухлик" />
+
+	<Object
+		Name="urod5"
+		FullName="Дэн" />
+
+	<Object
+		Name="urod6"
+		FullName="Гайя" />
+
+	<Object
+		Name="urod7"
+		FullName="Шерман" />
+
+	<Object
+		Name="urod8"
+		FullName="Хррр" />
+
+	<Object
+		Name="urod9"
+		FullName="Дядя Фу" />
+</ObjectNames>
