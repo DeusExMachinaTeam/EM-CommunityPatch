@@ -736,6 +736,9 @@
 --							    LOG("Car Num = "..carnum.." NextLap = "..(lap+1))
 							    SetVar("LapCount"..carnum,lap+1)
 							end
+						else
+							AddFadingMsgId( "fm_race_chekpoint_notright" )
+							AddImportantFadingMsgByStrIdFormatted( "fm_race_chekpoint_notright" )
 						end
 					elseif strsub(name,1,10)=="FormulaCar" then
 --						println("==== +1")
@@ -778,7 +781,7 @@
 
 	<trigger	Name="trFinishRace"	active="0">
 <!--		<event	timeout="1"		eventid="GE_TIME_PERIOD" />-->
-		<event eventid="GE_TARGET_REACHED" ObjName="PlayerFormula"/>
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
 		<script>
 		    local place = GetVar("PlayerPlace").AsInt
 		    if place==1 then
@@ -799,19 +802,13 @@
 --			println("Ostatok = "..ostcena)
 			AddPlayerMoney(ostcena)
 
-
+			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(4176.459, 284.317, 2168.970), Quaternion(0, 0, 0, 0), 0)
+			local CToch = GetEntityByName("CamTochka")
+			local CTochID = CToch:GetId()
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 25*0.74
-			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			Plf:SetCustomControlEnabled(true)
-			Plf:SetCustomLinearVelocity(0)
-			Plf:SetThrottle(0)
-			Plf:SetCustomControlEnabled(false)
-
-			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
+			FlyLinked("linkedcam", CTochID, 5, 0, 1, PlfID)
 			StartCinematic()
 
 		    AddCinematicMessage( place+3, 0.5 )
@@ -898,6 +895,9 @@
 			if veh then 
 			     veh:Remove()
 			end
+
+			local CToch = GetEntityByName("CamTochka")
+			if CToch then CToch:Remove() end
 
 --			local plcarname=GetVar("PlayerCarNameRace").AsString
 --			println("Name = "..plcarname)
