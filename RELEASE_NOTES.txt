@@ -1,3 +1,9 @@
+--- 220507a ---
+* Vahat race improved: entering wrong checkpoint will result in a warning, nicer race finish cutscene
+* Counter-balance of unintended changes in DPS for Rainmetal, Vector and Bumblebee to get closer to vanila
+* Shader fix for wrong light luminance calculation on 25-30 degrees ramps in ComRem
+* Minor fix for scroll speed of opening titles, minor text fix
+
 --- 220326b ---
 * Patcher now correctly scales fonts on HiDPI monitors and with OS scaling other than 100%
 * Patcher is now compiled with Python3.10 and nuitka
