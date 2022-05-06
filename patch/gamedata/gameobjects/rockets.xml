@@ -118,6 +118,28 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 
         <Prototype
                 Class                   = "BlastWave"
+                Name                    = "smallBlastWave_rainmetal"
+                Effect                  = "ET_PS_AIRWAVE2"
+                
+                Radius                  = "30.0"
+
+                WaveForceIntensity      = "18.0"
+                WaveDamageIntensity     = "18.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "smallBlastWave_bumblebee"
+                Effect                  = "ET_PS_AIRWAVE2"
+                
+                Radius                  = "30.0"
+
+                WaveForceIntensity      = "13.0"
+                WaveDamageIntensity     = "13.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
                 Name                    = "mineBlastWave"
                 Effect                  = "ET_PS_CANNONGROUNDEXPLOSION"
                 

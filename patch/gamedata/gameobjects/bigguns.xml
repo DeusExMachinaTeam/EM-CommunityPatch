@@ -48,13 +48,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BulletPrototype		= "raybullet"
 		ExplosionType		= "MACHINEGUN"
 		FiringEffect		= "none"
-		Damage			= "14"
+		Damage			= "13"
 		FiringRate		= "300"
 		GroupingAngle		= "1.4"
 		FiringRange		= "750"
 		RecoilForce		= "50"
 		
-		ChargeSize     = "50"
+		ChargeSize     = "135"
 		RechargingTime = "3.5"
 
 		Decal				= "DC_BIG_MACHINEGUN"
@@ -162,12 +162,12 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		
 		Decal				= "DC_BIG_MACHINEGUN"
 
-		ChargeSize     = "50"
+		ChargeSize     = "80"
 		RechargingTime = "5"
 
 		Price			= "7680"
                 FiringType		= "Cannon"
-		BlastWavePrototype      = "smallBlastWave"
+		BlastWavePrototype      = "smallBlastWave_rainmetal"
 		Durability		= "100" />
 
 	<Prototype
@@ -236,7 +236,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BulletPrototype		= "someMortarShell"
 		ExplosionType		= "GRENADE"
 		FiringEffect		= "none"
-		Damage			= "120"
+		Damage			= "115"
 		FiringRate		= "70"
 		GroupingAngle		= "2.1"
 		FiringRange		= "600"
@@ -245,8 +245,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ActionDist		= "1000"		
 		InitialVelocity		= "70"
 
-		BlastWavePrototype      = "smallBlastWave"
-		ChargeSize     = "9"
+		BlastWavePrototype      = "smallBlastWave_bumblebee"
+		ChargeSize     = "21"
 		RechargingTime = "6"
 
 		TurningSpeed		= "100"
