@@ -110,7 +110,7 @@ float4 diffuse(float3 dir_view,
     float  RdotV = dot    ( NrefL,    -dir_view);
 
     float  luminance = max(0.0, NdotL);
-    float3 light = g_Ambient.rgb + g_Diffuse.rgb * luminance;
+    float3 light = saturate(g_Ambient.rgb + g_Diffuse.rgb * luminance);
 
     float3 color = Color;
 
