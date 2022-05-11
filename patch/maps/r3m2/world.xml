@@ -2,7 +2,7 @@
 <World
 	name="Object16"
 	class="SgNode"
-	LastId="76475773">
+	LastId="76475842">
 	<Node
 		name="ET_PS_AUTOCANNON_STAND"
 		class="SgNode"
@@ -18940,16 +18940,6 @@
 		orgRel="1"
 		rot="0.2244 0.5560 -0.3703 0.7095"
 		scale="0.449 0.449 0.449"
-		id="concrete_plate"
-		ndmAction="0" />
-
-	<Node
-		name="Object205784001"
-		class="SgAnimatedModelNode"
-		org="2979.565 6.859 3348.401"
-		orgRel="1"
-		rot="-0.2449 0.6134 0.2082 0.7214"
-		scale="0.593 0.593 0.593"
 		id="concrete_plate"
 		ndmAction="0" />
 
