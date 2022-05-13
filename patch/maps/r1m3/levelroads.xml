@@ -13660,7 +13660,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode588380588"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode723230020"
 		BackZLink="RoadNode588379532"
@@ -13670,7 +13670,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode588379532"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode588380588"
 		BackZLink="RoadNode592223692"
@@ -13680,7 +13680,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode592223692"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="2"
 		FwdZLink="RoadNode588379532"
 		BackZLink="RoadNode981350692"
@@ -13690,7 +13690,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981350692"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="2"
 		FwdZLink="RoadNode592223692"
 		BackZLink="RoadNode981352804"
@@ -13700,7 +13700,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981352804"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981350692"
 		BackZLink="RoadNode981355972"
@@ -13710,7 +13710,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981355972"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981352804"
 		BackZLink="RoadNode981353860"
@@ -13720,7 +13720,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981353860"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981355972"
 		BackZLink="RoadNode981361780"
@@ -13730,7 +13730,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981361780"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981353860"
 		BackZLink="RoadNode981359140"
@@ -13740,7 +13740,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981359140"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="0"
 		FwdZLink="RoadNode981361780"
 		BackZLink="RoadNode588375308"
@@ -13750,7 +13750,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode588375308"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981359140"
 		BackZLink="RoadNode981177300"
@@ -13760,7 +13760,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981177300"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="2"
 		FwdZLink="RoadNode588375308"
 		BackZLink="RoadNode981179412"
@@ -13770,7 +13770,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981179412"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981177300"
 		BackZLink="RoadNode981332284"
@@ -13780,7 +13780,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981332284"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="0"
 		FwdZLink="RoadNode981179412"
 		BackZLink="RoadNode981183636"
@@ -13790,7 +13790,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981183636"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981332284"
 		BackZLink="RoadNode981185748"
@@ -13800,7 +13800,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981185748"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="2"
 		FwdZLink="RoadNode981183636"
 		BackZLink="RoadNode981332812"
@@ -13810,7 +13810,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981332812"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="2"
 		FwdZLink="RoadNode981185748"
 		BackZLink="RoadNode981176244"
@@ -13820,7 +13820,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981176244"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode981332812"
 		org="4231.704 0.000 3701.424"
@@ -13829,7 +13829,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode981190796"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode1061654236"
 		BackZLink="RoadNode1061648428"
@@ -15219,7 +15219,7 @@
 	<RoadNode
 		class="RoadNode"
 		name="RoadNode587988788"
-		roadset="road_highway"
+		roadset="test_old_hightway"
 		skinNumber="1"
 		FwdZLink="RoadNode1057550708"
 		BackZLink="RoadNode1057549652"
