@@ -89,7 +89,7 @@ $Id: Bosses.xml,v 1.38 2005/11/24 09:45:18 anton Exp $
 
 		ContainerPrototype	= "boss02container"
 		
-		NumExplodedLoadsToDie = "3"
+		NumExplodedLoadsToDie = "2"
 
 		ResourceType		= "BOSS02"
 
@@ -127,7 +127,7 @@ $Id: Bosses.xml,v 1.38 2005/11/24 09:45:18 anton Exp $
 			TurningSpeed 		= "5"
 			FrameToPickUpLoad	= "70"
 			LoadPointForLoad	= "LP_LOAD01"
-			CriticalNumExplodedLoads = "3"
+			CriticalNumExplodedLoads = "2"
 
 
 			FrameToPickUpContainerForBlock	= "157"
