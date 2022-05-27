@@ -175,7 +175,8 @@
 
 			local FVehicle = GetEntityByName("FirstB_0")
 			if FVehicle then
-				FVehicle:SetSkin ( 1 )
+				FVehicle:setGodMode( 1 )
+				FVehicle:SetRandomSkin()
 				FVehicle:SetRotation(Quaternion(0.021, 0.472, 0.040, 0.880))
 				FVehicle:SetThrottle( 1 )
 				FVehicle:SetCustomLinearVelocity( 25 )
@@ -211,14 +212,19 @@
 			RestoreAllToleranceStatus()
 
 			local FVehicle = GetEntityByName("FirstB_0")
-			if FVehicle then FVehicle:Remove() end
+			if FVehicle then
+				skin = FVehicle:GetSkin()
+				FVehicle:Remove()
+			end
 
 			TeamCreate("FirstB",1002,CVector(2957.974, 333.446, 2394.033),{"Sml101"})
 			local terr = GetEntityByName("FirstB_vehicle_0")
 			if terr then
-				terr:SetSkin ( 1 )
+				terr:SetSkin ( skin )
 				SetCameraDirectionToObj(terr:GetId())
 			end
+
+			skin = nil
 
 			TDeactivate( "trZasada1_cam01" )
 			TDeactivate( "trZasada1_StopPl" )
