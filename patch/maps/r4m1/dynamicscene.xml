@@ -374,16 +374,6 @@
 				</Item>
 
 				<Item
-					PosX="3"
-					PosY="0"
-					Flags="16"
-					Prototype="BelazForSale">
-					<Parts />
-
-					<Repository />
-				</Item>
-
-				<Item
 					PosX="4"
 					PosY="0"
 					Flags="16"
@@ -832,16 +822,6 @@
 					PosY="0"
 					Flags="16"
 					Prototype="UralForSale">
-					<Parts />
-
-					<Repository />
-				</Item>
-
-				<Item
-					PosX="3"
-					PosY="0"
-					Flags="16"
-					Prototype="BelazForSale">
 					<Parts />
 
 					<Repository />
@@ -1303,16 +1283,6 @@
 					PosY="0"
 					Flags="16"
 					Prototype="UralForSale">
-					<Parts />
-
-					<Repository />
-				</Item>
-
-				<Item
-					PosX="3"
-					PosY="0"
-					Flags="16"
-					Prototype="BelazForSale">
 					<Parts />
 
 					<Repository />

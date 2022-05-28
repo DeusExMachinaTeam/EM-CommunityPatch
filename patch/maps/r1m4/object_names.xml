@@ -248,11 +248,11 @@ FullName = "Маркизыч"/-->
 
 	<Object
 		Name="ToR1M3"
-		FullName="Выезд на Фатерлянд" />
+		FullName="Выезд на Фентельярд" />
 
 	<Object
 		Name="ToR3M1"
-		FullName="Порт в Рощу друидов" />
+		FullName="Порт в Рощу дуридов" />
 
 	<Object
 		Name="Olme_Bar_Traider"

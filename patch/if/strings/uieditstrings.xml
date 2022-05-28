@@ -501,6 +501,10 @@
 		value="Профессионал" />
 
 	<string
+		id="HardLevelPlus"
+		value="Профессионал" />
+
+	<string
 		id="ImpossibleLevel"
 		value="Мастер" />
 <!-- DemoSplashWnd -->

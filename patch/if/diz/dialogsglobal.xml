@@ -3287,7 +3287,7 @@
 
 	<Reply
 		name="Dlg_npc_000515"
-		text="Спасибо тебе! Мы уйдём в Либриум, но у меня есть ценные сведения, которые нужно срочно переправить руководству Независимых Городов. "
+		text="Спасибо тебе! Мы уйдём в Лимбриум, но у меня есть ценные сведения, которые нужно срочно переправить руководству Независимых Городов. "
 		role="NPC"
 		nextReplies="Dlg_pl_000516" />
 
@@ -5216,7 +5216,7 @@
 		name="PeshtGuardian_hellodlg0_3"
 		text="Нет. Сейчас город закрыт. Мы переходим в глухую оборону. Пока не решится проблема с бандитами, город находится на военном положении."
 		role="NPC"
-		nextReplies="PeshtGuardian_hellodlg0_P1_3" />
+		nextReplies="Dlg_pl_dd2148" />
 
 	<Reply
 		name="PeshtGuardian_hellodlg0_P1"
@@ -5235,19 +5235,6 @@
 		text="Так пропустите меня?"
 		role="PLAYER"
 		nextReplies="PeshtGuardian_hellodlg0_3" />
-
-	<Reply
-		name="PeshtGuardian_hellodlg0_P1_3"
-		text="Что же делать?"
-		role="PLAYER"
-		scriptResult="TakeQuest( 'd_RideAcrossBase_Quest' ); EndConversation()" />
-
-	<Reply
-		name="PeshtGuardian_hellodlg1"
-		text="Не видишь?! Проезд закрыт!"
-		role="NPC"
-		scriptCondition="IsQuestTaken( 'd_GiveMoneyToBase_Quest' )  and  not(IsQuestComplete( 'd_GiveMoneyToBase_Quest' ))  and  not(IsQuestComplete( 'd_GetBomb_Quest' ))  and  not(IsQuestTaken( 'd_GetBomb_Quest' ))"
-		nextReplies="Dlg_pl_dd2148" />
 
 	<Reply
 		name="PeshtGuardian_hellodlg2"
@@ -6165,7 +6152,7 @@
 		name="Dlg_pl_dd2154"
 		text="[Про себя] А у самих-то что, ноги отсохли? Трусы…"
 		role="PLAYER"
-		scriptResult="TakeQuest( 'd_GetBomb_Quest' ); EndConversation()" />
+		scriptResult="TakeQuest( 'd_GetBomb_Quest' ); TakeQuest( 'd_RideAcrossBase_Quest' ); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_dd2156"
@@ -6531,7 +6518,7 @@
 
 	<Reply
 		name="Dlg_npc_001274"
-		text="Весьма занятное наблюдение! Я как раз веду исследование этого вопроса. Вы говорите, Игнотт. Далековато… Но в этом есть своя логика. Как же мне недостает информации! Кстати, вот Ваша награда."
+		text="Весьма занятное наблюдение! Я как раз веду исследование этого вопроса. Вы говорите, Инготт. Далековато… Но в этом есть своя логика. Как же мне недостает информации! Кстати, вот Ваша награда."
 		role="NPC"
 		nextReplies="Dlg_pl_001275" />
 

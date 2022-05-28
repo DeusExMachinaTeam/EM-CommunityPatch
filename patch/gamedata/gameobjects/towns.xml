@@ -15,6 +15,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="pkt01" />
 			<Object PrototypeName="vector01" />
 			<Object PrototypeName="minePusher"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
 
 		</Prototype>	
 
@@ -28,7 +29,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="vector01" />
 			<Object PrototypeName="kpvt01" />
 			<Object PrototypeName="rapier01" />
-			<Object PrototypeName="minePusher"/>		
+			<Object PrototypeName="minePusher"/>	
+			<Object PrototypeName="someTurboAccelerationPusher"/>	
 		</Prototype>	
 
 		<Prototype
@@ -73,7 +75,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="hailSideGun" />
 			<Object PrototypeName="hunterSideGun" />
 			<Object PrototypeName="minePusher_1"/>
-                        <Object PrototypeName="engineOilPusher"/>
+            <Object PrototypeName="engineOilPusher"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
 		</Prototype>	
 
 		<Prototype
@@ -90,7 +93,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="zeusSideGun"/>
 			<Object PrototypeName="hurricane01" />
 			<Object PrototypeName="minePusher_1"/>		
-			<Object PrototypeName="engineOilPusher"/>		
+			<Object PrototypeName="engineOilPusher"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>		
 		</Prototype>	
 		<Prototype
 			Class="RepositoryObjectsGenerator"
@@ -107,6 +111,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="minePusher_2"/>
 
 			<Object PrototypeName="nailsPusher"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
 		</Prototype>	
 
 		<Prototype
@@ -126,6 +131,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="hunterSideGun" />
 			<Object PrototypeName="minePusher_1"/>
 			<Object PrototypeName="Smoke"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
 		</Prototype>	
 
 		<Prototype
@@ -198,6 +204,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="kpvt01" />
 			<Object PrototypeName="kord01" />
 			<Object PrototypeName="minePusher"/>
+			<Object PrototypeName="someTurboAccelerationPusher"/>
 
 		</Prototype>	
 

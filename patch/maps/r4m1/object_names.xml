@@ -118,11 +118,11 @@
 
 	<Object
 		Name="ToR4M2"
-		FullName="Выезд на Зармек" />
+		FullName="Выезд на Замрек" />
 
 	<Object
 		Name="ToR2M2"
-		FullName="Порт в Аржан" />
+		FullName="Порт в Аранжан" />
 
 	<Object
 		Name="TheOilCity"

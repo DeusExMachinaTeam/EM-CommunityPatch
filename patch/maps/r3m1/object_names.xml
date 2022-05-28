@@ -114,11 +114,11 @@
 
 	<Object
 		Name="ToR2M1"
-		FullName="Дорога на Либриум" />
+		FullName="Дорога на Лимбриум" />
 
 	<Object
 		Name="ToR3M2"
-		FullName="Дорога на Игнотт" />
+		FullName="Дорога на Инготт" />
 
 	<Object
 		Name="UlukAmush_loc"

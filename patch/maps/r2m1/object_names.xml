@@ -258,11 +258,11 @@
 
 	<Object
 		Name="ToR2M2"
-		FullName="Дорога в Аржан" />
+		FullName="Дорога в Аранжан" />
 
 	<Object
 		Name="ToR2M2small"
-		FullName="Тропа в Аржан" />
+		FullName="Тропа в Аранжан" />
 
 	<Object
 		Name="u1"

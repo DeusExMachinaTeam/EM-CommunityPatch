@@ -274,6 +274,8 @@
 
    				CompleteQuest( "d_DestroyBridge_Quest" )
 
+				CompleteQuestIfTaken("d_RideAcrossBase_Quest")
+
 				local a = GetEntityByName("BaseGuardian_enter")
 				if a then a:SetProperty("Active",0) end
 

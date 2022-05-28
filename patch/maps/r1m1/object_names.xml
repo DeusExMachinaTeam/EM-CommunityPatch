@@ -166,11 +166,11 @@
 <!-- локации -->
 	<Object
 		Name="ToR1M2"
-		FullName="Дорога в Риджин" />
+		FullName="Дорога в Ринджин" />
 
 	<Object
 		Name="ToR1M3"
-		FullName="Дорога на Фатерлянд" />
+		FullName="Дорога на Фентельярд" />
 
 	<Object
 		Name="ToR4M1"

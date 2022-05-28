@@ -148,6 +148,12 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
     		EnemyShootingDelay	= "0.5"
     		/>
 
+		<Level
+    		Name				= "HardLevelPlus"
+    		EnemyWeaponCoeff	= "2.0"
+    		EnemyShootingDelay	= "0.25"
+    		/>
+
     	<Level
     		Name				= "ImpossibleLevel"
     		EnemyWeaponCoeff	= "3.0"

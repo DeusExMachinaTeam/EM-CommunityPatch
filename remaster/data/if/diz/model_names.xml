@@ -533,7 +533,7 @@
 	<Item
 		id="uralCab05"
 		locForm="0"
-		value="Витязь" />
+		value="Князь" />
 
 	<Item
 		id="uralCargo01"
@@ -728,7 +728,7 @@
 	<Item
 		id="fagot01"
 		locForm="0"
-		value="Фагот" />
+		value="Осуждаю" />
 
 	<Item
 		id="kpvt01"
@@ -738,7 +738,7 @@
 	<Item
 		id="rainmetal01"
 		locForm="0"
-		value="Рейнметалл" />
+		value="Райменталл" />
 
 	<Item
 		id="octopus01"
@@ -758,7 +758,7 @@
 	<Item
 		id="hurricane01"
 		locForm="0"
-		value="Ураган" />
+		value="Уркаган" />
 
 	<Item
 		id="hailSideGun"

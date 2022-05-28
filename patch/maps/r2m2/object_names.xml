@@ -218,11 +218,11 @@
 
 	<Object
 		Name="ToR2M1"
-		FullName="Дорога в Либриум" />
+		FullName="Дорога в Лимбриум" />
 
 	<Object
 		Name="ToR2M1small"
-		FullName="Тропа в Либриум" />
+		FullName="Тропа в Лимбриум" />
 
 	<Object
 		Name="u1"

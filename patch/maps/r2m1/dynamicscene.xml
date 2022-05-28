@@ -463,32 +463,6 @@
 
 			<Vehicles>
 				<Item
-					PosX="3"
-					PosY="0"
-					Flags="16"
-					Prototype="BelazForSale"
-					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="belazCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="belazCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="belazChassis" />
-					</Parts>
-
-					<Repository />
-				</Item>
-
-				<Item
 					PosX="2"
 					PosY="0"
 					Flags="16"

@@ -138,7 +138,7 @@
 
 	<string
 		id="r1m1_ToR1M3_diz"
-		value="Дорога на Фатерлянд" />
+		value="Дорога на Фентельярд" />
 
 	<string
 		id="r1m1_ToR4M1_diz"
@@ -146,7 +146,7 @@
 
 	<string
 		id="r1m1_ToR1M2_diz"
-		value="Дорога в Риджин" />
+		value="Дорога в Ринджин" />
 
 	<string
 		id="r1m2_ToR1M1_diz"
@@ -154,51 +154,51 @@
 
 	<string
 		id="r1m2_ToR1M3_diz"
-		value="Дорога на Фатерлянд" />
+		value="Дорога на Фентельярд" />
 
 	<string
 		id="r1m4_ToR1M3_diz"
-		value="Дорога в Фатерлянд" />
+		value="Дорога в Фентельярд" />
 
 	<string
 		id="r1m4_ToR3M1_diz"
-		value="В рощу друидов" />
+		value="В рощу дуридов" />
 
 	<string
 		id="r2m1_ToR2M2_diz"
-		value="Дорога на Аржан" />
+		value="Дорога на Аранжан" />
 
 	<string
 		id="r2m1_ToR2M2small_diz"
-		value="Тропа в Аржан" />
+		value="Тропа в Аранжан" />
 
 	<string
 		id="r2m1_ToR1M3_diz"
-		value="Дорога на Фатерлянд" />
+		value="Дорога на Фентельярд" />
 
 	<string
 		id="r2m1_ToR3M1_diz"
-		value="Выезд в Рощу друидов" />
+		value="Выезд в Рощу дуридов" />
 
 	<string
 		id="r2m2_ToR2M1_diz"
-		value="Дорога в Либриум" />
+		value="Дорога в Лимбриум" />
 
 	<string
 		id="r2m2_ToR2M1small_diz"
-		value="Тропа в Либриум" />
+		value="Тропа в Лимбриум" />
 
 	<string
 		id="r3m1_ToR2M1_diz"
-		value="Дорога на Либриум" />
+		value="Дорога на Лимбриум" />
 
 	<string
 		id="r3m1_ToR3M2_diz"
-		value="Дорога на Игнотт" />
+		value="Дорога на Инготт" />
 
 	<string
 		id="r3m2_ToR3M1_diz"
-		value="Выезд в Рощу друидов" />
+		value="Выезд в Рощу дуридов" />
 
 	<string
 		id="r4m1_ToR1M1_diz"
@@ -206,15 +206,15 @@
 
 	<string
 		id="r4m1_ToR2M2_diz"
-		value="Выезд на Аржан" />
+		value="Выезд на Аранжан" />
 
 	<string
 		id="r4m1_ToR4M2_diz"
-		value="Выезд на Зармек" />
+		value="Выезд на Замрек" />
 
 	<string
 		id="r1m2_Esting_diz"
-		value="Городок, окружённый фермерскими угодьями. Обеспечивает картофелем весь Риджин и добрую половину Фатерлянда." />
+		value="Городок, окружённый фермерскими угодьями. Обеспечивает картофелем весь Ринджин и добрую половину Фентельярда." />
 
 	<string
 		id="r1m2_Midragd_diz"
@@ -282,11 +282,11 @@
 
 	<string
 		id="r1m3_ToR2M1_diz"
-		value="Дорога на Либриум" />
+		value="Дорога на Лимбриум" />
 
 	<string
 		id="r1m3_ToR1M2_diz"
-		value="Дорога в Риджин" />
+		value="Дорога в Ринджин" />
 
 	<string
 		id="r1m3_ToR1M4_diz"
@@ -366,7 +366,7 @@
 
 	<string
 		id="r2m2_Toskana_diz"
-		value="Неприступная крепость, координирующая действия огромной шайки головорезов, в которую превратилось народное ополчение Аржана." />
+		value="Неприступная крепость, координирующая действия огромной шайки головорезов, в которую превратилось народное ополчение Аранжана." />
 
 	<string
 		id="r2m2_GranicaVillage_diz"
