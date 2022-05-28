@@ -275,6 +275,8 @@
 
 			TakeQuest( "d_FindVerbInAR_Quest" )
 
+			AddBook("r1_book_ar_flyer")
+
 			StopPlayingCustomMusic()
 
 			SetCameraBehindPlayerVehicle()

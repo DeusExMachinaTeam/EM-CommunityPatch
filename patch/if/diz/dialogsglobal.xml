@@ -2918,7 +2918,6 @@
 		name="Dlg_npc_000463"
 		text="Так ты с нами или против нас?"
 		role="NPC"
-		scriptResult="AddBook('r1_book_ar_flyer');"
 		nextReplies="Dlg_pl_000464 Dlg_pl_000465" />
 
 	<Reply
