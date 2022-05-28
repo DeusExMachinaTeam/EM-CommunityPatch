@@ -705,5 +705,44 @@
 		</script>
 	</trigger>
 
+	<!-- Создаём Лису и привязываем её к игроку  -->
+	<trigger Name="LisaCreate" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("LisaInCar",1042,CVector(534.907, 294.652, 1616.814),{"LisaCar"})
+			local carlisa = getObj("LisaInCar_vehicle_0")
+			if carlisa then
+				carlisa:SetRotation(Quaternion(0.007, 0.593, -0.007, 0.805))
+				carlisa:SetSkin(2)
+				carlisa:setImmortalMode(1)
+			end
+
+			TActivate("LisaFollowsUs")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="LisaFollowsUs" active="0">
+		<event	timeout="2"		eventid="GE_TIME_PERIOD" />
+		<script>
+		
+			local newControllerId = CreateNewObject {
+				prototypeName	= "someNPCMotionController",
+				objName	= "LisaCont"
+			}
+
+			local newController = GetEntityByID(newControllerId)
+
+			local FVehicle = GetEntityByName("LisaInCar_vehicle_0")
+
+			if newController and FVehicle then
+				newController:setVehicleUnderControl(FVehicle)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 
 </triggers>
