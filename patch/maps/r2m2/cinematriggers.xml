@@ -1298,8 +1298,8 @@
 				vehPlayer:SetRotation(Quaternion(0.001, -0.109, -0.003, 0.994))
 			end
 
-			TeamCreate("LisaRunCar",1042,CVector(2760,260,901),{"LisaCar"})
-			local FVehicle = GetEntityByName("LisaRunCar_vehicle_0")
+			TeamCreate("LisaInCar",1042,CVector(2760,260,901),{"LisaCar"})
+			local FVehicle = GetEntityByName("LisaInCar_vehicle_0")
 			if FVehicle then
 				FVehicle:SetSkin ( 2 )
 				FVehicle:setImmortalMode(1)

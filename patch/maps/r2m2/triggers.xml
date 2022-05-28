@@ -733,7 +733,7 @@
 
 			local newController = GetEntityByID(newControllerId)
 
-			local FVehicle = GetEntityByName("LisaRunCar_vehicle_0")
+			local FVehicle = GetEntityByName("LisaInCar_vehicle_0")
 
 			if newController and FVehicle then
 				newController:setVehicleUnderControl(FVehicle)

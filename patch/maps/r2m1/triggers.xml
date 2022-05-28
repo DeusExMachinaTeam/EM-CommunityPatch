@@ -802,10 +802,10 @@
 	<trigger Name="OPARISPARIS" active="1">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ParisLocation" />
 		<script>
-			if  IsQuestTaken("d_MoveInParis_Quest") and not(IsQuestComplete("d_MoveInParis_Quest") or IsQuestFailed("d_MoveInParis_Quest"))  then
+			if  (IsQuestTaken("d_MoveInParis_Quest") and not(IsQuestComplete("d_MoveInParis_Quest") or IsQuestFailed("d_MoveInParis_Quest"))) or (IsQuestTaken("r2m2_GiveDisk2ToOrakul") and not(IsQuestComplete("r2m2_GiveDisk2ToOrakul") or IsQuestFailed("r2m2_GiveDisk2ToOrakul")))  then
 				TActivate("RolikBegin_OPARIS")
 
-   				CompleteQuest( "d_MoveInParis_Quest" )
+   				CompleteQuestIfTaken( "d_MoveInParis_Quest" )
 
 				TActivate("PARISTUBECREATE")
 				TActivate("TRIGGER_OPARISPARISBOSSDIE")
