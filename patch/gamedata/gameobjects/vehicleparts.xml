@@ -1521,7 +1521,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount	= "1" />
+					MaxAmount	= "2" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
@@ -2038,7 +2038,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount	= "4" />         
+					MaxAmount	= "4" />
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "2" /> 
 			</GadgetDescription>
 			<GroupsHealth
 				Main   = "0"	
@@ -3369,6 +3372,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<Slot
 					Name		= "BASKET_GIANT_GUN"
 					Pos		= "5 0"
+				/>
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "13 0"
 				/>
 			</RepositoryDescription> 
 			<GroupsHealth
