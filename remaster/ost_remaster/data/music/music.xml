@@ -284,4 +284,7 @@
 	<model
 		id="Techno04"
 		file="data\music\cinematics\Techno04.ogg" />
+	<model
+		id="UFOEndMusic"
+		file="data\music\cinematics\ciphei.ogg" />
 </Music>

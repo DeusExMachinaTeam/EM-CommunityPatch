@@ -176,7 +176,7 @@
 		<Node
 			name="wndScrollText"
 			class="Wnd"
-			org="330.000 180.000 1260.000 720.000"
+			org="330.000 0.000 1260.000 1080.000"
 			style="768"
 			order="18"
 			id="0"
@@ -199,7 +199,7 @@
 		<Node
 			name="wndScrollImage"
 			class="ImageWnd"
-			org="0.000 180.000 1920.000 720.000"
+			org="0.000 0.000 1920.000 1080.000"
 			style="768"
 			order="18"
 			id="0"

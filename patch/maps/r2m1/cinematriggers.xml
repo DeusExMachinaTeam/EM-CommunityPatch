@@ -1786,7 +1786,8 @@
 			Fly("UFODIE_cam031", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
 			Fly("UFODIE_cam04", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
 			FlyAround( 1, 0, 70, 3, PlfCoor, PlfID, 0, 0 )
-			Fly("start_game", CINEMATIC_NO_AIM, 0, 67, 0, 1 )
+			Fly("start_game", CINEMATIC_NO_AIM, 0, 67, 0, 0 )
+			Fly("BattleUFO_cam05", CINEMATIC_NO_AIM, 0, 380, 0, 1 )
 			StartCinematic()
 
 			CreateEffectTTLed("ET_S_UFODEATH", CVector(ufopos), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 30000)
@@ -1803,6 +1804,7 @@
 			TActivate("trUFODIE_EF")
 			TActivate("trUFODIE_cam04")
 			TActivate("trUFODIE_cam05")
+			TActivate("trUFODIE_cam06")
 
 			trigger:Deactivate()
 		</script>
@@ -1864,6 +1866,19 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trUFODIE_cam06" active="0">
+		<event flypath="BattleUFO_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			PlayCustomMusic("UFOEndMusic")
+			
+			AddCinematicMessage( 77774, 0.1)
+			AddCinematicMessage( 77772, 0.1)
+			AddCinematicMessage( 77773, 0.1)
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="RolikEnd_UFODIE" active="0">
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
@@ -1871,9 +1886,10 @@
 			TDeactivate("trUFODIE_EF")
 			TDeactivate("trUFODIE_cam04")
 			TDeactivate("trUFODIE_cam05")
+			TDeactivate("trUFODIE_cam06")
 
 			StopPlayingCustomMusic()
-			ShowDeathMenu()
+			TActivate("trTotalGameCount")
 
 			trigger:Deactivate()
 		</script>

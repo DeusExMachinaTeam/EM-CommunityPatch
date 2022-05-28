@@ -1234,4 +1234,20 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+	
+	<trigger Name="trTotalGameCount" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+
+			if QuestStatus("d_PunishBandits_Quest")==Q_COMPLETED and QuestStatus("ReturnToDirector2_Quest")==Q_COMPLETED and (QuestStatus("HelpRuins_Quest")==Q_COMPLETED or QuestStatus("DestroyRuins_Quest")==Q_COMPLETED) and QuestStatus("Signs_Quest")==Q_COMPLETED and QuestStatus("r1m3_BonnyAndKlideQuest")==Q_COMPLETED and QuestStatus("r1m3_ArchHelp")==Q_COMPLETED and QuestStatus("r1m3_OldTownOutsiderCar_Quest")==Q_COMPLETED and QuestStatus("TraiderStorage_Quest1")==Q_COMPLETED and QuestStatus("q_FindHusbent")==Q_COMPLETED and QuestStatus("r2m1_ArtViva_Quest")==Q_COMPLETED and QuestStatus("r2m1_KillGodFather_Quest")==Q_COMPLETED and QuestStatus("r2m2_Znaki2Midgard_Quest")==Q_COMPLETED and QuestStatus("r2m2_HeadsHunterQuest")==Q_COMPLETED and QuestStatus("r2m2_OldDvigatel2_Quest")==Q_COMPLETED and QuestStatus("r3m1_RescueUlukCivil")==Q_COMPLETED and QuestStatus("q_VisitDruid")==Q_COMPLETED and QuestStatus("q_PlaceWithSign")==Q_COMPLETED and QuestStatus("r1m1_Botanik_Quest")==Q_COMPLETED then
+				if BookExists("r3_book_transformer") and BookExists("r3_book_Druids") and BookExists("r4_book_Scarytail1") and BookExists("r1_book_desert_death") and BookExists("r1_book_cold_winter") and BookExists("r1_book_the_mask") and BookExists("r1_book_travel_kupchina1") and BookExists("r1_book_travel_kupchina2") and BookExists("r1_book_kollizey_flyer1") and BookExists("r1_book_kollizey_flyer2") and BookExists("r1_book_sng_flyer") and BookExists("r1_book_true_ar") and BookExists("r1_book_ar_flyer")and BookExists("r1_book_doklad") then
+					SpawnMessageBox( "888" )
+				end
+			end
+
+			ShowDeathMenu()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
 </triggers>
