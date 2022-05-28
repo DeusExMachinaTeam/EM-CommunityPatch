@@ -1860,6 +1860,8 @@
 		<script>
 			SetWeather(0)
 
+			SetGameTime(0, 0)
+
 			PlayCustomMusic("Bio07unloop")
 
 			AddCinematicMessage( 77771, 0.1)
@@ -1876,6 +1878,7 @@
 			AddCinematicMessage( 77774, 0.1)
 			AddCinematicMessage( 77772, 0.1)
 			AddCinematicMessage( 77773, 0.1)
+			AddCinematicMessage( 77775, 0.1)
 			
 			trigger:Deactivate()
 		</script>
