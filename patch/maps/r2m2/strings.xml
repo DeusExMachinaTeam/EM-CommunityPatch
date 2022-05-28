@@ -361,9 +361,9 @@
 	<string
 		id="46"
 		modelName="mask_hero"
-		sound="data\sounds\Speech\r2m2\r2m2_46_hero.ogg"
-		value="|Я отправляюсь к Оракулу. Один. Возможно, мы ещё увидимся, и тогда я расскажу, чем закончилась моя история."
-		time="8" />
+		sound="data\sounds\Speech\r2m2\r2m1_48_hero.ogg"
+		value="|Решено, отправляемся вместе на поиски!"
+		time="4" />
 
 	<string
 		id="47"

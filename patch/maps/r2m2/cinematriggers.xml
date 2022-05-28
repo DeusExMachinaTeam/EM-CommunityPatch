@@ -1054,7 +1054,7 @@
 			Fly("LISARUNOUTDIE_cam09", CINEMATIC_NO_AIM, 0, 13, 0, 0 )
 			Fly("LISARUNOUTDIE_cam10", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
 			Fly("LISARUNOUTDIE_cam11", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
-			Fly("LISARUNOUTDIE_cam12", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
+			Fly("LISARUNOUTDIE_cam12", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
 			Fly("LISARUNOUTDIE_cam13", CINEMATIC_NO_AIM, 0, 8, 0, 1 )
 			StartCinematic()
 	
@@ -1264,7 +1264,6 @@
 	<trigger Name="trLISARUNOUTDIE_cam13" active="0">
 		<event flypath="LISARUNOUTDIE_cam13" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-			AddCinematicMessage( 47, 0.25 )
 
 			local vehLisa = GetEntityByName("vehLisa")
 			if vehLisa then
@@ -1299,6 +1298,13 @@
 				vehPlayer:SetRotation(Quaternion(0.001, -0.109, -0.003, 0.994))
 			end
 
+			TeamCreate("LisaRunCar",1042,CVector(2760,260,901),{"LisaCar"})
+			local FVehicle = GetEntityByName("LisaRunCar_vehicle_0")
+			if FVehicle then
+				FVehicle:SetSkin ( 2 )
+				FVehicle:setImmortalMode(1)
+			end
+
 			TDeactivate("RolikBegin_LISARUNOUTDIE")
 			TDeactivate("trLISARUNOUTDIE_cam01")
 			TDeactivate("trLISARUNOUTDIE_cam02")
@@ -1313,6 +1319,8 @@
 			TDeactivate("trLISARUNOUTDIE_cam11")
 			TDeactivate("trLISARUNOUTDIE_cam12")
 			TDeactivate("trLISARUNOUTDIE_cam13")
+
+			TActivate("LisaFollowsUs")
 
 			StopPlayingCustomMusic()
 

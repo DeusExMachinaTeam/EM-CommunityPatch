@@ -358,7 +358,8 @@
 
 			AddCinematicMessage( 12, 0.5 )
 			AddCinematicMessage( 13, 0.5 )
-			if getObj("CARLISA") then
+
+			if getObj("LisaRunCar_vehicle_0") then
 				AddHistory( "r4_LisaBecameCrazy" )
 				AddCinematicMessage( 14, 0.5 )
 			end
@@ -379,8 +380,8 @@
 				end
 			end
 
-			if getObj("CARLISA") then
-				getObj("CARLISA"):Remove()
+			if getObj("LisaRunCar_vehicle_0") then
+				getObj("LisaRunCar_vehicle_0"):Remove()
 			end
 			CompleteQuestIfTaken("r3m2_FindInfoAboutFather")
 			StopPlayingCustomMusic()
@@ -647,6 +648,13 @@
 			GetPlayerVehicle():SetExternalPathByName("PriezdToR4M1")
 			GetPlayerVehicle():LimitMaxSpeed(7)
 			AddCinematicMessage( 1, 0.25 )
+			if getObj("LisaRunCar_vehicle_0") then
+				AddCinematicMessage( 18, 0.25 )
+				AddCinematicMessage( 19, 0.25 )
+				AddCinematicMessage( 20, 0.25 )
+				AddCinematicMessage( 21, 0.25 )
+				AddCinematicMessage( 22, 0.25 )
+			end
 			AddCinematicMessage( 2, 0.25 )
 			trigger:Deactivate()
 		</script>

@@ -721,4 +721,26 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+
+	<trigger Name="LisaFollowsUs" active="0">
+		<event	timeout="2"		eventid="GE_TIME_PERIOD" />
+		<script>
+
+			local newControllerId = CreateNewObject {
+				prototypeName	= "someNPCMotionController",
+				objName	= "LisaCont"
+			}
+
+			local newController = GetEntityByID(newControllerId)
+
+			local FVehicle = GetEntityByName("LisaRunCar_vehicle_0")
+
+			if newController and FVehicle then
+				newController:setVehicleUnderControl(FVehicle)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 </triggers>
