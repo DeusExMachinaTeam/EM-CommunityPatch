@@ -46,7 +46,16 @@
 		</script>
 	</trigger>
 
+	<trigger	Name="trOpenSecondBoss"	active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			if IsQuestComplete("r2m2_FightWithAxelInArena_Quest") then
+				TActivate("PARISTUBEREMOVE")
 
+				trigger:Deactivate()
+			end
+		</script>
+	</trigger>
 
 
 	<trigger Name="trCaravanToVill1" active="0">
