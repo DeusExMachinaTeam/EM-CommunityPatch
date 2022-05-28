@@ -958,24 +958,4 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
-
-
-
-
-	<trigger Name="tr_Tutotial_Start" active="0">
-		<event 	timeout="2" eventid="GE_TIME_PERIOD" />
-		<script>
-			trigger:Deactivate() 
-
-			EnableAutoHelp( false )
-
-			local b = SpawnMessageBox( "90000" )
-			if b == 1 then
-				EnableAutoHelp( true )
-				ShowHelp( "HELP_ID_MAIN_GAME_INTERFACE" )
-			end
-		</script>
-	</trigger>
-
 </triggers>

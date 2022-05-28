@@ -133,8 +133,6 @@
 			Plf:PlaceToEndOfPath()
 			Plf:SetRotation(Quaternion(-0.007, 1.000, -0.010, 0.021))
 
-			TActivate ("tr_Tutotial_Start")
-
 			StopPlayingCustomMusic()
 
 			SetCameraBehindPlayerVehicle()
