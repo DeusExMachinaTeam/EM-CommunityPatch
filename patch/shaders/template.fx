@@ -8,10 +8,6 @@
  *
  **/
 
-#ifndef MIN_MAG_FILTER
-#define MIN_MAG_FILTER Linear
-#endif
-
 
 #ifndef MIP_FILTER
 #define MIP_FILTER Point
@@ -32,6 +28,19 @@
 #define SPACE_VIEW   3
 
 
+#ifdef MIN_MAG_FILTER
+#define TEXTURE_FILTER \
+    MinFilter = MIN_MAG_FILTER;\
+    MagFilter = MIN_MAG_FILTER;\
+    MipFilter = MIN_MAG_FILTER;\
+    MaxAnisotropy = 16;
+#else
+#define TEXTURE_FILTER \
+    MinFilter = Linear;\
+    MagFilter = Linear;\
+    MipFilter = Linear;
+#endif
+
 #define DeclareTexture2D(slot, texture_name, sampler_name, mapping) \
 texture texture_name: slot;          \
 sampler sampler_name = sampler_state \
@@ -39,22 +48,19 @@ sampler sampler_name = sampler_state \
     Texture = <texture_name>;        \
     AddressU  = mapping;             \
     AddressV  = mapping;             \
-    MinFilter = MIN_MAG_FILTER;      \
-    MagFilter = MIN_MAG_FILTER;      \
+    TEXTURE_FILTER                   \
 };
 
 
 #define DeclareTextureCube(slot, texture_name, sampler_name, mapping) \
-texture texture_name: slot;             \
-samplerCUBE sampler_name = sampler_state\
-{						                \
-	Texture = <texture_name>;           \
-	AddressU = mapping;                 \
-	AddressV = mapping;                 \
-	AddressW = mapping;                 \
-	MinFilter = Linear;                 \
-	MagFilter = Linear;                 \
-	MipFilter = Linear;                 \
+texture texture_name: slot;               \
+samplerCUBE sampler_name = sampler_state  \
+{                                         \
+    Texture = <texture_name>;             \
+    AddressU = mapping;                   \
+    AddressV = mapping;                   \
+    AddressW = mapping;                   \
+    TEXTURE_FILTER                        \
 };
 
 
