@@ -3361,7 +3361,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Mass				= "100.0" 
 			Durability			= "180"
 			DurCoeffsForDamageTypes		= "22 22 22"
-			LoadPoints			= "LP_BIG01 LP_GIANT01 LP_SIDE01L LP_SIDE01R" >
+			LoadPoints			= "LP_BIG01 LP_GIANT01 LP_SIDE01L LP_SIDE01R NO_LP" >
 
 			<RepositoryDescription
 				RepositorySize		= "11 9">
