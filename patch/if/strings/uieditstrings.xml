@@ -502,7 +502,7 @@
 
 	<string
 		id="HardLevelPlus"
-		value="Профессионал" />
+		value="Профессионал+" />
 
 	<string
 		id="ImpossibleLevel"
