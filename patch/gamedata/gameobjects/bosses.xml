@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Bosses.xml,v 1.38 2005/11/24 09:45:18 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class = "BossMetalArm"
+		Name  = "bossMetalArm"
+		ModelFile = "boss01arm"
+		ExplosionEffect		= "ET_PS_VEH_EXP2_SMALL2"
+
+		TurningSpeed 		= "0.5"
+
+		FrameToPickUpLoad	= "27"
+
+		LoadPointForLoad	= "LP_LOAD01"
+
+		LoadPrototypes		= "bossMetalArmLoad0"
+		
+		NumExplodedLoadsToDie = "4"
+		ResourceType		= "BOSS01"
+
+		Mass				= "1000"
+	>
+		<AttackActions>
+
+			<Attack 
+				Action				= "ATTACK1"
+				FrameToReleaseLoad	= "91" />
+			
+			<Attack 
+				Action				= "ATTACK2"
+				FrameToReleaseLoad	= "92" />
+			
+			<Attack 
+				Action				= "BLOCK1"
+				FrameToReleaseLoad	= "97" />
+			
+			<Attack 
+				Action				= "BLOCK2"
+				FrameToReleaseLoad	= "131" />
+		</AttackActions>                           
+ 	</Prototype>
+
+
+	<Folder Name = "Boss01Stuff">
+	<Prototype
+		Class = "BossMetalArmLoad"
+		Name  = "bossMetalArmLoad0"
+		ModelFile 			= "boss_barrel" 
+		Mass 				= "10"
+		BlastWavePrototype	= "bossMetalArmLoadBlastWave0"
+		ExplosionEffect		= "ET_PS_VEH_EXP1_SMALL1"
+		MaxHealth			= "200"
+	/>
+
+	<Prototype
+		Class			= "BlastWave"
+		Name			= "bossMetalArmLoadBlastWave0"
+		Effect			= "ET_PS_AIRWAVE2"
+		
+		Radius			= "30.0"
+
+		WaveForceIntensity	= "50.0"
+		WaveDamageIntensity	= "500.0"
+	/>
+	</Folder>
+
+
+	<Prototype
+		Class = "Boss02"
+		Name  = "boss02"
+
+		MassSize			= "20 20 20"
+		Speed				= "20.0"
+
+
+
+		ExplosionEffect		= "ET_PS_VEH_EXP2_SMALL2"
+
+		TurningSpeed 		= "0.3"
+
+		FrameToPickUpLoad	= "27"
+
+		LoadPointForLoad	= "LP_LOAD01"
+
+		ContainerPrototype	= "boss02container"
+		
+		NumExplodedLoadsToDie = "2"
+
+		ResourceType		= "BOSS02"
+
+		IntersectionRadius	= "2.5"
+	>
+		<MainPartDescription id = "PLATFORM" partResourceType = "BOSS02_PLATFORM">
+			<PartDescription id = "ARM" partResourceType = "BOSS02_ARM" lpName = "LP_GUN" />
+		</MainPartDescription>
+
+		<Parts>
+			<Part id="PLATFORM" Prototype="boss02platform" />
+			<Part id="ARM" Prototype="boss02arm" />
+		</Parts>
+
+
+		<States>
+			<State 
+				LoadPrototypes		= "bossMetalArmLoad1"
+				RelPos				= "0 0 100" />
+
+			<State 
+				LoadPrototypes		= "bossMetalArmLoad2" 
+				RelPos				= "0 0 50" />
+		</States>
+	</Prototype>
+
+
+	<Folder Name = "Boss02Stuff">
+		<Prototype 
+			Class		= "Boss02Arm"
+			Name		= "boss02arm"
+			ModelFile	= "boss02arm" 
+			ResourceType	= "BOSS02_ARM"
+
+			TurningSpeed 		= "5"
+			FrameToPickUpLoad	= "70"
+			LoadPointForLoad	= "LP_LOAD01"
+			CriticalNumExplodedLoads = "2"
+
+
+			FrameToPickUpContainerForBlock	= "157"
+			FrameToReleaseContainerForBlock	= "341"
+			FrameToPickUpContainerForDie	= "27"
+			FrameToReleaseContainerForDie	= "441"
+
+			ActionForBlock					= "STAND1"
+			ActionForDie					= "BLOCK1"
+		>
+			<AttackActions>
+
+				<Attack 
+					Action				= "ATTACK1"
+					FrameToReleaseLoad	= "78" />
+				
+			</AttackActions>
+		</Prototype>
+
+
+
+
+		<Prototype 
+			Class		= "VehiclePart"
+			Name		= "boss02platform"
+			ModelFile	= "boss02platform" 
+			ResourceType	= "BOSS02_PLATFORM" />
+
+
+		<Prototype
+			Class = "BossMetalArmLoad"
+			Name  = "boss02container"
+			ModelFile 			= "boss02container" 
+			Mass 				= "500"
+			MaxHealth			= "1000000000"
+		/>
+
+		<Prototype
+			Class = "BossMetalArmLoad"
+			Name  = "bossMetalArmLoad1"
+			ModelFile 			= "scoutCab01" 
+			Mass 				= "20"
+			BlastWavePrototype	= "bossMetalArmLoadBlastWave1"	
+			ExplosionEffect		= "ET_PS_VEH_EXP1_SMALL1"
+			MaxHealth			= "200"
+		/>
+		<Prototype
+			Class = "BossMetalArmLoad"
+			Name  = "bossMetalArmLoad2"
+			ModelFile 			= "scoutCab02" 
+			Mass 				= "20"
+			BlastWavePrototype	= "bossMetalArmLoadBlastWave2"	
+			ExplosionEffect		= "ET_PS_VEH_EXP1_SMALL1"
+			MaxHealth			= "200"
+		/>
+		<Prototype
+			Class			= "BlastWave"
+			Name			= "bossMetalArmLoadBlastWave1"
+			Effect			= "ET_PS_AIRWAVE2"
+		
+			Radius			= "50.0"
+
+			WaveForceIntensity	= "50.0"
+			WaveDamageIntensity	= "300.0"
+		/>
+                <Prototype
+			Class			= "BlastWave"
+			Name			= "bossMetalArmLoadBlastWave2"
+			Effect			= "ET_PS_AIRWAVE2"
+		
+			Radius			= "50.0"
+
+			WaveForceIntensity	= "50.0"
+			WaveDamageIntensity	= "400.0"
+		/>
+
+
+
+
+	</Folder>
+
+
+	<Folder Name = "Boss03Stuff">
+		<Prototype
+			Class				= "Boss03"
+			Name				= "boss03"
+			ResourceType		= "BOSS03"
+
+
+			DronePrototypes		= "RobotTron"
+			MaxDrones			= "4"
+			
+			MaxHealth			= "2500"
+
+			MaxHorizAngularVelocity		= "2.0"
+			HorizAngularAcceleration	= "2.0"
+			MaxVertAngularVelocity		= "1.0"
+			VertAngularAcceleration		= "1.0"
+			MaxLinearVelocity			= "40.0"
+			LinearAcceleration			= "10.0"
+			PathTrackTiltAngle			= "20"
+
+			MaxShootingTime				= "5.0"
+
+			DefaultHover				= "50"
+			HoverForPlacingDrones		= "20"
+			>
+
+			<MainPartDescription id = "MAIN" partResourceType = "BOSS03_PART">
+
+				<PartDescription id = "PROPELLER" partResourceType = "BOSS03_PART" lpName = "LP_BSK01" />
+
+				<PartDescription id = "CAB01" partResourceType = "BOSS03_PART" lpName = "LP_CAB01" />
+				<PartDescription id = "CAB02" partResourceType = "BOSS03_PART" lpName = "LP_CAB02" />
+				<PartDescription id = "CAB03" partResourceType = "BOSS03_PART" lpName = "LP_CAB03" />
+				<PartDescription id = "CAB03_2" partResourceType = "BOSS03_PART" lpName = "LP_CAB03" />
+				<PartDescription id = "CAB04" partResourceType = "BOSS03_PART" lpName = "LP_CAB04" />
+
+				<PartDescription id = "WING01" partResourceType = "BOSS03_PART" lpName = "LP_WING02" >
+					<PartDescription id = "WING01_GUN01" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT01" />
+					<PartDescription id = "WING01_GUN02" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT02" />
+				</PartDescription>
+
+				<PartDescription id = "WING02" partResourceType = "BOSS03_PART" lpName = "LP_WING01" >
+					<PartDescription id = "WING02_GUN01" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT01" />
+					<PartDescription id = "WING02_GUN02" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT02" />
+				</PartDescription>
+			</MainPartDescription>
+
+			<Parts>
+				<Part id = "MAIN"		Prototype = "boss03chassis" />
+
+				<Part id = "PROPELLER"		Prototype = "boss03propeller" />
+
+				<Part id = "CAB01"			Prototype = "boss03cab01" />
+				<Part id = "CAB02"			Prototype = "boss03cab02" />
+				<Part id = "CAB03"			Prototype = "boss03cab03" />
+				<Part id = "CAB03_2"			Prototype = "boss03cab03_2" />
+				<Part id = "CAB04"			Prototype = "boss03cab04" />
+
+				<Part id = "WING01"			Prototype = "boss03wing_left" />
+				<Part id = "WING02"			Prototype = "boss03wing_right" />
+
+				<Part id = "WING01_GUN01"			Prototype = "boss03machinegun_left" />
+				<Part id = "WING01_GUN02"			Prototype = "boss03rocketlauncher_left" />
+				<Part id = "WING02_GUN01"			Prototype = "boss03machinegun_right" />
+				<Part id = "WING02_GUN02"			Prototype = "boss03rocketlauncher_right" />
+			</Parts>
+		</Prototype>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03chassis"
+			ModelFile	= "boss03chassis"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0"
+			LoadPoints	= "LP_BSK01 LP_CAB01 LP_CAB02 LP_CAB03 LP_CAB04 LP_WING01 LP_WING02"
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03propeller"
+			ModelFile	= "boss03propeller"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03cab01"
+			ModelFile	= "boss03cab01"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03cab02"
+			ModelFile	= "boss03cab02"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03cab03"
+			ModelFile	= "boss03cab03"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03cab03_2"
+			ModelFile	= "boss03cab03_2"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03cab04"
+			ModelFile	= "boss03cab04"
+			ResourceType= "BOSS03_PART"
+			Durability	= "1500"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 
+			/>
+
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03wing_left"
+			ModelFile	= "boss03wing_left"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Durability	= "1000"
+			Mass		= "15.0"
+			LoadPoints	= "LP_GIANT01 LP_GIANT02"
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03wing_right"
+			ModelFile	= "boss03wing_right"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Durability	= "1000"
+			Mass		= "15.0" 			
+			LoadPoints	= "LP_GIANT01 LP_GIANT02"
+			/>
+
+
+		<Prototype
+			Class		= "BulletLauncher"
+			Name		= "boss03machinegun_left"
+			ModelFile	= "boss03machinegun_left"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			
+			BulletPrototype	= "raybullet"
+			ExplosionType	= "CANNON"
+			Damage			= "60"
+			FiringRate		= "200"
+			GroupingAngle	= "0.1"
+			FiringRange		= "1200"
+			RecoilForce		= "50"
+		
+			Decal			= "DC_GUN"
+
+			ChargeSize     = "60"
+			RechargingTime = "2"
+			VisibleInEncyclopedia   = "false"
+			Durability		= "70"
+		
+			FiringType		= "Cannon"
+			TurningSpeed	= "0.5"
+			/>
+
+
+
+		<Prototype
+			Class		= "BulletLauncher"
+			Name		= "boss03machinegun_right"
+			ModelFile	= "boss03machinegun_right"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			
+			BulletPrototype	= "raybullet"
+			ExplosionType	= "CANNON"
+			Damage			= "60"
+			FiringRate		= "200"
+			GroupingAngle	= "0.1"
+			FiringRange		= "1200"
+			RecoilForce		= "50"
+		
+			Decal			= "DC_GUN"
+
+			ChargeSize     = "100"
+			RechargingTime = "2"
+			VisibleInEncyclopedia   = "false"
+			Durability		= "70"
+		
+			FiringType		= "Cannon"
+			TurningSpeed	= "0.5"
+			/>
+
+		<Prototype
+			Class		= "RocketLauncher"
+			Name		= "boss03rocketlauncher_left"
+			ModelFile	= "boss03rocketlauncher_left"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			Decal				= "DC_ROKET"
+
+			BulletPrototype		= "boss03rocket"
+			ExplosionType		= "BLAST"
+			FiringEffect		= "none"
+			Damage			= "350"
+			FiringRate			= "10"
+			GroupingAngle		= "1"
+			FiringRange			= "600"
+			RecoilForce			= "300"
+			FiringType			= "Rocket"
+			ChargeSize			= "1"
+			RechargingTime		= "10"
+			VisibleInEncyclopedia   = "false"
+			CanBeUsedInAutogenerating  =  "0"
+			ShellsPoolSize		= "40"
+			WithShellsPoolLimit	= "false"
+
+			Durability			= "300"
+			TurningSpeed		= "0.5"
+			/>
+
+		<Prototype
+			Class		= "RocketLauncher"
+			Name		= "boss03rocketlauncher_right"
+			ModelFile	= "boss03rocketlauncher_right"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			Decal				= "DC_ROKET"
+
+			BulletPrototype		= "boss03rocket"
+			ExplosionType		= "BLAST"
+			FiringEffect		= "none"
+			Damage			= "350"
+			FiringRate			= "10"
+			GroupingAngle		= "1"
+			FiringRange			= "600"
+			RecoilForce			= "300"
+			FiringType			= "Rocket"
+			ChargeSize			= "1"
+			RechargingTime		= "10"
+			VisibleInEncyclopedia   = "false"
+			CanBeUsedInAutogenerating  =  "0"
+			ShellsPoolSize		= "40"
+			WithShellsPoolLimit	= "false"
+
+			Durability			= "300"
+			TurningSpeed		= "0.5"
+			/>
+
+			
+		<Prototype
+			Class			= "BlastWave"
+			Name			= "boss03rocketBlastWave"
+		
+			Radius                  = "10.0"
+			Effect			= "ET_PS_AIRWAVE1"
+			WaveForceIntensity	= "10.0"
+			WaveDamageIntensity	= "30.0"
+		/>
+			
+
+		<Prototype
+			Class			= "Rocket"
+			Name			= "boss03rocket"
+			ModelFile			= "rocket_sml01"
+			ExplosionType		= "BLAST" 		
+
+			Velocity			= "200"
+			Acceleration		= "100"
+			FlyTime				= "5.0"
+			MinTurningRadius		= "40"
+			Size			= "0.5 0.5 3.4"
+			Mass				= "0.1"
+			BlastWavePrototype      = "boss03rocketBlastWave"
+			/>
+			
+	</Folder>
+	
+
+	<Folder Name="boss03forcinema">
+		<Prototype
+			Class				= "Boss03"
+			Name				= "boss03ForCinema"
+			ResourceType		= "BOSS03"
+
+
+			DronePrototypes		= "RobotTron"
+			MaxDrones			= "0"
+			
+			MaxHealth			= "2500"
+
+			MaxHorizAngularVelocity		= "0.0"
+			HorizAngularAcceleration	= "0.0"
+			MaxVertAngularVelocity		= "0.0"
+			VertAngularAcceleration		= "0.0"
+			MaxLinearVelocity			= "0.0"
+			LinearAcceleration			= "0.0"
+			PathTrackTiltAngle			= "20"
+
+			MaxShootingTime				= ".0"
+
+			DefaultHover				= "0"
+			HoverForPlacingDrones		= "0"
+			>
+
+			<MainPartDescription id = "MAIN" partResourceType = "BOSS03_PART">
+
+				<PartDescription id = "PROPELLER" partResourceType = "BOSS03_PART" lpName = "LP_BSK01" />
+
+				<PartDescription id = "CAB01" partResourceType = "BOSS03_PART" lpName = "LP_CAB01" />
+				<PartDescription id = "CAB02" partResourceType = "BOSS03_PART" lpName = "LP_CAB02" />
+				<PartDescription id = "CAB03" partResourceType = "BOSS03_PART" lpName = "LP_CAB03" />
+				<PartDescription id = "CAB03_2" partResourceType = "BOSS03_PART" lpName = "LP_CAB03" />
+				<PartDescription id = "CAB04" partResourceType = "BOSS03_PART" lpName = "LP_CAB04" />
+
+				<PartDescription id = "WING01" partResourceType = "BOSS03_PART" lpName = "LP_WING02" >
+					<PartDescription id = "WING01_GUN01" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT01" />
+					<PartDescription id = "WING01_GUN02" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT02" />
+				</PartDescription>
+
+				<PartDescription id = "WING02" partResourceType = "BOSS03_PART" lpName = "LP_WING01" >
+					<PartDescription id = "WING02_GUN01" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT01" />
+					<PartDescription id = "WING02_GUN02" partResourceType = "BOSS03_GUN" lpName = "LP_GIANT02" />
+				</PartDescription>
+			</MainPartDescription>
+
+			<Parts>
+				<Part id = "MAIN"		Prototype = "boss03Cchassis" />
+
+				<Part id = "PROPELLER"		Prototype = "boss03Cpropeller" />
+
+				<Part id = "CAB01"			Prototype = "boss03Ccab01" />
+				<Part id = "CAB02"			Prototype = "boss03Ccab02" />
+				<Part id = "CAB03"			Prototype = "boss03Ccab03" />
+				<Part id = "CAB03_2"			Prototype = "boss03Ccab03_2" />
+				<Part id = "CAB04"			Prototype = "boss03Ccab04" />
+
+				<Part id = "WING01"			Prototype = "boss03Cwing_left" />
+				<Part id = "WING02"			Prototype = "boss03Cwing_right" />
+
+				<Part id = "WING01_GUN01"			Prototype = "boss03Cmachinegun_left" />
+				<Part id = "WING01_GUN02"			Prototype = "boss03Crocketlauncher_left" />
+				<Part id = "WING02_GUN01"			Prototype = "boss03Cmachinegun_right" />
+				<Part id = "WING02_GUN02"			Prototype = "boss03Crocketlauncher_right" />
+			</Parts>
+		</Prototype>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Cchassis"
+			ModelFile	= "boss03chassis"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			LoadPoints	= "LP_BSK01 LP_CAB01 LP_CAB02 LP_CAB03 LP_CAB04 LP_WING01 LP_WING02"
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Cpropeller"
+			ModelFile	= "boss03propeller"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Ccab01"
+			ModelFile	= "boss03cab01"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Ccab02"
+			ModelFile	= "boss03cab02"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Ccab03"
+			ModelFile	= "boss03cab03"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Ccab03_2"
+			ModelFile	= "boss03cab03_2"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Ccab04"
+			ModelFile	= "boss03cab04"
+			ResourceType= "BOSS03_PART"
+			Durability	= "3500"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+			/>
+
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Cwing_left"
+			ModelFile	= "boss03wing_left"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Durability	= "3000"
+			Mass		= "15.0" 			
+			LoadPoints	= "LP_GIANT01 LP_GIANT02"
+			/>
+
+		<Prototype
+			Class		= "Boss03Part"
+			Name		= "boss03Cwing_right"
+			ModelFile	= "boss03wing_right"
+			ResourceType= "BOSS03_PART"
+			NodeScale	= "1 1 1"
+			Durability	= "3000"
+			Mass		= "15.0" 			
+			LoadPoints	= "LP_GIANT01 LP_GIANT02"
+			/>
+
+
+		<Prototype
+			Class		= "BulletLauncher"
+			Name		= "boss03Cmachinegun_left"
+			ModelFile	= "boss03machinegun_left"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			
+			BulletPrototype	= "raybullet"
+			ExplosionType	= "CANNON"
+			Damage			= "60"
+			FiringRate		= "200"
+			GroupingAngle	= "0.1"
+			FiringRange		= "1200"
+			RecoilForce		= "50"
+		
+			Decal				= "DC_GUN"
+
+			ChargeSize     = "0"
+			RechargingTime = "2"
+			VisibleInEncyclopedia   = "false"
+			Durability		= "70"
+		
+			FiringType		= "Cannon"
+			TurningSpeed	= "0.5"
+			/>
+
+
+
+		<Prototype
+			Class		= "BulletLauncher"
+			Name		= "boss03Cmachinegun_right"
+			ModelFile	= "boss03machinegun_right"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			
+			BulletPrototype	= "raybullet"
+			ExplosionType	= "CANNON"
+			Damage			= "60"
+			FiringRate		= "200"
+			GroupingAngle	= "0.1"
+			FiringRange		= "1200"
+			RecoilForce		= "50"
+		
+			Decal				= "DC_GUN"
+
+			ChargeSize     = "100"
+			RechargingTime = "2"
+			VisibleInEncyclopedia   = "false"
+			Durability		= "70"
+		
+			FiringType		= "Cannon"
+			TurningSpeed	= "0.5"
+			/>
+
+		<Prototype
+			Class		= "RocketLauncher"
+			Name		= "boss03Crocketlauncher_left"
+			ModelFile	= "boss03rocketlauncher_left"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			Decal				= "DC_ROKET"
+
+			BulletPrototype		= "boss03rocket"
+			ExplosionType		= "BLAST"
+			FiringEffect		= "none"
+			Damage			= "400"
+			FiringRate			= "10"
+			GroupingAngle		= "1"
+			FiringRange		= "600"
+			RecoilForce		= "300"
+			FiringType              = "Rocket"
+			ChargeSize			= "0"
+			RechargingTime = "10"
+			VisibleInEncyclopedia   = "false"
+			CanBeUsedInAutogenerating  =  "0"
+			ShellsPoolSize		= "40"
+			WithShellsPoolLimit	= "false"
+
+			Durability			= "300"
+			TurningSpeed		= "0.5"
+			/>
+
+		<Prototype
+			Class		= "RocketLauncher"
+			Name		= "boss03Crocketlauncher_right"
+			ModelFile	= "boss03rocketlauncher_right"
+			ResourceType= "BOSS03_GUN"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0" 			
+
+			Decal				= "DC_ROKET"
+
+			BulletPrototype		= "boss03Crocket"
+			ExplosionType		= "BLAST"
+			FiringEffect		= "none"
+			Damage			= "400"
+			FiringRate			= "10"
+			GroupingAngle		= "1"
+			FiringRange		= "600"
+			RecoilForce		= "300"
+			FiringType              = "Rocket"
+			ChargeSize			= "0"
+			RechargingTime = "10"
+			VisibleInEncyclopedia   = "false"
+			CanBeUsedInAutogenerating  =  "0"
+			ShellsPoolSize		= "40"
+			WithShellsPoolLimit	= "false"
+
+			Durability			= "300"
+			TurningSpeed		= "0.5"
+			/>
+
+			
+		<Prototype
+			Class			= "BlastWave"
+			Name			= "boss03CrocketBlastWave"
+		
+			Radius                  = "10.0"
+			Effect			= "ET_PS_AIRWAVE1"
+			WaveForceIntensity	= "10.0"
+			WaveDamageIntensity	= "200.0"
+			/>
+
+
+		<Prototype
+			Class			= "Rocket"
+			Name			= "boss03Crocket"
+			ModelFile			= "rocket_sml01"
+			ExplosionType		= "BLAST" 		
+
+			Velocity			= "200"
+			Acceleration		= "100"
+			FlyTime				= "5.0"
+			MinTurningRadius		= "40"
+			Size			= "0.5 0.5 2"
+			Mass				= "0.1"
+			BlastWavePrototype      = "boss03CrocketBlastWave"
+			/>
+			
+	</Folder>
+	<Folder Name="SubmarineStuff">
+		<Prototype
+			Class           = "Submarine"
+			Name            = "SubmarinaLive"
+			ModelFile       = "submarina"
+			NodeScale       = "1 1 1"
+			Mass            = "50.0"                        
+			MaxHealth       = "50"
+
+			DisablePhysics  = "true"
+
+			MaxLinearVelocity	= "240"
+			LinearAcceleration	= "40"
+			PlatformOpenFps		= "4"
+			VehicleMaxVelocity	= "72"
+
+			ResourceType    = "SUBMARINE">
+		</Prototype>
+	</Folder>
+
+	<Folder Name = "Boss04Stuff">
+		<Prototype
+			Class				= "Boss04"
+			Name				= "boss04"
+			ResourceType		= "BOSS04"
+			
+			StationPrototype	= "boss04station"
+			DronePrototype		= "boss04drone"
+			
+			TimeBetweenDrones	= "5 10"
+			MaxDrones			= "6"
+			DroneSpawningLps	= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03"
+			>
+
+			<MainPartDescription id = "MAIN" partResourceType = "BOSS04_PART">
+				<PartDescription id = "PART01" partResourceType = "BOSS04_PART" lpName = "LP_PART01" />
+				<PartDescription id = "PART02" partResourceType = "BOSS04_PART" lpName = "LP_PART02" />
+				<PartDescription id = "PART03" partResourceType = "BOSS04_PART" lpName = "LP_PART03" />
+				<PartDescription id = "PART04" partResourceType = "BOSS04_PART" lpName = "LP_PART04" />
+				<PartDescription id = "PART05" partResourceType = "BOSS04_PART" lpName = "LP_PART05" />
+				<PartDescription id = "PART06" partResourceType = "BOSS04_PART" lpName = "LP_PART06" />
+				<PartDescription id = "PART07" partResourceType = "BOSS04_PART" lpName = "LP_PART07" />
+				<PartDescription id = "PART08" partResourceType = "BOSS04_PART" lpName = "LP_PART08" />
+				<PartDescription id = "PART09" partResourceType = "BOSS04_PART" lpName = "LP_PART09" />
+				<PartDescription id = "PART10" partResourceType = "BOSS04_PART" lpName = "LP_PART10" />
+				<PartDescription id = "PART11" partResourceType = "BOSS04_PART" lpName = "LP_PART11" />
+				<PartDescription id = "PART12" partResourceType = "BOSS04_PART" lpName = "LP_PART12" />
+				<PartDescription id = "PART13" partResourceType = "BOSS04_PART" lpName = "LP_PART13" />
+				<PartDescription id = "PART14" partResourceType = "BOSS04_PART" lpName = "LP_PART14" />
+				<PartDescription id = "PART15" partResourceType = "BOSS04_PART" lpName = "LP_PART15" />
+				<PartDescription id = "PART16" partResourceType = "BOSS04_PART" lpName = "LP_PART16" />
+				<PartDescription id = "PART17" partResourceType = "BOSS04_PART" lpName = "LP_PART17" />
+				<PartDescription id = "PART18" partResourceType = "BOSS04_PART" lpName = "LP_PART18" />
+				<PartDescription id = "PART19" partResourceType = "BOSS04_PART" lpName = "LP_PART19" />
+				<PartDescription id = "PART20" partResourceType = "BOSS04_PART" lpName = "LP_PART20" />
+			</MainPartDescription>
+
+			<Parts>
+				<Part id = "MAIN"		Prototype = "boss04chassis" />
+
+				<Part id = "PART01"		Prototype = "boss04part01" />
+				<Part id = "PART02"		Prototype = "boss04part02" />
+				<Part id = "PART03"		Prototype = "boss04part03" />
+				<Part id = "PART04"		Prototype = "boss04part04" />
+				<Part id = "PART05"		Prototype = "boss04part05" />
+				<Part id = "PART06"		Prototype = "boss04part06" />
+				<Part id = "PART07"		Prototype = "boss04part07" />
+				<Part id = "PART08"		Prototype = "boss04part08" />
+				<Part id = "PART09"		Prototype = "boss04part09" />
+<!--
+				<Part id = "PART10"		Prototype = "boss04part10" />
+-->				
+				<Part id = "PART11"		Prototype = "boss04part11" />
+				<Part id = "PART12"		Prototype = "boss04part12" />
+				<Part id = "PART13"		Prototype = "boss04part13" />
+				<Part id = "PART14"		Prototype = "boss04part14" />
+				<Part id = "PART15"		Prototype = "boss04part15" />
+				<Part id = "PART16"		Prototype = "boss04part16" />
+				<Part id = "PART17"		Prototype = "boss04part17" />
+				<Part id = "PART18"		Prototype = "boss04part18" />
+				<Part id = "PART19"		Prototype = "boss04part19" />
+				<Part id = "PART20"		Prototype = "boss04part20" />
+			</Parts>
+					
+			<!-- Какие части отрывать, когда сломали очередную станцию -->
+			<StationToPartBindings>
+				<Station
+					id = "0"
+					Parts = "PART01 PART02 PART03 PART04 PART05 PART06" /> 
+
+				<Station
+					id = "1"
+					Parts = "PART07 PART08 PART09 PART10 PART11 PART12 PART13" /> 
+
+				<Station
+					id = "2"
+					Parts = "PART14 PART15 PART16 PART17 PART18 PART19 PART20" /> 
+			</StationToPartBindings>
+		</Prototype>
+
+		<Prototype
+			Class				= "Boss04Station"
+			Name				= "boss04station"
+			ResourceType		= "BOSS04_STATION"
+			>
+
+			<MainPartDescription id = "MAIN" partResourceType = "BOSS04_STATION_PART" />
+
+			<Parts>
+				<Part id = "MAIN"		Prototype = "boss04stationPart" />
+			</Parts>
+		</Prototype>
+
+		
+		<Prototype
+			Class		= "Boss04StationPart"
+			Name		= "boss04stationPart"
+			ModelFile	= "boss04station"
+			ResourceType= "BOSS04_STATION_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0"
+			CriticalMeshGroups	= "Breakable1 Breakable2 Breakable3">
+		
+			<GroupsHealth
+				Main   = "5"	
+				Breakable1   = "1500"	
+		    		Breakable2   = "2000"
+				Breakable3   = "2000"
+				Breakable4   = "1000"
+				Breakable5   = "1000"
+				Breakable6   = "1000"
+			/>
+		
+		</Prototype>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04chassis"
+			ModelFile	= "boss04chassis"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "15.0"
+			LoadPoints	= "LP_PART01 LP_PART02 LP_PART03 LP_PART04 LP_PART05 LP_PART06 LP_PART07 LP_PART08 LP_PART09 LP_PART10 LP_PART11 LP_PART12 LP_PART13 LP_PART14 LP_PART15 LP_PART16 LP_PART17 LP_PART18 LP_PART19 LP_PART20"
+			/>
+
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part01"
+			ModelFile	= "boss04part01"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part02"
+			ModelFile	= "boss04part02"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part03"
+			ModelFile	= "boss04part03"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part04"
+			ModelFile	= "boss04part04"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part05"
+			ModelFile	= "boss04part05"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part06"
+			ModelFile	= "boss04part06"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part07"
+			ModelFile	= "boss04part07"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part08"
+			ModelFile	= "boss04part08"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part09"
+			ModelFile	= "boss04part09"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part10"
+			ModelFile	= "boss04part10"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part11"
+			ModelFile	= "boss04part11"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part12"
+			ModelFile	= "boss04part12"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part13"
+			ModelFile	= "boss04part13"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part14"
+			ModelFile	= "boss04part14"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part15"
+			ModelFile	= "boss04part15"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part16"
+			ModelFile	= "boss04part16"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part17"
+			ModelFile	= "boss04part17"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part18"
+			ModelFile	= "boss04part18"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part19"
+			ModelFile	= "boss04part19"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+		
+		<Prototype
+			Class		= "Boss04Part"
+			Name		= "boss04part20"
+			ModelFile	= "boss04part20"
+			ResourceType= "BOSS04_PART"
+			NodeScale	= "1 1 1"
+			Mass		= "115.0"
+			/>
+			
+		<Prototype
+			Class				= "Boss04Drone"
+			Name				= "boss04drone"
+			ResourceType		= "BOSS04_DRONE"
+			
+			MaxLinearVelocity	= "40.0"
+			>
+
+			<MainPartDescription id = "MAIN" partResourceType = "BOSS04_DRONE_GUN" />
+
+			<Parts>
+				<Part id = "MAIN"		Prototype = "boss04droneGun" />
+			</Parts>
+
+		</Prototype>
+
+		<Prototype
+			Class			= "BulletLauncher"
+			Name			= "boss04droneGun"
+			ModelFile		= "boss04drone"
+			ResourceType	= "BOSS04_DRONE_GUN"
+			NodeScale		= "1 1 1"
+			Mass			= "1.0"
+	
+			TracerEffect 		="ET_PS_DRONE_TRACER"
+			TracerRange 		= "1" 
+
+			BulletPrototype	= "raybullet"
+			ExplosionType	= "MACHINEGUN"
+			FiringEffect	= "none"
+			Damage			= "14"
+			FiringRate		= "800"
+			GroupingAngle	= "0.5"
+			FiringRange		= "200"
+			RecoilForce		= "2"
+			FiringType		= "MachineGun"
+			VisibleInEncyclopedia   = "false"
+			
+			LowStop			= "0"
+			HighStop		= "0"
+		
+			Decal			= "DC_SML_MACHINEGUN"
+
+			ChargeSize		= "200"
+			RechargingTime	= "0.75"
+
+			Durability		= "100" 
+			/>
+			
+	</Folder>
+</Prototypes>

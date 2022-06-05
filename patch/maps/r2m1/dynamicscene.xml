@@ -1973,6 +1973,10 @@
 				RelPos="2114.100 233.564 5892.311" />
 
 			<State
+				LoadPrototypes="bossMetalArmLoad2"
+				RelPos="2114.100 233.564 5892.311" />
+
+			<State
 				LoadPrototypes=""
 				RelPos="2096.584 233.528 5939.142" />
 		</States>
