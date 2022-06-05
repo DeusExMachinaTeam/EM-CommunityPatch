@@ -1,25 +1,36 @@
+--- 220606a ---
+* Fix for player's passmap near crane boss in Librium, fixed boss stages for correct HP display 
+* Fix for Anisotropic Filtering on all models using new shaders
+* Texture consistency improvements for Vaterland road from Pesht to Minin
+* Removed concrete plate messing up exit from the artifact factory (r3m2)
+* God mode and skin randomization for first enemy in the game, Klop
+* Fix alpha channel for Vagabonds vehicle logo, deleted unused CiT logo duplicate
+
+
 --- 220507a ---
 * Vahat race improved: entering wrong checkpoint will result in a warning, nicer race finish cutscene
 * Counter-balance of unintended changes in DPS for Rainmetal, Vector and Bumblebee to get closer to vanila
-* Shader fix for wrong light luminance calculation on 25-30 degrees ramps in ComRem
-* Minor fix for scroll speed of opening titles, minor text fix
+* Shader fix for wrong light luminance calculation on 25-30 degrees ramps [ComRem]
+* Minor fix for scroll speed of opening titles, minor text fix [ComRem]
+
 
 --- 220326b ---
-* Patcher now correctly scales fonts on HiDPI monitors and with OS scaling other than 100%
+* Patcher now correctly scales fonts on HiDPI monitors and with OS scaling other than 100% [ComRem]
 * Patcher is now compiled with Python3.10 and nuitka
+
 
 --- 220326a ---
 * Text, dialogs proofreading and fixes
 * Bigger activation location for Lisa cutscene in quest FindLisaInGelvetcia
 * Fix for cooling_system affix price
-* Straigtforward price balancing for energy guns as a followup to previous changes to other guns
-* VehicleAIFiringRangeMult doubling to improve bots ability to have a longer range fights
+* Straigtforward price balancing for energy guns as a followup to previous changes to other guns [ComRem]
+* VehicleAIFiringRangeMult doubling to improve bots ability to have a longer range fights [ComRem]
 
 
 --- 220320a ---
 * Public release with new MemManager and patcher
 * Bug Cargo02 and Molokovoz Cab02 texture fixes
-* Skinned shader full support for Sml1 and Sml3 cars
+* Skinned shader full support for Sml1 and Sml3 cars [ComRem]
 * agro_tech1.gam wrong texture skin fix
 
 
@@ -27,5 +38,5 @@
 * Test release of new MemManager
 * New patcher with support for MM patching and build version logging and display
 * Complex collisions for trees and some dynamic objects
-* New enemy Sml1, Sml3 HD cars in remaster HD vehicles option
+* New enemy Sml1, Sml3 HD cars in HD vehicles option [ComRem]
 * Start of the build version change log journal
