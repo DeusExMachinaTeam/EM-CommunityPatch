@@ -45,7 +45,7 @@
 * Установка Community Patch / Remaster возможно **только на no-DRM версию 1.02**! Это необходимо, потому как мы бинарно патчим exe игры, и все доступные изменения возможны только на 1.02. **Мы рекомендуем использовать русскую Steam версию для установки**. Другой вариант: распакованная версия с Антологии Ex Machina.
 * Установка Community Patch / Remaster возможна **только на Windows 8, 10, 11 64bit**!
 
-<p align="right">(<a href="#top">перейти вверх</a>)</p>
+<p align="right">(<a href="#top">перейти наверх</a>)</p>
 
 # Установка
 ## Видео-туториал
@@ -69,12 +69,13 @@
 > ![Community Remaster installation][patcher_screenshot] 
 > *Вступительный экран патчера, нажатие на Enter автоматически установит Community Remaster.*
 
-
-#
-<span style="color:red">**Важно!**</span>
+</br>
+&#x1F53B; Важно! &#x1F53B;
+<ol>
 **patcher.exe** - патчер программа, которая может вызывать ложные срабатывания анти-вирусов.
 Патчер в процессе работы по-байтово патчит оригинальный exe игры, копирует файлы патча\ремастера в правильном порядке, а так же редактирует некоторые игровые файлы. К сожалению, как специфика работы (редактирование другого exe), так и то что патчер написан на Python, означает что вам может понадобиться добавить файл в исключения анти-вируса. Приносим свои извинения за неудобства.
-
+</ol>
+<p align="right">(<a href="#top">перейти наверх</a>)</p>
 
 ## Лицензирование:
 <details>
@@ -91,8 +92,6 @@ https://github.com/DeusExMachinaTeam/EM-CommunityPatch/
 Для подробностей, пожалуйста, ознакомьтесь с полным текстом лицензии в файле LICENSE.
 </ol>
 </details>
-<br /><br />
-
 
 # Скриншоты:
 > ![Van and HD interface][van_screenshot]
@@ -125,7 +124,7 @@ https://github.com/DeusExMachinaTeam/EM-CommunityPatch/
 <a href="https://www.youtube.com/c/rpggameland"><img src="https://user-images.githubusercontent.com/79088546/174320128-a8550d1c-2960-4aa1-8de6-8e414b2a8469.png" alt="em2ch community logo" width="130"/></a>
 
 **Присоединяйтесь к нашим сообществам!**
-<br /><br /><br />
+<p align="right">(<a href="#top">перейти наверх</a>)</p>
 
 
 <!-- Screenshot shortcuts -->
