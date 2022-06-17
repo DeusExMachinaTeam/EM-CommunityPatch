@@ -48,6 +48,7 @@
 <p align="right">(<a href="#top">перейти наверх</a>)</p>
 
 # Установка
+![Do not use source code, download latest release][releases_screenshot]
 ## Видео-туториал
 [Павлик RPG](https://www.youtube.com/channel/UCn4cTYbkGki7getrE5sZabw) записал подробное видео о том как установить КомПатч или КомРем, в виде по-умолчанию или с выбором опций, а так же о том как правильно репортить баги, ошибки и вылеты. [![youtube][youtube_logo_sml] Смотреть на YouTube](https://www.youtube.com/watch?v=rIkptWzmOqk)
 
@@ -65,9 +66,13 @@
   
   
 После этого запустите ![DeusExMachina logo][dem_logo_sml]  patcher.exe и следуйте инструкциям. Установка по-умолчанию возможна одним нажатием проблема в самом начале, такой вариант установит Community Remaster со всеми опциями.
+<details>
+<summary>Скриншот патчера во время работы</summary>
 
 > ![Community Remaster installation][patcher_screenshot] 
 > *Вступительный экран патчера, нажатие на Enter автоматически установит Community Remaster.*
+
+</details>
 
 </br>
 &#x1F53B; Важно! &#x1F53B;
@@ -80,6 +85,7 @@
 ## Лицензирование:
 <details>
 <summary>Информация о лицензии</summary>
+
 <ol>
 Проект распространяется в полном виде только на Github.com.
 Распространение полных файлов установки и результатов работы установщика Community Patch на других сайтах не разрешено.
@@ -149,3 +155,5 @@ https://github.com/DeusExMachinaTeam/EM-CommunityPatch/
 [patcher_screenshot]: https://user-images.githubusercontent.com/79088546/174313893-ed72e5a4-4fff-4617-9610-e879f457c12d.png
 
 [em2ch_logo]: https://user-images.githubusercontent.com/79088546/174318046-57660bc9-010b-40d8-870d-0623b3fe57e2.png
+
+[releases_screenshot]: https://user-images.githubusercontent.com/79088546/174327479-67ac216d-d01a-4d0d-958b-aca2a141c5e4.png
