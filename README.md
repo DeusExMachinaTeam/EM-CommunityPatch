@@ -50,7 +50,9 @@
 # Установка
 ![Do not use source code, download latest release][releases_screenshot]
 ## Видео-туториал
-[Павлик RPG](https://www.youtube.com/channel/UCn4cTYbkGki7getrE5sZabw) записал подробное видео о том как установить КомПатч или КомРем, в виде по-умолчанию или с выбором опций, а так же о том как правильно репортить баги, ошибки и вылеты. [![youtube][youtube_logo_sml] Смотреть на YouTube](https://www.youtube.com/watch?v=rIkptWzmOqk)
+[Павлик RPG](https://www.youtube.com/channel/UCn4cTYbkGki7getrE5sZabw) записал подробное видео о том как установить КомПатч или КомРем, в виде по-умолчанию или с выбором опций, а так же о том как правильно репортить баги, ошибки и вылеты.
+
+[![youtube][youtube_logo_sml] Смотреть на YouTube](https://www.youtube.com/watch?v=rIkptWzmOqk)
 
 ## Простая установка
 Однако, в целом ничего сложного в базовой установке нет.
@@ -65,7 +67,7 @@
 * **patcher.exe**
   
   
-После этого запустите ![DeusExMachina logo][dem_logo_sml]  patcher.exe и следуйте инструкциям. Установка по-умолчанию возможна одним нажатием проблема в самом начале, такой вариант установит Community Remaster со всеми опциями.
+После этого запустите ![DeusExMachina logo][dem_logo_sml]  patcher.exe и следуйте инструкциям. Установка по-умолчанию возможна одним нажатием Enter в самом начале, такой вариант установит Community Remaster со всеми доступными опциями.
 <details>
 <summary>Скриншот патчера во время работы</summary>
 
