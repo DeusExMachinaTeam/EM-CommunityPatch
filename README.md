@@ -1,9 +1,8 @@
 <!-- Header -->
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://discord.gg/jZHxYdF">
     <img src="https://user-images.githubusercontent.com/79088546/174285554-cf467b80-7264-475f-94ec-bacc204b04c9.png" alt="Logo" width="400">
   </a>
-
   <h3 align="center">Комьюнити Ремастер / Комьюнити Патч</h3>
 
   <p align="center">
@@ -12,9 +11,9 @@
     <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Следить за разработкой в Discord »</strong></a>
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=rIkptWzmOqk"><img src="https://user-images.githubusercontent.com/79088546/174310152-da71224b-5c5f-4448-be42-31d0bc703360.png"> Как правильно установить</a>
+    <a href="https://www.youtube.com/watch?v=rIkptWzmOqk"><img src="https://user-images.githubusercontent.com/79088546/174310152-da71224b-5c5f-4448-be42-31d0bc703360.png" alt="Youtube installation tutorial"> Как правильно установить</a>
     ·
-    <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues">Сообщить о баге</a>
+    <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">Создать багрепорт</a>
     ·
     <a href="https://deuswiki.com/w/Community_Patch"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Страница на DeusWiki (только VPN)</a>
   </p>
@@ -26,7 +25,7 @@
 ![ComRem main menu Screen shot][screenshot_mainmenu]
 *На скриншоте главное меню Комьюнити Ремастера*<br /><br />
 
-<span style="color:#FFA500">**Community Patch**</span> - базовая версия, подходящая для играющих на ПК с 4:3 экранами и желающих получить максимально близкий к оригиналу опыт:
+&#128312;**Community Patch** - базовая версия, подходящая для играющих на ПК с 4:3 экранами и желающих получить максимально близкий к оригиналу опыт:
 * повышает стабильность игры, существенно снижает число вылетов
 * исправляет сюжетные ошибки, катсцены и квесты
 * возвращает небольшое количество вырезанного "vanilla-friendly" контента
@@ -34,13 +33,15 @@
 * исправлен сломанный в оригинале широкий FOV
 * исправлены ошибки моделей и анимаций
 
-<span style="color:#FFA500">**Community Remaster**</span> - расширение Комьюнити Патча, идеален для ПК с широкоформатными экранами. Помимо всех исправлений КомПатча, так же:
+&#128992; **Community Remaster** - расширение Комьюнити Патча, идеален для ПК с широкоформатными экранами. Помимо всех исправлений КомПатча, так же:
 * переработан интерфейс игры для адаптация под 16:9 разрешения
 * добавлены новые, более качественные модели и анимации для части оружия и авто, больше красок для новых авто
 * улучшена графика, шейдеры оригинала
 * автором оригинального саундтрека записан ремастер части музыки
 
-<span style="color:red">**Внимание!**</span>
+</br>
+
+&#x1F53B; Важно! &#x1F53B;
 * Установка Community Patch / Remaster возможно **только на no-DRM версию 1.02**! Это необходимо, потому как мы бинарно патчим exe игры, и все доступные изменения возможны только на 1.02. **Мы рекомендуем использовать русскую Steam версию для установки**. Другой вариант: распакованная версия с Антологии Ex Machina.
 * Установка Community Patch / Remaster возможна **только на Windows 8, 10, 11 64bit**!
 
@@ -122,7 +123,8 @@ https://github.com/DeusExMachinaTeam/EM-CommunityPatch/
 <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174318753-aa4f938f-b7a5-49c0-b1cd-fc73b75080f7.png" width="350"/></a>
 <a href="https://vk.com/em2ch"><img src="https://user-images.githubusercontent.com/79088546/174318046-57660bc9-010b-40d8-870d-0623b3fe57e2.png" alt="em2ch community logo" width="130"/></a>
 <a href="https://www.youtube.com/c/rpggameland"><img src="https://user-images.githubusercontent.com/79088546/174320128-a8550d1c-2960-4aa1-8de6-8e414b2a8469.png" alt="em2ch community logo" width="130"/></a>
-<span style="color:#FFA500">**Присоединяйтесь к нашим сообществам!**</span>
+
+**Присоединяйтесь к нашим сообществам!**
 <br /><br /><br />
 
 
