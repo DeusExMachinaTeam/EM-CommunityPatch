@@ -1,3 +1,7 @@
+--- 220717a ---
+* Experimental fix resolving majority of memory related crashes, as well as IRender crashes, by limiting a stack reserve size (Thanks KRBDZSKL for the idea)
+* New comprehensive readme.md
+
 --- 220606a ---
 * Fix for player's passmap near crane boss in Librium, fixed boss stages for correct HP display 
 * Fix for Anisotropic Filtering on all models using new shaders
