@@ -24,7 +24,7 @@
 		<Node
 			name="wndDiz"
 			class="TextBoxWnd"
-			org="630.000 724.000 1128.000 250.000"
+			org="630.000 794.000 1128.000 180.000"
 			style="512"
 			order="0"
 			id="0"
@@ -47,7 +47,7 @@
 		<Node
 			name="wndDizFrame"
 			class="Wnd"
-			org="605.000 699.000 1163.000 300.000"
+			org="605.000 769.000 1163.000 230.000"
 			style="768"
 			order="0"
 			id="0"
@@ -92,7 +92,7 @@
 		<Node
 			name="wndModel"
 			class="Wnd"
-			org="968.000 253.000 436.000 436.000"
+			org="933.000 253.000 506.000 506.000"
 			style="512"
 			order="0"
 			id="0"
@@ -114,7 +114,7 @@
 		<Node
 			name="wndModelBg"
 			class="ImageWnd"
-			org="605.000 249.000 1163.000 444.000"
+			org="605.000 249.000 1163.000 514.000"
 			style="512"
 			order="0"
 			id="0"
