@@ -2921,7 +2921,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Mass				= "50.0"
 			LoadPoints			= "LP_BIG01" >
 			<RepositoryDescription
-				RepositorySize		= "8 9">
+				RepositorySize		= "4 6">
 				<Slot
 					Name		= "BASKET_BIG_GUN_0"
 					Pos		= "10 0"
