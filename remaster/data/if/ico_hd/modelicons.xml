@@ -133,18 +133,18 @@
    <Item id="cooling_system_guns" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_bul.dds" file1=""/>
    <Item id="cooling_system_energy" 		file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_enrg.dds" file1=""/>
    <Item id="cooling_system_explosion" 	file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_exp.dds" file1=""/>
-   <Item id="firing_rate_guns" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_bul.dds" file1=""/>
-   <Item id="firing_rate_energy" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_enrg.dds" file1=""/>
+   <Item id="firing_rate_guns" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_bul.dds" file1=""/>
+   <Item id="firing_rate_energy" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_enrg.dds" file1=""/>
    <Item id="grouping_angle_guns" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_bul.dds" file1=""/>
    <Item id="add_damage_guns" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_bul.dds" file1=""/>
    <Item id="add_damage_energy" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_enrg.dds" file1=""/>
    <Item id="add_damage_explosion" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_exp.dds" file1=""/>
-   <Item id="firing_range_guns"  			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_bul.dds" file1=""/>
+   <Item id="firing_range_guns"  			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget7_bul.dds" file1=""/>
    <Item id="cooling_system_guns2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_bul.dds" file1=""/>
    <Item id="cooling_system_energy2" 		file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_enrg.dds" file1=""/>
    <Item id="cooling_system_explosion2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\gadget1_v2_exp.dds" file1=""/>
-   <Item id="firing_rate_guns2" 			   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v2_bul.dds" file1=""/>
-   <Item id="firing_rate_energy2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v2_enrg.dds" file1=""/>
+   <Item id="firing_rate_guns2" 			   file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_v2_bul.dds" file1=""/>
+   <Item id="firing_rate_energy2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget3_v2_enrg.dds" file1=""/>
    <Item id="grouping_angle_guns2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget2_v2_bul.dds" file1=""/>
    <Item id="add_damage_guns2" 				file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_bul.dds" file1=""/>
    <Item id="add_damage_energy2" 			file="data\if\ico_hd\InventoryDlg\Gadgets\gadget4_v2_enrg.dds" file1=""/>
@@ -164,16 +164,16 @@
    <Item id="additional_fuel_tank2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget2_v2.dds" file1=""/>
    <Item id="additional_fuel_tank2_add_damage_guns" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget2_v3.dds" file1=""/>
    
-   <Item id="additional_torque" 			file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3.dds" file1=""/>
+   <Item id="additional_torque" 			file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3_v3.dds" file1=""/>
    <Item id="additional_torque2" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3_v2.dds" file1=""/>
-   <Item id="add_speed_and_torque" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3_v3.dds" file1=""/>
+   <Item id="add_speed_and_torque" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3.dds" file1=""/>
 
    <Item id="additional_durability" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1.dds" file1=""/>
    <Item id="additional_durability2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1_v2.dds" file1=""/>
    
-   <Item id="additional_stability" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v3.dds" file1=""/>
-   <Item id="add_stability_and_speed" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v3.dds" file1=""/>
-   <Item id="add_torque_and_stability" file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget3_v3.dds" file1=""/>
+   <Item id="additional_stability" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4.dds" file1=""/>
+   <Item id="add_stability_and_speed" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v2.dds" file1=""/>
+   <Item id="add_torque_and_stability" file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v3.dds" file1=""/>
 
 
    <Item id="TownSouth"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
