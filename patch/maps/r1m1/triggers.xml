@@ -263,6 +263,7 @@
 
 	<trigger Name="REVOLUTION_TOLERANCE" active="0">
         <event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Revolution_tolerance" />
+		<event eventid="GE_OBJECT_DIE" ObjName="Punishers" />
         <script>
             SetTolerance( 1051, 1013, RS_ENEMY )
 			SetTolerance( 1013, 1003, RS_ENEMY )
