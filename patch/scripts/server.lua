@@ -466,11 +466,11 @@ function QuestStatus(name)
 	return Stat
 end
 
-function TeamCreate(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate)
-	return CreateTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate)
+function TeamCreate(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate, Type)
+	return CreateTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate, Type)
 end
 
-function CreateTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate)
+function CreateTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate, Type)
 -- —оздает команду машин из списка ListOfVehicle, с именем Name и белонгом Belong, в позиции CreatePos.
 -- Eсли надо кудато ехать, то надо указать WalkPos
 -- возвращает указатель на созданную команду(если все ок), либо 0 - если ошибка
@@ -481,8 +481,12 @@ function CreateTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Ro
 -- Ѕудет создана команда из 5 машин. ” команды будет им€ ExtrGuardTeam, а у машин
 -- ExtrGuardTeam_vehicle_0, ExtrGuardTeam_vehicle_1, .. ExtrGuardTeam_vehicle_4.
 -- ћашины высто€тс€ в р€д по оси Z (друг за другом). 
+-- by zatinu322: Type - тип команды. ѕо-умолчанию обычный "team", если не указано иное.
+
+	if Type == nil then Type = "team" end
+
 	local teamID = CreateNewObject{
-			prototypeName = "team",
+			prototypeName = Type,
 			objName = Name,
 			belong = Belong
 		}

@@ -245,7 +245,7 @@
 	<trigger Name="REVOLUTIONTIME" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("Punishers",1051,CVector(3168, 319, 1144),{"Revolutioner1","Revolutioner1"},CVector(2845,330,1333), 1)
+			TeamCreate("Punishers",1051,CVector(3168, 319, 1144),{"Revolutioner1","Revolutioner1"},CVector(2845,330,1333), 1, nil, "caravanTeam")
 
 			local terr = TeamCreate("Terrorists",1013,CVector(2845,336,1319),{"Scout01","Scout02","Scout03"}, nil, 1)
 			terr:SetProperty ("TeamTacticPrototype", "TeamTacticTerroristsR1M1")
