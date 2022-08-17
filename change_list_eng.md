@@ -60,8 +60,9 @@
 
 ### Locations / Maps
 * **Town exits**: fixed exit paths for following towns: Porto(Ridzin), Area 51(Vaterland), Helvetia(Librium), First and Seth(Sacred Grove). The original exit paths could have damaged the vehicle on an exit or even destroy it [[#69]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/69)
+* **Ridzin - Terrain**: small terrain fix near stone arch located next to Olympus [[#234]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/234)
 * **Vaterland - The Amusement Center**: instead of continuing to burn endlessly, fire at The Amusement Center will now be extinguished when a player trips one of the predetermined story checkpoints. Triggers also take into consideration if a player had spoken with Manny about The Amusement Center [[#76]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/76)
-* **Veterland - shore line**: added a tidal bore to the lake near Lost village. It isn't physically correct but looks better than without it [[#197]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/197)
+* **Veterland - Shore line**: added a tidal bore to the lake near Lost village. It isn't physically correct but looks better than without it [[#197]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/197)
 * **Hel - Lootbox location**: lootbox spawned at SecretPlace13_loc location can now be reached by the player, previously was inside the invisible walls [[#145]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/145)
 * **Hel - Olme**: people walking near Olme will now less often get teleported to the roof of the town. This still can happen because of a flawed game engine mechanic [[#146]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/146)
 * **Librium - Travel to Sacred Grove**: player vehicle will face the right direction after the travel [[#199]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/199)
@@ -71,11 +72,13 @@
 ### Sound
 * **Music - Main Menu**: main menu theme will no longer stop playing after watching credits [[#189]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/189)
 * **Weapon - Rainmetal**: fixed sound clipping, lowdness is normalised, fire rate gadgets effect is accounted for [[#91]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/91)
+* **Weapon - KPVT**: lowdness is normalised [[#233]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/233)
+* **Weapon - Octopus**: lowdness is normalised [[#233]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/233)
 * **Vehicle - Turbo GT**: Turbo GT now has an engine sound, which can be heard when racing in Vahat [[#128]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/128)
 
 ### Balance
 * **Gun affixes**: fixed rusty_gun, useless_gun, excellent_gun, advanced_gun affixes affecting Accuracy in the wrong direction, affix price effect added [[#59]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/59)
-* **Autoleveling**: random spawn enemies will now use special prototypes prepared just for them. These prototypes have a limited cargo compartment size to limit a drop of cheap wares caused by limitations of the game's spawn logic. Same fix for the cargo compartment of robots in Sacred Grove. This not only helps with economy balance but also reduces chances of games crashes on "object container" overflow [[#97]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/97) [[#199]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/199)
+* **Autoleveling**: random spawn enemies will now use special prototypes prepared just for them. These prototypes have a limited cargo compartment size to limit a drop of cheap wares caused by limitations of the game's spawn logic. Same fix for the cargo compartment of robots in Sacred Grove. This not only helps with economy balance but also reduces chances of games crashes on "object container" overflow [[#97]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/97) [[#199]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/199) [[#237]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/237)
 * **Van cab weapon slots**: all three Van cabins now have a 360 gun rotation weapon slots, making all three a valid option for the player [[#173]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/173)
 * **Belaz cargo weapon slot**: adds the second missing Giant weapon slot on Thunder cargo compartment [[#176]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/176)
 * **Hunter cab weapon slot**: limited turning angle of the small gun slot on the second cab [[#174]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/174)
@@ -95,9 +98,9 @@
 
 ### Text
 * **Encyclopedia**: proofreading and corrections for uidescription.xml [RU only] [[#64]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/64) [[#74]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/74)
-* **Gun affixes**: fixed with_electric_sight_gun affix description name mistype [[#68]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/68)
-* **Subtitles**: proofreading and text corrections for strings.xml of various maps, radiosamples.xml text corrections [RU only] [[#70]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/70) [[#94]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/94)
-* **Bandit radio messages**: fixed mixup of subtitles for two of the bandit's battle cries [[#94]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/94)
+* **Gun affixes**: fixed with_electric_sight_gun affix description name mistype [RU only] [[#68]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/68)
+* **Subtitles**: proofreading and text corrections for strings.xml of various maps [RU only], radio shouts subtitles text corrections [RU only], clan descriptions corrections [RU only] [[#70]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/70) [[#94]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/94) [[#230]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/230)
+* **Bandit radio messages**: fixed mixup of subtitles for two of the bandit's battle cries [RU only] [[#94]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/94)
 
 ### UI
 * **Icons**: fixed missing cargo icons for Peacekeeper, and mixed up cab can cargo icons for Belaz and Ural [[#66]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/66)
@@ -109,11 +112,12 @@
 * **Vehicle - Hunter**: Hunter's cabins fixes: the same shader as uses for the playable trucks, increasing visual fidelity of the car, logo on the second cab is visible, added more skins (red and blue), additional loadpoints for the lights [[#174]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/174)
 * **Vehicle - Fighter**: the same shader as uses for the playable trucks, increasing visual fidelity of the car, fixed inverted normals, added more skins (red and blue) [[#175]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/175)
 * **Environment models**: giant rework of practically every standalone stone, crag and rock model in the game to patch holes in the geometry and improve models rendering and collisions. Collisions were also fixed for few other environment assets namely Stonehenge and factory cistern model [[#193]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/193) [[#226]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/226) 
-* **Model - building**: fixed industrial building model (prom_small.gam) lacking window texture one one side, leaving untextured hole [[#107]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/107)
-* **Model - building**: fixed desert house model (r4_freehouse2.gam) lack of collision box [[#110]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/110)
-* **Model - object**: fixed railway platform model's (rr_platform.gam) approximate collision box with a better one, to prevent the player from taking damage when climbing it [[#152]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/152)
-* **Model - town**: updated town model minin.gam (used for "Sowth" and "Aeterna"), changing bugged stairs normals, adding collision for the pipes, updating shader to an AO version, increasing visual fidelity and fixing overblown specular parts [[#166]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/166)
-* **Models - buildings, props**: updated some props and buildings to use AO capable shaders, fixing overly bright specular highlights in process, including oilmine2.gam, tube1.gam, tube2.gam, tube3.gam [[#228]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/228)
+* **Model - Building**: fixed industrial building model (prom_small.gam) lacking window texture one one side, leaving untextured hole [[#107]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/107)
+* **Model - Building**: fixed desert house model (r4_freehouse2.gam) lack of collision box [[#110]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/110)
+* **Model - Object**: fixed railway platform model's (rr_platform.gam) approximate collision box with a better one, to prevent the player from taking damage when climbing it [[#152]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/152)
+* **Model - Town**: updated town model minin.gam (used for "Sowth" and "Aeterna"), changing bugged stairs normals, adding collision for the pipes, updating shader to an AO version, increasing visual fidelity and fixing overblown specular parts [[#166]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/166)
+* **Models - Buildings, props**: updated some props and buildings to use AO capable shaders, fixing overly bright specular highlights in process, including oilmine2.gam, tube1.gam, tube2.gam, tube3.gam [[#228]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/228)
+* **Models - Roads**: improved collisions of road models. This makes driving from a road to soil and back smoother, also removing most of the cases where player could damage their truck by trying to drive into the road [[#240]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/240)
 * **Texture**: fixed missing alpha-channel for textured used in ship graveyard models [[#65]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/65)
 * **Effect**: now only one engine can be dropped as a part of the debris left after the explosion of the truck [[#77]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/77)
 
@@ -126,7 +130,7 @@
 
 ## Improvements
 * **Engine patching**: aspect ratio correction fix, bringing proper 90 degree wide FOV and accompaning frustrum culling patch
-* **UI - HD 16:9 interface**: every user interface screen redone to support 16:9 HD resolutions, upscaled and redrawn 95% of UI textures (main driving interface, icluding status bar, speedometer, crosshair and radar, town and shop screens, inventory screen, journal, quests, map and global map, NPC dialog screen, loading screens and map splash screens, weapon and gadget icons etc). Every affected file is commented for ease of future modding [[#180]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/180)
+* **UI - HD 16:9 interface**: every user interface screen redone to support 16:9 HD resolutions, high resolution text rendering, upscaled and redrawn 95% of UI textures (main driving interface, icluding status bar, speedometer, crosshair and radar, town and shop screens, inventory screen, journal, quests, map and global map, NPC dialog screen, loading screens and map splash screens, weapon and gadget icons etc), more readable pop up messages. Every affected file is commented for ease of future modding [[#180]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/180) [[#243]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/243)
 * **UI - Icons**: new gadget icons are now color coded to reflect a quality of a gadget (white/rusty, blue/green, red tone usually from worse to best) and weapon gadget icons now have distinctive suplimentary icons coresponding with the weapon type they affect 
 * **UI - Icons**: fixed damage resist icons mixup, now all damage resist types have new appropriate icons, displayed on crosshair and in a town shop and a vehicle stat interface [[#81]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/81)
 * **Lootbox system**: propagated lootbox logic existing in the game to first and second region maps (Krai, Ridzin, Vaterland, Hel, Librium, Argen), icreasing game's replayability. Improved logic of the loot generation, fixing many errors related to wrong affix choice for the weapon types, rebalanced the drop rates for the guns used in generation [[#83]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/83) [[#227]](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/pull/227)
