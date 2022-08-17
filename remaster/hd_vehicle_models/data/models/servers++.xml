@@ -596,18 +596,6 @@
 			id="molokovozCargo04"
 			file="data\models\AnimModels.xml" />
 
-		<Item
-			id="molokovozSusp01l"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="molokovozSusp01r"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="molokovozSusp02"
-			file="data\models\AnimModels.xml" />
-
 		<Item 
 			id="molokovozSus_f_r" 
 			file="data\models\AnimModels.xml"/>

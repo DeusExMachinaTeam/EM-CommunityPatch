@@ -1191,19 +1191,7 @@
 			id="molokovozCargo04"
 			file="data\models\AnimModels.xml" />
 
-		<Item
-			id="molokovozSusp01l"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="molokovozSusp01r"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="molokovozSusp02"
-			file="data\models\AnimModels.xml" />
-
-			<Item 
+		<Item 
 			id="molokovozSus_f_r" 
 			file="data\models\AnimModels.xml"/>
 
@@ -4014,6 +4002,352 @@
 
 	<SoundsServer>
 		<Item id="S_CRASH_METAL01" />
+		<Item id="S_CRASH_METAL02" />
+		<Item id="S_CRASH_METAL03" />
+		<Item id="S_CRASH_METAL04" />
+		
+		<Item id="S_CRASH_TREE01" />
+		<Item id="S_CRASH_TREE02" />
+		<Item id="S_CRASH_TREE03" />
+		<Item id="S_CRASH_TREE04" />
+		<Item id="S_CRASH_TREE05" />
+		
+		<Item id="S_CRASH_WOOD01" />
+		<Item id="S_CRASH_WOOD02" />
+		<Item id="S_CRASH_WOOD03" />
+		<Item id="S_CRASH_WOOD04" />
+		<Item id="S_CRASH_WOOD05" />
+		<Item id="S_CRASH_WOOD06" />
+		<Item id="S_CRASH_WOOD07" />
+		<Item id="S_CRASH_WOOD08" />
+		<!-- <Item id="S_WOODVEHICLEHIT" /> -->
+		<!-- <Item id="S_WOODVEHICLECRASH" /> -->
+		<!-- <Item id="S_BRICKVEHICLEHIT01" /> -->
+		<!-- <Item id="S_BRICKVEHICLEHIT02" /> -->
+		<!-- <Item id="S_SACKVEHICLEHIT" /> -->
+		<!-- <Item id="S_VEHICLESPARKLE" /> -->
+		<!-- <Item id="S_VEHICLEONGROUND" /> -->
+		<Item id="S_VEHICLEONGROUND_SLOW" />
+		<Item id="S_STATICSSPARKLE" />
+		<Item id="S_STATICSSPARKLE_SLOW" />
+
+
+		<!-- Braking -->
+
+		<Item id="S_BRAKE01" />
+		<Item id="S_PNEUMO_BRAKE01" />
+		<Item id="S_GEAR_SHIFT01" />
+
+		<!-- Engines --> 
+
+		<Item id="S_ENGINE_BEETLE_1_HIGH" />
+		<Item id="S_ENGINE_BEETLE_2_HIGH" />
+		<Item id="S_ENGINE_BEETLE_3_HIGH" />
+
+		<Item id="S_ENGINE_MOLOKO_1_HIGH" />
+		<Item id="S_ENGINE_MOLOKO_2_HIGH" />
+		<Item id="S_ENGINE_MOLOKO_3_HIGH" />
+
+		<Item id="S_ENGINE_URAL_1_HIGH" />
+		<Item id="S_ENGINE_URAL_2_HIGH" />
+		<Item id="S_ENGINE_URAL_3_HIGH" />
+		<Item id="S_ENGINE_URAL_4_HIGH" />
+		<Item id="S_ENGINE_URAL_5_HIGH" />
+		<Item id="S_ENGINE_BELAZ_1_HIGH" />
+		<Item id="S_ENGINE_BELAZ_2_HIGH" />
+		<Item id="S_ENGINE_BELAZ_3_HIGH" />
+		<Item id="S_ENGINE_BELAZ_4_HIGH" />
+		<Item id="S_ENGINE_BELAZ_5_HIGH" />
+
+		<Item id="S_BELAZ_ENGINE_HIGH" />
+
+
+		<Item id="S_ENGINE_MIR_1_HIGH" />
+		<Item id="S_ENGINE_MIR_2_HIGH" />
+		<Item id="S_ENGINE_MIR_3_HIGH" />
+		<Item id="S_ENGINE_MIR_4_HIGH" />
+		<Item id="S_ENGINE_MIR_5_HIGH" />
+		<Item id="S_ENGINE_SMALL_1_HIGH" />
+		<Item id="S_ENGINE_SCOUT_1_HIGH" />
+		<Item id="S_ENGINE_FIGHTER_1_HIGH" />
+		<Item id="S_ENGINE_HUNTER_1_HIGH" />
+		<Item id="S_ENGINE_CRUISER_1_HIGH" />
+
+		<!-- Missiles --> 
+
+		<Item id="S_MISSILE1" />
+		<Item id="S_MISSILE2" />
+
+		<!-- Shooting --> 
+
+
+		<Item id="S_SHOOTING_CANNON01" />
+		<Item id="S_SHOOTING_CANNON02" />
+		<Item id="S_SHOOTING_MACHINE_GUN" />
+		<Item id="S_SHOOTING_MACHINE_GUN_SINGLE" />
+		<Item id="S_SHOOTING_MACHINE_GUN_LOOP" />
+		<Item id="S_SHOOTING_2MACHINE_GUN_SINGLE" />
+		<Item id="S_SHOOTING_SHOT_GUN01" />
+		<Item id="S_SHOOTING_SHOT_GUN02" />
+		<Item id="S_SHOOTING_MISSILE_LAUNCH01" />
+		<Item id="S_SHOOTING_MISSILE_LAUNCH02" />
+		<Item id="S_SHOOTING_LASER_GUN01" />
+		<Item id="S_SHOOTING_LASER_GUN02" />
+		<Item id="S_SHOOTING_LASER_GUN03" />
+		<Item id="S_SHOOTING_PLASMA_GUN01" />
+		<Item id="S_SHOOTING_PLASMA_GUN02" />
+		<Item id="S_SHOOTING_ELEPHANT" />
+		<Item id="S_SHOOTING_FLAG" />
+		<Item id="S_SHOOTING_ODIN" />
+		<Item id="S_SHOOTING_RAINMETAL" />
+
+		<Item id="S_SHOOTING_VECTOR" />
+		<Item id="S_SHOOTING_VULCAN" />
+		<Item id="S_SHOOTING_CYCLOPS" />
+		<Item id="S_SHOOTING_DRAGON" />
+		<Item id="S_SHOOTING_HAMMER" />
+		<Item id="S_SHOOTING_HURRICANE" />
+		<Item id="S_SHOOTING_SWINGFIRE" />
+		<Item id="S_SHOOTING_FAGOT" />
+		<Item id="S_SHOOTING_HORNET" />
+
+		<Item id="S_SHOOTING_KORD" />
+		<Item id="S_SHOOTING_MAXIM" />
+		<Item id="S_SHOOTING_PKT" />
+		<Item id="S_SHOOTING_STORM" />
+		<Item id="S_SHOOTING_SPECTER" />
+		<Item id="S_SHOOTING_KPVT" />
+		<Item id="S_SHOOTING_RAPIER" />
+		<Item id="S_SHOOTING_BUMBLEBEE" />
+		<Item id="S_SHOOTING_OMEGA" />
+		<Item id="S_SHOOTING_OCTOPUS" />
+		<Item id="S_SHOOTING_HAIL" />
+		<Item id="S_SHOOTING_HUNTER" />
+		<Item id="S_SHOOTING_MARS" />
+		<Item id="S_SHOOTING_MRAK" />
+		<Item id="S_SHOOTING_ZEUS" />
+		<Item id="S_SHOOTING_OIL" />
+		<Item id="S_SHOOTING_HEDGEHOG1_MINE" />
+		<Item id="S_SHOOTING_HEDGEHOG2_MINE" />
+		<Item id="S_SHOOTING_NAILS_ON_GROUND" />
+		<Item id="S_SHOOTING_SMOKE" />
+		<Item id="S_SHOOTING_SQUAL_MINE" />
+		<Item id="S_SHOOTING_TURBO" />
+		<Item id="S_TANK_SHOOT" />
+
+		<!-- Shoot hits --> 
+
+		<Item id="S_SHOOT_HIT01" />
+		<Item id="S_SHOOT_HIT02" />
+		<Item id="S_SHOOT_HIT03" />
+		<Item id="S_SHOOT_HIT04" />
+		<Item id="S_SHOOT_HIT05" />
+		<Item id="S_SHOOT_HIT06" />
+		<Item id="S_SHOOT_HIT07" />
+		<Item id="S_SHOOT_HIT08" />
+		<Item id="S_SHOOT_HIT09" />
+		<Item id="S_SHOOT_HIT10" />
+		<Item id="S_SHOOT_HIT11" />
+		<Item id="S_SHOOT_HIT12" />
+		<Item id="S_SHOOT_HIT13" />
+		<Item id="S_SHOOT_HIT14" />
+		<Item id="S_BULLET09" />
+		<Item id="S_BULLET05" />
+
+		<!-- Explosions --> 
+
+
+		<Item id="S_EXPLOSION01" />
+		<Item id="S_EXPLOSION02" />
+		<Item id="S_EXPLOSION03" />
+		<Item id="S_EXPLOSION04" />
+		<Item id="S_EXPLOSION05" />
+		<Item id="S_EXPLOSION06" />
+		<Item id="S_EXPLOSION07" />
+		<Item id="S_EXPLOSION08" />
+		<Item id="S_EXPLOSION09" />
+		<Item id="S_EXPLOSION10" />
+
+		<!-- Braking -->
+
+		<Item id="S_BRAKING01" />
+		<Item id="S_BRAKING02" />
+
+		<!-- Horns -->
+
+		<Item id="S_HORN01" />
+		<Item id="S_HORN02" />
+		<Item id="S_HORN03" />
+		<Item id="S_HORN04" />
+		<Item id="S_HORN05" />
+		<Item id="S_HORN06" />
+		<Item id="S_HORN07" />
+		<Item id="S_HORN08" />
+
+		<!-- ���� -->
+
+		<Item id="S_THUNDER" />
+		<Item id="S_RAIN" />
+		<Item id="S_RAIN_INT" />
+
+
+		<!-- Starting -->
+
+		<Item id="S_STARTING01" />
+		<Item id="S_STARTING02" />
+		<Item id="S_STARTING03" />
+		<Item id="S_STARTING04" />
+		<Item id="S_STARTING05" />
+		<Item id="S_STARTING06" />
+		<Item id="S_STARTING07" />
+		<Item id="S_STARTING08" />
+		<Item id="S_STARTING09" />
+		<Item id="S_SOMESHOT" />
+		<Item id="S_SHELL_SMALL" />
+		<Item id="S_SHELL_MEDIUM" />
+		<Item id="S_MISSILE_FLAME" />
+		<Item id="S_HORNET_TAIL" />
+		<Item id="S_STATIC07" />
+		<Item id="S_WATER02" />
+		<Item id="S_BULLET01" />
+		<Item id="S_ROAD04" />
+		<Item id="S_ROCK05" />
+		<Item id="S_GROUND06" />
+		<Item id="S_SAND03" />
+		<Item id="S_GRASS01" />
+		<Item id="S_ROCK04" />
+		<Item id="S_BULLET04" />
+		<Item id="S_SAND04" />
+		<Item id="S_WOOD05" />
+		<Item id="S_WATER_EXPL" />
+		<Item id="S_STATIC_EXPL" />
+		<Item id="S_CAR_EXPL" />
+		<Item id="S_ROAD_EXPL" />
+		<Item id="S_ROCK_EXPL" />
+		<Item id="S_GROUND_EXPL" />
+		<Item id="S_SAND_EXPL" />
+		<Item id="S_WOOD_EXPL" />
+		<Item id="S_WATER_AC" />
+		<Item id="S_STATIC_AC" />
+		<Item id="S_CAR_AC" />
+		<Item id="S_ROAD_AC" />
+		<Item id="S_ROCK_AC" />
+		<Item id="S_GROUND_AC" />
+		<Item id="S_SAND_AC" />
+		<Item id="S_WOOD_AC" />
+		<Item id="S_WATER_GR" />
+		<Item id="S_STATIC_GR" />
+		<Item id="S_CAR_GR" />
+		<Item id="S_ROAD_GR" />
+		<Item id="S_ROCK_GR" />
+		<Item id="S_GROUND_GR" />
+		<Item id="S_SAND_GR" />
+		<Item id="S_WOOD_GR" />
+		<Item id="S_WATER_LAS" />
+		<Item id="S_STATIC_LAS" />
+		<Item id="S_CAR_LAS" />
+		<Item id="S_ROCK_LAS" />
+		<Item id="S_GROUND_LAS" />
+		<Item id="S_SAND_LAS" />
+		<Item id="S_PLAZMA01" />
+		<Item id="S_PLAZMA02" />
+		<Item id="S_PLAZMA03" />
+		<Item id="S_PLAZMA04" />
+		<Item id="S_WATER_BL" />
+		<Item id="S_STATIC_BL" />
+		<Item id="S_CAR_BL" />
+		<Item id="S_ROCK_BL" />
+		<Item id="S_GROUND_BL" />
+		<Item id="S_SAND_BL" />
+		<Item id="S_WOOD_BL" />
+
+		<!-- Bosses -->
+
+		<Item id="S_BOSS01_STAND1" />
+		<Item id="S_BOSS01_STAND2" />
+		<Item id="S_BOSS01_ATTACK1" />
+		<Item id="S_BOSS01_ATTACK2" />
+		<Item id="S_BOSS01_BLOCK1" />
+		<Item id="S_BOSS01_BLOCK2" />
+
+
+
+		<Item id="S_BOAT_STAND1" />
+		<Item id="S_BOAT_STAND2" />
+
+		<Item id="S_BOSS02_STAND1" />
+		<Item id="S_BOSS02_STAND2" />
+		<Item id="S_BOSS02_ATTACK1" />
+		<Item id="S_BOSS02_ATTACK2" />
+		<Item id="S_BOSS02_BLOCK1" />
+		    
+
+		<Item id="S_BOSS03_STAND1" />
+
+		<Item id="S_BOSS04_STAND1" />
+
+
+
+		<!-- Environment -->
+		<Item id="S_SEA" />
+		<Item id="S_WIND_GRASS" />
+		<Item id="S_MARSH" />
+		<Item id="S_MOUNT" />
+		<Item id="S_LAKE" />
+		<Item id="S_FOREST" />
+		<Item id="S_DESERT" />
+		<Item id="S_JUNGLE" />
+
+		<Item id="S_FACTORY_SQUEAK" />
+		<Item id="S_FACTORY_WATER" />
+		<Item id="S_FACTORY_WIND" />
+
+		<Item id="S_OIL_FIELD" />
+		<Item id="S_VILLAGE01" />
+		<Item id="S_VILLAGE_BURNING01" />
+
+		<Item id="S_MAN_DEATH01"/>
+		<Item id="S_MAN_DEATH02"/>
+		<Item id="S_MAN_SCREAM1"/>
+		<Item id="S_MAN_SCREAM2"/>
+		<Item id="S_WOODVEHICLEHIT1"/>
+		<Item id="S_WOODVEHICLEHIT2"/>
+		<Item id="S_WOODVEHICLEHIT3"/>
+		<Item id="S_WOODVEHICLECRASH"/>
+		<Item id="S_BRICKVEHICLEHIT01"/>
+		<Item id="S_BRICKVEHICLEHIT02"/>
+		<Item id="S_BRICKVEHICLEHIT03"/>
+
+		<Item id="S_SACKVEHICLEHIT"/>
+		<Item id="S_SACKVEHICLEHIT02"/>
+		<Item id="S_TREEVEHICLECRASH"/>
+		<Item id="S_VEHICLESPARKLE"/>
+		<Item id="S_VEHICLESPARKLE_SLOW"/>
+		<Item id="S_VEHICLEONGROUND"/>
+		<Item id="S_DRIFT01"/>
+		<Item id="S_CARJUMP"/>
+
+		<Item id="S_VEH_HIT_BULLET01"/>
+		<Item id="S_VEH_HIT_BULLET02"/>
+		<Item id="S_VEH_HIT_BULLET03"/>
+		<Item id="S_VEH_HIT_BULLET04"/>
+		<Item id="S_VEH_HIT_BULLET05"/>
+		<Item id="S_VEH_HIT_BULLET06"/>
+		<Item id="S_VEH_HIT_BULLET07"/>
+		<Item id="S_VEH_HIT_BULLET08"/>
+		<Item id="S_VEH_HIT_BULLET09"/>
+		<Item id="S_VEH_HIT_BULLET10"/>
+		<Item id="S_VEH_HIT_BULLET11"/>
+		<Item id="S_VEH_HIT_BULLET12"/>
+		<Item id="S_VEH_HIT_BULLET13"/>
+
+		<Item id="S_BRAKE"/>
+		<Item id="S_RECHARGE_WEAPON"/>
+		<Item id="S_CAR_BURNING_SMALL"/>
+		<Item id="S_CAR_BURNING"/>
+
+		<Item id="S_ENGINE_TANK_HIGH"/>
+		<Item id="S_SHOOTING_ROBOTGUN_01"/>
 
 	</SoundsServer>
 
