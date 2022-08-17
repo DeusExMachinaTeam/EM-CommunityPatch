@@ -252,6 +252,7 @@
 			terr:_AdjustBehaviour ()
 
 			SetTolerance( 1051, 1013, RS_NEUTRAL )
+			SetTolerance( 1013, 1003, RS_NEUTRAL )
 
 			TActivate("REVOLUTIONTIMEEND")
 			TActivate("REVOLUTION_TOLERANCE")
@@ -264,6 +265,7 @@
         <event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Revolution_tolerance" />
         <script>
             SetTolerance( 1051, 1013, RS_ENEMY )
+			SetTolerance( 1013, 1003, RS_ENEMY )
 
             trigger:Deactivate()    
         </script>
