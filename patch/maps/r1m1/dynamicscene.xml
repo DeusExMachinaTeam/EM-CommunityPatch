@@ -37417,7 +37417,7 @@
 		Prototype="someRecollection" />
 
 	<Object
-		Name="Revolution_toleranse"
+		Name="Revolution_toleranñe"
 		Belong="1051"
 		Prototype="genericLocation"
 		Pos="2704.563 329.209 1293.204"
