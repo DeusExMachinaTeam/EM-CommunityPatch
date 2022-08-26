@@ -761,9 +761,9 @@
 			Name="TheRazboynik_enter"
 			Belong="1063"
 			Prototype="genericLocation"
-			Pos="489.842 303.424 1703.576"
+			Pos="464.754 320.786 1774.458"
 			Rot="0.000 0.851 0.000 -0.526"
-			Radius="64.640" />
+			Radius="46.640" />
 
 		<Parts>
 			<AttackTeam
