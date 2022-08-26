@@ -108,4 +108,10 @@
 		<Point  coord="0 -1 0" />
 	</Path>
 
+	<Path Name = "ENEMYLISADEAD_cam01">
+		<Point  coord="-10 5 -15" />
+		<Point  coord="10 8 -20" />
+		<Point  coord="20 20 -40" />
+	</Path>
+
 </Paths>
