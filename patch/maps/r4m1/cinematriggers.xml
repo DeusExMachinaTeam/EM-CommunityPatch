@@ -735,7 +735,7 @@
 
 			PlayCustomMusic("IntenseDialogue02")
 
-			local vehLisa = getObj("ENEMYLISA_vehicle_0")
+			local vehLisa = CreateVehicleEx("LisaCar", "LisaDefeated", CVector(0, 2000, 0), 1042)
 			local vehLisaId = vehLisa:GetId()
 
 			FlyLinked("ENEMYLISADEAD_cam01", GetPlayerVehicleId(), 43.5, 1, 1, vehLisaId)
@@ -765,10 +765,12 @@
 			local oldLisa = getObj("ENEMYLISA_vehicle_0")
 			if oldLisa then oldLisa:Remove() end
 
-			local vehLisa = CreateVehicleEx("LisaCar", "LisaDefeated", CVector(3323.063, 267.737, 7283.302), 1042)
+			local vehLisa = GetEntityByName("LisaDefeated")
 			if vehLisa then
 				vehLisa:SetCustomLinearVelocity(0)
 				vehLisa:SetThrottle(0)
+				vehLisa:SetSkin(2)
+				vehLisa:SetGamePositionOnGround(CVector(3323.063, 267.737, 7283.302))
 				vehLisa:SetRotation(Quaternion(0.003, 0.142, 0.003, -0.990))
 			end
 
