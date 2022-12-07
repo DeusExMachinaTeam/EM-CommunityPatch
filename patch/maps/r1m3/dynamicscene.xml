@@ -323,7 +323,7 @@
 			Name="Asgard_enter"
 			Belong="1011"
 			Prototype="genericLocation"
-			Pos="3600.624 289.100 6164.520"
+			Pos="3592.432 288.958 6157.910"
 			Rot="-0.011 -0.888 -0.014 0.460"
 			Radius="30.000"
 			LookingTimeOut="10.000" />
