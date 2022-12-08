@@ -368,7 +368,7 @@
 			SetTolerance( 1100, 1047, RS_NEUTRAL )
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			TeamCreate("OilMineRuner",1002,CVector(6959, 260, 7059),{"DemoBandit"}, nil, 1)
+			TeamCreate("OilMineRuner",1044,CVector(6959, 260, 7059),{"DemoBandit"}, nil, 1)
 			
 			local runVeh = getObj("OilMineRuner_vehicle_0")
 			local RunID = runVeh:GetId()
@@ -439,6 +439,8 @@
 			TActivate("RUNTORUNERENDRACE")
 
 			SetCameraBehindPlayerVehicle()
+
+			SetTolerance( 1100, 1044, RS_ENEMY )
 
 			trigger:Deactivate() 
 		</script>
@@ -536,11 +538,9 @@
 	<trigger Name="RUNTORUNERENDRACE" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="OilMineRuner_vehicle_0" />
 		<script>
-			TeamCreate("OilMineBaseBoss",1002,CVector(4483, 265, 7496),{"r1m3_Fighter01","r1m3_Fighter02"},CVector(4546, 263, 7479), 1)
+			TeamCreate("OilMineBaseBoss",1044,CVector(4483, 265, 7496),{"r1m3_Fighter01","r1m3_Fighter02"},CVector(4546, 263, 7479), 1)
 
 			CompleteQuest("d_FindBanditBaseOfOilMine_Quest1")
-
-			SetTolerance( 1100, 1044, RS_ENEMY )
 
 			TActivate("KILLBOSSOILMINEBASE")
 

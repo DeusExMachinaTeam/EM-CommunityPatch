@@ -22,17 +22,10 @@
 ** ׁ‏זוע
 **************************************************************************************************
 -->
-	<trigger	Name="trAutoSave"	active="0">
-		<event eventid="GE_GAME_START" ObjName="Player1" />
-		<script>
-		</script>
-	</trigger>
-
 	<trigger	Name="trStartMap"	active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			if QuestStatus("r4m1_FindNative")==Q_CANBEGIVEN then
-			   TakeQuest("r4m1_FindNative")
 			   TActivate("cinPriezdFirst")
 			   trigger:Deactivate()
 			end
@@ -1060,5 +1053,5 @@
 
 
 
-
+	
 </triggers>

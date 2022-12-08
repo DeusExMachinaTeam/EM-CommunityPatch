@@ -2466,7 +2466,7 @@
 		name="RazVill_Bar_Lisa_1_N04"
 		text="Значит, мы должны встретиться с ним. Показывай дорогу."
 		role="PLAYER"
-		scriptResult="EndConversation()" />
+		scriptResult="TActivate('LisaFollowsUsR3M1'); EndConversation()" />
 <!--Root/r3m1/У разбойников-->
 	<Reply
 		name="RazVill_Razboynik1_1_N01"

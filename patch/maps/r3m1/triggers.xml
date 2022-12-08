@@ -705,5 +705,33 @@
 		</script>
 	</trigger>
 
+	<!-- Создание машины Лисы и привязка её к игроку -->
+	<trigger Name="LisaFollowsUsR3M1" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("CARLISA", 1042, CVector(491.059, 303.172, 1662.142), {"LisaCar"}, nil, nil, Quaternion(0.012, -0.372, 0.085, -0.924))
+			local vehLisa = GetEntityByName("CARLISA_vehicle_0")
+			if vehLisa then
+				vehLisa:SetSkin(2)
+				vehLisa:setImmortalMode(1)
+
+				local newControllerId = CreateNewObject {
+					prototypeName	= "someNPCMotionController",
+					objName	= "LisaControllerR3M1"
+				}
+				
+				local newController = GetEntityByID(newControllerId)
+				
+				if newController then
+					newController:setVehicleUnderControl(vehLisa)
+				end
+			else
+				LOG("ERROR! Lisa\'s car does not exists!")
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 
 </triggers>

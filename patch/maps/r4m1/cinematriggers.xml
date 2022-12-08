@@ -358,7 +358,16 @@
 
 			AddCinematicMessage( 12, 0.5 )
 			AddCinematicMessage( 13, 0.5 )
-			if getObj("CARLISA") then
+			if QuestStatus("d_SinFather_Quest")==Q_COMPLETED then
+				local oldLisa = getObj("CARLISA_R4M1_vehicle_0")
+				if oldLisa then oldLisa:Remove() end
+
+				local vehLisa = CreateVehicleEx("LisaCar", "LisaBuharers", CVector(1363.683, 220.556, 3105.291), 1042)
+				if vehLisa then
+					vehLisa:SetSkin(2)
+					vehLisa:SetRotation(Quaternion(-0.000, 0.379, -0.000, 0.925))
+				end
+
 				AddHistory( "r4_LisaBecameCrazy" )
 				AddCinematicMessage( 14, 0.5 )
 			end
@@ -379,9 +388,20 @@
 				end
 			end
 
-			if getObj("CARLISA") then
-				getObj("CARLISA"):Remove()
+			if QuestStatus("d_SinFather_Quest")==Q_COMPLETED then
+				if getObj("CARLISA_R4M1_vehicle_0") then
+					getObj("CARLISA_R4M1_vehicle_0"):Remove()
+				end
+
+				if getObj("LisaControllerR4M1") then
+					getObj("LisaControllerR4M1"):Remove()
+				end
+
+				if getObj("LisaBuharers") then
+					getObj("LisaBuharers"):Remove()
+				end
 			end
+
 			CompleteQuestIfTaken("r3m2_FindInfoAboutFather")
 			StopPlayingCustomMusic()
 			SetCameraBehindPlayerVehicle()
@@ -622,14 +642,18 @@
 	</trigger>
 
 
+	<!-- Игрок впервые приезжает на карту -->
 	<trigger	Name="cinPriezdFirst"	active="0">
 		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
 		<script>
 			EnableGodMode()
 			SaveAllToleranceStatus(RS_NEUTRAL)
---			TActivate("cinExit42ReturnFirst")
 
-			Fly("FirstPriezd", CINEMATIC_NO_AIM, nil, 16, 1,1)
+			if QuestStatus("d_SinFather_Quest")==Q_COMPLETED then
+				Fly("FirstPriezd", CINEMATIC_NO_AIM, nil, 23, 1,1)
+			else
+				Fly("FirstPriezd", CINEMATIC_NO_AIM, nil, 16, 1,1)
+			end
 			StartCinematic()
 			UpdateCinematic( 1 )
 			TActivate("cinPriezd_FadeIn")
@@ -645,9 +669,17 @@
 			GetPlayerVehicle():SetGamePositionOnGround(CVector(3129.591, 273.090, 7477.917))
 			GetPlayerVehicle():SetRotation(Quaternion(0.032, 0.925, -0.002, 0.378))
 			GetPlayerVehicle():SetExternalPathByName("PriezdToR4M1")
-			GetPlayerVehicle():LimitMaxSpeed(7)
-			AddCinematicMessage( 1, 0.25 )
-			AddCinematicMessage( 2, 0.25 )
+			if QuestStatus("d_SinFather_Quest")==Q_COMPLETED then
+				GetPlayerVehicle():LimitMaxSpeed(5.2)
+				AddCinematicMessage( 1, 0.25 )
+				AddCinematicMessage( 18, 0.25 )
+				AddCinematicMessage( 19, 0.25 )
+			else
+				GetPlayerVehicle():LimitMaxSpeed(7)
+				AddCinematicMessage( 1, 0.25 )
+				AddCinematicMessage( 2, 0.25 )
+			end
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -660,10 +692,156 @@
 			GetPlayerVehicle():SetExternalPathByName("PriezdToR4M1")
 			GetPlayerVehicle():PlaceToEndOfPath("PriezdToR4M1")
 			GetPlayerVehicle():UnlimitMaxSpeed()
+
 			RestoreAllToleranceStatus()
+
 			DisableGodMode()
-			TActivate("trAutoSave")
+
 			SetCameraBehindPlayerVehicle()
+
+			if QuestStatus("d_SinFather_Quest")==Q_COMPLETED then
+				local oldLisa = getObj("CARLISA_vehicle_0")
+				if oldLisa then oldLisa:Remove() end
+
+				local cont = getObj("LisaControllerR3M1")
+				if cont then cont:Remove() end
+
+				TeamCreate("ENEMYLISA", 1042, CVector(3301.896, 267.899, 7348.589), {"LisaCar"}, nil, nil, Quaternion(-0.000, -0.290, -0.011, 0.957))
+				local vehLisa = getObj("ENEMYLISA_vehicle_0")
+				if vehLisa then
+					vehLisa:SetSkin(2)
+					vehLisa:setImmortalMode(1)
+					TActivate("trENEMYLISA_DEAD")
+					TDeactivate("trExitToR1M1")
+					SetTolerance(1100, 1042, RS_ENEMY)
+				else
+					LOG("ERROR! EnemyLisa does not exists!")
+				end
+			else
+				TakeQuest("r4m1_FindNative")
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<!-- Вломили Лисе, когда она начала агрессировать -->
+	<trigger Name="trENEMYLISA_DEAD" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="ENEMYLISA_vehicle_0" />
+		<event	timeout="60"		eventid="GE_TIME_PERIOD" />
+		<script>
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			PlayCustomMusic("IntenseDialogue02")
+
+			local vehLisa = CreateVehicleEx("LisaCar", "LisaDefeated", CVector(0, 2000, 0), 1042)
+			local vehLisaId = vehLisa:GetId()
+
+			FlyLinked("ENEMYLISADEAD_cam01", GetPlayerVehicleId(), 43.5, 1, 1, vehLisaId)
+			StartCinematic()
+
+			TActivate("Rolik_ENEMYLISADEAD_Fade")
+			TActivate("Rolik_ENEMYLISADEAD_Msg22")
+			TActivate("Rolik_ENEMYLISADEAD_End")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Rolik_ENEMYLISADEAD_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+				vehPlayer:SetGamePositionOnGround(CVector(3313.987, 267.814, 7311.647))
+				vehPlayer:SetRotation(Quaternion(-0.010, -0.987, 0.002, -0.160))
+			end
+
+			local oldLisa = getObj("ENEMYLISA_vehicle_0")
+			if oldLisa then oldLisa:Remove() end
+
+			local vehLisa = GetEntityByName("LisaDefeated")
+			if vehLisa then
+				vehLisa:SetCustomLinearVelocity(0)
+				vehLisa:SetThrottle(0)
+				vehLisa:SetSkin(2)
+				vehLisa:SetGamePositionOnGround(CVector(3323.063, 267.737, 7283.302))
+				vehLisa:SetRotation(Quaternion(0.003, 0.142, 0.003, -0.990))
+			end
+
+			AddCinematicMessage(20, 2)
+			AddCinematicMessage(21, 0.25)
+			AddCinematicMessage(22, 0.25)
+			AddCinematicMessage(2, 0.25)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Rolik_ENEMYLISADEAD_Msg22" active="0">
+		<event msgid="22" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			StopPlayingCustomMusic()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Rolik_ENEMYLISADEAD_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			StopPlayingCustomMusic()
+
+			local oldLisa = getObj("ENEMYLISA_vehicle_0")
+			if oldLisa then oldLisa:Remove() end
+
+			local oldLisa = getObj("LisaDefeated")
+			if oldLisa then oldLisa:Remove() end
+
+			TeamCreate("CARLISA_R4M1", 1042, CVector(3323.063, 267.737, 7283.302), {"LisaCar"}, nil, nil, Quaternion(0.003, 0.142, 0.003, -0.990))
+			local vehLisa = getObj("CARLISA_R4M1_vehicle_0")
+			if vehLisa then
+				vehLisa:SetSkin(2)
+				vehLisa:setImmortalMode(1)
+
+				local newControllerId = CreateNewObject {
+					prototypeName	= "someNPCMotionController",
+					objName	= "LisaControllerR4M1"
+				}
+				
+				local newController = GetEntityByID(newControllerId)
+				
+				if newController then
+					newController:setVehicleUnderControl(vehLisa)
+				end
+			else
+				LOG("ERROR! Lisa\'s car does not exists!")
+			end
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+			end
+
+			TakeQuest("r4m1_FindNative")
+
+			SetTolerance(1100, 1042, RS_ALLY)
+
+			TDeactivate("Rolik_ENEMYLISADEAD_Fade")
+			TDeactivate("Rolik_ENEMYLISADEAD_Msg22")
+			TActivate("trExitToR1M1")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
