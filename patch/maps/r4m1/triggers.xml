@@ -919,15 +919,15 @@
 	<trigger	Name="trStartHumans"	active="1">
 		<event	timeout="1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local maxhum = GetVar("MaxWalkHuman").AsInt
-			if maxhum then
-				for i=1,maxhum do
-					local tr = getObj("trHumanDie")
-					if tr then
-					   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
-					end
-				end
-			end
+			-- local maxhum = GetVar("MaxWalkHuman").AsInt
+			-- if maxhum then
+			-- 	for i=1,maxhum do
+			-- 		local tr = getObj("trHumanDie")
+			-- 		if tr then
+			-- 		   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
+			-- 		end
+			-- 	end
+			-- end
 			TActivate("trCreateHumans")
         	trigger:Deactivate()
 		</script>
@@ -949,7 +949,7 @@
 		    		  	end
 			        end
 				end
-				TActivate("trHumanDie")
+				--TActivate("trHumanDie")
 			end
         	trigger:Deactivate()
 		</script>
