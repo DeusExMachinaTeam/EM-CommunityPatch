@@ -4399,296 +4399,259 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1351.115 236.000 1670.368"
-		Rot="0.000 0.698 0.000 0.716"
-		NodeScale="1.119" />
+		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="wood_fence288"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1351.476 236.000 1654.265"
-		Rot="0.000 0.698 0.000 0.716"
-		NodeScale="1.119" />
+		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="wood_fence289"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1351.075 236.000 1639.341"
-		Rot="0.000 0.698 0.000 0.716"
-		NodeScale="1.119" />
+		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="wood_fence290"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1351.098 236.000 1622.252"
-		Rot="0.000 0.698 0.000 0.716"
-		NodeScale="1.119" />
+		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="wood_fence291"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1349.946 236.000 1604.994"
-		Rot="0.000 0.698 0.000 0.716"
-		NodeScale="1.119" />
+		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="wood_fence292"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1348.841 236.000 1586.342"
-		Rot="0.000 0.698 0.000 0.716"
-		NodeScale="1.119" />
+		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="wood_fence293"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1347.771 236.174 1567.586"
-		Rot="0.000 0.698 0.000 0.716"
-		NodeScale="1.119" />
+		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="wood_fence294"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1352.767 236.011 1682.398"
-		Rot="0.000 0.820 0.000 0.572"
-		NodeScale="1.119" />
+		Rot="0.000 0.820 0.000 0.572" />
 
 	<Object
 		Name="wood_fence295"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1455.652 251.018 1676.158"
-		Rot="0.000 -1.000 0.000 0.000"
-		NodeScale="1.119" />
+		Rot="0.000 -1.000 0.000 0.000" />
 
 	<Object
 		Name="wood_fence296"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1438.808 251.055 1675.584"
-		Rot="0.000 -1.000 0.000 0.000"
-		NodeScale="1.119" />
+		Rot="0.000 -1.000 0.000 0.000" />
 
 	<Object
 		Name="wood_fence297"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1431.993 251.143 1668.481"
-		Rot="0.000 -0.687 0.000 0.727"
-		NodeScale="1.119" />
+		Rot="0.000 -0.687 0.000 0.727" />
 
 	<Object
 		Name="wood_fence298"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1431.158 250.979 1656.580"
-		Rot="0.000 -0.687 0.000 0.727"
-		NodeScale="1.119" />
+		Rot="0.000 -0.687 0.000 0.727" />
 
 	<Object
 		Name="wood_fence299"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1430.421 250.915 1644.511"
-		Rot="0.000 -0.687 0.000 0.727"
-		NodeScale="1.119" />
+		Rot="0.000 -0.687 0.000 0.727" />
 
 	<Object
 		Name="wood_fence2100"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1430.137 251.002 1631.894"
-		Rot="0.000 -0.687 0.000 0.727"
-		NodeScale="1.119" />
+		Rot="0.000 -0.687 0.000 0.727" />
 
 	<Object
 		Name="wood_fence2101"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1429.618 251.093 1619.734"
-		Rot="0.000 -0.687 0.000 0.727"
-		NodeScale="1.119" />
+		Rot="0.000 -0.687 0.000 0.727" />
 
 	<Object
 		Name="wood_fence2102"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="1429.022 251.177 1597.113"
-		Rot="0.000 -0.724 0.000 0.690"
-		NodeScale="1.119" />
+		Rot="0.000 -0.724 0.000 0.690" />
 
 	<Object
 		Name="wood_fence2103"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2297.252 273.551 2191.290"
-		Rot="0.000 -1.000 0.000 0.000"
-		NodeScale="1.119" />
+		Rot="0.000 -1.000 0.000 0.000" />
 
 	<Object
 		Name="wood_fence2104"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2282.884 273.747 2193.281"
-		Rot="0.000 -1.000 0.000 0.000"
-		NodeScale="1.119" />
+		Rot="0.000 -1.000 0.000 0.000" />
 
 	<Object
 		Name="wood_fence2105"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2269.263 273.315 2193.033"
-		Rot="0.000 -1.000 0.000 0.000"
-		NodeScale="1.119" />
+		Rot="0.000 -1.000 0.000 0.000" />
 
 	<Object
 		Name="wood_fence2108"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2241.079 273.272 2163.976"
-		Rot="0.000 0.929 0.000 0.371"
-		NodeScale="1.119" />
+		Rot="0.000 0.929 0.000 0.371" />
 
 	<Object
 		Name="wood_fence2109"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2229.984 273.114 2159.406"
-		Rot="0.000 0.995 0.000 0.102"
-		NodeScale="1.119" />
+		Rot="0.000 0.995 0.000 0.102" />
 
 	<Object
 		Name="wood_fence2110"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2217.888 273.404 2153.256"
-		Rot="0.000 0.926 0.000 0.377"
-		NodeScale="1.119" />
+		Rot="0.000 0.926 0.000 0.377" />
 
 	<Object
 		Name="wood_fence2111"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2210.407 273.421 2142.503"
-		Rot="0.000 0.805 0.000 0.593"
-		NodeScale="1.119" />
+		Rot="0.000 0.805 0.000 0.593" />
 
 	<Object
 		Name="wood_fence2112"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2071.233 253.200 2123.887"
-		Rot="0.000 0.896 0.000 0.445"
-		NodeScale="1.119" />
+		Rot="0.000 0.896 0.000 0.445" />
 
 	<Object
 		Name="wood_fence2113"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2079.128 255.676 2134.082"
-		Rot="0.000 0.890 0.000 0.456"
-		NodeScale="1.119" />
+		Rot="0.000 0.890 0.000 0.456" />
 
 	<Object
 		Name="wood_fence2114"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2085.462 257.426 2143.625"
-		Rot="0.000 0.863 0.000 0.505"
-		NodeScale="1.119" />
+		Rot="0.000 0.863 0.000 0.505" />
 
 	<Object
 		Name="wood_fence2115"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2080.999 258.217 2150.013"
-		Rot="0.000 0.124 0.000 0.992"
-		NodeScale="1.119" />
+		Rot="0.000 0.124 0.000 0.992" />
 
 	<Object
 		Name="wood_fence2116"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2176.311 259.200 2248.920"
-		Rot="0.000 0.948 0.000 0.319"
-		NodeScale="1.119" />
+		Rot="0.000 0.948 0.000 0.319" />
 
 	<Object
 		Name="wood_fence2117"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2122.857 259.914 2179.438"
-		Rot="0.000 0.876 0.000 0.483"
-		NodeScale="1.119" />
+		Rot="0.000 0.876 0.000 0.483" />
 
 	<Object
 		Name="wood_fence2118"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2129.947 259.955 2190.200"
-		Rot="0.000 0.876 0.000 0.483"
-		NodeScale="1.119" />
+		Rot="0.000 0.876 0.000 0.483" />
 
 	<Object
 		Name="wood_fence2119"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2112.901 260.439 2178.080"
-		Rot="0.000 -0.977 0.000 0.214"
-		NodeScale="1.119" />
+		Rot="0.000 -0.977 0.000 0.214" />
 
 	<Object
 		Name="wood_fence2120"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2126.899 260.585 2197.875"
-		Rot="0.000 0.231 0.000 0.973"
-		NodeScale="1.119" />
+		Rot="0.000 0.231 0.000 0.973" />
 
 	<Object
 		Name="wood_fence2121"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2165.070 259.960 2249.353"
-		Rot="0.000 -0.977 0.000 0.214"
-		NodeScale="1.119" />
+		Rot="0.000 -0.977 0.000 0.214" />
 
 	<Object
 		Name="wood_fence2122"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2185.694 258.617 2257.446"
-		Rot="0.000 0.881 0.000 0.473"
-		NodeScale="1.119" />
+		Rot="0.000 0.881 0.000 0.473" />
 
 	<Object
 		Name="wood_fence2123"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2115.497 261.662 2086.927"
-		Rot="0.000 0.018 0.000 1.000"
-		NodeScale="1.119" />
+		Rot="0.000 0.018 0.000 1.000" />
 
 	<Object
 		Name="wood_fence2124"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2109.266 261.257 2080.396"
-		Rot="0.000 -0.685 0.000 0.728"
-		NodeScale="1.119" />
+		Rot="0.000 -0.685 0.000 0.728" />
 
 	<Object
 		Name="wood_fence2125"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2108.792 261.225 2067.972"
-		Rot="0.000 -0.685 0.000 0.728"
-		NodeScale="1.119" />
+		Rot="0.000 -0.685 0.000 0.728" />
 
 	<Object
 		Name="factory_box126"
@@ -5699,7 +5662,7 @@
 		Prototype="Breakable_WoodFence2"
 		Pos="1429.034 251.171 1608.260"
 		Rot="0.000 -0.687 0.000 0.727"
-		NodeScale="1.119" />
+		 />
 
 	<Object
 		Name="wood_fence2254"
@@ -5707,7 +5670,7 @@
 		Prototype="Breakable_WoodFence2"
 		Pos="1429.483 251.184 1586.008"
 		Rot="0.000 -0.724 0.000 0.690"
-		NodeScale="1.119" />
+		 />
 
 	<Object
 		Name="wood_fence2255"
@@ -5715,7 +5678,7 @@
 		Prototype="Breakable_WoodFence2"
 		Pos="1430.641 251.200 1575.140"
 		Rot="0.000 -0.749 0.000 0.663"
-		NodeScale="1.119" />
+		 />
 
 	<Object
 		Name="wood_fence2256"
@@ -5723,7 +5686,7 @@
 		Prototype="Breakable_WoodFence2"
 		Pos="1432.073 251.222 1564.097"
 		Rot="0.000 -0.749 0.000 0.663"
-		NodeScale="1.119" />
+		 />
 
 	<Object
 		Name="wood_fence2257"
@@ -6047,136 +6010,119 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2314.590 251.786 1345.634"
-		Rot="0.000 0.875 0.000 0.485"
-		NodeScale="1.119" />
+		Rot="0.000 0.875 0.000 0.485" />
 
 	<Object
 		Name="wood_fence2303"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2305.885 252.065 1339.858"
-		Rot="0.000 0.995 0.000 0.104"
-		NodeScale="1.119" />
+		Rot="0.000 0.995 0.000 0.104" />
 
 	<Object
 		Name="wood_fence2304"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2284.743 257.031 1377.241"
-		Rot="0.000 0.646 0.000 0.763"
-		NodeScale="1.119" />
+		Rot="0.000 0.646 0.000 0.763" />
 
 	<Object
 		Name="wood_fence2305"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2316.613 251.790 1355.940"
-		Rot="0.000 0.646 0.000 0.763"
-		NodeScale="1.119" />
+		Rot="0.000 0.646 0.000 0.763" />
 
 	<Object
 		Name="wood_fence2306"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2316.207 251.872 1367.060"
-		Rot="-0.019 0.680 0.002 0.733"
-		NodeScale="1.119" />
+		Rot="-0.019 0.680 0.002 0.733" />
 
 	<Object
 		Name="wood_fence2307"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2315.862 252.312 1378.535"
-		Rot="-0.012 0.677 -0.013 0.736"
-		NodeScale="1.119" />
+		Rot="-0.012 0.677 -0.013 0.736" />
 
 	<Object
 		Name="wood_fence2308"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2315.094 252.946 1389.904"
-		Rot="-0.010 0.677 -0.011 0.736"
-		NodeScale="1.119" />
+		Rot="-0.010 0.677 -0.011 0.736" />
 
 	<Object
 		Name="wood_fence2309"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2309.114 253.918 1395.738"
-		Rot="0.000 -0.002 0.000 1.000"
-		NodeScale="1.119" />
+		Rot="0.000 -0.002 0.000 1.000" />
 
 	<Object
 		Name="wood_fence2310"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2302.799 256.380 1414.082"
-		Rot="0.000 0.997 0.000 0.078"
-		NodeScale="1.119" />
+		Rot="0.000 0.997 0.000 0.078" />
 
 	<Object
 		Name="wood_fence2311"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2306.405 256.536 1454.277"
-		Rot="0.000 0.677 0.000 0.736"
-		NodeScale="1.119" />
+		Rot="0.000 0.677 0.000 0.736" />
 
 	<Object
 		Name="wood_fence2312"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2307.172 256.394 1442.909"
-		Rot="0.000 0.677 0.000 0.736"
-		NodeScale="1.119" />
+		Rot="0.000 0.677 0.000 0.736" />
 
 	<Object
 		Name="wood_fence2313"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2307.517 255.814 1431.433"
-		Rot="0.000 0.677 0.000 0.736"
-		NodeScale="1.119" />
+		Rot="0.000 0.677 0.000 0.736" />
 
 	<Object
 		Name="wood_fence2314"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2307.923 255.753 1420.314"
-		Rot="0.000 0.646 0.000 0.763"
-		NodeScale="1.119" />
+		Rot="0.000 0.646 0.000 0.763" />
 
 	<Object
 		Name="wood_fence2315"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2343.007 251.995 1394.599"
-		Rot="-0.006 -0.740 0.006 0.672"
-		NodeScale="1.119" />
+		Rot="-0.006 -0.740 0.006 0.672" />
 
 	<Object
 		Name="wood_fence2316"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2342.397 251.752 1383.488"
-		Rot="-0.006 -0.704 0.006 0.710"
-		NodeScale="1.119" />
+		Rot="-0.006 -0.704 0.006 0.710" />
 
 	<Object
 		Name="wood_fence2317"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2341.690 251.693 1372.030"
-		Rot="0.000 -0.704 0.000 0.710"
-		NodeScale="1.119" />
+		Rot="0.000 -0.704 0.000 0.710" />
 
 	<Object
 		Name="wood_fence2318"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2341.412 251.602 1360.639"
-		Rot="0.000 -0.704 0.000 0.710"
-		NodeScale="1.119" />
+		Rot="0.000 -0.704 0.000 0.710" />
 
 	<Object
 		Name="wood_fence2319"
@@ -6199,24 +6145,21 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2390.367 259.112 1416.380"
-		Rot="-0.032 -0.647 0.029 0.761"
-		NodeScale="1.119" />
+		Rot="-0.032 -0.647 0.029 0.761" />
 
 	<Object
 		Name="wood_fence2322"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2384.222 258.272 1411.167"
-		Rot="0.001 0.033 0.017 0.999"
-		NodeScale="1.119" />
+		Rot="0.001 0.033 0.017 0.999" />
 
 	<Object
 		Name="wood_fence2323"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2373.936 256.779 1411.899"
-		Rot="0.003 0.033 0.078 0.996"
-		NodeScale="1.119" />
+		Rot="0.003 0.033 0.078 0.996" />
 
 	<Object
 		Name="wood_fence2324"
@@ -6231,8 +6174,7 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2345.157 251.485 1351.639"
-		Rot="0.000 -0.922 0.000 0.387"
-		NodeScale="1.119" />
+		Rot="0.000 -0.922 0.000 0.387" />
 
 	<Object
 		Name="wood_fence2326"
@@ -6240,47 +6182,42 @@
 		Prototype="Breakable_WoodFence2"
 		Pos="2353.960 251.009 1349.094"
 		Rot="0.000 0.995 0.000 0.104"
-		NodeScale="1.119" />
+		 />
 
 	<Object
 		Name="wood_fence2327"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2394.389 256.635 1468.400"
-		Rot="0.000 -0.820 0.000 0.572"
-		NodeScale="1.119" />
+		Rot="0.000 -0.820 0.000 0.572" />
 
 	<Object
 		Name="wood_fence2328"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2394.069 256.712 1447.306"
-		Rot="0.000 -0.612 0.000 0.791"
-		NodeScale="1.119" />
+		Rot="0.000 -0.612 0.000 0.791" />
 
 	<Object
 		Name="wood_fence2329"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2395.430 256.827 1457.943"
-		Rot="0.000 -0.704 0.000 0.710"
-		NodeScale="1.119" />
+		Rot="0.000 -0.704 0.000 0.710" />
 
 	<Object
 		Name="wood_fence2330"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2286.064 266.627 1492.394"
-		Rot="0.000 -0.994 0.000 0.107"
-		NodeScale="1.119" />
+		Rot="0.000 -0.994 0.000 0.107" />
 
 	<Object
 		Name="wood_fence2331"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2293.473 266.519 1496.319"
-		Rot="0.000 0.840 0.000 0.543"
-		NodeScale="1.119" />
+		Rot="0.000 0.840 0.000 0.543" />
 
 	<Object
 		Name="wood_fence2332"
@@ -6288,111 +6225,98 @@
 		Prototype="Breakable_WoodFence2"
 		Pos="2299.975 266.709 1504.725"
 		Rot="0.000 0.936 0.000 0.352"
-		NodeScale="1.119" />
+		 />
 
 	<Object
 		Name="wood_fence2333"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2300.544 256.821 1460.865"
-		Rot="0.000 0.100 0.000 0.995"
-		NodeScale="1.119" />
+		Rot="0.000 0.100 0.000 0.995" />
 
 	<Object
 		Name="wood_fence2334"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2259.370 266.583 1482.877"
-		Rot="-0.021 0.750 -0.019 0.661"
-		NodeScale="1.119" />
+		Rot="-0.021 0.750 -0.019 0.661" />
 
 	<Object
 		Name="wood_fence2335"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2259.543 265.414 1471.726"
-		Rot="-0.014 0.649 -0.017 0.760"
-		NodeScale="1.119" />
+		Rot="-0.014 0.649 -0.017 0.760" />
 
 	<Object
 		Name="wood_fence2336"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2263.845 264.483 1462.425"
-		Rot="-0.009 0.383 -0.022 0.924"
-		NodeScale="1.119" />
+		Rot="-0.009 0.383 -0.022 0.924" />
 
 	<Object
 		Name="wood_fence2337"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2309.361 266.688 1509.771"
-		Rot="0.000 0.989 0.000 0.148"
-		NodeScale="1.119" />
+		Rot="0.000 0.989 0.000 0.148" />
 
 	<Object
 		Name="wood_fence2338"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2368.348 255.966 1500.297"
-		Rot="-0.043 -0.933 0.016 0.358"
-		NodeScale="1.119" />
+		Rot="-0.043 -0.933 0.016 0.358" />
 
 	<Object
 		Name="wood_fence2339"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2359.390 257.039 1505.249"
-		Rot="-0.038 -0.979 0.008 0.199"
-		NodeScale="1.119" />
+		Rot="-0.038 -0.979 0.008 0.199" />
 
 	<Object
 		Name="wood_fence2340"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2295.042 252.184 1337.664"
-		Rot="0.000 0.995 0.000 0.104"
-		NodeScale="1.119" />
+		Rot="0.000 0.995 0.000 0.104" />
 
 	<Object
 		Name="wood_fence2341"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2284.011 252.093 1335.906"
-		Rot="0.000 0.998 0.000 0.063"
-		NodeScale="1.119" />
+		Rot="0.000 0.998 0.000 0.063" />
 
 	<Object
 		Name="wood_fence2342"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2272.916 252.271 1334.405"
-		Rot="0.000 0.998 0.000 0.063"
-		NodeScale="1.119" />
+		Rot="0.000 0.998 0.000 0.063" />
 
 	<Object
 		Name="wood_fence2343"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2364.645 250.915 1351.711"
-		Rot="0.000 0.991 0.000 0.137"
-		NodeScale="1.119" />
+		Rot="0.000 0.991 0.000 0.137" />
 
 	<Object
 		Name="wood_fence2344"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2375.118 250.994 1354.620"
-		Rot="0.000 0.991 0.000 0.137"
-		NodeScale="1.119" />
+		Rot="0.000 0.991 0.000 0.137" />
 
 	<Object
 		Name="wood_fence2345"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
 		Pos="2385.920 251.321 1357.684"
-		Rot="0.000 0.991 0.000 0.137"
-		NodeScale="1.119" />
+		Rot="0.000 0.991 0.000 0.137" />
 
 	<Object
 		Name="wood_fence2346"
