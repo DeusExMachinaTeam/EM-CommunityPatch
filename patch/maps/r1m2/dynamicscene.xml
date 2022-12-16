@@ -43645,13 +43645,13 @@
 		Pos="4803.305 110.348 1115.352"
 		Rot="0.000 -0.968 0.000 0.250" />
 
+	<!--1.885-->
 	<Object
 		Name="road_sign15349"
 		Belong="-1"
 		Prototype="road_sign1"
 		Pos="5498.259 69.317 3898.010"
-		Rot="0.000 -0.938 0.000 0.348"
-		NodeScale="1.885" />
+		Rot="0.000 -0.938 0.000 0.348" />
 
 	<Object
 		Name="traffic_lights35350"
@@ -48385,12 +48385,13 @@
 		Pos="5139.346 70.188 2318.734"
 		Rot="0.000 -0.713 0.000 0.701" />
 
+	<!--Check this also, it was 1.546 bruh-->
 	<Object
 		Name="billboard26073"
 		Belong="-1"
 		Prototype="Breakable_Poster2"
-		Pos="5248.839 68.410 2100.550"
-		NodeScale="1.546" />
+		Pos="5248.839 68.410 2100.550" />
+	<!--Whoopsie-doopsie-->
 
 	<Object
 		Name="billboard36074"

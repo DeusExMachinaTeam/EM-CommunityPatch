@@ -29524,13 +29524,13 @@
 		Prototype="road_sign4"
 		Pos="2796.365 247.329 1904.333" />
 
+	<!--2.297-->
 	<Object
 		Name="road_sign13480"
 		Belong="-1"
 		Prototype="road_sign1"
 		Pos="2759.270 247.487 1911.040"
-		Rot="0.000 0.993 0.000 0.120"
-		NodeScale="2.297" />
+		Rot="0.000 0.993 0.000 0.120"/>
 
 	<Object
 		Name="lamppost13481"
