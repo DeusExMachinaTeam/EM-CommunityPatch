@@ -635,15 +635,15 @@
 	<trigger	Name="trStartHumans"	active="1">
 		<event	timeout="1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local maxhum = GetVar("MaxWalkHuman").AsInt
-			if maxhum then
-				for i=1,maxhum do
-					local tr = getObj("trHumanDie")
-					if tr then
-					   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
-					end
-				end
-			end
+			-- local maxhum = GetVar("MaxWalkHuman").AsInt
+			-- if maxhum then
+			-- 	for i=1,maxhum do
+			-- 		local tr = getObj("trHumanDie")
+			-- 		if tr then
+			-- 		   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
+			-- 		end
+			-- 	end
+			-- end
 			TActivate("trCreateHumans")
         	trigger:Deactivate()
 		</script>
@@ -665,7 +665,7 @@
 		    		  	end
 			        end
 				end
-				TActivate("trHumanDie")
+				--TActivate("trHumanDie")
 			end
         	trigger:Deactivate()
 		</script>
@@ -702,6 +702,34 @@
 			SetVar("BezhenAlive",5)
 			StartConversation("r3m1_NearUluk_RescueMan1")
         	trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<!-- Создание машины Лисы и привязка её к игроку -->
+	<trigger Name="LisaFollowsUsR3M1" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("CARLISA", 1042, CVector(491.059, 303.172, 1662.142), {"LisaCar"}, nil, nil, Quaternion(0.012, -0.372, 0.085, -0.924))
+			local vehLisa = GetEntityByName("CARLISA_vehicle_0")
+			if vehLisa then
+				vehLisa:SetSkin(2)
+				vehLisa:setImmortalMode(1)
+
+				local newControllerId = CreateNewObject {
+					prototypeName	= "someNPCMotionController",
+					objName	= "LisaControllerR3M1"
+				}
+				
+				local newController = GetEntityByID(newControllerId)
+				
+				if newController then
+					newController:setVehicleUnderControl(vehLisa)
+				end
+			else
+				LOG("ERROR! Lisa\'s car does not exists!")
+			end
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 

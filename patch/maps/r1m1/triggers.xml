@@ -245,17 +245,32 @@
 	<trigger Name="REVOLUTIONTIME" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("Punishers",1051,CVector(3168, 319, 1144),{"Revolutioner1","Revolutioner1"},CVector(2845,330,1333), 1)
+			TeamCreate("Punishers",1051,CVector(3168, 319, 1144),{"Revolutioner1","Revolutioner1"},CVector(2704,329,1293), 1)
 
 			local terr = TeamCreate("Terrorists",1013,CVector(2845,336,1319),{"Scout01","Scout02","Scout03"}, nil, 1)
 			terr:SetProperty ("TeamTacticPrototype", "TeamTacticTerroristsR1M1")
 			terr:_AdjustBehaviour ()
 
+			SetTolerance( 1051, 1013, RS_NEUTRAL )
+			SetTolerance( 1013, 1003, RS_NEUTRAL )
+
 			TActivate("REVOLUTIONTIMEEND")
+			TActivate("REVOLUTION_TOLERANCE")
 
 			trigger:Deactivate()    
 		</script>
 	</trigger>
+
+	<trigger Name="REVOLUTION_TOLERANCE" active="0">
+        <event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Revolution_tolerance" />
+		<event eventid="GE_OBJECT_DIE" ObjName="Punishers" />
+        <script>
+            SetTolerance( 1051, 1013, RS_ENEMY )
+			SetTolerance( 1013, 1003, RS_ENEMY )
+
+            trigger:Deactivate()    
+        </script>
+    </trigger>
 
 	<trigger Name="REVOLUTIONTIMEEND" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="Terrorists" />

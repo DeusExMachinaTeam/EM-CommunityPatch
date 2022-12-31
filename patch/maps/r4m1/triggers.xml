@@ -22,17 +22,10 @@
 ** ׁ‏זוע
 **************************************************************************************************
 -->
-	<trigger	Name="trAutoSave"	active="0">
-		<event eventid="GE_GAME_START" ObjName="Player1" />
-		<script>
-		</script>
-	</trigger>
-
 	<trigger	Name="trStartMap"	active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			if QuestStatus("r4m1_FindNative")==Q_CANBEGIVEN then
-			   TakeQuest("r4m1_FindNative")
 			   TActivate("cinPriezdFirst")
 			   trigger:Deactivate()
 			end
@@ -919,15 +912,15 @@
 	<trigger	Name="trStartHumans"	active="1">
 		<event	timeout="1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			local maxhum = GetVar("MaxWalkHuman").AsInt
-			if maxhum then
-				for i=1,maxhum do
-					local tr = getObj("trHumanDie")
-					if tr then
-					   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
-					end
-				end
-			end
+			-- local maxhum = GetVar("MaxWalkHuman").AsInt
+			-- if maxhum then
+			-- 	for i=1,maxhum do
+			-- 		local tr = getObj("trHumanDie")
+			-- 		if tr then
+			-- 		   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
+			-- 		end
+			-- 	end
+			-- end
 			TActivate("trCreateHumans")
         	trigger:Deactivate()
 		</script>
@@ -949,7 +942,7 @@
 		    		  	end
 			        end
 				end
-				TActivate("trHumanDie")
+				--TActivate("trHumanDie")
 			end
         	trigger:Deactivate()
 		</script>
@@ -1060,5 +1053,5 @@
 
 
 
-
+	
 </triggers>

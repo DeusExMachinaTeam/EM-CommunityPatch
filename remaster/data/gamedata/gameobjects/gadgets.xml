@@ -119,7 +119,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		ResourceType		= "GADGET_WEAPON" 
 		Price			= "2350"	
 		Modifications		= "MachineGun FiringRange 20; Cannon FiringRange 20; ShotGun FiringRange 20"
-		ModelFile		= "gadget_10"
+		ModelFile		= "gadget_02"
 		SkinNum			= "0"
                 />
  
