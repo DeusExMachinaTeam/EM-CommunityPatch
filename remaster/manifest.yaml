@@ -3,15 +3,19 @@ name: community_remaster
 
 # required human readable info
 display_name: Community Remaster
-version: "1.12"
-build: "220617a"
+version: "1.13"
+build: "221231a"
 description: |
-  Расширенная версия Community Patch, включающая улучшения интерфейса, графики.
-  Опции включают новые модели машин и оружия, а так же новый саундтрек.
+  Расширенная версия Community Patch, включающая переработанный интерфейс игры для адаптации под 16:9 разрешения.
+  Добавлены новые, более качественные модели и анимации для части оружия и авто.
+  Улучшена графика и шейдеры оригинала.
+
+  Опции включают новые модели машин и оружия, а так же записанный автором оригинального саундтрека ремастер части музыки.
+  
 authors: DEM Team, EM2ch
 
 # optional human readable info
-release_date: "06.06.2022"
+release_date: "31.12.2022"
 language: ru
 link: https://deuswiki.com/w/Community_Remaster
 
@@ -19,7 +23,7 @@ link: https://deuswiki.com/w/Community_Remaster
 prerequisites: 
   - name: community_patch
     versions: 
-      - "1.12"
+      - "1.13"
 patcher_version_requirement: "1.12"
 patcher_options:
   gravity: -19.62
