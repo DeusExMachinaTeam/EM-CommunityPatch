@@ -9,7 +9,7 @@
 			name="WEATHERTYPE">region1_clear</Key>
 
 		<Key
-			name="CURRENTDAYTIME">0</Key>
+			name="CURRENTDAYTIME">1</Key>
 
 		<Key
 			name="PATH">data\maps\r1m1</Key>
@@ -75,7 +75,7 @@
 			name="REFRACTIONTINT">0 255 255</Key>
 
 		<Key
-			name="SKYDOMEDIVIDER">11.250</Key>
+			name="SKYDOMEDIVIDER">8.500</Key>
 
 		<Key
 			name="WATERSMALLTEX">WaterSm.tga</Key>
@@ -213,19 +213,19 @@
 	<Section
 		name="CAMERA">
 		<Key
-			name="X">1454.801</Key>
+			name="X">1440.649</Key>
 
 		<Key
-			name="Y">298.023</Key>
+			name="Y">298.434</Key>
 
 		<Key
-			name="Z">2792.001</Key>
+			name="Z">2808.200</Key>
 
 		<Key
-			name="A">-63.758</Key>
+			name="A">-61.168</Key>
 
 		<Key
-			name="B">-0.034</Key>
+			name="B">-0.021</Key>
 
 		<Key
 			name="G">0.000</Key>

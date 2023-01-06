@@ -15,7 +15,7 @@
 		<ColorType
 			name="sunset"
 			LightmapTexture="lightmap_sunsettime_r1m1.dds"
-			CloudsTexture="skycloudy.dds" />
+			CloudsTexture="skyfoggy.dds" />
 
 		<ColorType
 			name="night"

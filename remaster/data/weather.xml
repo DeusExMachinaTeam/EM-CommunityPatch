@@ -27,20 +27,20 @@
 
 		<Fog
 			sunriseColor="216.750 198.900 196.350"
-			dayColor="214.200 209.100 211.650"
-			sunsetColor="196.350 145.350 124.950"
+			dayColor="201.450 198.900 193.800"
+			sunsetColor="196.350 175.950 137.700"
 			nightColor="71.400 58.650 122.400" />
 
 		<Ambient
 			sunriseColor="209.100 201.450 196.350"
 			dayColor="255.000 255.000 239.700"
-			sunsetColor="211.650 181.050 175.950"
+			sunsetColor="255.000 237.150 239.700"
 			nightColor="135.150 140.250 142.800" />
 
 		<Diffuse
 			sunriseColor="209.100 191.250 193.800"
 			dayColor="255.000 255.000 242.250"
-			sunsetColor="99.450 71.400 79.050"
+			sunsetColor="66.300 56.100 58.650"
 			nightColor="7.650 7.650 22.950" />
 
 		<Sun
@@ -50,9 +50,9 @@
 			nightColor="0.000 0.000 0.000" />
 
 		<Plant
-			sunriseColor="242.250 237.150 226.950"
+			sunriseColor="226.950 234.600 226.950"
 			dayColor="249.900 247.350 239.700"
-			sunsetColor="226.950 178.500 219.300"
+			sunsetColor="234.600 204.000 219.300"
 			nightColor="135.150 145.350 237.150" />
 
 		<Specular
