@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherItem
+		name="region3_clear">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_rise_r3m2.dds"
+			CloudsTexture="skyclear.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_day_r3m2.dds"
+			CloudsTexture="skyclear1.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_set_r3m2.dds"
+			CloudsTexture="skythunder.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_night_r3m2.dds"
+			CloudsTexture="skyfoggy.dds" />
+	</WeatherItem>
+
+	<WeatherItem
+		name="region3_rain">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_rise_r3m2.dds"
+			CloudsTexture="skyovercast.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_day_r3m2.dds"
+			CloudsTexture="skythunder.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_set_r3m2.dds"
+			CloudsTexture="skyblight2.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_night_r3m2.dds"
+			CloudsTexture="skyovercast.dds" />
+	</WeatherItem>
+</Weather>
