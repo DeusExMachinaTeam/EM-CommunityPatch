@@ -5,7 +5,7 @@
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_r1m2.dds"
-			CloudsTexture="tx_sky_rainy.tga" />
+			CloudsTexture="skyclear1.dds" />
 
 		<ColorType
 			name="day"

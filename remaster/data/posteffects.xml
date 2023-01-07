@@ -2734,7 +2734,7 @@
 		Name="wSunrise_r1">
 		<Unit
 			VarName="Bloom"
-			InitVal="3332996961312676946702638333502160896.000"
+			InitVal="1.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2761,7 +2761,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.060"
+			InitVal="0.010"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2779,7 +2779,7 @@
 
 		<Unit
 			VarName="BloomIntensity"
-			InitVal="0.140"
+			InitVal="0.040"
 			Param1="0"
 			Param2="0"
 			Param3="0"
