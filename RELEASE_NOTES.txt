@@ -1,6 +1,26 @@
+--- 230113a ---
+* Returned missing monitor resolution choice bugfix to ComMod, improved logging
+
+
+--- 230101a ---
+* Hotfix for regression in 221231a, returned missing experimental engine memory fix 
+* Updated ComMod with new localization system, ComMod now supports Russian, English and Ukrainian depending on OS locale
+
+
+--- 221231a ---
+* Patcher replaced with our new mod manager: DEM ComMod. Better installation experience for ComRem and mods
+* Added content related to traveling to Vahat with Alice [cut content restoration]
+* Disabled automatic respawn of walking human which created a risk of random game crashes with new mem fix
+* Improved enter zones for Asgard and Hideout
+* Resolved bug with incorrect passmap in Argen
+* Resolved bug with oilmine2.gam specularity
+* Added full change log for every change in ComRem/ComPatch in both Russian and English
+
+
 --- 220617a ---
 * Experimental fix resolving majority of memory related crashes, as well as IRender crashes, by limiting a stack reserve size (Thanks KRBDZSKL for the idea)
 * New comprehensive readme.md
+
 
 --- 220606a ---
 * Fix for player's passmap near crane boss in Librium, fixed boss stages for correct HP display 
