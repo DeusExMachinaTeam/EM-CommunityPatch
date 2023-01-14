@@ -23,13 +23,13 @@
 			sunriseColor="163.200 170.850 160.650"
 			dayColor="130.050 137.700 122.400"
 			sunsetColor="196.350 142.800 84.150"
-			nightColor="45.900 63.750 130.050" />
+			nightColor="63.750 71.400 66.300" />
 
 		<Fog
 			sunriseColor="234.600 216.750 209.100"
 			dayColor="201.450 198.900 193.800"
 			sunsetColor="196.350 175.950 137.700"
-			nightColor="71.400 58.650 122.400" />
+			nightColor="51.000 56.100 58.650" />
 
 		<Ambient
 			sunriseColor="209.100 201.450 196.350"
