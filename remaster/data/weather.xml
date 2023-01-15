@@ -22,13 +22,13 @@
 		<Sky
 			sunriseColor="163.200 170.850 160.650"
 			dayColor="130.050 137.700 122.400"
-			sunsetColor="196.350 142.800 84.150"
+			sunsetColor="135.150 119.850 84.150"
 			nightColor="63.750 71.400 66.300" />
 
 		<Fog
 			sunriseColor="234.600 216.750 209.100"
 			dayColor="201.450 198.900 193.800"
-			sunsetColor="196.350 175.950 137.700"
+			sunsetColor="214.200 188.700 137.700"
 			nightColor="51.000 56.100 58.650" />
 
 		<Ambient
@@ -53,7 +53,7 @@
 			sunriseColor="226.950 234.600 226.950"
 			dayColor="249.900 247.350 239.700"
 			sunsetColor="234.600 204.000 219.300"
-			nightColor="135.150 145.350 237.150" />
+			nightColor="117.300 132.600 221.850" />
 
 		<Specular
 			sunriseColor="112.200 94.350 81.600"
@@ -106,21 +106,21 @@
 		waterSpecularS="0.007">
 		<Sky
 			sunriseColor="255.000 158.100 117.300"
-			dayColor="140.250 114.750 155.550"
-			sunsetColor="183.600 150.450 193.800"
+			dayColor="191.250 160.650 155.550"
+			sunsetColor="188.700 150.450 178.500"
 			nightColor="96.900 76.500 79.050" />
 
 		<Fog
 			sunriseColor="204.000 196.350 229.500"
-			dayColor="211.650 204.000 211.650"
-			sunsetColor="204.000 181.050 201.450"
+			dayColor="204.000 201.450 204.000"
+			sunsetColor="234.600 198.900 188.700"
 			nightColor="76.500 71.400 71.400" />
 
 		<Ambient
 			sunriseColor="201.450 201.450 204.000"
 			dayColor="204.000 204.000 204.000"
 			sunsetColor="150.450 132.600 140.250"
-			nightColor="119.850 117.300 119.850" />
+			nightColor="99.450 117.300 119.850" />
 
 		<Diffuse
 			sunriseColor="229.500 229.500 229.500"
@@ -138,7 +138,7 @@
 			sunriseColor="249.900 237.150 252.450"
 			dayColor="239.700 219.300 216.750"
 			sunsetColor="247.350 198.900 209.100"
-			nightColor="119.850 130.050 221.850" />
+			nightColor="119.850 130.050 178.500" />
 
 		<Specular
 			sunriseColor="128.000 128.000 128.000"
@@ -197,7 +197,7 @@
 
 		<Fog
 			sunriseColor="188.700 198.900 178.500"
-			dayColor="183.600 234.600 196.350"
+			dayColor="211.650 214.200 211.650"
 			sunsetColor="229.500 216.750 191.250"
 			nightColor="51.000 73.950 71.400" />
 
@@ -223,7 +223,7 @@
 			sunriseColor="181.050 201.450 181.050"
 			dayColor="216.750 226.950 219.300"
 			sunsetColor="188.700 158.100 168.300"
-			nightColor="79.050 109.650 135.150" />
+			nightColor="102.000 109.650 140.250" />
 
 		<Specular
 			sunriseColor="99.450 163.200 117.300"
@@ -595,8 +595,8 @@
 		<Plant
 			sunriseColor="237.150 198.900 219.300"
 			dayColor="255.000 247.350 255.000"
-			sunsetColor="239.700 188.700 226.950"
-			nightColor="150.450 153.000 214.200" />
+			sunsetColor="204.000 188.700 211.650"
+			nightColor="114.750 114.750 124.950" />
 
 		<Specular
 			sunriseColor="25.500 25.500 20.400"
