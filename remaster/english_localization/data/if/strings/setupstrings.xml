@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!-- controls captions -->
+	<string
+		id="btnSaveCfg"
+		value="Сохранить настройки" />
+
+	<string
+		id="btnCancel"
+		value="Выход" />
+
+	<string
+		id="checkFullScreen"
+		value="Полный экран" />
+
+	<string
+		id="staticResolution"
+		value="Разрешение и глубина цвета" />
+
+	<string
+		id="staticPlatform"
+		value="Видеокарта" />
+
+	<string
+		id="staticScreenOptions"
+		value="Установки экрана" />
+
+	<string
+		id="checkWaterReflections"
+		value="Отражения в воде" />
+
+	<string
+		id="checkStaticShadows"
+		value="Статические тени" />
+
+	<string
+		id="checkDynamicShadows"
+		value="Динамические тени" />
+
+	<string
+		id="staticShadowQuality"
+		value="Качество теней" />
+
+	<string
+		id="staticShadowLow"
+		value="Низкое" />
+
+	<string
+		id="staticShadowHigh"
+		value="Высокое" />
+
+	<string
+		id="staticFardistNear"
+		value="Близко" />
+
+	<string
+		id="staticFardistFar"
+		value="Далеко" />
+
+	<string
+		id="staticFarDist"
+		value="Дальность видимости" />
+
+	<string
+		id="staticShadowOptions"
+		value="Настройки теней" />
+
+	<string
+		id="staticMiscOptions"
+		value="Прочие настройки" />
+
+	<string
+		id="staticEffects"
+		value="Эффекты" />
+
+	<string
+		id="checkSoundEnable"
+		value="Звук включен" />
+
+	<string
+		id="checkMusicEnable"
+		value="Музыка включена" />
+
+	<string
+		id="staticSoundOptions"
+		value="Установки звука" />
+
+	<string
+		id="staticMusicOptions"
+		value="Установки музыки" />
+
+	<string
+		id="staticSoundVolume"
+		value="Громкость звука" />
+
+	<string
+		id="staticMusicVolume"
+		value="Громкость музыки" />
+
+	<string
+		id="staticSoundLow"
+		value="Низкая" />
+
+	<string
+		id="staticSoundMedium"
+		value="Средняя" />
+
+	<string
+		id="staticSoundHigh"
+		value="Высокая" />
+
+	<string
+		id="staticMusicLow"
+		value="Низкая" />
+
+	<string
+		id="staticMusicMedium"
+		value="Средняя" />
+
+	<string
+		id="staticMusicHigh"
+		value="Высокая" />
+<!-- page names -->
+	<string
+		id="pageVideo"
+		value="Видео" />
+
+	<string
+		id="pageInGame"
+		value="Эффекты" />
+
+	<string
+		id="pageAudio"
+		value="Звук" />
+<!-- application caption -->
+	<string
+		id="dlgMainCaption"
+		value="Настройки" />
+<!-- warning dialogs -->
+	<string
+		id="dlgSaveCaption"
+		value="Подтверждение" />
+
+	<string
+		id="dlgSaveText"
+		value="Сохранить настройки?" />
+</resource>
