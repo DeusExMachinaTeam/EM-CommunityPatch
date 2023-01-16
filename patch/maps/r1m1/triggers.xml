@@ -34,10 +34,10 @@
 			StartCinematic()
 			UpdateCinematic( 1 )
 
-			AddCinematicMessage( 77771, 0.1)
-
 			TActivate("trFirstRolikMusic")
 			TActivate("StartGame")
+
+			ShowFirstNarratorText()
 
 			trigger:Deactivate()
 		</script>
