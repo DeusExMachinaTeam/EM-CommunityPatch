@@ -50,6 +50,10 @@ optional_content:
     description: |
       Ремастер OST от автора оригинального саундтрека - Антона Попова.
       Включает новый трек главного меню и многие темы поездки игровых локаций.
+  - name: english_localization
+    display_name: Английская локализация
+    description: |
+      TBD
     # default_option: all_new
     # install_settings:
     #   - name: all_new
