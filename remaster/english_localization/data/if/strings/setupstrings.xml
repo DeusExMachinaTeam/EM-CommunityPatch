@@ -2,145 +2,145 @@
 <resource><!-- controls captions -->
 	<string
 		id="btnSaveCfg"
-		value="Сохранить настройки" />
+		value="Save changes" />
 
 	<string
 		id="btnCancel"
-		value="Выход" />
+		value="Exit" />
 
 	<string
 		id="checkFullScreen"
-		value="Полный экран" />
+		value="Full screen" />
 
 	<string
 		id="staticResolution"
-		value="Разрешение и глубина цвета" />
+		value="Resolution and color depth" />
 
 	<string
 		id="staticPlatform"
-		value="Видеокарта" />
+		value="Video card" />
 
 	<string
 		id="staticScreenOptions"
-		value="Установки экрана" />
+		value="Video settings" />
 
 	<string
 		id="checkWaterReflections"
-		value="Отражения в воде" />
+		value="Water reflections" />
 
 	<string
 		id="checkStaticShadows"
-		value="Статические тени" />
+		value="Static shadows" />
 
 	<string
 		id="checkDynamicShadows"
-		value="Динамические тени" />
+		value="Dynamic shadows" />
 
 	<string
 		id="staticShadowQuality"
-		value="Качество теней" />
+		value="Shadows quality" />
 
 	<string
 		id="staticShadowLow"
-		value="Низкое" />
+		value="Low" />
 
 	<string
 		id="staticShadowHigh"
-		value="Высокое" />
+		value="High" />
 
 	<string
 		id="staticFardistNear"
-		value="Близко" />
+		value="Near" />
 
 	<string
 		id="staticFardistFar"
-		value="Далеко" />
+		value="Far" />
 
 	<string
 		id="staticFarDist"
-		value="Дальность видимости" />
+		value="View distance" />
 
 	<string
 		id="staticShadowOptions"
-		value="Настройки теней" />
+		value="Shadows settings" />
 
 	<string
 		id="staticMiscOptions"
-		value="Прочие настройки" />
+		value="Misc. Settings" />
 
 	<string
 		id="staticEffects"
-		value="Эффекты" />
+		value="Effects" />
 
 	<string
 		id="checkSoundEnable"
-		value="Звук включен" />
+		value="Sound is on" />
 
 	<string
 		id="checkMusicEnable"
-		value="Музыка включена" />
+		value="Music is on" />
 
 	<string
 		id="staticSoundOptions"
-		value="Установки звука" />
+		value="Sound settings" />
 
 	<string
 		id="staticMusicOptions"
-		value="Установки музыки" />
+		value="Music settings" />
 
 	<string
 		id="staticSoundVolume"
-		value="Громкость звука" />
+		value="Sound volume" />
 
 	<string
 		id="staticMusicVolume"
-		value="Громкость музыки" />
+		value="Music volume" />
 
 	<string
 		id="staticSoundLow"
-		value="Низкая" />
+		value="Low" />
 
 	<string
 		id="staticSoundMedium"
-		value="Средняя" />
+		value="Medium" />
 
 	<string
 		id="staticSoundHigh"
-		value="Высокая" />
+		value="High" />
 
 	<string
 		id="staticMusicLow"
-		value="Низкая" />
+		value="Low" />
 
 	<string
 		id="staticMusicMedium"
-		value="Средняя" />
+		value="Medium" />
 
 	<string
 		id="staticMusicHigh"
-		value="Высокая" />
+		value="High" />
 <!-- page names -->
 	<string
 		id="pageVideo"
-		value="Видео" />
+		value="Video" />
 
 	<string
 		id="pageInGame"
-		value="Эффекты" />
+		value="Effects" />
 
 	<string
 		id="pageAudio"
-		value="Звук" />
+		value="Sound" />
 <!-- application caption -->
 	<string
 		id="dlgMainCaption"
-		value="Настройки" />
+		value="Settings" />
 <!-- warning dialogs -->
 	<string
 		id="dlgSaveCaption"
-		value="Подтверждение" />
+		value="Confirmation" />
 
 	<string
 		id="dlgSaveText"
-		value="Сохранить настройки?" />
+		value="Save settings?" />
 </resource>

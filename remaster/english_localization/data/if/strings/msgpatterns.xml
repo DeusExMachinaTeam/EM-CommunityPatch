@@ -2,13 +2,13 @@
 <resource>
 	<string
 		id="MsgQuestTaken"
-		value="Взято задание %1s" />
+		value="Quest %1s is taken" />
 
 	<string
 		id="MsgQuestFailed"
-		value="Провалено задание %1s" />
+		value="Quest %1s failed" />
 
 	<string
 		id="MsgQuestCompleted"
-		value="Выполнено задание %1s" />
+		value="Quest %1s is complete" />
 </resource>

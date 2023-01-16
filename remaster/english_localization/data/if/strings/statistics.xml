@@ -2,45 +2,45 @@
 <resource><!--Default buttons-->
 	<string
 		id="stat_Wares"
-		value="Товаров перевезено (шт.)" />
+		value="Merchandise sold (t.)" />
 
 	<string
 		id="stat_RealTime"
-		value="Время игры (ч : мин)" />
+		value="Game time (hh : mm)" />
 
 	<string
 		id="stat_GameTime"
-		value="Внутриигровое время (дни)" />
+		value="Days lived within game" />
 
 	<string
 		id="stat_PeoplesKilled"
-		value="Жителей убито" />
+		value="Dwellers killed" />
 
 	<string
 		id="stat_PathElapsed"
-		value="Пройденный путь (км)" />
+		value="Distance traveled (km)" />
 
 	<string
 		id="stat_GDP"
-		value="Денег заработано" />
+		value="Money earned" />
 
 	<string
 		id="stat_DeathCounter"
-		value="Количество смертей игрока" />
+		value="Was killed (times)" />
 
 	<string
 		id="stat_VehiclesKilled"
-		value="Машин уничтожено" />
+		value="Vehicles destroyed" />
 
 	<string
 		id="stat_ShellsEmitted"
-		value="Зарядов выпущено" />
+		value="Shots made" />
 
 	<string
 		id="stat_FavoriteGun"
-		value="Любимое оружие" />
+		value="Favorite weapon" />
 
 	<string
 		id="stat_HitRatio"
-		value="Точность попадания (%)" />
+		value="Hit ratio (%)" />
 </resource>

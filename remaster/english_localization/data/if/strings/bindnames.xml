@@ -6,31 +6,31 @@
 
 	<string
 		id="IM_FWD"
-		value="Двигаться вперед" />
+		value="Move forward" />
 
 	<string
 		id="IM_BK"
-		value="Двигаться назад" />
+		value="Move backward" />
 
 	<string
 		id="IM_LEFT"
-		value="Двигаться влево" />
+		value="Move left" />
 
 	<string
 		id="IM_RIGHT"
-		value="Двигаться вправо" />
+		value="Move right" />
 
 	<string
 		id="IM_RUN"
-		value="Бежать" />
+		value="Run" />
 
 	<string
 		id="IM_GAME_ZOOM_CAMERA"
-		value="Приближение-удаление камеры" />
+		value="Zoom camera in-out" />
 
 	<string
 		id="IM_GAME_DRAG_CAMERA"
-		value="Поворот камеры" />
+		value="Camera rotation" />
 
 	<string
 		id="IM_DEBUG_0"
@@ -78,127 +78,127 @@
 
 	<string
 		id="IM_CAR_ACC"
-		value="Газ" />
+		value="Accelerate" />
 
 	<string
 		id="IM_CAR_BREAK"
-		value="Тормоз" />
+		value="Brake" />
 
 	<string
 		id="IM_CAR_HAND_BREAK"
-		value="Ручной тормоз" />
+		value="Handbrake" />
 
 	<string
 		id="IM_CAR_LEFT"
-		value="Поворот влево" />
+		value="Turn left" />
 
 	<string
 		id="IM_CAR_RIGHT"
-		value="Поворот вправо" />
+		value="Turn right" />
 
 	<string
 		id="IM_CAR_TURNTOWHEELS"
-		value="Встать на колеса" />
+		value="Get back on wheels" />
 
 	<string
 		id="IM_CAR_SWITCHCAMERA"
-		value="Переключение камеры" />
+		value="Switch camera mode" />
 
 	<string
 		id="IM_CAR_GET_OUT_OF_DIFFICULT_PLACE"
-		value="Выбраться из сложного места" />
+		value="Get out of the difficult place" />
 
 	<string
 		id="IM_CAR_FIRE_0"
-		value="Атака из оружия группы 1" />
+		value="Fire group 1" />
 
 	<string
 		id="IM_CAR_FIRE_1"
-		value="Атака из оружия группы 2" />
+		value="Fire group 2" />
 
 	<string
 		id="IM_CAR_FIRE_2"
-		value="Атака из оружия группы 3" />
+		value="Fire group 3" />
 
 	<string
 		id="IM_CAR_FIRE_3"
-		value="Атака из оружия группы 4" />
+		value="Fire group 4" />
 
 	<string
 		id="IM_CAR_FIRE_4"
-		value="Атака из оружия группы 5" />
+		value="Fire group 5" />
 
 	<string
 		id="IM_CAR_FIRE_ALL"
-		value="Атака из всех групп оружия" />
+		value="Fire all groups" />
 
 	<string
 		id="IM_RELOAD_WEAPON"
-		value="Перезарядка оружия" />
+		value="Reload weapon" />
 
 	<string
 		id="IM_UI_INVENTORY"
-		value="Снаряжение/Магазин" />
+		value="Inventory/Marketplace" />
 
 	<string
 		id="IM_UI_MENUBOOK"
-		value="Игровое меню" />
+		value="Game menu" />
 
 	<string
 		id="IM_UI_QUESTLOG"
-		value="Задания" />
+		value="Quest log" />
 
 	<string
 		id="IM_UI_JOURNAL"
-		value="Журнал" />
+		value="History" />
 
 	<string
 		id="IM_UI_MAP"
-		value="Карта" />
+		value="Map" />
 
 	<string
 		id="IM_CAR_LIGHTS"
-		value="Фары" />
+		value="Headlights" />
 
 	<string
 		id="IM_UI_TOGGLE_INTERFACE"
-		value="Показать/скрыть интерфейс" />
+		value="Hide/show interface" />
 
 	<string
 		id="IM_CAR_HORN"
-		value="Гудок" />
+		value="Horn" />
 
 	<string
 		id="IM_UI_VEHICLE_INFO"
-		value="Информация о машине/Мастерская" />
+		value="Car stats/Workshop" />
 
 	<string
 		id="IM_QUICK_SAVE"
-		value="Быстрое сохранение" />
+		value="Quicksave" />
 
 	<string
 		id="IM_QUICK_LOAD"
-		value="Быстрая загрузка" />
+		value="Quickload" />
 
 	<string
 		id="IM_PAUSE"
-		value="Пауза" />
+		value="Pause" />
 
 	<string
 		id="IM_UI_BAR"
-		value="Бар" />
+		value="Bar" />
 
 	<string
 		id="IM_UI_ADDITIONAL_BUILDING"
-		value="Опциональное здание в городе" />
+		value="Special place in town" />
 
 	<string
 		id="IM_UI_PICKUP_ALL"
-		value="Подобрать всё" />
+		value="Pick up everything" />
 
 	<string
 		id="IM_UI_HELP"
-		value="Помощь" />
+		value="Help" />
 <!--Keys-->
 	<string
 		id="KEY_ESCAPE"
@@ -314,7 +314,7 @@
 
 	<string
 		id="KEY_LCONTROL"
-		value="Левый Ctrl" />
+		value="Left Ctrl" />
 
 	<string
 		id="KEY_A"
@@ -366,7 +366,7 @@
 
 	<string
 		id="KEY_LSHIFT"
-		value="Левый Shift" />
+		value="Left Shift" />
 
 	<string
 		id="KEY_BACKSLASH"
@@ -414,19 +414,19 @@
 
 	<string
 		id="KEY_RSHIFT"
-		value="Правый Shift" />
+		value="Right Shift" />
 
 	<string
 		id="KEY_NUMPADSTAR"
-		value="* (на цифр кл.)" />
+		value="* (num pad)" />
 
 	<string
 		id="KEY_LALT"
-		value="Левый Alt" />
+		value="Left Alt" />
 
 	<string
 		id="KEY_SPACE"
-		value="Пробел" />
+		value="Space" />
 
 	<string
 		id="KEY_CAPSLOCK"
@@ -482,55 +482,55 @@
 
 	<string
 		id="KEY_NUMPAD7"
-		value="7 (на цифр кл.)" />
+		value="7 (num pad)" />
 
 	<string
 		id="KEY_NUMPAD8"
-		value="8 (на цифр кл.)" />
+		value="8 (num pad)" />
 
 	<string
 		id="KEY_NUMPAD9"
-		value="9 (на цифр кл.)" />
+		value="9 (num pad)" />
 
 	<string
 		id="KEY_NUMPADMINUS"
-		value="- (на цифр кл.)" />
+		value="- (num pad)" />
 
 	<string
 		id="KEY_NUMPAD4"
-		value="4 (на цифр кл.)" />
+		value="4 (num pad)" />
 
 	<string
 		id="KEY_NUMPAD5"
-		value="5 (на цифр кл.)" />
+		value="5 (num pad)" />
 
 	<string
 		id="KEY_NUMPAD6"
-		value="6(на цифр кл.)" />
+		value="6(num pad)" />
 
 	<string
 		id="KEY_NUMPADPLUS"
-		value="+ (на цифр кл.)" />
+		value="+ (num pad)" />
 
 	<string
 		id="KEY_NUMPAD1"
-		value="1 (на цифр кл.)" />
+		value="1 (num pad)" />
 
 	<string
 		id="KEY_NUMPAD2"
-		value="2 (на цифр кл.)" />
+		value="2 (num pad)" />
 
 	<string
 		id="KEY_NUMPAD3"
-		value="3 (на цифр кл.)" />
+		value="3 (num pad)" />
 
 	<string
 		id="KEY_NUMPAD0"
-		value="0 (на цифр кл.)" />
+		value="0 (num pad)" />
 
 	<string
 		id="KEY_NUMPADPERIOD"
-		value=". (на цифр кл.)" />
+		value=". (num pad)" />
 
 	<string
 		id="KEY_OEM_102"
@@ -622,11 +622,11 @@
 
 	<string
 		id="KEY_NUMPADENTER"
-		value="Enter (на цифр кл.)" />
+		value="Enter (num pad)" />
 
 	<string
 		id="KEY_RCONTROL"
-		value="Правый Ctrl" />
+		value="Right Ctrl" />
 
 	<string
 		id="KEY_MUTE"
@@ -658,11 +658,11 @@
 
 	<string
 		id="KEY_NUMPADCOMMA"
-		value=", (на цифр кл.)" />
+		value=", (num pad)" />
 
 	<string
 		id="KEY_NUMPADSLASH"
-		value="/ (на цифр кл.)" />
+		value="/ (num pad)" />
 
 	<string
 		id="KEY_SYSRQ"
@@ -670,7 +670,7 @@
 
 	<string
 		id="KEY_RALT"
-		value="Правый Alt" />
+		value="Right Alt" />
 
 	<string
 		id="KEY_PAUSE"
@@ -682,7 +682,7 @@
 
 	<string
 		id="KEY_UPARROW"
-		value="Стрелка вверх" />
+		value="Cursor up" />
 
 	<string
 		id="KEY_PGUP"
@@ -690,11 +690,11 @@
 
 	<string
 		id="KEY_LEFTARROW"
-		value="Стрелка влево" />
+		value="Cursor left" />
 
 	<string
 		id="KEY_RIGHTARROW"
-		value="Стрелка вправо" />
+		value="Cursor right" />
 
 	<string
 		id="KEY_END"
@@ -702,7 +702,7 @@
 
 	<string
 		id="KEY_DOWNARROW"
-		value="Стрелка вниз" />
+		value="Cursor down" />
 
 	<string
 		id="KEY_PGDN"
@@ -778,15 +778,15 @@
 
 	<string
 		id="KEY_LBUTTON"
-		value="Левая кн. мыши" />
+		value="Left mouse button" />
 
 	<string
 		id="KEY_RBUTTON"
-		value="Правая кн. мыши" />
+		value="Right mouse button" />
 
 	<string
 		id="KEY_MBUTTON"
-		value="Средняя кн. мыши" />
+		value="Middle mouse button" />
 
 	<string
 		id="KEY_MOUSE_MOVE"
@@ -814,13 +814,13 @@
 <!--Messages-->
 	<string
 		id="BINDKEYS_MSG_RESERVED"
-		value="Данное сочетание клавиш зарезервировано" />
+		value="Keys redefined." />
 
 	<string
 		id="BINDKEYS_MSG_EXISTS"
-		value="Данное сочетание клавиш уже используется действием %s. Продолжить?" />
+		value="The key combination is already defined to %s. Redefine?" />
 
 	<string
 		id="BINDKEYS_MSG_EXISTS_ONLY"
-		value="Данное сочетание клавиш уже используется действием %s и является для него единственным" />
+		value="This key combination is already defined to %s and is unique to it." />
 </resource>
