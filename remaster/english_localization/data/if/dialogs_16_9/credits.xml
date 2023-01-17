@@ -11,7 +11,7 @@
 	<Pages>
 		<Page
 			id="1"
-			text="Компания|«Targem Games»"
+			text="Game Design|«Targem Games»"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -20,7 +20,7 @@
 
 		<Page
 			id="2"
-			text="Продюсер||Станислав «scorp» Скорб"
+			text="Inner producer||Stanislav «scorp» Skorb"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="294"
@@ -29,7 +29,7 @@
 
 		<Page
 			id="3"
-			text="Технический директор проекта||Алексей Скрябин"
+			text="Technical director||Alexey Skriabin"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="182"
@@ -38,7 +38,7 @@
 
 		<Page
 			id="4"
-			text="Менеджер проекта||Евгений «Hrrr» Хрунов"
+			text="Project manager||Evgeniy «Hrrr» Khrunov"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="368"
@@ -47,7 +47,7 @@
 
 		<Page
 			id="5"
-			text="Сценарий||Алексей «Alex TG» Честных"
+			text="Writer||Alexey «Alex TG» Tchestnikh"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="87"
@@ -56,7 +56,7 @@
 
 		<Page
 			id="6"
-			text="Ведущий программист проекта||Антон «anger» Савин"
+			text="Lead programmer||Anton «anger» Savin"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="20"
@@ -65,7 +65,7 @@
 
 		<Page
 			id="7"
-			text="Главный дизайнер проекта||Алексей «Alex TG» Честных"
+			text="Lead designer||Alexey «Alex TG» Tchestnikh"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="87"
@@ -74,7 +74,7 @@
 
 		<Page
 			id="8"
-			text="Ведущий художник проекта||Александр «Alex ML» Маргушин"
+			text="Lead Artist||Alexander «Alex ML» Magrushin"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="8"
@@ -83,7 +83,7 @@
 
 		<Page
 			id="9"
-			text="Дизайн игры||Денис «mif2000» Галанин|Сергей «JSinx» Удюрминский|Алексей «Razaz» Ануфриев|Станислав «scorp» Скорб|Борис «borg» Смирнов"
+			text="Designers||Denis «mif2000» Galanin|Sergey «JSinx» Udurminskiy|Alexey «Razaz» Anufriev|Stanislav «scorp» Skorb|Boris «borg» Smirnov"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -92,7 +92,7 @@
 
 		<Page
 			id="10"
-			text="Программирование||Елена «SoftKitty» Евдокимова|Иван «Vano» Власов|Илья «phosgen» Рузаков|Максим «Shadow» Сарманов|Сергей «Ice Cat» Ключковский|Игорь «Goryh» Дегтярев"
+			text="Programmers||Elena «SoftKitty» Evdokimova|Ivan «Vano» Vlasov|Ilya «phosgen» Ruzakov|Maxim «Shadow» Sarmanov|Sergey «Ice Cat» Kluchkovsky|Igor «Goryh» Dyagterev"
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="140"
@@ -101,7 +101,7 @@
 
 		<Page
 			id="11"
-			text="Графика|Александр «Alex ML» Маргушин|Иван Снигирев|Евгений «Dzhin» Гольцов|Владимир «Price» Селезнев|Станислав «Staz» Черва"
+			text="Artists||Ivan Snigirev|Evgeny «Dzhin» Goltsov|Vladimir «Price» Seleznev|Stanislav «Staz» Cherva"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1529"
@@ -110,7 +110,7 @@
 
 		<Page
 			id="12"
-			text="Графика||Рустам «Rychi» Турей|Евгений Токарев|Сергей «Sega» Митряев|Виктор «isymbosi» Корьякин|Роман Латынов"
+			text="Artists||Rustam «Rychi» Turey|Evgeny  Tokarev|Sergey «Sega» Mitryaev|Viktor «isymbosi» Koryakin|Roman Latynov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1529"
@@ -119,7 +119,7 @@
 
 		<Page
 			id="13"
-			text="Дизайн миссий||Денис «mif2000» Галанин|Сергей «JSinx» Удюрминский|Артем «solo» Соловьев|Кондратьев «HiKiller» Даниил|Станислав «Staz» Черва"
+			text="Level designers||Denis «mif2000» Galanin|Sergey «JSinx» Udurminskiy|Artem «solo» Solovev|Daniil «HiKiller» Kondratiev|Stanislav «Staz» Cherva"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -128,7 +128,7 @@
 
 		<Page
 			id="14"
-			text="Разработка интерфейсов||Михаил «Rai» Матвиенко||Спецэффекты||Алексей «Hal» Лобанов"
+			text="Interface designer||Mikhail «Rai» Matvienko||FX||Alexey «Hal» Lobanov"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="104"
@@ -137,7 +137,7 @@
 
 		<Page
 			id="15"
-			text="Музыка/звуки||Антон Попов|Екатерина Швеммер"
+			text="Sound director||Anton Popov|Ekaterina Shvemmer"
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="330"
@@ -146,7 +146,7 @@
 
 		<Page
 			id="16"
-			text="Тестирование||Вячеслав «ls» Авдеев"
+			text="Quality assurance||Vyacheslav «ls» Avdeev"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="84"
@@ -155,7 +155,7 @@
 
 		<Page
 			id="17"
-			text="PR-менеджер||Светлана|«Сrystal» Честных"
+			text="PR-manager||Svetlana «Сrystal» Tchestnikh"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="20"
@@ -164,7 +164,7 @@
 
 		<Page
 			id="18"
-			text="В игре использовались композиции победителей музыкального конкурса:||Александр Чекстер|Борис Веденский и Александр Трегер|Михаил Сидоров|Александр Лисенков|Paralaxeen|Игорь Белоусов"
+			text="The soundtrack includes tracks of the music contest winners:||Alexander Chekster|Boris Vedensky and  Alexander Treger|Mikhail Sidorov|Alexander Lisenkov|Paralaxeen|Igor Belousov"
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="132"
@@ -173,7 +173,7 @@
 
 		<Page
 			id="19"
-			text="ТАК ЖЕ ПРИНИМАЛИ УЧАСТИЕ НА РАЗНЫХ ЭТАПАХ||Константин Сохарев - программирование|Святослав Паташников - руководство|Алексей Андрущенко-Веб-дизайн"
+			text="Special thanks to:||Constantine Sokharev - programming|Svyatoslav Patashnikov - management|Alexey Andruschenko – web design"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="24"
@@ -182,7 +182,7 @@
 
 		<Page
 			id="20"
-			text="Компания «Бука»"
+			text="Publisher «Buka Entertainment»"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="0"
@@ -191,7 +191,7 @@
 
 		<Page
 			id="21"
-			text="Продюсер||Иван Бунаков"
+			text="Producer||Ivan Bunakov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="2812"
@@ -200,7 +200,7 @@
 
 		<Page
 			id="22"
-			text="Старший продюсер||Иван Мороз"
+			text="Senior executive producer||Ivan Moroz"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="198"
@@ -209,7 +209,7 @@
 
 		<Page
 			id="23"
-			text="Менеджеры по продвижению продуктов||Юрий Вирич|Алексей Писклюков"
+			text="Sales managers||Youriy Virich|Alexey Pisklukov"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="2298"
@@ -218,7 +218,7 @@
 
 		<Page
 			id="24"
-			text="Технический эксперт||Кирилл Бестемьянов"
+			text="Technical expert||Kirill Bestemyanov"
 			modelName="r3_man"
 			modelSkin="0"
 			modelCfg="57"
@@ -227,7 +227,7 @@
 
 		<Page
 			id="25"
-			text="Эксперт по звуку||Руслан Дмитриев"
+			text="Sound expert||Ruslan Dmitriev"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1745"
@@ -236,7 +236,7 @@
 
 		<Page
 			id="26"
-			text="Дизайнеры-полиграфисты||Санан Ушанов|Даниелла Климашевская"
+			text="Cover designers||Sanan Ushanov|Daniella Klimashevskaya"
 			modelName="r2_woman"
 			modelSkin="2"
 			modelCfg="43"
@@ -245,7 +245,7 @@
 
 		<Page
 			id="27"
-			text="PR-менеджер||Алексей Пастушенко"
+			text="PR manager||Alexey Pastushenko"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="765"
@@ -254,7 +254,7 @@
 
 		<Page
 			id="28"
-			text="Ассистент PR-менеджера||Олег Морозов"
+			text="PR manager’s assiatant||Oleg Morozov"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="456"
@@ -263,7 +263,7 @@
 
 		<Page
 			id="29"
-			text="Ассистент продюсера||Алексей Пешехонов|Николай Сафронов"
+			text="Producer’s assistant||Alexey Peshekhonov|Nikolay Safronov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
@@ -272,7 +272,7 @@
 
 		<Page
 			id="30"
-			text="Менеджер по новым командам||Николай Сафронов"
+			text="New team manager||Nikolay Safronov"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="635"
@@ -281,7 +281,7 @@
 
 		<Page
 			id="31"
-			text="Выпускающий продюсер||Александр Пак"
+			text="Executive producer||Alexander Pak"
 			modelName="r3_man"
 			modelSkin="0"
 			modelCfg="253"
@@ -290,7 +290,7 @@
 
 		<Page
 			id="32"
-			text="Старший тестировщик||Евгений Попов|Иван Рид"
+			text="QA Supervisor||Evgeny Popov|Ivan Rid"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="379"
@@ -299,7 +299,7 @@
 
 		<Page
 			id="33"
-			text="Служба тестирования||Антон Епишин|Алексей Петров|Александр Полосин|Евгений Попов|Иван Райнов|Иван Рид|Алексей Чеботарев"
+			text="QA team||Anton Epishin|Dmitry Lesin|Alexander Poloshin|Evgeny Popov|Ivan Raynov|Ivan Rid|Alexey Chebotarev"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="456"
@@ -308,7 +308,7 @@
 
 		<Page
 			id="34"
-			text="Внешнее тестирование||Петр Беляев|Алексей Бунак|Игорь Дмитриев|Михаил Матюшов|Денис Соколов"
+			text="External testing||Peter Beliaev|Alexey Bunak|Igor Dmitriev|Michael Matushov|Denis Sokolov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="0"
@@ -317,7 +317,7 @@
 
 		<Page
 			id="34_1"
-			text="Внешнее тестирование||Игорь Пешехонцев|Дмитрий Чичков|Алексей Шеховцов|Илья Юсипов|Тимур Юсипов"
+			text="External testing||Igor Peshekhontsev|Dmitry Chichikov|Alexey SHekhovtsev|Ilia Yusipov|Timur Yusipov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="0"
@@ -326,7 +326,7 @@
 
 		<Page
 			id="35"
-			text="Служба продаж||Максим О. Алексеев| Максим Ю. Алексеев|Максим А. Алексеев|Наталья Анкундинова|Елена Антонова|Илья Бровченко|Павел Григорьев|Виктория Киселева|Александр Кочетков"
+			text="Sales department||Maxim О. Alexeev|Maxim U. Alexeev|Maxim A. Alexeev|Natalia Ankundinova|Elena Antonova|Ilia Brovchenko|Pavel Grigoriev|Victoria Kiseleva|Alexander Kochetkov"
 			modelName="r3_man"
 			modelSkin="0"
 			modelCfg="123"
@@ -335,7 +335,7 @@
 
 		<Page
 			id="36"
-			text="Служба продаж||Павел Круглов|Андрей Осипов|Александр Петринский|Ольга Полковникова|Лариса Савельева|Евгений Самсонов|Светлана Самсонова|Валерий Тихвинский|Сергей Федосов"
+			text="Sales department||Andrey Osipov|Alexandr Petrinsky|Olga Polkovnikova|Larisa Savelieva|Evgeny Samsonov|Svetlana Samsonova|Valery Tikhvonski|Sergey Fedosof"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="4"
@@ -344,7 +344,7 @@
 
 		<Page
 			id="37"
-			text="Торговый маркетинг||Татьяна Васекина"
+			text="Marketing||Tatiana Vasekina"
 			modelName="r2_woman"
 			modelSkin="2"
 			modelCfg="113"
@@ -353,7 +353,7 @@
 
 		<Page
 			id="38"
-			text="Комьюнити менеджер||Александр Ковалев"
+			text="Community manager||Alexander Kovalev"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="97"
@@ -362,7 +362,7 @@
 
 		<Page
 			id="39"
-			text="Экспертный совет||Владимир Миняев|Максим Н. Михалев|Иван Мороз|Сергей Руденко|Виталий Харитоненко"
+			text="Experts’ council||Vladimir Miniaev|Maxim N. Mikhalev|Ivan Moroz|Sergey Rudenko|Vitaly Kharitonenko"
 			modelName="r3_man"
 			modelSkin="0"
 			modelCfg="225"
@@ -371,7 +371,7 @@
 
 		<Page
 			id="40"
-			text="Юридическая поддержка||Георгий Виталиев"
+			text="Juridical support||Georgy Vitaliev"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="369"
@@ -380,7 +380,7 @@
 
 		<Page
 			id="41"
-			text="Техническая поддержка||Евгений Дмитриев"
+			text="Technical support||Evgeny Dmitriev"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="381"
@@ -389,7 +389,7 @@
 
 		<Page
 			id="42"
-			text="Генеральный директор||Александр Михайлов"
+			text="CEO||Alexander Mikhailov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="2300"
@@ -398,7 +398,7 @@
 
 		<Page
 			id="43"
-			text="Финансовый директор||Марина Равун"
+			text="CFO||Marina Ravoon"
 			modelName="r2_woman"
 			modelSkin="2"
 			modelCfg="108"
@@ -407,7 +407,7 @@
 
 		<Page
 			id="44"
-			text="Руководитель отдела маркетинга||Максим Н. Михалев"
+			text="Marketing department’s head||Maxim N. Mikhalev"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="635"
@@ -416,7 +416,7 @@
 
 		<Page
 			id="45"
-			text="Руководитель коммерческого отдела||Татьяна Устинова"
+			text="Sales department’s head||Tatiana Ustinova"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="100"
@@ -425,7 +425,7 @@
 
 		<Page
 			id="46"
-			text="Руководитель отдела разработок||Иван Бунаков"
+			text="Development department’s head||Ivan Bunalov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="2812"
@@ -434,7 +434,7 @@
 
 		<Page
 			id="47"
-			text="Отдельное спасибо:||Юлия Белова|Сергей Бобков|Илья Бровченко|Дмитрий Захаров|Дмитрий Кулешов|Дмитрий Лесин|Владимир Миняев|Иван Мороз"
+			text="Special thanks:||Youlia Belova|Sergey Bobkov|Ilia Brovchenko|Dmitry Zakharov|Dmitry Kuleshov|Dmitry Lesin|Vladimir Miniaev|Ivan Moroz"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1745"
@@ -443,7 +443,7 @@
 
 		<Page
 			id="48"
-			text="Отдельное спасибо:||Марина Равун|Иван Рид|Инна Суцепина|Игорь Устинов|Ирина Царева|Виктория Эннс"
+			text="Special thanks:||Marina Ravoon|Ivan Rid|Inna Sutsepina|Igor Ustinov|Irina Tsareva|Victoria Enns"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="57"
@@ -452,7 +452,7 @@
 
 		<Page
 			id="49"
-			text="Community Patch / Remaster"
+			text="Community|Patch / Remaster"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -461,7 +461,7 @@
 
 		<Page
 			id="50"
-			text="Команда разработки"
+			text="Development team"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -470,7 +470,7 @@
 		
 			<Page
 			id="50_1"
-			text="Александр «Seel» Парфененков|Александр «ThePlain» Фатеев|Алексей «__nEmPoBu4__» Смирнов|Анна Жукова|Антон Попов|Владислав «OverLine» Курочкин|Дмитрий «Гном» Сащенко|Иван «ICAS-14» Черепанов|Леонид «KoYoT» Кочетов|Максим «Spok» Бердников|Марк «Apocalypse007» Малыгин|Ник «EL_BIBIKA» Кононенко|Павел «pavlikrpg» Иванов|Серафим «Varisane» Шагин"
+			text="Alexander «Seel» Parfenenkov|Alexander «ThePlain» Fateev|Alexei «__nEmPoBu4__» Smirnov|Anna Zhukova|Anton Popov|Vladislav «OverLine» Kurochkin|Dmitry «Гном» Saschenko|Ivan «ICAS-14» Cherepanov|Leonid «KoYoT» Kochetov|Maxim «Spok» Berdnikov|Mark «Apocalypse007» Malygin|Nick «EL_BIBIKA» Kononenko|Pavel «pavlikrpg» Ivanov|Serafim «Varisane» Shagin"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="765"
@@ -479,7 +479,7 @@
 
 		<Page
 			id="51"
-			text="Александр «Seel» Парфененков||менеджер проекта, инструментарий, дизайн"
+			text="Alexander «Seel» Parfenenkov||project manager, tools, interface design"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
@@ -488,7 +488,7 @@
 		
 		<Page
 			id="52"
-			text="Александр «ThePlain» Фатеев||инструментарий, графика,|3D моделирование"
+			text="Alexander «ThePlain» Fateev||tools, graphics,|3D modeling"
 			modelName="mask_oracul"
 			modelSkin="0"
 			modelCfg="0"
@@ -497,7 +497,7 @@
 		
 		<Page
 			id="53"
-			text="Алексей «__nEmPoBu4__» Смирнов||3D моделирование, скрипты, квесты"
+			text="Alexei «__nEmPoBu4__» Smirnov||3D modeling, scripting, quests"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1531"
@@ -506,7 +506,7 @@
 		
 		<Page
 			id="54"
-			text="Анна Жукова||графический дизайн"
+			text="Anna Zhukova||interface design"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="104"
@@ -515,7 +515,7 @@
 		
 		<Page
 			id="55"
-			text="Антон Попов||музыка"
+			text="Anton Popov||music"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="381"
@@ -524,7 +524,7 @@
 		
 		<Page
 			id="56"
-			text="Владислав «OverLine» Курочкин||контент-дизайн, картостроение"
+			text="Vladislav «OverLine» Kurochkin||content design, mapping"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="765"
@@ -533,7 +533,7 @@
 		
 		<Page
 			id="57"
-			text="Дмитрий «Гном» Сащенко||скрипты, квесты,|3D моделирование"
+			text="Dmitry «Gnome» Saschenko||scripting, quests,|3D modeling"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -542,7 +542,7 @@
 		
 		<Page
 			id="58"
-			text="Иван «ICAS-14» Черепанов||3D моделирование"
+			text="Ivan «ICAS-14» Cherepanov||3D modeling"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="168"
@@ -551,7 +551,7 @@
 		
 		<Page
 			id="59"
-			text="Леонид «KoYoT» Кочетов||исправление ошибок"
+			text="Leonid «KoYoT» Kochetov||bugfixes"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="91"
@@ -560,7 +560,7 @@
 		
 		<Page
 			id="60"
-			text="Максим «Spok» Бердников||3D моделирование"
+			text="Maxim «Spok» Berdnikov||3D modeling"
 			modelName="r1_man"
 			modelSkin="0"
 			modelCfg="14"
@@ -569,7 +569,7 @@
 		
 		<Page
 			id="61"
-			text="Марк «Apocalypse007» Малыгин||текстовые правки"
+			text="Mark «Apocalypse007» Malygin||text corrections"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="2169"
@@ -578,7 +578,7 @@
 		
 		<Page
 			id="62"
-			text="Ник «EL_BIBIKA» Кононенко||3D моделирование"
+			text="Nick «EL_BIBIKA» Kononenko||3D modeling"
 			modelName="r1_man"
 			modelSkin="1"
 			modelCfg="4"
@@ -587,7 +587,7 @@
 		
 		<Page
 			id="63"
-			text="Павел «pavlikrpg» Иванов||скрипты, квесты"
+			text="Pavel «pavlikrpg» Ivanov||scripting, quests"
 			modelName="r2_woman"
 			modelSkin="1"
 			modelCfg="91"
@@ -596,7 +596,7 @@
 		
 		<Page
 			id="64"
-			text="Серафим «Varisane» Шагин||контент-дизайн"
+			text="Serafim «Varisane» Shagin||content design"
 			modelName="r4_man"
 			modelSkin="2"
 			modelCfg="85"
@@ -605,7 +605,7 @@
 		
 		<Page
 			id="65"
-			text="Экспертный совет"
+			text="Expert’s council"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -614,7 +614,7 @@
 		
 		<Page
 			id="66"
-			text="Buba|Oracle|Rusya_27|Traygen|Леонид «KoYoT» Кочетов|Семимахов"
+			text="Buba|Oracle|Rusya_27|Traygen|Leonid «KoYoT» Kochetov|Semimahov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="379"
@@ -623,7 +623,7 @@
 		
 		<Page
 			id="67"
-			text="Тестирование"
+			text="Testing"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -632,7 +632,7 @@
 		
 		<Page
 			id="68"
-			text="Suslo Red|Иван «MrKarfen» Атаманов|Семён «Omezera» Озерицкий|Pushistik_7977|Anarxolis|ScorpyX|Александр192|Terorchat"
+			text="Suslo Red|Ivan «MrKarfen» Atamanov|Semen «Omezera» Ozerickiy|Pushistik_7977|Anarxolis|ScorpyX|Alexander192|Terorchat"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="635"
@@ -641,7 +641,7 @@
 		
 		<Page
 			id="69"
-			text="Отдельное спасибо:||Сообществу Deus Ex Machina|discord.gg/qKK2Efx||Сообществу EM2ch|vk.com/em2ch||Паблику Ex Machina Вконтакте|vk.com/exmachina2"
+			text="Special thanks to:||Deus Ex Machina community|discord.gg/qKK2Efx||EM2ch community|vk.com/em2ch||Ex Machina public on VK|vk.com/exmachina2"
 			modelName="r1_man"
 			modelSkin="2"
 			modelCfg="92"
@@ -650,7 +650,7 @@
 
 		<Page
 			id="70"
-			text="А также:||Зрителям канала «Павлик RPG»||Нашим жёнам, девушкам, родственникам и кошкам, которые терпели нас во время разработки||Всем тем, кто ждал и поддерживал этот проект"
+			text="As well as:||«Павлик RPG»’s channel viewers||Our wifes, girlfriends, relatives and cats, who tolerated us during the development||To all of those who waited and supported this project"
 			modelName="r1_man"
 			modelSkin="1"
 			modelCfg="102"

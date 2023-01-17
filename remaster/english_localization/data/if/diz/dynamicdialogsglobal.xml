@@ -2,185 +2,185 @@
 <DialogsResource><!--Root-->
 	<Reply
 		name="Dynamic00"
-		text="Приветствую тебя, путник."
+		text="Hello, traveler!"
 		role="NPC"
 		scriptResult="ConversationWnd:ShowDynamicQuestsMenu()"
 		nextReplies="EndDlg2 Dlg_pl_000020" />
 
 	<Reply
 		name="Dlg_pl_000020"
-		text="Кажется, я ошибся дверью."
+		text="Sorry, I came to the wrong place."
 		role="PLAYER"
 		scriptCondition="GetCurNpc():HasNotTakenDynamicQuests()"
 		scriptResult="ConversationWnd:EndConversation()" />
 
 	<Reply
 		name="Dynamic00_plYes0"
-		text="Конечно, я согласен."
+		text="I agree!"
 		role="PLAYER"
 		scriptResult="ConversationWnd:GetCurrentDynamicQuest():Take(); ConversationWnd:EndConversation()" />
 
 	<Reply
 		name="Dynamic00_plNo0"
-		text="Я предпочту отказаться."
+		text="I'd rather not."
 		role="PLAYER"
 		scriptResult="ConversationWnd:EndConversation()" />
 
 	<Reply
 		name="Dynamic00_Destroy00"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Destroy00_npc0" />
 
 	<Reply
 		name="Dynamic00_Destroy00_npc0"
-		text="В окрестностях орудует вор-рецидивист. Награда за его голову – %3d."
+		text="A thief that was caught several times started his illicit activity once again. Probably, the only way to make him stop stealing is to kill him. Help us and we'll reward you with %3d coins."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Destroy01"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Destroy01_npc0" />
 
 	<Reply
 		name="Dynamic00_Destroy01_npc0"
-		text="Кто-то жжёт посевы и отравляет колодцы. Скорее всего, это вражеский шпион. Убей его и получишь %3d."
+		text="We noticed somebody burning our crops and poisoning wells. Kill the enemy saboteur to get %3d in reward."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Destroy02"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Destroy02_npc0" />
 
 	<Reply
 		name="Dynamic00_Destroy02_npc0"
-		text="По окрестностям разъезжает один сумасшедший, устраивает засады и пугает жителей деревень. Он не очень опасен, но люди жалуются. Разберёшься с ним, и %3d - твои."
+		text="Some crazy murderer is haunting our lands. Get us rid of his foul presence and receive %3d coins in reward."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Reach00"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Reach00_npc0" />
 
 	<Reply
 		name="Dynamic00_Reach00_npc0"
-		text="Нужно отвезти кое-какие исследовательские данные и образцы в поселение %2n. На месте с тобой рассчитаются. %3d - неплохой приз за такую пустяшную работу."
+		text="We collected several pieces of precious machinery. Deliver them to %2n. Local technicians will pay %3d coins for your work."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Reach01"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Reach01_npc0" />
 
 	<Reply
 		name="Dynamic00_Reach01_npc0"
-		text="Мы тут собрали кое-какую посылочку в селение %2n. Доставь её, как будешь проезжать мимо. Дело несрочное. Как сделаешь, тебе заплатят %3d."
+		text="Please deliver this package to %2n. It is a sign of our respect to its people. They will gladly pay you %3d coins for your services."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Convoy00"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Convoy00_npc0" />
 
 	<Reply
 		name="Dynamic00_Convoy00_npc0"
-		text="По дорогам стало опасно передвигаться, а одному моему знакомому очень нужно попасть в %2n. Защитишь его в дороге - получишь %3d по прибытии."
+		text="It is dangerous to travel alone. A friend of mine really needs to go to %2n. Make sure he reaches it safely and you'll get %3d coins."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Convoy01"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Convoy01_npc0" />
 
 	<Reply
 		name="Dynamic00_Convoy01_npc0"
-		text="Тут кое-кто налаживает торговлю с соседним городом и везёт образцы товаров. Сопроводи их до селения %2n и проследи, чтобы не было хвоста. Ах, да! Награда – %3d."
+		text="Some local guy is establishing a trade route with %2n. Rivals want to spoil his plan. Help him to get to his destination safely and %3d coins are yours."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="EndDlg1"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		scriptResult="ConversationWnd:EndConversation()"
 		nextReplies="Dlg_npc_000017" />
 
 	<Reply
 		name="EndDlg2"
-		text="Какие новости?"
+		text="Any news?"
 		role="PLAYER"
 		scriptCondition="not GetCurNpc():HasNotTakenDynamicQuests()"
 		nextReplies="Dlg_npc_000017" />
 
 	<Reply
 		name="Dlg_npc_000017"
-		text="Представляешь, всё в порядке! Порядочному наёмнику не к чему руку приложить."
+		text="Can you believe it, everything is OK! So your services are not needed at the moment."
 		role="NPC"
 		nextReplies="Dlg_pl_000018" />
 
 	<Reply
 		name="Dlg_pl_000018"
-		text="Жаль. Ладно, зайду в другой раз."
+		text="It's a pity. Well, I'll come again later"
 		role="PLAYER"
 		scriptResult="ConversationWnd:EndConversation()" />
 
 	<Reply
 		name="Dynamic00_Peace00"
-		text="У меня возникла одна проблема: я поссорился с группировкой %2b..."
+		text="I've got a problem: I fell out with %2b group..."
 		role="PLAYER"
 		nextReplies="Dynamic00_Peace00_npc0" />
 
 	<Reply
 		name="Dynamic00_Peace00_npc0"
-		text="Ты, я вижу, здорово постарался, чтобы %2b объявили тебя кровным врагом… У меня есть кое-какие связи, так что за %3d процентов от твоих денежных запасов я могу замолвить за тебя словечко на городском совете."
+		text="You did a hard job making %2b hate you! I have a couple of acquaintances among them so I may be able to improve your reputation a bit for mere %3d percent of your money."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Peace01"
-		text="На этот раз мне нужна помощь. %2b и я не сумели договориться по одному вопросу, и теперь..."
+		text="I need your help. We've got some irresolvable issues with %2b and now..."
 		role="PLAYER"
 		nextReplies="Dynamic00_Peace01_npc0" />
 
 	<Reply
 		name="Dynamic00_Peace01_npc0"
-		text="Я знаю, что %2b не желают иметь с тобой никаких дел. За скромное вознаграждение в %3d процентов от твоих денежных запасов я могу помочь тебе приобрести какой-никакой авторитет среди них."
+		text="As much as I know, %2b treat you like a maggot. If you pay me %3d percent of your money, I can help you to regain some respect among them."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Hunt00"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Hunt00_npc0" />
 
 	<Reply
 		name="Dynamic00_Hunt00_npc0"
-		text="Объявлен сезон охоты на бандитов. Уничтожение каждой враждебной машины принесёт вам %3d. Оплата производится по окончании срока охоты."
+		text="The Hunting season is open. The more enemies you kill, the more money you get. We pay %3d coins for every cold body. You’ll get your reward when the hunt time is over."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
 	<Reply
 		name="Dynamic00_Hunt01"
-		text="Есть ли для меня работа?"
+		text="Do you have any work for me to do?"
 		role="PLAYER"
 		nextReplies="Dynamic00_Hunt01_npc0" />
 
 	<Reply
 		name="Dynamic00_Hunt01_npc0"
-		text="Бандиты потеряли всякий стыд! Совершают набеги на наши территории, как к себе на склад ходят. Надо преподать им хороший урок. Подстрели нескольких, пусть боятся. Уложишься в условленное время - получишь %3d за каждого из них."
+		text="The bandits really pissed us off! They attack every single car they see. Someone have to teach them a lesson. Shot a couple of them while the people are still angry and you'll get %3d coins for every cold body. "
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 </DialogsResource>

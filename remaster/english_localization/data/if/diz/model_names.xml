@@ -3,1791 +3,1791 @@
 	<Item
 		id="cooling_system_guns"
 		locForm="0"
-		value="Водяная система охлаждения для огнестрельного оружия" />
+		value="Guns cooling system." />
 
 	<Item
 		id="cooling_system_energy"
 		locForm="0"
-		value="Водяная система охлаждения для энергетического оружия" />
+		value="Energy weapons cooling system." />
 
 	<Item
 		id="cooling_system_explosion"
 		locForm="0"
-		value="Водяная система охлаждения для артиллерии" />
+		value="Explosion weapons cooling system." />
 
 	<Item
 		id="firing_rate_guns"
 		locForm="0"
-		value="Оптимизированный механический спуск" />
+		value="Increased guns firing rate." />
 
 	<Item
 		id="firing_range_guns"
 		locForm="0"
-		value="Магнитный ускоритель" />
+		value="Electro accelerator" />
 
 	<Item
 		id="firing_rate_energy"
 		locForm="0"
-		value="Кабель низкого сопротивления" />
+		value="Increased energy weapons firing rate." />
 
 	<Item
 		id="add_damage_guns"
 		locForm="0"
-		value="Полусвободный затвор" />
+		value="Increased guns damage." />
 
 	<Item
 		id="add_damage_energy"
 		locForm="0"
-		value="Зеркально-серебренный световой резонатор" />
+		value="Increased energy weapons damage." />
 
 	<Item
 		id="add_damage_explosion"
 		locForm="0"
-		value="Магнитная катапульта" />
+		value="Increased explosion weapons damage." />
 
 	<Item
 		id="grouping_angle_guns"
 		locForm="0"
-		value="Оптический прицел" />
+		value="Increased grouping angle of guns." />
 
 	<Item
 		id="cooling_system_guns2"
 		locForm="0"
-		value="Воздушная система охлаждения пулемета" />
+		value="Improved guns cooling system." />
 
 	<Item
 		id="cooling_system_energy2"
 		locForm="0"
-		value="Воздушная система охлаждения лазера" />
+		value="Improved energy weapons cooling system." />
 
 	<Item
 		id="cooling_system_explosion2"
 		locForm="0"
-		value="Воздушная система охлаждения артиллерии" />
+		value="Improved explosion weapons cooling system." />
 
 	<Item
 		id="firing_rate_guns2"
 		locForm="0"
-		value="Электроспуск" />
+		value="Improved guns firing rate." />
 
 	<Item
 		id="firing_rate_energy2"
 		locForm="0"
-		value="Сверхпроводящий кабель" />
+		value="Improved energy weapons firing rate." />
 
 	<Item
 		id="grouping_angle_guns2"
 		locForm="0"
-		value="Оптический прицел с просветленной оптикой и антибликовой защитой." />
+		value="Improved guns grouping angle." />
 
 	<Item
 		id="add_damage_guns2"
 		locForm="0"
-		value="Свободный затвор с плавающей муфтой" />
+		value="Additional guns damage output." />
 
 	<Item
 		id="add_damage_energy2"
 		locForm="0"
-		value="Кварцевый резонатор" />
+		value="Additional energy weapons damage output." />
 
 	<Item
 		id="add_damage_explosion2"
 		locForm="0"
-		value="Магнитная катапульта на базе генератора вихревых полей" />
+		value="Additional explosion weapons damage output." />
 
 	<Item
 		id="cooling_system_guns_and_firing_rate_guns"
 		locForm="0"
-		value="Система &quot;Гномон&quot;" />
+		value="Improved guns cooling system and increased firing rate." />
 
 	<Item
 		id="cooling_system_energy_and_firing_rate_energy"
 		locForm="0"
-		value="Комплекс &quot;Алгор&quot;" />
+		value="Improved energy weapons cooling system and increased firing rate." />
 
 	<Item
 		id="cooling_system_explosion_and_firing_rate_explosion"
 		locForm="0"
-		value="Система &quot;Самум&quot;" />
+		value="Improved explosion weapons cooling system and increased firing rate." />
 
 	<Item
 		id="firing_rate_guns_and_add_damage_guns"
 		locForm="0"
-		value="Электромеханический комплекс &quot;Сфено&quot;  " />
+		value="Increased guns firing rate and damage." />
 
 	<Item
 		id="firing_rate_energy_and_add_damage_energy"
 		locForm="0"
-		value="Магнитно-оптическая система &quot;Квазар&quot;" />
+		value="Increased energy weapons firing rate and damage." />
 
 	<Item
 		id="firing_rate_explosion_and_add_damage_explosion"
 		locForm="0"
-		value="Электромеханический комплекс &quot;Огненный шторм&quot;." />
+		value="Increased explosion weapons firing rate and damage." />
 
 	<Item
 		id="add_damage_guns_and_grouping_angle_guns"
 		locForm="0"
-		value="Комплекс &quot;FireEye&quot;" />
+		value="Increased guns damage and grouping angle." />
 
 	<Item
 		id="add_damage_energy_and_firing_rate_energy"
 		locForm="0"
-		value="Система &quot;Doom-4&quot;" />
+		value="Increased energy weapons damage and firing rate." />
 
 	<Item
 		id="add_damage_explosion_firing_rate_explosion"
 		locForm="0"
-		value="Электромеханический комплекс &quot;Давид&quot;" />
+		value="Increased explosion weapons damage and firing rate." />
 
 	<Item
 		id="additional_fuel_tank"
 		locForm="0"
-		value="Обычная канистра" />
+		value="Additional fuel tank." />
 
 	<Item
 		id="additional_torque"
 		locForm="0"
-		value="Дополнительная выхлопная труба" />
+		value="Additional torque." />
 
 	<Item
 		id="additional_durability"
 		locForm="0"
-		value="Катанные броневые листы на корпус кабины" />
+		value="Additional armour." />
 
 	<Item
 		id="additional_stability"
 		locForm="0"
-		value="Изоляция топливной системы" />
+		value="Fuel system isolation" />
 
 	<Item
 		id="additional_fuel_tank2"
 		locForm="0"
-		value="Большая канистра" />
+		value="Improved additional fuel tank." />
 
 	<Item
 		id="additional_torque2"
 		locForm="0"
-		value="Турбонаддув" />
+		value="Additional torque. Advanced model." />
 
 	<Item
 		id="additional_durability2"
 		locForm="0"
-		value="Катанные броневые листы с дополнительным цементированием" />
+		value="Additional durability. Advanced model." />
 
 	<Item
 		id="add_speed_and_torque"
 		locForm="0"
-		value="Электронная инжекторная система" />
+		value="Additional speed and torque." />
 
 	<Item
 		id="add_stability_and_speed"
 		locForm="0"
-		value="Система &quot;Sagitta&quot;  " />
+		value="Improved stability and speed." />
 
 	<Item
 		id="add_torque_and_stability"
 		locForm="0"
-		value="Система &quot;Альбатрос&quot;" />
+		value="Additional torque and stability." />
 
 	<Item
 		id="additional_fuel_tank2_add_damage_guns"
 		locForm="0"
-		value="Система &quot;Сато&quot;" />
+		value="Additional stability and fuel tank." />
 
 	<Item
 		id="potato"
 		locForm="0"
-		value="Картофель" />
+		value="Potatoes" />
 
 	<Item
 		id="scrap_metal"
 		locForm="0"
-		value="Металлолом" />
+		value="Scrap metal" />
 
 	<Item
 		id="firewood"
 		locForm="0"
-		value="Дрова" />
+		value="Wood" />
 
 	<Item
 		id="oil"
 		locForm="0"
-		value="Нефть" />
+		value="Oil" />
 
 	<Item
 		id="bottle"
 		locForm="0"
-		value="Бутылки" />
+		value="Bottles" />
 
 	<Item
 		id="fuel"
 		locForm="0"
-		value="Горючее" />
+		value="Fuel" />
 
 	<Item
 		id="machinery"
 		locForm="0"
-		value="Рабочее оборудование" />
+		value="Machinery" />
 
 	<Item
 		id="tobacco"
 		locForm="0"
-		value="Табак" />
+		value="Tobacco" />
 
 	<Item
 		id="book"
 		locForm="0"
-		value="Книги" />
+		value="Books" />
 
 	<Item
 		id="electronics"
 		locForm="0"
-		value="Электроника" />
+		value="Electronics" />
 
 	<Item
 		id="quest_start_father_letter"
 		locForm="0"
-		value="Письмо" />
+		value="Father's letter" />
 
 	<Item
 		id="quest_potato"
 		locForm="0"
-		value="Пакет" />
+		value="A packet" />
 
 	<Item
 		id="quest_medicine_box"
 		locForm="0"
-		value="Медикаменты" />
+		value="Medicaments" />
 
 	<Item
 		id="quest_explosive"
 		locForm="0"
-		value="Взрывчатка" />
+		value="Explosives" />
 
 	<Item
 		id="quest_wine_barrels"
 		locForm="0"
-		value="Бочки с вином" />
+		value="Barrel of vine" />
 
 	<Item
 		id="quest_komp_splav"
 		locForm="0"
-		value="Редкий сплав" />
+		value="Rare alloy" />
 
 	<Item
 		id="quest_shaman_head1"
 		locForm="0"
-		value="Голова сектанта" />
+		value="The heretic's head" />
 
 	<Item
 		id="quest_shaman_head2"
 		locForm="0"
-		value="Голова язычника" />
+		value="The pagan's head" />
 
 	<Item
 		id="quest_old_digital"
 		locForm="0"
-		value="Старый двигатель" />
+		value="Old engine" />
 
 	<Item
 		id="quest_art_masterpice"
 		locForm="0"
-		value="Произведение искусства" />
+		value="Masterpiece" />
 
 	<Item
 		id="quest_mafia_narcotik"
 		locForm="0"
-		value="Наркотики" />
+		value="Narcotics" />
 
 	<Item
 		id="quest_first_canistra"
 		locForm="0"
-		value="Канистра нефти" />
+		value="A canister of oil" />
 
 	<Item
 		id="quest_disk_1"
 		locForm="0"
-		value="Диск" />
+		value="The disk" />
 
 	<Item
 		id="quest_disk_2"
 		locForm="0"
-		value="Второй диск" />
+		value="The second disk" />
 
 	<Item
 		id="quest_key_for_submarine"
 		locForm="0"
-		value="Ключ от морских врат" />
+		value="The sea gate key" />
 
 	<Item
 		id="quest_key_for_tunnel"
 		locForm="0"
-		value="Ключ к тоннелю" />
+		value="The tunnel key" />
 
 	<Item
 		id="quest_repair_robot3"
 		locForm="0"
-		value="Робот-настройщик" />
+		value="Tuner" />
 
 	<Item
 		id="quest_repair_robot1"
 		locForm="0"
-		value="Робот-помощник" />
+		value="Helper" />
 
 	<Item
 		id="quest_repair_robot2"
 		locForm="0"
-		value="Робот-ремонтник" />
+		value="Repairer" />
 
 	<Item
 		id="quest_explosion_stone"
 		locForm="0"
-		value="Камень с рунами" />
+		value="Runestone" />
 
 	<Item
 		id="quest_magic_thing2"
 		locForm="0"
-		value="Сломанный прибор" />
+		value="Broken device" />
 
 	<Item
 		id="quest_magic_thing1"
 		locForm="0"
-		value="Старинный артефакт" />
+		value="Ancient artifact" />
 
 	<Item
 		id="quest_monster_head"
 		locForm="0"
-		value="Голова монстра" />
+		value="Monster Head" />
 
 	<Item
 		id="someTurboAccelerationPusher"
 		locForm="0"
-		value="Турбо-ускорение" />
+		value="Turbo " />
 
 	<Item
 		id="engineOilPusher"
 		locForm="0"
-		value="Машинное масло" />
+		value="Oil spiller" />
 
 	<Item
 		id="nailsPusher"
 		locForm="0"
-		value="Шип" />
+		value="Nails" />
 
 	<Item
 		id="minePusher"
 		locForm="0"
-		value="Ёж-1" />
+		value="Hedgehog 1" />
 
 	<Item
 		id="cyclops01"
 		locForm="0"
-		value="Циклоп" />
+		value="Cyclops" />
 
 	<Item
 		id="big_swingfire01"
 		locForm="0"
-		value="Свингфайр" />
+		value="Swingfire" />
 
 	<Item
 		id="rocketLauncher"
 		locForm="0"
-		value="Дракон" />
+		value="Dragon" />
 
 	<Item
 		id="storm01"
 		locForm="0"
-		value="Шторм" />
+		value="Storm" />
 
 	<Item
 		id="molokovozCab01"
 		locForm="0"
-		value="Болт" />
+		value="Bolt" />
 
 	<Item
 		id="molokovozCab02"
 		locForm="0"
-		value="Вихрь" />
+		value="Whirlpool" />
 
 	<Item
 		id="molokovozCab03"
 		locForm="0"
-		value="Шип" />
+		value="Thorn" />
 
 	<Item
 		id="molokovozCargo01"
 		locForm="0"
-		value="Тент" />
+		value="Tent" />
 
 	<Item
 		id="molokovozCargo02"
 		locForm="0"
-		value="Генератор" />
+		value="Generator" />
 
 	<Item
 		id="molokovozCargo03"
 		locForm="0"
-		value="Бокс" />
+		value="Box" />
 
 	<Item
 		id="belazCab01"
 		locForm="0"
-		value="Зод" />
+		value="Zod" />
 
 	<Item
 		id="belazCab02"
 		locForm="0"
-		value="Боливар" />
+		value="Bolivar" />
 
 	<Item
 		id="belazCab03"
 		locForm="0"
-		value="Рок" />
+		value="Rock" />
 
 	<Item
 		id="belazCab04"
 		locForm="0"
-		value="Терминатор" />
+		value="Terminator" />
 
 	<Item
 		id="belazCab05"
 		locForm="0"
-		value="Щит" />
+		value="Shield" />
 
 	<Item
 		id="belazCargo01"
 		locForm="0"
-		value="Хост" />
+		value="Host" />
 
 	<Item
 		id="belazCargo02"
 		locForm="0"
-		value="Конструктор" />
+		value="Constructor" />
 
 	<Item
 		id="belazCargo03"
 		locForm="0"
-		value="Колосс" />
+		value="Colossus" />
 
 	<Item
 		id="belazCargo04"
 		locForm="0"
-		value="Гром" />
+		value="Thunder" />
 
 	<Item
 		id="belazCargo05"
 		locForm="0"
-		value="Цилиндр" />
+		value="Cylinder" />
 
 	<Item
 		id="bugCab01"
 		locForm="0"
-		value="Жук" />
+		value="Bug" />
 
 	<Item
 		id="bugCab02"
 		locForm="0"
-		value="Работяга" />
+		value="Mule" />
 
 	<Item
 		id="bugCab03"
 		locForm="0"
-		value="Скорпион" />
+		value="Scorpio" />
 
 	<Item
 		id="bugCargo01"
 		locForm="0"
-		value="Газ" />
+		value="Throttle" />
 
 	<Item
 		id="bugCargo02"
 		locForm="0"
-		value="Каскад" />
+		value="Cascade" />
 
 	<Item
 		id="bugCargo03"
 		locForm="0"
-		value="Борг" />
+		value="Grob" />
 
 	<Item
 		id="uralCab01"
 		locForm="0"
-		value="Хром" />
+		value="Chrome" />
 
 	<Item
 		id="uralCab02"
 		locForm="0"
-		value="Штандарт" />
+		value="Standard" />
 
 	<Item
 		id="uralCab03"
 		locForm="0"
-		value="Лорд" />
+		value="Lord" />
 
 	<Item
 		id="uralCab04"
 		locForm="0"
-		value="Морион" />
+		value="Morion" />
 
 	<Item
 		id="uralCab05"
 		locForm="0"
-		value="Витязь" />
+		value="Knight" />
 
 	<Item
 		id="uralCargo01"
 		locForm="0"
-		value="Холод" />
+		value="Cold" />
 
 	<Item
 		id="uralCargo02"
 		locForm="0"
-		value="Фрахт" />
+		value="Freight" />
 
 	<Item
 		id="uralCargo03"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="uralCargo04"
 		locForm="0"
-		value="Панцирь" />
+		value="Shell" />
 
 	<Item
 		id="uralCargo05"
 		locForm="0"
-		value="Тигр" />
+		value="Tiger" />
 
 	<Item
 		id="BelazForSale"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="UralForSale"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="BugForSale"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="MolokovozForSale"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="MolokovozCargo04"
 		locForm="0"
-		value="Бокс с прицепом" />
+		value="Trailer ready Bolt" />
 
 	<Item
 		id="mirotvorecCab01"
 		locForm="0"
-		value="Гран" />
+		value="Gran" />
 
 	<Item
 		id="mirotvorecCab02"
 		locForm="0"
-		value="Череп" />
+		value="Scull" />
 
 	<Item
 		id="mirotvorecCab03"
 		locForm="0"
-		value="Метеор" />
+		value="Meteor" />
 
 	<Item
 		id="mirotvorecCab04"
 		locForm="0"
-		value="Булат" />
+		value="Bulat" />
 
 	<Item
 		id="mirotvorecCab05"
 		locForm="0"
-		value="Фантом" />
+		value="Phantom" />
 
 	<Item
 		id="mirotvorecCargo01"
 		locForm="0"
-		value="Клык" />
+		value="Fang" />
 
 	<Item
 		id="mirotvorecCargo02"
 		locForm="0"
-		value="Центурион" />
+		value="Centurion" />
 
 	<Item
 		id="mirotvorecCargo03"
 		locForm="0"
-		value="Майа" />
+		value="Maya" />
 
 	<Item
 		id="mirotvorecCargo04"
 		locForm="0"
-		value="Масамунэ" />
+		value="Masamune" />
 
 	<Item
 		id="mirotvorecCargo05"
 		locForm="0"
-		value="Экскалибур" />
+		value="Excalibur" />
 
 	<Item
 		id="MirotvorecForSale"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="sml1Cab01"
 		locForm="1"
-		value="Кабина Клопа" />
+		value="Chinch's cab" />
 
 	<Item
 		id="sml2Cab01"
 		locForm="1"
-		value="Кабина Таракана" />
+		value="Cockroach's cab" />
 
 	<Item
 		id="sml3Cab01"
 		locForm="1"
-		value="Кабина Муравья" />
+		value="Ant's cab" />
 
 	<Item
 		id="sml4Cab01"
 		locForm="1"
-		value="Кабина Кузнечика" />
+		value="Grasshopper's cab" />
 
 	<Item
 		id="denscoutCab"
 		locForm="1"
-		value="Кабина Лисы" />
+		value="Alice's car cab" />
 
 	<Item
 		id="scoutCab01"
 		locForm="1"
-		value="Кабина Скаута" />
+		value="Scout's cab" />
 
 	<Item
 		id="scoutCab02"
 		locForm="1"
-		value="Кабина Скаута" />
+		value="Scout's cab" />
 
 	<Item
 		id="scoutCab03"
 		locForm="1"
-		value="Кабина Скаута" />
+		value="Scout's cab" />
 
 	<Item
 		id="tank01"
 		locForm="0"
-		value="Танк" />
+		value="Tank" />
 
 	<Item
 		id="hornet01"
 		locForm="0"
-		value="Шершень" />
+		value="Hornet" />
 
 	<Item
 		id="specter01"
 		locForm="0"
-		value="Спектр" />
+		value="Specter" />
 
 	<Item
 		id="pkt01"
 		locForm="0"
-		value="ПКТ" />
+		value="PKT" />
 
 	<Item
 		id="kord01"
 		locForm="0"
-		value="Корд" />
+		value="Kord" />
 
 	<Item
 		id="vector01"
 		locForm="0"
-		value="Вектор" />
+		value="Vector" />
 
 	<Item
 		id="vulcan01"
 		locForm="0"
-		value="Вулкан" />
+		value="Vulcan" />
 
 	<Item
 		id="maxim01"
 		locForm="0"
-		value="Максим" />
+		value="Maxim" />
 
 	<Item
 		id="rapier01"
 		locForm="1"
-		value="Рапира" />
+		value="Rapier" />
 
 	<Item
 		id="fagot01"
 		locForm="0"
-		value="Фагот" />
+		value="Fagot" />
 
 	<Item
 		id="kpvt01"
 		locForm="0"
-		value="КПВТ" />
+		value="KPVT" />
 
 	<Item
 		id="rainmetal01"
 		locForm="0"
-		value="Рейнметалл" />
+		value="Rainmetal" />
 
 	<Item
 		id="octopus01"
 		locForm="0"
-		value="Спрут" />
+		value="Octopus" />
 
 	<Item
 		id="elephant01"
 		locForm="0"
-		value="Слон" />
+		value="Elephant" />
 
 	<Item
 		id="flag01"
 		locForm="0"
-		value="Флаг" />
+		value="Flag" />
 
 	<Item
 		id="hurricane01"
 		locForm="0"
-		value="Ураган" />
+		value="Hurricane" />
 
 	<Item
 		id="hailSideGun"
 		locForm="0"
-		value="Град" />
+		value="Hail" />
 
 	<Item
 		id="odin01"
 		locForm="0"
-		value="Один" />
+		value="Odin" />
 
 	<Item
 		id="hammer01"
 		locForm="0"
-		value="Молот Тора" />
+		value="Hammer" />
 
 	<Item
 		id="bumblebee01"
 		locForm="0"
-		value="Шмель" />
+		value="Bumblebee" />
 
 	<Item
 		id="omega01"
 		locForm="1"
-		value="Омега" />
+		value="Omega" />
 
 	<Item
 		id="mrakSideGun"
 		locForm="0"
-		value="Мрак" />
+		value="Mrak" />
 
 	<Item
 		id="hunterSideGun"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="zeusSideGun"
 		locForm="0"
-		value="Зевс" />
+		value="Zeus" />
 
 	<Item
 		id="marsSideGun"
 		locForm="0"
-		value="Марс" />
+		value="Mars" />
 
 	<Item
 		id="minePusher_1"
 		locForm="0"
-		value="Ёж-2" />
+		value="Hedgehog 2" />
 
 	<Item
 		id="minePusher_2"
 		locForm="0"
-		value="Вихрь" />
+		value="Whirlpool" />
 
 	<Item
 		id="r1m1_sml01"
 		locForm="0"
-		value="Клоп" />
+		value="Chinch" />
 
 	<Item
 		id="r1m1_sml02"
 		locForm="0"
-		value="Таракан" />
+		value="Cockroach" />
 
 	<Item
 		id="r1m1_sml03"
 		locForm="0"
-		value="Муравей" />
+		value="Ant" />
 
 	<Item
 		id="r1m1_sml04"
 		locForm="0"
-		value="Кузнечик" />
+		value="Grasshopper" />
 
 	<Item
 		id="r1m1_scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="r1m1_scout02"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="r1m1_scout03"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="r1m1_molokovoz01"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="r1m1_molokovoz02"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="r1m1_molokovoz03"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="r1m1_bug01"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="r1m1_bug02"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="r1m1_bug03"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="r1m2_hunter02"
 		locForm="0"
-		value="Охотник" />
-		
+		value="Hunter" />
+
 	<Item
 		id="ScoutEnemySpawn"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="Scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="Scout02"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="Scout03"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="ArcadeScout01"
 		locForm="0"
-		value="Скаут GT" />
-		
+		value="Scout GT" />
+
 	<Item
 		id="FighterEnemySpawn"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="Fighter01"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="Fighter02"
 		locForm="0"
-		value="Боец" />
-		
+		value="Fighter" />
+
 	<Item
 		id="HunterEnemySpawn"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="Hunter01"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="Hunter02"
 		locForm="0"
-		value="Охотник" />
-		
+		value="Hunter" />
+
 	<Item
 		id="CruiserEnemySpawn"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="Cruiser01"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CruiserTest02"
 		locForm="0"
-		value="Крейсер" />
-		
+		value="Cruiser" />
+
 	<Item
 		id="DozerEnemySpawn"
 		locForm="0"
-		value="Бульдозер" />
+		value="Dozer" />
 
 	<Item
 		id="Dozer01"
 		locForm="0"
-		value="Бульдозер" />
+		value="Bulldozer" />
 
 	<Item
 		id="Traktor01"
 		locForm="0"
-		value="Трактор" />
+		value="Dozer" />
 
 	<Item
 		id="Tank01"
 		locForm="0"
-		value="Танк" />
+		value="Tank" />
 
 	<Item
 		id="Bug01"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="Molokovoz01"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="Molokovoz02"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="Ural01"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="Belaz01"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="CoolBelaz"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="Mirotvorec01"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="ArcadeBelaz"
 		locForm="0"
-		value="Белаз Спринт" />
+		value="Racing Belaz" />
 
 	<Item
 		id="DemoBandit"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="LisaCar"
 		locForm="1"
-		value="Лиса" />
+		value="Alice" />
 
 	<Item
 		id="DemoFighter1"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="DemoHunter1"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="DemoHunter2"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="DemoBug1"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="DemoBug2"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="DemoBug3"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="DemoMolokovoz1"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="DemoMolokovoz2"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="DemoMolokovoz3"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="DemoUral1"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="DemoUral2"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="DemoUral3"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="DemoBelaz1"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="DemoBelaz2"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="DemoBelaz3"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="DemoMirotvorec1"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="DemoMirotvorec2"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="DemoMirotvorec3"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="Revolutioner1"
 		locForm="0"
-		value="Революционер" />
+		value="Revolutionary" />
 
 	<Item
 		id="Revolutioner2"
 		locForm="0"
-		value="Революционер" />
+		value="Revolutionary" />
 
 	<Item
 		id="BelazTest"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="MolokovozTest"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="Sml101"
 		locForm="0"
-		value="Клоп" />
+		value="Chinch" />
 
 	<Item
 		id="Sml201"
 		locForm="0"
-		value="Таракан" />
-		
+		value="Cockroach" />
+
 	<Item
 		id="Sml301"
 		locForm="0"
-		value="Муравей" />
+		value="Ant" />
 
 	<Item
 		id="Sml401"
 		locForm="0"
-		value="Кузнечик" />
-		
+		value="Grasshopper" />
+
 	<Item
 		id="Sml1EnemySpawn"
 		locForm="0"
-		value="Клоп" />
+		value="Chinch" />
 
 	<Item
 		id="Sml2EnemySpawn"
 		locForm="0"
-		value="Таракан" />
+		value="Cockroach" />
 		
 	<Item
 		id="Sml3EnemySpawn"
 		locForm="0"
-		value="Муравей" />
+		value="Ant" />
 
 	<Item
 		id="Sml4EnemySpawn"
 		locForm="0"
-		value="Кузнечик" />
+		value="Grasshopper" />
 
 	<Item
 		id="mirotvorecTest"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="mirotvorecTest1"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="BugTest1"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="BelazTest01"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="BelazTest02"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="BelazTest03"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="BelazTest04"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="BelazTest05"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="BelazShot"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="UralShot"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="MirotvorecShot"
 		locForm="0"
-		value="Миротворец" />
+		value="Peacekeeper" />
 
 	<Item
 		id="Formula01"
 		locForm="0"
-		value="Турбо GT" />
+		value="Turbo GT" />
 
 	<Item
 		id="FormulaCab"
 		locForm="0"
-		value="Болид GT" />
+		value="Bolide GT" />
 
 
 	<Item
 		id="r1m3_Fighter01"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="r1m3_Fighter02"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="r1m3_Sml101"
 		locForm="0"
-		value="Клоп" />
+		value="Chinch" />
 
 	<Item
 		id="r1m3_molokovoz03"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="staticAutoGun01"
 		locForm="0"
-		value="Дот" />
+		value="Turret" />
 
 	<Item
 		id="staticAutoGun02"
 		locForm="0"
-		value="Дот" />
+		value="Turret" />
 
 	<Item
 		id="staticAutoGun03"
 		locForm="0"
-		value="Дот" />
+		value="Turret" />
 
 	<Item
 		id="staticAutoGun04"
 		locForm="0"
-		value="Дот" />
+		value="Turret" />
 
 	<Item
 		id="staticAutoGun05"
 		locForm="0"
-		value="Дот" />
+		value="Turret" />
 
 	<Item
 		id="staticAutoGun06"
 		locForm="0"
-		value="Дот" />
+		value="Turret" />
 
 	<Item
 		id="staticAutoGun07"
 		locForm="0"
-		value="Баррикада" />
+		value="Barricade" />
 
 	<Item
 		id="staticAutoGun08"
 		locForm="0"
-		value="Засада" />
+		value="Ambush" />
 
 	<Item
 		id="sack_dot2_kord"
 		locForm="0"
-		value="Дот" />
+		value="Pillbox" />
 
 	<Item
 		id="brick_dot1_vulcan"
 		locForm="0"
-		value="Дот" />
+		value="Pillbox" />
 
 	<Item
 		id="PublicDemoBug01"
 		locForm="0"
-		value="Машина Старика" />
+		value="Old man's car" />
 
 	<Item
 		id="PublicDemoSinks"
 		locForm="0"
-		value="Бродяга Синкс" />
+		value="Sinx" />
 
 	<Item
 		id="PublicDemoBandit1"
 		locForm="0"
-		value="Убийца" />
+		value="Murderer" />
 
 	<Item
 		id="PublicDemoBandit2"
 		locForm="0"
-		value="Мародер" />
+		value="Marauder" />
 
 	<Item
 		id="PublicDemoFighter"
 		locForm="0"
-		value="Главарь банды" />
+		value="Boss" />
 
 	<Item
 		id="PublicDemoIeriBand1"
 		locForm="0"
-		value="Защитник Иери" />
+		value="Jeri’s defender" />
 
 	<Item
 		id="PublicDemoIeriBand2"
 		locForm="0"
-		value="Защитник Иери" />
+		value="Jeri’s defender" />
 
 	<Item
 		id="PublicDemoIeriCar"
 		locForm="0"
-		value="Иери" />
+		value="Jeri" />
 
 	<Item
 		id="r1m2_CaravanBug01"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m1_CaravanBug04"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m2_CaravanBug02"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m3_CaravanMolokovoz01"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m3_CaravanMolokovoz02"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r2m1_CaravanUral01"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m3_CaravanGuardianSml401"
 		locForm="0"
-		value="Охранник" />
+		value="Guard" />
 
 	<Item
 		id="r2m1_CaravanGuardianSml401"
 		locForm="0"
-		value="Охранник" />
+		value="Guard" />
 
 	<Item
 		id="r2m1_CaravanGuardianScout201"
 		locForm="0"
-		value="Охранник" />
+		value="Guard" />
 
 	<Item
 		id="r2m2_CaravanGuardianScout301"
 		locForm="0"
-		value="Охранник" />
+		value="Guard" />
 
 	<Item
 		id="r1m1_CaravanGuardianSml201"
 		locForm="0"
-		value="Охранник" />
+		value="Guard" />
 
 	<Item
 		id="r1m1_CaravanGuardianSml101"
 		locForm="0"
-		value="Охранник" />
+		value="Guard" />
 
 	<Item
 		id="r1m2_CaravanGuardianSml301"
 		locForm="0"
-		value="Охранник" />
+		value="Guard" />
 
 	<Item
 		id="ScoutMenu"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="FighterMenu"
 		locForm="0"
-		value="Файтер" />
+		value="Fighter" />
 
 	<Item
 		id="MolokovozMenu"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="BelazMenu"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="UralMenu"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="r2m2_CaravanUral01"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r2m2_CaravanUral02"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r2m1_CaravanUral02"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r2m1_CaravanMolokovoz02"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r2m1_CaravanMolokovoz01"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m1_CaravanBug03"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m1_CaravanBug02"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r1m1_CaravanBug01"
 		locForm="0"
-		value="Транспорт" />
+		value="Caravan" />
 
 	<Item
 		id="r2m2_ShamanHunter02"
 		locForm="0"
-		value="Сектант" />
+		value="Heretic" />
 
 	<Item
 		id="r2m2_ShamanHunter01"
 		locForm="0"
-		value="Сектант" />
+		value="Pagan" />
 
 	<Item
 		id="r2m2_Ural01"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="r2m2_scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="r2m2_Hunter01"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="r2m2_Fighter02"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="r2m2_Fighter01"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="r2m2_Molokovoz01"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="r2m1_scout03"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="r2m1_scout02"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="r2m1_scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="r2m1_Molokovoz01"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="r2m1_Belaz01"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="r2m1_Ural01"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="boss01"
 		locForm="0"
-		value="Клешня" />
+		value="Claw" />
 
 	<Item
 		id="boss02"
 		locForm="0"
-		value="Погрузчик" />
+		value="Loader" />
 
 	<Item
 		id="boss03"
 		locForm="0"
-		value="Оракул" />
+		value="Oracle" />
 
 	<Item
 		id="boss04"
 		locForm="0"
-		value="База Ньери" />
+		value="Njeri base" />
 
 	<Item
 		id="boss04drone"
 		locForm="0"
-		value="Дрон" />
+		value="Drone" />
 
 	<Item
 		id="r2m1_HunterNarcBoss"
 		locForm="0"
-		value="Босс мафии" />
+		value="Mafia boss" />
 
 	<Item
 		id="r2m1_HunterNarcCaravan"
 		locForm="0"
-		value="Курьер" />
+		value="Courier" />
 
 	<Item
 		id="r2m1_FighterNarcCaravan"
 		locForm="0"
-		value="Курьер" />
+		value="Courier" />
 
 	<Item
 		id="r2m1_Hunter02"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="r2m1_Hunter01"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="r2m1_FighterGulik"
 		locForm="0"
-		value="Жулик" />
+		value="Trickster" />
 
 	<Item
 		id="r2m1_Fighter02"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="r2m1_Fighter01"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="r2m1_Bug1"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="r1m3_molokovozInOldCity"
 		locForm="0"
-		value="Беглец" />
+		value="Runaway" />
 
 	<Item
 		id="DemoShot1"
 		locForm="0"
-		value="Враг" />
+		value="Enemy" />
 
 	<Item
 		id="AxelVehicle"
 		locForm="0"
-		value="Аксель" />
+		value="Axel" />
 
 	<Item
 		id="FelixVehicle2"
 		locForm="0"
-		value="Феликс" />
+		value="Felix" />
 
 	<Item
 		id="FelixVehicle"
 		locForm="0"
-		value="Феликс" />
+		value="Felix" />
 
 	<Item
 		id="CoolBelaz_2"
 		locForm="0"
-		value="Белаз" />
+		value="Belaz" />
 
 	<Item
 		id="Ural00"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="Cruiser02"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="Fighter03"
 		locForm="0"
-		value="Боец" />
+		value="Fighter" />
 
 	<Item
 		id="r1m3_hunter02"
 		locForm="0"
-		value="Охотник" />
+		value="Hunter" />
 
 	<Item
 		id="r1m2_bug04"
 		locForm="0"
-		value="Вэн" />
+		value="Van" />
 
 	<Item
 		id="r1m3_MerScout"
 		locForm="0"
-		value="Мэр" />
+		value="Mayor" />
 
 	<Item
 		id="RobotBobot01"
 		locForm="0"
-		value="Боевой робот" />
+		value="Battle robot" />
 
 	<Item
 		id="RobotBobot02"
 		locForm="0"
-		value="Робот рабочий" />
+		value="Worker robot" />
 
 	<Item
 		id="RobotTron"
 		locForm="0"
-		value="Боевой робот" />
+		value="Battle robot" />
 
 	<Item
 		id="RobotMetatron"
 		locForm="0"
-		value="Боевой робот" />
+		value="Battle robot" />
 
 	<Item
 		id="hunterCab01"
-		locForm="1"
-		value="Кабина Охотника" />
+		locForm="0"
+		value="Hunter cabin" />
 
 	<Item
 		id="hunterCab02"
-		locForm="1"
-		value="Кабина Охотника" />
+		locForm="0"
+		value="Hunter cabin" />
 
 	<Item
 		id="fighterCab01"
-		locForm="1"
-		value="Кабина Бойца" />
+		locForm="0"
+		value="Fighter cabin" />
 
 	<Item
 		id="fighterCab02"
-		locForm="1"
-		value="Кабина Бойца" />
+		locForm="0"
+		value="Fighter cabin" />
 
 	<Item
 		id="arcadescoutCab"
-		locForm="1"
-		value="Кабина Вездеходного скаута" />
+		locForm="0"
+		value="Improved scout cabin" />
 
 	<Item
 		id="fakeCargo"
 		locForm="0"
-		value="Кузов" />
+		value="Body" />
 
 	<Item
 		id="cruiserCab01"
-		locForm="1"
-		value="Кабина Крейсера" />
+		locForm="0"
+		value="Cruiser’s cabin" />
 
 	<Item
 		id="cruiserCab02"
-		locForm="1"
-		value="Кабина Крейсера" />
+		locForm="0"
+		value="Cruiser’s cabin" />
 
 	<Item
 		id="cruiserCargo01"
 		locForm="0"
-		value="Кузов Крейсера" />
+		value="Cruiser’s cargo" />
 
 	<Item
 		id="cruiserCargo02"
 		locForm="0"
-		value="Кузов Крейсера" />
-	
+		value="Cruiser’s cargo" />
+
 	<Item
 		id="Smoke"
 		locForm="0"
-		value="Дымовая завеса" />
+		value="Smoke screen" />
 
 	<Item
 		id="anti_missile_system"
 		locForm="0"
-		value="Противоракетная защита" />
+		value="Anti-missile system" />
 
 	<Item
 		id="Bug"
 		locForm="0"
-		value="Транспорт" />
+		value="Transport" />
 
 	<Item
 		id="Bug_02"
 		locForm="0"
-		value="Транспорт" />
+		value="Transport" />
 
 	<Item
 		id="Ural02"
 		locForm="0"
-		value="Урал" />
+		value="Ural" />
 
 	<Item
 		id="Scout"
 		locForm="0"
-		value="Скаут" />
+		value="Scout" />
 
 	<Item
 		id="Molokovoz"
 		locForm="0"
-		value="Молоковоз" />
+		value="Lorry" />
 
 	<Item
 		id="Gladiator02"
 		locForm="0"
-		value="Гладиатор" />
+		value="Gladiator" />
 </ModelNames>
