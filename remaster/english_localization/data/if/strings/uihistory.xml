@@ -2,237 +2,237 @@
 <resource>
 	<string
 		id="r1_Firsy_History_00"
-		value="Уже несколько лет мы с отцом возим на нашем стареньком грузовике овощи на продажу в Южный. Я и сам неплохо умею водить, но до сегодняшнего дня отец не отпускал меня одного в город. Но сегодня, похоже, мне позволено всё. Думаю, это из-за дня рождения: отец готовит мне какой-то сюрприз и хочет побыть один. Что ж, окунусь в жизнь большого города!" />
+		value="We’ve been taking our vegetables to the Sowth’s market for years. I’m not a bad driver, but dad never let me go there on my own until today. But today is my birthday: I can do whatever I want! I bet my dad is preparing a surprise for me and wants me to be out of his way for now. Probably just as well!  " />
 
 	<string
 		id="r1_Yes_Lisa_History_01"
-		value="Недалеко от города произошла неожиданная встреча. Симпатичная девушка на быстрой тачке попросила меня о помощи. По её виду и манерам я заподозрил, что она связана с бандитами, но согласился: нужно верить людям. Тем более что ничего страшного в просьбе показать окрестности я не вижу." />
+		value="I’ve had a strange encounter near the town. A good-looking girl asked me to help her. She could be from a gang, for all I know. But I agreed to help her, anyway, for I’ve been taught to trust people. There’s no harm in showing her around, is there?" />
 
 	<string
 		id="r1_No_Lisa_History_02"
-		value="Недалеко от города произошла неожиданная встреча. Симпатичная девушка на быстрой тачке попросила меня о помощи. По её виду и манерам я сразу понял, что она связана с бандитами. Конечно же, я не стал помогать ей с перевозкой подозрительного груза, но чертовка была хороша и надолго запала мне в душу. Однако пора бы заняться делом, а то я потерял кучу времени." />
+		value="I’ve had a strange encounter near the town. A good-looking girl asked me to help her. She looked and acted like she was from a gang, so I refused to deliver some suspicious-looking package for her, but I just can’t get her out of my mind. What was my father going to tell me, I wonder? I’d better be going home now. " />
 
 	<string
 		id="r1_Three_Villages_00"
-		value="Но что же всё-таки собирался сказать мне отец? Пора возвращаться, а то я и так подзадержался." />
+		value="What was my father going to tell me, I wonder? I’d better be going home now; I’ve stayed here way too long." />
 
 	<string
 		id="r1_First_Felix_Meet_00"
-		value="Чёртовы бандиты! Совсем житья нет. Хорошо, что мой грузовик хоть и старенький, но очень прочный! Я победил бандитов Феликса, но их угрозы отомстить почему-то запали мне в душу." />
+		value="Damn bandits! My truck was a hard target for them, battered as it may look. I’ve defeated Felix’s men, but I didn’t like the way they were threatening me…" />
 
 	<string
 		id="r1_After_Gloohoe_To_Ben_01"
-		value="Уже издалека я увидел дым над родной деревней. Случилось страшное: кто-то напал на беззащитных жителей и сжёг деревню дотла. Отец лежал на земле, силы покидали его. Последним усилием он передал мне коробку, перевязанную лентой: подарок на день совершеннолетия, и, произнеся: «найди Бена Дросселя», умер. Я похоронил погибших и, не зная, что мне делать дальше со своей жизнью, забравшись в кабину грузовика, раскрыл коробку. Там лежали сбережения отца на черный день, блестящая штуковина в форме диска и запечатанное письмо, адресованное мне." />
+		value="I noticed the smoke over my village from a distance. A terrible thing happened: somebody killed all the people and burnt the village to the ground. My father was dying, but before he passed away, he gave me what looked like a birthday gift. His last words were: “Find Ben Throttle!” I buried the dead people and went back to my truck. I opened the box and found dad’s savings, a sparkling object which looked like a disc and a sealed letter with my name on it. " />
 
 	<string
 		id="r1_After_Gloohoe_To_Felix_02"
-		value="Уже издалека я увидел дым над родной деревней. Случилось страшное: кто-то напал на беззащитных жителей и сжёг деревню дотла. Никого не осталось в живых, чтобы рассказать, кто и зачем совершил это злодеяние. Но я-то знал, кого винить. Злодей Феликс сдержал своё обещание... мне осталось только одно: месть. Я подниму всех на войну с бандитами!" />
+		value="I noticed the smoke over my village from a distance. A terrible thing happened: somebody killed all the people and burnt the village to the ground. No one survived to tell me who’s done it and why. I bet it’s all Felix’s doing. I’m going to find him and kill him, whatever it may cost." />
 
 	<string
 		id="r1_After_Letter_00"
-		value="Если верить, тому, что там было написано, то я приёмный сын, и моим настоящим отцом был Айвен Го, Исследователь. Всё, что осталось от него, – это мой автомобиль и диск непонятного назначения. Сам Айвен пропал много лет назад и, вероятнее всего, погиб. Вся моя жизнь перевернулась. Чтобы вновь обрести почву под ногами, я должен узнать всё о своем настоящем отце! Если он жив, я найду его, где бы он ни был, и узнаю, почему он бросил меня. Первым делом надо поговорить с Беном Дросселем." />
+		value="The letter said I was adopted and my true father was an explorer, called Ivan Go. All that’s left from him is the truck I’m driving now and a mysterious CD. Ivan Go has gone missing several years ago and is probably dead by now. My world has just turned upside down. I need some time to make sense of it all and most of all, I need to find my father and ask him lots of questions. But first I have to talk to Ben Throttle." />
 
 	<string
 		id="r1_South_About_Felix_00"
-		value="Оказывается, Феликс орудует здесь уже давно. Он заключил что-то вроде соглашения с фермерами, так что они платят дань бандитам в обмен на «защиту». Система работала исправно до тех пор, пока не было уничтожено Глухое. Люди все ещё боятся открыто выступать против Феликса, но мне удалось-таки получить помощь. С помощью мощного оружия, предложенного одним добрым человеком, я и один смогу зачистить гнездо зла." />
+		value="Turns out, Felix has been raiding this area for a while now. He’s made a sort of agreement with farmers: they pay him in return for “protection”. It worked well until the holocaust in Glukhoe. Most people are too frightened to stand up against Felix, but with the weapon I got now, I can destroy his lair. " />
 
 	<string
 		id="r1_Before_Ben_00"
-		value="Мне пришлось много поездить, прежде чем я выяснил что-либо конкретное. Я и не ожидал, что, кроме родных мест, существуют и другие города и деревни. Наконец, мне указали путь к хижине Бена." />
+		value="I’ve never traveled so far before. I haven’t realized there are other villages besides my own. Anyway, I found Ben’s hut at last.  " />
 
 	<string
 		id="r1_After_Ben_00"
-		value="Старик увидел во мне знакомые черты и принял как родного. Его дом был полон странных вещей. Когда я поведал свою историю, Бен подумал немного и рассказал, что отец действительно пропал около 20 лет назад. Он нашел что-то очень значительное, но не хотел никому говорить, что это, пока сам не убедится, что это безопасно. Бен также рассказал немного, каким был отец и какова жизнь Исследователя. Увидев диск, он вспомнил, что у отца была машина, способная читать и писать такие штуки как книги. Он указал место, где раньше жил и работал отец." />
+		value="The old man saw the familiar features in me and gave me a warm welcome. His house was full of strange objects. When I told him my story, he said my father has been gone for over 20 years. He found something important but didn’t want to tell anyone about it until he made sure it was safe. Ben told me a little about my father and his research. When I showed him the disk, he recalled that my dad had a machine that could read and write such things, as if they were books. He gave me directions to my father’s house." />
 
 	<string
 		id="r1_Kill_Felix_00"
-		value="База бандитов лежит в руинах, Феликс бежал, поджав хвост. У меня не хватило духу хладнокровно пристрелить его, ведь он непричастен к смерти моего отца. Каким бы злодеем он ни был, не мне его судить. Злодеи, уничтожившие Глухое, обладали гораздо большей огневой мощью, чем эта горстка негодяев. Я и сам это понял, когда напал на их убежище, а слова лидера только подтвердили мои догадки. Единственным свидетелем ужасного преступления оказалась Лиса, гостья с севера. Что ж, я найду её и все выясню." />
+		value="The bandits' base lies in ruins, Felix has fled with his tail between his legs. He didn’t kill my father, so I decided to keep his life. He may be evil, but who am I to judge him? The men who destroyed Glukhoe had far greater powers than Felix’s gang. The only witness of that holocaust is Lisa, the girl from the North. I’ll have to find her and hear the truth.  " />
 
 	<string
 		id="r1_Father_Room_00"
-		value="Если жилище Бена показалось мне странным, то жилище отца просто поражало воображение. Хотя для меня все странные вещи, наполнявшие дом отца были лишь кучей бесполезного хлама. Ни одна машина не подавала признаков жизни. Возможно, в этом виноват влажный воздух, проникающий сквозь разбитые окна и дырявую крышу. Лишь одна вещь привлекла моё внимание. Когда я ходил по дому, доска треснула подо мной, и я обнаружил тайник, в котором лежал Оберег необычной формы." />
+		value="The word “strange” doesn’t even begin to describe my father’s dwelling. All those sophisticated gadgets were just a heap of junk to me, for I didn’t know how to use them. All the machines seemed to be out of order. The humid air that penetrated the house through broken windows and roof is probably the reason. One thing drew my attention – a Charm of unusual shape, which I found when a board cracked underneath my feet.  " />
 
 	<string
 		id="r1_About_Lisa_After_Base_00"
-		value="Эта девушка не так проста: у неё в друзьях полно головорезов. Меня терзают смутные сомнения. Я проехал много километров по её следам и, кажется, начинаю понимать, что это за птица." />
+		value="The girl is not as simple as she lets on. She’s hanging out with bandits. I have a bad feeling about her. I’ve traveled so many miles after her and I’m beginning to understand what kind of bird she is." />
 
 	<string
 		id="r1_Dialod_With_Lisa_00"
-		value="Как я мог сомневаться в этом невинном создании. Она просто была напугана и искала помощи там, где могла. Бедняжка рассказала мне, что ужасный Аксель, тиран Аржана, решил распространить своё влияние на восток. Его наемники начали проводить политику устрашения, жертвой которой и пала моя родная деревня. Я не успокоюсь, пока не отомщу. Я доберусь до Акселя во что бы то ни стало!" />
+		value="How could I ever doubt the poor creature? She was frightened and looking for help. Lisa told me about Axel Argen’s  tyranny and his plans to spread his influence to the east. My village was the first settlement on their way. I won’t rest until I have my revenge. I’ll get Axel, whatever it takes. " />
 
 	<string
 		id="r1_See_Tonnel_00"
-		value="Наёмники перебираются по тоннелю, вход в который находится неподалеку от Асгарда. Это довольно опасное место: я подозреваю, что местные жители сотрудничают с бандитами и наживаются, покупая трофеи и торгуя оружием." />
+		value="The mercenaries use the tunnel, which starts near Asgard. I bet locals cooperate with the bandits and get their interest from arms traffic." />
 
 	<string
 		id="r2_After_Tonnel_00"
-		value="Мне удалось раздобыть ключ от тоннеля, и вот после нескольких часов путешествия при свете фар я оказался в совершенно новом для меня месте." />
+		value="I got the key to the tunnel door and after several hours’ driving I found myself in a strange place. " />
 
 	<string
 		id="r2_Find_Lisa_00"
-		value="После первой встречи с местными жителями я понял, что нравы здесь царят не такие цивилизованные, как у нас в Краю. Однако мне удалось выяснить, что Лиса – помощница некоего Акселя, лидера бандитов, базирующихся в Аржане.|Судя по всему, этот Аксель совсем непрост. Он заправляет группировкой под названием Алый Рассвет, и это гораздо больше, чем просто шайка головорезов. Они ведут настоящую войну с Либриумом и, похоже, замахиваются на большее. В одиночку мне вряд ли удастся добраться до него." />
+		value="The people here are far less civilized than my fellow-villagers. However, I learned some interesting things from them: that Lisa is Axel’s assistant. Axel is the leader of a gang based in Argen. |The gang is called ‘Scarlet Dawn’, and they sound dangerous. They’ve declared war against Librium and that’s just a part of their ambitious plans. I’m not so sure I can fight against them all on my own." />
 
 	<string
 		id="r2_Find_Axel_00"
-		value="После первой встречи с местными жителями я понял, что нравы здесь царят не такие цивилизованные, как у нас в Краю. Тем проще мне будет в этом хаосе добраться до Акселя.|Поправка. Оказывается, здесь существует правительство и даже идёт настоящая война с соседним государством. Сложность в том, что Аксель – лидер того самого государства, и просто так к нему подобраться нет никакой возможности. Придётся пораскинуть извилинами." />
+		value="The people here are far less civilized than my fellow-villagers. Probably just as well: it will be easier to get to Axel unnoticed.|Turns out they have a government here, which is at war with the neighbor state. The trouble is, Axel is the leader of that state and is obviously well-guarded. I’ll have to use my brain to get to him." />
 
 	<string
 		id="r2_SNG_00"
-		value="Я вступил в ряды СНГ. Содружество Независимых Городов - так себя называют жители Либриума. Мне кажется, что их борьба с захватчиками – правое дело. К тому же у нас общий враг: Аксель." />
+		value="I joined the CIT, the Commonwealth of Independent Towns – that’s what Librium people call themselves. I think they are fighting for a noble cause. Besides, we have a common enemy. Axel." />
 
 	<string
 		id="r2_AR_00"
-		value="Я решил, что самый верный путь добраться до Акселя - это стать одним из солдат его армии Алого Рассвета. Осталось добиться уважения командования и быть представленным к награде. А уж когда я лично встречусь с Акселем, он от меня никуда не денется." />
+		value="The best way to get to Axel is probably to join his Scarlet Dawn Army. I’ll gain the commander’s respect and get presented for reward. That’ll be my chance to kill Axel." />
 
 	<string
 		id="r2_Before_Axel_00"
-		value="Это была именно война. Не всегда прямая и открытая, но всегда разрушительная. И мне пришлось совершить множество поступков, о которых я, возможно, буду потом жалеть. Но не время предаваться сомнениям: Аксель почти у меня в руках." />
+		value="That was a hell of a war. It wasn’t always direct, but it was always destructive. And I had to do things I’m probably going to regret. But I don’t have time for that now that Axel is in my hands." />
 
 	<string
 		id="r2_After_Axel_01"
-		value="Победив лидера АР, я испытал горькое разочарование. Я ожидал встречи с варваром и жестоким убийцей, а передо мной стоял просвещенный человек, радеющий за судьбы мира. И хотя я не мог согласиться с его методами, он не внушал мне антипатии. Тем более что он оказался невиновен в страшных преступлениях, которые ему приписала Лиса. Выходит, чертовка обманула нас обоих. Она не избежит наказания." />
+		value="I had a major disappointment after I defeated the Scarlet Dawn leader. I expected to meet a barbarian and a cruel murderer, but I actually saw an educated man, who’s concerned about the future of the humankind. And even though I couldn’t accept his methods, I sort of liked him. Besides, he wasn’t to blame for all those crimes Lisa accused him of. Turns out she fooled both of us. She’ll pay for it." />
 
 	<string
 		id="r2_After_Axel_02"
-		value="Победив лидера АР, я испытал горькое разочарование. Я ожидал встречи с варваром и жестоким убийцей, а передо мной стоял просвещенный человек, радеющий за судьбы мира. И хотя я не мог согласиться с его методами, он не внушал мне антипатии. Тем более что Лиса действовала без его ведома." />
+		value="I had a major disappointment after I defeated the Scarlet Dawn leader. I expected to meet a barbarian and a cruel murderer, but I actually saw an educated man, who’s concerned about the future of the humankind. Even though I couldn’t accept his methods, I sort of liked him. It turned out Lisa kept him in the dark about her actions." />
 
 	<string
 		id="r2_Lisa_After_Axel_01"
-		value="Теперь, когда я знал, где искать, и имел репутацию освободителя, мне стоило только задать пару вопросов нужным людям, чтобы найти Лису, которая пряталась где-то неподалёку. Когда я настиг её, она успела вскочить в свой броневик и дать мне достойный отпор, прежде чем я получил ответы на интересующие меня вопросы." />
+		value="With my reputation of the liberator all I had to do was ask the right people and they told me where to look for Lisa. She jumped into her truck as soon as she saw me, and it was only when she realized that her truck was no match against mine, that she gave in and agreed to answer my questions." />
 
 	<string
 		id="r2_Lisa_After_Axel_02"
-		value="Теперь, когда я стал героем Либриума, мне не составило труда выследить Лису и, наконец, поговорить с ней начистоту. Выяснилось, что она ищет Айвена Го, знаменитого исследователя, который пропал много лет назад. След привел её в мою родную деревню, но слишком поздно: неизвестные убийцы пришли из пустыни смерти и уничтожили все улики." />
+		value="Now that I became a hero of Librium, it wasn’t hard to track Lisa down and talk to her. It turned out, that she was looking for Ivan Go, the famous explorer, who’s gone missing many years ago. Her investigation led her to my native village, but it was too late: some people came from the Death Desert and destroyed all evidence. " />
 
 	<string
 		id="r2_With_Lisa_To_Oracul_01"
-		value="Я догоню преступников, пусть даже мне придется отправиться на край земли. Но никому ещё не удавалось выжить в пустыне смерти. Говорят, Оракул с северного острова знает ответы на все вопросы. Так что мы с Лисой отправляемся к нему. Да, она поехала со мной, у неё был какой-то диск, который содержал важную информацию об Айвене, а расшифровать его девушке никак не удавалось." />
+		value="I’m gonna get the murderers even if I have to go to the edge of the world for them. But no one has ever survived in the Death Desert before. They say that the Northern Isle Oracle knows answers to all questions, so we’ll visit it with Lisa. Yes, she’s joined me and she’s got a disc with important information about Ivan Go. Lisa is looking for a way to read it, but with no luck so far.    " />
 
 	<string
 		id="r1_Before_Desert_00"
-		value="Мастера Мидгарда были рады помочь мне собрать новое устройство, но у них не было необходимых материалов. Что ж, мне не впервой заниматься поисками - я без особых проблем добыл необходимое и, заплатив за работу, оказался владельцем машины, способной перенести тяготы бескрайней пустыни." />
+		value="Midgard masters agreed to make the device for me, but they needed certain tools for it. They weren’t hard to find and soon enough I had a truck that could travel in the desert. " />
 
 	<string
 		id="r1_Lisa_Thief_00"
-		value="Моя радость была недолгой. Лиса, старая знакомая, выкрала оба диска да ещё и ключ к морским вратам! Следы ведут на запад. Там я настигну чертовку и выясню, зачем ей вещи, которые имеют ценность только для меня." />
+		value="My joy didn’t last. Lisa has stolen both discs and the key to the Sea Gates! Her tracks lead to the West. I’ll follow her and ask her why she took the objects that had no value to anyone but me." />
 
 	<string
 		id="r1_After_Boss1"
-		value="Я и не ожидал, что существуют на свете такие чудовища, с одним из которых мне довелось сегодня встретиться лицом к лицу. Как оказалось, путь к Морским вратам охраняется, но мне удалось победить стража, хотя пару раз я думал, что он меня растопчет." />
+		value="I've never heard about the monsters I faced today on the way to the Sea Gates. I was this close to getting smashed by their guard, but in the end I destroyed it!  " />
 
 	<string
 		id="r3_After_WaterGate_1"
-		value="Когда я наконец вышел на берег моря, то сразу увидел морские врата. Это было величественное сооружение на самом краю твёрдой земли. Стоило мне приблизиться и поднять над собой Оберег, который слегка нагрелся, как из-под воды медленно всплыла огромная рыба. Такое чудовище могло присниться только в кошмаре. Рыба открыла пасть, в которую могли поместиться за раз два моих грузовика, и замерла, словно приглашая меня внутрь. Превозмогая страх, я въехал по мосту во чрево рыбины. Как только я оказался внутри, пасть захлопнулась, и я почувствовал, как чудовище с плеском и ревом погрузилось в морскую пучину.|Оказалось, что эта рыба лишь большая машина вроде моего грузовика." />
+		value="When I reached the beach I saw the Sea Gates at once. It’s a grand construction on the edge of the firm ground. I approached it and lifted the Charm above my head, which felt warmer for some reason. The next thing I saw was a giant fish coming to the surface. The fish opened its mouth which looked big enough for two trucks to fit in, and froze as if inviting me to drive in. Terrified, I drove inside… The mouth closed and I heard a loud splash as the monster dived back into the sea depths.|The monster turned out to be a huge mechanism, like my truck." />
 
 	<string
 		id="r3_JustGo_1"
-		value="Новый заморский край оказался очень необычным: огромные деревья и влажный тяжёлый воздух вызывали в памяти что-то первобытное." />
+		value="The region was truly exotic: huge trees and humid air stirred primal instincts in me." />
 
 	<string
 		id="r3_Fist_Fight_1"
-		value="Единственная дорога, проложенная через джунгли, вскоре привела меня к небольшому поселению. Правда, встретили меня там не очень гостеприимно, так что пришлось отходить с боем и искать более гостеприимное поселение.|Как ни странно, такое достаточно быстро нашлось. Меня, едущего на грузовике, там приняли как родного и предложили помощь в борьбе с агрессивными ''Друидами''." />
+		value="The only road through the jungle led me to a small settlement. The locals opened fire at me the moment they saw me, so I had to turn back and look for a more hospitable village.| Luckily, I found it soon enough. The people of the other village gave me a warm welcome and offered an alliance against the aggressive Druids.   " />
 
 	<string
 		id="r3_Uluk_LureDruid"
-		value="Я согласился, хотя идея с засадой была мне не очень по душе. В обмен на мои услуги машинопоклонники указали мне путь к Оракулу." />
+		value="I didn’t like the idea of an ambush, but I agreed to help the villagers nonetheless. In return for my help, the Machine-cultists showed me the way to the Oracle." />
 
 	<string
 		id="r3_Uluk_NoLureDruid"
-		value="Я решил не помогать им в этом кровавом деле и направился попытать счастья в лесную столицу - Сет." />
+		value="I refused to take part in their bloody plan, so I headed towards the forest capital – Seth. " />
 
 	<string
 		id="r3_Fist_Friendly"
-		value="Единственная дорога, проложенная через джунгли, вскоре привела меня к небольшому поселению. Правда, встретили меня там не очень гостеприимно, но мне удалось замять это недоразумение. Выяснилось, что путь к Оракулу знает лишь Верховный друид, живущий в Сете, так что я отправился на его поиски." />
+		value="The only road through the jungle led me to a small settlement. The locals were rather hostile to begin with, but we sorted it out in the end. It turns out that only the High Druid from Seth knows the way to the Oracle, so I set off towards Seth." />
 
 	<string
 		id="r3_Set_HelpMainDruid_1"
-		value="Верховный друид дал мне нелёгкую задачку, но несколько стальных монстров не смогли сломить мою волю к победе. Пришлось мне тогда поколесить по этому забытому богом краю, чтобы заслужить доверие старика и выяснить, наконец, местоположение Оракула." />
+		value="The High Druid set a difficult task for me, but a few steel monsters couldn’t stop me. However, it took me a while to complete his task and learn the Oracle’s location.  " />
 
 	<string
 		id="r3_Oracle_FirstTime"
-		value="Когда шёл разговор про Оракула, я представлял хижину отшельника на вершине горы, но то, что я увидел, совсем не походило на истории о колдунах и мудрецах. Комплекс башен, соединенных воздушными пролетами, искрящийся опасной энергией, а внутри – чудовище, видимо заключенное в золотую клетку воителями древности. Так состоялась моя первая встреча с Оракулом." />
+		value="When we talked about the Oracle, I expected to see a hermit’s hut at the top of the mountain, but what I saw was so different from the stories about wizards and sages… It was a bunch of towers linked by passages, emitting energy. A monster was confined inside the golden cage by the warriors of the past. That’s how I first met the Oracle." />
 
 	<string
 		id="r3_Oracle_HelpHim_1"
-		value="Оракул потребовал оказать ему услуги в обмен на информацию. У меня не было иного выхода, как согласиться." />
+		value="The Oracle asked for a favor in return for information. I couldn’t but agree. " />
 
 	<string
 		id="r3_Oracle_DecodeDisc1"
-		value="Мне пришлось помучиться, выполняя задания Оракула, который заявил, что может прочесть то, что отец написал на диске, но только если я ему выполню какие-то ритуальные действия. На бесплатную помощь я и не рассчитывал, тем более что на острове оказалось много интересных мест." />
+		value="The Oracle agreed to read the disc if I carry out certain rituals. Fair enough, I thought. And besides, the island was full of interesting places." />
 
 	<string
 		id="r3_Oracle_NeedDisc2"
-		value="Когда Оракул взял у меня диск, я замер от предвкушения того, что может мне открыться. Каким же было мое разочарование, когда бесчувственный голос произнес: 'Вставьте второй диск'. У меня был только один! Что я и высказал в маленькое оконце, перемежая речь междометиями и нецензурной лексикой. Все мои усилия были напрасны! Оракул спокойно расспросил меня, откуда я взял этот предмет и что я пытался выяснить с его помощью. Второй диск должен быть среди вещей, принадлежащих отцу, причем спрятанный так, чтобы я мог легко его найти. Я сразу подумал о старенькой машине, доставшейся мне по наследству." />
+		value="I was so excited when the Oracle took the disc: I was finally going to hear my father’s message! But I had a major disappointment when the Oracle announced: ‘Insert disc #2’! But I only had one! Of which I immediately informed the Oracle, barely able to keep from cursing. I couldn’t believe it! Were all my efforts vain? The Oracle asked me impassively where I got the disc from and what I was trying to find out with its help. He told me to look for the second disc among my father’s things. My first impulse was to search the old truck my father left me." />
 
 	<string
 		id="r3_Oracle_BringDisc2"
-		value="Вернув себе диск и Оберег, я мог, наконец, попасть к Оракулу и расшифровать дневник отца. Наконец-то я услышал его голос, узнал, чем он жил и что искал. А главное, я выяснил, что путь его лежал через пустыню в поисках какого-то важного устройства. Это было что-то очень секретное, раз отец так скрывал свой дневник. А ещё я понял, что отец хотел, чтобы я услышал все эти слова, узнал то, что знал он, если для него пути назад не будет. Я должен найти отца!" />
+		value="With the disc and the Charm in my bag, I visited the Oracle again. My father’s message was finally deciphered! At long last I heard my father’s voice… He was talking about his life and research. Most importantly I learned that he was traveling across the desert in search of an important device. It must have been something secret, since my dad hid his diary so well. I realized that my dad wanted me to hear these words and to know where he was heading, in case he couldn’t come back. I must find him! " />
 
 	<string
 		id="r3_v2_Uluk_FirstTime_1"
-		value="Единственная дорога, проложенная через джунгли, вскоре привела меня к небольшому поселению. Меня, едущего на грузовике, там приняли как родного и предложили помощь в борьбе с агрессивными ''Друидами''." />
+		value="The only road through the jungle led me to a small settlement. The locals gave me a warm welcome and offered an alliance against the aggressive Druids." />
 
 	<string
 		id="r3_v2_LisaDisc1"
-		value="Оракул не смог прочесть то, что было записано на диске Лисы, однако там точно содержится чертеж устройства, который поможет пересечь пустыню." />
+		value="The Oracle couldn’t decipher Lisa’s disc, but he told me that there was a design of a gadget that could help me cross the desert. " />
 
 	<string
 		id="r3_v2_BringDisc2"
-		value="Вернув себе второй диск, я мог вернуться к Оракулу и расшифровать дневник Айвена. Теперь осталось только собрать всё необходимое, чтобы отправиться в пески." />
+		value="With both discs in my hands, I returned to the Oracle and deciphered Ivan’s diary. I just need to collect all the necessary things for traveling across the desert. " />
 
 	<string
 		id="r4_AfterSomeTimeTravel"
-		value="За долгие дни пути я так устал от вездесущего песка и палящего белого солнца, что не сразу поверил глазам, когда моему взору предстали глиняные жилища жителей Оазии.|Но люди там странные: то они приветливые, а то так и норовят воткнуть нож в спину. И, что удивительно, все вроде чем-то заняты, но никто не может связно рассказать ни о чём. Такое чувство, что у всех память отшибло." />
+		value="After several day’s driving under the scorching sun and sandy wind, I could hardly believe my eyes when I saw the clay buildings of Oasia.|You never know what to expect from these people – now they are nice, the next moment they want to stab you in the back. And the strangest thing is that they can’t give coherent answers to any of my questions. It looks like they've lost their memory." />
 
 	<string
 		id="r4_KnownAboutBuhara"
-		value="Мне удалось выяснить, что где-то существует деревня хранителей памяти – видимо, так они называют стариков. Я должен отправиться туда и найти хоть одного разумного человека. Что же здесь все-таки произошло? Повсюду следы разрушений..." />
+		value="I found out that there is a village of the Memory Keepers nearby – that’s what they call their elders. I’ve got to go there and find somebody who can help me. I wonder, what happened here… This place looks like it survived a major cataclysm." />
 
 	<string
 		id="r4_FindBuhara"
-		value="Хоть и с большим трудом, но я узнал, где находится деревня хранителей. Я не сразу нашел это место, затерянное в пустыне среди остовов огромных кораблей, и отдал должное осторожности его хозяев. Только неясно, зачем старикам прятаться?" />
+		value="With great difficulty I got the directions to the Keepers’ village. The place was well hidden in the desert among the old ships, which made me wonder: who are the elders hiding from? " />
 
 	<string
 		id="r4_TalkWithBuhares"
-		value="Мой визит переполошил всю Бухару. Но Хранители памяти поняли, что я им не угрожаю, и поведали свою мрачную историю:|Много лет назад жители всех окрестных селений словно сошли с ума. Они убивали друг друга, а потом не помнили, что они сделали. Странно, но напасть не затронула стариков Бухары, хотя они жили в постоянном страхе нападения. Для меня было шоком узнать, что нет никаких таинственных злодеев, а люди сами разрушают то, что создают." />
+		value="My visit caused panic among Bukhara population. It was only when the Memory Keepers realized that I didn’t mean harm that they told me their sad story:| Many years ago some mysterious madness seized the people of local villages. They started killing each other, and worst of all, they had no memory of what they had done afterwards. For some particular reason Bukhara elders were immune to that madness, but they lived in constant fear of an attack. It came as a shock to me that there were no mysterious monsters, but ordinary people were killing each other and destroying their own houses." />
 
 	<string
 		id="r4_AfterAtackToBuhars"
-		value="Видимо, не зря деревня была так хорошо спрятана. Следом за мной прибыли танки и принялись расстреливать Бухару из пушек. Я не мог бросить стариков в беде: ещё свежи были воспоминания об уничтожении Глухого. Я помог отбить атаку и эвакуировать жителей на корабле. В благодарность за это я узнал, что человек, похожий на отца, действительно проходил через деревню. Он что-то искал и направлялся на северо-восток. Значит, мне туда! " />
+		value="Now I understood why the elders tried so hard to hide their village. People in tanks arrived soon after me and opened fire at Bukhara. I couldn’t let them kill innocent people! I remembered too well what happened to my own village. I fought until we destroyed the last tank and then helped to evacuate the elders on a ship. In return they told me that a man who fit the description of my father had once passed their village. He was heading the south-east. I’ll follow him!" />
 
 	<string
 		id="r4_LisaBecameCrazy"
-		value="С Лисой всю дорогу творилось неладное: она стала нервной, подозрительной и, наконец, открыла по мне огонь. Это стало настоящим испытанием для моего человеколюбия. Но я понял, что она не предательница, а просто это место так действует на её психику.|Когда же мы добрались до Бухары, девушка и вовсе потеряла сознание. Так что я отправил её на ''большую землю'' вместе с остальным населением городка, пусть Бен позаботится о ней. А сам продолжил поиски." />
+		value="Lisa was acting really strange: she was nervous for no apparent reason and eventually opened fire at me. It was a major test for my patience. I realized that she was no traitor; it was just the effect the place had on her.| On arrival to Bukhara Lisa blacked out, so I thought she would be better off with the elders, who were heading to the main land. Ben will take care of her. I will continue my search. " />
 
 	<string
 		id="r4_FindFatherCar"
-		value="Вскоре я нашел старый занесенный песком броневик, видимо, повреждённый во время перестрелки. Останков водителя внутри не было, зато я нашел куртку с именем моего отца. Теперь я точно знаю, что он был здесь! Он так хотел скорее добраться до места назначения, что пошел пешком.|Также я снял с машины несколько деталей, которые были слишком хороши, чтобы бросить их здесь. К тому же они напоминали мне об отце. Теперь я точно знаю, что я на верном пути." />
+		value="I found an armored truck in the sands, heavily damaged in combat. There was no body inside, but I found a jacket with my father’s name on it. He’s been there! Looks like he’s left the truck and continued his journey on foot.| I took a few gadgets from the car – they were too good to be left here. They will remind me of my father. I’m sure I’m on the right way now. " />
 
 	<string
 		id="r4_AfterMilitaryBase"
-		value="Ничто не подготовило меня к встрече с армией безумцев. Едва не погибнув в столкновении с превосходящими силами противника, я был спасен неожиданным союзником. Затерянная в песках исследовательская база и её странноватый хозяин произвели на меня необычное впечатление." />
+		value="Nothing prepared me for the encounter with the army of madmen. I was saved from the imminent death by unexpected allies. Science settlement, lost in the middle of the desert, and its master made a strange impression on me. " />
 
 	<string
 		id="r4_NearTarelka"
-		value="Перевалив за очередную дюну, я увидел ужасающее зрелище: множество людей неподвижно стояли вокруг круглого холма явно искусственного происхождения. Я не знал, живы они или нет. Я не знал, зачем они собрались здесь. Но я чувствовал, что Айвен Го - один из них. На мои крики и другие сигналы никто не реагировал. А над всем этим нависала чудовищная громада диска из оплавленного серого металла." />
+		value="Crossing the next dune, I saw a terrible sight: many people were standing motionless around a huge metal mountain. I couldn’t say whether they were dead or alive. I didn’t know why they gathered here but I felt, that Ivan Go was one of them. No one answered my cries and signals. The feeling of great sorrow came upon me. " />
 
 	<string
 		id="r4_AfterTarelka"
-		value="Я почти чувствовал силу, исходящую из центра этого круга, манящую меня присоединиться к большинству. Я смог противиться ей и вернуться на базу. Ученый рассказал мне о причинах катастрофы, уничтожившей древний мир. Не стоит людям вмешиваться в вещи, смысла которых они не могут понять... Иноземный механизм, запущенный руками Ученого в незапамятные времена, всё ещё работает и отравляет воздух планеты. Должен быть путь остановить это безумие. Айвен Го, судя по всему, уже встречался с техникой пришельцев. Стоит поговорить об этом с Беном Дросселем." />
+		value="I could feel the power coming from the center of the human circle, calling me to join the majority. I managed to resist it and return to the settlement. Here I learned about the catastrophe that destroyed the ancient world and its causes.  Humans should not play with the things beyond their understanding! Now the extraterrestrial mechanism, launched by the Scientist keeps working and poisoning my planet.| There must be a way to stop this madness. It seems that Ivan Go has already seen the alien mechanisms somewhere before. I should speak with his friend, Ben Throttle, about it." />
 
 	<string
 		id="r1_Before_Fight_Aliens"
-		value="Мои глаза открылись. Злобные иноземные захватчики изменяют планету для своих нечеловеческих нужд при помощи излучателя, установленного в пустыне. Но их штаб находится в другом месте – в окрестностях города Сель. Вызванные его работой помехи не позволяют Оракулу взять под контроль орбитальное вооружение. Если мне удастся нарушить работу штаба, то мой механический союзник нанесет ядерные удары по очагам вторжения." />
+		value="My eyes are open. Evil alien invaders are terraforming our planet with the help of the huge device, I found in the desert. But their main base is somewhere around Seil, a town in the Librium. Its radiation jams the Oracle’s signals. If I destroy the base, my mechanical ally will take control over the orbital weapon and commit nuclear strikes that will stop the invasion for good!  " />
 
 	<string
 		id="r2_Before_Fight_Oracle"
-		value="Я лично встретился с одним из пришельцев, Ньери, как они себя называют. Катастрофа была вызвана цепью трагических случайностей, в результате которых был приведен в действие механизм, не предназначенный для работы вблизи живых существ. Даже сами Ньери не могут приблизиться к нему на достаточное расстояние. Однако я уже был там однажды и выжил, а значит, могу остановить излучатель. И я сделаю это!" />
-<!-- Потом добавим, когда будет переработано!!! -->
+		value="I met one of the aliens, Njeri, as they call themselves. Now I now what really happened in the past. As a result of a series of unfortunate events, the device that was supposed to only work in outer space was turned on the surface of our planet. It constantly deals tremendous harm to the planet and its inhabitants and even Njeri cannot approach it. However, I visited that place and survived! Now my goal is to put several devices that the aliens gave me around the desert spaceship to stop it." />
+<!--   Потом добавим, когда будет переработано!!! -->
 	<string
 		id="r4_AfterTarelka2"
-		value="Я почти чувствовал силу, исходящую из центра этого круга, манящую меня присоединиться к большинству. Я смог противиться ей и вернуться на базу. Ученый рассказал мне о причинах катастрофы, уничтожившей древний мир. Не стоит людям вмешиваться в вещи, смысла которых они не могут понять... Иноземный механизм, запущенный руками Ученого в незапамятные времена, всё ещё работает и отравляет воздух планеты. Я должен уничтожить это проклятое место вместе со всеми его ужасами. Оракул наверняка знает, где найти достаточно мощное оружие." />
+		value="I could feel the power coming from the center of the human circle, calling me to join the majority. I managed to resist it and return to the settlement. Here I learned about the catastrophe that destroyed the ancient world and its causes.  Human should not play with the things beyond their understanding! Now the extraterrestrial mechanism, launched by the Scientist keeps working and poisoning my planet.| I must destroy this place along with its horrors and mysteries. The Oracle must know where to find a weapon powerful enough." />
 
 	<string
 		id="r3_AfterKillMonster"
-		value="Я и не ожидал, что существуют на свете такие чудовища, с одним из которых мне довелось сегодня встретиться лицом к лицу. Как оказалось, путь к острову Оракула охраняется, но мне удалось победить стража, хотя пару раз я думал, что он меня растопчет." />
+		value="I didn’t expect the monsters like the one I saw today exist in the real world. The path to the Oracle’s island was well guarded but I managed to defeat the Guardian! " />
 </resource>

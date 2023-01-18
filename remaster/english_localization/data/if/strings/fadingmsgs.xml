@@ -2,169 +2,169 @@
 <resource><!--Default buttons-->
 	<string
 		id="fm_relation_changed"
-		value="Вы стали врагами с одной из группировок." />
+		value="Reminder: one of the major groups of this area is hostile towards you. Somebody can help you to solve this problem. Ask around. " />
 
 	<string
 		id="fm_hunt_completed"
-		value="Охота завершена. Каждый уничтоженный грузовик был оплачен." />
+		value=" Reminder: The hunt is over. You receive a reward for each killed enemy." />
 
 	<string
 		id="fm_dynamic_quest_completed"
-		value="Вы выполнили задание &quot;%1s&quot;." />
+		value="You completed quest '%1s'" />
 
 	<string
 		id="fm_dynamic_quest_failed_because_hirer_becames_enemy"
-		value="Вы провалили задание &quot;%1s&quot;, так как испортили отношения с группировкой заказчика." />
+		value="You failed to complete the quest '%1s', because you are enemies with the customer now." />
 
 	<string
 		id="fm_convoy_failed"
-		value="Вам не удалось защитить подопечный грузовик. Теперь не стоит рассчитывать на награду." />
+		value="Too bad! You failed to protect the caravan." />
 
 	<string
 		id="fm_history_got"
-		value="Появилась новая история в Журнале." />
+		value="A new entry is added to the Story section of your journal." />
 
 	<string
 		id="fm_book_got"
-		value="Появилась новая книга в Журнале." />
+		value="A new book is added to the Books section of your journal." />
 
 	<string
 		id="fm_fail_quest"
-		value="Вы провалили задание." />
+		value="You failed to complete the quest." />
 
 	<string
 		id="fm_complete_quest"
-		value="Вы выполнили задание." />
+		value="You completed the quest." />
 
 	<string
 		id="fm_take_quest"
-		value="Вы получили новое задание." />
+		value="You have a new quest." />
 
 	<string
 		id="fm_cant_move"
-		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь." />
+		value="I do not know the road, so I'll stay here." />
 
 	<string
 		id="fm_not_suzet"
-		value="Какое-то странное место. Лучше держаться отсюда подальше. " />
+		value="I do not know what’s out there, so I’ll stay here. " />
 
 	<string
 		id="fm_race_start_1"
-		value="Обратный отсчёт:  ...%1d..." />
+		value="Countdown: ...%1d..." />
 
 	<string
 		id="fm_race_start_0"
-		value="С Т А Р Т" />
+		value="S T A R T" />
 
 	<string
 		id="fm_race_start_false"
-		value="Фальстарт." />
+		value="False start!" />
 
 	<string
 		id="fm_race_chekpoint"
-		value="Контрольная точка!" />
+		value="Checkpoint!" />
 
 	<string
 		id="fm_race_chekpoint_notright"
-		value="Неверная контрольная точка!" />
+		value="Wrong checkpoint!" />
 
 	<string
 		id="fm_race_firslap"
-		value="Первый круг завершён." />
+		value="First lap finished!" />
 
 	<string
 		id="fm_race_finish"
-		value="Ф И Н И Ш" />
+		value="G O A L" />
 
 	<string
 		id="fm_race_finish_1"
-		value="ПЕРВЫЙ" />
+		value="FIRST" />
 
 	<string
 		id="fm_race_finish_2"
-		value="ВТОРОЙ" />
+		value="SECOND" />
 
 	<string
 		id="fm_race_finish_3"
-		value="ТРЕТИЙ" />
+		value="THIRD" />
 
 	<string
 		id="fm_race_finish_less"
-		value="Вы на %1d месте из %2d." />
+		value="Your place is %1d out of %2d" />
 
 	<string
 		id="fm_race_finish_lose"
-		value="Вы проиграли гонку." />
+		value="You lose the race!" />
 
 	<string
 		id="fm_race_somedie"
-		value="Один из участников выбыл." />
+		value="One of the participants is out!" />
 
 	<string
 		id="fm_town_enter"
-		value="Нажмите гудок (%1m) для въезда в город." />
+		value="Press Horn to enter town" />
 
 	<string
 		id="fm_town_cant_enter_enemy"
-		value="Вы не можете въехать в этот город, так как он вражеский." />
+		value="You cannot enter this town. It belongs to the enemy faction." />
 
 	<string
 		id="fm_town_cant_enter_locked"
-		value="Вы не можете въехать в этот город, так как он закрыт." />
+		value="You cannot enter this town. It is closed." />
 
 	<string
 		id="fm_take_chest_hint"
-		value="Нажмите (%1m), чтобы поднять груз." />
+		value="Press %1m to pick up cargo." />
 
 	<string
 		id="fm_all_chests_taken"
-		value="Груз взят на борт." />
+		value="The cargo is taken aboard." />
 
 	<string
 		id="fm_item_pickup"
-		value="Вы подняли предмет: %1s." />
+		value="You picked up %1s" />
 
 	<string
 		id="fm_sunrise"
-		value="Наступило утро." />
+		value="It’s morning." />
 
 	<string
 		id="fm_day"
-		value="Начался тяжелый трудовой день." />
+		value="It’s another hard day." />
 
 	<string
 		id="fm_sunset"
-		value="Наступил вечер." />
+		value="It’s evening." />
 
 	<string
 		id="fm_night"
-		value="Наступила ночь." />
+		value="It’s night." />
 
 	<string
 		id="fm_save_is_not_allowed"
-		value="Сохранение сейчас не разрешено." />
+		value="You cannot save at this time." />
 
 	<string
 		id="fm_player_add_money"
-		value="Вы получили %1d монет!" />
+		value="You received %1d coins!" />
 
 	<string
 		id="fm_player_give_money"
-		value="Вы отдали %1d монет." />
+		value="You gave away %1d coins" />
 
 	<string
 		id="fm_player_add_thing"
-		value="Вы получили предмет %1p!" />
+		value="You received an item: %1p" />
 
 	<string
 		id="fm_cheat_is_not_allowed"
-		value="@FF22FF22Использование читов @FF2222FFЗАПРЕЩЕНО@FFFFFFFF" />
+		value="@FF22FF22Please do not @FF2222FFCHEAT@FFFFFFFF" />
 
 	<string
 		id="fm_cheat_is_allowed"
-		value="@FF22FF22При тестировании игры @FF2222FFиспользование читов может привести к ошибкам!@FFFFFFFF" />
+		value="@FF22FF22Remember, @FF2222FFusing cheats may cause errors!@FFFFFFFF" />
 
 	<string
 		id="fm_items_remained_on_ground"
-		value="Не хватает места в кузове. Для вызова окна снаряжения нажмите %1m." />
+		value="The cargo hold is full. Press %1m to open the inventory screen." />
 </resource>

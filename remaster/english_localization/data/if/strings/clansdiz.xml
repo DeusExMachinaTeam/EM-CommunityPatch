@@ -2,677 +2,677 @@
 <resource><!--Default buttons--><!-- Названия -->
 	<string
 		id="Belong_1100"
-		value="Группировка игрока" />
+		value="Player" />
 
 	<string
 		id="Belong_1100_abb"
-		value="Союзник" />
+		value="Friend" />
 
 	<string
 		id="Belong_1002"
-		value="Бродяги" />
+		value="Vagabonds" />
 
 	<string
 		id="Belong_1002_abb"
-		value="Бродяга" />
+		value="Vagabond" />
 
 	<string
 		id="Belong_1003"
-		value="Искатели приключений" />
+		value="Adventurers" />
 
 	<string
 		id="Belong_1003_abb"
-		value="ИП" />
+		value="Adventurer" />
 
 	<string
 		id="Belong_1004"
-		value="Исследователи" />
+		value="Explorers" />
 
 	<string
 		id="Belong_1004_abb"
-		value="Ищущий" />
+		value="Explorer" />
 
 	<string
 		id="Belong_1005"
-		value="Кочевники" />
+		value="Nomads" />
 
 	<string
 		id="Belong_1005_abb"
-		value="Кочевник" />
+		value="Nomad" />
 
 	<string
 		id="Belong_1006"
-		value="Наемники" />
+		value="Bounty hunters" />
 
 	<string
 		id="Belong_1006_abb"
-		value="Наемник" />
+		value="BH" />
 
 	<string
 		id="Belong_1007"
-		value="Вестники" />
+		value="Doom bringers" />
 
 	<string
 		id="Belong_1007_abb"
-		value="Вестник" />
+		value="DB" />
 
 	<string
 		id="Belong_1008"
-		value="Союз фермеров" />
+		value="Farmers’ union" />
 
 	<string
 		id="Belong_1008_abb"
-		value="СФ" />
+		value="FU" />
 
 	<string
 		id="Belong_1009"
-		value="Просветители" />
+		value="Technicians" />
 
 	<string
 		id="Belong_1009_abb"
-		value="Учёный" />
+		value="Techno" />
 
 	<string
 		id="Belong_1010"
-		value="Торговцы северного пути" />
+		value="North Path Traders" />
 
 	<string
 		id="Belong_1010_abb"
-		value="ТСП" />
+		value="NPT" />
 
 	<string
 		id="Belong_1011"
-		value="Торговая Ассоциация" />
+		value="Free Traders’ Alliance" />
 
 	<string
 		id="Belong_1011_abb"
-		value="ТА" />
+		value="TA" />
 
 	<string
 		id="Belong_1012"
-		value="Бригада" />
+		value="Brigade" />
 
 	<string
 		id="Belong_1012_abb"
-		value="Бригада" />
+		value="Brigade" />
 
 	<string
 		id="Belong_1013"
-		value="Команда Феликса" />
+		value="Felix’s gang" />
 
 	<string
 		id="Belong_1013_abb"
-		value="КФ" />
+		value="FG" />
 
 	<string
 		id="Belong_1014"
-		value="Рыбаки" />
+		value="Fishermen" />
 
 	<string
 		id="Belong_1014_abb"
-		value="Рыбак" />
+		value="Fisher" />
 
 	<string
 		id="Belong_1015"
-		value="Алый рассвет" />
+		value="Crimson dawn" />
 
 	<string
 		id="Belong_1015_abb"
-		value="АР" />
+		value="CD" />
 
 	<string
 		id="Belong_1016"
-		value="Союз Независимых Городов" />
+		value="Commonwealth of Independent Towns" />
 
 	<string
 		id="Belong_1016_abb"
-		value="СНГ" />
+		value="CIT" />
 
 	<string
 		id="Belong_1017"
-		value="Церковь Света" />
+		value="Church of Enlightenment" />
 
 	<string
 		id="Belong_1017_abb"
-		value="ЦС" />
+		value="COE" />
 
 	<string
 		id="Belong_1018"
-		value="Армия Босса" />
+		value="Boss' army" />
 
 	<string
 		id="Belong_1018_abb"
-		value="АБ" />
+		value="Minion" />
 
 	<string
 		id="Belong_1019"
-		value="Друиды" />
+		value="Druids" />
 
 	<string
 		id="Belong_1019_abb"
-		value="Друид" />
+		value="Druid" />
 
 	<string
 		id="Belong_1020"
-		value="Дети Железа" />
+		value="Children of Iron" />
 
 	<string
 		id="Belong_1020_abb"
-		value="ДЖ" />
+		value="IC" />
 
 	<string
 		id="Belong_1021"
-		value="Служители Оракула" />
+		value="Oracle’s disciples" />
 
 	<string
 		id="Belong_1021_abb"
-		value="СО" />
+		value="Disciple" />
 
 	<string
 		id="Belong_1022"
-		value="Стальные гиганты" />
+		value="Steel Giants" />
 
 	<string
 		id="Belong_1022_abb"
-		value="СГ" />
+		value="SG" />
 
 	<string
 		id="Belong_1023"
-		value="Харакат" />
+		value="Harakhat" />
 
 	<string
 		id="Belong_1023_abb"
-		value="Харакат" />
+		value="Harakhat" />
 
 	<string
 		id="Belong_1024"
-		value="Куртадам" />
+		value="Kurtadam" />
 
 	<string
 		id="Belong_1024_abb"
-		value="Курта" />
+		value="Kurtadam" />
 
 	<string
 		id="Belong_1025"
-		value="Альфаран" />
+		value="Al’faran" />
 
 	<string
 		id="Belong_1025_abb"
-		value="Альфа" />
+		value="Al’faran" />
 
 	<string
 		id="Belong_1026"
-		value="Серсери" />
+		value="Serseri" />
 
 	<string
 		id="Belong_1026_abb"
-		value="Серсери" />
+		value="Serseri" />
 
 	<string
 		id="Belong_1027"
-		value="Военные" />
+		value="Militarists" />
 
 	<string
 		id="Belong_1027_abb"
-		value="Военный" />
+		value="Militarists" />
 
 	<string
 		id="Belong_1028"
-		value="Охотники" />
+		value="Trappers" />
 
 	<string
 		id="Belong_1028_abb"
-		value="Охотник" />
+		value="Trappers" />
 
 	<string
 		id="Belong_1029"
-		value="Медведи" />
+		value="Bears" />
 
 	<string
 		id="Belong_1029_abb"
-		value="Медведь" />
+		value="Bears" />
 
 	<string
 		id="Belong_1030"
-		value="Ньери" />
+		value="Njeri" />
 
 	<string
 		id="Belong_1030_abb"
-		value="Ньери" />
+		value="Njeri" />
 
 	<string
 		id="Belong_1040"
-		value="Повстанцы" />
+		value="Rebels" />
 
 	<string
 		id="Belong_1040_abb"
-		value="Повстанец" />
+		value="Rebel" />
 
 	<string
 		id="Belong_1041"
-		value="Аксель" />
+		value="Axel" />
 
 	<string
 		id="Belong_1041_abb"
-		value="АР" />
+		value="CD" />
 
 	<string
 		id="Belong_1042"
-		value="Лиса" />
+		value="Alice" />
 
 	<string
 		id="Belong_1042_abb"
-		value="Исследователи" />
+		value="Explorer" />
 
 	<string
 		id="Belong_1043"
-		value="Город Зеон" />
+		value="Zeon town" />
 
 	<string
 		id="Belong_1043_abb"
-		value="АР" />
+		value="CD" />
 
 	<string
 		id="Belong_1044"
-		value="Бродяга" />
+		value="Vagabonds" />
 
 	<string
 		id="Belong_1044_abb"
-		value="Бродяги" />
+		value="Vagabond" />
 
 	<string
 		id="Belong_1045"
-		value="Торговцы северного пути" />
+		value="North Path Traders" />
 
 	<string
 		id="Belong_1045_abb"
-		value="ТСП" />
+		value="NPT" />
 
 	<string
 		id="Belong_1046"
-		value="Алый рассвет" />
+		value="Crimson dawn" />
 
 	<string
 		id="Belong_1046_abb"
-		value="АР" />
+		value="CD" />
 
 	<string
 		id="Belong_1047"
-		value="Торговцы северного пути" />
+		value="North Path Traders" />
 
 	<string
 		id="Belong_1047_abb"
-		value="ТСП" />
+		value="NPT" />
 
 	<string
 		id="Belong_1048"
-		value="Алый рассвет" />
+		value="Crimson dawn" />
 
 	<string
 		id="Belong_1048_abb"
-		value="АР" />
+		value="CD" />
 
 	<string
 		id="Belong_1049"
-		value="Служители Оракула" />
+		value="Oracle’s disciples" />
 
 	<string
 		id="Belong_1049_abb"
-		value="СО" />
+		value="Disciple" />
 
 	<string
 		id="Belong_1050"
-		value="Синкс" />
+		value="Sinx" />
 
 	<string
 		id="Belong_1050_abb"
-		value="Бродяга" />
+		value="Vagabond" />
 
 	<string
 		id="Belong_1051"
-		value="Союз фермеров" />
+		value="Farmers’ union" />
 
 	<string
 		id="Belong_1051_abb"
-		value="СФ" />
+		value="FU" />
 
 	<string
 		id="Belong_1052"
-		value="Просветители" />
+		value="Technicians" />
 
 	<string
 		id="Belong_1052_abb"
-		value="Учёный" />
+		value="Techno" />
 
 	<string
 		id="Belong_1053"
-		value="Электростанция" />
+		value="Powerplant" />
 
 	<string
 		id="Belong_1053_abb"
-		value="АЭС" />
+		value="Seil" />
 
 	<string
 		id="Belong_1054"
-		value="Союз Независимых Городов" />
+		value="Commonwealth of Independent Towns" />
 
 	<string
 		id="Belong_1054_abb"
-		value="СНГ" />
+		value="CIT" />
 
 	<string
 		id="Belong_1060"
-		value="Жители пустыни " />
+		value="Desert dwellers" />
 
 	<string
 		id="Belong_1060_abb"
-		value="ПЖ" />
+		value="DD" />
 
 	<string
 		id="Belong_1061"
-		value="Последователи учёного" />
+		value="Scientist’s defenders" />
 
 	<string
 		id="Belong_1061_abb"
-		value="Защитник" />
+		value="Defender" />
 
 	<string
 		id="Belong_1062"
-		value="Сумасшедшие военные" />
+		value="Madmen" />
 
 	<string
 		id="Belong_1062_abb"
-		value="Безумец" />
+		value="Madman" />
 
 	<string
 		id="Belong_1063"
-		value="Одинокие разбойники" />
+		value="Lone brigands" />
 
 	<string
 		id="Belong_1063_abb"
-		value="Разбойник" />
+		value="Brigand" />
 
 	<string
 		id="Belong_1064"
-		value="Ополченцы из Улука" />
+		value="Uluk’s militia" />
 
 	<string
 		id="Belong_1064_abb"
-		value="ДЖ" />
+		value="IC" />
 
 	<string
 		id="Belong_1065"
-		value="Злобные Бандиты" />
+		value="Evil bandits" />
 
 	<string
 		id="Belong_1065_abb"
-		value="Бандит" />
+		value="Bandit" />
 
 	<string
 		id="Belong_1066"
-		value="Рыбаки" />
+		value="Fishermen" />
 
 	<string
 		id="Belong_1066_abb"
-		value="Рыбак" />
+		value="Fisher" />
 
 	<string
 		id="Belong_1067"
-		value="Археолог" />
+		value="Archaeologist" />
 
 	<string
 		id="Belong_1067_abb"
-		value="Учёный" />
+		value="Techno" />
 
 	<string
 		id="Belong_1068"
-		value="Верховный Друид" />
+		value="High Druid" />
 
 	<string
 		id="Belong_1068_abb"
-		value="Друид" />
+		value="Druid" />
 	
 	<string
 		id="Belong_1069"
-		value="Служители Оракула" />
+		value="Oracle’s disciples" />
 
 	<string
 		id="Belong_1069_abb"
-		value="СО" />
+		value="Disciple" />
 
 	<string
 		id="Belong_1080"
-		value="Заправка" />
+		value="Gas station" />
 
 	<string
 		id="Belong_1080_abb"
-		value="Заправка" />
+		value="Gas station" />
 <!-- Описания -->
 	<string
 		id="Belong_1002_diz"
-		value="Для этих бродячих бандитов нет ничего святого. Жертвой их нападения может стать кто угодно, будь то одинокий путник или вооруженный караван." />
+		value="Anyone may fall a victim to these raiders. They usually attack in small groups." />
 
 	<string
 		id="Belong_1003_diz"
-		value="Они катаются по миру в поисках острых ощущений, как будто жизнь и так недостаточно опасна. Во время внезапной стычки могут присоединиться как к нападающим, так и к защищающимся." />
+		value="Traveling the world in search of adventures, as if life is not dangerous enough, they may easily become foes or allies, depending on the situation. " />
 
 	<string
 		id="Belong_1004_diz"
-		value="В последнее время их осталось совсем немного, но если вам удалось встретить Исследователя, то вы можете рассчитывать на приятную беседу и помощь в любой беде." />
+		value="Nowadays their numbers grew thin. But if you met one of these noble guys, you may expect help in any situation." />
 
 	<string
 		id="Belong_1005_diz"
-		value="Независимые торговцы, не присоединившиеся ни к одной крупной группировке, готовы торговать с первым встречным." />
+		value="Independent traders, eager to trade with anyone." />
 
 	<string
 		id="Belong_1006_diz"
-		value="В эту уважаемую гильдию входят самые опасные бойцы цивилизованного мира. Они воюют на стороне тех, кто платит, и соблюдают кодекс чести." />
+		value="Most dangerous warriors of the new world form this respectful faction. They fight for money but strictly honor their code." />
 
 	<string
 		id="Belong_1007_diz"
-		value="В смутные времена повсюду появляются предвестники катастрофы, которые часто сами способствуют ее приближению." />
+		value="Hard times often give birth to the different sects, some of which are really dangerous." />
 
 	<string
 		id="Belong_1008_diz"
-		value="Фермеры работают с землей, как их предки когда-то. Так как еда нужна всем и всегда, а больше брать с них нечего – спокойно существуют в полном опасностей мире." />
+		value="The farmers cultivate the land as their ancestors. Having nothing but their vegetables, they rarely get attacked by raiders.   " />
 
 	<string
 		id="Belong_1009_diz"
-		value="Простые люди недолюбливают эту группировку, ведь просветители, собирая знания древнего мира, делятся ими только за высокую плату. К тому же действуют они чаще всего руками наемников, предпочитая оставаться под защитой своих стен." />
+		value="Simple people dislike Technicians for their knowledge and cowardice. " />
 
 	<string
 		id="Belong_1010_diz"
-		value="Честные торговцы, которые создали первый капитал, торгуя нефтью. Затем им удалось закрепиться в негостеприимном северном регионе Хель и построить там целый город, что привело группировку к еще большему обогащению. Нечистые на руку конкуренты завидуют им и устраивают диверсии." />
+		value="Honest traders that make money on the oil trade. Now they search new unexplored territories for rare merchandise." />
 
 	<string
 		id="Belong_1011_diz"
-		value="Недоброжелатели называют их Тайный Альянс за некоторые проступки, совершенные в прошлом, и за связи с различными бандами и наемниками. Не без основания полагают, что Альянс скупает краденое и не стесняется торговать контрабандой." />
+		value="This faction is known for their relations with the bandits. Supposedly, they deal with stolen goods. " />
 
 	<string
 		id="Belong_1012_diz"
-		value="Одна из многочисленных банд, желающих захватить власть над Фатерляндом. Положение осложняется тем, что им удалось проникнуть на древнюю военную базу и заполучить реальную силу, чтобы совершить задуманное." />
+		value="One of the many local gangs, willing to take control over the Vaterland. They managed to get inside the ancient military base, which gave them unlimited access to all kinds of weapons." />
 
 	<string
 		id="Belong_1013_diz"
-		value="Мелкие жулики, обосновавшиеся на плодородных равнинах Края и собирающие с фермеров дань в обмен на «защиту» от других банд. Такое положение длится уже несколько лет и устраивает всех." />
+		value="Racketeers that toll the whole Krai. It’s been that way for many years and seems to suit everybody." />
 
 	<string
 		id="Belong_1014_diz"
-		value="Неизвестно, что удается им выловить в мертвых холодных водах, но живут эти люди безбедно. Иногда торгуют с чужаками, но чаще просто атакуют иноземцев без предупреждения." />
+		value="No one knows what these people manage to fish from the lifeless waters of the ocean. But the fishers seem quite happy with their lives." />
 
 	<string
 		id="Belong_1015_diz"
-		value="Вдохновляемые харизматичным лидером Акселем, жители Аржана в едином порыве поднялись на борьбу с соседями, когда-то обидевшими их, и довольно успешно расширяют свою зону влияния, подминая под себя все новые селения. Не брезгуют услугами наемников и головорезов всех мастей." />
+		value="Inspired by the charismatic leader Axel, people of Argen are fighting with their neighbors. They also use the services of mercenaries of all kinds." />
 
 	<string
 		id="Belong_1016_diz"
-		value="Нападение когда-то лояльных соседей сплотило людей Либриума, и, следуя заветам предков, они решили сражаться за свою независимость. В ведении войны чаще прибегают к шпионажу и саботажу, чем к грубой силе." />
+		value="The sudden attack of loyal neighbors united the people of Librium. Now they are fiercely fighting for independence.  They prefer espionage and sabotage to open struggles. " />
 
 	<string
 		id="Belong_1017_diz"
-		value="Эта таинственная организация имеет адептов по всему миру. Хотя активное содействие АР немного подпортило их репутацию искателей истины и порядка, влияние Церкви весьма велико." />
+		value="This mysterious organization has adepts all over the world." />
 
 	<string
 		id="Belong_1018_diz"
-		value="Армия Босса" />
+		value="The defenders of the local crime Boss." />
 
 	<string
 		id="Belong_1019_diz"
-		value="Эти дети природы живут в мире с вселенной, выращивая невиданные деревья и совершая ритуалы у их корней, они превозносят жизнь во всех ее проявлениях. Не любят иноземцев, считая их испорченными людьми." />
+		value="Children of the nature, who live according to the ancient cult laws." />
 
 	<string
 		id="Belong_1020_diz"
-		value="Бывшие друиды, разочаровавшиеся в своей вере, начали поклоняться металлическим идолам, которые все чаще появляются в Священной роще. Они лояльны по отношению к пришельцам из-за моря и охотно торгуют с ними. Дети Железа рассчитывают сами когда-нибудь получить такие же прочные нержавеющие тела, как и идолы, которым они поклоняются." />
+		value="Ex druids, that left the faction to form their own sect of machine worshippers." />
 
 	<string
 		id="Belong_1021_diz"
-		value="Малочисленная секта, живущая около башни Оракула и почитающая его как бога." />
+		value="Small sect of the Oracle worshippers." />
 
 	<string
 		id="Belong_1022_diz"
-		value="Таинственные порождения адского пламени, способные крушить скалы и валить огромные деревья. Встреча с любым из их племени несет быструю смерть. Только Дети Железа смогли найти с ними общий язык." />
+		value="The creations of hellfire able to crush stones and fell the tallest trees. Meeting with these abominations spells sure death. " />
 
 	<string
 		id="Belong_1023_diz"
-		value="Коренные жители Оазии, которые пытаются восстановить то, что разрушила долгая война. Но почему-то им никак не удается завершить начатое…" />
+		value="Natives of Oasia, they are rebuilding their hometown after a long war, but for some reason they cannot succeed." />
 
 	<string
 		id="Belong_1024_diz"
-		value="Коренные жители Оазии." />
+		value="People, constantly suffering from the attacks of the desert raiders." />
 
 	<string
 		id="Belong_1025_diz"
-		value="Люди, измученные постоянными нападениями неизвестного врага. Но почему-то им никак не удается победить..." />
+		value="The long war seems to be over but the attacks continue. There’s no peace in these lands." />
 
 	<string
 		id="Belong_1026_diz"
-		value="Старики, покинувшие большие города и организовавшие свою небольшую коммуну." />
+		value="Also known as the Keepers of the Memory, the old people left towns and are hiding from everybody." />
 
 	<string
 		id="Belong_1027_diz"
-		value="Военные" />
+		value="Militarists" />
 
 	<string
 		id="Belong_1028_diz"
-		value="Охотники" />
+		value="Trappers" />
 
 	<string
 		id="Belong_1029_diz"
-		value="Медведи" />
+		value="Bears" />
 
 	<string
 		id="Belong_1030_diz"
-		value="Ньери" />
+		value="Njeri, guests from outer space." />
 
 	<string
 		id="Belong_1040_diz"
-		value="Повстанцы" />
+		value="People of Argen not content with Axel’s rule." />
 
 	<string
 		id="Belong_1041_diz"
-		value="Аксель" />
+		value="The leader of the Crimson Dawn." />
 
 	<string
 		id="Belong_1042_diz"
-		value="Лиса" />
+		value="Pretty girl that travels the world pursuing some goal of her own." />
 
 	<string
 		id="Belong_1043_diz"
-		value="Город Зеон" />
+		value="Defenders of the secret town of Zeon." />
 
 	<string
 		id="Belong_1044_diz"
-		value="Бродяги" />
+		value="Vagabonds" />
 
 	<string
 		id="Belong_1045_diz"
-		value="Торговцы северного пути" />
+		value="North Path Traders" />
 
 	<string
 		id="Belong_1046_diz"
-		value="Алый рассвет" />
+		value="Crimson dawn" />
 
 	<string
 		id="Belong_1047_diz"
-		value="Торговцы северного пути" />
+		value="North Path Traders" />
 
 	<string
 		id="Belong_1048_diz"
-		value="Алый рассвет" />
+		value="Crimson dawn" />
 
 	<string
 		id="Belong_1049_diz"
-		value="Служители Оракула" />
+		value="Oracle’s disciples" />
 
 	<string
 		id="Belong_1050_diz"
-		value="Скиталец Синкс. Не имеет постоянного место обитания. И вообще, странный тип." />
+		value="Sinx. A strange fellow, who has no permanent residence." />
 
 	<string
 		id="Belong_1051_diz"
-		value="Союз фермеров" />
+		value="Farmers’ union" />
 
 	<string
 		id="Belong_1052_diz"
-		value="Просветители" />
+		value="Technicians" />
 
 	<string
 		id="Belong_1053_diz"
-		value="Жители города Сель сохраняют нейтралитет и снабжают энергией обе враждующие стороны. Никто, кроме них, не может обслуживать электростанцию, поэтому они до сих пор не подвергаются нападениям." />
+		value="PowerStation" />
 
 	<string
 		id="Belong_1054_diz"
-		value="Союз Независимых Городов" />
+		value="Commonwealth of Independent Towns" />
 
 	<string
 		id="Belong_1060_diz"
-		value="Жители города Казиф. Контролируют практически всю нефть региона." />
+		value="They control most of the oil production of the region. " />
 
 	<string
 		id="Belong_1061_diz"
-		value="Исследователи инопланетной техники" />
+		value="People, living deep in the desert and studying its mysteries." />
 
 	<string
 		id="Belong_1062_diz"
-		value="Эти люди ведут себя не совсем адекватно." />
+		value="A group of madmen haunts the desert. They only seek death to others or to themselves. " />
 
 	<string
 		id="Belong_1063_diz"
-		value="Им надоел разбой, только уединение в джунглях помогает их душам." />
+		value="Tired from the crimes, these bandits found peace in the middle of the jungle." />
 
 	<string
 		id="Belong_1064_diz"
-		value="Не всем религия железа по душе." />
+		value="Even among the Uluk’s people there still are loyal druids." />
 
 	<string
 		id="Belong_1065_diz"
-		value="Банда, с которой торгуют Северные торговцы. Предположительно находятся в союзе с рыбаками" />
+		value="The gang that wages war with the traders. Probably, they are allied with the Fishermen." />
 
 	<string
 		id="Belong_1066_diz"
-		value="Неизвестно, что удается им выловить в мертвых холодных водах, но живут эти люди безбедно. Иногда торгуют с чужаками, но чаще просто атакуют иноземцев без предупреждения." />
+		value="No one knows what these people manage to fish from the lifeless waters of the ocean. But the fishers seem quite happy with their lives." />
 
 	<string
 		id="Belong_1067_diz"
-		value="Группа археологов, исследующая древние руины между городом Порто и деревней Олимпийская." />
+		value="A group of archaeologists exploring the ancient ruins between Porto and Roadster." />
 
 	<string
 		id="Belong_1068_diz"
-		value="Верховный Друид" />
+		value="High Druid" />
 
 	<string
 		id="Belong_1080_diz"
-		value="Заправка" />
+		value="Gas station" />
 
 	<string
 		id="Belong_1081"
-		value="Бандит" />
+		value="Bandit" />
 
 	<string
 		id="Belong_1081_abb"
-		value="Бандит" />
+		value="Bandit" />
 
 	<string
 		id="Belong_1081_diz"
-		value="Бандит" />
+		value="Bandit" />
 </resource>

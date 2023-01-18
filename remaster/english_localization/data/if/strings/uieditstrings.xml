@@ -6,443 +6,443 @@
 
 	<string
 		id="cancel"
-		value="Отмена" />
+		value="Cancel" />
 
 	<string
 		id="Cancel"
-		value="Отмена" />
+		value="Cancel" />
 
 	<string
 		id="yes"
-		value="Да" />
+		value="Yes" />
 
 	<string
 		id="no"
-		value="Нет" />
+		value="No" />
 
 	<string
 		id="error"
-		value="Ошибка" />
+		value="Error" />
 
 	<string
 		id="save"
-		value="Сохранить" />
+		value="Save" />
 
 	<string
 		id="Default"
-		value="По умолчанию" />
+		value="Default" />
 
 	<string
 		id="Close"
-		value="Закрыть" />
+		value="Close" />
 
 	<string
 		id="Control"
-		value="Управление" />
+		value="Control" />
 
 	<string
 		id="Exit"
-		value="Выход" />
+		value="Exit" />
 
 	<string
 		id="Delete"
-		value="Удалить" />
+		value="Delete" />
 
 	<string
 		id="CloseWindow"
-		value="Закрыть окно" />
+		value="Close window" />
 
 	<string
 		id="Date"
-		value="Дата" />
+		value="Date" />
 
 	<string
 		id="SaveName"
-		value="Название" />
+		value="Name" />
 
 	<string
 		id="SortByName"
-		value="Сортировать по названию сохранения" />
+		value="Sort by name" />
 
 	<string
 		id="SortByDate"
-		value="Сортировать по времени сохранения" />
+		value="Sort by date" />
 
 	<string
 		id="ServiceSymbolsUsed"
-		value="Не допускается использование в имени|следующих служебных символов:|@ff904040%s" />
+		value="The profile name must not contain |the following symbols:|@ff00ff00%s" />
 
 	<string
 		id="quitGame"
-		value="Вы хотите покинуть игру?" />
+		value="Do you wish to leave the game?" />
 
 	<string
 		id="ChoseDifficultyLevel"
-		value="Выбрать уровень сложности" />
+		value="Choose difficulty level" />
 <!-- Главное меню -->
 	<string
 		id="New Game"
-		value="Новая игра" />
+		value="New Game" />
 
 	<string
 		id="StartNetGame"
-		value="Начать новую игру" />
+		value="Start new game" />
 
 	<string
 		id="Credits"
-		value="Разработчики" />
+		value="Credits" />
 
 	<string
 		id="Load Game"
-		value="Загрузить игру" />
+		value="Load game" />
 
 	<string
 		id="Options"
-		value="Настройки" />
+		value="Options" />
 
 	<string
 		id="Quit to Windows"
-		value="Выйти в Windows" />
+		value="Quit to Windows" />
 
 	<string
 		id="Profile"
-		value="Профиль" />
+		value="Profile" />
 
 	<string
 		id="ProfileDontChosen"
-		value="не выбран" />
+		value="not set" />
 
 	<string
 		id="Intro"
-		value="Вступительный ролик" />
+		value="Intro" />
 
 	<string
 		id="OpenSavesList"
-		value="Открыть список сохранённых игр" />
+		value="Load previously saved game" />
 
 	<string
 		id="ShowIntro"
-		value="Просмотреть вступительный ролик" />
+		value="Show Intro" />
 
 	<string
 		id="HandleGameOptions"
-		value="Регулировать настройки игры" />
+		value="Change game settings" />
 
 	<string
 		id="ShowCredits"
-		value="Просмотреть список разработчиков" />
+		value="Show developers list" />
 <!-- Окно загрузки -->
 	<string
 		id="load"
-		value="Загрузить" />
+		value="Load" />
 
 	<string
 		id="LoadGame"
-		value="Загрузить сохранённую игру" />
+		value="Load saved game" />
 
 	<string
 		id="SavedGameLoading"
-		value="Загрузка сохранённой игры" />
+		value="Loading game" />
 <!-- Профиль -->
 	<string
 		id="DeleteProfileWarning"
-		value="Все сохранённые игры будут удалены.|Продолжить?" />
+		value="All saved games will be deleted. | Continue?" />
 
 	<string
 		id="DefaultProfileName"
-		value="Игрок" />
+		value="Player" />
 
 	<string
 		id="Create"
-		value="Создать" />
+		value="Create" />
 
 	<string
 		id="CreateProfile"
-		value="Создать новый профиль" />
+		value="Create new profile" />
 
 	<string
 		id="NewProfile"
-		value="Новый профиль" />
+		value="New profile" />
 
 	<string
 		id="ProfileExists"
-		value="Профиль с таким именем уже существует.|Введите другое имя" />
+		value="A profile with that name already exists! | Enter another name." />
 
 	<string
 		id="EmptyProfileName"
-		value="Нельзя создать профиль без имени" />
+		value="Cannot create profile with no name" />
 
 	<string
 		id="ProfileCreateError"
-		value="Ошибка создания профиля" />
+		value="Profile creating error" />
 
 	<string
 		id="ProfileDeleteError"
-		value="Ошибка удаления профиля" />
+		value="Profile deleting error" />
 
 	<string
 		id="Chose"
-		value="Выбрать" />
+		value="Select" />
 
 	<string
 		id="DeleteProfile"
-		value="Удалить профиль" />
+		value="Delete profile" />
 
 	<string
 		id="ChoseProfile"
-		value="Выбрать профиль в качестве текущего" />
+		value="Set profile as current" />
 
 	<string
 		id="CancelExit"
-		value="Закрыть окно без сохранения" />
+		value="Close window and withdraw changes" />
 
 	<string
 		id="ChangePlayerProfile"
-		value="Изменить профиль игрока" />
+		value="Change profile" />
 
 	<string
 		id="ChangeProfile"
-		value="Изменить профиль" />
+		value="Change profile" />
 
 	<string
 		id="CurProfile"
-		value="Текущий профиль" />
+		value="Current profile" />
 
 	<string
 		id="InvalidProfileName"
-		value="Недопустимое имя профиля" />
+		value="Invalid profile name" />
 <!-- Текст сплэшей -->
 	<string
 		id="Loading"
-		value="Загрузка" />
+		value="Loading" />
 
 	<string
 		id="LoadingDots"
-		value="ЗАГРУЗКА ..." />
+		value="LOADING..." />
 
 	<string
 		id="LoadWorld"
-		value="ЗАГРУЗКА УРОВНЯ" />
+		value="LOAD LEVEL" />
 
 	<string
 		id="InitWorld"
-		value="ИНИЦИАЛИЗАЦИЯ УРОВНЯ" />
+		value="LEVEL INITIALIZATION" />
 
 	<string
 		id="MainMenuLoading"
-		value="Загрузка" />
+		value="Loading" />
 
 	<string
 		id="AnimatedModelsServer"
-		value="анимационных объектов" />
+		value="animated objects" />
 
 	<string
 		id="StaticModelsServer"
-		value="статических объектов" />
+		value="static objects" />
 
 	<string
 		id="LightsServer"
-		value="источников света" />
+		value="light sources" />
 
 	<string
 		id="SpritesServer"
-		value="спрайтов" />
+		value="sprites" />
 
 	<string
 		id="ParticlesServer"
-		value="систем частиц" />
+		value="particle systems" />
 
 	<string
 		id="SoundsServer"
-		value="звуков" />
+		value="audio" />
 
 	<string
 		id="MusicServer"
-		value="музыки" />
+		value="music" />
 <!-- замените это на более благозвучное -->
 	<string
 		id="ProjectorsServer"
-		value="прожекторов" />
+		value="projectors" />
 
 	<string
 		id="DecalsServer"
-		value="деколов" />
+		value="decals" />
 
 	<string
 		id="Precaching"
-		value="Кэширование" />
+		value="Caching " />
 <!-- Окно настроек -->
 	<string
 		id="Video"
-		value="Графика" />
+		value="Video" />
 
 	<string
 		id="Sound"
-		value="Звук" />
+		value="Sound" />
 
 	<string
 		id="Game"
-		value="Игра" />
+		value="Game" />
 
 	<string
 		id="Video settings"
-		value="Настройки графики" />
+		value="Video Setup" />
 
 	<string
 		id="Far dist"
-		value="Дальность обзора" />
+		value="Sight Range" />
 
 	<string
 		id="Gamma"
-		value="Гамма" />
+		value="Gamma" />
 
 	<string
 		id="Resolution"
-		value="Разрешение" />
+		value="Resolution" />
 
 	<string
 		id="GraphicQuality"
-		value="Качество графики" />
+		value="Graphics quality" />
 
 	<string
 		id="Grass"
-		value="Трава" />
+		value="Grass" />
 
 	<string
 		id="TextureResolution"
-		value="Разрешение текстур" />
+		value="Texture resolution" />
 
 	<string
 		id="Antialiasing"
-		value="Антиалиазинг" />
+		value="Antialiasing " />
 
 	<string
 		id="Filtration"
-		value="Фильтрация" />
+		value="Filtering" />
 
 	<string
 		id="BlumQuality"
-		value="Качество блума" />
+		value="Bloom quality" />
 
 	<string
 		id="WaterQuality"
-		value="Качество воды" />
+		value="Water quality" />
 
 	<string
 		id="Audio settings"
-		value="Настройки звука" />
+		value="Audio Setup" />
 
 	<string
 		id="Fx vol"
-		value="Громкость эффектов" />
+		value="Effects Volume" />
 
 	<string
 		id="Music vol"
-		value="Громкость музыки" />
+		value="Music Volume" />
 
 	<string
 		id="Speak vol"
-		value="Громкость речи" />
+		value="Speech volume" />
 
 	<string
 		id="Game settings"
-		value="Настройки игры" />
+		value="Game settings" />
 
 	<string
 		id="DialogPause"
-		value="Пауза в диалогах" />
+		value="Dialog Pause" />
 
 	<string
 		id="AutoHelp"
-		value="Автоматические подсказки" />
+		value="Automatic hints" />
 
 	<string
 		id="MouseSensitivity"
-		value="Чувствительность мыши" />
+		value="Mouse sensitivity" />
 
 	<string
 		id="MouseYAxisFlip"
-		value="Инверсия оси Y" />
+		value="Invert mouse Y-axis" />
 
 	<string
 		id="MouseXAxisFlip"
-		value="Инверсия оси X" />
+		value="Invert mouse X-axis" />
 
 	<string
 		id="Keys"
-		value="Значения клавиш" />
+		value="Keys" />
 
 	<string
 		id="RestoreDef"
-		value="Вернуть значение по умолчанию" />
+		value="Restore default settings" />
 
 	<string
 		id="Apply"
-		value="Применить" />
+		value="Apply" />
 
 	<string
 		id="Recommended"
-		value="Рекомендованные" />
+		value="Recommended" />
 
 	<string
 		id="None"
-		value="Нет" />
+		value="None" />
 
 	<string
 		id="Near"
-		value="Близко" />
+		value="Close" />
 
 	<string
 		id="Far"
-		value="Далеко" />
+		value="Far" />
 
 	<string
 		id="LowQuality"
-		value="Низкое" />
+		value="Low" />
 
 	<string
 		id="MediumQuality"
-		value="Среднее" />
+		value="Medium" />
 
 	<string
 		id="HighQuality"
-		value="Высокое" />
+		value="High" />
 
 	<string
 		id="CustomQuality"
-		value="Пользовательское" />
+		value="Custom" />
 
 	<string
 		id="MaxQuality"
-		value="Максимальное" />
+		value="Maximal" />
 
 	<string
 		id="LowResolution"
-		value="Низкое" />
+		value="Low" />
 
 	<string
 		id="HighResolution"
-		value="Высокое" />
+		value="High" />
 
 	<string
 		id="CustomResolution"
-		value="Пользовательское" />
+		value="Custom" />
 
 	<string
 		id="BilinearFiltration"
-		value="Билинейная" />
+		value="Bilinear" />
 
 	<string
 		id="TrilinearFiltration"
-		value="Трилинейная" />
+		value="Trilinear" />
 
 	<string
 		id="AnisotropFiltration"
-		value="Анизотропная" />
+		value="Anisotropic " />
 
 	<string
 		id="CustomFiltration"
-		value="Пользовательская" />
+		value="Custom" />
 
 	<string
 		id="Antialiasing_x2"
@@ -462,63 +462,63 @@
 
 	<string
 		id="CustomAntialiasing"
-		value="Пользовательский" />
+		value="Custom" />
 
 	<string
 		id="OptionsChanged"
-		value="Настройки были изменены. Сохранить изменения?" />
+		value="The settings were changed. Do you want to save changes?" />
 
 	<string
 		id="ShadowsQuality"
-		value="Качество теней" />
+		value="Shadow quality" />
 
 	<string
 		id="NumBattleReplies"
-		value="Количество реплик в бою" />
+		value="Amount of battle remarks" />
 
 	<string
 		id="Control settings"
-		value="Настройки управления" />
+		value="Control settings" />
 
 	<string
 		id="BindingsChanged"
-		value="Управляющие клавиши были изменены. Сохранить изменения?" />
+		value="Control keys were redefined. Do you want to save changes?" />
 
 	<string
 		id="GameDifficulty"
-		value="Уровень сложности" />
+		value="Game difficulty" />
 
 	<string
 		id="EasyLevel"
-		value="Новичок" />
+		value="Easy" />
 
 	<string
 		id="MediumLevel"
-		value="Бывалый" />
+		value="Medium" />
 
 	<string
 		id="HardLevel"
-		value="Профессионал" />
+		value="Hard" />
 
 	<string
 		id="ImpossibleLevel"
-		value="Мастер" />
+		value="Impossible" />
 <!-- DemoSplashWnd -->
 	<string
 		id="Targem Link Tip"
-		value="Таргем" />
+		value="Targem Games" />
 
 	<string
 		id="Buka Link Tip"
-		value="Бука" />
+		value="Buka Entertainment" />
 
 	<string
 		id="ExMachina URL"
-		value="http://www.targem.ru" />
+		value="http://www.nival.com/targem" />
 
 	<string
 		id="Buka URL"
-		value="http://www.buka.ru" />
+		value="http://www.buka.com" />
 
 	<string
 		id="Nival URL"
@@ -526,5 +526,5 @@
 
 	<string
 		id="AutoSave"
-		value="Автосохранение" />
+		value="Autosave" />
 </resource>

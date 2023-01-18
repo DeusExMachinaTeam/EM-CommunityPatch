@@ -2,778 +2,778 @@
 <resource><!--Default buttons--><!-- Vehicles ______________________________________________-->
 	<string
 		id="player_diz"
-		value="Молодой человек, только вступивший во взрослую жизнь, которая готовит ему массу неприятных сюрпризов." />
+		value="A young man who is about to enter the world. Many perils await him on his way." />
 
 	<string
 		id="Sml1EnemySpawn_diz"
-		value="Только начинающие или отчаявшиеся бандиты используют эту лёгкую машину для нападений на одиноких путников." />
+		value="Most feeble enemy" />
 
 	<string
 		id="Sml2EnemySpawn_diz"
-		value="Переделанный под нужды любителей лёгкой наживы гоночный автомобиль." />
+		value="Most feeble enemy" />
 
 	<string
 		id="Sml3EnemySpawn_diz"
-		value="Чуть больше мощности и брони, чем у легковой машины, однако всё же недостаточно, чтобы представлять серьёзную опасность в бою один на один." />
+		value="Most feeble enemy" />
 
 	<string
 		id="Sml4EnemySpawn_diz"
-		value="Когда бандиты на них собираются в банды, то нелегко приходится даже самым тяжеловооружённым грузовикам." />
+		value="Most feeble enemy" />
 
 	<string
 		id="sml1Cab01_diz"
-		value="Кабина Клопа." />
+		value="Most feeble enemy's cab" />
 
 	<string
 		id="sml2Cab01_diz"
-		value="Кабина Таракана." />
+		value="Most feeble enemy's cab" />
 
 	<string
 		id="sml3Cab01_diz"
-		value="Кабина Муравья." />
+		value="Most feeble enemy's cab" />
 
 	<string
 		id="sml4Cab01_diz"
-		value="Кабина Кузнечика." />
+		value="Most feeble enemy's cab" />
 
 	<string
 		id="denscoutCab_diz"
-		value="Кабина Лисы. Модифицированная модель кабины от обычного скаута." />
+		value="Alice’s car cab. Modified scout." />
 
 	<string
 		id="scoutCab01_diz"
-		value="Кабина скаута." />
+		value="Scout's cab" />
 
 	<string
 		id="scoutCab02_diz"
-		value="Кабина скаута." />
+		value="Scout's cab" />
 
 	<string
 		id="scoutCab03_diz"
-		value="Кабина скаута." />
+		value="Scout's cab" />
 
 	<string
 		id="ScoutEnemySpawn_diz"
-		value="Слабая пушка и хорошая скорость. Больше нечего сказать об этом автомобиле, однако не стоит его недооценивать. Как пираньи налетают эти небольшие машины на свою жертву, и часто это последнее, что видит незадачливый водитель в своей жизни." />
+		value="Small gun and high speed. Moderate threat for the trader. " />
 
 	<string
 		id="FighterEnemySpawn_diz"
-		value="Эта необычно выглядящая модель несёт на себе достаточно вооружения, чтобы представлять опасность и сама по себе. А учитывая, что бандиты редко нападают по одиночке..." />
+		value="This strange looking vehicle carries enough weapons to present real danger considering raiders rarely attack alone." />
 
 	<string
 		id="HunterEnemySpawn_diz"
-		value="Бронированный, достаточно скоростной автомобиль. Особенно опасна модификация с ракетной установкой." />
+		value="Heavy armored vehicle. Beware its missile launcher modification." />
 
 	<string
 		id="CruiserEnemySpawn_diz"
-		value="Военный тягач, приспособленный под нужды бандитов, обладает хорошей грузоподъёмностью и запасом брони. Это позволяет использовать его как заграждение, чтобы останавливать тяжёлый транспорт. А две огромные пушки легко справятся с охраной." />
+		value="Military model." />
 
 	<string
 		id="DozerEnemySpawn_diz"
-		value="Бандиты очень любят этого монстра, ведь его броня сравнима разве что с танком. Особо часто используется в пустыне, так как напоминает местным аборигенам верблюдов." />
+		value="Modified dozer. Slow but steady.  " />
 
 	<string
 		id="Tank01_diz"
-		value="Танк - один из наиболее опасных противников, встречающихся в мире после катастрофы. Не каждый отважится вступить в бой с ним, и уж тем более не каждый выйдет из боя живым." />
+		value="Tank" />
 
 	<string
 		id="CoolBelaz_diz"
-		value="Самый крутой Белаз, какой только может быть." />
+		value="The coolest truck ever." />
 
 	<string
 		id="mirotvorecTest_diz"
-		value="Непобедимый Миротворец, демонстрирующий новую модель повреждения машин." />
+		value="Invincible vehicle prototype." />
 
 	<string
 		id="BelazForSale_diz"
-		value="Чудовищная грузоподъёмность этого грузовика вошла в легенды. Есть смельчаки, которые смогли обогатиться на нём буквально за пару рейсов. Но гораздо больше тех, кто так и не довёз свой груз, несмотря на мощную броню." />
+		value="Tremendous carrying capacity of this truck has become proverbial. Quite slow, it often falls a victim to the raiders’ attacks." />
 
 	<string
 		id="UralForSale_diz"
-		value="Те, кто преуспел, выбирают Урал за отличный баланс грузоподъёмности и вооружения. Самый быстрый из тяжёлых грузовиков вывезет вас из любой передряги." />
+		value="This truck offers you the balance of weaponry and carrying capacity. The fastest of all heavy trucks, Ural will drag you out of any danger." />
 
 	<string
 		id="BugForSale_diz"
-		value="Только самые беспечные или отчаянные торговцы рискуют отправляться в рейс на такой машине. Всего одна слабая пушка и почти полное отсутствие брони лишь частично компенсируются высокой мобильностью." />
+		value="Only careless or desperate traders risk travel by this vehicle. One week gun and almost no armor are partially compensated by its high mobility." />
 
 	<string
 		id="MolokovozForSale_diz"
-		value="Лёгкий грузовик, любимый богатыми фермерами и скупыми торговцами за прекрасное соотношение цены и качества. Однако профессионалы недолюбливают эту недостаточно безопасную модель." />
+		value="Light truck, liked by rich farmers for the best price-quality ratio. But, it is not safe enough to be liked by professional drivers." />
 
 	<string
 		id="MirotvorecForSale_diz"
-		value="Нападение – лучшая защита. Ни одна другая машина не несёт на себе такой запас оружия, как Миротворец. Для этого пришлось пожертвовать грузоподъёмностью, но результат того стоит." />
+		value="Offence is the best defense. No other truck can carry as much weaponry as Peacekeeper. Its cargo compartment is not very spacious though." />
 <!-- Gadgets ______________________________________________-->
 	<string
 		id="cooling_system_guns_diz"
-		value="Водяная система охлаждения не позволит вашему пулемёту перегреться и ускорит перезарядку.| Скорость перезарядки огнестрельного оружия +20% " />
+		value="Simple cooling system. Will make reload times for guns shorter.| Guns recharge speed +20%" />
 
 	<string
 		id="cooling_system_energy_diz"
-		value="Водяная система охлаждения не позволит вашему лазеру перегреться и ускорит перезарядку. | Скорость перезарядки энергетического оружия +20%" />
+		value="Simple cooling system. Will make reload times for energy weapons shorter.| Energy weapons recharge speed +20%" />
 
 	<string
 		id="cooling_system_explosion_diz"
-		value="Водяная система охлаждения не позволит вашей пушке перегреться и ускорит перезарядку. | Скорость перезарядки артиллерии +20%" />
+		value="Simple cooling system. Will make reload times for explosion weapons shorter. | Explosion weapons recharge speed +20%" />
 
 	<string
 		id="firing_rate_guns_diz"
-		value="Оптимизированный механический спуск повышает скорострельность вашего пулемёта. | Скорострельность огнестрельного оружия +20%" />
+		value="This simple gadget will help guns to shoot faster. | Guns firing rate +20%" />
 
 	<string
 		id="firing_range_guns_diz"
-		value="Магнитный ускоритель создаёт дополнительный разгон пули. | Дальность стрельбы огнестрельного оружия +20%" />
+		value="This simple gadget will surely help a wannabe sniper. | Guns firing range +20%" />
 
 	<string
 		id="firing_rate_energy_diz"
-		value="Кабель низкого сопротивления снизит энергопотери, неизбежные для любых видов энергетического оружия. | Скорострельность энергетического оружия +20%" />
+		value="This simple gadget will help energy weapons to shoot faster. | Energy weapons firing rate +20%" />
 
 	<string
 		id="grouping_angle_guns_diz"
-		value="Оптический прицел. | Точность огнестрельного оружия +20%" />
+		value="Simple gadget that will raise guns accuracy. | Guns accuracy +20%" />
 
 	<string
 		id="add_damage_guns_diz"
-		value="Полусвободный затвор обеспечивает большую начальную скорость снаряда. | Повреждение огнестрельного оружия +20%" />
+		value="With this gadget your guns will deal more damage. Simple model. | Guns damage +20%" />
 
 	<string
 		id="add_damage_energy_diz"
-		value="Зеркально-серебрённый световой резонатор увеличивает количество испускаемой энергии.| Повреждение от энергетического оружия +20%." />
+		value="With this gadget your energy weapon will deal more damage. Simple model. | Energy weapon damage +20%" />
 
 	<string
 		id="add_damage_explosion_diz"
-		value="Магнитная катапульта придаст дополнительное ускорение вашим снарядам. | Повреждение  артиллерии +20%" />
+		value="With this gadget your explosion weapon will deal more damage. Simple model. | Explosion weapon damage +20%" />
 
 	<string
 		id="cooling_system_guns2_diz"
-		value="Воздушная система охлаждения не позволит вашему пулемёту перегреться и ускорит перезарядку.| Скорость перезарядки огнестрельного оружия +40%" />
+		value="Advanced cooling system. Will make reload times for guns shorter. | Guns recharge speed +40%" />
 
 	<string
 		id="cooling_system_energy2_diz"
-		value="Воздушная система охлаждения не позволит вашему лазеру перегреться и ускорит перезарядку. | Скорость перезарядки энергетического оружия +40%" />
+		value="Advanced cooling system. Will make reload times for energy weapons shorter. | Energy weapons recharge speed +40%" />
 
 	<string
 		id="cooling_system_explosion2_diz"
-		value="Воздушная система охлаждения не позволит вашей пушке перегреться и ускорит перезарядку.| Скорость перезарядки артиллерии +40%" />
+		value="Advanced cooling system. Will make reload times for explosion weapons shorter. | Explosion weapons recharge speed +40%" />
 
 	<string
 		id="firing_rate_guns2_diz"
-		value="Электроспуск повышает скорострельность вашего пулемёта.| Скорострельность огнестрельного оружия +40%" />
+		value="This advanced gadget will help guns to shoot faster. | Guns firing rate +40%" />
 
 	<string
 		id="firing_rate_energy2_diz"
-		value="Сверхпроводящий кабель значительно снизит энергопотери, неизбежные для любых видов энергетического оружия. | Скорострельность энергетического оружия +40%" />
+		value="This simple gadget will help energy weapons to shoot faster. | Energy weapons firing rate +40%" />
 
 	<string
 		id="grouping_angle_guns2_diz"
-		value="Оптический прицел с просветлённой оптикой и антибликовой защитой. | Точность огнестрельного оружия +40%" />
+		value="Simple gadget that will raise guns accuracy. | Guns accuracy +40%" />
 
 	<string
 		id="add_damage_guns2_diz"
-		value="Свободный затвор с плавающей муфтой обеспечит максимальную начальную скорость вашим снарядам. | Повреждение огнестрельного оружия +40%" />
+		value="With this gadget your guns will deal more damage. Advanced model. | Guns damage +40%" />
 
 	<string
 		id="add_damage_energy2_diz"
-		value="Кварцевый резонатор позволяет практически удваивать количество испускаемой энергии. | Повреждение энергетического оружия +40%" />
+		value="With this gadget your energy weapons will deal more damage. Advanced model. | Energy weapon damage +40%" />
 
 	<string
 		id="add_damage_explosion2_diz"
-		value="Магнитная катапульта на базе генератора вихревых полей сообщит снаряду вашей пушки максимально возможное ускорение.| Повреждение  артиллерии +40%" />
+		value="With this gadget your explosion weapons will deal more damage. Advanced model. | Explosion weapon damage +40%" />
 
 	<string
 		id="cooling_system_guns_and_firing_rate_guns_diz"
-		value="Система &quot;Гномон&quot; обеспечивает эффективное охлаждение ствола и быструю перезарядку пулемётов. | Скорость перезарядки огнестрельного оружия +30% |  Скорострельность огнестрельного оружия +30%" />
+		value="Your guns will shoot faster and reload time will shorten. | Guns recharge speed +30% |  Guns firing rate +30%" />
 
 	<string
 		id="cooling_system_energy_and_firing_rate_energy_diz"
-		value="Комплекс &quot;Алгор&quot; повысит скорострельность любого энергетического оружия и защитит его от перегрева. | Скорость перезарядки энергетического оружия +30% | Скорострельность энергетического оружия +30%" />
+		value="Your energy weapons will shoot faster and reload time will shorten. | Energy weapons recharge speed +30% | Energy weapons firing rate +30%" />
 
 	<string
 		id="cooling_system_explosion_and_firing_rate_explosion_diz"
-		value="Система &quot;Самум&quot; оптимизирует боепитание и предохраняет орудийный ствол от перегрева.| Скорость перезарядки артиллерии +30% | Скорострельность артиллерии +30%" />
+		value="Your explosion weapons will shoot faster and reload time will shorten. | Explosion weapons recharge speed +30% | Artillery firing rate +30%" />
 
 	<string
 		id="firing_rate_guns_and_add_damage_guns_diz"
-		value="Электромеханический комплекс &quot;Сфено&quot;  увеличивает начальную скорость полёта пули и оптимизирует боепитание вашего пулемёта.| Скорострельность огнестрельного оружия +30% | Повреждение огнестрельного оружия +30%" />
+		value="Increases firing rate and damage done by your guns. | Guns firing rate +30% | Guns damage +30%" />
 
 	<string
 		id="firing_rate_energy_and_add_damage_energy_diz"
-		value="Магнитно-оптическая система &quot;Квазар&quot; увеличит энергетический потенциал и скорость работы вашего энергооружия. | Скорострельность энергетического оружия +20% | Повреждение энергетического оружия +40%" />
+		value="Increases firing rate and damage done by your energy weapons. | Energy weapons firing rate +30% | Energy weapon damage +30%" />
 
 	<string
 		id="firing_rate_explosion_and_add_damage_explosion_diz"
-		value="Электромеханический комплекс &quot;Огненный шторм&quot; ускоряет боепитание и придаёт дополнительное ускорение пушечному снаряду. | Скорострельность артиллерии +20% | Повреждение  артиллерии +40%" />
+		value="Increases firing rate and damage done by your explosion weapons. | Artillery firing rate +30% | Explosion weapon damage +30%" />
 
 	<string
 		id="add_damage_guns_and_grouping_angle_guns_diz"
-		value="Комплекс &quot;FireEye&quot; - Магнитный ускоритель и прицельное электронное устройство обеспечат вашим врагам незабываемые воспоминания.| Повреждение огнестрельного оружия +30% | Точность огнестрельного оружия +30%" />
+		value="Increases accuracy and damage done by your guns. | Guns damage +30% | Guns accuracy +30%" />
 
 	<string
 		id="add_damage_energy_and_firing_rate_energy_diz"
-		value="Система &quot;Doom-4&quot; Заметно увеличивает скорость работы и боевой потенциал вашего энергооружия. | Скорострельность энергетического оружия +30% | Повреждение энергетического оружия +30%" />
+		value="Increases firing rate and damage done by your energy weapons.Rev.2. | Energy weapons firing rate +30% | Energy weapon damage +30%" />
 
 	<string
 		id="add_damage_explosion_firing_rate_explosion_diz"
-		value="Электромеханический комплекс &quot;Давид&quot; обеспечивает быструю подачу боеприпаса в казенную часть орудия и высокую начальную скорость снаряда. |  Скорострельность артиллерии +30% | Повреждение  артиллерии +30%" />
+		value="Increases firing rate and damage done by your explosion weapons.Rev.2. |  Artillery firing rate +30% | Explosion weapon damage +30%" />
 
 	<string
 		id="additional_fuel_tank_diz"
-		value="Обычная канистра, будучи соединена напрямую с карбюратором, фактически превращается в дополнительный бензобак.| Объём топливного бака +50%" />
+		value="Larger fuel tank capacity allows you to travel at longer distances. | Fuel tank capacity +50%" />
 
 	<string
 		id="additional_torque_diz"
-		value="Дополнительная выхлопная труба. | Мощность +10%" />
+		value="Increases torque of your truck. | Torque +10%" />
 
 	<string
 		id="additional_durability_diz"
-		value="Катанные броневые листы на корпус кабины. | Броня +10%" />
+		value="Increases armor. Feel like a tank. | Armor +10%" />
 
 	<string
 		id="additional_stability_diz"
-		value="Улучшение топливной системы уменьшит шансы случайного возгорания в моторном отсеке. | Конструкция +50" />
+		value="Adds some stability to your truck on roads. | Controllability +10%" />
 
 	<string
 		id="additional_fuel_tank2_diz"
-		value="Большая канистра, будучи соединена напрямую с карбюратором, фактически превращается в дополнительный бензобак.| Объём топливного бака +100%" />
+		value="Larger fuel tank capacity allows you to travel at longer distances. . Advanced model. | Fuel tank capacity +100%" />
 
 	<string
 		id="additional_torque2_diz"
-		value="Турбонаддув позволит подать в цилиндры больше топлива, что приведёт к увеличению мощности двигателя. | Мощность +20%" />
+		value="Increases torque of your truck. Advanced model. | Torque +20%" />
 
 	<string
 		id="additional_durability2_diz"
-		value="Катанные броневые листы с дополнительным цементированием. | Броня +20%" />
+		value="Increases armor. Feel like a tank. Advanced model | Armor +20%" />
 
 	<string
 		id="add_speed_and_torque_diz"
-		value="Электронная инжекторная система.  | Скорость +15% | Мощность +15%" />
+		value="Increases speed and torque of your truck. | Speed +15% | Torque +15%" />
 
 	<string
 		id="add_stability_and_speed_diz"
-		value="Система &quot;Sagitta&quot; включает в себя улучшенный редуктор, стабилизирующий работу трансмиссии. | Конструкция +75 | Скорость +20%" />
+		value="Increases construction and speed of your truck. | Construction +75% | Speed +20%" />
 
 	<string
 		id="add_torque_and_stability_diz"
-		value="Система &quot;Альбатрос&quot; состоит из технологичного впускного коллектора и эффективной выхлопной системы. | Конструкция +100 | Мощность +15%" />
+		value="Increases torque and construction of your truck. | Torque +15% | Construction +100" />
 
 	<string
 		id="additional_fuel_tank2_add_damage_guns_diz"
-		value="Система &quot;Сато&quot; - дополнительный бак, включающий в себя сверхнадёжный топливный насос. | Конструкция +125 | Объём топливного бака +75%" />
+		value="Makes your fuel tank bigger and increases construction of your truck. | Fuel tank capacity +75% | Construction +125" />
 <!-- Wares ______________________________________________-->
 	<string
 		id="potato_diz"
-		value="Картошка - она и есть. Что тут добавишь. Основной источник пропитания для всех людей." />
+		value="A sac of potatoes" />
 
 	<string
 		id="scrap_metal_diz"
-		value="Из обломков иногда удаётся сколотить неплохие детали для грузовика. Ещё говорят, что кто-то научился переплавлять ржавый металл в слитки." />
+		value="A pile of rusty metal" />
 
 	<string
 		id="firewood_diz"
-		value="Дерево всегда было источником тепла. Как в качестве топлива, так и в качестве дешёвого строительного материала." />
+		value="A bunch of wood" />
 
 	<string
 		id="oil_diz"
-		value="Тот, кто контролирует нефть, контролирует и грузоперевозки. Поэтому вокруг этого ценного товара часто плетутся интриги." />
+		value="A barrel of raw oil" />
 
 	<string
 		id="gear_diz"
-		value="Сменные детали механизмов, без которых не может обойтись ни один механик." />
+		value="Parts of mechanisms" />
 
 	<string
 		id="bottle_diz"
-		value="Украшение из разноцветного стекла приносит удачу и привлекает деньги. Чем больше целый кусок, тем выше ценность." />
+		value="A rare beautiful thing" />
 
 	<string
 		id="fuel_diz"
-		value="Высокооктановое горючее встречается очень редко и обладает немалой стоимостью." />
+		value="Precious fuel" />
 
 	<string
 		id="fibreboard_diz"
-		value="Дома из переработанной древесины прочнее и теплее, чем мазанки и избы." />
+		value="Good construction material" />
 
 	<string
 		id="machinery_diz"
-		value="Иногда шахтёрам удаётся откопать целые агрегаты, которые выглядят работающими. При должной сноровке из них можно создать по-настоящему ценную технику." />
+		value="Working mechanisms" />
 
 	<string
 		id="tobacco_diz"
-		value="Неизвестно, что делали в прошлом при помощи этих вонючих палочек, но сегодня они активно используются в качестве ингредиента для снадобий." />
+		value="Tobacco'" />
 
 	<string
 		id="book_diz"
-		value="Старые книги. Сегодня немногие умеют читать, но те, кто умеет, готовы заплатить неплохие деньги за мудрость веков, сокрытую среди пожелтевших листов." />
+		value="Ancient books by authors unknown" />
 
 	<string
 		id="electronics_diz"
-		value="Самые продвинутые модели техники нуждаются в тонкой высокотехнологичной начинке. Страшно подумать, что случится, когда месторождения электроники иссякнут." />
+		value="Electronics" />
 <!-- Weapons ______________________________________________-->
 	<string
 		id="vulcan01_diz"
-		value="Многоствольный пулемёт калибра 5,56 посылает во врага море свинца. Правда, мощная отдача может даже перевернуть небольшой автомобиль" />
+		value="This minigun sends thousands of bullets toward its target" />
 
 	<string
 		id="hornet01_diz"
-		value="Пулемёт калибра 5,45 - пожалуй, самое слабое автоматическое оружие, которым можно оборудовать грузовик." />
+		value="5,45 mm machinegun is the weakest weapon you can arm your truck with. " />
 
 	<string
 		id="specter01_diz"
-		value="Спаренный пулемёт калибра 5,45. Два ствола и малое время перезарядки позволяют вести почти непрерывный огонь." />
+		value="5,45 mm paired machinegun is a lot more effective than its one-barreled prototype " />
 
 	<string
 		id="pkt01_diz"
-		value="Пулемёт калибра 7,62 - с ним уже можно не бояться отправляться в недалёкое путешествие." />
+		value="7,62 mm machinegun – it will probably save you a difficult journey." />
 
 	<string
 		id="kord01_diz"
-		value="Пулемёт калибра 12,7 - достойное оружие для борца с бандитами." />
+		value="12,7 mm machinegun – a nice weapon to defend from the raiders." />
 
 	<string
 		id="vector01_diz"
-		value="Мелкокалиберная пушка - хороший выбор для начинающего путешественника." />
+		value="Powerful canon. A good choice for the novice adventurer." />
 
 	<string
 		id="maxim01_diz"
-		value="Малый импульсный лазер, несмотря на небольшую мощность, прожигает насквозь почти любую броню." />
+		value="Smallest military laser is more a decoration than the real weapon, but it has its pluses though " />
 
 	<string
 		id="rapier01_diz"
-		value="Дальнобойная пушка калибра 23 мм является серьёзным оружием в умелых руках. " />
+		value="20 mm long-range canon will let you attack from far " />
 
 	<string
 		id="storm01_diz"
-		value="Дробовик наносит значительные повреждения на близком расстоянии." />
+		value="Shotgun deals heavy damage in close distance. " />
 
 	<string
 		id="fagot01_diz"
-		value="Заряд плазмы, посылаемый этим оружием, летит с небольшой скоростью, но при удачном попадании может буквально испепелить противника." />
+		value="20 mm rapid-fire canon can shake down an aircraft." />
 
 	<string
 		id="kpvt01_diz"
-		value="Пулемёт калибра 14,5 - настоящий монстр, прошивающий тонкую броню, как бумагу. " />
+		value="14,5 mm machinegun pierces armor as if it were paper. " />
 
 	<string
 		id="rainmetal01_diz"
-		value="Скорострельная пушка калибра 20 мм - прекрасный выбор для охоты на двуногого зверя. " />
+		value="20 mm quick-firer  is a nice selection for a the two legged beast hunt. " />
 
 	<string
 		id="octopus01_diz"
-		value="Скорострельная пушка калибра 23 мм хороша для поражения низколетящих самолетов. Ввиду полного их отсутствия в современном мире переоборудована для наземных целей." />
+		value="20 mm rapid-fire canon can shake down an aircraft." />
 
 	<string
 		id="cyclops01_diz"
-		value="Дальнобойная пушка калибра 37 мм - мощное средство уничтожения врага на дальних дистанциях." />
+		value="37 mm long range canon " />
 
 	<string
 		id="bumblebee01_diz"
-		value="Поражение значительной площади с большой скоростью - это то, что нужно честному торговцу в борьбе с шайкой бандитов." />
+		value="Strikes a large area with high speed and damage. " />
 
 	<string
 		id="elephant01_diz"
-		value="Весьма достойный плазмомёт. Во всяком случае, никто из противников не жаловался." />
+		value="Energy weapon " />
 
 	<string
 		id="flag01_diz"
-		value="Тяжёлый дробовик - это веский аргумент для врагов, чтобы не подходить к вашей машине вплотную." />
+		value="Heavy shotgun will blast anyone who dares to get too close. " />
 
 	<string
 		id="hurricane01_diz"
-		value="Это ракетница выстреливает ракеты с небольшим зарядом, но она выпускает очень много таких ракет." />
+		value="Fires a burst of missiles. " />
 
 	<string
 		id="big_swingfire01_diz"
-		value="Это ракетница позволяет накрыть одним залпом несколько противников разом." />
+		value="Deals a lot of damage on enemies within certain radius." />
 
 	<string
 		id="rocketLauncher_diz"
-		value="Оправдывая свое название, эта установка может вызвать настоящий огненный шторм на поле боя." />
+		value="Creates a firestorm on the battlefield" />
 
 	<string
 		id="hailSideGun_diz"
-		value="Применять в экстремальной ситуации для случайного поражения противника вокруг вашей машины. Работает только против наземных целей." />
+		value="For use in extreme situations only. " />
 
 	<string
 		id="hammer01_diz"
-		value="Окончательный довод в ведении боя. Одного попадания достаточно, чтобы превратить в пар грузовик среднего размера." />
+		value="Ultimate argument on the battlefield. One hit can burn to ashes a middle sized truck." />
 
 	<string
 		id="odin01_diz"
-		value="Это оружие устроит вашему противнику переплавку машины без всякой доменной печи." />
+		value="Spectacular and destructive weapon." />
 
 	<string
 		id="omega01_diz"
-		value="Если враг пытается взять вас не умением, а числом, то эта пушка как раз для такого случая." />
+		value="Good to get rid of numerous weak enemies." />
 
 	<string
 		id="mrakSideGun_diz"
-		value="Попадание из этой ракетницы не оставляет противнику шансов. Даже на похороны." />
+		value="It deals a good amount of damage over a short period." />
 
 	<string
 		id="hunterSideGun_diz"
-		value="Эти ракеты характеризуются двумя словами: &quot;быстрые&quot; и &quot;эффективные&quot;. А враг после знакомства с ними характеризуется словами &quot;тихий&quot; и &quot;мертвый&quot;." />
+		value="Most powerful rocket launcher." />
 
 	<string
 		id="zeusSideGun_diz"
-		value="Молния поражает все вражеские машины на небольшом расстоянии" />
+		value="Lightning hits all enemy cars around." />
 
 	<string
 		id="marsSideGun_diz"
-		value="Поражает все машины справа и слева от вашего грузовика залпом взрывающихся зарядов." />
+		value="Damages all cars to the right and to the left of your truck." />
 
 	<string
 		id="someTurboAccelerationPusher_diz"
-		value="Машина игрока ускоряется в 1,5 раза на 5 секунд." />
-<!-- Various crap ______________________________________________-->
+		value="Increases your truck’s speed for several seconds. " />
+
 	<string
 		id="engineOilPusher_diz"
-		value="Это средство заставит противника на некоторое время переключить свое внимание со сражения на управление машиной. " />
+		value="Certain way to outrun your enemies." />
 
 	<string
 		id="nailsPusher_diz"
-		value="Это средство поможет избавиться вашему противнику от шин, а вам от противника. Проколотые колеса - верный способ обездвижить врага хотя бы на несколько секунд." />
+		value="Stops enemy for several seconds." />
 
 	<string
 		id="minePusher_diz"
-		value="Поражает противника на значительной области. К сожалению, не так сильно, как хотелось бы." />
+		value="Wide blast area and small damage. " />
 
 	<string
 		id="minePusher_1_diz"
-		value="Больший запас активного вещества и усовершенствованная оболочка делают снаряды этого миноукладчика действительно опасными." />
+		value="More dangerous mine. " />
 
 	<string
 		id="minePusher_2_diz"
-		value="Встроенные датчики и система управления взрывом позволяют этой мине выбирать оптимальное время и место для атаки, чтобы нанести максимальный урон противнику." />
-<!-- cabins -->
+		value="Maximal damage mine." />
+<!-- Cabins and baskets ______________________________________________-->
 	<string
 		id="bugCab01_diz"
-		value="Самая простая кабина Вэна." />
+		value="The simplest cabin of the Van." />
 
 	<string
 		id="bugCab02_diz"
-		value="Слегка модифицированная кабина Вэна." />
+		value="Slightly modified cabin of the Van." />
 
 	<string
 		id="bugCab03_diz"
-		value="Кабина Вэна, подвергнутая сильной модификации." />
+		value="Standard Van cabin heavily modified." />
 
 	<string
 		id="molokovozCab01_diz"
-		value="Обычная кабина Молоковоза. Без претензий и мест под оружие." />
+		value="Usual Lorry cabin. Without claims and places for the weapon." />
 
 	<string
 		id="molokovozCab02_diz"
-		value="Чуть улучшенная модель стандартной кабины." />
+		value="Slightly improved model of a standard cabin." />
 
 	<string
 		id="molokovozCab03_diz"
-		value="Переработанная модель кабины, в которой появилось место под оружие, а также несколько устрашающих шипов." />
+		value="The advanced model of a cabin with enough place for the weapon and some frightening thorns." />
 
 	<string
 		id="uralCab01_diz"
-		value="Начальная модель кабины Урала." />
+		value="Initial model of a cabin of Ural." />
 
 	<string
 		id="uralCab02_diz"
-		value="Усовершенствованная кабина Урала." />
+		value="Version of a cabin for trade. The price is lowered due to weaker arms." />
 
 	<string
 		id="uralCab03_diz"
-		value="Кабина, подготовленная для боевых действий. Улучшенная броня. Два слота под оружие." />
+		value="Standard cabin prepared for operations. The improved armor. Two slots for the weapon." />
 
 	<string
 		id="uralCab04_diz"
-		value="Переработанная кабина Урала, вдохновлённая заморскими грузовиками." />
+		value="The improved version for trade. It is already possible to put a serious gun on it." />
 
 	<string
 		id="uralCab05_diz"
-		value="Эта кабина содержит наибольшее число модификаций. Броня, вооружение, мощность, скорость." />
+		value="This cabin contains the greatest number of upgrades. The armor, arms, torque, speed." />
 
 	<string
 		id="belazCab01_diz"
-		value="Самая дешёвая и простая кабина для Белаза. Можно поставить маленькую пушку и несколько устройств улучшения автомобиля." />
+		value="The cheapest and simple cabin for Belaz. It is possible to put a small gun and a couple of gadgets." />
 
 	<string
 		id="belazCab02_diz"
-		value="Хороший выбор для тех, кто уже обзавёлся Белазом и увлёкся торговлей." />
+		value="The good choice for those who have already got Belaz and have taken a great interest in trade. " />
 
 	<string
 		id="belazCab03_diz"
-		value="Идеальный выбор для торговцев." />
+		value="Ideal choice for traders." />
 
 	<string
 		id="belazCab04_diz"
-		value="Эта кабина предназначена для торговцев, которые уделяют внимание не только мощности мотора, но и безопасности во время перевозок." />
+		value="This cabin is intended for dealers who pay attention not only torque of the motor and to volume of a body, but also safety during transportations." />
 
 	<string
 		id="belazCab05_diz"
-		value="Кабина, сочетающая в себе превосходные ходовые качества и хорошую огневую мощь." />
+		value="The cabin combining excellent road performance and good fire power." />
 
 	<string
 		id="mirotvorecCab01_diz"
-		value="Базовая модель кабины Миротворца. Даже самая простая кабина обладает незаурядными ходовыми и боевыми качествами. " />
+		value="Base model of a cabin of the Peacekeeper. Even the simplest cabin possesses uncommon running and fighting qualities." />
 
 	<string
 		id="mirotvorecCab02_diz"
-		value="Модификация базовой модели. Улучшены основные параметры." />
+		value="Modification of base model. Critical parameters are improved." />
 
 	<string
 		id="mirotvorecCab03_diz"
-		value="На эту модификацию кабины можно установить две большие пушки." />
+		value="On this version of a cabin it is possible to establish two big guns. " />
 
 	<string
 		id="mirotvorecCab04_diz"
-		value="Больше скорости, брони, мощи." />
+		value="More speed, armor, power." />
 
 	<string
 		id="mirotvorecCab05_diz"
-		value="Лучшая модель кабины для Миротворца. На это чудо техники можно поставить гигантскую пушку, а врагам остаётся только ждать смерти или спасаться бегством." />
-<!-- baskets -->
+		value="Top model of a cabin for the Peacekeeper. On this miracle of mechanics it is possible to put a huge gun, and enemies need to wait only for death or to seek safety in flight." />
+
 	<string
 		id="bugCargo01_diz"
-		value="Самый маленький и простой кузов для Вэна." />
+		value="The smallest and the simplest body for the Van." />
 
 	<string
 		id="bugCargo02_diz"
-		value="Чуть больше места для грузов, чем в базовой модели. Также присутствует место для специального оружия." />
+		value="There is more place for cargo than in base model. There is space for special weapon, too." />
 
 	<string
 		id="bugCargo03_diz"
-		value="Кузов обладает грузоподъёмностью, которой хватит начинающему торговцу, и бронёй для начинающего сорвиголовы." />
+		value="The body possesses carrying capacity which will suffice the beginning trader, and the armor, for a beginner daredevil." />
 
 	<string
 		id="molokovozCargo01_diz"
-		value="Большой кузов и место под оружие - неплохо для самой простой модификации." />
+		value="The big body and place for the weapon - it is quite good for the simplest version." />
 
 	<string
 		id="molokovozCargo02_diz"
-		value="Слегка улучшенный базовый кузов. Больше брони и место под специальное оружие." />
+		value="Slightly improved base body It carries more armor and has a slot for the special weapon." />
 
 	<string
 		id="molokovozCargo03_diz"
-		value="Лучший кузов для Молоковоза - тяжёлая броня и место для большой пушки." />
+		value="Slightly improved base body. It has better armor and a place for the special weapon." />
 
 	<string
 		id="uralCargo01_diz"
-		value="Достаточно вместителен для торговли, достаточно прочен для боя." />
+		value="Good for trade, armored enough. " />
 
 	<string
 		id="uralCargo02_diz"
-		value="На этот кузов можно поставить не только специальное оружие, но и боковые пушки, которые являются серьёзным аргументом против самых сильных противников." />
+		value="It is capacious enough for trade, there is enough hard for fight." />
 
 	<string
 		id="uralCargo03_diz"
-		value="Эта модель кузова скорее предназначена для боевых действий, чем для торговли, а возможность установить гигантскую пушку делает её отличным решением для любителей пострелять, которым ещё не хватает денег на самую дорогую модель." />
+		value="This body offers smaller fire power, but thicker armor.  " />
 
 	<string
 		id="uralCargo04_diz"
-		value="Этот кузов предлагает небольшую огневую мощь, но толстую броню." />
+		value="This model of a body is intended for operations rather than trade. And the opportunity to establish a giant gun makes this body the best choice for fans of shooting who do not have money for the most advanced model yet." />
 
 	<string
 		id="uralCargo05_diz"
-		value="Это верхняя модель среди кузовов для Урала. Её прямое назначение - бой. Хорошая огневая мощь и непробиваемая броня." />
+		value="It is a top model among bodies for Ural. Fighting is its direct purpose. It has good fire power and impenetrable armor." />
 
 	<string
 		id="belazCargo01_diz"
-		value="Хотя этот кузов и похож на бочку, он обладает хорошей грузоподъёмностью." />
+		value="Though this body looks like a can, it possesses good load-carrying capacity." />
 
 	<string
 		id="belazCargo02_diz"
-		value="Предназначен для тех, кто занимается торговлей. Покупка этого кузова - первый шаг для достижения мечты любого дальнобойщика." />
+		value="The body Is intended for those who are engaged in trade. Purchase of this body - a first step for achievement of dream of any trucker." />
 
 	<string
 		id="belazCargo03_diz"
-		value="Помимо непревзойдённой вместительности кузова, довольно хорошо приспособлен для боя с мародёрами." />
+		value="Unsurpassed cargo hold of a body, it is well enough adapted for fight with marauders." />
 
 	<string
 		id="belazCargo04_diz"
-		value="Отлично приспособлен для боя - гигантские пушки и непробиваемая броня." />
+		value="It is more adapted for fight, than for trade. A huge gun and the impenetrable armor." />
 
 	<string
 		id="belazCargo05_diz"
-		value="Практически непробиваемый кузов для торговли и боя. Выдержит претензии любых бандитов." />
+		value="Practically impenetrable body for trade and fight. Will sustain claims of any gangsters." />
 
 	<string
 		id="mirotvorecCargo01_diz"
-		value="Стандартный кузов Миротворца. Много брони, много места для грузов, место для хорошей пушки." />
+		value="Standard body of the Peacekeeper. Lost of armor. Good cargo hold. A place for a good gun." />
 
 	<string
 		id="mirotvorecCargo02_diz"
-		value="Ещё больше брони. Также есть место под гигантскую пушку и специальное оружие." />
+		value="It is even more armor. As there is a place under a huge gun and the special weapon." />
 
 	<string
 		id="mirotvorecCargo03_diz"
-		value="На этот кузов можно поставить такой арсенал оружия, что большинство врагов не захотят с вами связываться." />
+		value="You can put such an arsenal of the weapon on this body that the majority of enemies will not want to deal with you." />
 
 	<string
 		id="mirotvorecCargo04_diz"
-		value="Почти совершенство для ведения боя против целой армии врагов." />
+		value="Almost perfect for conducting fights one against army." />
 
 	<string
 		id="mirotvorecCargo05_diz"
-		value="Совершенство военных технологий. Всё, о чем может мечтать простой вояка." />
+		value="Perfection of military technologies. Everything any militarist could dream of." />
 
 	<string
 		id="ArcadeScout01_diz"
-		value="Вездеходный Скаут. Предназначен для путешествий по самым причудливым местам." />
+		value="Cross-country Scout. It is intended for travel in the most freakish places. " />
 
 	<string
 		id="arcadescoutCab_diz"
-		value="Кабина вездеходного Скаута." />
+		value="Cross-country Scout cabin." />
 
 	<string
 		id="hunterCab01_diz"
-		value="Кабина Охотника." />
+		value="Hunter’s cabin." />
 
 	<string
 		id="hunterCab02_diz"
-		value="Модифицированная кабина охотника." />
+		value="Hunter’s improved cabin." />
 
 	<string
 		id="fighterCab01_diz"
-		value="Кабина Бойца." />
+		value="Fighter’s cabin." />
 
 	<string
 		id="fighterCab02_diz"
-		value="Модифицированная кабина Бойца." />
+		value="Fighter’s improved cabin." />
 
 	<string
 		id="cruiserCab01_diz"
-		value="Кабина Крейсера." />
+		value="Cruiser’s cabin." />
 
 	<string
 		id="cruiserCab02_diz"
-		value="Модифицированная кабина Крейсера." />
-		
+		value="Cruiser’s improved cabin." />
+
 	<string
 		id="cruiserCargo01_diz"
-		value="Кузов Крейсера." />
+		value="Cruiser’s cabin." />
 
 	<string
 		id="cruiserCargo02_diz"
-		value="Модифицированный кузов Крейсера." />
+		value="Cruiser’s improved cabin." />
 <!-- Gadgets ______________________________________________--><!-- QuestItems ___________________________________________-->
 	<string
 		id="quest_monster_head_diz"
 		locForm="0"
-		value="Мне пришлось выдержать непростое сражение, чтобы заполучить этот кусок металла с торчащими проводами." />
+		value="It was hard to obtain. I hope the Oracle's disciples will be satisfied with it." />
 
 	<string
 		id="quest_magic_thing1_diz"
 		locForm="0"
-		value="Думаю, этот непонятный артефакт вполне устроит Оракула." />
+		value="I am note sure about this thing, but the Oracle gave no precise description of the artifacts he need. This should do the trick." />
 
 	<string
 		id="quest_magic_thing2_diz"
 		locForm="0"
-		value="Оракул не уточнил, что именно ему нужно привезти, так что этот механизм вполне подойдёт." />
+		value="I hope the Oracle will find this device useful. I don't want to come back to the factory." />
 
 	<string
 		id="quest_explosion_stone_diz"
 		locForm="0"
-		value="Друиды утверждают, что этот камень может обрушить на головы неверных гнев матери-земли. Похоже, это что-то вроде взрывчатки, так что мне лучше находиться подальше, когда заклинание наберёт силу." />
+		value="According to druids, this stone will call forth the Earth's anger. I'd better be far away when it happens." />
 
 	<string
 		id="quest_repair_robot1_diz"
 		locForm="0"
-		value="Действие этого устройства должно помочь Оракулу вернуть память." />
+		value="This should help the Oracle to regain his memories." />
 
 	<string
 		id="quest_repair_robot2_diz"
 		locForm="0"
-		value="Подключение дополнительных модулей расширит функциональность Оракула. Что бы ни значили эти мудреные слова." />
+		value="This should help the Oracle to regain his memories." />
 
 	<string
 		id="quest_repair_robot3_diz"
 		locForm="0"
-		value="Тонкая настройка – завершающая стадия возвращения памяти Оракулу. Этот прибор должен совершить операцию." />
+		value="This should help the Oracle to regain his memories." />
 
 	<string
 		id="quest_start_father_letter_diz"
 		locForm="0"
-		value="&quot;Сын, если ты читаешь это письмо, значит я не смог вернуться и вырастить тебя сам. Я знаю, что Петр отлично справился с этой задачей. Я вижу тебя, такого молодого и полного сил, и сердце моё обливается слезами. Я виню себя за то, что меня не было рядом, когда ты рос. И это моё страшное наказание. Но знай, что я не мог поступить иначе. Передо мной стоит задача всей жизни. Только выполнив задуманное, смогу я успокоиться и вновь почувствовать себя человеком. Если нет... значит, я недостоин жить. Это письмо - извинение. Прости меня, если сможешь. Ты всегда в моём сердце...&quot;" />
+		value="If you are reading this letter, it means I couldn’t come back. Sad but true. I know Peter well and have no worriers about your education. My heart hurts at the thought of you becoming a man, while I am far away. It is a real torment. But you must know that I had no other choice, but to leave. Too much is at stake. I have to right the wrong. Only by achieving my goal can I prove myself worthy of being called father... and husband. I am sorry, son. Forgive me, if you can." />
 
 	<string
 		id="quest_potato_diz"
 		locForm="0"
-		value="Этот груз необходимо доставить в соседний город для завершения моей первой самостоятельной торговой сделки." />
+		value="This package must be delivered to Sergo, a friend of my father." />
 
 	<string
 		id="quest_medicine_box_diz"
 		locForm="0"
-		value="Ящик с медикаментами, найденный на развалинах древней больницы." />
+		value="A box of medicine, I found at the ruins of a hospital." />
 
 	<string
 		id="quest_explosive_diz"
 		locForm="0"
-		value="Заряд взрывчатки, достаточно мощный, чтобы пробить несколько метров бетона." />
+		value="An explosive charge powerful enough to blast reinforced concrete walls " />
 
 	<string
 		id="quest_wine_barrels_diz"
 		locForm="0"
-		value="Бочки вина, которое изготавливают в монастыре." />
+		value="The barrel that was given to me at the Monastery. I do not want to remember what I had to do in order to get it." />
 
 	<string
 		id="quest_komp_splav_diz"
 		locForm="0"
-		value="Композитный сплав необходим для изготовления устройства, которое позволит мне пересечь Пустыню Смерти." />
+		value="It is a necessary component for the device that will allow me to cross the desert." />
 
 	<string
 		id="quest_shaman_head1_diz"
 		locForm="0"
-		value="Этот страшный предмет нужно доставить в монастырь." />
+		value="I must deliver this terrible thing to the Monastery" />
 
 	<string
 		id="quest_shaman_head2_diz"
 		locForm="0"
-		value="Этот страшный предмет нужно доставить в монастырь." />
+		value="I must deliver this terrible thing to the Monastery" />
 
 	<string
 		id="quest_old_digital_diz"
 		locForm="0"
-		value="Старый полуразвалившийся двигатель. И кто только согласен платить деньги за такое старье?" />
+		value="A piece of rusty machinery. " />
 
 	<string
 		id="quest_art_masterpice_diz"
 		locForm="0"
-		value="Шедевр древнего искусства, за который знающий человек отвалит кругленькую сумму." />
+		value="Ancient masterpiece. The connoisseurs would pay greatly for it. " />
 
 	<string
 		id="quest_mafia_narcotik_diz"
 		locForm="0"
-		value="Груз наркотиков, случайно украденный у бандитского Босса." />
+		value="A cargo of narcotics that was stolen from the local criminals. " />
 
 	<string
 		id="quest_first_canistra_diz"
 		locForm="0"
-		value="Канистра, наполненная нефтью из освобождённой шахты." />
+		value="A canister of raw oil. I must deliver it as prove that my work is complete." />
 
 	<string
 		id="quest_disk_1_diz"
 		locForm="0"
-		value="Диск из тонкого пластика. Наверняка этот предмет представляет большую ценность." />
+		value="The disk that used to belong to Ivan Go. It probably contains information, concerning his disappearance. " />
 
 	<string
 		id="quest_disk_2_diz"
 		locForm="0"
-		value="Этот кусок пластика содержит код к дневнику Айвена Го. Имея оба диска, я смогу, наконец, узнать о его судьбе." />
+		value="The second disk, containing the password to access Ivan Go’s diary. " />
 
 	<string
 		id="quest_key_for_submarine_diz"
 		locForm="0"
-		value="Это хитроумное устройство как-то связано с перемещениями по морю." />
+		value="This sophisticated device is somehow connected with the sea travels. " />
 
 	<string
 		id="quest_key_for_tunnel_diz"
 		locForm="0"
-		value="Ключ от тоннеля, который ведет через горы." />
+		value="The key that opens the tunnel to the Oracles land." />
 
 	<string
 		id="Smoke_diz"
 		locForm="0"
-		value="Дымовая завеса." />
+		value="Smoke screen will not allow enemies to catch you too fast." />
 
 	<string
 		id="anti_missile_system_diz"
 		locForm="0"
-		value="Противоракетная защита." />
+		value="Anti-missile system will protect you from enemy missiles by confusing their sensors" />
 </resource>

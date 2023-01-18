@@ -2,529 +2,529 @@
 <resource>
 	<string
 		id="r1m1_TheTown_diz"
-		value="Крохотный город, существующий лишь торговлей с заезжими северными купцами." />
+		value="Small trade town" />
 
 	<string
 		id="r1m1_PetrolStationTown1_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m1_PetrolStationTown2_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m1_PetrolStationTown3_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m2_PetrolStationTown1_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m2_PetrolStationTown2_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m2_PetrolStationTown3_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m2_PetrolStationTown4_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m2_PetrolStationTown5_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m3_PetrolStationTown1_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m3_PetrolStationTown2_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m3_PetrolStationTown3_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m3_PetrolStationTown4_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m3_PetrolStationTown5_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m1_PetrolStationTown1_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m1_PetrolStationTown2_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m1_PetrolStationTown3_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m1_PetrolStationTown4_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m1_PetrolStationTown5_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m2_PetrolStationTown1_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m2_PetrolStationTown2_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r2m2_PetrolStationTown3_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m1_PetrolStationTown1_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m1_PetrolStationTown2_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m1_PetrolStationTown3_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m1_PetrolStationTown4_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m1_PetrolStationTown5_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m1_PetrolStationTown6_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m1_PetrolStationTown7_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r4m2_PetrolStationTown61_diz"
-		value="Заправка. Можно починиться и заправиться." />
+		value="This gas station offers some very useful services at a reasonable price. " />
 
 	<string
 		id="r1m1_TheContraVillage_diz"
-		value="Жители этой далёкой деревни недолюбливают иноземцев." />
+		value="The locals are often hostile to the visitors" />
 
 	<string
 		id="r1m1_TheGloohoe_diz"
-		value="Дом, милый дом." />
+		value="Home sweet home" />
 
 	<string
 		id="r1m1_TheOilVillage_diz"
-		value="Процветающая фермерская деревня." />
+		value="Prosperous village" />
 
 	<string
 		id="r1m1_TheFreedom_diz"
-		value="Это поселение чаще других подвергается нападениям бандитов." />
+		value="Distant village, rarely visited by foreigners" />
 
 	<string
 		id="r1m1_ToR1M3_diz"
-		value="Дорога на Фатерлянд" />
+		value="Road to Vaterland" />
 
 	<string
 		id="r1m1_ToR4M1_diz"
-		value="Дорога в Вахат" />
+		value="Road to Vahat" />
 
 	<string
 		id="r1m1_ToR1M2_diz"
-		value="Дорога в Риджин" />
+		value="Road to Ridzin" />
 
 	<string
 		id="r1m2_ToR1M1_diz"
-		value="Дорога в Край" />
+		value="Road to Krai" />
 
 	<string
 		id="r1m2_ToR1M3_diz"
-		value="Дорога на Фатерлянд" />
+		value="Road to Vaterland" />
 
 	<string
 		id="r1m4_ToR1M3_diz"
-		value="Дорога в Фатерлянд" />
+		value="Road to Vaterland" />
 
 	<string
 		id="r1m4_ToR3M1_diz"
-		value="В рощу друидов" />
+		value="Road to Sacred Grove" />
 
 	<string
 		id="r2m1_ToR2M2_diz"
-		value="Дорога на Аржан" />
+		value="Road to Argen" />
 
 	<string
 		id="r2m1_ToR2M2small_diz"
-		value="Тропа в Аржан" />
+		value="Road to Argen" />
 
 	<string
 		id="r2m1_ToR1M3_diz"
-		value="Дорога на Фатерлянд" />
+		value="Road to Vaterland" />
 
 	<string
 		id="r2m1_ToR3M1_diz"
-		value="Выезд в Рощу друидов" />
+		value="Road to Sacred Grove" />
 
 	<string
 		id="r2m2_ToR2M1_diz"
-		value="Дорога в Либриум" />
+		value="Road to Librium" />
 
 	<string
 		id="r2m2_ToR2M1small_diz"
-		value="Тропа в Либриум" />
+		value="Path to Librium" />
 
 	<string
 		id="r3m1_ToR2M1_diz"
-		value="Дорога на Либриум" />
+		value="Road to Librium" />
 
 	<string
 		id="r3m1_ToR3M2_diz"
-		value="Дорога на Игнотт" />
+		value="Road to Ignott" />
 
 	<string
 		id="r3m2_ToR3M1_diz"
-		value="Выезд в Рощу друидов" />
+		value="Road to Sacred Grove" />
 
 	<string
 		id="r4m1_ToR1M1_diz"
-		value="Выезд на Край" />
+		value="Road to Krai" />
 
 	<string
 		id="r4m1_ToR2M2_diz"
-		value="Выезд на Аржан" />
+		value="Road to Argen" />
 
 	<string
 		id="r4m1_ToR4M2_diz"
-		value="Выезд на Зармек" />
+		value="Road to Zarmek" />
 
 	<string
 		id="r1m2_Esting_diz"
-		value="Городок, окружённый фермерскими угодьями. Обеспечивает картофелем весь Риджин и добрую половину Фатерлянда." />
+		value="Border town, surrounded by fields" />
 
 	<string
 		id="r1m2_Midragd_diz"
-		value="Главный город Просветителей. По их собственному выражению, «научная столица возрожденного мира». Здесь всегда можно продать сломанную технику и артефакты, а при определенном везении - приобрести какое-нибудь эксклюзивное приспособление." />
+		value="Scientific centre of the new world" />
 
 	<string
 		id="r1m2_Porto_diz"
-		value="Вопреки сложившемуся мнению, просветители не только отсиживаются за городскими стенами, но и ищут пути скоростного передвижения по миру. Этот город, заново отстроенный и полностью функциональный порт, первая ласточка возрождения морских перевозок." />
+		value="The only known port town" />
 
 	<string
 		id="r1m2_TheArtefact_diz"
-		value="Местные фермеры обнаружили неподалёку старинный склад и переквалифицировались в искателей древностей." />
+		value="Farmer village" />
 
 	<string
 		id="r1m2_TheSign_diz"
-		value="Фермерское поселение" />
+		value="Farmer village" />
 
 	<string
 		id="r1m2_TheRace_diz"
-		value="Когда-то здесь проводились гонки на выживание, а теперь осталось лишь поле, покрытое металлическими обломками." />
+		value="Farmer village" />
 
 	<string
 		id="r1m2_TheOlimp_diz"
-		value="Трудно сказать, чем промышляют здешние жители, однако живут они вполне безбедно." />
+		value="Farmer village" />
 
 	<string
 		id="r1m2_TheTickets_diz"
-		value="Руины древнего амфитеатра привлекают в это место множество авантюристов." />
+		value="Village by the Colosseum" />
 
 	<string
 		id="r1m3_Pesht_diz"
-		value="Город-мост, находящийся на пересечении важнейших торговых путей, единственное место в мире, где официально берут плату за проезд. Поэтому различные группировки уже давно планируют захватить этот лакомый кусочек." />
+		value="Bridge town at the crossroads of the major trade roads is the only place in the world where the trucks must pay a fare. Many factions plan to conquer it, but so far no one succeed. " />
 
 	<string
 		id="r1m3_Asgard_diz"
-		value="На первый взгляд - это почти деревня, затерянная в глуши. Но на самом деле – центр контрабандной торговли с Окцидентом." />
+		value="At first glance it is just a village lost in the middle of nowhere but it is actually the center of clandestine trade with the Occident." />
 
 	<string
 		id="r1m3_Minin_diz"
-		value="Оплот свободной торговли и образец того, чего можно добиться честным трудом. Настоящая крепость, готовая во всеоружии встретить дружественный визит конкурентов." />
+		value="It is a bastion of free trade and a model of honest trade achievements." />
 
 	<string
 		id="r1m3_TheShahts_diz"
-		value="Здешние рабочие перелопачивают тонны песка и камней в поисках ценностей." />
+		value="The miners dig deep to find a slightest piece of precious materials or artifacts." />
 
 	<string
 		id="r1m3_TheForgotten_diz"
-		value="Видимо, врожденная лень не даёт жителям этой деревни нажиться за счёт выгодного расположения. А может быть, боязнь конкурентов." />
+		value="In spite of favorable location, this village is very poor. Probably because it cannot compete with the large factions. Or its people are just lazy." />
 
 	<string
 		id="r1m3_TheVozleMinin_diz"
-		value="Крохотная деревушка, жителям которой уже давно нечем заняться." />
+		value="A tiny village where nothing ever happens." />
 
 	<string
 		id="r1m3_TheBanditOilMine_diz"
-		value="Источник нефти. А также источник доходов северных торговцев." />
+		value="The source of oil of the NPT." />
 
 	<string
 		id="r1m3_TheBase_diz"
-		value="В недрах этой древней военной базы сокрыты тонны оружия." />
+		value="Tons of ancient weapons are buried in the basement of this ancient military base. " />
 
 	<string
 		id="r1m3_ToR1M1_diz"
-		value="Дорога в Край" />
+		value="Road to Krai" />
 
 	<string
 		id="r1m3_ToR2M1_diz"
-		value="Дорога на Либриум" />
+		value="Road to Librium" />
 
 	<string
 		id="r1m3_ToR1M2_diz"
-		value="Дорога в Риджин" />
+		value="Road to Ridzin" />
 
 	<string
 		id="r1m3_ToR1M4_diz"
-		value="Дорога в Хель" />
+		value="Road to Hel" />
 
 	<string
 		id="r1m4_TheOlme_diz"
-		value="Источник богатства торговцев северного пути, поставляющий им ежемесячно десятки тонн редчайших товаров, прекрасно сохранившихся в погодных условиях Хеля. К сожалению, местное население не всегда адекватно реагирует на появление иноземцев, поэтому город очень хорошо укреплён." />
+		value="This trade town is the North Path Traders’ important source of wealth. It provides them with rare merchandise and never-ending struggles with the locals." />
 
 	<string
 		id="r1m4_FVOnOcean_diz"
-		value="Рыбацкий поселок на берегу океана. &quot;Настоящие рыбаки не умирают&quot;, - гордо гласит местная поговорка." />
+		value="Village of fishers" />
 
 	<string
 		id="r1m4_FVNearOlme_diz"
-		value="Деревня, находящаяся на перекрёстке всех дорог." />
+		value="Small village" />
 
 	<string
 		id="r1m4_FVCalis_diz"
-		value="Поселение у руин" />
+		value="Calis" />
 
 	<string
 		id="r1m4_FVCordan_diz"
-		value="Даже болотистая почва приносит щедрые плоды, если её тщательно обрабатывать изо дня в день." />
+		value="Cordan" />
 
 	<string
 		id="r1m4_FVPerch_diz"
-		value="Отдалённый шахтёрский поселок. Местные жители – рыбаки в душе – расстроены такой ситуацией." />
+		value="Perch" />
 
 	<string
 		id="r1m4_FVBerko_diz"
-		value="Союзная торговцам деревня." />
+		value="Berko" />
 
 	<string
 		id="r1m4_StorageVil_diz"
-		value="Ценный стратегический объект, который постоянно переходит из рук рыбаков в лапы торговцев и обратно." />
+		value="Warehouse" />
 
 	<string
 		id="r2m1_TheGelvetcia_diz"
-		value="Столица СНГ, в её стенах рождаются стратегические планы борьбы с иноземными захватчиками, а также располагается центральный узел разветвлённой разведывательной сети." />
+		value="The capital of Commonwealth of Independent Towns. Within its walls strategic plans of battle against Crimson Dawn are born. " />
 
 	<string
 		id="r2m1_TheSel_diz"
-		value="Жители этого города и близлежащих деревень отдают всё делу защиты родной страны. Продовольственная и промышленная база СНГ." />
+		value="This town provides the main industrial support to the CIT army. " />
 
 	<string
 		id="r2m1_TheTuzz_diz"
-		value="Основная военная база Содружества, где день и ночь несут службу сотни солдат, готовые отразить любую опасность, грозящую мирному населению." />
+		value="CIT’s Military base, where hundreds of soldiers await orders to defend the native land. " />
 
 	<string
 		id="r2m1_TheDoubtful_diz"
-		value="Далёкая деревня." />
+		value="Distant village " />
 
 	<string
 		id="r2m1_TheUnderAttaks_diz"
-		value="Пограничная деревня, подвергающаяся частым атакам со стороны АР." />
+		value="This settlement is often being attacked by CD’s mercenaries." />
 
 	<string
 		id="r2m1_TheVill2_diz"
-		value="Жители этой деревни отдают всё для общего дела борьбы с АР." />
+		value="People of this village are ready to give all they have to support the soldiers in the battle against the CD." />
 
 	<string
 		id="r2m1_TheVill1_diz"
-		value="Обеспечение тыла – важная задача во время войны, поэтому жители трудятся не покладая рук." />
+		value="Logistics is an important part of the warfare, that’s why the locals work hard to help the army." />
 
 	<string
 		id="r2m2_Monastery_diz"
-		value="Опорный пункт Церкви Просвещения. Мало кто знает, что на самом деле прячется за его высокими стенами." />
+		value="Headquarters of the Church of Enlightenment. Few uninitiated actually visited it and returned." />
 
 	<string
 		id="r2m2_Marezzia_diz"
-		value="Запуганные люди трудятся здесь день и ночь, чтобы обеспечить продовольствием растущую армию наёмников Акселя." />
+		value="Scared people work here round the clock to provide supplies to the Axel’s mercenaries. " />
 
 	<string
 		id="r2m2_Zeon_diz"
-		value="Подземная база Акселя. Только горстка особо приближенных к нему людей знает её точное расположение. Именно здесь когда-то возникло движение Алого Рассвета, охватившее со временем целую страну." />
+		value="Axel’s hidden town. Only a couple of most trusted men know its whereabouts. It is the heart of the Crimson Down." />
 
 	<string
 		id="r2m2_Toskana_diz"
-		value="Неприступная крепость, координирующая действия огромной шайки головорезов, в которую превратилось народное ополчение Аржана." />
+		value="Unassailable fortress that coordinates the actions of a big gang of cutthroats that the people of Argen became." />
 
 	<string
 		id="r2m2_GranicaVillage_diz"
-		value="Пограничная деревня, как видно из её названия. Впрочем, какая граница имеется в виду, уже никто не помнит." />
+		value="Boundary settlement. However nobody remembers what border it is about. " />
 
 	<string
 		id="r2m2_ZnakiVillage_diz"
-		value="Фермерское поселение." />
+		value="Farmer settlement." />
 
 	<string
 		id="r2m2_NewVillage_diz"
-		value="Жителям этой деревни иногда приходится оказывать услуги обеим воюющим сторонам. Впрочем, они это предпочитают не афишировать." />
+		value="The people of this village are often attacked by both sides. " />
 
 	<string
 		id="r2m2_EnterToSubmarine_loc_diz"
-		value="В Вахат" />
+		value="To Vahat" />
 
 	<string
 		id="r3m1_TheSet_diz"
-		value="Величественный город друидов, возвышающийся над страной подобно вековому дубу." />
+		value="Grand town of the Druids raise its towers to the skies like the branches of a hundred-year-old oak." />
 
 	<string
 		id="r3m1_TheFist_diz"
-		value="Скромное поселение посреди лесов. Тихий уголок посреди бурь внешнего мира." />
+		value="Small settlement in the middle of the forest. A nice place to hide from the storms of the outer world. " />
 
 	<string
 		id="r3m1_TheUluk_diz"
-		value="Дети Железа, изменившие вере друидов, перестроили родной город в соответствии со своими представлениями о красоте." />
+		value="Children of Iron, former druids, rebuilt their town according to the new beliefs." />
 
 	<string
 		id="r3m1_TheRazboynik_diz"
-		value="Разбойничья деревушка." />
+		value="Village of ex-brigands" />
 
 	<string
 		id="r3m1_ToR1M4_diz"
-		value="Отсюда можно отправиться в Хель." />
+		value="Road to Hel" />
 
 	<string
 		id="r3m2_OracleDefendersVil_diz"
-		value="Защитники Оракула справляют здесь свои обряды в надежде, что он обратит на них свой взор." />
+		value="Oracle’s Disciples holds here their rites in hope to attract his attention." />
 
 	<string
 		id="r3m2_AloneDruid_diz"
-		value="Дом отшельника." />
+		value="Hermitage" />
 
 	<string
 		id="r4m1_TheGadad_diz"
-		value="Столица Вахата – истинная жемчужина Оазии. Этот город издревле славился непревзойденными оружейниками и зодчими." />
+		value="Once prosperous town has been reduced almost to rubble in the last few years. It preserved traces or the former greatness, though. " />
 
 	<string
 		id="r4m1_TheKef_diz"
-		value="Некогда цветущий город пришёл в упадок за последние несколько лет. Впрочем, он ещё хранит следы былого величия." />
+		value="The capital of Vahat is the true jewel of the Oasia. Since older days this town is well known for its unsurpassed gunsmiths and architects. " />
 
 	<string
 		id="r4m1_TheKazif_diz"
-		value="Горожане устраивают грандиозные представления для всех желающих испытать острые ощущения от гонок. К сожалению, мало кому удаётся добраться сюда." />
+		value="Townspeople organize spectacular races for everyone willing to participate. Not that there are too many people, however." />
 
 	<string
 		id="r4m1_r4_AlihamVil_diz"
-		value="Находящийся на самом краю Пустыни Смерти, этот посёлок пережил многое." />
+		value="Small town on the edge of the desert has witnessed a lot of strange and terrible events. " />
 
 	<string
 		id="r4m1_Buhara_loc_diz"
-		value="Древний порт на берегу высохшего моря. Десятки кораблей, которые никогда не увидят океанских просторов, доживают здесь свой век." />
+		value="Ancient port at the shore of the dead sea. Dozens of ships that will never see the ocean again rot here. " />
 
 	<string
 		id="r4m1_TheOilCity_diz"
-		value="Опора местной власти – богатейшее нефтяное месторождение." />
+		value="Richest oilfield in the world. " />
 
 	<string
 		id="r4m1_TheZuhel_diz"
-		value="Поселение, страдающее от постоянных нападений." />
+		value="Settlement, suffering from constant raider’s attacks." />
 
 	<Object
 		Name="PetrolStationTown1_diz"
-		FullName="Заправка" />
+		value="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2_diz"
-		FullName="Заправка" />
+		value="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3_diz"
-		FullName="Заправка" />
+		value="Gas station" />
 
 	<Object
 		Name="PetrolStationTown4_diz"
-		FullName="Заправка" />
+		value="Gas station" />
 
 	<Object
 		Name="PetrolStationTown5_diz"
-		FullName="Заправка" />
+		value="Gas station" />
 
 	<Object
 		Name="PetrolStationTown6"
-		FullName="Заправка" />
+		value="Gas station" />
 
 	<Object
 		Name="PetrolStationTown7"
-		FullName="Заправка" />
+		value="Gas station" />
 
 	<string
 		id="r4m2_ScientiferVillage_diz"
-		value="Научный посёлок, разбитый на границе нашего мира и источника иноземной заразы." />
+		value="Scientific settlement founded at near the source of alien radiation." />
 
 	<string
 		id="r4m2_MilitaryBase_diz"
-		value="Это место нагоняет страх на всю Оазию. Здесь собираются толпы безумцев, готовых убить любого. И отсюда они начинают свои кровавые походы." />
+		value="Whole Oasia dreads this place, where hundreds of madmen gather to start the next attack." />
 
 	<string
 		id="r4m2_PetrolStationTower_diz"
-		value="Заправка" />
+		value="Gas station" />
 
 	<string
 		id="demo_TheOlme_diz"
-		value="Источник богатства торговцев северного пути, поставляющий им ежемесячно десятки тонн редчайших товаров, прекрасно сохранившихся в погодных условиях Хеля. К сожалению, местное население не всегда адекватно реагирует на появление иноземцев, поэтому город очень хорошо укреплен." />
+		value="Large trade town. It is a source of rare merchandise and never-ending struggle with the locals." />
 
 	<string
 		id="demo_FVOnOcean_diz"
-		value="Рыбацкий посёлок на берегу океана. Настоящие рыбаки не умирают, - гордо гласит местная поговорка." />
+		value="Village of fishers." />
 
 	<string
 		id="demo_FVNearOlme_diz"
-		value="Деревня, находящаяся на перекрестке всех дорог." />
+		value="Small village." />
 
 	<string
 		id="demo_FVCalis_diz"
-		value="Поселение у руин " />
+		value="Settlement by the ruins " />
 
 	<string
 		id="demo_FVCordan_diz"
-		value="Даже болотистая почва приносит щедрые плоды, если её тщательно обрабатывать изо дня в день." />
+		value="You can live even by the swamp. " />
 
 	<string
 		id="demo_FVPerch_diz"
-		value="Отдаленный шахтерский поселок. Местные жители – рыбаки в душе – расстроены такой ситуацией." />
+		value="Distant miner village." />
 
 	<string
 		id="demo_FVBerko_diz"
-		value="Союзная торговцам деревня." />
+		value="Friends of traders live here." />
 
 	<string
 		id="r3m1_r3_FarVillage_diz"
-		value="Отдалённая деревня друидов. Здесь живут друиды, которые не хотят участвовать в войне с машинопоклонниками." />
+		value="This distant druids’ village serves as a refuge to the people who are tired from the war." />
 
 	<string
 		id="r4m2_CrazyBase_diz"
-		value="Военная база, кишащая вооруженными солдатами, которые готовы разорвать любого, кто окажется в радиусе досягаемости." />
+		value="Old military base, inhabited by the aggressive madmen. There are few people who passed through it alive. " />
 
 	<string
 		id="r3m2_AloneDruidBuilding_diz"
-		value="Жилище одинокого друида. Опротивел ему мир или он стал изгоем, история умалчивает." />
+		value="For some reason this sage druid left his brother and live here alone. " />
 
 	<string
 		id="ArcadeScout01_diz"
-		value="Заточенная машина. Имеет стандартный кузов, но все остальное уникально." />
+		value="Though this vehicle doesn’t look impressive, its stats are quite impressive. " />
 
 	<string
 		id="Formula01_diz"
-		value="Просто гоночная машина, собранная из металлолома." />
+		value="A race car made of junk." />
 </resource>
