@@ -1000,13 +1000,6 @@
 	</QuestInfo>
 
 	<QuestInfo
-		questName="d_Glagiators_Quest"
-		isMainQuest="0">
-		<Map
-			name="r1m2" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="d_HelpSideVillageSNG_Quest"
 		briefDiz="Protect the village."
 		fullDiz="The village is under attack! My vehicle is the closest to the battle location. I must help."
@@ -1079,15 +1072,6 @@
 
 		<Map
 			name="r2m2" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_MerIsThief_Quest"
-		briefDiz="Talk to Mayor"
-		isMainQuest="1">
-		<Map
-			name="r1m3"
-			targetObjName="Minin" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1229,36 +1213,12 @@
 	</QuestInfo>
 
 	<QuestInfo
-		questName="d_ReturnToBen_Quest"
-		briefDiz="Return to Ben."
-		fullDiz="That trail was cold. I hope Ben will come up with another plan. "
-		isMainQuest="1">
-		<Map
-			name="r1m2"
-			targetObjName="TheBen_House" />
-
-		<Map
-			name="r1m3"
-			targetObjName="ToR1M2" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="d_ReturnToTuzzAfterCaravan_Quest"
 		briefDiz="Follow caravan to Touse."
 		isMainQuest="1">
 		<Map
 			name="r2m1"
 			targetObjName="KARAVANvvt_vehicle_0" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_ReturnTuzzAfterTunel_Quest"
-		briefDiz="Return to Touse"
-		fullDiz="It’s time to return to Touse for a new assignment."
-		isMainQuest="1">
-		<Map
-			name="r2m1"
-			targetObjName="TheTuzz" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1349,26 +1309,6 @@
 		<Map
 			name="r2m1"
 			targetObjName="BossARCar" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_TalkAboutAksel_Quest"
-		briefDiz="Ask about Axel."
-		fullDiz="I must ask the locals about Axel. Especially where I can find him."
-		isMainQuest="1">
-		<Map
-			name="r2m1"
-			coordinate="6004.000 277.000 4372.000" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_TalkAboutLisa_Quest"
-		briefDiz="Ask About Alice"
-		fullDiz="Everybody knows Alice. I only need to ask and I will find her."
-		isMainQuest="1">
-		<Map
-			name="r2m1"
-			coordinate="6004.000 277.000 4372.000" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1824,15 +1764,6 @@
 	</QuestInfo>
 
 	<QuestInfo
-		questName="r1m3_FindManyWorkers_Quest"
-		briefDiz="Find somebody to work on the oil mine."
-		fullDiz="Liberating the oil mine was not enough to make it work. Now I must find somebody to work on it."
-		isMainQuest="0">
-		<Map
-			name="r1m3" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="r1m3_FindThiefFromFatherHouse"
 		briefDiz="Find the thief."
 		fullDiz="Everything is upside down at my father’s house. Somebody must have seen what had happened. I’ll ask in the Bar."
@@ -2177,14 +2108,6 @@
 		isMainQuest="1" />
 
 	<QuestInfo
-		questName="r2m2_FightWithAxelInArena_Quest1"
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			coordinate="3318.000 280.000 1260.000" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="r2m2_FightWithAxelInArena_Quest_1"
 		briefDiz="Meet Axel at the Arena"
 		isMainQuest="1">
@@ -2214,15 +2137,6 @@
 		<Map
 			name="r2m2"
 			targetObjName="ToR2M1" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="r2m2_FindMrPresident"
-		briefDiz="Arrive at the meeting place."
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			coordinate="756.000 261.000 3286.000" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2425,15 +2339,6 @@
 		<Map
 			name="r2m2"
 			targetObjName="Marezzia" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="r2m2_ReturnToMarecciaFromMrPresident"
-		briefDiz="Report to Marezzia"
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			coordinate="1829.361 -1.916 3300.456" />
 	</QuestInfo>
 
 	<QuestInfo
