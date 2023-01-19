@@ -2,361 +2,361 @@
 <ObjectNames>
 	<Object
 		Name="Esting"
-		FullName="ВОСТОЧНЫЙ" />
+		FullName="Aeterna" />
 
 	<Object
 		Name="Esting_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Esting_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="Esting_Bar"
-		FullName="Паб ''Счастливый''" />
+		FullName="Pub ''Happy''" />
 
 	<Object
 		Name="Esting_Bar_Barman"
-		FullName="Бармен Спайк " />
+		FullName="Barman Spike " />
 
 	<Object
 		Name="Fermer"
-		FullName="Фермер Хосе" />
+		FullName="Farmer Joseph" />
 
 	<Object
 		Name="MainSigner"
-		FullName="Механик Чакки" />
+		FullName="Chaki" />
 
 	<Object
 		Name="Kollizey1"
-		FullName="Организаторша" />
+		FullName="Bored man" />
 
 	<Object
 		Name="Midragd"
-		FullName="МИДГАРД" />
+		FullName="Midgard" />
 
 	<Object
 		Name="Midragd_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Midragd_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="Midragd_Bar"
-		FullName="Бар" />
+		FullName="Bar" />
 
 	<Object
 		Name="Midragd_Museum"
-		FullName="Музей" />
+		FullName="Museum" />
 
 	<Object
 		Name="Midragd_Bar_Barman"
-		FullName="Барменша Эшли" />
+		FullName="Barman" />
 
 	<Object
 		Name="Professor"
-		FullName="Профессор Мал" />
+		FullName="Doctor Lector" />
 
 	<Object
 		Name="Kollizey2"
-		FullName="Организаторша" />
+		FullName="Showman" />
 
 	<Object
 		Name="Citizen"
-		FullName="Житель Ёмоё" />
+		FullName="Citizen" />
 
 	<Object
 		Name="Zavhoz"
-		FullName="Завхоз Мидас" />
+		FullName="Steward" />
 
 	<Object
 		Name="Umelec"
-		FullName="Мастер Дока" />
+		FullName="Mr. Expert" />
 
 	<Object
 		Name="Porto"
-		FullName="ПОРТО" />
+		FullName="Porto" />
 
 	<Object
 		Name="Porto_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Porto_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="Porto_Bar"
-		FullName="Бар ''Мертвый Якорь''" />
+		FullName="Bar ''Siren's song''" />
 
 	<Object
 		Name="Porto_Bar_Barman"
-		FullName="Бизнесмен Макс" />
+		FullName="Barman Max" />
 
 	<Object
 		Name="Karavanshik"
-		FullName="Караванщик Шон" />
+		FullName="Driver" />
 
 	<Object
 		Name="Anticwar"
-		FullName="Археолог Жонс" />
+		FullName="Archaeologist" />
 
 	<Object
 		Name="Kollizey3"
-		FullName="Организаторша" />
+		FullName="Thrill-seeker" />
 
 	<Object
 		Name="PortoCitizen"
-		FullName="Гражданин Кейн" />
+		FullName="Citizen Kane" />
 
 	<Object
 		Name="TheArtefact"
-		FullName="ЛОКУС" />
+		FullName="Locus" />
 
 	<Object
 		Name="TheArtefact_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheArtefact_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="TheArtefact_Bar"
-		FullName="Салун" />
+		FullName="Saloon" />
 
 	<Object
 		Name="TheArtefact_Bar_Barman"
-		FullName="Хозяйка салуна" />
+		FullName="Commoner Jack" />
 
 	<Object
 		Name="Staruha"
-		FullName="Старуха" />
+		FullName="Old woman" />
 
 	<Object
 		Name="Ben"
-		FullName="Старик Бен" />
+		FullName="Old Ben" />
 
 	<Object
 		Name="TheSign"
-		FullName="ЯР" />
+		FullName="Yarr" />
 
 	<Object
 		Name="TheSign_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheSign_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="TheSign_Bar"
-		FullName="Бар ''Перепутье''" />
+		FullName="Bar ''Crossroad''" />
 
 	<Object
 		Name="TheSign_Bar_Barman"
-		FullName="Староста Боб" />
+		FullName="Elder Bob" />
 
 	<Object
 		Name="Signer"
-		FullName="Крестьянин Ши" />
+		FullName="Farmer" />
 
 	<Object
 		Name="TheRace"
-		FullName="МАЛАЯ ЗЕМЛЯ" />
+		FullName="Kolkhoz" />
 
 	<Object
 		Name="TheRace_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheRace_Shop"
-		FullName="ГУМ" />
+		FullName="Shop" />
 
 	<Object
 		Name="TheRace_Bar"
-		FullName="Бар ''Ностальгия''" />
+		FullName="Bar ''Nostalgia''" />
 
 	<Object
 		Name="TheRace_Bar_Barman"
-		FullName="Барменша Леони" />
+		FullName="Barman Leon" />
 
 	<Object
 		Name="TheOlimp"
-		FullName="РИМСКОЕ" />
+		FullName="Olympus" />
 
 	<Object
 		Name="TheOlimp_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheOlimp_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="TheOlimp_Bar"
-		FullName="Бар ''Чемпион''" />
+		FullName="Bar  ''Champion''" />
 
 	<Object
 		Name="TheOlimp_Bar_Barman"
-		FullName="Староста Зевс" />
+		FullName="Elder Zeus" />
 
 	<Object
 		Name="TheTickets"
-		FullName="ОЛИМПИЙСКАЯ" />
+		FullName="Roadster" />
 
 	<Object
 		Name="TheTickets_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheTickets_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="TheTickets_Bar"
-		FullName="Бар ''Азарт''" />
+		FullName="Bar ''Atomic''" />
 
 	<Object
 		Name="TheTickets_ZAO"
-		FullName="ЗАО &quot;Колизей&quot;" />
+		FullName="AutoSPORT inc." />
 
 	<Object
 		Name="TheTickets_Bar_Barman"
-		FullName="Букмекерша Лия" />
+		FullName="Barman Lee" />
 
 	<Object
 		Name="Director"
-		FullName="Директор Ил" />
+		FullName="Entrepreneur" />
 
 	<Object
 		Name="Antisincer"
-		FullName="Бездельник Ден" />
+		FullName="Loafer" />
 
 	<Object
 		Name="Fighter1"
-		FullName="Гладиаторша Сара" />
+		FullName="Gladiator Sara" />
 
 	<Object
 		Name="Fighter2"
-		FullName="Гладиатор Логан" />
+		FullName="Gladiator Logan" />
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown4"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown4_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown5"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown5_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Esting_enter"
-		FullName="ВОСТОЧНЫЙ" />
+		FullName="AETERNA" />
 
 	<Object
 		Name="Midragd_enter"
-		FullName="МИДГАРД" />
+		FullName="MIDGARD" />
 
 	<Object
 		Name="Porto_enter"
-		FullName="ПОРТО" />
+		FullName="PORTO" />
 
 	<Object
 		Name="TheArtefact_enter"
-		FullName="ЛОКУС" />
+		FullName="LOCUS" />
 
 	<Object
 		Name="TheSign_enter"
-		FullName="ЯР" />
+		FullName="YARR" />
 
 	<Object
 		Name="TheRace_enter"
-		FullName="МАЛАЯ ЗЕМЛЯ" />
+		FullName="KOLKHOZ" />
 
 	<Object
 		Name="TheOlimp_enter"
-		FullName="РИМСКОЕ" />
+		FullName="OLYMPUS" />
 
 	<Object
 		Name="TheTickets_enter"
-		FullName="ОЛИМПИЙСКАЯ" />
+		FullName="ROADSTER" />
 
 	<Object
 		Name="ToR1M1"
-		FullName="Дорога в Край" />
+		FullName="Road to Krai" />
 
 	<Object
 		Name="ToR1M3"
-		FullName="Дорога на Фатерлянд" />
+		FullName="Road to Vaterland" />
 
 	<Object
 		Name="u1"
-		FullName="Бенджамин" />
+		FullName="Benjamin" />
 
 	<Object
 		Name="u2"
-		FullName="Маск" />
+		FullName="Mad Mask" />
 
 	<Object
 		Name="u3"
-		FullName="Шварц" />
+		FullName="Schwartz" />
 
 	<Object
 		Name="u4"
-		FullName="Миф" />
+		FullName="Mif" />
 
 	<Object
 		Name="u5"
-		FullName="Горбун" />
+		FullName="Hunchback" />
 
 	<Object
 		Name="u6"
-		FullName="Ривер" />
+		FullName="River" />
 
 	<Object
 		Name="u7"
-		FullName="Сефер ОТ" />
+		FullName="Sephir OT" />
 
 	<Object
 		Name="u8"
-		FullName="Цезарь" />
+		FullName="Cesar" />
 
 	<Object
 		Name="u9"
-		FullName="Зелл" />
+		FullName="Zell" />
 </ObjectNames>

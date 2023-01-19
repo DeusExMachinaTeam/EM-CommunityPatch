@@ -2,313 +2,313 @@
 <ObjectNames>
 	<Object
 		Name="TheGadad"
-		FullName="ГАДАД" />
+		FullName="GHADAD" />
 
 	<Object
 		Name="Gadad_Bar"
-		FullName="Кафе ''Жажда''" />
+		FullName="Cafe ‘’Thirst’’" />
 
 	<Object
 		Name="Gadad_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="Gadad_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Gadad_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Gadad_Bar_Customer1"
-		FullName="Дядька" />
+		FullName="Dude" />
 
 	<Object
 		Name="TheKef"
-		FullName="КЕФ" />
+		FullName="KEF" />
 
 	<Object
 		Name="Kef_Bar"
-		FullName="Оазис" />
+		FullName="Bar ‘’Oasis’’" />
 
 	<Object
 		Name="Kef_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="Kef_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Kef_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Kef_Bar_Customer1"
-		FullName="Марио" />
+		FullName="Mario" />
 
 	<Object
 		Name="TheKazif"
-		FullName="КАЗИФ" />
+		FullName="KHAZIF" />
 
 	<Object
 		Name="Kazif_Bar"
-		FullName="Бар ''Черная жижа''" />
+		FullName="Bar ‘’Black gold’’" />
 
 	<Object
 		Name="Kazif_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="Kazif_Workshop"
-		FullName="Рабочая варежка" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Kazif_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Kazif_Bar_Customer1"
-		FullName="Дед Мороз" />
+		FullName="Pere Noel" />
 
 	<Object
 		Name="r4_AlihamVil"
-		FullName="АЛИХАМ" />
+		FullName="ALIKHAM" />
 
 	<Object
 		Name="r4_Aliham_Shop"
-		FullName="Большая Шопа" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="r4_Aliham_Bar"
-		FullName="Забегаловка" />
+		FullName="Bar" />
 
 	<Object
 		Name="r4_Aliham_Bar_Barman"
-		FullName="Галанис" />
+		FullName="Bin Laden" />
 
 	<Object
 		Name="r4_Aliham_Bar_Visitor"
-		FullName="Луиджи" />
+		FullName="Luigi" />
 
 	<Object
 		Name="r4_Aliham_Workshop"
-		FullName="Чинилка" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Oil_loc"
-		FullName="Нефтескважина" />
+		FullName="Oil mine" />
 
 	<Object
 		Name="Port_loc"
-		FullName="Морской Порт" />
+		FullName="Sea port" />
 
 	<Object
 		Name="LostEngineer_loc"
-		FullName="Убежавший инженер" />
+		FullName="Runaway engineer" />
 
 	<Object
 		Name="Buhara_loc"
-		FullName="БУХАРА" />
+		FullName="BUKHARA" />
 
 	<Object
 		Name="ToR1M1"
-		FullName="Выезд на Край" />
+		FullName="Road to Krai" />
 
 	<Object
 		Name="ToR4M2"
-		FullName="Выезд на Зармек" />
+		FullName="Road to Zarmek" />
 
 	<Object
 		Name="ToR2M2"
-		FullName="Порт в Аржан" />
+		FullName="Road to Argen" />
 
 	<Object
 		Name="TheOilCity"
-		FullName="НЕФТЕГРАД" />
+		FullName="OILBURG" />
 
 	<Object
 		Name="TheZuhel"
-		FullName="ЗУХЕЛ" />
+		FullName="ZUKHEL" />
 
 	<Object
 		Name="r4m1_BuharsLeader"
-		FullName="Староста Бухарцев" />
+		FullName="The Elder " />
 
 	<Object
 		Name="Kazif_Bar_Customer2"
-		FullName="Шумахер" />
+		FullName="Schumacher " />
 
 	<Object
 		Name="Gadad_Bar_CrazyBook1"
-		FullName="Метрицелло" />
+		FullName="Metricello" />
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown4"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown5"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown6"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown7"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="r4m1_Engineer"
-		FullName="Инженер нефтегонщик" />
+		FullName="Engineer" />
 
 	<Object
 		Name="heavy_dot1_vulcan1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot1_vulcan2"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot2_vulcan3"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot1_vulcan4"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot1_vulcan5"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot1_vulcan6"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_kord1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot1_vulcan7"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot2_vector1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot3_rainmetal1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_flag1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_kord1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_vulcan8"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_kord2"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="TheOilCity_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheOilCity_Shop"
-		FullName="Магазинчик" />
+		FullName="Marketplace " />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown4_Workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown5_Workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown6_Workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown7_Workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="r4_Zuhel_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="r4_Zuhel_Shop"
-		FullName="Магазинчик" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="urod1"
-		FullName="Шаман" />
+		FullName="Shaman" />
 
 	<Object
 		Name="urod2"
-		FullName="Микко" />
+		FullName="Kolp" />
 
 	<Object
 		Name="urod3"
-		FullName="Борг" />
+		FullName="Miner" />
 
 	<Object
 		Name="urod4"
-		FullName="Алекс" />
+		FullName="Lex" />
 
 	<Object
 		Name="urod5"
-		FullName="Скорп" />
+		FullName="Carma" />
 
 	<Object
 		Name="urod6"
-		FullName="Гайя" />
+		FullName="Ghost" />
 
 	<Object
 		Name="urod7"
-		FullName="Шерман" />
+		FullName="Snowman" />
 
 	<Object
 		Name="urod8"
-		FullName="Хррр" />
+		FullName="Bandit" />
 
 	<Object
 		Name="urod9"
-		FullName="Дядя Фу" />
+		FullName="Browny" />
 </ObjectNames>

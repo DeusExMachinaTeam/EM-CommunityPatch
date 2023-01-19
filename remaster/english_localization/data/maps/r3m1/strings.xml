@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <resource><!--
 ***************************************************************************
-	Предали друида, диалог с механопоклонниками и друидом
+	Предали друида, диалог с механопоклонниками и дриудом
 ***************************************************************************
 -->
 	<string
@@ -10,7 +10,7 @@
 		modelSkin="0"
 		modelCfg="1496"
 		modelSlot="1"
-		value="ПРЕДАТЕЛЬ|Попался, Друид! Теперь мы посмотрим, кто властен устанавливать законы на этой земле. Ты заплатишь нам за гонения наших братьев."
+		value="TRAITOR|Well well, look who’s there! Now we’ll see who gives orders here! You will pay for persecution of our brethren."
 		sound="data\sounds\Speech\r3m1\r3m1_1001_traitor.ogg"
 		time="4" />
 
@@ -20,7 +20,7 @@
 		modelSkin="2"
 		modelCfg="1915"
 		modelSlot="1"
-		value="ДРУИД|Значит, ты обманул меня... Я не виню тебя, ведь ты не ведаешь, что творишь. Но любое зло не остаётся безнаказанным. Это закон жизни."
+		value="DRUID|So you betrayed me... I do not blame you, ignorant child. But any evil will be punished, such is the law of the live. I pity you... "
 		sound="data\sounds\Speech\r3m1\r3m1_1002_druid.ogg"
 		time="5" />
 
@@ -30,14 +30,14 @@
 		modelSkin="0"
 		modelCfg="1496"
 		modelSlot="1"
-		value="ПРЕДАТЕЛЬ|Не слушай этого вздорного старика! Отправляйся в Улук, там ты получишь свою награду."
+		value="TRAITOR|Cut the rubbish, old man! You, go to Uluk to get you reward. "
 		sound="data\sounds\Speech\r3m1\r3m1_1003_traitor.ogg"
 		time="4" />
 
 	<string
 		id="1004"
 		modelName="mask_hero"
-		value="|Увидимся там."
+		value="|See you there."
 		sound="data\sounds\Speech\r3m1\r3m1_1004_hero.ogg"
 		time="3" />
 <!--
@@ -48,7 +48,7 @@
 	<string
 		id="1020"
 		modelName="mask_hero"
-		value="|Наконец-то мы добрались до острова. Не знаешь, где здесь живут люди?"
+		value="|We are finally here. I was afraid we will never get out of this stinky hole. Do you have any acquaintances here?"
 		sound="data\sounds\Speech\r3m1\r3m1_1020_hero.ogg"
 		time="4" />
 
@@ -56,14 +56,14 @@
 		id="1021"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Знаю я здесь кое-кого, но они вряд ли тебе помогут."
+		value="ALICE|Actually I do. But they won’t help you."
 		sound="data\sounds\Speech\r3m1\r3m1_1021_alice.ogg"
 		time="4" />
 
 	<string
 		id="1022"
 		modelName="mask_hero"
-		value="|А кто это такие?"
+		value="|Who are they?"
 		sound="data\sounds\Speech\r3m1\r3m1_1022_hero.ogg"
 		time="4" />
 
@@ -71,7 +71,7 @@
 		id="1023"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Мои старые знакомые с бурным прошлым. К ним я как раз и собираюсь."
+		value="ALICE|My old friends with shadowy past. They dislike strangers so you wouldn’t like to go see them without invitation."
 		sound="data\sounds\Speech\r3m1\r3m1_1023_alice.ogg"
 		time="4" />
 
@@ -79,7 +79,7 @@
 		id="1024"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Отправляйся пока без меня. Когда понадоблюсь, ищи меня у них."
+		value="ALICE|I’ll stay with them, while you are looking for the Oracle. When you are done, meet me there."
 		sound="data\sounds\Speech\r3m1\r3m1_1024_alice.ogg"
 		time="4" />
 <!--
@@ -93,8 +93,8 @@
 		modelSkin="0"
 		modelCfg="2173"
 		modelSlot="1"
-		value="ПОВСТАНЕЦ|Бежим, быстрее! Мы ещё можем спастись!"
-		sound="data\sounds\Speech\r3m1\r3m1_21_rebel.ogg" 
+		value="REFUGEE|Run, hurry! We still may be saved!"
+		sound="data\sounds\Speech\r3m1\r3m1_21_rebel.ogg"
 		time="4"/>
 
 	<string
@@ -103,13 +103,13 @@
 		modelSkin="0"
 		modelCfg="637"
 		modelSlot="1"
-		value="БЕЖЕНЦЫ|Спаси нас, добрый человек! Мы отказались принимать богомерзкую веру машинопоклонников. Теперь нас повсюду преследуют разъяренные еретики!"
+		value="REFUGEE|Save us, good man! We refused to adopt the belief of new masters of Uluk. Now the heretics are chasing us! "
 		sound="data\sounds\Speech\r3m1\r3m1_22_refugee.ogg" />
 
 	<string
 		id="23"
 		modelName="mask_hero"
-		value="|Не бойтесь, братья! Вместе мы отразим атаку! Те, кто может держать оружие в руках, пусть сражаются!"
+		value="|DO not be afraid! Together we will repulse the attack! Let anyone, who can keep weapon in their arms, fight!"
 		sound="data\sounds\Speech\r3m1\r3m1_23_hero.ogg" />
 
 	<string
@@ -118,14 +118,14 @@
 		modelSkin="0"
 		modelCfg="637"
 		modelSlot="1"
-		value="БЕЖЕНЦЫ|Хватит отступать! Настало время принять бой! Ур-р-ра-а-а!"
+		value="REFUGEE|Hooray! Enough running away! We shall fight for our lives!"
 		sound="data\sounds\Speech\r3m1\r3m1_24_refugee.ogg" 
 		time="6"/>
 
 	<string
 		id="25"
 		modelName="mask_hero"
-		value="|Мы отбили нападение, но еретики могут вернуться. Скорей едем в Сет! За его стенами нас никто не тронет!"
+		value="|We have won the battle, but not the war. The heretics may return any minute now. Hurry to Seth! We’ll be safe there."
 		sound="data\sounds\Speech\r3m1\r3m1_25_hero.ogg"
 		time="4" />
 
@@ -135,75 +135,75 @@
 		modelSkin="0"
 		modelCfg="637"
 		modelSlot="1"
-		value="БЕЖЕНЦЫ|Спасибо за помощь, добрый человек! Ты дал нам надежду на завтра."
+		value="REFUGEE|Thanks for the help! You gave us hope, noble stranger!"
 		sound="data\sounds\Speech\r3m1\r3m1_26_refugee.ogg"
 		time="4" />
 
 	<string
 		id="32"
 		modelName="mask_hero"
-		value="|Я не смог их защитить! Горе мне..."
+		value="|I couldn’t save them..."
 		sound="data\sounds\Speech\r3m1\r3m1_32_hero.ogg"
 		time="4" />
 
 	<string
 		id="27"
 		modelName="mask_hero"
-		value="|Что за невиданные машины? Теперь я понимаю, чего испугались друиды. Мурашки по коже от такой мерзости."
+		value="|What a queer machine. Now I see what druids are afraid of. This abomination gives me creeps."
 		sound="data\sounds\Speech\r3m1\r3m1_27_hero.ogg"
 		time="4" />
 
 	<string
 		id="28"
 		modelName="mask_hero"
-		value="|Мне не впервой сражаться с чудищами. Наше дело правое, мы победим!"
+		value="|It’s not the first time I fight with the monsters! My cause is right and I will crush the enemy! "
 		sound="data\sounds\Speech\r3m1\r3m1_28_hero.ogg"
 		time="4" />
 
 	<string
 		id="31"
 		modelName="mask_hero"
-		value="|Осквернители святилища убиты. Можно возвращаться к друидам."
+		value="|Stonehenge defilers are dead. I must inform the druids."
 		sound="data\sounds\Speech\r3m1\r3m1_31_hero.ogg"
 		time="4" />
 
 	<string
 		id="29"
 		modelName="mask_hero"
-		value="|Молельный камень заложен, нужно бежать отсюда, пока гнев матери-земли не обрушился и на меня вместе с логовом чудищ."
+		value="|Holy stone is in place. I gotta get out of here before the mother earth’s wrath falls upon the profaned ground."
 		sound="data\sounds\Speech\r3m1\r3m1_29_hero.ogg"
 		time="4" />
 
 	<string
 		id="1010"
 		modelName="mask_hero"
-		value="|Еле уцелел. Вот она – сила природы."
+		value="|I barely escaped. The nature is mighty indeed!"
 		sound="data\sounds\Speech\r3m1\r3m1_1010_hero.ogg"
 		time="4" />
 
 	<string
 		id="30"
 		modelName="mask_hero"
-		value="|Надо возвращаться в Сет и оправдать себя в глазах Верховного друида."
+		value="|Druids of Seth will be happy to learn what happened here."
 		sound="data\sounds\Speech\r3m1\r3m1_30_hero.ogg"
 		time="4" />
 
 	<string
 		id="8801"
-		value="Вы желаете покинуть эту область?"
+		value="Do you wish to travel to another region?"
 		numButtons="2" />
 
 	<string
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="|Я не знаю, куда ведёт эта дорога, поэтому останусь здесь." 
+		value="I don’t know the way, so I’ll better stay here." 
 		time="5"/>
 
 	<string
 		id="8803"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
-		value="|Какое-то странное место. Лучше держаться отсюда подальше." 
+		value="There’s something strange about this place. I don’t want to go there." 
 		time="5"/>
 </resource>

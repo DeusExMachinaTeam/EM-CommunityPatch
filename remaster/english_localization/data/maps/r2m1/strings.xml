@@ -4,14 +4,14 @@
 		id="0"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_0_hero.ogg"
-		value="|Далеко же я забрался... Не время любоваться красотами! Надо скорее связаться с местными. А вот и они."
+		value="|Strange, the sky is different here... But it’s no time to enjoy the view. I must find someone to ask questions. I guess they already found me. "
 		time="8" />
 
 	<string
 		id="1"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_1_hero.ogg"
-		value="|День добрый. Я ищу Акселя. Вы не слышали про такого?"
+		value="|Good day to you. I am looking for Axel. Don’t you happen to know him by any chance? "
 		time="4" />
 
 	<string
@@ -21,14 +21,14 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_2_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|Аксель - это величайший из живущих, наш вождь и кормилец, альфа и омега! Он ведёт нас к победе добра и справедливости во всём мире!"
+		value="STRANGER|Axel is the greatest leader of all! He is leading us to the victory and the prosperity! "
 		time="8" />
 
 	<string
 		id="3"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_3_hero.ogg"
-		value="|Ничего себе... Сразу видно: большой человек. Могу ли я повстречаться с этим «кормильцем»?"
+		value="|Hem... He is a big man as I can see. How may I meet him? "
 		time="4" />
 
 	<string
@@ -38,14 +38,14 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_4_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|Так ты что, не агитатор? Чёрт, я уж подумал, что тебя к нам подослали проверить боевой дух. Хотя мне бояться нечего. Я честный вояка!"
+		value="STRANGER|So you are not the agitator? Damn, I thought you were sent to check our morale. Anyway I have nothing to be afraid of. I am a loyal soldier!"
 		time="8" />
 
 	<string
 		id="5"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_5_hero.ogg"
-		value="|Я много наслышан о вашем лидере. И очень хотел бы пожать его мужественную руку."
+		value="|I heard a lot about your leader and I really need to shake hands with him."
 		time="4" />
 
 	<string
@@ -55,14 +55,14 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_6_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|Кто попало не может с ним встретиться. Только тот, кто совершит подвиг, будет допущен в его тайное жилище. Но тебе это явно не грозит."
+		value="STRANGER|No one can see him but a war hero. But you clearly do not qualify. "
 		time="8" />
 
 	<string
 		id="7"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_7_hero.ogg"
-		value="|Пожалуй, я всё-таки попытаюсь попасть туда. Раз вы ничего не знаете, поищу тех, кто может мне помочь."
+		value="|I’ll try my luck anyway. If you cannot help me, I’ll find someone who can."
 		time="8" />
 
 	<string
@@ -72,14 +72,14 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_8_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|Постой, а кто ты вообще такой? Как ты проехал через тоннель?"
+		value="STRANGER|Wait a minute! Who are you? How did you get the tunnel key?"
 		time="4" />
 
 	<string
 		id="9"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_9_hero.ogg"
-		value="|А твоё какое дело? Я свободный бродяга - куда хочу, туда лечу!"
+		value="|It’s none of your business! I am a free man and travel wherever I want."
 		time="4" />
 
 	<string
@@ -89,7 +89,7 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_10_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|Я защищаю свой народ от таких, как ты: шпионов и провокаторов!"
+		value="STRANGER|And I am protecting the people from the spies like you! And this is exactly my business!"
 		time="4" />
 
 	<string
@@ -99,14 +99,14 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_11_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|А ты крутой парень, как я погляжу. Если нужна будет работёнка, отправляйся в Мареццию: там у нас штаб."
+		value="STRANGER|You are tough guy. If you ever need a job, go to Marezzia, to our HQ. We need fighters like you!"
 		time="8" />
 
 	<string
 		id="12"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_12_hero.ogg"
-		value="|Не в этой жизни."
+		value="|Not in this life."
 		time="4" />
 
 	<string
@@ -115,21 +115,21 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_13_CIT_officer_radio.ogg"
-		value="РАДИО|Солдат! Враг нападает на деревню, а твоя машина – ближе всех к горячей точке. Защити жителей, пока не подтянется подкрепление!"
+		value="RADIO|Soldier! The enemy is attacking the nearby village! Your task is to protect it until reinforcement arrives!"
 		time="8" />
 
 	<string
 		id="14"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_14_hero.ogg"
-		value="|Как я ненавижу это бандитское отродье!"
+		value="|Man, I hate the raiders that attack innocent people!"
 		time="4" />
 
 	<string
 		id="15"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_15_hero.ogg"
-		value="|Вот и подмога! Сюда, ребята! Задайте им перцу."
+		value="|Here’s the cavalry! This way guys! Kill them all! "
 		time="4" />
 
 	<string
@@ -139,35 +139,35 @@
 		modelCfg="326"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_16_CIT_soldier.ogg"
-		value="СОЛДАТ СНГ|Ты хорошо поработал. Возвращайся на базу. Тебя ждёт награда и новое задание."
+		value="CIT SOLDIER|You did a good job. Return to base. A new assignment is waiting. "
 		time="4" />
 
 	<string
 		id="17"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_17_hero.ogg"
-		value="|Гуманитарная помощь поможет людям в этой деревне."
+		value="|The goods from this caravan will help the village to hold on for several days more."
 		time="4" />
 
 	<string
 		id="18"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_18_hero.ogg"
-		value="|Эти люди страдают. Я чувствую, что мои действия помогают им."
+		value="|I can feel my actions help these poor people. I am going to stop this war."
 		time="4" />
 
 	<string
 		id="19"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_19_hero.ogg"
-		value="|Я очищу эту землю от бандитов!"
+		value="|I will cleanse this land of the bandits!"
 		time="4" />
 
 	<string
 		id="20"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_20_hero.ogg"
-		value="|Теперь через тоннель смогут ездить не только бандиты, а все свободные люди! Вернусь в штаб с докладом. Пусть присылают своих людей обустраивать здесь всё по-новому."
+		value="|Now the tunnel will be used by all free people, not only Axel’s henchmen! I must inform the leaders. "
 		time="8" />
 
 	<string
@@ -176,7 +176,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_2012_CIT_officer_radio.ogg"
-		value="РАДИО|Ты настоящий герой, и наши лидеры хотят доверить тебе одно ответственное задание, о котором не знаю даже я. Отправляйся прямиком в Гельвецию. Передаю координаты. Отбой."
+		value="RADIO|You are a true hero! Our leaders want to entrust you with the top secret mission. Go straight to Helvetia. Good luck, soldier!"
 		time="8" />
 
 	<string
@@ -186,28 +186,28 @@
 		modelCfg="326"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_21_CIT_soldier.ogg"
-		value="СОЛДАТ СНГ|Мы возьмём на себя охрану, а ты захвати генерала АР. Он едет в личном авто, ты сразу узнаешь его."
+		value="CIT SOLDIER|We will get rid of the guards, and you hunt down the general. He is in a personal vehicle, you’ll easily recognize him."
 		time="4" />
 
 	<string
 		id="22"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_22_hero.ogg"
-		value="|Генерал в наших руках! В Гельвеции его заставят выложить всё, что он знает об Акселе!"
+		value="|The general is in our hands! In Helvetia they will make him tell everything he knows about Axel."
 		time="4" />
 
 	<string
 		id="23"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_23_hero.ogg"
-		value="|Теперь-то Лиса от меня не сбежит! Осталось только узнать у местных жителей, где же она спряталась."
+		value="|Now Alice is in my hands! After all I did to them the locals will gladly tell me where she is hiding. "
 		time="4" />
 
 	<string
 		id="24"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_24_hero.ogg"
-		value="|Привет! Вам не знакома девушка по имени Лиса? Не подскажете, где её искать?"
+		value="|Hello! I seek a girl named Alice. Don’t you know where I can find her?"
 		time="4" />
 
 	<string
@@ -217,14 +217,14 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_25_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|Кто же не знает Лису! Только вот добраться до неё будет трудновато. Она в подружках у Акселя, нашего командира."
+		value="STRANGER|Everybody knows Alice. But you will hardly be able to find her. She is a girlfriend of our leader, Axel. "
 		time="8" />
 
 	<string
 		id="26"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_26_hero.ogg"
-		value="|Значит, мне придётся поговорить с ним по душам."
+		value="|Well, tell me how can I meet him."
 		time="4" />
 
 	<string
@@ -234,21 +234,21 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_27_stranger.ogg"
-		value="НЕЗНАКОМЕЦ|Ха-ха-ха! Насмешил! Да его тебе увидеть нет никаких шансов! Только тот, кто совершит подвиг, может получить награду из его рук. Но тебе это явно не грозит."
+		value="STRANGER|You have no chances of seeing him! Only the hero of war can get a reward from his hands."
 		time="8" />
 
 	<string
 		id="28"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_28_hero.ogg"
-		value="|Это мы ещё посмотрим."
+		value="|It’s a way to go."
 		time="4" />
 
 	<string
 		id="29"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_29_hero.ogg"
-		value="|Лиса! Попалась, обманщица! Теперь я тебя так просто не отпущу! Ты мне за всё ответишь!"
+		value="|Alice! Gotcha! Now you’ll pay me for everything you have done! "
 		time="4" />
 
 	<string
@@ -256,7 +256,7 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_30_alice.ogg"
-		value="ЛИСА|Какой ты настырный. Похоже, придётся тебя проучить как следует, чтобы ты отстал от меня."
+		value="ALICE|Well, I guess I have taught you a lesson, boy."
 		time="4" />
 
 	<string
@@ -264,14 +264,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_31_alice.ogg"
-		value="ЛИСА|Стой! Я расскажу всю правду..."
+		value="ALICE|Wait! I’ll tell you everything..."
 		time="4" />
 
 	<string
 		id="32"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_32_hero.ogg"
-		value="|Если ты меня обманешь ещё раз – пожалеешь! Говори, кто на самом деле убил моего отца?"
+		value="|If you betray be one more time, I swear I will kill you! Who killed my father? Answer me!"
 		time="4" />
 
 	<string
@@ -279,14 +279,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_33_alice.ogg"
-		value="ЛИСА|Это были странные люди на очень необычной технике. Я видела, как они уезжали на восток."
+		value="ALICE|There were strange people on sand covered vehicles. I saw them going east."
 		time="4" />
 
 	<string
 		id="34"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_34_hero.ogg"
-		value="|Да? Прямо в Пустыню Смерти? Сначала ты отправила меня на запад, теперь - на восток. Куда в следующий раз? Хотя нет... следующего раза не будет!"
+		value="|Really? To the Desert of Death? I should have guessed earlier! Liar!!! First you sent me to the west, then to the east. Where next? Right to Hell? No, there will be no next time!"
 		time="8" />
 
 	<string
@@ -294,14 +294,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_35_alice.ogg"
-		value="ЛИСА|Не стреляй, я говорю правду! Выслушай, как всё было, а потом можешь делать что хочешь."
+		value="ALICE|Don’t shoot! I am telling the truth! Listen to me first! "
 		time="4" />
 
 	<string
 		id="36"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_36_hero.ogg"
-		value="|Ты испытываешь моё терпение. Говори..."
+		value="|Go on."
 		time="4" />
 
 	<string
@@ -309,7 +309,7 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_37_alice.ogg"
-		value="ЛИСА|Я посвятила свою жизнь решению одной загадки. Был такой человек, Айвен. Он объехал весь мир, совершил множество удивительных открытий, а потом бесследно пропал в зените славы."
+		value="ALICE|All my life, I am looking for an answer to one question. Do you remember, there was a famous Explorer Ivan Go. He made many wonderful inventions and made our life better. Then suddenly he mysteriously disappeared "
 		time="8" />
 
 	<string
@@ -317,7 +317,7 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_38_alice.ogg"
-		value="ЛИСА|Многие пытались найти его, но никому это не удалось. Я изучила всю жизнь Айвена, я выяснила, что у него были жена и сын, но они трагически погибли... Возможно, поэтому он и решил уйти."
+		value="ALICE|Many a man tried to get on his trail. But it is me who will find him! I must prove that... Nevermind. Ivan had a family, a fife and a son. But they died not long before his disappearance. I spend years in quest for clues."
 		time="8" />
 
 	<string
@@ -325,14 +325,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_39_alice.ogg"
-		value="ЛИСА|Много лет я разыскивала улики, пока совсем недавно мне не удалось получить информацию о давнем друге Айвена. Тогда я направилась в город Южный, чтобы найти его..."
+		value="ALICE| Sometime ago I got to know the description of his childhood friend. He was last seen somewhere in Krai. I didn’t even know his name, so I went to Sowth and there..."
 		time="8" />
 
 	<string
 		id="40"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_40_hero.ogg"
-		value="|Но ты не сказала, где именно искать. И устроила этот спектакль с продажей наркотиков, чтобы я показал тебе все местные деревни!"
+		value="|You met me. And you made me show you the villages, so you could find a man matching the description!"
 		time="8" />
 
 	<string
@@ -340,14 +340,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_41_alice.ogg"
-		value="ЛИСА|Да. Но я опоздала: чья-то злая воля убила несчастного..."
+		value="ALICE|Yes, and I finally found him, but it was too late..."
 		time="4" />
 
 	<string
 		id="42"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_42_hero.ogg"
-		value="|Чтобы убить последнего свидетеля, кто-то разрушил целую деревню. Мою деревню! Кем же нужно быть, чтобы совершить такое!? Наверное, Айвен обнаружил что-то очень важное, и теперь кто-то пытается замести все следы."
+		value="|To dispose of the last witness, they wiped out my native village with all its inhabitants! Monsters! Probably, Ivan discovered something very important and now someone is trying to keep it secret!"
 		time="12" />
 
 	<string
@@ -355,14 +355,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_43_alice.ogg"
-		value="ЛИСА|Всё сходится! Вот почему так трудно было найти малейшую зацепку. Возможно, он даже был захвачен живым и..."
+		value="ALICE|Right you are! Ivan may even be still alive and imprisoned by these murderers."
 		time="8" />
 
 	<string
 		id="44"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_44_hero.ogg"
-		value="|Я должен выяснить, кто стоит за всем этим!"
+		value="|I must find out who are behind it all!!"
 		time="4" />
 
 	<string
@@ -370,14 +370,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_45_alice.ogg"
-		value="ЛИСА|Мы должны. Это мой поиск. К тому же у меня есть наводка!"
+		value="ALICE|We must! This is my quest. Moreover I have a clue!"
 		time="4" />
 
 	<string
 		id="46"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_46_hero.ogg"
-		value="|О чём ты говоришь?"
+		value="|What clue are you talking about?"
 		time="2" />
 
 	<string
@@ -385,21 +385,21 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_47_alice.ogg"
-		value="ЛИСА|Около свидетеля я нашла диск. Я проконсультировалась с лучшими учёными и выяснила, что это что-то вроде книги, прочитать которую может только всезнающий Оракул."
+		value="ALICE|I was the first one to search the burnt village and I found a disk near the dead witness. I asked here and there and found out that the disk is a kind of book! But I am afraid the only way to read it is to ask the help of the Oracle. "
 		time="8" />
 
 	<string
 		id="48"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_48_hero.ogg"
-		value="|Всезнающий... возможно, он сможет подсказать способ пересечь Пустыню Смерти. Решено, отправляемся вместе на поиски!"
+		value="|The Oracle... sounds impressive. Maybe he also knows the way to cross the Desert of the Death so I could follow the murderers. If you are telling the truth, of course."
 		time="8" />
 
 	<string
 		id="49"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_49_hero.ogg"
-		value="|И какие у нас планы? Где искать твоего Оракула?"
+		value="|All right, let us stick together for a while. Where does this Oracle of yours live?"
 		time="4" />
 
 	<string
@@ -407,14 +407,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_50_alice.ogg"
-		value="ЛИСА|Я слышала, он живёт где-то за морем. Здесь поблизости начинается подземный ход, ведущий на остров Оракула. Только похоже, что он охраняется."
+		value="ALICE|I was told, that he resides somewhere over the sea. Don’t worry! There is a long underground passage that will lead us close to him! But it is heavily guarded."
 		time="8" />
 
 	<string
 		id="51"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_51_hero.ogg"
-		value="|Это не проблема. После победы над Акселем я национальный герой и никто не посмеет мне перечить."
+		value="|It is not a problem. After Axel’s defeat I am a hero of the country and any soldiers will let me pass."
 		time="8" />
 
 	<string
@@ -422,21 +422,21 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_52_alice.ogg"
-		value="ЛИСА|Проблема в том, что охранники не совсем люди... Посмотри сам."
+		value="ALICE|The problem is that the guardian is not entirely human. You can see it by yourself."
 		time="4" />
 
 	<string
 		id="60"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_60_hero.ogg"
-		value="|Работа сделана! Караван остановлен. Можно возвращаться на базу."
+		value="|Mission complete. The caravan is stopped. I may return to the base."
 		time="4" />
 
 	<string
 		id="100"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_100_hero.ogg"
-		value="|Кто вы такие и зачем прячетесь здесь, когда мой народ страдает?"
+		value="|Who are you and why are you hiding, when my people are suffering? "
 		time="4" />
 
 	<string
@@ -445,14 +445,14 @@
 		modelName="boss04dronegun"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_101_njeri.ogg"
-		value="НЬЕРИ|Мы Ньери, гости из далеких миров. Волею судеб, наш вечный путь пересёкся с траекторией вашей планеты. И это принесло всем лишь горе."
+		value="NJERI|We are Njeri, we came here from other worlds. Our paths happened to cross in the universe, which only brought pain to all of us."
 		time="8" />
 
 	<string
 		id="102"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_102_hero.ogg"
-		value="|Один из ваших механизмов отравляет эту планету, и я хочу знать, почему это происходит!"
+		value="|I know that one of your machines is poisoning this planet and I want to know why this is happening."
 		time="4" />
 
 	<string
@@ -461,14 +461,14 @@
 		modelName="boss04dronegun"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_103_njeri.ogg"
-		value="НЬЕРИ|Грузовой транспорт был сбит земным оружием и упал на поверхность планеты. Пока мы планировали спасательную операцию, прибор, предназначенный для работы в открытом космосе вдали от живой материи, был включен землянами."
+		value="NJERI|Our cargo transport was brought down by your orbital defense. While we were planning a rescue expedition, you, people of the earth, found it first and turned on a device, which was designed for work in open space, away from all living."
 		time="10" />
 
 	<string
 		id="104"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_104_hero.ogg"
-		value="|Что это был за прибор? Каковы последствия его работы?"
+		value="|How does it work? "
 		time="4" />
 
 	<string
@@ -477,14 +477,14 @@
 		modelName="boss04dronegun"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_105_njeri.ogg"
-		value="НЬЕРИ|Технические подробности тебе ничего не скажут. Эффект же губителен для всего живого. Лишь самые живучие организмы, включая людей, сумели приспособиться и, изменившись, выжить в новых условиях."
+		value="NJERI|The technical details won’t tell you anything. The point is, it brought death to all life. Only the strongest species, including human beings, survived, having undergone certain changes. The radiation is deadly even to us."
 		time="12" />
 
 	<string
 		id="106"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_106_hero.ogg"
-		value="|Признаю, в том, что произошло, виноваты обе наши расы... Но вы знали, что происходит, и ничего не сделали!"
+		value="|Both of our races are responsible for the catastrophe. But you saw it happening and did nothing to stop it!"
 		time="8" />
 
 	<string
@@ -493,14 +493,14 @@
 		modelName="boss04dronegun"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_107_njeri.ogg"
-		value="НЬЕРИ|Мы находимся здесь уже много лет, чтобы исправить зло, причинённое нашей технологией. Увы, пока наши успехи весьма незначительны. Дело в том, что устройство, вызвавшее катастрофу, рассчитано на автономную работу и не может быть выключено."
+		value="NJERI|We’ve been trying to repair the harm we’ve inflicted to your planet. But all in vain, we cannot even approach the crash site. Moreover, the contaminations source has an independent supply unit and cannot be turned off. "
 		time="12" />
 
 	<string
 		id="108"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_108_hero.ogg"
-		value="|Всё это лишь слова! Что мешает вам уничтожить излучатель?"
+		value="|Why don’t you destroy it then? "
 		time="4" />
 
 	<string
@@ -509,14 +509,14 @@
 		modelName="boss04dronegun"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_109_njeri.ogg"
-		value="НЬЕРИ|Неизвестно, какой эффект на выживших окажет резкий перепад в информационном поле. Это может стать последней каплей и убить всех. Но ресурс человечества не безграничен, и через некоторое время даже самые стойкие из вас не смогут больше существовать."
+		value="NJERI|There is no knowing what it may lead to. A major surge in the information field may be the last straw that kills all the survivors. In any case, the resources of your species aren’t endless. Even the strongest of you will eventually die. "
 		time="8" />
 
 	<string
 		id="110"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_110_hero.ogg"
-		value="|Должен быть какой-то выход! За столько лет вы уже нашли решение, говорите же, что нужно сделать!"
+		value="|I’m sure you’ve found a solution after all those years on earth. "
 		time="4" />
 
 	<string
@@ -525,14 +525,14 @@
 		modelName="boss04dronegun"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_111_njeri.ogg"
-		value="НЬЕРИ|Нам удалось разработать устройство, которое будет медленно снижать уровень излучения, пока мы будем исследовать происходящие с людьми перемены. Его нужно расположить рядом со сбитым кораблем, но ни мы, ни наша техника не можем приблизиться на нужное расстояние."
+		value="NJERI|We’ve made a device that will slowly reduce the radiation. It will give us time to We need to place the device near the broken ship, but neither we, nor our robots can get close enough to the ship."
 		time="12" />
 
 	<string
 		id="112"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_112_hero.ogg"
-		value="|Всё понятно. Я уже был там, и со мной ничего не случилось. Значит, я смогу доставить ваш блокиратор."
+		value="|I see. I’ve been there and nothing happened, so I guess I can take your device to the ship. "
 		time="7" />
 
 	<string
@@ -541,80 +541,80 @@
 		modelName="boss04dronegun"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_113_njeri.ogg"
-		value="НЬЕРИ|Мы надеялись на твою помощь. Ты последняя надежда человечества."
+		value="NJERI|We were hoping you’d help. You are the last hope of the humanity. "
 		time="4" />
 
 	<string
 		id="120"
-		modelName="mask_hero"
+		modelName="mask_oracul"
 		sound="data\sounds\Speech\r2m1\r2m1_120_hero.ogg"
-		value="|...Ошибка в... расчётах. Источник помех - это... вторая база..."
+		value="ORACLE|... Error ... in calculations… The jamming isn’t... the second base... "
 		time="4" />
 
 	<string
 		id="121"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_121_hero.ogg"
-		value="|Вот это размер!"
+		value="|Holy shit!"
 		time="4" />
 
 	<string
 		id="122"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_122_hero.ogg"
-		value="|Пришельцы прятались, используя энергию Селя."
+		value="|The aliens used the energy of Seil to disguise themselves."
 		time="4" />
 
 	<string
 		id="123"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_123_hero.ogg"
-		value="|Теперь, когда они раскрыли себя, я нарушу их планы!"
+		value="Now that they’ve revealed themselves, I’m gonna interfere with their plans!"
 		time="4" />
 
 	<string
 		id="130"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_130_hero.ogg"
-		value="|Эти неполадки вызвали странный эффект... Мне туда! Я больше ничему не удивляюсь."
+		value="|Looks like something has gone wrong… I gotta go there! Nothing surprises me anymore. "
 		time="4" />
 
 	<string
 		id="131"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_131_hero.ogg"
-		value="|Скоро мир будет очищен от скверны, и люди смогут снова дышать воздухом!"
+		value="Now the world will be cleansed from the contamination, and the people will be able to breathe air again."
 		time="4" />
 
 	<string
 		id="70"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_70_hero.ogg"
-		value="|Шкатулка теперь у меня."
+		value="|I’ve got the box now. "
 		time="4" />
 
 	<string
 		id="777"
-		value="Караван уничтожен. Вы не смогли обеспечить его безопасность."
+		value="You failed to protect the caravan."
 		numButtons="1" />
 
 	<string
 		id="8801"
-		value="Вы желаете покинуть эту область?"
+		value="Do you wish to leave this area?"
 		numButtons="2" />
 
 	<string
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
+		value="I don’t know the way, so I’ll better stay here."
 		time="3" />
 
 	<string
 		id="8803"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
-		value="Какое-то странное место. Лучше держаться отсюда подальше."
+		value="There’s something strange about this place. I don’t want to go there. "
 		time="3" />
 
 	<string
@@ -623,7 +623,7 @@
 		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
 		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
 		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
-		value="@ffffffff|    Разрушение форпоста Ньери, пришельцев из других миров, развязало руки Оракулу. Первым делом он взял под контроль орбитальное вооружение и нанёс ядерный удар по Зармеку. Когда источник заражения был уничтожен, многие испытали шок, от которого не все смогли оправиться. Слишком глубоко укоренилось таинственное излучение в человеческой сущности. Пытаясь исправить причинённое зло, суперкомпьютер понемногу начал проникать во все области человеческой жизни. По его чертежам были восстановлены многочисленные полезные устройства. Всевозможные роботы-помощники были приставлены к каждому выжившему, чтобы помогать им во всём. Однако люди не приняли перемен. Многие отказались от даров Оракула и вернулись к простым занятиям. И всё чаще кто-то жалел об исчезновении голоса, беспрестанно шепчущего о восхождении."
+		value="The fall of Njeri’s outpost gave the Oracle a major advantage. The first thing it did was taking control over the orbital arsenal and dropping a nuclear bomb on Zarmek. The destruction of the contamination source came as a shock to most people. Not everyone recovered from it: the radiation became too deeply rooted in human mind and body. In an attempt to repair the harm, the supercomputer penetrated into all spheres of human life. It recreated all kinds of useful devices, which were supposed to help the survivors in their everyday tasks. But not all people accepted the changes. Some of them refused to take the Oracle’s gifts and returned to their simple life. Every now and then somebody would miss the voice in the head that was constantly whispering of ascension."
 		sound="data\sounds\Speech\rolik\ending2.ogg"
 		fontSize="18"
 		scrollSpeed="0.5"

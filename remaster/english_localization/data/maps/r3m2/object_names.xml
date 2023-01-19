@@ -2,109 +2,109 @@
 <ObjectNames>
 	<Object
 		Name="OracleDefendersVil"
-		FullName="АПУЛЬКО" />
+		FullName="VILLAGE" />
 
 	<Object
 		Name="OracleDefendersVil_Shop"
-		FullName="Лавка вора" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="OracleDefendersVil_WorkShop"
-		FullName="Инвалид - ремонтник" />
+		FullName="Workshop" />
 
 	<Object
 		Name="AloneDruid"
-		FullName="Одинокий Друид" />
+		FullName="Lone Druid" />
 
 	<Object
 		Name="AloneDruidBuilding"
-		FullName="Хижина друида" />
+		FullName="Druid’s house" />
 
 	<Object
 		Name="OracleDefenders_loc"
-		FullName="Пост стражей Оракула" />
+		FullName="Oracle disciples’ post" />
 
 	<Object
 		Name="ToR3M1"
-		FullName="Выезд в Рощу друидов" />
+		FullName="Road to the Sacred Grove" />
 
 	<Object
 		Name="Monster_loc"
-		FullName="Страшный монстр" />
+		FullName="Fearful monster" />
 
 	<Object
 		Name="VK1_loc"
-		FullName="Вычислительный комплекс 1" />
+		FullName="First Menhir" />
 
 	<Object
 		Name="VK2_loc"
-		FullName="Вычислительный комплекс 2" />
+		FullName="Second Menhir" />
 
 	<Object
 		Name="VK3_loc"
-		FullName="Вычислительный комплекс 3" />
+		FullName="Third Menhir" />
 
 	<Object
 		Name="Factory_loc"
-		FullName="Заброшенный завод" />
+		FullName="Town of the dead" />
 
 	<Object
 		Name="Oracle_loc"
-		FullName="ОРАКУЛ" />
+		FullName="ORACLE" />
 
 	<Object
 		Name="OracleNPC"
-		FullName="Оракул" />
+		FullName="Oracle" />
 
 	<Object
 		Name="OracleGuardian_1"
-		FullName="Защитник оракула" />
+		FullName="Oracle’s defender" />
 
 	<Object
 		Name="AloneDruid_Workshop"
-		FullName="Мастерская друида" />
+		FullName="Workshop" />
 
 	<Object
 		Name="heavy_dot3_vulcan1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_kord2"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="urod1"
-		FullName="Тидус" />
+		FullName="Tidus" />
 
 	<Object
 		Name="urod2"
-		FullName="Микко" />
+		FullName="Mickey" />
 
 	<Object
 		Name="urod3"
-		FullName="Борг" />
+		FullName="Gomez" />
 
 	<Object
 		Name="urod4"
-		FullName="Алекс" />
+		FullName="Alex" />
 
 	<Object
 		Name="urod5"
-		FullName="Скорп" />
+		FullName="Scorp" />
 
 	<Object
 		Name="urod6"
-		FullName="Гайя" />
+		FullName="Hutch" />
 
 	<Object
 		Name="urod7"
-		FullName="Шерман" />
+		FullName="Shaun" />
 
 	<Object
 		Name="urod8"
-		FullName="Хррр" />
+		FullName="Pillox" />
 
 	<Object
 		Name="urod9"
-		FullName="Дядя Фу" />
+		FullName="Wonza" />
 </ObjectNames>

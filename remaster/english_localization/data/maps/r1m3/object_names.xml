@@ -2,353 +2,353 @@
 <ObjectNames>
 	<Object
 		Name="Asgard"
-		FullName="АСГАРД" />
+		FullName="ASGARD" />
 
 	<Object
 		Name="Asgard_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Asgard_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Asgard_Bar"
-		FullName="Бар ''Асгард''" />
+		FullName="Bar ''Asgard''" />
 
 	<Object
 		Name="Asgard_Bar_Barman"
-		FullName="Работник Си" />
+		FullName="Worker Bee" />
 
 	<Object
 		Name="NonBomber"
-		FullName="Продавец Томас" />
+		FullName="Seller Thomas" />
 
 	<Object
 		Name="Bonny"
-		FullName="Бродяга Конни" />
+		FullName="Tramp Conny" />
 
 	<Object
 		Name="Bonny1"
-		FullName="Бродяга Конни" />
+		FullName="Tramp Conny" />
 
 	<Object
 		Name="AsgardBarman"
-		FullName="Бармэн Павло" />
+		FullName="Barman Pablo" />
 
 	<Object
 		Name="UnknownFromTunel"
-		FullName="Незнакомец" />
+		FullName="Stranger" />
 
 	<Object
 		Name="Pesht"
-		FullName="ПЕШТ" />
+		FullName="PESHT" />
 
 	<Object
 		Name="Pesht_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Pesht_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Pesht_Bar"
-		FullName="Бар ''Пешт''" />
+		FullName="Bar ''Pest''" />
 
 	<Object
 		Name="Pesht_Bar_Barman"
-		FullName="Работник Брюс" />
+		FullName="Worker Bruce" />
 
 	<Object
 		Name="CrazyRoadRiders"
-		FullName="Зануда Максим" />
+		FullName="Dreary Maxim" />
 
 	<Object
 		Name="TheForgotten"
-		FullName="ЗАБЫТОЕ" />
+		FullName="LOST" />
 
 	<Object
 		Name="TheForgotten_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheForgotten_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheForgotten_Bar"
-		FullName="Бар ''В Прошлом''" />
+		FullName="Bar ''BTTF''" />
 
 	<Object
 		Name="TheForgotten_Bar_Barman"
-		FullName="Бригадирша Мис" />
+		FullName="Foreman Boris" />
 
 	<Object
 		Name="LabirintMan"
-		FullName="Комбайнер Миха" />
+		FullName="Operator Mike" />
 
 	<Object
 		Name="Minin"
-		FullName="МИНИН" />
+		FullName="MININ" />
 
 	<Object
 		Name="Minin_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Minin_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Minin_Bar"
-		FullName="Бар ''Раб''" />
+		FullName="Bar ''Oil well''" />
 
 	<Object
 		Name="Mer_House"
-		FullName="Мэрия" />
+		FullName="Town Hall" />
 
 	<Object
 		Name="Minin_Bar_Barman"
-		FullName="Староста Бекки" />
+		FullName="Headman Buck" />
 
 	<Object
 		Name="MininWorker"
-		FullName="Рабочий Шарки" />
+		FullName="Worker Sharky" />
 
 	<Object
 		Name="MininMer"
-		FullName="Мэр Минина" />
+		FullName="Minin’s Mayor " />
 
 	<Object
 		Name="MininWorker2"
-		FullName="Рабочий Рид" />
+		FullName="Worker Reed" />
 
 	<Object
 		Name="Librarian"
-		FullName="Старик Дод" />
+		FullName="Old man Dod" />
 
 	<Object
 		Name="Librarian1"
-		FullName="Старик Дод" />
+		FullName="Old man Dod" />
 
 	<Object
 		Name="AboutThief"
-		FullName="Механик Бутс" />
+		FullName="Mechanic Boots" />
 
 	<Object
 		Name="TheShahts"
-		FullName="ГОРНЫЕ ШАХТЫ" />
+		FullName="QUARRY" />
 
 	<Object
 		Name="TheShahts_Workshop"
-		FullName="Мастерская" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheShahts_Shop"
-		FullName="Магазин" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheShahts_Bar"
-		FullName="Столовая ''Заря''" />
+		FullName="Mess-room ''From Down''" />
 
 	<Object
 		Name="TheShahts_Bar_Barman"
-		FullName="Работодательница" />
+		FullName="Employer Duff" />
 
 	<Object
 		Name="Bomber"
-		FullName="Прораб Эдди" />
+		FullName="Foreman Eddie " />
 
 	<Object
 		Name="TheVozleMinin"
-		FullName="ПОДНЕБЕСНОЕ" />
+		FullName="CELEST" />
 
 	<Object
 		Name="TheVozleMinin_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheVozleMinin_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheVozleMinin_Bar"
-		FullName="Бар" />
+		FullName="Bar ‘’Sky‘’ " />
 
 	<Object
 		Name="TheVozleMinin_Bar_Barman"
-		FullName="Барменша Дилли" />
+		FullName="Barman Dill" />
 
 	<Object
 		Name="WorkerForMoney"
-		FullName="Наемник" />
+		FullName="Hobo" />
 
 	<Object
 		Name="TheBanditOilMine"
-		FullName="Нефтяная вышка" />
+		FullName="Oil mine" />
 
 	<Object
 		Name="TheBanditOilMine_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheBanditOilMine_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheBanditOilMine_Bar"
-		FullName="Вышка" />
+		FullName="Bar ‘’Pride’’" />
 
 	<Object
 		Name="OilMineWorker"
-		FullName="Нефтяник Крис" />
+		FullName="Kris " />
 
 	<Object
 		Name="TheBase"
-		FullName="БАЗА 51" />
+		FullName="AREA 51" />
 
 	<Object
 		Name="TheBase_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheBase_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheBase_Bar"
-		FullName="Салун ''Мерзкий''" />
+		FullName="Saloon ''Odious''" />
 
 	<Object
 		Name="BaseBandit"
-		FullName="Пройдоха Боб" />
+		FullName="Bob" />
 
 	<Object
 		Name="Thief"
-		FullName="Бандит Ричард" />
+		FullName="Richard" />
 
 	<Object
 		Name="PeshtGuardian"
-		FullName="Житель Арнольд" />
+		FullName="Resident Arny" />
 
 	<Object
 		Name="PeshtGuardian1"
-		FullName="Житель Арнольд" />
+		FullName="Resident Arny" />
 
 	<Object
 		Name="BaseGuardian"
-		FullName="Охранник Дак" />
+		FullName="Guard Duck" />
 
 	<Object
  Name = "BanditPeshtGuardian"
-				FullName = "Бандит Натан" />
+				FullName = "Raider Nathan" />
 
 	<Object
 		Name="CircusMan"
-		FullName="Погорелец" />
+		FullName="Manny" />
 <!-- локации -->
 	<Object
 		Name="PetrolStationTown1"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown4"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown4_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown5"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown5_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Asgard_enter"
-		FullName="АСГАРД" />
+		FullName="ASGARD" />
 
 	<Object
 		Name="TheForgotten_enter"
-		FullName="ЗАБЫТОЕ" />
+		FullName="LOST" />
 
 	<Object
 		Name="TheShahts_enter"
-		FullName="ГОРНЫЕ ШАХТЫ" />
+		FullName="QUARRY" />
 
 	<Object
 		Name="ToR1M1"
-		FullName="Дорога в Край" />
+		FullName="Road to Krai" />
 
 	<Object
 		Name="ToR1M2"
-		FullName="Дорога в Риджин" />
+		FullName="Road to Ridzin" />
 
 	<Object
 		Name="ToR1M4"
-		FullName="Дорога на Хель" />
+		FullName="Road to Hel" />
 
 	<Object
 		Name="ToR2M1"
-		FullName="Тоннель" />
+		FullName="Tunnel" />
 
 	<Object
 		Name="u1"
-		FullName="Руп" />
+		FullName="Raoul" />
 
 	<Object
 		Name="u2"
-		FullName="Донна" />
+		FullName="Don" />
 
 	<Object
 		Name="u3"
-		FullName="Грешник" />
+		FullName="Sinner" />
 
 	<Object
 		Name="u4"
-		FullName="Миф" />
+		FullName="Drake" />
 
 	<Object
 		Name="u5"
-		FullName="Джей" />
+		FullName="Jay " />
 
 	<Object
 		Name="u6"
-		FullName="Молчун Боб" />
+		FullName="Silent Bob" />
 
 	<Object
 		Name="u7"
-		FullName="Крыс" />
+		FullName="Rat" />
 
 	<Object
 		Name="u8"
-		FullName="Чупа" />
+		FullName="Chupa" />
 
 	<Object
 		Name="u9"
-		FullName="Иззи" />
+		FullName="Izzy" />
 </ObjectNames>

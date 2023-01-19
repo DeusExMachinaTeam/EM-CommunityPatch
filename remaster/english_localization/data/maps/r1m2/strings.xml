@@ -3,7 +3,7 @@
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|Странная штука... Как будто след... Немудрено, что люди боятся: мне и самому здесь не по себе. Поеду лучше доложу в Мидгард об этом явлении."
+		value="|Strange indeed. It looks like some kind of a print. No wonder people are scared, who knows what Evil tainted this field. Maybe the scientists from Midgard can help."
 		sound="data\sounds\Speech\r1m2\r1m2_1_hero.ogg"
 		time="12" />
 
@@ -13,7 +13,7 @@
 		modelSkin="1"
 		modelCfg="70"
 		modelSlot="1"
-		value="БАНДИТ|Ага... Тебя-то здесь и не хватало..."
+		value="BANDIT|Well, well! You’ve come to the wrong place, pal!"
 		sound="data\sounds\Speech\r1m2\r1m2_20_bandit.ogg"
 		time="4" />
 
@@ -21,14 +21,14 @@
 		id="21"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Ты? Что ты здесь делаешь? Ты всё испортил... То есть спасибо за чудесное избавление."
+		value="ALICE|You? What the ... I mean, thanks for saving me."
 		sound="data\sounds\Speech\r1m2\r1m2_21_lisa.ogg"
 		time="7" />
 
 	<string
 		id="22"
 		modelName="mask_hero"
-		value="|Я спас тебя, Лиса. Теперь ты ответишь на мои вопросы: мне нужно знать, кто убил моего отца!"
+		value="|Yes, I saved you and now you'll tell me who killed my father!"
 		sound="data\sounds\Speech\r1m2\r1m2_22_hero.ogg"
 		time="6" />
 
@@ -36,14 +36,14 @@
 		id="23"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Что? Кого? Я ни при чём. Я никого не убивала! И не думай повесить на меня мокрое дело!"
+		value="ALICE|I have nothing to do with it! It wasn't me!"
 		sound="data\sounds\Speech\r1m2\r1m2_23_lisa.ogg"
 		time="7" />
 
 	<string
 		id="24"
 		modelName="mask_hero"
-		value="|Да я тебя и не обвиняю. По крайней мере до выяснения всех подробностей."
+		value="I don't blame you."
 		sound="data\sounds\Speech\r1m2\r1m2_24_hero.ogg"
 		time="4" />
 
@@ -51,14 +51,14 @@
 		id="25"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Так что же ты за мной притащился в такую даль?"
+		value="ALICE|Why are you here then? It's so far from your home."
 		sound="data\sounds\Speech\r1m2\r1m2_25_lisa.ogg"
 		time="2" />
 
 	<string
 		id="26"
 		modelName="mask_hero"
-		value="|Я здесь задаю вопросы! Отвечай, кто убил жителей села Глухое? Кто совершил это злодеяние? Ты отправилась туда, когда мы расстались, и знаешь, что там произошло!"
+		value="I ask questions here! Tell me, who attacked Glukhoe? You are the only witness."
 		sound="data\sounds\Speech\r1m2\r1m2_26_hero.ogg"
 		time="11" />
 
@@ -66,14 +66,14 @@
 		id="27"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Так ты, значит... То есть...  Да, я была там, когда это произошло, и видела, кто это сделал."
+		value="ALICE|Yes... I was there... It was terrible..."
 		sound="data\sounds\Speech\r1m2\r1m2_27_lisa.ogg"
 		time="6" />
 
 	<string
 		id="28"
 		modelName="mask_hero"
-		value="|Говори же!"
+		value="|Who was it?!"
 		sound="data\sounds\Speech\r1m2\r1m2_28_hero.ogg"
 		time="1" />
 
@@ -81,14 +81,14 @@
 		id="29"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Это были борцы за новый мировой порядок. Алый Рассвет - так они себя называют. Безжалостные убийцы с запада. Обычно они не выезжают за пределы своей страны, но сейчас они начали экспансию в соседние регионы."
+		value="ALICE|Crimson Dawn, the terrorists from the west. They would rarely leave their native land, but now they started to come out."
 		sound="data\sounds\Speech\r1m2\r1m2_29_lisa.ogg"
 		time="10" />
 
 	<string
 		id="210"
 		modelName="mask_hero"
-		value="|Откуда ты знаешь столько про них?"
+		value="|How do you know?"
 		sound="data\sounds\Speech\r1m2\r1m2_210_hero.ogg"
 		time="2" />
 
@@ -96,14 +96,14 @@
 		id="211"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Я много путешествую по миру, ищу новые способы... новые технологии. Куда только меня не заносило."
+		value="ALICE|I travel a lot, I look for lost technologies and artifacts."
 		sound="data\sounds\Speech\r1m2\r1m2_211_lisa.ogg"
 		time="6" />
 
 	<string
 		id="212"
 		modelName="mask_hero"
-		value="|Но я всё равно не понимаю, зачем они убили невинных людей?"
+		value="|I see. But why would they attack innocent people, like us?"
 		sound="data\sounds\Speech\r1m2\r1m2_212_hero.ogg"
 		time="3" />
 
@@ -111,14 +111,14 @@
 		id="213"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Это обычная тактика. Они совершат несколько неожиданных рейдов. А когда среди населения начнётся паника, они заявятся и предложат своё покровительство. Естественно, не бесплатно."
+		value="ALICE|Something drives them out of their lairs. Their attacks have become more and more frequent lately. Many towns suffer from their raids."
 		sound="data\sounds\Speech\r1m2\r1m2_213_lisa.ogg"
 		time="10" />
 
 	<string
 		id="214"
 		modelName="mask_hero"
-		value="|Какая низость! Я не позволю им протянуть свои грязные лапы к моей родине! Я убью их всех!"
+		value="|I will avenge. They will die! All of them!"
 		sound="data\sounds\Speech\r1m2\r1m2_214_hero.ogg"
 		time="6" />
 
@@ -126,7 +126,7 @@
 		id="215"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Не горячись, среди этих бандитов есть и те, кто пошёл служить, чтобы спасти свои семьи от голода. Есть и те, кого вынудили и запугали."
+		value="ALICE|Don't be hasty. There's no need to kill everybody. The man you need is their leader - Axel."
 		sound="data\sounds\Speech\r1m2\r1m2_215_lisa.ogg"
 		time="9" />
 
@@ -134,14 +134,14 @@
 		id="2150"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|На самом деле по-настоящему виноват только один человек - главарь, Аксель. На его железной воле держится вся империя зла. Если устранить его - могучая сила рассыпется как карточный домик."
+		value="ALICE|Destroy him and his evil empire will fall."
 		sound="data\sounds\Speech\r1m2\r1m2_2150_lisa.ogg"
 		time="12" />
 
 	<string
 		id="216"
 		modelName="mask_hero"
-		value="|Ты права, отвечать должен тот, кто отдал приказ. Аксель будет повержен!"
+		value="|You are right! Axel will pay!"
 		sound="data\sounds\Speech\r1m2\r1m2_216_hero.ogg"
 		time="4" />
 
@@ -149,14 +149,14 @@
 		id="217"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Знай же, что добраться до него очень и очень непросто. И придётся действовать не столько грубой силой, сколько хитростью."
+		value="ALICE|You must know that he is a dangerous man. It will be quite a challenge to get him."
 		sound="data\sounds\Speech\r1m2\r1m2_217_lisa.ogg"
 		time="7" />
 
 	<string
 		id="218"
 		modelName="mask_hero"
-		value="|Я справлюсь. Укажи только дорогу на запад."
+		value="|Don't worry about that. Just show me the way."
 		sound="data\sounds\Speech\r1m2\r1m2_218_hero.ogg"
 		time="3" />
 
@@ -164,14 +164,14 @@
 		id="219"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Я знаю только один путь – тоннель, идущий под горой. Спроси о нём в Асгарде. Прощай, герой!"
+		value="ALICE|There's only one way I’m aware of:  the tunnel under the mountains. Ask somebody in Asgard, they will show it to you. Farewell, hero!"
 		sound="data\sounds\Speech\r1m2\r1m2_219_lisa.ogg"
 		time="8" />
 
 	<string
 		id="220"
 		modelName="mask_hero"
-		value="|Прощай. Спасибо за помощь."
+		value="|Goodbye. Thanks for the help."
 		sound="data\sounds\Speech\r1m2\r1m2_220_hero.ogg"
 		time="2" />
 
@@ -181,7 +181,7 @@
 		modelSkin="1"
 		modelCfg="62"
 		modelSlot="1"
-		value="ОРАТОР|Битва начинается!"
+		value="ARBITER|Let the battle begin!"
 		sound="data\sounds\Speech\r1m2\r1m2_221_arbiter.ogg"
 		time="4" />
 
@@ -191,45 +191,45 @@
 		modelSkin="1"
 		modelCfg="62"
 		modelSlot="1"
-		value="ОРАТОР|Начнём же бой!"
+		value="ARBITER|Get ready to rumble!"
 		sound="data\sounds\Speech\r1m2\r1m2_222_arbiter.ogg"
 		time="4" />
 
 	<string
 		id="223"
 		modelName="mask_hero"
-		value="|Я победил! Сплав у меня!"
+		value="|The victory is mine! As well as rare alloy! "
 		sound="data\sounds\Speech\r1m2\r1m2_223_hero.ogg"
 		time="4" />
 
 	<string
 		id="224"
 		modelName="mask_hero"
-		value="|Победа!"
+		value="Victory!"
 		sound="data\sounds\Speech\r1m2\r1m2_224_hero.ogg"
 		time="4" />
 
 	<string
 		id="666"
-		value="Караван уничтожен. Вы не смогли обеспечить его безопасность."
+		value="You failed to protect the caravan."
 		numButtons="1" />
 
 	<string
 		id="8801"
-		value="Вы желаете покинуть эту область?"
+		value="Do you wish to travel to another region?"
 		numButtons="2" />
 
 	<string
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
+		value="I don’t know the way, so I’ll better stay here."
 		time="3" />
 
 	<string
 		id="8803"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
-		value="Какое-то странное место. Лучше держаться отсюда подальше."
+		value="There’s something strange about this place. I don’t want to go there. "
 		time="3" />
 </resource>

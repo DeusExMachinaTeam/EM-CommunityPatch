@@ -3,71 +3,71 @@
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|Я пересёк Пустыню Смерти! И даже здесь – следы человека. Где только люди не селятся!"
+		value="|I crossed the Desert of Death! And even here I can feel the human presence. I am on the right track!"
 		sound="data\sounds\Speech\r4m1\r4m1_1_hero.ogg"
 		time="1" />
 
 	<string
 		id="2"
 		modelName="mask_hero"
-		value="|Прежде всего, надо найти мастерскую, где можно заправиться и починиться, а там посмотрим, что делать."
+		value="|First of all, I gotta repair and reload my truck. There must be a settlement nearby. "
 		sound="data\sounds\Speech\r4m1\r4m1_2_hero.ogg"
 		time="1" />
 
 	<string
 		id="3"
 		modelName="mask_hero"
-		value="|Вот и Нефтехранилище, доехал без особых проблем. Сейчас загружу полный кузов и прицеп – и в обратный путь."
+		value="|Here’s the Oil storage. Now I have to load the truck with oil and get back. There should be no problems with that."
 		sound="data\sounds\Speech\r4m1\r4m1_3_hero.ogg"
 		time="1" />
 
 	<string
 		id="4"
 		image=""
-		value="Поздравляем! Вы выиграли гонку!"
+		value="Congratulations! You have won the race! "
 		time="5" />
 
 	<string
 		id="5"
 		image=""
-		value="Вы заняли призовое 2-ое место."
+		value="Congratulations! You won the second prize."
 		time="5" />
 
 	<string
 		id="6"
 		image=""
-		value="Вы заняли призовое 3-е место."
+		value="Congratulations! You won the third prize."
 		time="5" />
 
 	<string
 		id="7"
 		image=""
-		value="Вы проиграли гонку."
+		value="You have lost!"
 		time="5" />
 
 	<string
 		id="8"
 		image=""
-		value="Вы разбили машину и не можете продолжить гонку."
+		value="You ruined the car and cannot continue the race."
 		time="5" />
 
 	<string
 		id="9"
 		image=""
-		value="Фальстарт! Вы проиграли."
+		value="False start! You have lost!"
 		time="5" />
 
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|Давно мечтал поездить на машине с прицепом. Мечты сбываются..."
+		value="|I always dreamt about a trailer! Dreams come true! "
 		sound="data\sounds\Speech\r4m1\r4m1_10_hero.ogg"
 		time="5" />
 
 	<string
 		id="11"
 		modelName="mask_hero"
-		value="|Мой родной грузовик. Я уж заскучал по нему! К чертям этот прицеп, меня и так всё устраивает."
+		value="|My old good truck, I started to worry about you. To hell with the trailer! I like my vehicle the way it is."
 		sound="data\sounds\Speech\r4m1\r4m1_11_hero.ogg"
 		time="5" />
 <!-- Привезли бухарцев в порт -->
@@ -77,21 +77,21 @@
 		modelSkin="0"
 		modelCfg="135"
 		modelSlot="1"
-		value="СТАРИК|Вот мы и приехали в порт. Спасибо тебе за защиту от супостата."
+		value="OLD MAN|Now we are safe, thanks to you!"
 		sound="data\sounds\Speech\r4m1\r4m1_12_oldman.ogg"
 		time="5" />
 
 	<string
 		id="13"
 		modelName="mask_hero"
-		value="|Всегда пожалуйста. Удачно вам переправиться на другие земли."
+		value="|It was a pleasure helping you out. Good luck with traveling overseas! "
 		sound="data\sounds\Speech\r4m1\r4m1_13_hero.ogg"
 		time="5" />
 <!-- Эта строка если с Лисой ехали -->
 	<string
 		id="14"
 		modelName="mask_hero"
-		value="|И заберите с собой Лису, а то с ней не всё в порядке."
+		value="|And take Alice with you. She seems to be thrown out of balance."
 		sound="data\sounds\Speech\r4m1\r4m1_14_hero.ogg"
 		time="5" />
 
@@ -101,21 +101,21 @@
 		modelSkin="0"
 		modelCfg="135"
 		modelSlot="1"
-		value="СТАРИК|Сначала я не хотел тебе этого говорить, но тот человек, о котором ты спрашивал, действительно был в нашей деревне. Он отправился дальше на восток. Заклинаю тебя: не следуй за ним! Там тебя ждёт только смерть. Или то, что хуже смерти."
+		value="OLD MAN|One more thing. Now that I know you better, I can tell you about the man you seek. Ivan Go visited our village years ago. He asked many questions and left to the east. The deadliest part of the desert lies that way. Please, come with us. Do not follow him, only death awaits you there..."
 		sound="data\sounds\Speech\r4m1\r4m1_15_oldman.ogg"
 		time="5" />
 <!-- Инженер сдох -->
 	<string
 		id="16"
 		modelName="mask_hero"
-		value="|Чёрт побери! Что же его так напугало? Совсем слетел с катушек, бедняга... Что я теперь скажу в городе?"
+		value="|God damn you! Something scared him to death... Poor fellow got completely crazy in the end. |What am I supposed to tell in Kef now?"
 		sound="data\sounds\Speech\r4m1\r4m1_16_hero.ogg"
 		time="5" />
 
 	<string
 		id="17"
 		modelName="mask_hero"
-		value="|А мне придётся как-то выкручиваться в Кефе."
+		value="|What am I supposed to tell in Kef now?"
 		sound="data\sounds\Speech\r4m1\r4m1_17_hero.ogg"
 		time="5" />
 <!-- Лиса бесится -->
@@ -123,14 +123,14 @@
 		id="18"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Что-то мне нехорошо. Как только мы приехали в эту пустыню, я как-то странно себя чувствую."
+		value="ALICE|I don’t feel good... Something is happening to me since our arrival to this desert."
 		sound="data\sounds\Speech\r4m1\r4m1_18_alice.ogg"
 		time="5" />
 
 	<string
 		id="19"
 		modelName="mask_hero"
-		value="|Крепись! Я чувствую, что мы уже недалеко от цели!"
+		value="|Stay cool! We are close to the goal now!"
 		sound="data\sounds\Speech\r4m1\r4m1_19_hero.ogg"
 		time="5" />
 
@@ -138,14 +138,14 @@
 		id="20"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Всё из-за тебя! Это ты затащил меня сюда, а теперь собираешься бросить подыхать среди этих чёртовых дюн!"
+		value="ALICE|It’s all your fault! You dragged me here and now you are going to let me die! "
 		sound="data\sounds\Speech\r4m1\r4m1_20_alice.ogg"
 		time="5" />
 
 	<string
 		id="21"
 		modelName="mask_hero"
-		value="|[Она, похоже, подвинулась рассудком. Этого мне только не хватало.] Послушай, Лиса, всё в порядке, у тебя тёплые ноги. Сосчитай до десяти и успокойся."
+		value="|[She cracked, after all. That's all I need!] Alice, calm down. Everything is all right. Look at me. I never meant you any harm. "
 		sound="data\sounds\Speech\r4m1\r4m1_21_hero.ogg"
 		time="1" />
 
@@ -153,40 +153,40 @@
 		id="22"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Извини... Со мной что-то происходит... Постараюсь держать себя в руках... Эта пустыня... Давит на меня..."
+		value="ALICE|Sorry... I see... I’ll try to keep myself in hand... It’s all that frigging desert!"
 		sound="data\sounds\Speech\r4m1\r4m1_22_alice.ogg"
 		time="5" />
 
 	<string
 		id="8801"
-		value="Вы желаете покинуть эту область?"
+		value="Do you wish to travel to another region?"
 		numButtons="2" />
 
 	<string
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
-		time="5" />
+		value="I don’t know the way, so I’ll better stay here. " />
 
 	<string
 		id="8803"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
-		value="Что-то там непонятное. Не буду туда соваться." />
+		value="There’s something strange about this place. I don’t want to go there. " />
 
 	<string
 		id="8804"
 		modelName="mask_hero"
-		value="Похоже, прибор, вызывающий корабль, сломался. Или бандиты украли всю технику в порту. В любом случае придётся ехать на своих четырех."
+		value="Looks like the device that summons the boat isn't working. Or some barbarians have broken the local machinery. Anyway, I will have to drive."
 		numButtons="1"
 		 />
 
+
 	<string
 		id="8901"
-		value="Вы не смогли спасти Бухарцев. Теперь Вам никогда не достигнуть цели." />
+		value="You failed to protect the villagers. Now you’ll never reach your goal. " />
 
 	<string
 		id="8902"
-		value="Прицеп разрушен, доставка нефти отменяется." />
+		value="The trailer is destroyed. People won’t cooperate with you no more. " />
 </resource>

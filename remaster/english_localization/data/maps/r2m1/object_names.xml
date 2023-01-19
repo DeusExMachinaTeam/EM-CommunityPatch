@@ -2,301 +2,301 @@
 <ObjectNames>
 	<Object
 		Name="TheGelvetcia"
-		FullName="ГЕЛЬВЕЦИЯ" />
+		FullName="HELVETIA" />
 
 	<Object
 		Name="TheGelvetcia_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheGelvetcia_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheGelvetcia_House"
-		FullName="СЕНАТ" />
+		FullName="SENATE" />
 
 	<Object
 		Name="TheGelvetcia_Bar"
-		FullName="Рюмочная" />
+		FullName="Jigger" />
 
 	<Object
 		Name="TheGelvetcia_Bar_Barman"
-		FullName="Секретарша Блэр" />
+		FullName="Secretary Blake" />
 
 	<Object
 		Name="Senat"
-		FullName="Сенатор Шварц" />
+		FullName="Senator Schwartz " />
 
 	<Object
 		Name="Gulik"
-		FullName="Жулик Инкс" />
+		FullName="Trickster" />
 
 	<Object
 		Name="TheSel"
-		FullName="СЕЛЬ" />
+		FullName="SEIL" />
 
 	<Object
 		Name="TheSel_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheSel_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheSel_House"
-		FullName="Станция" />
+		FullName="Station" />
 
 	<Object
 		Name="TheSel_Bar"
-		FullName="Бар ''Лавин''" />
+		FullName="Bar 'LaVine'" />
 
 	<Object
 		Name="TheSel_Bar_Barman"
-		FullName="Работодатель Би" />
+		FullName="Employer Abe" />
 
 	<Object
 		Name="SelCitizen"
-		FullName="Электрик Ил" />
+		FullName="Electrician" />
 
 	<Object
 		Name="SelBarmen"
-		FullName="Барменша Воля" />
+		FullName="Barman" />
 
 	<Object
 		Name="Estet"
-		FullName="Эстет Кауфман" />
+		FullName="Aesthete Kauf" />
 
 	<Object
 		Name="TheTuzz"
-		FullName="ТУЗ" />
+		FullName="TOUSE" />
 
 	<Object
 		Name="TheTuzz_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheTuzz_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheTuzz_House"
-		FullName="Штаб вербовки" />
+		FullName="Recruiting center" />
 
 	<Object
 		Name="TheTuzz_Bar"
-		FullName="Столовая" />
+		FullName="Canteen" />
 
 	<Object
 		Name="TheTuzz_Bar_Barman"
-		FullName="Агитаторша Бо" />
+		FullName="Agitator Bob" />
 
 	<Object
 		Name="TuzVerb"
-		FullName="Вербовщик Хэнк" />
+		FullName="Recruiter Hank" />
 
 	<Object
 		Name="TheDoubtful"
-		FullName="РАЗДОЛЬНОЕ" />
+		FullName="LIBERTE" />
 
 	<Object
 		Name="TheDoubtful_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheDoubtful_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheDoubtful_Bar"
-		FullName="Бар" />
+		FullName="Bar" />
 
 	<Object
 		Name="TheDoubtful_Bar_Barman"
-		FullName="Барменша" />
+		FullName="Barman" />
 
 	<Object
 		Name="AntipodEstet"
-		FullName="Ценитель старины" />
+		FullName="Virtuoso" />
 
 	<Object
 		Name="TheUnderAttaks"
-		FullName="ПЕТРОПАВЛОВСК" />
+		FullName="FRATERNITE" />
 
 	<Object
 		Name="TheUnderAttaks_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheUnderAttaks_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheUnderAttaks_Bar"
-		FullName="Бар" />
+		FullName="Bar" />
 
 	<Object
 		Name="TheUnderAttaks_Bar_Barman"
-		FullName="Барменша" />
+		FullName="Barman" />
 
 	<Object
 		Name="TheVill2"
-		FullName="РОТОРСК" />
+		FullName="EGALITE" />
 
 	<Object
 		Name="TheVill2_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheVill2_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheVill2_Bar"
-		FullName="Бар" />
+		FullName="Bar" />
 
 	<Object
 		Name="TheVill2_Bar_Barman"
-		FullName="Барменша" />
+		FullName="Barman" />
 
 	<Object
 		Name="TheVill1"
-		FullName="ГЕНДЕНБУРГСК" />
+		FullName="GENDENBURG" />
 
 	<Object
 		Name="TheVill1_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheVill1_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheVill1_Bar"
-		FullName="Бар" />
+		FullName="Bar" />
 
 	<Object
 		Name="TheVill1_Bar_Barman"
-		FullName="Барменша" />
+		FullName="Barman" />
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown4"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown4_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown5"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown5_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheGelvetcia_enter"
-		FullName="ГЕЛЬВЕЦИЯ" />
+		FullName="HELVETIA" />
 
 	<Object
 		Name="TheSel_enter"
-		FullName="СЕЛЬ" />
+		FullName="SEIL" />
 
 	<Object
 		Name="TheTuzz_enter"
-		FullName="ТУЗ" />
+		FullName="TOUS" />
 
 	<Object
 		Name="TheDoubtful_enter"
-		FullName="РАЗДОЛЬНОЕ" />
+		FullName="LIBERTE" />
 
 	<Object
 		Name="TheUnderAttaks_enter"
-		FullName="ПЕТРОПАВЛОВСК" />
+		FullName="FRATERNITE" />
 
 	<Object
 		Name="TheVill1_enter"
-		FullName="ГЕНДЕНБУРГСК" />
+		FullName="GENDENBURG" />
 
 	<Object
 		Name="TheVill2_enter"
-		FullName="РОТОРСК" />
+		FullName="EGALITE" />
 
 	<Object
 		Name="ToR1M3"
-		FullName="Тоннель" />
+		FullName="Tunnel" />
 
 	<Object
 		Name="ToR3M1"
-		FullName="Подводный тоннель" />
+		FullName="Underwater tunnel" />
 
 	<Object
 		Name="ToR2M2"
-		FullName="Дорога в Аржан" />
+		FullName="Road to Argen " />
 
 	<Object
 		Name="ToR2M2small"
-		FullName="Тропа в Аржан" />
+		FullName="Path to Argen" />
 
 	<Object
 		Name="u1"
-		FullName="Шрайк" />
+		FullName="Shrike" />
 
 	<Object
 		Name="u2"
-		FullName="Пит" />
+		FullName="Dr.Pit" />
 
 	<Object
 		Name="u3"
-		FullName="Ричи" />
+		FullName="Ryche" />
 
 	<Object
 		Name="u4"
-		FullName="Джин" />
+		FullName="Jinn" />
 
 	<Object
 		Name="u5"
-		FullName="Мира" />
+		FullName="Mirra" />
 
 	<Object
 		Name="u6"
-		FullName="Рэй" />
+		FullName="Grey" />
 
 	<Object
 		Name="u7"
-		FullName="Шэдоу" />
+		FullName="Sadow" />
 
 	<Object
 		Name="u8"
-		FullName="Фосген" />
+		FullName="Phosgen" />
 
 	<Object
 		Name="u9"
-		FullName="Жан" />
+		FullName="Jan" />
 </ObjectNames>

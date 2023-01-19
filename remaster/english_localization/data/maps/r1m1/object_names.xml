@@ -2,229 +2,229 @@
 <ObjectNames>
 	<Object
 		Name="TheTown"
-		FullName="ЮЖНЫЙ" />
+		FullName="Sowth" />
 
 	<Object
 		Name="TheTown_Workshop"
-		FullName="Гараж" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheTown_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="TheTown_Bar"
-		FullName="Бар ''Долгий путь''" />
+		FullName="Bar ''Last Journey''" />
 
 	<Object
 		Name="TheTown_Bar_Barman"
-		FullName="Жена Бармена" />
+		FullName="Barman" />
 
 	<Object
 		Name="HurdTrucker"
-		FullName="Бармен Дронн" />
+		FullName="Trucker" />
 
 	<Object
 		Name="Buyer"
-		FullName="Торговец Серго" />
+		FullName="Sergo the trader" />
 
 	<Object
 		Name="WorkGiver"
-		FullName="Фермер Дик" />
+		FullName="Farmer Dick" />
 
 	<Object
 		Name="WorkGiver1"
-		FullName="Фермер Дик" />
+		FullName="Farmer Dick" />
 
 	<Object
 		Name="Lisa"
-		FullName="Лиса" />
+		FullName="Alice" />
 
 	<Object
 		Name="TheGloohoe"
-		FullName="ГЛУХОЕ" />
+		FullName="Glukhoe" />
 
 	<Object
 		Name="TheGloohoe_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheGloohoe_Shop"
-		FullName="Супермаркет" />
+		FullName="Supermarket" />
 
 	<Object
 		Name="TheGloohoe_House"
-		FullName="Дом" />
+		FullName="House" />
 
 	<Object
 		Name="Father"
-		FullName="Отец" />
+		FullName="Father" />
 
 	<Object
 		Name="TheOilVillage"
-		FullName="ЗАИМКА" />
+		FullName="Zaimka" />
 
 	<Object
 		Name="TheOilVillage_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheOilVillage_Shop"
-		FullName="Базар" />
+		FullName="Bazaar" />
 
 	<Object
 		Name="TheOilVillage_Bar"
-		FullName="Закусочная ''Ять''" />
+		FullName="Bar ''Led Zeppelin''" />
 
 	<Object
 		Name="TheOilVillage_Bar_Barman"
-		FullName="Продавщица Дара" />
+		FullName="Trader Gogo" />
 
 	<Object
 		Name="HaveBigBoom"
-		FullName="Писатель Квентин" />
+		FullName="Barman Mugen" />
 
 	<Object
 		Name="TheContraVillage"
-		FullName="ГУГУЛИНО" />
+		FullName="Gugulino" />
 
 	<Object
 		Name="TheContraVillage_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheContraVillage_Shop"
-		FullName="Рынок" />
+		FullName="General store" />
 
 	<Object
 		Name="TheContraVillage_Bar"
-		FullName="Бар ''Меграт''" />
+		FullName="Bar ''Madrat''" />
 
 	<Object
 		Name="TheContraVillage_Bar_Barman"
-		FullName="Барменша Уи" />
+		FullName="Barman Will" />
 
 	<Object
 		Name="TheFreedom"
-		FullName="ТРОИЦКОЕ" />
+		FullName="Troyitsk" />
 
 	<Object
 		Name="TheFreedom_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheFreedom_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="TheFreedom_Bar"
-		FullName="Закусочная ''Краб''" />
+		FullName="Bar ''Crab''" />
 
 	<Object
 		Name="TheFreedom_Bar_Barman"
-		FullName="Барменша Руха" />
+		FullName="Old Hag" />
 
 	<Object
 		Name="CS"
-		FullName="Революционер Эд" />
+		FullName="Revolutionary Ed" />
 
 	<Object
 		Name="Botanik"
-		FullName="Ботаник Люкк" />
+		FullName="Botanist Luke" />
 
 	<Object
 		Name="Medik"
-		FullName="Казуал Вова" />
+		FullName="Casual Boba" />
 
 	<Object
 		Name="Oldsolder"
-		FullName="Старый солдат" />
+		FullName="Old man Tom" />
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 <!-- локации -->
 	<Object
 		Name="ToR1M2"
-		FullName="Дорога в Риджин" />
+		FullName="Road to Ridzin" />
 
 	<Object
 		Name="ToR1M3"
-		FullName="Дорога на Фатерлянд" />
+		FullName="Road to Vaterland" />
 
 	<Object
 		Name="ToR4M1"
-		FullName="Дорога в Вахат" />
+		FullName="Road to Vahat" />
 
 	<Object
 		Name="TheContraVillage_defend"
-		FullName="ГУГУЛИНО" />
+		FullName="Gugulino" />
 
 	<Object
 		Name="TheTown_enter"
-		FullName="ЮЖНЫЙ" />
+		FullName="Town Sowth" />
 
 	<Object
 		Name="TheFreedom_enter"
-		FullName="ТРОИЦКОЕ" />
+		FullName="Village Troyitsk" />
 
 	<Object
 		Name="TheOilVillage_enter"
-		FullName="ЗАИМКА" />
+		FullName="Zaimka" />
 
 	<Object
 		Name="u1"
-		FullName="Чукча Джо" />
+		FullName="Joe" />
 
 	<Object
 		Name="u2"
-		FullName="Безрукий Макс" />
+		FullName="Max" />
 
 	<Object
 		Name="u3"
-		FullName="Терминатор" />
+		FullName="Terminator" />
 
 	<Object
 		Name="u4"
-		FullName="Безногий Бо" />
+		FullName="Billy Kid" />
 
 	<Object
 		Name="u5"
-		FullName="Хомяк Би" />
+		FullName="Hamster" />
 
 	<Object
 		Name="u6"
-		FullName="Тормоз" />
+		FullName="Brake" />
 
 	<Object
 		Name="u7"
-		FullName="Большой Бен" />
+		FullName="Big Ben" />
 
 	<Object
 		Name="u8"
-		FullName="Мо" />
+		FullName="Moe" />
 
 	<Object
 		Name="u9"
-		FullName="Корлей" />
+		FullName="Corley" />
 </ObjectNames>

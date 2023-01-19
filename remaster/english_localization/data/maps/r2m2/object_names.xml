@@ -2,261 +2,261 @@
 <ObjectNames>
 	<Object
 		Name="LagerGuardian"
-		FullName="Повстанец" />
+		FullName="Rebel" />
 
 	<Object
 		Name="Monastery"
-		FullName="МОНАСТЫРЬ" />
+		FullName="CLOISTER " />
 
 	<Object
 		Name="Monastery_Bar"
-		FullName="Трапезная" />
+		FullName="Refectory" />
 
 	<Object
 		Name="Monastery_Bar_Barman"
-		FullName="Грешница Дарья" />
+		FullName="Sinner Daria" />
 
 	<Object
 		Name="Monastery_Cell"
-		FullName="Келья" />
+		FullName="Cell" />
 
 	<Object
 		Name="Monastery_Shop"
-		FullName="Паперть" />
+		FullName="Vestibule" />
 
 	<Object
 		Name="Monah"
-		FullName="Монашка Иоанна" />
+		FullName="Nun Johanna" />
 
 	<Object
 		Name="SektantMain"
-		FullName="Настоятельница" />
+		FullName="Prioress" />
 
 	<Object
 		Name="Marezzia"
-		FullName="МАРЕЦЦИЯ" />
+		FullName="MAREZZIA" />
 
 	<Object
 		Name="Marezzia_Shtab"
-		FullName="Штаб АР" />
+		FullName="Staff of CD" />
 
 	<Object
 		Name="Marezzia_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Marezzia_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Marezzia_Bar"
-		FullName="Бар ''Василек''" />
+		FullName="Bar ''Blue Oyster''" />
 
 	<Object
 		Name="Marezzia_Bar_Barman"
-		FullName="Официант Антонио" />
+		FullName="Waiter Antonio" />
 
 	<Object
 		Name="RecruiterInAR"
-		FullName="Оппозиционер Хукс" />
+		FullName="Husk" />
 
 	<Object
 		Name="TrashFarmer"
-		FullName="Мусорщик Сакс" />
+		FullName="Dustman Sux" />
 
 	<Object
 		Name="Zeon"
-		FullName="ЗЕОН" />
+		FullName="ZEON" />
 
 	<Object
 		Name="Zeon_CentralHouse"
-		FullName="Бункер" />
+		FullName="Bunker" />
 
 	<Object
 		Name="Axel"
-		FullName="Аксель" />
+		FullName="Axel" />
 
 	<Object
 		Name="Zeon_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Zeon_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Toskana"
-		FullName="ТОСКАНА" />
+		FullName="TOSKANA" />
 
 	<Object
 		Name="Toskana_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Toskana_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Toskana_Bar"
-		FullName="Кафе ''Ностальгия''" />
+		FullName="Cafe ''Nostalgia''" />
 
 	<Object
 		Name="Toskana_Bar_Barman"
-		FullName="Бармен Вилли" />
+		FullName="Barman Billy" />
 
 	<Object
 		Name="Agent"
-		FullName="Агент Хрунович" />
+		FullName="Agent Hrunovich" />
 
 	<Object
 		Name="GranicaVillage"
-		FullName="ПОГРАНИЧЬЕ" />
+		FullName="BORDER" />
 
 	<Object
 		Name="GranicaVillage_Bar"
-		FullName="Столовая" />
+		FullName="Dining-hall" />
 
 	<Object
 		Name="GranicaVillage_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="GranicaVillage_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="GranicaVillage_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="ZnakiVillage"
-		FullName="САРАЕВО" />
+		FullName="SARAEVO" />
 
 	<Object
 		Name="ZnakiVillage_Bar"
-		FullName="Домик в деревне" />
+		FullName="Bar ‘’Wasteland’’" />
 
 	<Object
 		Name="ZnakiVillage_Bar_Barman"
-		FullName="Староста" />
+		FullName="Elder" />
 
 	<Object
 		Name="ZnakiVillage_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="ZnakiVillage_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Aborigen"
-		FullName="Деревенщина Серж" />
+		FullName="Bumpkin Serge" />
 
 	<Object
 		Name="NewVillage"
-		FullName="АСТРИЯ" />
+		FullName="ASTRIA" />
 
 	<Object
 		Name="NewVillage_Bar"
-		FullName="Бар ''Заблудший''" />
+		FullName="Bar ''Forsaken''" />
 
 	<Object
 		Name="NewVillage_Bar_Barman"
-		FullName="Староста" />
+		FullName="Headman" />
 
 	<Object
 		Name="NewVillage_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="NewVillage_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="NewMechanik"
-		FullName="Механик Жерс" />
+		FullName="Mechanic Jersey " />
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="Заправка" />
+		FullName="GAS STATION" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Toskana_enter"
-		FullName="ТОСКАНА" />
+		FullName="TOSKANA" />
 
 	<Object
 		Name="ZnakiVillage_enter"
-		FullName="САРАЕВО" />
+		FullName="SARAEVO" />
 
 	<Object
 		Name="NewVillage_enter"
-		FullName="АСТРИЯ" />
+		FullName="ASTRIA" />
 
 	<Object
 		Name="EnterToSubmarine_loc"
-		FullName="Морские врата" />
+		FullName="Sea gate" />
 
 	<Object
 		Name="ToR2M1"
-		FullName="Дорога в Либриум" />
+		FullName="Road to Librium" />
 
 	<Object
 		Name="ToR2M1small"
-		FullName="Тропа в Либриум" />
+		FullName="Path to Librium " />
 
 	<Object
 		Name="u1"
-		FullName="Сэм" />
+		FullName="Sam" />
 
 	<Object
 		Name="u2"
-		FullName="Прайс" />
+		FullName="Price" />
 
 	<Object
 		Name="u3"
-		FullName="Чистильщик" />
+		FullName="Punisher" />
 
 	<Object
 		Name="u4"
-		FullName="Федот" />
+		FullName="Fedot" />
 
 	<Object
 		Name="u5"
-		FullName="Пунтус" />
+		FullName="Puntus" />
 
 	<Object
 		Name="u6"
-		FullName="Пико" />
+		FullName="Pico" />
 
 	<Object
 		Name="u7"
-		FullName="Чу" />
+		FullName="Chou" />
 
 	<Object
 		Name="u8"
-		FullName="Фосген" />
+		FullName="Phosgen" />
 
 	<Object
 		Name="u9"
-		FullName="Жан" />
+		FullName="Jan" />
 </ObjectNames>

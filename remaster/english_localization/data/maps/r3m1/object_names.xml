@@ -2,281 +2,281 @@
 <ObjectNames>
 	<Object
 		Name="TheSet"
-		FullName="СЕТ" />
+		FullName="SETH" />
 
 	<Object
 		Name="Set_Bar"
-		FullName="Кафетерий ''У дуба''" />
+		FullName="Cafe ‘’Old Oak’’" />
 
 	<Object
 		Name="Set_Bar_Barman"
-		FullName="Ферен" />
+		FullName="Feren" />
 
 	<Object
 		Name="Set_Bar_MainDruid"
-		FullName="Верховный друид" />
+		FullName="High Druid" />
 
 	<Object
 		Name="Set_Bar_Customer1"
-		FullName="Фионий" />
+		FullName="Finnie " />
 
 	<Object
 		Name="Set_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Set_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="TheFist"
-		FullName="ФИСТ" />
+		FullName="FIRST" />
 
 	<Object
 		Name="Fist_Bar"
-		FullName="Бар ''Скала''" />
+		FullName="Bar 'The Rock'" />
 
 	<Object
 		Name="Fist_Bar_Barman"
-		FullName="Стальоне" />
+		FullName="Stallione" />
 
 	<Object
 		Name="Fist_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Fist_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="TheUluk"
-		FullName="УЛУК" />
+		FullName="ULUK" />
 
 	<Object
 		Name="Uluk_Bar"
-		FullName="Бар ''Коленвал''" />
+		FullName="Bar 'Crankshaft'" />
 
 	<Object
 		Name="Uluk_Bar_Barman"
-		FullName="Картер" />
+		FullName="Carter" />
 
 	<Object
 		Name="Uluk_Bar_Leader"
-		FullName="Движитель" />
+		FullName="Momentum " />
 
 	<Object
 		Name="Uluk_Bar_Customer1"
-		FullName="Карб" />
+		FullName="Curb" />
 
 	<Object
 		Name="Uluk_Workshop"
-		FullName="Мастерская ''Сделай Сам''" />
+		FullName="Workshop 'Do It Yourself'" />
 
 	<Object
 		Name="Uluk_Shop"
-		FullName="Магазин ''У Боба''" />
+		FullName="Marketplace " />
 
 	<Object
 		Name="r3m1_NearFist_Guard1"
-		FullName="Охранник Фиста" />
+		FullName="First’s guard" />
 
 	<Object
 		Name="r3m1_NearFist_Guard2"
-		FullName="Охранник Фиста" />
+		FullName="First’s guard" />
 
 	<Object
 		Name="r3m1_NearUluk_RescueMan1"
-		FullName="Дениссио" />
+		FullName="Denis" />
 
 	<Object
 		Name="TheRazboynik"
-		FullName="ХАЙДАУТ" />
+		FullName="HAMLET" />
 
 	<Object
 		Name="TheRazboynik_Bar"
-		FullName="Синий нос" />
+		FullName="Bar ‘’Gasoline’’" />
 
 	<Object
 		Name="TheRazboynik_Workshop"
-		FullName="АвтоЛекарь" />
+		FullName="AutoHealer" />
 
 	<Object
 		Name="Razboynik_Bar_Barman"
-		FullName="Наливай-ка" />
+		FullName="Barman" />
 
 	<Object
 		Name="TheRazboynik_Shop"
-		FullName="У децибела" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Raz_Bar_Lisa"
-		FullName="Лиса" />
+		FullName="Alice" />
 
 	<Object
 		Name="ToR2M1"
-		FullName="Дорога на Либриум" />
+		FullName="Road to Librium" />
 
 	<Object
 		Name="ToR3M2"
-		FullName="Дорога на Игнотт" />
+		FullName="Road to Ignott" />
 
 	<Object
 		Name="UlukAmush_loc"
-		FullName="Место засады" />
+		FullName="Ambush place" />
 
 	<Object
 		Name="ToR1M4"
-		FullName="Порт в Хель" />
+		FullName="Road to Hel" />
 
 	<Object
 		Name="r3_FarVillage"
-		FullName="Эльминст" />
+		FullName="Elmont" />
 
 	<Object
 		Name="Razboynic_Bar_Customer1"
-		FullName="Жельванто" />
+		FullName="Juan" />
 
 	<Object
 		Name="Uluk_Hram"
-		FullName="Храм поклонения" />
+		FullName="Temple" />
 
 	<Object
 		Name="Uluk_Hram_Zrec1"
-		FullName="Жрец" />
+		FullName="Priest" />
 
 	<Object
 		Name="Set_HouseMainDruid"
-		FullName="Дом уединения" />
+		FullName="Cell" />
 
 	<Object
 		Name="r3_FarVillage_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="r3_FarVillage_Shop"
-		FullName="Магазин" />
+		FullName="Shop" />
 
 	<Object
 		Name="heavy_dot2_vector1"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot2_vulcan2"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot2_vulcan3"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot2_vulcan4"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_vulcan5"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_vulcan6"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot4_octopus7"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot4_octopus8"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot3_vulcan9"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot2_vector10"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot1_vulcan11"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_vulcan12"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_kord13"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_kord14"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_flag15"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot4_big_kpvt16"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot4_big_kpvt17"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot4_vulcan18"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_omega19"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="heavy_dot4_big_kpvt20"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_vulcan21"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="sack_dot2_kord22"
-		FullName="Дот" />
+		FullName="Pillbox" />
 
 	<Object
 		Name="urod1"
-		FullName="Крауд" />
+		FullName="Claude" />
 
 	<Object
 		Name="urod2"
-		FullName="Шквол" />
+		FullName="Squall" />
 
 	<Object
 		Name="urod3"
-		FullName="Борг" />
+		FullName="Borg" />
 
 	<Object
 		Name="urod4"
-		FullName="Мухлик" />
+		FullName="Mux" />
 
 	<Object
 		Name="urod5"
-		FullName="Дэн" />
+		FullName="Denis" />
 
 	<Object
 		Name="urod6"
-		FullName="Гайя" />
+		FullName="Gaia" />
 
 	<Object
 		Name="urod7"
-		FullName="Шерман" />
+		FullName="Sherman" />
 
 	<Object
 		Name="urod8"
-		FullName="Хррр" />
+		FullName="Horror" />
 
 	<Object
 		Name="urod9"
-		FullName="Дядя Фу" />
+		FullName="Uncle Fu" />
 </ObjectNames>

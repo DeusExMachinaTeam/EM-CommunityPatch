@@ -2,299 +2,299 @@
 <ObjectNames>
 	<Object
 		Name="TheOlme"
-		FullName="ОЛЬМ" />
+		FullName="OLME" />
 
 	<Object
 		Name="Olme_Bar"
-		FullName="На окраине" />
+		FullName="Bar ‘’The edge’’" />
 
 	<Object
 		Name="Olme_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="Olme_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="Olme_Bar_Customer1"
-		FullName="Перчитто" />
+		FullName="Perchitto" />
 
 	<Object
 		Name="Olme_Bar_Customer2"
-		FullName="Галден" />
+		FullName="Galden" />
 <!--Object 
 		Name="Olme_Bar_Customer3"
-FullName = "Маркизыч"/-->
+FullName = "Markeezytch"/-->
 	<Object
 		Name="Olme_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="FVOnOcean"
-		FullName="САЛИНИОМ" />
+		FullName="Saliniom" />
 
 	<Object
 		Name="FVOnOcean_Bar"
-		FullName="У моря" />
+		FullName="Seashore" />
 
 	<Object
 		Name="FVOnOcean_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="FVOnOcean_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="FVOnOcean_Bar_Customer1"
-		FullName="Талион" />
+		FullName="Talion" />
 
 	<Object
 		Name="FVOnOcean_Bar_Customer3"
-		FullName="Хелм" />
+		FullName="Helm" />
 
 	<Object
 		Name="FVOnOcean_Bar_Gomer"
-		FullName="Гомер" />
+		FullName="Homer" />
 
 	<Object
 		Name="FVOnOcean_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="FVNearOlme"
-		FullName="ЛАУКА" />
+		FullName="Lauka" />
 
 	<Object
 		Name="FVNearOlme_Bar"
-		FullName="Селинд" />
+		FullName="Selind" />
 
 	<Object
 		Name="FVNearOlme_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="FVNearOlme_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="FVNearOlme_Bar_Customer2"
-		FullName="Палинесс" />
+		FullName="Paliness" />
 
 	<Object
 		Name="FVNearOlme_Bar_Customer3"
-		FullName="Кристал" />
+		FullName="Crystal" />
 
 	<Object
 		Name="FVNearOlme_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="FVCalis"
-		FullName="КАЛИС" />
+		FullName="Calis" />
 
 	<Object
 		Name="FVCalis_Bar"
-		FullName="Гладиатор" />
+		FullName="Gladiator" />
 
 	<Object
 		Name="FVCalis_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="FVCalis_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="FVCalis_Bar_Customer3"
-		FullName="Эрик" />
+		FullName="Eric" />
 
 	<Object
 		Name="FVCalis_Bar_Customer2"
-		FullName="Кристиан" />
+		FullName="Christian" />
 
 	<Object
 		Name="FVCalis_Bar_Customer1"
-		FullName="Джэйм" />
+		FullName="Jame" />
 
 	<Object
 		Name="FVCalis_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="FVCalis_Bar_Fioniy"
-		FullName="Филимон" />
+		FullName="Philemon " />
 
 	<Object
 		Name="FVCordan"
-		FullName="КОРДАН" />
+		FullName="Cordan" />
 
 	<Object
 		Name="FVCordan_Bar"
-		FullName="Пасть акулы" />
+		FullName="Jaws" />
 
 	<Object
 		Name="FVCordan_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="FVCordan_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="FVCordan_Bar_Customer2"
-		FullName="Матвей" />
+		FullName="Matthew" />
 
 	<Object
 		Name="FVCordan_Bar_Barman"
-		FullName="Повариха Нюра" />
+		FullName="Cook Nadia " />
 
 	<Object
 		Name="FVPerch"
-		FullName="Перчь" />
+		FullName="Perch" />
 
 	<Object
 		Name="FVPerch_Bar"
-		FullName="Золотая жила" />
+		FullName="Gold vein " />
 
 	<Object
 		Name="FVPerch_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="FVPerch_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="FVPerch_Bar_Customer2"
-		FullName="Дарен" />
+		FullName="Darren" />
 
 	<Object
 		Name="FVPerch_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="FVBerko"
-		FullName="Берко" />
+		FullName="Berko" />
 
 	<Object
 		Name="FVBerko_Bar"
-		FullName="Закоулок" />
+		FullName="Bar ‘’Crouch end’’" />
 
 	<Object
 		Name="FVBerko_Shop"
-		FullName="Магазин" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="FVBerko_Workshop"
-		FullName="Мастерская" />
+		FullName="Workshop" />
 
 	<Object
 		Name="FVBerko_Bar_Customer2"
-		FullName="Неил" />
+		FullName="Nail" />
 
 	<Object
 		Name="FVBerko_Bar_Barman"
-		FullName="Бармен" />
+		FullName="Barman" />
 
 	<Object
 		Name="StorageVil"
-		FullName="СКЛАД" />
+		FullName="Warehouse" />
 
 	<Object
 		Name="StorageVilBar"
-		FullName="Складской" />
+		FullName="Bar ‘’Handful of coins’’ " />
 
 	<Object
 		Name="StorageVil_Shop"
-		FullName="Будка продавца" />
+		FullName="Sellers’ booth" />
 
 	<Object
 		Name="r1m4_Storage_Guard1"
-		FullName="Охранник" />
+		FullName="Guard" />
 
 	<Object
 		Name="StorageVil_enter"
-		FullName="СКЛАД" />
+		FullName="Warehouse" />
 
 	<Object
 		Name="TheOlme_enter"
-		FullName="ОЛЬМ" />
+		FullName="OLME" />
 
 	<Object
 		Name="FVPerch_enter"
-		FullName="ПЕРЧЬ" />
+		FullName="Perch" />
 
 	<Object
 		Name="FVCalis_Bar_Husbent1"
-		FullName="Филимон" />
+		FullName="Philemon" />
 
 	<Object
 		Name="LookingWife"
-		FullName="Жена Аллушка" />
+		FullName="Baucis" />
 
 	<Object
 		Name="LookingWife1"
-		FullName="Жена Аллушка" />
+		FullName="Baucis" />
 
 	<Object
 		Name="Port_loc"
-		FullName="Морские врата" />
+		FullName="Sea gate" />
 
 	<Object
 		Name="FVPerch_Houses"
-		FullName="Зал ожидания" />
+		FullName="Waiting room" />
 
 	<Object
 		Name="ToR1M3"
-		FullName="Выезд на Фатерлянд" />
+		FullName="Road to Vaterland" />
 
 	<Object
 		Name="ToR3M1"
-		FullName="Порт в Рощу друидов" />
+		FullName="Port to the Sacred Grove" />
 
 	<Object
 		Name="Olme_Bar_Traider"
-		FullName="Торговец" />
+		FullName="Tradesman" />
 
 	<Object
 		Name="bigboss1"
-		FullName="Босс" />
+		FullName="Claw" />
 
 	<Object
 		Name="urod1"
-		FullName="Винни" />
+		FullName="Winnie" />
 
 	<Object
 		Name="urod2"
-		FullName="Дон" />
+		FullName="Node" />
 
 	<Object
 		Name="urod3"
-		FullName="Юкка" />
+		FullName="Iuka " />
 
 	<Object
 		Name="urod4"
-		FullName="Дэйзи" />
+		FullName="Dais" />
 
 	<Object
 		Name="urod5"
-		FullName="Гейтс" />
+		FullName="Gates" />
 
 	<Object
 		Name="urod6"
-		FullName="Фолко" />
+		FullName="Folko" />
 
 	<Object
 		Name="urod7"
-		FullName="Бортан" />
+		FullName="Botan" />
 
 	<Object
 		Name="urod8"
-		FullName="Дюк" />
+		FullName="Duke" />
 
 	<Object
 		Name="urod9"
-		FullName="Красный 13" />
+		FullName="Red 13" />
 </ObjectNames>

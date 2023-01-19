@@ -2,81 +2,81 @@
 <ObjectNames>
 	<Object
 		Name="ScientiferVillage"
-		FullName="Поселок ученого" />
+		FullName="The Scientist’s village" />
 
 	<Object
 		Name="ScientiferVillage_Bar"
-		FullName="Лаборатория" />
+		FullName="Laboratory" />
 
 	<Object
 		Name="ScientiferVillage_Shop"
-		FullName="Промтовары" />
+		FullName="Marketplace" />
 
 	<Object
 		Name="ScientiferVillage_WorkShop"
-		FullName="Умелые ручки" />
+		FullName="Workshop" />
 
 	<Object
 		Name="ScientiferVillage_Bar_Scientif"
-		FullName="Ученый Василий" />
+		FullName="The Scientist" />
 
 	<Object
 		Name="ToR4M1"
-		FullName="Выезд на Вахат" />
+		FullName="Road to Vahat" />
 
 	<Object
 		Name="MilitaryBase_loc"
-		FullName="Военная база" />
+		FullName="Military Base" />
 
 	<Object
 		Name="PlateRadiation_loc"
-		FullName="Иноземный корабль" />
+		FullName="Alien ship" />
 
 	<Object
 		Name="PetrolStationTown61"
-		FullName="Старая заправка" />
+		FullName="Old gas station" />
 
 	<Object
 		Name="CrazyBase"
-		FullName="Военная база с сумасшедшими" />
+		FullName="Military base" />
 
 	<Object
 		Name="PetrolStationTown61_workshop"
-		FullName="Заправка" />
+		FullName="Gas station" />
 
 	<Object
 		Name="urod1"
-		FullName="Тидус" />
+		FullName="Klatz" />
 
 	<Object
 		Name="urod2"
-		FullName="Шаман" />
+		FullName="Fedor" />
 
 	<Object
 		Name="urod3"
-		FullName="Борг" />
+		FullName="Bonza" />
 
 	<Object
 		Name="urod4"
-		FullName="Алекс" />
+		FullName="Lead" />
 
 	<Object
 		Name="urod5"
-		FullName="Скорп" />
+		FullName="Pony" />
 
 	<Object
 		Name="urod6"
-		FullName="Гайя" />
+		FullName="Ghoul" />
 
 	<Object
 		Name="urod7"
-		FullName="Шерман" />
+		FullName="Richter" />
 
 	<Object
 		Name="urod8"
-		FullName="Хррр" />
+		FullName="Lucky" />
 
 	<Object
 		Name="urod9"
-		FullName="Дядя Фу" />
+		FullName="Doctor Who" />
 </ObjectNames>
