@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_father"
+		modelSlot="1"
+		value="ОТЕЦ|Проснулся, лежебока! Уже битый час я жду тебя, чтобы сказать кое-что весьма важное, а ты опять спишь как сурок...."
+		sound="data\sounds\Speech\r1m1\r1m1_1_father.ogg"
+		time="11" />
+
+	<string
+		id="2"
+		modelName="mask_hero"
+		value="|И тебе доброе утро. Чего нервничаешь?"
+		sound="data\sounds\Speech\r1m1\r1m1_2_hero.ogg"
+		time="3" />
+
+	<string
+		id="3"
+		modelName="mask_father"
+		modelSlot="1"
+		value="ОТЕЦ|Ладно, остынь. Вот так. Сегодня большой день в твоей жизни. Ты всегда был мне верным подспорьем и многому научился от меня... В общем, я решил, что настало время твоего совершеннолетия."
+		sound="data\sounds\Speech\r1m1\r1m1_3_father.ogg"
+		time="17" />
+
+	<string
+		id="31"
+		modelName="mask_father"
+		modelSlot="1"
+		value="ОТЕЦ|Теперь ты настоящий мужчина и можешь делать всё, что пожелаешь, даже завести семью... Кхе, но лучше, конечно, сперва спросить разрешения."
+		sound="data\sounds\Speech\r1m1\r1m1_31_father.ogg"
+		time="12" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="|Неужели этот день настал?! Я думал, меня будут до старости мариновать на этой ферме!"
+		sound="data\sounds\Speech\r1m1\r1m1_4_hero.ogg"
+		time="6" />
+
+	<string
+		id="41"
+		modelName="mask_hero"
+		value="|То есть, я хотел сказать, спасибо огромное, постараюсь оправдать оказанное мне доверие, сэр!"
+		sound="data\sounds\Speech\r1m1\r1m1_41_hero.ogg"
+		time="6" />
+
+	<string
+		id="5"
+		modelName="mask_father"
+		modelSlot="1"
+		value="ОТЕЦ|Опять ты ёрничаешь, а мне столько надо тебе сказать..."
+		sound="data\sounds\Speech\r1m1\r1m1_5_father.ogg"
+		time="5" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		value="|Что, прямо сейчас могу сесть и ехать куда захочу?"
+		sound="data\sounds\Speech\r1m1\r1m1_6_hero.ogg"
+		time="4" />
+
+	<string
+		id="7"
+		modelName="mask_father"
+		modelSlot="1"
+		value="ОТЕЦ|Ну, если ты так торопишься сесть за руль, то отправляйся в Южный и передай Серго этот пакет. А разговор отложим до твоего приезда."
+		sound="data\sounds\Speech\r1m1\r1m1_7_father.ogg"
+		time="12" />
+
+	<string
+		id="8"
+		modelName="mask_hero"
+		value="|Ур-ра-а! Я мигом! Бывай, старик."
+		sound="data\sounds\Speech\r1m1\r1m1_8_hero.ogg"
+		time="4" />
+
+	<string
+		id="1111"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Подожди-ка здесь, пока я закончу свои дела."
+		sound="data\sounds\Speech\r1m1\r1m1_1111_lisa.ogg"
+		time="3" />
+
+	<string
+		id="1112"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Готово. Поехали дальше."
+		sound="data\sounds\Speech\r1m1\r1m1_1112_lisa.ogg"
+		time="3" />
+
+	<string
+		id="1121"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Чёрт возьми, сколько времени потрачено впустую! Я же знаю, что он где-то здесь! Парень, мы точно объехали все здешние поселения?"
+		sound="data\sounds\Speech\r1m1\r1m1_1121_lisa.ogg"
+		time="7" />
+
+	<string
+		id="1122"
+		modelName="mask_hero"
+		value="|Да, все деревни, как ты и сказала. Правда, осталось ещё одно село, Глухое. Но там ты точно не найдёшь покупателей на свой товар. А что именно ты ищешь?"
+		sound="data\sounds\Speech\r1m1\r1m1_1122_hero.ogg"
+		time="10" />
+
+	<string
+		id="1123"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Так что ты мне тут голову морочишь? Как туда проехать?"
+		sound="data\sounds\Speech\r1m1\r1m1_1123_lisa.ogg"
+		time="4" />
+
+	<string
+		id="1124"
+		modelName="mask_hero"
+		value="|Вообще-то, это на север отсюда за горами, совсем недалеко, но напрямик дороги нет. Нам придётся ехать через Южный..."
+		sound="data\sounds\Speech\r1m1\r1m1_1124_hero.ogg"
+		time="7" />
+
+	<string
+		id="1125"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ЛИСА|Здесь наши пути расходятся: надоело мне тащиться следом за твоей развалюхой. К тому же там, где для тебя нет дороги, моя машина пройдёт с лёгкостью. Ты выполнил свою часть сделки. Держи свои деньги."
+		sound="data\sounds\Speech\r1m1\r1m1_1125_lisa.ogg"
+		time="11" />
+
+	<string
+		id="1126"
+		modelName="mask_hero"
+		value="|Что же она искала? Пора и мне домой возвращаться. Узнаю, из-за чего отец так волновался."
+		sound="data\sounds\Speech\r1m1\r1m1_1126_hero.ogg"
+		time="7" />
+
+	<string
+		id="1131"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|А вот и наш возмутитель спокойствия. Мои источники сообщают, что ты подвизался к Лисе в помощники, а она девушка щедрая... За скромный вклад в 1000 монет ты можешь продолжать свои грязные делишки и даже рассчитывать на нашу поддержку."
+		sound="data\sounds\Speech\r1m1\r1m1_1131_felix.ogg"
+		time="19" />
+
+	<string
+		id="1132"
+		modelName="mask_hero"
+		value="|Да вы что? Откуда у меня такие деньги? И кто вы вообще такие?"
+		sound="data\sounds\Speech\r1m1\r1m1_1132_hero.ogg"
+		time="5" />
+
+	<string
+		id="1133"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Придётся продать твою машину на запчасти, чтобы возместить нам моральный ущерб. Бей его!"
+		sound="data\sounds\Speech\r1m1\r1m1_1133_felix.ogg"
+		time="7" />
+
+	<string
+		id="1134"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Мы ещё встретимся, щенок! Попомни мои слова, ты пожалеешь, что связался с Феликсом! Уходим!"
+		sound="data\sounds\Speech\r1m1\r1m1_1134_felix.ogg"
+		time="8" />
+
+	<string
+		id="1141"
+		modelName="mask_hero"
+		value="|О нет! Отец! Что за чудовище могло сотворить такое... Все, кого я любил и знал, мертвы... "
+		sound="data\sounds\Speech\r1m1\r1m1_1141_hero.ogg"
+		time="11" />
+
+	<string
+		id="1142"
+		modelName="mask_hero"
+		value="|..."
+		sound="data\sounds\Speech\r1m1\r1m1_1142_hero.ogg"
+		time="1" />
+
+	<string
+		id="1143"
+		modelName="mask_hero"
+		value="|Я могу сделать для них только одно: отомстить! Как бы далеко ни прятался убийца, я найду его даже на краю земли! И уничтожу! Слышишь, я найду тебя!"
+		sound="data\sounds\Speech\r1m1\r1m1_1143_hero.ogg"
+		time="13" />
+
+	<string
+		id="1144"
+		modelName="mask_hero"
+		value="|А вдруг это Феликс собрал дружков и напал на беззащитную деревню? Если это так - ему не жить! Он бывает в баре Южного. Там я и начну поиски."
+		sound="data\sounds\Speech\r1m1\r1m1_1144_hero.ogg"
+		time="11" />
+
+	<string
+		id="1151"
+		modelName="mask_hero"
+		value="|Я отомщу за смерть отца!"
+		sound="data\sounds\Speech\r1m1\r1m1_1151_hero.ogg"
+		time="3" />
+
+	<string
+		id="1152"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Ба, знакомые все лица. Покажите этому наглецу!"
+		sound="data\sounds\Speech\r1m1\r1m1_1152_felix.ogg"
+		time="6" />
+
+	<string
+		id="1153"
+		modelName="mask_hero"
+		value="|Это всё, что у тебя есть? Выходи сам на честный бой!"
+		sound="data\sounds\Speech\r1m1\r1m1_1153_hero.ogg"
+		time="5" />
+
+	<string
+		id="11540"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|А парень не промах... Где он взял такое вооружение? Ладно, хочешь сделать что-то хорошо - делай это сам. Посторонись."
+		sound="data\sounds\Speech\r1m1\r1m1_1154_felix.ogg"
+		time="10" />
+
+	<string
+		id="1155"
+		modelName="mask_hero"
+		value="|Теперь ты умрёшь за свои злодеяния!"
+		sound="data\sounds\Speech\r1m1\r1m1_1155_hero.ogg"
+		time="3" />
+
+	<string
+		id="1156"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Постой, я никого не убивал уже много лет. У нас уговор с местными! Это ты ворвался в мой дом и начал калечить моих людей!"
+		sound="data\sounds\Speech\r1m1\r1m1_1156_felix.ogg"
+		time="10" />
+
+	<string
+		id="1157"
+		modelName="mask_hero"
+		value="|Только у тебя хватило бы сил и наглости сжечь целую деревню!"
+		sound="data\sounds\Speech\r1m1\r1m1_1157_hero.ogg"
+		time="5" />
+
+	<string
+		id="1158"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Так ты из Глухого! Поверь, это были не мы, а какие-то гастролёры из соседних областей!"
+		sound="data\sounds\Speech\r1m1\r1m1_1158_felix.ogg"
+		time="8" />
+
+	<string
+		id="1159"
+		modelName="mask_hero"
+		value="|Ты лжёшь!"
+		sound="data\sounds\Speech\r1m1\r1m1_1159_hero.ogg"
+		time="1" />
+
+	<string
+		id="11510"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Клянусь могилой своего отца! Да спроси хоть у своей подружки Лисы. Она всё видела."
+		sound="data\sounds\Speech\r1m1\r1m1_11510_felix.ogg"
+		time="7" />
+
+	<string
+		id="11511"
+		modelName="mask_hero"
+		value="|Откуда ты знаешь?"
+		sound="data\sounds\Speech\r1m1\r1m1_11511_hero.ogg"
+		time="2" />
+
+	<string
+		id="11512"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Так она же нам про это и рассказала. А потом умчалась на север. В сторону Пешта."
+		sound="data\sounds\Speech\r1m1\r1m1_11512_felix.ogg"
+		time="6" />
+
+	<string
+		id="11513"
+		modelName="mask_hero"
+		value="|Лиса... Я чувствую, что она как-то со всем этим связана... Я найду её и узнаю, что произошло на самом деле. Ладно, Феликс, я сохраню тебе жизнь. Иди на все четыре стороны. Только не смей больше показываться в этих краях!"
+		sound="data\sounds\Speech\r1m1\r1m1_11513_hero.ogg"
+		time="17" />
+
+	<string
+		id="11514"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="БАНДИТ ФЕЛИКС|Ты победил. Но мы ещё встретимся, и тогда я буду лучше подготовлен."
+		sound="data\sounds\Speech\r1m1\r1m1_11514_felix.ogg"
+		time="5" />
+
+	<string
+		id="11515"
+		modelName="mask_hero"
+		value="|До скорого!"
+		sound="data\sounds\Speech\r1m1\r1m1_11515_hero.ogg"
+		time="2" />
+
+	<string
+		id="2222"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="70"
+		modelSlot="1"
+		value="РЕВОЛЮЦИОНЕР ЭД|Отлично, мы показали этим пройдохам, кто тут главный!"
+		sound="data\sounds\Speech\r1m1\r1m1_2222_ed.ogg"
+		time="4" />
+
+	<string
+		id="33330"
+		modelName="mask_father"
+		value="ОТЕЦ|...сынок...!"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m1\r1m1_33330_father.ogg"
+		time="3" />
+
+	<string
+		id="33331"
+		modelName="mask_hero"
+		value="|О боже, отец! Что здесь произошло? Кто это сотворил?"
+		sound="data\sounds\Speech\r1m1\r1m1_33331_hero.ogg"
+		time="6" />
+
+	<string
+		id="33332"
+		modelName="mask_father"
+		modelSlot="1"
+		value="ОТЕЦ|Слушай внимательно. Ты мой приёмный сын. Возьми, это вещи твоего настоящего отца. Найди Бена Дросселя. Он исследователь. Он поможет... Сын... не дай ненависти... отравить твою... душу..."
+		sound="data\sounds\Speech\r1m1\r1m1_33332_father.ogg"
+		time="30" />
+
+	<string
+		id="33333"
+		modelName="mask_hero"
+		value="|Моя жизнь... Что же мне делать дальше? У меня ведь никого не осталось... и ничего... Только это письмо..."
+		sound="data\sounds\Speech\r1m1\r1m1_33333_hero.ogg"
+		time="10" />
+
+	<string
+		id="33334"
+		modelAutosized="true"
+		modelName="quest_letter"
+		modelSlot="1"
+		value="ПИСЬМО|&quot;Сын, если ты читаешь это письмо - значит я не смог вернуться и вырастить тебя сам. Я знаю, что Пётр отлично справился с этой задачей. Я вижу тебя, такого молодого и полного сил, и сердце моё обливается слезами...&quot;"
+		sound="data\sounds\Speech\r1m1\r1m1_33334_letter.ogg"
+		time="16" />
+
+	<string
+		id="33335"
+		modelAutosized="true"
+		modelName="quest_letter"
+		modelSlot="1"
+		value="ПИСЬМО|&quot;...Я виню себя за то, что меня не было рядом, когда ты рос. И это моё страшное наказание. Но знай, что я не мог поступить иначе. Передо мной стоит задача всей жизни...&quot;"
+		sound="data\sounds\Speech\r1m1\r1m1_33335_letter.ogg"
+		time="12" />
+
+	<string
+		id="33336"
+		modelAutosized="true"
+		modelName="quest_letter"
+		modelSlot="1"
+		value="ПИСЬМО|&quot;...Только выполнив задуманное, смогу я успокоиться и вновь почувствовать себя человеком. Если нет... значит, я недостоин жить. Это письмо - извинение. Прости меня, если сможешь. Ты всегда в моём сердце, сын.&quot;"
+		sound="data\sounds\Speech\r1m1\r1m1_33336_letter.ogg"
+		time="16" />
+
+	<string
+		id="33337"
+		modelName="mask_hero"
+		value="|Это всё? Никаких объяснений... Как я могу простить того, кого никогда не знал? Мне больше нечего здесь делать. Я отправлюсь на поиски Бена. Кто бы это ни был, надеюсь, он поможет мне обрести себя. Может быть, в Южном слышали о нём?"
+		sound="data\sounds\Speech\r1m1\r1m1_33337_hero.ogg"
+		time="16" />
+
+	<string
+		id="8800"
+		value="Вы играете в первый раз. Хотите ли Вы, чтобы обучающие сообщения объяснили Вам, как играть?"
+		numButtons="2" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше."
+		time="3" />
+
+	<!-- Начальный текст для ComPatch версии -->
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    История не сохранила точных сведений о тёмных временах, наступивших сразу после Катастрофы. Доподлинно известно лишь то, что люди выжили в отравленном воздухе благодаря защитным маскам. Это творение неизвестного изобретателя уравняло всех. Тонкая преграда, вставшая на пути неминуемой смерти, стала символом нового человечества. Маски сплотили людей и придали им силы бороться за место под солнцем.||    Возникли новые поселения вдали от прежних городов, ставших братскими могилами. Постепенно были налажены связи между разрозненными группами выживших. Фермеры, шахтёры, торговцы – возвращение к простым занятиям пошло только на пользу растерянным людям.||    Но человек остаётся человеком во все времена. Остались те, кто сохранял мудрость веков, чтобы делиться ею с миром. Были и те, кто предпочёл созиданию разрушение."
+		sound="data\sounds\Speech\rolik\r1m1_969_narrator.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="68" />
+
+	<!-- Начальный текст для ComRemaster версии -->
+	<string
+		id="77772"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    История не сохранила точных сведений о тёмных временах, наступивших сразу после Катастрофы. Доподлинно известно лишь то, что люди выжили в отравленном воздухе благодаря защитным маскам. Это творение неизвестного изобретателя уравняло всех. Тонкая преграда, вставшая на пути неминуемой смерти, стала символом нового человечества. Маски сплотили людей и придали им силы бороться за место под солнцем.||    Возникли новые поселения вдали от прежних городов, ставших братскими могилами. Постепенно были налажены связи между разрозненными группами выживших. Фермеры, шахтёры, торговцы – возвращение к простым занятиям пошло только на пользу растерянным людям.||    Но человек остаётся человеком во все времена. Остались те, кто сохранял мудрость веков, чтобы делиться ею с миром. Были и те, кто предпочёл созиданию разрушение."
+		sound="data\sounds\Speech\rolik\r1m1_969_narrator.ogg"
+		fontSize="18"
+		scrollSpeed="0.55"
+		time="68" />
+
+	<string
+		id="90000"
+		value="ExMachina||Вы хотите воспользоваться|интерактивной системой помощи игры?"
+		numButtons="2" />
+</resource>
