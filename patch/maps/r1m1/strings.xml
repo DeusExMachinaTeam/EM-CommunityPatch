@@ -425,7 +425,7 @@
 		value="Какое-то странное место. Лучше держаться отсюда подальше."
 		time="3" />
 
-	<!-- Начальный текст для ComPatch версии -->
+	<!-- First narrator's text for ComPatch -->
 	<string
 		id="77771"
 		msgType="SCROLL"
@@ -438,7 +438,7 @@
 		scrollSpeed="0.5"
 		time="68" />
 
-	<!-- Начальный текст для ComRemaster версии -->
+	<!-- First narrator's text for ComRemaster -->
 	<string
 		id="77772"
 		msgType="SCROLL"
