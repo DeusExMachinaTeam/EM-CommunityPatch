@@ -1,394 +1,394 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
-<RadioSamples>
+<RadioSamples><!-- Player-->
 	<Sample
 		id="1"
 		sound="data\sounds\radio\r_player_attack_1.ogg"
-		text="Похоже, мы не одни." />
+		text="Here I am." />
 
 	<Sample
 		id="2"
 		sound="data\sounds\radio\r_player_attack_2.ogg"
-		text="Первое орудие, пли!" />
+		text="Get ready to rumble!" />
 
 	<Sample
 		id="3"
 		sound="data\sounds\radio\r_player_attack_3.ogg"
-		text="Смерть бандитам!" />
+		text="It's showtime!" />
 
 	<Sample
 		id="4"
 		sound="data\sounds\radio\r_player_attack_4.ogg"
-		text="И снова в бой!" />
+		text="The roof is on fire!" />
 
 	<Sample
 		id="5"
 		sound="data\sounds\radio\r_player_ishit_1.ogg"
-		text="Получай!" />
+		text="yahoo!" />
 
 	<Sample
 		id="6"
 		sound="data\sounds\radio\r_player_ishit_2.ogg"
-		text="Так тебе!" />
+		text="eat this!" />
 
 	<Sample
 		id="7"
 		sound="data\sounds\radio\r_player_ishit_3.ogg"
-		text="Это тебе на первое!" />
+		text="Give it some more!" />
 
 	<Sample
 		id="8"
 		sound="data\sounds\radio\r_player_ishit_4.ogg"
-		text="За мой радиатор!" />
+		text="Are you scared yet?" />
 
 	<Sample
 		id="9"
 		sound="data\sounds\radio\r_player_shot_1.ogg"
-		text="Чуть в глаз не попал!" />
+		text="Hell! It’s hot!" />
 
 	<Sample
 		id="10"
 		sound="data\sounds\radio\r_player_shot_2.ogg"
-		text="Проклятье!" />
+		text="it hurts!" />
 
 	<Sample
 		id="11"
 		sound="data\sounds\radio\r_player_shot_3.ogg"
-		text="Всего лишь царапина." />
+		text="Its just a scratch." />
 
 	<Sample
 		id="12"
 		sound="data\sounds\radio\r_player_shot_4.ogg"
-		text="Не впервой! Выживем!" />
+		text="Is it the best you can do?" />
 
 	<Sample
 		id="13"
 		sound="data\sounds\radio\r_player_kill_1.ogg"
-		text="Умри, пацак!" />
+		text="Rest in pieces" />
 
 	<Sample
 		id="14"
 		sound="data\sounds\radio\r_player_kill_2.ogg"
-		text="Должен остаться только один!" />
+		text="There should be only one!" />
 
 	<Sample
 		id="15"
 		sound="data\sounds\radio\r_player_kill_3.ogg"
-		text="Этот готов!" />
+		text="Have a nice death!" />
 
 	<Sample
 		id="16"
 		sound="data\sounds\radio\r_player_kill_4.ogg"
-		text="Следующий!" />
+		text="One more!" />
 
 	<Sample
 		id="17"
 		sound="data\sounds\radio\r_player_kill_5.ogg"
-		text="Так будет с каждым!" />
+		text="Next, please." />
 
 	<Sample
 		id="18"
 		sound="data\sounds\radio\r_player_dead_1.ogg"
-		text="Прощайте, братцы!" />
+		text="it’s gonna blow!" />
 
 	<Sample
 		id="19"
 		sound="data\sounds\radio\r_player_dead_2.ogg"
-		text="Это конец..." />
+		text="I'm not gonna make it…" />
 
 	<Sample
 		id="20"
 		sound="data\sounds\radio\r_player_dead_3.ogg"
-		text="Я не смог увернуться!" />
+		text="It's so cold [cough, cough]" />
 
 	<Sample
 		id="21"
 		sound="data\sounds\radio\r_player_dead_4.ogg"
-		text="Нееет! Нее..." />
+		text="I'm too young to die!" />
 
 	<Sample
 		id="22"
 		sound="data\sounds\radio\r_player_allydead_1.ogg"
-		text="Убийцы!" />
-
+		text="What have you done!?" />
+<!-- Bandits-->
 	<Sample
 		id="23"
 		sound="data\sounds\radio\r_bandit_attack_1.ogg"
-		text="Сейчас поживимся!" />
+		text="Your ass is grass!" />
 
 	<Sample
 		id="24"
 		sound="data\sounds\radio\r_bandit_attack_2.ogg"
-		text="Возьмём его!" />
+		text="Show no mercy!" />
 
 	<Sample
 		id="25"
 		sound="data\sounds\radio\r_bandit_attack_3.ogg"
-		text="Умри-и-и-и-и!!" />
+		text="You gonna die!" />
 
 	<Sample
 		id="26"
 		sound="data\sounds\radio\r_bandit_ishit_1.ogg"
-		text="Что, не нравится?" />
+		text="Gotcha!" />
 
 	<Sample
 		id="27"
 		sound="data\sounds\radio\r_bandit_ishit_2.ogg"
-		text="Испытай боль!" />
+		text="Feel the pain!" />
 
 	<Sample
 		id="28"
 		sound="data\sounds\radio\r_bandit_shot_1.ogg"
-		text="Тысяча чертей!" />
+		text="How dare you?!" />
 
 	<Sample
 		id="29"
 		sound="data\sounds\radio\r_bandit_shot_2.ogg"
-		text="Зацепило!" />
+		text="Damn!" />
 
 	<Sample
 		id="30"
 		sound="data\sounds\radio\r_bandit_kill_1.ogg"
-		text="А-ха-ха-ха" />
+		text="Mwa-ha-ha" />
 
 	<Sample
 		id="31"
 		sound="data\sounds\radio\r_bandit_kill_2.ogg"
-		text="Мёртвые не кусаются." />
+		text="How does it feel?" />
 
 	<Sample
 		id="32"
 		sound="data\sounds\radio\r_bandit_dead_1.ogg"
-		text="А-А-А-А-А-А-А-А-А!" />
+		text="AAAaarrgh!" />
 
 	<Sample
 		id="33"
 		sound="data\sounds\radio\r_bandit_dead_2.ogg"
-		text="За что?" />
+		text="It can't be!" />
 
 	<Sample
 		id="34"
 		sound="data\sounds\radio\r_bandit_dead_3.ogg"
-		text="Увидимся в аду!" />
+		text="Noooo!" />
 
 	<Sample
 		id="35"
 		sound="data\sounds\radio\r_bandit_allydead_1.ogg"
-		text="Ах ты, гадина!" />
-
+		text="You, bastard!" />
+<!-- Farmers-->
 	<Sample
 		id="36"
 		sound="data\sounds\radio\r_farmer_greet_1.ogg"
-		text="Привет!" />
+		text="Howdy, man!" />
 
 	<Sample
 		id="37"
 		sound="data\sounds\radio\r_farmer_greet_2.ogg"
-		text="Как дела?" />
+		text="Have a nice day!" />
 
 	<Sample
 		id="38"
 		sound="data\sounds\radio\r_farmer_ffire_1.ogg"
-		text="Ты что, ослеп?" />
+		text="Are you crazy? " />
 
 	<Sample
 		id="39"
 		sound="data\sounds\radio\r_farmer_ffire_2.ogg"
-		text="Повнимательнее с пушкой!" />
+		text="Are you blind?" />
 
 	<Sample
 		id="40"
 		sound="data\sounds\radio\r_farmer_attack_1.ogg"
-		text="Я тебя предупреждал!" />
+		text="You'll pay for this!" />
 
 	<Sample
 		id="41"
 		sound="data\sounds\radio\r_farmer_attack_2.ogg"
-		text="Сам напросился!" />
+		text="I warned you!" />
 
 	<Sample
 		id="42"
 		sound="data\sounds\radio\r_farmer_ishit_1.ogg"
-		text="Да! Получилось!" />
+		text="Yes!" />
 
 	<Sample
 		id="43"
 		sound="data\sounds\radio\r_farmer_ishit_2.ogg"
-		text="Съел?" />
+		text="Did you like that?" />
 
 	<Sample
 		id="44"
 		sound="data\sounds\radio\r_farmer_shot_1.ogg"
-		text="Ты меня разозлил!" />
+		text="Easy, man!" />
 
 	<Sample
 		id="45"
 		sound="data\sounds\radio\r_farmer_shot_2.ogg"
-		text="Понадобится капремонт." />
+		text="That wasn't nice…" />
 
 	<Sample
 		id="46"
 		sound="data\sounds\radio\r_farmer_kill_1.ogg"
-		text="Так тебе и надо!" />
+		text="You deserved it!" />
 
 	<Sample
 		id="47"
 		sound="data\sounds\radio\r_farmer_kill_2.ogg"
-		text="Собаке собачья смерть." />
+		text="You're loser!" />
 
 	<Sample
 		id="48"
 		sound="data\sounds\radio\r_farmer_dead_1.ogg"
-		text="Почему я?!" />
+		text="Wh-a-a-a-y?!" />
 
 	<Sample
 		id="49"
 		sound="data\sounds\radio\r_farmer_dead_2.ogg"
-		text="За меня отомстят." />
+		text="I want to live!" />
 
 	<Sample
 		id="50"
 		sound="data\sounds\radio\r_farmer_dead_3.ogg"
-		text="Не надо!" />
+		text="My god!" />
 
 	<Sample
 		id="51"
 		sound="data\sounds\radio\r_farmer_allydead_1.ogg"
-		text="На его месте должен был быть я!" />
+		text="You will pay for this!" />
 
 	<Sample
 		id="52"
 		sound="data\sounds\radio\r_farmer_allydead_2.ogg"
-		text="Ты заплатишь за это!" />
-
+		text="You, murderer!" />
+<!-- Scientists-->
 	<Sample
 		id="53"
 		sound="data\sounds\radio\r_scholar_greet_1.ogg"
-		text="Приветствую тебя." />
+		text="Greetings, traveler" />
 
 	<Sample
 		id="54"
 		sound="data\sounds\radio\r_scholar_greet_2.ogg"
-		text="Какие новости?" />
+		text="Move along!" />
 
 	<Sample
 		id="55"
 		sound="data\sounds\radio\r_scholar_ffire_1.ogg"
-		text="Ты что творишь?" />
+		text="What are you doing?" />
 
 	<Sample
 		id="56"
 		sound="data\sounds\radio\r_scholar_ffire_2.ogg"
-		text="Нервишки пошаливают?" />
+		text="Watch your gun!" />
 
 	<Sample
 		id="57"
 		sound="data\sounds\radio\r_scholar_attack_1.ogg"
-		text="Так я и думал!" />
+		text="You've been exposed!" />
 
 	<Sample
 		id="58"
 		sound="data\sounds\radio\r_scholar_attack_2.ogg"
-		text="Враг! В атаку!" />
+		text="Enemy! Attack!" />
 
 	<Sample
 		id="59"
 		sound="data\sounds\radio\r_scholar_ishit_1.ogg"
-		text="Прямое попадание!" />
+		text="Direct hit!" />
 
 	<Sample
 		id="60"
 		sound="data\sounds\radio\r_scholar_ishit_2.ogg"
-		text="Получи!" />
+		text="Feel my wrath!" />
 
 	<Sample
 		id="61"
 		sound="data\sounds\radio\r_scholar_shot_1.ogg"
-		text="А ты крепче, чем кажешься!" />
+		text="You're tough!" />
 
 	<Sample
 		id="62"
 		sound="data\sounds\radio\r_scholar_shot_2.ogg"
-		text="Серьезные повреждения!" />
+		text="Holy macaroni!" />
 
 	<Sample
 		id="63"
 		sound="data\sounds\radio\r_scholar_kill_1.ogg"
-		text="Враг повержен!" />
+		text="Enemy's dead!" />
 
 	<Sample
 		id="64"
 		sound="data\sounds\radio\r_scholar_kill_2.ogg"
-		text="Минус один!" />
+		text="One down." />
 
 	<Sample
 		id="65"
 		sound="data\sounds\radio\r_scholar_dead_1.ogg"
-		text="Как больно..." />
+		text="Well I never. " />
 
 	<Sample
 		id="66"
 		sound="data\sounds\radio\r_scholar_dead_2.ogg"
-		text="Не может быть!" />
+		text="Impossible!" />
 
 	<Sample
 		id="67"
 		sound="data\sounds\radio\r_scholar_dead_3.ogg"
-		text="Всё было напрасно..." />
+		text="My god!" />
 
 	<Sample
 		id="68"
 		sound="data\sounds\radio\r_scholar_allydead_1.ogg"
-		text="Мы отомстим!" />
+		text="You won't get away with this!" />
 <!-- CIT-->
 	<Sample
 		id="69"
 		sound="data\sounds\radio\r_cit_greet_1.ogg"
-		text="Отличный денёк!" />
+		text="It's a nice day!" />
 
 	<Sample
 		id="70"
 		sound="data\sounds\radio\r_cit_greet_2.ogg"
-		text="Доброго здравия!" />
+		text="Nice to meet you!" />
 
 	<Sample
 		id="71"
 		sound="data\sounds\radio\r_cit_ffire_1.ogg"
-		text="Береги патроны" />
+		text="Save your ammo!" />
 
 	<Sample
 		id="72"
 		sound="data\sounds\radio\r_cit_ffire_2.ogg"
-		text="Протри глаза" />
+		text="Hey!" />
 
 	<Sample
 		id="73"
 		sound="data\sounds\radio\r_cit_attack_1.ogg"
-		text="За свободу!" />
+		text="For freedom!" />
 
 	<Sample
 		id="74"
 		sound="data\sounds\radio\r_cit_attack_2.ogg"
-		text="Смерть врагам!" />
+		text="Death to the enemy!" />
 
 	<Sample
 		id="75"
 		sound="data\sounds\radio\r_cit_ishit_1.ogg"
-		text="Сопротивление бесполезно!" />
+		text="It is useless to resist!" />
 
 	<Sample
 		id="76"
 		sound="data\sounds\radio\r_cit_ishit_2.ogg"
-		text="Как тебе это нравится?!" />
+		text="Do you like it?" />
 
 	<Sample
 		id="77"
 		sound="data\sounds\radio\r_cit_shot_1.ogg"
-		text="Переживу!" />
+		text="A scratch!" />
 
 	<Sample
 		id="78"
 		sound="data\sounds\radio\r_cit_shot_2.ogg"
-		text="Ерунда!" />
+		text="Piece of cake!" />
 
 	<Sample
 		id="79"
@@ -398,470 +398,470 @@
 	<Sample
 		id="80"
 		sound="data\sounds\radio\r_cit_kill_2.ogg"
-		text="Враг не пройдёт!" />
+		text="You will not pass!" />
 
 	<Sample
 		id="81"
 		sound="data\sounds\radio\r_cit_dead_1.ogg"
-		text="Я не боюсь!" />
+		text="I am not afraid!" />
 
 	<Sample
 		id="82"
 		sound="data\sounds\radio\r_cit_dead_2.ogg"
-		text="Наше дело правое!" />
+		text="What a shame." />
 
 	<Sample
 		id="83"
 		sound="data\sounds\radio\r_cit_dead_3.ogg"
-		text="Свобода... победит..." />
+		text="I'll never make it" />
 
 	<Sample
 		id="84"
 		sound="data\sounds\radio\r_cit_allydead_1.ogg"
-		text="Мы будем помнить тебя!" />
+		text="I won't forget you!" />
 <!-- CD-->
 	<Sample
 		id="85"
 		sound="data\sounds\radio\r_ar_greet_1.ogg"
-		text="Поезжай мимо." />
+		text="Go away!" />
 
 	<Sample
 		id="86"
 		sound="data\sounds\radio\r_ar_greet_2.ogg"
-		text="Понаехали тут!" />
+		text="Move along!" />
 
 	<Sample
 		id="87"
 		sound="data\sounds\radio\r_ar_ffire_1.ogg"
-		text="Что за шутки?!" />
+		text="Don't push me!" />
 
 	<Sample
 		id="88"
 		sound="data\sounds\radio\r_ar_ffire_2.ogg"
-		text="Чего тебе неймётся?" />
+		text="Are you nuts?" />
 
 	<Sample
 		id="89"
 		sound="data\sounds\radio\r_ar_attack_1.ogg"
-		text="Ты меня достал!" />
+		text="You are pain in the neck!" />
 
 	<Sample
 		id="90"
 		sound="data\sounds\radio\r_ar_attack_2.ogg"
-		text="Сейчас я с тобой разберусь!" />
+		text="I will take you apart!" />
 
 	<Sample
 		id="91"
 		sound="data\sounds\radio\r_ar_ishit_1.ogg"
-		text="Я же предупреждал!" />
+		text="I warned you." />
 
 	<Sample
 		id="92"
 		sound="data\sounds\radio\r_ar_ishit_2.ogg"
-		text="Учись, студент." />
+		text="Watch me!" />
 
 	<Sample
 		id="93"
 		sound="data\sounds\radio\r_ar_shot_1.ogg"
-		text="Это ещё что?" />
+		text="Man, you're strong!" />
 
 	<Sample
 		id="94"
 		sound="data\sounds\radio\r_ar_shot_2.ogg"
-		text="Меня так просто не убить!" />
+		text="You hit me!" />
 
 	<Sample
 		id="95"
 		sound="data\sounds\radio\r_ar_kill_1.ogg"
-		text="Ещё одним меньше!" />
+		text="Burn, baby, burn!" />
 
 	<Sample
 		id="96"
 		sound="data\sounds\radio\r_ar_kill_2.ogg"
-		text="Отпрыгался, урод?!" />
+		text="Hasta la vista, baby!" />
 
 	<Sample
 		id="97"
 		sound="data\sounds\radio\r_ar_dead_1.ogg"
-		text="Чтоб ты сам сдох, гад!" />
+		text="That's too much..." />
 
 	<Sample
 		id="98"
 		sound="data\sounds\radio\r_ar_dead_2.ogg"
-		text="Моя нога! Моя..." />
+		text="Utter crash" />
 
 	<Sample
 		id="99"
 		sound="data\sounds\radio\r_ar_dead_3.ogg"
-		text="Я умер в бою..." />
+		text="Such ill luck." />
 
 	<Sample
 		id="100"
 		sound="data\sounds\radio\r_ar_allydead_1.ogg"
-		text="Ого! Становится горячо!" />
+		text="He owed me twenty coins!" />
 <!-- Druids-->
 	<Sample
 		id="101"
 		sound="data\sounds\radio\r_druid_greet_1.ogg"
-		text="Удачной охоты!" />
+		text="Have a good hunt" />
 
 	<Sample
 		id="102"
 		sound="data\sounds\radio\r_druid_greet_2.ogg"
-		text="Да пребудет с тобой сила!" />
+		text="Let the force be with you." />
 
 	<Sample
 		id="103"
 		sound="data\sounds\radio\r_druid_ffire_1.ogg"
-		text="Осторожнее!" />
+		text="Be careful with weapon." />
 
 	<Sample
 		id="104"
 		sound="data\sounds\radio\r_druid_ffire_2.ogg"
-		text="Cдержи свой гнев." />
+		text="Repress your anger" />
 
 	<Sample
 		id="105"
 		sound="data\sounds\radio\r_druid_attack_1.ogg"
-		text="Мы верили тебе!" />
+		text="We believed you." />
 
 	<Sample
 		id="106"
 		sound="data\sounds\radio\r_druid_attack_2.ogg"
-		text="Предатель!" />
+		text="Traitor!" />
 
 	<Sample
 		id="107"
 		sound="data\sounds\radio\r_druid_ishit_1.ogg"
-		text="Гнев земли!" />
+		text="Earth's wrath!" />
 
 	<Sample
 		id="108"
 		sound="data\sounds\radio\r_druid_ishit_2.ogg"
-		text="Получил?!" />
+		text="Got it?" />
 
 	<Sample
 		id="109"
 		sound="data\sounds\radio\r_druid_shot_1.ogg"
-		text="Я чувствую боль." />
+		text="I feel pain!" />
 
 	<Sample
 		id="110"
 		sound="data\sounds\radio\r_druid_shot_2.ogg"
-		text="Огненные стрелы!" />
+		text="Taking damage!" />
 
 	<Sample
 		id="111"
 		sound="data\sounds\radio\r_druid_kill_1.ogg"
-		text="Гореть тебе в аду!" />
+		text="Burn in hell!" />
 
 	<Sample
 		id="112"
 		sound="data\sounds\radio\r_druid_kill_2.ogg"
-		text="Одним меньше!" />
+		text="One less to kill." />
 
 	<Sample
 		id="113"
 		sound="data\sounds\radio\r_druid_dead_1.ogg"
-		text="Я ухожу..." />
+		text="Mother earth, take me.." />
 
 	<Sample
 		id="114"
 		sound="data\sounds\radio\r_druid_dead_2.ogg"
-		text="Всё кончено." />
+		text="It's over..." />
 
 	<Sample
 		id="115"
 		sound="data\sounds\radio\r_druid_dead_3.ogg"
-		text="Прощайте..." />
+		text="See you in heaven" />
 
 	<Sample
 		id="116"
 		sound="data\sounds\radio\r_druid_allydead_1.ogg"
-		text="Он был лучшим из нас." />
+		text="He was a great man" />
 <!-- Ulukchane-->
 	<Sample
 		id="117"
 		sound="data\sounds\radio\r_iron_greet_1.ogg"
-		text="Светлого неба!" />
+		text="Prosper!" />
 
 	<Sample
 		id="118"
 		sound="data\sounds\radio\r_iron_greet_2.ogg"
-		text="Долгих лет!" />
+		text="Live long!" />
 
 	<Sample
 		id="119"
 		sound="data\sounds\radio\r_iron_ffire_1.ogg"
-		text="Поаккуратнее!" />
+		text="Carefully, man!" />
 
 	<Sample
 		id="120"
 		sound="data\sounds\radio\r_iron_ffire_2.ogg"
-		text="Куда прёшь!" />
+		text="What a re you doing?" />
 
 	<Sample
 		id="121"
 		sound="data\sounds\radio\r_iron_attack_1.ogg"
-		text="Я тебя достану!" />
+		text="I'll get you!" />
 
 	<Sample
 		id="122"
 		sound="data\sounds\radio\r_iron_attack_2.ogg"
-		text="Тебе не уйти!" />
+		text="You won’t get away with this!" />
 
 	<Sample
 		id="123"
 		sound="data\sounds\radio\r_iron_ishit_1.ogg"
-		text="Умри, зараза!!!" />
+		text="Want some?" />
 
 	<Sample
 		id="124"
 		sound="data\sounds\radio\r_iron_ishit_2.ogg"
-		text="Тебе не жить!" />
+		text="Feel my wrath!" />
 
 	<Sample
 		id="125"
 		sound="data\sounds\radio\r_iron_shot_1.ogg"
-		text="Это ничего! " />
+		text="Bloody hell" />
 
 	<Sample
 		id="126"
 		sound="data\sounds\radio\r_iron_shot_2.ogg"
-		text="Я не сдамся!" />
+		text="I won't give up!" />
 
 	<Sample
 		id="127"
 		sound="data\sounds\radio\r_iron_kill_1.ogg"
-		text="Доигрался? Слабак!!! " />
+		text="Have a nice death!" />
 
 	<Sample
 		id="128"
 		sound="data\sounds\radio\r_iron_kill_2.ogg"
-		text="Отправляйся в Ад!" />
+		text="I did it!" />
 
 	<Sample
 		id="129"
 		sound="data\sounds\radio\r_iron_dead_1.ogg"
-		text="Какого чёрта?!" />
+		text="Whatta heck?!" />
 
 	<Sample
 		id="130"
 		sound="data\sounds\radio\r_iron_dead_2.ogg"
-		text="Я горю! Не-е-ет!!!" />
+		text="What's burning? Aaaargh!" />
 
 	<Sample
 		id="131"
 		sound="data\sounds\radio\r_iron_dead_3.ogg"
-		text="Пощады!" />
+		text="Mercy!" />
 
 	<Sample
 		id="132"
 		sound="data\sounds\radio\r_iron_allydead_1.ogg"
-		text="Собака!" />
+		text="It's a pity..." />
 <!-- Robots-->
 	<Sample
 		id="133"
 		sound="data\sounds\radio\r_robot_attack_1.ogg"
-		text="Цель обнаружена." />
+		text="Target acquired" />
 
 	<Sample
 		id="134"
 		sound="data\sounds\radio\r_robot_attack_2.ogg"
-		text="Вторжение." />
+		text="Intruder, Alert!" />
 
 	<Sample
 		id="135"
 		sound="data\sounds\radio\r_robot_attack_3.ogg"
-		text="Захват цели." />
+		text="Obliterate!" />
 
 	<Sample
 		id="136"
 		sound="data\sounds\radio\r_robot_ishit_1.ogg"
-		text="Прямое попадание." />
+		text="Direct hit!" />
 
 	<Sample
 		id="137"
 		sound="data\sounds\radio\r_robot_ishit_2.ogg"
-		text="Цель поражена." />
+		text="Target is hit" />
 
 	<Sample
 		id="138"
 		sound="data\sounds\radio\r_robot_shot_1.ogg"
-		text="Критическое повреждение." />
+		text="Critical damage" />
 
 	<Sample
 		id="139"
 		sound="data\sounds\radio\r_robot_shot_2.ogg"
-		text="Оценка повреждений." />
+		text="Calculating damage" />
 
 	<Sample
 		id="140"
 		sound="data\sounds\radio\r_robot_kill_1.ogg"
-		text="Противник уничтожен." />
+		text="Enemy down" />
 
 	<Sample
 		id="141"
 		sound="data\sounds\radio\r_robot_kill_2.ogg"
-		text="Зона очищена." />
+		text="Stage clear" />
 
 	<Sample
 		id="142"
 		sound="data\sounds\radio\r_robot_dead_1.ogg"
-		text="Перегрузка." />
+		text="Overload!" />
 
 	<Sample
 		id="143"
 		sound="data\sounds\radio\r_robot_dead_2.ogg"
-		text="Отключаюсь." />
+		text="I'll be back!" />
 
 	<Sample
 		id="144"
 		sound="data\sounds\radio\r_robot_dead_3.ogg"
-		text="Перегрев ядра." />
+		text="Shotdown initiated" />
 
 	<Sample
 		id="145"
 		sound="data\sounds\radio\r_robot_allydead_1.ogg"
-		text="Требуется подкрепление." />
+		text="Need Reinforcement" />
 <!-- Arabs-->
 	<Sample
 		id="146"
 		sound="data\sounds\radio\r_arab_greet_1.ogg"
-		text="Захади, дарагой!" />
+		text="Welcome!" />
 
 	<Sample
 		id="147"
 		sound="data\sounds\radio\r_arab_greet_2.ogg"
-		text="Гость в дом - радость в дом!" />
+		text="I'm so happy to see you!" />
 
 	<Sample
 		id="148"
 		sound="data\sounds\radio\r_arab_ffire_1.ogg"
-		text="Вах!" />
+		text="Wow!" />
 
 	<Sample
 		id="149"
 		sound="data\sounds\radio\r_arab_ffire_2.ogg"
-		text="Зачем стреляешь?" />
+		text="What are you up to?" />
 
 	<Sample
 		id="150"
 		sound="data\sounds\radio\r_arab_attack_1.ogg"
-		text="Ба-а-альшая ошибка!" />
+		text="It was a big mistake!" />
 
 	<Sample
 		id="151"
 		sound="data\sounds\radio\r_arab_attack_2.ogg"
-		text="Умри, неверный!" />
+		text="Die, infidel!" />
 
 	<Sample
 		id="152"
 		sound="data\sounds\radio\r_arab_ishit_1.ogg"
-		text="А как тебе это?!" />
+		text="My armor is giving in" />
 
 	<Sample
 		id="153"
 		sound="data\sounds\radio\r_arab_ishit_2.ogg"
-		text="Думаешь, ловкий, да?!" />
+		text="You are stronger, than it seems!" />
 
 	<Sample
 		id="154"
 		sound="data\sounds\radio\r_arab_shot_1.ogg"
-		text="Броня не держит!" />
+		text="Get this!" />
 
 	<Sample
 		id="155"
 		sound="data\sounds\radio\r_arab_shot_2.ogg"
-		text="Хорошо стреляешь!" />
+		text="Yeee-haaa!" />
 
 	<Sample
 		id="156"
 		sound="data\sounds\radio\r_arab_kill_1.ogg"
-		text="Жри землю!" />
+		text="Burn in hell!" />
 
 	<Sample
 		id="157"
 		sound="data\sounds\radio\r_arab_kill_2.ogg"
-		text="Аллах акбар!" />
+		text="Allahu akbar!" />
 
 	<Sample
 		id="158"
 		sound="data\sounds\radio\r_arab_dead_1.ogg"
-		text="Бесми ллъяхи ...." />
+		text="Tell Gulnar, I love her!" />
 
 	<Sample
 		id="159"
 		sound="data\sounds\radio\r_arab_dead_2.ogg"
-		text="Во имя Аллах-х-х..." />
+		text="Zulfia, my love..." />
 
 	<Sample
 		id="160"
 		sound="data\sounds\radio\r_arab_dead_3.ogg"
-		text="Шайтан!" />
+		text="Shaitan!" />
 
 	<Sample
 		id="161"
 		sound="data\sounds\radio\r_arab_allydead_1.ogg"
-		text="Покойся с миром, брат." />
+		text="Oh! No!" />
 <!-- Madmen-->
 	<Sample
 		id="162"
 		sound="data\sounds\radio\r_madman_attack_1.ogg"
-		text="Смее-рть!" />
+		text="Death!" />
 
 	<Sample
 		id="163"
 		sound="data\sounds\radio\r_madman_attack_2.ogg"
-		text="Умри-и-и!" />
+		text="Kill them all!" />
 
 	<Sample
 		id="164"
 		sound="data\sounds\radio\r_madman_attack_3.ogg"
-		text="А-а-а-а-а-а!!!!" />
+		text="It's to me to die!" />
 
 	<Sample
 		id="165"
 		sound="data\sounds\radio\r_madman_ishit_1.ogg"
-		text="Не уйдёшь!" />
+		text="Yahoo!" />
 
 	<Sample
 		id="166"
 		sound="data\sounds\radio\r_madman_ishit_2.ogg"
-		text="В яблочко!" />
+		text="Lucky shot!" />
 
 	<Sample
 		id="167"
 		sound="data\sounds\radio\r_madman_shot_1.ogg"
-		text="Да! Ещё!" />
+		text="Yess! Give it some more!" />
 
 	<Sample
 		id="168"
 		sound="data\sounds\radio\r_madman_shot_2.ogg"
-		text="Сладкая боль!" />
+		text="I am hurt!" />
 
 	<Sample
 		id="169"
 		sound="data\sounds\radio\r_madman_kill_1.ogg"
-		text="Й-ии-х-ха!" />
+		text="Its time to die, dog!" />
 
 	<Sample
 		id="170"
 		sound="data\sounds\radio\r_madman_kill_2.ogg"
-		text="Муа-ха-ха!" />
+		text="Go for a walk, kiddo!" />
 
 	<Sample
 		id="171"
 		sound="data\sounds\radio\r_madman_dead_1.ogg"
-		text="Наконец-то!" />
+		text="Farewell, brothers!" />
 
 	<Sample
 		id="172"
 		sound="data\sounds\radio\r_madman_dead_2.ogg"
-		text="Я бессмертен! Бессмер..." />
+		text="Mwa-ha-ha!" />
 
 	<Sample
 		id="174"
 		sound="data\sounds\radio\r_madman_allydead_1.ogg"
-		text="А-ха-ха-ха-ха!" />
+		text="Mwa-ha-ha!" />
 </RadioSamples>
