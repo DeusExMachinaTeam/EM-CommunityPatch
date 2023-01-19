@@ -6449,7 +6449,7 @@
 <!--Root/r1m2/Îïöèîíàëüíûå/Ïðî çíàêè â Âîñòî÷íîì-->
 	<Reply
 		name="MainSigner_hellodlg0"
-		text="People of the Kolkhoz are scared and refuse to harvest. If they leave the fields, we’ll be short of supplies next year. Go and find out what happened there. "
+		text="People of the Yarr are scared and refuse to harvest. If they leave the fields, we’ll be short of supplies next year. Go and find out what happened there. "
 		role="NPC"
 		scriptCondition="(GetCurNpc():GetSpokenCount() == 0)   and  not(IsQuestTaken('Signs_Quest'))   and  not(IsQuestComplete('Signs_Quest'))   and  not(IsQuestFailed('Signs_Quest'))"
 		nextReplies="MainSigner_hellodlg0_P1_1 MainSigner_hellodlg0_P1_2" />

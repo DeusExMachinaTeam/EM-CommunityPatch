@@ -317,7 +317,7 @@
 	<QuestInfo
 		questName="Signs_Quest"
 		briefDiz="Signs "
-		fullDiz="There are mysterious signs on the Kolkhoz' fields."
+		fullDiz="There are mysterious signs on the Yarr' fields."
 		isMainQuest="0">
 		<Map
 			name="r1m2" />
@@ -389,8 +389,8 @@
 
 	<QuestInfo
 		questName="WhereSigns_Quest"
-		briefDiz="Investigate the Kolkhoz events"
-		fullDiz="Kolkhoz' farmers are scared and refuse to harvest."
+		briefDiz="Investigate the Yarr events"
+		fullDiz="Yarr' farmers are scared and refuse to harvest."
 		isMainQuest="0">
 		<Map
 			name="r1m2"
