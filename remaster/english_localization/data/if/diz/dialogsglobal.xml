@@ -7138,7 +7138,7 @@
 <!--Root/r1m2/Сюжетные/Завхоз в Мидгарде-->
 	<Reply
 		name="Zavhoz_hellodlg0"
-		text="So, the sent you to protect the caravan... You don’t look tough, but who cares."
+		text="So, they sent you to protect the caravan... You don’t look tough, but who cares."
 		role="NPC"
 		scriptCondition="(IsQuestTaken('d_SkladMidgardBen_Quest'))  and  not(IsQuestComplete('d_SkladMidgardBen_Quest'))  and  (GetCurNpc():GetSpokenCount() == 0)"
 		nextReplies="Dlg_pl_xyz292" />
@@ -7542,7 +7542,7 @@
 <!--Root/r1m1/Опциональные/Казуал в деревне про Госпиталь-->
 	<Reply
 		name="Medik_hellodlg0"
-		text="A fellow traveler I see. For a mere 99 coins, I could show you the location of ancient hospital. It probably contains tons of useful stuff! "
+		text="A fellow traveler I see. For a mere 25 coins, I could show you the location of ancient hospital. It probably contains tons of useful stuff! "
 		role="NPC"
 		scriptCondition="(GetCurNpc():GetSpokenCount() == 0)   and   not(IsQuestItemPresent( 'quest_medicine_box' ))   and   not(IsQuestComplete( 'r1m1_Botanik_Quest' ))   and   not(IsQuestFailed( 'r1m1_Botanik_Quest' ))"
 		nextReplies="Dlg_pl_000561 Dlg_pl_000562" />
