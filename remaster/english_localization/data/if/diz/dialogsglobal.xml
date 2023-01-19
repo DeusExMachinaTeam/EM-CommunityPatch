@@ -840,7 +840,7 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N07"
-		text="There aren’t many places to go around here. All villages are burnt down. He must have gone to Aliham. "
+		text="There aren’t many places to go around here. All villages are burnt down. He must have gone to Alikham. "
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_2_N08" />
 
