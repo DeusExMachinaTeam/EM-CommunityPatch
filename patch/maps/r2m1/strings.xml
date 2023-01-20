@@ -264,7 +264,7 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_31_alice.ogg"
-		value="ЛИСА|Стой! Я расскажу всю правду..."
+		value="ЛИСА|Стой-стой! Я расскажу всю правду..."
 		time="4" />
 
 	<string
