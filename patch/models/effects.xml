@@ -1580,6 +1580,13 @@
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_SPECTER" looped="1" />
 	</Node>
 
+	<Node name="ET_PS_SPECTER_FIRE_NO_SOUND" class="SgNode">
+		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_HORNET01_FIRE_X" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_HORNET01_FIRE_Y" psNumEmitterMesh="-1" />
+	</Node>
+
 	<Node name="ET_PS_HAMMER_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ELEFANT01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_ELEFANT01_FIRE_MAIN2" psNumEmitterMesh="-1" />
