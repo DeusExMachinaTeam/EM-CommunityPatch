@@ -115,7 +115,7 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_13_axel.ogg"
-		value="AXEL|DO you always believe everything they say? Who sold you this rubbish?"
+		value="AXEL|Do you always believe everything they say? Who sold you this rubbish?"
 		time="5" />
 
 	<string
@@ -250,7 +250,7 @@
 		id="30"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_30_hero.ogg"
-		value="|Damn! Does it mean, it was all in vain?! Wait a minute. I know for sure, Lisa is in this region! I followed her up to its boundaries."
+		value="|Damn! Does it mean, it was all in vain?! Wait a minute. I know for sure, Alice is in this region! I followed her up to its boundaries."
 		time="15" />
 
 	<string

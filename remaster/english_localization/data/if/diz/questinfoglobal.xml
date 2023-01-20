@@ -1708,8 +1708,8 @@
 
 	<QuestInfo
 		questName="r1m3_CrazyManQuest"
-		briefDiz="Find the Entertainment Center."
-		fullDiz="According to the boy’s advertisements, the Entertainment Center is just a paradise. Let’s check it out."
+		briefDiz="Find the Amusement Center."
+		fullDiz="According to the boy’s advertisements, the Amusement Center is just a paradise. Let’s check it out."
 		isMainQuest="0">
 		<Map
 			name="r1m3"

@@ -19,7 +19,7 @@
 		modelAutosized="true"
 		modelName="gadget_12"
 		modelSlot="1"
-		value="RADIO|Hey!...It’s working! ... It’s Ben, roger that. I fixed the radio transmitter. How’s the research going? "
+		value="RADIO|Hey!...It’s working! ... It’s Ben, you copy? I fixed the radio transmitter. How’s the research going? "
 		sound="data\sounds\Speech\r1m3\r1m3_401_ben_radio.ogg"
 		time="8" />
 
@@ -451,12 +451,12 @@
 
 	<string
 		id="8805"
-		value="Do you wish to cross the bridge?|THe passage fee is 500 coins."
+		value="Do you wish to cross the bridge?|The passage fee is 250 coins."
 		numButtons="2" />
 
 	<string
 		id="6006"
-		value="You must pay 500 coins to cross the bridge. You do not have that much money. " />
+		value="You must pay 250 coins to cross the bridge. You do not have that much money. " />
 
 	<string
 		id="77771"

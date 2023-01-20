@@ -3232,7 +3232,7 @@
 
 	<Reply
 		name="Mopl_he"
-		text="I know Lisa is here. Give her to me, or I’ll destroy this place! "
+		text="I know Alice is here. Give her to me, or I’ll destroy this place! "
 		role="PLAYER"
 		nextReplies="Dlg_npc_000538" />
 
@@ -3600,7 +3600,7 @@
 
 	<Reply
 		name="Dlg_pl_000448"
-		text="Has Lisa been here? "
+		text="Has Alice been here? "
 		role="PLAYER"
 		nextReplies="Dlg_npc_000449" />
 
@@ -4277,7 +4277,7 @@
 
 	<Reply
 		name="Olme_Bar_Customer1_1_N09"
-		text="Try one of the fishing villages. Don’t look at me like that – all other villages are inhabited by fishermen. Our village is the only exception. "
+		text="Try one of the fishing villages. Don’t look at me like that – all other villages are inhabited by fishermen. Our town is the only exception. "
 		role="NPC"
 		nextReplies="Olme_Bar_Customer1_1_P10" />
 
@@ -4289,7 +4289,7 @@
 
 	<Reply
 		name="Olme_Bar_Customer1_1_P04"
-		text="This a fishing village, isn’t it? "
+		text="This a fishing town, isn’t it? "
 		role="PLAYER"
 		nextReplies="Olme_Bar_Customer1_1_N05" />
 
@@ -5120,7 +5120,7 @@
 <!--Root/r1m3/Îïöèîíàëüíûå/Öèðê-->
 	<Reply
 		name="Circus_hellodlg0"
-		text="You’ve probably come here to win some money and have fun in our Entertainment Center… I’m sorry to tell you that, but we have nothing to offer you. Some bandits lost a lot of money here and razed the center to the ground in a fit of rage. But you don’t want to leave this place empty-handed, do you? Let me propose you a riddle. Pay 100 coins and you’ll get a chance to double it."
+		text="You’ve probably come here to win some money and have fun in our Amusement Center… I’m sorry to tell you that, but we have nothing to offer you. Some bandits lost a lot of money here and razed the center to the ground in a fit of rage. But you don’t want to leave this place empty-handed, do you? Let me propose you a riddle. Pay 100 coins and you’ll get a chance to double it."
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_001107 Dlg_pl_001108" />
@@ -5279,14 +5279,14 @@
 
 	<Reply
 		name="BaseGuardian_hellodlg2"
-		text="You’ve got to pay 500 coins if you want to use the bridge."
+		text="You’ve got to pay 250 coins if you want to use the bridge."
 		role="NPC"
 		scriptCondition="IsQuestComplete('d_GiveMoneyToBase_Quest')   or   IsQuestComplete('d_SinFather_Quest')"
 		nextReplies="Dlg_pl_d3d180 Dlg_pl_d3d181" />
 <!--Root/r1m3/Ñþæåòíûå/Áàíäèò â Ïåøòå-->
 	<Reply
 		name="BanditPeshtGuardian_hellodlg0"
-		text="Glad to see you! Your money helped us a lot, you know. We bribed the guards in the town and moved to another place. All for your money! Ha-ha-ha. But it doesn’t mean you can drive here you please. The fee will be only 500 coins and that’s with a huge discount, believe us.  "
+		text="Glad to see you! Your money helped us a lot, you know. We bribed the guards in the town and moved to another place. All for your money! Ha-ha-ha. But it doesn’t mean you can drive here you please. The fee will be only 250 coins and that’s with a huge discount, believe us.  "
 		role="NPC"
 		scriptCondition="IsQuestComplete('d_GiveMoneyToBase_Quest')     and     (GetCurNpc():GetSpokenCount() == 0)"
 		nextReplies="Dlg_pl_d3d184" />
@@ -7126,7 +7126,7 @@
 
 	<Reply
 		name="Dlg_npc_001289"
-		text="No, Lisa never came here. Probably she was attacked by raiders on her way here. Their hide-out is at the seashore"
+		text="No, Alice never came here. Probably she was attacked by raiders on her way here. Their hide-out is at the seashore"
 		role="NPC"
 		nextReplies="Dlg_pl_001290" />
 

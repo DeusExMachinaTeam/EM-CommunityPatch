@@ -109,7 +109,7 @@
 	<string
 		id="23"
 		modelName="mask_hero"
-		value="|DO not be afraid! Together we will repulse the attack! Let anyone, who can keep weapon in their arms, fight!"
+		value="|Do not be afraid! Together we will repulse the attack! Let anyone, who can keep weapon in their arms, fight!"
 		sound="data\sounds\Speech\r3m1\r3m1_23_hero.ogg" />
 
 	<string

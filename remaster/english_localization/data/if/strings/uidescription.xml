@@ -94,7 +94,7 @@
 
 	<string
 		id="BugForSale_diz"
-		value="Only careless or desperate traders risk travel by this vehicle. One week gun and almost no armor are partially compensated by its high mobility." />
+		value="Only careless or desperate traders risk travel by this vehicle. One weak gun and almost no armor are partially compensated by its high mobility." />
 
 	<string
 		id="MolokovozForSale_diz"
@@ -250,7 +250,7 @@
 
 	<string
 		id="add_stability_and_speed_diz"
-		value="Increases construction and speed of your truck. | Construction +75% | Speed +20%" />
+		value="Increases construction and speed of your truck. | Construction +75 | Speed +20%" />
 
 	<string
 		id="add_torque_and_stability_diz"

@@ -46,7 +46,7 @@
 
 	<string
 		id="r1_Kill_Felix_00"
-		value="The bandits' base lies in ruins, Felix has fled with his tail between his legs. He didn’t kill my father, so I decided to keep his life. He may be evil, but who am I to judge him? The men who destroyed Glukhoe had far greater powers than Felix’s gang. The only witness of that holocaust is Lisa, the girl from the North. I’ll have to find her and hear the truth.  " />
+		value="The bandits' base lies in ruins, Felix has fled with his tail between his legs. He didn’t kill my father, so I decided to keep his life. He may be evil, but who am I to judge him? The men who destroyed Glukhoe had far greater powers than Felix’s gang. The only witness of that holocaust is Alice, the girl from the North. I’ll have to find her and hear the truth.  " />
 
 	<string
 		id="r1_Father_Room_00"
@@ -58,7 +58,7 @@
 
 	<string
 		id="r1_Dialod_With_Lisa_00"
-		value="How could I ever doubt the poor creature? She was frightened and looking for help. Lisa told me about Axel Argen’s  tyranny and his plans to spread his influence to the east. My village was the first settlement on their way. I won’t rest until I have my revenge. I’ll get Axel, whatever it takes. " />
+		value="How could I ever doubt the poor creature? She was frightened and looking for help. Alice told me about Axel Argen’s  tyranny and his plans to spread his influence to the east. My village was the first settlement on their way. I won’t rest until I have my revenge. I’ll get Axel, whatever it takes. " />
 
 	<string
 		id="r1_See_Tonnel_00"
@@ -70,7 +70,7 @@
 
 	<string
 		id="r2_Find_Lisa_00"
-		value="The people here are far less civilized than my fellow-villagers. However, I learned some interesting things from them: that Lisa is Axel’s assistant. Axel is the leader of a gang based in Argen. |The gang is called ‘Scarlet Dawn’, and they sound dangerous. They’ve declared war against Librium and that’s just a part of their ambitious plans. I’m not so sure I can fight against them all on my own." />
+		value="The people here are far less civilized than my fellow-villagers. However, I learned some interesting things from them: that Alice is Axel’s assistant. Axel is the leader of a gang based in Argen. |The gang is called ‘Scarlet Dawn’, and they sound dangerous. They’ve declared war against Librium and that’s just a part of their ambitious plans. I’m not so sure I can fight against them all on my own." />
 
 	<string
 		id="r2_Find_Axel_00"
@@ -90,23 +90,23 @@
 
 	<string
 		id="r2_After_Axel_01"
-		value="I had a major disappointment after I defeated the Scarlet Dawn leader. I expected to meet a barbarian and a cruel murderer, but I actually saw an educated man, who’s concerned about the future of the humankind. And even though I couldn’t accept his methods, I sort of liked him. Besides, he wasn’t to blame for all those crimes Lisa accused him of. Turns out she fooled both of us. She’ll pay for it." />
+		value="I had a major disappointment after I defeated the Scarlet Dawn leader. I expected to meet a barbarian and a cruel murderer, but I actually saw an educated man, who’s concerned about the future of the humankind. And even though I couldn’t accept his methods, I sort of liked him. Besides, he wasn’t to blame for all those crimes Alice accused him of. Turns out she fooled both of us. She’ll pay for it." />
 
 	<string
 		id="r2_After_Axel_02"
-		value="I had a major disappointment after I defeated the Scarlet Dawn leader. I expected to meet a barbarian and a cruel murderer, but I actually saw an educated man, who’s concerned about the future of the humankind. Even though I couldn’t accept his methods, I sort of liked him. It turned out Lisa kept him in the dark about her actions." />
+		value="I had a major disappointment after I defeated the Scarlet Dawn leader. I expected to meet a barbarian and a cruel murderer, but I actually saw an educated man, who’s concerned about the future of the humankind. Even though I couldn’t accept his methods, I sort of liked him. It turned out Alice kept him in the dark about her actions." />
 
 	<string
 		id="r2_Lisa_After_Axel_01"
-		value="With my reputation of the liberator all I had to do was ask the right people and they told me where to look for Lisa. She jumped into her truck as soon as she saw me, and it was only when she realized that her truck was no match against mine, that she gave in and agreed to answer my questions." />
+		value="With my reputation of the liberator all I had to do was ask the right people and they told me where to look for Alice. She jumped into her truck as soon as she saw me, and it was only when she realized that her truck was no match against mine, that she gave in and agreed to answer my questions." />
 
 	<string
 		id="r2_Lisa_After_Axel_02"
-		value="Now that I became a hero of Librium, it wasn’t hard to track Lisa down and talk to her. It turned out, that she was looking for Ivan Go, the famous explorer, who’s gone missing many years ago. Her investigation led her to my native village, but it was too late: some people came from the Death Desert and destroyed all evidence. " />
+		value="Now that I became a hero of Librium, it wasn’t hard to track Alice down and talk to her. It turned out, that she was looking for Ivan Go, the famous explorer, who’s gone missing many years ago. Her investigation led her to my native village, but it was too late: some people came from the Death Desert and destroyed all evidence. " />
 
 	<string
 		id="r2_With_Lisa_To_Oracul_01"
-		value="I’m gonna get the murderers even if I have to go to the edge of the world for them. But no one has ever survived in the Death Desert before. They say that the Northern Isle Oracle knows answers to all questions, so we’ll visit it with Lisa. Yes, she’s joined me and she’s got a disc with important information about Ivan Go. Lisa is looking for a way to read it, but with no luck so far.    " />
+		value="I’m gonna get the murderers even if I have to go to the edge of the world for them. But no one has ever survived in the Death Desert before. They say that the Northern Isle Oracle knows answers to all questions, so we’ll visit it with Alice. Yes, she’s joined me and she’s got a disc with important information about Ivan Go. Alice is looking for a way to read it, but with no luck so far.    " />
 
 	<string
 		id="r1_Before_Desert_00"
@@ -114,7 +114,7 @@
 
 	<string
 		id="r1_Lisa_Thief_00"
-		value="My joy didn’t last. Lisa has stolen both discs and the key to the Sea Gates! Her tracks lead to the West. I’ll follow her and ask her why she took the objects that had no value to anyone but me." />
+		value="My joy didn’t last. Alice has stolen both discs and the key to the Sea Gates! Her tracks lead to the West. I’ll follow her and ask her why she took the objects that had no value to anyone but me." />
 
 	<string
 		id="r1_After_Boss1"
@@ -174,7 +174,7 @@
 
 	<string
 		id="r3_v2_LisaDisc1"
-		value="The Oracle couldn’t decipher Lisa’s disc, but he told me that there was a design of a gadget that could help me cross the desert. " />
+		value="The Oracle couldn’t decipher Alice’s disc, but he told me that there was a design of a gadget that could help me cross the desert. " />
 
 	<string
 		id="r3_v2_BringDisc2"
@@ -202,7 +202,7 @@
 
 	<string
 		id="r4_LisaBecameCrazy"
-		value="Lisa was acting really strange: she was nervous for no apparent reason and eventually opened fire at me. It was a major test for my patience. I realized that she was no traitor; it was just the effect the place had on her.| On arrival to Bukhara Lisa blacked out, so I thought she would be better off with the elders, who were heading to the main land. Ben will take care of her. I will continue my search. " />
+		value="Alice was acting really strange: she was nervous for no apparent reason and eventually opened fire at me. It was a major test for my patience. I realized that she was no traitor; it was just the effect the place had on her.| On arrival to Bukhara Alice blacked out, so I thought she would be better off with the elders, who were heading to the main land. Ben will take care of her. I will continue my search. " />
 
 	<string
 		id="r4_FindFatherCar"
