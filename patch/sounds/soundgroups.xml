@@ -188,13 +188,13 @@
 		/>
             <group
 			id		= "BURNING"
-			volume	= "200" 
+			volume	= "100" 
 			minDist	= "50"
 		/>
 
             <group
 			id		= "BURNING_SMALL"
-			volume	= "150" 
+			volume	= "50" 
 			minDist	= "25"
 		/>
 
