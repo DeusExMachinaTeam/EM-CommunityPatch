@@ -230,7 +230,7 @@
 
 	<string
 		id="additional_stability_diz"
-		value="Adds some stability to your truck on roads. | Controllability +10%" />
+		value="Adds some stability to your truck on roads. | Construction +50" />
 
 	<string
 		id="additional_fuel_tank2_diz"
