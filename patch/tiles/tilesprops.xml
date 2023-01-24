@@ -157,5 +157,7 @@
 		<sandtech5			type="ROCK_GENERAL" />
 		<sandtech6			type="ROCK_GENERAL" />
 
+		<snow_crag1			type="ROCK_GENERAL"/>
+		<snow_ground1		type="GROUND_GENERAL"/>
 	</tiles>
 </tileprops>
