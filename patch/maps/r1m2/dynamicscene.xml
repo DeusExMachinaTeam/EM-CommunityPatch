@@ -1003,19 +1003,19 @@
 						<BASKET
 							present="1"
 							Flags="16"
-							Name="BASwqwqKET"
+							Name="BASwqwqwqKET"
 							Prototype="molokovozCargo01" />
 
 						<CABIN
 							present="1"
 							Flags="16"
-							Name="CwqwABIN"
+							Name="CwqwqwqABIN"
 							Prototype="molokovozCab01" />
 
 						<CHASSIS
 							present="1"
 							Flags="16"
-							Name="CHASSISwqwqw"
+							Name="CHASSISwqwqwq"
 							Prototype="molokovozChassis" />
 					</Parts>
 
