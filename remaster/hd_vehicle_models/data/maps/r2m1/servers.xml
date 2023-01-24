@@ -2120,18 +2120,6 @@
 
 <!-- For Effect -->
 		<Item 
-			id="barrel3_dyn" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="barrel1_dyn" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="shell" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
 			id="barrel_debris" 
 			file="data\models\AnimModels.xml"/>
 

@@ -168,10 +168,6 @@
 		<Item 
 			id="kustarnik2" 
 			file="data\models\AnimModels.xml"/>
-			
-		<Item 
-			id="barrel3_dyn" 
-			file="data\models\AnimModels.xml"/>
 
 		<!-- goods -->
 		<Item 
