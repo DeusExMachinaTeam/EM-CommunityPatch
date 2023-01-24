@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<tileprops>
+	<types>
+		<type 
+			name="ROCK_GENERAL"
+			splash="ROCK"
+			wheeltracetexture="data\fx\protectors\protector_rock.tga"
+			friction="1.1"
+			resistance="0.2" />
+
+		<type 
+			name="GROUND_GENERAL"
+			splash="GROUND"
+			wheeltracetexture="data\fx\protectors\protector_ground.tga"
+			friction="1.0"
+			resistance="0.3" />
+
+		<type 
+			name="GRASS_GENERAL"
+			splash="GRASS"
+			wheeltracetexture="data\fx\protectors\protector_grass.tga"
+			friction="1.0"
+			resistance="0.3" />
+
+		<type 
+			name="SAND_GENERAL"
+			splash="SAND"
+			wheeltracetexture="data\fx\protectors\protector_grass.tga"
+			friction="1.0"
+			resistance="0.3" />
+	</types>
+
+	<tiles>
+		<!-- 
+			Можно перегрузить стандартные настройки для данного типа почвы. Здесь записаны такие же настройки, 
+			чтобы ничего не портить 
+		-->
+		<rocks 				type="ROCK_GENERAL" 			
+			wheeltracetexture="data\fx\protectors\protector_rock.tga"
+			friction="1.1"
+			resistance="0.2" />
+
+		<rocks_ground 		type="ROCK_GENERAL" />
+		<crag_rock 			type="ROCK_GENERAL" />
+		<crag_rock_2		type="ROCK_GENERAL" />
+		<rocks_grass_dark	type="ROCK_GENERAL" />
+		<pebble_ground		type="ROCK_GENERAL" />
+		<pebble_ground_2	type="ROCK_GENERAL" />
+
+		<stony_covering		type="ROCK_GENERAL" />
+		<m0_stony_covering	type="ROCK_GENERAL" />
+		<techno_1			type="ROCK_GENERAL" />
+		<techno_2			type="ROCK_GENERAL" />
+		<techno_3			type="ROCK_GENERAL" />
+		<concrete_covering	type="ROCK_GENERAL" />
+
+		<stone_1			type="ROCK_GENERAL" />
+		<stone_2			type="ROCK_GENERAL" />
+		<stone_3			type="ROCK_GENERAL" />
+		<stone_4			type="ROCK_GENERAL" />
+		<stone_5			type="ROCK_GENERAL" />
+
+		<rcrag_1			type="ROCK_GENERAL" />
+		<rcrag_2			type="ROCK_GENERAL" />
+		<gcrag_1			type="ROCK_GENERAL" />
+		<gcrag_2			type="ROCK_GENERAL" />
+
+		<tech_1			type="ROCK_GENERAL" />
+		<tech_2			type="ROCK_GENERAL" />
+		<tech_3			type="ROCK_GENERAL" />
+		<tech_4			type="ROCK_GENERAL" />
+		<tech_5			type="ROCK_GENERAL" />
+		<tech_6			type="ROCK_GENERAL" />
+
+
+		<grass_crk 			type="GRASS_GENERAL" />
+		<grass_fall		 	type="GRASS_GENERAL" />
+		<grass_fall_leaf 		type="GRASS_GENERAL" />
+		<grass_fall_leaf_brown	type="GRASS_GENERAL" />
+		<snow_marcescent_dark	type="GRASS_GENERAL" />
+		<grass_swamp		type="GRASS_GENERAL" />
+		<grass_1			type="GRASS_GENERAL" />
+		<grass_2			type="GRASS_GENERAL" />
+		<grass_3			type="GRASS_GENERAL" />
+		<grass_4			type="GRASS_GENERAL" />
+
+		<swamp 			type="GROUND_GENERAL" />
+		<ground_fall 		type="GROUND_GENERAL" />
+		<ground_dried 		type="GROUND_GENERAL" />
+		<ground_dried_2 		type="GROUND_GENERAL" />
+		<ground_fall_dried 	type="GROUND_GENERAL" />
+		<ground_fall_dried_2	type="GROUND_GENERAL" />
+		<ground_swamp		type="GROUND_GENERAL" />
+		<ground_waste		type="GROUND_GENERAL" />
+		<water_ground		type="GROUND_GENERAL" />
+
+		<ground_1			type="GROUND_GENERAL" />
+		<ground_2			type="GROUND_GENERAL" />
+		<ground_3			type="GROUND_GENERAL" />
+		<ground_4			type="GROUND_GENERAL" />
+		<ground_5			type="GROUND_GENERAL" />
+
+		<tbouldercrag_1		type="ROCK_GENERAL" />
+		<tbouldercrag_2		type="ROCK_GENERAL" />
+		<tstone_1			type="ROCK_GENERAL" />
+		<tstone_2			type="ROCK_GENERAL" />
+		<tstone_3			type="ROCK_GENERAL" />
+		<tstone_4			type="ROCK_GENERAL" />
+		<tstone_5			type="ROCK_GENERAL" />
+		<ttech_1			type="ROCK_GENERAL" />
+		<ttech_2			type="ROCK_GENERAL" />
+		<ttech_3			type="ROCK_GENERAL" />
+		<ttech_4			type="ROCK_GENERAL" />
+		<ttech_5			type="ROCK_GENERAL" />
+		<ttech_6			type="ROCK_GENERAL" />
+
+		<tgrass_1			type="GRASS_GENERAL" />
+		<tgrass_2			type="GRASS_GENERAL" />
+		<tgrass_3			type="GRASS_GENERAL" />
+		<tgrass_4			type="GRASS_GENERAL" />
+		<tswamp_1			type="GRASS_GENERAL" />
+		<tswamp_2			type="GRASS_GENERAL" />
+
+		<tground_1			type="GROUND_GENERAL" />
+		<tground_2			type="GROUND_GENERAL" />
+		<tground_3			type="GROUND_GENERAL" />
+		<tground_4			type="GROUND_GENERAL" />
+
+		<sand1			type="SAND_GENERAL" />
+		<sand2			type="SAND_GENERAL" />
+		<sand3			type="SAND_GENERAL" />
+		<sand4			type="SAND_GENERAL" />
+		<sand5			type="SAND_GENERAL" />
+		<sand6			type="SAND_GENERAL" />
+		<sand7			type="SAND_GENERAL" />
+
+		<sandblackcrag1		type="ROCK_GENERAL" />
+		<sandblackcrag2		type="ROCK_GENERAL" />
+		<sandblackcrag3		type="ROCK_GENERAL" />
+		<sandcrag1			type="ROCK_GENERAL" />
+		<sandcrag2			type="ROCK_GENERAL" />
+
+		<sandgrass1			type="GRASS_GENERAL" />
+		<sandgrass2			type="GRASS_GENERAL" />
+		<sandgrass3			type="GRASS_GENERAL" />
+		<sandgrass4			type="GRASS_GENERAL" />
+		<sandgrass5			type="GRASS_GENERAL" />
+		
+		<sandstone1			type="ROCK_GENERAL" />
+		<sandstone2			type="ROCK_GENERAL" />
+		<sandstone3			type="ROCK_GENERAL" />
+
+		<sandtech1			type="ROCK_GENERAL" />
+		<sandtech2			type="ROCK_GENERAL" />
+		<sandtech3			type="ROCK_GENERAL" />
+		<sandtech4			type="ROCK_GENERAL" />
+		<sandtech5			type="ROCK_GENERAL" />
+		<sandtech6			type="ROCK_GENERAL" />
+
+	</tiles>
+</tileprops>
