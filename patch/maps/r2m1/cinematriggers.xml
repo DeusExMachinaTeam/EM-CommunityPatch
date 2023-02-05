@@ -811,11 +811,11 @@
 
 			getObj("humPlayer"):SetNodeAction(AT_STAND1)
 			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
-			println("gg_anim_set")
+			-- println("gg_anim_set")
 			getObj("humLisa"):SetNodeAction(AT_STAND2)
 			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2)
 			getObj("humLisa"):SetNextForAnimation(AT_STAND2, AT_STAND2)
-			println("lisas_anim_set")
+			-- println("lisas_anim_set")
 
 			trigger:Deactivate()
 		</script>
