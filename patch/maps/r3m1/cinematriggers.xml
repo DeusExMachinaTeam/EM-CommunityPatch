@@ -1288,6 +1288,9 @@
 			FVehicle:Remove()
 		end
 
+		local lcar = getObj("LisaInCar")
+		if lcar then lcar:Remove() end
+
 		local vehPlayer = GetPlayerVehicle()
 		if vehPlayer then
 			vehPlayer:SetExternalPathByName("player_path10")
