@@ -3498,10 +3498,10 @@
 	<Node
 		name="Object394"
 		class="SgAnimatedModelNode"
-		org="542.057 3.300 1374.810"
+		org="542.057 4.067 1374.810"
 		orgRel="1"
 		rot="0.0000 -0.7117 0.0000 0.7025"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node

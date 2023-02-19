@@ -4315,10 +4315,10 @@
 	<Node
 		name="Object1547"
 		class="SgAnimatedModelNode"
-		org="2367.012 3.087 3911.437"
+		org="2367.012 3.298 3911.437"
 		orgRel="1"
 		rot="-0.0009 0.0065 -0.1435 0.9896"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
@@ -4423,19 +4423,19 @@
 	<Node
 		name="Object1561"
 		class="SgAnimatedModelNode"
-		org="2375.157 2.916 3944.434"
+		org="2375.157 3.683 3944.434"
 		orgRel="1"
 		rot="0.2503 -0.2732 -0.6275 0.6848"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object1562"
 		class="SgAnimatedModelNode"
-		org="2372.844 3.048 3929.049"
+		org="2372.844 3.168 3929.049"
 		orgRel="1"
 		rot="0.0073 0.2858 0.1282 0.9496"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
@@ -5435,55 +5435,55 @@
 	<Node
 		name="Object2255"
 		class="SgAnimatedModelNode"
-		org="4528.527 3.157 7326.701"
+		org="4528.527 3.924 7326.701"
 		orgRel="1"
 		rot="0.0000 0.2693 0.0000 0.9630"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2256"
 		class="SgAnimatedModelNode"
-		org="4536.438 3.157 7339.944"
+		org="4536.438 3.924 7339.944"
 		orgRel="1"
 		rot="0.0000 0.2693 0.0000 0.9630"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2257"
 		class="SgAnimatedModelNode"
-		org="4544.056 3.157 7352.487"
+		org="4544.056 3.924 7352.487"
 		orgRel="1"
 		rot="0.0000 0.2693 0.0000 0.9630"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2258"
 		class="SgAnimatedModelNode"
-		org="4551.834 3.157 7365.134"
+		org="4551.834 3.924 7365.134"
 		orgRel="1"
 		rot="0.0000 0.2693 0.0000 0.9630"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2259"
 		class="SgAnimatedModelNode"
-		org="4559.031 3.157 7377.944"
+		org="4559.031 3.924 7377.944"
 		orgRel="1"
 		rot="0.0000 0.2588 0.0000 0.9659"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2260"
 		class="SgAnimatedModelNode"
-		org="4566.417 3.157 7390.602"
+		org="4566.417 3.924 7390.602"
 		orgRel="1"
 		rot="0.0000 0.2588 0.0000 0.9659"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
@@ -5748,28 +5748,28 @@
 	<Node
 		name="Object2306"
 		class="SgAnimatedModelNode"
-		org="4634.458 3.157 7451.287"
+		org="4634.458 3.924 7451.287"
 		orgRel="1"
 		rot="0.0000 0.2588 0.0000 0.9659"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2307"
 		class="SgAnimatedModelNode"
-		org="4642.154 3.157 7464.033"
+		org="4642.154 3.924 7464.033"
 		orgRel="1"
 		rot="0.0000 0.2588 0.0000 0.9659"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2308"
 		class="SgAnimatedModelNode"
-		org="4649.409 3.157 7476.759"
+		org="4649.409 3.924 7476.759"
 		orgRel="1"
 		rot="0.0000 0.2588 0.0000 0.9659"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
@@ -5794,19 +5794,19 @@
 	<Node
 		name="Object2312"
 		class="SgAnimatedModelNode"
-		org="4745.174 3.157 7673.952"
+		org="4745.174 3.924 7673.952"
 		orgRel="1"
 		rot="0.0000 0.2207 0.0000 0.9753"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
 		name="Object2313"
 		class="SgAnimatedModelNode"
-		org="4738.564 3.157 7660.850"
+		org="4738.564 3.924 7660.850"
 		orgRel="1"
 		rot="0.0000 0.2228 0.0000 0.9749"
-		id="vagon3"
+		id="rr_vagon4"
 		ndmAction="0" />
 
 	<Node
