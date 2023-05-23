@@ -219,7 +219,7 @@
 
 	<QuestInfo
 		questName="FreeExtremistLeader_Quest3_2"
-		briefDiz="Уничтожить головную машину"
+		briefDiz="Разоружить головную машину"
 		isMainQuest="0">
 		<Map
 			name="r1m4"
