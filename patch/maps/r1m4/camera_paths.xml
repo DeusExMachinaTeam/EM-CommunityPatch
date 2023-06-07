@@ -70,8 +70,8 @@
 	</Path>
 
 	<Path Name = "Caravan_cam01">                         
-		<Point  coord="-2.000 3.500 -30.000"/>
-		<Point  coord="2.000 4.500 -40.000"/>
+		<Point  coord="-2.000 6.500 -30.000"/>
+		<Point  coord="2.000 7.500 -40.000"/>
 	</Path>
 
 	<Path Name = "Caravan_cam02">                         

@@ -441,7 +441,7 @@
 			TActivate("trCaravan_cam03")
 			TActivate("trCaravan_Fade")
 			PlayCustomMusic("Passage01unloop")
-			RuleConsole("cinematic_spring_coeff 3.0")
+			RuleConsole("cinematic_spring_coeff 6.0")
 
 			local Band = GetEntityByName("LeaderGuardTeam_vehicle_0")
 			local BandID = Band:GetId()
