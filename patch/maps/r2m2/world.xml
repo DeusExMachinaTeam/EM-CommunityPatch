@@ -2,7 +2,7 @@
 <World
 	name="Object16"
 	class="SgNode"
-	LastId="76473578">
+	LastId="76473629">
 	<Node
 		name="Object12"
 		class="SgAnimatedModelNode"
@@ -545,7 +545,7 @@
 	<Node
 		name="Object257"
 		class="SgAnimatedModelNode"
-		org="1331.215 0.000 1674.713"
+		org="1334.622 0.000 1673.557"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -553,7 +553,7 @@
 	<Node
 		name="Object258"
 		class="SgAnimatedModelNode"
-		org="1331.724 0.000 1659.604"
+		org="1334.812 0.000 1656.944"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -561,7 +561,7 @@
 	<Node
 		name="Object259"
 		class="SgAnimatedModelNode"
-		org="1332.788 0.000 1647.206"
+		org="1334.857 0.000 1648.108"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -569,7 +569,7 @@
 	<Node
 		name="Object260"
 		class="SgAnimatedModelNode"
-		org="1332.894 0.000 1635.065"
+		org="1334.102 0.000 1635.693"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -577,7 +577,7 @@
 	<Node
 		name="Object261"
 		class="SgAnimatedModelNode"
-		org="1332.965 0.000 1622.130"
+		org="1333.752 0.000 1623.025"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -585,7 +585,7 @@
 	<Node
 		name="Object262"
 		class="SgAnimatedModelNode"
-		org="1333.398 0.000 1610.019"
+		org="1333.106 0.000 1610.705"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -770,7 +770,7 @@
 	<Node
 		name="Object311"
 		class="SgAnimatedModelNode"
-		org="1307.581 0.000 1674.575"
+		org="1309.512 0.000 1673.700"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -810,7 +810,7 @@
 	<Node
 		name="Object316"
 		class="SgAnimatedModelNode"
-		org="1311.336 0.000 1646.900"
+		org="1310.342 0.000 1649.113"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -866,7 +866,7 @@
 	<Node
 		name="Object328"
 		class="SgAnimatedModelNode"
-		org="1306.084 0.000 1655.053"
+		org="1310.019 0.000 1655.311"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -874,7 +874,7 @@
 	<Node
 		name="Object329"
 		class="SgAnimatedModelNode"
-		org="1282.376 0.000 1655.088"
+		org="1286.018 0.000 1654.890"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -882,7 +882,7 @@
 	<Node
 		name="Object330"
 		class="SgAnimatedModelNode"
-		org="1259.522 0.000 1655.145"
+		org="1261.536 0.000 1655.171"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -907,7 +907,7 @@
 	<Node
 		name="Object334"
 		class="SgAnimatedModelNode"
-		org="1331.573 0.000 1668.803"
+		org="1334.755 0.000 1662.903"
 		orgRel="1"
 		id="seedbed"
 		ndmAction="0" />
@@ -5498,7 +5498,7 @@
 		class="SgAnimatedModelNode"
 		org="3433.473 -4.598 1157.156"
 		orgRel="1"
-		rot="-0.0036 0.8423 0.0054 0.5391"
+		rot="-0.0091 0.8503 0.0017 0.5262"
 		scale="1.457 1.457 1.457"
 		id="arena_barricade8"
 		ndmAction="0" />
@@ -8173,99 +8173,81 @@
 	<Node
 		name="Object6144"
 		class="SgAnimatedModelNode"
-		org="3132.354 0.000 1005.775"
+		org="3131.323 0.000 1005.909"
 		orgRel="1"
-		rot="0.0015 -0.9969 0.0414 0.0675"
+		rot="0.0022 -0.9993 0.0173 0.0327"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6145"
 		class="SgAnimatedModelNode"
-		org="3127.450 0.000 985.912"
+		org="3127.862 0.000 983.642"
 		orgRel="1"
-		rot="0.0052 -0.9868 0.0411 0.1563"
+		rot="-0.0024 -0.9917 0.0248 0.1259"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6146"
 		class="SgAnimatedModelNode"
-		org="3128.270 0.000 1048.264"
+		org="3128.381 -0.006 1040.148"
 		orgRel="1"
-		rot="-0.0089 -0.9820 0.0405 -0.1842"
+		rot="-0.0221 -0.9926 0.0623 -0.1016"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6147"
 		class="SgAnimatedModelNode"
-		org="3119.153 0.000 1066.694"
+		org="3120.289 0.000 1067.177"
 		orgRel="1"
-		rot="-0.0132 -0.9561 0.0393 -0.2901"
+		rot="-0.0082 -0.9636 0.0796 -0.2552"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6148"
 		class="SgAnimatedModelNode"
-		org="3106.214 0.000 1082.305"
+		org="3107.743 0.000 1083.451"
 		orgRel="1"
-		rot="-0.0176 -0.9171 0.0375 -0.3964"
+		rot="-0.0286 -0.9266 0.0635 -0.3696"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6149"
 		class="SgAnimatedModelNode"
-		org="3089.718 0.386 1094.188"
+		org="3090.447 0.386 1095.773"
 		orgRel="1"
-		rot="-0.0232 -0.8450 0.0344 -0.5332"
+		rot="-0.0377 -0.8306 0.0587 -0.5524"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6150"
 		class="SgAnimatedModelNode"
-		org="3070.729 -0.459 1100.062"
+		org="3070.470 -0.459 1099.494"
 		orgRel="1"
-		rot="-0.0287 -0.7410 0.0299 -0.6702"
-		id="arena_barricade10"
-		ndmAction="0" />
-
-	<Node
-		name="Object6151"
-		class="SgAnimatedModelNode"
-		org="3050.237 -0.459 1100.281"
-		orgRel="1"
-		rot="-0.0321 -0.6555 0.0262 -0.7541"
-		id="arena_barricade10"
-		ndmAction="0" />
-
-	<Node
-		name="Object6152"
-		class="SgAnimatedModelNode"
-		org="3030.081 -0.459 1097.503"
-		orgRel="1"
-		rot="-0.0321 -0.6555 0.0262 -0.7541"
+		rot="-0.0351 -0.7122 0.0388 -0.7000"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6153"
 		class="SgAnimatedModelNode"
-		org="3010.503 -0.459 1093.427"
+		org="3011.000 -0.459 1094.045"
 		orgRel="1"
-		rot="-0.0340 -0.5943 0.0236 -0.8032"
+		rot="-0.0338 -0.5961 0.0239 -0.8019"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6154"
 		class="SgAnimatedModelNode"
-		org="2991.319 -0.459 1086.224"
+		org="2990.971 -0.459 1085.384"
 		orgRel="1"
-		rot="-0.0360 -0.5220 0.0206 -0.8519"
+		rot="-0.0243 -0.5054 0.0147 -0.8624"
 		id="arena_barricade10"
 		ndmAction="0" />
 
@@ -9534,16 +9516,16 @@
 	<Node
 		name="Object6493"
 		class="SgAnimatedModelNode"
-		org="1853.522 0.000 2139.933"
+		org="1851.796 0.000 2139.269"
 		orgRel="1"
-		rot="0.0995 0.4642 -0.0580 0.8782"
+		rot="0.1167 0.4630 -0.0671 0.8761"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6494"
 		class="SgAnimatedModelNode"
-		org="1868.582 0.000 2153.017"
+		org="1868.122 0.000 2152.882"
 		orgRel="1"
 		rot="0.1051 0.3678 -0.0470 0.9227"
 		id="arena_barricade10"
@@ -9554,7 +9536,7 @@
 		class="SgAnimatedModelNode"
 		org="1886.242 0.300 2162.997"
 		orgRel="1"
-		rot="0.0322 0.5973 -0.0292 0.8008"
+		rot="0.0374 0.5971 -0.0331 0.8006"
 		id="arena_barricade10"
 		ndmAction="0" />
 
@@ -9570,25 +9552,25 @@
 	<Node
 		name="Object6497"
 		class="SgAnimatedModelNode"
-		org="1926.988 -0.171 2163.224"
+		org="1926.912 -0.171 2160.925"
 		orgRel="1"
-		rot="0.0221 0.8092 -0.0375 0.5859"
+		rot="0.0107 0.8488 -0.0191 0.5283"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6498"
 		class="SgAnimatedModelNode"
-		org="1943.884 -0.171 2152.147"
+		org="1945.301 -0.171 2148.467"
 		orgRel="1"
-		rot="0.0129 0.9219 -0.0415 0.3849"
+		rot="0.0119 0.9124 -0.0418 0.4069"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object6499"
 		class="SgAnimatedModelNode"
-		org="1956.338 0.129 2135.877"
+		org="1958.578 0.129 2131.236"
 		orgRel="1"
 		rot="0.0071 0.9660 -0.0429 0.2549"
 		id="arena_barricade10"
@@ -9597,9 +9579,9 @@
 	<Node
 		name="Object6500"
 		class="SgAnimatedModelNode"
-		org="1968.821 -0.528 2120.248"
+		org="1969.514 -0.528 2111.527"
 		orgRel="1"
-		rot="0.0195 0.9223 -0.0780 0.3781"
+		rot="-0.0735 0.9482 -0.0874 0.2963"
 		id="arena_barricade10"
 		ndmAction="0" />
 
@@ -11040,9 +11022,9 @@
 	<Node
 		name="Object7351"
 		class="SgAnimatedModelNode"
-		org="2493.184 -0.690 1310.267"
+		org="2494.171 -0.690 1309.632"
 		orgRel="1"
-		rot="0.0000 -0.9954 0.0000 -0.0959"
+		rot="0.0000 -0.9996 0.0000 -0.0284"
 		id="arena_barricade10"
 		ndmAction="0" />
 
@@ -11060,7 +11042,7 @@
 		class="SgAnimatedModelNode"
 		org="2449.464 -0.813 1353.352"
 		orgRel="1"
-		rot="0.0000 -0.7674 0.0000 -0.6411"
+		rot="0.0000 -0.7632 0.0000 -0.6461"
 		id="arena_barricade10"
 		ndmAction="0" />
 
@@ -11085,36 +11067,36 @@
 	<Node
 		name="Object7357"
 		class="SgAnimatedModelNode"
-		org="2527.760 -0.623 1306.752"
+		org="2527.357 -0.623 1308.761"
 		orgRel="1"
-		rot="0.0000 -0.3297 0.0000 -0.9441"
+		rot="0.0000 -0.3111 0.0000 -0.9504"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7358"
 		class="SgAnimatedModelNode"
-		org="2560.318 -0.623 1315.716"
+		org="2558.761 -0.620 1312.025"
 		orgRel="1"
-		rot="0.0000 0.9312 0.0000 -0.3645"
+		rot="-0.0007 0.9803 -0.0021 -0.1973"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7359"
 		class="SgAnimatedModelNode"
-		org="2576.427 -0.623 1326.906"
+		org="2575.931 -0.623 1327.047"
 		orgRel="1"
-		rot="0.0000 0.8052 0.0000 -0.5931"
+		rot="-0.0278 0.7407 0.0071 -0.6712"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7360"
 		class="SgAnimatedModelNode"
-		org="2476.217 -0.530 1351.248"
+		org="2475.765 -0.530 1351.572"
 		orgRel="1"
-		rot="0.0000 -0.7284 0.0000 -0.6852"
+		rot="0.0075 -0.6978 0.0180 -0.7161"
 		id="arena_barricade10"
 		ndmAction="0" />
 
@@ -11247,37 +11229,27 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object7464"
-		class="SgAnimatedModelNode"
-		org="3050.264 0.000 1035.503"
-		orgRel="1"
-		rot="0.0000 0.9987 0.0000 0.0501"
-		scale="0.890 0.890 0.890"
-		id="arena_barricade10"
-		ndmAction="0" />
-
-	<Node
 		name="Object7466"
 		class="SgAnimatedModelNode"
-		org="3040.896 0.000 1002.669"
+		org="3044.940 0.000 1001.042"
 		orgRel="1"
-		rot="0.0000 0.9389 0.0000 -0.3440"
+		rot="-0.0203 0.9699 -0.0118 -0.2425"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7467"
 		class="SgAnimatedModelNode"
-		org="3032.255 0.000 984.663"
+		org="3034.242 0.000 983.347"
 		orgRel="1"
-		rot="0.0000 0.9914 0.0000 -0.1305"
+		rot="-0.0020 0.9537 -0.0107 -0.3007"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7468"
 		class="SgAnimatedModelNode"
-		org="3020.335 0.000 969.280"
+		org="3018.927 0.000 968.560"
 		orgRel="1"
 		rot="0.0000 0.8920 0.0000 -0.4520"
 		id="arena_barricade10"
@@ -11286,7 +11258,7 @@
 	<Node
 		name="Object7469"
 		class="SgAnimatedModelNode"
-		org="3001.478 0.000 962.909"
+		org="2999.021 0.000 962.191"
 		orgRel="1"
 		rot="0.0000 0.7446 0.0000 -0.6675"
 		id="arena_barricade10"
@@ -13123,16 +13095,16 @@
 	<Node
 		name="Object7969"
 		class="SgAnimatedModelNode"
-		org="1855.983 0.000 2100.706"
+		org="1856.947 0.000 2099.371"
 		orgRel="1"
-		rot="-0.0444 -0.8875 -0.0778 0.4520"
+		rot="0.0089 -0.8951 -0.0628 0.4414"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7970"
 		class="SgAnimatedModelNode"
-		org="1838.689 0.000 2090.515"
+		org="1838.965 0.000 2088.697"
 		orgRel="1"
 		rot="0.0004 -0.8491 -0.0331 0.5272"
 		id="arena_barricade10"
@@ -13141,34 +13113,34 @@
 	<Node
 		name="Object7971"
 		class="SgAnimatedModelNode"
-		org="1819.202 0.325 2084.332"
+		org="1818.839 0.325 2082.840"
 		orgRel="1"
-		rot="-0.0040 -0.7716 -0.0329 0.6352"
+		rot="-0.0012 -0.7718 -0.0295 0.6352"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7972"
 		class="SgAnimatedModelNode"
-		org="1798.560 0.176 2082.803"
+		org="1797.631 0.176 2080.598"
 		orgRel="1"
-		rot="-0.0318 -0.7019 -0.0571 0.7093"
+		rot="-0.0154 -0.7015 -0.0395 0.7114"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7973"
 		class="SgAnimatedModelNode"
-		org="1778.514 -0.995 2085.128"
+		org="1776.823 -0.995 2086.815"
 		orgRel="1"
-		rot="-0.0369 -0.6340 -0.0539 0.7705"
+		rot="-0.0539 -0.6156 -0.0703 0.7831"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7974"
 		class="SgAnimatedModelNode"
-		org="3060.724 0.000 868.791"
+		org="3062.277 0.000 869.713"
 		orgRel="1"
 		rot="-0.0076 -0.8857 0.0076 0.4640"
 		id="arena_barricade10"
@@ -13179,25 +13151,25 @@
 		class="SgAnimatedModelNode"
 		org="3043.602 -0.709 858.785"
 		orgRel="1"
-		rot="0.0482 -0.8507 0.0726 0.5182"
+		rot="0.0425 -0.8515 0.0633 0.5187"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7976"
 		class="SgAnimatedModelNode"
-		org="3025.595 -0.234 850.349"
+		org="3024.118 -0.234 850.033"
 		orgRel="1"
-		rot="0.0893 -0.8229 0.0957 0.5528"
+		rot="0.0539 -0.8110 0.0394 0.5812"
 		id="arena_barricade10"
 		ndmAction="0" />
 
 	<Node
 		name="Object7977"
 		class="SgAnimatedModelNode"
-		org="3007.056 -0.234 842.528"
+		org="2999.689 -0.234 845.711"
 		orgRel="1"
-		rot="0.0641 -0.8252 0.0788 0.5555"
+		rot="0.0413 -0.7574 0.0630 0.6486"
 		id="arena_barricade10"
 		ndmAction="0" />
 

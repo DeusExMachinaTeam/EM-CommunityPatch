@@ -61756,8 +61756,7 @@
 		Belong="-1"
 		Prototype="Breakable_Poster3"
 		Pos="3845.883 235.349 786.369"
-		Rot="0.000 -0.942 0.000 0.336"
-		NodeScale="1.126" />
+		Rot="0.000 -0.942 0.000 0.336" />
 
 	<Object
 		Name="lamppost39285"

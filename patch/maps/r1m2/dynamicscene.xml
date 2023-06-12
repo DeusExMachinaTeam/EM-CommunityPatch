@@ -43645,13 +43645,13 @@
 		Pos="4803.305 110.348 1115.352"
 		Rot="0.000 -0.968 0.000 0.250" />
 
+	<!--1.885-->
 	<Object
 		Name="road_sign15349"
 		Belong="-1"
 		Prototype="road_sign1"
 		Pos="5498.259 69.317 3898.010"
-		Rot="0.000 -0.938 0.000 0.348"
-		NodeScale="1.885" />
+		Rot="0.000 -0.938 0.000 0.348" />
 
 	<Object
 		Name="traffic_lights35350"
@@ -48385,12 +48385,13 @@
 		Pos="5139.346 70.188 2318.734"
 		Rot="0.000 -0.713 0.000 0.701" />
 
+	<!--Check this also, it was 1.546 bruh-->
 	<Object
 		Name="billboard26073"
 		Belong="-1"
 		Prototype="Breakable_Poster2"
-		Pos="5248.839 68.410 2100.550"
-		NodeScale="1.546" />
+		Pos="5248.839 68.410 2100.550" />
+	<!--Whoopsie-doopsie-->
 
 	<Object
 		Name="billboard36074"
@@ -48431,152 +48432,133 @@
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
 		Pos="4862.243 64.000 3363.721"
-		Rot="0.000 -0.934 0.000 0.358"
-		NodeScale="0.890" />
+		Rot="0.000 -0.934 0.000 0.358" />
 
 	<Object
 		Name="barrel16080"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
 		Pos="4860.806 64.000 3363.042"
-		Rot="0.000 -0.968 0.000 0.250"
-		NodeScale="1.080" />
+		Rot="0.000 -0.968 0.000 0.250" />
 
 	<Object
 		Name="barrel16081"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
 		Pos="4861.761 64.000 3360.943"
-		Rot="0.000 0.035 0.000 0.999"
-		NodeScale="0.960" />
+		Rot="0.000 0.035 0.000 0.999" />
 
 	<Object
 		Name="barrel16082"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
 		Pos="4859.557 64.000 3361.984"
-		Rot="0.000 0.772 0.000 0.636"
-		NodeScale="1.190" />
+		Rot="0.000 0.772 0.000 0.636" />
 
 	<Object
 		Name="barrel26083"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4870.174 64.000 3349.896"
-		Rot="0.000 0.026 0.000 1.000"
-		NodeScale="0.940" />
+		Rot="0.000 0.026 0.000 1.000" />
 
 	<Object
 		Name="barrel26084"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4866.596 64.000 3350.634"
-		Rot="0.000 -0.676 0.000 0.737"
-		NodeScale="1.110" />
+		Rot="0.000 -0.676 0.000 0.737" />
 
 	<Object
 		Name="barrel26085"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4867.313 64.000 3348.983"
-		Rot="0.000 -0.985 0.000 0.174"
-		NodeScale="1.070" />
+		Rot="0.000 -0.985 0.000 0.174" />
 
 	<Object
 		Name="barrel26086"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4864.944 64.000 3351.650"
-		Rot="0.000 0.695 0.000 0.719"
-		NodeScale="1.070" />
+		Rot="0.000 0.695 0.000 0.719" />
 
 	<Object
 		Name="barrel36087"
 		Belong="-1"
 		Prototype="Breakable_Barrel3"
 		Pos="4870.040 64.000 3352.418"
-		Rot="0.000 0.993 0.000 0.122"
-		NodeScale="1.020" />
+		Rot="0.000 0.993 0.000 0.122" />
 
 	<Object
 		Name="barrel36088"
 		Belong="-1"
 		Prototype="Breakable_Barrel3"
 		Pos="4872.371 64.000 3353.641"
-		Rot="0.000 -0.982 0.000 0.191"
-		NodeScale="1.040" />
+		Rot="0.000 -0.982 0.000 0.191" />
 
 	<Object
 		Name="barrel36089"
 		Belong="-1"
 		Prototype="Breakable_Barrel3"
 		Pos="4868.229 64.000 3353.699"
-		Rot="0.000 -0.250 0.000 0.968"
-		NodeScale="0.850" />
+		Rot="0.000 -0.250 0.000 0.968" />
 
 	<Object
 		Name="barrel36090"
 		Belong="-1"
 		Prototype="Breakable_Barrel3"
 		Pos="4871.130 64.000 3353.844"
-		Rot="0.000 0.552 0.000 0.834"
-		NodeScale="1.140" />
+		Rot="0.000 0.552 0.000 0.834" />
 
 	<Object
 		Name="barrel26091"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4805.309 65.314 3471.296"
-		Rot="0.000 0.745 0.000 0.668"
-		NodeScale="0.830" />
+		Rot="0.000 0.745 0.000 0.668" />
 
 	<Object
 		Name="barrel26092"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4806.313 65.311 3466.627"
-		Rot="0.000 -1.000 0.000 0.002"
-		NodeScale="1.120" />
+		Rot="0.000 -1.000 0.000 0.002" />
 
 	<Object
 		Name="barrel26093"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4803.120 65.304 3468.604"
-		Rot="0.000 0.767 0.000 0.641"
-		NodeScale="0.810" />
+		Rot="0.000 0.767 0.000 0.641" />
 
 	<Object
 		Name="barrel26094"
 		Belong="-1"
 		Prototype="Breakable_Barrel2"
 		Pos="4811.042 65.329 3466.753"
-		Rot="0.000 0.998 0.000 0.059"
-		NodeScale="0.900" />
+		Rot="0.000 0.998 0.000 0.059" />
 
 	<Object
 		Name="barrel16095"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
 		Pos="4808.430 65.317 3469.156"
-		Rot="0.000 -0.813 0.000 0.583"
-		NodeScale="0.810" />
+		Rot="0.000 -0.813 0.000 0.583" />
 
 	<Object
 		Name="barrel16096"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
 		Pos="4808.059 65.317 3468.723"
-		Rot="0.000 0.425 0.000 0.905"
-		NodeScale="1.030" />
+		Rot="0.000 0.425 0.000 0.905" />
 
 	<Object
 		Name="barrel16097"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
 		Pos="4806.848 65.313 3469.432"
-		Rot="0.000 0.624 0.000 0.781"
-		NodeScale="1.030" />
+		Rot="0.000 0.624 0.000 0.781" />
 
 	<Object
 		Name="stolb26098"
@@ -48713,56 +48695,49 @@
 		Belong="-1"
 		Prototype="Breakable_Poster1"
 		Pos="5075.486 91.176 3370.745"
-		Rot="0.000 0.850 0.000 0.527"
-		NodeScale="0.990" />
+		Rot="0.000 0.850 0.000 0.527" />
 
 	<Object
 		Name="deadtree36118"
 		Belong="-1"
 		Prototype="Breakable_DeadTree3"
 		Pos="5390.100 78.957 3425.232"
-		Rot="0.000 0.839 0.000 0.545"
-		NodeScale="1.140" />
+		Rot="0.000 0.839 0.000 0.545" />
 
 	<Object
 		Name="deadtree46119"
 		Belong="-1"
 		Prototype="Breakable_DeadTree4"
 		Pos="5455.875 76.903 3470.259"
-		Rot="0.000 -0.814 0.000 0.581"
-		NodeScale="1.110" />
+		Rot="0.000 -0.814 0.000 0.581" />
 
 	<Object
 		Name="deadtree46120"
 		Belong="-1"
 		Prototype="Breakable_DeadTree4"
 		Pos="5547.337 64.118 3741.837"
-		Rot="0.000 0.857 0.000 0.515"
-		NodeScale="0.920" />
+		Rot="0.000 0.857 0.000 0.515" />
 
 	<Object
 		Name="deadtree16121"
 		Belong="-1"
 		Prototype="Breakable_DeadTree1"
 		Pos="5163.629 69.900 3351.200"
-		Rot="0.000 0.682 0.000 0.731"
-		NodeScale="1.100" />
+		Rot="0.000 0.682 0.000 0.731" />
 
 	<Object
 		Name="poddon6122"
 		Belong="-1"
 		Prototype="poddon"
 		Pos="3795.359 116.000 1788.460"
-		Rot="0.000 -0.044 0.000 0.999"
-		NodeScale="0.820" />
+		Rot="0.000 -0.044 0.000 0.999" />
 
 	<Object
 		Name="factory_box6123"
 		Belong="-1"
 		Prototype="factory_box"
 		Pos="3795.603 116.000 1788.408"
-		Rot="0.000 -0.920 0.000 0.391"
-		NodeScale="0.850" />
+		Rot="0.000 -0.920 0.000 0.391" />
 
 	<Object
 		Belong="-1"
