@@ -26,6 +26,10 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="mask_oracul"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="r2_man"
 			file="data\models\AnimModels.xml" />
 
