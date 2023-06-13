@@ -1465,7 +1465,7 @@
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_SPECTER_FIRE"
+				effect_id="ET_PS_SPECTER_FIRE_NO_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 				
