@@ -309,22 +309,7 @@
 					Flags="16"
 					Prototype="BugForSale"
 					Pos="0.000 111.522 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="bugCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="bugCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="bugChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -970,25 +955,7 @@
 					Flags="16"
 					Prototype="BugForSale"
 					Pos="0.000 111.522 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Name="BAwqwSKET"
-							Prototype="bugCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Name="CABIwqwN"
-							Prototype="bugCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Name="CHASSISqwq"
-							Prototype="bugChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -1305,25 +1272,7 @@
 					Flags="16"
 					Prototype="MolokovozForSale"
 					Pos="0.000 111.656 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Name="BASKwqwqwET"
-							Prototype="molokovozCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Name="CAwqwBIN"
-							Prototype="molokovozCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Name="CHASSISwqwqqq"
-							Prototype="molokovozChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>

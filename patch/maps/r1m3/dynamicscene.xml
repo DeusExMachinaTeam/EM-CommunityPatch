@@ -468,23 +468,7 @@
 					Flags="16"
 					Prototype="MolokovozForSale"
 					Pos="0.000 111.656 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="molokovozCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="molokovozCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Name="CqqqHASSIS"
-							Prototype="molokovozChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -884,25 +868,7 @@
 					Flags="16"
 					Prototype="MolokovozForSale"
 					Pos="0.000 111.656 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Name="BASKETwww"
-							Prototype="molokovozCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Name="CABIqqqN"
-							Prototype="molokovozCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Name="CwwwHASSIS"
-							Prototype="molokovozChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>

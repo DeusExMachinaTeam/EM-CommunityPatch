@@ -306,22 +306,7 @@
 					PosY="0"
 					Flags="16"
 					Prototype="BugForSale">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="bugCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="bugCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="bugChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
