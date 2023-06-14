@@ -3324,8 +3324,8 @@
 			Name="barricade7_GwG16_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2560.191 249.011 2479.885"
-			Rot="0.000 -0.225 0.000 0.974">
+			Pos="2552.737 248.655 2399.661"
+			Rot="0.000 0.212 0.000 0.977">
 			<Parts />
 		</Object>
 
@@ -3333,8 +3333,8 @@
 			Name="barricade7_GwG16_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2570.976 249.416 2485.146"
-			Rot="0.000 -0.225 0.000 0.974">
+			Pos="2563.656 248.706 2394.683"
+			Rot="0.000 0.212 0.000 0.977">
 			<Parts />
 		</Object>
 	</Object>
@@ -30173,8 +30173,8 @@
 		Name="sack_wall13576"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2565.583 249.284 2482.516"
-		Rot="0.000 -0.225 0.000 0.974" />
+		Pos="2558.200 248.734 2397.174"
+		Rot="0.000 0.212 0.000 0.977" />
 
 	<Object
 		Name="sack_wall13577"
