@@ -544,11 +544,15 @@
 		<event	eventid="GE_OBJECT_DIE"		ObjName="bigboss1" />
 		<script>
 --		    println("Boss1 DIEEEEEEEEEEEEEEEEEEEE")
-		    TActivate("trGateOpen")
-			AddHistory( "r1_After_Boss1" );
-			AddFadingMsgId( "fm_history_got" );
-			TActivate("trMovePlToR3M1")
-			StopPlayingCustomMusic()
+			-- prevent player of using this passage when playing on Lisa route
+			if not(IsQuestTaken("d_SinFather_Quest")) then
+				TActivate("trGateOpen")
+				AddHistory( "r1_After_Boss1" );
+				AddFadingMsgId( "fm_history_got" );
+				TActivate("trMovePlToR3M1")
+				StopPlayingCustomMusic()
+			end
+
 		    trigger:Deactivate()
 		</script>
 	</trigger>
