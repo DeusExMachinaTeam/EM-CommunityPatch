@@ -1,3 +1,20 @@
+--- 230616a ---
+* Freeze on vehicle spawn, including enemy vehicles were completely fixed by rewriting an alogithm of animation FPS synchronisation
+* Maximum draw distance increase at least two times (can be changed via slider in the game settings)
+* New ComMod (mod manager) version with GUI, handling archived mods (zip, 7z), completely redone user experience
+* For every regular NPC in the game textures and shaders were updated to align with the best available in the game, making these NPC to have the same quality as main characters in the game. Used originally unused textures on higher quality left by developers in game files, in other cases textures very upscaled
+* Fixed models for sack and brick pillboxes to make their weapons look correct when installed. Fixed collisions to better align with an actual size of pillboxes, were previously too small. All usage cases for model vagon3.gam with missing collision were replaced with analogous model which has collision(rr_vagon4.gam)
+*'Free the extremists' leader' quest: general quest structure were heavily modified to remove posibility of player accidentally killing the trailer while shooting at head vehicle. Move pillboxes staying in the way of vehicles in cutscene. 
+* Moved some sounds to correct sound group for them to be logically controlled by relevant sliders in game UI instead of voice volume slider (reload sound, fire sounds)
+* Normalized Specter shooting sound
+* Remove unnecessary individual part declared for some sold vehicles on most of the maps. These were redundant and were causing issues because of duplicate naming
+* Fixed incorrect portrait shown for Oracle's line in quest 'Talk to the aliens'
+* When entering Sacred Grove with Lisa there was a chance to break logic of her car's removal by quickly skipping the cutscene, which led to her driving with the player aimlessly. Added aditional command call to fix the error
+* Fix incorrect portrait shown for Oracle's line in 'Talk to the aliens'
+* Fix inconsistency between subtitles and voiceover in 'Catch Alice in Helvetia'
+* Cleanup of unused quest descriptions in questinfoglobal.xml, cleanup of unused effects causing errors in logs as they don't exist in AnimModels. Added to tilesprops.xml missing tiles that are used in Hel. Commented out debug logs in LISADIED cutscene.
+* If player successfully crosses the swamp while being on Lisa's root, after the death of the boss there is a new check of having a quest that is exclusive for Lisa's root, to prevent player activating the passage to Sacred Grove in place where story shouldn't allow that
+
 --- 230113a ---
 * Returned missing monitor resolution choice bugfix to ComMod, improved logging
 
