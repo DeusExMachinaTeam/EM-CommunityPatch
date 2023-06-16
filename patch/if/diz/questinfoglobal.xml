@@ -219,7 +219,7 @@
 
 	<QuestInfo
 		questName="FreeExtremistLeader_Quest3_2"
-		briefDiz="Уничтожить головную машину"
+		briefDiz="Разоружить головную машину"
 		isMainQuest="0">
 		<Map
 			name="r1m4"
@@ -1000,13 +1000,6 @@
 	</QuestInfo>
 
 	<QuestInfo
-		questName="d_Glagiators_Quest"
-		isMainQuest="0">
-		<Map
-			name="r1m2" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="d_HelpSideVillageSNG_Quest"
 		briefDiz="Защитить пограничную деревню"
 		fullDiz="Небольшие поселения постоянно подвергаются атакам головорезов Алого Рассвета. Я могу предотвратить нападение, и я сделаю это. "
@@ -1079,15 +1072,6 @@
 
 		<Map
 			name="r2m2" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_MerIsThief_Quest"
-		briefDiz="Поговорить с мэром"
-		isMainQuest="1">
-		<Map
-			name="r1m3"
-			targetObjName="Minin" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1229,36 +1213,12 @@
 	</QuestInfo>
 
 	<QuestInfo
-		questName="d_ReturnToBen_Quest"
-		briefDiz="Вернуться к Бену"
-		fullDiz="Похоже, это был ложный след. Надеюсь, Бен придумает, что делать дальше."
-		isMainQuest="1">
-		<Map
-			name="r1m2"
-			targetObjName="TheBen_House" />
-
-		<Map
-			name="r1m3"
-			targetObjName="ToR1M2" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="d_ReturnToTuzzAfterCaravan_Quest"
 		briefDiz="Вернуться с транспортом в Туз и отчитаться"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
 			targetObjName="KARAVANvvt_vehicle_0" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_ReturnTuzzAfterTunel_Quest"
-		briefDiz="Вернуться в Туз"
-		fullDiz="Вернуться в Туз"
-		isMainQuest="1">
-		<Map
-			name="r2m1"
-			targetObjName="TheTuzz" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1349,26 +1309,6 @@
 		<Map
 			name="r2m1"
 			targetObjName="BossARCar" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_TalkAboutAksel_Quest"
-		briefDiz="Расспросить об Акселе"
-		fullDiz="Надо спросить у местных, кто такой Аксель и где его найти."
-		isMainQuest="1">
-		<Map
-			name="r2m1"
-			coordinate="6004.000 277.000 4372.000" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="d_TalkAboutLisa_Quest"
-		briefDiz="Расспросить о Лисе"
-		fullDiz="Все знают Лису. Стоит только спросить, и я легко ее выслежу."
-		isMainQuest="1">
-		<Map
-			name="r2m1"
-			coordinate="6004.000 277.000 4372.000" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -1824,15 +1764,6 @@
 	</QuestInfo>
 
 	<QuestInfo
-		questName="r1m3_FindManyWorkers_Quest"
-		briefDiz="Найти работников на скважину"
-		fullDiz="Даже освобождённая от бандитов шахта не будет работать сама по себе. Нужны работники."
-		isMainQuest="0">
-		<Map
-			name="r1m3" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="r1m3_FindThiefFromFatherHouse"
 		briefDiz="Узнать про разгром"
 		fullDiz="В доме отца все перевернуто вверх дном. Возможно, кто-то из людей видел, что здесь произошло. Надо спросить в баре."
@@ -2177,14 +2108,6 @@
 		isMainQuest="1" />
 
 	<QuestInfo
-		questName="r2m2_FightWithAxelInArena_Quest1"
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			coordinate="3318.000 280.000 1260.000" />
-	</QuestInfo>
-
-	<QuestInfo
 		questName="r2m2_FightWithAxelInArena_Quest_1"
 		briefDiz="Встретиться с Акселем на Арене"
 		isMainQuest="1">
@@ -2214,15 +2137,6 @@
 		<Map
 			name="r2m2"
 			targetObjName="ToR2M1" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="r2m2_FindMrPresident"
-		briefDiz="Прибыть в условленное место"
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			coordinate="756.000 261.000 3286.000" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -2425,15 +2339,6 @@
 		<Map
 			name="r2m2"
 			targetObjName="Marezzia" />
-	</QuestInfo>
-
-	<QuestInfo
-		questName="r2m2_ReturnToMarecciaFromMrPresident"
-		briefDiz="Вернуться с докладом"
-		isMainQuest="1">
-		<Map
-			name="r2m2"
-			coordinate="1829.361 -1.916 3300.456" />
 	</QuestInfo>
 
 	<QuestInfo

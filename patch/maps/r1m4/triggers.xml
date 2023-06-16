@@ -7,6 +7,7 @@
 			SetVar("Boloto",0)
 			SetVar("SubMarPh",0)
 			SetVar("MainCarDead", 0)
+			SetVar("NPTTeamsDead", 0)
 		    trigger:Deactivate()
 		</script>
 	</trigger>
@@ -119,21 +120,23 @@
 			local lcar = getObj("LeaderCar_vehicle_0")
 			if lcar then
 				lcar:AttachTrailer("MolokovozTrailer")
-				local nametr = lcar:GetName().."_Trailer"
-				local trailer = getObj(nametr)
+				lcar:setImmortalMode(1)
+				local trailer = lcar:GetTrailer()
 				if trailer then
 					trailer:SetSkin(lcar:GetSkin())
-				   local tr = getObj("trLeaderCarDie")
-				   if tr then
-				      tr:AddEvent("GE_OBJECT_DIE",nametr)
-	   			   end
+					trailer:setImmortalMode(1)
+					local nametr = trailer:GetName()
+				   	local tr = getObj("trLeaderCarDie")
+				   	if tr then tr:AddEvent("GE_VEHICLE_WITHOUT_HEALTH",nametr) end
 	   			end
 	   		end
 
-			TActivate("trLeaderCaravanDie")
+			TActivate("trMainCarDie")
+			TActivate("trLeaderGuardsDie")
 			TActivate("trLeaderCarDie")
 			TActivate("trNearCaravanLeader")
 			TActivate("trExtrLeader")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -185,45 +188,82 @@
 	</trigger>
 
 <!-- Охрана лидера померла -->
-	<trigger Name="trLeaderCaravanDie" active="0">
-		<event eventid="GE_OBJECT_DIE" ObjName="LeaderGuardTeam" />
-		<event eventid="GE_OBJECT_DIE" ObjName="LeaderCar_vehicle_0" />
+	<trigger Name="trMainCarDie" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="LeaderCar_vehicle_0" />
 		<script>
-			if getObj("LeaderCar_vehicle_0"):IsAlive() or GetVar("MainCarDead").AsInt==1 then
-				CompleteQuest("FreeExtremistLeader_Quest3_1")
-			else
+			local count = GetVar("NPTTeamsDead").AsInt
+
+			if not(IsQuestTaken("FreeExtremistLeader_Quest3_2")) then
+				TakeQuest("FreeExtremistLeader_Quest3_2")
 				CompleteQuest("FreeExtremistLeader_Quest3_2")
-				SetVar("MainCarDead", 1)
+			else
+				CompleteQuestIfTaken("FreeExtremistLeader_Quest3_2")
 			end
-			trigger:IncCount()
-			local count = trigger:GetCount()
-		    if 2>count then
-		    	return
-		    end
---		    println("trLeaderCaravan DIEEEEEEEEEEEEEEEEEEEE")
+
+			local lcar = getObj("LeaderCar_vehicle_0")
+			if lcar then
+				lcar:SetMaxSpeed(0)
+				lcar:SetMaxTorque(0)
+				lcar:SetThrottle(0)
+				lcar:SetCustomLinearVelocity(0)
+				lcar:TakeOffAllGuns()
+			end
+
+			SetVar("NPTTeamsDead", count+1)
+
+			TActivate("trLeaderCaravanDie")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLeaderGuardsDie" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="LeaderGuardTeam" />
+		<script>
+			local count = GetVar("NPTTeamsDead").AsInt
+
+			CompleteQuest("FreeExtremistLeader_Quest3_1")
+			if not(IsQuestTaken("FreeExtremistLeader_Quest3_2")) then
+				TakeQuest("FreeExtremistLeader_Quest3_2")
+			end
+
+			SetVar("NPTTeamsDead", count+1)
+
+			TActivate("trLeaderCaravanDie")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trLeaderCaravanDie" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			local count = GetVar("NPTTeamsDead").AsInt
+			if count == 2 then
+				TDeactivate("trLeaderCarDie")
 			
-			SaveAllToleranceStatus(RS_NEUTRAL)
+				SaveAllToleranceStatus(RS_NEUTRAL)
 
-			local Plf = GetPlayerVehicle()
-			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 5
-			PlfCoor.z = PlfCoor.z - 20
+				local Plf = GetPlayerVehicle()
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 5
+				PlfCoor.z = PlfCoor.z - 20
 
-			Plf:SetCustomControlEnabled( true )
-			Plf:SetCustomLinearVelocity( 0 )
-			Plf:SetThrottle( 0 )
-			Plf:SetCustomControlEnabled( false )
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
 
-			FlyAround(2, 0, 35, 25, PlfCoor, PlfID, 1, 1 )
-			StartCinematic()
+				FlyAround(2, 0, 35, 27.5, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
 
-			AddCinematicMessage( 10, 1 )
-			AddCinematicMessage( 11, 1 )
-			AddCinematicMessage( 12, 1 )
+				AddCinematicMessage( 10, 1 )
+				AddCinematicMessage( 11, 1 )
+				AddCinematicMessage( 12, 1 )
 
-			TActivate("trLeaderCaravanDie_End")
-			TDeactivate("trLeaderCarDie")
+				TActivate("trLeaderCaravanDie_End")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -252,6 +292,16 @@
 		<script>
 --		    println("trLeaderCar DIEEEEEEEEEEEEEEEEEEEE")
 			
+			TDeactivate("trMainCarDie")
+			TDeactivate("trLeaderGuardsDie")
+
+			local lcar = getObj("LeaderCar_vehicle_0")
+			if lcar then
+				lcar:setImmortalMode(0)
+				lcar:GetTrailer():setImmortalMode(0)
+				lcar:AddModifier("hp", "= 0")
+			end
+
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
 			local Plf = GetPlayerVehicle()
@@ -265,7 +315,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			FlyAround(2, 0, 35, 16, PlfCoor, PlfID, 1, 1 )
+			FlyAround(2, 0, 35, 17, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 13, 1 )
@@ -288,6 +338,8 @@
 	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
 
 			for i = 0,2 do
 				if GetEntityByName("LeaderGuardTeam_vehicle_"..i) then GetEntityByName("LeaderGuardTeam_vehicle_"..i):Remove() end
@@ -544,11 +596,15 @@
 		<event	eventid="GE_OBJECT_DIE"		ObjName="bigboss1" />
 		<script>
 --		    println("Boss1 DIEEEEEEEEEEEEEEEEEEEE")
-		    TActivate("trGateOpen")
-			AddHistory( "r1_After_Boss1" );
-			AddFadingMsgId( "fm_history_got" );
-			TActivate("trMovePlToR3M1")
-			StopPlayingCustomMusic()
+			-- prevent player of using this passage when playing on Lisa route
+			if not(IsQuestTaken("d_SinFather_Quest")) then
+				TActivate("trGateOpen")
+				AddHistory( "r1_After_Boss1" );
+				AddFadingMsgId( "fm_history_got" );
+				TActivate("trMovePlToR3M1")
+				StopPlayingCustomMusic()
+			end
+
 		    trigger:Deactivate()
 		</script>
 	</trigger>
