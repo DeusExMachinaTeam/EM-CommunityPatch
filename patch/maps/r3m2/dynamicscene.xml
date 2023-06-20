@@ -2387,8 +2387,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="540.859 268.173 1873.293"
-		Rot="0.000 0.009 0.000 1.000"
-		NodeScale="1.060" />
+		Rot="0.000 0.009 0.000 1.000" />
 
 	<Object
 		Name="r3_tropicpalma341"
@@ -2506,8 +2505,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="663.333 323.905 1683.541"
-		Rot="0.000 -0.998 0.000 0.061"
-		NodeScale="1.060" />
+		Rot="0.000 -0.998 0.000 0.061" />
 
 	<Object
 		Name="r3_tropicpalma156"
@@ -2689,8 +2687,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="352.304 329.412 1965.903"
-		Rot="0.000 -0.276 0.000 0.961"
-		NodeScale="1.150" />
+		Rot="0.000 -0.276 0.000 0.961" />
 
 	<Object
 		Name="r3_tropicpalma279"
@@ -2737,8 +2734,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="461.041 347.434 2332.296"
-		Rot="0.000 0.070 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 0.070 0.000 0.998" />
 
 	<Object
 		Name="r3_tropicpalma285"
@@ -2953,8 +2949,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="341.391 390.420 1730.584"
-		Rot="0.000 -0.989 0.000 0.148"
-		NodeScale="1.150" />
+		Rot="0.000 -0.989 0.000 0.148" />
 
 	<Object
 		Name="r3_tropicpalma3112"
@@ -3102,8 +3097,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="476.845 383.473 2577.404"
-		Rot="0.000 0.940 0.000 0.342"
-		NodeScale="1.150" />
+		Rot="0.000 0.940 0.000 0.342" />
 
 	<Object
 		Name="r3_tropicpalma3131"
@@ -3126,168 +3120,147 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="443.031 380.059 2560.394"
-		Rot="0.000 -0.500 0.000 0.866"
-		NodeScale="1.050" />
+		Rot="0.000 -0.500 0.000 0.866" />
 
 	<Object
 		Name="wood_fence1134"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="701.879 291.112 2284.090"
-		Rot="0.000 -0.156 0.000 0.988"
-		NodeScale="1.060" />
+		Rot="0.000 -0.156 0.000 0.988" />
 
 	<Object
 		Name="wood_fence1135"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="712.100 291.112 2287.326"
-		Rot="0.000 -0.156 0.000 0.988"
-		NodeScale="1.060" />
+		Rot="0.000 -0.156 0.000 0.988" />
 
 	<Object
 		Name="wood_fence1136"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="721.979 291.112 2291.472"
-		Rot="0.000 -0.248 0.000 0.969"
-		NodeScale="1.060" />
+		Rot="0.000 -0.248 0.000 0.969" />
 
 	<Object
 		Name="wood_fence1137"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="731.415 291.112 2296.538"
-		Rot="0.000 -0.248 0.000 0.969"
-		NodeScale="1.060" />
+		Rot="0.000 -0.248 0.000 0.969" />
 
 	<Object
 		Name="wood_fence1138"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="741.148 291.112 2300.744"
-		Rot="0.000 -0.163 0.000 0.987"
-		NodeScale="1.060" />
+		Rot="0.000 -0.163 0.000 0.987" />
 
 	<Object
 		Name="wood_fence1139"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="751.013 291.112 2304.793"
-		Rot="0.000 -0.236 0.000 0.972"
-		NodeScale="1.060" />
+		Rot="0.000 -0.236 0.000 0.972" />
 
 	<Object
 		Name="wood_fence1140"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="760.370 291.112 2310.012"
-		Rot="0.000 -0.276 0.000 0.961"
-		NodeScale="1.060" />
+		Rot="0.000 -0.276 0.000 0.961" />
 
 	<Object
 		Name="wood_fence1141"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="776.791 291.112 2322.045"
-		Rot="0.000 -0.276 0.000 0.961"
-		NodeScale="1.060" />
+		Rot="0.000 -0.276 0.000 0.961" />
 
 	<Object
 		Name="wood_fence1142"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="785.829 291.112 2327.818"
-		Rot="0.000 -0.290 0.000 0.957"
-		NodeScale="1.060" />
+		Rot="0.000 -0.290 0.000 0.957" />
 
 	<Object
 		Name="wood_fence1143"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="794.522 291.112 2334.006"
-		Rot="0.000 -0.319 0.000 0.948"
-		NodeScale="1.060" />
+		Rot="0.000 -0.319 0.000 0.948" />
 
 	<Object
 		Name="wood_fence1144"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="803.647 291.112 2336.538"
-		Rot="0.000 0.085 0.000 0.996"
-		NodeScale="1.060" />
+		Rot="0.000 0.085 0.000 0.996" />
 
 	<Object
 		Name="wood_fence1145"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="814.225 291.112 2335.144"
-		Rot="0.000 0.033 0.000 0.999"
-		NodeScale="1.060" />
+		Rot="0.000 0.033 0.000 0.999" />
 
 	<Object
 		Name="wood_fence1146"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="824.902 291.112 2335.189"
-		Rot="0.000 -0.102 0.000 0.995"
-		NodeScale="1.060" />
+		Rot="0.000 -0.102 0.000 0.995" />
 
 	<Object
 		Name="wood_fence1147"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="835.697 291.112 2335.083"
-		Rot="0.000 0.109 0.000 0.994"
-		NodeScale="1.060" />
+		Rot="0.000 0.109 0.000 0.994" />
 
 	<Object
 		Name="wood_fence1148"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="869.151 291.112 2334.123"
-		Rot="0.000 0.907 0.000 0.421"
-		NodeScale="1.060" />
+		Rot="0.000 0.907 0.000 0.421" />
 
 	<Object
 		Name="wood_fence1149"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="877.449 291.112 2340.716"
-		Rot="0.000 0.971 0.000 0.238"
-		NodeScale="1.060" />
+		Rot="0.000 0.971 0.000 0.238" />
 
 	<Object
 		Name="wood_fence1150"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="886.952 291.112 2345.585"
-		Rot="0.000 0.971 0.000 0.238"
-		NodeScale="1.060" />
+		Rot="0.000 0.971 0.000 0.238" />
 
 	<Object
 		Name="wood_fence1151"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="894.916 291.112 2352.203"
-		Rot="0.000 0.899 0.000 0.438"
-		NodeScale="1.060" />
+		Rot="0.000 0.899 0.000 0.438" />
 
 	<Object
 		Name="wood_fence1152"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="899.643 291.302 2361.786"
-		Rot="0.000 0.797 0.000 0.604"
-		NodeScale="1.060" />
+		Rot="0.000 0.797 0.000 0.604" />
 
 	<Object
 		Name="r3_tropicpalma1153"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1088.127 268.000 2167.941"
-		Rot="0.000 -0.026 0.000 1.000"
-		NodeScale="1.060" />
+		Rot="0.000 -0.026 0.000 1.000" />
 
 	<Object
 		Name="r3_tropicpalma1154"
@@ -3396,8 +3369,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1472.276 279.999 1747.430"
-		Rot="0.000 0.174 0.000 0.985"
-		NodeScale="1.060" />
+		Rot="0.000 0.174 0.000 0.985" />
 
 	<Object
 		Name="r3_tropicpalma3168"
@@ -3508,8 +3480,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1176.888 331.013 1657.333"
-		Rot="0.000 -0.415 0.000 0.910"
-		NodeScale="1.060" />
+		Rot="0.000 -0.415 0.000 0.910" />
 
 	<Object
 		Name="r3_tropicpalma3182"
@@ -3692,8 +3663,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1296.051 303.000 2172.208"
-		Rot="0.000 -0.749 0.000 0.663"
-		NodeScale="1.050" />
+		Rot="0.000 -0.749 0.000 0.663" />
 
 	<Object
 		Name="r3_tropicpalma1205"
@@ -3756,8 +3726,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1107.025 313.087 1674.062"
-		Rot="0.000 0.191 0.000 0.982"
-		NodeScale="1.060" />
+		Rot="0.000 0.191 0.000 0.982" />
 
 	<Object
 		Name="r3_tropicpalma1213"
@@ -3780,8 +3749,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1001.523 318.000 1830.201"
-		Rot="0.000 0.843 0.000 0.537"
-		NodeScale="1.050" />
+		Rot="0.000 0.843 0.000 0.537" />
 
 	<Object
 		Name="r3_tropicpalma3216"
@@ -3820,8 +3788,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1351.305 303.009 1982.776"
-		Rot="0.000 0.399 0.000 0.917"
-		NodeScale="1.150" />
+		Rot="0.000 0.399 0.000 0.917" />
 
 	<Object
 		Name="r3_tropicpalma3221"
@@ -3868,8 +3835,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1585.646 323.354 1997.019"
-		Rot="0.000 0.998 0.000 0.070"
-		NodeScale="1.060" />
+		Rot="0.000 0.998 0.000 0.070" />
 
 	<Object
 		Name="r3_tropicpalma3227"
@@ -3932,8 +3898,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1814.645 313.488 1745.559"
-		Rot="0.000 -0.749 0.000 0.663"
-		NodeScale="1.050" />
+		Rot="0.000 -0.749 0.000 0.663" />
 
 	<Object
 		Name="r3_tropicpalma3235"
@@ -3988,8 +3953,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1858.428 306.116 1544.990"
-		Rot="0.000 -0.242 0.000 0.970"
-		NodeScale="1.050" />
+		Rot="0.000 -0.242 0.000 0.970" />
 
 	<Object
 		Name="r3_tropicpalma3242"
@@ -4092,8 +4056,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="1773.676 303.031 2246.412"
-		Rot="0.000 0.581 0.000 0.814"
-		NodeScale="1.060" />
+		Rot="0.000 0.581 0.000 0.814" />
 
 	<Object
 		Name="r3_tropicpalma1255"
@@ -4372,8 +4335,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1226.234 320.151 2938.535"
-		Rot="0.000 -0.994 0.000 0.105"
-		NodeScale="1.050" />
+		Rot="0.000 -0.994 0.000 0.105" />
 
 	<Object
 		Name="r3_tropicpalma2290"
@@ -4476,16 +4438,14 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1094.253 312.482 3006.942"
-		Rot="0.000 -0.656 0.000 0.755"
-		NodeScale="1.060" />
+		Rot="0.000 -0.656 0.000 0.755" />
 
 	<Object
 		Name="r3_tropicpalma2303"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="1142.707 333.832 2943.185"
-		Rot="0.000 0.920 0.000 0.391"
-		NodeScale="1.150" />
+		Rot="0.000 0.920 0.000 0.391" />
 
 	<Object
 		Name="r3_tropicpalma2304"
@@ -4612,8 +4572,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="153.934 340.734 3234.228"
-		Rot="0.000 -0.866 0.000 0.500"
-		NodeScale="1.150" />
+		Rot="0.000 -0.866 0.000 0.500" />
 
 	<Object
 		Name="r3_tropicpalma2320"
@@ -4914,16 +4873,14 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1662.591 305.415 3294.122"
-		Rot="0.000 0.914 0.000 0.407"
-		NodeScale="1.050" />
+		Rot="0.000 0.914 0.000 0.407" />
 
 	<Object
 		Name="r3_tropicpalma2358"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="1698.777 303.180 3280.644"
-		Rot="0.000 -0.477 0.000 0.879"
-		NodeScale="1.050" />
+		Rot="0.000 -0.477 0.000 0.879" />
 
 	<Object
 		Name="r3_tropicpalma2359"
@@ -5018,8 +4975,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1145.147 307.944 1273.876"
-		Rot="0.000 0.165 0.000 0.986"
-		NodeScale="1.060" />
+		Rot="0.000 0.165 0.000 0.986" />
 
 	<Object
 		Name="r3_tropicpalma1371"
@@ -5160,8 +5116,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="3255.052 266.771 322.939"
-		Rot="0.000 -0.799 0.000 0.602"
-		NodeScale="1.060" />
+		Rot="0.000 -0.799 0.000 0.602" />
 
 	<Object
 		Name="r3_tropicpalma3389"
@@ -5184,8 +5139,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="3287.000 257.487 240.537"
-		Rot="0.000 -0.691 0.000 0.722"
-		NodeScale="1.050" />
+		Rot="0.000 -0.691 0.000 0.722" />
 
 	<Object
 		Name="r3_tropicpalma3392"
@@ -5271,8 +5225,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="3354.886 305.528 135.320"
-		Rot="0.000 -0.669 0.000 0.743"
-		NodeScale="1.060" />
+		Rot="0.000 -0.669 0.000 0.743" />
 
 	<Object
 		Name="r3_tropicpalma3403"
@@ -5495,160 +5448,140 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3728.935 279.086 818.625"
-		Rot="0.000 -0.063 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 -0.063 0.000 0.998" />
 
 	<Object
 		Name="wood_fence1431"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3717.709 278.000 817.402"
-		Rot="0.000 -0.063 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 -0.063 0.000 0.998" />
 
 	<Object
 		Name="wood_fence1432"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3706.433 278.000 816.143"
-		Rot="0.000 -0.063 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 -0.063 0.000 0.998" />
 
 	<Object
 		Name="wood_fence1433"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3695.321 278.000 814.024"
-		Rot="0.000 -0.128 0.000 0.992"
-		NodeScale="1.150" />
+		Rot="0.000 -0.128 0.000 0.992" />
 
 	<Object
 		Name="wood_fence1434"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3684.049 278.000 811.930"
-		Rot="0.000 -0.063 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 -0.063 0.000 0.998" />
 
 	<Object
 		Name="wood_fence1435"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3672.921 278.000 810.593"
-		Rot="0.000 -0.063 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 -0.063 0.000 0.998" />
 
 	<Object
 		Name="wood_fence1436"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3661.616 278.000 811.024"
-		Rot="0.000 0.079 0.000 0.997"
-		NodeScale="1.150" />
+		Rot="0.000 0.079 0.000 0.997" />
 
 	<Object
 		Name="wood_fence1437"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3650.294 278.000 811.253"
-		Rot="0.000 -0.063 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 -0.063 0.000 0.998" />
 
 	<Object
 		Name="wood_fence1438"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3638.724 278.000 810.701"
-		Rot="0.000 0.006 0.000 1.000"
-		NodeScale="1.150" />
+		Rot="0.000 0.006 0.000 1.000" />
 
 	<Object
 		Name="wood_fence1439"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3627.156 278.000 811.630"
-		Rot="0.000 0.063 0.000 0.998"
-		NodeScale="1.150" />
+		Rot="0.000 0.063 0.000 0.998" />
 
 	<Object
 		Name="wood_fence1440"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3616.432 278.000 814.407"
-		Rot="0.000 0.178 0.000 0.984"
-		NodeScale="1.150" />
+		Rot="0.000 0.178 0.000 0.984" />
 
 	<Object
 		Name="wood_fence1441"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3604.752 278.000 816.693"
-		Rot="0.000 0.026 0.000 1.000"
-		NodeScale="1.150" />
+		Rot="0.000 0.026 0.000 1.000" />
 
 	<Object
 		Name="wood_fence1442"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3593.238 278.000 816.934"
-		Rot="0.000 -0.026 0.000 1.000"
-		NodeScale="1.150" />
+		Rot="0.000 -0.026 0.000 1.000" />
 
 	<Object
 		Name="wood_fence1443"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3581.654 278.000 816.473"
-		Rot="0.000 -0.026 0.000 1.000"
-		NodeScale="1.150" />
+		Rot="0.000 -0.026 0.000 1.000" />
 
 	<Object
 		Name="wood_fence1444"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3570.302 278.000 816.034"
-		Rot="0.000 -0.026 0.000 1.000"
-		NodeScale="1.150" />
+		Rot="0.000 -0.026 0.000 1.000" />
 
 	<Object
 		Name="wood_fence1445"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3558.642 278.000 815.542"
-		Rot="0.000 -0.026 0.000 1.000"
-		NodeScale="1.150" />
+		Rot="0.000 -0.026 0.000 1.000" />
 
 	<Object
 		Name="wood_fence1446"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3547.329 278.000 817.884"
-		Rot="0.000 0.208 0.000 0.978"
-		NodeScale="1.150" />
+		Rot="0.000 0.208 0.000 0.978" />
 
 	<Object
 		Name="wood_fence1447"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3537.787 278.000 823.585"
-		Rot="0.000 0.309 0.000 0.951"
-		NodeScale="1.150" />
+		Rot="0.000 0.309 0.000 0.951" />
 
 	<Object
 		Name="wood_fence1448"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3529.797 278.000 831.069"
-		Rot="0.000 0.399 0.000 0.917"
-		NodeScale="1.150" />
+		Rot="0.000 0.399 0.000 0.917" />
 
 	<Object
 		Name="wood_fence1449"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="3520.124 278.000 836.363"
-		Rot="0.000 0.135 0.000 0.991"
-		NodeScale="1.150" />
+		Rot="0.000 0.135 0.000 0.991" />
 
 	<Object
 		Name="r3_tropicpalma3450"
@@ -5878,8 +5811,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="3599.995 329.000 1496.613"
-		Rot="0.000 0.875 0.000 0.485"
-		NodeScale="1.050" />
+		Rot="0.000 0.875 0.000 0.485" />
 
 	<Object
 		Name="r3_tropicpalma2479"
@@ -5934,8 +5866,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="2944.042 355.681 1456.380"
-		Rot="0.000 0.853 0.000 0.523"
-		NodeScale="1.060" />
+		Rot="0.000 0.853 0.000 0.523" />
 
 	<Object
 		Name="r3_tropicpalma2486"
@@ -5974,8 +5905,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="2984.458 307.223 896.628"
-		Rot="0.000 0.688 0.000 0.725"
-		NodeScale="1.050" />
+		Rot="0.000 0.688 0.000 0.725" />
 
 	<Object
 		Name="r3_tropicpalma2491"
@@ -6134,8 +6064,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="3879.656 403.439 1335.573"
-		Rot="0.000 -0.920 0.000 0.391"
-		NodeScale="1.060" />
+		Rot="0.000 -0.920 0.000 0.391" />
 
 	<Object
 		Name="r3_tropicpalma1511"
@@ -6696,8 +6625,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="616.205 337.009 3824.644"
-		Rot="0.000 -0.208 0.000 0.978"
-		NodeScale="1.050" />
+		Rot="0.000 -0.208 0.000 0.978" />
 
 	<Object
 		Name="r3_tropicpalma2600"
@@ -6752,40 +6680,35 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="1251.155 320.827 2670.159"
-		Rot="0.000 0.896 0.000 0.444"
-		NodeScale="0.905" />
+		Rot="0.000 0.896 0.000 0.444" />
 
 	<Object
 		Name="wood_fence1607"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="1244.270 321.406 2663.930"
-		Rot="0.000 0.950 0.000 0.313"
-		NodeScale="0.905" />
+		Rot="0.000 0.950 0.000 0.313" />
 
 	<Object
 		Name="wood_fence1608"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="1235.874 321.035 2659.248"
-		Rot="0.000 0.987 0.000 0.163"
-		NodeScale="0.905" />
+		Rot="0.000 0.987 0.000 0.163" />
 
 	<Object
 		Name="wood_fence1609"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="1227.379 320.528 2657.492"
-		Rot="0.000 0.999 0.000 0.037"
-		NodeScale="0.905" />
+		Rot="0.000 0.999 0.000 0.037" />
 
 	<Object
 		Name="wood_fence1610"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="1218.585 320.034 2657.678"
-		Rot="0.000 -0.998 0.000 0.057"
-		NodeScale="0.905" />
+		Rot="0.000 -0.998 0.000 0.057" />
 
 	<Object
 		Name="wood_fence2611"
@@ -6929,8 +6852,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="2887.019 260.676 2136.286"
-		Rot="0.000 0.819 0.000 0.574"
-		NodeScale="1.060" />
+		Rot="0.000 0.819 0.000 0.574" />
 
 	<Object
 		Name="r3_tropicpalma3631"
@@ -7017,8 +6939,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="2503.875 314.933 1030.853"
-		Rot="0.000 -0.940 0.000 0.342"
-		NodeScale="1.060" />
+		Rot="0.000 -0.940 0.000 0.342" />
 
 	<Object
 		Name="r3_tropicpalma2642"
@@ -7125,8 +7046,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="1320.148 312.670 933.837"
-		Rot="0.000 -0.199 0.000 0.980"
-		NodeScale="1.060" />
+		Rot="0.000 -0.199 0.000 0.980" />
 
 	<Object
 		Name="r3_tropicpalma3657"
@@ -7141,8 +7061,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="1015.846 355.000 992.931"
-		Rot="0.000 0.026 0.000 1.000"
-		NodeScale="1.050" />
+		Rot="0.000 0.026 0.000 1.000" />
 
 	<Object
 		Name="r3_tropicpalma3659"
@@ -7380,8 +7299,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="1448.222 371.354 816.267"
-		Rot="0.000 -0.656 0.000 0.755"
-		NodeScale="1.150" />
+		Rot="0.000 -0.656 0.000 0.755" />
 
 	<Object
 		Name="r3_tropicpalma3689"
@@ -7436,8 +7354,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="1880.060 360.106 960.697"
-		Rot="0.000 0.052 0.000 0.999"
-		NodeScale="1.050" />
+		Rot="0.000 0.052 0.000 0.999" />
 
 	<Object
 		Name="r3_tropicpalma1696"
@@ -7563,8 +7480,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="2592.280 299.493 1311.907"
-		Rot="0.000 0.895 0.000 0.446"
-		NodeScale="1.060" />
+		Rot="0.000 0.895 0.000 0.446" />
 
 	<Object
 		Name="r3_tropicpalma2712"
@@ -7698,8 +7614,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="2983.061 356.551 1959.293"
-		Rot="0.000 -0.899 0.000 0.438"
-		NodeScale="1.150" />
+		Rot="0.000 -0.899 0.000 0.438" />
 
 	<Object
 		Name="r3_tropicpalma1729"
@@ -7730,8 +7645,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="3112.106 341.306 2056.172"
-		Rot="0.000 -0.259 0.000 0.966"
-		NodeScale="1.050" />
+		Rot="0.000 -0.259 0.000 0.966" />
 
 	<Object
 		Name="r3_tropicpalma1733"
@@ -7928,48 +7842,42 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="778.979 291.112 2072.159"
-		Rot="0.000 -0.100 0.000 0.995"
-		NodeScale="0.910" />
+		Rot="0.000 -0.100 0.000 0.995" />
 
 	<Object
 		Name="wood_fence1760"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="770.249 291.112 2069.413"
-		Rot="0.000 -0.201 0.000 0.980"
-		NodeScale="0.910" />
+		Rot="0.000 -0.201 0.000 0.980" />
 
 	<Object
 		Name="wood_fence1761"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="761.711 291.112 2066.381"
-		Rot="0.000 -0.152 0.000 0.988"
-		NodeScale="0.910" />
+		Rot="0.000 -0.152 0.000 0.988" />
 
 	<Object
 		Name="wood_fence1762"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="752.819 291.112 2064.377"
-		Rot="0.000 -0.079 0.000 0.997"
-		NodeScale="0.910" />
+		Rot="0.000 -0.079 0.000 0.997" />
 
 	<Object
 		Name="wood_fence1763"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="743.911 291.112 2062.211"
-		Rot="0.000 -0.165 0.000 0.986"
-		NodeScale="0.910" />
+		Rot="0.000 -0.165 0.000 0.986" />
 
 	<Object
 		Name="wood_fence1764"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="735.184 291.112 2059.368"
-		Rot="0.000 -0.165 0.000 0.986"
-		NodeScale="0.910" />
+		Rot="0.000 -0.165 0.000 0.986" />
 
 	<Object
 		Name="r3_tropicpalma2765"
@@ -7982,8 +7890,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="95.449 367.466 3093.313"
-		Rot="0.000 0.350 0.000 0.937"
-		NodeScale="1.050" />
+		Rot="0.000 0.350 0.000 0.937" />
 
 	<Object
 		Name="r3_tropicpalma2767"
@@ -8077,8 +7984,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="224.583 396.038 2797.727"
-		Rot="0.000 0.438 0.000 0.899"
-		NodeScale="1.060" />
+		Rot="0.000 0.438 0.000 0.899" />
 
 	<Object
 		Name="r3_tropicpalma1779"
@@ -8213,8 +8119,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="73.047 399.855 3188.448"
-		Rot="0.000 -0.887 0.000 0.462"
-		NodeScale="1.060" />
+		Rot="0.000 -0.887 0.000 0.462" />
 
 	<Object
 		Name="r3_tropicpalma3796"
@@ -8301,8 +8206,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="388.179 385.974 3826.616"
-		Rot="0.000 -0.233 0.000 0.972"
-		NodeScale="1.050" />
+		Rot="0.000 -0.233 0.000 0.972" />
 
 	<Object
 		Name="r3_tropicpalma1807"
@@ -8317,8 +8221,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="396.962 385.908 3831.937"
-		Rot="0.000 0.749 0.000 0.663"
-		NodeScale="1.060" />
+		Rot="0.000 0.749 0.000 0.663" />
 
 	<Object
 		Name="r3_tropicpalma2809"
@@ -8500,8 +8403,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="305.820 408.459 3608.474"
-		Rot="0.000 0.943 0.000 0.334"
-		NodeScale="1.050" />
+		Rot="0.000 0.943 0.000 0.334" />
 
 	<Object
 		Name="r3_tropicpalma3832"
@@ -8620,8 +8522,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="225.553 366.642 3402.641"
-		Rot="0.000 -0.887 0.000 0.462"
-		NodeScale="1.060" />
+		Rot="0.000 -0.887 0.000 0.462" />
 
 	<Object
 		Name="r3_tropicpalma1847"
@@ -8652,8 +8553,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="370.376 304.370 3476.426"
-		Rot="0.000 -0.829 0.000 0.559"
-		NodeScale="1.150" />
+		Rot="0.000 -0.829 0.000 0.559" />
 
 	<Object
 		Name="r3_tropicpalma1851"
@@ -8732,8 +8632,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="400.485 329.000 3643.762"
-		Rot="0.000 -0.974 0.000 0.225"
-		NodeScale="1.060" />
+		Rot="0.000 -0.974 0.000 0.225" />
 
 	<Object
 		Name="r3_tropicpalma1861"
@@ -8836,8 +8735,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="840.143 266.838 3649.545"
-		Rot="0.000 0.139 0.000 0.990"
-		NodeScale="1.060" />
+		Rot="0.000 0.139 0.000 0.990" />
 
 	<Object
 		Name="r3_tropicpalma2874"
@@ -8867,8 +8765,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="956.321 311.036 3671.362"
-		Rot="0.000 -0.334 0.000 0.943"
-		NodeScale="1.060" />
+		Rot="0.000 -0.334 0.000 0.943" />
 
 	<Object
 		Name="r3_tropicpalma3878"
@@ -10599,8 +10496,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="2835.664 341.083 849.162"
-		Rot="0.000 -0.910 0.000 0.415"
-		NodeScale="1.060" />
+		Rot="0.000 -0.910 0.000 0.415" />
 
 	<Object
 		Name="r3_tropicpalma11095"
@@ -11053,8 +10949,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="2746.378 357.727 462.400"
-		Rot="0.000 0.250 0.000 0.968"
-		NodeScale="1.060" />
+		Rot="0.000 0.250 0.000 0.968" />
 
 	<Object
 		Name="r3_tropicpalma11152"
@@ -14660,8 +14555,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="3713.480 393.162 3586.410"
-		Rot="0.000 0.993 0.000 0.122"
-		NodeScale="1.150" />
+		Rot="0.000 0.993 0.000 0.122" />
 
 	<Object
 		Name="r3_tropicpalma11604"
@@ -15492,8 +15386,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="4034.702 432.170 2704.310"
-		Rot="0.000 0.843 0.000 0.537"
-		NodeScale="0.905" />
+		Rot="0.000 0.843 0.000 0.537" />
 
 	<Object
 		Name="r3_tropicpalma11708"
@@ -16388,8 +16281,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1933.830 328.947 1312.770"
-		Rot="0.000 0.976 0.000 0.216"
-		NodeScale="1.060" />
+		Rot="0.000 0.976 0.000 0.216" />
 
 	<Object
 		Name="r3_tropicpalma21820"
@@ -17476,8 +17368,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="1380.238 340.978 3326.718"
-		Rot="0.000 -0.044 0.000 0.999"
-		NodeScale="1.150" />
+		Rot="0.000 -0.044 0.000 0.999" />
 
 	<Object
 		Name="r3_tropicpalma11956"
@@ -18452,8 +18343,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="252.645 372.146 2737.117"
-		Rot="0.000 0.974 0.000 0.225"
-		NodeScale="0.905" />
+		Rot="0.000 0.974 0.000 0.225" />
 
 	<Object
 		Name="r3_tropicpalma12078"
@@ -19063,8 +18953,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="2442.573 277.724 889.876"
-		Rot="0.000 -0.959 0.000 0.284"
-		NodeScale="1.150" />
+		Rot="0.000 -0.959 0.000 0.284" />
 
 	<Object
 		Name="r3_tropicpalma12157"
@@ -19079,8 +18968,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="2392.749 292.470 768.759"
-		Rot="0.000 0.990 0.000 0.139"
-		NodeScale="1.150" />
+		Rot="0.000 0.990 0.000 0.139" />
 
 	<Object
 		Name="r3_tropicpalma32159"
@@ -19183,8 +19071,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="3393.195 276.320 734.025"
-		Rot="0.000 0.026 0.000 1.000"
-		NodeScale="1.050" />
+		Rot="0.000 0.026 0.000 1.000" />
 
 	<Object
 		Name="r3_tropicpalma22172"
@@ -19239,8 +19126,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="943.970 264.029 3180.110"
-		Rot="0.000 -0.990 0.000 0.139"
-		NodeScale="1.060" />
+		Rot="0.000 -0.990 0.000 0.139" />
 
 	<Object
 		Name="r3_tropicpalma22179"
@@ -19383,8 +19269,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
 		Pos="490.024 262.603 3298.398"
-		Rot="0.000 -0.970 0.000 0.242"
-		NodeScale="1.060" />
+		Rot="0.000 -0.970 0.000 0.242" />
 
 	<Object
 		Name="r3_tropicpalma32197"
@@ -19469,8 +19354,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="2023.011 262.535 1611.362"
-		Rot="0.000 -0.887 0.000 0.462"
-		NodeScale="1.060" />
+		Rot="0.000 -0.887 0.000 0.462" />
 
 	<Object
 		Name="r3_tropicpalma12208"
@@ -19493,8 +19377,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="2139.735 263.596 2011.903"
-		Rot="0.000 0.113 0.000 0.994"
-		NodeScale="1.060" />
+		Rot="0.000 0.113 0.000 0.994" />
 
 	<Object
 		Name="r3_tropicpalma32211"
@@ -19691,8 +19574,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="3590.135 255.845 2456.167"
-		Rot="0.000 0.995 0.000 0.096"
-		NodeScale="1.050" />
+		Rot="0.000 0.995 0.000 0.096" />
 
 	<Object
 		Name="r3_tropicpalma22236"
@@ -19707,8 +19589,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="3375.970 263.478 2266.687"
-		Rot="0.000 -0.853 0.000 0.523"
-		NodeScale="1.150" />
+		Rot="0.000 -0.853 0.000 0.523" />
 
 	<Object
 		Name="r3_tropicpalma22238"
@@ -19961,8 +19842,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="3366.961 257.194 2968.757"
-		Rot="0.000 0.945 0.000 0.326"
-		NodeScale="1.050" />
+		Rot="0.000 0.945 0.000 0.326" />
 
 	<Object
 		Name="r3_tropicpalma12270"
@@ -20101,8 +19981,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="2760.457 258.000 2776.480"
-		Rot="0.000 -0.588 0.000 0.809"
-		NodeScale="1.060" />
+		Rot="0.000 -0.588 0.000 0.809" />
 
 	<Object
 		Name="r3_tropicpalma32288"
@@ -20149,16 +20028,14 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="2866.213 262.697 2951.345"
-		Rot="0.000 -0.588 0.000 0.809"
-		NodeScale="1.060" />
+		Rot="0.000 -0.588 0.000 0.809" />
 
 	<Object
 		Name="r3_tropicpalma12294"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
 		Pos="2691.482 258.000 2868.183"
-		Rot="0.000 -0.588 0.000 0.809"
-		NodeScale="1.060" />
+		Rot="0.000 -0.588 0.000 0.809" />
 
 	<Object
 		Name="r3_tropicpalma22295"
@@ -20267,8 +20144,7 @@
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
 		Pos="2837.654 255.821 3050.040"
-		Rot="0.000 -0.688 0.000 0.725"
-		NodeScale="1.060" />
+		Rot="0.000 -0.688 0.000 0.725" />
 
 	<Object
 		Name="r3_tropicpalma22309"

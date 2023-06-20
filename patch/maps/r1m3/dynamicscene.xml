@@ -468,23 +468,7 @@
 					Flags="16"
 					Prototype="MolokovozForSale"
 					Pos="0.000 111.656 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="molokovozCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="molokovozCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Name="CqqqHASSIS"
-							Prototype="molokovozChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -884,25 +868,7 @@
 					Flags="16"
 					Prototype="MolokovozForSale"
 					Pos="0.000 111.656 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Name="BASKETwww"
-							Prototype="molokovozCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Name="CABIqqqN"
-							Prototype="molokovozCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Name="CwwwHASSIS"
-							Prototype="molokovozChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -61756,8 +61722,7 @@
 		Belong="-1"
 		Prototype="Breakable_Poster3"
 		Pos="3845.883 235.349 786.369"
-		Rot="0.000 -0.942 0.000 0.336"
-		NodeScale="1.126" />
+		Rot="0.000 -0.942 0.000 0.336" />
 
 	<Object
 		Name="lamppost39285"

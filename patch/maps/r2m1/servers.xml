@@ -26,6 +26,10 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="mask_oracul"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="r2_man"
 			file="data\models\AnimModels.xml" />
 
@@ -2115,18 +2119,6 @@
 			file="data\models\AnimModels.xml" />
 
 <!-- For Effect -->
-		<Item 
-			id="barrel3_dyn" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="barrel1_dyn" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="shell" 
-			file="data\models\AnimModels.xml"/>
-
 		<Item 
 			id="barrel_debris" 
 			file="data\models\AnimModels.xml"/>
