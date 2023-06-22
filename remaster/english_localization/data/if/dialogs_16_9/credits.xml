@@ -11,7 +11,7 @@
 	<Pages>
 		<Page
 			id="1"
-			text="Game Design|«Targem Games»"
+			text="Developer studio|«Targem Games»"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -20,7 +20,7 @@
 
 		<Page
 			id="2"
-			text="Inner producer||Stanislav «scorp» Skorb"
+			text="Internal producer||Stanislav «scorp» Skorb"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="294"
@@ -74,7 +74,7 @@
 
 		<Page
 			id="8"
-			text="Lead Artist||Alexander «Alex ML» Magrushin"
+			text="Lead artist||Alexander «Alex ML» Magrushin"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="8"
@@ -164,7 +164,7 @@
 
 		<Page
 			id="18"
-			text="The soundtrack includes tracks of the music contest winners:||Alexander Chekster|Boris Vedensky and  Alexander Treger|Mikhail Sidorov|Alexander Lisenkov|Paralaxeen|Igor Belousov"
+			text="The soundtrack includes tracks of the music contest winners:||Alexander Chekster|Boris Vedensky and Alexander Treger|Mikhail Sidorov|Alexander Lisenkov|Paralaxeen|Igor Belousov"
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="132"
@@ -272,7 +272,7 @@
 
 		<Page
 			id="30"
-			text="New team manager||Nikolay Safronov"
+			text="Manager of new teams||Nikolay Safronov"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="635"
@@ -290,7 +290,7 @@
 
 		<Page
 			id="32"
-			text="QA Supervisor||Evgeny Popov|Ivan Rid"
+			text="QA supervisor||Evgeny Popov|Ivan Rid"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="379"
@@ -470,7 +470,7 @@
 		
 			<Page
 			id="50_1"
-			text="Alexander «Seel» Parfenenkov|Alexander «ThePlain» Fateev|Alexei «__nEmPoBu4__» Smirnov|Anna Zhukova|Anton Popov|Vladislav «OverLine» Kurochkin|Dmitry «Ãíîì» Saschenko|Ivan «ICAS-14» Cherepanov|Leonid «KoYoT» Kochetov|Maxim «Spok» Berdnikov|Mark «Apocalypse007» Malygin|Nick «EL_BIBIKA» Kononenko|Pavel «pavlikrpg» Ivanov|Serafim «Varisane» Shagin"
+			text="Aleksandr «Seel» Parfenenkov|Aleksandr «ThePlain» Fateev|Alexei «__nEmPoBu4__» Smirnov|Anna Zhukova|Anton Popov|Vladislav «OverLine» Kurochkin|Dmitry «Gnome» Saschenko|Ivan «ICAS-14» Cherepanov|Leonid «KoYoT» Kochetov|Maxim «Spok» Berdnikov|Mark «Apocalypse007» Malygin|Nick «BIBIKUZ» Kononenko|Pavel «pavlikrpg» Ivanov|Serafim «Varisane» Shagin"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="765"
@@ -479,7 +479,7 @@
 
 		<Page
 			id="51"
-			text="Alexander «Seel» Parfenenkov||project manager, tools, interface design"
+			text="Aleksandr «Seel» Parfenenkov||project manager, tools, design"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
@@ -488,7 +488,7 @@
 		
 		<Page
 			id="52"
-			text="Alexander «ThePlain» Fateev||tools, graphics,|3D modeling"
+			text="Aleksandr «ThePlain» Fateev||tools, graphics,|3D modeling"
 			modelName="mask_oracul"
 			modelSkin="0"
 			modelCfg="0"
@@ -506,7 +506,7 @@
 		
 		<Page
 			id="54"
-			text="Anna Zhukova||interface design"
+			text="Anna Zhukova||graphic design"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="104"
@@ -524,7 +524,7 @@
 		
 		<Page
 			id="56"
-			text="Vladislav «OverLine» Kurochkin||content design, mapping"
+			text="Vladislav «OverLine» Kurochkin||content design, level design"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="765"
@@ -569,7 +569,7 @@
 		
 		<Page
 			id="61"
-			text="Mark «Apocalypse007» Malygin||text corrections"
+			text="Mark «Apocalypse007» Malygin||text proofreading"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="2169"
@@ -578,7 +578,7 @@
 		
 		<Page
 			id="62"
-			text="Nick «EL_BIBIKA» Kononenko||3D modeling"
+			text="Nick «BIBIKUZ» Kononenko||3D modeling"
 			modelName="r1_man"
 			modelSkin="1"
 			modelCfg="4"
@@ -632,7 +632,7 @@
 		
 		<Page
 			id="68"
-			text="Suslo Red|Ivan «MrKarfen» Atamanov|Semen «Omezera» Ozerickiy|Pushistik_7977|Anarxolis|ScorpyX|Alexander192|Terorchat"
+			text="Suslo Red|Ivan «MrKarfen» Atamanov|Semen «Omezera» Ozeritsky|Pushistik_7977|Anarxolis|ScorpyX|Alexander192|Terorchat"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="635"
@@ -641,7 +641,7 @@
 		
 		<Page
 			id="69"
-			text="Special thanks to:||Deus Ex Machina community|discord.gg/qKK2Efx||EM2ch community|vk.com/em2ch||Ex Machina public on VK|vk.com/exmachina2"
+			text="Special thanks to:||Deus Ex Machina community|discord.gg/qKK2Efx||EM2ch community|vk.com/em2ch||Ex Machina VK public page|vk.com/exmachina2"
 			modelName="r1_man"
 			modelSkin="2"
 			modelCfg="92"
@@ -650,7 +650,7 @@
 
 		<Page
 			id="70"
-			text="As well as:||«Ïàâëèê RPG»’s channel viewers||Our wifes, girlfriends, relatives and cats, who tolerated us during the development||To all of those who waited and supported this project"
+			text="As well as:||«Ïàâëèê RPG»’s channel viewers||Our wifes, girlfriends, husbands, relatives and cats, who tolerated us during the development||To all of those who waited for and supported this project"
 			modelName="r1_man"
 			modelSkin="1"
 			modelCfg="102"

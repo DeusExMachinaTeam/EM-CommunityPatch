@@ -2,7 +2,7 @@
 <DialogsResource><!--Root--><!--Root/r1m1--><!--Root/r1m2--><!--Root/r1m3--><!--Root/r1m4--><!--Root/r2m1--><!--Root/r2m2--><!--Root/r3m1--><!--Root/r3m2--><!--Root/r4m1--><!--Root/r4m2--><!--Root/r4m2/Ñþæåòíûå--><!--Root/r4m2/Ñþæåòíûå/Áèòâà ó áàçû-->
 	<Reply
 		name="r4m2_MilitaryBase_Man1_1_N01"
-		text="It’s a dangerous place. Let’s get you out of here. "
+		text="This is a very dangerous place. Let’s get you out of here. "
 		role="NPC"
 		scriptCondition="QuestStatus('r4m2_FightWithCrazy')==Q_TAKEN"
 		scriptResult="CompleteQuest('r4m2_FightWithCrazy');"
@@ -10,43 +10,43 @@
 
 	<Reply
 		name="r4m2_MilitaryBase_Man1_1_N02"
-		text="Who are you?! There so many bandits out there! And more trucks keep arriving! "
+		text="Who are you?! There are so many bandits out there! And more trucks keep arriving! "
 		role="PLAYER"
 		nextReplies="r4m2_MilitaryBase_Man1_1_N03" />
 
 	<Reply
 		name="r4m2_MilitaryBase_Man1_1_N03"
-		text="We’ve got to move on. Are you with us? "
+		text="We have no time for talk! Are you comming? "
 		role="NPC"
 		nextReplies="r4m2_MilitaryBase_Man1_1_N04a r4m2_MilitaryBase_Man1_1_N04b" />
 
 	<Reply
 		name="r4m2_MilitaryBase_Man1_1_N04b"
-		text="Yes! They’ll kill me if I stay… "
+		text="Yes! Alone I will perish here… "
 		role="PLAYER"
 		scriptResult="EndCoversation();" />
 
 	<Reply
 		name="r4m2_MilitaryBase_Man1_1_N04a"
-		text="I’m not leaving this place until we kill them all. They are murderers! "
+		text="I’m not leaving this place! They are murderers! We have to fight!"
 		role="PLAYER"
 		nextReplies="r4m2_MilitaryBase_Man1_1_N05a" />
 
 	<Reply
 		name="r4m2_MilitaryBase_Man1_1_N05a"
-		text="We stand no chance against them. Follow us if you want to live."
+		text="You have no chance against them, not by yourself, not with our help. Come with us if you want to live."
 		role="NPC"
 		nextReplies="r4m2_MilitaryBase_Man1_1_N06a" />
 
 	<Reply
 		name="r4m2_MilitaryBase_Man1_1_N06a"
-		text="Hrrr. I’ll be back! "
+		text="Arghhh! I’ll be back! "
 		role="PLAYER"
 		scriptResult="EndCoversation();" />
 <!--Root/r4m2/Ñþæåòíûå/Ó ó÷åíîãî-->
 	<Reply
 		name="r4m2_Bar_Scientist_1_N01"
-		text="You were this close to getting killed. My people arrived just on time. "
+		text="You were this close to getting youself killed. My people got here just in time. "
 		role="NPC"
 		scriptCondition="QuestStatus('r4m2_FightWithCrazy')==Q_COMPLETED and QuestStatus('r4m2_InvestigationPlate')==Q_CANBEGIVEN"
 		scriptResult="CompleteQuest('r4m1_GotoAivenGo')"
@@ -60,68 +60,68 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N03"
-		text="We help all people in need. "
+		text="We help all people in need. Everyone who comes here is worthy of a royal treatment."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_1_N04" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N04"
-		text="You haven’t answered my question! "
+		text="You haven’t answered my question!"
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_1_N05" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N05"
-		text="The bravest and the smartest people from all over the world come here lured by the Call. But most of them find their end here… And they wouldn’t listen to me when I tell them that. "
+		text="The bravest and the smartest people from all over the world come here lured by the Call. Most of them just to find their end here! I meet each and every one of them and try to talk them out of proceeding further."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_1_N06" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N06"
-		text="I’ve got to find Ivan Go. I’ve gone such a long way – I’m not going to stop now."
+		text="It is my way to follow in the footsteps of Ivan Go. I have been through too much to stop one step short of my goal."
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_1_N07" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N07"
-		text="I remember everyone I meet. I know the man you are talking about. He’s gone too far. "
+		text="I remember everyone I meet. I know the man you are talking about. He can't be saved, he’s gone too far. "
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_1_N08" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N08"
-		text="Is Ivan dead?"
+		text="So Ivan is still alive?!"
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_1_N09" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N09"
-		text="The thing that happened to him is worse than death. But it’s just as irreversible."
+		text="What happened to him is worse than death. But it’s just as irreversible."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_1_N10" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N10"
-		text="Stop talking mysteries. Tell me, where he is."
+		text="No more riddles! Tell me where he is."
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_1_N11" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N11"
-		text="You won’t understand until you see him, but then it’ll be too late. Go after him, if you have to. We’ll talk again after you come back. "
+		text="I see… Until you see it with your own eyes, you won't understand, and then it will be too late... Go on down the road. We'll talk when you're back."
 		role="NPC"
 		scriptResult="TActivate('trNearPlate'); TakeQuest('r4m2_InvestigationPlate'); "
 		nextReplies="r4m2_Bar_Scientist_1_N12" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N12"
-		text="OK"
+		text="Good."
 		role="PLAYER"
 		scriptResult="EndConversation();" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N01"
-		text="Your willpower is impressive! You could resist the voice of heaven. "
+		text="Your willpower is impressive! You were able to resist the voice of heaven!"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_TAKEN"
 		scriptResult="CompleteQuest('r4m2_TalkWithScientific'); TActivate('trExitFromCity')"
@@ -129,19 +129,19 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N02"
-		text="I don’t know what you are talking about. "
+		text="I haven't heard anything of the sort."
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N03" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N03"
-		text="Few find enough strength to return from the Source. For years we’ve been waiting for you to come. "
+		text="Then we made the right choice. A rare person can get close to the source and find the strength to return. We've been waiting for you for many years."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N04" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N04"
-		text="Let’s get to the point."
+		text="Cut to the chase."
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N05" />
 
@@ -153,61 +153,61 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N06"
-		text="I’ll do what I can. But tell me first, what happened here?"
+		text="I'm willing to try to save these people. But tell me first, what happened here?"
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N07" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N07"
-		text="Years ago our world was different. There were huge countries, cities with millions of dwellers, clever machines that did your work for you! Everything was simple. But suddenly the world collapsed."
+		text="A long time ago, our world was whole. Huge states, cities of millions of people, machines that would think for you! Everything was simple and clear. But one day it all came crashing down…"
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N08" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N08"
-		text="Clever machines? I wouldn’t trust them… What happened?"
+		text="Thinking machines? This kind of thing does no good… So what happened?"
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N09" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N09"
-		text="Military forces spotted an unidentified flying object, which was immediately brought down. You saw it on your way. I was part of the group that was sent to examine the mysterious object. The country was on the verge of war. We were the only scientists left studying this UFO. Little wonder we were in hurry and a bit careless."
+		text="Space Defense forces spotted an unidentified flying object, which was immediately shot down. You saw it on your way. My colleagues and I were sent to study this amazing phenomenon. The situation at the time was very intense: this country was in the midst of the stuggle against terrorism. So we worked in a hurry, with the intelligence services of the major powers and local guerrillas all breathing down our necks."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N10" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N10"
-		text="It all makes little sense to me, but go on…"
+		text="I don't understand much of what you're saying… But it seems that the old world was no more kind than the present one."
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N11" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N11"
-		text="When we got on board the ship – it was a ship, no doubt – we were ecstatic. We thought of the endless opportunities: new medicine, ultrastrong materials, revolutionary technologies… But we found death instead: several scientists got crushed by the machines, 3 of my colleagues committed suicide.  But the worst thing happened when we opened a sealed cell in the central tank…"
+		text="Perhaps… I never thought of this… When we managed to get on board the ship, and it was a ship, no doubt – we were ecstatic. We thought of the endless opportunities: new medicines, ultra-durable materials, revolutionary technologies… But we found only death: the workers died under the wheels of machinery, three of my colleagues committed suicide within two days of this research. But the worst thing happened when we opened the sealed cell in the central section…"
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N12" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N12"
-		text="You shouldn’t have done it… How could you ignore all those warning signs?"
+		text="You shouldn’t have done that. How could you ignore all those clear warning signals?"
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N13" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N13"
-		text="But we are scientists! We don’t believe in superstition. Anyway, the moment we opened that door, all hell broke loose. My colleagues… their bodies exploded… and I heard this strange voice inside my head… I blacked out and when I woke up, I was outside the ship, in the camp. I called for help, but nobody came. The radio was silent. I realized that there was a catastrophe. "
+		text="But we are scientists! We don’t believe in superstition. I'll continue: apparently, the automatic system that had been hibernating up to that point kicked in. Something inconceivable began to happen... My colleagues... their bodies literally exploded... and I heard this Voice inside my head… I blacked out and when I woke up, I was outside the ship, in this camp. I called for help, but nobody came. The radio was silent. I realized that there had been a catastrophe."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N14" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N14"
-		text="So, you’ve destroyed the world to satisfy your curiosity! "
+		text="So you and those like you destroyed the world to satisfy your curiosity?"
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N15" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N15"
-		text="Yes. And it’s killing me. I’ve got to be punished, but I don’t feel pain. God knows how many times I tried to kill myself, but all in vain – I can’t die! It was terrible. I thought I was the only survivor, but more people started to arrive. I was horrified when I saw how much they mutated… Just look at me or at yourself! I dread to think what’s under your mask..."
+		text="Yes. And this knowledge is killing me from the inside. I ought to be punished, but I feel no pain. I can't even die! God knows how many times I tried to end my life... It was horrible. I thought I was the only survivor, but more people started to arrive. My joy was quickly replaced by terror. People had changed. Just look at me or yourself. I dread to even imagine what’s under your mask..."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N16" />
 
@@ -219,87 +219,87 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N17"
-		text="Whatever. Let it be the air. What matters now is that the device is still working and it keeps contaminating the atmosphere."
+		text="Whatever. Let it be the contaminated air. What matters now is that the device is still working and contamination is entering the atmosphere."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N18" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N18"
-		text="If we turn it off, are people going to be normal again? Why didn’t you go back and stop the device? "
+		text="So, if we turn it off, the air will be cleared are people will become human again? So why didn’t you go back and turn it off yourself?"
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N19" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N19"
-		text="I can neither come close to the device, nor leave this place. I am doomed to stay here and watch. All I can do is ask people to destroy the damn thing. Not that anyone succeeded..."
+		text="I can neither come close to the device, nor leave this place! I am doomed to stay around that damn machine forever and watch. All I can do is to ask those who arrive to destroy this monstrous thing. But no one has succeeded so far..."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N20a r4m2_Bar_Scientist_2_N20b" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N20b"
-		text="You’ve done the humanity so much harm. I’m gonna blow up this place along with you! "
+		text="You’ve done the humanity so much harm. I will destroy this place and you along with it."
 		role="PLAYER"
 		scriptResult="TakeQuest('r4m2_DestroyPlate'); TakeQuest('r1m3_TW_OralceAboutAlien');"
 		nextReplies="r4m2_Bar_Scientist_2_N21b" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N21b"
-		text="It’s more than I could ask. We’ve taken samples to the north-western military complex. They’ve probably got the results now and will tell you how to destroy the Source. Even if the people are dead, the AI of the complex should be still functioning.  "
+		text="That’s all I ask. We took some samples to the northwest military complex. They’ve probably got the results now and will tell you how to destroy the Source. Even if the people there are dead, the AI of the complex should still be functioning."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N22b" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N22b"
-		text="I’ve been there and I know this AI of yours pretty well. It calls itself the Oracle. "
+		text="I’ve been there and I'm familiar with this mechanical creature. It calls itself the Oracle."
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N23b" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N23b"
-		text="Good luck to you. I hope you will succeed where other people failed. "
+		text="Good luck to you. I hope you succeed where other have failed."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N24b" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N24b"
-		text="Good bye. I don’t think I’ll see you again. "
+		text="Goodbye. I don’t think we’ll see each other again."
 		role="PLAYER"
 		scriptResult="EndConversation();" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N20a"
-		text="I’ve got to save all those people. There must be a way to turn the machine off without getting too close. "
+		text="I’ve got to find a way to save all those people. There must be a way to turn the machine off without getting too close."
 		role="PLAYER"
 		scriptResult="TakeQuest('r4m2_NeutralizePlate'); TakeQuest('r1m2_TW_BanAboutAlien'); "
 		nextReplies="r4m2_Bar_Scientist_2_N21a" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N21a"
-		text="Ivan Go talked about strange lights in the sky. And he wasn’t all that surprised when he saw the space ship. He’s probably seen it already. "
+		text="Ivan Go, when he was here, said something about strange lights in the sky. And he wasn’t all that surprised when he saw the space ship. Perhaps he had seen seen something like that before."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N22a" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N22a"
-		text="His friend Ben Throttle might know something about it. I must talk to him. "
+		text="I know his friend Ben Throttle, he must know something about it. I have to talk to him."
 		role="PLAYER"
 		nextReplies="r4m2_Bar_Scientist_2_N23a" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N23a"
-		text="Off you go and may luck be with you. "
+		text="Off you go. And may luck be with you!"
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N24a" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N24a"
-		text="I’ll need it. "
+		text="I think I'm going to need it."
 		role="PLAYER"
 		scriptResult="EndConversation();" />
 
 	<Reply
 		name="r4m2_Bar_Scientist_3_N01"
-		text="There’s nothing I can do for you. Go and do what you have to do."
+		text="There’s nothing else I can do for you. Go and do what you have to do."
 		role="NPC"
 		scriptCondition="QuestStatus('r4m2_TalkWithScientific')==Q_COMPLETED"
 		nextReplies="r4m2_Bar_Scientist_3_N02" />
@@ -312,51 +312,51 @@
 <!--Root/r4m1/Ñþæåòíûå--><!--Root/r4m1/Îïöèîíàëüíûå--><!--Root/r4m1/Ðàçãîâîðû î êíèãàõ-->
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N01"
-		text="You resisted the Great Call, stranger. Let me give you this. "
+		text="You resisted the Great Call, foreigner, so I want to give you one thing."
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount( ) == 0"
 		nextReplies="Gadad_Bar_CrazyBook1_1_N02" />
 
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N02"
-		text="What call are you talking about?! "
+		text="What call are you talking about? What is this thing?"
 		role="PLAYER"
 		nextReplies="Gadad_Bar_CrazyBook1_1_N03" />
 
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N03"
-		text="Hush, they are watching us. This is the last copy of the book that tells you what happened to our world. "
+		text="Hush, hurry, they're watching. This is the last copy of the book that tells you what happened to our world..."
 		role="NPC"
 		nextReplies="Gadad_Bar_CrazyBook1_1_N04" />
 
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N04"
-		text="Hey, where are you going? He left in a hurry..."
+		text="Stop, you madman! Where are you rushing off to..."
 		role="PLAYER"
 		scriptResult="AddBook('r4_book_Scarytail1'); GetCurNpc():SetSpokenCount( 1 ); EndConversation();" />
 <!--Root/r4m1/Îïöèîíàëüíûå/Ãîíêè-->
 	<Reply
 		name="r4_Racers_Men_1_N01"
-		text="Today is the race day! Anyone can take part in it! "
+		text="Today is the race day! Anyone can take part!"
 		role="NPC"
 		scriptCondition="GetVar('Gonka').AsInt==0"
 		nextReplies="r4_Racers_Men_1_N02a r4_Racers_Men_1_N02b" />
 
 	<Reply
 		name="r4_Racers_Men_1_N02b"
-		text="Not interested. "
+		text="Not interested."
 		role="PLAYER"
 		scriptResult="TActivate('trPlaceCar'); EndConversation()" />
 
 	<Reply
 		name="r4_Racers_Men_1_N02a"
-		text="Count me in. "
+		text="I would like to be a contestant."
 		role="PLAYER"
 		nextReplies="r4_Racers_Men_1_N03a" />
 
 	<Reply
 		name="r4_Racers_Men_1_N03a"
-		text="You’ve got to pay the participant’s fee of 5,000 coins + 5,000 the insurance cost. "
+		text="You’ve got to pay the participant’s fee of 5,000 coins plus 5,000 as the race car insurance cost."
 		role="NPC"
 		nextReplies="r4_Racers_Men_1_N04aa r4_Dlg_pl_000158" />
 
@@ -386,26 +386,26 @@
 
 	<Reply
 		name="r4_Racers_Men_1_N04aa"
-		text="What car? What are you talking about?"
+		text="What race car? What are you talking about?"
 		role="PLAYER"
 		nextReplies="r4_Racers_Men_1_N05aa" />
 
 	<Reply
 		name="r4_Racers_Men_1_N05aa"
-		text="The bolide is an expensive car. You’ll have to compensate its cost if you break it. "
+		text="We lend you an expensive race car and if you wreck it, we'll reimburse you from the deposit."
 		role="NPC"
 		nextReplies="r4_Racers_Men_1_N06aaa r4_Racers_Men_1_N06aab r4_Racers_Men_1_N06aac" />
 
 	<Reply
 		name="r4_Racers_Men_1_N06aac"
-		text="I don’t have so much money! "
+		text="I don’t have that kind of money."
 		role="PLAYER"
 		scriptCondition="10000>GetPlayerMoney()"
 		scriptResult="TActivate('trPlaceCar'); EndConversation()" />
 
 	<Reply
 		name="r4_Racers_Men_1_N06aab"
-		text="Nah, I’m out of here. "
+		text="Nah, I’m out of here."
 		role="PLAYER"
 		scriptResult="TActivate('trPlaceCar'); EndConversation()" />
 
@@ -418,13 +418,13 @@
 
 	<Reply
 		name="r4_Racers_Men_1_N07aaa"
-		text="The rules are simple: you lose if you make a false start or if you crush the car. 1st prize is 40,000, 2nd – 20,000, 3rd – 10,000. The repair works will be extracted from the insurance cost, so you might not get all of your 5,000 back."
+		text="The rules are simple: false start - you lose, crush the car - you lose. 1st prize is 40,000, 2nd – 20,000, 3rd – 10,000. The repair works will be deducted from the insurance deposit, so don't be surprised if you don't get all your money back."
 		role="NPC"
 		nextReplies="r4_Racers_Men_1_N08aaa" />
 
 	<Reply
 		name="r4_Racers_Men_1_N08aaa"
-		text="I see. Come on! "
+		text="I see. Let's GO!"
 		role="PLAYER"
 		scriptResult="TActivate('trA') SetVar('Gonka',1) EndConversation()" />
 
@@ -654,25 +654,25 @@
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_N03"
-		text="Stop looking. You’ve come to the best place in the world. The gardens and the fountains of our town have been glorified by the greatest poets! What more could a man want? "
+		text="Stop looking. You’ve come to the best place in the world. The gardens and the fountains of our town are sung by the greatest poets! What more could a man want? "
 		role="NPC"
 		nextReplies="Gadad_Bar_Customer1_01_P04" />
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_P04"
-		text="I see neither gardens, nor fountains here. "
+		text="I see neither gardens, nor fountains here."
 		role="PLAYER"
 		nextReplies="Gadad_Bar_Customer1_01_N05" />
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_N05"
-		text="Every day the evil demons of the desert raid our houses and destroy everything on their way. We have to be always on guard – that’s why our monuments are neglected. Without due care they crumble... What a shame!"
+		text="Every day the evil demons of the desert raid our houses and destroy everything in their path. Almost every single day we have to repel their attacks – that’s why our monuments are neglected. Without due care they crumble. What a pity..."
 		role="NPC"
 		nextReplies="Gadad_Bar_Customer1_01_P06" />
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_P06"
-		text="But can anyone help me find the man I need. He passed these places several years ago. "
+		text="Still, can you tell me where can I find out about events that happened a long time ago? Someone important to me passed by these places many years ago."
 		role="PLAYER"
 		nextReplies="Gadad_Bar_Customer1_01_N07" />
 
@@ -684,25 +684,25 @@
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_P08"
-		text="Where have they gone? "
+		text="Where have they gone?"
 		role="PLAYER"
 		nextReplies="Gadad_Bar_Customer1_01_N09" />
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_N09"
-		text="Of this I do not know. Ask our neighbors, they might tell you. Try Kef, for instance."
+		text="Of this I do not know. Ask our neighbors. Maybe they are not so exhausted by the attacks and can help you. Not far from here is Kef. Look there."
 		role="NPC"
 		nextReplies="Gadad_Bar_Customer1_01_P10" />
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_P10"
-		text="Thanks, I’ll try my luck in the Kef. "
+		text="Thanks, I’ll try my luck elsewhere... [I have some uneasy thoughts about this place. Everyone here seems strange.]"
 		role="PLAYER"
 		scriptResult="EndConversation()" />
 <!--Root/r4m1/Ñþæåòíûå/Íåôòü-->
 	<Reply
 		name="Kef_Bar_Customer1_1_N01"
-		text="Good night, traveler. What brought you so far? "
+		text="Good night, traveler. What brought you so far?"
 		role="NPC"
 		scriptCondition="(QuestStatus('r4m1_FRP_GotoKef')==Q_TAKEN or QuestStatus('r4m1_Kef_NeedOil')==Q_CANBEGIVEN) and (GetCurNpc():GetSpokenCount( ) == 0)"
 		scriptResult="CompleteQuest('r4m1_FRP_GotoKef'); AddHistory( 'r4_KnownAboutBuhara' ); AddFadingMsgId( 'fm_history_got' );"
@@ -710,105 +710,105 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N02"
-		text="Greetings. A man called Ivan passed these places several years ago. He hasn’t come back, and I need to find him. Is there anybody who might help me here? "
+		text="Greetings! A man called Ivan passed through your land many years ago. He never returned home, and now we are searching everywhere for him. Is there anyone in your town who remembers times past?"
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_1_N03" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N03"
-		text="I’m afraid not. Our elders, the memory keepers, have left us. We don’t know where they’ve gone and we can’t find them. We are trying though!"
+		text="There's nothing for you to learn here. Our elders, the keepers of knowledge, gathered one day and simply left for an unknown destination. We have been trying to find them, but so far we have been unsuccessful."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_1_N04" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N04"
-		text="Why did they leave? "
+		text="But why did they left you?"
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_1_N05" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N05"
-		text="Because of the war, I guess. The incessant attacks made us weak and neglectful to our elders. We forgot that there is beauty in the world. All we are thinking about is survival. But you’ve made me think, is the kind of life we have worth living?"
+		text="Because of the war, I guess. The incessant attacks have exausted us, made us forget about beauty and reverence for our elders. All we are thinking about is survival. But is it worth living when beauty is gone? You've wounded my soul, outlander!"
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_1_N06" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N06"
-		text="Strange things you are saying. "
+		text="You folks are weird... I swear, you guys are very weird."
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_1_N07" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N07"
-		text="One of our rescue parties is going to come back soon. Wait a while; they may have news of the elders. In the meantime, could you help us out? "
+		text="Actually, one of our rescue parties is going to come back soon. Wait a little while. They may have news of the elders. In the meantime, can you help us in our trouble?"
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_1_N08" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N08"
-		text="What is it? "
+		text="What exactly is needed?"
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_1_N09" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N09"
-		text="Oil is our blood. Without it, our trucks will stop and we’ll be totally helpless before the attackers. "
+		text="Oil is our blood. Without it, the machines will stop working and we will be defenseless in the face of attackers!"
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_1_N10" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N10"
-		text="You sure will be. But what happened to your oil? "
+		text="Makes sense. So what happened to your oil? "
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_1_N11" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N11"
-		text="The oil field has gone dry. And it’s too dangerous to go to Khazif. You have guts, stranger. Help us, please! "
+		text="The source of the precious liquid has dried up! Until recently, we were supplied by the people of Khazif. But no one dares to go there anymore: it has become too dangerous to leave the city walls."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_1_N12" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N12"
-		text="Do you want me to bring you a tank of oil? "
+		text="Do you want me to bring you a cistern of oil?"
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_1_N13" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N13"
-		text="Yes, we’ll give you a tank-truck and take care of your truck while you are away. "
+		text="Yes. We’ll give you a tanker truck and take care of your truck while you are away."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_1_N13a Kef_Bar_Customer1_1_N13b" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N13b"
-		text="Sounds dangerous. I don’t want to get involved in it. "
+		text="Sounds too dangerous. I don't want to be a part of it."
 		role="PLAYER"
 		scriptResult="GetCurNpc():SetSpokenCount( 1 ); EndConversation();" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N13a"
-		text="Ok. But please don’t touch anything on my truck! "
+		text="All right, but make sure you don’t touch anything in my truck!"
 		role="PLAYER"
 		scriptResult="TakeQuest('r4m1_Kef_NeedOil'); TActivate('trCreateMolokovoz'); EndConversation();" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N01"
-		text="Have you got it?"
+		text="Did you bring us what you promised?"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_KNO_BringOil')==Q_TAKEN or QuestStatus('r4m1_KNO_GotoOiler')==Q_TAKEN"
 		nextReplies="Kef_Bar_Customer1_2_N02 Kef_Bar_Customer1_2_N02b" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N02b"
-		text="No, something urgent came up. But I’ll get it for you. "
+		text="No, something urgent came up. But I’ll bring it to you soon."
 		role="PLAYER"
 		scriptCondition="QuestStatus('r4m1_KNO_BringOil')~=Q_TAKEN"
 		scriptResult="EndConversation()" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N02"
-		text="Here’s your cargo."
+		text="Here’s your oil."
 		role="PLAYER"
 		scriptCondition="QuestStatus('r4m1_KNO_BringOil')==Q_TAKEN"
 		scriptResult="CompleteQuest('r4m1_KNO_BringOil')"
@@ -816,43 +816,43 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N03"
-		text="Damn. Crude oil is no good for our trucks and the mechanic who distills oil for us has gone. "
+		text="What a nuisance! We can't do anything with the oil. Our only specialist in distillation has gone missing. And the equipment won't work on crude oil."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_2_N04" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N04"
-		text="What happened to him? "
+		text="What happened to him?"
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_2_N05" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N05"
-		text="He didn’t like us, I guess. He might listen to you, though. Please, get him back. "
+		text="He ran away as if we were some kind of beasts here! Bring him back. He won't listen to us, but maybe he'll talk to you."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_2_N06" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N06"
-		text="Where will I find him? "
+		text="Where do I look for him?"
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_2_N07" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N07"
-		text="There aren’t many places to go around here. All villages are burnt down. He must have gone to Alikham. "
+		text="There is not much of a place to hide here. The villages are all burnt down. He probably went to Alikham, there's nowhere else to go."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_2_N08" />
 
 	<Reply
 		name="Kef_Bar_Customer1_2_N08"
-		text="I’ll bring him back. By that time I hope you’ll have some information about the elders. I really need to talk to them. "
+		text="I’ll bring him back. I hope that by the time I get back, you'll know exactly where to look for the elders. I really need to talk to them. "
 		role="PLAYER"
 		scriptResult="EndConversation()" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N01"
-		text="Will you do it for us? "
+		text="You dared to do that!?"
 		role="NPC"
 		scriptCondition="(GetCurNpc():GetSpokenCount( ) == 1) and QuestStatus('r4m1_Kef_NeedOil')==Q_CANBEGIVEN"
 		nextReplies="Kef_Bar_Customer1_1a_N02" />
@@ -865,25 +865,25 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N03"
-		text="The oil! Will you bring us the oil? "
+		text="The oil! Will you bring us the oil?"
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_1a_N04a Kef_Bar_Customer1_1a_N04b" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N04b"
-		text="I’ve got more important things to do. "
+		text="No way. I’ve got more important things to do."
 		role="PLAYER"
 		scriptResult="EndConversation();" />
 
 	<Reply
 		name="Kef_Bar_Customer1_1a_N04a"
-		text="All right, I’ll do it. "
+		text="All right, I’ll do it."
 		role="PLAYER"
 		scriptResult="TakeQuest('r4m1_Kef_NeedOil'); TActivate('trCreateMolokovoz'); EndConversation();" />
 <!--Root/r4m1/Ñþæåòíûå/Ïîèñêè íåôòÿííèêà-->
 	<Reply
 		name="r4m1_SomeWhere_Man1_1_N01"
-		text="What are you looking for? "
+		text="What are you looking for?"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist')==Q_TAKEN"
 		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist')"
@@ -891,7 +891,7 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Man1_1_N02"
-		text="Have you seen the mechanic from the other town here? "
+		text="Have you noticed if a mechanic from the nearby town has passed through?"
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Man1_1_N03" />
 
@@ -903,7 +903,7 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Man1_1_N04"
-		text="Where has he gone from here? "
+		text="Where did he go next?"
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Man1_1_N05" />
 
@@ -915,13 +915,13 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Man1_1_N06"
-		text="Thanks. "
+		text="Thanks."
 		role="PLAYER"
 		scriptResult="TActivate('trRunDownEngineer'); EndConversation()" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N01"
-		text="Please, don’t touch me. "
+		text="I beg you, don’t touch me!"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist_1')==Q_TAKEN"
 		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist_1')"
@@ -929,61 +929,61 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N02"
-		text="I’m not going to harm you. "
+		text="Why should I hurt you?"
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N03" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N03"
-		text="I don’t trust anyone. People do crazy things around here!"
+		text="How should I know why people torture and kill each other! Leave me alone!"
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N04" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N04"
-		text="Why is that? "
+		text="What's the matter with you?"
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N05" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N05"
-		text="I know nothing and I don’t want to talk to you. "
+		text="I know nothing and I won't say anything to you!"
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N06" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N06"
-		text="The old chap has gone out of his mind. I guess I’ll have to take him to Kef anyway. I don’t think he’ll be of much help to its people, though. "
+		text="The old chap seems to have lost his mind. I guess I’ll have to take him to Kef anyway. I don’t think he’ll be of much help to its people, though."
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N07" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N07"
-		text="You won’t dare. Let me go! I want to know, if there are other living people in this world. I’m not coming back to Kef, no way!!! "
+		text="You won’t dare. Let me go! I want to know, if there are still people who are alive in this world. If not, there's no point in me fighting. But I won't go back to them! No way!"
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N07a r4m1_SomeWhere_Engineer_1_N07b" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N07b"
-		text="But why? "
+		text="Tell me, what happened to you?"
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N08b" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N08b"
-		text="I found the truth. And it’s more than I can bear. But I can’t live in lie either. "
+		text="I have been exposed to a terrible truth. And I'm not sure I can live with this knowledge. No, I can't bear it! Everything is a lie!"
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N09b" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N09b"
-		text="Listen, your car will make it through the desert. Go to the north-west and you will find towns there, full of life and happy people. Perhaps you’ll restore your piece of mind there sooner, among the green pastures."
+		text="Listen, your car might be able to cross the desert. Go northwest the whole time, and you'll find towns full of life and happy people there. Maybe there, among green meadows, you will find peace of mind."
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N10b" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N10b"
-		text="Are you saying there are other survivors? And you’re letting me go? Thank you so much. "
+		text="Are you saying there are other survivors? And you’re letting me go? Thank you, perhaps I can be saved!"
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N11b" />
 
@@ -995,25 +995,25 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N07a"
-		text="I’ll have to use force then. "
+		text="I’ll have to use force then."
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N08a" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N08a"
-		text="I’d rather die! "
+		text="I’d rather die!"
 		role="NPC"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N09a" />
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N09a"
-		text="Damn. What scared him so much? And what am I going to say in Kef?"
+		text="Bloody hell. What scared the poor guy so much? And what am I going to say in Kef?"
 		role="PLAYER"
 		scriptResult="TActivate('trEngineerGoToBarrel'); EndConversation();" />
 <!--Root/r4m1/Ñþæåòíûå/Âåðíóëñÿ â Êåô (ïîñëå ïîèñêîâ)-->
 	<Reply
 		name="Kef_Bar_Customer1_3_N01"
-		text="I don’t see the mechanic. You didn’t find him? "
+		text="We don’t see the mechanic with you. You didn’t find him? "
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_KNO_ReportToKef')==Q_TAKEN"
 		scriptResult="CompleteQuest('r4m1_KNO_ReportToKef'); TakeQuest('r4m1_FPR_MeetWithOldMan'); AddHistory( 'r4_FindBuhara' ); AddFadingMsgId( 'fm_history_got' );"
@@ -1021,31 +1021,31 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_3_N02"
-		text="He won’t come back. He scared himself to death. "
+		text="Unfortunately, I couldn't get the mechanic to come back. He was so terrified of something that he killed himself."
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_3_N03" />
 
 	<Reply
 		name="Kef_Bar_Customer1_3_N03"
-		text="Sad news. But I believe you’ve done everything you could. "
+		text="I'm heartbroken to hear that... But I trust you did the best you could."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_3_N04" />
 
 	<Reply
 		name="Kef_Bar_Customer1_3_N04"
-		text="So, you’ll tell me where to find your elders? "
+		text="So you're still going to tell me where to look for those, who remember?"
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_3_N05" />
 
 	<Reply
 		name="Kef_Bar_Customer1_3_N05"
-		text="Yes, we found their village. The old men live on the coast. We’ll send another rescue party after them as soon as we recover from the last attack. Our elders need proper houses and care, which we are willing to give them. "
+		text="Yes, we found their village. The elders are hiding from everyone on the coast. We’ll send another rescue party after them as soon as we recover from the last attack. It is unfit for honorable men to huddle in huts!"
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_3_N06" />
 
 	<Reply
 		name="Kef_Bar_Customer1_3_N06"
-		text="Thanks, I’ll make sure they know it."
+		text="Thank you, I will pass on your kind words."
 		role="PLAYER"
 		scriptResult="EndConversation()" />
 <!--Root/r4m1/Ñþæåòíûå/Ïðèåõàë â Áóõàðó-->
@@ -1059,25 +1059,25 @@
 
 	<Reply
 		name="r4_Dlg_pl_000072"
-		text="Wait! I’ve come with peace. "
+		text="Wait! I come in peace."
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000073" />
 
 	<Reply
 		name="r4_Dlg_npc_000073"
-		text="That one looks quite normal. How did you find us? "
+		text="This one looks quite normal…| How did you find us? "
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000074" />
 
 	<Reply
 		name="r4_Dlg_pl_000074"
-		text="A kind man from the town showed me the way. He said a rescue party will soon arrive after you. "
+		text="A kind man from the town showed me the way. He said a rescue party will soon arrive for you."
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000075" />
 
 	<Reply
 		name="r4_Dlg_npc_000075"
-		text="The moment I dreaded has come. There’s no point in hiding anymore. We’ll have to fight that battle, brothers. "
+		text="The moment I dreaded has come. Brothers, we can hide no longer. We will fight. And we will die if we have to!"
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000076" />
 
@@ -1089,7 +1089,7 @@
 
 	<Reply
 		name="r4_Dlg_npc_000077"
-		text="Don’t you get it? I’ll tell you our story, drive in. "
+		text="Don’t you get it? I think we have some time left. Come in and hear our story."
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000078 r4_Dlg_pl_000080" />
 
@@ -1101,74 +1101,74 @@
 
 	<Reply
 		name="r4_Dlg_pl_000078"
-		text="Tell me what’s happening here! "
+		text="Explain to me at last what's going on here!"
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000079" />
 
 	<Reply
 		name="r4_Dlg_npc_000079"
-		text="Years ago this was a thriving region. We recovered from the catastrophe soon enough, and we thought we could start our life afresh. But people started to act really strange. One day they would be overjoyed, the next day they would have this evil look in their eyes. "
+		text="Many moons ago our land was a blooming garden. We recovered from the Catastrophe and we thought we could start our life afresh. But we began to notice that people behaved strangely at times. Sometimes their eyes glowed with insane joy, and sometimes they sparkled with furious anger."
 		role="NPC"
 		scriptResult="AddHistory( 'r4_TalkWithBuhares' ); AddFadingMsgId( 'fm_history_got' );"
 		nextReplies="r4_Dlg_pl_000081" />
 
 	<Reply
 		name="r4_Dlg_pl_000081"
-		text="I think I begin to understand. "
+		text="I think I'm starting to understand."
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000082" />
 
 	<Reply
 		name="r4_Dlg_npc_000082"
-		text="People tried to control their emotions, but one day it all collapsed. A man killed his family and had no memory of doing it. He was executed, but ever since that day fear took a strong grip of our hearts. We couldn’t trust our relatives. We couldn’t trust ourselves. "
+		text="At first everyone restrained their emotions, but one day it all came crumbling down. One good man attacked his family and had no recollection of it. He was executed, but ever since that day fear took a strong grip of our hearts. It was no longer possible to trust the people we were closest with. It was impossible to trust ourselves."
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000083" />
 
 	<Reply
 		name="r4_Dlg_pl_000083"
-		text="So, there are no bandits, demons of the desert?"
+		text="So there are no elusive bandits, demons of the desert?"
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000084" />
 
 	<Reply
 		name="r4_Dlg_npc_000084"
-		text="I’m afraid not. People with similar cycles of madness united to attack other groups. Only few survived. They build towns and destroy them the next day. "
+		text="I’m afraid not. Over time, people with aligning cycles of madness united to hunt other groups. Only few survived. After many long agonizing years, only a few have survived. They build towns and destroy them the next day."
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000085" />
 
 	<Reply
 		name="r4_Dlg_pl_000085"
-		text="But how could you avoid the madness? "
+		text="But how could you avoid the madness?"
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000086" />
 
 	<Reply
 		name="r4_Dlg_npc_000086"
-		text="We were too old to feel powerful emotions at the time of the Catastrophe. Strong emotions are for the young; our part is to keep memories and mourn the dead. When we realized what happened, we left the cities to hide from the young. But it couldn’t last long. We’ve been disclosed and they are going to kill us now. I feel them approaching. "
+		text="We were very old even back then, at the time of the Catastrophe. Strong emotions are the domain of the young. It was our lot to keep the memories and mourn the dead. When we realized what had happened, we left the big cities and tried to hide from the sight of the mad. But this couldn’t last forever. Now we are discovered and will be killed very soon. I can already feel the enemies approaching..."
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000087" />
 
 	<Reply
 		name="r4_Dlg_pl_000087"
-		text="I won’t let you die until you tell me everything you know about Ivan! "
+		text="I won’t let you die until you tell me everything you know about Ivan!"
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000088" />
 
 	<Reply
 		name="r4_Dlg_npc_000088"
-		text="Too late. They are attacking. "
+		text="Too late. They are attacking."
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000089" />
 
 	<Reply
 		name="r4_Dlg_pl_000089"
-		text="I’ll fight on your side. "
+		text="I’ll fight on your side!"
 		role="PLAYER"
 		scriptResult="TActivate('cinBuhArmyFirst'); EndConversation()" />
 
 	<Reply
 		name="Buhara_Outside_Leader_2_N01"
-		text="We won this battle, but they are going to be back. It’s just a matter of time. "
+		text="We won this battle, but they will come back. It’s just a matter of time. We have no more strength left to fight."
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_RBC_GotoPort')==Q_CANBEGIVEN"
 		scriptResult="TakeQuest('r4m1_RBC_GotoPort'); TActivate('trPlayerEnterToPort'); TActivate('trCreateBuharers');"
@@ -1176,31 +1176,31 @@
 
 	<Reply
 		name="r4_Dlg_pl_000091"
-		text="What are we gonna do? I can’t just leave you here, can I? How can I get you out of here? "
+		text="What are we going to do? I can’t just leave you here! How can I get you out of here? "
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000092" />
 
 	<Reply
 		name="r4_Dlg_npc_000092"
-		text="There is a port nearby, but there aren’t any ships there. The machinery looks working, though. "
+		text="There is a port nearby, but there aren’t any ships left. Although the machinery is working, we checked."
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000093" />
 
 	<Reply
 		name="r4_Dlg_pl_000093"
-		text="I’ve got a device for calling a rescue ship. You’ll be evacuated to the lands where people are normal. At least more normal than here."
+		text="Excellent, I have a device that I can use to summon a ship. You’ll be evacuated to the lands where people are normal. At least more normal than here."
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000094" />
 
 	<Reply
 		name="r4_Dlg_npc_000094"
-		text="I can’t believe our luck. "
+		text="What a stroke of luck! I can hardly believe it's possible."
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000095" />
 
 	<Reply
 		name="r4_Dlg_pl_000095"
-		text="Show me the port and I’ll call the ship. "
+		text="Show me where the port is, and I'll escort you and call the ship."
 		role="PLAYER"
 		scriptResult="EndConversation();" />
 <!--Root/r3m2/Ïðîåõàòü ê îðàêóëó-->
