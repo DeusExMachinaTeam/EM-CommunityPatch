@@ -78,7 +78,7 @@ function DebugCreate( PrototypeName, Belong )
 end
 
 
-function CreateVehicleEx( PrototypeName, Name, pos, belong )
+function CreateVehicleEx( PrototypeName, Name, pos, belong, rot )
 	local bel
 
 	if belong then
@@ -100,12 +100,9 @@ function CreateVehicleEx( PrototypeName, Name, pos, belong )
 		return nil
 	end
 
---	by Anton: это не нужно, т.к. вызываем SetGamePositionOnGround()
---	local hover = 1.5 * vehicle:GetSize().y
---	pos.y = g_ObjCont:GetHeight( pos.x, pos.z ) + hover
-
-
 	vehicle:SetGamePositionOnGround( pos )
+
+	if rot then vehicle:SetRotation(rot) end
 
 	return vehicle
 end
