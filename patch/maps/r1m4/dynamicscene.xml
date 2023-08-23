@@ -1362,20 +1362,11 @@
 
 	<Object
 		Flags="21"
-		Name="LeaderCaravanSpawn_loc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="2348.362 248.474 2963.589"
-		Radius="258.349"
-		LookingTimeOut="12.000" />
-
-	<Object
-		Flags="21"
 		Name="LeaderCaravanStart_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="2347.385 248.354 2954.580"
-		Radius="680.253"
+		Pos="2387.726 248.912 2911.708"
+		Radius="300.253"
 		LookingTimeOut="60.000" />
 
 	<Object
