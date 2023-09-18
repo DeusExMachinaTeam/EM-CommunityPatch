@@ -3,8 +3,8 @@ name: community_remaster
 
 # required human readable info
 display_name: Community Remaster
-version: "1.14"
-build: "230621a"
+version: "1.14.1"
+build: "230918a"
 description: |
   Community Patch - проект пользовательского мода-патча, основной целью которого является повышение стабильности игры, исправление сюжетных ошибок, катсцен и квестов, улучшения работы игрового движка и некорректно работающих игровых систем.
 
