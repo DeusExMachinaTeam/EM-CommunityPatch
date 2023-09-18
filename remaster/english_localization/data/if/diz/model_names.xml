@@ -3,157 +3,157 @@
 	<Item
 		id="cooling_system_guns"
 		locForm="0"
-		value="Guns cooling system." />
+		value="Water cooling system for bullet weapons" />
 
 	<Item
 		id="cooling_system_energy"
 		locForm="0"
-		value="Energy weapons cooling system." />
+		value="Water cooling system for energy weapons" />
 
 	<Item
 		id="cooling_system_explosion"
 		locForm="0"
-		value="Explosion weapons cooling system." />
+		value="Water cooling system for weapons with explosive projectiles" />
 
 	<Item
 		id="firing_rate_guns"
 		locForm="0"
-		value="Increased guns firing rate." />
+		value="Optimised mechanical trigger" />
 
 	<Item
 		id="firing_range_guns"
 		locForm="0"
-		value="Electro accelerator" />
+		value="Magnetic accelerator" />
 
 	<Item
 		id="firing_rate_energy"
 		locForm="0"
-		value="Increased energy weapons firing rate." />
+		value="Low impedance cable" />
 
 	<Item
 		id="add_damage_guns"
 		locForm="0"
-		value="Increased guns damage." />
+		value="Delayed blowback" />
 
 	<Item
 		id="add_damage_energy"
 		locForm="0"
-		value="Increased energy weapons damage." />
+		value="Silver-mirror light resonator" />
 
 	<Item
 		id="add_damage_explosion"
 		locForm="0"
-		value="Increased explosion weapons damage." />
+		value="Magnetic catapult" />
 
 	<Item
 		id="grouping_angle_guns"
 		locForm="0"
-		value="Increased grouping angle of guns." />
+		value="Optical sight" />
 
 	<Item
 		id="cooling_system_guns2"
 		locForm="0"
-		value="Improved guns cooling system." />
+		value="Air cooling system for bullet weapons" />
 
 	<Item
 		id="cooling_system_energy2"
 		locForm="0"
-		value="Improved energy weapons cooling system." />
+		value="Air cooling system for energy weapons" />
 
 	<Item
 		id="cooling_system_explosion2"
 		locForm="0"
-		value="Improved explosion weapons cooling system." />
+		value="Air cooling system for weapons with explosive projectiles" />
 
 	<Item
 		id="firing_rate_guns2"
 		locForm="0"
-		value="Improved guns firing rate." />
+		value="Solenoid actuator" />
 
 	<Item
 		id="firing_rate_energy2"
 		locForm="0"
-		value="Improved energy weapons firing rate." />
+		value="Superconducting cable" />
 
 	<Item
 		id="grouping_angle_guns2"
 		locForm="0"
-		value="Improved guns grouping angle." />
+		value="Optical sight with anti-reflective coating" />
 
 	<Item
 		id="add_damage_guns2"
 		locForm="0"
-		value="Additional guns damage output." />
+		value="Blowback system with floating coupling" />
 
 	<Item
 		id="add_damage_energy2"
 		locForm="0"
-		value="Additional energy weapons damage output." />
+		value="Quartz resonator" />
 
 	<Item
 		id="add_damage_explosion2"
 		locForm="0"
-		value="Additional explosion weapons damage output." />
+		value="Magnetic catapult based on vortex field generator" />
 
 	<Item
 		id="cooling_system_guns_and_firing_rate_guns"
 		locForm="0"
-		value="Improved guns cooling system and increased firing rate." />
+		value="&quot;Gnomon&quot; system" />
 
 	<Item
 		id="cooling_system_energy_and_firing_rate_energy"
 		locForm="0"
-		value="Improved energy weapons cooling system and increased firing rate." />
+		value="&quot;Algore&quot; system" />
 
 	<Item
 		id="cooling_system_explosion_and_firing_rate_explosion"
 		locForm="0"
-		value="Improved explosion weapons cooling system and increased firing rate." />
+		value="&quot;Samum&quot; system" />
 
 	<Item
 		id="firing_rate_guns_and_add_damage_guns"
 		locForm="0"
-		value="Increased guns firing rate and damage." />
+		value="Electromechanical complex &quot;Spheno&quot;" />
 
 	<Item
 		id="firing_rate_energy_and_add_damage_energy"
 		locForm="0"
-		value="Increased energy weapons firing rate and damage." />
+		value="Magnetic-optical system &quot;Quasar&quot;" />
 
 	<Item
 		id="firing_rate_explosion_and_add_damage_explosion"
 		locForm="0"
-		value="Increased explosion weapons firing rate and damage." />
+		value="Electromechanical complex &quot;Firestorm&quot;" />
 
 	<Item
 		id="add_damage_guns_and_grouping_angle_guns"
 		locForm="0"
-		value="Increased guns damage and grouping angle." />
+		value="&quot;FireEye&quot; complex" />
 
 	<Item
 		id="add_damage_energy_and_firing_rate_energy"
 		locForm="0"
-		value="Increased energy weapons damage and firing rate." />
+		value="&quot;Doom-4&quot; system" />
 
 	<Item
 		id="add_damage_explosion_firing_rate_explosion"
 		locForm="0"
-		value="Increased explosion weapons damage and firing rate." />
+		value="Electromechanical complex &quot;Dawid&quot;" />
 
 	<Item
 		id="additional_fuel_tank"
 		locForm="0"
-		value="Additional fuel tank." />
+		value="Regular fuel canister" />
 
 	<Item
 		id="additional_torque"
 		locForm="0"
-		value="Additional torque." />
+		value="Additional exhaust pipe" />
 
 	<Item
 		id="additional_durability"
 		locForm="0"
-		value="Additional armour." />
+		value="Rolled armour plates for the cabin hull" />
 
 	<Item
 		id="additional_stability"
@@ -163,37 +163,37 @@
 	<Item
 		id="additional_fuel_tank2"
 		locForm="0"
-		value="Improved additional fuel tank." />
+		value="Big fuel canister" />
 
 	<Item
 		id="additional_torque2"
 		locForm="0"
-		value="Additional torque. Advanced model." />
+		value="Turbocharger" />
 
 	<Item
 		id="additional_durability2"
 		locForm="0"
-		value="Additional durability. Advanced model." />
+		value="Rolled armour plates with additional cementing" />
 
 	<Item
 		id="add_speed_and_torque"
 		locForm="0"
-		value="Additional speed and torque." />
+		value="Electronic injector system" />
 
 	<Item
 		id="add_stability_and_speed"
 		locForm="0"
-		value="Improved stability and speed." />
+		value="&quot;Sagitta&quot; system" />
 
 	<Item
 		id="add_torque_and_stability"
 		locForm="0"
-		value="Additional torque and stability." />
+		value="&quot;Albatross&quot; system" />
 
 	<Item
 		id="additional_fuel_tank2_add_damage_guns"
 		locForm="0"
-		value="Additional stability and fuel tank." />
+		value="&quot;Sato&quot; system" />
 
 	<Item
 		id="potato"
@@ -268,7 +268,7 @@
 	<Item
 		id="quest_wine_barrels"
 		locForm="0"
-		value="Barrel of vine" />
+		value="Barrels of wine" />
 
 	<Item
 		id="quest_komp_splav"
@@ -328,17 +328,17 @@
 	<Item
 		id="quest_repair_robot3"
 		locForm="0"
-		value="Tuner" />
+		value="Tuning robot" />
 
 	<Item
 		id="quest_repair_robot1"
 		locForm="0"
-		value="Helper" />
+		value="Helper robot" />
 
 	<Item
 		id="quest_repair_robot2"
 		locForm="0"
-		value="Repairer" />
+		value="Repair robot" />
 
 	<Item
 		id="quest_explosion_stone"
@@ -363,7 +363,7 @@
 	<Item
 		id="someTurboAccelerationPusher"
 		locForm="0"
-		value="Turbo " />
+		value="Turbo" />
 
 	<Item
 		id="engineOilPusher"
@@ -583,7 +583,7 @@
 	<Item
 		id="MolokovozCargo04"
 		locForm="0"
-		value="Trailer ready Bolt" />
+		value="Box with a trailer" />
 
 	<Item
 		id="mirotvorecCab01"
@@ -728,7 +728,7 @@
 	<Item
 		id="fagot01"
 		locForm="0"
-		value="Fagot" />
+		value="Fagotto" />
 
 	<Item
 		id="kpvt01"
@@ -1319,7 +1319,7 @@
 	<Item
 		id="PublicDemoSinks"
 		locForm="0"
-		value="Sinx" />
+		value="Vagabond Sinx" />
 
 	<Item
 		id="PublicDemoBandit1"

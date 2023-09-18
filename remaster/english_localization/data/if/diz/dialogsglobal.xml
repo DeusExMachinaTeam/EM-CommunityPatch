@@ -4251,7 +4251,7 @@
 <!--Root/r1m4/Â Îëüìå-->
 	<Reply
 		name="Olme_Bar_Customer1_1_N01"
-		text="One more visitor from the continent."
+		text="Another visitor from the continent."
 		role="NPC"
 		scriptCondition="QuestStatus('FindGomerA_Quest1')==Q_TAKEN and (GetCurNpc():GetSpokenCount()==0)"
 		scriptResult="GetCurNpc():SetSpokenCount(1);"
@@ -4295,7 +4295,7 @@
 
 	<Reply
 		name="Olme_Bar_Customer1_1_P06"
-		text="Admittedly, no. I apologize if I offended your patriotic sensibilities. I'm looking for old man Homer. I’m looking for old Homer. Ever heard of him?"
+		text="Admittedly, no. I apologize if I offended your patriotic sensibilities. I'm looking for old man Homer. Ever heard of him?"
 		role="PLAYER"
 		nextReplies="Olme_Bar_Customer1_1_N07" />
 

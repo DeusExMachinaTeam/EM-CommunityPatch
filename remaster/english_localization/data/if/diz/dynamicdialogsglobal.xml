@@ -9,7 +9,7 @@
 
 	<Reply
 		name="Dlg_pl_000020"
-		text="Sorry, I came to the wrong place."
+		text="Sorry, I think I've come to the wrong place."
 		role="PLAYER"
 		scriptCondition="GetCurNpc():HasNotTakenDynamicQuests()"
 		scriptResult="ConversationWnd:EndConversation()" />
@@ -46,7 +46,7 @@
 
 	<Reply
 		name="Dynamic00_Destroy01_npc0"
-		text="We noticed somebody burning our crops and poisoning wells. Kill the enemy saboteur to get %3d in reward."
+		text="We've noticed someone burning our crops and poisoning our wells. It's probably an enemy spy. Kill him and you'll get %3d as a reward."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -58,7 +58,7 @@
 
 	<Reply
 		name="Dynamic00_Destroy02_npc0"
-		text="Some crazy murderer is haunting our lands. Get us rid of his foul presence and receive %3d coins in reward."
+		text="There is a madman riding in the neighbourhood, ambushing and scaring the villagers. He's not very dangerous, but people complain. If you take him down, %3d coins are yours."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -82,7 +82,7 @@
 
 	<Reply
 		name="Dynamic00_Reach01_npc0"
-		text="Please deliver this package to %2n. It is a sign of our respect to its people. They will gladly pay you %3d coins for your services."
+		text="We've been putting together a package that need to be delivered to %2n. Deliver it whenever you're passing through. It's not urgent. You'll be paid %3d coins when it's done."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -106,7 +106,7 @@
 
 	<Reply
 		name="Dynamic00_Convoy01_npc0"
-		text="Some local guy is establishing a trade route with %2n. Rivals want to spoil his plan. Help him to get to his destination safely and %3d coins are yours."
+		text="A local is establishing a trade route with %2n. Rivals want to spoil his plan. Help him to get to his destination safely and %3d coins are yours."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -132,7 +132,7 @@
 
 	<Reply
 		name="Dlg_pl_000018"
-		text="It's a pity. Well, I'll come again later"
+		text="It's a pity. Well, I'll come again later."
 		role="PLAYER"
 		scriptResult="ConversationWnd:EndConversation()" />
 
@@ -144,7 +144,7 @@
 
 	<Reply
 		name="Dynamic00_Peace00_npc0"
-		text="You did a hard job making %2b hate you! I have a couple of acquaintances among them so I may be able to improve your reputation a bit for mere %3d percent of your money."
+		text="You did a hell of job making %2b hate you! I have a couple of acquaintances among them so I may be able to improve your reputation a bit for mere %3d percent of your money."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -156,7 +156,7 @@
 
 	<Reply
 		name="Dynamic00_Peace01_npc0"
-		text="As much as I know, %2b treat you like a maggot. If you pay me %3d percent of your money, I can help you to regain some respect among them."
+		text="I know that the %2b don't want to have anything to do with you. For a modest fee of %3d of your monetary possessions, I might perhaps be able to help you gain some semblance of credibility among them."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -180,7 +180,7 @@
 
 	<Reply
 		name="Dynamic00_Hunt01_npc0"
-		text="The bandits really pissed us off! They attack every single car they see. Someone have to teach them a lesson. Shot a couple of them while the people are still angry and you'll get %3d coins for every cold body. "
+		text="The bandits have gone completely mad! Raiding our territory as if it were their own. Someone have to teach them a lesson. Shot a couple of them while the people are still angry and you'll get %3d coins for every cold body."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 </DialogsResource>
