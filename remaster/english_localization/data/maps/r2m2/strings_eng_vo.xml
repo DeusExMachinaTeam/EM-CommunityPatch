@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_1_cd_officer_radio.ogg"
+		value="RADIO|There is a poorly protected village nearby. If you attack it now, the enemy will have to split their forces to protect it. "
+		time="8" />
+
+	<string
+		id="2"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_2_cd_officer_radio.ogg"
+		value="RADIO|It will be a good time to strike. Keep the enemy busy as long as you can, but don’t burn the village down. Go!"
+		time="8" />
+
+	<string
+		id="3"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_3_cd_officer_radio.ogg"
+		value="RADIO|Retreat. You’ve done your part."
+		time="4" />
+
+	<string
+		id="4"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_4_felix.ogg"
+		value="FELIX|Our paths finally crossed! I knew we’d meet again. Now I’m ready for the combat and you won’t get out of here alive. "
+		time="8" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_5_hero.ogg"
+		value="|You are standing between me and my goal. I’ll crush you with no hesitations."
+		time="4" />
+
+	<string
+		id="6"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_6_felix.ogg"
+		value="FELIX|You... are really stronger…"
+		time="4" />
+
+	<string
+		id="7"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_7_cd_officer_radio.ogg"
+		value="RADIO|You’ve proved your devotion to our ideals. Now to your mission. We.captured one of the rebels and learned from him, that they are preparing a meeting with the CIT’s agents."
+		time="8" />
+
+	<string
+		id="8"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_8_cd_officer_radio.ogg"
+		value="RADIO|You will personate the rebel and talk with the agent. Learn from him as much as you can. The meeting will take place at the Toscana bar. The password is: ‘The night is long’, and the reply is: ‘But the dawn is near’."
+		time="8" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_9_hero.ogg"
+		value="|Roger. We shall prevail!"
+		time="4" />
+
+	<string
+		id="10"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_10_cd_officer_radio.ogg"
+		value="RADIO|Victory is ours! Without their leaders, CIT is no match for us. You made our dream come true and you will be rewarded! Zion, the hidden town of Axel, will open its doors for you. Go meet our leader, hero!"
+		time="8" />
+
+	<string
+		id="34"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_24_hero.ogg"
+		value="|Finally that moment has come! "
+		time="4" />
+
+	<string
+		id="11"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_11_axel.ogg"
+		value="AXEL|Why are you in such rage? What have you against me? You are not even the native to these lands!."
+		time="6" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_12_hero.ogg"
+		value="|Do you remember, when you sent the mercenaries to made a raid to frighten the people of Krai? They burnt down my home village and killed my father! "
+		time="12" />
+
+	<string
+		id="13"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_13_axel.ogg"
+		value="AXEL|Do you always believe everything they say? Who sold you this rubbish?"
+		time="5" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_14_hero.ogg"
+		value="|She, who have seen it all with her own eyes."
+		time="4" />
+
+	<string
+		id="15"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_15_axel.ogg"
+		value="AXEL|A girl it was. A beauty on a fast car with dangerous liaisons all over the world, wasn’t she?"
+		time="6" />
+
+	<string
+		id="16"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_16_hero.ogg"
+		value="|Yes, she pretty much matches you description. "
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_17_axel.ogg"
+		value="AXEL|Alice, I now her well. She is a viper in a human form. She has already spoilt my life and that of many other people with her lies. Welcome to the club."
+		time="13" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_18_hero.ogg"
+		value="|Now you will tell anything to save your neck!"
+		time="6" />
+
+	<string
+		id="19"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_19_axel.ogg"
+		value="AXEL|She came to me and begged for protection against the enemies, or so she said. I welcomed her as a gentlemen should. But she robbed me and ran away. I trusted her! "
+		time="11" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_20_hero.ogg"
+		value="|Go on... What about my village?"
+		time="4" />
+
+	<string
+		id="21"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_21_axel.ogg"
+		value="AXEL|Believe me, I have enough troubles in my country. For months now we do not leave positions. We never attacked your home!"
+		time="12" />
+
+	<string
+		id="22"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_22_hero.ogg"
+		value="|You seem to be telling the truth... But being innocent of one crime doesn’t excuse your other atrocities."
+		time="13" />
+
+	<string
+		id="23"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_22_2_hero.ogg"
+		value="|What will you say to the people you tortured, will you be able to return their loved ones to them? Your life will depend on your words."
+		time="11" />
+
+	<string
+		id="24"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_23_axel.ogg"
+		value="AXEL|I saved my people from the famine! Only the strong power will save the world from degradation. I am responsible for every person killed in this war. "
+		time="14" />
+
+	<string
+		id="241"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_23_2_axel.ogg"
+		value="AXEL|I remember them all by names. And I only regret that now it is all in vain."
+		time="10" />
+
+	<string
+		id="25"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_25_axel.ogg"
+		value="AXEL|Hold on! Don’t shoot! What do you need from me? You dot look like a CIT’s soldier."
+		time="7" />
+
+	<string
+		id="26"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_26_hero.ogg"
+		value="|Quite an insight. Actually I have no inertest in your petty row. All I need is to finally meet Alice!"
+		time="12" />
+
+	<string
+		id="27"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_27_axel.ogg"
+		value="AXEL|Ha-ha-ha! Welcome to the club! She spited way too many people."
+		time="9" />
+
+	<string
+		id="28"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_28_hero.ogg"
+		value="|What are you talking about?"
+		time="2" />
+
+	<string
+		id="29"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_29_axel.ogg"
+		value="AXEL|She came to me and begged for protection against the enemies, or so she said. I welcomed her as a gentlemen should. But she used me and my resources and ran away. I almost loved her..."
+		time="17" />
+
+	<string
+		id="30"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_30_hero.ogg"
+		value="|Damn! Does it mean, it was all in vain?! Wait a minute. I know for sure, Alice is in this region! I followed her up to its boundaries."
+		time="15" />
+
+	<string
+		id="31"
+		modelName="mask_axel"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_31_axel.ogg"
+		value="AXEL|Indeed. I was also informed that she returned here. Last time she was seen near the cloister. I was about to pay her a visit at the moment you interfered."
+		time="13" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_32_hero.ogg"
+		value="|Now she won’t get away!"
+		time="11" />
+
+	<string
+		id="33"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_33_hero.ogg"
+		value="|I will spare your life. But your reign is over. Go away and never return!"
+		time="8" />
+
+	<string
+		id="35"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_35_alice.ogg"
+		value="ALICE|I give up! You won!"
+		time="4" />
+
+	<string
+		id="36"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_36_hero.ogg"
+		value="|Give back what you stole from me!"
+		time="4" />
+
+	<string
+		id="37"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_37_alice.ogg"
+		value="ALICE|You do not understand! You won’t be able to use it right... "
+		time="4" />
+
+	<string
+		id="38"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_38_hero.ogg"
+		value="|Don’t push your luck! I want it back now!"
+		time="4" />
+
+	<string
+		id="39"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_39_alice.ogg"
+		value="ALICE|You’re the boss now. Here you go... But first listen to me. I am not a villain, as everybody thinks. I just want to find Ivan Go so badly!"
+		time="8" />
+
+	<string
+		id="40"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_40_hero.ogg"
+		value="|My Father? What do you have to do with him?"
+		time="4" />
+
+	<string
+		id="41"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_41_alice.ogg"
+		value="ALICE|He is the symbol of humanity. The one who will find him or his remains will become a hero and will be able to unite the world under the banners of progress. I just have to accomplish it!"
+		time="12" />
+
+	<string
+		id="42"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_42_hero.ogg"
+		value="|What strange goals you have. And means too..."
+		time="4" />
+
+	<string
+		id="43"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_43_alice.ogg"
+		value="ALICE|Harsh times ask for harsh decisions. I spent all my life solving the puzzle of his disappearance Finally, after years of research I managed to acquire Ivan’s diary. And that’s when you appear! "
+		time="12" />
+
+	<string
+		id="44"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_44_hero.ogg"
+		value="|I can hardly understand you. And I won’t forgive you for the troubles that you’ve caused me. The diary belongs to me and no-one else."
+		time="8" />
+
+	<string
+		id="45"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_45_alice.ogg"
+		value="ALICE|You are so close to finding him. Please, let me go with you. I want to see my quest complete!"
+		time="8" />
+
+	<string
+		id="46"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_46_hero.ogg"
+		value="|I am going to the oracle. Alone! Maybe we shall meet again someday and I will tell you the end of my story."
+		time="8" />
+
+	<string
+		id="47"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m2\r2m2_47_alice.ogg"
+		value="ALICE|Well, I didn't expect you to agree. Good luck."
+		time="4" />
+
+	<string
+		id="50"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_50_hero.ogg"
+		value="|Well, that’s quite a phenomenon. I think the Midgard’s scientists will be interested in it. "
+		time="4" />
+
+	<string
+		id="51"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m2\r2m2_51_hero.ogg"
+		value="|Now you’ll die!"
+		time="4" />
+
+	<string
+		id="8800"
+		value="Do you want to leave Argen for Vahat?"
+		numButtons="2" />
+
+	<string
+		id="8801"
+		value="Do you wish to travel to another region?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Do you wish to travel to another region?"
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="There’s something strange about this place. I don’t want to go there. "
+		time="3" />
+</resource>

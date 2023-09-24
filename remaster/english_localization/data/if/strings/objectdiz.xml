@@ -2,7 +2,7 @@
 <resource>
 	<string
 		id="r1m1_TheTown_diz"
-		value="Small trade town" />
+		value="A tiny town, existing only by trade with passing merchants from the north." />
 
 	<string
 		id="r1m1_PetrolStationTown1_diz"
@@ -122,19 +122,19 @@
 
 	<string
 		id="r1m1_TheContraVillage_diz"
-		value="The locals are often hostile to the visitors" />
+		value="The people of this remote village don't like outsiders." />
 
 	<string
 		id="r1m1_TheGloohoe_diz"
-		value="Home sweet home" />
+		value="Home sweet home." />
 
 	<string
 		id="r1m1_TheOilVillage_diz"
-		value="Prosperous village" />
+		value="Prosperous farming village." />
 
 	<string
 		id="r1m1_TheFreedom_diz"
-		value="Distant village, rarely visited by foreigners" />
+		value="This settlement is the one most often attacked by bandits." />
 
 	<string
 		id="r1m1_ToR1M3_diz"
@@ -214,39 +214,39 @@
 
 	<string
 		id="r1m2_Esting_diz"
-		value="Border town, surrounded by fields" />
+		value="A town surrounded by farmland. It supplies all of Ridzin and a good half of Vaterland with potatoes." />
 
 	<string
 		id="r1m2_Midragd_diz"
-		value="Scientific centre of the new world" />
+		value="The main city of the Technicians. In their own words, &quot;the scientific capital of the reborn world&quot;. Here you can always sell ancient technology and artefacts, and with some luck you can buy a unique piece of equipment." />
 
 	<string
 		id="r1m2_Porto_diz"
-		value="The only known port town" />
+		value="Contrary to popular belief, Technicians are not only hiding behind city walls, but are also looking for ways to navigate the world at higher speeds. This city, a rebuilt and fully functional port, is considered to be the first sign of a maritime revival." />
 
 	<string
 		id="r1m2_TheArtefact_diz"
-		value="Farmer village" />
+		value="Local farmers discovered an ancient warehouse nearby and switched to a career of antiquities hunting." />
 
 	<string
 		id="r1m2_TheSign_diz"
-		value="Farmer village" />
+		value="Farmer village." />
 
 	<string
 		id="r1m2_TheRace_diz"
-		value="Farmer village" />
+		value="It was once the site of a demolition derby, but now all that's left is a field covered in metal debris." />
 
 	<string
 		id="r1m2_TheOlimp_diz"
-		value="Farmer village" />
+		value="It is difficult to say what the local villagers do for a living, but they seem to be quite prosperous." />
 
 	<string
 		id="r1m2_TheTickets_diz"
-		value="Village by the Colosseum" />
+		value="Village by the Colosseum, the ruins of the ancient amphitheatre attract many adventurers to this place." />
 
 	<string
 		id="r1m3_Pesht_diz"
-		value="Bridge town at the crossroads of the major trade roads is the only place in the world where the trucks must pay a fare. Many factions plan to conquer it, but so far no one succeed. " />
+		value="A bridge town at the crossroads of major trade routes, it is the only place in the world that officially charges tolls. That is why various factions have been planning to snatch this neat little corner for a long time now. So far, no one has succeeded." />
 
 	<string
 		id="r1m3_Asgard_diz"
@@ -254,7 +254,7 @@
 
 	<string
 		id="r1m3_Minin_diz"
-		value="It is a bastion of free trade and a model of honest trade achievements." />
+		value="A bastion of free trade and a model of what can be achieved by honest labour. A veritable fortress, ready to greet a &quot;friendly&quot; visit from rivals with a warm welcome from all its weapons." />
 
 	<string
 		id="r1m3_TheShahts_diz"
@@ -262,7 +262,7 @@
 
 	<string
 		id="r1m3_TheForgotten_diz"
-		value="In spite of favorable location, this village is very poor. Probably because it cannot compete with the large factions. Or its people are just lazy." />
+		value="In spite of favorable location, this village is very poor. Maybe because it cannot compete with the large factions. Or maybe its people are just lazy." />
 
 	<string
 		id="r1m3_TheVozleMinin_diz"
@@ -270,7 +270,7 @@
 
 	<string
 		id="r1m3_TheBanditOilMine_diz"
-		value="The source of oil of the NPT." />
+		value="A source of oil. But also a source of wealth of the NPT." />
 
 	<string
 		id="r1m3_TheBase_diz"
@@ -294,55 +294,55 @@
 
 	<string
 		id="r1m4_TheOlme_diz"
-		value="This trade town is the North Path Traders’ important source of wealth. It provides them with rare merchandise and never-ending struggles with the locals." />
+		value="A source of wealth for the North Path Traders’, supplying them with dozens of tons of rare goods every month, perfectly preserved in the weather conditions of Hel. Unfortunately, the native population does not always react adequately to the arrival of foreigners, so the city is very well fortified." />
 
 	<string
 		id="r1m4_FVOnOcean_diz"
-		value="Village of fishers" />
+		value="A fishing village by the ocean. &quot;True fishermen never die&quot; - a local proverb proudly states." />
 
 	<string
 		id="r1m4_FVNearOlme_diz"
-		value="Small village" />
+		value="A village at the intersection of all roads." />
 
 	<string
 		id="r1m4_FVCalis_diz"
-		value="Calis" />
+		value="Settlement by the ruins." />
 
 	<string
 		id="r1m4_FVCordan_diz"
-		value="Cordan" />
+		value="Even swampy soil bears bountiful fruit if it is carefully cultivated one day at a time." />
 
 	<string
 		id="r1m4_FVPerch_diz"
-		value="Perch" />
+		value="A remote mining village. The locals - fishermen at heart - are upset about this situation." />
 
 	<string
 		id="r1m4_FVBerko_diz"
-		value="Berko" />
+		value="A village allied with the merchants." />
 
 	<string
 		id="r1m4_StorageVil_diz"
-		value="Warehouse" />
+		value="A valuable strategic object that is constantly changing hands from fishermen to traders and back again." />
 
 	<string
 		id="r2m1_TheGelvetcia_diz"
-		value="The capital of Commonwealth of Independent Towns. Within its walls strategic plans of battle against Crimson Dawn are born. " />
+		value="The capital of Commonwealth of Independent Towns. Within its walls strategic plans for fighting foreign invaders are born, and it is also the centre of an extensive intelligence network." />
 
 	<string
 		id="r2m1_TheSel_diz"
-		value="This town provides the main industrial support to the CIT army. " />
+		value="The inhabitants of this town and the surrounding villages give everything to the defence of their homeland. It is an industrial base of the CIS but also provides them with food." />
 
 	<string
 		id="r2m1_TheTuzz_diz"
-		value="CIT’s Military base, where hundreds of soldiers await orders to defend the native land. " />
+		value="CIT’s main military base, where hundreds of soldiers are on duty day and night, ready to repel any threat to civilians." />
 
 	<string
 		id="r2m1_TheDoubtful_diz"
-		value="Distant village " />
+		value="Distant village." />
 
 	<string
 		id="r2m1_TheUnderAttaks_diz"
-		value="This settlement is often being attacked by CD’s mercenaries." />
+		value="This settlement close to border is often being attacked by CD’s mercenaries." />
 
 	<string
 		id="r2m1_TheVill2_diz"
@@ -354,31 +354,31 @@
 
 	<string
 		id="r2m2_Monastery_diz"
-		value="Headquarters of the Church of Enlightenment. Few uninitiated actually visited it and returned." />
+		value="Headquarters of the Church of Enlightenment. Few people know what really hides behind its high walls." />
 
 	<string
 		id="r2m2_Marezzia_diz"
-		value="Scared people work here round the clock to provide supplies to the Axel’s mercenaries. " />
+		value="Intimidated people labour here day and night to provide food for Axel's growing army of mercenaries." />
 
 	<string
 		id="r2m2_Zeon_diz"
-		value="Axel’s hidden town. Only a couple of most trusted men know its whereabouts. It is the heart of the Crimson Down." />
+		value="Axel's underground base. Only a handful of those closest to him know its exact location. It was here that the Crimson Dawn movement once originated, eventually spreading across the entire country." />
 
 	<string
 		id="r2m2_Toskana_diz"
-		value="Unassailable fortress that coordinates the actions of a big gang of cutthroats that the people of Argen became." />
+		value="Unassailable fortress that coordinates the actions of a big gang of cutthroats that the Argen militia has turned into." />
 
 	<string
 		id="r2m2_GranicaVillage_diz"
-		value="Boundary settlement. However nobody remembers what border it is about. " />
+		value="A border village, as its name suggests. However, no one remembers which border is meant anymore." />
 
 	<string
 		id="r2m2_ZnakiVillage_diz"
-		value="Farmer settlement." />
+		value="Farmers' settlement." />
 
 	<string
 		id="r2m2_NewVillage_diz"
-		value="The people of this village are often attacked by both sides. " />
+		value="The inhabitants of this village sometimes have to provide services to both warring parties. However, they prefer not to advertise this." />
 
 	<string
 		id="r2m2_EnterToSubmarine_loc_diz"
@@ -386,23 +386,23 @@
 
 	<string
 		id="r3m1_TheSet_diz"
-		value="Grand town of the Druids raise its towers to the skies like the branches of a hundred-year-old oak." />
+		value="Grand town of the Druids, its towers soaring into the sky like the branches of a hundred-year-old oak." />
 
 	<string
 		id="r3m1_TheFist_diz"
-		value="Small settlement in the middle of the forest. A nice place to hide from the storms of the outer world. " />
+		value="Small settlement in the middle of the forest. A nice place to hide from the storms of the outer world." />
 
 	<string
 		id="r3m1_TheUluk_diz"
-		value="Children of Iron, former druids, rebuilt their town according to the new beliefs." />
+		value="The Children of Iron, who had betrayed the faith of the Druids, rebuilt their hometown according to their own ideas of beauty." />
 
 	<string
 		id="r3m1_TheRazboynik_diz"
-		value="Village of ex-brigands" />
+		value="Village of ex-brigands." />
 
 	<string
 		id="r3m1_ToR1M4_diz"
-		value="Road to Hel" />
+		value="From here it is possible to travel to Hel." />
 
 	<string
 		id="r3m2_OracleDefendersVil_diz"
@@ -410,31 +410,31 @@
 
 	<string
 		id="r3m2_AloneDruid_diz"
-		value="Hermitage" />
+		value="The hermit's house." />
 
 	<string
 		id="r4m1_TheGadad_diz"
-		value="Once prosperous town has been reduced almost to rubble in the last few years. It preserved traces or the former greatness, though. " />
+		value="The capital of Vahat and the true jewel of the Oasia. Since ancient times this city has been known for its unsurpassed gunsmiths and architects." />
 
 	<string
 		id="r4m1_TheKef_diz"
-		value="The capital of Vahat is the true jewel of the Oasia. Since older days this town is well known for its unsurpassed gunsmiths and architects. " />
+		value="The once prosperous town has fallen into disrepair in the last few years. It still retains traces of the former greatness, though." />
 
 	<string
 		id="r4m1_TheKazif_diz"
-		value="Townspeople organize spectacular races for everyone willing to participate. Not that there are too many people, however." />
+		value="Townspeople organize spectacular races for everyone willing to participate. Unfortunately, not many people manage to come to this place." />
 
 	<string
 		id="r4m1_r4_AlihamVil_diz"
-		value="Small town on the edge of the desert has witnessed a lot of strange and terrible events. " />
+		value="Small town on the edge of the Desert of Death has witnessed a lot of strange and terrible events." />
 
 	<string
 		id="r4m1_Buhara_loc_diz"
-		value="Ancient port at the shore of the dead sea. Dozens of ships that will never see the ocean again rot here. " />
+		value="Ancient port at the shore of the dead sea. Dozens of ships that will never see the ocean again rot here." />
 
 	<string
 		id="r4m1_TheOilCity_diz"
-		value="Richest oilfield in the world. " />
+		value="Backbone of local authorities - incredibly rich oil field." />
 
 	<string
 		id="r4m1_TheZuhel_diz"
@@ -470,11 +470,11 @@
 
 	<string
 		id="r4m2_ScientiferVillage_diz"
-		value="Scientific settlement founded at near the source of alien radiation." />
+		value="A scientific settlement set on the border of our world and the source of alien radiation." />
 
 	<string
 		id="r4m2_MilitaryBase_diz"
-		value="Whole Oasia dreads this place, where hundreds of madmen gather to start the next attack." />
+		value="Whole Oasia dreads this place. This is where the madmen gather, ready to kill anyone. And from here they begin their bloody campaigns." />
 
 	<string
 		id="r4m2_PetrolStationTower_diz"
@@ -482,49 +482,49 @@
 
 	<string
 		id="demo_TheOlme_diz"
-		value="Large trade town. It is a source of rare merchandise and never-ending struggle with the locals." />
+		value="A source of wealth for the North Path Traders’, supplying them with dozens of tons of rare goods every month, perfectly preserved in the weather conditions of Hel. Unfortunately, the native population does not always react adequately to the arrival of foreigners, so the city is very well fortified." />
 
 	<string
 		id="demo_FVOnOcean_diz"
-		value="Village of fishers." />
+		value="A fishing village by the ocean. &quot;Real fishermen never die&quot; - a local proverb proudly states." />
 
 	<string
 		id="demo_FVNearOlme_diz"
-		value="Small village." />
+		value="A village at the intersection of all roads." />
 
 	<string
 		id="demo_FVCalis_diz"
-		value="Settlement by the ruins " />
+		value="Settlement by the ruins." />
 
 	<string
 		id="demo_FVCordan_diz"
-		value="You can live even by the swamp. " />
+		value="Even swampy soil bears bountiful fruit if it is carefully cultivated one day at a time." />
 
 	<string
 		id="demo_FVPerch_diz"
-		value="Distant miner village." />
+		value="A remote mining village. The locals - fishermen at heart - are upset about this situation." />
 
 	<string
 		id="demo_FVBerko_diz"
-		value="Friends of traders live here." />
+		value="A village allied with the merchants." />
 
 	<string
 		id="r3m1_r3_FarVillage_diz"
-		value="This distant druids’ village serves as a refuge to the people who are tired from the war." />
+		value="This distant druids’ village serves as a refuge to the people who are tired from the war with machine worshipers." />
 
 	<string
 		id="r4m2_CrazyBase_diz"
-		value="Old military base, inhabited by the aggressive madmen. There are few people who passed through it alive. " />
+		value="Old military base, inhabited by the aggressive madmen. There are few people who passed through it alive." />
 
 	<string
 		id="r3m2_AloneDruidBuilding_diz"
-		value="For some reason this sage druid left his brother and live here alone. " />
+		value="The dwelling of a solitary druid. Whether he had become disgusted with the world or had become an outcast, history does not tell us." />
 
 	<string
 		id="ArcadeScout01_diz"
-		value="Though this vehicle doesn’t look impressive, its stats are quite impressive. " />
+		value="Though this vehicle doesn’t look impressive, practically every part of it is unique." />
 
 	<string
 		id="Formula01_diz"
-		value="A race car made of junk." />
+		value="It's just a race car made out of a bunch of junk parts." />
 </resource>

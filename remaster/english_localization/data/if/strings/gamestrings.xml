@@ -130,11 +130,11 @@
 
 	<string
 		id="AddNavPoint"
-		value="Add NavPoint to the radar" />
+		value="Add marker on the radar" />
 
 	<string
 		id="DeleteNavPoint"
-		value="Remove NavPoint from the radar" />
+		value="Remove marker from the radar" />
 
 	<string
 		id="ShotInMinute"

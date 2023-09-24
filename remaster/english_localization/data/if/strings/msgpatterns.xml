@@ -10,5 +10,5 @@
 
 	<string
 		id="MsgQuestCompleted"
-		value="Quest %1s is complete" />
+		value="Quest %1s completed" />
 </resource>

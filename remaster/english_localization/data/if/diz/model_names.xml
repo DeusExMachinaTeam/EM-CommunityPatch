@@ -3,7 +3,7 @@
 	<Item
 		id="cooling_system_guns"
 		locForm="0"
-		value="Water cooling system for bullet weapons" />
+		value="Water cooling system for bullet projectile weapons" />
 
 	<Item
 		id="cooling_system_energy"
@@ -103,7 +103,7 @@
 	<Item
 		id="cooling_system_energy_and_firing_rate_energy"
 		locForm="0"
-		value="&quot;Algore&quot; system" />
+		value="&quot;Algor&quot; system" />
 
 	<Item
 		id="cooling_system_explosion_and_firing_rate_explosion"

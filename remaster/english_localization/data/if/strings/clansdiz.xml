@@ -114,7 +114,7 @@
 
 	<string
 		id="Belong_1015"
-		value="Crimson dawn" />
+		value="Crimson Dawn" />
 
 	<string
 		id="Belong_1015_abb"
@@ -158,7 +158,7 @@
 
 	<string
 		id="Belong_1020_abb"
-		value="IC" />
+		value="CI" />
 
 	<string
 		id="Belong_1021"
@@ -214,7 +214,7 @@
 
 	<string
 		id="Belong_1027_abb"
-		value="Militarists" />
+		value="Militarist" />
 
 	<string
 		id="Belong_1028"
@@ -222,7 +222,7 @@
 
 	<string
 		id="Belong_1028_abb"
-		value="Trappers" />
+		value="Trapper" />
 
 	<string
 		id="Belong_1029"

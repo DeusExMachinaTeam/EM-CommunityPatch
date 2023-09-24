@@ -14,7 +14,7 @@
 
 	<string
 		id="HELP_ID_VEHICLE_CHARACTERISTICS"
-		value=" The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. The right part contains all your vehicle properties, including armor properties and resistances, engine and control stats. You can also rotate 3d image of your truck to get a better view of it. You can equip different guns and gadgets and see you truck image and stats change. If you click the number by the weapon name, you can link it to one of five groups. Later in the game, when you have several guns with different properties, you will find grouping quite useful." />
+		value="The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. The right part contains all your vehicle properties, including armor properties and resistances, engine and control stats. You can also rotate 3d image of your truck to get a better view of it. You can equip different guns and gadgets and see you truck image and stats change. If you click the number by the weapon name, you can link it to one of five groups. Later in the game, when you have several guns with different properties, you will find grouping quite useful." />
 
 	<string
 		id="HELP_ID_QUESTLOG_QUESTS_title"
@@ -30,7 +30,7 @@
 
 	<string
 		id="HELP_ID_QUESTLOG_QUEST_ITEMS"
-		value="The “quest items” button will bring up the special items windows. There you may find a list of objects, needed to complete certain quests as well as its description and 3d image." />
+		value="The “quest items” button will bring up the special items windows. There you may find a list of objects, needed to complete certain quests as well as its description and 3D representation." />
 
 	<string
 		id="HELP_ID_LOCAL_MAP_title"
@@ -90,7 +90,7 @@
 
 	<string
 		id="HELP_ID_SHOP_GUNS_title"
-		value="Marketplace / Weapons and gadgets mode" />
+		value="Shop / Weapons and gadgets mode" />
 
 	<string
 		id="HELP_ID_SHOP_GUNS"
@@ -98,7 +98,7 @@
 
 	<string
 		id="HELP_ID_SHOP_GOODS_title"
-		value="Marketplace / Trade goods mode" />
+		value="Shop / Trade goods mode" />
 
 	<string
 		id="HELP_ID_SHOP_GOODS"
@@ -122,7 +122,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_BASKETS_title"
-		value="Change body " />
+		value="Change body" />
 
 	<string
 		id="HELP_ID_WORKSHOP_BASKETS"
@@ -138,7 +138,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_SKIN_title"
-		value="Color a truck" />
+		value="Painting the truck" />
 
 	<string
 		id="HELP_ID_WORKSHOP_SKIN"
@@ -202,7 +202,7 @@
 
 	<string
 		id="HELP_ID_BAR_title"
-		value="Bar " />
+		value="Bar" />
 
 	<string
 		id="HELP_ID_BAR"
@@ -318,5 +318,5 @@
 
 	<string
 		id="HELP_ID_HOW_TO_USE_MAIN_GAME_INTERFACE_HELP_title"
-		value="Interface explanation." />
+		value="Interface help screen." />
 </resource>

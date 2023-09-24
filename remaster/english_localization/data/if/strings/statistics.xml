@@ -2,7 +2,7 @@
 <resource><!--Default buttons-->
 	<string
 		id="stat_Wares"
-		value="Merchandise sold (t.)" />
+		value="Merchandise sold (pcs.)" />
 
 	<string
 		id="stat_RealTime"
@@ -10,7 +10,7 @@
 
 	<string
 		id="stat_GameTime"
-		value="Days lived within game" />
+		value="In-game days passed" />
 
 	<string
 		id="stat_PeoplesKilled"
@@ -42,5 +42,5 @@
 
 	<string
 		id="stat_HitRatio"
-		value="Hit ratio (%)" />
+		value="Hit accuracy (%)" />
 </resource>

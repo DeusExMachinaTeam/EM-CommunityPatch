@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by JSinx (Targem) -->
+<resource>
+	<string
+		id="1001"
+		modelName="mask_hero"
+		value="|That was a tough battle. What are going to do with this head anyway?"
+		sound="data\sounds\Speech\r3m2\r3m2_1001_hero.ogg"
+		time="4" />
+
+	<string
+		id="1002"
+		modelName="mask_hero"
+		value="|First I must find a way to separate the head from the body. It’ tricky... I see! A couple of minutes more... "
+		sound="data\sounds\Speech\r3m2\r3m2_1002_hero.ogg"
+		time="3" />
+
+	<string
+		id="1003"
+		modelName="mask_hero"
+		value="|Done. Now I may return to the Oracle’s disciples. "
+		sound="data\sounds\Speech\r3m2\r3m2_1003_hero.ogg"
+		time="3" />
+
+	<string
+		id="1004"
+		modelName="mask_hero"
+		value="|What is this shinning? Looks like one of the artifacts the Oracle was talking about."
+		sound="data\sounds\Speech\r3m2\r3m2_1004_hero.ogg"
+		time="1" />
+
+	<string
+		id="1005"
+		modelName="mask_hero"
+		value="|Well done! Now to the second one."
+		sound="data\sounds\Speech\r3m2\r3m2_1005_hero.ogg"
+		time="1" />
+
+	<string
+		id="1006"
+		modelName="mask_hero"
+		value="|I’ve got all I need. The Oracle will be pleased."
+		sound="data\sounds\Speech\r3m2\r3m2_1006_hero.ogg"
+		time="1" />
+
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="|The first repairer is in place. What a nimble fellow!"
+		sound="data\sounds\Speech\r3m2\r3m2_1_hero.ogg"
+		time="1" />
+
+	<string
+		id="2"
+		modelName="mask_hero"
+		value="|The second repairer got down to work. Time to deliver the last one."
+		sound="data\sounds\Speech\r3m2\r3m2_2_hero.ogg"
+		time="1" />
+
+	<string
+		id="3"
+		modelName="mask_hero"
+		value="|The last one is ready to work. I hope it will help the Oracle to regain his memories. "
+		sound="data\sounds\Speech\r3m2\r3m2_3_hero.ogg"
+		time="1" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="|I’ve seen a lot during my travels. But I still don’t get why anyone would leave these mysterious traces on fields. "
+		sound="data\sounds\Speech\r3m2\r3m2_4_hero.ogg"
+		time="1" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		value="|The scientists of Midgard can solve this mystery. "
+		sound="data\sounds\Speech\r3m2\r3m2_5_hero.ogg"
+		time="1" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		value="|The passage is too narrow. My truck won’t go through. And I am not going to walk! "
+		sound="data\sounds\Speech\r3m2\r3m2_6_hero.ogg"
+		time="1" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		value="|I should find a smaller vehicle. I think I saw something like that nearby."
+		sound="data\sounds\Speech\r3m2\r3m2_7_hero.ogg"
+		time="1" />
+
+	<string
+		id="8"
+		modelName="mask_hero"
+		value="|Thanks to the person who left this car here. I can sneak to the factory on this mount. "
+		sound="data\sounds\Speech\r3m2\r3m2_8_hero.ogg"
+		time="1" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		value="|I think no one will object if I borrow if for a while. Let’s check fuel... ignition... Engine start!"
+		sound="data\sounds\Speech\r3m2\r3m2_9_hero.ogg"
+		time="1" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		value="|Incredible speed. I can hardly control it."
+		sound="data\sounds\Speech\r3m2\r3m2_10_hero.ogg"
+		time="1" />
+
+	<string
+		id="11"
+		modelName="mask_hero"
+		value="|I have nothing to do there."
+		sound="data\sounds\Speech\r3m2\r3m2_11_hero.ogg"
+		time="1" />
+<!-- Когда взяли квест принести голову монстра и подъехали к этому самому мостру -->
+	<string
+		id="12"
+		modelName="mask_hero"
+		value="|Here comes the monster. I doubt, he will give up his head without fight."
+		sound="data\sounds\Speech\r3m2\r3m2_12_hero.ogg"
+		time="1" />
+
+	<string
+		id="13"
+		modelName="mask_hero"
+		value="|A strong adversary, but I can handle him!"
+		sound="data\sounds\Speech\r3m2\r3m2_13_hero.ogg"
+		time="1" />
+<!-- Подъехали к заводу, показывает общий план, потом машинка едет к проезду. -->
+	<string
+		id="14"
+		modelName="mask_hero"
+		value="|I’ve never seen such huge ruins. I wonder what was there before the catastrophe..."
+		sound="data\sounds\Speech\r3m2\r3m2_14_hero.ogg"
+		time="1" />
+
+	<string
+		id="15"
+		modelName="mask_hero"
+		value="|The main entrance is blocked; I’ll try my luck following the railroad. "
+		sound="data\sounds\Speech\r3m2\r3m2_15_hero.ogg"
+		time="1" />
+<!--  -->
+	<string
+		id="17"
+		value="You cannot leave this place on this vehicle. It is too dangerous. You'd better use your own truck."
+		numButtons="1" />
+
+	<string
+		id="8801"
+		value="Do you wish to travel to another region?"
+		numButtons="2" />
+</resource>

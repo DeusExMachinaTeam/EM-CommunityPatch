@@ -38,7 +38,7 @@
 
 	<string
 		id="Control"
-		value="Control" />
+		value="Controls" />
 
 	<string
 		id="Exit"
@@ -82,7 +82,7 @@
 <!-- Главное меню -->
 	<string
 		id="New Game"
-		value="New Game" />
+		value="New game" />
 
 	<string
 		id="StartNetGame"
@@ -122,7 +122,7 @@
 
 	<string
 		id="ShowIntro"
-		value="Show Intro" />
+		value="Show intro" />
 
 	<string
 		id="HandleGameOptions"
@@ -130,7 +130,7 @@
 
 	<string
 		id="ShowCredits"
-		value="Show developers list" />
+		value="Show credits" />
 <!-- Окно загрузки -->
 	<string
 		id="load"
@@ -166,7 +166,7 @@
 
 	<string
 		id="ProfileExists"
-		value="A profile with that name already exists! | Enter another name." />
+		value="A profile with that name already exists! |Enter another name." />
 
 	<string
 		id="EmptyProfileName"
@@ -174,11 +174,11 @@
 
 	<string
 		id="ProfileCreateError"
-		value="Profile creating error" />
+		value="Profile creation error" />
 
 	<string
 		id="ProfileDeleteError"
-		value="Profile deleting error" />
+		value="Profile deletion error" />
 
 	<string
 		id="Chose"
@@ -194,11 +194,11 @@
 
 	<string
 		id="CancelExit"
-		value="Close window and withdraw changes" />
+		value="Close window and discard changes" />
 
 	<string
 		id="ChangePlayerProfile"
-		value="Change profile" />
+		value="Change player profile" />
 
 	<string
 		id="ChangeProfile"
@@ -222,7 +222,7 @@
 
 	<string
 		id="LoadWorld"
-		value="LOAD LEVEL" />
+		value="LOADING LEVEL" />
 
 	<string
 		id="InitWorld"
@@ -270,7 +270,7 @@
 
 	<string
 		id="Precaching"
-		value="Caching " />
+		value="Caching" />
 <!-- Окно настроек -->
 	<string
 		id="Video"
@@ -286,11 +286,11 @@
 
 	<string
 		id="Video settings"
-		value="Video Setup" />
+		value="Video and graphics settings" />
 
 	<string
 		id="Far dist"
-		value="Sight Range" />
+		value="Draw distance" />
 
 	<string
 		id="Gamma"
@@ -314,7 +314,7 @@
 
 	<string
 		id="Antialiasing"
-		value="Antialiasing " />
+		value="Antialiasing" />
 
 	<string
 		id="Filtration"
@@ -330,15 +330,15 @@
 
 	<string
 		id="Audio settings"
-		value="Audio Setup" />
+		value="Audio settings" />
 
 	<string
 		id="Fx vol"
-		value="Effects Volume" />
+		value="Effects volume" />
 
 	<string
 		id="Music vol"
-		value="Music Volume" />
+		value="Music volume" />
 
 	<string
 		id="Speak vol"
@@ -350,11 +350,11 @@
 
 	<string
 		id="DialogPause"
-		value="Dialog Pause" />
+		value="Dialog pause" />
 
 	<string
 		id="AutoHelp"
-		value="Automatic hints" />
+		value="Tutorial and hints" />
 
 	<string
 		id="MouseSensitivity"
@@ -370,7 +370,7 @@
 
 	<string
 		id="Keys"
-		value="Keys" />
+		value="Key bindings" />
 
 	<string
 		id="RestoreDef"
@@ -414,7 +414,7 @@
 
 	<string
 		id="MaxQuality"
-		value="Maximal" />
+		value="Maximum" />
 
 	<string
 		id="LowResolution"
@@ -438,7 +438,7 @@
 
 	<string
 		id="AnisotropFiltration"
-		value="Anisotropic " />
+		value="Anisotropic" />
 
 	<string
 		id="CustomFiltration"
@@ -466,7 +466,7 @@
 
 	<string
 		id="OptionsChanged"
-		value="The settings were changed. Do you want to save changes?" />
+		value="The settings have been changed. Do you want to save changes?" />
 
 	<string
 		id="ShadowsQuality"
@@ -474,7 +474,7 @@
 
 	<string
 		id="NumBattleReplies"
-		value="Amount of battle remarks" />
+		value="Frequency of battle shouts" />
 
 	<string
 		id="Control settings"
@@ -482,7 +482,7 @@
 
 	<string
 		id="BindingsChanged"
-		value="Control keys were redefined. Do you want to save changes?" />
+		value="Control keys have been changed. Do you want to save changes?" />
 
 	<string
 		id="GameDifficulty"
@@ -490,19 +490,19 @@
 
 	<string
 		id="EasyLevel"
-		value="Easy" />
+		value="Rookie" />
 
 	<string
 		id="MediumLevel"
-		value="Medium" />
+		value="Experienced" />
 
 	<string
 		id="HardLevel"
-		value="Hard" />
+		value="Professional" />
 
 	<string
 		id="ImpossibleLevel"
-		value="Impossible" />
+		value="Master" />
 <!-- DemoSplashWnd -->
 	<string
 		id="Targem Link Tip"
