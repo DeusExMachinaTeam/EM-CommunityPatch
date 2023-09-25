@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<?xml version='1.0' encoding='windows-1251'?>
 <resource>
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|It’s a death-trap. I won’t go there without a reason."
+		value="|It's a dangerous place. I don't want to get into this swamp without an important reason."
 		sound="data\sounds\Speech\r1m4\r1m4_1_hero.ogg" />
 
 	<string
 		id="2"
 		modelName="mask_hero"
-		value="|It seems to be the very place, Homer was talking about. I’ll cross the swamp here."
+		value="|This seems to be the place Homer was talking about. I'll try to cross the swamp here."
 		sound="data\sounds\Speech\r1m4\r1m4_2_hero.ogg" />
 
 	<string
 		id="3"
 		modelName="mask_hero"
-		value="|The old man was telling the truth. There was a solid ground under the thin layer of mud. I wonder what awaits me beyond the swamp. "
+		value="|The old man was right, there was a solid bottom beneath the layer of mud. I wonder what is waiting for me on the other side?"
 		sound="data\sounds\Speech\r1m4\r1m4_3_hero.ogg" />
 
 	<string
@@ -24,14 +24,14 @@
 		modelSkin="2"
 		modelCfg="132"
 		modelSlot="1"
-		value="GUARD|Keep away! Any hostile actions will result in your death!"
+		value="GUARD|Do not approach! Any suspicious actions will be considered as aggression!"
 		sound="data\sounds\Speech\r1m4\r1m4_4_guard.ogg"
 		time="4" />
 
 	<string
 		id="5"
 		modelName="mask_hero"
-		value="|You are transporting the cargo that I need. Give it up and I will pay for it!"
+		value="|You carry the cargo I need. I will pay you generously for it."
 		sound="data\sounds\Speech\r1m4\r1m4_5_hero.ogg"
 		time="4" />
 
@@ -41,14 +41,14 @@
 		modelSkin="2"
 		modelCfg="132"
 		modelSlot="1"
-		value="GUARD|Are you trying to bribe us? How dare you! "
+		value="GUARD|Attempted bribery of an official in the line of duty! "
 		sound="data\sounds\Speech\r1m4\r1m4_6_guard.ogg"
 		time="4" />
 
 	<string
 		id="7"
 		modelName="mask_hero"
-		value="|Well, let’s do it bad way. Free the prisoner and get out of here before I get angry! "
+		value="|Looks like I'm going to have to do this the hard way. Free the prisoner and get the hell out of here. You won't get a second chance."
 		sound="data\sounds\Speech\r1m4\r1m4_7_hero.ogg"
 		time="4" />
 
@@ -58,21 +58,21 @@
 		modelSkin="2"
 		modelCfg="132"
 		modelSlot="1"
-		value="GUARD| To arms! We’ll show this bastard what’s for!"
+		value="GUARD|Everyone to the guns! Let's show that impudent man how to mess with the officers of the law!"
 		sound="data\sounds\Speech\r1m4\r1m4_8_guard.ogg"
 		time="4" />
 
 	<string
 		id="9"
 		modelName="mask_hero"
-		value="|You asked for it. I must not hit the prisoner’s car; the others may go to Hell!"
+		value="|You chose to do it yourself. The main thing is not to hit the trailer with the prisoner. The rest can burn in flames!"
 		sound="data\sounds\Speech\r1m4\r1m4_9_hero.ogg"
 		time="4" />
 
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|What are you waiting for? Get in the car! Hurry, they may have called for the reinforcements."
+		value="|What are you waiting for? Get in my truck. Hurry, they could have called for help.  "
 		sound="data\sounds\Speech\r1m4\r1m4_10_hero.ogg"
 		time="4" />
 
@@ -82,21 +82,21 @@
 		modelSkin="0"
 		modelCfg="86"
 		modelSlot="1"
-		value="LEADER|Thanks for liberating me, stranger, but who are you? I am not sure I can trust you..."
+		value="LEADER|Thank you for freeing me, stranger. But what are your motives? I'm not sure I can trust you."
 		sound="data\sounds\Speech\r1m4\r1m4_11_leader.ogg"
 		time="4" />
 
 	<string
 		id="12"
 		modelName="mask_hero"
-		value="|I made a deal with your fighters. I set you free, they give me something I need. And I already kept my part of the bargain."
+		value="|I made a deal with your men that I would free you in exchange for the one thing I need. And they had better hold up their part of the bargain!"
 		sound="data\sounds\Speech\r1m4\r1m4_12_hero.ogg"
 		time="4" />
 
 	<string
 		id="13"
 		modelName="mask_hero"
-		value="|Oops, the prisoner’s car exploded. The leader is dead and I have nothing else to offer to the extremists."
+		value="|Unfortunately, the prisoner's trailer got exploded in the heat of the moment. He's dead, and I have nothing to offer to the extremists..."
 		sound="data\sounds\Speech\r1m4\r1m4_13_hero.ogg"
 		time="4" />
 
@@ -109,42 +109,42 @@
 
 	<string
 		id="15"
-		value="CLAW|Intruder, Alert!"
+		value="CLAW|Forbidden Zone!"
 		sound="data\sounds\Speech\r1m4\r1m4_15_boss.ogg"
 		time="4" />
 
 	<string
 		id="16"
 		modelName="mask_hero"
-		value="|What the?.. Why the hell would anyone build such a monster? "
+		value="|Oh, my God! What the...? Why did the people of Old World need such machines?"
 		sound="data\sounds\Speech\r1m4\r1m4_16_hero.ogg"
 		time="4" />
 
 	<string
 		id="17"
 		modelName="mask_hero"
-		value="|I see, this creature is guarding the Sea gate. Well, I have to bypass him. Not sure if the bullets will damage him. There must be some trick in defeating him."
+		value="|This monster guards the passage to the Sea Gate. I need to find a way to defeat it... I'm not sure if regular bullets will work on its body."
 		sound="data\sounds\Speech\r1m4\r1m4_17_hero.ogg"
 		time="4" />
 
 	<string
 		id="18"
 		modelName="mask_hero"
-		value="|This is the right place, but I see no gates around... Was it all in vain?"
+		value="|This is the place that Homer mentioned, but I don't see any gate. Was it all for nothing?!"
 		sound="data\sounds\Speech\r1m4\r1m4_18_hero.ogg"
 		time="4" />
 
 	<string
 		id="19"
 		modelName="mask_hero"
-		value="|Wait a minute, the key is getting warm. Something is going out of the water! Ancient people were definitely crazy, creating such monsters. Looks like another battle is ahead. "
+		value="|What's that coming out of the water? I just killed one monster and another one's on the way... This one's a little calmer, though."
 		sound="data\sounds\Speech\r1m4\r1m4_19_hero.ogg"
 		time="4" />
 
 	<string
 		id="20"
 		modelName="mask_hero"
-		value="|Wait, it doesn’t attack. Looks like it is inviting me to enter its mouth. I see, that’s the Sea gate! In the belly of the monster-fish I will travel to the Oracle’s land. Anyway, I have nothing to lose. Full speed ahead!"
+		value="|It seems he's inviting me into his jaws. So this is the Sea Gate! In the belly of the beast I will swim to the Oracle. It's scary, of course... Well, I've got nothing to lose. Only forward!"
 		sound="data\sounds\Speech\r1m4\r1m4_20_hero.ogg"
 		time="4" />
 
