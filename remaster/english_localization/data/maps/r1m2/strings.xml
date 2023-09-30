@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<?xml version='1.0' encoding='windows-1251'?>
 <resource>
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|Strange indeed. It looks like some kind of a print. No wonder people are scared, who knows what Evil tainted this field. Maybe the scientists from Midgard can help."
+		value="|A strange phenomenon... It's like a trace... No wonder people are frightened: I do not feel at ease here myself. I'd better go and tell Midgard about it."
 		sound="data\sounds\Speech\r1m2\r1m2_1_hero.ogg"
 		time="12" />
 
@@ -13,7 +13,7 @@
 		modelSkin="1"
 		modelCfg="70"
 		modelSlot="1"
-		value="BANDIT|Well, well! You’ve come to the wrong place, pal!"
+		value="BANDIT|Well-well, who's coming to see us?"
 		sound="data\sounds\Speech\r1m2\r1m2_20_bandit.ogg"
 		time="4" />
 
@@ -181,7 +181,7 @@
 		modelSkin="1"
 		modelCfg="62"
 		modelSlot="1"
-		value="ARBITER|Let the battle begin!"
+		value="ORATOR|The battle begins."
 		sound="data\sounds\Speech\r1m2\r1m2_221_arbiter.ogg"
 		time="4" />
 
@@ -191,7 +191,7 @@
 		modelSkin="1"
 		modelCfg="62"
 		modelSlot="1"
-		value="ARBITER|Get ready to rumble!"
+		value="ORATOR|Let the battle begin!"
 		sound="data\sounds\Speech\r1m2\r1m2_222_arbiter.ogg"
 		time="4" />
 
@@ -223,7 +223,7 @@
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="I don’t know the way, so I’ll better stay here."
+		value="|I don't know where this road leads, so I'll stay here."
 		time="3" />
 
 	<string

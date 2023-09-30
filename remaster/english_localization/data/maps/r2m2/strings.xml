@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<?xml version='1.0' encoding='windows-1251'?>
 <resource>
 	<string
 		id="1"
@@ -6,7 +6,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_1_cd_officer_radio.ogg"
-		value="RADIO|There is a poorly protected village nearby. If you attack it now, the enemy will have to split their forces to protect it. "
+		value="RADIO|Not far from you is an almost defenseless village. If you attack now, the enemy will have to draw forces away from more important targets."
 		time="8" />
 
 	<string
@@ -15,7 +15,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_2_cd_officer_radio.ogg"
-		value="RADIO|It will be a good time to strike. Keep the enemy busy as long as you can, but don’t burn the village down. Go!"
+		value="RADIO|Then we'll strike another place. Remember, your job is to endure as long as possible, not burn down the village. Do it."
 		time="8" />
 
 	<string
@@ -24,7 +24,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_3_cd_officer_radio.ogg"
-		value="RADIO|Retreat. You’ve done your part."
+		value="RADIO|Retreat. You have done your job."
 		time="4" />
 
 	<string
@@ -34,14 +34,14 @@
 		modelCfg="172"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_4_felix.ogg"
-		value="FELIX|Our paths finally crossed! I knew we’d meet again. Now I’m ready for the combat and you won’t get out of here alive. "
+		value="BANDIT FELIX|Well-well, our paths have crossed. I told you we'd meet again. Now I'm ready for the fight, and you won't get out of here alive!"
 		time="8" />
 
 	<string
 		id="5"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_5_hero.ogg"
-		value="|You are standing between me and my goal. I’ll crush you with no hesitations."
+		value="|You stand between me and my goal. I will not hesitate to destroy you."
 		time="4" />
 
 	<string
@@ -51,7 +51,7 @@
 		modelCfg="172"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_6_felix.ogg"
-		value="FELIX|You... are really stronger…"
+		value="BANDIT FELIX|You are... really stronger than me..."
 		time="4" />
 
 	<string
@@ -60,7 +60,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_7_cd_officer_radio.ogg"
-		value="RADIO|You’ve proved your devotion to our ideals. Now to your mission. We.captured one of the rebels and learned from him, that they are preparing a meeting with the CIT’s agents."
+		value="RADIO|You proved your loyalty to the common cause.  On the corpse of one traitor we found a note saying that he would soon meet with CIT agents."
 		time="8" />
 
 	<string
@@ -69,14 +69,14 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_8_cd_officer_radio.ogg"
-		value="RADIO|You will personate the rebel and talk with the agent. Learn from him as much as you can. The meeting will take place at the Toscana bar. The password is: ‘The night is long’, and the reply is: ‘But the dawn is near’."
+		value="RADIO|You will meet with him instead of the rebel and find out all you can. You have to act according to the circumstances. The meeting is in the Toskana's bar. Password: &quot;The night is long&quot;, recall: &quot;But the dawn is near&quot;."
 		time="8" />
 
 	<string
 		id="9"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_9_hero.ogg"
-		value="|Roger. We shall prevail!"
+		value="|I got it. Our victory is close."
 		time="4" />
 
 	<string
@@ -85,7 +85,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_10_cd_officer_radio.ogg"
-		value="RADIO|Victory is ours! Without their leaders, CIT is no match for us. You made our dream come true and you will be rewarded! Zion, the hidden town of Axel, will open its doors for you. Go meet our leader, hero!"
+		value="The enemies are defeated! Without their leaders, they cannot stand against us! You have brought the glorious hour of victory closer and will be generously rewarded. Zion, the secret city of Axel, awaits you."
 		time="8" />
 
 	<string
@@ -100,7 +100,7 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_11_axel.ogg"
-		value="AXEL|Why are you in such rage? What have you against me? You are not even the native to these lands!."
+		value="AXEL|Stop, don't shoot! What do you want from me? You're not even from around here."
 		time="6" />
 
 	<string
@@ -130,14 +130,14 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_15_axel.ogg"
-		value="AXEL|A girl it was. A beauty on a fast car with dangerous liaisons all over the world, wasn’t she?"
+		value="AXEL|Lisa? Pretty girl with a fast car and dangerous connections?"
 		time="6" />
 
 	<string
 		id="16"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_16_hero.ogg"
-		value="|Yes, she pretty much matches you description. "
+		value="|Yeah. You described her very accurately."
 		time="4" />
 
 	<string
@@ -213,14 +213,14 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_25_axel.ogg"
-		value="AXEL|Hold on! Don’t shoot! What do you need from me? You dot look like a CIT’s soldier."
+		value="AXEL|Stop, don't shoot! What do you want from me? You don't look like an ordinary CIT soldier."
 		time="7" />
 
 	<string
 		id="26"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_26_hero.ogg"
-		value="|Quite an insight. Actually I have no inertest in your petty row. All I need is to finally meet Alice!"
+		value="|What insight! I admit I don't care much for your local squabbles. I just want to get to Lisa!"
 		time="12" />
 
 	<string
@@ -228,7 +228,7 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_27_axel.ogg"
-		value="AXEL|Ha-ha-ha! Welcome to the club! She spited way too many people."
+		value="AXEL|Ha-ha-ha! You can get in line! So she's managed to mess with you, too. What a hellcat!"
 		time="9" />
 
 	<string
@@ -243,14 +243,14 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_29_axel.ogg"
-		value="AXEL|She came to me and begged for protection against the enemies, or so she said. I welcomed her as a gentlemen should. But she used me and my resources and ran away. I almost loved her..."
+		value="AXEL|She came to me seeking protection from her enemies, so she said. I took her into my home, and she stole from me and fled. She used my resources and my people for her own purposes. And I almost loved her..."
 		time="17" />
 
 	<string
 		id="30"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_30_hero.ogg"
-		value="|Damn! Does it mean, it was all in vain?! Wait a minute. I know for sure, Alice is in this region! I followed her up to its boundaries."
+		value="|Goddamn it! So I came all this way for nothing?! Wait, I know for a fact that Lisa is around here somewhere! I followed her to the borders of this region."
 		time="15" />
 
 	<string
@@ -258,21 +258,21 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_31_axel.ogg"
-		value="AXEL|Indeed. I was also informed that she returned here. Last time she was seen near the cloister. I was about to pay her a visit at the moment you interfered."
+		value="AXEL|I also got a report that she had returned to our territory... She was last seen near the monastery. I was about to pay her a visit when you interrupted me so unceremoniously."
 		time="13" />
 
 	<string
 		id="32"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_32_hero.ogg"
-		value="|Now she won’t get away!"
+		value="|Well, now the villain won't escape me! To the monastery! And let no one stand in my way!"
 		time="11" />
 
 	<string
 		id="33"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_33_hero.ogg"
-		value="|I will spare your life. But your reign is over. Go away and never return!"
+		value="|I will spare you. But your reign is over. Let the people decide for themselves how to live their lives."
 		time="8" />
 
 	<string
@@ -377,14 +377,14 @@
 		id="50"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_50_hero.ogg"
-		value="|Well, that’s quite a phenomenon. I think the Midgard’s scientists will be interested in it. "
+		value="|Wow! Curious natural phenomenon. I think scientists in Midgard would be interested in it!"
 		time="4" />
 
 	<string
 		id="51"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_51_hero.ogg"
-		value="|Now you’ll die!"
+		value="|Now you're going to die!"
 		time="4" />
 
 	<string
@@ -408,6 +408,6 @@
 		id="8803"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
-		value="There’s something strange about this place. I don’t want to go there. "
+		value="|It's a strange place. I'd better stay away from here."
 		time="3" />
 </resource>

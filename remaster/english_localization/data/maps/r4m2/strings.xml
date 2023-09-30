@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by JSinx (Targem) -->
+<?xml version='1.0' encoding='windows-1251'?>
 <resource>
 	<string
 		id="101"
 		modelName="mask_hero"
-		value="|I will have to go though this base in order to proceed further. Looks dangerous."
+		value="|I have to drive through this base to achieve my goal. That looks dangerous."
 		sound="data\sounds\Speech\r4m2\r4m2_101_hero.ogg"
 		time="1" />
 
@@ -17,35 +17,35 @@
 	<string
 		id="201"
 		modelName="mask_hero"
-		value="|This truck looks somewhat familiar. Where did I see this symbol? "
+		value="|I feel as if I know this truck. This symbol, I've seen it somewhere before... "
 		sound="data\sounds\Speech\r4m2\r4m2_201_hero.ogg"
 		time="1" />
 
 	<string
 		id="202"
 		modelName="mask_hero"
-		value="|Indeed, it is Ivan’s car! Let’s take a closer look."
+		value="|That's Ivan Go's car, my dad's car! I'll have to take a closer look."
 		sound="data\sounds\Speech\r4m2\r4m2_202_hero.ogg"
 		time="1" />
 
 	<string
 		id="203"
 		modelName="mask_hero"
-		value="|His body is not inside. He probably continued to walk. Hopefully he may still be alive!"
+		value="|His body is not inside, so he went further on foot."
 		sound="data\sounds\Speech\r4m2\r4m2_203_hero.ogg"
 		time="1" />
 
 	<string
 		id="204"
 		modelName="mask_hero"
-		value="|It is so close... Why am I am afraid of what awaits me ahead."
+		value="|He's very close - but why am I afraid of what lies ahead?"
 		sound="data\sounds\Speech\r4m2\r4m2_204_hero.ogg"
 		time="1" />
 
 	<string
 		id="301"
 		modelName="mask_hero"
-		value="|Oh my god! What a cursed place!"
+		value="|Oh gods! What is this cursed place?"
 		sound="data\sounds\Speech\r4m2\r4m2_301_hero.ogg"
 		time="1" />
 
@@ -59,21 +59,21 @@
 	<string
 		id="303"
 		modelName="mask_hero"
-		value="|Now I see what the Scientist was talking about."
+		value="|Now I get it..."
 		sound="data\sounds\Speech\r4m2\r4m2_303_hero.ogg"
 		time="1" />
 
 	<string
 		id="304"
 		modelName="mask_hero"
-		value="|Are they alive? Maybe I can save them?"
+		value="|What draws these people here? What if I can still save them?"
 		sound="data\sounds\Speech\r4m2\r4m2_304_hero.ogg"
 		time="1" />
 
 	<string
 		id="401"
 		modelName="mask_hero"
-		value="|So many bandits! Where are they coming from? I won’t hold out for long."
+		value="|Damn, there are so many bandits here! And more and more! "
 		sound="data\sounds\Speech\r4m2\r4m2_401_hero.ogg"
 		time="1" />
 
@@ -117,35 +117,35 @@
 		value="|You are right... But I’ll be back!"
 		sound="data\sounds\Speech\r4m2\r4m2_406_hero.ogg"
 		time="1" />
-<!-- Подъехали близко к падшей тарелке -->
+
 	<string
 		id="501"
 		modelName="mask_hero"
-		value="I can feel the power luring me towards this huge building."
+		value="|I feel the power beckoning me to the Overlord."
 		sound="data\sounds\Speech\r4m2\r4m2_501_hero.ogg"
 		time="1" />
 
 	<string
 		id="502"
 		modelName="mask_hero"
-		value="|I gotta go faster! The truck is too slow! I’d rather walk..."
+		value="|Faster! How slowly this vehicle moves! Argh, hell with it!"
 		sound="data\sounds\Speech\r4m2\r4m2_502_hero.ogg"
 		time="1" />
 
 	<string
 		id="503"
 		modelName="mask_hero"
-		value="|It is close already, but I can hardly move."
+		value="|I can't stop, but it's getting harder and harder for me to walk..."
 		sound="data\sounds\Speech\r4m2\r4m2_503_hero.ogg"
 		time="1" />
 
 	<string
 		id="504"
 		modelName="mask_hero"
-		value="|What’s... happening?.. I... cannot... m-o-v-e..."
+		value="|Goddamn it... I... can... n-o-t... m...o...v...e... Argh..."
 		sound="data\sounds\Speech\r4m2\r4m2_504_hero.ogg"
 		time="1" />
-<!-- когда поговорили с ученым и выбрали одну из сюжетных линий, игрока перебрасывают почти к выходу с карты -->
+
 	<string
 		id="510"
 		modelName="r4_man"

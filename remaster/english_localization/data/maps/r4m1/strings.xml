@@ -1,97 +1,91 @@
-<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<?xml version='1.0' encoding='windows-1251'?>
 <resource>
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|I crossed the Desert of Death! And even here I can feel the human presence. I am on the right track!"
+		value="|I crossed the desert of death! And even here there are traces of human. People seem to settle everywhere."
 		sound="data\sounds\Speech\r4m1\r4m1_1_hero.ogg"
 		time="1" />
 
 	<string
 		id="2"
 		modelName="mask_hero"
-		value="|First of all, I gotta repair and reload my truck. There must be a settlement nearby. "
+		value="|First of all, I need to find a workshop where I can fill up and get repaired, and then we'll see what to do."
 		sound="data\sounds\Speech\r4m1\r4m1_2_hero.ogg"
 		time="1" />
 
 	<string
 		id="3"
 		modelName="mask_hero"
-		value="|Here’s the Oil storage. Now I have to load the truck with oil and get back. There should be no problems with that."
+		value="|Here's the oil depot, got here without too much trouble. Now I'll load up the truck and trailer and head back."
 		sound="data\sounds\Speech\r4m1\r4m1_3_hero.ogg"
 		time="1" />
 
 	<string
-		id="4"
-		image=""
+		id="4" image=""
 		value="Congratulations! You have won the race! "
 		time="5" />
 
 	<string
-		id="5"
-		image=""
+		id="5" image=""
 		value="Congratulations! You won the second prize."
 		time="5" />
 
 	<string
-		id="6"
-		image=""
+		id="6" image=""
 		value="Congratulations! You won the third prize."
 		time="5" />
 
 	<string
-		id="7"
-		image=""
+		id="7" image=""
 		value="You have lost!"
 		time="5" />
 
 	<string
-		id="8"
-		image=""
+		id="8" image=""
 		value="You ruined the car and cannot continue the race."
 		time="5" />
 
 	<string
-		id="9"
-		image=""
+		id="9" image=""
 		value="False start! You have lost!"
 		time="5" />
 
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|I always dreamt about a trailer! Dreams come true! "
+		value="|I've dreamed of driving a car with a trailer for a long time. Dreams come true..."
 		sound="data\sounds\Speech\r4m1\r4m1_10_hero.ogg"
 		time="5" />
 
 	<string
 		id="11"
 		modelName="mask_hero"
-		value="|My old good truck, I started to worry about you. To hell with the trailer! I like my vehicle the way it is."
+		value="|My precious truck. I miss it already! Hell with the trailer, I'm fine as it is."
 		sound="data\sounds\Speech\r4m1\r4m1_11_hero.ogg"
 		time="5" />
-<!-- Привезли бухарцев в порт -->
+
 	<string
 		id="12"
 		modelName="r4_man"
 		modelSkin="0"
 		modelCfg="135"
 		modelSlot="1"
-		value="OLD MAN|Now we are safe, thanks to you!"
+		value="BUKHARIAN'S ELDER|Here we are in port. Thank you for protecting us from the enemy."
 		sound="data\sounds\Speech\r4m1\r4m1_12_oldman.ogg"
 		time="5" />
 
 	<string
 		id="13"
 		modelName="mask_hero"
-		value="|It was a pleasure helping you out. Good luck with traveling overseas! "
+		value="|You are always welcome. Have a good trip to other lands."
 		sound="data\sounds\Speech\r4m1\r4m1_13_hero.ogg"
 		time="5" />
-<!-- Эта строка если с Лисой ехали -->
+
 	<string
 		id="14"
 		modelName="mask_hero"
-		value="|And take Alice with you. She seems to be thrown out of balance."
+		value="|And take Lisa with you, because she's not all right."
 		sound="data\sounds\Speech\r4m1\r4m1_14_hero.ogg"
 		time="5" />
 
@@ -101,36 +95,36 @@
 		modelSkin="0"
 		modelCfg="135"
 		modelSlot="1"
-		value="OLD MAN|One more thing. Now that I know you better, I can tell you about the man you seek. Ivan Go visited our village years ago. He asked many questions and left to the east. The deadliest part of the desert lies that way. Please, come with us. Do not follow him, only death awaits you there..."
+		value="BUKHARIAN'S ELDER|I didn't want to tell you this at first, but the man you asked about did stay in our village. He went further east. I beseech you, don't follow him. Only death awaits you there. Or something worse than death."
 		sound="data\sounds\Speech\r4m1\r4m1_15_oldman.ogg"
 		time="5" />
-<!-- Инженер сдох -->
+
 	<string
 		id="16"
 		modelName="mask_hero"
-		value="|God damn you! Something scared him to death... Poor fellow got completely crazy in the end. |What am I supposed to tell in Kef now?"
+		value="|Goddamn it! What's got him so terrified? He's out of his mind, poor guy..."
 		sound="data\sounds\Speech\r4m1\r4m1_16_hero.ogg"
 		time="5" />
 
 	<string
 		id="17"
 		modelName="mask_hero"
-		value="|What am I supposed to tell in Kef now?"
+		value="|What will I say in town now?"
 		sound="data\sounds\Speech\r4m1\r4m1_17_hero.ogg"
 		time="5" />
-<!-- Лиса бесится -->
+
 	<string
 		id="18"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ALICE|I don’t feel good... Something is happening to me since our arrival to this desert."
+		value="LISA|I don't feel well. As soon as we arrived in this desert, I felt strange."
 		sound="data\sounds\Speech\r4m1\r4m1_18_alice.ogg"
 		time="5" />
 
 	<string
 		id="19"
 		modelName="mask_hero"
-		value="|Stay cool! We are close to the goal now!"
+		value="|Stay strong! I feel like we're not far from our goal!"
 		sound="data\sounds\Speech\r4m1\r4m1_19_hero.ogg"
 		time="5" />
 
@@ -138,14 +132,14 @@
 		id="20"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ALICE|It’s all your fault! You dragged me here and now you are going to let me die! "
+		value="LISA|All because of you! You're the one who brought me here, and now you're going to leave me to die in the middle of the goddamn dunes!"
 		sound="data\sounds\Speech\r4m1\r4m1_20_alice.ogg"
 		time="5" />
 
 	<string
 		id="21"
 		modelName="mask_hero"
-		value="|[She cracked, after all. That's all I need!] Alice, calm down. Everything is all right. Look at me. I never meant you any harm. "
+		value="|[She seems to have lost her mind. Damn, this is bad.] Listen, Lisa, it's okay, your feet are warm. Count to ten and calm down."
 		sound="data\sounds\Speech\r4m1\r4m1_21_hero.ogg"
 		time="1" />
 
@@ -153,7 +147,7 @@
 		id="22"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ALICE|Sorry... I see... I’ll try to keep myself in hand... It’s all that frigging desert!"
+		value="LISA|I'm sorry... There's something going on with me... I'll try to control myself... this desert... is crushing my mind..."
 		sound="data\sounds\Speech\r4m1\r4m1_22_alice.ogg"
 		time="5" />
 
@@ -166,7 +160,7 @@
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="I don’t know the way, so I’ll better stay here. " />
+		value="|I don't know where this road leads, so I'll stay here." />
 
 	<string
 		id="8803"
@@ -178,8 +172,7 @@
 		id="8804"
 		modelName="mask_hero"
 		value="Looks like the device that summons the boat isn't working. Or some barbarians have broken the local machinery. Anyway, I will have to drive."
-		numButtons="1"
-		 />
+		numButtons="1" />
 
 
 	<string
