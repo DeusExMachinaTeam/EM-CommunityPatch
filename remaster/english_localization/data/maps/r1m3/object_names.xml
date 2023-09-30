@@ -26,11 +26,11 @@
 
 	<Object
 		Name="Bonny"
-		FullName="Tramp Conny" />
+		FullName="Tramp Connie" />
 
 	<Object
 		Name="Bonny1"
-		FullName="Tramp Conny" />
+		FullName="Tramp Connie" />
 
 	<Object
 		Name="AsgardBarman"
@@ -54,7 +54,7 @@
 
 	<Object
 		Name="Pesht_Bar"
-		FullName="Bar ''Pest''" />
+		FullName="Bar ''Pesht''" />
 
 	<Object
 		Name="Pesht_Bar_Barman"

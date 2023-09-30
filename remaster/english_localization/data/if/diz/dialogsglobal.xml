@@ -1485,7 +1485,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_2_P062"
-		text="My home was attacked by people from the east, from the other side of the Death Desert. I’ve got to find them, but no one knows how to survive in that eerie place."
+		text="My home was attacked by people from the east, from the other side of the Desert of Death. I’ve got to find them, but no one knows how to survive in that eerie place."
 		role="PLAYER"
 		nextReplies="r3m2_Oracle_Oracle_2_N072" />
 
@@ -1765,7 +1765,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N06a"
-		text="Has Ivan been to the Death Desert? There should be a clue on the disk as to how to cross the sands!"
+		text="Has Ivan been to the Desert of Death? There should be a clue on the disk as to how to cross the sands!"
 		role="PLAYER"
 		nextReplies="r3m2_Oracle_Oracle_5_N07a" />
 
@@ -3232,7 +3232,7 @@
 
 	<Reply
 		name="Mopl_he"
-		text="I know Alice is here! Give her to me, or I'll blow your monastery to pieces!"
+		text="I know Lisa is here! Give her to me, or I'll blow your monastery to pieces!"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000538" />
 
@@ -3600,7 +3600,7 @@
 
 	<Reply
 		name="Dlg_pl_000448"
-		text="Has Alice been here?"
+		text="Has Lisa been here?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000449" />
 
@@ -5733,7 +5733,7 @@
 
 	<Reply
 		name="Dlg_npc_d3d261"
-		text="Everybody needs Alice. But no one is going to get her! Ha-ha-ha!"
+		text="Everybody needs Lisa. But no one is going to get her! Ha-ha-ha!"
 		role="NPC"
 		nextReplies="Dlg_pl_d3d262" />
 
@@ -6091,7 +6091,7 @@
 
 	<Reply
 		name="Dlg_pl_d3d260"
-		text="I need to talk to Alice!"
+		text="I need to talk to Lisa!"
 		role="PLAYER"
 		nextReplies="Dlg_npc_d3d261" />
 
@@ -6109,7 +6109,7 @@
 
 	<Reply
 		name="Dlg_pl_d3d266"
-		text="I’m looking for a girl. She’s average height, good looking and is driving a vehicle of unusual design and color. She called herself Alice."
+		text="I’m looking for a girl. She’s average height, good looking and is driving a vehicle of unusual design and color. She called herself Lisa."
 		role="PLAYER"
 		nextReplies="Dlg_npc_d3d267" />
 
@@ -6857,13 +6857,13 @@
 
 	<Reply
 		name="Dlg_pl_xyz460"
-		text="I am looking for a girl. Her name is Alice. Do you happen to know where she is now?"
+		text="I am looking for a girl. Her name is Lisa. Do you happen to know where she is now?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_001287" />
 
 	<Reply
 		name="Dlg_npc_001287"
-		text="Alice was here, but she left for Porto not that long ago."
+		text="Lisa was here, but she left for Porto not that long ago."
 		role="NPC"
 		nextReplies="Dlg_pl_001288" />
 
@@ -7120,13 +7120,13 @@
 
 	<Reply
 		name="Dlg_pl_xyz462"
-		text="Don't you know where I can find a girl named Alice?"
+		text="Don't you know where I can find a girl named Lisa?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_001289" />
 
 	<Reply
 		name="Dlg_npc_001289"
-		text="Alice hadn't been here in a while. Maybe something slowed her down on her way here. Bandits are rampant on our roads... Their hideout is on the river bank further downstream."
+		text="Lisa hadn't been here in a while. Maybe something slowed her down on her way here. Bandits are rampant on our roads... Their hideout is on the river bank further downstream."
 		role="NPC"
 		nextReplies="Dlg_pl_001290" />
 

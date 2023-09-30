@@ -18,7 +18,7 @@
 
 	<Object
 		Name="Set_Bar_Customer1"
-		FullName="Finnie " />
+		FullName="Finnie" />
 
 	<Object
 		Name="Set_Shop"
@@ -110,7 +110,7 @@
 
 	<Object
 		Name="Raz_Bar_Lisa"
-		FullName="Alice" />
+		FullName="Lisa" />
 
 	<Object
 		Name="ToR2M1"

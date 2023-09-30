@@ -663,7 +663,7 @@
 	<Item
 		id="denscoutCab"
 		locForm="1"
-		value="Alice's car cab" />
+		value="Lisa's car cab" />
 
 	<Item
 		id="scoutCab01"
@@ -1023,7 +1023,7 @@
 	<Item
 		id="LisaCar"
 		locForm="1"
-		value="Alice" />
+		value="Lisa" />
 
 	<Item
 		id="DemoFighter1"

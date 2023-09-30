@@ -258,7 +258,7 @@
 
 	<string
 		id="Belong_1042"
-		value="Alice" />
+		value="Lisa" />
 
 	<string
 		id="Belong_1042_abb"
@@ -450,7 +450,7 @@
 <!-- Îïèñàíèÿ -->
 	<string
 		id="Belong_1002_diz"
-		value="Anyone may fall a victim to these raiders. They usually attack in small groups." />
+		value="Nothing is sacred to these wandering bandits. Anyone can fall victim to their attacks, be it a lone traveler or an armed caravan." />
 
 	<string
 		id="Belong_1003_diz"
@@ -458,59 +458,59 @@
 
 	<string
 		id="Belong_1004_diz"
-		value="Nowadays their numbers grew thin. But if you met one of these noble guys, you may expect help in any situation." />
+		value="Nowadays their numbers grew thin. But if you happen to meet an Explorer, you can count on a pleasant conversation and help in any trouble." />
 
 	<string
 		id="Belong_1005_diz"
-		value="Independent traders, eager to trade with anyone." />
+		value="Independent traders who have not joined any major faction are eager to trade with anyone who they meet." />
 
 	<string
 		id="Belong_1006_diz"
-		value="Most dangerous warriors of the new world form this respectful faction. They fight for money but strictly honor their code." />
+		value="Most dangerous warriors of the new world form this esteemed guild. They fight for money, but abide by strict code of honor." />
 
 	<string
 		id="Belong_1007_diz"
-		value="Hard times often give birth to the different sects, some of which are really dangerous." />
+		value="In turbulent times, heralds of disaster appear everywhere, often themselves contributing to its imminent arrival." />
 
 	<string
 		id="Belong_1008_diz"
-		value="The farmers cultivate the land as their ancestors. Having nothing but their vegetables, they rarely get attacked by raiders.   " />
+		value="The farmers cultivate the land as their ancestors. Having nothing but their vegetables, they rarely get attacked by raiders." />
 
 	<string
 		id="Belong_1009_diz"
-		value="Simple people dislike Technicians for their knowledge and cowardice. " />
+		value="The common people dislike this group, because the Technicians, who collect knowledge of the ancient world, share it only for a high price. Furthermore, they mostly operate with the hands of mercenaries, preferring to stay behind the security of their walls." />
 
 	<string
 		id="Belong_1010_diz"
-		value="Honest traders that make money on the oil trade. Now they search new unexplored territories for rare merchandise." />
+		value="Honest traders who built their initial capital by trading oil. They then managed to establish a foothold in the inhospitable northern region of Hel and built an entire city there, leading the faction to even greater fortunes. Unscrupulous competitors often engage in sabotage against them." />
 
 	<string
 		id="Belong_1011_diz"
-		value="This faction is known for their relations with the bandits. Supposedly, they deal with stolen goods. " />
+		value="Detractors call them Secret Alliance for some past misdeeds and for their ties to various gangs and mercenaries. It is not without reason that the Alliance is believed to have been buying up stolen goods and not being shy about dealing in contraband." />
 
 	<string
 		id="Belong_1012_diz"
-		value="One of the many local gangs, willing to take control over the Vaterland. They managed to get inside the ancient military base, which gave them unlimited access to all kinds of weapons." />
+		value="One of the many local gangs, willing to take control over the Vaterland. The situation is complicated by the fact that they managed to get into an ancient military base and get hold of the real power to accomplish what they set out to do." />
 
 	<string
 		id="Belong_1013_diz"
-		value="Racketeers that toll the whole Krai. It’s been that way for many years and seems to suit everybody." />
+		value="Small-time criminals who have settled on the fruitful lands of the Krai and collect rent from farmers in exchange for &quot;protection&quot; from other gangs. This situation has been going on for several years now, and seems to be acceptable to everyone." />
 
 	<string
 		id="Belong_1014_diz"
-		value="No one knows what these people manage to fish from the lifeless waters of the ocean. But the fishers seem quite happy with their lives." />
+		value="It is unknown what they manage to catch in the freezing dead waters, but these folk live a prosperous life. Sometimes they trade with outsiders, but more often they just attack foreigners without warning." />
 
 	<string
 		id="Belong_1015_diz"
-		value="Inspired by the charismatic leader Axel, people of Argen are fighting with their neighbors. They also use the services of mercenaries of all kinds." />
+		value="Inspired by the charismatic leader Axel, the inhabitants of Argen have risen in unison to fight their neighbors, who once wronged them, and are quite successful in expanding their zone of influence, taking under their control all the new villages. They are not shy of using the services of mercenaries and cutthroats of all stripes." />
 
 	<string
 		id="Belong_1016_diz"
-		value="The sudden attack of loyal neighbors united the people of Librium. Now they are fiercely fighting for independence.  They prefer espionage and sabotage to open struggles. " />
+		value="The sudden attack of once friendly neighbors united the people of Librium, and following the testaments of their ancestors, they decided to fight for their independence. In waging war, they resort more often to espionage and sabotage than to brute force." />
 
 	<string
 		id="Belong_1017_diz"
-		value="This mysterious organization has adepts all over the world." />
+		value="This mysterious organization has adepts all over the world. Although the active support of AR has somewhat tarnished their reputation as seekers of truth and order, the Church's influence is considerable." />
 
 	<string
 		id="Belong_1018_diz"
@@ -518,31 +518,31 @@
 
 	<string
 		id="Belong_1019_diz"
-		value="Children of the nature, who live according to the ancient cult laws." />
+		value="These children of nature live in peace with the universe, growing unseen trees and performing rituals at their roots, they celebrate life in all its manifestations. They do not fancy foreigners, considering them to be depraved people." />
 
 	<string
 		id="Belong_1020_diz"
-		value="Ex druids, that left the faction to form their own sect of machine worshippers." />
+		value="The ex-Druids, disillusioned with their faith, have begun worshipping metal idols, which keep appearing in the Sacred Grove. They are friendly to the newcomers from across the sea and willingly trade with them. The Children of Iron themselves are hoping to someday have stainless steel bodies as strong as the idols they worship." />
 
 	<string
 		id="Belong_1021_diz"
-		value="Small sect of the Oracle worshippers." />
+		value="A small sect that lives near the Oracle's tower and honors him as a god." />
 
 	<string
 		id="Belong_1022_diz"
-		value="The creations of hellfire able to crush stones and fell the tallest trees. Meeting with these abominations spells sure death. " />
+		value="Mysterious creations of hellfire, capable of shattering huge rocks and toppling giant trees. An encounter with any of their tribe brings swift death. Only the Children of Iron were able to find common language with them." />
 
 	<string
 		id="Belong_1023_diz"
-		value="Natives of Oasia, they are rebuilding their hometown after a long war, but for some reason they cannot succeed." />
+		value="The natives of Oasia, who are trying to rebuild what the long war destroyed. But for some reason, they can't seem to finish what they started...." />
 
 	<string
 		id="Belong_1024_diz"
-		value="People, constantly suffering from the attacks of the desert raiders." />
+		value="The natives of Oasia." />
 
 	<string
 		id="Belong_1025_diz"
-		value="The long war seems to be over but the attacks continue. There’s no peace in these lands." />
+		value="A people tormented by the constant attacks of an unknown enemy. But for some reason they can never win...." />
 
 	<string
 		id="Belong_1026_diz"
@@ -618,7 +618,7 @@
 
 	<string
 		id="Belong_1053_diz"
-		value="PowerStation" />
+		value="The people of Sel remain neutral and supply power to both warring sides. No one but them can maintain the power plant, so they have not been attacked so far." />
 
 	<string
 		id="Belong_1054_diz"
@@ -634,7 +634,7 @@
 
 	<string
 		id="Belong_1062_diz"
-		value="A group of madmen haunts the desert. They only seek death to others or to themselves. " />
+		value="A group of madmen haunts the desert. They only seek death to others or to themselves." />
 
 	<string
 		id="Belong_1063_diz"
