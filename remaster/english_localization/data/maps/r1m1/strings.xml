@@ -11,7 +11,7 @@
 	<string
 		id="2"
 		modelName="mask_hero"
-		value="|Good morning to you, too. What are you nervous about?"
+		value="|Good morning to you, too. What are you so nervous about?"
 		sound="data\sounds\Speech\r1m1\r1m1_2_hero.ogg"
 		time="3" />
 
@@ -19,7 +19,7 @@
 		id="3"
 		modelName="mask_father"
 		modelSlot="1"
-		value="FATHER|Okay, cool it. There you go. Today's a big day in your life. You've always been a great help to me, and you've learned a lot from me... So, I've decided it's time for you to come of age."
+		value="FATHER|Okay, take it easy. There you go. Today's a big day in your life. You've always been a great help to me and hopefully you've learned a lot in that time... So, I've decided it's time for your coming of age."
 		sound="data\sounds\Speech\r1m1\r1m1_3_father.ogg"
 		time="17" />
 
@@ -27,14 +27,14 @@
 		id="31"
 		modelName="mask_father"
 		modelSlot="1"
-		value="FATHER|Now you're a real man and you can do whatever you want, even start a family... But, of course, it's better to ask permission first."
+		value="FATHER|You're a real man now and can do whatever you want, even start a family... Heh, although it would be better to ask for permission first, of course."
 		sound="data\sounds\Speech\r1m1\r1m1_31_father.ogg"
 		time="12" />
 
 	<string
 		id="4"
 		modelName="mask_hero"
-		value="|Is this the day?! I thought I was going to be marinated on this farm until I was old!"
+		value="|Is this the day?! I began to wonder if I'm going to be stuck on this farm till my old age!"
 		sound="data\sounds\Speech\r1m1\r1m1_4_hero.ogg"
 		time="6" />
 
@@ -56,7 +56,7 @@
 	<string
 		id="6"
 		modelName="mask_hero"
-		value="|What, I can get in right now and go wherever I want?"
+		value="|What, I can get in right away and go wherever I want?"
 		sound="data\sounds\Speech\r1m1\r1m1_6_hero.ogg"
 		time="4" />
 
@@ -64,7 +64,7 @@
 		id="7"
 		modelName="mask_father"
 		modelSlot="1"
-		value="FATHER|Well, if you're in such a hurry to drive, go to Sowth and give Sergo this package. We'll talk when you get back."
+		value="FATHER|Well, if you're in such a hurry to get behind the wheel, head down to Sowth and deliver Sergo this package. We'll talk when you get back."
 		sound="data\sounds\Speech\r1m1\r1m1_7_father.ogg"
 		time="12" />
 
@@ -87,7 +87,7 @@
 		id="1112"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="LISA|Done. Let's move on."
+		value="LISA|Done. Let's get going."
 		sound="data\sounds\Speech\r1m1\r1m1_1112_lisa.ogg"
 		time="3" />
 
@@ -95,14 +95,14 @@
 		id="1121"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="LISA|Gosh, what a waste of time! I know he's around here somewhere! Are you sure we've been around all the settlements around here?"
+		value="LISA|Gosh, what a waste of time! I know he's around here somewhere! Boy, are you sure we've covered all the settlements around here?"
 		sound="data\sounds\Speech\r1m1\r1m1_1121_lisa.ogg"
 		time="7" />
 
 	<string
 		id="1122"
 		modelName="mask_hero"
-		value="|Yes, all the villages like you said. However, there is still one village left, Glukhoe."
+		value="|Yes, all the villages, just like you said. Although, there's one village left, Glukhoe. But you won't find buyers for your stuff there. Just what exactly are you looking for?"
 		sound="data\sounds\Speech\r1m1\r1m1_1122_hero.ogg"
 		time="10" />
 
@@ -110,7 +110,7 @@
 		id="1123"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="LISA|So why are you messing with my head? How do I get there?"
+		value="LISA|So why are you wasting my time? How do I get there?"
 		sound="data\sounds\Speech\r1m1\r1m1_1123_lisa.ogg"
 		time="4" />
 
@@ -125,14 +125,14 @@
 		id="1125"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="LISA|This is where we part ways: I'm tired of following your wreck. Besides, where there is no road for you, my car will pass easily. You held up your part of the deal. Here's your money."
+		value="LISA|This is where we part ways: I'm tired of following your clunker. Besides, where there is no road for you, my car will pass easily. You've kept your end of the bargain. Here's your money."
 		sound="data\sounds\Speech\r1m1\r1m1_1125_lisa.ogg"
 		time="11" />
 
 	<string
 		id="1126"
 		modelName="mask_hero"
-		value="|What was she looking for? It's time for me to go home, too. I'm going to find out what my father was so worried about."
+		value="|So what was she looking for? It's time for me to head home, too. Time to find out what father was so worried about."
 		sound="data\sounds\Speech\r1m1\r1m1_1126_hero.ogg"
 		time="7" />
 
@@ -142,14 +142,14 @@
 		modelSkin="0"
 		modelCfg="172"
 		modelSlot="1"
-		value="BANDIT FELIX|There's our troublemaker. My sources tell me that you've become Lisa's assistant, and she's a generous girl... For a little contribution of 1000 coins you can continue your dirty business and even rely on our support."
+		value="BANDIT FELIX|And here's our troublemaker. My sources tell me that you've become Lisa's assistant, and she's a generous girl... For a little contribution of 1000 coins you can continue your dirty business and even count on our support."
 		sound="data\sounds\Speech\r1m1\r1m1_1131_felix.ogg"
 		time="19" />
 
 	<string
 		id="1132"
 		modelName="mask_hero"
-		value="|Really? I don't have that much money! And who are you people anyway?"
+		value="|What are you going on about? I don't have that kind of money! And who are you people anyway?"
 		sound="data\sounds\Speech\r1m1\r1m1_1132_hero.ogg"
 		time="5" />
 
@@ -159,7 +159,7 @@
 		modelSkin="0"
 		modelCfg="172"
 		modelSlot="1"
-		value="BANDIT FELIX|We're going to' sell your car for parts to compensate us the moral damage. Attack him!"
+		value="BANDIT FELIX|Then we'll have to sell your car for parts to compensate us the moral damage. Get him!"
 		sound="data\sounds\Speech\r1m1\r1m1_1133_felix.ogg"
 		time="7" />
 
@@ -176,7 +176,7 @@
 	<string
 		id="1141"
 		modelName="mask_hero"
-		value="|I can’t believe my eyes! Everybody’s dead... What a monster could do it?.."
+		value="|Oh, no! Father! What monster could have done such a thing. Everyone I've ever loved and known is dead."
 		sound="data\sounds\Speech\r1m1\r1m1_1141_hero.ogg"
 		time="11" />
 
@@ -190,14 +190,14 @@
 	<string
 		id="1143"
 		modelName="mask_hero"
-		value="|There’s only one thing I can do... Avenge! I will find you, murderer!"
+		value="|There's only one thing I can do for them: revenge! No matter how far the killer runs, I will find him even at the edge of the world! And destroy him! You hear me, I will find you!"
 		sound="data\sounds\Speech\r1m1\r1m1_1143_hero.ogg"
 		time="13" />
 
 	<string
 		id="1144"
 		modelName="mask_hero"
-		value="|Wait... Felix was angry with me the last time we met. He had the motive and the means to do it... He won’t get away with it!"
+		value="|What if it was Felix who gathered his cronies and attacked a defenceless village? If that's the case, he's a dead man! He often hangs out at the Sowth's bar. There I'll start looking."
 		sound="data\sounds\Speech\r1m1\r1m1_1144_hero.ogg"
 		time="11" />
 
@@ -214,14 +214,14 @@
 		modelSkin="0"
 		modelCfg="172"
 		modelSlot="1"
-		value="BANDIT FELIX|Bah, all the familiar faces. Teach this insolent bastard a lesson!"
+		value="BANDIT FELIX|Bah, all the familiar faces. Teach this cheeky bastard a lesson!"
 		sound="data\sounds\Speech\r1m1\r1m1_1152_felix.ogg"
 		time="6" />
 
 	<string
 		id="1153"
 		modelName="mask_hero"
-		value="|Is that all you've got? Come out and fight like a man!!"
+		value="|Is that all you've got? Come out and fight like a man!"
 		sound="data\sounds\Speech\r1m1\r1m1_1153_hero.ogg"
 		time="5" />
 
@@ -231,14 +231,14 @@
 		modelSkin="0"
 		modelCfg="172"
 		modelSlot="1"
-		value="BANDIT FELIX|The guy's pretty good... Where did he get that kind of weaponry? All right, you want to do something good - you do it yourself. Step aside."
+		value="BANDIT FELIX|The guy's pretty good... Where did he get that kind of weaponry? All right, you want something done right - you do it yourself. Step aside."
 		sound="data\sounds\Speech\r1m1\r1m1_1154_felix.ogg"
 		time="10" />
 
 	<string
 		id="1155"
 		modelName="mask_hero"
-		value="|Now you will die for all your crimes!"
+		value="|Now you will die for your crimes!"
 		sound="data\sounds\Speech\r1m1\r1m1_1155_hero.ogg"
 		time="3" />
 
@@ -248,14 +248,14 @@
 		modelSkin="0"
 		modelCfg="172"
 		modelSlot="1"
-		value="BANDIT FELIX|Wait, I haven't killed anyone in years. We had a deal with the locals! You're the one who broke into my house and started killing my people!"
+		value="BANDIT FELIX|Wait, I haven't killed anyone in years. We had a deal with the locals! You're the one who barged into my home and attacked my men."
 		sound="data\sounds\Speech\r1m1\r1m1_1156_felix.ogg"
 		time="10" />
 
 	<string
 		id="1157"
 		modelName="mask_hero"
-		value="|Only you would have the strength and cruelty to burn down an entire village!"
+		value="|Only you have the manpower and audacity to burn down an entire village!"
 		sound="data\sounds\Speech\r1m1\r1m1_1157_hero.ogg"
 		time="5" />
 
@@ -306,7 +306,7 @@
 	<string
 		id="11513"
 		modelName="mask_hero"
-		value="|Lisa... I feel she had something to do with all this... All right, Felix, I'll keep you alive. Go on your way. Just don't show your face around this lands again!"
+		value="|Lisa... I feel she had something to do with all this... I'm gonna find her and figure out what really happened. All right, Felix, I will spare your life. Pack up and get the hell outta here. But don't you ever show up around here ever again!"
 		sound="data\sounds\Speech\r1m1\r1m1_11513_hero.ogg"
 		time="17" />
 
@@ -372,7 +372,7 @@
 		modelAutosized="true"
 		modelName="quest_letter"
 		modelSlot="1"
-		value="LETTER | &quot;...Son, if you are reading this letter, it means I couldn't go back and raise you myself. I know that Peter has brought you up nicely. I see you, so young and full of strength, and my heart is filled with tears...&quot;"
+		value="LETTER | &quot;...Son, if you are reading this letter, it means I couldn't go back and raise you myself. I know that Peter has brought you up nicely. I can almost see you, so young and full of strength, and my heart is filled with tears...&quot;"
 		sound="data\sounds\Speech\r1m1\r1m1_33334_letter.ogg"
 		time="16" />
 
@@ -390,20 +390,20 @@
 		modelAutosized="true"
 		modelName="quest_letter"
 		modelSlot="1"
-		value="LETTER | &quot;...Only by doing what I had planned I could calm down and feel like a human being again.  If not... then I don't deserve to live.  This letter is an apology. Forgive me if you can. You are always in my heart, son.&quot;"
+		value="LETTER|&quot;...Only by doing what I had planned I could find peace and feel like a human being again.  If not... then I don't deserve to live.  This letter is an apology. Forgive me if you can. You are always in my heart, son.&quot;"
 		sound="data\sounds\Speech\r1m1\r1m1_33336_letter.ogg"
 		time="16" />
 
 	<string
 		id="33337"
 		modelName="mask_hero"
-		value="|Is that all? No explanation... How can I forgive someone I never knew? There's nothing left for me to do here. I'm going to search for Ben. Whoever it is, I hope he can help me find myself. Maybe they've heard of him in Sowth?"
+		value="|Is that all? No explanation... How can I forgive someone I never knew? There's nothing left for me to do here. I'm going to search for Ben. Whoever that is, I hope he can help me find myself. Maybe somebody heard of him in Sowth?"
 		sound="data\sounds\Speech\r1m1\r1m1_33337_hero.ogg"
 		time="16" />
 
 	<string
 		id="8800"
-		value="This is the first time you play Hard Trucks: Apocalypse. Do you want to get hints on how to play?"
+		value="This is the first time you play Hard Truck: Apocalypse. Do you want to get hints on how to play?"
 		numButtons="2" />
 
 	<string
@@ -432,7 +432,7 @@
 		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
 		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
 		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
-		value="@ffffffff|    History has not kept an exact record of the dark times immediately following the Catastrophe. All that is known is that people survived the poisoned air by wearing protective masks. This creation of an unknown inventor equaled everyone. The thin barrier that stood in the way of imminent death became a symbol of the new humanity. The masks united the people and gave them strength to fight for a place under the sun.||    New settlements emerged away from the old cities, which had become mass graves. Little by little, connections were formed between the disparate groups of survivors. Farmers, miners, traders - a return to simple activities was only beneficial to the people who had been left behind.||    But nothing can change the nature of man. There were those who retained the wisdom of the ages to share with the world. There were also those who chose destruction over creation."
+		value="@ffffffff|    History has not kept an exact record of the dark times immediately following the Catastrophe. All that is known is that people survived the poisoned air by wearing protective masks. This creation of an unknown inventor equaled everyone. The thin barrier that stood in the way of imminent death became a symbol of the new humanity. The masks united the people and gave them strength to fight for a place under the sun.||    New settlements emerged away from the old cities, which had become mass graves. Little by little, connections were formed between the disparate groups of survivors. Farmers, miners, traders - a return to simple activities seemed to be only beneficial to the distraught people.||    But nothing can change the nature of man. There were those who retained the ancient wisdom to share with the world. There were also those who chose destruction over creation."
 		sound="data\sounds\Speech\rolik\r1m1_969_narrator.ogg"
 		fontSize="18"
 		scrollSpeed="0.5"
@@ -445,7 +445,7 @@
 		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
 		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
 		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
-		value="@ffffffff|    History has not kept an exact record of the dark times immediately following the Catastrophe. All that is known is that people survived the poisoned air by wearing protective masks. This creation of an unknown inventor equaled everyone. The thin barrier that stood in the way of imminent death became a symbol of the new humanity. The masks united the people and gave them strength to fight for a place under the sun.||    New settlements emerged away from the old cities, which had become mass graves. Little by little, connections were formed between the disparate groups of survivors. Farmers, miners, traders - a return to simple activities was only beneficial to the people who had been left behind.||    But nothing can change the nature of man. There were those who retained the wisdom of the ages to share with the world. There were also those who chose destruction over creation."
+		value="@ffffffff|    History has not kept an exact record of the dark times immediately following the Catastrophe. All that is known is that people survived the poisoned air by wearing protective masks. This creation of an unknown inventor equaled everyone. The thin barrier that stood in the way of imminent death became a symbol of the new humanity. The masks united the people and gave them strength to fight for a place under the sun.||    New settlements emerged away from the old cities, which had become mass graves. Little by little, connections were formed between the disparate groups of survivors. Farmers, miners, traders - a return to simple activities seemed to be only beneficial to the distraught people.||    But nothing can change the nature of man. There were those who retained the ancient wisdom to share with the world. There were also those who chose destruction over creation."
 		sound="data\sounds\Speech\rolik\r1m1_969_narrator.ogg"
 		fontSize="18"
 		scrollSpeed="0.55"
@@ -453,6 +453,6 @@
 
 	<string
 		id="90000"
-		value="Hard Trucks: Apocalypse||Do you want to get hints on how to play?"
+		value="Hard Truck: Apocalypse||Do you want to get hints on how to play?"
 		numButtons="2" />
 </resource>

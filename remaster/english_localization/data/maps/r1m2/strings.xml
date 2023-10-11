@@ -3,7 +3,7 @@
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|A strange phenomenon... It's like a trace... No wonder people are frightened: I do not feel at ease here myself. I'd better go and tell Midgard about it."
+		value="|What a strange thing... It's like a mark. No wonder people are afraid: I'm feeling uneasy here myself. I'd better go and report this phenomenon to Midgard."
 		sound="data\sounds\Speech\r1m2\r1m2_1_hero.ogg"
 		time="12" />
 
