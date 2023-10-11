@@ -183,7 +183,7 @@
 	<Item
 		id="add_stability_and_speed"
 		locForm="0"
-		value="Система &quot;Sagitta&quot;  " />
+		value="Система &quot;Sagitta&quot;" />
 
 	<Item
 		id="add_torque_and_stability"

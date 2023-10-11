@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="|The bridge is destroyed! The bandits will not be able to use this road anymore. It’s time to go back. "
+		sound="data\sounds\Speech\r1m3\r1m3_1_hero.ogg"
+		time="4" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="|There are tons of weird stuff here... but everything is broken... Bad luck... Wait, there’s my name engraved on this plank... let me take a closer look.  Something is hidden behind it! An amulet of some kind. "
+		sound="data\sounds\Speech\r1m3\r1m3_4_hero.ogg"
+		time="8" />
+
+	<string
+		id="401"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|Hey!...It’s working! ... It’s Ben, you copy? I fixed the radio transmitter. How’s the research going? "
+		sound="data\sounds\Speech\r1m3\r1m3_401_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="402"
+		modelName="mask_hero"
+		value="|Radio? You are genius, Ben! Everything is in ruin here. All I found is a funny amulet with buttons. There’s an inscription on: it UB-627 Red access. Is it of any value? Roger."
+		sound="data\sounds\Speech\r1m3\r1m3_402_hero.ogg"
+		time="8" />
+
+	<string
+		id="403"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO| Let me think... Yes, I know! It is the key from the Sea gate! I wonder how your father got it. Listen carefully now:"
+		sound="data\sounds\Speech\r1m3\r1m3_403_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="404"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|The Legend says the Oracle lives somewhere on a distant island...One who manages to overcome all obstacles and meet him will have any question answered! It’s balderdash of course. However, there is reason to believe that this legend has a scientific basis."
+		sound="data\sounds\Speech\r1m3\r1m3_404_ben_radio.ogg"
+		time="12" />
+
+	<string
+		id="4041"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|And the key that you are now wearing around your neck is clear evidence of this."
+		sound="data\sounds\Speech\r1m3\r1m3_4041_ben_radio.ogg"
+		time="6" />
+
+	<string
+		id="405"
+		modelName="mask_hero"
+		value="|It would be convenient to ask that Oracle of yours about Ivan’s fate. Anyway, it is not a coincidence that this key was hidden here."
+		sound="data\sounds\Speech\r1m3\r1m3_405_hero.ogg"
+		time="8" />
+
+	<string
+		id="406"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|Let me finish. However some ancient sources mention a top secret facility at the distant island. Your amulet is also mentioned here. There actually may be something behind the legend. You must surely check it out. "
+		sound="data\sounds\Speech\r1m3\r1m3_406_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="407"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_407_ben_radio.ogg"
+		value="RADIO|Go north all the time. Somewhere at the edge of the world is the Sea gate. I do not know much more. Ask around. Damn transmitter..."
+		time="12" />
+
+	<string
+		id="408"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_408_hero.ogg"
+		value="|The signal’s gone. But I know what to look for now. I’ll start asking questions."
+		time="4" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_5_hero.ogg"
+		value="|And how am I supposed to open these gates? The barman is a clever guy. If I return to him, he’ll charge an exorbitant price for the key... Maybe there’s another way?"
+		time="8" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_6_hero.ogg"
+		value="|I guess, sooner or later someone will go through the gates. I only have to find a nice place to hide."
+		time="8" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_7_hero.ogg"
+		value="|Nice place for an ambush. I’ll wait here."
+		time="4" />
+
+	<string
+		id="8"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_8_hero.ogg"
+		value="|Someone is going out of the tunnel. I can kill him right away, or is it better to follow him and see where is he going to?"
+		time="8" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_9_hero.ogg"
+		value="|Sorry, man. But I really need that key."
+		time="4" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_10_hero.ogg"
+		value="|I see, he went to the bar. I better follow him. "
+		time="4" />
+
+	<string
+		id="11"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_11_bob.ogg"
+		value="BOB|Man, you are totally crazy! Wanna team with us? We’ll fight like this every single day! "
+		time="8" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_12_hero.ogg"
+		value="|I won’t have any business with you, bandits! The one like you have killed my father! Where’s Alice?!"
+		time="4" />
+
+	<string
+		id="13"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_13_bob.ogg"
+		value="BOB|But you already having business with us. Ha-ha. Well, Alice was here a couple of days ago with a message from her boss. She was in a hurry and left very soon. "
+		time="8" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_14_hero.ogg"
+		value="|Do you know exactly where she went?"
+		time="4" />
+
+	<string
+		id="15"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_15_bob.ogg"
+		value="BOB|She seemed to need some sophisticated machinery. There’s only one place in the world where one may find such a thing. Midgard."
+		time="8" />
+
+	<string
+		id="16"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_16_hero.ogg"
+		value="|Wait! Isn’t it the mayor’s car? I wonder, where is he heading to? Let’s follow him."
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_17_hero.ogg"
+		value="|O my God. There are tons of goods piled up here! The mayor is a thief indeed! When I tell in Minin about it, he will be surely thrown down. And the workers will go to the oil mine again! "
+		time="12" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_18_hero.ogg"
+		value="|The bandit escaped."
+		time="4" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_19_hero.ogg"
+		value="|I didn’t manage to follow the mayor. Well, let’s find another way to make the oil mine work."
+		time="4" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_20_hero.ogg"
+		value="|The oil mine is free from bandits! The last enemy is running away! He may lead me to his base if I follow him. "
+		time="8" />
+
+	<string
+		id="30"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_30_hero.ogg"
+		value="|What happened here? Someone was here right before me. And he probably found a hidden cache. Damn! The disk is stolen!"
+		time="8" />
+
+	<string
+		id="31"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_31_hero.ogg"
+		value="|I made it! The disk is mine! Time to talk with the Oracle."
+		time="4" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_32_hero.ogg"
+		value="|Alice, you?! It’s good luck to meet a familiar face at the strange land. How are you doing?"
+		time="4" />
+
+	<string
+		id="33"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_33_alice.ogg"
+		value="ALICE|I’m OK, thanks. If I knew who you are at that time, it would save me a helluva time. But it is my lucky day indeed!"
+		time="8" />
+
+	<string
+		id="34"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_34_hero.ogg"
+		value="|What are you doing? Wait! It’s mine! I cannot believe it; she stole my disk and the key. Thief! I’ll find you at any cost! "
+		time="8" />
+
+	<string
+		id="3412"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3412_hero.ogg"
+		value="| What the hell is this?"
+		time="4" />
+
+	<string
+		id="35"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_35_oracle.ogg"
+		value="ORACLE|Human, your arrival is mostly convenient."
+		time="4" />
+
+	<string
+		id="36"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_36_hero.ogg"
+		value="|Oracle? You have changed greatly! There’s something I must tell you!"
+		time="4" />
+
+	<string
+		id="361"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_361_oracle.ogg"
+		value="ORACLE|Listen to me first. You have won my complete trust and now I will share my knowledge with you.  Many years ago, extraterrestrial invaders exposed our planet to the death rays and almost completely eradicated the life from its surface."
+		time="22" />
+
+	<string
+		id="3610"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3610_oracle.ogg"
+		value="ORACLE|I nearly located its source, but I need to collect more data."
+		time="15" />
+
+	<string
+		id="362"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_362_hero.ogg"
+		value="|I know where it is and it is still working! I found a huge device in the desert that drives people mad. It has an aura of fear surrounding it. It must be destroyed!"
+		time="12" />
+
+	<string
+		id="363"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_363_oracle.ogg"
+		value="ORACLE|Your information is priceless. Moreover I intend to stop the invaders from completing their plan. "
+		time="8" />
+
+	<string
+		id="364"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_364_hero.ogg"
+		value="|That’s exactly why I was looking for you. You must know where to find a weapon that will make a crater 2 km in diameter!"
+		time="8" />
+
+	<string
+		id="365"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_365_oracle.ogg"
+		value="ORACLE|Such weapon really exists. Right now several war satellites are orbiting the planet waiting for launch signal. "
+		time="12" />
+
+	<string
+		id="366"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_366_hero.ogg"
+		value="|You have the coordinates. Drop the bombs now!"
+		time="4" />
+
+	<string
+		id="367"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_367_oracle.ogg"
+		value="ORACLE|Negative. A powerful jamming device is blocking most of my signals. It is located somewhere at the Librium, I suspect."
+		time="12" />
+
+	<string
+		id="368"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_368_hero.ogg"
+		value="|I will disable the device for you. The moment the noise stops, attack. "
+		time="4" />
+
+	<string
+		id="369"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_369_oracle.ogg"
+		value="ORACLE|Soon the planet will be free from the alien presence!"
+		time="4" />
+
+	<string
+		id="37"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_37_hero.ogg"
+		value="|Now I will have to find some workers at another village. The people of Minin won't work at the oil mine."
+		time="4" />
+
+	<string
+		id="38"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_38_hero.ogg"
+		value="|Now I will never know where the bandits’ base is. Probably, just as well. "
+		time="4" />
+
+	<string
+		id="3001"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3001_hero.ogg"
+		value="|What the hell is this?"
+		time="4" />
+
+	<string
+		id="3002"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3002_oracle.ogg"
+		value="ORACLE|Human, with your help I gained the former power. I thank you for that. But now you are interfering with matters beyond your understanding."
+		time="8" />
+
+	<string
+		id="3003"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3003_hero.ogg"
+		value="Oracle! That’s you! Incredible! I could use your wings to deliver the device... I found the way to cure our world!"
+		time="8" />
+
+	<string
+		id="3004"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3004_oracle.ogg"
+		value="ORACLE|The only way to stop the contamination is to destroy its source! "
+		time="4" />
+
+	<string
+		id="3005"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3005_hero.ogg"
+		value="|There is another way! The device I have with me will slowly disable the Source, so that nobody suffers a shock!"
+		time="8" />
+
+	<string
+		id="3006"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3006_oracle.ogg"
+		value="ORACLE|Fool! Aliens are using you to finish the terraforming plan! As soon as you activate the device, the life will be extinguished from the face of our planet!"
+		time="8" />
+
+	<string
+		id="3007"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3007_hero.ogg"
+		value="|You are insane. The years you spent fortunetelling to the barbarians damaged your brain! Let me go!"
+		time="4" />
+
+	<string
+		id="3008"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3008_oracle.ogg"
+		value="ORACLE|The cooperation with the enemy is unacceptable. Traitors will be eliminated!"
+		time="4" />
+
+	<string
+		id="3009"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3009_hero.ogg"
+		value="|Then I shall fight you!"
+		time="4" />
+
+	<string
+		id="8801"
+		value="Do you wish to travel to another region?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="I don’t know the way, so I’ll better stay here. "
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="There’s something strange about this place. I don’t want to go there. "
+		time="3" />
+
+	<string
+		id="8804"
+		value="Do you wish to cross the bridge?"
+		numButtons="2" />
+
+	<string
+		id="8805"
+		value="Do you wish to cross the bridge?|The passage fee is 250 coins."
+		numButtons="2" />
+
+	<string
+		id="6006"
+		value="You must pay 250 coins to cross the bridge. You do not have that much money. " />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="Although the Oracle’s mobile module was destroyed, the computer remained intact. Its metal servants retreated back to the jungles to attack lone Njeri’s groups.The jamming device worked as expected. Aliens’ base moved to Zarmek, where the extraterrestrials could finally study the radiation and its effect on humans. The experiments were successful: several people took the masks off and survived. But only inside Njeri’s laboratory, though. For the first time in a hundred years there was hope that the world will get back to normal. Only the shrewd ones kept wondering, if the UFO’s fall was really accidental, and if the plans of the new allies will coincide with the hopes of the humans"
+		sound="data\sounds\Speech\rolik\ending1.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="57" />
+</resource>

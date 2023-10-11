@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!-- controls captions -->
+	<string
+		id="btnSaveCfg"
+		value="Save changes" />
+
+	<string
+		id="btnCancel"
+		value="Exit" />
+
+	<string
+		id="checkFullScreen"
+		value="Full screen" />
+
+	<string
+		id="staticResolution"
+		value="Resolution and color depth" />
+
+	<string
+		id="staticPlatform"
+		value="Video card" />
+
+	<string
+		id="staticScreenOptions"
+		value="Video settings" />
+
+	<string
+		id="checkWaterReflections"
+		value="Water reflections" />
+
+	<string
+		id="checkStaticShadows"
+		value="Static shadows" />
+
+	<string
+		id="checkDynamicShadows"
+		value="Dynamic shadows" />
+
+	<string
+		id="staticShadowQuality"
+		value="Shadows quality" />
+
+	<string
+		id="staticShadowLow"
+		value="Low" />
+
+	<string
+		id="staticShadowHigh"
+		value="High" />
+
+	<string
+		id="staticFardistNear"
+		value="Near" />
+
+	<string
+		id="staticFardistFar"
+		value="Far" />
+
+	<string
+		id="staticFarDist"
+		value="View distance" />
+
+	<string
+		id="staticShadowOptions"
+		value="Shadows settings" />
+
+	<string
+		id="staticMiscOptions"
+		value="Misc. Settings" />
+
+	<string
+		id="staticEffects"
+		value="Effects" />
+
+	<string
+		id="checkSoundEnable"
+		value="Sound is on" />
+
+	<string
+		id="checkMusicEnable"
+		value="Music is on" />
+
+	<string
+		id="staticSoundOptions"
+		value="Sound settings" />
+
+	<string
+		id="staticMusicOptions"
+		value="Music settings" />
+
+	<string
+		id="staticSoundVolume"
+		value="Sound volume" />
+
+	<string
+		id="staticMusicVolume"
+		value="Music volume" />
+
+	<string
+		id="staticSoundLow"
+		value="Low" />
+
+	<string
+		id="staticSoundMedium"
+		value="Medium" />
+
+	<string
+		id="staticSoundHigh"
+		value="High" />
+
+	<string
+		id="staticMusicLow"
+		value="Low" />
+
+	<string
+		id="staticMusicMedium"
+		value="Medium" />
+
+	<string
+		id="staticMusicHigh"
+		value="High" />
+<!-- page names -->
+	<string
+		id="pageVideo"
+		value="Video" />
+
+	<string
+		id="pageInGame"
+		value="Effects" />
+
+	<string
+		id="pageAudio"
+		value="Sound" />
+<!-- application caption -->
+	<string
+		id="dlgMainCaption"
+		value="Settings" />
+<!-- warning dialogs -->
+	<string
+		id="dlgSaveCaption"
+		value="Confirmation" />
+
+	<string
+		id="dlgSaveText"
+		value="Save settings?" />
+</resource>

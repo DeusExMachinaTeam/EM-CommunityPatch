@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Impulses-->
+	<string
+		id="IM_MODE_GAME_MENU"
+		value="" />
+
+	<string
+		id="IM_FWD"
+		value="Move forward" />
+
+	<string
+		id="IM_BK"
+		value="Move backward" />
+
+	<string
+		id="IM_LEFT"
+		value="Move left" />
+
+	<string
+		id="IM_RIGHT"
+		value="Move right" />
+
+	<string
+		id="IM_RUN"
+		value="Run" />
+
+	<string
+		id="IM_GAME_ZOOM_CAMERA"
+		value="Zoom camera in-out" />
+
+	<string
+		id="IM_GAME_DRAG_CAMERA"
+		value="Camera rotation" />
+
+	<string
+		id="IM_DEBUG_0"
+		value="" />
+
+	<string
+		id="IM_DEBUG_1"
+		value="" />
+
+	<string
+		id="IM_DEBUG_2"
+		value="" />
+
+	<string
+		id="IM_DEBUG_3"
+		value="" />
+
+	<string
+		id="IM_DEBUG_4"
+		value="" />
+
+	<string
+		id="IM_DEBUG_5"
+		value="" />
+
+	<string
+		id="IM_DEBUG_6"
+		value="" />
+
+	<string
+		id="IM_DEBUG_7"
+		value="" />
+
+	<string
+		id="IM_DEBUG_8"
+		value="" />
+
+	<string
+		id="IM_DEBUG_9"
+		value="" />
+
+	<string
+		id="IM_DEBUG_WIREFRAME"
+		value="" />
+
+	<string
+		id="IM_CAR_ACC"
+		value="Accelerate" />
+
+	<string
+		id="IM_CAR_BREAK"
+		value="Brake" />
+
+	<string
+		id="IM_CAR_HAND_BREAK"
+		value="Handbrake" />
+
+	<string
+		id="IM_CAR_LEFT"
+		value="Turn left" />
+
+	<string
+		id="IM_CAR_RIGHT"
+		value="Turn right" />
+
+	<string
+		id="IM_CAR_TURNTOWHEELS"
+		value="Get back on wheels" />
+
+	<string
+		id="IM_CAR_SWITCHCAMERA"
+		value="Switch camera mode" />
+
+	<string
+		id="IM_CAR_GET_OUT_OF_DIFFICULT_PLACE"
+		value="Get out of the difficult place" />
+
+	<string
+		id="IM_CAR_FIRE_0"
+		value="Fire group 1" />
+
+	<string
+		id="IM_CAR_FIRE_1"
+		value="Fire group 2" />
+
+	<string
+		id="IM_CAR_FIRE_2"
+		value="Fire group 3" />
+
+	<string
+		id="IM_CAR_FIRE_3"
+		value="Fire group 4" />
+
+	<string
+		id="IM_CAR_FIRE_4"
+		value="Fire group 5" />
+
+	<string
+		id="IM_CAR_FIRE_ALL"
+		value="Fire all groups" />
+
+	<string
+		id="IM_RELOAD_WEAPON"
+		value="Reload weapon" />
+
+	<string
+		id="IM_UI_INVENTORY"
+		value="Inventory/Marketplace" />
+
+	<string
+		id="IM_UI_MENUBOOK"
+		value="Game menu" />
+
+	<string
+		id="IM_UI_QUESTLOG"
+		value="Quest log" />
+
+	<string
+		id="IM_UI_JOURNAL"
+		value="History" />
+
+	<string
+		id="IM_UI_MAP"
+		value="Map" />
+
+	<string
+		id="IM_CAR_LIGHTS"
+		value="Headlights" />
+
+	<string
+		id="IM_UI_TOGGLE_INTERFACE"
+		value="Hide/show interface" />
+
+	<string
+		id="IM_CAR_HORN"
+		value="Horn" />
+
+	<string
+		id="IM_UI_VEHICLE_INFO"
+		value="Car stats/Workshop" />
+
+	<string
+		id="IM_QUICK_SAVE"
+		value="Quicksave" />
+
+	<string
+		id="IM_QUICK_LOAD"
+		value="Quickload" />
+
+	<string
+		id="IM_PAUSE"
+		value="Pause" />
+
+	<string
+		id="IM_UI_BAR"
+		value="Bar" />
+
+	<string
+		id="IM_UI_ADDITIONAL_BUILDING"
+		value="Special place in town" />
+
+	<string
+		id="IM_UI_PICKUP_ALL"
+		value="Pick up everything" />
+
+	<string
+		id="IM_UI_HELP"
+		value="Help" />
+<!--Keys-->
+	<string
+		id="KEY_ESCAPE"
+		value="Esc" />
+
+	<string
+		id="KEY_1"
+		value="1" />
+
+	<string
+		id="KEY_2"
+		value="2" />
+
+	<string
+		id="KEY_3"
+		value="3" />
+
+	<string
+		id="KEY_4"
+		value="4" />
+
+	<string
+		id="KEY_5"
+		value="5" />
+
+	<string
+		id="KEY_6"
+		value="6" />
+
+	<string
+		id="KEY_7"
+		value="7" />
+
+	<string
+		id="KEY_8"
+		value="8" />
+
+	<string
+		id="KEY_9"
+		value="9" />
+
+	<string
+		id="KEY_0"
+		value="0" />
+
+	<string
+		id="KEY_MINUS"
+		value="-" />
+
+	<string
+		id="KEY_EQUALS"
+		value="=" />
+
+	<string
+		id="KEY_BACKSPACE"
+		value="Backspace" />
+
+	<string
+		id="KEY_TAB"
+		value="TAB" />
+
+	<string
+		id="KEY_Q"
+		value="Q" />
+
+	<string
+		id="KEY_W"
+		value="W" />
+
+	<string
+		id="KEY_E"
+		value="E" />
+
+	<string
+		id="KEY_R"
+		value="R" />
+
+	<string
+		id="KEY_T"
+		value="T" />
+
+	<string
+		id="KEY_Y"
+		value="Y" />
+
+	<string
+		id="KEY_U"
+		value="U" />
+
+	<string
+		id="KEY_I"
+		value="I" />
+
+	<string
+		id="KEY_O"
+		value="O" />
+
+	<string
+		id="KEY_P"
+		value="P" />
+
+	<string
+		id="KEY_LBRACKET"
+		value="(" />
+
+	<string
+		id="KEY_RBRACKET"
+		value=")" />
+
+	<string
+		id="KEY_RETURN"
+		value="Enter" />
+
+	<string
+		id="KEY_LCONTROL"
+		value="Left Ctrl" />
+
+	<string
+		id="KEY_A"
+		value="A" />
+
+	<string
+		id="KEY_S"
+		value="S" />
+
+	<string
+		id="KEY_D"
+		value="D" />
+
+	<string
+		id="KEY_F"
+		value="F" />
+
+	<string
+		id="KEY_G"
+		value="G" />
+
+	<string
+		id="KEY_H"
+		value="H" />
+
+	<string
+		id="KEY_J"
+		value="J" />
+
+	<string
+		id="KEY_K"
+		value="K" />
+
+	<string
+		id="KEY_L"
+		value="L" />
+
+	<string
+		id="KEY_SEMICOLON"
+		value=":" />
+
+	<string
+		id="KEY_APOSTROPHE"
+		value="" />
+
+	<string
+		id="KEY_GRAVE"
+		value="~" />
+
+	<string
+		id="KEY_LSHIFT"
+		value="Left Shift" />
+
+	<string
+		id="KEY_BACKSLASH"
+		value="\" />
+
+	<string
+		id="KEY_Z"
+		value="Z" />
+
+	<string
+		id="KEY_X"
+		value="X" />
+
+	<string
+		id="KEY_C"
+		value="C" />
+
+	<string
+		id="KEY_V"
+		value="V" />
+
+	<string
+		id="KEY_B"
+		value="B" />
+
+	<string
+		id="KEY_N"
+		value="N" />
+
+	<string
+		id="KEY_M"
+		value="M" />
+
+	<string
+		id="KEY_COMMA"
+		value="," />
+
+	<string
+		id="KEY_PERIOD"
+		value="." />
+
+	<string
+		id="KEY_SLASH"
+		value="/" />
+
+	<string
+		id="KEY_RSHIFT"
+		value="Right Shift" />
+
+	<string
+		id="KEY_NUMPADSTAR"
+		value="* (num pad)" />
+
+	<string
+		id="KEY_LALT"
+		value="Left Alt" />
+
+	<string
+		id="KEY_SPACE"
+		value="Space" />
+
+	<string
+		id="KEY_CAPSLOCK"
+		value="CapsLock" />
+
+	<string
+		id="KEY_F1"
+		value="F1" />
+
+	<string
+		id="KEY_F2"
+		value="F2" />
+
+	<string
+		id="KEY_F3"
+		value="F3" />
+
+	<string
+		id="KEY_F4"
+		value="F4" />
+
+	<string
+		id="KEY_F5"
+		value="F5" />
+
+	<string
+		id="KEY_F6"
+		value="F6" />
+
+	<string
+		id="KEY_F7"
+		value="F7" />
+
+	<string
+		id="KEY_F8"
+		value="F8" />
+
+	<string
+		id="KEY_F9"
+		value="F9" />
+
+	<string
+		id="KEY_F10"
+		value="F10" />
+
+	<string
+		id="KEY_NUMLOCK"
+		value="NumLock" />
+
+	<string
+		id="KEY_SCROLL"
+		value="Scroll" />
+
+	<string
+		id="KEY_NUMPAD7"
+		value="7 (num pad)" />
+
+	<string
+		id="KEY_NUMPAD8"
+		value="8 (num pad)" />
+
+	<string
+		id="KEY_NUMPAD9"
+		value="9 (num pad)" />
+
+	<string
+		id="KEY_NUMPADMINUS"
+		value="- (num pad)" />
+
+	<string
+		id="KEY_NUMPAD4"
+		value="4 (num pad)" />
+
+	<string
+		id="KEY_NUMPAD5"
+		value="5 (num pad)" />
+
+	<string
+		id="KEY_NUMPAD6"
+		value="6(num pad)" />
+
+	<string
+		id="KEY_NUMPADPLUS"
+		value="+ (num pad)" />
+
+	<string
+		id="KEY_NUMPAD1"
+		value="1 (num pad)" />
+
+	<string
+		id="KEY_NUMPAD2"
+		value="2 (num pad)" />
+
+	<string
+		id="KEY_NUMPAD3"
+		value="3 (num pad)" />
+
+	<string
+		id="KEY_NUMPAD0"
+		value="0 (num pad)" />
+
+	<string
+		id="KEY_NUMPADPERIOD"
+		value=". (num pad)" />
+
+	<string
+		id="KEY_OEM_102"
+		value="" />
+
+	<string
+		id="KEY_F11"
+		value="F11" />
+
+	<string
+		id="KEY_F12"
+		value="F12" />
+
+	<string
+		id="KEY_F13"
+		value="F13" />
+
+	<string
+		id="KEY_F14"
+		value="F14" />
+
+	<string
+		id="KEY_F15"
+		value="F15" />
+
+	<string
+		id="KEY_KANA"
+		value="" />
+
+	<string
+		id="KEY_ABNT_C1"
+		value="" />
+
+	<string
+		id="KEY_CONVERT"
+		value="" />
+
+	<string
+		id="KEY_NOCONVERT"
+		value="" />
+
+	<string
+		id="KEY_YEN"
+		value="" />
+
+	<string
+		id="KEY_ABNT_C2"
+		value="" />
+
+	<string
+		id="KEY_NUMPADEQUALS"
+		value="" />
+
+	<string
+		id="KEY_PREVTRACK"
+		value="" />
+
+	<string
+		id="KEY_AT"
+		value="" />
+
+	<string
+		id="KEY_COLON"
+		value=":" />
+
+	<string
+		id="KEY_UNDERLINE"
+		value="_" />
+
+	<string
+		id="KEY_KANJI"
+		value="" />
+
+	<string
+		id="KEY_STOP"
+		value="" />
+
+	<string
+		id="KEY_AX"
+		value="" />
+
+	<string
+		id="KEY_UNLABELED"
+		value="" />
+
+	<string
+		id="KEY_NEXTTRACK"
+		value="" />
+
+	<string
+		id="KEY_NUMPADENTER"
+		value="Enter (num pad)" />
+
+	<string
+		id="KEY_RCONTROL"
+		value="Right Ctrl" />
+
+	<string
+		id="KEY_MUTE"
+		value="" />
+
+	<string
+		id="KEY_CALCULATOR"
+		value="" />
+
+	<string
+		id="KEY_PLAYPAUSE"
+		value="" />
+
+	<string
+		id="KEY_MEDIASTOP"
+		value="" />
+
+	<string
+		id="KEY_VOLUMEDOWN"
+		value="" />
+
+	<string
+		id="KEY_VOLUMEUP"
+		value="" />
+
+	<string
+		id="KEY_WEBHOME"
+		value="" />
+
+	<string
+		id="KEY_NUMPADCOMMA"
+		value=", (num pad)" />
+
+	<string
+		id="KEY_NUMPADSLASH"
+		value="/ (num pad)" />
+
+	<string
+		id="KEY_SYSRQ"
+		value="" />
+
+	<string
+		id="KEY_RALT"
+		value="Right Alt" />
+
+	<string
+		id="KEY_PAUSE"
+		value="Pause" />
+
+	<string
+		id="KEY_HOME"
+		value="Home" />
+
+	<string
+		id="KEY_UPARROW"
+		value="Cursor up" />
+
+	<string
+		id="KEY_PGUP"
+		value="PgUp" />
+
+	<string
+		id="KEY_LEFTARROW"
+		value="Cursor left" />
+
+	<string
+		id="KEY_RIGHTARROW"
+		value="Cursor right" />
+
+	<string
+		id="KEY_END"
+		value="End" />
+
+	<string
+		id="KEY_DOWNARROW"
+		value="Cursor down" />
+
+	<string
+		id="KEY_PGDN"
+		value="PgDn" />
+
+	<string
+		id="KEY_INSERT"
+		value="Insert" />
+
+	<string
+		id="KEY_DELETE"
+		value="Delete" />
+
+	<string
+		id="KEY_LWIN"
+		value="" />
+
+	<string
+		id="KEY_RWIN"
+		value="" />
+
+	<string
+		id="KEY_APPS"
+		value="" />
+
+	<string
+		id="KEY_POWER"
+		value="" />
+
+	<string
+		id="KEY_SLEEP"
+		value="" />
+
+	<string
+		id="KEY_WAKE"
+		value="" />
+
+	<string
+		id="KEY_WEBSEARCH"
+		value="" />
+
+	<string
+		id="KEY_WEBFAVORITES"
+		value="" />
+
+	<string
+		id="KEY_WEBREFRESH"
+		value="" />
+
+	<string
+		id="KEY_WEBSTOP"
+		value="" />
+
+	<string
+		id="KEY_WEBFORWARD"
+		value="" />
+
+	<string
+		id="KEY_WEBBACK"
+		value="" />
+
+	<string
+		id="KEY_MYCOMPUTER"
+		value="" />
+
+	<string
+		id="KEY_MAIL"
+		value="" />
+
+	<string
+		id="KEY_MEDIASELECT"
+		value="" />
+
+	<string
+		id="KEY_LBUTTON"
+		value="Left mouse button" />
+
+	<string
+		id="KEY_RBUTTON"
+		value="Right mouse button" />
+
+	<string
+		id="KEY_MBUTTON"
+		value="Middle mouse button" />
+
+	<string
+		id="KEY_MOUSE_MOVE"
+		value="" />
+
+	<string
+		id="KEY_MWHEEL"
+		value="Mouse wheel" />
+
+	<string
+		id="KEY_CONTROL"
+		value="Ctrl" />
+
+	<string
+		id="KEY_ALT"
+		value="Alt" />
+
+	<string
+		id="KEY_SHIFT"
+		value="Shift" />
+
+	<string
+		id="KEY_MOUSE_MOVE_ON_UI"
+		value="" />
+<!--Messages-->
+	<string
+		id="BINDKEYS_MSG_RESERVED"
+		value="Keys redefined." />
+
+	<string
+		id="BINDKEYS_MSG_EXISTS"
+		value="The key combination is already defined to %s. Redefine?" />
+
+	<string
+		id="BINDKEYS_MSG_EXISTS_ONLY"
+		value="This key combination is already defined to %s and is unique to it." />
+</resource>

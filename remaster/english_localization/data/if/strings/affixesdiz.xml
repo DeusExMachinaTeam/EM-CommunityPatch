@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons--><!-- Названия -->
+	<string
+		id="useless_cabin"
+		value="Useless" />
+
+	<string
+		id="useless_cabin_localizedform_0"
+		value="Useless" />
+
+	<string
+		id="useless_cabin_localizedform_1"
+		value="Useless" />
+
+	<string
+		id="useless_basket"
+		value="Useless " />
+
+	<string
+		id="useless_basket_localizedform_0"
+		value="Useless " />
+
+	<string
+		id="useless_basket_localizedform_1"
+		value="Useless " />
+
+	<string
+		id="useless_gun"
+		value="Useless " />
+
+	<string
+		id="useless_gun_localizedform_0"
+		value="Useless " />
+
+	<string
+		id="useless_gun_localizedform_1"
+		value="Useless" />
+
+	<string
+		id="rusty_cabin"
+		value="Rusty" />
+
+	<string
+		id="rusty_cabin_localizedform_0"
+		value="Rusty" />
+
+	<string
+		id="rusty_cabin_localizedform_1"
+		value="Rusty" />
+
+	<string
+		id="rusty_basket"
+		value="Rusty" />
+
+	<string
+		id="rusty_basket_localizedform_0"
+		value="Rusty" />
+
+	<string
+		id="rusty_basket_localizedform_1"
+		value="Rusty" />
+
+	<string
+		id="rusty_gun"
+		value="Rusty" />
+
+	<string
+		id="rusty_gun_localizedform_0"
+		value="Rusty" />
+
+	<string
+		id="rusty_gun_localizedform_1"
+		value="Rusty" />
+
+	<string
+		id="excellent_cabin"
+		value="Excellent" />
+
+	<string
+		id="excellent_cabin_localizedform_0"
+		value="Excellent" />
+
+	<string
+		id="excellent_cabin_localizedform_1"
+		value="Excellent" />
+
+	<string
+		id="excellent_basket"
+		value="Excellent" />
+
+	<string
+		id="excellent_basket_localizedform_0"
+		value="Excellent" />
+
+	<string
+		id="excellent_basket_localizedform_1"
+		value="Excellent" />
+
+	<string
+		id="excellent_gun"
+		value="Excellent" />
+
+	<string
+		id="excellent_gun_localizedform_0"
+		value="Excellent" />
+
+	<string
+		id="excellent_gun_localizedform_1"
+		value="Excellent" />
+
+	<string
+		id="advanced_cabin"
+		value="Advanced" />
+
+	<string
+		id="advanced_cabin_localizedform_0"
+		value="Advanced" />
+
+	<string
+		id="advanced_cabin_localizedform_1"
+		value="Advanced" />
+
+	<string
+		id="advanced_basket"
+		value="Advanced" />
+
+	<string
+		id="advanced_basket_localizedform_0"
+		value="Advanced" />
+
+	<string
+		id="advanced_basket_localizedform_1"
+		value="Advanced " />
+
+	<string
+		id="advanced_gun"
+		value="Advanced" />
+
+	<string
+		id="advanced_gun_localizedform_0"
+		value="Advanced" />
+
+	<string
+		id="advanced_gun_localizedform_1"
+		value="Advanced" />
+
+	<string
+		id="slow_gun"
+		value="Slow" />
+
+	<string
+		id="slow_gun_localizedform_0"
+		value="Slow" />
+
+	<string
+		id="slow_gun_localizedform_1"
+		value="Slow" />
+
+	<string
+		id="assault_gun"
+		value="Assault" />
+
+	<string
+		id="assault_gun_localizedform_0"
+		value="Assault" />
+
+	<string
+		id="assault_gun_localizedform_1"
+		value="Assault" />
+
+	<string
+		id="rapid_firing_gun"
+		value="Rapid-firing" />
+
+	<string
+		id="rapid_firing_gun_localizedform_0"
+		value="Rapid-firing" />
+
+	<string
+		id="rapid_firing_gun_localizedform_1"
+		value="Rapid-firing" />
+
+	<string
+		id="weak_gun"
+		value="Weak" />
+
+	<string
+		id="weak_gun_localizedform_0"
+		value="Weak" />
+
+	<string
+		id="weak_gun_localizedform_1"
+		value="Weak" />
+
+	<string
+		id="deadly_gun"
+		value="Deadly" />
+
+	<string
+		id="deadly_gun_localizedform_0"
+		value="Deadly" />
+
+	<string
+		id="deadly_gun_localizedform_1"
+		value="Deadly" />
+
+	<string
+		id="destructive_gun"
+		value="Destructive" />
+
+	<string
+		id="destructive_gun_localizedform_0"
+		value="Destructive" />
+
+	<string
+		id="destructive_gun_localizedform_1"
+		value="Destructive" />
+
+	<string
+		id="with_truncated_barrel_gun"
+		value="with truncated barrel" />
+
+	<string
+		id="with_truncated_barrel_gun_localizedform_0"
+		value="with truncated barrel" />
+
+	<string
+		id="with_truncated_barrel_gun_localizedform_1"
+		value="with truncated barrel" />
+
+	<string
+		id="with_enlarged_barrel_gun"
+		value="with enlarged barrel" />
+
+	<string
+		id="with_enlarged_barrel_gun_localizedform_0"
+		value="with enlarged barrel" />
+
+	<string
+		id="with_enlarged_barrel_gun_localizedform_1"
+		value="with enlarged barrel" />
+
+	<string
+		id="with_long_barrel_gun"
+		value="with long barrel" />
+
+	<string
+		id="with_long_barrel_gun_localizedform_0"
+		value="with long barrel" />
+
+	<string
+		id="with_long_barrel_gun_localizedform_1"
+		value="with long barrel" />
+
+	<string
+		id="without_cooling_gun"
+		value="without cooling" />
+
+	<string
+		id="without_cooling_gun_localizedform_0"
+		value="without cooling" />
+
+	<string
+		id="without_cooling_gun_localizedform_1"
+		value="without cooling" />
+
+	<string
+		id="with_water_cooling_gun"
+		value="with water cooling" />
+
+	<string
+		id="with_water_cooling_gun_localizedform_0"
+		value="with water cooling" />
+
+	<string
+		id="with_water_cooling_gun_localizedform_1"
+		value="with water cooling" />
+
+	<string
+		id="with_nitro_cooling_gun"
+		value="with nitrogen cooling" />
+
+	<string
+		id="with_nitro_cooling_gun_localizedform_0"
+		value="with nitrogen cooling" />
+
+	<string
+		id="with_nitro_cooling_gun_localizedform_1"
+		value="with nitrogen cooling" />
+
+	<string
+		id="without_sight_gun"
+		value="without sight" />
+
+	<string
+		id="without_sight_gun_localizedform_0"
+		value="without sight" />
+
+	<string
+		id="without_sight_gun_localizedform_1"
+		value="without sight" />
+
+	<string
+		id="with_laser_sight_gun"
+		value="with Laser sight" />
+
+	<string
+		id="with_laser_sight_gun_localizedform_0"
+		value="with Laser sight" />
+
+	<string
+		id="with_laser_sight_gun_localizedform_1"
+		value="with Laser sight" />
+
+	<string
+		id="with_electric_sight_gun"
+		value="with electronic pointing" />
+
+	<string
+		id="with_electric_sight_gun_localizedform_0"
+		value="with electronic pointing" />
+
+	<string
+		id="with_electric_sight_gun_localizedform_1"
+		value="with electronic pointing" />
+<!-- Описания -->
+	<string
+		id="useless_cabin_diz"
+		value="Durability -20% -25% | Speed -20% -25% | Torque -20% -25%" />
+
+	<string
+		id="rusty_cabin_diz"
+		value="Durability -10% -15% | Speed -10% -15% | Torque -10% -15%" />
+
+	<string
+		id="excellent_cabin_diz"
+		value="Durability +10% +15% | Speed +10% +15% | Torque +10% +15%" />
+
+	<string
+		id="advanced_cabin_diz"
+		value="Durability +30% +35% | Speed +30% +35% | Torque +30% +35%" />
+
+	<string
+		id="useless_basket_diz"
+		value="Durability -20% -25%" />
+
+	<string
+		id="rusty_basket_diz"
+		value="Durability -10% -15%" />
+
+	<string
+		id="excellent_basket_diz"
+		value="Durability +10% +15%" />
+
+	<string
+		id="advanced_basket_diz"
+		value="Durability +30% +35%" />
+
+	<string
+		id="useless_gun_diz"
+		value="Durability -20% -25% | Damage -20% -25% | Grouping Angle -20% -25%" />
+
+	<string
+		id="rusty_gun_diz"
+		value="Durability -10% -15% | Damage -10% -15% | Grouping Angle -10% -15%" />
+
+	<string
+		id="excellent_gun_diz"
+		value="Durability +10% +15% | Damage +10% +15% | Grouping Angle +10% +15%" />
+
+	<string
+		id="advanced_gun_diz"
+		value="Durability +30% +35% | Damage +20% +25% | Grouping Angle +20% +25%" />
+
+	<string
+		id="slow_gun_diz"
+		value="Firing rate -10% -15%" />
+
+	<string
+		id="assault_gun_diz"
+		value="Firing rate +10% +15%" />
+
+	<string
+		id="rapid_firing_gun_diz"
+		value="Firing rate +20% +25%" />
+
+	<string
+		id="weak_gun_diz"
+		value="Damage -10% -15%" />
+
+	<string
+		id="deadly_gun_diz"
+		value="Damage +10% +15%" />
+
+	<string
+		id="destructive_gun_diz"
+		value="Damage +20% +25%" />
+
+	<string
+		id="with_truncated_barrel_gun_diz"
+		value="Firing range -10% -15%" />
+
+	<string
+		id="with_enlarged_barrel_gun_diz"
+		value="Firing range +10% +15%" />
+
+	<string
+		id="with_long_barrel_gun_diz"
+		value="Firing range +20% +25%" />
+
+	<string
+		id="without_cooling_gun_diz"
+		value="Recharging time +10% +15%" />
+
+	<string
+		id="with_water_cooling_gun_diz"
+		value="Recharging time -10% -15%" />
+
+	<string
+		id="with_nitro_cooling_gun_diz"
+		value="Recharging time -20% -25%" />
+
+	<string
+		id="without_sight_gun_diz"
+		value="Grouping angle -10% -15%" />
+
+	<string
+		id="with_laser_sight_gun_diz"
+		value="Grouping angle +10% +15%" />
+
+	<string
+		id="with_electric_sight_gun_diz"
+		value="Grouping angle +20% +25%" />
+</resource>
