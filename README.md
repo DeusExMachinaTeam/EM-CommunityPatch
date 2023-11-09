@@ -11,7 +11,7 @@
     <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Следить за разработкой в Discord »</strong></a>
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=rIkptWzmOqk"><img src="https://user-images.githubusercontent.com/79088546/174310152-da71224b-5c5f-4448-be42-31d0bc703360.png" alt="Youtube installation tutorial"> Как правильно установить</a>
+    <a href="https://www.youtube.com/watch?v=VhNGPhU_5mk"><img src="https://user-images.githubusercontent.com/79088546/174310152-da71224b-5c5f-4448-be42-31d0bc703360.png" alt="Youtube installation tutorial"> Как правильно установить</a>
     ·
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">Создать багрепорт</a>
     ·
@@ -43,13 +43,13 @@
 
 ...и множество других изменений!
 
-Исчерпывающий список доступен в ComMod или в файле change_list_ru.md на Github
+Исчерпывающий список доступен при установке в мод менеджера ComMod или в файле [change_list_ru.md на Github](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main/change_list_ru.md)
 
 </br>
 
 &#x1F53B; Важно! &#x1F53B;
 * Установка Community Patch / Remaster возможна **только на no-DRM версию 1.02**! Это необходимо, потому как мы побайтово патчим exe игры, и все доступные изменения возможны только на 1.02. **Мы рекомендуем использовать русскую Steam версию для установки**. Другой вариант: распакованная версия с Антологии Ex Machina.
-* Установка Community Patch / Remaster возможна **только на Windows 8, 10, 11 64bit**!
+* Установка Community Patch / Remaster возможна **только на 64 битных версиях Windows 8, 10 или 11**!
 
 <p align="right">(<a href="#top">перейти наверх</a>)</p>
 
@@ -57,7 +57,7 @@
 ![Do not use source code, download latest release][releases_screenshot]
 
 ## Простая установка
-Однако, в целом ничего сложного в базовой установке нет.
+В целом нет ничего сложного в установке КомРема/Патча и совместимых с ним модов.
 
 * Создайте папку где будет храниться менеджер модов и его файлы.
 
@@ -77,6 +77,11 @@
 
 *Процесс установки Community Remaster с помощью ComMod.*
 
+## Видео про установку
+Если у вас возникнут затруднения с установкой, мы можете обратиться к видео записанному ютубером **Скиталец**, показываюющим актульный процесс установки по шагам в мельчайших деталях.
+
+[![youtube][youtube_logo_sml] Смотреть на YouTube](https://www.youtube.com/watch?v=VhNGPhU_5mk)
+
 
 </br>
 &#x1F53B; Важно! &#x1F53B;
@@ -85,6 +90,7 @@
 Инсталлятор в процессе работы побайтово патчит оригинальный exe игры, копирует файлы патча\ремастера в правильном порядке, а также редактирует некоторые игровые файлы. К сожалению, как специфика работы (редактирование другого exe), так и то, что инсталлятор написан на Python, означает, что вам, возможно, понадобится добавить файл в исключения антивируса. Приносим свои извинения за неудобства, вирусов файл не содержит.
 </ol>
 <p align="right">(<a href="#top">перейти наверх</a>)</p>
+
 
 
 # Скриншоты:
@@ -156,9 +162,7 @@
 
 Исходный код проекта(все файлы кроме commod.exe) - лицензированы под MIT-подобной лицензией(исключая коммерческое использование) и может быть свободно использован как основа для создания ваших собственных модов. Пожалуйста, не забывайте сохранять текст лицензии и ссылку на проект, если используете его части.
 
-DEM Community Mod Manager (commod.exe) распространяется под закрытой лицензией и может быть скачан только из Github репозитория команды DeusExMachinaTeam:
-https://github.com/DeusExMachinaTeam/EM-CommunityPatch/
-
+DEM Community Mod Manager (commod.exe) распространяется под собственной лицензией, информация о ней находится в репозитории ComMod.
 Для подробностей, пожалуйста, ознакомьтесь с полным текстом лицензии в файле LICENSE.
 </ol>
 </details>
