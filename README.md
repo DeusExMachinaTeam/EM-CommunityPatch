@@ -11,8 +11,6 @@
     <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Следить за разработкой в Discord »</strong></a>
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=VhNGPhU_5mk"><img src="https://user-images.githubusercontent.com/79088546/174310152-da71224b-5c5f-4448-be42-31d0bc703360.png" alt="Youtube installation tutorial"> Как правильно установить</a>
-    ·
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">Создать багрепорт</a>
     ·
     <a href="https://deuswiki.com/w/Community_Patch"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Страница на DeusWiki (только VPN)</a>
@@ -78,7 +76,7 @@
 *Процесс установки Community Remaster с помощью ComMod.*
 
 ## Видео про установку
-Если у вас возникнут затруднения с установкой, мы можете обратиться к видео записанному ютубером **Скиталец**, показываюющим актульный процесс установки по шагам в мельчайших деталях.
+Если у вас возникнут затруднения с установкой, мы можете обратиться к видео записанному ютубером **Скиталец**, показывающим процесс в деталях. **ОБРАТИТЕ ВНИМАНИЕ: в данный момент не нужно ничего вручную распаковывать во время установки. Вы скачиваете два файла: менеджер и архив с модом, архив за вас распакует сам менеджер в процессе установки!**
 
 [![youtube][youtube_logo_sml] Смотреть на YouTube](https://www.youtube.com/watch?v=VhNGPhU_5mk)
 
