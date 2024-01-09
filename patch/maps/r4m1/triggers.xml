@@ -492,12 +492,12 @@
 
 			local explayercar = getObj("PlayerCarGonki")
 			if explayercar then
-				explayercar:SetGamePositionOnGround(CVector(4410.569, 281.094, 2051.014))
-				explayercar:SetRotation(Quaternion(0.003, 0.571, 0.001, 0.821))
 				explayercar:SetCustomControlEnabled( true )
 				explayercar:SetCustomLinearVelocity( 0 )
 				explayercar:SetThrottle( 0 )
 				explayercar:SetCustomControlEnabled( false )
+				setPos(explayercar,CVector(getPos("PlayerCarOnRacePos_loc")))
+				setRot(explayercar,Quaternion(-0.001, -0.703, -0.000, -0.711))
 			end
 
 
@@ -1042,11 +1042,15 @@
 	<trigger	Name="trPlaceCar"	active="0">
 		<event	timeout="0.001"			eventid="GE_TIME_PERIOD" />
 		<script>
-			GetPlayerVehicle():SetThrottle( 0 )
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
-
-			setPos(GetPlayerVehicle(),CVector(getPos("PlayerCarOnRacePos_loc")))
-			setRot(GetPlayerVehicle(),Quaternion(0.001, 0.571, 0.000, 0.821))
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomLinearVelocity( 0 )
+				setPos(Plf,CVector(getPos("PlayerCarOnRacePos_loc")))
+				setRot(Plf,Quaternion(-0.001, -0.703, -0.000, -0.711))
+				SetCameraBehindPlayerVehicle()
+			end
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
