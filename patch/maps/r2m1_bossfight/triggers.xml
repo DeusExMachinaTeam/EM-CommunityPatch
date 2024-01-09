@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+	<trigger	Name="GlobalVar"	active="1">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			-- синхронизация погоды  
+			SetWeather(1)
+
+			PlayCustomMusic("Battle01")
+
+			CreateNewDummyObject( "r2_crag_copped_3", "cragTR", -1, -1, CVector(1255, 420, 1591), Quaternion(0.0000, 0.1951, 0.0000, 0.9808), 0)
+
+			TActivate("TRIGGER_ALIENSDIE")
+
+			local bossp = GetEntityByName("AliensShip")
+			if bossp then
+				bossp:NextState()
+				ShowBossIndicator(bossp:GetId())
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="TRIGGER_ALIENSDIE" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="AliensShip" />
+		<script>
+			TActivate( "RolikBegin_UFODIE" )
+
+			CompleteQuest( "r2m1_DestroyAlienShip" )
+			CompleteQuest( "r4m2_DestroyPlate" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

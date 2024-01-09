@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Cliffs>
+	<Set
+		name="Cliffs32"
+		height="32.000"
+		basetile="ground_fall"
+		toptile="ground_fall"
+		cliffscale="1.000 1.000 1.000">
+		<Item
+			model="data/models/cliffs/32_grass_1q.gam"
+			type="0" />
+
+		<Item
+			model="data/models/cliffs/32_grass_h_3.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/32_grass_h_4.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/32_grass_3q_1.gam"
+			type="2" />
+
+		<Item
+			model="data/models/cliffs/32_grass_3q_2.gam"
+			type="2" />
+
+		<Item
+			model="data/models/cliffs/32_grass_d_1.gam"
+			type="3" />
+</Set>
+
+	<Set
+		name="Cliffs16"
+		height="16.000"
+		basetile="ground_fall"
+		toptile="ground_fall"
+		cliffscale="1.000 1.000 1.000">
+		<Item
+			model="data/models/cliffs/16_grass_1q_3.gam"
+			type="0" />
+
+		<Item
+			model="data/models/cliffs/16_grass_1q_visit_1.gam"
+			type="0" />
+
+		<Item
+			model="data/models/cliffs/16_grass_h_1.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/16_grass_h_2.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/16_grass_h_3.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/16_grass_h_4.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/16_grass_h_visit_1.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/16_grass_h_visit_2.gam"
+			type="1" />
+
+		<Item
+			model="data/models/cliffs/16_grass_3q_1.gam"
+			type="2" />
+
+		<Item
+			model="data/models/cliffs/16_grass_3q_2.gam"
+			type="2" />
+
+		<Item
+			model="data/models/cliffs/16_grass_d_1.gam"
+			type="3" />
+</Set>
+</Cliffs>

@@ -133,6 +133,29 @@
 		</Node>
 
 		<Node
+			name="r2m1_bossfight_ico"
+			class="ImageWnd"
+			org="0.000 0.000 0.000 0.000"
+			style="512"
+			order="3"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
 			name="r2m2_ico"
 			class="ImageWnd"
 			org="562.000 715.000 96.000 96.000"

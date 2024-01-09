@@ -1998,40 +1998,6 @@
 	</Object>
 
 	<Object
-		Name="AliensShip"
-		Belong="1030"
-		Prototype="boss04"
-		Pos="1366.725 490.804 1801.638"
-		Rot="0.000 0.617 0.000 0.787"
-		PathNamesForDrones="dron1 dron2 dron3">
-		<Object
-			Belong="1030"
-			Prototype="boss04station"
-			Pos="1367.696 483.361 1801.875"
-			Rot="0.000 0.617 0.000 0.787">
-			<Parts />
-		</Object>
-
-		<Object
-			Belong="1030"
-			Prototype="boss04station"
-			Pos="1368.555 483.301 1796.631"
-			Rot="0.000 0.990 0.000 -0.141">
-			<Parts />
-		</Object>
-
-		<Object
-			Belong="1030"
-			Prototype="boss04station"
-			Pos="1362.245 480.637 1803.102"
-			Rot="0.000 0.373 0.000 -0.928">
-			<Parts />
-		</Object>
-
-		<Parts />
-	</Object>
-
-	<Object
 		Name="Human2qq1"
 		Belong="1001"
 		Prototype="Human"
