@@ -69,18 +69,6 @@
 		image1="data\if\ico\GlobalMap\r2m1.dds"
 		splashes="data\if\ico_hd\Splashes\paris.dds"
 		musicBlocks="r2_1 r2_2" />
-	
-	<LevelInfo
-		name="r2m1_bossfight"
-		file="data\maps\r2m1_bossfight.ssl"
-		fullName="Либриум"
-		diz0=""
-		diz1=""
-		north="0 0 1"
-		image0="data\if\map\r2m1.dds"
-		image1="data\if\ico\GlobalMap\r2m1.dds"
-		splashes="data\if\ico_hd\Splashes\paris.dds"
-		musicBlocks="r2_1 r2_2" />
 
 	<LevelInfo
 		name="r2m2"
@@ -141,4 +129,16 @@
 		image1="data\if\ico\GlobalMap\r4m2.dds"
 		splashes="data\if\ico_hd\Splashes\chel.dds"
 		musicBlocks="r4_1 r4_2" />
+	
+	<LevelInfo
+		name="r2m1_bossfight"
+		file="data\maps\r2m1_bossfight.ssl"
+		fullName=""
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r2m1.dds"
+		image1="data\if\ico\GlobalMap\r2m1.dds"
+		splashes="data\if\ico_hd\Splashes\paris.dds"
+		musicBlocks="r2_1 r2_2" />
 </LevelInfoResource>
