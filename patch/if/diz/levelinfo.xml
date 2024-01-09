@@ -71,6 +71,18 @@
 		musicBlocks="r2_1 r2_2" />
 
 	<LevelInfo
+		name="r2m1_bossfight"
+		file="data\maps\r2m1_bossfight.ssl"
+		fullName="Либриум"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r2m1.dds"
+		image1="data\if\ico\GlobalMap\r2m1.dds"
+		splashes="data\if\ico\Splashes\paris.dds"
+		musicBlocks="r2_1 r2_2" />
+
+	<LevelInfo
 		name="r2m2"
 		file="data\maps\r2m2.ssl"
 		fullName="Аржан"

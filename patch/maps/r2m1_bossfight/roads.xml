@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Roads>
+    <Set name="rock_cliff" scale="1.000 1.000 1.000">
+        <Item model="data\models\cliffs\Rock_Cliff\rock_clif_1.gam"/>
+        <Item model="data\models\cliffs\Rock_Cliff\rock_clif_2.gam"/>
+        <Item model="data\models\cliffs\Rock_Cliff\rock_clif_3.gam"/>
+        <Item model="data\models\cliffs\Rock_Cliff\rock_clif_4.gam"/>
+        <Item model="data\models\cliffs\Rock_Cliff\rock_clif_end.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\cliffs\Rock_Cliff\rock_clif_end.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\cliffs\Rock_Cliff\rock_clif_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="sand_cliff" scale="1.000 1.000 1.000">
+        <Item model="data\models\cliffs\Region4\sand_clif_2.gam"/>
+        <Item model="data\models\cliffs\Region4\sand_clif_3.gam"/>
+        <Item model="data\models\cliffs\Region4\sand_clif_4.gam"/>
+        <Item model="data\models\cliffs\Region4\sand_clif_5.gam"/>
+        <Item model="data\models\cliffs\Region4\sand_clif_1.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\cliffs\Region4\sand_clif_1.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\cliffs\Region4\sand_clif_1.gam" type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="cross_road_small" scale="1.000 1.000 1.000"
+WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\cross_road_sml\small.gam"/>
+        <Item model="data\models\roads\cross_road_sml\crossT_small.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\cross_road_sml\cross_small.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\road_country\road_country_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+	<Set name="test_dark_hightway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\Test\dark_hightway\dark_highway.gam"/>
+        <Item model="data\models\roads\Test\dark_hightway\dark_hightway_crossT_big.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\Test\dark_hightway\dark_hightway_cross_big.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\Test\dark_hightway\dark_highway_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+	<Set name="test_other_hightway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\Test\other_hightway\small.gam"/>
+        <Item model="data\models\roads\Test\other_hightway\other_hightway_crossT_small.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\Test\other_hightway\other_hightway_cross_small.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\Test\other_hightway\small_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+	<Set name="test_country_cross" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\test\country_cross\small.gam"/>
+        <Item model="data\models\roads\test\country_cross\crossT_small.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\test\country_cross\cross_small.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\test\country_cross\small_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="test_gravel_cross" scale="1.000 1.000 1.000"  WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\test\gravel_cross\small.gam"/>
+        <Item model="data\models\roads\test\gravel_cross\gravel_crossT_smal.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\test\gravel_cross\gravel_cross_smal.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\test\gravel_cross\small_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+     <Set name="test_hightway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\test\hightway\big.gam"/>
+        <Item model="data\models\roads\test\hightway\blend.gam"/>
+        <Item model="data\models\roads\test\hightway\hightway_crossT_big.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\test\hightway\hightway_cross_big.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\test\hightway\big_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+   <Set name="test_hightway_small" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\test\hightway_small\small.gam"/>
+        <Item model="data\models\roads\test\hightway_small\hightway_crossT_small.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\test\hightway_small\hightway_cross_small.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\test\hightway_small\hightway_cross_4_2.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\test\hightway_small\small_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="test_old_hightway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\test\old_hightway\big.gam"/>
+        <Item model="data\models\roads\test\old_hightway\old_hightway_crossT_big.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\test\old_hightway\old_hightway_cross_big.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\test\old_hightway\big_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="cross_road_big" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\cross_road_big\big.gam"/>
+        <Item model="data\models\roads\cross_road_big\blend.gam"/>
+        <Item model="data\models\roads\cross_road_big\crossT_big.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\cross_road_big\cross_big.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\cross_road_big\cross_big_small.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\road_country\road_country_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r2_cliff" scale="1.000 1.000 1.000">
+        <Item model="data\models\cliffs\region2\copped_cliff_1.gam"/>
+        <Item model="data\models\cliffs\region2\copped_cliff_2.gam"/>
+        <Item model="data\models\cliffs\region2\copped_cliff_end.gam" type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\cliffs\region2\copped_cliff_end.gam" type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\cliffs\region2\copped_cliff_end.gam" type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="road_country" scale="1.000 1.000 1.000"  WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\road_country\road_country.gam"/>
+        <Item model="data\models\roads\road_country\road_country_end.gam" type="1"/>
+        <Item model="data\models\roads\road_country\road_country_end.gam" type="2"/>
+        <Item model="data\models\roads\road_country\road_country_end.gam" type="3"/>
+    </Set>
+
+    <Set name="road_gravel" scale="1.000 1.000 1.000"  WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\road_gravel\gravel.gam"/>
+        <Item model="data\models\roads\road_gravel\gravel_end.gam" type="1"/>
+        <Item model="data\models\roads\road_gravel\gravel_end.gam" type="2"/>
+        <Item model="data\models\roads\road_gravel\gravel_end.gam" type="3"/>
+    </Set>
+
+    <Set name="road_small_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\road_small_highway\small_highway.gam"/>
+        <Item model="data\models\roads\road_small_highway\small_highway_end.gam" type="1"/>
+        <Item model="data\models\roads\road_small_highway\small_highway_end.gam" type="2"/>
+        <Item model="data\models\roads\road_small_highway\small_highway_end.gam" type="3"/>
+    </Set>
+
+    <Set name="road_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\road_highway\highway.gam"/>
+        <Item model="data\models\roads\road_highway\highway_end.gam" type="1"/>
+        <Item model="data\models\roads\road_highway\highway_end.gam" type="2"/>
+        <Item model="data\models\roads\road_highway\highway_end.gam" type="3"/>
+    </Set>
+
+    <Set name="road_dark_small_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\road_dark_small_highway\road_dark_small_highway_1.gam"/>
+        <Item model="data\models\roads\road_dark_small_highway\road_dark_small_highway_end_1.gam" type="1"/>
+        <Item model="data\models\roads\road_dark_small_highway\road_dark_small_highway_end_1.gam" type="2"/>
+        <Item model="data\models\roads\road_dark_small_highway\road_dark_small_highway_end_1.gam" type="3"/>
+    </Set>
+
+    <Set name="road_dark_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\road_dark_highway\road_dark_highway_1.gam"/>
+        <Item model="data\models\roads\road_dark_highway\road_dark_highway_end_1.gam" type="1"/>
+        <Item model="data\models\roads\road_dark_highway\road_dark_highway_end_1.gam" type="2"/>
+        <Item model="data\models\roads\road_dark_highway\road_dark_highway_end_1.gam" type="3"/>
+    </Set>
+
+    <Set name="road_old_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\road_old_highway\old_highway.gam"/>
+        <Item model="data\models\roads\road_old_highway\old_highway_end.gam" type="1"/>
+        <Item model="data\models\roads\road_old_highway\old_highway_end.gam" type="2"/>
+        <Item model="data\models\roads\road_old_highway\old_highway_end.gam" type="3"/>
+    </Set>
+
+    <Set name="r_road" scale="1.000 1.000 1.000"  WheelTrace="data\fx\protectors\protector_rock.tga">
+        <Item model="data\models\roads\r_road\r_road.gam"/>
+        <Item model="data\models\roads\r_road\r_road_end.gam" type="1"/>
+        <Item model="data\models\roads\r_road\r_road_end.gam" type="2"/>
+        <Item model="data\models\roads\r_road\r_road_end.gam" type="3"/>
+    </Set>
+
+    <Set name="r2_cross" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION2\country\small.gam"/>
+        <Item model="data\models\roads\REGION2\country\crossT_small.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION2\country\cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION2\country\small_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r2_country_dry" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION2\country_dry\small.gam"/>
+        <Item model="data\models\roads\REGION2\country_dry\crossT_small.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION2\country_dry\cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION2\country_dry\small_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r2_dark_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION2\dark_highway\dark_highway.gam"/>
+        <Item model="data\models\roads\REGION2\dark_highway\dark_hightway_crossT_big.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION2\dark_highway\dark_hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION2\dark_highway\dark_highway_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r2_gravel" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION2\gravel\small.gam"/>
+        <Item model="data\models\roads\REGION2\gravel\gravel_crossT_smal.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION2\gravel\gravel_cross_smal.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION2\gravel\small_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r2_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION2\highway\big.gam"/>
+        <Item model="data\models\roads\REGION2\highway\blend.gam"/>
+        <Item model="data\models\roads\REGION2\highway\hightway_crossT_big.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION2\highway\hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION2\highway\big_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r2_narrow_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION2\narrow_highway\big.gam"/>
+        <Item model="data\models\roads\REGION2\narrow_highway\blend.gam"/>
+        <Item model="data\models\roads\REGION2\narrow_highway\hightway_crossT_big.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION2\narrow_highway\hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION2\narrow_highway\big_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r2_old_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION2\old_highway\big.gam"/>
+        <Item model="data\models\roads\REGION2\old_highway\old_hightway_crossT_big.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION2\old_highway\old_hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION2\old_highway\big_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+
+
+    <Set name="r3_cross" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION3\country\small.gam"/>
+        <Item model="data\models\roads\REGION3\country\crossT_small.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION3\country\cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\country\small_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r3_country_dry" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION3\country_dry\small.gam"/>
+        <Item model="data\models\roads\REGION3\country_dry\crossT_small.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION3\country_dry\cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\country_dry\small_end.gam" 	type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r3_dark_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION3\dark_highway\dark_highway.gam"/>
+        <Item model="data\models\roads\REGION3\dark_highway\dark_hightway_crossT_big.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION3\dark_highway\dark_hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\dark_highway\dark_highway_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r3_gravel" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION3\gravel\small.gam"/>
+        <Item model="data\models\roads\REGION3\gravel\gravel_crossT_smal.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION3\gravel\gravel_cross_smal.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\gravel\small_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r3_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION3\highway\big.gam"/>
+        <Item model="data\models\roads\REGION3\highway\blend.gam"/>
+        <Item model="data\models\roads\REGION3\highway\hightway_crossT_big.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION3\highway\hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\highway\big_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r3_narrow_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION3\narrow_highway\small.gam"/>
+        <Item model="data\models\roads\REGION3\narrow_highway\blend.gam"/>
+        <Item model="data\models\roads\REGION3\narrow_highway\hightway_crossT_small.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION3\narrow_highway\hightway_cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\narrow_highway\hightway_cross_4_2.gam" 		type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\narrow_highway\small_end.gam" 			type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r3_old_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION3\old_highway\big.gam"/>
+        <Item model="data\models\roads\REGION3\old_highway\old_hightway_crossT_big.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION3\old_highway\old_hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION3\old_highway\big_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+
+
+
+    <Set name="r4_cross" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION4\country\small.gam"/>
+        <Item model="data\models\roads\REGION4\country\crossT_small.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION4\country\cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\country\small_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r4_country_dry" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION4\country_dry\small.gam"/>
+        <Item model="data\models\roads\REGION4\country_dry\crossT_small.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION4\country_dry\cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\country_dry\small_end.gam" 	type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r4_dark_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION4\dark_highway\dark_highway.gam"/>
+        <Item model="data\models\roads\REGION4\dark_highway\dark_hightway_crossT_big.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION4\dark_highway\dark_hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\dark_highway\dark_highway_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r4_gravel" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector_ground.tga">
+        <Item model="data\models\roads\REGION4\gravel\small.gam"/>
+        <Item model="data\models\roads\REGION4\gravel\gravel_crossT_smal.gam" 	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION4\gravel\gravel_cross_smal.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\gravel\small_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r4_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION4\highway\big.gam"/>
+        <Item model="data\models\roads\REGION4\highway\blend.gam"/>
+        <Item model="data\models\roads\REGION4\highway\hightway_crossT_big.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION4\highway\hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\highway\big_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r4_narrow_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION4\narrow_highway\small.gam"/>
+        <Item model="data\models\roads\REGION4\narrow_highway\blend.gam"/>
+        <Item model="data\models\roads\REGION4\narrow_highway\hightway_crossT_small.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION4\narrow_highway\hightway_cross_small.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\narrow_highway\hightway_cross_4_2.gam" 		type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\narrow_highway\small_end.gam" 			type="3"/> <!-- конец -->
+    </Set>
+
+    <Set name="r4_old_highway" scale="1.000 1.000 1.000" WheelTrace="data\fx\protectors\protector.tga">
+        <Item model="data\models\roads\REGION4\old_highway\big.gam"/>
+        <Item model="data\models\roads\REGION4\old_highway\old_hightway_crossT_big.gam"	type="1"/> <!-- T перекрестoк -->
+        <Item model="data\models\roads\REGION4\old_highway\old_hightway_cross_big.gam" 	type="2"/> <!-- X перекрестoк -->
+        <Item model="data\models\roads\REGION4\old_highway\big_end.gam" 		type="3"/> <!-- конец -->
+    </Set>
+
+
+
+
+</Roads>
