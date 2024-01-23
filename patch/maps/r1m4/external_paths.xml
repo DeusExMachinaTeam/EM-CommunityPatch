@@ -1699,8 +1699,62 @@
 	</Path>
 
 	<Path
+		Name="player_path07">
+		<Point
+			coord="2507.771 2651.596" />
+
+		<Point
+			coord="2499.613 2683.082" />
+
+		<Point
+			coord="2487.873 2719.343" />
+	</Path>
+
+	<Path
 		Name="subzaezd1">
 		<Point
 			coord="714.643 699.526" />
+	</Path>
+
+	<Path
+		Name="LeaderCar_path01">
+		<Point
+			coord="2361.164 2940.181" />
+
+		<Point
+			coord="2379.970 2923.036" />
+
+		<Point
+			coord="2406.879 2899.690" />
+
+		<Point
+			coord="2422.408 2881.977" />
+
+		<Point
+			coord="2433.690 2861.261" />
+
+		<Point
+			coord="2447.021 2831.019" />
+
+		<Point
+			coord="2461.036 2795.315" />
+	</Path>
+
+	<Path
+		Name="LeaderCar_path02">
+		<Point
+			coord="2474.752 2750.731" />
+	</Path>
+
+	<Path
+		Name="LeaderCar_path03">
+		<Point
+			coord="2448.491 2747.151" />
+	</Path>
+
+	<Path
+		Name="LeaderCar_path04">
+		<Point
+			coord="2499.592 2767.686" />
 	</Path>
 </Paths>

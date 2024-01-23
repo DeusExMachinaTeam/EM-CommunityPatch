@@ -110,77 +110,13 @@
 
 		</script>
 	</trigger>
-<!-- Создаем отряд охраны лидера -->
-	<trigger	Name="trFreeExtremistLeader_Take" active="0">
-		<event	timeout="1"	eventid="GE_TIME_PERIOD" />
-		<script>
---			println("Leader Caravan Guards Created")
-			TeamCreate("LeaderGuardTeam",1010,CVector(getPos("LeaderCaravanSpawn_loc")),{"Revolutioner2","Bug01","Bug01"}, CVector(2359.986, 254.000, 2939.419))
-			TeamCreate("LeaderCar",1010,CVector(getPos("LeaderCaravanSpawn_loc")),{"Molokovoz01"}, CVector(2359.986, 254.000, 2939.419))
-			local lcar = getObj("LeaderCar_vehicle_0")
-			if lcar then
-				lcar:AttachTrailer("MolokovozTrailer")
-				lcar:setImmortalMode(1)
-				local trailer = lcar:GetTrailer()
-				if trailer then
-					trailer:SetSkin(lcar:GetSkin())
-					trailer:setImmortalMode(1)
-					local nametr = trailer:GetName()
-				   	local tr = getObj("trLeaderCarDie")
-				   	if tr then tr:AddEvent("GE_VEHICLE_WITHOUT_HEALTH",nametr) end
-	   			end
-	   		end
 
-			TActivate("trMainCarDie")
-			TActivate("trLeaderGuardsDie")
-			TActivate("trLeaderCarDie")
-			TActivate("trNearCaravanLeader")
-			TActivate("trExtrLeader")
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-<!-- едем освобождать лидера, они выдвигаются в сторону Ольма-->
-	<trigger	Name="trExtrLeader"	active="0">
-		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="LeaderCaravanStart_loc" />
-		<script>
-			local GuardTeam=GetEntityByName("LeaderGuardTeam")
-			if GuardTeam then
-				GuardTeam:SetDestination(CVector(2684.543, 249.000, 2287.926))
-			end
-
-			local LeaderTeam=GetEntityByName("LeaderCar")
-			if LeaderTeam then
-				LeaderTeam:SetDestination(CVector(2686.543, 249.000, 2289.926))
-			end
-
-			TActivate("trMoveCaravanLoc")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger	Name="trMoveCaravanLoc" active="0">
-		<event	timeout="0.5"	eventid="GE_TIME_PERIOD" />
-		<script>
---			println("trMoveCaravanLoc")
-			local pos=CVector(getPos("LeaderCar_vehicle_0"))
---			println("pos = "..pos)
-			local myloc=getObj("LeaderCaravanSpawn_loc")
---			println("222222222")
-			if myloc and pos then
---			println("33333333")
---			   myloc:SetPosition(CVector(pos))
-			   myloc:SetPosition(pos)
-			end
-		</script>
-	</trigger>
 <!-- подъехали близко к каравану-->
 	<trigger	Name="trNearCaravanLeader"	active="0">
-		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="LeaderCaravanSpawn_loc" />
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="LeaderCaravanStart_loc" />
 		<script>
---			SetTolerance(1100, 1010, RS_ENEMY)
 			SetTolerance(1100, 1010, RS_NEUTRAL)
+
 			TActivate("RolikBegin_NearCaravanLeader")
 
 			trigger:Deactivate()
@@ -358,8 +294,8 @@
 		<event	timeout="0.01"	eventid="GE_TIME_PERIOD" />
 		<script>
 			TDeactivate("trNearCaravanLeader")
-			TDeactivate("trLeaderCaravanDie")
-			TDeactivate("trLeaderCarDie")
+			TDeactivate("trLeaderGuardsDie")
+			TDeactivate("trMainCarDie")
 			
 			TeamCreate("ExtrGuardTeam",1065,CVector(getPos("StorageVil_deploy")),{"Revolutioner1","Revolutioner2","Bug01","Bug01","Revolutioner2"})			
 			SetTolerance(1100, 1065, RS_ENEMY)
