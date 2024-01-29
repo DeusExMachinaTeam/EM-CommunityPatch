@@ -65,6 +65,10 @@
 		FullName="Мастерская друида" />
 
 	<Object
+		Name="AloneDruid_Bar"
+		FullName="Дом друида" />
+
+	<Object
 		Name="heavy_dot3_vulcan1"
 		FullName="Дот" />
 
