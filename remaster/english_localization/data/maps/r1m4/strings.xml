@@ -24,7 +24,7 @@
 		modelSkin="2"
 		modelCfg="132"
 		modelSlot="1"
-		value="GUARD|Do not approach! Any suspicious actions will be considered as aggression!"
+		value="GUARD|Do not approach! Any suspicious actions will be considered an act of aggression!"
 		sound="data\sounds\Speech\r1m4\r1m4_4_guard.ogg"
 		time="4" />
 
@@ -41,14 +41,14 @@
 		modelSkin="2"
 		modelCfg="132"
 		modelSlot="1"
-		value="GUARD|Attempted bribery of an official in the line of duty! "
+		value="GUARD|Attempted bribery of an official on duty!"
 		sound="data\sounds\Speech\r1m4\r1m4_6_guard.ogg"
 		time="4" />
 
 	<string
 		id="7"
 		modelName="mask_hero"
-		value="|Looks like I'm going to have to do this the hard way. Free the prisoner and get the hell out of here. You won't get a second chance."
+		value="|Looks like I'm going to have to do this the hard way. Let the prisoner go and get the hell out of here. You won't get a second chance."
 		sound="data\sounds\Speech\r1m4\r1m4_7_hero.ogg"
 		time="4" />
 
@@ -58,21 +58,21 @@
 		modelSkin="2"
 		modelCfg="132"
 		modelSlot="1"
-		value="GUARD|Everyone to the guns! Let's show that impudent man how to mess with the officers of the law!"
+		value="GUARD|Everyone to the guns! Let's show this impudent man what happens when you mess with law enforcement!"
 		sound="data\sounds\Speech\r1m4\r1m4_8_guard.ogg"
 		time="4" />
 
 	<string
 		id="9"
 		modelName="mask_hero"
-		value="|You chose to do it yourself. The main thing is not to hit the trailer with the prisoner. The rest can burn in flames!"
+		value="|That's your choice to make. The main thing is not to hit the trailer with the prisoner. The rest can burn in flames!"
 		sound="data\sounds\Speech\r1m4\r1m4_9_hero.ogg"
 		time="4" />
 
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|What are you waiting for? Get in my truck. Hurry, they could have called for help.  "
+		value="|What are you waiting for? Get in my truck. Hurry, they could have called for help."
 		sound="data\sounds\Speech\r1m4\r1m4_10_hero.ogg"
 		time="4" />
 
@@ -96,14 +96,14 @@
 	<string
 		id="13"
 		modelName="mask_hero"
-		value="|Unfortunately, the prisoner's trailer got exploded in the heat of the moment. He's dead, and I have nothing to offer to the extremists..."
+		value="|Unfortunately, the trailer with the prisoner got blown up in the heat of the battle. He's dead, and I have nothing to offer to the extremists..."
 		sound="data\sounds\Speech\r1m4\r1m4_13_hero.ogg"
 		time="4" />
 
 	<string
 		id="14"
 		modelName="mask_hero"
-		value="|Guess, I have to simply capture that warehouse. Piece of cake!"
+		value="|Guess I'll have to take the warehouse by force. Piece of cake!"
 		sound="data\sounds\Speech\r1m4\r1m4_14_hero.ogg"
 		time="4" />
 
@@ -116,7 +116,7 @@
 	<string
 		id="16"
 		modelName="mask_hero"
-		value="|Oh, my God! What the...? Why did the people of Old World need such machines?"
+		value="|Oh, my God! What the...? Just what could the people of old need such machines for?"
 		sound="data\sounds\Speech\r1m4\r1m4_16_hero.ogg"
 		time="4" />
 
@@ -144,21 +144,21 @@
 	<string
 		id="20"
 		modelName="mask_hero"
-		value="|It seems he's inviting me into his jaws. So this is the Sea Gate! In the belly of the beast I will swim to the Oracle. It's scary, of course... Well, I've got nothing to lose. Only forward!"
+		value="|It seems he's inviting me into his jaws. So this is the Sea Gate! In the belly of the beast I will swim to the Oracle. It's scary, of course... But I've got nothing to lose. The only way is forward!"
 		sound="data\sounds\Speech\r1m4\r1m4_20_hero.ogg"
 		time="4" />
 
 	<string
 		id="21"
 		modelName="mask_hero"
-		value="|These bandits won’t trouble traders no more! "
+		value="|These bandits won’t trouble traders no more!"
 		sound="data\sounds\Speech\r1m4\r1m4_21_hero.ogg"
 		time="4" />
 
 	<string
 		id="22"
 		modelName="mask_hero"
-		value="|Now I must inform Ohlm’s people that the warehouse is free."
+		value="|The only thing left is to inform Ohlm’s people that the warehouse is free."
 		sound="data\sounds\Speech\r1m4\r1m4_22_hero.ogg"
 		time="4" />
 
@@ -170,7 +170,7 @@
 	<string
 		id="8802"
 		modelName="mask_hero"
-		value="I don’t know the way, so I’ll better stay here. " />
+		value="I don’t know the way, so I’ll better stay here." />
 
 	<string
 		id="8803"

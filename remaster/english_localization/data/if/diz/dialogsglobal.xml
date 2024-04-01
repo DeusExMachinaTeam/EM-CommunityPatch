@@ -4976,7 +4976,7 @@
 <!--Root/r1m3/—южетные--><!--Root/r1m3/ќпциональные--><!--Root/r1m3/ќпциональные/ они и Ѕлайд-->
 	<Reply
 		name="KonnyBlide_hellodlg0"
-		text="Hi! We are a young married couple Ц Connie and Blyde. Could you please give us a lift? Our car broke down and we really need to get home. We will pay you very well...."
+		text="Hi! We are a young married couple Ц Connie and Blyde. Could you please give us a lift? Our car broke down and we really need to get home. We will pay you very well..."
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_001080 Dlg_pl_001081" />
@@ -7614,7 +7614,7 @@
 
 	<Reply
 		name="Dlg_npc_000580"
-		text="Remember, lad! During the battle, when you are surrounded by these petty bandits, the main thing is not to stand still... Spin around and fire all the guns! This way it will be harder for them to hit you... I remember once three of them surrounded me at the same time! But this story is for a fee...."
+		text="Remember, lad! During the battle, when you are surrounded by these petty bandits, the main thing is not to stand still... Spin around and fire all the guns! This way it will be harder for them to hit you... I remember once three of them surrounded me at the same time! But this story is for a fee..."
 		role="NPC"
 		nextReplies="Dlg_pl_000581" />
 

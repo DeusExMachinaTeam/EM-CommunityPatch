@@ -1,0 +1,60 @@
+# WARNING: SAMPLE MANIFEST, COMPATCH HAS NO ENG TRANSLATION CURRENTLY SO THIS IS NOT LOADED!
+
+# unique service name
+name: community_patch
+
+# required human readable info
+display_name: Community Patch
+
+# translations & variants versions and builds should be the same as the version and build of main mod
+# can specify the same build and version manually, but this will be copied from main mod 
+# version: "1.14.1"
+# build: "240321a"
+
+description: |
+  ENG text
+  
+authors: DEM Team, EM2ch
+
+# optional human readable info
+release_date: "21.06.2024"  # date of the current prerelease
+language: eng # see supported lang list in main manifest
+
+link: https://deuswiki.com/w/Community_Remaster
+logo: assets/compatch_logo.png
+install_banner: assets/compatch_banner.png
+tags: [gameplay, bugfix, story, visual]
+change_log: assets/change_list_ru.md
+
+screenshots:
+  - img: assets/screen_1.jpg
+    text: На скриншоте главное меню Комьюнити Ремастера
+    # compare: assets/screen_1_1.jpg
+
+# has no translations
+# translations: [eng]
+
+# can't have variants, as it's a variant already
+# variants : []
+
+# Installation configuration
+
+## requirements and prerequisites are empty, as this mod installs on clean game
+# prerequisites: []
+
+# how to patch the game and which files to copy 
+patcher_version_requirement: "2.1"
+
+## binary patching settings
+patcher_options:
+  gravity: -19.62
+  blast_damage_friendly_fire: false
+
+## mod consists of base files and options
+no_base_content: false
+
+## mod files directories if not default "data"
+data_dirs: [patch]
+bin_dirs: [libs]
+
+## no options for this variant

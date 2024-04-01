@@ -15,7 +15,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_2_cd_officer_radio.ogg"
-		value="RADIO|Then we'll strike another place. Remember, your job is to endure as long as possible, not burn down the village. Do it."
+		value="RADIO|Then we'll strike another place. Remember, your job is to hold for as long as possible, not burn down the village. Do it."
 		time="8" />
 
 	<string
@@ -24,7 +24,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_3_cd_officer_radio.ogg"
-		value="RADIO|Retreat. You have done your job."
+		value="RADIO|Retreat. You've done your job."
 		time="4" />
 
 	<string
@@ -60,7 +60,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_7_cd_officer_radio.ogg"
-		value="RADIO|You proved your loyalty to the common cause.  On the corpse of one traitor we found a note saying that he would soon meet with CIT agents."
+		value="RADIO|You proved your loyalty to the common cause. On the corpse of one traitor we found a note saying that he was supposed to meet with CIT agents."
 		time="8" />
 
 	<string
@@ -69,7 +69,7 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_8_cd_officer_radio.ogg"
-		value="RADIO|You will meet with him instead of the rebel and find out all you can. You have to act according to the circumstances. The meeting is in the Toskana's bar. Password: &quot;The night is long&quot;, recall: &quot;But the dawn is near&quot;."
+		value="RADIO|You'll meet him in place of the rebel and find out all you can. Act based on the circumstances. The meeting is in the Toskana's bar. Password is &quot;The night is long&quot;, recall: &quot;But the dawn is near&quot;."
 		time="8" />
 
 	<string
@@ -92,7 +92,7 @@
 		id="34"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_24_hero.ogg"
-		value="|Finally that moment has come! "
+		value="|Here it is - the moment of truth!"
 		time="4" />
 
 	<string
@@ -107,7 +107,7 @@
 		id="12"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_12_hero.ogg"
-		value="|Do you remember, when you sent the mercenaries to made a raid to frighten the people of Krai? They burnt down my home village and killed my father! "
+		value="|Do you remember, when you sent your men to raid a neighbouring region? That day you burnt down my home village and killed my father!"
 		time="12" />
 
 	<string
@@ -115,7 +115,7 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_13_axel.ogg"
-		value="AXEL|Do you always believe everything they say? Who sold you this rubbish?"
+		value="AXEL|Do you always believe in vain hearsay? Who sold you this rubbish?"
 		time="5" />
 
 	<string
@@ -130,14 +130,14 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_15_axel.ogg"
-		value="AXEL|Lisa? Pretty girl with a fast car and dangerous connections?"
+		value="AXEL|You say it was a woman? Pretty girl with a fast car and dangerous connections?"
 		time="6" />
 
 	<string
 		id="16"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_16_hero.ogg"
-		value="|Yeah. You described her very accurately."
+		value="|Yeah. You described her fairly accurately."
 		time="4" />
 
 	<string
@@ -145,7 +145,7 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_17_axel.ogg"
-		value="AXEL|Alice, I now her well. She is a viper in a human form. She has already spoilt my life and that of many other people with her lies. Welcome to the club."
+		value="AXEL|Lisa, I now her well. She is a viper in a human form. She has already spoilt my life and that of many other people with her lies. Welcome to the club."
 		time="13" />
 
 	<string
@@ -160,14 +160,14 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_19_axel.ogg"
-		value="AXEL|She came to me and begged for protection against the enemies, or so she said. I welcomed her as a gentlemen should. But she robbed me and ran away. I trusted her! "
+		value="AXEL|She came to me and begged for protection against the enemies, or so she said. I welcomed her as a gentlemen should. But she robbed me and ran away. I trusted her! I..."
 		time="11" />
 
 	<string
 		id="20"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_20_hero.ogg"
-		value="|Go on... What about my village?"
+		value="|Are you saying that you're innocent?"
 		time="4" />
 
 	<string
@@ -175,14 +175,14 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_21_axel.ogg"
-		value="AXEL|Believe me, I have enough troubles in my country. For months now we do not leave positions. We never attacked your home!"
+		value="AXEL|Believe me, I have enough troubles in my country to not entertain the idea of fighting with eastern neighbours at the same time. For months now we do not leave positions and never attacked your home."
 		time="12" />
 
 	<string
 		id="22"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_22_hero.ogg"
-		value="|You seem to be telling the truth... But being innocent of one crime doesn’t excuse your other atrocities."
+		value="|I can't believe I got caught in her trap! But that doesn't excuse you. You might be innocent of one crime, but you are guilty of many others."
 		time="13" />
 
 	<string
@@ -197,7 +197,7 @@
 		modelName="mask_axel"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_23_axel.ogg"
-		value="AXEL|I saved my people from the famine! Only the strong power will save the world from degradation. I am responsible for every person killed in this war. "
+		value="AXEL|I will say that I saved my people from the famine! And that only the strong power will stop the total degradation of our world. I claimed the sins of an entire country, and I'm ready to answer for them..."
 		time="14" />
 
 	<string
@@ -220,7 +220,7 @@
 		id="26"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_26_hero.ogg"
-		value="|What insight! I admit I don't care much for your local squabbles. I just want to get to Lisa!"
+		value="|How insightful! I admit I don't care much for your local squabbles. I just want to get to Lisa!"
 		time="12" />
 
 	<string

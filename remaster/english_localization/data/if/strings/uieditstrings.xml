@@ -318,7 +318,7 @@
 
 	<string
 		id="Filtration"
-		value="Filtering" />
+		value="Texture filtering" />
 
 	<string
 		id="BlumQuality"

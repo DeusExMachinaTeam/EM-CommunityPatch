@@ -10,7 +10,7 @@
 	<string
 		id="4"
 		modelName="mask_hero"
-		value="|There's a lot of strange things here... And everything is smashed. My name is carved on this board... It's a stash, and there's some kind of amulet inside. It's a curious thing. I'll keep it. "
+		value="|There's a lot of strange things here... And everything is smashed. My name is carved on this board... It's a stash, and there's some kind of amulet inside. Ñurious thing. I'll keep it. "
 		sound="data\sounds\Speech\r1m3\r1m3_4_hero.ogg"
 		time="8" />
 
@@ -19,14 +19,14 @@
 		modelAutosized="true"
 		modelName="gadget_12"
 		modelSlot="1"
-		value="RADIO|Hey! I think it's working! This is Ben,over. I've set up the radio transmitter. How's the search going?"
+		value="RADIO|Hey! I think it's working! This is Ben, over. I've set up the radio transmitter. How's the search going?"
 		sound="data\sounds\Speech\r1m3\r1m3_401_ben_radio.ogg"
 		time="8" />
 
 	<string
 		id="402"
 		modelName="mask_hero"
-		value="|Radio communication at this distance? You're a real genius. The search turned up nothing, unfortunately. There's nothing here but junk. But I did find an amusing amulet with buttons and the inscription: UB-627 Red access."
+		value="|Radio communication at this distance? You're an actual wizard! The search turned up nothing, unfortunately. There's nothing here but junk. But I did find an amusing amulet with buttons and the inscription: &quot;UB-627 Red access&quot;."
 		sound="data\sounds\Speech\r1m3\r1m3_402_hero.ogg"
 		time="8" />
 
@@ -44,7 +44,7 @@
 		modelAutosized="true"
 		modelName="gadget_12"
 		modelSlot="1"
-		value="RADIO|It is said that an Oracle lives on an island lost in the ocean. Whoever passes all the challenges on the way to his residence will get an answer to any question he may have."
+		value="RADIO|It is said that an Oracle lives on an island lost in the ocean. Whoever passes all the challenges on the way to his dwelling will get an answer to any question he may have. Naturally, all of this is fiction. However, there are reasons to believe that this legend has an entirely scientific basis."
 		sound="data\sounds\Speech\r1m3\r1m3_404_ben_radio.ogg"
 		time="12" />
 
@@ -60,7 +60,7 @@
 	<string
 		id="405"
 		modelName="mask_hero"
-		value="|It would be nice to find out from this Oracle what happened to Ivan. In any case, it was not for nothing that such a rare thing ended up in his stash."
+		value="|It would be nice to find out from this Oracle what happened to Ivan. In any case, it was for a reason that such a rare thing ended up in his stash."
 		sound="data\sounds\Speech\r1m3\r1m3_405_hero.ogg"
 		time="8" />
 
@@ -69,7 +69,7 @@
 		modelAutosized="true"
 		modelName="gadget_12"
 		modelSlot="1"
-		value="RADIO|I have read ancient documents which said, or rather one could read between the lines, that there was some large and very secret construction on an island. "
+		value="RADIO|I have read ancient documents which said, or rather one could read between the lines, that there was some sort of major and very classified construction on one island."
 		sound="data\sounds\Speech\r1m3\r1m3_406_ben_radio.ogg"
 		time="8" />
 
@@ -79,28 +79,28 @@
 		modelName="gadget_12"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_407_ben_radio.ogg"
-		value="RADIO|Drive all the way north. Somewhere at the very edge of the earth are the Sea Gates. You'll know it when you see it. I don't know any more than that myself. It looks like my radio is completely broken..."
+		value="RADIO|Drive all the way north. Somewhere at the very edge of the land are the Sea Gates. You'll know it when you see it. I don't know any more than that myself. It looks like my radio is completely broken..."
 		time="12" />
 
 	<string
 		id="408"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_408_hero.ogg"
-		value="|The signal was cut off... But I understood what Ben was talking about. I'll get the details in Minin."
+		value="|The signal's lost... But I understood what Ben was talking about. I'll get the details in Minin."
 		time="4" />
 
 	<string
 		id="5"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_5_hero.ogg"
-		value="|So how do I open this enormous gates? The bartender is not as simple as I thought. If I go back, he'll ask such a price for the key... Maybe I should come up with another plan."
+		value="|So how do I open these enormous gates? The barman is not as simple as I thought. If I go back, he's gonna charge a hell of a price for the key... Maybe I should come up with another plan?"
 		time="8" />
 
 	<string
 		id="6"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_6_hero.ogg"
-		value="|Since I came here, I'll wait here! Somebody will show up. All I have to do is find an inconspicuous place to hide."
+		value="|Since I'm already here, this is where I'll wait! Somebody's gotta show up. All I have to do is find an inconspicuous place to hide."
 		time="8" />
 
 	<string
@@ -114,21 +114,21 @@
 		id="8"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_8_hero.ogg"
-		value="|Someone is coming out of the tunnel! I could attack him right away. Or is it better to follow him and try to obtain the key peacefully?"
+		value="|Someone is coming out of the tunnel! I could attack right away. Or is it better to follow him and try to obtain the key peacefully?"
 		time="8" />
 
 	<string
 		id="9"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_9_hero.ogg"
-		value="|Sorry for killing you, but I really need this key."
+		value="|I'm sorry it had to end this way. But I need that key."
 		time="4" />
 
 	<string
 		id="10"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_10_hero.ogg"
-		value="|Right, he went to a bar to have some fun. I should definitely follow him. "
+		value="|Right, he went to a bar to have some fun. I should definitely follow him."
 		time="4" />
 
 	<string
@@ -138,14 +138,14 @@
 		modelCfg="118"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_11_bob.ogg"
-		value="BOB|Man, you are totally crazy! Wanna team with us? We’ll fight like this every single day! "
+		value="SLEAZY BOB|I can see that you are one tough guy. Do you wanna join our team? We could use a psycho like you."
 		time="8" />
 
 	<string
 		id="12"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_12_hero.ogg"
-		value="|I won’t have any business with you, bandits! The one like you have killed my father! Where’s Alice?!"
+		value="|I don't give a damn about you and your filthy bandit business! I'm looking for the man who killed my father!"
 		time="4" />
 
 	<string
@@ -155,14 +155,14 @@
 		modelCfg="118"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_13_bob.ogg"
-		value="BOB|But you already having business with us. Ha-ha. Well, Alice was here a couple of days ago with a message from her boss. She was in a hurry and left very soon. "
+		value="SLEAZY BOB|I better not get in your way. Lisa was here a short while ago with a message from her boss. But she was obviously in a hurry, and as soon as she finished her business, she was gone."
 		time="8" />
 
 	<string
 		id="14"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_14_hero.ogg"
-		value="|Do you know exactly where she went?"
+		value="|Do you know where she went?"
 		time="4" />
 
 	<string
@@ -172,7 +172,7 @@
 		modelCfg="118"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_15_bob.ogg"
-		value="BOB|She seemed to need some sophisticated machinery. There’s only one place in the world where one may find such a thing. Midgard."
+		value="SLEAZY BOB|She didn't say straight out, but she seemed to need some sophisticated machinery. And the only place to get this stuff is Midgard, from what I know."
 		time="8" />
 
 	<string
@@ -186,49 +186,49 @@
 		id="17"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_17_hero.ogg"
-		value="|How much stuff is piled up in that secret stash! So the mayor really is a thief! If I tell Minin about it, he'll definitely be kicked out of the governing post. If not worse. And the workers might want to work again!"
+		value="|Look at all that stuff crammed into this stash! So the mayor really is a thief! If I report this to the people at Minin, he will be kicked out of his seat for sure. If not worse. And the workers may be willing to do the job!"
 		time="12" />
 
 	<string
 		id="18"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_18_hero.ogg"
-		value="|Well, I've failed the surveillance..."
+		value="|Well, following him didn't work out..."
 		time="4" />
 
 	<string
 		id="19"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_19_hero.ogg"
-		value="|I've failed surveillance on the mayor..."
+		value="|I've failed to follow the mayor to the destination..."
 		time="4" />
 
 	<string
 		id="20"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_20_hero.ogg"
-		value="|Well, the derrick is free! The last enemy has run away. He can lead me to the bandit base. But do I need it?!"
+		value="|Well, the oil rig has been secured! The last enemy is fleeing. He can lead me to the bandit base. But do I need it?"
 		time="8" />
 
 	<string
 		id="30"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_30_hero.ogg"
-		value="|What happened here? The wall panels have been broken off. There was a secret place behind them, but it's open now. And it's empty. Somebody has robbed my father's house."
+		value="|What happened here? The wall panels have been removed! There was a secret stash behind them, but now it's open... And empty. Somebody did a thorough job here!"
 		time="8" />
 
 	<string
 		id="31"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_31_hero.ogg"
-		value="|The enemy is defeated! I have the disk! Time to go to the Oracle!!!"
+		value="|The enemy is defeated! I have the disk! Time to go to the Oracle!"
 		time="4" />
 
 	<string
 		id="32"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_32_hero.ogg"
-		value="|Lisa, you?! It's not often you see a familiar face in a foreign land. How have you been?"
+		value="|Lisa, you?! It's not often you see a familiar face in a far away land. How have you been?"
 		time="4" />
 
 	<string
@@ -243,7 +243,7 @@
 		id="34"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_34_hero.ogg"
-		value="|What are you doing? Stop! That's mine! You thief, I'll get you! She stole the disk, without it I can't find out anything from the Oracle!"
+		value="|What are you doing? Stop! That's mine! Thief, I'll get you! She stole the disk, and without it, I won't be able to learn anything from the Oracle!"
 		time="8" />
 
 	<string
@@ -265,7 +265,7 @@
 		id="36"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_36_hero.ogg"
-		value="|Oracle? You have been transformed. How lucky we are to meet! I have to talk to you."
+		value="|Oracle? You've transformed. How lucky we have met! I have to talk to you."
 		time="4" />
 
 	<string
@@ -273,7 +273,7 @@
 		modelName="mask_oracul"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_361_oracle.ogg"
-		value="ORACLE|First hear me out. I trust you completely, and I want to tell you a secret. It is very important. Many years ago, alien invaders irradiated our planet with death rays, resulting in a drastic reduction in the planet's biomass."
+		value="ORACLE|First hear me out. I trust you completely and I want to reveal one secret to you. It is very important. Many years ago, alien invaders irradiated our planet with death rays, resulting in a drastic reduction in the planet's biomass."
 		time="22" />
 
 	<string
@@ -296,7 +296,7 @@
 		modelName="mask_oracul"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_363_oracle.ogg"
-		value="ORACLE|Your information is priceless. These coordinates coincide with my calculations. I, like you, see only one way - the complete destruction of the alien element."
+		value="ORACLE|Your information is invaluable. These coordinates coincide with my calculations. I, like you, see only one way - the complete destruction of the alien element."
 		time="8" />
 
 	<string
@@ -326,7 +326,7 @@
 		modelName="mask_oracul"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_367_oracle.ogg"
-		value="ORACLE|The powerful interference source blocking most of my signals is in Librium. My guess is that it's powered by the Sel power plant. Deactivate it, and my control over all ancient technology is complete."
+		value="ORACLE|The powerful interference source blocking most of my signals is in Librium. My guess is that it's powered by the Seil power plant. Deactivate it, and my control over the entirety of the ancients' technology will be complete."
 		time="12" />
 
 	<string
@@ -355,7 +355,7 @@
 		id="38"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_38_hero.ogg"
-		value="|Now I will never know where the bandit base is."
+		value="|Now I'll have no clue where the bandit base is."
 		time="4" />
 
 	<string
@@ -370,14 +370,14 @@
 		modelName="mask_oracul"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_3002_oracle.ogg"
-		value="ORACLE|Human, you helped me regain my former power, but now you interfere in things you don't understand!"
+		value="ORACLE|Human, you helped me regain my former power, but now you are interfering with matters beyond your understanding."
 		time="8" />
 
 	<string
 		id="3003"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_3003_hero.ogg"
-		value="Oracle! That’s you! Incredible! I could use your wings to deliver the device... I found the way to cure our world!"
+		value="Oracle?! You have wings now! That's fantastic! I could use your help! Humanity is in danger!"
 		time="8" />
 
 	<string
@@ -385,14 +385,14 @@
 		modelName="mask_oracul"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_3004_oracle.ogg"
-		value="ORACLE|I am looking for resources to destroy the source of the radiation."
+		value="ORACLE|I am aware of the source of the emissions and am seeking means to destroy it."
 		time="4" />
 
 	<string
 		id="3005"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r1m3\r1m3_3005_hero.ogg"
-		value="|Why destroy? There are plenty of people around! There is always another way. It's enough to use this device and..."
+		value="|Why destroy? There are plenty of people around! There is always another way. We just need to use this device and..."
 		time="8" />
 
 	<string
@@ -400,7 +400,7 @@
 		modelName="mask_oracul"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_3006_oracle.ogg"
-		value="ORACLE|Fool! I know who gave you this. Once you turn on your device, life on earth will end. This is the last part of their plan to take over the planet! Step back!"
+		value="ORACLE|Fool! I know who gave you this. Once you turn on your device, life on Earth will cease. This is the last part of their plan to take over the planet! Step back!"
 		time="8" />
 
 	<string
@@ -456,13 +456,14 @@
 
 	<string
 		id="6006"
-		value="You must pay 250 coins to cross the bridge. You do not have that much money. " />
+		value="You must pay 250 coins to cross the bridge. You do not have that much money." />
 
 	<string
 		id="77771"
 		msgType="SCROLL" image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds" upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds" downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
-		value="Although the Oracle’s mobile module was destroyed, the computer remained intact. Its metal servants retreated back to the jungles to attack lone Njeri’s groups.The jamming device worked as expected. Aliens’ base moved to Zarmek, where the extraterrestrials could finally study the radiation and its effect on humans. The experiments were successful: several people took the masks off and survived. But only inside Njeri’s laboratory, though. For the first time in a hundred years there was hope that the world will get back to normal. Only the shrewd ones kept wondering, if the UFO’s fall was really accidental, and if the plans of the new allies will coincide with the hopes of the humans"
-		sound="data\sounds\Speech\rolik\ending1.ogg" fontSize="18"
+		value="@ffffffff|    Although the Oracle’s mobile module was destroyed, the computer remained intact. Its metal servants have retreated to the jungle and launch occasional surprise raids on Njeri's expeditions. The successful installation of the jammer caused a noticeable change in the lives of humans. The alien base moved to Zarmek, where they were finally able to safely study the emission and its effects on humans. The first experiments were quite successful: some people managed to take off their masks and survive. However, only within the walls of Njeri's laboratory. For the first time in many years, people had hope for the revival of the old world. But the shrewd ones began to realize that the falling of the saucer was not accidental, and the plans of the new allies may be very different from the people's aspirations."
+		sound="data\sounds\Speech\rolik\ending1.ogg"
+		fontSize="18"
 		scrollSpeed="0.5"
 		time="57" />
 </resource>

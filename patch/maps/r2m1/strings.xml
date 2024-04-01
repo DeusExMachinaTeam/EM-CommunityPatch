@@ -11,7 +11,7 @@
 		id="1"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_1_hero.ogg"
-		value="|День добрый. Я ищу Акселя. Вы не слышали про такого?"
+		value="|Добрый день. Я ищу Акселя. Вы не слышали про такого?"
 		time="4" />
 
 	<string
