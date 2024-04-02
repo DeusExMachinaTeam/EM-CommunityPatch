@@ -1743,7 +1743,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N05b"
-		text="I was able to read the contents of the disk. You were right: it’s your father’s diary. I need some time to analyze the whole volume of the data, but I can answer the main questions now."
+		text="I was able to read the contents of the disc. You were right: it’s your father’s diary. I need some time to analyze the whole volume of the data, but I can answer the main questions now."
 		role="NPC"
 		scriptCondition="QuestStatus('r3m1_FindNative_2')==Q_COMPLETED"
 		scriptResult="AddHistory( 'r3_v2_BringDisc2' );"
@@ -1757,7 +1757,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N05a"
-		text="I was able to read the contents of the disk. You were right: it’s Ivan Go’s diary, where he describes his journeys and discoveries. I need some time to analyze the whole volume of the data, but I can answer the main questions now."
+		text="I was able to read the contents of the disc. You were right: it’s Ivan Go’s diary, where he describes his journeys and discoveries. I need some time to analyze the whole volume of the data, but I can answer the main questions now."
 		role="NPC"
 		scriptCondition="QuestStatus('r3m1_FindNative')==Q_COMPLETED"
 		scriptResult="AddHistory( 'r3_v2_LisaDisc1' );"
@@ -1765,7 +1765,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N06a"
-		text="Has Ivan been to the Desert of Death? There should be a clue on the disk as to how to cross the sands!"
+		text="Has Ivan been to the Desert of Death? There should be a clue on the disc as to how to cross the sands!"
 		role="PLAYER"
 		nextReplies="r3m2_Oracle_Oracle_5_N07a" />
 
@@ -1783,7 +1783,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N09a"
-		text="The disk contains a schematic that you can use to prepare the truck for the harsh desert conditions. I'll make a copy. Show it to a skilled mechanic and he’ll be able to equip you."
+		text="The disc contains a schematic that you can use to prepare the truck for the harsh desert conditions. I'll make a copy. Show it to a skilled mechanic and he’ll be able to equip you."
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_5_N10a" />
 
@@ -2111,7 +2111,7 @@
 
 	<Reply
 		name="Set_Bar_MainDruid_3_N11"
-		text="Place the praying stone by the hole and quickly leave that place. You may get crushed too if you linger."
+		text="Place the praying runestone by the hole and quickly leave that place. You may get crushed too if you linger."
 		role="NPC"
 		nextReplies="Set_Bar_MainDruid_3_P12" />
 
@@ -6768,7 +6768,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz285"
-		text="We haven't had those around here for a long time. But there's a witch who lives in one of the distant villages. Maybe she can tell us. Don't be mad at me, OK?"
+		text="We haven't had these around here in a long time. But there's a witch who lives in one of the distant villages. Maybe she can help you. Don't be mad at me, OK?"
 		role="NPC"
 		nextReplies="Dlg_pl_xyz286" />
 
@@ -7027,7 +7027,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz340"
-		text="Your disc is no mere trinket. The disk is something like a book. But reading its contents won't be easy. If your father has recorded this book, he must have a device at home to read it. I think his secret hideout was somewhere past Pesht, in the north-east. You go there, and I'll go through the books. Maybe I'll think of something else. Safe journey."
+		text="Your disc is no mere trinket. The disc is something like a book. But reading its contents won't be easy. If your father has recorded this book, he must have a device at home to read it. I think his secret hideout was somewhere past Pesht, in the north-east. You go there, and I'll go through the books. Maybe I'll think of something else. Safe journey."
 		role="NPC"
 		nextReplies="Dlg_pl_xyz341" />
 

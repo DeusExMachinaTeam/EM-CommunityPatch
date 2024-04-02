@@ -750,12 +750,12 @@
 	<string
 		id="quest_disk_1_diz"
 		locForm="0"
-		value="The disk that used to belong to Ivan Go. Surely this item must be of great value." />
+		value="The disc that used to belong to Ivan Go. Surely this item must be of great value." />
 
 	<string
 		id="quest_disk_2_diz"
 		locForm="0"
-		value="This piece of plastic contains the code to Ivan Go's diary. With both disks, I can finally learn his fate." />
+		value="This piece of plastic contains the code to Ivan Go's diary. With both discs, I can finally learn his fate." />
 
 	<string
 		id="quest_key_for_submarine_diz"

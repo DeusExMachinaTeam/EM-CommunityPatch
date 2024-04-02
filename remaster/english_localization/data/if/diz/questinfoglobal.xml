@@ -1741,8 +1741,8 @@
 
 	<QuestInfo
 		questName="r1m3_FightWithThief"
-		briefDiz="Take the disk away from the thief"
-		fullDiz="That thief doesn’t know who he up against is yet. The disk will be mine."
+		briefDiz="Take the disc away from the thief"
+		fullDiz="That thief doesn’t know who he up against is yet. The disc will be mine."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -1802,7 +1802,7 @@
 
 	<QuestInfo
 		questName="r1m3_MoveToOraculAfterThief"
-		briefDiz="Deliver second disk to the Oracle."
+		briefDiz="Deliver second disc to the Oracle."
 		fullDiz="Now that I have both discs, I can finally learn about my father's fate. Hopefully, the contents of the diary will help me follow in his footsteps. Of course, that will require travelling to Ignott to see the Oracle."
 		isMainQuest="1">
 		<Map
@@ -2194,8 +2194,8 @@
 
 	<QuestInfo
 		questName="r2m2_GiveDisk2ToOrakul"
-		briefDiz="Deliver the second disk to the Oracle"
-		fullDiz="Finally, with the second disk at my disposal, I can go to Ignott and speak with the Oracle."
+		briefDiz="Deliver the second ck to the Oracle"
+		fullDiz="Finally, with the second disc at my disposal, I can go to Ignott and speak with the Oracle."
 		isMainQuest="1">
 		<Map
 			name="r1m3" />
@@ -2890,7 +2890,7 @@
 	<QuestInfo
 		questName="r3m2_RideToFatherRoomAfterOracul"
 		briefDiz="Return to the father’s house"
-		fullDiz="The second disk may be hidden at my father’s house. I might have missed something the first time I was there. But now I know exactly what to look for."
+		fullDiz="The second disc may be hidden at my father’s house. I might have missed something the first time I was there. But now I know exactly what to look for."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -2919,8 +2919,8 @@
 
 	<QuestInfo
 		questName="r3m2_TalkWithBenAboutCarAfterOracul"
-		briefDiz="Talk to Ben about the disk"
-		fullDiz="Ben Throttle, the famous Explorer may know where to find the second disk."
+		briefDiz="Talk to Ben about the disc"
+		fullDiz="Ben Throttle, the famous Explorer may know where to find the second disc."
 		isMainQuest="1">
 		<Map
 			name="r1m2"
@@ -2954,7 +2954,7 @@
 	<QuestInfo
 		questName="r3m2_TalkWithLisa"
 		briefDiz="Talk to Lisa"
-		fullDiz="The Oracle claims that Lisa knows more than she says. Anyway I must return to her and ask about the second disk."
+		fullDiz="The Oracle claims that Lisa knows more than she says. Anyway I must return to her and ask about the second disc."
 		isMainQuest="1">
 		<Map
 			name="r2m1"

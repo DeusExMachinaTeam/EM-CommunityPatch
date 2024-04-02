@@ -6,7 +6,7 @@
 		modelSkin="0"
 		modelCfg="1496"
 		modelSlot="1"
-		value="TRAITOR|We got you, Druid! Now we'll see who has the power to make laws in this land. You will pay us for persecuting our brothers!"
+		value="TRAITOR|We got you, Druid! Now we'll see who has the power to make laws in this land. You will pay for persecution of our brethren."
 		sound="data\sounds\Speech\r3m1\r3m1_1001_traitor.ogg"
 		time="4" />
 
@@ -16,7 +16,7 @@
 		modelSkin="2"
 		modelCfg="1915"
 		modelSlot="1"
-		value="HIGH DRUID|So you deceived me... I don't blame you, because you don't know what you're doing. But no evil goes unpunished. It's the law of life."
+		value="HIGH DRUID|So you deceived me... I do not blame you, for you do not know what you are committing. But no evil goes unpunished. It's the law of life."
 		sound="data\sounds\Speech\r3m1\r3m1_1002_druid.ogg"
 		time="5" />
 
@@ -40,7 +40,7 @@
 	<string
 		id="1020"
 		modelName="mask_hero"
-		value="|Finally, we reached the island."
+		value="|We finally made it to the island. Do you know where people live here?"
 		sound="data\sounds\Speech\r3m1\r3m1_1020_hero.ogg"
 		time="4" />
 
@@ -48,7 +48,7 @@
 		id="1021"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="LISA|I know some people here, but I don't think they can help you."
+		value="LISA|I know some people here, but I don't think they will help you."
 		sound="data\sounds\Speech\r3m1\r3m1_1021_alice.ogg"
 		time="4" />
 
@@ -113,7 +113,7 @@
 	<string
 		id="25"
 		modelName="mask_hero"
-		value="|We repulsed the attack, but the heretics may return. Let's go to Set! No one can touch us beyond its walls! "
+		value="|We repelled the attack, but the heretics may return. Let's go to Seth! No one can touch us behind its walls!"
 		sound="data\sounds\Speech\r3m1\r3m1_25_hero.ogg"
 		time="4" />
 
@@ -130,14 +130,14 @@
 	<string
 		id="32"
 		modelName="mask_hero"
-		value="|I could not protect them..."
+		value="|I could not protect them. What a shame..."
 		sound="data\sounds\Speech\r3m1\r3m1_32_hero.ogg"
 		time="4" />
 
 	<string
 		id="27"
 		modelName="mask_hero"
-		value="|What kind of strange machines are these? Now I understand what the druids were afraid of. It gives me goosebumps to see such an awful thing."
+		value="|What kind of strange machines are these? Now I understand what the druids were afraid of. This abomination gives me creeps."
 		sound="data\sounds\Speech\r3m1\r3m1_27_hero.ogg"
 		time="4" />
 
@@ -151,7 +151,7 @@
 	<string
 		id="31"
 		modelName="mask_hero"
-		value="|The sanctuary violators have been killed. I can go back to the druids now."
+		value="|The sanctuary desecrators have been killed. I can go back to the druids now."
 		sound="data\sounds\Speech\r3m1\r3m1_31_hero.ogg"
 		time="4" />
 
@@ -165,14 +165,14 @@
 	<string
 		id="1010"
 		modelName="mask_hero"
-		value="|Barely made it. That's the power of nature. "
+		value="|Barely made it. That's how she is - the force of nature."
 		sound="data\sounds\Speech\r3m1\r3m1_1010_hero.ogg"
 		time="4" />
 
 	<string
 		id="30"
 		modelName="mask_hero"
-		value="|I must return to Set and justify myself in the eyes of the High Druid."
+		value="|I must return to Seth and vindicate myself in the eyes of the High Druid."
 		sound="data\sounds\Speech\r3m1\r3m1_30_hero.ogg"
 		time="4" />
 

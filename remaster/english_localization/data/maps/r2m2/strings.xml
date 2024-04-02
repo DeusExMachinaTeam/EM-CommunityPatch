@@ -280,7 +280,7 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_35_alice.ogg"
-		value="ALICE|I give up! You won!"
+		value="LISA|I give up! You won!"
 		time="4" />
 
 	<string
@@ -295,14 +295,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_37_alice.ogg"
-		value="ALICE|You do not understand! You won’t be able to use it right... "
+		value="LISA|You don't understand! You won’t be able to correctly use..."
 		time="4" />
 
 	<string
 		id="38"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_38_hero.ogg"
-		value="|Don’t push your luck! I want it back now!"
+		value="|Don’t push your luck! Give me back the discs and the amulet. Now!"
 		time="4" />
 
 	<string
@@ -310,14 +310,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_39_alice.ogg"
-		value="ALICE|You’re the boss now. Here you go... But first listen to me. I am not a villain, as everybody thinks. I just want to find Ivan Go so badly!"
+		value="LISA|All right, take it. You're the boss now. But hear me out! I'm not the villain you think I am! I just really need to find Ivan!"
 		time="8" />
 
 	<string
 		id="40"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_40_hero.ogg"
-		value="|My Father? What do you have to do with him?"
+		value="|My father? What do you have to do with him?"
 		time="4" />
 
 	<string
@@ -325,14 +325,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_41_alice.ogg"
-		value="ALICE|He is the symbol of humanity. The one who will find him or his remains will become a hero and will be able to unite the world under the banners of progress. I just have to accomplish it!"
+		value="LISA|I really want to do something significant, something really meaningful for me and for others. And your father is a symbol! Whoever finds him, even his body, will be a hero and will be able to unite this chaotic world."
 		time="12" />
 
 	<string
 		id="42"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_42_hero.ogg"
-		value="|What strange goals you have. And means too..."
+		value="|You have strange means of accomplishing your goals... And the goals themselves, admittedly, are strange..."
 		time="4" />
 
 	<string
@@ -340,14 +340,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_43_alice.ogg"
-		value="ALICE|Harsh times ask for harsh decisions. I spent all my life solving the puzzle of his disappearance Finally, after years of research I managed to acquire Ivan’s diary. And that’s when you appear! "
+		value="LISA|Harsh times call for harsh measures. I've dedicated my life to solving this mystery. I've had to lie, even kill for it. Finally, after years of search, I managed to find Ivan's diary. And then you show up and ruin everything!"
 		time="12" />
 
 	<string
 		id="44"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_44_hero.ogg"
-		value="|I can hardly understand you. And I won’t forgive you for the troubles that you’ve caused me. The diary belongs to me and no-one else."
+		value="|It's hard for me to understand you. And it's even harder to forgive you for all the trouble you've caused me. My father's diary belongs to me alone!"
 		time="8" />
 
 	<string
@@ -355,14 +355,14 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_45_alice.ogg"
-		value="ALICE|You are so close to finding him. Please, let me go with you. I want to see my quest complete!"
+		value="LISA|I can see that you are closer to the goal than anyone. Please let me go with you and to see the completion of my work."
 		time="8" />
 
 	<string
 		id="46"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m2\r2m2_46_hero.ogg"
-		value="|I am going to the oracle. Alone! Maybe we shall meet again someday and I will tell you the end of my story."
+		value="|I'm going to the Oracle. Alone. Perhaps we'll meet again, and then I'll tell you how my story ends."
 		time="8" />
 
 	<string
@@ -370,7 +370,7 @@
 		modelName="mask_lisa"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m2\r2m2_47_alice.ogg"
-		value="ALICE|Well, I didn't expect you to agree. Good luck."
+		value="LISA|Well, thank you, if only for that. Farewell."
 		time="4" />
 
 	<string
@@ -401,8 +401,8 @@
 		id="8802"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
-		value="Do you wish to travel to another region?"
-		time="3" />
+		value="I don't know where this road leads, so I'll stay here."
+		time="5" />
 
 	<string
 		id="8803"

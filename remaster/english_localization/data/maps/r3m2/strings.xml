@@ -17,7 +17,7 @@
 	<string
 		id="1003"
 		modelName="mask_hero"
-		value="|Done. I can go back, I have the head now. "
+		value="|Done. I can go back, I have the head now."
 		sound="data\sounds\Speech\r3m2\r3m2_1003_hero.ogg"
 		time="3" />
 
@@ -31,7 +31,7 @@
 	<string
 		id="1005"
 		modelName="mask_hero"
-		value="|Got it!"
+		value="|Got it! I just need to find the other one."
 		sound="data\sounds\Speech\r3m2\r3m2_1005_hero.ogg"
 		time="1" />
 
@@ -45,28 +45,28 @@
 	<string
 		id="1"
 		modelName="mask_hero"
-		value="|The first robo-repairer is in place. What a rush to get to work!"
+		value="|The first repair robot is in place. Look at him getting to work!"
 		sound="data\sounds\Speech\r3m2\r3m2_1_hero.ogg"
 		time="1" />
 
 	<string
 		id="2"
 		modelName="mask_hero"
-		value="|Now the second robo-repairer has begun his work. All that's left is to deliver the last one."
+		value="|Now the second repair robot has begun his work. All that's left is to deliver the last one."
 		sound="data\sounds\Speech\r3m2\r3m2_2_hero.ogg"
 		time="1" />
 
 	<string
 		id="3"
 		modelName="mask_hero"
-		value="|The third robo-repairer is ready! Hopefully, this will help Oracle get his memory back."
+		value="|The third repair robot is ready! Hopefully, this will help Oracle get his memory back."
 		sound="data\sounds\Speech\r3m2\r3m2_3_hero.ogg"
 		time="1" />
 
 	<string
 		id="4"
 		modelName="mask_hero"
-		value="|What I haven't seen in my travels. And these footprints in the fields. Who leaves them?"
+		value="|What I haven't seen in my travels. Now there's these trails in the crops. Who's leaving them I wonder?"
 		sound="data\sounds\Speech\r3m2\r3m2_4_hero.ogg"
 		time="1" />
 
@@ -80,7 +80,7 @@
 	<string
 		id="6"
 		modelName="mask_hero"
-		value="|It's too narrow. My truck can't pass through here, and it's too dangerous to walk by feet. "
+		value="|It's too narrow. My truck can't pass through here, and it's too dangerous to go by feet."
 		sound="data\sounds\Speech\r3m2\r3m2_6_hero.ogg"
 		time="1" />
 
@@ -101,14 +101,14 @@
 	<string
 		id="9"
 		modelName="mask_hero"
-		value="|I don't think anyone would be offended if I borrowed it for a while. Fuel first, the ignition, the engine!"
+		value="|I don't think anyone would get offended if I borrow it for a little while. Fuel first, the ignition, the engine!"
 		sound="data\sounds\Speech\r3m2\r3m2_9_hero.ogg"
 		time="1" />
 
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|Woah, this car is fast, damn it."
+		value="|Woah, this car is fast, damn it!"
 		sound="data\sounds\Speech\r3m2\r3m2_10_hero.ogg"
 		time="1" />
 
@@ -122,7 +122,7 @@
 	<string
 		id="12"
 		modelName="mask_hero"
-		value="|There's the monster. I don't think he'll give me his head by his own will, so I'll have to fight."
+		value="|There's the monster. I don't think he'd willingly part with his head, so I'll have to fight."
 		sound="data\sounds\Speech\r3m2\r3m2_12_hero.ogg"
 		time="1" />
 
@@ -136,14 +136,14 @@
 	<string
 		id="14"
 		modelName="mask_hero"
-		value="|I've never seen such huge ruins... I wonder what was here before the catastrophe? "
+		value="|I've never seen such a huge ruin before... I wonder what was here before the catastrophe?"
 		sound="data\sounds\Speech\r3m2\r3m2_14_hero.ogg"
 		time="1" />
 
 	<string
 		id="15"
 		modelName="mask_hero"
-		value="|The main entrance is blocked, I'll try to drive along the railroad."
+		value="|The main entrance is blocked, I'll try to drive along the railroad tracks."
 		sound="data\sounds\Speech\r3m2\r3m2_15_hero.ogg"
 		time="1" />
 

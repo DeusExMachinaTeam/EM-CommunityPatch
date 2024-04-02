@@ -308,12 +308,12 @@
 	<Item
 		id="quest_disk_1"
 		locForm="0"
-		value="The disk" />
+		value="The disc" />
 
 	<Item
 		id="quest_disk_2"
 		locForm="0"
-		value="The second disk" />
+		value="The second disc" />
 
 	<Item
 		id="quest_key_for_submarine"

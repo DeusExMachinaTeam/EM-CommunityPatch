@@ -3,35 +3,35 @@
 	<string
 		id="101"
 		modelName="mask_hero"
-		value="|I have to drive through this base to achieve my goal. That looks dangerous."
+		value="|I have to drive through this base to achieve my goal. Looks dangerous."
 		sound="data\sounds\Speech\r4m2\r4m2_101_hero.ogg"
 		time="1" />
 
 	<string
 		id="102"
 		modelName="mask_hero"
-		value="|I almost have done it... almost... "
+		value="|I failed to reach the goal... Happiness was so possible, so close..."
 		sound="data\sounds\Speech\r4m2\r4m2_102_hero.ogg"
 		time="1" />
 
 	<string
 		id="201"
 		modelName="mask_hero"
-		value="|I feel as if I know this truck. This symbol, I've seen it somewhere before... "
+		value="|I feel as if I know this truck. This symbol, I've seen it somewhere before..."
 		sound="data\sounds\Speech\r4m2\r4m2_201_hero.ogg"
 		time="1" />
 
 	<string
 		id="202"
 		modelName="mask_hero"
-		value="|That's Ivan Go's car, my dad's car! I'll have to take a closer look."
+		value="|Of course, it's Ivan Go's car! I'll have to take a closer look."
 		sound="data\sounds\Speech\r4m2\r4m2_202_hero.ogg"
 		time="1" />
 
 	<string
 		id="203"
 		modelName="mask_hero"
-		value="|His body is not inside, so he went further on foot."
+		value="|His body is not inside, so he walked the rest of the way."
 		sound="data\sounds\Speech\r4m2\r4m2_203_hero.ogg"
 		time="1" />
 
@@ -45,7 +45,7 @@
 	<string
 		id="301"
 		modelName="mask_hero"
-		value="|Oh gods! What is this cursed place?"
+		value="|Oh my gods! What is this cursed place?"
 		sound="data\sounds\Speech\r4m2\r4m2_301_hero.ogg"
 		time="1" />
 
@@ -59,7 +59,7 @@
 	<string
 		id="303"
 		modelName="mask_hero"
-		value="|Now I get it..."
+		value="|Now I understand what the Scientist was telling me."
 		sound="data\sounds\Speech\r4m2\r4m2_303_hero.ogg"
 		time="1" />
 
@@ -73,7 +73,7 @@
 	<string
 		id="401"
 		modelName="mask_hero"
-		value="|Damn, there are so many bandits here! And more and more! "
+		value="|Damn, there are so many bandits here! And more and more!"
 		sound="data\sounds\Speech\r4m2\r4m2_401_hero.ogg"
 		time="1" />
 
@@ -83,7 +83,7 @@
 		modelSkin="1"
 		modelCfg="128"
 		modelSlot="1"
-		value="ASSISTANT|It is a very dangerous place. Follow us, we will lead you out of here."
+		value="ASSISTANT|It's very dangerous here. Follow us, we will lead you out of here."
 		sound="data\sounds\Speech\r4m2\r4m2_402_assistant.ogg"
 		time="1" />
 
@@ -97,7 +97,7 @@
 	<string
 		id="404"
 		modelName="mask_hero"
-		value="|I won’t go anyway! They are murderers! You’d better help me defeat them! "
+		value="|I won’t go anyway! They are murderers! You’d better help me defeat them!"
 		sound="data\sounds\Speech\r4m2\r4m2_404_hero.ogg"
 		time="1" />
 
@@ -107,28 +107,28 @@
 		modelSkin="1"
 		modelCfg="128"
 		modelSlot="1"
-		value="|ASSISTANT|You cannot win, neither alone nor with our help. Follow us if you want to live. "
+		value="|ASSISTANT|You cannot win, neither alone nor with our help. Follow us if you want to live."
 		sound="data\sounds\Speech\r4m2\r4m2_405_assistant.ogg"
 		time="1" />
 
 	<string
 		id="406"
 		modelName="mask_hero"
-		value="|You are right... But I’ll be back!"
+		value="|I'll be back to get my revenge on those murderers!"
 		sound="data\sounds\Speech\r4m2\r4m2_406_hero.ogg"
 		time="1" />
 
 	<string
 		id="501"
 		modelName="mask_hero"
-		value="|I feel the power beckoning me to the Overlord."
+		value="|I feel the power beckoning me to the saucer."
 		sound="data\sounds\Speech\r4m2\r4m2_501_hero.ogg"
 		time="1" />
 
 	<string
 		id="502"
 		modelName="mask_hero"
-		value="|Faster! How slowly this vehicle moves! Argh, hell with it!"
+		value="|Faster! How slow can this machine go! Argh, to hell with it!"
 		sound="data\sounds\Speech\r4m2\r4m2_502_hero.ogg"
 		time="1" />
 
@@ -159,7 +159,7 @@
 	<string
 		id="511"
 		modelName="mask_hero"
-		value="|I do need the detour! I am ready to fight with them. Together we will win! "
+		value="|Why take a detour? I am ready to fight them. Together we will win!"
 		sound="data\sounds\Speech\r4m2\r4m2_511_hero.ogg"
 		time="1" />
 
@@ -169,7 +169,7 @@
 		modelSkin="1"
 		modelCfg="128"
 		modelSlot="1"
-		value="ASSISTANT|Calm down. You have a mission of utmost importance. Do not waste any time on these madmen."
+		value="ASSISTANT|Calm down. You have a mission of utmost importance and you must focus all your efforts on it."
 		sound="data\sounds\Speech\r4m2\r4m2_512_assistant.ogg"
 		time="1" />
 
@@ -187,5 +187,5 @@
 
 	<string
 		id="8901"
-		value="You approached too close to the Source and was engulfed by its power." />
+		value="You came too close to the Source and were consumed by its power, like so many before you. And who knows how long humanity will have to wait for a new hero..." />
 </resource>
