@@ -21,7 +21,7 @@ description: |
 authors: DEM Team, EM2ch
 
 # optional human readable info
-release_date: "21.06.2024"  # date of the current prerelease
+release_date: "03.04.2024"  # date of the current prerelease
 
 link: https://deuswiki.com/w/Community_Remaster
 
@@ -89,7 +89,7 @@ bin_dirs:
   - "libs"
 
 ## options files setup
-options_base_dir: "remaster" # defaults to nothing, for options located in root
+options_base_dir: "options" # defaults to nothing, for options located in root
 
 ## options files are found in:
 ## for simple option:
@@ -131,6 +131,9 @@ optional_content:
   - name: english_localization
     display_name: English Localization
     forced_option: True
+    data_dirs: 
+      - "english_localization"
+      - "english_localization_comrem"
     description: |
       Full text localization of Community Remaster. Doesn't include an English voiceover, original Russian voices with subtitles!
 

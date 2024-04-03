@@ -18,30 +18,31 @@ description: |
 authors: DEM Team, EM2ch
 
 # optional human readable info
-release_date: "21.06.2024"  # date of the current prerelease
+release_date: "03.04.2024"  # date of the current prerelease
 language: ru # main variant should always has same lang as base mod
 
 link: https://deuswiki.com/w/Community_Remaster
+
 logo: assets/compatch_logo.png
-install_banner: assets/compatch_banner.png
+install_banner: assets/compatch_logo.png
+
 tags: [gameplay, bugfix, story, visual]
+
 change_log: assets/change_list_ru.md
 
-screenshots:
-  - img: assets/screen_1.jpg
-    text: На скриншоте главное меню Комьюнити Ремастера
+# screenshots:
+#   - img: assets/screen_1.jpg
+#     text: На скриншоте главное меню Комьюнити Ремастера
     # compare: assets/screen_1_1.jpg
 
-translations: []
-# Has no translations, but can support them like this:
-# translations: [eng]
+translations: [eng]
 
 # Structure here is (./ - is a root of the mod):
 # main mod (./manifest.yaml) ->
 #   * main specifies variant "patch" ("manifest_patch_ru.yaml", NOT "manifest_patch.yaml")
 #     ('_ru.yaml' - because variant is always of the same lang as it's parent mod, "ru" in this case)
 #   * main specifies translation "eng" ("manifest_eng.yaml")
-#   * variant "patch" here doesn't have translation, but it can also specify it's own translation "eng" if it exists
+#   * variant "patch" specifies it's own translation with alias "eng"
 #     manifest for that translation will be expected to be located in ./manifest_patch_eng.yaml
 
 # can't have variants, as it's a variant already
@@ -67,4 +68,4 @@ no_base_content: false
 data_dirs: [patch]
 bin_dirs: [libs]
 
-## no options for this variant
+## no options for this variant, but it's translation has a "forced option"

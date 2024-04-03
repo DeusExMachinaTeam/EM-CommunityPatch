@@ -6,8 +6,8 @@ name: community_remaster ## Unique service name, don't use names of other known 
 
 version: "1.14.1" ## major.minor.patch version, semantic versioning style. See for more info: https://deuswiki.com/w/ComMod#О_версиях_модов
 
-build: "240321a" ## expected build format is <short_year><month><day><letter_of_alphabet_for_build_of_the_day>
-## so 240321a is build done on 21 of March 2024, 'a' for first build of the day. Will be 'b' for second build on that day, etc.
+build: "240403a" ## expected build format is <short_year><month><day><letter_of_alphabet_for_build_of_the_day>
+## so 240403a is build done on 3rd of April 2024, 'a' for first build of the day. Will be 'b' for second build on that day, etc.
 ## ! Don't use day_month_year format - this creates errors when comparing builds and checking which build is newer !
 
 language: ru ## defaults to ru
@@ -27,7 +27,7 @@ description: |
   Добавлены новые, более качественные модели и анимации для части оружия и авто. Улучшена графика и шейдеры оригинала. Часть контента КомРема опциональна.
   
 ## -= Optional human readable info =-
-release_date: "21.06.2024"  # date of the current release in any common format
+release_date: "03.04.2024"  # date of the current release in any common format
 
 link: https://deuswiki.com/w/Community_Remaster # [optional] for example GitHub page, or DeusWiki mod page
 
@@ -120,7 +120,7 @@ bin_dirs:
   - "libs"
 
 ## Options files setup
-options_base_dir: "remaster" # defaults to nothing -> mod manager then looks for options in root dir, like: "/{name_of_option}/data"
+options_base_dir: "options" # defaults to nothing -> mod manager then looks for options in root dir, like: "/{name_of_option}/data"
 
 ## Note: in explanations here "./" is root folder of the mod
 
