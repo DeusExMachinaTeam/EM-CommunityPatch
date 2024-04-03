@@ -5,16 +5,16 @@
   </a>
   <h3 align="center">Community Remaster / Community Patch</h3>
 
-  ![Eng Readme](git_assets/in_english_selected.png) ∑ [![Ru Readme](git_assets/in_russian.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch)
+  ![Eng Readme](git_assets/in_english_selected.png)   [![Ru Readme](git_assets/in_russian.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch)
 
   <p align="center">
     Project of community developed remaster / patch for Hard Truck Apocalypse game.
     <br />
-    <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Follow the development on our Discord server ª</strong></a>
+    <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Follow the development on our Discord server ¬∑</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">?? Create bug report</a>
-    ∑
+    <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">üêõ Create bug report</a>
+    ¬∑
     <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Page on DeusWiki (in Russian)</a>
   </p>
 </div>
@@ -56,6 +56,8 @@ An exhaustive list is available when installing using ComMod mod manager or in t
 # Installation
 ## Quick install guide
 In general, there is nothing difficult about the installation of ComRem/Patch and its compatible mods.
+
+* Download the archive with the mod and ComMod mod manager, do not manually unpack the archive
 
 * Create a folder where the mod manager and its files will be stored.
 

@@ -5,7 +5,7 @@
   </a>
   <h3 align="center">Комьюнити Ремастер / Комьюнити Патч</h3>
 
-  ![Ru Readme](git_assets/in_russian_selected.png) · [![Eng Readme](git_assets/in_english.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main/README_EN.md)
+  ![Ru Readme](git_assets/in_russian_selected.png)   [![Eng Readme](git_assets/in_english.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main/README_EN.md)
 
   <p align="center">
     Проект пользовательского ремастера / патча для игры Ex Machina.
