@@ -69,5 +69,8 @@ optional_content:
   - name: english_localization
     display_name: English Localization
     forced_option: True
+    data_dirs: 
+      - "english_localization"
+      - "english_localization_compatch"
     description: |
       Full text localization of Community Patch. Doesn't include an English voiceover, original Russian voices with subtitles!

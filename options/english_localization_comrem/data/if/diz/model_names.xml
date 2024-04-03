@@ -1339,12 +1339,12 @@
 	<Item
 		id="PublicDemoIeriBand1"
 		locForm="0"
-		value="Jeri’s defender" />
+		value="Jeriï¿½s defender" />
 
 	<Item
 		id="PublicDemoIeriBand2"
 		locForm="0"
-		value="Jeri’s defender" />
+		value="Jeriï¿½s defender" />
 
 	<Item
 		id="PublicDemoIeriCar"
@@ -1734,22 +1734,22 @@
 	<Item
 		id="cruiserCab01"
 		locForm="0"
-		value="Cruiser’s cabin" />
+		value="Cruiserï¿½s cabin" />
 
 	<Item
 		id="cruiserCab02"
 		locForm="0"
-		value="Cruiser’s cabin" />
+		value="Cruiserï¿½s cabin" />
 
 	<Item
 		id="cruiserCargo01"
 		locForm="0"
-		value="Cruiser’s cargo" />
+		value="Cruiserï¿½s cargo" />
 
 	<Item
 		id="cruiserCargo02"
 		locForm="0"
-		value="Cruiser’s cargo" />
+		value="Cruiserï¿½s cargo" />
 
 	<Item
 		id="Smoke"

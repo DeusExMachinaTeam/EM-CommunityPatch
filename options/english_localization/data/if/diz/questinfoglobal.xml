@@ -63,19 +63,19 @@
 	<QuestInfo
 		questName="Dynamic_Convoy_1"
 		briefDiz="Defend the transport"
-		fullDiz="An inhabitant of %1n asked me to defend the transport on his way to %2n and offered to pay %3d."
+		fullDiz="An inhabitant of %1n asked me to defend the transport on its way to %2n and offered to pay %3d."
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Convoy_2"
 		briefDiz="Insure the transport safety"
-		fullDiz="%1n demands me to accompany the transport carrying an important cargo to %2n. If it will arrive safely, I will get %3d."
+		fullDiz="%1n demands me to accompany the transport carrying an important cargo to %2n. If it arrives safely, I will get %3d."
 		isMainQuest="0" />
 
 	<QuestInfo
 		questName="Dynamic_Convoy_3"
 		briefDiz="Escort transport to %2n"
-		fullDiz="The transport from %1n goes to %2n. Some bandits often ambush traders coming that way, so I agreed to protect them for a mere %3d."
+		fullDiz="The transport from %1n goes to %2n. Some bandits often ambush traders coming that way, so I agreed to protect it for a mere %3d."
 		isMainQuest="0" />
 
 	<QuestInfo
@@ -123,7 +123,7 @@
 	<QuestInfo
 		questName="Dynamic_Reach_0"
 		briefDiz="Deliver package to %2n"
-		fullDiz="The town %1n asks you to deliver package to %2n. Upon arrival, I will receive %3d."
+		fullDiz="The town %1n asked me to deliver package to %2n. Upon arrival, I will receive %3d."
 		isMainQuest="0" />
 
 	<QuestInfo
@@ -184,7 +184,7 @@
 	<QuestInfo
 		questName="FreeExtremistLeader_Quest1"
 		briefDiz="Free the extremists’ leader"
-		fullDiz="The warehouse is occupied by the extremists. If I rescue their leader from the prison, they will leave and allow the merchants to operate in peace."
+		fullDiz="The warehouse is occupied by the extremists. If I rescue their leader from captivity, they will leave and allow the merchants to operate in peace."
 		isMainQuest="0">
 		<Map
 			name="r1m4" />
@@ -334,7 +334,7 @@
 
 	<QuestInfo
 		questName="TRS_Quest3a"
-		briefDiz="Kill the occupants"
+		briefDiz="Kill the occupiers"
 		isMainQuest="0">
 		<Map
 			name="r1m4"
@@ -450,7 +450,7 @@
 
 	<QuestInfo
 		questName="d_BombInAsgard_Quest"
-		briefDiz="Buy some explosives at the Asgard"
+		briefDiz="Buy some explosives in Asgard"
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -513,7 +513,7 @@
 
 	<QuestInfo
 		questName="d_DefeatLisasBandits"
-		briefDiz="Resque Lisa"
+		briefDiz="Rescue Lisa"
 		isMainQuest="1">
 		<Map
 			name="r1m1"
@@ -832,7 +832,7 @@
 	<QuestInfo
 		questName="d_FindVerbInSNG_Quest"
 		briefDiz="Find CIT’s recruiter in Touse"
-		fullDiz="The Commonwealth of the Independent Towns needs help to fight with Axels’ forces. If I join them, we will crush the tyrant!"
+		fullDiz="The Commonwealth of Independent Towns needs help to fight with Axels’ forces. If I join them, we will crush the tyrant!"
 		isMainQuest="1">
 		<Map
 			name="r2m1"
@@ -842,7 +842,7 @@
 	<QuestInfo
 		questName="d_FindVrata_Quest"
 		briefDiz="Find the Sea Gate"
-		fullDiz="Somewhere in the far north the Sea Gate are located. The caravan from Minin will show me the way to that region."
+		fullDiz="Somewhere in the far north the Sea Gate is located. The caravan from Minin will show me the way to that region."
 		isMainQuest="1">
 		<Map
 			name="r1m3" />
@@ -854,7 +854,7 @@
 	<QuestInfo
 		questName="d_FindWorkersToOilMine_Quest"
 		briefDiz="Convince the Minin’s workers"
-		fullDiz="The oil mine workers are sitting in the Minin’s bar. I must convince them to return back to work."
+		fullDiz="The oil mine workers are sitting in the Minin’s bar doing nothing. I must convince them to return back to work."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -864,7 +864,7 @@
 	<QuestInfo
 		questName="d_FindZasadaInTunel_Quest"
 		briefDiz="Find a place for the ambush"
-		fullDiz="Sooner or later, someone will use the tunnel. I will ambush him and get the key! Patience is the key."
+		fullDiz="Sooner or later, someone will use the tunnel. I will ambush him and get the key! Patience is of great importance here."
 		isMainQuest="0">
 		<Map
 			name="r1m3"
@@ -1313,7 +1313,7 @@
 
 	<QuestInfo
 		questName="d_TalkAboutVrataInMinin_Quest"
-		briefDiz="Find the Sea gate"
+		briefDiz="Find the Sea Gate"
 		fullDiz="Someone in Minin must know about the Sea Gate."
 		isMainQuest="1">
 		<Map
@@ -1432,7 +1432,7 @@
 
 	<QuestInfo
 		questName="q_PWS2"
-		briefDiz="Report the signs to the scientists at Midgard"
+		briefDiz="Report the signs to the scientists in Midgard"
 		isMainQuest="0">
 		<Map
 			name="r1m1"
@@ -1499,7 +1499,7 @@
 	<QuestInfo
 		questName="r1m1_FindBotanik_Quest"
 		briefDiz="Find the botanist"
-		fullDiz="Old soldier told something about the botanist. I think what he said about the botanist was the only useful thing shared."
+		fullDiz="Old soldier said something about the botanist. I think that was the only useful thing shared."
 		isMainQuest="0">
 		<Map
 			name="r1m1"
@@ -1728,7 +1728,7 @@
 	<QuestInfo
 		questName="r1m3_DestroyRadiationSource"
 		briefDiz="Eliminate the jamming station"
-		fullDiz="Power station at the Seil is a source of powerful noise. It jams the Oracle’s signals and he cannot get control over the orbital weapon. I must way to turn it off."
+		fullDiz="Power station at the city of Seil is a source of powerful noise. It jams the Oracle’s signals and he cannot get control over the orbital weapon. I must find a way to turn it off."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -1742,7 +1742,7 @@
 	<QuestInfo
 		questName="r1m3_FightWithThief"
 		briefDiz="Take the disc away from the thief"
-		fullDiz="That thief doesn’t know who he up against is yet. The disc will be mine."
+		fullDiz="That thief doesn’t know who he's up against yet. The disc will be mine."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -1775,7 +1775,7 @@
 
 	<QuestInfo
 		questName="r1m3_FindVrata_KnowPlace"
-		briefDiz="Find out the Gates whereabouts"
+		briefDiz="Find out the Gate whereabouts"
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -1787,7 +1787,7 @@
 
 	<QuestInfo
 		questName="r1m3_LisaWithOberegAndDisk_Quest"
-		briefDiz="Find Lisa in the Librium"
+		briefDiz="Find Lisa in Librium"
 		fullDiz="Lisa has stolen the amulet and the discs. I must catch her at all costs!"
 		isMainQuest="1">
 		<Map
@@ -1857,7 +1857,7 @@
 	<QuestInfo
 		questName="r1m3_TalkWithThiefFromFatherHouse"
 		briefDiz="Follow the thief"
-		fullDiz="The thief have nowhere to go, but to the Area 51. He'll try to sell the stolen goods somewhere where the scum hang out."
+		fullDiz="The thief has nowhere to go, but to the Area 51. He'll try to sell the stolen goods somewhere where the scum hang out."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -1876,7 +1876,7 @@
 
 	<QuestInfo
 		questName="r1m4_FindVrata_GotoToGate"
-		briefDiz="Get to the Gates"
+		briefDiz="Get to the Gate"
 		isMainQuest="1">
 		<Map
 			name="r1m4"
@@ -1940,7 +1940,7 @@
 	<QuestInfo
 		questName="r2m1_DeployBloks"
 		briefDiz="Install the jamming device"
-		fullDiz="I am the only one who can stop the madness, happening with the world. I will install the device that will lower the level of contamination. This is my destiny."
+		fullDiz="I am the only one who can stop the madness happening with the world. I will install the device that will lower the level of contamination. This is my destiny."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -1963,7 +1963,7 @@
 
 	<QuestInfo
 		questName="r2m1_KillGodFather_Quest"
-		briefDiz="Obliterate Mafia Boss"
+		briefDiz="Eliminate the Boss of Mafia"
 		fullDiz="The mob Boss can give me a lot of trouble when he finds out I stole his cargo. I must strike first."
 		isMainQuest="0">
 		<Map
