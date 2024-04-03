@@ -1,0 +1,139 @@
+# unique service name
+name: community_remaster
+installment: exmachina
+language: eng
+
+# required human readable info
+display_name: Community Remaster
+
+# translations & variants versions and builds should be the same as the version and build of main mod
+# can specify the same build and version manually, but this will be copied from main mod 
+# version: "1.14.1"
+# build: "240321a"
+
+description: |
+  Community Patch - fan mod/patch project main goal of which is to improve game's stability, enchance cutscene and quest content, correct broken functionality of game engine and some gameplay systems.
+
+  Community Remaster - extended version of ComPatch, icludes updated UI with 16:9 HD resolution support.
+  Added new, higher quality models and animations for some vehicles and weapon types.
+  Improved graphics and shaders. Part of ComRem content is optional.
+
+authors: DEM Team, EM2ch
+
+# optional human readable info
+release_date: "03.04.2024"  # date of the current prerelease
+
+link: https://deuswiki.com/w/Community_Remaster
+
+logo: assets/comrem_logo_eng.png
+install_banner: assets/comrem_banner.png
+
+tags: [gameplay, bugfix, story, visual]
+
+change_log: assets/change_list_eng.md
+
+screenshots:
+  - img: assets/screen_1.jpg
+    text: Main menu of Community Remaster
+    # compare: assets/screen_1_1.jpg
+  - img: assets/screen_2.jpg
+    text: |
+      New Van, new PKT, all UI elements are shown in high quality and are not stretched
+      [HD vehicles, HD guns - options for Community Remaster installation]
+  - img: assets/screen_3.jpg
+    text: |
+      New Lorry and its new additional orange skin, new Specter and Rainmetal
+      [HD vehicles, HD guns - options for Community Remaster installation]
+  - img: assets/screen_4.jpg
+    text: |
+      HD 16:9 shop screen UI and new ware icons in Community Remaster
+  - img: assets/screen_5.jpg
+    text: |
+      Intro cutscene, visible are correct wide FOV, high quality font rendering, characted models are not stretched [ComRem]
+  - img: assets/screen_6.jpg
+    text: |
+      HD dialogue screen UI, characted models are now rendered in high resolution [ComRem]
+
+# translations can't specify variants, can be not commented, but should be an empty list
+# translations: []
+
+# translations can't specify variants.
+# BUT, variants can specify translations, see manifest_patch_ru.yaml for explanation
+# variants: []
+
+
+# Installation configuration
+
+## requirements and prerequisites are empty, as this mod installs on clean game
+# prerequisites: 
+#   - name: community_patch
+#     versions: 
+#       - "1.14"
+
+# how to patch the game and which files to copy 
+patcher_version_requirement: "2.1"
+
+## binary patching settings
+patcher_options:
+  gravity: -19.62
+  blast_damage_friendly_fire: false
+
+## mod consists of base files and options
+no_base_content: false
+
+## mod files directories if not default "data"
+data_dirs:
+  - "patch"
+  - "remaster/data"
+bin_dirs:
+  - "libs"
+
+## options files setup
+options_base_dir: "options" # defaults to nothing, for options located in root
+
+## options files are found in:
+## for simple option:
+### "<mod_root>/{options_base_dir}/{name_of_option}/data
+### example:
+### "<mod_root>/remaster/hd_gun_models/data"
+## for complex option:
+### "<mod_root>/{options_base_dir}/{<name_of_option>}/{<install_setting_name>}/data
+### theoretical example:
+### "<mod_root>/remaster/hd_gun_models/all_new/data"
+
+## for option with specified 'data_dirs'
+### "<mod_root>/{options_base_dir}/{<name_of_option>}/{<install_setting_name>}/{data_dir}
+## simple example:
+### "<mod_root>/remaster/hd_vehicle_models/van/data"
+## complex example:
+### "<mod_root>/remaster/other_options/ost_remaster_complex/all_new"
+
+optional_content:
+  - name: hd_gun_models
+    display_name: HD Weapon Models
+    description: |
+      New models for some weapon types.
+      Reworked:
+      Hornet, Specter, PKT, Kord, Vulkan, Rainmetal and Octopus.
+  - name: hd_vehicle_models
+    display_name: HD Vehicle Models
+    description: |
+      Completely new high quality models for Van and Lorry with multiple additional color options. New Klop, Cockroach and it's racing version Cockroach GT, new Ant.
+      + Replacement of wheels to a high quality models for:
+      Grasshopper, Scout, Hunter, Fighter, Cruiser, Belaz.
+    patcher_options: 
+      skins_in_shop: 16
+  - name: ost_remaster
+    display_name: Soundtrack Remaster
+    description: |
+      OST remaster from the original game's composer - Anton Popov.
+      Includes new main menu track and driving themes for different game regions.
+  - name: english_localization
+    display_name: English Localization
+    forced_option: True
+    data_dirs: 
+      - "english_localization"
+      - "english_localization_comrem"
+    description: |
+      Full text localization of Community Remaster. Doesn't include an English voiceover, original Russian voices with subtitles!
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="ScientiferVillage"
+		FullName="Scientist’s village" />
+
+	<Object
+		Name="ScientiferVillage_Bar"
+		FullName="Laboratory" />
+
+	<Object
+		Name="ScientiferVillage_Shop"
+		FullName="Industrial supplies" />
+
+	<Object
+		Name="ScientiferVillage_WorkShop"
+		FullName="Workshop" />
+
+	<Object
+		Name="ScientiferVillage_Bar_Scientif"
+		FullName="Scientist Vasiliy" />
+
+	<Object
+		Name="ToR4M1"
+		FullName="Road to Vahat" />
+
+	<Object
+		Name="MilitaryBase_loc"
+		FullName="Military Base" />
+
+	<Object
+		Name="PlateRadiation_loc"
+		FullName="Alien ship" />
+
+	<Object
+		Name="PetrolStationTown61"
+		FullName="Old gas station" />
+
+	<Object
+		Name="CrazyBase"
+		FullName="Military base" />
+
+	<Object
+		Name="PetrolStationTown61_workshop"
+		FullName="Gas station" />
+
+	<Object
+		Name="urod1"
+		FullName="Klatz" />
+
+	<Object
+		Name="urod2"
+		FullName="Fedor" />
+
+	<Object
+		Name="urod3"
+		FullName="Bonza" />
+
+	<Object
+		Name="urod4"
+		FullName="Lead" />
+
+	<Object
+		Name="urod5"
+		FullName="Pony" />
+
+	<Object
+		Name="urod6"
+		FullName="Ghoul" />
+
+	<Object
+		Name="urod7"
+		FullName="Richter" />
+
+	<Object
+		Name="urod8"
+		FullName="Lucky" />
+
+	<Object
+		Name="urod9"
+		FullName="Doctor Who" />
+</ObjectNames>

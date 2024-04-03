@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='windows-1251'?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_father"
+		modelSlot="1"
+		value="FATHER|Wake up, lazybones! I've been waiting for an hour to tell you something very important, and you're sleeping like a groundhog again..."
+		sound="data\sounds\Speech\r1m1\r1m1_1_father.ogg"
+		time="11" />
+
+	<string
+		id="2"
+		modelName="mask_hero"
+		value="|Good morning to you, too. What are you so nervous about?"
+		sound="data\sounds\Speech\r1m1\r1m1_2_hero.ogg"
+		time="3" />
+
+	<string
+		id="3"
+		modelName="mask_father"
+		modelSlot="1"
+		value="FATHER|Okay, take it easy. There you go. Today's a big day in your life. You've always been a great help to me and hopefully you've learned a lot in that time... So, I've decided it's time for your to become a man."
+		sound="data\sounds\Speech\r1m1\r1m1_3_father.ogg"
+		time="17" />
+
+	<string
+		id="31"
+		modelName="mask_father"
+		modelSlot="1"
+		value="FATHER|You're a real man now and can do whatever you want, even start a family... Heh, although it would be better to ask for permission first, of course."
+		sound="data\sounds\Speech\r1m1\r1m1_31_father.ogg"
+		time="12" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="|Is this the day?! I began to wonder if I'm going to be stuck on this farm till my old age!"
+		sound="data\sounds\Speech\r1m1\r1m1_4_hero.ogg"
+		time="6" />
+
+	<string
+		id="41"
+		modelName="mask_hero"
+		value="|I mean, I wanted to say, thank you very much, I'll try to live up to the trust you put in me, sir!"
+		sound="data\sounds\Speech\r1m1\r1m1_41_hero.ogg"
+		time="6" />
+
+	<string
+		id="5"
+		modelName="mask_father"
+		modelSlot="1"
+		value="FATHER|You're being sarcastic again, and I have so much to say to you..."
+		sound="data\sounds\Speech\r1m1\r1m1_5_father.ogg"
+		time="5" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		value="|What, I can get in right away and go wherever I want?"
+		sound="data\sounds\Speech\r1m1\r1m1_6_hero.ogg"
+		time="4" />
+
+	<string
+		id="7"
+		modelName="mask_father"
+		modelSlot="1"
+		value="FATHER|Well, if you're in such a hurry to get behind the wheel, head down to Sowth and deliver Sergo this package. We'll talk when you get back."
+		sound="data\sounds\Speech\r1m1\r1m1_7_father.ogg"
+		time="12" />
+
+	<string
+		id="8"
+		modelName="mask_hero"
+		value="|Ho-oo-ray!!! I'll be right back! Take care, old man!"
+		sound="data\sounds\Speech\r1m1\r1m1_8_hero.ogg"
+		time="4" />
+
+	<string
+		id="1111"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|Wait here while I finish my business."
+		sound="data\sounds\Speech\r1m1\r1m1_1111_lisa.ogg"
+		time="3" />
+
+	<string
+		id="1112"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|Done. Let's get going."
+		sound="data\sounds\Speech\r1m1\r1m1_1112_lisa.ogg"
+		time="3" />
+
+	<string
+		id="1121"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|Gosh, what a waste of time! I know he's around here somewhere! Boy, are you sure we've covered all the settlements around here?"
+		sound="data\sounds\Speech\r1m1\r1m1_1121_lisa.ogg"
+		time="7" />
+
+	<string
+		id="1122"
+		modelName="mask_hero"
+		value="|Yes, all the villages, just like you said. Although, there's one village left, Glukhoe. But you won't find buyers for your stuff there. Just what exactly are you looking for?"
+		sound="data\sounds\Speech\r1m1\r1m1_1122_hero.ogg"
+		time="10" />
+
+	<string
+		id="1123"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|So why are you wasting my time? How do I get there?"
+		sound="data\sounds\Speech\r1m1\r1m1_1123_lisa.ogg"
+		time="4" />
+
+	<string
+		id="1124"
+		modelName="mask_hero"
+		value="|It's actually north of here over the mountains, not far at all, but there's no direct road. We'll have to go through Sowth..."
+		sound="data\sounds\Speech\r1m1\r1m1_1124_hero.ogg"
+		time="7" />
+
+	<string
+		id="1125"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|This is where we part ways: I'm tired of following your clunker. Besides, where there is no road for you, my car will pass easily. You've kept your end of the bargain. Here's your money."
+		sound="data\sounds\Speech\r1m1\r1m1_1125_lisa.ogg"
+		time="11" />
+
+	<string
+		id="1126"
+		modelName="mask_hero"
+		value="|So what was she looking for? It's time for me to head home, too. Time to find out what father was so worried about."
+		sound="data\sounds\Speech\r1m1\r1m1_1126_hero.ogg"
+		time="7" />
+
+	<string
+		id="1131"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|And here's our troublemaker. My sources tell me that you've become Lisa's assistant, and she's a generous girl... For a little contribution of 1000 coins you can continue your dirty business and even count on our support."
+		sound="data\sounds\Speech\r1m1\r1m1_1131_felix.ogg"
+		time="19" />
+
+	<string
+		id="1132"
+		modelName="mask_hero"
+		value="|What are you going on about? I don't have that kind of money! And who are you people anyway?"
+		sound="data\sounds\Speech\r1m1\r1m1_1132_hero.ogg"
+		time="5" />
+
+	<string
+		id="1133"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|Then we'll have to sell your car for parts to compensate us the moral damage. Get him!"
+		sound="data\sounds\Speech\r1m1\r1m1_1133_felix.ogg"
+		time="7" />
+
+	<string
+		id="1134"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|We'll meet again, you fool! Mark my words: you will regret messing with Felix!"
+		sound="data\sounds\Speech\r1m1\r1m1_1134_felix.ogg"
+		time="8" />
+
+	<string
+		id="1141"
+		modelName="mask_hero"
+		value="|Oh, no! Father! What monster could have done such a thing. Everyone I've ever loved and known is dead."
+		sound="data\sounds\Speech\r1m1\r1m1_1141_hero.ogg"
+		time="11" />
+
+	<string
+		id="1142"
+		modelName="mask_hero"
+		value="|..."
+		sound="data\sounds\Speech\r1m1\r1m1_1142_hero.ogg"
+		time="1" />
+
+	<string
+		id="1143"
+		modelName="mask_hero"
+		value="|There's only one thing I can do for them: revenge! No matter how far the killer runs, I will find him even at the edge of the world! And destroy him! You hear me, I will find you!"
+		sound="data\sounds\Speech\r1m1\r1m1_1143_hero.ogg"
+		time="13" />
+
+	<string
+		id="1144"
+		modelName="mask_hero"
+		value="|What if it was Felix who gathered his cronies and attacked a defenceless village? If that's the case, he's a dead man! He often hangs out at the Sowth's bar. There I'll start looking."
+		sound="data\sounds\Speech\r1m1\r1m1_1144_hero.ogg"
+		time="11" />
+
+	<string
+		id="1151"
+		modelName="mask_hero"
+		value="|I will avenge my father's death!"
+		sound="data\sounds\Speech\r1m1\r1m1_1151_hero.ogg"
+		time="3" />
+
+	<string
+		id="1152"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|Bah, all the familiar faces. Teach this cheeky bastard a lesson!"
+		sound="data\sounds\Speech\r1m1\r1m1_1152_felix.ogg"
+		time="6" />
+
+	<string
+		id="1153"
+		modelName="mask_hero"
+		value="|Is that all you've got? Come out and fight like a man!"
+		sound="data\sounds\Speech\r1m1\r1m1_1153_hero.ogg"
+		time="5" />
+
+	<string
+		id="11540"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|The guy's pretty good... Where did he get that kind of weaponry? All right, you want something done right - you do it yourself. Step aside."
+		sound="data\sounds\Speech\r1m1\r1m1_1154_felix.ogg"
+		time="10" />
+
+	<string
+		id="1155"
+		modelName="mask_hero"
+		value="|Now you will die for your crimes!"
+		sound="data\sounds\Speech\r1m1\r1m1_1155_hero.ogg"
+		time="3" />
+
+	<string
+		id="1156"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|Wait, I haven't killed anyone in years. We had a deal with the locals! You're the one who barged into my home and attacked my men."
+		sound="data\sounds\Speech\r1m1\r1m1_1156_felix.ogg"
+		time="10" />
+
+	<string
+		id="1157"
+		modelName="mask_hero"
+		value="|Only you have the manpower and audacity to burn down an entire village!"
+		sound="data\sounds\Speech\r1m1\r1m1_1157_hero.ogg"
+		time="5" />
+
+	<string
+		id="1158"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|Oh, so you're from Glukhoe! Believe me, it wasn't us, but some bandits from neighboring regions!"
+		sound="data\sounds\Speech\r1m1\r1m1_1158_felix.ogg"
+		time="8" />
+
+	<string
+		id="1159"
+		modelName="mask_hero"
+		value="|You are lying!"
+		sound="data\sounds\Speech\r1m1\r1m1_1159_hero.ogg"
+		time="1" />
+
+	<string
+		id="11510"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|I swear on my father's grave! Ask your newfound friend Lisa. She saw everything."
+		sound="data\sounds\Speech\r1m1\r1m1_11510_felix.ogg"
+		time="7" />
+
+	<string
+		id="11511"
+		modelName="mask_hero"
+		value="|How do you know?"
+		sound="data\sounds\Speech\r1m1\r1m1_11511_hero.ogg"
+		time="2" />
+
+	<string
+		id="11512"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|That's what she told us. And then she ran off to the north. Towards Pesht."
+		sound="data\sounds\Speech\r1m1\r1m1_11512_felix.ogg"
+		time="6" />
+
+	<string
+		id="11513"
+		modelName="mask_hero"
+		value="|Lisa... I feel she had something to do with all this... I'm gonna find her and figure out what really happened. All right, Felix, I will spare your life. Pack up and get the hell outta here. But don't you ever show up around here ever again!"
+		sound="data\sounds\Speech\r1m1\r1m1_11513_hero.ogg"
+		time="17" />
+
+	<string
+		id="11514"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="172"
+		modelSlot="1"
+		value="BANDIT FELIX|You won. But we will meet again, and I will be better prepared then."
+		sound="data\sounds\Speech\r1m1\r1m1_11514_felix.ogg"
+		time="5" />
+
+	<string
+		id="11515"
+		modelName="mask_hero"
+		value="|So long!"
+		sound="data\sounds\Speech\r1m1\r1m1_11515_hero.ogg"
+		time="2" />
+
+	<string
+		id="2222"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="70"
+		modelSlot="1"
+		value="DRUNKARD PETRO|Great, we've shown these rascals who's boss here!"
+		sound="data\sounds\Speech\r1m1\r1m1_2222_ed.ogg"
+		time="4" />
+
+	<string
+		id="33330"
+		modelName="mask_father"
+		value="FATHER|...son...!"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m1\r1m1_33330_father.ogg"
+		time="3" />
+
+	<string
+		id="33331"
+		modelName="mask_hero"
+		value="|Oh god, father! What happened here? Who did it?"
+		sound="data\sounds\Speech\r1m1\r1m1_33331_hero.ogg"
+		time="6" />
+
+	<string
+		id="33332"
+		modelName="mask_father"
+		modelSlot="1"
+		value="FATHER|Listen carefully. You are my adopted son. These are your real father's things. Find Ben The Throttle. He's an explorer. He can help... Son... don't let the hate... poison your... so... ul..."
+		sound="data\sounds\Speech\r1m1\r1m1_33332_father.ogg"
+		time="30" />
+
+	<string
+		id="33333"
+		modelName="mask_hero"
+		value="|My life... What should I do next? After all, I have nobody left... and nothing... Only this letter..."
+		sound="data\sounds\Speech\r1m1\r1m1_33333_hero.ogg"
+		time="10" />
+
+	<string
+		id="33334"
+		modelAutosized="true"
+		modelName="quest_letter"
+		modelSlot="1"
+		value="LETTER | &quot;...Son, if you are reading this letter, it means I couldn't go back and raise you myself. I know that Peter has brought you up nicely. I can almost see you, so young and full of strength, and my heart is filled with tears...&quot;"
+		sound="data\sounds\Speech\r1m1\r1m1_33334_letter.ogg"
+		time="16" />
+
+	<string
+		id="33335"
+		modelAutosized="true"
+		modelName="quest_letter"
+		modelSlot="1"
+		value="LETTER | &quot;...I blame myself for not being around when you were growing up. And this is my terrible punishment. But you must know that I couldn't do it any other way. I have the task of a lifetime ahead of me...&quot;"
+		sound="data\sounds\Speech\r1m1\r1m1_33335_letter.ogg"
+		time="12" />
+
+	<string
+		id="33336"
+		modelAutosized="true"
+		modelName="quest_letter"
+		modelSlot="1"
+		value="LETTER|&quot;...Only by doing what I had planned I could find peace and feel like a human being again.  If not... then I don't deserve to live.  This letter is an apology. Forgive me if you can. You are always in my heart, son.&quot;"
+		sound="data\sounds\Speech\r1m1\r1m1_33336_letter.ogg"
+		time="16" />
+
+	<string
+		id="33337"
+		modelName="mask_hero"
+		value="|Is that all? No explanation... How can I forgive someone I never knew? There's nothing left for me to do here. I'm going to search for Ben. Whoever that is, I hope he can help me find myself. Maybe somebody heard of him in Sowth?"
+		sound="data\sounds\Speech\r1m1\r1m1_33337_hero.ogg"
+		time="16" />
+
+	<string
+		id="8800"
+		value="This is the first time you play Hard Truck: Apocalypse. Do you want to get hints on how to play?"
+		numButtons="2" />
+
+	<string
+		id="8801"
+		value="Do you wish to travel to another region?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="|I don't know where this road leads, so I'll stay here."
+		time="5" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="|It's a strange place. I'd better stay away from here."
+		time="3" />
+
+	
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    History has not kept an exact record of the dark times immediately following the Catastrophe. All that is known is that people survived the poisoned air by wearing protective masks. This creation of an unknown inventor equaled everyone. The thin barrier that stood in the way of imminent death became a symbol of the new humanity. The masks united the people and gave them strength to fight for a place under the sun.||    New settlements emerged away from the old cities, which had become mass graves. Little by little, connections were formed between the disparate groups of survivors. Farmers, miners, traders - a return to simple activities seemed to be only beneficial to the distraught people.||    But nothing can change the nature of man. There were those who retained the ancient wisdom to share with the world. There were also those who chose destruction over creation."
+		sound="data\sounds\Speech\rolik\r1m1_969_narrator.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="68" />
+
+	
+	<string
+		id="77772"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    History has not kept an exact record of the dark times immediately following the Catastrophe. All that is known is that people survived the poisoned air by wearing protective masks. This creation of an unknown inventor equaled everyone. The thin barrier that stood in the way of imminent death became a symbol of the new humanity. The masks united the people and gave them strength to fight for a place under the sun.||    New settlements emerged away from the old cities, which had become mass graves. Little by little, connections were formed between the disparate groups of survivors. Farmers, miners, traders - a return to simple activities seemed to be only beneficial to the distraught people.||    But nothing can change the nature of man. There were those who retained the ancient wisdom to share with the world. There were also those who chose destruction over creation."
+		sound="data\sounds\Speech\rolik\r1m1_969_narrator.ogg"
+		fontSize="18"
+		scrollSpeed="0.55"
+		time="68" />
+
+	<string
+		id="90000"
+		value="Hard Truck: Apocalypse||Do you want to get hints on how to play?"
+		numButtons="2" />
+</resource>

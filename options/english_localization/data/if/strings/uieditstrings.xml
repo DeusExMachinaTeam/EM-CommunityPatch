@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons--><!-- Общие в т.ч. вне игры -->
+	<string
+		id="ok"
+		value="OK" />
+
+	<string
+		id="cancel"
+		value="Cancel" />
+
+	<string
+		id="Cancel"
+		value="Cancel" />
+
+	<string
+		id="yes"
+		value="Yes" />
+
+	<string
+		id="no"
+		value="No" />
+
+	<string
+		id="error"
+		value="Error" />
+
+	<string
+		id="save"
+		value="Save" />
+
+	<string
+		id="Default"
+		value="Default" />
+
+	<string
+		id="Close"
+		value="Close" />
+
+	<string
+		id="Control"
+		value="Controls" />
+
+	<string
+		id="Exit"
+		value="Exit" />
+
+	<string
+		id="Delete"
+		value="Delete" />
+
+	<string
+		id="CloseWindow"
+		value="Close window" />
+
+	<string
+		id="Date"
+		value="Date" />
+
+	<string
+		id="SaveName"
+		value="Name" />
+
+	<string
+		id="SortByName"
+		value="Sort by name" />
+
+	<string
+		id="SortByDate"
+		value="Sort by date" />
+
+	<string
+		id="ServiceSymbolsUsed"
+		value="The profile name must not contain |the following symbols:|@ff00ff00%s" />
+
+	<string
+		id="quitGame"
+		value="Do you wish to leave the game?" />
+
+	<string
+		id="ChoseDifficultyLevel"
+		value="Choose difficulty level" />
+<!-- Главное меню -->
+	<string
+		id="New Game"
+		value="New game" />
+
+	<string
+		id="StartNetGame"
+		value="Start new game" />
+
+	<string
+		id="Credits"
+		value="Credits" />
+
+	<string
+		id="Load Game"
+		value="Load game" />
+
+	<string
+		id="Options"
+		value="Options" />
+
+	<string
+		id="Quit to Windows"
+		value="Quit to Windows" />
+
+	<string
+		id="Profile"
+		value="Profile" />
+
+	<string
+		id="ProfileDontChosen"
+		value="not set" />
+
+	<string
+		id="Intro"
+		value="Intro" />
+
+	<string
+		id="OpenSavesList"
+		value="Load previously saved game" />
+
+	<string
+		id="ShowIntro"
+		value="Show intro" />
+
+	<string
+		id="HandleGameOptions"
+		value="Change game settings" />
+
+	<string
+		id="ShowCredits"
+		value="Show credits" />
+<!-- Окно загрузки -->
+	<string
+		id="load"
+		value="Load" />
+
+	<string
+		id="LoadGame"
+		value="Load saved game" />
+
+	<string
+		id="SavedGameLoading"
+		value="Loading game" />
+<!-- Профиль -->
+	<string
+		id="DeleteProfileWarning"
+		value="All saved games will be deleted. | Continue?" />
+
+	<string
+		id="DefaultProfileName"
+		value="Player" />
+
+	<string
+		id="Create"
+		value="Create" />
+
+	<string
+		id="CreateProfile"
+		value="Create new profile" />
+
+	<string
+		id="NewProfile"
+		value="New profile" />
+
+	<string
+		id="ProfileExists"
+		value="A profile with that name already exists! |Enter another name." />
+
+	<string
+		id="EmptyProfileName"
+		value="Cannot create profile with no name" />
+
+	<string
+		id="ProfileCreateError"
+		value="Profile creation error" />
+
+	<string
+		id="ProfileDeleteError"
+		value="Profile deletion error" />
+
+	<string
+		id="Chose"
+		value="Select" />
+
+	<string
+		id="DeleteProfile"
+		value="Delete profile" />
+
+	<string
+		id="ChoseProfile"
+		value="Set profile as current" />
+
+	<string
+		id="CancelExit"
+		value="Close window and discard changes" />
+
+	<string
+		id="ChangePlayerProfile"
+		value="Change player profile" />
+
+	<string
+		id="ChangeProfile"
+		value="Change profile" />
+
+	<string
+		id="CurProfile"
+		value="Current profile" />
+
+	<string
+		id="InvalidProfileName"
+		value="Invalid profile name" />
+<!-- Текст сплэшей -->
+	<string
+		id="Loading"
+		value="Loading" />
+
+	<string
+		id="LoadingDots"
+		value="LOADING..." />
+
+	<string
+		id="LoadWorld"
+		value="LOADING LEVEL" />
+
+	<string
+		id="InitWorld"
+		value="LEVEL INITIALIZATION" />
+
+	<string
+		id="MainMenuLoading"
+		value="Loading" />
+
+	<string
+		id="AnimatedModelsServer"
+		value="animated objects" />
+
+	<string
+		id="StaticModelsServer"
+		value="static objects" />
+
+	<string
+		id="LightsServer"
+		value="light sources" />
+
+	<string
+		id="SpritesServer"
+		value="sprites" />
+
+	<string
+		id="ParticlesServer"
+		value="particle systems" />
+
+	<string
+		id="SoundsServer"
+		value="audio" />
+
+	<string
+		id="MusicServer"
+		value="music" />
+<!-- замените это на более благозвучное -->
+	<string
+		id="ProjectorsServer"
+		value="projectors" />
+
+	<string
+		id="DecalsServer"
+		value="decals" />
+
+	<string
+		id="Precaching"
+		value="Caching" />
+<!-- Окно настроек -->
+	<string
+		id="Video"
+		value="Video" />
+
+	<string
+		id="Sound"
+		value="Sound" />
+
+	<string
+		id="Game"
+		value="Game" />
+
+	<string
+		id="Video settings"
+		value="Video and graphics settings" />
+
+	<string
+		id="Far dist"
+		value="Draw distance" />
+
+	<string
+		id="Gamma"
+		value="Gamma" />
+
+	<string
+		id="Resolution"
+		value="Resolution" />
+
+	<string
+		id="GraphicQuality"
+		value="Graphics quality" />
+
+	<string
+		id="Grass"
+		value="Grass" />
+
+	<string
+		id="TextureResolution"
+		value="Texture resolution" />
+
+	<string
+		id="Antialiasing"
+		value="Antialiasing" />
+
+	<string
+		id="Filtration"
+		value="Texture filtering" />
+
+	<string
+		id="BlumQuality"
+		value="Bloom quality" />
+
+	<string
+		id="WaterQuality"
+		value="Water quality" />
+
+	<string
+		id="Audio settings"
+		value="Audio settings" />
+
+	<string
+		id="Fx vol"
+		value="Effects volume" />
+
+	<string
+		id="Music vol"
+		value="Music volume" />
+
+	<string
+		id="Speak vol"
+		value="Speech volume" />
+
+	<string
+		id="Game settings"
+		value="Game settings" />
+
+	<string
+		id="DialogPause"
+		value="Dialog pause" />
+
+	<string
+		id="AutoHelp"
+		value="Tutorial and hints" />
+
+	<string
+		id="MouseSensitivity"
+		value="Mouse sensitivity" />
+
+	<string
+		id="MouseYAxisFlip"
+		value="Invert mouse Y-axis" />
+
+	<string
+		id="MouseXAxisFlip"
+		value="Invert mouse X-axis" />
+
+	<string
+		id="Keys"
+		value="Key bindings" />
+
+	<string
+		id="RestoreDef"
+		value="Restore default settings" />
+
+	<string
+		id="Apply"
+		value="Apply" />
+
+	<string
+		id="Recommended"
+		value="Recommended" />
+
+	<string
+		id="None"
+		value="None" />
+
+	<string
+		id="Near"
+		value="Close" />
+
+	<string
+		id="Far"
+		value="Far" />
+
+	<string
+		id="LowQuality"
+		value="Low" />
+
+	<string
+		id="MediumQuality"
+		value="Medium" />
+
+	<string
+		id="HighQuality"
+		value="High" />
+
+	<string
+		id="CustomQuality"
+		value="Custom" />
+
+	<string
+		id="MaxQuality"
+		value="Maximum" />
+
+	<string
+		id="LowResolution"
+		value="Low" />
+
+	<string
+		id="HighResolution"
+		value="High" />
+
+	<string
+		id="CustomResolution"
+		value="Custom" />
+
+	<string
+		id="BilinearFiltration"
+		value="Bilinear" />
+
+	<string
+		id="TrilinearFiltration"
+		value="Trilinear" />
+
+	<string
+		id="AnisotropFiltration"
+		value="Anisotropic" />
+
+	<string
+		id="CustomFiltration"
+		value="Custom" />
+
+	<string
+		id="Antialiasing_x2"
+		value="x2" />
+
+	<string
+		id="Antialiasing_x4"
+		value="x4" />
+
+	<string
+		id="Antialiasing_x8"
+		value="x8" />
+
+	<string
+		id="Antialiasing_x16"
+		value="x16" />
+
+	<string
+		id="CustomAntialiasing"
+		value="Custom" />
+
+	<string
+		id="OptionsChanged"
+		value="The settings have been changed. Do you want to save changes?" />
+
+	<string
+		id="ShadowsQuality"
+		value="Shadow quality" />
+
+	<string
+		id="NumBattleReplies"
+		value="Frequency of battle shouts" />
+
+	<string
+		id="Control settings"
+		value="Control settings" />
+
+	<string
+		id="BindingsChanged"
+		value="Control keys have been changed. Do you want to save changes?" />
+
+	<string
+		id="GameDifficulty"
+		value="Game difficulty" />
+
+	<string
+		id="EasyLevel"
+		value="Rookie" />
+
+	<string
+		id="MediumLevel"
+		value="Experienced" />
+
+	<string
+		id="HardLevel"
+		value="Professional" />
+
+	<string
+		id="ImpossibleLevel"
+		value="Master" />
+<!-- DemoSplashWnd -->
+	<string
+		id="Targem Link Tip"
+		value="Targem Games" />
+
+	<string
+		id="Buka Link Tip"
+		value="Buka Entertainment" />
+
+	<string
+		id="ExMachina URL"
+		value="http://www.nival.com/targem" />
+
+	<string
+		id="Buka URL"
+		value="http://www.buka.com" />
+
+	<string
+		id="Nival URL"
+		value="http://www.nival.com" />
+
+	<string
+		id="AutoSave"
+		value="Autosave" />
+</resource>
