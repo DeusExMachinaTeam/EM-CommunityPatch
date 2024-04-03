@@ -5,15 +5,17 @@
   </a>
   <h3 align="center">Community Remaster / Community Patch</h3>
 
+  ![Eng Readme](git_assets/in_english_selected.png) · [![Ru Readme](git_assets/in_russian.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch)
+
   <p align="center">
     Project of community developed remaster / patch for Hard Truck Apocalypse game.
     <br />
-    <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Follow the development on Discord Â»</strong></a>
+    <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Follow the development on our Discord server »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">Create bug report</a>
-    Â·
-    <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Page on DeusWiki (RU)</a>
+    <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">?? Create bug report</a>
+    ·
+    <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Page on DeusWiki (in Russian)</a>
   </p>
 </div>
 
@@ -46,14 +48,12 @@ An exhaustive list is available when installing using ComMod mod manager or in t
 </br>
 
 &#x1F53B; Important! &#x1F53B;
-* Community Patch / Remaster installation is possible **only on no-DRM version 1.02**! This is necessary because we apply binary patches directly to game's executable, and all the available changes are possible only with 1.02. **We recommend to use Russian Steam version for installation, you can switch your copy to Russian before the installation of English ComRemaster/Patch from Steam's game settings**. Another option: unpacked version from the official Russian "Ex Machina Anthology".
-**Community Patch / Remaster can be installed **only on 64 bit versions of Windows 8, 10 or 11**!
+* Community Patch / Remaster installation is possible **only on no-DRM version 1.02** and only with ComMod mod manager! This is necessary because we apply binary patches directly to game's executable, and all the available changes are possible only with 1.02. **We recommend to use Russian Steam version for installation, you can switch your copy to Russian before the installation of English ComRemaster/Patch from Steam's game settings**. Another option: unpacked version from the official Russian "Ex Machina Anthology".
+* Community Patch / Remaster can be installed **only on 64 bit versions of Windows 8, 10 or 11**!
 
 <p align="right">(<a href="#top">go to the top</a>)</p>
 
 # Installation
-![Do not use source code, download latest release][releases_screenshot]
-
 ## Quick install guide
 In general, there is nothing difficult about the installation of ComRem/Patch and its compatible mods.
 
@@ -71,9 +71,17 @@ After installation, you can run the game from ComMod's launch page, but also fro
 
 Installation of other mods compatible with ComMod and Community Remaster/Patch is carried out in the same way.
 
+<hr>
+<div align="center">
+  <b>Latest release:</b>
+
+  [![Eng Readme](git_assets/download_eng.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-240403a)
+
+</div>
+
 ![Community Remaster installation][patcher_tutorial]
 
-*The process of installing Community Remaster with ComMod.*
+*The process of installing Community Remaster with ComMod (Russian locale demonstration, ComMod also supports English).*
 
 
 </br>
