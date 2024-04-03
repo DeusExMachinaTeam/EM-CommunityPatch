@@ -2,7 +2,7 @@
 <ObjectNames>
 	<Object
 		Name="ScientiferVillage"
-		FullName="The Scientist’s village" />
+		FullName="Scientist’s village" />
 
 	<Object
 		Name="ScientiferVillage_Bar"
@@ -10,7 +10,7 @@
 
 	<Object
 		Name="ScientiferVillage_Shop"
-		FullName="Marketplace" />
+		FullName="Industrial supplies" />
 
 	<Object
 		Name="ScientiferVillage_WorkShop"
@@ -18,7 +18,7 @@
 
 	<Object
 		Name="ScientiferVillage_Bar_Scientif"
-		FullName="The Scientist" />
+		FullName="Scientist Vasiliy" />
 
 	<Object
 		Name="ToR4M1"

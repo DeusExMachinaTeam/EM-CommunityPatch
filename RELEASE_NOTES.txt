@@ -1,3 +1,9 @@
+--- 240403a ---
+* New English translation, based on Russian VO and text, no English VO support at the moment
+* Fix regression introduced in 230616a - one of materials for r4_man had an incorrect transparency (Scientist Vasiliy and similar)
+* Mod file structure completely rewamped based on new features introduced in ComMod 2.1, most of the special case functions related to ComPatch/Rem are now available to other mods
+
+
 --- 230616a ---
 * Freeze on vehicle spawn, including enemy vehicles were completely fixed by rewriting an alogithm of animation FPS synchronisation
 * Maximum draw distance increase at least two times (can be changed via slider in the game settings)
