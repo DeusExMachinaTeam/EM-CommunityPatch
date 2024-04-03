@@ -1,3 +1,9 @@
+--- 240403a ---
+* New English translation, based on Russian VO and text, no English VO support at the moment
+* Fix regression introduced in 230616a - one of materials for r4_man had an incorrect transparency (Scientist Vasiliy and similar)
+* Mod file structure completely rewamped based on new features introduced in ComMod 2.1, most of the special case functions related to ComPatch/Rem are now available to other mods
+
+
 --- 230616a ---
 * Freeze on vehicle spawn, including enemy vehicles were completely fixed by rewriting an alogithm of animation FPS synchronisation
 * Maximum draw distance increase at least two times (can be changed via slider in the game settings)
@@ -11,7 +17,7 @@
 * Fixed incorrect portrait shown for Oracle's line in quest 'Talk to the aliens'
 * When entering Sacred Grove with Lisa there was a chance to break logic of her car's removal by quickly skipping the cutscene, which led to her driving with the player aimlessly. Added aditional command call to fix the error
 * Fix incorrect portrait shown for Oracle's line in 'Talk to the aliens'
-* Fix inconsistency between subtitles and voiceover in 'Catch Alice in Helvetia'
+* Fix inconsistency between subtitles and voiceover in 'Catch Lisa in Helvetia'
 * Cleanup of unused quest descriptions in questinfoglobal.xml, cleanup of unused effects causing errors in logs as they don't exist in AnimModels. Added to tilesprops.xml missing tiles that are used in Hel. Commented out debug logs in LISADIED cutscene.
 * If player successfully crosses the swamp while being on Lisa's root, after the death of the boss there is a new check of having a quest that is exclusive for Lisa's root, to prevent player activating the passage to Sacred Grove in place where story shouldn't allow that
 
@@ -26,7 +32,7 @@
 
 --- 221231a ---
 * Patcher replaced with our new mod manager: DEM ComMod. Better installation experience for ComRem and mods
-* Added content related to traveling to Vahat with Alice [cut content restoration]
+* Added content related to traveling to Vahat with Lisa [cut content restoration]
 * Disabled automatic respawn of walking human which created a risk of random game crashes with new mem fix
 * Improved enter zones for Asgard and Hideout
 * Resolved bug with incorrect passmap in Argen

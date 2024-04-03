@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Textures>
+<!-- Common shared textures for Skinned shader -->
+	<file
+		name="0_dead.dds"
+		path="data\models\vehicles\shared\0_dead.dds" />
+	<file
+		name="0_lobbycube.dds"
+		path="data\models\vehicles\shared\0_lobbycube.dds" />
+	<file
+		name="0_glass.dds"
+		path="data\models\vehicles\shared\0_glass.dds" />
+		
+	<file
+		name="grate.tga"
+		path="data\models\vehicles\shared\grate.tga" /> <!-- тут тоже нужно изменить на .dds -->
+		
+	<file
+		name="camo1.dds"
+		path="data\models\vehicles\shared\camo1.dds" />
+	<file
+		name="camo2.dds"
+		path="data\models\vehicles\shared\camo2.dds" />
+	<file
+		name="camo3.dds"
+		path="data\models\vehicles\shared\camo3.dds" />	
+	<file
+		name="camo4.dds"
+		path="data\models\vehicles\shared\camo4.dds" />
+		
+	<file
+		name="color1.dds"
+		path="data\models\vehicles\shared\color1.dds" />
+	<file
+		name="color2.dds"
+		path="data\models\vehicles\shared\color2.dds" />
+	<file
+		name="color3.dds"
+		path="data\models\vehicles\shared\color3.dds" />
+	<file
+		name="color4.dds"
+		path="data\models\vehicles\shared\color4.dds" />
+	<file
+		name="color5.dds"
+		path="data\models\vehicles\shared\color5.dds" />
+	<file
+		name="color6.dds"
+		path="data\models\vehicles\shared\color6.dds" />
+	<file
+		name="color7.dds"
+		path="data\models\vehicles\shared\color7.dds" />
+	<file
+		name="color8.dds"
+		path="data\models\vehicles\shared\color8.dds" />
+	<file
+		name="color9.dds"
+		path="data\models\vehicles\shared\color9.dds" />
+	<file
+		name="color10.dds"
+		path="data\models\vehicles\shared\color10.dds" />
+	<file
+		name="color11.dds"
+		path="data\models\vehicles\shared\color11.dds" />
+	<file
+		name="color12.dds"
+		path="data\models\vehicles\shared\color12.dds" />
+
+<!-- End of shared block -->
+
+	<file
+		name="ancient_arc.dds"
+		path="data\models\textures\acient\ancient_arc.dds" />
+
+	<file
+		name="ancient_column.dds"
+		path="data\models\textures\acient\ancient_column.dds" />
+
+	<file
+		name="ancient_elements.dds"
+		path="data\models\textures\acient\ancient_elements.dds" />
+
+	<file
+		name="alfa_girder.dds"
+		path="data\models\textures\all\alfa_girder.dds" />
+
+	<file
+		name="barbed_wire.dds"
+		path="data\models\textures\all\barbed_wire.dds" />
+
+	<file
+		name="beton_asfalt.dds"
+		path="data\models\textures\all\beton_asfalt.dds" />
+
+	<file
+		name="concrete.dds"
+		path="data\models\textures\all\concrete.dds" />
+
+	<file
+		name="concrete_white.dds"
+		path="data\models\textures\all\concrete_white.dds" />
+
+	<file
+		name="fence_concrete.dds"
+		path="data\models\textures\all\fence_concrete.dds" />
+
+	<file
+		name="metal_construct_rusty.dds"
+		path="data\models\textures\all\metal_construct_rusty.dds" />
+
+	<file
+		name="military_concrete.dds"
+		path="data\models\textures\all\military_concrete.dds" />
+
+	<file
+		name="military_metal.dds"
+		path="data\models\textures\all\military_metal.dds" />
+
+	<file
+		name="motorway.dds"
+		path="data\models\textures\all\motorway.dds" />
+
+	<file
+		name="overlap.dds"
+		path="data\models\textures\all\overlap.dds" />
+
+	<file
+		name="stuccowork_wall.dds"
+		path="data\models\textures\all\stuccowork_wall.dds" />
+
+	<file
+		name="vagons.dds"
+		path="data\models\textures\all\vagons.dds" />
+
+	<file
+		name="wall_concrete2.dds"
+		path="data\models\textures\all\wall_concrete2.dds" />
+
+	<file
+		name="wall_concrete3.dds"
+		path="data\models\textures\all\wall_concrete3.dds" />
+
+	<file
+		name="lobbycube.dds"
+		path="data\models\textures\cube\lobbycube.dds" />
+
+	<file
+		name="anc_detail.dds"
+		path="data\models\textures\detail\anc_detail.dds" />
+
+	<file
+		name="bark_detail.dds"
+		path="data\models\textures\detail\bark_detail.dds" />
+
+	<file
+		name="concrete_detail.dds"
+		path="data\models\textures\detail\concrete_detail.dds" />
+
+	<file
+		name="coverrock_detail.dds"
+		path="data\models\textures\detail\coverrock_detail.dds" />
+
+	<file
+		name="light_rock_detail.dds"
+		path="data\models\textures\detail\light_rock_detail.dds" />
+
+	<file
+		name="metall1_detail.dds"
+		path="data\models\textures\detail\metall1_detail.dds" />
+
+	<file
+		name="metall3_detail.dds"
+		path="data\models\textures\detail\metall3_detail.dds" />
+
+	<file
+		name="metall_detail.dds"
+		path="data\models\textures\detail\metall_detail.dds" />
+
+	<file
+		name="oracle_detail.dds"
+		path="data\models\textures\detail\oracle_detail.dds" />
+
+	<file
+		name="rock_detail.dds"
+		path="data\models\textures\detail\rock_detail.dds" />
+
+	<file
+		name="stone_detail.dds"
+		path="data\models\textures\detail\stone_detail.dds" />
+
+	<file
+		name="substation_concrete_details.dds"
+		path="data\models\textures\detail\substation_concrete_details.dds" />
+
+	<file
+		name="tile.dds"
+		path="data\models\textures\detail\tile.dds" />
+
+	<file
+		name="factory_box.dds"
+		path="data\models\textures\factory\factory_box.dds" />
+
+	<file
+		name="factory_brick.dds"
+		path="data\models\textures\factory\factory_brick.dds" />
+
+	<file
+		name="factory_cont.dds"
+		path="data\models\textures\factory\factory_cont.dds" />
+
+	<file
+		name="factory_elements.dds"
+		path="data\models\textures\factory\factory_elements.dds" />
+
+	<file
+		name="factory_elements_alpha.dds"
+		path="data\models\textures\factory\factory_elements_alpha.dds" />
+
+	<file
+		name="factory_garbage.dds"
+		path="data\models\textures\factory\factory_garbage.dds" />
+
+	<file
+		name="factory_metal.dds"
+		path="data\models\textures\factory\factory_metal.dds" />
+
+	<file
+		name="factory_metal_256.dds"
+		path="data\models\textures\factory\factory_metal_256.dds" />
+
+	<file
+		name="fence.dds"
+		path="data\models\textures\factory\fence.dds" />
+
+	<file
+		name="fence_vova.dds"
+		path="data\models\textures\factory\fence_vova.dds" />
+
+	<file
+		name="gradirnya.dds"
+		path="data\models\textures\factory\gradirnya.dds" />
+
+	<file
+		name="wall_factory2.dds"
+		path="data\models\textures\factory\wall_factory2.dds" />
+
+	<file
+		name="wall_factory2_256.dds"
+		path="data\models\textures\factory\wall_factory2_256.dds" />
+
+	<file
+		name="wall_factory3.dds"
+		path="data\models\textures\factory\wall_factory3.dds" />
+
+	<file
+		name="wall_factory3_256.dds"
+		path="data\models\textures\factory\wall_factory3_256.dds" />
+
+	<file
+		name="alfa_detals.dds"
+		path="data\models\textures\kladbische\alfa_detals.dds" />
+
+	<file
+		name="bochky.dds"
+		path="data\models\textures\kladbische\bochky.dds" />
+
+	<file
+		name="bort.dds"
+		path="data\models\textures\kladbische\bort.dds" />
+
+	<file
+		name="detaly.dds"
+		path="data\models\textures\kladbische\detaly.dds" />
+
+	<file
+		name="kraska.dds"
+		path="data\models\textures\kladbische\kraska.dds" />
+
+	<file
+		name="arena_barricade1.dds"
+		path="data\models\textures\misc\arena_barricade1.dds" />
+
+	<file
+		name="billbord_skin.dds"
+		path="data\models\textures\misc\billbord_skin.dds" />
+
+	<file
+		name="brokvehicle.dds"
+		path="data\models\textures\misc\brokvehicle.dds" />
+
+	<file
+		name="brokvehicle_rusty1.dds"
+		path="data\models\textures\misc\brokvehicle_rusty1.dds" />
+
+	<file
+		name="canvas.dds"
+		path="data\models\textures\misc\canvas.dds" />
+
+	<file
+		name="car_cemetery01.dds"
+		path="data\models\textures\misc\car_cemetery01.dds" />
+
+	<file
+		name="car_cemetery02.dds"
+		path="data\models\textures\misc\car_cemetery02.dds" />
+
+	<file
+		name="car_cemetery03.dds"
+		path="data\models\textures\misc\car_cemetery03.dds" />
+
+	<file
+		name="electro_stolb.dds"
+		path="data\models\textures\misc\electro_stolb.dds" />
+
+	<file
+		name="iron_barricade.dds"
+		path="data\models\textures\misc\iron_barricade.dds" />
+
+	<file
+		name="iron_wall.dds"
+		path="data\models\textures\misc\iron_wall.dds" />
+
+	<file
+		name="road_sign.dds"
+		path="data\models\textures\misc\road_sign.dds" />
+
+	<file
+		name="r_road.dds"
+		path="data\models\textures\misc\r_road.dds" />
+
+	<file
+		name="deadtree.dds"
+		path="data\models\textures\nature\region1\deadtree.dds" />
+
+	<file
+		name="dub.dds"
+		path="data\models\textures\nature\region1\dub.dds" />
+
+	<file
+		name="elka.dds"
+		path="data\models\textures\nature\region1\elka.dds" />
+
+	<file
+		name="gribockhi.dds"
+		path="data\models\textures\nature\region1\gribockhi.dds" />
+
+	<file
+		name="listvenoe.dds"
+		path="data\models\textures\nature\region1\listvenoe.dds" />
+
+	<file
+		name="rock_clif1.dds"
+		path="data\models\textures\nature\region1\rock_clif1.dds" />
+
+	<file
+		name="rock_clif2.dds"
+		path="data\models\textures\nature\region1\rock_clif2.dds" />
+
+	<file
+		name="rock_stones.dds"
+		path="data\models\textures\nature\region1\rock_stones.dds" />
+
+	<file
+		name="rock_sun_stones.dds"
+		path="data\models\textures\nature\region1\rock_sun_stones.dds" />
+
+	<file
+		name="seedbad_tomato.dds"
+		path="data\models\textures\nature\region1\seedbad_tomato.dds" />
+
+	<file
+		name="seedbed.dds"
+		path="data\models\textures\nature\region1\seedbed.dds" />
+
+	<file
+		name="swamp_crag.dds"
+		path="data\models\textures\nature\region1\swamp_crag.dds" />
+
+	<file
+		name="copped_gray.dds"
+		path="data\models\textures\nature\region2\copped_gray.dds" />
+
+	<file
+		name="copped_gray2.dds"
+		path="data\models\textures\nature\region2\copped_gray2.dds" />
+
+	<file
+		name="deadtree_r2.dds"
+		path="data\models\textures\nature\region2\deadtree_r2.dds" />
+
+	<file
+		name="dub_r2.dds"
+		path="data\models\textures\nature\region2\dub_r2.dds" />
+
+	<file
+		name="list_gt.dds"
+		path="data\models\textures\nature\region3\list_gt.dds" />
+
+	<file
+		name="topicfern.dds"
+		path="data\models\textures\nature\region3\topicfern.dds" />
+
+	<file
+		name="tropicpalma.dds"
+		path="data\models\textures\nature\region3\tropicpalma.dds" />
+
+	<file
+		name="tropictree.dds"
+		path="data\models\textures\nature\region3\tropictree.dds" />
+
+	<file
+		name="t_bark.dds"
+		path="data\models\textures\nature\region3\t_bark.dds" />
+
+	<file
+		name="t_bush_flower.dds"
+		path="data\models\textures\nature\region3\t_bush_flower.dds" />
+
+	<file
+		name="desert_crag.dds"
+		path="data\models\textures\nature\region4\desert_crag.dds" />
+
+	<file
+		name="d_deadtree.dds"
+		path="data\models\textures\nature\region4\d_deadtree.dds" />
+
+	<file
+		name="d_palma.dds"
+		path="data\models\textures\nature\region4\d_palma.dds" />
+
+	<file
+		name="d_tree.dds"
+		path="data\models\textures\nature\region4\d_tree.dds" />
+
+	<file
+		name="tropiccrag.dds"
+		path="data\models\textures\nature\region4\tropiccrag.dds" />
+
+	<file
+		name="agro_details.dds"
+		path="data\models\textures\region1\agro_details.dds" />
+
+	<file
+		name="agro_roof.dds"
+		path="data\models\textures\region1\agro_roof.dds" />
+
+	<file
+		name="agro_rusty.dds"
+		path="data\models\textures\region1\agro_rusty.dds" />
+
+	<file
+		name="agro_tech_rusty.dds"
+		path="data\models\textures\region1\agro_tech_rusty.dds" />
+
+	<file
+		name="agro_wood_walls.dds"
+		path="data\models\textures\region1\agro_wood_walls.dds" />
+
+	<file
+		name="alfa_fence.dds"
+		path="data\models\textures\region1\alfa_fence.dds" />
+
+	<file
+		name="alfa_girder.dds"
+		path="data\models\textures\region1\alfa_girder.dds" />
+
+	<file
+		name="asfalt.dds"
+		path="data\models\textures\region1\asfalt.dds" />
+
+	<file
+		name="ben_gun_house.dds"
+		path="data\models\textures\region1\ben_gun_house.dds" />
+
+	<file
+		name="brick+metall.dds"
+		path="data\models\textures\region1\brick+metall.dds" />
+
+	<file
+		name="brick+wood.dds"
+		path="data\models\textures\region1\brick+wood.dds" />
+
+	<file
+		name="brick.dds"
+		path="data\models\textures\region1\brick.dds" />
+
+	<file
+		name="brick_stones.dds"
+		path="data\models\textures\region1\brick_stones.dds" />
+
+	<file
+		name="concrete_ruins1.dds"
+		path="data\models\textures\region1\concrete_ruins1.dds" />
+
+	<file
+		name="concrete_ruins2.dds"
+		path="data\models\textures\region1\concrete_ruins2.dds" />
+
+	<file
+		name="concrete_ruins_alfa.dds"
+		path="data\models\textures\region1\concrete_ruins_alfa.dds" />
+
+	<file
+		name="concret_tube.dds"
+		path="data\models\textures\region1\concret_tube.dds" />
+
+	<file
+		name="envir_barricade.dds"
+		path="data\models\textures\region1\envir_barricade.dds" />
+
+	<file
+		name="fermi.dds"
+		path="data\models\textures\region1\fermi.dds" />
+
+	<file
+		name="fishman.dds"
+		path="data\models\textures\region1\fishman.dds" />
+
+	<file
+		name="fluted_metal.dds"
+		path="data\models\textures\region1\fluted_metal.dds" />
+
+	<file
+		name="fluted_roof.dds"
+		path="data\models\textures\region1\fluted_roof.dds" />
+
+	<file
+		name="ground.dds"
+		path="data\models\textures\region1\ground.dds" />
+
+	<file
+		name="iron_roof_rusty.dds"
+		path="data\models\textures\region1\iron_roof_rusty.dds" />
+
+	<file
+		name="kirp.dds"
+		path="data\models\textures\region1\kirp.dds" />
+
+	<file
+		name="metal_civil.dds"
+		path="data\models\textures\region1\metal_civil.dds" />
+
+	<file
+		name="metal_civil_rusty.dds"
+		path="data\models\textures\region1\metal_civil_rusty.dds" />
+
+	<file
+		name="metal_colored.dds"
+		path="data\models\textures\region1\metal_colored.dds" />
+
+	<file
+		name="metal_construction.dds"
+		path="data\models\textures\region1\metal_construction.dds" />
+
+	<file
+		name="metal_construct_civil.dds"
+		path="data\models\textures\region1\metal_construct_civil.dds" />
+
+	<file
+		name="metal_construct_gate.dds"
+		path="data\models\textures\region1\metal_construct_gate.dds" />
+
+	<file
+		name="metal_elements.dds"
+		path="data\models\textures\region1\metal_elements.dds" />
+
+	<file
+		name="metal_elements_barrel.dds"
+		path="data\models\textures\region1\metal_elements_barrel.dds" />
+
+	<file
+		name="metal_elements_console.dds"
+		path="data\models\textures\region1\metal_elements_console.dds" />
+
+	<file
+		name="metal_elements_roof.dds"
+		path="data\models\textures\region1\metal_elements_roof.dds" />
+
+	<file
+		name="metal_petrol.dds"
+		path="data\models\textures\region1\metal_petrol.dds" />
+
+	<file
+		name="midgard_gate_elements.dds"
+		path="data\models\textures\region1\midgard_gate_elements.dds" />
+
+	<file
+		name="military_concrete.dds"
+		path="data\models\textures\region1\military_concrete.dds" />
+
+	<file
+		name="military_metal_elem1.dds"
+		path="data\models\textures\region1\military_metal_elem1.dds" />
+
+	<file
+		name="military_metal_elem2.dds"
+		path="data\models\textures\region1\military_metal_elem2.dds" />
+
+	<file
+		name="military_metal_walls.dds"
+		path="data\models\textures\region1\military_metal_walls.dds" />
+
+	<file
+		name="military_metal_walls2.dds"
+		path="data\models\textures\region1\military_metal_walls2.dds" />
+
+	<file
+		name="miningate.dds"
+		path="data\models\textures\region1\miningate.dds" />
+
+	<file
+		name="minin_roof.dds"
+		path="data\models\textures\region1\minin_roof.dds" />
+
+	<file
+		name="ograda.dds"
+		path="data\models\textures\region1\ograda.dds" />
+
+	<file
+		name="overlap.dds"
+		path="data\models\textures\region1\overlap.dds" />
+
+	<file
+		name="pr.dds"
+		path="data\models\textures\region1\pr.dds" />
+
+	<file
+		name="prom_concrete.dds"
+		path="data\models\textures\region1\prom_concrete.dds" />
+
+	<file
+		name="prom_details.dds"
+		path="data\models\textures\region1\prom_details.dds" />
+
+	<file
+		name="prom_ferma_alfa.dds"
+		path="data\models\textures\region1\prom_ferma_alfa.dds" />
+
+	<file
+		name="rabica.dds"
+		path="data\models\textures\region1\rabica.dds" />
+
+	<file
+		name="rr_sign.dds"
+		path="data\models\textures\region1\rr_sign.dds" />
+
+	<file
+		name="rr_station.dds"
+		path="data\models\textures\region1\rr_station.dds" />
+
+	<file
+		name="ruins_concrete.dds"
+		path="data\models\textures\region1\ruins_concrete.dds" />
+
+	<file
+		name="rusting_loss_metal.dds"
+		path="data\models\textures\region1\rusting_loss_metal.dds" />
+
+	<file
+		name="rusting_metal.dds"
+		path="data\models\textures\region1\rusting_metal.dds" />
+
+	<file
+		name="rusty_car.dds"
+		path="data\models\textures\region1\rusty_car.dds" />
+
+	<file
+		name="rusty_car_2.dds"
+		path="data\models\textures\region1\rusty_car_2.dds" />
+
+	<file
+		name="tablo.dds"
+		path="data\models\textures\region1\tablo.dds" />
+
+	<file
+		name="transformators.dds"
+		path="data\models\textures\region1\transformators.dds" />
+
+	<file
+		name="truba.dds"
+		path="data\models\textures\region1\truba.dds" />
+
+	<file
+		name="truss.dds"
+		path="data\models\textures\region1\truss.dds" />
+
+	<file
+		name="windmil.dds"
+		path="data\models\textures\region1\windmil.dds" />
+
+	<file
+		name="alfacamouflage1.dds"
+		path="data\models\textures\region2\alfacamouflage1.dds" />
+
+	<file
+		name="alfa_girder_r2.dds"
+		path="data\models\textures\region2\alfa_girder_r2.dds" />
+
+	<file
+		name="antens_alfa.dds"
+		path="data\models\textures\region2\antens_alfa.dds" />
+
+	<file
+		name="arcsings.dds"
+		path="data\models\textures\region2\arcsings.dds" />
+
+	<file
+		name="birck_wall.dds"
+		path="data\models\textures\region2\birck_wall.dds" />
+
+	<file
+		name="birck_wall2.dds"
+		path="data\models\textures\region2\birck_wall2.dds" />
+
+	<file
+		name="brick_elements.dds"
+		path="data\models\textures\region2\brick_elements.dds" />
+
+	<file
+		name="brick_riff_roof_metal.dds"
+		path="data\models\textures\region2\brick_riff_roof_metal.dds" />
+
+	<file
+		name="camouflage1.dds"
+		path="data\models\textures\region2\camouflage1.dds" />
+
+	<file
+		name="concrete_sand_military.dds"
+		path="data\models\textures\region2\concrete_sand_military.dds" />
+
+	<file
+		name="concrete_substation.dds"
+		path="data\models\textures\region2\concrete_substation.dds" />
+
+	<file
+		name="doroga.dds"
+		path="data\models\textures\region2\doroga.dds" />
+
+	<file
+		name="gate_rusty.dds"
+		path="data\models\textures\region2\gate_rusty.dds" />
+
+	<file
+		name="helvetia_metal_walls.dds"
+		path="data\models\textures\region2\helvetia_metal_walls.dds" />
+
+	<file
+		name="helvetica_elements.dds"
+		path="data\models\textures\region2\helvetica_elements.dds" />
+
+	<file
+		name="helvetica_elements2.dds"
+		path="data\models\textures\region2\helvetica_elements2.dds" />
+
+	<file
+		name="machine_elements.dds"
+		path="data\models\textures\region2\machine_elements.dds" />
+
+	<file
+		name="machine_elements2.dds"
+		path="data\models\textures\region2\machine_elements2.dds" />
+
+	<file
+		name="machine_metal.dds"
+		path="data\models\textures\region2\machine_metal.dds" />
+
+	<file
+		name="machine_metal2.dds"
+		path="data\models\textures\region2\machine_metal2.dds" />
+
+	<file
+		name="machine_wall.dds"
+		path="data\models\textures\region2\machine_wall.dds" />
+
+	<file
+		name="monastery.dds"
+		path="data\models\textures\region2\monastery.dds" />
+
+	<file
+		name="monastery2.dds"
+		path="data\models\textures\region2\monastery2.dds" />
+
+	<file
+		name="riff_dirt.dds"
+		path="data\models\textures\region2\riff_dirt.dds" />
+
+	<file
+		name="substation_antens_alfa.dds"
+		path="data\models\textures\region2\substation_antens_alfa.dds" />
+
+	<file
+		name="substation_elements.dds"
+		path="data\models\textures\region2\substation_elements.dds" />
+
+	<file
+		name="substation_elements_colour.dds"
+		path="data\models\textures\region2\substation_elements_colour.dds" />
+
+	<file
+		name="substation_wall.dds"
+		path="data\models\textures\region2\substation_wall.dds" />
+
+	<file
+		name="walls.dds"
+		path="data\models\textures\region2\walls.dds" />
+
+	<file
+		name="zion _tech_elements.dds"
+		path="data\models\textures\region2\zion _tech_elements.dds" />
+
+	<file
+		name="zion_tech.dds"
+		path="data\models\textures\region2\zion_tech.dds" />
+
+	<file
+		name="comuflage_wall2.dds"
+		path="data\models\textures\region3\comuflage_wall2.dds" />
+
+	<file
+		name="concret_bricks.dds"
+		path="data\models\textures\region3\concret_bricks.dds" />
+
+	<file
+		name="concret_jungle.dds"
+		path="data\models\textures\region3\concret_jungle.dds" />
+
+	<file
+		name="drud_lians.dds"
+		path="data\models\textures\region3\drud_lians.dds" />
+
+	<file
+		name="druids_rifles.dds"
+		path="data\models\textures\region3\druids_rifles.dds" />
+
+	<file
+		name="druids_wall.dds"
+		path="data\models\textures\region3\druids_wall.dds" />
+
+	<file
+		name="druids_walls_gray.dds"
+		path="data\models\textures\region3\druids_walls_gray.dds" />
+
+	<file
+		name="druid_gate_elements.dds"
+		path="data\models\textures\region3\druid_gate_elements.dds" />
+
+	<file
+		name="druid_house_elements.dds"
+		path="data\models\textures\region3\druid_house_elements.dds" />
+
+	<file
+		name="druid_wood_tile.dds"
+		path="data\models\textures\region3\druid_wood_tile.dds" />
+
+	<file
+		name="elefant.dds"
+		path="data\models\textures\region3\elefant.dds" />
+
+	<file
+		name="elem.dds"
+		path="data\models\textures\region3\elem.dds" />
+
+	<file
+		name="gate.dds"
+		path="data\models\textures\region3\gate.dds" />
+
+	<file
+		name="indian.dds"
+		path="data\models\textures\region3\indian.dds" />
+
+	<file
+		name="kanat.dds"
+		path="data\models\textures\region3\kanat.dds" />
+
+	<file
+		name="lian.dds"
+		path="data\models\textures\region3\lian.dds" />
+
+	<file
+		name="mechanick_elements.dds"
+		path="data\models\textures\region3\mechanick_elements.dds" />
+
+	<file
+		name="meh_druids_alfa_elements.dds"
+		path="data\models\textures\region3\meh_druids_alfa_elements.dds" />
+
+	<file
+		name="meh_druids_wall copy.dds"
+		path="data\models\textures\region3\meh_druids_wall copy.dds" />
+
+	<file
+		name="meh_druids_wall.dds"
+		path="data\models\textures\region3\meh_druids_wall.dds" />
+
+	<file
+		name="meh_druid_houses.dds"
+		path="data\models\textures\region3\meh_druid_houses.dds" />
+
+	<file
+		name="oracle_coocer.dds"
+		path="data\models\textures\region3\oracle_coocer.dds" />
+
+	<file
+		name="oracle_elements_alpha.dds"
+		path="data\models\textures\region3\oracle_elements_alpha.dds" />
+
+	<file
+		name="oracle_gate.dds"
+		path="data\models\textures\region3\oracle_gate.dds" />
+
+	<file
+		name="oracle_metal.dds"
+		path="data\models\textures\region3\oracle_metal.dds" />
+
+	<file
+		name="oracle_tube.dds"
+		path="data\models\textures\region3\oracle_tube.dds" />
+
+	<file
+		name="oracle_tube2.dds"
+		path="data\models\textures\region3\oracle_tube2.dds" />
+
+	<file
+		name="stonehendge.dds"
+		path="data\models\textures\region3\stonehendge.dds" />
+
+	<file
+		name="clay_gadad.dds"
+		path="data\models\textures\region4\clay_gadad.dds" />
+
+	<file
+		name="gadad_cupol.dds"
+		path="data\models\textures\region4\gadad_cupol.dds" />
+
+	<file
+		name="gadad_cupol2.dds"
+		path="data\models\textures\region4\gadad_cupol2.dds" />
+
+	<file
+		name="gadad_decor.dds"
+		path="data\models\textures\region4\gadad_decor.dds" />
+
+	<file
+		name="gadad_detail.dds"
+		path="data\models\textures\region4\gadad_detail.dds" />
+
+	<file
+		name="gadad_elements.dds"
+		path="data\models\textures\region4\gadad_elements.dds" />
+
+	<file
+		name="gadad_elements1.dds"
+		path="data\models\textures\region4\gadad_elements1.dds" />
+
+	<file
+		name="gadad_platforms.dds"
+		path="data\models\textures\region4\gadad_platforms.dds" />
+
+	<file
+		name="gadad_wall.dds"
+		path="data\models\textures\region4\gadad_wall.dds" />
+
+	<file
+		name="kef_wall.dds"
+		path="data\models\textures\region4\kef_wall.dds" />
+
+	<file
+		name="mirror.dds"
+		path="data\models\textures\region4\mirror.dds" />
+
+	<file
+		name="mirror_b.tga"
+		path="data\models\textures\region4\mirror_b.tga" />
+
+	<file
+		name="mirror_b.dds"
+		path="data\models\textures\region4\mirror_b.dds" />
+
+	<file
+		name="pack.dds"
+		path="data\models\textures\region4\pack.dds" />
+
+	<file
+		name="sand3.dds"
+		path="data\models\textures\region4\sand3.dds" />
+
+	<file
+		name="untitled-1.dds"
+		path="data\models\textures\region4\untitled-1.dds" />
+
+	<file
+		name="wall_gad.dds"
+		path="data\models\textures\region4\wall_gad.dds" />
+
+	<file
+		name="wall_gad1.dds"
+		path="data\models\textures\region4\wall_gad1.dds" />
+
+	<file
+		name="wall_gadad2.dds"
+		path="data\models\textures\region4\wall_gadad2.dds" />
+
+	<file
+		name="body_plane.dds"
+		path="data\models\textures\special\body_plane.dds" />
+
+	<file
+		name="bort.dds"
+		path="data\models\textures\special\bort.dds" />
+
+	<file
+		name="bort_light.dds"
+		path="data\models\textures\special\bort_light.dds" />
+
+	<file
+		name="details2_plane.dds"
+		path="data\models\textures\special\details2_plane.dds" />
+
+	<file
+		name="details_plane.dds"
+		path="data\models\textures\special\details_plane.dds" />
+
+	<file
+		name="detaly.dds"
+		path="data\models\textures\special\detaly.dds" />
+
+	<file
+		name="head_plane.dds"
+		path="data\models\textures\special\head_plane.dds" />
+
+	<file
+		name="rubbish_plane.dds"
+		path="data\models\textures\special\rubbish_plane.dds" />
+
+	<file
+		name="tail_plane.dds"
+		path="data\models\textures\special\tail_plane.dds" />
+
+	<file
+		name="tarelka.dds"
+		path="data\models\textures\special\tarelka.dds" />
+
+	<file
+		name="tile_flor.dds"
+		path="data\models\textures\special\tile_flor.dds" />
+
+	<file
+		name="wings_plane.dds"
+		path="data\models\textures\special\wings_plane.dds" />
+
+	<file
+		name="kustarnik_1.dds"
+		path="data\models\textures\Nature\Region1\Kustarnik_1.dds" />
+
+	<file
+		name="kustarnik_2.dds"
+		path="data\models\textures\Nature\Region1\Kustarnik_2.dds" />
+
+	<file
+		name="sosna.dds"
+		path="data\models\textures\Nature\Region1\sosna.dds" />
+
+	<file
+		name="deadtree2.dds"
+		path="data\models\textures\Nature\Region1\DeadTree2.dds"/>
+
+	<file
+		name="listvenoe_2.dds"
+		path="data\models\textures\Nature\Region1\listvenoe_2.dds"/>
+
+	<file
+		name="listvenoe_3.dds"
+		path="data\models\textures\Nature\Region1\listvenoe_3.dds"/>
+
+	<file
+		name="list.dds"
+		path="data\models\textures\Nature\Region3\list.dds"/>
+
+	<file
+		name="bark.dds"
+		path="data\models\textures\Nature\Region3\bark.dds"/>
+
+	<file
+		name="fern.dds"
+		path="data\models\textures\Nature\Region3\fern.dds"/>
+
+	<file
+		name="desert_bush.dds"
+		path="data\models\textures\Nature\Region4\Desert_Bush.dds"/>
+
+	<file
+		name="logotip01.tga"
+		path="data\models\textures\logotip01.tga"/>
+
+	<file
+		name="crag_rock.dds"
+		path="data\models\textures\Nature\Region1\crag_rock.dds"/>
+
+</Textures>

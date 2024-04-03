@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="TheGelvetcia"
+		FullName="HELVETIA" />
+
+	<Object
+		Name="TheGelvetcia_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheGelvetcia_Shop"
+		FullName="Marketplace" />
+
+	<Object
+		Name="TheGelvetcia_House"
+		FullName="SENATE" />
+
+	<Object
+		Name="TheGelvetcia_Bar"
+		FullName="Jigger" />
+
+	<Object
+		Name="TheGelvetcia_Bar_Barman"
+		FullName="Secretary Blake" />
+
+	<Object
+		Name="Senat"
+		FullName="Senator Schwartz " />
+
+	<Object
+		Name="Gulik"
+		FullName="Trickster" />
+
+	<Object
+		Name="TheSel"
+		FullName="SEIL" />
+
+	<Object
+		Name="TheSel_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheSel_Shop"
+		FullName="Marketplace" />
+
+	<Object
+		Name="TheSel_House"
+		FullName="Station" />
+
+	<Object
+		Name="TheSel_Bar"
+		FullName="Bar 'LaVine'" />
+
+	<Object
+		Name="TheSel_Bar_Barman"
+		FullName="Employer Abe" />
+
+	<Object
+		Name="SelCitizen"
+		FullName="Electrician" />
+
+	<Object
+		Name="SelBarmen"
+		FullName="Barman" />
+
+	<Object
+		Name="Estet"
+		FullName="Aesthete Kauf" />
+
+	<Object
+		Name="TheTuzz"
+		FullName="TOUSE" />
+
+	<Object
+		Name="TheTuzz_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheTuzz_Shop"
+		FullName="Marketplace" />
+
+	<Object
+		Name="TheTuzz_House"
+		FullName="Recruiting center" />
+
+	<Object
+		Name="TheTuzz_Bar"
+		FullName="Canteen" />
+
+	<Object
+		Name="TheTuzz_Bar_Barman"
+		FullName="Agitator Bob" />
+
+	<Object
+		Name="TuzVerb"
+		FullName="Recruiter Hank" />
+
+	<Object
+		Name="TheDoubtful"
+		FullName="LIBERTE" />
+
+	<Object
+		Name="TheDoubtful_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheDoubtful_Shop"
+		FullName="Marketplace" />
+
+	<Object
+		Name="TheDoubtful_Bar"
+		FullName="Bar" />
+
+	<Object
+		Name="TheDoubtful_Bar_Barman"
+		FullName="Barman" />
+
+	<Object
+		Name="AntipodEstet"
+		FullName="Virtuoso" />
+
+	<Object
+		Name="TheUnderAttaks"
+		FullName="FRATERNITE" />
+
+	<Object
+		Name="TheUnderAttaks_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheUnderAttaks_Shop"
+		FullName="Marketplace" />
+
+	<Object
+		Name="TheUnderAttaks_Bar"
+		FullName="Bar" />
+
+	<Object
+		Name="TheUnderAttaks_Bar_Barman"
+		FullName="Barman" />
+
+	<Object
+		Name="TheVill2"
+		FullName="EGALITE" />
+
+	<Object
+		Name="TheVill2_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheVill2_Shop"
+		FullName="Marketplace" />
+
+	<Object
+		Name="TheVill2_Bar"
+		FullName="Bar" />
+
+	<Object
+		Name="TheVill2_Bar_Barman"
+		FullName="Barman" />
+
+	<Object
+		Name="TheVill1"
+		FullName="GENDENBURG" />
+
+	<Object
+		Name="TheVill1_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheVill1_Shop"
+		FullName="Marketplace" />
+
+	<Object
+		Name="TheVill1_Bar"
+		FullName="Bar" />
+
+	<Object
+		Name="TheVill1_Bar_Barman"
+		FullName="Barman" />
+
+	<Object
+		Name="PetrolStationTown1"
+		FullName="GAS STATION" />
+
+	<Object
+		Name="PetrolStationTown1_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="PetrolStationTown2"
+		FullName="GAS STATION" />
+
+	<Object
+		Name="PetrolStationTown2_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="PetrolStationTown3"
+		FullName="GAS STATION" />
+
+	<Object
+		Name="PetrolStationTown3_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="PetrolStationTown4"
+		FullName="GAS STATION" />
+
+	<Object
+		Name="PetrolStationTown4_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="PetrolStationTown5"
+		FullName="GAS STATION" />
+
+	<Object
+		Name="PetrolStationTown5_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheGelvetcia_enter"
+		FullName="HELVETIA" />
+
+	<Object
+		Name="TheSel_enter"
+		FullName="SEIL" />
+
+	<Object
+		Name="TheTuzz_enter"
+		FullName="TOUS" />
+
+	<Object
+		Name="TheDoubtful_enter"
+		FullName="LIBERTE" />
+
+	<Object
+		Name="TheUnderAttaks_enter"
+		FullName="FRATERNITE" />
+
+	<Object
+		Name="TheVill1_enter"
+		FullName="GENDENBURG" />
+
+	<Object
+		Name="TheVill2_enter"
+		FullName="EGALITE" />
+
+	<Object
+		Name="ToR1M3"
+		FullName="Tunnel" />
+
+	<Object
+		Name="ToR3M1"
+		FullName="Underwater tunnel" />
+
+	<Object
+		Name="ToR2M2"
+		FullName="Road to Argen " />
+
+	<Object
+		Name="ToR2M2small"
+		FullName="Path to Argen" />
+
+	<Object
+		Name="u1"
+		FullName="Shrike" />
+
+	<Object
+		Name="u2"
+		FullName="Dr.Pit" />
+
+	<Object
+		Name="u3"
+		FullName="Ryche" />
+
+	<Object
+		Name="u4"
+		FullName="Jinn" />
+
+	<Object
+		Name="u5"
+		FullName="Mirra" />
+
+	<Object
+		Name="u6"
+		FullName="Grey" />
+
+	<Object
+		Name="u7"
+		FullName="Sadow" />
+
+	<Object
+		Name="u8"
+		FullName="Phosgen" />
+
+	<Object
+		Name="u9"
+		FullName="Jan" />
+</ObjectNames>

@@ -1,0 +1,192 @@
+## -= Comments are valid for ComMod 2.1 =- ##
+## More information available on DeusWiki: https://deuswiki.com/w/ComMod ##
+
+## -=Required service data =- ##
+name: community_remaster ## Unique service name, don't use names of other known mods
+
+version: "1.14.1" ## major.minor.patch version, semantic versioning style. See for more info: https://deuswiki.com/w/ComMod#О_версиях_модов
+
+build: "240403a" ## expected build format is <short_year><month><day><letter_of_alphabet_for_build_of_the_day>
+## so 240403a is build done on 3rd of April 2024, 'a' for first build of the day. Will be 'b' for second build on that day, etc.
+## ! Don't use day_month_year format - this creates errors when comparing builds and checking which build is newer !
+
+language: ru ## defaults to ru
+## expected language names which will display flags on mod page:
+## eng, ru, ua, de, tr, pl, kz, by - for English, Russian, Ukrainian, German, Turkish, Polish, Kazakh, Belarusian
+## Can also specify other lang codes, will display placeholder flag, better to ask developer to add support
+
+## -= Required human readable info =- ##
+display_name: Community Remaster
+
+authors: DEM Team, EM2ch
+
+description: |
+  Community Patch - проект пользовательского мода-патча, основной целью которого является повышение стабильности игры, исправление сюжетных ошибок, катсцен и квестов, улучшения работы игрового движка и некорректно работающих игровых систем.
+
+  Community Remaster - расширенная версия КомПатча, включающая переработанный интерфейс игры для адаптации под 16:9 разрешения.
+  Добавлены новые, более качественные модели и анимации для части оружия и авто. Улучшена графика и шейдеры оригинала. Часть контента КомРема опциональна.
+  
+## -= Optional human readable info =-
+release_date: "03.04.2024"  # date of the current release in any common format
+
+link: https://deuswiki.com/w/Community_Remaster # [optional] for example GitHub page, or DeusWiki mod page
+
+## branding images
+logo: assets/comrem_logo.png # [optional but best to add]
+install_banner: assets/comrem_banner.png # [optional] shown on installation screen and when copying files
+
+## supported tags: bugfix, gameplay, story, visual, audio, weapons, vehicles, ui, balance, humor
+tags: [gameplay, bugfix, story, visual] # [optional] but best to specify at least one supported tag
+
+## additional text info
+change_log: assets/change_list_ru.md # [optional] change log file with Markdown formating
+# other_info: assets/faq.md # [optional] additional Markdown file, can show any other info about mod, for example FAQ, Q&A or walkthrough
+
+screenshots: ## optional, list of screenshots with descriptions
+  - img: assets/screen_1.jpg
+    text: На скриншоте главное меню Комьюнити Ремастера
+    # compare: assets/screen_1_1.jpg ## can specify screen comparison, clicking on screenshot will cycle between two screenshots
+  - img: assets/screen_2.jpg
+    text: |
+      Новый Вэн, новый ПКТ, все элементы интерфейса отображаются в высоком качестве и не растянуты
+      [HD машины, HD пушки - опции при установке КомРема]
+  - img: assets/screen_3.jpg
+    text: |
+      Новый Молоковоз с дополнительной оранжевой раскраской, новый Спектр и Рейнметалл
+      [HD машины, HD пушки - опция при установке КомРема]
+  - img: assets/screen_4.jpg
+    text: |
+      HD 16:9 интерфейс магазина и новые иконки товаров Комьюнити Ремастера
+  - img: assets/screen_5.jpg
+    text: |
+      Вступительная катсцена, заметны корректный широкий FOV, качественная отрисовка шрифтов, портрет персонажа не растянут [КомРем]
+  - img: assets/screen_6.jpg
+    text: |
+      HD интерфейс диалогов, портрет персонажа теперь отображается в высоком разрешении [КомРем]
+
+## will load manifest_{lang}.yaml as translation, manifest_eng.yaml in this case
+## follow same naming logic as above for field "language", so 'ru' for Russian, 'eng' for English etc.
+translations: [eng]
+
+## will load manifest_{variant_alias}_{language}.yaml (language is "ru" here)
+variants: [patch] # where variant_alias = "patch"
+
+### Structure of "mod family" here is (./ - is a root of the mod):
+## main mod (./manifest.yaml) ->
+##   * main specifies translation "eng" ("manifest_eng.yaml")
+##   * main specifies variant "patch" ("manifest_patch_ru.yaml", NOT "manifest_patch.yaml")
+##     ('_ru.yaml' - because variant is always of the same lang as it's parent mod, "ru" in this case)
+##       * variant "patch" here doesn't have translation, but it can also specify it, see description in it's manifest
+
+
+## Installation configuration
+
+## 'prerequisites'(requirements) and 'incompatible' lists are empty here, as this mod installs only on clean game
+# prerequisites: 
+#   - name: community_patch
+#     versions:  ## will require any commod version between 1.13 and 1.14
+#       - ">=1.13"
+#       - "<=1.14"
+
+# incompatible:
+#   - name: community_remaster
+#     versions: []
+#     optional_content:
+#     - hd_vehicle_models ## will not make mod incompatible with all comrem versions, but will make it incompatible if 'hd_vehicle_models' is installed  
+
+# how to patch the game and which files to copy, best to use latest version at the time of mod release here
+patcher_version_requirement: "2.1"
+
+## binary patching settings, supported options are commented out
+patcher_options:
+  gravity: -19.62
+  blast_damage_friendly_fire: false
+  # font: "Tahoma"
+  # skins_in_shop: 8
+
+## mod consists of base files and options, but can be fully created from options
+no_base_content: false
+
+## more info on DeusWiki
+# strict_requirements: true ## default value
+# compatible_minor_versions: false ## default value
+# compatible_patch_versions: false ## default value
+
+## mod files directories if not default "data"
+data_dirs:
+  - "patch"
+  - "remaster/data"
+bin_dirs:
+  - "libs"
+
+## Options files setup
+options_base_dir: "options" # defaults to nothing -> mod manager then looks for options in root dir, like: "/{name_of_option}/data"
+
+## Note: in explanations here "./" is root folder of the mod
+
+## Options files are found in:
+## for simple option:
+### "./{options_base_dir}/{name_of_option}/data
+### simple example from this mod:
+### "./remaster/hd_gun_models/data"
+## for complex option:
+### "./{options_base_dir}/{<name_of_option>}/{<install_setting_name>}/data
+### theoretical example commented out in this mod for option 'hd_vehicle_models':
+### "./remaster/hd_options/vehicles/data"
+
+## for option with specified 'data_dirs'
+### "./{options_base_dir}/{data_dir}/{<install_setting_name_if_any>}/data
+## simple example from this mod, commented out:
+### "./remaster/hd_vehicle_models/data" ## ("remaster" is options_base_dir, "hd_vehicle_models" is specified data dir, <install_setting_name_if_any> is empty)
+## complex example commented out in this mod for option 'ost_remaster':
+### "./remaster/other_options/ost_remaster_complex/all_new/data"
+
+optional_content:
+  - name: hd_gun_models
+    display_name: HD Модели Оружия
+    # default_option: skip ## alows to make option disabled by default, without this - option will be enabled by default
+    description: |
+      Новые модели для части орудий.
+      Переработаны:
+      Шершень, Спектр, ПКТ, Корд, Вулкан, Рейнметал и Спрут.
+  - name: hd_vehicle_models
+    display_name: HD Модели Автомобилей
+    description: |
+      Полностью новые модели Вена и Молоковоза высокого качества с дополнительным раскрасками. Новый Клоп, Таракан и его гоночный вариант Турбо GT, новый Муравей. 
+      + Замена колёс на варианты высокого качества для машин:
+      Кузнечик, Скаут, Охотник, Боец, Крейсер, Белаз.
+    patcher_options: 
+      skins_in_shop: 16 ## option can add or override patcher_options of the base mod. Here base mod is using the default '8' skins
+    ## (This is very advanced setting, but helps if you have many variants of the mod and want to reuse some files between similar options of diferent mod variants)
+    data_dirs:
+      - "hd_vehicle_models"       ## will result in ./remaster/hd_vehicle_models/data (because options_base_dir == "remaster" and /data is always added at the end)
+    ## /\ is the same path as default would have been if we didn't specify data_dirs at all
+    ## \/ here is example of using multiple custom paths for option.
+      # - "hd_options/vehicles"     ## will result in ./remaster/hd_options/vehicles/data
+      # - "hd_options/vehicles_kto" ## will result in ./remaster/hd_options/vehicles_kto/data <- both path will be copied on option install
+
+    ## example of complex option with multiple choice \/ (see info about default file structure above)
+    # default_option: van
+    # install_settings:
+    #   - name: van
+    #     description: |
+    #       Только новый Вен
+    #   - name: moloko
+    #     description: |
+    #       Только новый Молоковоз
+  - name: ost_remaster
+    display_name: Ремастер Саундтрека
+    description: |
+      Ремастер OST от автора оригинального саундтрека - Антона Попова.
+      Включает новый трек главного меню и многие темы поездки игровых локаций.
+    ## example of complex option with multiple choice and data_dirs \/ (see info about default file structure above, using 'data_dirs' parameter here)
+    # default_option: all_new
+    # data_dirs: 
+    #   - "other_options/ost_remaster_complex" 
+    # install_settings:
+    #   - name: all_new
+    #     description: |
+    #       Старые треки заменены новыми
+    #   - name: combined
+    #     description: |
+    #       Новые и старые треки будут звучать наравне

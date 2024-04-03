@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='windows-1251'?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="|I crossed the Desert of Death! And even here, are signs of human presence. People seem to settle anywhere."
+		sound="data\sounds\Speech\r4m1\r4m1_1_hero.ogg"
+		time="1" />
+
+	<string
+		id="2"
+		modelName="mask_hero"
+		value="|First of all, I need to find a workshop where I can fill up and get repaired, and then we'll see what to do."
+		sound="data\sounds\Speech\r4m1\r4m1_2_hero.ogg"
+		time="1" />
+
+	<string
+		id="3"
+		modelName="mask_hero"
+		value="|Here's the oil depot, got here without too much trouble. Now I'll load up the truck and trailer and head back."
+		sound="data\sounds\Speech\r4m1\r4m1_3_hero.ogg"
+		time="1" />
+
+	<string
+		id="4"
+		image=""
+		value="Congratulations! You won the race!"
+		time="5" />
+
+	<string
+		id="5"
+		image=""
+		value="You took the 2nd place prize."
+		time="5" />
+
+	<string
+		id="6"
+		image=""
+		value="You took the 3rd place prize."
+		time="5" />
+
+	<string
+		id="7"
+		image=""
+		value="You lost the race."
+		time="5" />
+
+	<string
+		id="8"
+		image=""
+		value="You wrecked the car and cannot continue the race."
+		time="5" />
+
+	<string
+		id="9"
+		image=""
+		value="False start! You have lost!"
+		time="5" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		value="|I've dreamed of driving a car with a trailer for a long time. Dreams come true..."
+		sound="data\sounds\Speech\r4m1\r4m1_10_hero.ogg"
+		time="5" />
+
+	<string
+		id="11"
+		modelName="mask_hero"
+		value="|My precious truck. I've missed it! Hell with the trailer, I'm fine as I am."
+		sound="data\sounds\Speech\r4m1\r4m1_11_hero.ogg"
+		time="5" />
+
+	<string
+		id="12"
+		modelName="r4_man"
+		modelSkin="0"
+		modelCfg="135"
+		modelSlot="1"
+		value="BUKHARA'S ELDER|Here we are at the port. Thank you for protecting us from the enemy."
+		sound="data\sounds\Speech\r4m1\r4m1_12_oldman.ogg"
+		time="5" />
+
+	<string
+		id="13"
+		modelName="mask_hero"
+		value="|You are always welcome. Have a good trip to other lands."
+		sound="data\sounds\Speech\r4m1\r4m1_13_hero.ogg"
+		time="5" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		value="|And take Lisa with you, she's not all right in her head."
+		sound="data\sounds\Speech\r4m1\r4m1_14_hero.ogg"
+		time="5" />
+
+	<string
+		id="15"
+		modelName="r4_man"
+		modelSkin="0"
+		modelCfg="135"
+		modelSlot="1"
+		value="BUKHARA'S ELDER|I didn't want to tell you this at first, but the man you asked about did stay in our village. He went further east. I beseech thee, don't follow him. Only death awaits you there. Or something worse than death."
+		sound="data\sounds\Speech\r4m1\r4m1_15_oldman.ogg"
+		time="5" />
+
+	<string
+		id="16"
+		modelName="mask_hero"
+		value="|Goddamn it! What's got him so terrified? He's out of his mind, poor guy... What do I say in town now?"
+		sound="data\sounds\Speech\r4m1\r4m1_16_hero.ogg"
+		time="5" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		value="|And I'm gonna have to figure out a way to deal with Kef."
+		sound="data\sounds\Speech\r4m1\r4m1_17_hero.ogg"
+		time="5" />
+
+	<string
+		id="18"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|I don't feel well. As soon as we arrived in this desert, I felt weird somehow."
+		sound="data\sounds\Speech\r4m1\r4m1_18_alice.ogg"
+		time="5" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		value="|Stay strong! I can feel that we're not far from our goal!"
+		sound="data\sounds\Speech\r4m1\r4m1_19_hero.ogg"
+		time="5" />
+
+	<string
+		id="20"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|This is all because of you! You're the one who dragged me here, and now you're going to leave me to die in the middle of the goddamn dunes!"
+		sound="data\sounds\Speech\r4m1\r4m1_20_alice.ogg"
+		time="5" />
+
+	<string
+		id="21"
+		modelName="mask_hero"
+		value="|[She seems to have lost her mind. Last thing I need at this moment.] Listen, Lisa, it's okay, your feet are warm. Count to ten and calm down."
+		sound="data\sounds\Speech\r4m1\r4m1_21_hero.ogg"
+		time="1" />
+
+	<string
+		id="22"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="LISA|I'm sorry... There's something going on with me... I'll try to control myself... This desert... It's weighing on me..."
+		sound="data\sounds\Speech\r4m1\r4m1_22_alice.ogg"
+		time="5" />
+
+	<string
+		id="8801"
+		value="Do you wish to travel to another region?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="I don't know where this road leads, so I'll stay here."
+		time="5" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="There’s something strange about this place. I don’t want to go there." />
+
+	<string
+		id="8804"
+		modelName="mask_hero"
+		value="Looks like the device that summons the boat isn't working. Or some barbarians have broken the local machinery. Anyway, I will have to drive."
+		numButtons="1" />
+
+
+	<string
+		id="8901"
+		value="You failed to protect the villagers. Now you’ll never reach your goal." />
+
+	<string
+		id="8902"
+		value="The trailer is destroyed. People won’t cooperate with you no more." />
+</resource>
