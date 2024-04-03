@@ -788,7 +788,7 @@
 	<Sample
 		id="158"
 		sound="data\sounds\radio\r_arab_dead_1.ogg"
-		text="Бесми ллъяхи..." />
+		text="Бесми ллъяхи ...." />
 
 	<Sample
 		id="159"

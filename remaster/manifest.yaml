@@ -1,0 +1,78 @@
+# unique service name
+name: community_remaster
+
+# required human readable info
+display_name: Community Remaster
+version: "1.14"
+build: "230616a"
+description: |
+  Расширенная версия Community Patch, включающая переработанный интерфейс игры для адаптации под 16:9 разрешения.
+  Добавлены новые, более качественные модели и анимации для части оружия и авто.
+  Улучшена графика и шейдеры оригинала.
+
+  Опции включают новые модели машин и оружия, а так же записанный автором оригинального саундтрека ремастер части музыки.
+  
+authors: DEM Team, EM2ch
+
+# optional human readable info
+release_date: "23.06.2023"  # date of the current prerelease
+language: ru
+link: https://deuswiki.com/w/Community_Remaster
+logo: assets/comrem_logo.png
+install_banner: assets/comrem_banner.png
+tags: [gameplay, bugfix, story, visual]
+change_log: assets/change_list_ru.md
+screenshots:
+  - img: assets/screen_1.jpg
+    text: На скриншоте главное меню Комьюнити Ремастера
+    # compare: screen_4.jpg 
+  - img: assets/screen_2.jpg
+    text: |
+      Новый Вэн, новый ПКТ, все элементы интерфейса отображаются в высоком качестве и не растянуты
+      [HD машины, HD пушки - опции при установке КомРема]
+  - img: assets/screen_3.jpg
+    text: |
+      Новый Молоковоз с дополнительной оранжевой раскраской, новый Спектр и Рейнметалл
+      [HD машины, HD пушки - опция при установке КомРема]
+  - img: assets/screen_4.jpg
+    text: |
+      HD 16:9 интерфейс магазина и новые иконки товаров Комьюнити Ремастера
+  - img: assets/screen_5.jpg
+    text: |
+      Вступительная катсцена, заметны корректный широкий FOV, качественная отрисовка шрифтов, портрет персонажа не растянут [КомРем]
+  - img: assets/screen_6.jpg
+    text: |
+      HD интерфейс диалогов, портрет персонажа теперь отображается в высоком разрешении [КомРем]
+# translations: [eng]
+
+# installation confguration
+prerequisites: 
+  - name: community_patch
+    versions: 
+      - "1.14"
+patcher_version_requirement: "2.0"
+patcher_options:
+  gravity: -19.62
+  blast_damage_friendly_fire: false
+no_base_content: false
+optional_content:
+  - name: hd_gun_models
+    display_name: HD Модели Оружия
+    description: |
+      Новые модели для части орудий.
+      Переработаны:
+      Шершень, Спектр, ПКТ, Корд, Вулкан, Рейнметал и Спрут.
+  - name: hd_vehicle_models
+    display_name: HD Модели Автомобилей
+    description: |
+      Полностью новые модели Вена и Молоковоза высокого качества с дополнительным раскрасками.
+      Новый Клоп, Таракан и его гоночный вариант Турбо GT, новый Муравей. 
+      + Замена колёс на варианты высокого качества для машин:
+      Кузнечик, Скаут, Охотник, Боец, Крейсер, Белаз.
+    patcher_options: 
+      skins_in_shop: 16
+  - name: ost_remaster
+    display_name: Ремастер Саундтрека
+    description: |
+      Ремастер OST от автора оригинального саундтрека - Антона Попова.
+      Включает новый трек главного меню и многие темы поездки игровых локаций.
