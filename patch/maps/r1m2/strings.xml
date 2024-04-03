@@ -21,7 +21,7 @@
 		id="21"
 		modelName="mask_lisa"
 		modelSlot="1"
-		value="ЛИСА|Ты? Что ты здесь делаешь? Ты всё испортил... Ну, то есть... спасибо за чудесное избавление."
+		value="ЛИСА|Ты? Что ты здесь делаешь? Ты всё испортил... То есть спасибо за чудесное избавление."
 		sound="data\sounds\Speech\r1m2\r1m2_21_lisa.ogg"
 		time="7" />
 
@@ -224,7 +224,7 @@
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
 		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
-		time="5" />
+		time="3" />
 
 	<string
 		id="8803"
