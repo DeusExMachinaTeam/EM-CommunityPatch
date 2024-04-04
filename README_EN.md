@@ -43,7 +43,7 @@
 
 ...and many other changes!
 
-An exhaustive list is available when installing using ComMod mod manager or in the file [change_list_eng.md on Github](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main/change_list_eng.md)
+An exhaustive list is available when installing using ComMod mod manager or in the file [change_list_eng.md on Github](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main/assets/change_list_eng.md)
 
 </br>
 
