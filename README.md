@@ -62,7 +62,7 @@
 
 * Создайте папку где будет храниться менеджер модов и его файлы.
 
-* Запустите менеджер модов ![DeusExMachina logo](git_assets/dem_xs_logo.png)  **commod.exe**, на экране настроек укажите папку где в дальнейшем будут храниться файлы менеджера модов, в том числе моды, например ту же самую куда вы поместили сам commod.exe.
+* Запустите менеджер модов ![DeusExMachina logo](git_assets/dem_logo_xs.png)  **commod.exe**, на экране настроек укажите папку где в дальнейшем будут храниться файлы менеджера модов, в том числе моды, например ту же самую куда вы поместили сам commod.exe.
 
 * Укажите путь к распакованной игре версии 1.02. Если игру вы установили из Steam, то можно будет выбрать её из списка автоматически найденных копий игры.
 
@@ -128,8 +128,8 @@
 
 <br />
 
-<a href="https://discord.gg/jZHxYdF"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/dem_logo.xl" alt="DEM logo" width="350"/></a>
-<a href="https://vk.com/em2ch"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/em2ch_logo.xl" alt="em2ch logo" width="130"/></a>
+<a href="https://discord.gg/jZHxYdF"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/dem_logo_xl.png" alt="DEM logo" width="350"/></a>
+<a href="https://vk.com/em2ch"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/em2ch_logo_xl.png" alt="em2ch logo" width="130"/></a>
 <a href="https://www.youtube.com/c/rpggameland"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/pavlikrpg_logo.png" alt="PavlikRPG logo" width="125"/></a>
 
 **Присоединяйтесь к нашим сообществам!**
