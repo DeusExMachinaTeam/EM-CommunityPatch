@@ -129,7 +129,7 @@
 <br />
 
 <a href="https://discord.gg/jZHxYdF"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/dem_logo_xl.png" alt="DEM logo" width="350"/></a>
-<a href="https://vk.com/em2ch"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/em2ch_logo_xl.png" alt="em2ch logo" width="130"/></a>
+<a href="https://vk.com/em2ch"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/em2ch_logo.png" alt="em2ch logo" width="130"/></a>
 <a href="https://www.youtube.com/c/rpggameland"><img src="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main-cleaner/git_assets/pavlikrpg_logo.png" alt="PavlikRPG logo" width="125"/></a>
 
 **Присоединяйтесь к нашим сообществам!**
