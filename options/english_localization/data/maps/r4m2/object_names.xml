@@ -2,7 +2,7 @@
 <ObjectNames>
 	<Object
 		Name="ScientiferVillage"
-		FullName="Scientist’s village" />
+		FullName="SCIENTIST’S VILLAGE" />
 
 	<Object
 		Name="ScientiferVillage_Bar"
@@ -38,7 +38,7 @@
 
 	<Object
 		Name="CrazyBase"
-		FullName="Military base" />
+		FullName="MILITARY BASE" />
 
 	<Object
 		Name="PetrolStationTown61_workshop"

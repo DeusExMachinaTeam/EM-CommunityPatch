@@ -19,7 +19,7 @@
 		id="3"
 		modelName="mask_father"
 		modelSlot="1"
-		value="FATHER|Okay, take it easy. There you go. Today's a big day in your life. You've always been a great help to me and hopefully you've learned a lot in that time... So, I've decided it's time for your to become a man."
+		value="FATHER|Okay, take it easy. There you go. Today's a big day in your life. You've always been a great help to me and hopefully you've learned a lot in that time... So, I've decided it's time for you to become a man."
 		sound="data\sounds\Speech\r1m1\r1m1_3_father.ogg"
 		time="17" />
 
@@ -56,7 +56,7 @@
 	<string
 		id="6"
 		modelName="mask_hero"
-		value="|What, I can get in right away and go wherever I want?"
+		value="|So, I can get in right away and go wherever I want?"
 		sound="data\sounds\Speech\r1m1\r1m1_6_hero.ogg"
 		time="4" />
 
@@ -333,7 +333,7 @@
 		modelSkin="0"
 		modelCfg="70"
 		modelSlot="1"
-		value="DRUNKARD PETRO|Great, we've shown these rascals who's boss here!"
+		value="REVOLUTIONARY ED|Great, we've shown these rascals who's boss here!"
 		sound="data\sounds\Speech\r1m1\r1m1_2222_ed.ogg"
 		time="4" />
 
@@ -356,7 +356,7 @@
 		id="33332"
 		modelName="mask_father"
 		modelSlot="1"
-		value="FATHER|Listen carefully. You are my adopted son. These are your real father's things. Find Ben The Throttle. He's an explorer. He can help... Son... don't let the hate... poison your... so... ul..."
+		value="FATHER|Listen carefully. You are my adopted son. These are your real father's things. Find Ben Throttle. He's an explorer. He can help... Son... don't let the hate... poison your... so... ul..."
 		sound="data\sounds\Speech\r1m1\r1m1_33332_father.ogg"
 		time="30" />
 

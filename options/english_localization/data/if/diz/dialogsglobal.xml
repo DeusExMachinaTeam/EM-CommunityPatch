@@ -108,7 +108,7 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_1_N11"
-		text="I see… Until you see it with your own eyes, you won't understand, and then it will be too late... Go on down the road. We'll talk when you're back."
+		text="I see… Until you see it with your own eyes, you won't understand, and then it will be too late… Go on down the road. We'll talk when you're back."
 		role="NPC"
 		scriptResult="TActivate('trNearPlate'); TakeQuest('r4m2_InvestigationPlate'); "
 		nextReplies="r4m2_Bar_Scientist_1_N12" />
@@ -183,7 +183,7 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N11"
-		text="Perhaps… I never thought of this… When we managed to get on board the ship, and it was a ship, no doubt – we were ecstatic. We thought of the endless opportunities: new medicines, ultra-durable materials, revolutionary technologies… But we found only death: the workers died under the wheels of machinery, three of my colleagues committed suicide within two days of this research. But the worst thing happened when we opened the sealed cell in the central section…"
+		text="Perhaps… I never thought of this… When we managed to get on board the ship – and it was, without a doubt, a space ship – we were ecstatic. We thought of the endless opportunities: new medicines, ultra-durable materials, revolutionary technologies… But we found only death: the workers died under the wheels of machinery, three of my colleagues committed suicide within two days of this research. But the worst thing happened when we opened the sealed cell in the central section…"
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N12" />
 
@@ -195,7 +195,7 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N13"
-		text="But we are scientists! We don’t believe in superstition. I'll continue: apparently, the automatic system that had been hibernating up to that point kicked in. Something inconceivable began to happen... My colleagues... their bodies literally exploded... and I heard this Voice inside my head… I blacked out and when I woke up, I was outside the ship, in this camp. I called for help, but nobody came. The radio was silent. I realized that there had been a catastrophe."
+		text="But we are scientists! We don’t believe in superstition. I'll continue: apparently, the automatic system that had been hibernating up to that point kicked in. Something inconceivable began to happen… My colleagues… their bodies literally exploded… and I heard this Voice inside my head… I blacked out and when I woke up, I was outside the ship, in this camp. I called for help, but nobody came. The radio was silent. I realized that there had been a catastrophe."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N14" />
 
@@ -207,7 +207,7 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N15"
-		text="Yes. And this knowledge is killing me from the inside. I ought to be punished, but I feel no pain. I can't even die! God knows how many times I tried to end my life... It was horrible. I thought I was the only survivor, but more people started to arrive. My joy was quickly replaced by terror. People had changed. Just look at me or yourself. I dread to even imagine what’s under your mask..."
+		text="Yes. And this knowledge is killing me from the inside. I ought to be punished, but I feel no pain. I can't even die! God knows how many times I tried to end my life… It was horrible. I thought I was the only survivor, but more people started to arrive. My joy quickly turned to terror. People had changed. Just look at me or yourself. I dread to even imagine what’s under your mask…"
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N16" />
 
@@ -231,7 +231,7 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N19"
-		text="I can neither come close to the device, nor leave this place! I am doomed to stay around that damn machine forever and watch. All I can do is to ask those who arrive to destroy this monstrous thing. But no one has succeeded so far..."
+		text="I can neither come close to the device, nor leave this place! I am doomed to stay around that damn machine forever and watch. All I can do is ask those who arrive to destroy this monstrous thing. But no one has succeeded so far…"
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N20a r4m2_Bar_Scientist_2_N20b" />
 
@@ -256,7 +256,7 @@
 
 	<Reply
 		name="r4m2_Bar_Scientist_2_N23b"
-		text="Good luck to you. I hope you succeed where other have failed."
+		text="Good luck to you. I hope you succeed where others have failed."
 		role="NPC"
 		nextReplies="r4m2_Bar_Scientist_2_N24b" />
 
@@ -325,19 +325,19 @@
 
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N03"
-		text="Hush, hurry, they're watching. This is the last copy of the book that tells you what happened to our world..."
+		text="Hush, hurry, they're watching. This is the last copy of the book that tells you what happened to our world…"
 		role="NPC"
 		nextReplies="Gadad_Bar_CrazyBook1_1_N04" />
 
 	<Reply
 		name="Gadad_Bar_CrazyBook1_1_N04"
-		text="Stop, you madman! Where are you rushing off to..."
+		text="Stop, you madman! Where are you rushing off to…"
 		role="PLAYER"
 		scriptResult="AddBook('r4_book_Scarytail1'); GetCurNpc():SetSpokenCount( 1 ); EndConversation();" />
 <!--Root/r4m1/Îïöèîíàëüíûå/Ãîíêè-->
 	<Reply
 		name="r4_Racers_Men_1_N01"
-		text="Today is the race day! Anyone can take part!"
+		text="Today is the race day! Anyone can participate!"
 		role="NPC"
 		scriptCondition="GetVar('Gonka').AsInt==0"
 		nextReplies="r4_Racers_Men_1_N02a r4_Racers_Men_1_N02b" />
@@ -375,13 +375,13 @@
 
 	<Reply
 		name="r4_Dlg_pl_000165"
-		text="..."
+		text="…"
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000166" />
 
 	<Reply
 		name="r4_Dlg_npc_000166"
-		text="..."
+		text="…"
 		role="NPC" />
 
 	<Reply
@@ -418,7 +418,7 @@
 
 	<Reply
 		name="r4_Racers_Men_1_N07aaa"
-		text="The rules are simple: false start - you lose, crush the car - you lose. 1st prize is 40,000, 2nd – 20,000, 3rd – 10,000. The repair works will be deducted from the insurance deposit, so don't be surprised if you don't get all your money back."
+		text="The rules are simple: false start - you lose, crash the car - you lose. 1st prize is 40,000, 2nd – 20,000, 3rd – 10,000. The repair works will be deducted from the insurance deposit, so don't be surprised if you don't get all your money back."
 		role="NPC"
 		nextReplies="r4_Racers_Men_1_N08aaa" />
 
@@ -578,7 +578,7 @@
 
 	<Reply
 		name="r4_Dlg_npc_000193"
-		text="Good. So, here are the rules..."
+		text="Good. So, here are the rules…"
 		role="NPC" />
 <!--Root/r4m1/Ñþæåòíûå/Òàíêèñòû-->
 	<Reply
@@ -648,7 +648,7 @@
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_P02"
-		text="I’m looking for a man..."
+		text="I’m looking for a man…"
 		role="PLAYER"
 		nextReplies="Gadad_Bar_Customer1_01_N03" />
 
@@ -666,7 +666,7 @@
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_N05"
-		text="Every day the evil demons of the desert raid our houses and destroy everything in their path. Almost every single day we have to repel their attacks – that’s why our monuments are neglected. Without due care they crumble. What a pity..."
+		text="Every day the evil demons of the desert raid our houses and destroy everything in their path. Almost every single day we have to repel their attacks – that’s why our monuments are neglected. Without due care they crumble. What a pity…"
 		role="NPC"
 		nextReplies="Gadad_Bar_Customer1_01_P06" />
 
@@ -696,7 +696,7 @@
 
 	<Reply
 		name="Gadad_Bar_Customer1_01_P10"
-		text="Thanks, I’ll try my luck elsewhere... [I have some uneasy thoughts about this place. Everyone here seems strange.]"
+		text="Thanks, I’ll try my luck elsewhere… [I have some uneasy thoughts about this place. Everyone here seems strange.]"
 		role="PLAYER"
 		scriptResult="EndConversation()" />
 <!--Root/r4m1/Ñþæåòíûå/Íåôòü-->
@@ -734,7 +734,7 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_1_N06"
-		text="You folks are weird... I swear, you guys are very weird."
+		text="You folks are weird… I swear, you guys are very weird."
 		role="PLAYER"
 		nextReplies="Kef_Bar_Customer1_1_N07" />
 
@@ -921,7 +921,7 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N01"
-		text="I beg you, don’t touch me!"
+		text="I beg you, don’t hurt me!"
 		role="NPC"
 		scriptCondition="QuestStatus('r4m1_KNO_FindSpecialist_1')==Q_TAKEN"
 		scriptResult="CompleteQuest('r4m1_KNO_FindSpecialist_1')"
@@ -929,7 +929,7 @@
 
 	<Reply
 		name="r4m1_SomeWhere_Engineer_1_N02"
-		text="Why should I hurt you?"
+		text="Why would I hurt you?"
 		role="PLAYER"
 		nextReplies="r4m1_SomeWhere_Engineer_1_N03" />
 
@@ -1027,7 +1027,7 @@
 
 	<Reply
 		name="Kef_Bar_Customer1_3_N03"
-		text="I'm heartbroken to hear that... But I trust you did the best you could."
+		text="I'm heartbroken to hear that… But I trust you did the best you could."
 		role="NPC"
 		nextReplies="Kef_Bar_Customer1_3_N04" />
 
@@ -1065,7 +1065,7 @@
 
 	<Reply
 		name="r4_Dlg_npc_000073"
-		text="This one looks quite normal…| How did you find us?"
+		text="This one looks quite normal…|How did you find us?"
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000074" />
 
@@ -1083,7 +1083,7 @@
 
 	<Reply
 		name="r4_Dlg_pl_000076"
-		text="What are you talking about? They only want..."
+		text="What are you talking about? They only want…"
 		role="PLAYER"
 		nextReplies="r4_Dlg_npc_000077" />
 
@@ -1144,7 +1144,7 @@
 
 	<Reply
 		name="r4_Dlg_npc_000086"
-		text="We were very old even back then, at the time of the Catastrophe. Strong emotions are the domain of the young. It was our lot to keep the memories and mourn the dead. When we realized what had happened, we left the big cities and tried to hide from the sight of the mad. But this couldn’t last forever. Now we are discovered and will be killed very soon. I can already feel the enemies approaching..."
+		text="We were very old even back then, at the time of the Catastrophe. Strong emotions are the domain of the young. It was our lot to keep the memories and mourn the dead. When we realized what had happened, we left the big cities and tried to hide from the sight of the mad. But this couldn’t last forever. Now we are discovered and will be killed very soon. I can already feel the enemies approaching…"
 		role="NPC"
 		nextReplies="r4_Dlg_pl_000087" />
 
@@ -1287,7 +1287,7 @@
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N1422"
-		text="Sounds impressive, even though I don’t believe fairy-tales. How do I defeat the guard?"
+		text="Sounds impressive, even though I don’t believe in fairy tales. How do I defeat the guard?"
 		role="PLAYER"
 		nextReplies="r3m1_NearOracle_ODefenders_1_N1522" />
 
@@ -1305,7 +1305,7 @@
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N16222"
-		text="It’s a hard choice, but I guess I’ll sacrifice my weapon."
+		text="It’s a hard choice, but I guess I’ll sacrifice my weapons."
 		role="PLAYER"
 		scriptResult="GetPlayerVehicle():TakeOffAllGuns();"
 		nextReplies="Dlg_npc_000202" />
@@ -1330,14 +1330,14 @@
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N1021"
-		text="All right. You can take the weapon."
+		text="All right. You can take the weapons."
 		role="PLAYER"
 		scriptResult="GetPlayerVehicle():TakeOffAllGuns();"
 		nextReplies="r3m1_NearOracle_ODefenders_1_N1121" />
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_1_N1121"
-		text="I greet you, brother found. Come to the Oracle and embrace his wisdom!"
+		text="I greet you, newfound brother. Come to the Oracle and embrace his wisdom!"
 		role="NPC"
 		nextReplies="Dlg_pl_000204" />
 
@@ -1383,7 +1383,7 @@
 
 	<Reply
 		name="r3m1_NearOracle_ODefenders_2_N032"
-		text="I greet you, brother found. Come to the Oracle and embrace his wisdom!"
+		text="I greet you, newfound brother. Come to the Oracle and embrace his wisdom!"
 		role="NPC"
 		nextReplies="r3m1_NearOracle_ODefenders_2_N042" />
 
@@ -1416,7 +1416,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_1_N03"
-		text="You are not like those who usually bring me tributes... My prophecies are a valuable gift, and I will ask a lot in return. Are you ready for this?"
+		text="You are not like those who usually bring me tributes… My prophecies are a valuable gift, and I will ask a lot in return. Are you ready for this?"
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_1_P04" />
 
@@ -1491,7 +1491,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_2_N072"
-		text="A creature of flesh will not survive there long. But what’s the obect in your hands?"
+		text="A creature of flesh will not survive there long. But what is that object in your hands?"
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_2_P082" />
 
@@ -1503,7 +1503,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_2_P041"
-		text="My father’s name is Ivan Go, he was an Explorer. Many years ago he disappeared without a trace and left me to be raised by a friend of his. A little while ago some goons attacked our village and burned it down. No one survived..."
+		text="My father’s name is Ivan Go, he was an Explorer. Many years ago he disappeared without a trace and left me to be raised by a friend of his. A little while ago some goons attacked our village and burned it down. No one survived…"
 		role="PLAYER"
 		scriptCondition="QuestStatus('r3m1_FindNative_2')==Q_COMPLETED"
 		nextReplies="r3m2_Oracle_Oracle_2_N051" />
@@ -1534,7 +1534,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_3_N01"
-		text="I haven’t seen anything like this in a long time. And certainly no one had ever come to me with such anybody coming to me with such a request. Although in the very beginning..."
+		text="I haven’t seen anything like this in a long time. And certainly no one had ever come to me with such a request. Although in the very beginning…"
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_3_N02" />
 
@@ -1546,7 +1546,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_3_N03"
-		text="The artifacts you’ve brought will help... It might work out. But you’ve got to help me to remember."
+		text="The artifacts you’ve brought will help… It might work out. But you’ve got to help me to remember."
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_3_N04" />
 
@@ -1558,7 +1558,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_3_N05"
-		text="Concentrate the energy of the spheres, so that the celestial light might shine on the darkness of..."
+		text="Concentrate the energy of the spheres, so that the celestial light might shine on the darkness of…"
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_3_N06" />
 
@@ -1609,7 +1609,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N051"
-		text="Reading the table of contents... The final entry: [Preparations for the expedition]."
+		text="Reading the table of contents… The final entry: [Preparations for the expedition]."
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_4_N061" />
 
@@ -1621,7 +1621,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N071"
-		text="However, the information is protected by a complex cipher. Unless you’ve got a key, the decryption may take a few years, which is unacceptable for you, as I can see."
+		text="The information is protected by a complex cipher. Unless you’ve got a key, the decryption may take a few years, which is unacceptable for you, as I can see."
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_4_N081" />
 
@@ -1651,7 +1651,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N121"
-		text="It might be worth another visit to my father's house."
+		text="It might be worth it paying another visit to my father's house."
 		role="PLAYER"
 		scriptResult="TakeQuest('r3m2_RideToFatherRoomAfterOracul'); GetPlayerVehicle():SetCustomLinearVelocity(0); AddHistory( 'r3_Oracle_NeedDisc2' ) AddFadingMsgId( 'fm_history_got' ) EndConversation();" />
 
@@ -1712,7 +1712,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_4_N122"
-		text="Wait up! I haven’t finished with you! He’s gone... Looks like I’ll have to ask Lisa a few questions."
+		text="Wait up! I haven’t finished with you! He’s gone… Looks like I’ll have to ask Lisa a few questions."
 		role="PLAYER"
 		scriptResult="TakeQuest('r3m2_TalkWithLisa'); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation()" />
 <!--Root/r3m2/ïðèíåñëè 2îé äèñê-->
@@ -1771,7 +1771,7 @@
 
 	<Reply
 		name="r3m2_Oracle_Oracle_5_N07a"
-		text="The final entry says: ‘I’ve never been so close to my objective before. I've gathered all the information I need, prepared as well as I could, and there's no sense in delaying my trip. There may be people on the other side of the desert, but I don't care about them. They might show me the way, though. If I succeed, the world will change for the better. If not – I’ve got nothing to lose anyway’."
+		text="The final entry says: &quot;I’ve never been so close to my objective before. I've gathered all the information I need, prepared as well as I could, and there's no sense in delaying my trip. There may be people on the other side of the desert, but I don't care about them. They might show me the way, though. If I succeed, the world will change for the better. If not – I’ve got nothing to lose anyway&quot;."
 		role="NPC"
 		nextReplies="r3m2_Oracle_Oracle_5_N08a" />
 
@@ -1801,7 +1801,7 @@
 
 	<Reply
 		name="Dlg_pl_000205"
-		text="You tricked me after all! At least I had time to get the information I needed..."
+		text="You tricked me after all! At least I had time to get the information I needed…"
 		role="PLAYER"
 		scriptResult="CompleteQuest('r2m2_GiveDisk2ToOrakul'); AddFadingMsgId( 'fm_history_got' ); RemoveQuestItem( 'quest_disk_1' ); RemoveQuestItem( 'quest_disk_2' ); GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation();" />
 <!--Root/r3m2/Ó äðóèäà è çíàêè-->
@@ -1821,13 +1821,13 @@
 
 	<Reply
 		name="r3m2_AloneDruid1_2_N03"
-		text="You’ve made my day, young man! These were the times… And now they only fight, shoot each other and spoil my fields."
+		text="You’ve made my day, young man! These were the times… And now people only fight, shoot each other and spoil my fields."
 		role="NPC"
 		nextReplies="r3m2_AloneDruid1_2_N04" />
 
 	<Reply
 		name="r3m2_AloneDruid1_2_N04"
-		text="Yes, times are hard indeed... But what happened to your fields?"
+		text="Yes, times are hard indeed… But what happened to your fields?"
 		role="PLAYER"
 		nextReplies="r3m2_AloneDruid1_2_N05" />
 
@@ -1913,7 +1913,7 @@
 
 	<Reply
 		name="Dlg_pl_001298"
-		text="I need your help. The followers of the Oracle and I have had unresolvable disagreements and now..."
+		text="I need your help. The followers of the Oracle and I have had unresolvable disagreements and now…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_001299" />
 
@@ -2000,7 +2000,7 @@
 
 	<Reply
 		name="Set_Bar_MainDruid_1_N03"
-		text="An oracle can give a man dangerous knowledge... Prove that you can use it wisely, and I'll tell you which way to follow."
+		text="Oracle can give a man dangerous knowledge… Prove that you can use it wisely, and I'll tell you which way to follow."
 		role="NPC"
 		nextReplies="Set_Bar_MainDruid_1_P04" />
 
@@ -2099,7 +2099,7 @@
 
 	<Reply
 		name="Set_Bar_MainDruid_3_N09"
-		text="We thought of that too. We’d call to the mother earth to devour the hateful creatures. To be able to do that, we need to get very close to their lair but no one dares..."
+		text="We thought of that too. We’d call to the mother earth to devour the hateful creatures. To be able to do that, we need to get very close to their lair but no one dares…"
 		role="NPC"
 		nextReplies="Set_Bar_MainDruid_3_P10" />
 
@@ -2309,7 +2309,7 @@
 <!--Root/r3m1/Âñÿêîå ðàçíîå--><!--Root/r3m1/Óçíàòü ÷òî ñëó÷èëîñü ñ Óëóêîì-->
 	<Reply
 		name="Set_Bar_Customer1_1_N01"
-		text="We haven’t heard from the people of Uluk for a some time now. Please help us find out what happened to them!"
+		text="We haven’t heard from the people of Uluk for some time now. Please help us find out what happened to them!"
 		role="NPC"
 		scriptCondition="(not IsQuestTaken('r3m1_FindMoreNative')) and (not(IsQuestTaken('r3m1_KnowAboutUluk'))) and not(IsQuestComplete('r3m1_ClearSanctuary_ReturnDruid2')) and not(IsQuestTaken('r3m1_LureMainDriud'))"
 		nextReplies="Set_Bar_Customer2_1_P02" />
@@ -2418,7 +2418,7 @@
 
 	<Reply
 		name="Set_Bar_Customer2_2_P042"
-		text="Good bye."
+		text="Goodbye."
 		role="PLAYER"
 		scriptResult="SetVar('BezhenAlive', 0); EndConversation();" />
 
@@ -2438,7 +2438,7 @@
 
 	<Reply
 		name="Set_Bar_Customer2_2_P041"
-		text="Thank you. I’m glad there are still people who live in harmony with nature."
+		text="Thank you. I’m glad that there are still people who live in harmony with nature."
 		role="PLAYER"
 		scriptResult="TActivate('trRescueEnd'); TDeactivate('trRescArmyDie'); SetVar('BezhenAlive', 0); EndConversation();" />
 <!--Root/r3m1/Ñ ëèñîé ó ðàçáîéíèêîâ-->
@@ -2452,7 +2452,7 @@
 
 	<Reply
 		name="RazVill_Bar_Lisa_1_N02"
-		text="I got more questions than answers after my visit to the Oracle. At least I know we are on the right track! Tell me where I can find other discs, like the one I’ve given to the Oracle?  Or give me the name of a person who was close to Ivan Go."
+		text="I got more questions than answers after my visit to the Oracle. At least I know we are on the right track! Tell me where I can find other discs, like the one I’ve given to the Oracle? Or give me the name of a person who was close to Ivan Go."
 		role="PLAYER"
 		nextReplies="RazVill_Bar_Lisa_1_N03" />
 
@@ -2622,7 +2622,7 @@
 
 	<Reply
 		name="Uluk_Hram_Zrec_1_N06"
-		text="Thanks. Good bye!"
+		text="Thanks. Goodbye!"
 		role="PLAYER"
 		scriptResult="AddBook('r3_book_transformer'); GetCurNpc():SetSpokenCount( 1 ); EndConversation();" />
 <!--Root/r2m2/Ñþæåòíûå--><!--Root/r2m2/Îïöèîíàëüíûå--><!--Root/r2m2/Îïöèîíàëüíûå/Äåðåâåíùèíà ñî Çíàêàìè-->
@@ -2666,7 +2666,7 @@
 
 	<Reply
 		name="Dlg_pl_001133"
-		text="I’m not sure I need it... But what exactly do you ask for?"
+		text="I’m not sure I need it… But what exactly do you ask for?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_001247" />
 
@@ -2723,7 +2723,7 @@
 <!--Root/r2m2/Îïöèîíàëüíûå/Ìóñîðùèê ñ äâèæêîì-->
 	<Reply
 		name="TrashFarmer_hellodlg0"
-		text="Hey, driver! Would you mind dropping some junk off at the village to a contact of mine? It's not far from here. Give it to him, and he'll pay you well. I could do it myself, but I have too much work to do - I have to collect the trophies left on the battlefields of the bandits."
+		text="Hey, driver! Would you mind dropping some junk off at the village to a contact of mine? It's not far from here. Give it to him, and he'll pay you well. I could do it myself, but I have too much work to do - I have to collect the trophies of the bandits left on the battlefields."
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_001135 Dlg_pl_001259" />
@@ -2880,13 +2880,13 @@
 
 	<Reply
 		name="Dlg_npc_000457"
-		text="That's unlikely... You know, there are traitorous people who want him dead. So it's not easy for a mere mortal to see him."
+		text="That's unlikely… You know, there are traitorous people who want him dead. So it's not easy for a mere mortal to see him."
 		role="NPC"
 		nextReplies="Dlg_pl_000458" />
 
 	<Reply
 		name="Dlg_pl_000458"
-		text="Is there absolutely no way to meet him? I've been waiting my whole life for this..."
+		text="Is there absolutely no way to meet him? I've been waiting my whole life for this…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000459" />
 
@@ -3004,13 +3004,13 @@
 
 	<Reply
 		name="Dlg_npc_000477"
-		text="Not so fast. Keep on serving our people as well as you do and he will personally award you. Our good friends the monks want to get to know you. They are doing us an invaluable service, keeping the morale of our men up with prayers... and great wine! Go to the monastery and arrange with them for another shipment of that spirit-rising drink."
+		text="Not so fast. Keep on serving our people as well as you do and he will personally award you. Our good friends the monks want to get to know you. They are doing us an invaluable service, keeping the morale of our men up with prayers… and great wine! Go to the monastery and arrange with them for another shipment of that spirit-rising drink."
 		role="NPC"
 		nextReplies="Dlg_pl_000478" />
 
 	<Reply
 		name="Dlg_pl_000478"
-		text="What kind of silly assignment is this? At a time when there is war all around..."
+		text="What kind of silly assignment is this? At a time when there is war all around…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000479" />
 
@@ -3109,7 +3109,7 @@
 
 	<Reply
 		name="Dlg_pl_000482"
-		text="I don't really get what you're talking about..."
+		text="I don't really get what you're talking about…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000483" />
 
@@ -3127,7 +3127,7 @@
 
 	<Reply
 		name="Dlg_npc_000485"
-		text="He also said that you swore to exterminate all bandits in the world..."
+		text="He also said that you swore to exterminate all bandits in the world…"
 		role="NPC"
 		nextReplies="Dlg_pl_000486" />
 
@@ -3139,7 +3139,7 @@
 
 	<Reply
 		name="Dlg_npc_000487"
-		text="I believe you, my son. But such accusations are quite serious, and we must find out which of you is right. May God settle the dispute... in a battle to the death on the arena! Whoever survives is proven right."
+		text="I believe you, my son. But such accusations are quite serious, and we must find out which of you is right. May God settle the dispute… in a battle to the death on the arena! Whoever survives is proven right."
 		role="NPC"
 		nextReplies="Dlg_pl_000490" />
 
@@ -3194,7 +3194,7 @@
 
 	<Reply
 		name="Dlg_pl_000496"
-		text="Good to hear... But what makes you think so?"
+		text="Good to hear… But what makes you think so?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000497" />
 
@@ -3219,7 +3219,7 @@
 
 	<Reply
 		name="Dlg_pl_000500"
-		text="Oh, sure! That’s what I came here for..."
+		text="Oh, sure! That’s what I came here for…"
 		role="PLAYER"
 		scriptResult="CompleteQuest('r2m2_FightFelix_3');  TakeQuest('r2m2_ReturnToMarecciaFromCastle');  AddQuestItem('quest_wine_barrels');  EndConversation()" />
 
@@ -3244,7 +3244,7 @@
 
 	<Reply
 		name="Dlg_pl_000539"
-		text="With Axel's defeat, your grip on power is gone as well. If not me, then others will burn the place down. I'm gonna count to three before I start. One... Two..."
+		text="With Axel's defeat, your grip on power is gone as well. If not me, then others will burn the place down. I'm gonna count to three before I start. One… Two…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000540" />
 
@@ -3281,7 +3281,7 @@
 
 	<Reply
 		name="Dlg_pl_000514"
-		text="I'm not a murderer, it's just the way life is... Run away before it's too late."
+		text="I'm not a murderer, it's just the way life is… Run away before it's too late."
 		role="PLAYER"
 		nextReplies="Dlg_npc_000515" />
 
@@ -3500,7 +3500,7 @@
 
 	<Reply
 		name="Dlg_npc_001124"
-		text="Yes, but… I'm very sorry, but I no longer have it. This man came to me and offered to steal a famous work of art for me. We worked out a plan of breaking into Aesthete’s house. I made the advance payment and never saw him again. I really, really regret getting involved with a criminal. But I was so eager to get my hands on such a beauty... Perhaps you will be able to find the guy who deceived us both. He called himself Swindler. I met him in a small canyon nearby. He might still be there."
+		text="Yes, but… I'm very sorry, but I no longer have it. This man came to me and offered to steal a famous work of art for me. We worked out a plan of breaking into Aesthete’s house. I made the advance payment and never saw him again. I really, really regret getting involved with a criminal. But I was so eager to get my hands on such a beauty… Perhaps you will be able to find the guy who deceived us both. He called himself Swindler. I met him in a small canyon nearby. He might still be there."
 		role="NPC"
 		nextReplies="Dlg_pl_001125" />
 
@@ -3512,7 +3512,7 @@
 
 	<Reply
 		name="AntipodEstet_hellodlg1"
-		text="Have you got the masterpiece? Give it to me! I’ll pay generously..."
+		text="Have you got the masterpiece? Give it to me! I’ll pay generously…"
 		role="NPC"
 		scriptCondition="IsQuestTaken('r2m1_ArtViva_Quest')  and  not(IsQuestComplete('r2m1_ArtViva_Quest'))  and  not(IsQuestFailed('r2m1_ArtViva_Quest'))"
 		nextReplies="Dlg_pl_001118 Dlg_pl_001123" />
@@ -3562,7 +3562,7 @@
 <!--Root/r2m1/Îïöèîíàëüíûå/Óáèòü Áîññà-->
 	<Reply
 		name="Gulik_hellodlg1"
-		text="We are in luck! If we find a right buyer, I'am… um, we’re set for the rest of our lives! Wait, what is this here... Damn it, it’s the Big Boss’s mark – no one in their right mind will buy this stuff from us! And in case you didn’t know – people who steal from the Big Boss don’t live long."
+		text="We are in luck! If we find a right buyer, I'm… um, we’re set for the rest of our lives! Wait, what is this here… Damn it, it’s the Big Boss’s mark – no one in their right mind will buy this stuff from us! And in case you didn’t know – people who steal from the Big Boss don’t live long."
 		role="NPC"
 		scriptCondition="IsQuestTaken('r2m1_ReturnNarcotics_Quest')  and  not(IsQuestComplete('r2m1_ReturnNarcotics_Quest'))  and  not(IsQuestFailed('r2m1_ReturnNarcotics_Quest'))"
 		nextReplies="Dlg_pl_001112 Dlg_pl_001129" />
@@ -3593,7 +3593,7 @@
 <!--Root/r2m1/Ñþæåòíûå/Ãðàæäàíèí â Ñåëè-->
 	<Reply
 		name="SelCitizen_hellodlg0"
-		text="What do you want, my rescuer?"
+		text="What do you want, liberator?"
 		role="NPC"
 		scriptCondition="IsQuestTaken('r2m2_FindLisAfterAxelAndFatherDie_Quest')   and   not(IsQuestComplete('r2m2_FindLisAfterAxelAndFatherDie_Quest'))"
 		nextReplies="Dlg_pl_000448" />
@@ -3655,7 +3655,7 @@
 
 	<Reply
 		name="Dlg_npc_000647"
-		text="How do you imagine that? For a few minutes... Do you think it’s that simple? An emergency stop would shut down the station for 24 hours, no less. But then again, it’s time for maintenance inspection. Go look for your green men!"
+		text="How do you imagine that? For a few minutes… Do you think it’s that simple? An emergency stop would shut down the station for 24 hours, no less. But then again, it’s time for maintenance inspection. Go look for your green men!"
 		role="NPC"
 		nextReplies="Dlg_pl_000651" />
 
@@ -3667,7 +3667,7 @@
 
 	<Reply
 		name="Dlg_pl_000644"
-		text="They I'm gonna have to blow up this hole! The guys from the Crimson Dawn will be more than happy to help me..."
+		text="Then I'm gonna have to blow up this hole! The guys from the Crimson Dawn will be more than happy to help me…"
 		role="PLAYER"
 		scriptCondition="IsQuestComplete('r2m2_MoveToZeonToAlex')"
 		nextReplies="Dlg_npc_000646" />
@@ -3736,7 +3736,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz472"
-		text="The fact that you got through the tunnel says a lot about your battle skills. Or did you decide to become a mercenary and came by arrangement with a recruiter?"
+		text="The fact that you got through the tunnel says a lot about your combat skills. Or did you decide to become a mercenary and came by arrangement with a recruiter?"
 		role="NPC"
 		nextReplies="Dlg_pl_xyz473" />
 
@@ -3784,7 +3784,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz480"
-		text="You know what? Go to Tous. People there will tell you everything you need to know about the aggressors. They might also help you in your search."
+		text="You know what? Go to Touse. People there will tell you everything you need to know about the aggressors. They might also help you in your search."
 		role="NPC"
 		nextReplies="Dlg_pl_xyz481" />
 
@@ -3827,7 +3827,7 @@
 
 	<Reply
 		name="Dlg_pl_xyz487"
-		text="Okay, I'll flip through it. ... What it says in the leaflet is indeed awful! But what do I have to do with it?"
+		text="Okay, I'll flip through it… What it says in the leaflet is indeed awful! But what do I have to do with it?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_xyz488" />
 
@@ -3912,7 +3912,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz497"
-		text="Of course, you're free to leave at any time, unlike the locals..."
+		text="Of course, you're free to leave at any time, unlike the locals…"
 		role="NPC"
 		nextReplies="Dlg_pl_xyz498" />
 
@@ -3993,7 +3993,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz513"
-		text="Believe me, we've had higher priorities: war is not all about open confrontation. Now it’s time to block that artery. Remember, it’s guarded by elite soldiers..."
+		text="Believe me, we've had higher priorities: war is not all about open confrontation. Now it’s time to block that artery. Remember, it’s guarded by elite soldiers…"
 		role="NPC"
 		nextReplies="Dlg_pl_xyz514" />
 
@@ -4079,7 +4079,7 @@
 
 	<Reply
 		name="Dlg_npc_000439"
-		text="We had anticipated this: barrage trucks and military vehicles had already moved to the place of ambush."
+		text="We had anticipated this: barrier trucks and military vehicles had already moved to the place of ambush."
 		role="NPC"
 		nextReplies="Dlg_pl_000440" />
 
@@ -4289,7 +4289,7 @@
 
 	<Reply
 		name="Olme_Bar_Customer1_1_P04"
-		text="Well, this a fishing town, isn’t it?"
+		text="Well, this is a fishing town, isn’t it?"
 		role="PLAYER"
 		nextReplies="Olme_Bar_Customer1_1_N05" />
 
@@ -4379,7 +4379,7 @@
 
 	<Reply
 		name="r1m4_UnknownBar_Customer4_1_N03"
-		text="It happened a long long time ago. And... and it happened somewhere... umm... and then it's like… [Hrrr...]"
+		text="It happened a long long time ago. And… and it happened somewhere… umm… and then it's like… [Hrrr…]"
 		role="NPC"
 		nextReplies="r1m4_UnknownBar_Customer4_1_N04" />
 
@@ -4483,7 +4483,7 @@
 
 	<Reply
 		name="Dlg_pl_000094"
-		text="Ok, I’ll drive on."
+		text="OK, I’ll drive on."
 		role="PLAYER" />
 <!--Root/r1m4/Òîðãîâåö-->
 	<Reply
@@ -4501,7 +4501,7 @@
 
 	<Reply
 		name="Olme_Bar_Traider_1_N03"
-		text="Yes, I have one, I'll give it to you for a bargain... 10,000 coins will suit me just fine."
+		text="Yes, I have one, I'll give it to you for a bargain… 10,000 coins will suit me just fine."
 		role="NPC"
 		nextReplies="Olme_Bar_Traider_1_N04a Olme_Bar_Traider_1_N04b Olme_Bar_Traider_1_N0c" />
 
@@ -4949,7 +4949,7 @@
 
 	<Reply
 		name="r1m4_SomeWhere_OldWomen1_2_N02b"
-		text="I found him. He’s in the village..."
+		text="I found him. He’s in the village…"
 		role="PLAYER"
 		scriptCondition="QuestStatus('q_FH2')==Q_FAILED"
 		scriptResult="CompleteQuest('q_FindHusbent'); EndConversation();" />
@@ -4976,7 +4976,7 @@
 <!--Root/r1m3/Ñþæåòíûå--><!--Root/r1m3/Îïöèîíàëüíûå--><!--Root/r1m3/Îïöèîíàëüíûå/Êîíè è Áëàéä-->
 	<Reply
 		name="KonnyBlide_hellodlg0"
-		text="Hi! We are a young married couple – Connie and Blyde. Could you please give us a lift? Our car broke down and we really need to get home. We will pay you very well..."
+		text="Hi! We are a young married couple – Connie and Blyde. Could you please give us a lift? Our car broke down and we really need to get home. We will pay you very well…"
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_001080 Dlg_pl_001081" />
@@ -5020,13 +5020,13 @@
 
 	<Reply
 		name="Dlg_pl_001086"
-		text="So much for trusting people again..."
+		text="So much for trusting people again…"
 		role="PLAYER"
 		scriptResult="CompleteQuest('r1m3_BonnyAndKlideQuest');  AddPlayerMoney( -500 );  EndConversation()" />
 <!--Root/r1m3/Îïöèîíàëüíûå/Áåçóìåö â Ïåøòå-->
 	<Reply
 		name="CrazyMan_hellodlg0"
-		text="Wanna spice up you life, earn some money or simply have a nice time? The Amusement Center is for you. Want to know more?"
+		text="Wanna spice up your life, earn some money or simply have a good time? In this case, the Amusement Center is just for you! Want to know more?"
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0    and    not(IsQuestComplete('r1m3_CrazyManQuest'))    and    not(IsQuestFailed('r1m3_CrazyManQuest')) "
 		nextReplies="Dlg_pl_001088 Dlg_pl_001091" />
@@ -5083,7 +5083,7 @@
 
 	<Reply
 		name="Dlg_pl_001243"
-		text="Good bye!"
+		text="Goodbye!"
 		role="PLAYER"
 		scriptResult="CompleteQuest('r1m3_ArchHelp'); EndConversation()" />
 <!--Root/r1m3/Îïöèîíàëüíûå/Ïðî ëàáèðèíò-->
@@ -5108,7 +5108,7 @@
 
 	<Reply
 		name="Dlg_npc_001104"
-		text="There used to be an Amusement Center down the road, but a bunch of bandits who lost their money there destroyed it in a fit of rage. And the people of our district loved to have fun there and spend their money. We caught all the bandits who ruined our fun, but one. He is hiding in the damn town of the dead! Help us and we’ll pay you generously."
+		text="There used to be an Amusement Center down the road, but a bunch of bandits who lost their money there destroyed it in a fit of rage. And the people of our village loved to have fun there and spend their money. We caught all the bandits who ruined our fun, but one. He is hiding in the damn town of the dead! Help us and we’ll pay you generously."
 		role="NPC"
 		nextReplies="Dlg_pl_001105" />
 
@@ -5158,7 +5158,7 @@
 
 	<Reply
 		name="Dlg_pl_001240"
-		text="Too bad for my wallet. But that’s wrong kind of riddle..."
+		text="Too bad for my wallet. But that’s wrong kind of riddle…"
 		role="PLAYER"
 		scriptResult="GetCurNpc():SetSpokenCount( 1 );  AddPlayerMoney( -100 );  EndConversation()" />
 
@@ -5226,7 +5226,7 @@
 
 	<Reply
 		name="PeshtGuardian_hellodlg0_P1_1"
-		text="Yeah, you have it pretty hard it seems... Anyway, can you tell me how to get to the north-east?"
+		text="Yeah, you have it pretty hard it seems… Anyway, can you tell me how to get to the north-east?"
 		role="PLAYER"
 		nextReplies="PeshtGuardian_hellodlg0_2" />
 
@@ -5376,7 +5376,7 @@
 
 	<Reply
 		name="Dlg_npc_000640"
-		text="There’s yet another problem. As you might have noticed, we're short on petrol in this town. In fact, we almost have none at all. Our caravans can't travel north and the road to Ohlm is not easy. You won't just find it on your own. If you help us, you can join them in their journey to the north and they’ll show you the road to Ohlm. Go talk to the mayor now. Tell him Sharky sent you to help with the problem."
+		text="There’s yet another problem. As you might have noticed, we're short on petrol in this town. In fact, we almost have none at all. Our caravans can't travel north and the road to Olme is not easy. You won't just find it on your own. If you help us, you can join them in their journey to the north and they’ll show you the road to Olme. Go talk to the mayor now. Tell him Sharky sent you to help with the problem."
 		role="NPC"
 		nextReplies="Dlg_pl_000641" />
 
@@ -5495,7 +5495,7 @@
 
 	<Reply
 		name="Dlg_pl_xyz457"
-		text="That’s a lot of money... Oh well, I guess I’ll have to pay."
+		text="That’s a lot of money… Oh well, I guess I’ll have to pay."
 		role="PLAYER"
 		scriptCondition="GetPlayerMoney() >= 10000"
 		nextReplies="Dlg_npc_xyz458" />
@@ -5534,7 +5534,7 @@
 
 	<Reply
 		name="Dlg_npc_000633"
-		text="Let me think… Ummm... Oh, yes! She’s been here! I think she’d left through the tunnel."
+		text="Let me think… Ummm… Oh, yes! She’s been here! I think she’d left through the tunnel."
 		role="NPC"
 		nextReplies="Dlg_pl_000634" />
 
@@ -5559,13 +5559,13 @@
 
 	<Reply
 		name="Dlg_npc_xyz468"
-		text="I’ll…! Get you all! You... [gulp] you don't know me... yet! What the… Hrrrrr"
+		text="I’ll…! Get you all! You… [gulp] you don't know me… yet! What the… Hrrrrr…"
 		role="NPC"
 		nextReplies="Dlg_pl_xyz469" />
 
 	<Reply
 		name="Dlg_pl_xyz469"
-		text="Look at you! You are drunk, my friend. And here is the key... It wasn’t that hard, after all. I’d better be going to the tunnel before anyone notices."
+		text="Look at you! You are drunk, my friend. And here is the key… It wasn’t that hard, after all. I’d better be going to the tunnel before anyone notices."
 		role="PLAYER"
 		scriptResult="CompleteQuest('d_BarForTunel_Quest');  TakeQuest('d_OpenTunel_Quest');  TActivate( 'TRIGGER_TUNNELOPEN' );  AddQuestItem('quest_key_for_tunnel');  EndConversation()" />
 
@@ -5595,7 +5595,7 @@
 
 	<Reply
 		name="Dlg_npc_d3d194"
-		text="You can try, but listen first. So, I heard it from one of my friends who heard it from one of his friends..."
+		text="You can try, but listen first. So, I heard it from one of my friends who heard it from one of his friends…"
 		role="NPC"
 		nextReplies="Dlg_pl_d3d195" />
 
@@ -5607,37 +5607,37 @@
 
 	<Reply
 		name="Dlg_npc_d3d198"
-		text="Hmmm, yeah... Oh, wait, what were you asking about?"
+		text="Hmmm, yeah… Oh, wait, what were you asking about?"
 		role="NPC"
 		nextReplies="Dlg_pl_d3d199" />
 
 	<Reply
 		name="Dlg_npc_d3d200"
-		text="Can’t seem to remember his name..."
+		text="Can’t seem to remember his name…"
 		role="NPC"
 		nextReplies="Dlg_pl_d3d201" />
 
 	<Reply
 		name="Dlg_npc_d3d202"
-		text="You see, at times like this, my recollection requires a little bit of motivation..."
+		text="You see, at times like this, my recollection requires a little bit of motivation…"
 		role="NPC"
 		nextReplies="Dlg_pl_d3d203 Dlg_pl_d3d204" />
 
 	<Reply
 		name="Dlg_npc_d3d208"
-		text="It’s coming back to me now... It was definitely old man Homer."
+		text="It’s coming back to me now… It was definitely old man Homer."
 		role="NPC"
 		nextReplies="Dlg_pl_d3d209" />
 
 	<Reply
 		name="Dlg_npc_d3d210"
-		text="On the seashore, of course – in the fishermen’s village. But here comes another problem. You see, there’s no petrol in town, so our caravans cannot go North. And you won’t find the way to Ohlm alone."
+		text="On the seashore, of course – in the fishermen’s village. But here comes another problem. You see, there’s no petrol in town, so our caravans cannot go North. And you won’t find the way to Olme alone."
 		role="NPC"
 		nextReplies="Dlg_pl_d3d211" />
 
 	<Reply
 		name="Dlg_npc_d3d212"
-		text="I don't understand what you are talking about. Listen, you seem to be a brave guy. If you help us, you can join our caravan and go North with them. They’ll show you the road to Ohlm. Go talk to the mayor first. Tell him Sharky sent you to help with the problem."
+		text="I don't understand what you are talking about. Listen, you seem to be a brave guy. If you help us, you can join our caravan and go North with them. They’ll show you the road to Olme. Go talk to the mayor first. Tell him Sharky sent you to help with the problem."
 		role="NPC"
 		nextReplies="Dlg_pl_d3d213" />
 
@@ -5649,7 +5649,7 @@
 
 	<Reply
 		name="Dlg_npc_d3d219"
-		text="It’s like in the old joke: there were 20 reasons the guns didn’t shoot. The first one – there were no ammo. Heh… Bandits captured the oil derrick and cut us off the oil. Our petrol supplies are coming to an end."
+		text="It’s like in the old joke: there were 20 reasons the guns didn’t shoot. The first one – there were no ammo. Heh… Bandits captured the oil derrick and cut us off the oil. Our petrol supplies are running out."
 		role="NPC"
 		nextReplies="Dlg_pl_d3d220" />
 
@@ -5835,13 +5835,13 @@
 
 	<Reply
 		name="Dlg_npc_den192"
-		text="Ha ha ha, that's so funny I can't believe it. A little bastard comes right to our doorstep and demands something?! I've been feeling a wee bit gloomy lately with all the robberies and murders. Well, since you're such a cheerful character, pay 10,000 and go."
+		text="Ha-ha-ha, that's so funny I can't believe it. A little bastard comes right to our doorstep and demands something?! I've been feeling a wee bit gloomy lately with all the robberies and murders. Well, since you're such a cheerful character, pay 10,000 and go."
 		role="NPC"
 		nextReplies="Dlg_pl_den193 Dlg_pl_den194" />
 
 	<Reply
 		name="Dlg_npc_den195"
-		text="If you manage to get the cash, bring it to us. Now get out of my eyes."
+		text="If you manage to get the cash, bring it to us. Now get out of my sight."
 		role="NPC"
 		nextReplies="Dlg_pl_den196" />
 
@@ -5872,7 +5872,7 @@
 
 	<Reply
 		name="Dlg_pl_d3d191"
-		text="I’m looking for the Sea Gates, It should be something big. They say I’ll know when I see it. It must be somewhere around here."
+		text="I’m looking for the Sea Gate, It should be something big. They say I’ll know when I see it. It must be somewhere around here."
 		role="PLAYER"
 		nextReplies="Dlg_npc_d3d192" />
 
@@ -5915,7 +5915,7 @@
 
 	<Reply
 		name="Dlg_pl_d3d204"
-		text="I have nothing to motivate your mental energies at the moment..."
+		text="I have nothing to motivate your mental energies at the moment…"
 		role="PLAYER"
 		scriptResult="GetCurNpc():SetSpokenCount(1); EndConversation()" />
 
@@ -6018,7 +6018,7 @@
 
 	<Reply
 		name="Dlg_pl_d3d238"
-		text="But I really need to..."
+		text="But I really need to…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_d3d239" />
 
@@ -6042,13 +6042,13 @@
 
 	<Reply
 		name="Dlg_pl_d3d246"
-		text="Get in the truck then. I'll bring you to the oil mine."
+		text="Get in the truck then. I'll bring you to the oil well."
 		role="PLAYER"
 		scriptResult="CompleteQuest('d_TrueAboutMer_Quest');  CompleteQuest('d_FindWorkersToOilMine_Quest');  EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_d3d247"
-		text="Now I'll bring this barrel to the Minin people as a sign that the oil mine is working again."
+		text="Now I'll bring this barrel to the Minin people as a sign that the oil well is working again."
 		role="PLAYER"
 		scriptResult="CompleteQuestIfTaken('d_MoveWorkersToOilMine_Quest');  CompleteQuestIfTaken('d_MoveFreelancersToOilMine_Quest');  TakeQuest('d_MoveCanistraToMinin_Quest');  AddQuestItem('quest_first_canistra');  EndConversation()" />
 
@@ -6163,7 +6163,7 @@
 
 	<Reply
 		name="Dlg_pl_dd2154"
-		text="[To himself] Great plan! Why don't you do it all yourself? Cowards..."
+		text="[To himself] Great plan! Why don't you do it all yourself? Cowards…"
 		role="PLAYER"
 		scriptResult="TakeQuest( 'd_GetBomb_Quest' ); EndConversation()" />
 
@@ -6217,13 +6217,13 @@
 
 	<Reply
 		name="Dlg_pl_dd2201"
-		text="Hmmm... Honor?"
+		text="Hmmm… Honor?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_dd2202" />
 
 	<Reply
 		name="Dlg_pl_dd2203"
-		text="Phew! That was close..."
+		text="Phew! That was close…"
 		role="PLAYER"
 		scriptResult="CompleteQuest( 'd_MoveToPesht_Quest');  CompleteQuest( 'd_GiveMoneyToBase_Quest');  TActivate('BASEATTACK');  AddPlayerMoney( -10000 );  EndConversation()" />
 
@@ -6236,13 +6236,13 @@
 
 	<Reply
 		name="Dlg_pl_den1199"
-		text="Easy. I’ve almost got the right sum."
+		text="Easy now. I’ve almost got the right sum."
 		role="PLAYER"
 		scriptResult=" EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_den191"
-		text="Hey, guys... Umm, why don’t you just let me pass?"
+		text="Hey, guys… Umm, why don’t you just let me pass?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_den192" />
 
@@ -6306,13 +6306,13 @@
 
 	<Reply
 		name="Dlg_pl_000627"
-		text="Sir, you have insulted the honour of my family! You have stolen my family treasure... I have the displeasure to speak to you and ask you to return this thing that does not belong to you!"
+		text="Sir, you have insulted the honour of my family! You have stolen my family treasure… I have the displeasure to speak to you and ask you to return this thing that does not belong to you!"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000628" />
 
 	<Reply
 		name="Dlg_npc_000628"
-		text="Whaaat? I have no clue what you're babbling about."
+		text="Wha-a-at? I have no clue what you're babbling about."
 		role="NPC"
 		nextReplies="Dlg_pl_000629" />
 
@@ -6475,13 +6475,13 @@
 
 	<Reply
 		name="Professor_hellodlg0_1"
-		text="I see. Lights, signs on the fields, I heard about such things before. You came to the right place. We will now undertake a campaign against superstition and scrutinise this phenomenon. If you ever see such appearsances again, do not hesitate to inform us."
+		text="I see. Lights, signs on the fields, I heard about such things before. You came to the right place. We will now undertake a campaign against superstition and scrutinise this phenomenon. If you ever see such appearances again, do not hesitate to inform us."
 		role="NPC"
 		nextReplies="Professor_hellodlg0_P1_1" />
 
 	<Reply
 		name="Professor_hellodlg0_P1"
-		text="People saw lights in the sky, and then some strange signs appeared on the fields near Aeterna. People are scared. May be you can help."
+		text="People saw lights in the sky, and then some strange signs appeared on the fields near Yarr. People are scared. Maybe you can help."
 		role="PLAYER"
 		nextReplies="Professor_hellodlg0_1" />
 
@@ -6568,13 +6568,13 @@
 
 	<Reply
 		name="Dlg_npc_001280"
-		text="I'll be honest, my recent research has somewhat tarnished my reputation... My former colleagues have stopped taking me seriously. But you saw the evidence yourself! You'll understand. Don't say another word. I beg you to accept this money as a reward for your labour. I won't need it anymore."
+		text="I'll be honest, my recent research has somewhat tarnished my reputation… My former colleagues have stopped taking me seriously. But you saw the evidence yourself! You'll understand. Don't say another word. I beg you to accept this money as a reward for your labour. I won't need it anymore."
 		role="NPC"
 		nextReplies="Dlg_pl_001281" />
 
 	<Reply
 		name="Dlg_pl_001281"
-		text="All right. Give it to me. And... Good luck."
+		text="All right. Give it to me. And… Good luck."
 		role="PLAYER"
 		scriptResult="GetCurNpc():SetSpokenCount( 1 );  AddBook('r1_book_doklad');   EndConversation()" />
 <!--Root/r1m2/Îïöèîíàëüíûå/Çíàêè â äåðåâíå-->
@@ -6642,7 +6642,7 @@
 
 	<Reply
 		name="Director_hellodlg1"
-		text="You've been a great help. Here’s your reward. Now we have to show everyone why we opened the Coliseum! Will you agree to help us one more time? Just go there and put on a real show!"
+		text="You've been a great help. Here’s your reward. Now we have to show everyone why we opened the Colosseum! Will you agree to help us one more time? Just go there and put on a real show!"
 		role="NPC"
 		scriptCondition="IsQuestTaken('ReturnToDirector_Quest')   and   not(IsQuestComplete('ReturnToDirector_Quest'))   and   not(IsQuestFailed('ReturnToDirector_Quest'))   and   not(IsQuestComplete('r2m2_GiveDisk2ToOrakul'))"
 		nextReplies="Director_hellodlg1_P1_1 Dlg_pl_000588" />
@@ -6732,7 +6732,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz279"
-		text="Don't freak out. It's just that there's a lot of scum around... Anyway, who's this friend of yours?"
+		text="Don't freak out. It's just that there's a lot of scum around… Anyway, who's this friend of yours?"
 		role="NPC"
 		nextReplies="Dlg_pl_xyz280" />
 
@@ -6799,7 +6799,7 @@
 
 	<Reply
 		name="Dlg_pl_xyz314"
-		text="Wail a minute, I got to take a rest and refuel my car."
+		text="Wait a minute, I got to take a rest and refuel my car."
 		role="PLAYER"
 		scriptResult="GetCurNpc():SetSpokenCount( 1 );   EndConversation()" />
 
@@ -6881,7 +6881,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz297"
-		text="What do you mean what? When was the last time you looked in the mirror? Our town is the last bastion of civilisation in this damned world. And there's no place for simpletons here, especially in a museum, you'll ruin the exhibits. Go to the bar, low life."
+		text="What do you mean what? When was the last time you looked in the mirror? Our town is the last bastion of civilisation in this damned world. And there's no place for simpletons here, especially in a museum, you'll ruin the exhibits. Go to the bar, lowlife."
 		role="NPC"
 		nextReplies="Dlg_pl_xyz298" />
 
@@ -6893,7 +6893,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz299"
-		text="Actually, that is kind of correct... I guess I overreacted a little. Look, coincidentally right at this moment we need a brute just like you to protect the transport. You get it safely to Porto, not only will I overlook your background, but the mayor himself will shake your hand."
+		text="Actually, that is kind of correct… I guess I overreacted a little. Look, coincidentally right at this moment we need a brute just like you to protect the transport. You get it safely to Porto, not only will I overlook your background, but the mayor himself will shake your hand."
 		role="NPC"
 		nextReplies="Dlg_pl_xyz300" />
 
@@ -6917,7 +6917,7 @@
 <!--Root/r1m2/Ñþæåòíûå/Áåí-->
 	<Reply
 		name="Ben_hellodlg0"
-		text="Ivan, is that you!? I cannot believe... No, you are not him. Sorry, young man, I mistook you for someone I used to know. My eyes aren't as sharp as they used to be. What brings you to me?"
+		text="Ivan, is that you!? I cannot believe… No, you are not him. Sorry, young man, I mistook you for someone I used to know. My eyes aren't as sharp as they used to be. What brings you to me?"
 		role="NPC"
 		scriptCondition="IsQuestComplete('d_FindHouseOfBen_Quest')  and  (GetCurNpc():GetSpokenCount() == 0)"
 		scriptResult="PlayCustomMusic('Sadness1')"
@@ -7009,13 +7009,13 @@
 
 	<Reply
 		name="Dlg_pl_xyz337"
-		text="But you said father was the best! He knew he had a dangerous journey ahead of him, and he left a trail for me to follow to find and rescue him. This mysterious letter. And a strange disc - they will lead me to my target!"
+		text="But you said father was the best! He knew he had a dangerous journey ahead of him, and he left a trail for me to find and rescue him. This mysterious letter. And a strange disc - they will lead me to my target!"
 		role="PLAYER"
 		nextReplies="Dlg_npc_xyz338" />
 
 	<Reply
 		name="Dlg_npc_xyz338"
-		text="Youth... I was that way once. You're right, let's not give up hope. I'm too old for travel, but I see you can handle anything."
+		text="Youth… I was that way once. You're right, let's not give up hope. I'm too old for travel, but I see you can handle anything."
 		role="NPC"
 		nextReplies="Dlg_pl_xyz339" />
 
@@ -7058,7 +7058,7 @@
 
 	<Reply
 		name="Dlg_pl_000622"
-		text="I was hoping you have it... Thanks for a hint, anyway."
+		text="I was hoping you have it… Thanks for a hint, anyway."
 		role="PLAYER"
 		scriptResult="CompleteQuest('r3m2_TalkWithBenAboutCarAfterOracul');  EndConversation()" />
 
@@ -7077,7 +7077,7 @@
 
 	<Reply
 		name="Dlg_npc_000654"
-		text="He did, in fact. We used to sit on the grass telling stories. And then all of a sudden he starts telling me about the lights in the sky, the shining discs and that sort of rubbish. He mentioned Seil, and I told him..."
+		text="He did, in fact. We used to sit on the grass telling stories. And then all of a sudden he starts telling me about the lights in the sky, the shining discs and that sort of rubbish. He mentioned Seil, and I told him…"
 		role="NPC"
 		nextReplies="Dlg_pl_000655" />
 
@@ -7107,7 +7107,7 @@
 
 	<Reply
 		name="Dlg_pl_001285"
-		text="Oh well... Give it to me."
+		text="Oh well… Give it to me."
 		role="PLAYER"
 		scriptResult="CompleteQuest('r1m2_TW_BanAboutAlien');  AddBook('r1_book_new_world');  EndConversation()" />
 <!--Root/r1m2/Ñþæåòíûå/Ãðàæäàíèí Ïîðòî-->
@@ -7126,7 +7126,7 @@
 
 	<Reply
 		name="Dlg_npc_001289"
-		text="Lisa hadn't been here in a while. Maybe something slowed her down on her way here. Bandits are rampant on our roads... Their hideout is on the river bank further downstream."
+		text="Lisa hadn't been here in a while. Maybe something slowed her down on her way here. Bandits are rampant on our roads… Their hideout is on the shore further down the road."
 		role="NPC"
 		nextReplies="Dlg_pl_001290" />
 
@@ -7138,7 +7138,7 @@
 <!--Root/r1m2/Ñþæåòíûå/Çàâõîç â Ìèäãàðäå-->
 	<Reply
 		name="Zavhoz_hellodlg0"
-		text="So, they sent you to protect the caravan. You look kinda flimsy... Hope you know how to drive and shoot."
+		text="So, they sent you to protect the caravan. You look kinda flimsy… Hope you know how to drive and shoot."
 		role="NPC"
 		scriptCondition="(IsQuestTaken('d_SkladMidgardBen_Quest'))  and  not(IsQuestComplete('d_SkladMidgardBen_Quest'))  and  (GetCurNpc():GetSpokenCount() == 0)"
 		nextReplies="Dlg_pl_xyz292" />
@@ -7151,7 +7151,7 @@
 
 	<Reply
 		name="Dlg_npc_xyz307"
-		text="Ok. I'll mark the destination point on your map. You have to be careful on your road there. It's a bottleneck, a good place for an ambush. Transport will drive on it's own, you need to keep up. Your job is to keep it safe on the road and deliver the cargo. Am I clear?"
+		text="OK. I'll mark the destination point on your map. You have to be careful on your road there. It's a bottleneck, a good place for an ambush. Transport will drive on its own, you need to keep up. Your job is to keep it safe on the road and deliver the cargo. Am I clear?"
 		role="NPC"
 		nextReplies="Dlg_pl_xyz308" />
 
@@ -7195,7 +7195,7 @@
 
 	<Reply
 		name="Dlg_pl_xyz288"
-		text="Are you... a witch?"
+		text="Are you… a witch?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_xyz293" />
 
@@ -7207,13 +7207,13 @@
 
 	<Reply
 		name="Dlg_pl_xyz294"
-		text="I'm sorry, grandma, I meant no harm. I'm looking for Ben Dro..."
+		text="I'm sorry, grandma, I meant no harm. I'm looking for Ben Thr…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_xyz295" />
 
 	<Reply
 		name="Dlg_npc_xyz295"
-		text="And now I'm 'grandma'! Why am I even talking to you? Looking for Ben. I don't know the bastard, and I don't want to know him!|Okay, okay, I'm not doing this... It's been a long time. Last time I saw him was in Midgard. Look for him there. In the museum."
+		text="And now I'm 'grandma'! Why am I even talking to you? Looking for Ben. I don't know the bastard, and I don't want to know him!|Okay, okay, I'm not doing this… It's been a long time. Last time I saw him was in Midgard. Look for him there. In the museum."
 		role="NPC"
 		nextReplies="Dlg_pl_xyz296" />
 
@@ -7238,7 +7238,7 @@
 
 	<Reply
 		name="Dlg_npc_000596"
-		text="Let me take a look... I see... Well, it's pretty straightforward. And it’s not going to work."
+		text="Let me take a look… I see… Well, it's pretty straightforward. And it’s not going to work."
 		role="NPC"
 		nextReplies="Dlg_pl_000597" />
 
@@ -7262,31 +7262,31 @@
 
 	<Reply
 		name="Dlg_npc_000600"
-		text="Besides, we’ll need a rare material – composite alloy. This is a bigger problem as it's imposible to produce in our times. Well, at the same time we can obtain it from an old detail and remelt..."
+		text="Besides, we’ll need a rare material – composite alloy. This is a bigger problem as it's imposible to produce in our times. Well, at the same time we can obtain it from an old detail and remelt…"
 		role="NPC"
 		nextReplies="Dlg_pl_000601" />
 
 	<Reply
 		name="Dlg_pl_000601"
-		text="?"
+		text="Where can I find some of it?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000602" />
 
 	<Reply
 		name="Dlg_npc_000602"
-		text="You should look in the ancient machinery."
+		text="You should look for the artifacts or ancient machinery."
 		role="NPC"
 		nextReplies="Dlg_pl_000603" />
 
 	<Reply
 		name="Dlg_pl_000603"
-		text="I wonder where I can get such a thing. Any idea, what kind of machinery do I need?"
+		text="So I have to find some kind of old equipment…"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000604" />
 
 	<Reply
 		name="Dlg_npc_000604"
-		text="You’ll recognize it by its distinctive bluish tint. In fact, warriors in the Colosseum often bet on various rare items. It might just be what you need. And remember to bring me 100,000 cash for the work."
+		text="Yes, you’ll recognize it by its distinctive bluish tint. In fact, warriors in the Colosseum often bet on various rare items. It might just be what you need. And remember to bring me 100,000 cash for the work."
 		role="NPC"
 		nextReplies="Dlg_pl_000605" />
 
@@ -7424,7 +7424,7 @@
 
 	<Reply
 		name="Dlg_pl_000638"
-		text="To the north, you say… And the village is getting further and further away... Thanks for the information."
+		text="To the north, you say… And the village is getting further and further away… Thanks for the information."
 		role="PLAYER"
 		scriptResult="CompleteQuest('r1m2_FindHmirInMidgard');  EndConversation()" />
 <!--Root/r1m1/Ñþæåòíûå--><!--Root/r1m1/Îïöèîíàëüíûå--><!--Root/r1m1/Îïöèîíàëüíûå/Ðåâîëþöèîíåð-->
@@ -7437,7 +7437,7 @@
 
 	<Reply
 		name="CS_hellodlg0_1"
-		text="Great! We've been thinking about it and decided that it's about time to bring some order to our county. We need brave men with sturdy vehicles to attack bandit's base! Are you with us? If you're in, try to keep up..."
+		text="Great! We've been thinking about it and decided that it's about time to bring some order to our county. We need brave men with sturdy vehicles to attack bandits' base! Are you with us? If you're in, try to keep up…"
 		role="NPC"
 		nextReplies="CS_hellodlg0_P1_1 CS_hellodlg0_P1_2" />
 
@@ -7468,7 +7468,7 @@
 
 	<Reply
 		name="WorkGiver_hellodlg0_1"
-		text="I happened to catch your acquaintance, Sergo, while I was here on business. I have an important proposal for him, which will lead to mutually beneficial cooperation. But, unfortunately, I don't have the necessary documents with me..."
+		text="I happened to catch your acquaintance, Sergo, while I was here on business. I have an important proposal for him, which will lead to a mutually beneficial cooperation. But, unfortunately, I don't have the necessary documents with me…"
 		role="NPC"
 		nextReplies="WorkGiver_hellodlg0_P1_1" />
 
@@ -7511,13 +7511,13 @@
 
 	<Reply
 		name="WorkGiver_hellodlg1_P1"
-		text="Easy, man..."
+		text="Easy, man…"
 		role="PLAYER"
 		scriptResult="EndConversation()" />
 
 	<Reply
 		name="WorkGiver_hellodlg2"
-		text="Yeah... You could have been quicker. I still have to find and prepare all the paperwork."
+		text="Yeah… You could have been quicker. I still have to find and prepare all the paperwork."
 		role="NPC"
 		scriptCondition="IsQuestTaken( 'WorkGiver_Quest1' )   and   not(IsQuestComplete( 'WorkGiver_Quest1' ))   and   not(IsQuestFailed( 'WorkGiver_Quest1' ))"
 		nextReplies="Dlg_pl_000558" />
@@ -7536,13 +7536,13 @@
 
 	<Reply
 		name="Dlg_pl_000557"
-		text="Listen here Richard, I'm gonna give you three seconds; exactly three-freaking-seconds to wipe that stupid looking stache wearing smug look off your face or I will... hey, where are you going?"
+		text="Listen here Richard, I'm gonna give you three seconds; exactly three-freaking-seconds to wipe that stupid looking stache wearing smug look off your face or I will… hey, where are you going?"
 		role="PLAYER"
 		scriptResult="CompleteQuest( 'WorkGiver_Quest1' );   EndConversation()" />
 <!--Root/r1m1/Îïöèîíàëüíûå/Êàçóàë â äåðåâíå ïðî Ãîñïèòàëü-->
 	<Reply
 		name="Medik_hellodlg0"
-		text="Kid! Are you a traveler? You don't have to answer, I can tell that... Do you want me to tell you where the abandoned hospital is? I know about it. I'm sure there's lots of interesting things to find there. I don't want to go, there are bandits all over... But you're a daring guy! For a mere 25 coins, I'll mark the place on your map."
+		text="Kid! Are you a traveler? You don't have to answer, I can tell that… Do you want me to tell you where the abandoned hospital is? I know about it. I'm sure there's lots of interesting things to find there. I don't want to go, there are bandits all over… But you're a daring guy! For a mere 25 coins, I'll mark the place on your map."
 		role="NPC"
 		scriptCondition="(GetCurNpc():GetSpokenCount() == 0)   and   not(IsQuestItemPresent( 'quest_medicine_box' ))   and   not(IsQuestComplete( 'r1m1_Botanik_Quest' ))   and   not(IsQuestFailed( 'r1m1_Botanik_Quest' ))"
 		nextReplies="Dlg_pl_000561 Dlg_pl_000562" />
@@ -7562,7 +7562,7 @@
 <!--Root/r1m1/Îïöèîíàëüíûå/Ñòàðûé ñîëäàò-->
 	<Reply
 		name="Oldsolder_hellodlg0"
-		text="I’m an old soldier and I've seen some... things. There were times people would shudder at the sound of my name. I had a cool truck and lots of guns! It’s all in the past now... My legs can't walk anymore and all I do is telling stories for money. Toss the old man ten coins and I'll teach you how to live... Cough-cough."
+		text="I’m an old soldier and I've seen some… things. There were times people would shudder at the sound of my name. I had a cool truck and lots of guns! It’s all in the past now… My legs can't walk anymore and all I do is telling stories for money. Toss the old man ten coins and I'll teach you how to live… Cough-cough."
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_000564 Dlg_pl_000573" />
@@ -7582,7 +7582,7 @@
 
 	<Reply
 		name="Dlg_npc_000578"
-		text="Kid, always keep and eye on the fuel level in your tank, if it runs out in the middle of nowhere, you're in a big trouble! Cough-cough... That's it!"
+		text="Kid, always keep and eye on the fuel level in your tank, if it runs out in the middle of nowhere, you're in a big trouble! Cough-cough… That's it!"
 		role="NPC"
 		nextReplies="Dlg_pl_000579" />
 
@@ -7607,26 +7607,26 @@
 
 	<Reply
 		name="Dlg_pl_000566"
-		text="What? 15?! Well ok."
+		text="What? 15?! Well, OK."
 		role="PLAYER"
 		scriptCondition="GetPlayerMoney() >= 15"
 		nextReplies="Dlg_npc_000580" />
 
 	<Reply
 		name="Dlg_npc_000580"
-		text="Remember, lad! During the battle, when you are surrounded by these petty bandits, the main thing is not to stand still... Spin around and fire all the guns! This way it will be harder for them to hit you... I remember once three of them surrounded me at the same time! But this story is for a fee..."
+		text="Remember, lad! During the battle, when you are surrounded by these petty bandits, the main thing is not to stand still… Spin around and fire all the guns! This way it will be harder for them to hit you… I remember once three of them surrounded me at the same time! But this story is for a fee…"
 		role="NPC"
 		nextReplies="Dlg_pl_000581" />
 
 	<Reply
 		name="Dlg_pl_000581"
-		text="Hmm, interesting..."
+		text="Hmm, interesting…"
 		role="PLAYER"
 		scriptResult="AddPlayerMoney( -15 );  GetCurNpc():SetSpokenCount(2);  EndConversation()" />
 
 	<Reply
 		name="Oldsolder_hellodlg2"
-		text="You again? You are curious indeed. He-he... Hand over 20 coins, I gotta grab another cold one at the bar."
+		text="You again? You are curious indeed. He-he… Hand over 20 coins, I gotta grab another cold one at the bar."
 		role="NPC"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 2"
 		nextReplies="Dlg_pl_000568 Dlg_pl_000575" />
@@ -7639,7 +7639,7 @@
 
 	<Reply
 		name="Dlg_pl_000568"
-		text="Take it..."
+		text="Take it…"
 		role="PLAYER"
 		scriptCondition="GetPlayerMoney() >= 20"
 		nextReplies="Dlg_npc_000582" />
@@ -7769,13 +7769,13 @@
 
 	<Reply
 		name="Buyer_hellodlg0_1"
-		text="Yes, that's me! And you must be Peter’s son. You’re all grown up now, travelling on your own... These are dangerous times: the bandits have gone mad. I barely made it to Sowth, lost two guards on the road. This might be my last trip here."
+		text="Yes, that's me! And you must be Peter’s son. You’re all grown up now, travelling on your own… These are dangerous times: the bandits have gone mad. I barely made it to Sowth, lost two guards on the road. This might be my last trip here."
 		role="NPC"
 		nextReplies="Buyer_hellodlg0_P1_1" />
 
 	<Reply
 		name="Buyer_hellodlg0_2"
-		text="You're a quick learner, young man! OK, let's see...|The goods are excellent, as always. Here you go, this is your reward for the delivery."
+		text="You're a quick learner, young man! OK, let's see…|The goods are excellent, as always. Here you go, this is your reward for the delivery."
 		role="NPC"
 		nextReplies="Buyer_hellodlg0_P1_2" />
 
@@ -7799,7 +7799,7 @@
 
 	<Reply
 		name="Buyer_hellodlg1"
-		text="You've been a great help. Say hello to your father."
+		text="You've been a great help. Give my regards to your father."
 		role="NPC"
 		scriptCondition="IsQuestComplete( 'Buyer_Quest1' )  and  not(IsQuestComplete('TalkWithFather_Quest' ))"
 		nextReplies="Buyer_hellodlg1_P1" />
@@ -7889,13 +7889,13 @@
 
 	<Reply
 		name="HurdTrucker_hellodlg0_2"
-		text="Never heard of him... No wonder, we're in the middle of nowhere. Try your luck in Aeterna. There's a trade route there, maybe you'll find out something."
+		text="Never heard of him… No wonder, we're in the middle of nowhere. Try your luck in Aeterna. There's a trade route there, maybe you'll find out something."
 		role="NPC"
 		nextReplies="HurdTrucker_hellodlg0_P1_2" />
 
 	<Reply
 		name="HurdTrucker_hellodlg0_P1"
-		text="Glukhoe was attacked. Everybody's dead. My father..."
+		text="Glukhoe was attacked. Everybody's dead. My father…"
 		role="PLAYER"
 		nextReplies="HurdTrucker_hellodlg0_1" />
 
@@ -7926,7 +7926,7 @@
 
 	<Reply
 		name="HurdTrucker_hellodlg1_2"
-		text="Calm down! They had enough firepower to destroy whole village with its defenders, should you mess with an enemy like that?"
+		text="Calm down! They had enough firepower to destroy whole village and leave without trace, should you mess with an enemy like that?"
 		role="NPC"
 		nextReplies="HurdTrucker_hellodlg1_P1_2" />
 
@@ -7938,25 +7938,25 @@
 
 	<Reply
 		name="HurdTrucker_hellodlg1_4"
-		text="Felix is a dangerous man. You don't seem to care, however... Well, he resides in a small well-defended village. A bandit's base, one can say."
+		text="Felix is a dangerous man. You don't seem to care, however… Well, he resides in a small well-defended village. A bandit's base, one can say."
 		role="NPC"
 		nextReplies="HurdTrucker_hellodlg1_P1_4" />
 
 	<Reply
 		name="HurdTrucker_hellodlg1_5"
-		text="Actually, we had a truce of a kind with him... We pay him and he does not harm our villagers."
+		text="Actually, we had a truce of a kind with him… We pay him and he does not harm our villagers."
 		role="NPC"
 		nextReplies="HurdTrucker_hellodlg1_P1_5" />
 
 	<Reply
 		name="HurdTrucker_hellodlg1_6"
-		text="But now you are going to attack their lair! Well, I also want to get rid of this Felix, so I will help you! You gonna need a better weapon. Go to Troitsk and talk to the barman. He owes me something."
+		text="But now you are going to attack their lair! Well, I also want to get rid of this Felix, so I will help you! You gonna need a better weapon. Go to Troyitsk and talk to the barman. He owes me something."
 		role="NPC"
 		nextReplies="HurdTrucker_hellodlg1_P1_6" />
 
 	<Reply
 		name="HurdTrucker_hellodlg1_P1"
-		text="Glukhoe is burnt down! Everybody is dead... my father..."
+		text="Glukhoe is burnt down! Everybody is dead… my father…"
 		role="PLAYER"
 		nextReplies="HurdTrucker_hellodlg1_1" />
 
@@ -7980,7 +7980,7 @@
 
 	<Reply
 		name="HurdTrucker_hellodlg1_P1_4"
-		text="Then it's gotta be him! Gathered his men and..."
+		text="Then it's gotta be him! Gathered his men and…"
 		role="PLAYER"
 		nextReplies="HurdTrucker_hellodlg1_5" />
 
@@ -8066,7 +8066,7 @@
 
 	<Reply
 		name="Lisa_hellodlg0_P1_2"
-		text="[Speaking to himself] There's something fishy going on here. I don't think I should get involved with bandits at the beginning of my career, it's better to keep my good name if I can help it."
+		text="[To himself] There's something fishy going on here. I don't think I should get involved with bandits at the beginning of my career, it's better to keep my good name if I can help it."
 		role="PLAYER"
 		nextReplies="Lisa_hellodlg0_3" />
 

@@ -22,35 +22,35 @@
 
 	<string
 		id="sml1Cab01_diz"
-		value="Chinch's cab" />
+		value="Chinch's cab." />
 
 	<string
 		id="sml2Cab01_diz"
-		value="Cockroach's cab" />
+		value="Cockroach's cab." />
 
 	<string
 		id="sml3Cab01_diz"
-		value="Ant's cab" />
+		value="Ant's cab." />
 
 	<string
 		id="sml4Cab01_diz"
-		value="Grasshopper's cab" />
+		value="Grasshopper's ca.b" />
 
 	<string
 		id="denscoutCab_diz"
-		value="Ñab of Lisa’s car . A modified cab model from the regular Scout." />
+		value="Ñab of Lisa’s car. A modified cab model from the regular Scout." />
 
 	<string
 		id="scoutCab01_diz"
-		value="Scout's cab" />
+		value="Scout's cab." />
 
 	<string
 		id="scoutCab02_diz"
-		value="Scout's cab" />
+		value="Scout's cab." />
 
 	<string
 		id="scoutCab03_diz"
-		value="Scout's cab" />
+		value="Scout's cab." />
 
 	<string
 		id="ScoutEnemySpawn_diz"
@@ -58,7 +58,7 @@
 
 	<string
 		id="FighterEnemySpawn_diz"
-		value="This unusual-looking model carries enough weaponry to be dangerous on its own. And considering that bandits rarely attack alone..." />
+		value="This unusual-looking model carries enough weaponry to be dangerous on its own. And considering that bandits rarely attack alone…" />
 
 	<string
 		id="HunterEnemySpawn_diz"
@@ -190,7 +190,7 @@
 
 	<string
 		id="cooling_system_explosion_and_firing_rate_explosion_diz"
-		value="&quot;Samum&quot; system optimizes ammunition delivery and protects the gun barrel from overheating. |Explosion weapons recharge speed +30% |Artillery firing rate +30%" />
+		value="&quot;Simoom&quot; system optimizes ammunition delivery and protects the gun barrel from overheating. |Explosion weapons recharge speed +30% |Artillery firing rate +30%" />
 
 	<string
 		id="firing_rate_guns_and_add_damage_guns_diz"
@@ -214,7 +214,7 @@
 
 	<string
 		id="add_damage_explosion_firing_rate_explosion_diz"
-		value="Electromechanical complex &quot;Dawid&quot; provides fast delivery of ammunition into the breech of the cannon and high muzzle velocity of the projectile. |Artillery firing rate +30% |Explosion weapon damage +30%" />
+		value="Electromechanical complex &quot;David&quot; provides fast delivery of ammunition into the breech of the cannon and high muzzle velocity of the projectile. |Artillery firing rate +30% |Explosion weapon damage +30%" />
 
 	<string
 		id="additional_fuel_tank_diz"
@@ -322,7 +322,7 @@
 
 	<string
 		id="pkt01_diz"
-		value="Machine gun caliber 7.62 - with it there is no need to be terribly afraid of going for a short trip." />
+		value="Machine gun of 7.62 caliber - with it there is no need to be terribly afraid of going for a short trip." />
 
 	<string
 		id="kord01_diz"
@@ -338,7 +338,7 @@
 
 	<string
 		id="rapier01_diz"
-		value="This long-range 23mm cannon is a serious weapon in capable hands." />
+		value="This long-range 23 mm cannon is a serious weapon in capable hands." />
 
 	<string
 		id="storm01_diz"
@@ -354,7 +354,7 @@
 
 	<string
 		id="rainmetal01_diz"
-		value="The 20mm caliber rapid-fire canon is an excellent choice for hunting a two-legged animals." />
+		value="The 20 mm caliber rapid-fire canon is an excellent choice for hunting a two-legged animals." />
 
 	<string
 		id="octopus01_diz"
@@ -362,7 +362,7 @@
 
 	<string
 		id="cyclops01_diz"
-		value="The long-range 37mm cannon is a powerful means of destroying hostiles at a distance." />
+		value="The long-range 37 mm cannon is a powerful means of destroying hostiles at a distance." />
 
 	<string
 		id="bumblebee01_diz"
@@ -418,11 +418,11 @@
 
 	<string
 		id="marsSideGun_diz"
-		value="Hits any vehicles to the right and left of your truck with a barrage of exploding charges." />
+		value="Hits any vehicles to the right and left of your truck with a barrage of explosive charges." />
 
 	<string
 		id="someTurboAccelerationPusher_diz"
-		value="Increases your truck’s speed in half for several seconds." />
+		value="Increases your truck’s speed by a half for several seconds." />
 
 	<string
 		id="engineOilPusher_diz"
@@ -454,7 +454,7 @@
 
 	<string
 		id="bugCab03_diz"
-		value="Standard Van cabin, heavily modified." />
+		value="Heavily modified Van cabin." />
 
 	<string
 		id="molokovozCab01_diz"
@@ -690,7 +690,7 @@
 	<string
 		id="quest_start_father_letter_diz"
 		locForm="0"
-		value="If you are reading this letter, it means I didn't manage to come back. Sad but true. I know Peter well and have no worriers about your education. My heart hurts by the thought of you becoming a man, while I am far away. It is a real torment. But you must know that I had no other choice, but to leave. Too much is at stake. I have to right the wrong. Only by achieving my goal can I prove myself worthy of being called father... and husband. I am sorry, son. Forgive me, if you can." />
+		value="Son, if you are reading this letter, it means I couldn't go back and raise you myself. I know that Peter has brought you up nicely. I can almost see you, so young and full of strength, and my heart is filled with tears. I blame myself for not being around when you were growing up. And this is my terrible punishment. But you must know that I couldn't do it any other way. I have the task of a lifetime ahead of me. Only by doing what I had planned I could find peace and feel like a human being again.  If not... then I don't deserve to live. This letter is an apology. Forgive me if you can. You are always in my heart, son." />
 
 	<string
 		id="quest_potato_diz"
@@ -715,7 +715,7 @@
 	<string
 		id="quest_komp_splav_diz"
 		locForm="0"
-		value="The composite alloy is necessary to fabricate a gear that will allow me to cross the Desert of Death." />
+		value="The composite alloy is necessary to fabricate a device that will allow me to cross the Desert of Death." />
 
 	<string
 		id="quest_shaman_head1_diz"
@@ -745,7 +745,7 @@
 	<string
 		id="quest_first_canistra_diz"
 		locForm="0"
-		value="A canister of raw oil. I must deliver it as prove that my work is complete." />
+		value="A canister of raw oil. I must deliver it so as to prove that my work is complete." />
 
 	<string
 		id="quest_disk_1_diz"

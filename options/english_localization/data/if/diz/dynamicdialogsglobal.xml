@@ -34,7 +34,7 @@
 
 	<Reply
 		name="Dynamic00_Destroy00_npc0"
-		text="A thief that was caught several times started his illicit activity once again. Probably, the only way to make him stop stealing is to kill him. Help us and we'll reward you with %3d coins."
+		text="A thief that was caught several times started his illicit activity once again. Perhaps, the only way to make him stop stealing is to kill him. Help us and we'll reward you with %3d coins."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -82,7 +82,7 @@
 
 	<Reply
 		name="Dynamic00_Reach01_npc0"
-		text="We've been putting together a package that need to be delivered to %2n. Deliver it whenever you're passing through. It's not urgent. You'll be paid %3d coins when it's done."
+		text="We've been putting together a package that needs to be delivered to %2n. Deliver it whenever you're passing through. It's not urgent. You'll be paid %3d coins when it's done."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 
@@ -138,7 +138,7 @@
 
 	<Reply
 		name="Dynamic00_Peace00"
-		text="I've got a problem: I fell out with %2b group..."
+		text="I've got a problem: I fell out with %2b group…"
 		role="PLAYER"
 		nextReplies="Dynamic00_Peace00_npc0" />
 
@@ -150,7 +150,7 @@
 
 	<Reply
 		name="Dynamic00_Peace01"
-		text="I need your help. We've got some irresolvable issues with %2b and now..."
+		text="I need your help. We've got some irresolvable issues with %2b and now…"
 		role="PLAYER"
 		nextReplies="Dynamic00_Peace01_npc0" />
 
@@ -180,7 +180,7 @@
 
 	<Reply
 		name="Dynamic00_Hunt01_npc0"
-		text="The bandits have gone completely mad! Raiding our territory as if it were their own. Someone have to teach them a lesson. Shot a couple of them while the people are still angry and you'll get %3d coins for every cold body."
+		text="The bandits have gone completely mad! Raiding our territory as if it were their own. Someone has to teach them a lesson. Shoot a couple of them while the people are still angry and you'll get %3d coins for every cold body."
 		role="NPC"
 		nextReplies="Dynamic00_plYes0 Dynamic00_plNo0" />
 </DialogsResource>

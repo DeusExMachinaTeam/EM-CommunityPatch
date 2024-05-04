@@ -2,7 +2,7 @@
 <ObjectNames>
 	<Object
 		Name="TheTown"
-		FullName="Sowth" />
+		FullName="SOWTH" />
 
 	<Object
 		Name="TheTown_Workshop"
@@ -14,7 +14,7 @@
 
 	<Object
 		Name="TheTown_Bar"
-		FullName="Bar ''Last Journey''" />
+		FullName="Bar &quot;Last Journey&quot;" />
 
 	<Object
 		Name="TheTown_Bar_Barman"
@@ -42,7 +42,7 @@
 
 	<Object
 		Name="TheGloohoe"
-		FullName="Glukhoe" />
+		FullName="GLUKHOE" />
 
 	<Object
 		Name="TheGloohoe_Workshop"
@@ -62,7 +62,7 @@
 
 	<Object
 		Name="TheOilVillage"
-		FullName="Zaimka" />
+		FullName="ZAIMKA" />
 
 	<Object
 		Name="TheOilVillage_Workshop"
@@ -74,7 +74,7 @@
 
 	<Object
 		Name="TheOilVillage_Bar"
-		FullName="Bar ''Led Zeppelin''" />
+		FullName="Bar &quot;Led Zeppelin&quot;" />
 
 	<Object
 		Name="TheOilVillage_Bar_Barman"
@@ -86,7 +86,7 @@
 
 	<Object
 		Name="TheContraVillage"
-		FullName="Gugulino" />
+		FullName="GUGULINO" />
 
 	<Object
 		Name="TheContraVillage_Workshop"
@@ -98,7 +98,7 @@
 
 	<Object
 		Name="TheContraVillage_Bar"
-		FullName="Bar ''Madrat''" />
+		FullName="Bar &quot;Madrat&quot;" />
 
 	<Object
 		Name="TheContraVillage_Bar_Barman"
@@ -106,7 +106,7 @@
 
 	<Object
 		Name="TheFreedom"
-		FullName="Troyitsk" />
+		FullName="TROYITSK" />
 
 	<Object
 		Name="TheFreedom_Workshop"
@@ -118,7 +118,7 @@
 
 	<Object
 		Name="TheFreedom_Bar"
-		FullName="Bar ''Crab''" />
+		FullName="Bar &quot;Crab&quot;" />
 
 	<Object
 		Name="TheFreedom_Bar_Barman"
@@ -142,7 +142,7 @@
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
@@ -150,7 +150,7 @@
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
@@ -158,7 +158,7 @@
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
@@ -178,19 +178,19 @@
 
 	<Object
 		Name="TheContraVillage_defend"
-		FullName="Gugulino" />
+		FullName="GUGULINO" />
 
 	<Object
 		Name="TheTown_enter"
-		FullName="Town Sowth" />
+		FullName="SOWTH" />
 
 	<Object
 		Name="TheFreedom_enter"
-		FullName="Village Troyitsk" />
+		FullName="TROYITSK" />
 
 	<Object
 		Name="TheOilVillage_enter"
-		FullName="Zaimka" />
+		FullName="ZAIMKA" />
 
 	<Object
 		Name="u1"
