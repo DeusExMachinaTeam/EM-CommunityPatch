@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <World
 	name="Object611"
-	class="SgNode">
+	class="SgNode"
+	LastId="322220649">
 	<Node
 		name="Object6"
 		class="SgAnimatedModelNode"
@@ -11,17 +12,17 @@
 		id="bridge_metal"
 		ndmAction="0"
 		passable="0"
-		CastShadow="no"  />
+		CastShadow="no" />
 
 	<Node
 		name="Object7"
 		class="SgAnimatedModelNode"
-		org="1558.734 29.172 584.464"
+		org="1558.734 28.150 584.464"
 		orgRel="1"
 		rot="0.0000 -0.1972 0.0000 0.9804"
 		id="bridge_metal"
 		ndmAction="0"
-		passable="0" 
+		passable="0"
 		CastShadow="no" />
 
 	<Node
@@ -33,7 +34,7 @@
 		id="bridge_metal"
 		ndmAction="0"
 		passable="0"
-		CastShadow="no"  />
+		CastShadow="no" />
 
 	<Node
 		name="Object9"
@@ -215,7 +216,7 @@
 		scale="1.914 1.914 1.914"
 		id="bridge_stone"
 		ndmAction="0"
-		passable="0" 
+		passable="0"
 		CastShadow="no" />
 
 	<Node
@@ -226,8 +227,7 @@
 		rot="0.0000 -0.9863 0.0000 0.1650"
 		scale="1.629 1.629 1.629"
 		id="big_crag_1"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object38"
@@ -237,8 +237,7 @@
 		rot="0.0000 -1.0000 0.0000 0.0000"
 		scale="2.364 2.364 2.364"
 		id="big_crag_8"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object39"
@@ -248,8 +247,7 @@
 		rot="0.0000 -0.9877 0.0000 -0.1564"
 		scale="2.252 2.252 2.252"
 		id="big_crag_8"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object40"
@@ -259,8 +257,7 @@
 		rot="0.0000 -0.8266 0.0000 0.5628"
 		scale="1.457 1.457 1.457"
 		id="big_crag_1"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object41"
@@ -281,8 +278,7 @@
 		rot="0.0000 0.7688 0.0000 0.6394"
 		scale="1.961 1.961 1.961"
 		id="big_crag_10"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object43"
@@ -292,8 +288,7 @@
 		rot="0.0000 0.8504 0.0000 0.5262"
 		scale="1.342 1.342 1.342"
 		id="big_crag_8"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object46"
@@ -302,8 +297,7 @@
 		orgRel="1"
 		rot="-0.0698 -0.4168 0.1496 0.8939"
 		id="big_crag_7"
-		ndmAction="0"
-		skin="1" />
+		ndmAction="0" />
 
 	<Node
 		name="Object47"
@@ -1801,7 +1795,7 @@
 		scale="0.958 0.958 0.958"
 		id="factory_bridge"
 		ndmAction="0"
-		passable="0" 
+		passable="0"
 		CastShadow="no" />
 
 	<Node
@@ -1812,7 +1806,7 @@
 		id="factory_bridge"
 		ndmAction="0"
 		passable="0"
-		CastShadow="no"  />
+		CastShadow="no" />
 
 	<Node
 		name="Object83"
