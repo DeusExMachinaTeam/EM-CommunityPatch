@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
-<DynamicScene
-	LastId="0">
-	<TargetNamesForDestroy
-		Names="" />
-
+<DynamicScene>
 	<Object
-		Name="Player1"
 		Belong="1100"
-		Prototype="player" />
+		Prototype="player"
+		Name="Player1" />
 
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="0.816 0.265 2.456"
 		Rot="0.000 0.526 0.000 0.851"
 		Mass="5.000"
@@ -21,6 +18,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="0.709 1.666 0.956"
 		Rot="0.000 0.526 0.000 0.851"
 		Mass="5.000"
@@ -29,6 +27,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.520 2.060 -3.249"
 		Rot="0.000 0.512 0.000 0.859"
 		Mass="5.000"
@@ -37,6 +36,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-2.233 1.048 -3.310"
 		Rot="0.000 0.499 0.000 0.867"
 		Mass="5.000"
@@ -46,6 +46,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.892 0.903 -3.533"
 		Rot="0.000 0.499 0.000 0.867"
 		Mass="5.000"
@@ -54,6 +55,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="1.574 2.121 2.417"
 		Rot="0.000 0.499 0.000 0.867"
 		Mass="5.000"
@@ -62,6 +64,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="1.108 1.937 1.746"
 		Rot="0.000 0.499 0.000 0.867"
 		Mass="5.000"
@@ -70,6 +73,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.415 1.976 -2.257"
 		Rot="0.000 0.499 0.000 0.867"
 		Mass="5.000"
@@ -78,6 +82,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.216 0.360 -1.568"
 		Rot="0.000 0.443 0.000 0.896"
 		Mass="5.000"
@@ -87,6 +92,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="0.784 1.145 1.313"
 		Rot="0.000 0.386 0.000 0.922"
 		Mass="5.000"
@@ -96,6 +102,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="3.586 1.708 -0.025"
 		Rot="0.000 0.067 0.000 0.998"
 		Mass="20.000"
@@ -104,6 +111,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.553 1.633 -0.639"
 		Rot="0.000 0.051 0.000 0.999"
 		Mass="20.000"
@@ -112,6 +120,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.861 1.259 -0.333"
 		Rot="0.000 0.035 0.000 0.999"
 		Mass="20.000"
@@ -120,6 +129,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-3.552 1.675 -0.442"
 		Rot="0.000 0.019 0.000 1.000"
 		Mass="20.000"
@@ -128,6 +138,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.215 0.826 -0.247"
 		Rot="0.000 0.004 0.000 1.000"
 		Mass="20.000"
@@ -136,6 +147,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-2.358 1.420 -0.064"
 		Rot="0.000 -0.028 0.000 1.000"
 		Mass="20.000"
@@ -144,6 +156,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="2.262 1.692 -0.553"
 		Rot="0.000 -0.043 0.000 0.999"
 		Mass="20.000"
@@ -152,6 +165,7 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="2.988 0.499 -0.851"
 		Rot="0.000 -0.059 0.000 0.998"
 		Mass="20.000"
@@ -160,1294 +174,1113 @@
 	<Object
 		Belong="-1"
 		Prototype="particleSplinter"
+		Name=""
 		Pos="-1.946 0.268 -0.071"
 		Rot="0.000 -0.090 0.000 0.996"
 		Mass="20.000"
 		ModelName="sack_debris" />
 
 	<Object
-		Name="Object184"
 		Belong="-1"
 		Prototype="Breakable_DeadTree4"
+		Name="Object184"
 		Pos="620.466 230.000 566.445"
 		Rot="0.000 0.968 0.000 0.250" />
 
 	<Object
-		Name="Object185"
 		Belong="-1"
 		Prototype="Breakable_DeadTree2"
+		Name="Object185"
 		Pos="719.066 230.000 581.049"
 		Rot="0.000 0.902 0.000 0.431" />
 
 	<Object
-		Name="Object186"
 		Belong="-1"
 		Prototype="Breakable_DeadTree4"
+		Name="Object186"
 		Pos="673.036 230.000 613.923"
 		Rot="0.000 0.462 0.000 -0.887" />
 
 	<Object
-		Name="Object187"
 		Belong="-1"
 		Prototype="Breakable_DeadTree2"
+		Name="Object187"
 		Pos="595.338 230.000 651.262"
 		Rot="0.000 0.616 0.000 0.788" />
 
 	<Object
-		Name="Object188"
 		Belong="-1"
 		Prototype="Breakable_DeadTree4"
+		Name="Object188"
 		Pos="612.778 230.000 650.093"
 		Rot="0.000 0.602 0.000 -0.799" />
 
 	<Object
-		Name="Object189"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object189"
 		Pos="493.269 230.000 572.675"
 		Rot="0.000 0.105 0.000 -0.994" />
 
 	<Object
-		Name="Object193"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object193"
 		Pos="434.693 230.000 562.889"
 		Rot="0.000 0.824 0.000 -0.566" />
 
 	<Object
-		Name="Object195"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object195"
 		Pos="182.796 234.233 654.526"
 		Rot="0.000 0.989 0.000 -0.148" />
 
 	<Object
-		Name="Object196"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object196"
 		Pos="237.485 231.705 648.403"
 		Rot="0.000 0.537 0.000 0.843" />
 
 	<Object
-		Name="Object198"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object198"
 		Pos="292.460 259.269 722.875"
 		Rot="0.000 0.824 0.000 0.566" />
 
 	<Object
-		Name="Object201"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object201"
 		Pos="224.903 260.000 828.224"
 		Rot="0.000 0.989 0.000 -0.148" />
 
 	<Object
-		Name="Object263"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
+		Name="Object263"
 		Pos="1961.192 256.396 1192.470"
 		Rot="0.000 1.000 0.000 0.026" />
 
 	<Object
-		Name="Object264"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object264"
 		Pos="1944.398 250.136 1197.096"
 		Rot="0.000 0.233 0.000 0.972" />
 
 	<Object
-		Name="Object265"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
+		Name="Object265"
 		Pos="1937.619 246.849 1172.679"
 		Rot="0.000 0.508 0.000 0.862" />
 
 	<Object
-		Name="Object266"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
+		Name="Object266"
 		Pos="1928.118 246.898 1198.197"
 		Rot="0.000 0.994 0.000 0.105" />
 
 	<Object
-		Name="Object267"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
+		Name="Object267"
 		Pos="1915.088 242.156 1183.360"
 		Rot="0.000 0.375 0.000 -0.927" />
 
 	<Object
-		Name="Object268"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object268"
 		Pos="1932.654 246.311 1173.066"
 		Rot="0.000 0.191 0.000 -0.982" />
 
 	<Object
-		Name="Object269"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
+		Name="Object269"
 		Pos="1904.864 237.245 1170.610"
 		Rot="0.000 0.972 0.000 0.233" />
 
 	<Object
-		Name="Object270"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="1904.526 233.892 1279.715"
+		Name="Object270"
+		Pos="1904.526 233.891 1279.715"
 		Rot="0.000 0.250 0.000 0.968" />
 
 	<Object
-		Name="Object271"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object271"
 		Pos="1928.925 237.251 1284.806"
 		Rot="0.000 0.974 0.000 0.225" />
 
 	<Object
-		Name="Object272"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
+		Name="Object272"
 		Pos="1934.240 242.119 1264.186"
 		Rot="0.000 0.988 0.000 -0.156" />
 
 	<Object
-		Name="Object273"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object273"
 		Pos="1917.982 233.812 1270.109"
 		Rot="0.000 0.725 0.000 0.688" />
 
 	<Object
-		Name="Object274"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
+		Name="Object274"
 		Pos="1910.709 234.241 1295.473"
 		Rot="0.000 1.000 0.000 0.017" />
 
 	<Object
-		Name="Object275"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
+		Name="Object275"
 		Pos="1978.159 260.446 1269.975"
 		Rot="0.000 0.105 0.000 -0.994" />
 
 	<Object
-		Name="Object276"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
+		Name="Object276"
 		Pos="1999.828 273.344 1291.763"
 		Rot="0.000 0.469 0.000 0.883" />
 
 	<Object
-		Name="Object277"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object277"
 		Pos="1976.842 261.586 1286.648"
 		Rot="0.000 0.725 0.000 -0.688" />
 
 	<Object
-		Name="Object278"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
+		Name="Object278"
 		Pos="1995.911 265.989 1269.961"
 		Rot="0.000 0.974 0.000 0.225" />
 
 	<Object
-		Name="Object279"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
+		Name="Object279"
 		Pos="1800.260 257.661 1513.233"
 		Rot="0.000 0.545 0.000 -0.839" />
 
 	<Object
-		Name="Object280"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object280"
 		Pos="1778.811 252.733 1489.350"
 		Rot="0.000 0.026 0.000 -1.000" />
 
 	<Object
-		Name="Object281"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
+		Name="Object281"
 		Pos="1778.945 257.661 1508.839"
 		Rot="0.000 0.819 0.000 0.574" />
 
 	<Object
-		Name="Object282"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
+		Name="Object282"
 		Pos="1794.715 253.265 1496.157"
 		Rot="0.000 0.485 0.000 -0.875" />
 
 	<Object
-		Name="Object283"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
+		Name="Object283"
 		Pos="1858.406 253.058 1482.996"
 		Rot="0.000 0.978 0.000 -0.208" />
 
 	<Object
-		Name="Object284"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object284"
 		Pos="1855.120 249.142 1465.611"
 		Rot="0.000 0.492 0.000 -0.870" />
 
 	<Object
-		Name="Object285"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
+		Name="Object285"
 		Pos="1870.004 248.604 1458.293"
 		Rot="0.000 0.887 0.000 -0.462" />
 
 	<Object
-		Name="Object286"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object286"
 		Pos="1643.504 260.746 1645.350"
 		Rot="0.000 0.522 0.000 -0.853" />
 
 	<Object
-		Name="Object287"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
+		Name="Object287"
 		Pos="1336.224 259.218 1869.845"
 		Rot="0.000 0.755 0.000 -0.656" />
 
 	<Object
-		Name="Object288"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
+		Name="Object288"
 		Pos="1629.703 249.374 1621.768"
 		Rot="0.000 0.788 0.000 0.616" />
 
 	<Object
-		Name="Object289"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
+		Name="Object289"
 		Pos="1688.580 260.593 1598.332"
 		Rot="0.000 0.707 0.000 0.707" />
 
 	<Object
-		Name="Object290"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object290"
 		Pos="1710.746 264.654 1587.405"
 		Rot="0.000 0.964 0.000 0.267" />
 
 	<Object
-		Name="Object291"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
+		Name="Object291"
 		Pos="1688.040 265.527 1614.199"
 		Rot="0.000 0.477 0.000 0.879" />
 
 	<Object
-		Name="Object292"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
+		Name="Object292"
 		Pos="1705.606 269.489 1607.659"
 		Rot="0.000 0.783 0.000 0.623" />
 
 	<Object
-		Name="Object293"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
+		Name="Object293"
 		Pos="1514.194 251.159 1773.212"
 		Rot="0.000 0.853 0.000 0.522" />
 
 	<Object
-		Name="Object294"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object294"
 		Pos="1575.839 254.362 1702.124"
 		Rot="0.000 0.233 0.000 0.972" />
 
 	<Object
-		Name="Object295"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
+		Name="Object295"
 		Pos="1559.542 252.874 1707.262"
 		Rot="0.000 0.799 0.000 -0.602" />
 
 	<Object
-		Name="Object296"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
+		Name="Object296"
 		Pos="1571.153 251.999 1684.079"
 		Rot="0.000 0.292 0.000 0.956" />
 
 	<Object
-		Name="Object297"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
+		Name="Object297"
 		Pos="1483.620 252.687 1802.146"
 		Rot="0.000 0.191 0.000 0.982" />
 
 	<Object
-		Name="Object298"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
+		Name="Object298"
 		Pos="1302.726 259.948 1867.365"
 		Rot="0.000 0.895 0.000 0.446" />
 
 	<Object
-		Name="Object299"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
+		Name="Object299"
 		Pos="1480.403 251.029 1786.158"
 		Rot="0.000 0.809 0.000 -0.588" />
 
 	<Object
-		Name="Object300"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object300"
 		Pos="1260.814 260.000 1873.124"
 		Rot="0.000 0.891 0.000 -0.454" />
 
 	<Object
-		Name="Object301"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object301"
 		Pos="1583.113 276.505 1785.487"
 		Rot="0.000 0.788 0.000 0.616" />
 
 	<Object
-		Name="Object302"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object302"
 		Pos="1556.231 271.961 1803.360"
 		Rot="0.000 0.259 0.000 -0.966" />
 
 	<Object
-		Name="Object303"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object303"
 		Pos="1579.537 283.011 1806.208"
 		Rot="0.000 0.462 0.000 0.887" />
 
 	<Object
-		Name="Object304"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object304"
 		Pos="1555.800 268.880 1792.648"
 		Rot="0.000 0.026 0.000 -1.000" />
 
 	<Object
-		Name="Object305"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object305"
 		Pos="1555.958 264.925 1778.957"
 		Rot="0.000 0.609 0.000 -0.793" />
 
 	<Object
-		Name="Object306"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object306"
 		Pos="1563.261 270.081 1788.017"
 		Rot="0.000 0.998 0.000 0.061" />
 
 	<Object
-		Name="Object307"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="1604.663 298.863 1819.107"
+		Name="Object307"
+		Pos="1604.663 298.862 1819.107"
 		Rot="0.000 0.945 0.000 -0.326" />
 
 	<Object
-		Name="Object308"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object308"
 		Pos="1611.523 302.414 1823.838"
 		Rot="0.000 0.760 0.000 0.649" />
 
 	<Object
-		Name="Object309"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object309"
 		Pos="1603.274 303.338 1838.986"
 		Rot="0.000 0.233 0.000 -0.972" />
 
 	<Object
-		Name="Object310"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object310"
 		Pos="1600.753 301.159 1834.019"
 		Rot="0.000 0.485 0.000 0.875" />
 
 	<Object
-		Name="Object311"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object311"
 		Pos="1601.164 294.957 1812.149"
 		Rot="0.000 0.530 0.000 -0.848" />
 
 	<Object
-		Name="Object312"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object312"
 		Pos="1496.758 270.100 1886.869"
 		Rot="0.000 0.462 0.000 -0.887" />
 
 	<Object
-		Name="Object313"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object313"
 		Pos="1498.907 272.995 1899.553"
 		Rot="0.000 0.636 0.000 -0.772" />
 
 	<Object
-		Name="Object314"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object314"
 		Pos="1509.403 275.899 1884.719"
 		Rot="0.000 0.988 0.000 -0.156" />
 
 	<Object
-		Name="Object315"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object315"
 		Pos="1506.165 275.439 1890.162"
 		Rot="0.000 0.930 0.000 -0.367" />
 
 	<Object
-		Name="Object316"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object316"
 		Pos="1513.416 276.747 1880.691"
 		Rot="0.000 0.910 0.000 0.415" />
 
 	<Object
-		Name="Object317"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object317"
 		Pos="1517.186 282.001 1890.437"
 		Rot="0.000 0.233 0.000 -0.972" />
 
 	<Object
-		Name="Object318"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object318"
 		Pos="1501.586 273.317 1892.064"
 		Rot="0.000 0.934 0.000 -0.358" />
 
 	<Object
-		Name="Object319"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object319"
 		Pos="1488.211 268.296 1902.360"
 		Rot="0.000 0.636 0.000 0.772" />
 
 	<Object
-		Name="Object320"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object320"
 		Pos="1494.288 267.012 1872.905"
 		Rot="0.000 0.522 0.000 -0.853" />
 
 	<Object
-		Name="Object321"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object321"
 		Pos="1417.509 254.997 1877.419"
 		Rot="0.000 0.044 0.000 0.999" />
 
 	<Object
-		Name="Object322"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object322"
 		Pos="1409.431 257.238 1888.449"
 		Rot="0.000 0.105 0.000 0.994" />
 
 	<Object
-		Name="Object323"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object323"
 		Pos="1422.939 258.607 1896.378"
 		Rot="0.000 0.862 0.000 -0.508" />
 
 	<Object
-		Name="Object324"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object324"
 		Pos="1404.674 254.756 1873.088"
 		Rot="0.000 0.857 0.000 -0.515" />
 
 	<Object
-		Name="Object325"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object325"
 		Pos="1393.186 258.834 1891.660"
 		Rot="0.000 0.954 0.000 0.301" />
 
 	<Object
-		Name="Object326"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object326"
 		Pos="1401.668 256.677 1883.082"
 		Rot="0.000 0.250 0.000 0.968" />
 
 	<Object
-		Name="Object327"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object327"
 		Pos="1416.169 254.305 1992.535"
 		Rot="0.000 0.096 0.000 0.995" />
 
 	<Object
-		Name="Object328"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object328"
 		Pos="1412.951 254.139 1975.988"
 		Rot="0.000 0.358 0.000 -0.934" />
 
 	<Object
-		Name="Object329"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object329"
 		Pos="1406.402 252.853 1996.663"
 		Rot="0.000 0.375 0.000 -0.927" />
 
 	<Object
-		Name="Object330"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object330"
 		Pos="1422.833 256.218 1990.469"
 		Rot="0.000 0.974 0.000 -0.225" />
 
 	<Object
-		Name="Object331"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object331"
 		Pos="1420.551 254.908 1981.478"
 		Rot="0.000 0.964 0.000 -0.267" />
 
 	<Object
-		Name="Object332"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="1960.125 247.260 1125.794"
+		Name="Object332"
+		Pos="1960.125 247.261 1125.794"
 		Rot="0.000 0.477 0.000 0.879" />
 
 	<Object
-		Name="Object333"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object333"
 		Pos="1959.513 247.427 1129.646"
 		Rot="0.000 0.174 0.000 -0.985" />
 
 	<Object
-		Name="Object334"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object334"
 		Pos="1954.983 246.171 1128.361"
 		Rot="0.000 0.148 0.000 0.989" />
 
 	<Object
-		Name="Object335"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object335"
 		Pos="1938.869 241.363 1117.680"
 		Rot="0.000 0.783 0.000 -0.623" />
 
 	<Object
-		Name="Object336"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object336"
 		Pos="1943.894 240.410 1106.101"
 		Rot="0.000 0.999 0.000 -0.052" />
 
 	<Object
-		Name="Object337"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object337"
 		Pos="1967.212 249.510 1120.871"
 		Rot="0.000 0.233 0.000 -0.972" />
 
 	<Object
-		Name="Object338"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="1740.975 246.915 1487.677"
+		Name="Object338"
+		Pos="1740.975 246.914 1487.677"
 		Rot="0.000 0.656 0.000 0.755" />
 
 	<Object
-		Name="Object339"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object339"
 		Pos="1741.118 242.864 1474.821"
 		Rot="0.000 0.431 0.000 -0.902" />
 
 	<Object
-		Name="Object340"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object340"
 		Pos="1718.376 234.044 1471.113"
 		Rot="0.000 0.788 0.000 -0.616" />
 
 	<Object
-		Name="Object341"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object341"
 		Pos="1734.269 235.983 1460.668"
 		Rot="0.000 0.983 0.000 -0.182" />
 
 	<Object
-		Name="Object342"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object342"
 		Pos="1738.077 245.150 1485.546"
 		Rot="0.000 0.961 0.000 0.276" />
 
 	<Object
-		Name="Object343"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="1727.319 236.872 1472.361"
+		Name="Object343"
+		Pos="1727.319 236.873 1472.361"
 		Rot="0.000 0.242 0.000 -0.970" />
 
 	<Object
-		Name="Object344"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object344"
 		Pos="1727.890 241.628 1487.015"
 		Rot="0.000 0.026 0.000 1.000" />
 
 	<Object
-		Name="Object345"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object345"
 		Pos="1729.875 237.311 1470.624"
 		Rot="0.000 0.839 0.000 0.545" />
 
 	<Object
-		Name="Object346"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object346"
 		Pos="1690.845 243.961 1549.316"
 		Rot="0.000 0.902 0.000 -0.431" />
 
 	<Object
-		Name="Object347"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
+		Name="Object347"
 		Pos="1689.385 235.996 1529.739"
 		Rot="0.000 0.875 0.000 -0.485" />
 
 	<Object
-		Name="Object348"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
+		Name="Object348"
 		Pos="1689.330 233.988 1522.333"
 		Rot="0.000 0.862 0.000 -0.508" />
 
 	<Object
-		Name="Object349"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
+		Name="Object349"
 		Pos="1696.782 247.950 1549.588"
 		Rot="0.000 0.454 0.000 0.891" />
 
 	<Object
-		Name="Object350"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object350"
 		Pos="1882.534 229.889 1034.831"
 		Rot="0.000 0.737 0.000 0.676" />
 
 	<Object
-		Name="Object352"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object352"
 		Pos="1899.320 231.989 993.191"
 		Rot="0.000 0.276 0.000 -0.961" />
 
 	<Object
-		Name="Object356"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object356"
 		Pos="1770.347 226.956 1037.729"
 		Rot="0.000 0.070 0.000 -0.998" />
 
 	<Object
-		Name="Object358"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object358"
 		Pos="1686.956 220.802 924.338"
 		Rot="0.000 0.978 0.000 0.208" />
 
 	<Object
-		Name="Object360"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object360"
 		Pos="1753.602 229.565 945.096"
 		Rot="0.000 0.078 0.000 -0.997" />
 
 	<Object
-		Name="Object362"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object362"
 		Pos="1693.493 228.417 861.337"
 		Rot="0.000 0.959 0.000 0.284" />
 
 	<Object
-		Name="Object363"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object363"
 		Pos="1743.950 230.113 901.699"
 		Rot="0.000 0.383 0.000 0.924" />
 
 	<Object
-		Name="Object365"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object365"
 		Pos="1712.636 223.238 1281.472"
 		Rot="0.000 0.581 0.000 -0.814" />
 
 	<Object
-		Name="Object367"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object367"
 		Pos="1594.094 227.376 1537.885"
 		Rot="0.000 0.438 0.000 -0.899" />
 
 	<Object
-		Name="Object369"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1381.301 258.573 1763.580"
+		Name="Object369"
+		Pos="1381.301 258.572 1763.580"
 		Rot="0.000 0.956 0.000 0.292" />
 
 	<Object
-		Name="Object371"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object371"
 		Pos="1461.949 257.967 1702.025"
 		Rot="0.000 0.879 0.000 0.477" />
 
 	<Object
-		Name="Object372"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
+		Name="Object372"
 		Pos="1264.873 259.998 1798.667"
 		Rot="0.000 0.017 0.000 1.000" />
 
 	<Object
-		Name="Zone01_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone01_loc"
 		Pos="955.586 240.253 396.872"
 		Radius="27.000" />
 
 	<Object
-		Name="Zone02_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone02_loc"
 		Pos="1245.250 244.949 451.164"
 		Radius="22.000" />
 
 	<Object
-		Name="Zone03_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone03_loc"
 		Pos="1669.056 243.521 630.406"
 		Radius="28.000" />
 
 	<Object
-		Name="Zone04_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone04_loc"
 		Pos="1830.160 229.095 1187.907"
 		Radius="17.000" />
 
 	<Object
-		Name="Zone05_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone05_loc"
 		Pos="1665.427 230.704 1507.060"
 		Radius="15.000" />
 
 	<Object
-		Name="Zone06_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone06_loc"
 		Pos="1224.050 260.000 1828.836"
 		Radius="20.000" />
 
 	<Object
-		Name="Zone07_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone07_loc"
 		Pos="444.690 260.011 1595.731"
 		Radius="23.000" />
 
 	<Object
-		Name="Zone08_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone08_loc"
 		Pos="321.988 260.000 1249.199"
 		Radius="23.000" />
 
 	<Object
-		Name="Zone09_loc"
 		Belong="1100"
 		Prototype="genericLocation"
+		Name="Zone09_loc"
 		Pos="136.155 231.850 483.751"
 		Radius="22.000" />
 
 	<Object
-		Name="Human19"
 		Belong="1001"
 		Prototype="Human"
+		Name="Human19"
 		Pos="1796.492 226.588 1181.748"
 		PathsNames="human01_path human02_path" />
 
 	<Object
-		Name="Human7"
 		Belong="1001"
 		Prototype="Human2"
+		Name="Human7"
 		Pos="1799.105 226.991 1188.682"
-		Skin="1"
-		PathsNames="human03_path human04_path" />
+		PathsNames="human03_path human04_path" 
+		Skin="1" />
 
 	<Object
-		Name="Human8"
 		Belong="1001"
 		Prototype="Human3"
+		Name="Human8"
 		Pos="1803.523 227.184 1184.491"
 		PathsNames="human02_path human03_path" />
 
 	<Object
-		Name="Human93"
 		Belong="1001"
 		Prototype="Human"
+		Name="Human93"
 		Pos="1810.490 228.851 1204.319"
-		Rot="0.000 0.817 0.000 0.577"
+		Rot="0.000 0.817 0.000 0.577" 
 		Skin="1" />
 
 	<Object
-		Name="Human91"
 		Belong="1001"
 		Prototype="Human2"
+		Name="Human91"
 		Pos="1773.743 225.424 1192.185"
 		Rot="0.000 0.444 0.000 0.896" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object20"
-			PostTiePos="1613.598 269.910 1049.306"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object19"
-			PostTiePos="1755.191 261.812 1075.776"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1613.598 269.910 1049.306"
+		Tie2Pos="1755.191 261.812 1075.776"
+		TiedObj1Pos="1610.714 231.620 1065.307"
+		TiedObj2Pos="1752.307 223.522 1091.777" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object20"
-			PostTiePos="1607.737 269.910 1080.895"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object19"
-			PostTiePos="1749.330 261.812 1107.365"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1607.737 269.910 1080.895"
+		Tie2Pos="1749.330 261.812 1107.365"
+		TiedObj1Pos="1610.714 231.620 1065.307"
+		TiedObj2Pos="1752.307 223.522 1091.777" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object19"
-			PostTiePos="1755.191 261.812 1075.776"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object18"
-			PostTiePos="1885.389 265.613 1099.936"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1755.191 261.812 1075.776"
+		Tie2Pos="1885.389 265.613 1099.936"
+		TiedObj1Pos="1752.307 223.522 1091.777"
+		TiedObj2Pos="1882.505 227.322 1115.937" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object19"
-			PostTiePos="1749.330 261.812 1107.365"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object18"
-			PostTiePos="1879.528 265.613 1131.525"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1749.330 261.812 1107.365"
+		Tie2Pos="1879.528 265.613 1131.525"
+		TiedObj1Pos="1752.307 223.522 1091.777"
+		TiedObj2Pos="1882.505 227.322 1115.937" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object31"
-			PostTiePos="192.826 283.315 785.862"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object30"
-			PostTiePos="323.023 283.221 810.021"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="192.826 283.315 785.862"
+		Tie2Pos="323.023 283.221 810.021"
+		TiedObj1Pos="189.943 245.024 801.863"
+		TiedObj2Pos="320.140 244.931 826.022" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object31"
-			PostTiePos="186.966 283.315 817.451"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object30"
-			PostTiePos="317.163 283.221 841.610"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="186.966 283.315 817.451"
+		Tie2Pos="317.163 283.221 841.610"
+		TiedObj1Pos="189.943 245.024 801.863"
+		TiedObj2Pos="320.140 244.931 826.022" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object30"
-			PostTiePos="323.023 283.221 810.021"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object29"
-			PostTiePos="453.220 283.290 834.181"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="323.023 283.221 810.021"
+		Tie2Pos="453.220 283.290 834.181"
+		TiedObj1Pos="320.140 244.931 826.022"
+		TiedObj2Pos="450.337 245.000 850.182" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object30"
-			PostTiePos="317.163 283.221 841.610"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object29"
-			PostTiePos="447.360 283.290 865.770"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="317.163 283.221 841.610"
+		Tie2Pos="447.360 283.290 865.770"
+		TiedObj1Pos="320.140 244.931 826.022"
+		TiedObj2Pos="450.337 245.000 850.182" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object29"
-			PostTiePos="453.220 283.290 834.181"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object28"
-			PostTiePos="583.417 298.290 858.340"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="453.220 283.290 834.181"
+		Tie2Pos="583.417 298.290 858.340"
+		TiedObj1Pos="450.337 245.000 850.182"
+		TiedObj2Pos="580.534 260.000 874.341" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object29"
-			PostTiePos="447.360 283.290 865.770"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object28"
-			PostTiePos="577.557 298.290 889.929"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="447.360 283.290 865.770"
+		Tie2Pos="577.557 298.290 889.929"
+		TiedObj1Pos="450.337 245.000 850.182"
+		TiedObj2Pos="580.534 260.000 874.341" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object28"
-			PostTiePos="583.417 298.290 858.340"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object27"
-			PostTiePos="713.615 298.220 882.500"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="583.417 298.290 858.340"
+		Tie2Pos="713.615 298.220 882.500"
+		TiedObj1Pos="580.534 260.000 874.341"
+		TiedObj2Pos="710.731 259.930 898.501" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object28"
-			PostTiePos="577.557 298.290 889.929"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object27"
-			PostTiePos="707.754 298.220 914.089"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="577.557 298.290 889.929"
+		Tie2Pos="707.754 298.220 914.089"
+		TiedObj1Pos="580.534 260.000 874.341"
+		TiedObj2Pos="710.731 259.930 898.501" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object27"
-			PostTiePos="713.615 298.220 882.500"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object26"
-			PostTiePos="843.811 307.220 906.660"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="713.615 298.220 882.500"
+		Tie2Pos="843.811 307.220 906.660"
+		TiedObj1Pos="710.731 259.930 898.501"
+		TiedObj2Pos="840.928 268.930 922.661" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object27"
-			PostTiePos="707.754 298.220 914.089"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object26"
-			PostTiePos="837.951 307.220 938.249"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="707.754 298.220 914.089"
+		Tie2Pos="837.951 307.220 938.249"
+		TiedObj1Pos="710.731 259.930 898.501"
+		TiedObj2Pos="840.928 268.930 922.661" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object26"
-			PostTiePos="843.811 307.220 906.660"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object25"
-			PostTiePos="974.008 310.284 930.819"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="843.811 307.220 906.660"
+		Tie2Pos="974.008 310.284 930.819"
+		TiedObj1Pos="840.928 268.930 922.661"
+		TiedObj2Pos="971.125 271.994 946.820" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object26"
-			PostTiePos="837.951 307.220 938.249"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object25"
-			PostTiePos="968.148 310.284 962.408"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="837.951 307.220 938.249"
+		Tie2Pos="968.148 310.284 962.408"
+		TiedObj1Pos="840.928 268.930 922.661"
+		TiedObj2Pos="971.125 271.994 946.820" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object25"
-			PostTiePos="974.008 310.284 930.819"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object24"
-			PostTiePos="1104.206 310.283 954.979"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="974.008 310.284 930.819"
+		Tie2Pos="1104.206 310.283 954.979"
+		TiedObj1Pos="971.125 271.994 946.820"
+		TiedObj2Pos="1101.322 271.993 970.980" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object25"
-			PostTiePos="968.148 310.284 962.408"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object24"
-			PostTiePos="1098.345 310.283 986.568"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="968.148 310.284 962.408"
+		Tie2Pos="1098.345 310.283 986.568"
+		TiedObj1Pos="971.125 271.994 946.820"
+		TiedObj2Pos="1101.322 271.993 970.980" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object24"
-			PostTiePos="1104.206 310.283 954.979"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object23"
-			PostTiePos="1234.403 298.227 979.138"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1104.206 310.283 954.979"
+		Tie2Pos="1234.403 298.227 979.138"
+		TiedObj1Pos="1101.322 271.993 970.980"
+		TiedObj2Pos="1231.519 259.937 995.139" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object24"
-			PostTiePos="1098.345 310.283 986.568"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object23"
-			PostTiePos="1228.542 298.227 1010.727"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1098.345 310.283 986.568"
+		Tie2Pos="1228.542 298.227 1010.727"
+		TiedObj1Pos="1101.322 271.993 970.980"
+		TiedObj2Pos="1231.519 259.937 995.139" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object23"
-			PostTiePos="1234.403 298.227 979.138"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object22"
-			PostTiePos="1364.599 276.988 1003.298"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1234.403 298.227 979.138"
+		Tie2Pos="1364.599 276.988 1003.298"
+		TiedObj1Pos="1231.519 259.937 995.139"
+		TiedObj2Pos="1361.716 238.698 1019.299" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object23"
-			PostTiePos="1228.542 298.227 1010.727"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object22"
-			PostTiePos="1358.739 276.988 1034.887"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1228.542 298.227 1010.727"
+		Tie2Pos="1358.739 276.988 1034.887"
+		TiedObj1Pos="1231.519 259.937 995.139"
+		TiedObj2Pos="1361.716 238.698 1019.299" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object32"
-			PostTiePos="1430.876 276.988 916.709"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object33"
-			PostTiePos="1426.572 276.988 1123.071"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1430.876 276.988 916.709"
+		Tie2Pos="1426.572 276.988 1123.071"
+		TiedObj1Pos="1447.127 238.698 917.175"
+		TiedObj2Pos="1442.823 238.698 1123.537" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object32"
-			PostTiePos="1462.984 276.988 917.795"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object33"
-			PostTiePos="1458.680 276.988 1124.157"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1462.984 276.988 917.795"
+		Tie2Pos="1458.680 276.988 1124.157"
+		TiedObj1Pos="1447.127 238.698 917.175"
+		TiedObj2Pos="1442.823 238.698 1123.537" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object22"
-			PostTiePos="1364.599 276.988 1003.298"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object20"
-			PostTiePos="1613.598 269.910 1049.306"
-			LpName="LP_PART01" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1364.599 276.988 1003.298"
+		Tie2Pos="1613.598 269.910 1049.306"
+		TiedObj1Pos="1361.716 238.698 1019.299"
+		TiedObj2Pos="1610.714 231.620 1065.307" />
 
 	<Object
 		Belong="-1"
-		Prototype="Cable">
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object22"
-			PostTiePos="1358.739 276.988 1034.887"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName=""
-			NodesNameHierarchy="Object20"
-			PostTiePos="1607.737 269.910 1080.895"
-			LpName="LP_PART02" />
-	</Object>
+		Prototype="Cable"
+		Name=""
+		Tie1Pos="1358.739 276.988 1034.887"
+		Tie2Pos="1607.737 269.910 1080.895"
+		TiedObj1Pos="1361.716 238.698 1019.299"
+		TiedObj2Pos="1610.714 231.620 1065.307" />
 </DynamicScene>
