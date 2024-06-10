@@ -49,7 +49,7 @@ An exhaustive list is available when installing using ComMod mod manager or in t
 
 &#x1F53B; Important! &#x1F53B;
 * Community Patch / Remaster installation is possible **only on no-DRM version 1.02** and only with ComMod mod manager! This is necessary because we apply binary patches directly to game's executable, and all the available changes are possible only with 1.02. **We recommend to use Russian Steam version for installation, you can switch your copy to Russian before the installation of English ComRemaster/Patch from Steam's game settings**. Another option: unpacked version from the official Russian "Ex Machina Anthology".
-* Community Patch / Remaster can be installed **only on 64 bit versions of Windows 8, 10 or 11**!
+* Newer Community Patch / Remaster version can be installed **only on 64 bit versions of Windows 10, 11 or Linux (Ubuntu 22+ etc.)**! User of older OSes should install older [1.13 version](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.13-230113a).
 
 <p align="right">(<a href="#top">go to the top</a>)</p>
 
