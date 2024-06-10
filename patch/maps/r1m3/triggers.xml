@@ -347,7 +347,7 @@
 
 
 
-<!-- освобождение вышки -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="ATTACKOILMINE" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -449,7 +449,7 @@
 
 
 
-<!-- слежка за бандитом -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="RUNTORUNER" active="0">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -563,7 +563,7 @@
 
 
 
-<!-- слежка за мэром -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="SPYMER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -688,7 +688,7 @@
 
 
 
-<!-- поиски лисы -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ -->
 	<trigger Name="BASEABOUTLISA" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -762,7 +762,7 @@
 
 
 
-<!-- Узнать где туннель -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="TUNNELLOCATION" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TunnelLoc" />
 		<script>
@@ -780,7 +780,7 @@
 
 
 
-<!-- Устроить засаду  -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ  -->
 	<trigger Name="ZASADATUNEL" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ZasadaLocQ" />
 		<script>
@@ -1173,51 +1173,6 @@
 	</trigger>
 
 
-
-
-
-	<trigger Name="CARAVANTOR1M4" active="0">
-		<event timeout="0" eventid="GE_TIME_PERIOD" />
-		<script>
-			TeamCreate("KARAVAN14",1010,CVector(6081, 260, 5915),{"r2m2_CaravanUral02","r1m2_hunter02","Fighter02","Molokovoz02"}, nil, 1)
-			local vehP = GetEntityByName("KARAVAN14_vehicle_0")
-			if vehP then
-				vehP:SetExternalPathByName("karavan_path")
-			end
-			local vehPP = GetEntityByName("KARAVAN14_vehicle_1")
-			if vehPP then
-				vehPP:SetExternalPathByName("karavan_path")
-			end
-			local vehPPP = GetEntityByName("KARAVAN14_vehicle_2")
-			if vehPPP then
-				vehPPP:SetExternalPathByName("karavan_path")
-			end
-			local GoluBoyWagon = GetEntityByName("KARAVAN14_vehicle_3")
-			if GoluBoyWagon then
-				GoluBoyWagon:SetExternalPathByName("karavan_path")
-				GoluBoyWagon:SetSkin(2)
-			end
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="DeleteCaravanIfExists" active="0">
-		<event timeout="0" eventid="GE_TIME_PERIOD" />
-		<script>
-			if VehP then
-				VehP:Remove()
-			end
-			if VehPP then
-				VehPP:Remove()
-			end
-			if VehPPP then
-				VehPPP:Remove()
-			end
-			if GoluBoyWagon then
-				GoluBoyWagon:Remove()
-			end
-		</script>
-	</trigger>
 				
 
 	<trigger Name="triggerExitToMap11" active="1">
@@ -1250,8 +1205,6 @@
 					local hs = GetEntityByName ("FIRE06")
 					if hs then hs:Remove() end
 				end
-
-				TActivate("DeleteCaravanIfExists")
 				PassToMap("r1m1", "FromR1M3", -1 )
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1329,8 +1282,6 @@
 						local hs = GetEntityByName ("FIRE06")
 						if hs then hs:Remove() end
 					end
-
-					TActivate("DeleteCaravanIfExists")
 					PassToMap("r1m2", "FromR1M3", -1 )
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
@@ -1418,8 +1369,11 @@
 					local hs = GetEntityByName ("FIRE06")
 					if hs then hs:Remove() end
 					
-					TActivate("DeleteCaravanIfExists")
-					PassToMap("r1m4", "FromR1M3", -1 )
+					if IsQuestTaken("d_FindVrata_Quest") and not(IsQuestComplete("d_FindVrata_Quest")) or IsQuestTaken("r1m4_TalkWithOldTraderAboutSecondDisk") and not(IsQuestComplete("r1m4_TalkWithOldTraderAboutSecondDisk")) then
+						TActivate("CaravanToOlme")
+					else
+						PassToMap("r1m4", "FromR1M3", -1 )
+					end
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
 
@@ -1442,6 +1396,101 @@
 			end
  		</script>
 	</trigger>
+
+	<trigger Name="CaravanToOlme" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():setGodMode(1)
+				GetPlayerVehicle():LimitMaxSpeed(21)
+				--GetPlayerVehicle():SetGamePositionOnGround(CVector(5930.773, 259.023, 7592.678))
+			end
+
+			CinemaFiltersUse()
+
+			CreateVehicleEx("r2m2_CaravanUral02","vehP",( CVector(0, 10000, 0) ), 1010)
+			CreateVehicleEx("r1m2_hunter02","vehPP",( CVector(0, 10000, 0) ), 1010)
+			CreateVehicleEx("Molokovoz02","GoluBoyWagon",( CVector(0, 10000, 0) ), 1010)
+
+			local vehP = GetEntityByName("vehP")
+			if vehP then
+				vehP:SetGamePositionOnGround(CVector(6139.438, 258.434, 7616.089))
+				vehP:SetRotation(Quaternion(0.016, 0.050, -0.001, 0.999))
+				vehP:SetExternalPathByName("CaravanToOlme1_path")
+				vehP:SetCustomLinearVelocity(15)
+				vehP:LimitMaxSpeed(15)
+			end
+
+			local vehPP = GetEntityByName("vehPP")
+			if vehPP then
+				vehPP:SetGamePositionOnGround(CVector(6149.894, 258.434, 7633.687))
+				vehPP:SetRotation(Quaternion(0.013, 0.049, -0.053, 0.997))
+				vehPP:SetExternalPathByName("CaravanToOlme2_path")
+				vehPP:SetCustomLinearVelocity(15)
+				vehPP:LimitMaxSpeed(15)
+			end
+
+			local GoluBoyWagon = GetEntityByName("GoluBoyWagon")
+			if GoluBoyWagon then
+				GoluBoyWagon:SetGamePositionOnGround(CVector(6131.827, 258.434, 7635.176))
+				GoluBoyWagon:SetRotation(Quaternion(0.016, 0.074, 0.048, 0.996))
+				GoluBoyWagon:SetExternalPathByName("CaravanToOlme3_path")
+				GoluBoyWagon:SetSkin(2)
+				GoluBoyWagon:SetCustomLinearVelocity(15)
+				GoluBoyWagon:LimitMaxSpeed(15)
+			end
+
+			Fly("CaravanToOlme_cam01", CINEMATIC_NO_AIM, 0, 7.5, 1, 0)
+			Fly("CaravanToOlme_cam02", CINEMATIC_NO_AIM, 0, 5, 0, 1)
+			StartCinematic()
+
+			TActivate("CaravanToOlme_end")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CaravanToOlme_end" active="0">
+		<event timeout="6" eventid="GE_TIME_PERIOD" />
+		<script>
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():SetGamePositionOnGround(CVector(6139.438, 258.434, 7575.089))
+				GetPlayerVehicle():SetRotation(Quaternion(0.016, 0.050, -0.001, 0.999))
+				GetPlayerVehicle():SetExternalPathByName("CaravanToOlme1_path")
+				GetPlayerVehicle():SetCustomLinearVelocity(30)
+			end
+
+			TActivate("CaravanToOlme_PassToHel")
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="CaravanToOlme_PassToHel" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			if GetPlayerVehicle() then
+				GetPlayerVehicle():setGodMode(0)
+				GetPlayerVehicle():UnlimitMaxSpeed()
+			end
+			local vehP = GetEntityByName("vehP")
+			if vehP then
+				vehP:Remove()
+			end
+			local vehPP = GetEntityByName("vehPP")
+			if vehPP then
+				vehPP:Remove()
+			end
+			local GoluBoyWagon = GetEntityByName("GoluBoyWagon")
+			if GoluBoyWagon then
+				GoluBoyWagon:Remove()
+			end
+			PassToMap("r1m4", "FromR1M3", -1, 1 )
+			trigger:Deactivate()
+		</script>
+</trigger>
+
 	<trigger Name="RolikExitToMap14" active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
