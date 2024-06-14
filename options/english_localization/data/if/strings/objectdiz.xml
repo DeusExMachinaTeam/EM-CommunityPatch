@@ -218,7 +218,7 @@
 
 	<string
 		id="r1m2_Midragd_diz"
-		value="The main city of the Technicians. In their own words, &quot;the scientific capital of the reborn world&quot;. Here you can always sell ancient technology and artefacts, and with some luck you can buy a unique piece of equipment." />
+		value="The main city of the Technicians. In their own words, &quot;the scientific capital of the reborn world&quot;. Here you can always sell ancient technology and artifacts, and with some luck you can buy a unique piece of equipment." />
 
 	<string
 		id="r1m2_Porto_diz"
@@ -262,7 +262,7 @@
 
 	<string
 		id="r1m3_TheForgotten_diz"
-		value="In spite of favorable location, this village is very poor. Maybe because it cannot compete with the large factions. Or maybe its people are just lazy." />
+		value="In spite of favourable location, this village is very poor. Maybe because it cannot compete with the large factions. Or maybe its people are just lazy." />
 
 	<string
 		id="r1m3_TheVozleMinin_diz"
@@ -274,7 +274,7 @@
 
 	<string
 		id="r1m3_TheBase_diz"
-		value="Tons of ancient weapons are buried in the basement of this ancient military base. " />
+		value="Tons of ancient weapons are buried in the underground levels of this ancient military base. " />
 
 	<string
 		id="r1m3_ToR1M1_diz"
@@ -310,7 +310,7 @@
 
 	<string
 		id="r1m4_FVCordan_diz"
-		value="Even swampy soil bears bountiful fruit if it is carefully cultivated one day at a time." />
+		value="Even swampy soil bears bountiful fruit if it is carefully cultivated day by day." />
 
 	<string
 		id="r1m4_FVPerch_diz"
@@ -326,11 +326,11 @@
 
 	<string
 		id="r2m1_TheGelvetcia_diz"
-		value="The capital of Commonwealth of Independent Towns. Within its walls strategic plans for fighting foreign invaders are born, and it is also the centre of an extensive intelligence network." />
+		value="The capital of the Commonwealth of Independent Towns. Within its walls strategic plans for fighting foreign invaders are born, and it is also the centre of an extensive intelligence network." />
 
 	<string
 		id="r2m1_TheSel_diz"
-		value="The inhabitants of this town and the surrounding villages give everything to the defence of their homeland. It is an industrial base of the CIS but also provides them with food." />
+		value="The inhabitants of this town and the surrounding villages give everything to the defence of their homeland. It is an industrial base of the CIT but also provides them with food." />
 
 	<string
 		id="r2m1_TheTuzz_diz"
@@ -406,7 +406,7 @@
 
 	<string
 		id="r3m2_OracleDefendersVil_diz"
-		value="Oracle’s Disciples holds here their rites in hope to attract his attention." />
+		value="Oracle’s Disciples hold here their rites in hope to attract his attention." />
 
 	<string
 		id="r3m2_AloneDruid_diz"
@@ -470,7 +470,7 @@
 
 	<string
 		id="r4m2_ScientiferVillage_diz"
-		value="A scientific settlement set on the border of our world and the source of alien radiation." />
+		value="A scientific settlement set on the border of our world right at the source of alien radiation." />
 
 	<string
 		id="r4m2_MilitaryBase_diz"
@@ -498,7 +498,7 @@
 
 	<string
 		id="demo_FVCordan_diz"
-		value="Even swampy soil bears bountiful fruit if it is carefully cultivated one day at a time." />
+		value="Even swampy soil bears bountiful fruit if it is carefully cultivated day by day." />
 
 	<string
 		id="demo_FVPerch_diz"

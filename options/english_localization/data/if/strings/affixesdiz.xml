@@ -358,19 +358,19 @@
 
 	<string
 		id="useless_gun_diz"
-		value="Durability -20% -25% | Damage -20% -25% | Grouping Angle -20% -25%" />
+		value="Durability -20% -25% | Damage -20% -25% | Accuracy -20% -25%" />
 
 	<string
 		id="rusty_gun_diz"
-		value="Durability -10% -15% | Damage -10% -15% | Grouping Angle -10% -15%" />
+		value="Durability -10% -15% | Damage -10% -15% | Accuracy -10% -15%" />
 
 	<string
 		id="excellent_gun_diz"
-		value="Durability +10% +15% | Damage +10% +15% | Grouping Angle +10% +15%" />
+		value="Durability +10% +15% | Damage +10% +15% | Accuracy +10% +15%" />
 
 	<string
 		id="advanced_gun_diz"
-		value="Durability +30% +35% | Damage +20% +25% | Grouping Angle +20% +25%" />
+		value="Durability +30% +35% | Damage +20% +25% | Accuracy +20% +25%" />
 
 	<string
 		id="slow_gun_diz"
@@ -422,13 +422,13 @@
 
 	<string
 		id="without_sight_gun_diz"
-		value="Grouping angle -10% -15%" />
+		value="Accuracy -10% -15%" />
 
 	<string
 		id="with_laser_sight_gun_diz"
-		value="Grouping angle +10% +15%" />
+		value="Accuracy +10% +15%" />
 
 	<string
 		id="with_electric_sight_gun_diz"
-		value="Grouping angle +20% +25%" />
+		value="Accuracy +20% +25%" />
 </resource>

@@ -6,7 +6,7 @@
 
 	<Object
 		Name="Olme_Bar"
-		FullName="Bar ‘’The edge’’" />
+		FullName="Bar &quot;The edge&quot;" />
 
 	<Object
 		Name="Olme_Shop"
@@ -32,7 +32,7 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="FVOnOcean"
-		FullName="Saliniom" />
+		FullName="SALINIOM" />
 
 	<Object
 		Name="FVOnOcean_Bar"
@@ -64,7 +64,7 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="FVNearOlme"
-		FullName="Lauka" />
+		FullName="LAUKA" />
 
 	<Object
 		Name="FVNearOlme_Bar"
@@ -92,7 +92,7 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="FVCalis"
-		FullName="Calis" />
+		FullName="CALIS" />
 
 	<Object
 		Name="FVCalis_Bar"
@@ -128,7 +128,7 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="FVCordan"
-		FullName="Cordan" />
+		FullName="CORDAN" />
 
 	<Object
 		Name="FVCordan_Bar"
@@ -152,11 +152,11 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="FVPerch"
-		FullName="Perch" />
+		FullName="PERCH" />
 
 	<Object
 		Name="FVPerch_Bar"
-		FullName="Gold vein " />
+		FullName="Bar &quot;Gold vein&quot;" />
 
 	<Object
 		Name="FVPerch_Shop"
@@ -176,11 +176,11 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="FVBerko"
-		FullName="Berko" />
+		FullName="BERKO" />
 
 	<Object
 		Name="FVBerko_Bar"
-		FullName="Bar ‘’Crouch end’’" />
+		FullName="Bar &quot;Crouch end&quot;" />
 
 	<Object
 		Name="FVBerko_Shop"
@@ -200,11 +200,11 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="StorageVil"
-		FullName="Warehouse" />
+		FullName="WAREHOUSE" />
 
 	<Object
 		Name="StorageVilBar"
-		FullName="Bar ‘’Handful of coins’’ " />
+		FullName="Bar &quot;Handful of coins&quot; " />
 
 	<Object
 		Name="StorageVil_Shop"
@@ -216,7 +216,7 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="StorageVil_enter"
-		FullName="Warehouse" />
+		FullName="WAREHOUSE" />
 
 	<Object
 		Name="TheOlme_enter"
@@ -224,7 +224,7 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="FVPerch_enter"
-		FullName="Perch" />
+		FullName="PERCH" />
 
 	<Object
 		Name="FVCalis_Bar_Husbent1"
@@ -240,7 +240,7 @@ FullName = "Markeezytch"/-->
 
 	<Object
 		Name="Port_loc"
-		FullName="Sea gate" />
+		FullName="Sea Gate" />
 
 	<Object
 		Name="FVPerch_Houses"

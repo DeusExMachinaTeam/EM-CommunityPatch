@@ -14,7 +14,7 @@
 
 	<Object
 		Name="TheGelvetcia_House"
-		FullName="SENATE" />
+		FullName="Senate" />
 
 	<Object
 		Name="TheGelvetcia_Bar"
@@ -50,7 +50,7 @@
 
 	<Object
 		Name="TheSel_Bar"
-		FullName="Bar 'LaVine'" />
+		FullName="Bar &quot;LaVine&quot;" />
 
 	<Object
 		Name="TheSel_Bar_Barman"
@@ -182,7 +182,7 @@
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
@@ -190,7 +190,7 @@
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
@@ -198,7 +198,7 @@
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
@@ -206,7 +206,7 @@
 
 	<Object
 		Name="PetrolStationTown4"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown4_Workshop"
@@ -214,7 +214,7 @@
 
 	<Object
 		Name="PetrolStationTown5"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown5_Workshop"
@@ -230,7 +230,7 @@
 
 	<Object
 		Name="TheTuzz_enter"
-		FullName="TOUS" />
+		FullName="TOUSE" />
 
 	<Object
 		Name="TheDoubtful_enter"
@@ -258,7 +258,7 @@
 
 	<Object
 		Name="ToR2M2"
-		FullName="Road to Argen " />
+		FullName="Road to Argen" />
 
 	<Object
 		Name="ToR2M2small"
@@ -270,7 +270,7 @@
 
 	<Object
 		Name="u2"
-		FullName="Dr.Pit" />
+		FullName="Dr. Pit" />
 
 	<Object
 		Name="u3"

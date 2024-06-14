@@ -14,7 +14,7 @@
 
 	<Object
 		Name="Asgard_Bar"
-		FullName="Bar ''Asgard''" />
+		FullName="Bar &quot;Asgard&quot;" />
 
 	<Object
 		Name="Asgard_Bar_Barman"
@@ -54,7 +54,7 @@
 
 	<Object
 		Name="Pesht_Bar"
-		FullName="Bar ''Pesht''" />
+		FullName="Bar &quot;Pesht&quot;" />
 
 	<Object
 		Name="Pesht_Bar_Barman"
@@ -78,7 +78,7 @@
 
 	<Object
 		Name="TheForgotten_Bar"
-		FullName="Bar ''BTTF''" />
+		FullName="Bar &quot;BTTF&quot;" />
 
 	<Object
 		Name="TheForgotten_Bar_Barman"
@@ -102,7 +102,7 @@
 
 	<Object
 		Name="Minin_Bar"
-		FullName="Bar ''Oil well''" />
+		FullName="Bar &quot;Oil well&quot;" />
 
 	<Object
 		Name="Mer_House"
@@ -150,7 +150,7 @@
 
 	<Object
 		Name="TheShahts_Bar"
-		FullName="Mess-room ''From Down''" />
+		FullName="Mess-room &quot;From Down&quot;" />
 
 	<Object
 		Name="TheShahts_Bar_Barman"
@@ -174,7 +174,7 @@
 
 	<Object
 		Name="TheVozleMinin_Bar"
-		FullName="Bar ‘’Sky‘’ " />
+		FullName="Bar &quot;Sky&quot;" />
 
 	<Object
 		Name="TheVozleMinin_Bar_Barman"
@@ -186,7 +186,7 @@
 
 	<Object
 		Name="TheBanditOilMine"
-		FullName="Oil mine" />
+		FullName="OIL WELL" />
 
 	<Object
 		Name="TheBanditOilMine_Workshop"
@@ -198,11 +198,11 @@
 
 	<Object
 		Name="TheBanditOilMine_Bar"
-		FullName="Bar ‘’Pride’’" />
+		FullName="Bar &quot;Pride&quot;" />
 
 	<Object
 		Name="OilMineWorker"
-		FullName="Kris " />
+		FullName="Kris" />
 
 	<Object
 		Name="TheBase"
@@ -218,7 +218,7 @@
 
 	<Object
 		Name="TheBase_Bar"
-		FullName="Saloon ''Odious''" />
+		FullName="Saloon &quot;Odious&quot;" />
 
 	<Object
 		Name="BaseBandit"
@@ -241,8 +241,8 @@
 		FullName="Guard Duck" />
 
 	<Object
- Name = "BanditPeshtGuardian"
-				FullName = "Raider Nathan" />
+		Name = "BanditPeshtGuardian"
+		FullName = "Raider Nathan" />
 
 	<Object
 		Name="CircusMan"
@@ -250,7 +250,7 @@
 <!-- ëîêàöèè -->
 	<Object
 		Name="PetrolStationTown1"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
@@ -258,7 +258,7 @@
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
@@ -266,7 +266,7 @@
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
@@ -274,7 +274,7 @@
 
 	<Object
 		Name="PetrolStationTown4"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown4_Workshop"
@@ -282,7 +282,7 @@
 
 	<Object
 		Name="PetrolStationTown5"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown5_Workshop"

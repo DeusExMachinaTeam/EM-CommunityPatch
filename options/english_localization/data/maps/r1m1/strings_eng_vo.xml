@@ -381,7 +381,7 @@
 		modelAutosized="true"
 		modelName="quest_letter"
 		modelSlot="1"
-		value="LETTER|''...My heart hurts by the thought of you becoming a man while I am far away. It is a real torment. But you must know, that I had no other choice but to leave. Too much is at stake... “"
+		value="LETTER|''...My heart hurts by the thought of you becoming a man while I am far away. It is a real torment. But you must know, that I had no other choice but to leave. Too much is at stake...&quot;"
 		sound="data\sounds\Speech\r1m1\r1m1_33335_letter.ogg"
 		time="12" />
 
@@ -390,7 +390,7 @@
 		modelAutosized="true"
 		modelName="quest_letter"
 		modelSlot="1"
-		value="LETTER|''...I have to right the wrong. Only by achieving my goal can I prove myself worthy being called father... and husband. I am sorry, son. Forgive me, if you can.”"
+		value="LETTER|''...I have to right the wrong. Only by achieving my goal can I prove myself worthy being called father... and husband. I am sorry, son. Forgive me, if you can.&quot;"
 		sound="data\sounds\Speech\r1m1\r1m1_33336_letter.ogg"
 		time="16" />
 

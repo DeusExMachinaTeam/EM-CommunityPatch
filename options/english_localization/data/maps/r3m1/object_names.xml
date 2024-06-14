@@ -6,7 +6,7 @@
 
 	<Object
 		Name="Set_Bar"
-		FullName="Cafe ‘’Old Oak’’" />
+		FullName="Cafe &quot;Old Oak&quot;" />
 
 	<Object
 		Name="Set_Bar_Barman"
@@ -34,7 +34,7 @@
 
 	<Object
 		Name="Fist_Bar"
-		FullName="Bar 'The Rock'" />
+		FullName="Bar &quot;The Rock&quot;" />
 
 	<Object
 		Name="Fist_Bar_Barman"
@@ -54,7 +54,7 @@
 
 	<Object
 		Name="Uluk_Bar"
-		FullName="Bar 'Crankshaft'" />
+		FullName="Bar &quot;Crankshaft&quot;" />
 
 	<Object
 		Name="Uluk_Bar_Barman"
@@ -70,11 +70,11 @@
 
 	<Object
 		Name="Uluk_Workshop"
-		FullName="Workshop 'Do It Yourself'" />
+		FullName="Workshop &quot;Do It Yourself&quot;" />
 
 	<Object
 		Name="Uluk_Shop"
-		FullName="Marketplace " />
+		FullName="Marketplace" />
 
 	<Object
 		Name="r3m1_NearFist_Guard1"
@@ -94,7 +94,7 @@
 
 	<Object
 		Name="TheRazboynik_Bar"
-		FullName="Bar ‘’Gasoline’’" />
+		FullName="Bar &quot;Gasoline&quot;" />
 
 	<Object
 		Name="TheRazboynik_Workshop"
@@ -130,7 +130,7 @@
 
 	<Object
 		Name="r3_FarVillage"
-		FullName="Elmont" />
+		FullName="ELMONT" />
 
 	<Object
 		Name="Razboynic_Bar_Customer1"

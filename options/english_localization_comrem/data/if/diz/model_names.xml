@@ -108,7 +108,7 @@
 	<Item
 		id="cooling_system_explosion_and_firing_rate_explosion"
 		locForm="0"
-		value="&quot;Samum&quot; system" />
+		value="&quot;Simoom&quot; system" />
 
 	<Item
 		id="firing_rate_guns_and_add_damage_guns"
@@ -138,7 +138,7 @@
 	<Item
 		id="add_damage_explosion_firing_rate_explosion"
 		locForm="0"
-		value="Electromechanical complex &quot;Dawid&quot;" />
+		value="Electromechanical complex &quot;David&quot;" />
 
 	<Item
 		id="additional_fuel_tank"
@@ -1724,7 +1724,7 @@
 	<Item
 		id="arcadescoutCab"
 		locForm="0"
-		value="Improved scout cabin" />
+		value="Improved Scout cabin" />
 
 	<Item
 		id="fakeCargo"

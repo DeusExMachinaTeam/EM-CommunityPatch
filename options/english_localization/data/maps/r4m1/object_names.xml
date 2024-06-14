@@ -6,7 +6,7 @@
 
 	<Object
 		Name="Gadad_Bar"
-		FullName="Cafe ‘’Thirst’’" />
+		FullName="Cafe &quot;Thirst&quot;" />
 
 	<Object
 		Name="Gadad_Bar_Barman"
@@ -30,7 +30,7 @@
 
 	<Object
 		Name="Kef_Bar"
-		FullName="Bar ‘’Oasis’’" />
+		FullName="Bar &quot;Oasis&quot;" />
 
 	<Object
 		Name="Kef_Bar_Barman"
@@ -54,7 +54,7 @@
 
 	<Object
 		Name="Kazif_Bar"
-		FullName="Bar ‘’Black gold’’" />
+		FullName="Bar &quot;Black gold&quot;" />
 
 	<Object
 		Name="Kazif_Bar_Barman"
@@ -134,11 +134,11 @@
 
 	<Object
 		Name="r4m1_BuharsLeader"
-		FullName="The Elder " />
+		FullName="The Elder" />
 
 	<Object
 		Name="Kazif_Bar_Customer2"
-		FullName="Schumacher " />
+		FullName="Schumacher" />
 
 	<Object
 		Name="Gadad_Bar_CrazyBook1"

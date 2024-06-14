@@ -2,7 +2,7 @@
 <ObjectNames>
 	<Object
 		Name="Esting"
-		FullName="Aeterna" />
+		FullName="AETERNA" />
 
 	<Object
 		Name="Esting_Workshop"
@@ -14,7 +14,7 @@
 
 	<Object
 		Name="Esting_Bar"
-		FullName="Pub ''Happy''" />
+		FullName="Pub &quot;Happy&quot;" />
 
 	<Object
 		Name="Esting_Bar_Barman"
@@ -34,7 +34,7 @@
 
 	<Object
 		Name="Midragd"
-		FullName="Midgard" />
+		FullName="MIDGARD" />
 
 	<Object
 		Name="Midragd_Workshop"
@@ -78,7 +78,7 @@
 
 	<Object
 		Name="Porto"
-		FullName="Porto" />
+		FullName="PORTO" />
 
 	<Object
 		Name="Porto_Workshop"
@@ -90,7 +90,7 @@
 
 	<Object
 		Name="Porto_Bar"
-		FullName="Bar ''Siren's song''" />
+		FullName="Bar &quot;Siren's song&quot;" />
 
 	<Object
 		Name="Porto_Bar_Barman"
@@ -114,7 +114,7 @@
 
 	<Object
 		Name="TheArtefact"
-		FullName="Locus" />
+		FullName="LOCUS" />
 
 	<Object
 		Name="TheArtefact_Workshop"
@@ -142,7 +142,7 @@
 
 	<Object
 		Name="TheSign"
-		FullName="Yarr" />
+		FullName="YARR" />
 
 	<Object
 		Name="TheSign_Workshop"
@@ -154,7 +154,7 @@
 
 	<Object
 		Name="TheSign_Bar"
-		FullName="Bar ''Crossroad''" />
+		FullName="Bar &quot;Crossroad&quot;" />
 
 	<Object
 		Name="TheSign_Bar_Barman"
@@ -166,7 +166,7 @@
 
 	<Object
 		Name="TheRace"
-		FullName="Kolkhoz" />
+		FullName="KOLKHOZ" />
 
 	<Object
 		Name="TheRace_Workshop"
@@ -178,7 +178,7 @@
 
 	<Object
 		Name="TheRace_Bar"
-		FullName="Bar ''Nostalgia''" />
+		FullName="Bar &quot;Nostalgia&quot;" />
 
 	<Object
 		Name="TheRace_Bar_Barman"
@@ -186,7 +186,7 @@
 
 	<Object
 		Name="TheOlimp"
-		FullName="Olympus" />
+		FullName="OLYMPUS" />
 
 	<Object
 		Name="TheOlimp_Workshop"
@@ -198,7 +198,7 @@
 
 	<Object
 		Name="TheOlimp_Bar"
-		FullName="Bar  ''Champion''" />
+		FullName="Bar  &quot;Champion&quot;" />
 
 	<Object
 		Name="TheOlimp_Bar_Barman"
@@ -206,7 +206,7 @@
 
 	<Object
 		Name="TheTickets"
-		FullName="Roadster" />
+		FullName="ROADSTER" />
 
 	<Object
 		Name="TheTickets_Workshop"
@@ -218,7 +218,7 @@
 
 	<Object
 		Name="TheTickets_Bar"
-		FullName="Bar ''Atomic''" />
+		FullName="Bar &quot;Atomic&quot;" />
 
 	<Object
 		Name="TheTickets_ZAO"
@@ -246,7 +246,7 @@
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
@@ -254,7 +254,7 @@
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
@@ -262,7 +262,7 @@
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
@@ -270,7 +270,7 @@
 
 	<Object
 		Name="PetrolStationTown4"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown4_Workshop"
@@ -278,7 +278,7 @@
 
 	<Object
 		Name="PetrolStationTown5"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown5_Workshop"
