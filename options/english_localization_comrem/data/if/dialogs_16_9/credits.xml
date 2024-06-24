@@ -623,7 +623,7 @@
 		
 		<Page
 			id="67"
-			text="Testing"
+			text="Testing|and additional fixes"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -632,7 +632,7 @@
 		
 		<Page
 			id="68"
-			text="Suslo Red|Ivan «MrKarfen» Atamanov|Semen «Omezera» Ozeritsky|Pushistik_7977|Anarxolis|ScorpyX|Alexander192|Terorchat"
+			text="Suslo Red|Ivan «MrKarfen» Atamanov|Semen «Omezera» Ozeritsky|Pushistik_7977|Anarxolis|ScorpyX|Alexander192|Terorchat|Dymfuuu"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="635"
