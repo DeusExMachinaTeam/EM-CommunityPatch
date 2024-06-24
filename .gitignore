@@ -131,5 +131,6 @@ dmypy.json
 
 # Mods folder
 mods/
+_mods/
 commod.yaml
 commod.exe
