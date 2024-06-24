@@ -1165,37 +1165,26 @@
 
 			if 20 >= g then
 				getObj("AliensShip"):SetPosition( CVector(1366.725, 0, 1801.638))
+				getObj("AliensShipStation1"):SetPosition(CVector(1367.696, -7.443, 1801.875))
+				getObj("AliensShipStation2"):SetPosition(CVector(1368.555, -7.503, 1796.631))
+				getObj("AliensShipStation3"):SetPosition(CVector(1362.245, -10.167, 1803.102))
 			end
 			if g >= 21 then
-			getObj("AliensShip"):SetPosition( CVector(1366.725, y, 1801.638)) 
+				getObj("AliensShip"):SetPosition( CVector(1366.725, y, 1801.638)) 
+				getObj("AliensShipStation1"):SetPosition(CVector(1367.696, 483.361, 1801.875))
+				getObj("AliensShipStation2"):SetPosition(CVector(1368.555, 483.301, 1796.631))
+				getObj("AliensShipStation3"):SetPosition(CVector(1362.245, 480.637, 1803.102))
 			end
 			if g >= 40 then
 				getObj("AliensShip"):SetPosition( CVector(1366.725, 490.804, 1801.638))
+				getObj("AliensShipStation1"):SetPosition(CVector(1367.696, 483.361, 1801.875))
+				getObj("AliensShipStation2"):SetPosition(CVector(1368.555, 483.301, 1796.631))
+				getObj("AliensShipStation3"):SetPosition(CVector(1362.245, 480.637, 1803.102))
 			end
 
 			SetVar("R", r)
 		</script>
 	</trigger>
-
-
-
-
-
-<!-- Тарелку под землю -->
-	<trigger Name="trAliensShipAnderEarth" active="1">
-		<event timeout="0" eventid="GE_TIME_PERIOD" />
-		<script>
-			local y = 0
-
-			getObj("AliensShip"):SetPosition( CVector(1366.725, y, 1801.638)) 
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-
-
-
 
 <!-- эфекты на електростанции -->
 	<trigger Name="trLightOn" active="1">
@@ -1354,9 +1343,16 @@
 	<trigger Name="RolikBegin_UFO" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+			-- by zatinu322:
+			-- дождливая погода, чтобы было красиво
+			-- и чтобы синхронизировать её с погодой на карте-дублёре
+			SetWeather(1)
 			PlayCustomMusic("Techno04")
 
-			getObj("AliensShip"):SetPosition( CVector(1366.725, 0.804, 1801.638))
+			CreateNewDummyObject("boss04chassis", "AliensShip", -1, -1, CVector(1366.725, 0, 1801.638), Quaternion(0.000, 0.617, 0.000, 0.787))
+			CreateNewDummyObject("boss04station", "AliensShipStation1", -1, -1, CVector(1367.696, -6.639, 1801.875), Quaternion(0.000, 0.617, 0.000, 0.787))
+			CreateNewDummyObject("boss04station", "AliensShipStation2", -1, -1, CVector(1368.555, -6.699, 1796.631), Quaternion(0.000, 0.990, 0.000, -0.141))
+			CreateNewDummyObject("boss04station", "AliensShipStation3", -1, -1, CVector(1362.245, -9.363, 1803.102), Quaternion(0.000, 0.373, 0.000, -0.928))
 
 			Fly("UFO_cam01", CINEMATIC_NO_AIM, 0, 3.5, 0, 0 )
 			Fly("UFO_cam022", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
@@ -1389,6 +1385,9 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			getObj("AliensShip"):SetPosition( CVector(1366.725, 490.804, 1801.638))
+			getObj("AliensShipStation1"):SetPosition(CVector(1367.696, 483.361, 1801.875))
+			getObj("AliensShipStation2"):SetPosition(CVector(1368.555, 483.301, 1796.631))
+			getObj("AliensShipStation3"):SetPosition(CVector(1362.245, 480.637, 1803.102))
 
 			RuleConsole("g_postEffect cinematicEnd")
 
@@ -1663,11 +1662,7 @@
 		</script>
 	</trigger>
 
-
-
-
-
-<!-- диолог перед боем с нло -->
+<!-- диалог перед боем с нло -->
 	<trigger Name="trBattleUFO_cam01" active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
@@ -1738,142 +1733,7 @@
 			TDeactivate("trBattleUFO_cam03")
 			TDeactivate("trBattleUFO_cam04")
 
-			CreateNewDummyObject( "r2_crag_copped_3", "cragTR", -1, -1, CVector(1255, 420, 1591), Quaternion(0.0000, 0.1951, 0.0000, 0.9808), 0)
-
-			TActivate("TRIGGER_ALIENSDIE")
-
-			getObj("AliensShip"):NextState()
-
-			SetCameraBehindPlayerVehicle()
-
-			PlayCustomMusic("Battle01")
-
-			local bossp = GetEntityByName("AliensShip")
-			if bossp then
-				ShowBossIndicator(bossp:GetId())
-			end
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-
-
-
-
-<!-- смерть НЛО -->
-	<trigger Name="RolikBegin_UFODIE" active="0">
-		<event timeout="0" eventid="GE_TIME_PERIOD" />
-		<script>
-			PlayCustomMusic("Passage04")
-
-			local Plf = GetPlayerVehicle()
-			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			local PlfCoor2 = PlfCoor
-			local ufopos = GetEntityByName("AliensShip"):GetPosition()
-			local camPos = GetCameraPos()
-			PlfCoor.y = PlfCoor.y + 5
-			PlfCoor.z = PlfCoor.z + 60
-
-			PlfCoor2.y = PlfCoor2.y + 10
-			PlfCoor2.z = PlfCoor2.z + 7
-
-			FlyAround( 1, 0, 15, 2, PlfCoor2, PlfID, 1, 0 )
-			Fly("UFODIE_cam01", CINEMATIC_NO_AIM, 0, 6, 0, 0, nil, nil, nil)
-			Fly("UFODIE_cam02", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
-			Fly("UFODIE_cam032", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
-			Fly("UFODIE_cam031", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
-			Fly("UFODIE_cam04", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
-			FlyAround( 1, 0, 70, 3, PlfCoor, PlfID, 0, 0 )
-			Fly("start_game", CINEMATIC_NO_AIM, 0, 67, 0, 1 )
-			StartCinematic()
-
-			CreateEffectTTLed("ET_S_UFODEATH", CVector(ufopos), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 30000)
-
-			GetEntityByName("AliensShip"):NextState()
-			local moverId = CreateNewObject { prototypeName	= "cinematicMover", objName  = "" }
-			local mover = GetEntityByID( moverId ) 
-			local controlledObj = GetEntityByName("AliensShip")
-			if controlledObj then
-				mover:SetObjAndPath( controlledObj:GetId(), "bossMove1", 30 )
-			end
-
-			TActivate("RolikEnd_UFODIE")
-			TActivate("trUFODIE_EF")
-			TActivate("trUFODIE_cam04")
-			TActivate("trUFODIE_cam05")
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="trUFODIE_EF" active="0">
-		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
-		<script>
-			local ufo = GetEntityByName("AliensShip")
-			local ufoPos = ufo:GetPosition()
-
-			if (ufoPos.x > 1721) and (1729 > ufoPos.x) and (ufoPos.z > 1726 ) and (1734 > ufoPos.z ) then
-				CreateNewSgNodeObject("ET_PS_ROCKS1", "boom01", -1, -1, CVector(1697.341, 463.358, 1706.809), Quaternion(0.078, 0.855, 0.496, 0.134))
-				CreateNewSgNodeObject("ET_PS_DRONE_EX", "boom011", -1, -1, CVector(1697.341, 463.358, 1706.809), Quaternion(0.078, 0.855, 0.496, 0.134))
-			end
-
-			if (ufoPos.x > 1810) and (1818 > ufoPos.x) and (ufoPos.z > 1654 ) and ( 1662 > ufoPos.z ) then
-				CreateNewSgNodeObject("ET_PS_ROCKS1", "boom02", -1, -1, CVector(1808.321, 412.275, 1578.256), Quaternion(0.078, 0.855, 0.496, 0.134))
-				CreateNewSgNodeObject("ET_PS_DRONE_EX", "boom022", -1, -1, CVector(1808.321, 412.275, 1578.256), Quaternion(0.078, 0.855, 0.496, 0.134))
-			end
-
-			if (ufoPos.x > 1903) and (1911 > ufoPos.x) and (ufoPos.z > 1594 ) and (1602 > ufoPos.z ) then
-				CreateNewSgNodeObject("ET_PS_AIRWAVE", "boom03", -1, -1, CVector(1943.270, 295.807, 1407.104), Quaternion(0.078, 0.855, 0.496, 0.134))
-				CreateNewSgNodeObject("ET_PS_BIG_SMOKE12", "boom031", -1, -1, CVector(1943.270, 295.807, 1407.104), Quaternion(0.078, 0.855, 0.496, 0.134))
-				CreateNewSgNodeObject("ET_PS_BIG_SMOKE12", "boom032", -1, -1, CVector(1943.270, 295.807, 1407.104), Quaternion(0.078, 0.855, 0.496, 0.134))
-				trigger:Deactivate()
-			end
-		</script>
-	</trigger>
-
-	<trigger Name="trUFODIE_cam04" active="0">
-		<event flypath="UFODIE_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-			AddCinematicMessage( 131, 9 )
-
-			local vehPlayer = GetPlayerVehicle()
-			local camPos = GetCameraPos()
-			if vehPlayer then
-				vehPlayer:SetGamePositionOnGround( CVector(1362.469, 417.135, 1801.740))
-				vehPlayer:SetRotation(Quaternion(-0.005, -0.793, -0.012, 0.610))
-			end
-
-			CreateEffectTTLed("ET_S_UFODEATH", CVector(camPos), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 30000)
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="trUFODIE_cam05" active="0">
-		<event flypath="start_game" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-			SetWeather(0)
-
-			PlayCustomMusic("Bio07unloop")
-
-			AddCinematicMessage( 77771, 0.1)
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="RolikEnd_UFODIE" active="0">
-		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
-		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
-		<script>
-			TDeactivate("trUFODIE_EF")
-			TDeactivate("trUFODIE_cam04")
-			TDeactivate("trUFODIE_cam05")
-
-			StopPlayingCustomMusic()
-			ShowDeathMenu()
+			PassToMap("r2m1_bossfight", "ALIENSLoc", -1, true)
 
 			trigger:Deactivate()
 		</script>

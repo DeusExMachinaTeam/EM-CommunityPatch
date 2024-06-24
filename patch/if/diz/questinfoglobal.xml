@@ -1959,6 +1959,9 @@
 		<Map
 			name="r2m1"
 			targetObjName="ALIENSLoc" />
+		<Map
+			name="r2m1_bossfight"
+			targetObjName="ALIENSLoc" />
 	</QuestInfo>
 
 	<QuestInfo

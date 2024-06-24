@@ -829,26 +829,6 @@
 		</script>
 	</trigger>
 
-
-
-
-
-	<trigger Name="TRIGGER_ALIENSDIE" active="0">
-		<event eventid="GE_OBJECT_DIE" ObjName="AliensShip" />
-		<script>
-			TActivate( "RolikBegin_UFODIE" )
-
-			CompleteQuest( "r2m1_DestroyAlienShip" )
-			CompleteQuest( "r4m2_DestroyPlate" )
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-
-
-
-
 	<trigger Name="Trigger_Antipod" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
