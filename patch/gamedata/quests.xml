@@ -1394,7 +1394,7 @@
 		CheckAll="1"
 		ConditionToGive="all complete"
 		OnComplete="AddPlayerMoney(2000)"
-		OnFail='SetTolerance(1100, 1010, RS_NEUTRAL); TDeactivate("trNearCaravanLeader"); TDeactivate("trLeaderCaravanDie"); TDeactivate("trLeaderCarDie")'
+		OnFail='SetTolerance(1100, 1010, RS_NEUTRAL); TDeactivate("trNearCaravanLeader"); TDeactivate("trLeaderGuardsDie"); TDeactivate("trMainCarDie")'
 		Levels="r1m4">
 		<quest
 			Name="TRS_Quest2"
@@ -1448,7 +1448,7 @@
 			CheckAll="0"
 			ConditionToGive="all taken"
 			PrecedingQuests="FreeExtremistLeader_Quest1"
-			OnComplete='TActivate("trFreeExtremistLeader_Take")'
+			OnComplete='TActivate("trNearCaravanLeader")'
 			Levels="r1m4" />
 
 		<quest
