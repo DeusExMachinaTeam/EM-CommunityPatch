@@ -783,7 +783,7 @@
 	<trigger Name="PARISTUBECREATE" active="1">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
-			CreateNewDummyObject( "factory_tube1sam", "tubezagr", -1, -1, CVector(2250, 224, 5715), Quaternion(0.0342, -0.8608, 0.0583, 0.5045), 0)
+			CreateNewDummyObject( "factory_tube1sam", "tubezagr", -1, -1, CVector(2249.363, 230.216, 5713.524), Quaternion(0.0342, -0.8608, 0.0583, 0.5045), 0)
 
 			trigger:Deactivate()
 		</script>
