@@ -16,7 +16,7 @@
     <br />
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">🐛Создать багрепорт</a>
     ·
-    <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Страница на DeusWiki (только VPN)</a>
+    <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Страница на DeusWiki</a>
   </p>
 </div>
 
