@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Paths>
 	<Path
+		Name="CaravanToOlme1_path">
+		<Point
+			coord="6139.438 7616.089" />
+
+		<Point
+			coord="6163.228 7821.203" />
+	</Path>
+
+	<Path
+		Name="CaravanToOlme2_path">
+		<Point
+			coord="6149.894 7633.687" />
+
+		<Point
+			coord="6172.339 7819.747" />
+	</Path>
+
+	<Path
+		Name="CaravanToOlme3_path">
+		<Point
+			coord="6131.827 7635.176" />
+
+		<Point
+			coord="6154.846 7820.864" />
+	</Path>
+
+	<Path
 		Name="OutSpyMerRolik_path">
 		<Point
 			coord="5022.234 4030.077" />
