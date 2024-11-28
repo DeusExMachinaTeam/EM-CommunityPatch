@@ -436,8 +436,9 @@
 
 			local PlfID = GetPlayerVehicleId()
 			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 25*0.74
-			PlfCoor.z = PlfCoor.z + 25*0.74
+			PlfCoor.x = PlfCoor.x - 10
+			PlfCoor.y = PlfCoor.y + 5
+			PlfCoor.z = PlfCoor.z - 15
 
 			local b = SpawnMessageBox( "8801" )
 
@@ -446,13 +447,25 @@
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
 
-				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				FlyAround(0.1, 0, 25, 3, PlfCoor, PlfID, 1, 1)
 				StartCinematic()
-				Plf:SetExternalPathByName("ReturnPath")
 
+				TActivate("trConv_Fade")
 				TActivate("trConv_End")
 			end
  		</script>
+	</trigger>
+
+	<trigger Name="trConv_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			trigger:Deactivate()    
+		</script>
 	</trigger>
 
 	<trigger Name="trConv_End" active="0">
@@ -460,16 +473,15 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			RestoreAllToleranceStatus()
+			
+			Plf = GetPlayerVehicle()
+			Plf:SetGamePositionOnGround(CVector(2740.853, 228.788, 489.311))
+			Plf:SetRotation(Quaternion(-0.025, -0.193, 0.010, 0.981))
 
 			SetCameraBehindPlayerVehicle()
 
-			Plf = GetPlayerVehicle()
-			if Plf then
-				Plf:PlaceToEndOfPath("ReturnPath")
-				Plf:SetGamePositionOnGround(CVector(2740.853, 228.788, 489.311))
-				Plf:SetRotation(Quaternion(-0.025, -0.193, 0.010, 0.981))
-			end
-
+			TDeactivate("trConv_Fade")
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
