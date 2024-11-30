@@ -23,12 +23,12 @@
 	<Sample
 		id="5"
 		sound="data\sounds\radio\r_player_ishit_1.ogg"
-		text="yahoo!" />
+		text="Yahoo!" />
 
 	<Sample
 		id="6"
 		sound="data\sounds\radio\r_player_ishit_2.ogg"
-		text="eat this!" />
+		text="Eat this!" />
 
 	<Sample
 		id="7"
@@ -48,12 +48,12 @@
 	<Sample
 		id="10"
 		sound="data\sounds\radio\r_player_shot_2.ogg"
-		text="it hurts!" />
+		text="It hurts!" />
 
 	<Sample
 		id="11"
 		sound="data\sounds\radio\r_player_shot_3.ogg"
-		text="Its just a scratch." />
+		text="It's just a scratch." />
 
 	<Sample
 		id="12"
@@ -63,7 +63,7 @@
 	<Sample
 		id="13"
 		sound="data\sounds\radio\r_player_kill_1.ogg"
-		text="Rest in pieces" />
+		text="Rest in pieces." />
 
 	<Sample
 		id="14"
@@ -88,7 +88,7 @@
 	<Sample
 		id="18"
 		sound="data\sounds\radio\r_player_dead_1.ogg"
-		text="it’s gonna blow!" />
+		text="It’s gonna blow!" />
 
 	<Sample
 		id="19"
@@ -98,7 +98,7 @@
 	<Sample
 		id="20"
 		sound="data\sounds\radio\r_player_dead_3.ogg"
-		text="It's so cold [cough, cough]" />
+		text="It's so cold…" />
 
 	<Sample
 		id="21"
@@ -108,7 +108,7 @@
 	<Sample
 		id="22"
 		sound="data\sounds\radio\r_player_allydead_1.ogg"
-		text="What have you done!?" />
+		text="What have you done?!" />
 <!-- Bandits-->
 	<Sample
 		id="23"
@@ -148,7 +148,7 @@
 	<Sample
 		id="30"
 		sound="data\sounds\radio\r_bandit_kill_1.ogg"
-		text="Mwa-ha-ha" />
+		text="Mwa-ha-ha!" />
 
 	<Sample
 		id="31"
@@ -158,7 +158,7 @@
 	<Sample
 		id="32"
 		sound="data\sounds\radio\r_bandit_dead_1.ogg"
-		text="AAAaarrgh!" />
+		text="A-a-a-a-argh!" />
 
 	<Sample
 		id="33"
@@ -168,7 +168,7 @@
 	<Sample
 		id="34"
 		sound="data\sounds\radio\r_bandit_dead_3.ogg"
-		text="Noooo!" />
+		text="No-o-o-o!" />
 
 	<Sample
 		id="35"
@@ -188,7 +188,7 @@
 	<Sample
 		id="38"
 		sound="data\sounds\radio\r_farmer_ffire_1.ogg"
-		text="Are you crazy? " />
+		text="Are you crazy?" />
 
 	<Sample
 		id="39"
@@ -263,7 +263,7 @@
 	<Sample
 		id="53"
 		sound="data\sounds\radio\r_scholar_greet_1.ogg"
-		text="Greetings, traveler" />
+		text="Greetings, traveler." />
 
 	<Sample
 		id="54"
@@ -323,7 +323,7 @@
 	<Sample
 		id="65"
 		sound="data\sounds\radio\r_scholar_dead_1.ogg"
-		text="Well I never. " />
+		text="Well, I never…" />
 
 	<Sample
 		id="66"
@@ -408,12 +408,12 @@
 	<Sample
 		id="82"
 		sound="data\sounds\radio\r_cit_dead_2.ogg"
-		text="What a shame." />
+		text="What a shame…" />
 
 	<Sample
 		id="83"
 		sound="data\sounds\radio\r_cit_dead_3.ogg"
-		text="I'll never make it" />
+		text="I'll never make it…" />
 
 	<Sample
 		id="84"
@@ -483,17 +483,17 @@
 	<Sample
 		id="97"
 		sound="data\sounds\radio\r_ar_dead_1.ogg"
-		text="That's too much..." />
+		text="That's too much…" />
 
 	<Sample
 		id="98"
 		sound="data\sounds\radio\r_ar_dead_2.ogg"
-		text="Utter crash" />
+		text="Utter crash…" />
 
 	<Sample
 		id="99"
 		sound="data\sounds\radio\r_ar_dead_3.ogg"
-		text="Such ill luck." />
+		text="Such ill luck…" />
 
 	<Sample
 		id="100"
@@ -503,7 +503,7 @@
 	<Sample
 		id="101"
 		sound="data\sounds\radio\r_druid_greet_1.ogg"
-		text="Have a good hunt" />
+		text="Have a good hunt." />
 
 	<Sample
 		id="102"
@@ -518,7 +518,7 @@
 	<Sample
 		id="104"
 		sound="data\sounds\radio\r_druid_ffire_2.ogg"
-		text="Repress your anger" />
+		text="Repress your anger." />
 
 	<Sample
 		id="105"
@@ -563,22 +563,22 @@
 	<Sample
 		id="113"
 		sound="data\sounds\radio\r_druid_dead_1.ogg"
-		text="Mother earth, take me.." />
+		text="Mother earth, take me…" />
 
 	<Sample
 		id="114"
 		sound="data\sounds\radio\r_druid_dead_2.ogg"
-		text="It's over..." />
+		text="It's over…" />
 
 	<Sample
 		id="115"
 		sound="data\sounds\radio\r_druid_dead_3.ogg"
-		text="See you in heaven" />
+		text="See you in heaven…" />
 
 	<Sample
 		id="116"
 		sound="data\sounds\radio\r_druid_allydead_1.ogg"
-		text="He was a great man" />
+		text="He was a great man…" />
 <!-- Ulukchane-->
 	<Sample
 		id="117"
@@ -598,7 +598,7 @@
 	<Sample
 		id="120"
 		sound="data\sounds\radio\r_iron_ffire_2.ogg"
-		text="What a re you doing?" />
+		text="What are you doing?" />
 
 	<Sample
 		id="121"
@@ -623,7 +623,7 @@
 	<Sample
 		id="125"
 		sound="data\sounds\radio\r_iron_shot_1.ogg"
-		text="Bloody hell" />
+		text="Bloody hell!" />
 
 	<Sample
 		id="126"
@@ -648,7 +648,7 @@
 	<Sample
 		id="130"
 		sound="data\sounds\radio\r_iron_dead_2.ogg"
-		text="What's burning? Aaaargh!" />
+		text="What's burning? A-a-a-argh!" />
 
 	<Sample
 		id="131"
@@ -658,17 +658,17 @@
 	<Sample
 		id="132"
 		sound="data\sounds\radio\r_iron_allydead_1.ogg"
-		text="It's a pity..." />
+		text="It's a pity…" />
 <!-- Robots-->
 	<Sample
 		id="133"
 		sound="data\sounds\radio\r_robot_attack_1.ogg"
-		text="Target acquired" />
+		text="Target acquired." />
 
 	<Sample
 		id="134"
 		sound="data\sounds\radio\r_robot_attack_2.ogg"
-		text="Intruder, Alert!" />
+		text="Intruder, alert!" />
 
 	<Sample
 		id="135"
@@ -683,27 +683,27 @@
 	<Sample
 		id="137"
 		sound="data\sounds\radio\r_robot_ishit_2.ogg"
-		text="Target is hit" />
+		text="Target is hit." />
 
 	<Sample
 		id="138"
 		sound="data\sounds\radio\r_robot_shot_1.ogg"
-		text="Critical damage" />
+		text="Critical damage." />
 
 	<Sample
 		id="139"
 		sound="data\sounds\radio\r_robot_shot_2.ogg"
-		text="Calculating damage" />
+		text="Calculating damage." />
 
 	<Sample
 		id="140"
 		sound="data\sounds\radio\r_robot_kill_1.ogg"
-		text="Enemy down" />
+		text="Enemy down." />
 
 	<Sample
 		id="141"
 		sound="data\sounds\radio\r_robot_kill_2.ogg"
-		text="Stage clear" />
+		text="Stage clear." />
 
 	<Sample
 		id="142"
@@ -718,12 +718,12 @@
 	<Sample
 		id="144"
 		sound="data\sounds\radio\r_robot_dead_3.ogg"
-		text="Shotdown initiated" />
+		text="Shotdown initiated." />
 
 	<Sample
 		id="145"
 		sound="data\sounds\radio\r_robot_allydead_1.ogg"
-		text="Need Reinforcement" />
+		text="Need reinforcement." />
 <!-- Arabs-->
 	<Sample
 		id="146"
@@ -758,7 +758,7 @@
 	<Sample
 		id="152"
 		sound="data\sounds\radio\r_arab_ishit_1.ogg"
-		text="My armor is giving in" />
+		text="My armor is giving in!" />
 
 	<Sample
 		id="153"
@@ -773,7 +773,7 @@
 	<Sample
 		id="155"
 		sound="data\sounds\radio\r_arab_shot_2.ogg"
-		text="Yeee-haaa!" />
+		text="Ye-e-e-ha-a-a!" />
 
 	<Sample
 		id="156"
@@ -793,7 +793,7 @@
 	<Sample
 		id="159"
 		sound="data\sounds\radio\r_arab_dead_2.ogg"
-		text="Zulfia, my love..." />
+		text="Zulfia, my love…" />
 
 	<Sample
 		id="160"
@@ -833,7 +833,7 @@
 	<Sample
 		id="167"
 		sound="data\sounds\radio\r_madman_shot_1.ogg"
-		text="Yess! Give it some more!" />
+		text="Yes-s! Give it some more!" />
 
 	<Sample
 		id="168"

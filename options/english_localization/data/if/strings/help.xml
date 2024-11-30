@@ -6,7 +6,7 @@
 
 	<string
 		id="HELP_ID_INVENTORY"
-		value="The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. Weapon slots have indications of gun shooting sector, drawn into them. |The right part contains objects located in the nearby crates and boxes. If there’s no crate around, it will be empty. If you put something to the empty right part, the crate will appear.| To move object, drag and drop it with the left mouse button. If it is a weapon, you can immediately equip it by dragging it over the highlighted weapon slot. If it is a gadget, you can immediately equip it by dragging it over the highlighted gadget slot." />
+		value=" The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. Weapon slots have indications of gun shooting sector, drawn into them. | The right part contains objects located in the nearby crates and boxes. If there’s no crate around, it will be empty. If you put something to the empty right part, the crate will appear.| To move an object, drag and drop it with the left mouse button. If it is a weapon, you can immediately equip it by dragging it over the highlighted weapon slot. If it is a gadget, you can immediately equip it by dragging it over the highlighted gadget slot." />
 
 	<string
 		id="HELP_ID_VEHICLE_CHARACTERISTICS_title"
@@ -14,7 +14,7 @@
 
 	<string
 		id="HELP_ID_VEHICLE_CHARACTERISTICS"
-		value="The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. The right part contains all your vehicle properties, including armor properties and resistances, engine and control stats. You can also rotate 3d image of your truck to get a better view of it. You can equip different guns and gadgets and see you truck image and stats change. If you click the number by the weapon name, you can link it to one of five groups. Later in the game, when you have several guns with different properties, you will find grouping quite useful." />
+		value=" The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. The right part contains all your vehicle properties, including armor properties and resistances, engine and control stats. You can also rotate 3D-image of your truck to get a better view of it. You can equip different guns and gadgets and see your truck image and stats change. If you click the number by the weapon name, you can link it to one of five groups. Later in the game, when you have several guns with different properties, you will find grouping quite useful." />
 
 	<string
 		id="HELP_ID_QUESTLOG_QUESTS_title"
@@ -22,7 +22,7 @@
 
 	<string
 		id="HELP_ID_QUESTLOG_QUESTS"
-		value="Mission list contains all the quests you have taken. You can sort them by the starting map with the combo box. You can also turn on and off option of showing completed quests.|Each mission has a description that will help you to accomplish it. Near the description you can see a navpoint button. When pressed, it displays the mission goal on the map and the radar.|Main quest color is orange, optional quest – violet.|A mission may have a number of sub-goals that must be completed in order to finish quest.The sub-goals are situated under the mission description and may have separate navpoint buttons." />
+		value=" Mission list contains all the quests you have taken. You can sort them by the starting map with the combo box. You can also turn on and off option of showing completed quests.| Each mission has a description that will help you to accomplish it. Near the description you can see a navpoint button. When pressed, it displays the mission goal on the map and the radar.| Main quest color is orange, optional quest – purple.| A mission may have a number of sub-goals that must be completed in order to finish quest.The sub-goals are situated under the mission description and may have separate navpoint buttons." />
 
 	<string
 		id="HELP_ID_QUESTLOG_QUEST_ITEMS_title"
@@ -30,7 +30,7 @@
 
 	<string
 		id="HELP_ID_QUESTLOG_QUEST_ITEMS"
-		value="The “quest items” button will bring up the special items windows. There you may find a list of objects, needed to complete certain quests as well as its description and 3D representation." />
+		value=" The &quot;Quest items&quot; button will bring up the special items windows. There you may find a list of objects, needed to complete certain quests as well as its description and 3D representation." />
 
 	<string
 		id="HELP_ID_LOCAL_MAP_title"
@@ -38,7 +38,7 @@
 
 	<string
 		id="HELP_ID_LOCAL_MAP"
-		value="Map is a useful tool invaluable for the orientation on the land. Locations of towns, map exits and places of interest may be found there.|There are two modes: information mode and trade mode. You can switch between them by clicking corresponding buttons at the upper right of the window.|When in information mode you will see the description of the selected object.|When in trade mode, you will see the list of trade goods of the selected settlement. The price list refers to the last time you visited that place and is saved automatically. You can make a shortcut to the selected town with the “store” button. It will be stored at the bottom of the window. To delete a stored name, release the “store” button when the town is selected.| In this window, you can set a user navpoint by right-clicking on the map space. Select objects by left-clicking on them" />
+		value=" Map is a useful tool invaluable for the orientation on the land. Locations of towns, map exits and places of interest may be found there.| There are two modes: information mode and trade mode. You can switch between them by clicking corresponding buttons at the upper right of the window.| When in information mode you will see the description of the selected object.| When in trade mode, you will see the list of trade goods of the selected settlement. The price list refers to the last time you visited that place and is saved automatically. You can make a shortcut to the selected town with the &quot;Store&quot; button. It will be stored at the bottom of the window. To delete a stored name, release the &quot;Store&quot; button when the town is selected.| In this window, you can set a user navpoint by right-clicking on the map space. Select objects by left-clicking on them" />
 
 	<string
 		id="HELP_ID_GLOBAL_MAP_title"
@@ -46,7 +46,7 @@
 
 	<string
 		id="HELP_ID_GLOBAL_MAP"
-		value="On the global map, you can see all maps, you have already visited and the roads between them. Here you can switch between maps to review your progress and trade roads." />
+		value=" On the global map, you can see all maps, you have already visited and the roads between them. Here you can switch between maps to review your progress and trade roads." />
 
 	<string
 		id="HELP_ID_HISTORY_title"
@@ -54,7 +54,7 @@
 
 	<string
 		id="HELP_ID_HISTORY"
-		value="All major events that happened with the player are scribed here for you reference." />
+		value=" All major events that happen with the player are scribed here for your reference." />
 
 	<string
 		id="HELP_ID_BOOKS_title"
@@ -62,7 +62,7 @@
 
 	<string
 		id="HELP_ID_BOOKS"
-		value="All kind of books and documents, found during travels are stored here." />
+		value=" All kinds of books and documents, found during travels, are stored here." />
 
 	<string
 		id="HELP_ID_RELATIONS_title"
@@ -70,7 +70,7 @@
 
 	<string
 		id="HELP_ID_RELATIONS"
-		value="It is advised to keep an eye on your relationships with different factions, inhabiting the world. Some are friendly towards you, some are hostile. The relationship may change depending on your actions, so visit this window to track the changes." />
+		value=" It is advised to keep an eye on your relationships with different factions, inhabiting the world. Some are friendly towards you, some are hostile. The relationship may change depending on your actions, so visit this window to track the changes." />
 
 	<string
 		id="HELP_ID_STATS_title"
@@ -78,7 +78,7 @@
 
 	<string
 		id="HELP_ID_STATS"
-		value="In this window, you can learn what distance you have traveled or the amount of bullets shot as well as other statistic information." />
+		value=" In this window, you can learn what distance you have traveled or the amount of bullets shot as well as other statistic information." />
 
 	<string
 		id="HELP_ID_ENCYCLOPAEDIA_title"
@@ -86,7 +86,7 @@
 
 	<string
 		id="HELP_ID_ENCYCLOPAEDIA"
-		value="Every piece of lore, collected by player during travels is stored here. Chose the kind of information you want to review with the combo box. Then select the necessary entry from the list." />
+		value=" Every piece of lore, collected by player during travels is stored here. Choose the kind of information you want to review with the combo box. Then select the necessary entry from the list." />
 
 	<string
 		id="HELP_ID_SHOP_GUNS_title"
@@ -94,7 +94,7 @@
 
 	<string
 		id="HELP_ID_SHOP_GUNS"
-		value="The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. Weapon slots have indications of gun shooting sector, drawn into them. |The right part contains the object sold by the shop and has two modes: weapons and gadgets mode and trade goods mode. The right part contains a number of weapons and gadgets.| To buy something, drag and drop it with the left mouse button. If it is a weapon, you can immediately equip it by dragging it over the highlighted weapon slot. If it is a gadget, you can immediately equip it by dragging it over the highlighted gadget slot. You can also buy objects by right clicking on them.| To sell something drag and drop it with the left mouse button from the left part of the screen to the right one. You can also right click on the item in your cargo hold to sell it.  " />
+		value=" The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots. Weapon slots have indications of gun shooting sector, drawn into them. | The right part contains the object sold by the shop and has two modes: weapons and gadgets mode and trade goods mode. The right part contains a number of weapons and gadgets.| To buy something, drag and drop it with the left mouse button. If it is a weapon, you can immediately equip it by dragging it over the highlighted weapon slot. If it is a gadget, you can immediately equip it by dragging it over the highlighted gadget slot. You can also buy objects by right clicking on them.| To sell something drag and drop it with the left mouse button from the left part of the screen to the right one. You can also right click on the item in your cargo hold to sell it." />
 
 	<string
 		id="HELP_ID_SHOP_GOODS_title"
@@ -102,7 +102,7 @@
 
 	<string
 		id="HELP_ID_SHOP_GOODS"
-		value="The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots.| The right part contains a list of trade goods with its sale price, purchase price and quantity. The merchandises available for sale are highlighted with bright color, the other are grayed out. You can enable the filter that will only show trade goods available for sale.|Left-click on the merchandise (any place within a row) to buy one piece of it.|To sell something drag and drop it with the left mouse button from the left part of the screen to the right one. You can also right click on the item in your cargo hold to sell it. " />
+		value=" The left part represents the contents of your truck’s cargo hold, weapon slots and gadget slots.| The right part contains a list of trade goods with its sale price, purchase price and quantity. The merchandises available for sale are highlighted with bright color, the other are grayed out. You can enable the filter that will only show trade goods available for sale.| Left-click on the merchandise (any place within a row) to buy one piece of it.| To sell something drag and drop it with the left mouse button from the left part of the screen to the right one. You can also right click on the item in your cargo hold to sell it. " />
 
 	<string
 		id="HELP_ID_WORKSHOP_title"
@@ -110,7 +110,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP"
-		value="Here you can buy a new cab or car body, refuel, repair and repaint your truck and reload your guns that have limited ammo. |The left part contains all your vehicle properties, including armor properties and resistances, engine and control stats. You can also rotate 3d image of your truck to get a better view of it. |The right part has a number of options. Click corresponding button to select the work you want to be performed on your truck." />
+		value=" Here you can buy a new cabin or truck body, refuel, repair and repaint your truck and reload your guns that have limited ammo. | The left part contains all your vehicle properties, including armor properties and resistances, engine and control stats. You can also rotate 3D-image of your truck to get a better view of it. |The right part has a number of options. Click corresponding button to select the work you want to be performed on your truck." />
 
 	<string
 		id="HELP_ID_WORKSHOP_CABINS_title"
@@ -118,7 +118,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_CABINS"
-		value="Click the “buy cabin” icon to buy a new cabin. |A list with available cabins will appear. Select the one you need by clicking its picture and watch the changes that will be made to your truck: the 3d image will change as well as vehicle stats. Click the on the “buy” button to enter second stage of the purchase." />
+		value=" Click the &quot;Buy cabin&quot; icon to buy a new cabin. | A list with available cabins will appear. Select the one you need by clicking its picture and watch the changes that will be made to your truck: the 3D-image will change as well as vehicle stats. Click the on the &quot;Buy&quot; button to enter second stage of the purchase." />
 
 	<string
 		id="HELP_ID_WORKSHOP_BASKETS_title"
@@ -126,7 +126,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_BASKETS"
-		value="Click the “buy body” button. A list with available bodies will appear. Select the one you need by clicking its picture and watch the changes that will be made to your truck: the 3d image will change as well as vehicle stats. Click the on the “buy” button to enter second stage of the purchase." />
+		value=" Click the &quot;Buy body&quot; button. A list with available bodies will appear. Select the one you need by clicking its picture and watch the changes that will be made to your truck: the 3D-image will change as well as vehicle stats. Click the on the &quot;Buy&quot; button to enter second stage of the purchase." />
 
 	<string
 		id="HELP_ID_WORKSHOP_VEHICLE_title"
@@ -134,7 +134,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_VEHICLE"
-		value="Click the “Buy new truck” button. Select the truck you want to purchase by clicking on the large triangular buttons, select the color of your purchase with the small triangular buttons. Click the on the “buy” button to enter second stage of the purchase" />
+		value=" Click the &quot;Buy new truck&quot; button. Select the truck you want to purchase by clicking on the large triangular buttons, select the color of your purchase with the small triangular buttons. Click the on the &quot;Buy&quot; button to enter second stage of the purchase" />
 
 	<string
 		id="HELP_ID_WORKSHOP_SKIN_title"
@@ -142,7 +142,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_SKIN"
-		value="Scroll through a number of skins available it the workshop with the small triangular buttons, then confirm the coloring with the button." />
+		value=" Scroll through a number of skins available it the workshop with the small triangular buttons, then confirm the coloring with the button." />
 
 	<string
 		id="HELP_ID_WORKSHOP_REFUEL_title"
@@ -150,7 +150,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_REFUEL"
-		value="Click the large “Refuel” button to completely refuel your truck. |Otherwise you can enter the expanded mode by clicking a small button. Here you can select the exact amount of fuel to be bought with the slider. Then confirm the operation by clicking on the button with the price." />
+		value=" Click the large &quot;Refuel&quot; button to completely refuel your truck. | Otherwise you can enter the expanded mode by clicking a small button. Here you can select the exact amount of fuel to be bought with the slider. Then confirm the operation by clicking on the button with the price." />
 
 	<string
 		id="HELP_ID_WORKSHOP_REPAIR_title"
@@ -158,7 +158,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_REPAIR"
-		value="In order completely repair you truck, just click “repair all” button. It will repair all your truck’s parts and weapons up to the maximum or considering the amount of money you have. |If you want detailed control over the process, you can click “custom repair” button (a small triangle by the large button). The list of all repairable parts will appear; you can fix any one by clicking its name. |You can also expand each “repair part” button by clicking a small “plus”. Now you can select the exact amount of damage you’ll repair with the slider. Then confirm the operation with the part name button." />
+		value=" In order completely repair you truck, just click &quot;Repair all&quot; button. It will repair all your truck’s parts and weapons up to the maximum or considering the amount of money you have. | If you want detailed control over the process, you can click &quot;Custom repair&quot; button (a small triangle by the large button). The list of all repairable parts will appear; you can fix any one by clicking its name. | You can also expand each &quot;Repair part&quot; button by clicking a small &quot;plus&quot;. Now you can select the exact amount of damage you’ll repair with the slider. Then confirm the operation with the part name button." />
 
 	<string
 		id="HELP_ID_WORKSHOP_RECHARGE_title"
@@ -166,7 +166,7 @@
 
 	<string
 		id="HELP_ID_WORKSHOP_RECHARGE"
-		value="You can either reload all your weapons at a time or select guns and amount of ammo to be loaded.|In order to completely reload you truck, just click “reload all” button. It will reload all your truck’s weapons up to the maximum or considering the amount of money you have.|If you want detailed control over the process, you can click “custom reload” button (a small triangle by the large button). The list of all weapons needing reload will appear; you can reload any one by clicking its name.|You can also expand each “reload weapon” button by clicking a small “plus”. Now you can select the exact amount of ammo you’ll load your gun with. Then confirm the operation with the part name button." />
+		value=" You can either reload all your weapons at a time or select guns and amount of ammo to be loaded.| In order to completely reload all guns, installed on your truck, just click &quot;Reload all&quot; button. It will reload all your truck’s weapons up to the maximum or considering the amount of money you have.| If you want detailed control over the process, you can click &quot;Custom reload&quot; button (a small triangle by the large button). The list of all weapons needing reload will appear; you can reload any one by clicking its name.| You can also expand each &quot;Reload weapon&quot; button by clicking a small &quot;plus&quot;. Now you can select the exact amount of ammo you’ll load your gun with. Then confirm the operation with the part name button." />
 
 	<string
 		id="HELP_ID_BUY_CABIN_title"
@@ -174,7 +174,7 @@
 
 	<string
 		id="HELP_ID_BUY_CABIN"
-		value="You will be offered to move the contents of your old cabin’s slots to the new one’s. You can either “drag and drop” item or click “Move Everything” button. Things that are left in the old cabin will be sold with it. When chosen, click “buy” button to confirm the purchase. " />
+		value=" You will be offered to move the contents of your old cabin’s slots to the new one’s. You can either &quot;drag and drop&quot; item or click &quot;Move Everything&quot; button. Things that are left in the old cabin will be sold with it. When chosen, click &quot;Buy&quot; button to confirm the purchase. " />
 
 	<string
 		id="HELP_ID_BUY_BASKET_title"
@@ -182,7 +182,7 @@
 
 	<string
 		id="HELP_ID_BUY_BASKET"
-		value="You will be offered to move the contents of your old body’s slots to the new one’s. You can either “drag and drop” item or click “Move Everything” button. Things that are left in the old cabin will be sold with it. Click “buy” button to confirm the purchase." />
+		value=" You will be offered to move the contents of your old body’s slots to the new one’s. You can either &quot;drag and drop&quot; item or click &quot;Move Everything&quot; button. Things that are left in the old body will be sold with it. Click &quot;Buy&quot; button to confirm the purchase." />
 
 	<string
 		id="HELP_ID_BUY_VEHICLE_title"
@@ -190,7 +190,7 @@
 
 	<string
 		id="HELP_ID_BUY_VEHICLE"
-		value="You will be offered to move the contents of your old truck’s slots to the new one’s. You can either “drag and drop” item or click “Move Everything” button. Things that are left in the old cabin will be sold with it. Click “buy” button to confirm the purchase." />
+		value=" You will be offered to move the contents of your old truck’s slots to the new one’s. You can either &quot;drag and drop&quot; item or click &quot;Move Everything&quot; button. Things that are left in the old vehicle will be sold with it. Click &quot;Buy&quot; button to confirm the purchase." />
 
 	<string
 		id="HELP_ID_TOWN_title"
@@ -198,7 +198,7 @@
 
 	<string
 		id="HELP_ID_TOWN"
-		value="Many points of interest in the game are settlements. There you may repair and customize your truck, trade and talk with people. Press buttons in the upper right of the screen for town options: marketplace, workshop, bar and important locations." />
+		value=" Many points of interest in the game are settlements. There you may repair and customize your truck, trade and talk with people. Press buttons in the upper right of the screen for town options: marketplace, workshop, bar and important locations." />
 
 	<string
 		id="HELP_ID_BAR_title"
@@ -206,7 +206,7 @@
 
 	<string
 		id="HELP_ID_BAR"
-		value="You will often communicate with NPSs to acquire quests and to get useful information. They may be found at the bars of different settlements.| To the right, you can see the list of NPC’s that are currently at the bar. At least one of them is always eager to give you a mission to accomplish. It is a sure way to get some cash. To begin dialogue with someone, left-click on his picture " />
+		value=" You will often communicate with NPCs to acquire quests and get useful information. They may be found at the bars of different settlements.| To the right, you can see the list of NPCs that are currently at the bar. At least one of them is always eager to give you a mission to accomplish. It is a sure way to get some cash. To begin dialogue with someone, left-click on his picture " />
 
 	<string
 		id="HELP_ID_TALK_WITH_NPC_title"
@@ -214,11 +214,11 @@
 
 	<string
 		id="HELP_ID_TALK_WITH_NPC"
-		value="In the upper part of the screen you can see a large picture of the NPC with his or her name and the last phrase told.  In the lower part is the list of available player responses. You can select what to tell by left-clicking on the response or pressing numeric keys." />
+		value=" In the upper part of the screen you can see a large picture of the NPC with his or her name and the last phrase told. In the lower part is the list of available player responses. You can select what to say by left-clicking on the response or pressing numeric keys." />
 
 	<string
 		id="HELP_ID_RADAR"
-		value="In the upper left corner you can see radar, with arrow, pointing at the current quest destination point. There may me up to 3 arrows: one for the main plot (Orange), one for the subplot (Magenta), one for the user nav. point (Blue) You can also see the distance to the destination. When you are near your goal, the arrow will transform into the circle of the corresponding color. Enemy cars are indicated with the red dots, friendly cars – with green dots. " />
+		value=" In the upper left corner you can see radar, with arrow, pointing at the current quest destination point. There may me up to 3 arrows: one for the main plot (Orange), one for the subplot (Purple), one for the user nav. point (Blue). You can also see the distance to the destination. When you are near your goal, the arrow will transform into the circle of the corresponding color. Enemy cars are indicated with the red dots, friendly cars – with green dots. " />
 
 	<string
 		id="HELP_ID_RADAR_title"
@@ -226,7 +226,7 @@
 
 	<string
 		id="HELP_ID_SPEEDOMETER"
-		value="Speedometer indicates the current screen of your truck in km/h." />
+		value=" Speedometer indicates the current speed of your truck in km/h." />
 
 	<string
 		id="HELP_ID_SPEEDOMETER_title"
@@ -234,7 +234,7 @@
 
 	<string
 		id="HELP_ID_HP"
-		value="Structure is the integrity or your truck. If it reaches zero, you will die, so repair often. When the structure is low the red lamp will start flashing. You can repair at the workshops that may be found in every town and village." />
+		value=" Structure is the integrity or your truck. If it reaches zero, you will die, so repair often. When the structure is low the red lamp will start flashing. You can repair at the workshops that may be found in every town and village." />
 
 	<string
 		id="HELP_ID_HP_title"
@@ -242,7 +242,7 @@
 
 	<string
 		id="HELP_ID_FUEL"
-		value="If you run out of fuel, the truck will only be able to move with extremely low speed, which means death in the word full of danger. When the fuel level is low, the red lamp will start flashing. You can refuel at the workshops that may be found in every town and village." />
+		value=" If you run out of fuel, the truck will only be able to move with extremely low speed, which means certain death in the world full of danger. When the fuel level is low, the red lamp will start flashing. You can refuel at the workshops that may be found in every town and village." />
 
 	<string
 		id="HELP_ID_FUEL_title"
@@ -250,7 +250,7 @@
 
 	<string
 		id="HELP_ID_DURABILITY"
-		value="At the top of the screen the images of your truck’s cab and body are displayed. Its color indicates the current state of the armor of these parts. (Green – perfect, red – awful, grey - critical). Your truck takes damage when it is hit by enemy fire. The armor adsorbs a part of it, but slowly deteriorates. You can restore your armor at the workshops that may be found in every town and village." />
+		value="At the top of the screen the images of your truck’s cab and body are displayed. Its color indicates the current state of the armor of these parts (Green – perfect, red – awful, grey - critical). Your truck takes damage when it is hit by enemy fire. The armor adsorbs a part of it, but slowly deteriorates. You can restore your armor at the workshops that may be found in every town and village." />
 
 	<string
 		id="HELP_ID_DURABILITY_title"
@@ -266,7 +266,7 @@
 
 	<string
 		id="HELP_ID_WEAPON"
-		value="Here are displayed equipped weapons, its group number as well as the clip size and amount of ammo (for weapons that have limited ammo). The green bar displays current amount of ammo in clip. It diminishes as you fire. When it reaches zero, the reload will automatically start. While the gun is reloading, the ammo bar will turn blue. You cannot attack until the bar is filled. " />
+		value=" Here the equipped weapons are displayed, their group numbers as well as the clip sizes and amounts of ammo (for weapons that have limited ammo). The green bar displays current amount of ammo in the clip. It diminishes as you fire. When it reaches zero, the reload will automatically start. While the gun is reloading, the ammo bar will turn blue. You cannot attack until the bar is filled. " />
 
 	<string
 		id="HELP_ID_WEAPON_title"
@@ -274,7 +274,7 @@
 
 	<string
 		id="HELP_ID_FADING_MESSAGES"
-		value="Common messages are displayed here." />
+		value=" Common messages are displayed here." />
 
 	<string
 		id="HELP_ID_FADING_MESSAGES_title"
@@ -282,7 +282,7 @@
 
 	<string
 		id="HELP_ID_IMPORTANT_FADING_MESSAGES"
-		value="Important messages, concerning missions’ completion are displayed here." />
+		value=" Important messages, concerning missions’ completion are displayed here." />
 
 	<string
 		id="HELP_ID_IMPORTANT_FADING_MESSAGES_title"
@@ -290,7 +290,7 @@
 
 	<string
 		id="HELP_ID_TARGET_INFO"
-		value="In the very center of the screen is the reticle that will assist you in aiming. When you point it at the enemy, you will see its health to the right, armor to the left and its name and faction on top." />
+		value=" In the very center of the screen is the reticle that will assist you in aiming. When you point it at the enemy, you will see its health to the right, armor to the left and its name and faction on top." />
 
 	<string
 		id="HELP_ID_TARGET_INFO_title"
@@ -298,7 +298,7 @@
 
 	<string
 		id="HELP_ID_TARGET_CAPTURE"
-		value="Some missiles require time to lock on the enemy. In that case you will see the filling ring around the enemy. " />
+		value=" Some missiles require time to lock on the enemy. In that case you will see the filling ring around the enemy. " />
 
 	<string
 		id="HELP_ID_TARGET_CAPTURE_title"
@@ -306,7 +306,7 @@
 
 	<string
 		id="HELP_ID_ACTION_ICONS"
-		value="When the Cargo icon appears, you may press I button to pick up the contents of the nearby crates.| When the Horn icon appears, you may press H button to enter the town. " />
+		value=" When the Cargo icon appears, you may press I button to pick up the contents of the nearby crates.| When the Horn icon appears, you may press H button to enter the town. " />
 
 	<string
 		id="HELP_ID_ACTION_ICONS_title"
@@ -314,7 +314,7 @@
 
 	<string
 		id="HELP_ID_HOW_TO_USE_MAIN_GAME_INTERFACE_HELP"
-		value="Move the mouse cursor over the interface element’s name to see its description." />
+		value=" Move the mouse cursor over the interface element’s name to see its description." />
 
 	<string
 		id="HELP_ID_HOW_TO_USE_MAIN_GAME_INTERFACE_HELP_title"

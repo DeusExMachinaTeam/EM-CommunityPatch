@@ -2194,7 +2194,7 @@
 
 	<QuestInfo
 		questName="r2m2_GiveDisk2ToOrakul"
-		briefDiz="Deliver the second ck to the Oracle"
+		briefDiz="Deliver the second disc to the Oracle"
 		fullDiz="Finally, with the second disc at my disposal, I can go to Ignott and speak with the Oracle."
 		isMainQuest="1">
 		<Map

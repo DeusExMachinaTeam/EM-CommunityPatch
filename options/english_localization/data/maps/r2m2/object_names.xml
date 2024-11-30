@@ -6,7 +6,7 @@
 
 	<Object
 		Name="Monastery"
-		FullName="CLOISTER " />
+		FullName="CLOISTER" />
 
 	<Object
 		Name="Monastery_Bar"
@@ -38,7 +38,7 @@
 
 	<Object
 		Name="Marezzia_Shtab"
-		FullName="Staff of CD" />
+		FullName="CD Headquarters" />
 
 	<Object
 		Name="Marezzia_Workshop"
@@ -50,7 +50,7 @@
 
 	<Object
 		Name="Marezzia_Bar"
-		FullName="Bar ''Blue Oyster''" />
+		FullName="Bar &quot;Blue Oyster&quot;" />
 
 	<Object
 		Name="Marezzia_Bar_Barman"
@@ -98,7 +98,7 @@
 
 	<Object
 		Name="Toskana_Bar"
-		FullName="Cafe ''Nostalgia''" />
+		FullName="Cafe &quot;Nostalgia&quot;" />
 
 	<Object
 		Name="Toskana_Bar_Barman"
@@ -134,7 +134,7 @@
 
 	<Object
 		Name="ZnakiVillage_Bar"
-		FullName="Bar ‘’Wasteland’’" />
+		FullName="Bar &quot;Wasteland&quot;" />
 
 	<Object
 		Name="ZnakiVillage_Bar_Barman"
@@ -158,7 +158,7 @@
 
 	<Object
 		Name="NewVillage_Bar"
-		FullName="Bar ''Forsaken''" />
+		FullName="Bar &quot;Forsaken&quot;" />
 
 	<Object
 		Name="NewVillage_Bar_Barman"
@@ -174,11 +174,11 @@
 
 	<Object
 		Name="NewMechanik"
-		FullName="Mechanic Jersey " />
+		FullName="Mechanic Jersey" />
 
 	<Object
 		Name="PetrolStationTown1"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown1_Workshop"
@@ -186,7 +186,7 @@
 
 	<Object
 		Name="PetrolStationTown2"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown2_Workshop"
@@ -194,7 +194,7 @@
 
 	<Object
 		Name="PetrolStationTown3"
-		FullName="GAS STATION" />
+		FullName="Gas station" />
 
 	<Object
 		Name="PetrolStationTown3_Workshop"
@@ -214,7 +214,7 @@
 
 	<Object
 		Name="EnterToSubmarine_loc"
-		FullName="Sea gate" />
+		FullName="Sea Gate" />
 
 	<Object
 		Name="ToR2M1"
@@ -222,7 +222,7 @@
 
 	<Object
 		Name="ToR2M1small"
-		FullName="Path to Librium " />
+		FullName="Path to Librium" />
 
 	<Object
 		Name="u1"
