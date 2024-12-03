@@ -34,7 +34,7 @@
 
 	<string
 		id="sml4Cab01_diz"
-		value="Grasshopper's ca.b" />
+		value="Grasshopper's cab." />
 
 	<string
 		id="denscoutCab_diz"
@@ -594,7 +594,7 @@
 
 	<string
 		id="mirotvorecCargo01_diz"
-		value="Standard body of the Peacekeeper. Lost of armor, plenty of cargo space, place for a good gun." />
+		value="Standard body of the Peacekeeper. Lots of armor, plenty of cargo space, place for a good gun." />
 
 	<string
 		id="mirotvorecCargo02_diz"
@@ -750,7 +750,7 @@
 	<string
 		id="quest_disk_1_diz"
 		locForm="0"
-		value="The disc that used to belong to Ivan Go. Surely this item must be of great value." />
+		value="A disc made of thin plastic. Surely this item must be of great value." />
 
 	<string
 		id="quest_disk_2_diz"
