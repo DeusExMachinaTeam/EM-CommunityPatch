@@ -779,9 +779,9 @@
 		    local place = GetVar("PlayerPlace").AsInt
 		    if place==1 then
     			AddPlayerMoney(40000)
-		    elseif place==1 then
+		    elseif place==2 then
     			AddPlayerMoney(20000)
-		    elseif place==1 then
+		    elseif place==3 then
     			AddPlayerMoney(10000)
 			elseif place>4 then
 				place=4
