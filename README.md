@@ -79,7 +79,7 @@
 <div align="center">
   <b>Свежий релиз:</b>
 
-  [![Eng Readme](git_assets/download_ru.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-240403a)
+  [![Eng Readme](git_assets/download_ru.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-250112)
 
 </div>
 

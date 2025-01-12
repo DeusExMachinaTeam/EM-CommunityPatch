@@ -77,7 +77,7 @@ Installation of other mods compatible with ComMod and Community Remaster/Patch i
 <div align="center">
   <b>Latest release:</b>
 
-  [![Eng Readme](git_assets/download_eng.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-240403a)
+  [![Eng Readme](git_assets/download_eng.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-250112)
 
 </div>
 
