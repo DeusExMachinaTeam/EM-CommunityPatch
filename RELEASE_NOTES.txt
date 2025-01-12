@@ -1,3 +1,7 @@
+--- 250112a ---
+* Fix name case for some region1 trees that were not all lowercase, breaking installation on Linux
+
+
 --- 240403a ---
 * New English translation, based on Russian VO and text, no English VO support at the moment
 * Fix regression introduced in 230616a - one of materials for r4_man had an incorrect transparency (Scientist Vasiliy and similar)
