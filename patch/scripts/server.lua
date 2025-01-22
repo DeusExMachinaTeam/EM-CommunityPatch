@@ -1333,6 +1333,10 @@ function SaveAllToleranceStatus(SetStatus)
 end                     
 
 function RestoreAllToleranceStatus()
+	if not GL_ToleranceStatus then
+		println('ERROR: GL_ToleranceStatus is not defined.')
+		LOG('ERROR: GL_ToleranceStatus is not defined.')
+	end
 	for i=1,100 do
 		for j=1,100 do
 		   SetTolerance(i+1000, j+1000, GL_ToleranceStatus[i][j])
