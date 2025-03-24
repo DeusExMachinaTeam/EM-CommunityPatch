@@ -74,17 +74,25 @@ After installation, you can run the game from ComMod's launch page, but also fro
 Installation of other mods compatible with ComMod and Community Remaster/Patch is carried out in the same way.
 
 <hr>
+
 <div align="center">
+  <i>Always start new game after installing the ComPatch/Remaster or any other big mod! Previous saves won't work correctly!</i>
+  <br><br>
   <b>Latest release:</b>
 
   [![Eng Readme](git_assets/download_eng.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-250112)
-
 </div>
 
 ![Community Remaster installation][patcher_tutorial]
 
 *The process of installing Community Remaster with ComMod (Russian locale demonstration, ComMod also supports English).*
 
+## Installation instructions video
+If you're having trouble with installing the mod, you can refer to this video recorded by youtuber **Gryplen**, showing the process step-by-step. It also shows how to reactivate English voice over and radio messages that by default will play in Russian with matching English subtitles. 
+
+**Note**: English voice over significantly differs in meaning from the original Russian text. We spent a lot of time completely retranslating the game to English to match the original story that was present in the game. Keep this in mind when deciding to reactivate the English voices. Quests, books etc will still use new translation, but cutscenes will be in their original, somethimes charming, but crudely translated form.
+
+[![youtube][youtube_logo_sml] Watch on YouTube](https://youtu.be/zUl67Mx5UqU?si=GOF9Ash-ym3QARfX&t=6)
 
 </br>
 &#x1F53B; Important! &#x1F53B;
