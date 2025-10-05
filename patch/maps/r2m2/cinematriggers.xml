@@ -470,6 +470,11 @@
 			SetTolerance( 1100, 1015, RS_NEUTRAL )
 			SetTolerance( 1100, 1016, RS_NEUTRAL )
 
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:setGodMode(0)
+			end
+
 			local vehAxel = GetEntityByName("AxelCarWar_vehicle_0")
 			if vehAxel then
 				vehAxel:setImmortalMode(0)
