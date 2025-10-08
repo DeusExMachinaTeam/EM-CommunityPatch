@@ -1859,7 +1859,7 @@
 		waterCourseAngle="0.000"
 		waterSpecularM="1.000"
 		waterSpecularS="0.000"
-		reduceDistFactor="0.358">
+		reduceDistFactor="0.494">
 		<Sky
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="128.000 128.000 128.000"
@@ -2381,7 +2381,7 @@
 		waterCourseAngle="0.700"
 		waterSpecularM="92.000"
 		waterSpecularS="0.003"
-		reduceDistFactor="0.647"
+		reduceDistFactor="0.346"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="5"
@@ -2471,7 +2471,7 @@
 		waterCourseAngle="6.280"
 		waterSpecularM="48.000"
 		waterSpecularS="0.001"
-		reduceDistFactor="0.788">
+		reduceDistFactor="0.395">
 		<Sky
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="153.000 163.200 165.750"
@@ -2557,7 +2557,7 @@
 		waterCourseAngle="0.520"
 		waterSpecularM="14.000"
 		waterSpecularS="0.002"
-		reduceDistFactor="0.321"
+		reduceDistFactor="0.346"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="6"
