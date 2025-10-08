@@ -446,6 +446,7 @@
 		waterSpecularS="0.010"
 		reduceDistFactor="0.700"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="1"
 		distance="0.000"
 		minThunderDuty="300"
@@ -541,6 +542,7 @@
 		waterSpecularS="0.010"
 		reduceDistFactor="0.700"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="1"
 		distance="0.000"
 		minThunderDuty="300"
@@ -636,6 +638,7 @@
 		waterSpecularS="0.002"
 		reduceDistFactor="0.700"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="1"
 		distance="0.000"
 		minThunderDuty="60"
@@ -986,6 +989,7 @@
 		waterSpecularS="0.007"
 		reduceDistFactor="0.700"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="1"
 		distance="0.000"
 		minThunderDuty="60"
@@ -1419,8 +1423,9 @@
 		waterCourseAngle="0.790"
 		waterSpecularM="9.000"
 		waterSpecularS="0.002"
-		reduceDistFactor="0.519"
+		reduceDistFactor="0.370"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="10"
 		distance="44.500"
 		minThunderDuty="300"
@@ -2282,6 +2287,7 @@
 		waterSpecularS="0.000"
 		reduceDistFactor="0.259"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="10"
 		distance="45.900"
 		minThunderDuty="59"
@@ -2377,6 +2383,7 @@
 		waterSpecularS="0.003"
 		reduceDistFactor="0.647"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="5"
 		distance="20.000">
 		<Sky
@@ -2552,6 +2559,7 @@
 		waterSpecularS="0.002"
 		reduceDistFactor="0.321"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="6"
 		distance="27.200"
 		minThunderDuty="10"
@@ -2645,8 +2653,9 @@
 		waterCourseAngle="0.000"
 		waterSpecularM="200.000"
 		waterSpecularS="0.005"
-		reduceDistFactor="0.642"
+		reduceDistFactor="0.420"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="5"
 		distance="20.000"
 		minThunderDuty="300"
@@ -2740,8 +2749,9 @@
 		waterCourseAngle="4.000"
 		waterSpecularM="4.000"
 		waterSpecularS="0.003"
-		reduceDistFactor="0.333"
+		reduceDistFactor="0.321"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="5"
 		distance="20.000"
 		minThunderDuty="300"
@@ -2835,8 +2845,9 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="1.000"
 		waterSpecularS="0.001"
-		reduceDistFactor="1.000"
+		reduceDistFactor="0.420"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
 		density="5"
 		distance="21.100"
 		minThunderDuty="193"
@@ -2909,6 +2920,92 @@
 			sunrise="0.100"
 			day="0.102"
 			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="main_menu_fog"
+		skyDomeFactor="0.600"
+		waterSpeed="0.280"
+		waterWaveHBig="1.450"
+		waterWaveHSmall="1.250"
+		waterWaveSizeBig="0.440"
+		waterWaveSizeSmall="1.950"
+		waterCourseAngle="0.870"
+		waterSpecularM="40.000"
+		waterSpecularS="0.006"
+		reduceDistFactor="0.469">
+		<Sky
+			sunriseColor="163.200 130.050 84.150"
+			dayColor="114.750 119.850 119.850"
+			sunsetColor="224.400 145.350 94.350"
+			nightColor="64.000 158.100 170.850" />
+
+		<Fog
+			sunriseColor="255.000 216.750 178.500"
+			dayColor="229.500 196.350 170.850"
+			sunsetColor="255.000 201.450 132.600"
+			nightColor="79.050 99.450 104.550" />
+
+		<Ambient
+			sunriseColor="158.100 155.550 145.350"
+			dayColor="153.000 145.350 137.700"
+			sunsetColor="137.700 117.300 107.100"
+			nightColor="170.850 150.450 122.400" />
+
+		<Diffuse
+			sunriseColor="226.950 163.200 86.700"
+			dayColor="201.450 153.000 84.150"
+			sunsetColor="175.950 132.600 68.850"
+			nightColor="84.150 91.800 73.950" />
+
+		<Sun
+			sunriseColor="204.000 175.950 142.800"
+			dayColor="255.000 221.850 168.300"
+			sunsetColor="255.000 196.350 155.550"
+			nightColor="122.400 170.850 201.450" />
+
+		<Plant
+			sunriseColor="201.450 209.100 191.250"
+			dayColor="252.450 229.500 186.150"
+			sunsetColor="255.000 209.100 173.400"
+			nightColor="150.450 193.800 214.200" />
+
+		<Specular
+			sunriseColor="255.000 221.850 193.800"
+			dayColor="255.000 239.700 221.850"
+			sunsetColor="255.000 221.850 201.450"
+			nightColor="168.300 191.250 221.850" />
+
+		<PostEffect
+			sunrise="wMM_sunrise"
+			day="wMM_day"
+			sunset="wMM_sunset"
+			night="wMM_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="36.000"
+			day="51.000"
+			sunset="25.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.051"
+			day="0.025"
+			sunset="0.025"
 			night="0.100" />
 
 		<WindInfo

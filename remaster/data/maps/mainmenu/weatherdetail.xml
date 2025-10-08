@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherItem
+		name="main_menu_fog">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_Weather_Clear_sunriseTime.dds"
+			CloudsTexture="SkyCloudy.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_Weather_Clear_dayTime.dds"
+			CloudsTexture="SkyClear3.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_Weather_Clear_sunriseTime.dds"
+			CloudsTexture="SkyCloudy1.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_Weather_Clear_sunriseTime.dds"
+			CloudsTexture="SkyRainy.dds" />
+	</WeatherItem>
+</Weather>
