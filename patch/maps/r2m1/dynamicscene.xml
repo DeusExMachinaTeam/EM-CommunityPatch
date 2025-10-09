@@ -173,8 +173,8 @@
 		Name="ParisLocation"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="2173.553 233.193 5802.944"
-		Radius="50.000" />
+		Pos="2190.471 233.137 5820.255"
+		Radius="127.000" />
 
 	<Object
 		Name="TheSel"

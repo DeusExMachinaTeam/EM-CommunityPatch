@@ -783,7 +783,7 @@
 	<trigger Name="PARISTUBECREATE" active="1">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
-			CreateNewDummyObject( "factory_tube1sam", "tubezagr", -1, -1, CVector(2250, 224, 5715), Quaternion(0.0342, -0.8608, 0.0583, 0.5045), 0)
+			CreateNewDummyObject( "factory_tube1sam", "tubezagr", -1, -1, CVector(2249.363, 230.216, 5713.524), Quaternion(0.0342, -0.8608, 0.0583, 0.5045), 0)
 
 			trigger:Deactivate()
 		</script>
@@ -802,7 +802,7 @@
 	<trigger Name="OPARISPARIS" active="1">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ParisLocation" />
 		<script>
-			if  IsQuestTaken("d_MoveInParis_Quest") and not(IsQuestComplete("d_MoveInParis_Quest") or IsQuestFailed("d_MoveInParis_Quest"))  then
+			if IsQuestTaken("d_MoveInParis_Quest") and not(IsQuestComplete("d_MoveInParis_Quest") or IsQuestFailed("d_MoveInParis_Quest"))  then
 				TActivate("RolikBegin_OPARIS")
 
    				CompleteQuest( "d_MoveInParis_Quest" )
@@ -811,7 +811,62 @@
 				TActivate("TRIGGER_OPARISPARISBOSSDIE")
 
 				trigger:Deactivate()
+			else
+				local Plf = GetPlayerVehicle()
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomLinearVelocity( 0 )
+
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.x = PlfCoor.x + 15
+				PlfCoor.y = PlfCoor.y + 5
+				PlfCoor.z = PlfCoor.z - 15
+
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(0.1, 0.1, 25, 9, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				TActivate("trBoss02Negative_Fade")
+				TActivate("trBoss02Negative_End")
 			end
+		</script>
+	</trigger>
+	<trigger Name="trBoss02Negative_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetGamePositionOnGround(CVector(2280.401, 236.075, 5650.040))
+				Plf:SetRotation(Quaternion(0.001, -0.971, 0.001, -0.240))
+			end
+
+			AddCinematicMessage(8803, 1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trBoss02Negative_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetGamePositionOnGround(CVector(2280.401, 236.075, 5650.040))
+				Plf:SetRotation(Quaternion(0.001, -0.971, 0.001, -0.240))
+			end
+
+			TDeactivate("trBoss02Negative_Fade")
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
