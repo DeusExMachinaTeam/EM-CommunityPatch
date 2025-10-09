@@ -40,31 +40,37 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup				= "FelixsSmallGang_1"
 			VehiclesPrototypes	="ScoutEnemySpawn"		
 			WaresPrototypes="potato"
 			GunAffixGeneratorPrototype="cityaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup				= "FelixsSmallGang_2"
 			VehiclesPrototypes	="Sml1EnemySpawn" 	
 			WaresPrototypes="potato"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup				= "FelixsSmallGang_3"
 			VehiclesPrototypes	="Sml1EnemySpawn" 	
 			WaresPrototypes="potato"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup				= "FelixsSmallGang_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup				= "FelixsSmallGang_5"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup				= "FelixsSmallGang_6"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -72,11 +78,13 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 
 
 		<Description 
+			NameGroup				= "FelixsSmallGang_7"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup				= "FelixsSmallGang_8"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -101,31 +109,37 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup 				= "FelixsGang_1"
 			VehiclesPrototypes	="ScoutEnemySpawn"		
 			WaresPrototypes="potato"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup 				= "FelixsGang_2"
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn " 	
 			WaresPrototypes="potato"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup 				= "FelixsGang_3"
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn" 	
 			WaresPrototypes="potato"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup 				= "FelixsGang_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup 				= "FelixsGang_5"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup 				= "FelixsGang_6"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -133,11 +147,13 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 
 
 		<Description 
+			NameGroup 				= "FelixsGang_7"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup 				= "FelixsGang_8"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -161,43 +177,51 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r1m2BanditsGang_1"
 			VehiclesPrototypes	="ScoutEnemySpawn Sml2EnemySpawn"		
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r1m2BanditsGang_2"
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m2BanditsGang_3"
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn" 	
 			WaresPrototypes="firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m2BanditsGang_4"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r1m2BanditsGang_5"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m2BanditsGang_6"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r1m2BanditsGang_7"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m2BanditsGang_8"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -221,43 +245,51 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.30"
 		partOfSchwartzForWares 			= "0.25" >
 		<Description 
+			NameGroup = "r1m3BanditsGang_1"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn"		
 			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r1m3BanditsGang_2"
 			VehiclesPrototypes	="ScoutEnemySpawn Sml2EnemySpawn Sml3EnemySpawn" 	
 			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BanditsGang_3"
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BanditsGang_4"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal firewood"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r1m3BanditsGang_5"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BanditsGang_6"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r1m3BanditsGang_7"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BanditsGang_8"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -282,42 +314,50 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_1"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn Sml4EnemySpawn"		
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_2"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_3"
 			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn" 	
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_4"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
 			WaresPrototypes="oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_5"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_6"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_7"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m3BrodiagaGang_8"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -334,21 +374,25 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.05" >
 		<Description 
+			NameGroup = "r4m1Razboyniki_1"
 			VehiclesPrototypes	="HunterEnemySpawn HunterEnemySpawn FighterEnemySpawn"		
 			WaresPrototypes="book electronics"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r4m1Razboyniki_2"
 			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn " 	
 			WaresPrototypes="book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1Razboyniki_3"
 			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn" 	
 			WaresPrototypes="book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1Razboyniki_4"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn FighterEnemySpawn" 	
 			WaresPrototypes="book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -370,9 +414,9 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		Name		= "zooGangGenerator"
 		DesiredCount 	= "3-5">
 
-		<Description VehiclesPrototypes="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 			PartOfSchwartz="0.2" />
-		<Description VehiclesPrototypes="ScoutEnemySpawn  FighterEnemySpawn HunterEnemySpawn CruiserEnemySpawn DozerEnemySpawn"	PartOfSchwartz="0.2" />
-		<Description VehiclesPrototypes="BugForSale MolokovozForSale UralForSale BelazForSale MirotvorecForSale" 	PartOfSchwartz="0.2" />
+		<Description NameGroup = "zooGang_1" VehiclesPrototypes="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 			PartOfSchwartz="0.2" />
+		<Description NameGroup = "zooGang_2" VehiclesPrototypes="ScoutEnemySpawn  FighterEnemySpawn HunterEnemySpawn CruiserEnemySpawn DozerEnemySpawn"	PartOfSchwartz="0.2" />
+		<Description NameGroup = "zooGang_3" VehiclesPrototypes="BugForSale MolokovozForSale UralForSale BelazForSale MirotvorecForSale" 	PartOfSchwartz="0.2" />
 	</Prototype>
 
 
@@ -394,21 +438,25 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "OracleDef_1"
 			VehiclesPrototypes	="HunterEnemySpawn ScoutEnemySpawn ScoutEnemySpawn"		
 			WaresPrototypes="book tobacco"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "OracleDef_2"
 			VehiclesPrototypes	="FighterEnemySpawn Sml2EnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="book tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "OracleDef_3"
 			VehiclesPrototypes	="HunterEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="book tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "OracleDef_4"
 			VehiclesPrototypes	="MolokovozForSale ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="book tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -432,26 +480,31 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "ARGang_1"
 			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn "		
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "ARGang_2"
 			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "ARGang_3"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "ARGang_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel machinery electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "ARGang_5"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -475,26 +528,31 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "SNGGang_1"
 			VehiclesPrototypes	="HunterEnemySpawn ScoutEnemySpawn ScoutEnemySpawn"		
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "SNGGang_2"
 			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "SNGGang_3"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "SNGGang_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel machinery electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "SNGGang_5"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -549,16 +607,19 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.24"
 		partOfSchwartzForWares 			= "0.35" >
 		<Description 
+			NameGroup = "r3m1_RobotTeam_1"
 			VehiclesPrototypes	="RobotTron"		
 			WaresPrototypes="tobacco bottle"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r3m1_RobotTeam_2"
 			VehiclesPrototypes	="RobotTron" 	
 			WaresPrototypes="tobacco bottle"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_RobotTeam_3"
 			VehiclesPrototypes	="RobotBobot02" 	
 			WaresPrototypes="tobacco bottle"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -583,37 +644,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r1m4_TraidersTeam_1"
 			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn"		
 			WaresPrototypes="fuel oil"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r1m4_TraidersTeam_2"
 			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn Sml3EnemySpawn" 	
 			WaresPrototypes="fuel oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_TraidersTeam_3"
 			VehiclesPrototypes	="ScoutEnemySpawn Sml3EnemySpawn" 	
 			WaresPrototypes="fuel oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_TraidersTeam_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_TraidersTeam_5"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r1m4_TraidersTeam_6"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_TraidersTeam_7"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -640,37 +708,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r1m4_FishersTeam_1"
 			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn"		
 			WaresPrototypes="fuel oil"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r1m4_FishersTeam_2"
 			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn Sml3EnemySpawn" 	
 			WaresPrototypes="fuel oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_FishersTeam_2"
 			VehiclesPrototypes	="ScoutEnemySpawn Sml3EnemySpawn" 	
 			WaresPrototypes="fuel oil"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_FishersTeam_3"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_FishersTeam_4"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="fuel oil electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r1m4_FishersTeam_5"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r1m4_FishersTeam_5"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -696,37 +771,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r3m1_RaboynikTeam_1"
 			VehiclesPrototypes	="FighterEnemySpawn HunterEnemySpawn"		
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r3m1_RaboynikTeam_2"
 			VehiclesPrototypes	="FighterEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_RaboynikTeam_3"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_RaboynikTeam_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_RaboynikTeam_5"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r3m1_RaboynikTeam_6"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_RaboynikTeam_7"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -752,37 +834,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r3m1_DruidTeam_1"
 			VehiclesPrototypes	="FighterEnemySpawn HunterEnemySpawn"		
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r3m1_DruidTeam_2"
 			VehiclesPrototypes	="FighterEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_DruidTeam_3"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_DruidTeam_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_DruidTeam_5"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r3m1_DruidTeam_6"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_DruidTeam_7"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -809,37 +898,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForWares 			= "0.20" >
 		
 		<Description 
+			NameGroup = "r3m1_MechDruidTeam_1"
 			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn"		
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r3m1_MechDruidTeam_2"
 			VehiclesPrototypes	="FighterEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_MechDruidTeam_3"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_MechDruidTeam_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_MechDruidTeam_5"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r3m1_MechDruidTeam_6"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m1_MechDruidTeam_7"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -870,6 +966,7 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForWares 			= "0.35" >
 		
 		<Description 
+			NameGroup = "r3m2_RobotsTeam_1"
 			VehiclesPrototypes	="RobotBobot01"		
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="townaffixGenerator"
@@ -895,37 +992,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r3m2_OracleDefendersTeam_1"
 			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn"		
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r3m2_OracleDefendersTeam_2"
 			VehiclesPrototypes	="FighterEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m2_OracleDefendersTeam_3"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m2_OracleDefendersTeam_4"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m2_OracleDefendersTeam_5"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco book electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r3m2_OracleDefendersTeam_6"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3m2_OracleDefendersTeam_7"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -949,37 +1053,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r3_BanditesGenerator_1"
 			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn"		
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r3_BanditesGenerator_2"
 			VehiclesPrototypes	="FighterEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3_BanditesGenerator_4"
 			VehiclesPrototypes	="ScoutEnemySpawn ScoutEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3_BanditesGenerator_5"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3_BanditesGenerator_6"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="bottle tobacco book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r3_BanditesGenerator_7"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r3_BanditesGenerator_8"
 			VehiclesPrototypes	="BugForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -1004,42 +1115,50 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r4m1_GadadTeam_1"
 			VehiclesPrototypes	="DozerEnemySpawn CruiserEnemySpawn"		
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r4m1_GadadTeam_2"
 			VehiclesPrototypes	="CruiserEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_GadadTeam_3"
 			VehiclesPrototypes	="ScoutEnemySpawn HunterEnemySpawn DozerEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_GadadTeam_4"
 			VehiclesPrototypes	="ScoutEnemySpawn HunterEnemySpawn CruiserEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_GadadTeam_5"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_GadadTeam_6"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r4m1_GadadTeam_7"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn " 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_GadadTeam_8"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn " 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -1063,32 +1182,38 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r4m1_KazifTeam_1"
 			VehiclesPrototypes	="ScoutEnemySpawn FighterEnemySpawn HunterEnemySpawn"		
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r4m1_KazifTeam_2"
 			VehiclesPrototypes	="HunterEnemySpawn CruiserEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_KazifTeam_3"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_KazifTeam_4"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r4m1_KazifTeam_5"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_KazifTeam_6"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -1114,32 +1239,38 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r4m1_KefTeam_1"
 			VehiclesPrototypes	="FighterEnemySpawn CruiserEnemySpawn"		
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r4m1_KefTeam_2"
 			VehiclesPrototypes	="ScoutEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_KefTeam_3"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_KefTeam_4"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r4m1_KefTeam_5"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m1_KefTeam_6"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -1164,37 +1295,44 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r4_BanditesTeam_1"
 			VehiclesPrototypes	="FighterEnemySpawn CruiserEnemySpawn"		
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r4_BanditesTeam_2"
 			VehiclesPrototypes	="DozerEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4_BanditesTeam_3"
 			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4_BanditesTeam_4"
 			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 
 		<Description 
+			NameGroup = "r4_BanditesTeam_5"
 			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4_BanditesTeam_6"
 			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4_BanditesTeam_7"
 			VehiclesPrototypes	="BelazForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
@@ -1220,21 +1358,25 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 		partOfSchwartzForGuns 			= "0.54"
 		partOfSchwartzForWares 			= "0.20" >
 		<Description 
+			NameGroup = "r4m2_MilitaryTeam_1"
 			VehiclesPrototypes	="FighterEnemySpawn Tank01"		
 			WaresPrototypes="electronics"
 			GunAffixGeneratorPrototype="townaffixGenerator"
 			PartOfSchwartz="0.35" />
 		<Description 
+			NameGroup = "r4m2_MilitaryTeam_2"
 			VehiclesPrototypes	="DozerEnemySpawn HunterEnemySpawn" 	
 			WaresPrototypes="electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
                 <Description 
+			NameGroup = "r4m2_MilitaryTeam_3"
 			VehiclesPrototypes	="HunterEnemySpawn CruiserEnemySpawn" 	
 			WaresPrototypes="electronics"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
 		<Description 
+			NameGroup = "r4m2_MilitaryTeam_4"
 			VehiclesPrototypes	="BelazForSale HunterEnemySpawn ScoutEnemySpawn" 	
 			WaresPrototypes="electronics book"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
