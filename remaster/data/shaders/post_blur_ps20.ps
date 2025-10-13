@@ -1,0 +1,47 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: post_blur_ps20.ps
+// Created by: OverLine
+//
+// Blur filter
+//
+// $Id: post_blur_ps20.ps,v 1.4
+//
+//////////////////////////////////////////////////////////////////////////////
+ 
+#include "lib.fx"
+
+sampler2D tex;
+
+struct VS_OUTPUT_BLUR
+{
+    float4 Position   : POSITION;
+    float2 TexCoord[8]: TEXCOORD0;
+};
+
+// 
+float4 PS_Blur7( VS_OUTPUT_BLUR IN, float2 TexCoord : TEXCOORD0) : COLOR
+{
+    const float w_center = 4.0/16.0;
+    const float w_adj    = 2.0/16.0;
+    const float w_diag   = 1.0/16.0;
+
+    float4 c_center = tex2D(tex, TexCoord);
+
+    float4 c_adj = tex2D(tex, IN.TexCoord[0]) +
+                   tex2D(tex, IN.TexCoord[1]) +
+                   tex2D(tex, IN.TexCoord[2]) +
+                   tex2D(tex, IN.TexCoord[3]);
+
+    float4 c_diag = tex2D(tex, IN.TexCoord[4]) +
+                    tex2D(tex, IN.TexCoord[5]) +
+                    tex2D(tex, IN.TexCoord[6]) +
+                    tex2D(tex, IN.TexCoord[7]);
+
+    float4 color = w_center * c_center +
+                   w_adj    * c_adj +
+                   w_diag   * c_diag;
+
+    return color;
+
+}
