@@ -2539,7 +2539,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.620"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2548,7 +2548,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.110"
+			InitVal="0.350"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2566,7 +2566,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.830"
+			InitVal="0.970"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2641,7 +2641,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.110"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2650,7 +2650,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.160"
+			InitVal="0.090"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2668,7 +2668,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.650"
+			InitVal="0.910"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2752,7 +2752,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.280"
+			InitVal="0.240"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2770,7 +2770,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.740"
+			InitVal="0.890"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2845,7 +2845,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-3.060"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2854,7 +2854,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.130"
+			InitVal="0.140"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2872,7 +2872,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.650"
+			InitVal="0.960"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2947,7 +2947,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-3.060"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2974,7 +2974,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.780"
+			InitVal="0.990"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3049,7 +3049,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.080"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3076,7 +3076,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.810"
+			InitVal="0.990"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3151,7 +3151,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3160,7 +3160,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.130"
+			InitVal="0.250"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3178,7 +3178,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.600"
+			InitVal="0.830"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3253,7 +3253,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.580"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3262,7 +3262,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.150"
+			InitVal="0.180"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3280,7 +3280,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.900"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3355,7 +3355,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.580"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3382,7 +3382,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.960"
+			InitVal="0.970"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3457,7 +3457,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.580"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3466,7 +3466,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.140"
+			InitVal="0.130"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3484,7 +3484,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.940"
+			InitVal="0.960"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3559,7 +3559,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3568,7 +3568,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.190"
+			InitVal="0.180"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3586,7 +3586,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.850"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3661,7 +3661,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3670,7 +3670,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.180"
+			InitVal="0.140"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3688,7 +3688,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.850"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3763,7 +3763,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3790,7 +3790,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3865,7 +3865,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-3.540"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3874,7 +3874,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.180"
+			InitVal="0.170"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3892,7 +3892,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.820"
+			InitVal="0.920"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3967,7 +3967,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4069,7 +4069,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4096,7 +4096,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4171,7 +4171,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.570"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4180,7 +4180,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.100"
+			InitVal="0.110"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4198,7 +4198,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.850"
+			InitVal="0.860"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4273,7 +4273,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.350"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4282,7 +4282,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.070"
+			InitVal="0.130"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4300,7 +4300,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.790"
+			InitVal="0.880"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4375,7 +4375,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.570"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4393,7 +4393,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.180"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4402,7 +4402,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.630"
+			InitVal="0.750"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4411,7 +4411,7 @@
 
 		<Unit
 			VarName="BloomIntensity"
-			InitVal="0.110"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4477,7 +4477,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4504,7 +4504,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.910"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4579,7 +4579,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4588,7 +4588,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.210"
+			InitVal="0.170"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4606,7 +4606,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.910"
+			InitVal="0.860"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4681,7 +4681,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4708,7 +4708,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.970"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4783,7 +4783,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.580"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4792,7 +4792,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.080"
+			InitVal="0.110"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4885,7 +4885,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4894,7 +4894,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.170"
+			InitVal="0.080"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4987,7 +4987,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5089,7 +5089,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5098,7 +5098,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.110"
+			InitVal="0.070"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5116,7 +5116,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.970"
+			InitVal="0.940"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5191,7 +5191,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5200,7 +5200,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.140"
+			InitVal="0.060"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5218,7 +5218,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.940"
+			InitVal="0.990"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5293,7 +5293,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5320,7 +5320,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.890"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5395,7 +5395,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5404,7 +5404,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.140"
+			InitVal="0.100"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5497,7 +5497,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.850"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5506,7 +5506,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.130"
+			InitVal="0.150"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5599,7 +5599,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.620"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5626,7 +5626,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.850"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5701,7 +5701,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.320"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5710,7 +5710,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.340"
+			InitVal="0.180"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5728,7 +5728,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.850"
+			InitVal="0.970"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5803,7 +5803,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="4.210"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -5905,7 +5905,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.240"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6007,7 +6007,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6109,7 +6109,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6211,7 +6211,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="1.910"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6220,7 +6220,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.260"
+			InitVal="0.210"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6238,7 +6238,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.780"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6313,7 +6313,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6322,7 +6322,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.280"
+			InitVal="0.210"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6340,7 +6340,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.970"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6415,7 +6415,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="3.750"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6424,7 +6424,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.460"
+			InitVal="0.180"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6442,7 +6442,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6517,7 +6517,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="2.330"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6535,7 +6535,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.140"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6553,7 +6553,7 @@
 
 		<Unit
 			VarName="BloomIntensity"
-			InitVal="0.130"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6619,7 +6619,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="1.910"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6628,7 +6628,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.110"
+			InitVal="0.050"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6646,7 +6646,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.790"
+			InitVal="0.970"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6721,7 +6721,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="2.330"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6730,7 +6730,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.260"
+			InitVal="0.060"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6748,7 +6748,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6823,7 +6823,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="3.750"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6832,7 +6832,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.170"
+			InitVal="0.210"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6850,7 +6850,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.460"
+			InitVal="0.760"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6925,7 +6925,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.110"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6934,7 +6934,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.210"
+			InitVal="0.090"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -6952,7 +6952,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.900"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7027,7 +7027,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7036,7 +7036,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.110"
+			InitVal="0.070"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7054,7 +7054,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.940"
+			InitVal="0.950"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7129,7 +7129,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="4.670"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7138,7 +7138,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.190"
+			InitVal="0.130"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7156,7 +7156,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.910"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7231,7 +7231,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="1.320"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7435,7 +7435,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.520"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7444,7 +7444,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="1.000"
+			InitVal="0.140"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7453,7 +7453,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.370"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7462,7 +7462,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.910"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7537,7 +7537,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7546,7 +7546,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="1.000"
+			InitVal="0.280"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7564,7 +7564,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.000"
+			InitVal="0.890"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7639,7 +7639,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="4.210"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7648,7 +7648,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="1.000"
+			InitVal="0.250"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7666,7 +7666,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.000"
+			InitVal="0.910"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7741,7 +7741,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="2.830"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7750,7 +7750,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.760"
+			InitVal="0.070"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7768,7 +7768,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.000"
+			InitVal="1.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7945,7 +7945,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="2.330"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7954,7 +7954,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.280"
+			InitVal="0.110"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7963,7 +7963,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.220"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7972,7 +7972,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.830"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -7981,7 +7981,7 @@
 
 		<Unit
 			VarName="BloomIntensity"
-			InitVal="0.030"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8047,7 +8047,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8056,7 +8056,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.030"
+			InitVal="0.040"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8074,7 +8074,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.830"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8149,7 +8149,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.580"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8158,7 +8158,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.390"
+			InitVal="0.080"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8251,7 +8251,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="3.750"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8260,7 +8260,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.110"
+			InitVal="0.080"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8278,7 +8278,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.890"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8353,7 +8353,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.390"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8362,7 +8362,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.180"
+			InitVal="0.170"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8371,7 +8371,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.290"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8380,7 +8380,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.780"
+			InitVal="0.960"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8455,7 +8455,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="6.050"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8464,7 +8464,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.170"
+			InitVal="0.240"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8482,7 +8482,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.810"
+			InitVal="0.960"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8557,7 +8557,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.620"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8584,7 +8584,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.850"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8659,7 +8659,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8668,7 +8668,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.170"
+			InitVal="0.150"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8677,7 +8677,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.170"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8686,7 +8686,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.890"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8695,7 +8695,7 @@
 
 		<Unit
 			VarName="BloomIntensity"
-			InitVal="0.090"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8761,7 +8761,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.080"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8788,7 +8788,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.820"
+			InitVal="0.880"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8863,7 +8863,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.110"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8890,7 +8890,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.830"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8965,7 +8965,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-1.600"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8974,7 +8974,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.170"
+			InitVal="0.130"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8992,7 +8992,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.890"
+			InitVal="0.940"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9067,7 +9067,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.620"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9076,7 +9076,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.170"
+			InitVal="0.380"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9094,7 +9094,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.750"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9169,7 +9169,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-0.140"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9196,7 +9196,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.720"
+			InitVal="0.820"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9271,7 +9271,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9373,7 +9373,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9382,7 +9382,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.090"
+			InitVal="0.130"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9400,7 +9400,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.830"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9475,7 +9475,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9484,7 +9484,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.090"
+			InitVal="0.130"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9586,7 +9586,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.090"
+			InitVal="0.210"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9679,7 +9679,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9688,7 +9688,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.160"
+			InitVal="0.190"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9706,7 +9706,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.850"
+			InitVal="0.690"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9781,7 +9781,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.570"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9790,7 +9790,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.130"
+			InitVal="0.140"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9808,7 +9808,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.830"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9883,7 +9883,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-3.540"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9892,7 +9892,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.110"
+			InitVal="0.150"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9910,7 +9910,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.890"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9985,7 +9985,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.080"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9994,7 +9994,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.140"
+			InitVal="0.110"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -10012,7 +10012,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.880"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -10087,7 +10087,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.000"
+			InitVal="-5.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -10096,7 +10096,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.150"
+			InitVal="0.140"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -10114,7 +10114,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="1.000"
+			InitVal="0.960"
 			Param1="0"
 			Param2="0"
 			Param3="0"

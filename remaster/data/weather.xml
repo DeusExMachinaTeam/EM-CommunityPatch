@@ -1074,7 +1074,7 @@
 	<WeatherItem
 		class="WeatherClear"
 		name="r1m1_clear01"
-		skyDomeFactor="0.500"
+		skyDomeFactor="0.540"
 		waterSpeed="0.130"
 		waterWaveHBig="1.110"
 		waterWaveHSmall="1.750"
@@ -1084,16 +1084,16 @@
 		waterSpecularM="12.000"
 		waterSpecularS="0.002">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="122.400 145.350 175.950"
-			sunsetColor="149.000 107.000 66.000"
+			sunriseColor="193.800 193.800 193.800"
+			dayColor="135.150 163.200 198.900"
+			sunsetColor="191.250 142.800 99.450"
 			nightColor="165.750 142.800 117.300" />
 
 		<Fog
-			sunriseColor="194.000 192.000 165.000"
+			sunriseColor="226.950 221.850 209.100"
 			dayColor="232.050 229.500 209.100"
-			sunsetColor="237.150 178.500 130.050"
-			nightColor="109.650 91.800 76.500" />
+			sunsetColor="255.000 209.100 163.200"
+			nightColor="61.200 56.100 58.650" />
 
 		<Ambient
 			sunriseColor="140.250 150.450 155.550"
@@ -1147,7 +1147,7 @@
 			sunrise="0.038"
 			day="0.025"
 			sunset="0.051"
-			night="0.100" />
+			night="0.025" />
 
 		<WindInfo
 			windMaxVel="0.000"
@@ -1169,15 +1169,15 @@
 		waterSpecularM="161.000"
 		waterSpecularS="0.009">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="121.000 118.000 100.000"
-			sunsetColor="128.000 128.000 128.000"
+			sunriseColor="173.400 170.850 168.300"
+			dayColor="170.850 168.300 140.250"
+			sunsetColor="173.400 170.850 168.300"
 			nightColor="255.000 239.700 209.100" />
 
 		<Fog
-			sunriseColor="236.000 211.000 174.000"
-			dayColor="227.000 219.000 191.000"
-			sunsetColor="208.000 181.000 123.000"
+			sunriseColor="252.450 229.500 196.350"
+			dayColor="242.250 239.700 209.100"
+			sunsetColor="226.950 198.900 160.650"
 			nightColor="75.000 83.000 101.000" />
 
 		<Ambient
@@ -1339,15 +1339,15 @@
 		waterSpecularM="9.000"
 		waterSpecularS="0.008">
 		<Sky
-			sunriseColor="150.000 150.000 150.000"
-			dayColor="112.000 112.000 112.000"
-			sunsetColor="128.000 128.000 128.000"
+			sunriseColor="188.700 183.600 183.600"
+			dayColor="173.400 173.400 173.400"
+			sunsetColor="204.000 201.450 198.900"
 			nightColor="255.000 255.000 255.000" />
 
 		<Fog
 			sunriseColor="255.000 242.250 198.000"
 			dayColor="249.900 237.150 204.000"
-			sunsetColor="194.000 140.000 73.000"
+			sunsetColor="255.000 216.750 178.500"
 			nightColor="79.050 98.000 114.750" />
 
 		<Ambient
@@ -1435,15 +1435,15 @@
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky
-			sunriseColor="109.650 96.900 91.800"
-			dayColor="128.000 128.000 128.000"
-			sunsetColor="140.250 128.000 109.650"
+			sunriseColor="173.400 163.200 155.550"
+			dayColor="188.700 188.700 183.600"
+			sunsetColor="198.900 181.050 158.100"
 			nightColor="153.000 153.000 122.400" />
 
 		<Fog
-			sunriseColor="178.500 155.550 119.850"
-			dayColor="140.250 158.100 173.400"
-			sunsetColor="160.650 115.000 71.400"
+			sunriseColor="201.450 191.250 175.950"
+			dayColor="178.500 191.250 201.450"
+			sunsetColor="209.100 170.850 130.050"
 			nightColor="73.950 86.700 124.950" />
 
 		<Ambient
@@ -1520,15 +1520,15 @@
 		waterSpecularM="12.000"
 		waterSpecularS="0.002">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="128.000 128.000 128.000"
-			sunsetColor="128.000 128.000 128.000"
+			sunriseColor="163.200 160.650 158.100"
+			dayColor="173.400 173.400 170.850"
+			sunsetColor="183.600 183.600 181.050"
 			nightColor="117.300 137.700 117.300" />
 
 		<Fog
 			sunriseColor="255.000 226.000 198.000"
 			dayColor="239.700 226.950 188.700"
-			sunsetColor="208.000 166.000 94.000"
+			sunsetColor="216.750 181.050 124.950"
 			nightColor="81.600 81.600 79.050" />
 
 		<Ambient
@@ -1605,15 +1605,15 @@
 		waterSpecularM="21.000"
 		waterSpecularS="0.003">
 		<Sky
-			sunriseColor="155.550 130.050 114.750"
+			sunriseColor="188.700 170.850 155.550"
 			dayColor="175.950 150.450 198.900"
-			sunsetColor="170.850 158.100 119.850"
+			sunsetColor="221.850 211.650 196.350"
 			nightColor="72.000 63.000 60.000" />
 
 		<Fog
-			sunriseColor="252.000 226.000 199.000"
-			dayColor="252.000 228.000 186.000"
-			sunsetColor="234.600 188.700 135.150"
+			sunriseColor="252.000 226.000 209.100"
+			dayColor="242.250 226.950 193.800"
+			sunsetColor="255.000 226.950 178.500"
 			nightColor="36.000 45.000 53.000" />
 
 		<Ambient
@@ -1690,15 +1690,15 @@
 		waterSpecularM="23.000"
 		waterSpecularS="0.003">
 		<Sky
-			sunriseColor="142.800 119.850 102.000"
-			dayColor="94.350 102.000 107.100"
-			sunsetColor="198.900 170.850 140.250"
+			sunriseColor="181.050 160.650 132.600"
+			dayColor="153.000 168.300 183.600"
+			sunsetColor="221.850 201.450 178.500"
 			nightColor="34.000 66.000 159.000" />
 
 		<Fog
-			sunriseColor="232.050 216.750 186.150"
-			dayColor="221.850 196.350 155.550"
-			sunsetColor="226.950 201.450 170.850"
+			sunriseColor="247.350 234.600 209.100"
+			dayColor="229.500 219.300 201.450"
+			sunsetColor="242.250 226.950 193.800"
 			nightColor="46.000 50.000 58.000" />
 
 		<Ambient
@@ -1775,15 +1775,15 @@
 		waterSpecularM="1.000"
 		waterSpecularS="0.010">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="97.000 157.000 158.000"
-			sunsetColor="128.000 128.000 128.000"
+			sunriseColor="160.650 163.200 168.300"
+			dayColor="130.050 188.700 188.700"
+			sunsetColor="188.700 183.600 181.050"
 			nightColor="218.000 218.000 218.000" />
 
 		<Fog
-			sunriseColor="237.000 248.000 248.000"
-			dayColor="255.000 255.000 193.000"
-			sunsetColor="190.000 173.000 165.000"
+			sunriseColor="221.850 219.300 216.750"
+			dayColor="229.500 226.950 170.850"
+			sunsetColor="226.950 209.100 204.000"
 			nightColor="114.000 102.000 88.000" />
 
 		<Ambient
@@ -1861,15 +1861,15 @@
 		waterSpecularS="0.000"
 		reduceDistFactor="0.494">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="128.000 128.000 128.000"
-			sunsetColor="128.000 128.000 128.000"
+			sunriseColor="175.950 173.400 170.850"
+			dayColor="193.800 191.250 188.700"
+			sunsetColor="170.850 170.850 170.850"
 			nightColor="0.000 255.000 255.000" />
 
 		<Fog
-			sunriseColor="182.000 170.000 139.000"
+			sunriseColor="204.000 196.350 160.650"
 			dayColor="202.000 219.000 218.000"
-			sunsetColor="128.000 128.000 128.000"
+			sunsetColor="183.600 183.600 181.050"
 			nightColor="66.000 145.000 149.000" />
 
 		<Ambient
@@ -1946,14 +1946,14 @@
 		waterSpecularM="37.000"
 		waterSpecularS="0.006">
 		<Sky
-			sunriseColor="229.500 150.450 107.100"
-			dayColor="173.400 153.000 135.150"
-			sunsetColor="255.000 150.450 96.900"
+			sunriseColor="247.350 170.850 124.950"
+			dayColor="201.450 193.800 163.200"
+			sunsetColor="255.000 173.400 117.300"
 			nightColor="140.250 145.350 140.250" />
 
 		<Fog
-			sunriseColor="252.450 242.250 204.000"
-			dayColor="216.750 201.450 198.900"
+			sunriseColor="255.000 247.350 211.650"
+			dayColor="234.600 232.050 221.850"
 			sunsetColor="255.000 226.950 173.400"
 			nightColor="58.650 84.150 102.000" />
 
@@ -2022,24 +2022,24 @@
 		class="WeatherClear"
 		name="r3m2"
 		skyDomeFactor="2.000"
-		waterSpeed="1.000"
+		waterSpeed="0.060"
 		waterWaveHBig="0.950"
-		waterWaveHSmall="0.000"
+		waterWaveHSmall="1.220"
 		waterWaveSizeBig="0.290"
-		waterWaveSizeSmall="0.500"
+		waterWaveSizeSmall="1.020"
 		waterCourseAngle="0.000"
 		waterSpecularM="1.000"
 		waterSpecularS="0.000">
 		<Sky
-			sunriseColor="252.000 184.000 92.000"
-			dayColor="102.000 142.800 150.450"
-			sunsetColor="255.000 137.700 91.800"
+			sunriseColor="255.000 193.800 104.550"
+			dayColor="163.200 204.000 209.100"
+			sunsetColor="255.000 188.700 140.250"
 			nightColor="34.000 54.000 79.000" />
 
 		<Fog
-			sunriseColor="231.000 192.000 114.000"
-			dayColor="131.000 153.000 190.000"
-			sunsetColor="170.850 117.300 79.050"
+			sunriseColor="239.700 201.450 130.050"
+			dayColor="153.000 181.050 216.750"
+			sunsetColor="214.200 160.650 119.850"
 			nightColor="29.000 37.000 58.000" />
 
 		<Ambient
@@ -2091,9 +2091,9 @@
 			night="0.000" />
 
 		<cloudsSpeed
-			sunrise="0.100"
-			day="0.100"
-			sunset="0.100"
+			sunrise="0.025"
+			day="0.038"
+			sunset="0.025"
 			night="0.100" />
 
 		<WindInfo
@@ -2116,15 +2116,15 @@
 		waterSpecularM="14.000"
 		waterSpecularS="0.001">
 		<Sky
-			sunriseColor="158.100 137.700 114.750"
-			dayColor="122.400 122.400 119.850"
-			sunsetColor="193.800 150.450 99.450"
+			sunriseColor="196.350 175.950 155.550"
+			dayColor="181.050 178.500 175.950"
+			sunsetColor="232.050 188.700 142.800"
 			nightColor="140.250 135.150 132.600" />
 
 		<Fog
-			sunriseColor="229.500 193.800 145.350"
-			dayColor="237.150 214.200 163.200"
-			sunsetColor="251.000 202.000 130.000"
+			sunriseColor="247.350 214.200 168.300"
+			dayColor="255.000 237.150 198.900"
+			sunsetColor="255.000 214.200 155.550"
 			nightColor="73.950 71.400 71.400" />
 
 		<Ambient
@@ -2201,15 +2201,15 @@
 		waterSpecularM="62.000"
 		waterSpecularS="0.003">
 		<Sky
-			sunriseColor="163.200 137.700 99.000"
-			dayColor="158.100 130.050 73.950"
-			sunsetColor="122.400 128.000 135.150"
+			sunriseColor="163.200 140.250 117.300"
+			dayColor="188.700 158.100 112.200"
+			sunsetColor="150.450 163.200 175.950"
 			nightColor="178.500 137.700 117.300" />
 
 		<Fog
-			sunriseColor="183.600 177.000 173.400"
-			dayColor="188.700 175.950 132.600"
-			sunsetColor="234.600 191.250 130.000"
+			sunriseColor="219.300 219.300 219.300"
+			dayColor="204.000 191.250 173.400"
+			sunsetColor="247.350 214.200 168.300"
 			nightColor="71.400 71.400 79.050" />
 
 		<Ambient
@@ -2277,11 +2277,11 @@
 		class="WeatherThunderstorm"
 		name="r3m2_rain"
 		skyDomeFactor="1.040"
-		waterSpeed="0.000"
+		waterSpeed="0.210"
 		waterWaveHBig="0.910"
-		waterWaveHSmall="0.000"
-		waterWaveSizeBig="0.000"
-		waterWaveSizeSmall="0.500"
+		waterWaveHSmall="0.280"
+		waterWaveSizeBig="0.070"
+		waterWaveSizeSmall="0.850"
 		waterCourseAngle="0.000"
 		waterSpecularM="1.000"
 		waterSpecularS="0.000"
@@ -2297,15 +2297,15 @@
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="73.000 75.000 84.000"
-			sunsetColor="165.750 128.000 114.750"
+			sunriseColor="178.500 178.500 175.950"
+			dayColor="145.350 158.100 168.300"
+			sunsetColor="209.100 175.950 160.650"
 			nightColor="64.000 64.000 64.000" />
 
 		<Fog
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="97.000 105.000 114.000"
-			sunsetColor="132.600 128.000 128.000"
+			sunriseColor="173.400 170.850 168.300"
+			dayColor="119.850 130.050 140.250"
+			sunsetColor="188.700 183.600 181.050"
 			nightColor="64.000 64.000 64.000" />
 
 		<Ambient
@@ -2387,15 +2387,15 @@
 		density="5"
 		distance="20.000">
 		<Sky
-			sunriseColor="81.000 81.000 70.000"
-			dayColor="79.050 81.600 76.500"
-			sunsetColor="119.850 102.000 91.800"
+			sunriseColor="119.850 117.300 102.000"
+			dayColor="137.700 135.150 132.600"
+			sunsetColor="158.100 142.800 119.850"
 			nightColor="119.850 117.300 117.300" />
 
 		<Fog
-			sunriseColor="175.950 145.350 99.450"
-			dayColor="130.050 130.000 124.950"
-			sunsetColor="204.000 165.750 107.100"
+			sunriseColor="198.900 173.400 142.800"
+			dayColor="160.650 160.650 160.650"
+			sunsetColor="191.250 153.000 112.200"
 			nightColor="81.600 91.800 102.000" />
 
 		<Ambient
@@ -2473,15 +2473,15 @@
 		waterSpecularS="0.001"
 		reduceDistFactor="0.395">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="153.000 163.200 165.750"
-			sunsetColor="109.650 128.000 128.000"
+			sunriseColor="181.050 178.500 175.950"
+			dayColor="196.350 204.000 211.650"
+			sunsetColor="150.450 168.300 168.300"
 			nightColor="64.000 64.000 64.000" />
 
 		<Fog
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="170.000 170.000 170.000"
-			sunsetColor="150.450 140.250 132.600"
+			sunriseColor="170.850 168.300 163.200"
+			dayColor="198.900 198.900 198.900"
+			sunsetColor="175.950 163.200 155.550"
 			nightColor="64.000 64.000 64.000" />
 
 		<Ambient
@@ -2665,16 +2665,16 @@
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="153.000 181.050 153.000"
-			sunsetColor="137.700 153.000 130.050"
+			sunriseColor="170.850 170.850 168.300"
+			dayColor="196.350 229.500 193.800"
+			sunsetColor="183.600 198.900 175.950"
 			nightColor="196.350 178.500 163.200" />
 
 		<Fog
-			sunriseColor="150.450 140.250 124.950"
-			dayColor="173.400 173.400 175.950"
-			sunsetColor="181.050 150.450 142.800"
-			nightColor="91.800 86.700 58.650" />
+			sunriseColor="183.600 175.950 163.200"
+			dayColor="188.700 198.900 209.100"
+			sunsetColor="201.450 188.700 178.500"
+			nightColor="91.800 86.700 71.400" />
 
 		<Ambient
 			sunriseColor="201.000 201.000 201.000"
@@ -2761,9 +2761,9 @@
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky
-			sunriseColor="96.900 128.000 140.250"
-			dayColor="155.550 142.800 104.550"
-			sunsetColor="128.000 128.000 128.000"
+			sunriseColor="198.900 221.850 255.000"
+			dayColor="219.300 193.800 168.300"
+			sunsetColor="175.950 173.400 170.850"
 			nightColor="142.800 145.350 150.450" />
 
 		<Fog
@@ -2857,15 +2857,15 @@
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="128.000 128.000 128.000"
-			sunsetColor="128.000 128.000 128.000"
+			sunriseColor="173.400 170.850 170.850"
+			dayColor="170.850 168.300 163.200"
+			sunsetColor="140.250 137.700 137.700"
 			nightColor="128.000 128.000 128.000" />
 
 		<Fog
-			sunriseColor="128.000 128.000 128.000"
-			dayColor="211.000 188.000 126.000"
-			sunsetColor="172.000 119.000 83.000"
+			sunriseColor="168.300 163.200 160.650"
+			dayColor="221.850 201.450 170.850"
+			sunsetColor="196.350 153.000 122.400"
 			nightColor="137.000 115.000 88.000" />
 
 		<Ambient
@@ -2943,15 +2943,15 @@
 		waterSpecularS="0.006"
 		reduceDistFactor="0.469">
 		<Sky
-			sunriseColor="163.200 130.050 84.150"
-			dayColor="114.750 119.850 119.850"
-			sunsetColor="224.400 145.350 94.350"
+			sunriseColor="158.100 140.250 112.200"
+			dayColor="178.500 175.950 170.850"
+			sunsetColor="239.700 173.400 130.050"
 			nightColor="64.000 158.100 170.850" />
 
 		<Fog
-			sunriseColor="255.000 216.750 178.500"
-			dayColor="229.500 196.350 170.850"
-			sunsetColor="255.000 201.450 132.600"
+			sunriseColor="237.150 219.300 201.450"
+			dayColor="214.200 201.450 183.600"
+			sunsetColor="214.200 160.650 102.000"
 			nightColor="79.050 99.450 104.550" />
 
 		<Ambient
