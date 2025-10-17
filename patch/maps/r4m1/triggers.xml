@@ -560,13 +560,15 @@
 			AddImportantFadingMsgByStrIdFormatted( "fm_race_start_0" )
 			TDeactivate("trFalseStar")
 			TActivate("trFormulaMoving")
+			TActivate("trFormulaMoving_new")
 			local maxcar = GetVar("CountCar").AsInt
 			for i=1,maxcar-1 do
 			    local veh1=getObj("FormulaCar"..i)
 			    if veh1 then
-					local let = {"L","M","R"}			    	
+					local let = {"L","M","R"}
 					local nump = GetVar("CarCurSide"..i).AsInt
 				    veh1:SetExternalPathByName("Gonka_StartPath_"..let[nump])
+					--veh1:SetExternalPathByName("New_Gonka_".."L")
 			    end
 			end
 			trigger:Deactivate()
@@ -580,8 +582,30 @@
 			AddImportantFadingMsgByStrIdFormatted( "fm_race_start_false" )
 			TDeactivate("trRaceTimer")
 			TDeactivate("trStartRace")
+			TDeactivate("trFormulaMoving_new")
 			TActivate("trFalseStartRace")
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="trFormulaMoving_new"	active="0">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath17_loc" />
+		<script>
+			local amount = trigger:GetTriggeredObjectAmount()
+			if not amount then
+				LOG("NO AMOUNT")
+			end
+			for i=0, amount-1 do
+			   local guestID = trigger:GetTriggeredObjectID(i)
+			   local guest = getObj(guestID)
+			   if guest then
+			   	  	local name = guest:GetName()
+					if strsub(name,1,10)=="FormulaCar" then
+						local nextpath = "New_Gonka_".."L"
+						guest:SetExternalPathByName(nextpath)
+					end
+				end
+			end
 		</script>
 	</trigger>
 
@@ -602,7 +626,7 @@
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath14_loc" />
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath15_loc" />
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath16_loc" />
-		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath17_loc" />
+		--<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath17_loc" />
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath18_loc" />
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath19_loc" />
 		<script>
@@ -618,25 +642,27 @@
 
 				  if strsub(name,1,10)=="FormulaCar" then
 						local locname = trigger:GetCallObjName()
-						local locnum = tonumber(strsub(locname,12,13))
+						--local locnum = tonumber(strsub(locname,12,13))
 
-						local carnum=tonumber(strsub(name,11,11))
-						local canmovearr = {{1,2,2},{1,2,3},{2,2,3}}
+						--local carnum=tonumber(strsub(name,11,11))
+						--local canmovearr = {{1,2,2},{1,2,3},{2,2,3}}
 
-						local let = {"L","M","R"}			    	
-						local nums = GetVar("CarCurSide"..carnum).AsInt
+						-- local let = {"L","M","R"}
+						--local let = {"L","L","L"}
+						--local nums = GetVar("CarCurSide"..carnum).AsInt
 
-						local newnums = canmovearr[nums][random(3)]
-						SetVar("CarCurSide"..carnum,newnums)
+						--local newnums = canmovearr[nums][random(3)]
+						--SetVar("CarCurSide"..carnum,newnums)
 --						println("Location Name = "..locname)
 --						LOG("Location Name = "..locname)
 
 --						local nextpath = "Gonka_"..locnum.."-"..locnum+1.."_"..let[newnums]
-						local nextpath = "Gonka_"..locnum.."-"..(locnum+1).."_"..let[newnums]
+						-- local nextpath = "Gonka_"..locnum.."-"..(locnum+1).."_"..let[newnums]
+						--local nextpath = "New_Gonka_".."L"
 --						nextpath = nextpath.."_"
 --						println(nextpath)
 --						LOG(nextpath)
-						guest:SetExternalPathByName(nextpath)
+						--guest:SetExternalPathByName(nextpath)
 --						guest:SetDestination(CVector(getPos("FormulaPath"..locnum+1.."_loc")))
 					end
 			   end
