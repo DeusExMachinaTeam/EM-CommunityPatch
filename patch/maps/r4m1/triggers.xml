@@ -560,7 +560,7 @@
 			AddImportantFadingMsgByStrIdFormatted( "fm_race_start_0" )
 			TDeactivate("trFalseStar")
 			TActivate("trFormulaMoving")
-			--TActivate("trFormulaMoving_new")
+			TActivate("trFormulaMoving_new")
 			local maxcar = GetVar("CountCar").AsInt
 			for i=1,maxcar-1 do
 			    local veh1=getObj("FormulaCar"..i)
@@ -590,7 +590,7 @@
 	</trigger>
 
 	<trigger	Name="trFormulaMoving_new"	active="0">
-		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FormulaPath17_loc" />
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="CheckPoint1_loc" />
 		<script>
 			local amount = trigger:GetTriggeredObjectAmount()
 			if not amount then
@@ -603,7 +603,7 @@
 			   	  	local name = guest:GetName()
 					if strsub(name,1,10)=="FormulaCar" then
 						local nextpath = "New_Gonka_".."L"
-						--guest:SetExternalPathByName(nextpath)
+						guest:SetExternalPathByName(nextpath)
 					end
 				end
 			end

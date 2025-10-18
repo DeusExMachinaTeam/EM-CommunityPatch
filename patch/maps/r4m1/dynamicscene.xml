@@ -2210,7 +2210,7 @@
 		Name="CheckPoint1_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4182.262 278.986 2185.095"
+		Pos="4171.203 278.983 2107.066"
 		Radius="35.000" />
 
 	<Object
