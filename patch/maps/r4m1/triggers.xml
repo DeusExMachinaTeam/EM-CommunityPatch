@@ -560,14 +560,15 @@
 			AddImportantFadingMsgByStrIdFormatted( "fm_race_start_0" )
 			TDeactivate("trFalseStar")
 			TActivate("trFormulaMoving")
-			TActivate("trFormulaMoving_new")
+			--TActivate("trFormulaMoving_new")
 			local maxcar = GetVar("CountCar").AsInt
 			for i=1,maxcar-1 do
 			    local veh1=getObj("FormulaCar"..i)
 			    if veh1 then
-					local let = {"L","M","R"}
+					local let = {"L","L","L"}
 					local nump = GetVar("CarCurSide"..i).AsInt
-				    veh1:SetExternalPathByName("Gonka_StartPath_"..let[nump])
+					--veh1:SetExternalPathByName("Gonka_StartPath_"..let[nump])
+				    veh1:SetExternalPathByName("New_Gonka_"..let[nump])
 					--veh1:SetExternalPathByName("New_Gonka_".."L")
 			    end
 			end
@@ -602,7 +603,7 @@
 			   	  	local name = guest:GetName()
 					if strsub(name,1,10)=="FormulaCar" then
 						local nextpath = "New_Gonka_".."L"
-						guest:SetExternalPathByName(nextpath)
+						--guest:SetExternalPathByName(nextpath)
 					end
 				end
 			end
