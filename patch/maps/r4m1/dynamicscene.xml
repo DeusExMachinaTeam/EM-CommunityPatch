@@ -2146,7 +2146,7 @@
 		Name="RaceStart1_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4148.078 278.997 2020.725"
+		Pos="4147.183 279.009 1992.609"
 		Radius="1.000" />
 
 	<Object
@@ -2154,7 +2154,7 @@
 		Name="RaceStart2_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4157.829 278.997 2025.274"
+		Pos="4157.442 278.996 2004.964"
 		Radius="1.000" />
 
 	<Object
@@ -2162,7 +2162,7 @@
 		Name="RaceStart3_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4148.585 279.002 2032.221"
+		Pos="4148.175 278.998 2020.704"
 		Radius="1.000" />
 
 	<Object
@@ -2170,7 +2170,7 @@
 		Name="RaceStart4_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4159.235 279.001 2036.864"
+		Pos="4158.590 278.998 2029.498"
 		Radius="1.000" />
 
 	<Object
@@ -2178,7 +2178,7 @@
 		Name="RaceStart5_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4149.635 279.006 2044.593"
+		Pos="4149.730 279.009 2041.269"
 		Radius="1.000" />
 
 	<Object
@@ -2186,7 +2186,7 @@
 		Name="RaceStart6_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4160.643 279.003 2050.333"
+		Pos="4160.726 279.003 2050.366"
 		Radius="1.000" />
 
 	<Object
@@ -2194,7 +2194,7 @@
 		Name="RaceStart7_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4151.375 279.007 2058.296"
+		Pos="4152.225 279.008 2062.694"
 		Radius="1.000" />
 
 	<Object
@@ -2202,7 +2202,7 @@
 		Name="RaceStart8_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4161.589 279.006 2062.483"
+		Pos="4162.768 279.005 2071.225"
 		Radius="1.000" />
 
 	<Object
@@ -2210,7 +2210,7 @@
 		Name="CheckPoint1_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4171.203 278.983 2107.066"
+		Pos="4182.262 278.986 2185.095"
 		Radius="35.000" />
 
 	<Object
