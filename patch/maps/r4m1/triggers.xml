@@ -481,7 +481,7 @@
 				   veh:SetCruisingSpeed(1500)
 				end
 			end
-			local plcar=CreateVehicleEx("Formula01","PlayerFormula",  CVector(getPos("RaceStart8_loc"))+CVector(0,1,0), 1100)
+			local plcar=CreateVehicleEx("Formula01_Player","PlayerFormula",  CVector(getPos("RaceStart8_loc"))+CVector(0,1,0), 1100)
 			local pl=g_Player
 			if pl and plcar then 
 			   plcar:SetRotation(Quaternion(0.000, -0.999, 0.000, 0.050))
