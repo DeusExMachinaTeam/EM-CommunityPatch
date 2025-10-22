@@ -2446,6 +2446,16 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	</Prototype>
 
 	<Prototype
+		Class			= "Vehicle"
+		Name			= "Formula01_Player"
+		ParentPrototype 	= "Formula"
+		SteeringSpeed		= "0.9">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "FormulaCab01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
 		Class				= "Vehicle"
 		Name				= "r1m3_Fighter01"
 		ParentPrototype 		= "Fighter"
