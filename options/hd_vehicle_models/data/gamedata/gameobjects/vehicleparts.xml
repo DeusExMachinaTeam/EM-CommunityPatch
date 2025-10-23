@@ -122,7 +122,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile	= "sml2Chassis"
 			ResourceType= "SML2_CHASSIS"
 			NodeScale	= "1 1 1"
-			Mass		= "200.0" 			
+			Mass		= "50.0" 			
 			MaxHealth	= "2000" 
 			MaxFuel	= "2000"
 			BrakingSound="ET_S_BRAKE01"
@@ -603,11 +603,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale			= "1 1 1"
 			Durability			= "50"
 			DurCoeffsForDamageTypes	= "0 0 0"
-			Mass				= "1.0"
+			Mass				= "50.0"
 			MaxPower			= "80"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
                         VisibleInEncyclopedia = "false"
-			MaxTorque			= "600"
+			MaxTorque			= "200"
 			EngineHighSound		        = "ET_S_ENGINE_FORMULA_1_HIGH"
 			Price				= "300"	
 			MaxSpeed			= "320.0" >
@@ -3462,6 +3462,32 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			SuspensionModelFile = "sml2Susp02"
 			SuspensionCFM	= "0.0003"
 			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+		<Prototype
+			Class			= "Wheel"
+			Name			= "FormulaWheel01_Player"
+			ModelFile		= "sml2Wheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "5"
+			SuspensionModelFile = "sml2Susp01"
+			SuspensionCFM	= "0.0019"
+			SuspensionERP		= "0.1"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+		<Prototype
+			Class			= "Wheel"
+			Name			= "FormulaWheel02_Player"
+			ModelFile		= "sml2Wheel02"
+			NodeScale		= "1 1 1"
+			Mass			= "7.5"
+			SuspensionModelFile = "sml2Susp02"
+			SuspensionCFM	= "0.0019"
+			SuspensionERP		= "0.1"
 			SuspensionRange	= "1.0"
 			mU			= "1.0"
 			EffectType		= "SMALLWHEEL" />

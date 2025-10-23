@@ -466,7 +466,7 @@
 --			println("Create Formula 1 vehicles")
 			local maxcar = GetVar("CountCar").AsInt
 			for i=1,maxcar-1 do
-				local veh = CreateVehicleEx("Formula01","FormulaCar"..i,  CVector(getPos("RaceStart"..i.."_loc"))+CVector(0,1,0), 1100)
+				local veh = CreateVehicleEx("Formula01_Bot","FormulaCar"..i,  CVector(getPos("RaceStart"..i.."_loc"))+CVector(0,1,0), 1100)
 				if veh then 
 				   veh:SetRotation(Quaternion(0.000, -0.999, 0.000, 0.050))
 				   local sk=random(8)-1
@@ -476,9 +476,9 @@
 				   end
 --				   veh:SetSkin(sk)
 				   veh:SetRandomSkin()
-				   veh:SetForcedMaxTorque(1500)
-				   veh:SetMaxSpeed(2000)
-				   veh:SetCruisingSpeed(1500)
+				   veh:SetForcedMaxTorque(550)
+				   veh:SetMaxSpeed(1152)
+				   veh:SetCruisingSpeed(1152)
 				end
 			end
 			local plcar=CreateVehicleEx("Formula01_Player","PlayerFormula",  CVector(getPos("RaceStart8_loc"))+CVector(0,1,0), 1100)
