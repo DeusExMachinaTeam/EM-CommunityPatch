@@ -305,7 +305,7 @@
 			nightColor="255.000 255.000 255.000" />
 
 		<Plant
-			sunriseColor="2255.000 214.200 155.550"
+			sunriseColor="255.000 214.200 155.550"
 			dayColor="234.600 242.250 160.650"
 			sunsetColor="255.000 214.200 155.550"
 			nightColor="181.050 168.300 140.250" />
@@ -2753,7 +2753,7 @@
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="5"
-		distance="20.000"
+		distance="7.500"
 		minThunderDuty="300"
 		maxThunderDuty="600"
 		minThunderPeriod="30000"
@@ -2764,19 +2764,19 @@
 			sunriseColor="198.900 221.850 255.000"
 			dayColor="219.300 193.800 168.300"
 			sunsetColor="175.950 173.400 170.850"
-			nightColor="142.800 145.350 150.450" />
+			nightColor="130.050 132.600 135.150" />
 
 		<Fog
 			sunriseColor="122.400 117.300 109.650"
 			dayColor="163.200 145.350 124.950"
 			sunsetColor="145.350 124.950 99.450"
-			nightColor="96.900 96.900 104.550" />
+			nightColor="73.950 73.950 81.600" />
 
 		<Ambient
 			sunriseColor="128.000 128.000 128.000"
-			dayColor="132.600 135.150 142.800"
+			dayColor="142.800 150.450 158.100"
 			sunsetColor="173.400 128.000 84.150"
-			nightColor="183.600 175.950 160.650" />
+			nightColor="135.150 135.150 122.400" />
 
 		<Diffuse
 			sunriseColor="128.000 128.000 128.000"
@@ -2794,7 +2794,7 @@
 			sunriseColor="196.350 211.650 237.150"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="229.500 196.350 163.200"
-			nightColor="188.700 201.450 255.000" />
+			nightColor="170.850 175.950 216.750" />
 
 		<Specular
 			sunriseColor="128.000 128.000 128.000"
