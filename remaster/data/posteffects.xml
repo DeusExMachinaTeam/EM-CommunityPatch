@@ -9502,7 +9502,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.920"
+			InitVal="0.910"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -9733,7 +9733,7 @@
 
 		<Unit
 			VarName="SepiaIntensity"
-			InitVal="0.540"
+			InitVal="0.520"
 			Param1="0"
 			Param2="0"
 			Param3="0"

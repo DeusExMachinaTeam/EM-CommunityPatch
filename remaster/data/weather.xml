@@ -2767,7 +2767,7 @@
 			nightColor="130.050 132.600 135.150" />
 
 		<Fog
-			sunriseColor="122.400 117.300 109.650"
+			sunriseColor="163.200 170.850 175.950"
 			dayColor="163.200 145.350 124.950"
 			sunsetColor="145.350 124.950 99.450"
 			nightColor="73.950 73.950 81.600" />
@@ -2822,8 +2822,8 @@
 
 		<cloudsSpeed
 			sunrise="0.100"
-			day="0.100"
-			sunset="0.100"
+			day="0.063"
+			sunset="0.038"
 			night="0.100" />
 
 		<WindInfo
