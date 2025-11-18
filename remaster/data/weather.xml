@@ -1172,13 +1172,13 @@
 			sunriseColor="173.400 170.850 168.300"
 			dayColor="170.850 168.300 140.250"
 			sunsetColor="173.400 170.850 168.300"
-			nightColor="178.500 181.050 209.100" />
+			nightColor="132.600 132.600 168.300" />
 
 		<Fog
 			sunriseColor="252.450 229.500 196.350"
 			dayColor="242.250 239.700 209.100"
 			sunsetColor="226.950 198.900 160.650"
-			nightColor="75.000 83.000 101.000" />
+			nightColor="40.800 53.550 66.300" />
 
 		<Ambient
 			sunriseColor="188.700 188.700 158.100"
@@ -1187,7 +1187,7 @@
 			nightColor="157.000 177.000 196.000" />
 
 		<Diffuse
-			sunriseColor="232.050 226.950 255.000"
+			sunriseColor="232.050 226.950 196.350"
 			dayColor="255.000 209.100 158.100"
 			sunsetColor="239.700 186.000 142.800"
 			nightColor="53.550 86.700 150.450" />
@@ -1226,7 +1226,7 @@
 			sunrise="55.000"
 			day="52.000"
 			sunset="56.000"
-			night="8.000" />
+			night="100.000" />
 
 		<cloudsSpeed
 			sunrise="0.025"
@@ -2848,8 +2848,8 @@
 		reduceDistFactor="0.420"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
-		density="1"
-		distance="27.200"
+		density="5"
+		distance="10.000"
 		minThunderDuty="193"
 		maxThunderDuty="230"
 		minThunderPeriod="30000"
@@ -2871,14 +2871,14 @@
 		<Ambient
 			sunriseColor="159.000 181.000 196.000"
 			dayColor="207.000 210.000 239.000"
-			sunsetColor="140.250 168.300 196.350"
-			nightColor="156.000 164.000 177.000" />
+			sunsetColor="168.300 168.300 196.350"
+			nightColor="135.150 164.000 177.000" />
 
 		<Diffuse
 			sunriseColor="181.050 189.000 204.000"
 			dayColor="255.000 192.000 86.700"
 			sunsetColor="255.000 150.450 28.050"
-			nightColor="87.000 105.000 142.000" />
+			nightColor="66.300 105.000 142.000" />
 
 		<Sun
 			sunriseColor="128.000 128.000 128.000"
