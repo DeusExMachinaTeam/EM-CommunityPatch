@@ -3892,7 +3892,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.920"
+			InitVal="0.910"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4198,7 +4198,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.860"
+			InitVal="0.820"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4531,7 +4531,7 @@
 
 		<Unit
 			VarName="SepiaIntensity"
-			InitVal="0.260"
+			InitVal="0.350"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4642,7 +4642,7 @@
 
 		<Unit
 			VarName="SepiaColorR"
-			InitVal="0.790"
+			InitVal="0.720"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4651,7 +4651,7 @@
 
 		<Unit
 			VarName="SepiaColorG"
-			InitVal="0.970"
+			InitVal="0.740"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -4660,7 +4660,7 @@
 
 		<Unit
 			VarName="SepiaColorB"
-			InitVal="0.520"
+			InitVal="0.280"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8668,7 +8668,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.150"
+			InitVal="0.140"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8713,7 +8713,7 @@
 
 		<Unit
 			VarName="SepiaIntensity"
-			InitVal="0.420"
+			InitVal="0.500"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8722,7 +8722,7 @@
 
 		<Unit
 			VarName="SepiaColorR"
-			InitVal="0.810"
+			InitVal="0.390"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8731,7 +8731,7 @@
 
 		<Unit
 			VarName="SepiaColorG"
-			InitVal="0.940"
+			InitVal="0.630"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8740,7 +8740,7 @@
 
 		<Unit
 			VarName="SepiaColorB"
-			InitVal="0.560"
+			InitVal="0.390"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -8917,7 +8917,7 @@
 
 		<Unit
 			VarName="SepiaIntensity"
-			InitVal="0.210"
+			InitVal="0.280"
 			Param1="0"
 			Param2="0"
 			Param3="0"

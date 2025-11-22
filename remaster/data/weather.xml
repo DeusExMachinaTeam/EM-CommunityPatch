@@ -1523,25 +1523,25 @@
 			sunriseColor="163.200 160.650 158.100"
 			dayColor="173.400 173.400 170.850"
 			sunsetColor="183.600 183.600 181.050"
-			nightColor="117.300 137.700 117.300" />
+			nightColor="96.900 96.900 117.300" />
 
 		<Fog
-			sunriseColor="255.000 226.000 198.000"
-			dayColor="239.700 226.950 188.700"
-			sunsetColor="216.750 181.050 124.950"
-			nightColor="81.600 81.600 79.050" />
+			sunriseColor="255.000 221.850 204.000"
+			dayColor="247.350 237.150 201.450"
+			sunsetColor="216.750 188.700 124.950"
+			nightColor="53.550 53.550 63.750" />
 
 		<Ambient
-			sunriseColor="130.050 145.350 163.200"
-			dayColor="146.000 165.000 194.000"
-			sunsetColor="158.100 153.000 135.150"
-			nightColor="175.950 183.600 181.050" />
+			sunriseColor="170.850 191.250 209.100"
+			dayColor="209.100 232.050 255.000"
+			sunsetColor="193.800 193.800 155.550"
+			nightColor="153.000 155.550 155.550" />
 
 		<Diffuse
-			sunriseColor="255.000 211.650 109.650"
+			sunriseColor="255.000 229.500 198.900"
 			dayColor="229.000 198.000 132.000"
 			sunsetColor="255.000 188.700 112.200"
-			nightColor="86.700 102.000 61.200" />
+			nightColor="81.600 84.150 114.750" />
 
 		<Sun
 			sunriseColor="232.050 188.700 153.000"
@@ -1551,9 +1551,9 @@
 
 		<Plant
 			sunriseColor="170.850 193.800 229.500"
-			dayColor="221.850 221.850 181.050"
+			dayColor="232.050 232.050 188.700"
 			sunsetColor="252.450 204.000 178.500"
-			nightColor="163.200 178.500 208.000" />
+			nightColor="137.700 137.700 160.650" />
 
 		<Specular
 			sunriseColor="255.000 249.900 255.000"
@@ -2653,7 +2653,7 @@
 		waterCourseAngle="0.000"
 		waterSpecularM="200.000"
 		waterSpecularS="0.005"
-		reduceDistFactor="0.420"
+		reduceDistFactor="0.519"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="5"
@@ -2666,27 +2666,27 @@
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky
 			sunriseColor="170.850 170.850 168.300"
-			dayColor="196.350 229.500 193.800"
-			sunsetColor="183.600 198.900 175.950"
-			nightColor="196.350 178.500 163.200" />
+			dayColor="201.450 204.000 158.100"
+			sunsetColor="198.900 181.050 193.800"
+			nightColor="81.600 76.500 53.550" />
 
 		<Fog
-			sunriseColor="183.600 175.950 163.200"
-			dayColor="188.700 198.900 209.100"
-			sunsetColor="201.450 188.700 178.500"
-			nightColor="91.800 86.700 71.400" />
+			sunriseColor="168.300 160.650 145.350"
+			dayColor="198.900 196.350 170.850"
+			sunsetColor="170.850 140.250 142.800"
+			nightColor="81.600 73.950 56.100" />
 
 		<Ambient
-			sunriseColor="201.000 201.000 201.000"
+			sunriseColor="173.400 173.400 170.850"
 			dayColor="196.350 160.650 132.600"
 			sunsetColor="188.000 168.000 158.000"
-			nightColor="178.500 175.950 137.700" />
+			nightColor="160.650 160.650 122.400" />
 
 		<Diffuse
-			sunriseColor="184.000 187.000 203.000"
+			sunriseColor="163.200 163.200 170.850"
 			dayColor="204.000 226.950 170.850"
 			sunsetColor="229.000 130.000 15.000"
-			nightColor="104.550 109.650 91.800" />
+			nightColor="96.900 94.350 79.050" />
 
 		<Sun
 			sunriseColor="128.000 128.000 128.000"
@@ -2704,7 +2704,7 @@
 			sunriseColor="255.000 198.900 181.050"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="255.000 255.000 255.000"
-			nightColor="191.250 181.050 255.000" />
+			nightColor="173.400 158.100 237.150" />
 
 		<PostEffect
 			sunrise="wSunriseRain_r1m3"
