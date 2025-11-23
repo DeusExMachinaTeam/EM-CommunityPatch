@@ -2665,16 +2665,16 @@
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky
-			sunriseColor="170.850 170.850 168.300"
+			sunriseColor="170.850 170.850 155.550"
 			dayColor="201.450 204.000 158.100"
 			sunsetColor="198.900 181.050 193.800"
-			nightColor="81.600 76.500 53.550" />
+			nightColor="198.900 196.350 170.850" />
 
 		<Fog
-			sunriseColor="168.300 160.650 145.350"
+			sunriseColor="168.300 168.300 145.350"
 			dayColor="198.900 196.350 170.850"
 			sunsetColor="170.850 140.250 142.800"
-			nightColor="81.600 73.950 56.100" />
+			nightColor="109.650 96.900 76.500" />
 
 		<Ambient
 			sunriseColor="173.400 173.400 170.850"
@@ -2698,7 +2698,7 @@
 			sunriseColor="229.500 239.700 219.300"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="255.000 219.300 247.350"
-			nightColor="214.200 201.450 165.750" />
+			nightColor="181.050 173.400 135.150" />
 
 		<Specular
 			sunriseColor="255.000 198.900 181.050"
