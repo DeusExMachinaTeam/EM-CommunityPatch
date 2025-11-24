@@ -3382,7 +3382,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.970"
+			InitVal="0.900"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3484,7 +3484,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.960"
+			InitVal="0.930"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -3586,7 +3586,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.900"
+			InitVal="0.710"
 			Param1="0"
 			Param2="0"
 			Param3="0"
