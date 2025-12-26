@@ -9,7 +9,7 @@ display_name: Community Remaster
 # translations & variants versions and builds should be the same as the version and build of main mod
 # can specify the same build and version manually, but this will be copied from main mod 
 # version: "1.14.1"
-# build: "240321a"
+# build: "250112a"
 
 description: |
   Community Patch - fan mod/patch project main goal of which is to improve game's stability, enchance cutscene and quest content, correct broken functionality of game engine and some gameplay systems.
