@@ -8,6 +8,13 @@
  *
  **/
 
+#ifndef RAMP
+#define RAMP 1.0, 0.20, 0.05
+// #define RAMP 1.0, 0.0, 0.0
+// gamma, contrast, brightness
+#endif
+
+const float3 ramp = float3(RAMP);
 
 #ifndef MIP_FILTER
 #define MIP_FILTER Point
@@ -15,13 +22,21 @@
 
 
 #ifndef SPECULAR_POWER
-#define SPECULAR_POWER 4
+#define SPECULAR_POWER 2
 #endif
 
 #ifndef SPECULAR_MULTIPLY
-#define SPECULAR_MULTIPLY 4
+#define SPECULAR_MULTIPLY 2
 #endif
 
+
+#ifndef REFLECTION_POWER
+#define REFLECTION_POWER 0.9
+#endif
+
+#ifndef REFLECTION_MULTIPLY
+#define REFLECTION_MULTIPLY 1.5
+#endif
 
 #define SPACE_OBJECT 1
 #define SPACE_WORLD  2
@@ -116,12 +131,13 @@ float4 diffuse(float3 dir_view,
     float  RdotV = dot    ( NrefL,    -dir_view);
 
     float  luminance = max(0.0, NdotL);
-    float3 light = saturate(g_Ambient.rgb + g_Diffuse.rgb * luminance);
+    float3 light = g_Ambient.rgb * 0.9f + g_Diffuse.rgb * luminance;
+    // float3 light = saturate(g_Ambient.rgb + g_Diffuse.rgb * luminance);
 
     float3 color = Color;
 
     #ifdef ENABLE_REFLECTION
-    color = lerp(color, Cubemap, Reflection);
+    color = lerp(color, Cubemap, pow(Reflection, REFLECTION_POWER) * REFLECTION_MULTIPLY);
     #endif
 
     color *= light;
@@ -142,6 +158,8 @@ float4 diffuse(float3 dir_view,
     #ifdef GLOBAL_OPACITY
     Opacity *= g_Transparent;
     #endif
+
+    color = pow((color * ramp.x), 1.0 + ramp.y) + ramp.z;
 
     return float4(color, Opacity);
 };
