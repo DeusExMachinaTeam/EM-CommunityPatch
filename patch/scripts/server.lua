@@ -1341,3 +1341,48 @@ function RestoreAllToleranceStatus()
 end
 
 
+function UseRepairItem(hpAmount, armorAmount)
+	local v = GetPlayerVehicle()
+	if v then
+		-- Тратим, если есть что чинить: здоровье ниже максимума или есть
+		-- повреждённая броня.
+		if v:GetHealth() < v:GetMaxHealth() or HasDamagedArmor() then
+			v:AddModifier('hp', '+ ' .. hpAmount)
+			SmartRepair(armorAmount)
+			PlayControlSound('SOUND_REPAIR')
+			return 1
+		end
+		return nil
+	end
+end
+
+-- Топливо: fuelAmount в бак. Полный бак канистру не расходует.
+function UseFuelItem(fuelAmount)
+	local v = GetPlayerVehicle()
+	if v then
+		if v:GetFuel() < v:GetMaxFuel() then
+			v:AddModifier('fuel', '+ ' .. fuelAmount)
+			PlayControlSound('SOUND_REFUEL')
+			return 1
+		end
+		return nil
+	end
+end
+
+function UseScrapMetal()
+	return UseRepairItem(25, 4)
+end
+
+function UseMachinery()
+	return UseRepairItem(125, 8)
+end
+
+function UseElectronics()
+	return UseRepairItem(400, 16)
+end
+
+function UseFuel()
+	return UseFuelItem(20)
+end
+
+
