@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource><!--
+***************************************************************************
+	Предали друида, диалог с механопоклонниками и дриудом
+***************************************************************************
+-->
+	<string
+		id="1001"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="1496"
+		modelSlot="1"
+		value="TRAITOR|Well well, look who’s there! Now we’ll see who gives orders here! You will pay for persecution of our brethren."
+		sound="data\sounds\Speech\r3m1\r3m1_1001_traitor.ogg"
+		time="4" />
+
+	<string
+		id="1002"
+		modelName="r3_man"
+		modelSkin="2"
+		modelCfg="1915"
+		modelSlot="1"
+		value="DRUID|So you betrayed me... I do not blame you, ignorant child. But any evil will be punished, such is the law of the live. I pity you... "
+		sound="data\sounds\Speech\r3m1\r3m1_1002_druid.ogg"
+		time="5" />
+
+	<string
+		id="1003"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="1496"
+		modelSlot="1"
+		value="TRAITOR|Cut the rubbish, old man! You, go to Uluk to get you reward. "
+		sound="data\sounds\Speech\r3m1\r3m1_1003_traitor.ogg"
+		time="4" />
+
+	<string
+		id="1004"
+		modelName="mask_hero"
+		value="|See you there."
+		sound="data\sounds\Speech\r3m1\r3m1_1004_hero.ogg"
+		time="3" />
+<!--
+***************************************************************************
+	Приехали на карту с лисой через туннель
+***************************************************************************
+-->
+	<string
+		id="1020"
+		modelName="mask_hero"
+		value="|We are finally here. I was afraid we will never get out of this stinky hole. Do you have any acquaintances here?"
+		sound="data\sounds\Speech\r3m1\r3m1_1020_hero.ogg"
+		time="4" />
+
+	<string
+		id="1021"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ALICE|Actually I do. But they won’t help you."
+		sound="data\sounds\Speech\r3m1\r3m1_1021_alice.ogg"
+		time="4" />
+
+	<string
+		id="1022"
+		modelName="mask_hero"
+		value="|Who are they?"
+		sound="data\sounds\Speech\r3m1\r3m1_1022_hero.ogg"
+		time="4" />
+
+	<string
+		id="1023"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ALICE|My old friends with shadowy past. They dislike strangers so you wouldn’t like to go see them without invitation."
+		sound="data\sounds\Speech\r3m1\r3m1_1023_alice.ogg"
+		time="4" />
+
+	<string
+		id="1024"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="ALICE|I’ll stay with them, while you are looking for the Oracle. When you are done, meet me there."
+		sound="data\sounds\Speech\r3m1\r3m1_1024_alice.ogg"
+		time="4" />
+<!--
+***************************************************************************
+
+***************************************************************************
+-->
+	<string
+		id="21"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2173"
+		modelSlot="1"
+		value="REFUGEE|Run, hurry! We still may be saved!"
+		sound="data\sounds\Speech\r3m1\r3m1_21_rebel.ogg"
+		time="4"/>
+
+	<string
+		id="22"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="637"
+		modelSlot="1"
+		value="REFUGEE|Save us, good man! We refused to adopt the belief of new masters of Uluk. Now the heretics are chasing us! "
+		sound="data\sounds\Speech\r3m1\r3m1_22_refugee.ogg" />
+
+	<string
+		id="23"
+		modelName="mask_hero"
+		value="|Do not be afraid! Together we will repulse the attack! Let anyone, who can keep weapon in their arms, fight!"
+		sound="data\sounds\Speech\r3m1\r3m1_23_hero.ogg" />
+
+	<string
+		id="24"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="637"
+		modelSlot="1"
+		value="REFUGEE|Hooray! Enough running away! We shall fight for our lives!"
+		sound="data\sounds\Speech\r3m1\r3m1_24_refugee.ogg" 
+		time="6"/>
+
+	<string
+		id="25"
+		modelName="mask_hero"
+		value="|We have won the battle, but not the war. The heretics may return any minute now. Hurry to Seth! We’ll be safe there."
+		sound="data\sounds\Speech\r3m1\r3m1_25_hero.ogg"
+		time="4" />
+
+	<string
+		id="26"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="637"
+		modelSlot="1"
+		value="REFUGEE|Thanks for the help! You gave us hope, noble stranger!"
+		sound="data\sounds\Speech\r3m1\r3m1_26_refugee.ogg"
+		time="4" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		value="|I couldn’t save them..."
+		sound="data\sounds\Speech\r3m1\r3m1_32_hero.ogg"
+		time="4" />
+
+	<string
+		id="27"
+		modelName="mask_hero"
+		value="|What a queer machine. Now I see what druids are afraid of. This abomination gives me creeps."
+		sound="data\sounds\Speech\r3m1\r3m1_27_hero.ogg"
+		time="4" />
+
+	<string
+		id="28"
+		modelName="mask_hero"
+		value="|It’s not the first time I fight with the monsters! My cause is right and I will crush the enemy! "
+		sound="data\sounds\Speech\r3m1\r3m1_28_hero.ogg"
+		time="4" />
+
+	<string
+		id="31"
+		modelName="mask_hero"
+		value="|Stonehenge defilers are dead. I must inform the druids."
+		sound="data\sounds\Speech\r3m1\r3m1_31_hero.ogg"
+		time="4" />
+
+	<string
+		id="29"
+		modelName="mask_hero"
+		value="|Holy stone is in place. I gotta get out of here before the mother earth’s wrath falls upon the profaned ground."
+		sound="data\sounds\Speech\r3m1\r3m1_29_hero.ogg"
+		time="4" />
+
+	<string
+		id="1010"
+		modelName="mask_hero"
+		value="|I barely escaped. The nature is mighty indeed!"
+		sound="data\sounds\Speech\r3m1\r3m1_1010_hero.ogg"
+		time="4" />
+
+	<string
+		id="30"
+		modelName="mask_hero"
+		value="|Druids of Seth will be happy to learn what happened here."
+		sound="data\sounds\Speech\r3m1\r3m1_30_hero.ogg"
+		time="4" />
+
+	<string
+		id="8801"
+		value="Do you wish to travel to another region?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="I don’t know the way, so I’ll better stay here." 
+		time="5"/>
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="There’s something strange about this place. I don’t want to go there." 
+		time="5"/>
+</resource>

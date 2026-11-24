@@ -431,36 +431,39 @@
 <!--			Ролик подьезда к конвою лидера экстримистов		-->
 
 	<trigger Name="RolikBegin_NearCaravanLeader" active="0">
-		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<event timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
-		    SaveAllToleranceStatus(RS_NEUTRAL)
-			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			ShowHostileVehicles(false)
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
 
 			TActivate("RolikEnd_NearCaravanLeader")
+			TActivate("trCaravan_cam01")
 			TActivate("trCaravan_cam02")
 			TActivate("trCaravan_cam03")
 			TActivate("trCaravan_Fade")
+
 			PlayCustomMusic("Passage01unloop")
+
 			RuleConsole("cinematic_spring_coeff 6.0")
 
-			local Band = GetEntityByName("LeaderGuardTeam_vehicle_0")
+			local leader_car = CreateVehicleEx("Molokovoz01", "NPT_vehicle_4", CVector(0, 1000, 0), 1010, Quaternion(-0.016, 0.946, -0.025, 0.324))
+
+			CreateVehicleEx("Bug01", "NPT_vehicle_3", CVector(0, 2000, 0), 1010, Quaternion(-0.011, 0.990, -0.027, 0.135))
+
+			local Band = GetEntityByName("NPT_vehicle_3")
 			local BandID = Band:GetId()
 			local vehPID = GetPlayerVehicleId()
-			local Lider = GetEntityByName("LeaderCar_vehicle_0")
+			local Lider = GetEntityByName("NPT_vehicle_4")
 			local LiderID = Lider:GetId()
 
-			FlyLinked( "Caravan_cam01", BandID , 14, 1, 0, vehPID, nil, true, nil, nil )
-			FlyLinked("Caravan_cam02", vehPID, 17, 0, 0, BandID, nil, true, nil, true )
-			FlyLinked("Caravan_cam03", LiderID, 18.5, 0, 1, LiderID, nil, true, nil, true )
+			FlyLinked( "Caravan_cam00", BandID , 7, 1, 0, vehPID, nil, true, nil, nil )
+			FlyLinked( "Caravan_cam01", vehPID , 6, 0, 0, LiderID, nil, true, nil, nil )
+			FlyLinked("Caravan_cam02", LiderID, 17, 0, 0, LiderID, nil, true, nil, nil )
+			FlyLinked("Caravan_cam03", vehPID, 18, 0, 1, LiderID, nil, true, nil, nil )
 			StartCinematic()
 
 			AddCinematicMessage( 4, 1 )
-			AddCinematicMessage( 5, 1 )
-
-			local PlVehicle = GetPlayerVehicle()
-			if PlVehicle then
-				PlVehicle:SetThrottle(0)
-			end
 
 			trigger:Deactivate()
 		</script>
@@ -469,13 +472,103 @@
 	<trigger Name="trCaravan_Fade" active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
+			local npt_car1 = CreateVehicleEx("Revolutioner2", "NPT_vehicle_1", CVector(2335.757, 250.426, 2975.369), 1010, Quaternion(0.000, 0.964, 0.000, 0.265))
+			local npt_car2 = CreateVehicleEx("Bug01", "NPT_vehicle_2", CVector(2325.117, 250.077, 3000.081), 1010, Quaternion(0.025, 0.985, 0.018, 0.170))
+			local npt_car3 = getObj("NPT_vehicle_3")
+			if npt_car3 then
+				npt_car3:SetGamePositionOnGround(CVector(2316.018, 251.340, 3028.088))
+				npt_car3:SetRotation(Quaternion(-0.011, 0.990, -0.027, 0.135))
+			end
+
+			-- Вынесено в отдельный триггер, потому что кончалыги из Таргем Геймс не умеют делать игры
+			TActivate("trPlaceLeaderCar")
+
+			local lcar = getObj("NPT_vehicle_4")
+			if lcar then lcar:AttachTrailer("MolokovozTrailer") end
+
+			for car = 1,4 do
+				local npt_car = getObj("NPT_vehicle_"..car)
+				if npt_car then
+					npt_car:SetCruisingSpeed(12)
+					npt_car:SetExternalPathByName("LeaderCar_path01")
+					npt_car:SetRandomSkin()
+				end
+			end
+
+			-- покраска трейлера после общего проставления скинов
+			if lcar then PaintTrailer(lcar) end
+
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
 				vehPlayer:SetCustomControlEnabled( true )
 				vehPlayer:SetCustomLinearVelocity( 0 )
 				vehPlayer:SetThrottle( 0 )
 				vehPlayer:SetCustomControlEnabled( false )
+				vehPlayer:SetGamePositionOnGround(CVector(2508.524, 250.664, 2645.997))
+				vehPlayer:SetRotation(Quaternion(0.005, -0.135, 0.009, 0.991))
+				vehPlayer:LimitMaxSpeed(5)
+				vehPlayer:SetCustomLinearVelocity( 20 )
+				vehPlayer:SetExternalPathByName("player_path07")
 			end
+
+			TActivate("trCaravanLeaderReach")
+			TActivate("trCaravan1stVehReach")
+			TActivate("trCaravan2ndVehReach")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<!-- Вынесено в отдельный триггер, потому что кончалыги из Таргем Геймс не умеют делать игры -->
+	<trigger Name="trPlaceLeaderCar" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			local lcar = getObj("NPT_vehicle_4")
+			if lcar then
+				lcar:SetGamePositionOnGround(CVector(2350.553, 250.322, 2952.802))
+				lcar:SetRotation(Quaternion(-0.016, 0.946, -0.025, 0.324))
+			end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trCaravanLeaderReach" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="NPT_vehicle_4"/>
+		<script>
+			local npt_car1 = getObj("NPT_vehicle_4")
+			if npt_car1 then npt_car1:SetExternalPathByName("LeaderCar_path02") end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trCaravan1stVehReach" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="NPT_vehicle_1"/>
+		<script>
+			local npt_car2 = getObj("NPT_vehicle_1")
+			if npt_car2 then npt_car2:SetExternalPathByName("LeaderCar_path03") end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trCaravan2ndVehReach" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="NPT_vehicle_2"/>
+		<script>
+			local npt_car3 = getObj("NPT_vehicle_2")
+			if npt_car3 then npt_car3:SetExternalPathByName("LeaderCar_path04") end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trCaravan_cam01" active="0">
+		<event flypath="Caravan_cam01" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+
+			AddCinematicMessage( 5, 1 )
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -486,14 +579,8 @@
 
 			PlayCustomMusic("IntenseDialogue01")
 
-			local vehPlayer = GetPlayerVehicle()
-			if vehPlayer then
-				vehPlayer:SetThrottle(0)
-				vehPlayer:SetCustomLinearVelocity(0)
-			end
-
 			AddCinematicMessage( 6, 1 )
-			AddCinematicMessage( 7, 1 )
+			AddCinematicMessage( 7, 1 )	
 
 			trigger:Deactivate()
 		</script>
@@ -514,18 +601,98 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-		RuleConsole("cinematic_spring_coeff 0.7")
-	    RestoreAllToleranceStatus()
-		SetTolerance(1100, 1010, RS_ENEMY)
+			RuleConsole("cinematic_spring_coeff 0.7")
 
-		StopPlayingCustomMusic()
-		TDeactivate("RolikEnd_NearCaravanLeader")
-		TDeactivate("trCaravan_cam02")           
-		TDeactivate("trCaravan_cam03")           
-		SetCameraBehindPlayerVehicle()
-		CompleteQuest("FreeExtremistLeader_Quest3")
-		TakeQuest("FreeExtremistLeader_Quest3_1")
-		trigger:Deactivate()
+			RestoreAllToleranceStatus()
+
+			ShowHostileVehicles(true)
+
+			SetTolerance(1100, 1010, RS_ENEMY)
+
+			StopPlayingCustomMusic()
+
+			local skins = {1,2,3,4}
+			for car = 1,4 do
+				local npt_car = getObj("NPT_vehicle_"..car)
+				if npt_car then
+					skins[car] = npt_car:GetSkin()
+					npt_car:Remove()
+				end
+			end
+
+			TeamCreate("LeaderGuardTeam",1010,CVector(getPos("LeaderCaravanStart_loc")),{"Revolutioner2","Bug01","Bug01"})
+
+			local guard1 = getObj("LeaderGuardTeam"):GetVehicle(0)
+			if guard1 then
+				guard1:SetGamePositionOnGround(CVector(2450.231, 250.268, 2751.583))
+				guard1:SetRotation(Quaternion(-0.001, 0.998, -0.005, -0.067))
+				guard1:SetSkin(skins[1])
+			end
+
+			local guard2 = getObj("LeaderGuardTeam"):GetVehicle(1)
+			if guard2 then
+				guard2:SetGamePositionOnGround(CVector(2496.796, 250.706, 2769.292))
+				guard2:SetRotation(Quaternion(-0.020, 0.890, -0.011, 0.456))
+				guard2:SetSkin(skins[2])
+			end
+
+			local guard3 = getObj("LeaderGuardTeam"):GetVehicle(2)
+			if guard3 then
+				guard3:SetGamePositionOnGround(CVector(2458.987, 251.953, 2800.566))
+				guard3:SetRotation(Quaternion(0.003, 0.983, 0.001, 0.182))
+				guard3:SetSkin(skins[3])
+			end
+
+			TeamCreate("LeaderCar",1010,CVector(2474.402, 250.483, 2751.904),{"Molokovoz01"}, nil, nil, Quaternion(0.033, 0.988, -0.001, 0.153))
+
+			local lcar = getObj("LeaderCar_vehicle_0")
+			if lcar then
+				lcar:SetSkin(skins[4])
+				lcar:AttachTrailer("MolokovozTrailer")
+				local trailer = lcar:GetTrailer()
+				lcar:setImmortalMode(1)
+				trailer:setImmortalMode(1)
+				local nametr = trailer:GetName()
+				PaintTrailer(lcar)
+
+				local tr = getObj("trLeaderCarDie")
+				if tr then
+					tr:AddEvent("GE_VEHICLE_WITHOUT_HEALTH", nametr)
+				end
+			end
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+			vehPlayer:SetCustomControlEnabled( true )
+			vehPlayer:SetCustomLinearVelocity( 0 )
+			vehPlayer:SetThrottle( 0 )
+			vehPlayer:SetCustomControlEnabled( false )
+			vehPlayer:SetGamePositionOnGround(CVector(2490.111, 251.402, 2712.311))
+			vehPlayer:SetRotation(Quaternion(0.027, -0.156, 0.006, 0.987))
+			vehPlayer:UnlimitMaxSpeed()
+			vehPlayer:PlaceToEndOfPath("player_path07")
+			vehPlayer:setGodMode(0)
+			end
+
+			SetCameraBehindPlayerVehicle()
+
+			TDeactivate("trCaravan_cam01")
+			TDeactivate("trCaravan_cam02")           
+			TDeactivate("trCaravan_cam03")   
+			TDeactivate("trCaravan_Fade")
+			TDeactivate("trCaravanLeaderReach")
+			TDeactivate("trCaravan1stVehReach")
+			TDeactivate("trCaravan2ndVehReach")
+
+			TActivate("trMainCarDie")
+			TActivate("trLeaderGuardsDie")
+			TActivate("trLeaderCarDie")
+			TActivate("trPlGOdMode2sec")
+
+			CompleteQuest("FreeExtremistLeader_Quest3")
+			TakeQuest("FreeExtremistLeader_Quest3_1")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 

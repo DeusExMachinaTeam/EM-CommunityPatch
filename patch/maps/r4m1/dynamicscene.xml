@@ -2290,7 +2290,7 @@
 		Name="PlayerCarOnRacePos_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4410.568 279.056 2051.004"
+		Pos="4422.050 280.216 2025.034"
 		Radius="10.000" />
 
 	<Object

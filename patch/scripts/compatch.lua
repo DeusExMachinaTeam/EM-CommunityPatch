@@ -1,4 +1,4 @@
-CP_VERSION = "1.12"
+CP_VERSION = "1.14"
 
 
 -- by zatinu322:
@@ -15,7 +15,7 @@ function tp ()
 end
 
 
--- Alias for PassToMap()
+-- Helper for PassToMap()
 function goto(map_name, from_loc_passed)
     local default_path = {
         ["r1m1"]="FromR1M2",
@@ -37,4 +37,24 @@ function goto(map_name, from_loc_passed)
     else
         println("Unknown map name")
     end
+end
+
+-- paint trailer to main vehicle's skin
+function PaintTrailer( vehicleName )
+    local veh = getObj( vehicleName )
+    if not veh then
+        println("Error: attempt to index a nil value: "..vehicleName)
+        LOG("Error: attempt to index a nil value: "..vehicleName)
+        return
+    end
+
+	local trailer = veh:GetTrailer()
+    if not trailer then
+        println("Error: prototype "..vehicleName.." has no trailer.")
+        LOG("Error: prototype "..vehicleName.." has no trailer.")
+        return
+    end
+
+	local skinnum = veh:GetSkin()
+	trailer:SetSkin(skinnum)
 end
