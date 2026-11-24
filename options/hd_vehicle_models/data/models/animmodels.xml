@@ -9595,7 +9595,7 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -9605,7 +9605,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"
@@ -9623,11 +9623,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -9743,11 +9743,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -9899,11 +9899,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -10219,11 +10219,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -10395,11 +10395,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="STAND1">
@@ -10589,11 +10589,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -10623,11 +10623,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -10675,11 +10675,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -10709,11 +10709,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -10743,11 +10743,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="MOVE2">
@@ -10771,11 +10771,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -10786,11 +10786,11 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="16" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="16" />
 	</model>
 
 	<model
@@ -10802,7 +10802,7 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -10812,7 +10812,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"
@@ -10830,7 +10830,7 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -10840,7 +10840,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"
@@ -10858,7 +10858,7 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -10868,7 +10868,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"
@@ -10886,7 +10886,7 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL_MED"
@@ -10896,7 +10896,7 @@
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="16">
 			<lp
 				id="8"
 				effect_id="ET_PS_VEH_EXP_WHEEL1_MED"

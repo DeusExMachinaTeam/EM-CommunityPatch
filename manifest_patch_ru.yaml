@@ -7,7 +7,7 @@ display_name: Community Patch
 # translations & variants versions and builds should be the same as the version and build of main mod
 # can specify the same build and version manually, but this will be copied from main mod so can ignore this
 # version: "1.14.1"
-# build: "240321a"
+# build: "250112a"
 
 description: |
   Community Patch - проект пользовательского мода-патча, основной целью которого является повышение стабильности игры, исправление сюжетных ошибок, катсцен и квестов, улучшения работы игрового движка и некорректно работающих игровых систем.

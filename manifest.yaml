@@ -6,7 +6,7 @@ name: community_remaster ## Unique service name, don't use names of other known 
 
 version: "1.14.1" ## major.minor.patch version, semantic versioning style. See for more info: https://deuswiki.com/w/ComMod#О_версиях_модов
 
-build: "240403a" ## expected build format is <short_year><month><day><letter_of_alphabet_for_build_of_the_day>
+build: "250112a" ## expected build format is <short_year><month><day><letter_of_alphabet_for_build_of_the_day>
 ## so 240403a is build done on 3rd of April 2024, 'a' for first build of the day. Will be 'b' for second build on that day, etc.
 ## ! Don't use day_month_year format - this creates errors when comparing builds and checking which build is newer !
 

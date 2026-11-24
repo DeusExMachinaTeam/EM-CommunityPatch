@@ -1722,52 +1722,52 @@
 		<Item 
 			id="uralCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCab03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCab04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCab05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCargo04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralCargo05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 4 8;" />
+			params = "skins: 0 1 2 4 8 9 10 11 12 15 16;" />
 
 		<Item 
 			id="uralSusp01" 

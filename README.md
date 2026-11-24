@@ -3,19 +3,21 @@
   <a href="https://discord.gg/jZHxYdF">
     <img src="https://user-images.githubusercontent.com/79088546/174285554-cf467b80-7264-475f-94ec-bacc204b04c9.png" alt="Logo" width="400">
   </a>
-  <h3 align="center">Комьюнити Ремастер / Комьюнити Патч</h3>
 
   ![Ru Readme](git_assets/in_russian_selected.png)   [![Eng Readme](git_assets/in_english.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/blob/main/README_EN.md)
 
+  <h3 align="center">Комьюнити Ремастер / Комьюнити Патч</h3>
+  <p align="center">Проект пользовательского ремастера / патча для игры Ex Machina.</p>
+
+  [![Forum DEM](git_assets/forum_link.png)](https://forum.deuswiki.com/t/community-remaster-patch/2929/1)
+
   <p align="center">
-    Проект пользовательского ремастера / патча для игры Ex Machina.
-    <br />
-    <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong>  Следить за разработкой на нашем Discord сервере »</strong></a>
-    <br />
+    <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong> Наш Discord сервер »</strong></a>
+    <a href="https://github.com/DeusExMachinaTeam/CommunityUnblock" alt="Unblock Community resources">🚨Обход блокировок Discord👮</a>
     <br />
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">🐛Создать багрепорт</a>
     ·
-    <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Страница на DeusWiki (только VPN)</a>
+    <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Страница на DeusWiki</a>
   </p>
 </div>
 
@@ -77,7 +79,7 @@
 <div align="center">
   <b>Свежий релиз:</b>
 
-  [![Eng Readme](git_assets/download_ru.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-240403a)
+  [![Eng Readme](git_assets/download_ru.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-250112)
 
 </div>
 
@@ -165,7 +167,7 @@
 <summary>Информация о лицензии</summary>
 
 <ol>
-Проект распространяется в полном виде только на Github.com.
+Проект распространяется в полном виде только на Github.com и ресурсах сообщества Deus Ex Machina: форуме и вики-сайте deuswiki.com
 Распространение полных файлов установки и результатов работы установщика Community Patch на других сайтах не разрешено.
 
 Исходный код проекта(все файлы кроме commod.exe) - лицензированы под MIT-подобной лицензией(исключая коммерческое использование) и может быть свободно использован как основа для создания ваших собственных модов. Пожалуйста, не забывайте сохранять текст лицензии и ссылку на проект, если используете его части.

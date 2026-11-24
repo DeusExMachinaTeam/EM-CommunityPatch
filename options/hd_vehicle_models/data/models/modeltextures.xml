@@ -27,7 +27,20 @@
 	<file
 		name="camo4.dds"
 		path="data\models\vehicles\shared\camo4.dds" />
-		
+
+	<file
+		name="camo1_sml.dds"
+		path="data\models\vehicles\shared\camo1_sml.dds" />
+	<file
+		name="camo2_sml.dds"
+		path="data\models\vehicles\shared\camo2_sml.dds" />
+	<file
+		name="camo3_sml.dds"
+		path="data\models\vehicles\shared\camo3_sml.dds" />	
+	<file
+		name="camo4_sml.dds"
+		path="data\models\vehicles\shared\camo4_sml.dds" />
+
 	<file
 		name="color1.dds"
 		path="data\models\vehicles\shared\color1.dds" />
