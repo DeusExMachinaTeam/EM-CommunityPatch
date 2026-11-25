@@ -13,7 +13,6 @@
 
   <p align="center">
     <a href="https://discord.gg/jZHxYdF"><img src="https://user-images.githubusercontent.com/79088546/174305727-755adfa0-57c2-41b0-9717-8476fcbc4567.png" alt="Discord link"><strong> Наш Discord сервер »</strong></a>
-    <a href="https://github.com/DeusExMachinaTeam/CommunityUnblock" alt="Unblock Community resources">🚨Обход блокировок Discord👮</a>
     <br />
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">🐛Создать багрепорт</a>
     ·

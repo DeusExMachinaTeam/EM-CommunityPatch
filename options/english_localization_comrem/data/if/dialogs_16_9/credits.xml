@@ -110,7 +110,7 @@
 
 		<Page
 			id="12"
-			text="Artists||Rustam «Rychi» Turey|Evgeny  Tokarev|Sergey «Sega» Mitryaev|Viktor «isymbosi» Koryakin|Roman Latynov"
+			text="Artists||Rustam «Rychi» Turey|Evgeny Tokarev|Sergey «Sega» Mitryaev|Viktor «isymbosi» Koryakin|Roman Latynov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1529"
@@ -317,7 +317,7 @@
 
 		<Page
 			id="34_1"
-			text="External testing||Igor Peshekhontsev|Dmitry Chichikov|Alexey SHekhovtsev|Ilia Yusipov|Timur Yusipov"
+			text="External testing||Igor Peshekhontsev|Dmitry Chichikov|Alexey Shekhovtsev|Ilia Yusipov|Timur Yusipov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="0"
@@ -335,7 +335,7 @@
 
 		<Page
 			id="36"
-			text="Sales department||Andrey Osipov|Alexandr Petrinsky|Olga Polkovnikova|Larisa Savelieva|Evgeny Samsonov|Svetlana Samsonova|Valery Tikhvonski|Sergey Fedosof"
+			text="Sales department||Andrey Osipov|Alexandr Petrinsky|Olga Polkovnikova|Larisa Savelieva|Evgeny Samsonov|Svetlana Samsonova|Valery Tikhvonski|Sergey Fedosov"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="4"

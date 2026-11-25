@@ -122,7 +122,7 @@
 
 	<string
 		id="GameSaving..."
-		value="Saving..." />
+		value="Saving…" />
 
 	<string
 		id="SaveGame"
@@ -394,15 +394,15 @@
 
 	<string
 		id="PiercingResistance"
-		value=" Piercing damage resistance " />
+		value="Piercing damage resistance" />
 
 	<string
 		id="BlastResistance"
-		value=" Explosion damage resistance" />
+		value="Explosion damage resistance" />
 
 	<string
 		id="EnergyResistance"
-		value=" Energy damage resistance " />
+		value="Energy damage resistance" />
 
 	<string
 		id="VehicleControl"
@@ -434,11 +434,11 @@
 
 	<string
 		id="Cannon"
-		value="Canon" />
+		value="Cannon" />
 
 	<string
 		id="ShotGun"
-		value="Shotgun " />
+		value="Shotgun" />
 
 	<string
 		id="Laser"
@@ -574,7 +574,7 @@
 
 	<string
 		id="PrevVehicle"
-		value="Previous vehicle " />
+		value="Previous vehicle" />
 
 	<string
 		id="NumUnitsToBuy"
@@ -626,7 +626,7 @@
 
 	<string
 		id="RepairUnavailable"
-		value="Not enough money to repair " />
+		value="Not enough money to repair" />
 
 	<string
 		id="RepairPartial"
@@ -678,11 +678,11 @@
 
 	<string
 		id="LeftItemsInBasket"
-		value="The body still contains some gadgets or weapon or merchandise|They will be sold along with the body.| Proceed?" />
+		value="The body still contains some gadgets or weapon or merchandise.|They will be sold along with the body.|Proceed?" />
 
 	<string
 		id="LeftItemsInVehicle"
-		value="The truck still has some gadgets or weapon installed or merchandise left in the cargo hold|They will be sold along with the truck.| Proceed?" />
+		value="The truck still has some gadgets or weapon installed or merchandise left in the cargo hold.|They will be sold along with the truck.|Proceed?" />
 
 	<string
 		id="BuyItemsCost"
@@ -806,7 +806,7 @@
 <!-- Îêíî ðåïóòàöèè -->
 	<string
 		id="EnemyRelation"
-		value="Enemy " />
+		value="Enemy" />
 
 	<string
 		id="FriendlyRelation"
