@@ -15,7 +15,7 @@
     <br />
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch/issues" alt="Report bug on GitHub">🐛 Create bug report</a>
     ·
-    <a href="https://deuswiki.com/w/Community_Remaster"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Page on DeusWiki (in Russian)</a>
+    <a href="https://deuswiki.com/w/Community_Patch_English"><img src="https://user-images.githubusercontent.com/79088546/174311991-c20e04bb-1cad-44e2-a0e9-5984de6d8d55.png"> Page on DeusWiki</a>
   </p>
 </div>
 
@@ -49,7 +49,7 @@ An exhaustive list is available when installing using ComMod mod manager or in t
 
 &#x1F53B; Important! &#x1F53B;
 * Community Patch / Remaster installation is possible **only on no-DRM version 1.02** and only with ComMod mod manager! This is necessary because we apply binary patches directly to game's executable, and all the available changes are possible only with 1.02. **We recommend to use Russian Steam version for installation, you can switch your copy to Russian before the installation of English ComRemaster/Patch from Steam's game settings**. Another option: unpacked version from the official Russian "Ex Machina Anthology".
-* Community Patch / Remaster can be installed **only on 64 bit versions of Windows 8, 10 or 11**!
+* Newer Community Patch / Remaster version can be installed **only on 64 bit versions of Windows 10, 11 or Linux (Ubuntu 22+ etc.)**! User of older OSes should install older [1.13 version](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.13-230113a).
 
 <p align="right">(<a href="#top">go to the top</a>)</p>
 
@@ -74,17 +74,25 @@ After installation, you can run the game from ComMod's launch page, but also fro
 Installation of other mods compatible with ComMod and Community Remaster/Patch is carried out in the same way.
 
 <hr>
+
 <div align="center">
+  <i>Always start new game after installing the ComPatch/Remaster or any other big mod! Previous saves won't work correctly!</i>
+  <br><br>
   <b>Latest release:</b>
 
-  [![Eng Readme](git_assets/download_eng.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-240403a)
-
+  [![Eng Readme](git_assets/download_eng.png)](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/releases/tag/v1.14.1-250112)
 </div>
 
 ![Community Remaster installation][patcher_tutorial]
 
 *The process of installing Community Remaster with ComMod (Russian locale demonstration, ComMod also supports English).*
 
+## Installation instructions video
+If you're having trouble with installing the mod, you can refer to this video recorded by youtuber **Gryplen**, showing the process step-by-step. It also shows how to reactivate English voice over and radio messages that by default will play in Russian with matching English subtitles. 
+
+**Note**: English voice over significantly differs in meaning from the original Russian text. We spent a lot of time completely retranslating the game to English to match the original story that was present in the game. Keep this in mind when deciding to reactivate the English voices. Quests, books etc will still use new translation, but cutscenes will be in their original, somethimes charming, but crudely translated form.
+
+[![youtube][youtube_logo_sml] Watch on YouTube](https://youtu.be/zUl67Mx5UqU?si=GOF9Ash-ym3QARfX&t=6)
 
 </br>
 &#x1F53B; Important! &#x1F53B;
