@@ -2093,8 +2093,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Price				= "1000"
 			RepairCoef			= "2.8"
 
-			Mass				= "5.0"
-			LoadPoints			= "LP_BIG01" >
+			Mass				= "5.0" >
 	
 			<RepositoryDescription
 				RepositorySize		= "6 6">
