@@ -383,6 +383,11 @@
 
 			CompleteQuest( "r2m2_FightWithAxelInArena_Quest_2" )
 
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:setGodMode(1)
+			end
+
 			if IsQuestComplete("d_Lisa_Quest") then
 				TActivate("RolikBegin_AXELARENADIE")
 				
