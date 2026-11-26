@@ -4941,7 +4941,7 @@
 		rot="0.0000 -0.6643 0.0000 0.7475"
 		id="ancient_temple"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object5077"
@@ -21597,7 +21597,7 @@
 		orgRel="1"
 		id="rotund"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object14454"
@@ -21606,7 +21606,7 @@
 		orgRel="1"
 		id="aquaduct2"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object14455"
@@ -21615,7 +21615,7 @@
 		orgRel="1"
 		id="ancient_temple"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object14513"
@@ -21625,7 +21625,7 @@
 		rot="0.2292 0.0000 0.0000 0.9734"
 		id="ancient_temple"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object14514"
@@ -21635,7 +21635,7 @@
 		rot="0.2693 0.0000 0.0000 0.9630"
 		id="aquaduct2"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object14515"
@@ -21645,7 +21645,7 @@
 		rot="-0.6962 0.0000 0.0000 0.7178"
 		id="aquaduct2"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object14570"

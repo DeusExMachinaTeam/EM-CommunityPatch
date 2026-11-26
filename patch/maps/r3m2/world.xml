@@ -553,7 +553,7 @@
 		rot="-0.2375 -0.0334 -0.1351 0.9614"
 		id="crag_boulder1"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object2074"
@@ -8014,7 +8014,7 @@
 		scale="1.414 1.414 1.414"
 		id="crag_boulder1"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object3355"

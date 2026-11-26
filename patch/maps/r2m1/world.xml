@@ -13171,7 +13171,7 @@
 		orgRel="1"
 		id="car_cemetery01"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object6988"
@@ -13189,7 +13189,7 @@
 		orgRel="1"
 		id="car_cemetery03"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object6990"
@@ -13199,7 +13199,7 @@
 		rot="0.0637 0.4077 -0.0285 0.9105"
 		id="car_cemetery04"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object6991"
@@ -13226,7 +13226,7 @@
 		rot="0.0000 0.6259 0.0000 0.7799"
 		id="car_cemetery07"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object6995"
@@ -13254,7 +13254,7 @@
 		rot="-0.0035 0.0259 -0.1326 0.9908"
 		id="car_cemetery03"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object6998"
@@ -13291,7 +13291,7 @@
 		rot="0.0000 0.1045 0.0000 0.9945"
 		id="car_cemetery04"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object7002"
@@ -13301,7 +13301,7 @@
 		rot="0.0000 0.4087 0.0000 0.9127"
 		id="car_cemetery04"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object7003"
@@ -13311,7 +13311,7 @@
 		rot="0.0000 0.3543 0.0000 0.9351"
 		id="car_cemetery04"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object7004"
@@ -13321,7 +13321,7 @@
 		rot="-0.0135 -0.9821 -0.1710 0.0773"
 		id="car_cemetery02"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object7005"
@@ -13376,7 +13376,7 @@
 		rot="0.0000 -0.4695 0.0000 -0.8829"
 		id="car_cemetery05"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object7011"
@@ -18013,7 +18013,7 @@
 		rot="0.1262 -0.0216 0.0028 0.9918"
 		id="car_cemetery03"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object8517"
@@ -18038,7 +18038,7 @@
 		orgRel="1"
 		id="car_cemetery06"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object8520"
@@ -21516,7 +21516,7 @@
 		scale="1.479 1.479 1.479"
 		id="big_stone1"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object9187"

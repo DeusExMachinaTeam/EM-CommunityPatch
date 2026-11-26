@@ -537,7 +537,7 @@
 		scale="1.271 1.271 1.271"
 		id="quay_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object564"
