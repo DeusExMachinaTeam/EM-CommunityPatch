@@ -1144,8 +1144,8 @@
 			night="0" />
 
 		<ShadowTransparency
-			sunrise="95.000"
-			day="100.000"
+			sunrise="120.000"
+			day="115.000"
 			sunset="128.000"
 			night="8.000" />
 
@@ -1174,6 +1174,12 @@
 		waterCourseAngle="2.080"
 		waterSpecularM="161.000"
 		waterSpecularS="0.009">
+		<Terrain
+			sunriseColor="255.000 255.000 255.000"
+			dayColor="245.000 245.000 245.000"
+			sunsetColor="255.000 255.000 255.000"
+			nightColor="240.000 240.000 240.000" />
+
 		<Sky
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="121.000 118.000 100.000"
@@ -1187,7 +1193,7 @@
 			nightColor="75.000 83.000 101.000" />
 
 		<Ambient
-			sunriseColor="106 133 159"
+			sunriseColor="178 172 153"
 			dayColor="149.000 165.000 196.000"
 			sunsetColor="130 128 175"
 			nightColor="157.000 177.000 196.000" />
@@ -1229,8 +1235,8 @@
 			night="0" />
 
 		<ShadowTransparency
-			sunrise="95.000"
-			day="100.000"
+			sunrise="115.000"
+			day="110.000"
 			sunset="128.000"
 			night="8.000" />
 
@@ -1531,6 +1537,12 @@
 		waterCourseAngle="1.400"
 		waterSpecularM="12.000"
 		waterSpecularS="0.002">
+		<Terrain
+			sunriseColor="255.000 255.000 255.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 255.000 255.000"
+			nightColor="245.000 245.000 245.000" />
+
 		<Sky
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="128.000 128.000 128.000"
@@ -1586,8 +1598,8 @@
 			night="0" />
 
 		<ShadowTransparency
-			sunrise="95.000"
-			day="100.000"
+			sunrise="110.000"
+			day="105.000"
 			sunset="128.000"
 			night="8.000" />
 
@@ -1671,8 +1683,8 @@
 			night="0" />
 
 		<ShadowTransparency
-			sunrise="95.000"
-			day="100.000"
+			sunrise="110.000"
+			day="105.000"
 			sunset="128.000"
 			night="5.000" />
 
@@ -1957,6 +1969,12 @@
 		waterCourseAngle="0.960"
 		waterSpecularM="37.000"
 		waterSpecularS="0.006">
+		<!-- <Terrain
+			sunriseColor="255.000 255.000 255.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 255.000 255.000"
+			nightColor="180.000 180.000 205.000" /> -->
+
 		<Sky
 			sunriseColor="229.500 150.450 107.100"
 			dayColor="173.400 153.000 135.150"
@@ -2578,6 +2596,11 @@
 		maxThunderPeriod="30375"
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Terrain
+			sunriseColor="255.000 255.000 255.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 255.000 255.000"
+			nightColor="180.000 180.000 205.000" />
 		<Sky
 			sunriseColor="124.950 91.800 56.100"
 			dayColor="124.950 109.650 84.150"
@@ -2594,7 +2617,7 @@
 			sunriseColor="140.250 119.850 99.450"
 			dayColor="163.200 137.700 81.600"
 			sunsetColor="204.000 173.400 124.950"
-			nightColor="128.000 148.000 174.000" />
+			nightColor="86 105 129" />
 
 		<Diffuse
 			sunriseColor="211.650 181.050 132.600"
