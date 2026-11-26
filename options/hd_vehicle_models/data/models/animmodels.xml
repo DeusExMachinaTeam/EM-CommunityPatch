@@ -45,7 +45,7 @@
 
 	<model
 		id="Paris"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\buildings\region2\paris.gam" />
@@ -59,98 +59,98 @@
 
 	<model
 		id="segments01"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments01.gam" />
 
 	<model
 		id="segments02"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments02.gam" />
 
 	<model
 		id="segments03"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments03.gam" />
 
 	<model
 		id="segments04"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments04.gam" />
 
 	<model
 		id="segments05"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments05.gam" />
 
 	<model
 		id="segments06"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments06.gam" />
 
 	<model
 		id="segments_big_01"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_01.gam" />
 
 	<model
 		id="segments_big_02"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_02.gam" />
 
 	<model
 		id="segments_big_03"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_03.gam" />
 
 	<model
 		id="segments_big_04"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_04.gam" />
 
 	<model
 		id="segments_big_05"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_05.gam" />
 
 	<model
 		id="segments_big_06"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_06.gam" />
 
 	<model
 		id="segments_big_07"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_07.gam" />
 
 	<model
 		id="segments_big_08"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\objects\segments_big_08.gam" />
@@ -325,91 +325,91 @@
 <!-- goods -->
 	<model
 		id="back_exp"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\back_exp.gam" />
 
 	<model
 		id="books"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\books.gam" />
 
 	<model
 		id="bottles"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\bottles.gam" />
 
 	<model
 		id="detail"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\detail.gam" />
 
 	<model
 		id="doski"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\doski.gam" />
 
 	<model
 		id="kanistr"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\kanistr.gam" />
 
 	<model
 		id="koroldrov"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\koroldrov.gam" />
 
 	<model
 		id="lom"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\lom.gam" />
 
 	<model
 		id="mikro"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\mikro.gam" />
 
 	<model
 		id="potatoe"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\potatoe.gam" />
 
 	<model
 		id="rabochee_oborudovanie"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\rabochee_oborudovanie.gam" />
 
 	<model
 		id="shkatulka_a"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\shkatulka_a.gam" />
 
 	<model
 		id="tobacco"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		file="data\models\Goods\tobacco.gam" />
@@ -594,14 +594,14 @@
 	<model
 		id="big_crag_1"
 		file="data\models\nature\region1\stones\big_crag_1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_2"
 		file="data\models\nature\region1\stones\big_crag_2.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		passable="1"
 		trans="0" />
@@ -609,70 +609,70 @@
 	<model
 		id="big_crag_3"
 		file="data\models\nature\region1\stones\big_crag_3.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_4"
 		file="data\models\nature\region1\stones\big_crag_4.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_5"
 		file="data\models\nature\region1\stones\big_crag_5.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_6"
 		file="data\models\nature\region1\stones\big_crag_6.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_7"
 		file="data\models\nature\region1\stones\big_crag_7.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_8"
 		file="data\models\nature\region1\stones\big_crag_8.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_9"
 		file="data\models\nature\region1\stones\big_crag_9.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_10"
 		file="data\models\nature\region1\stones\big_crag_10.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_11"
 		file="data\models\nature\region1\stones\big_crag_11.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="big_crag_12"
 		file="data\models\nature\region1\stones\big_crag_12.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -1029,13 +1029,13 @@
 
 	<model
 		id="cub"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 <!--mortar end--><!--side guns start-->
 	<model
 		id="hunter01L"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1064,7 +1064,7 @@
 
 	<model
 		id="hunter01R"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1093,7 +1093,7 @@
 
 	<model
 		id="mrak01L"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1122,7 +1122,7 @@
 
 	<model
 		id="mrak01R"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1151,7 +1151,7 @@
 
 	<model
 		id="hail01L"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1186,7 +1186,7 @@
 
 	<model
 		id="hail01R"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1221,7 +1221,7 @@
 
 	<model
 		id="mars01L"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1250,7 +1250,7 @@
 
 	<model
 		id="mars01R"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1279,7 +1279,7 @@
 
 	<model
 		id="zeus01L"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -1308,7 +1308,7 @@
 
 	<model
 		id="zeus01R"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
@@ -2739,7 +2739,7 @@
 
 	<model
 		id="bridge_concrete"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		passable="1"
 		file="data\models\buildings\region1\bridge_concrete.gam" />
@@ -2747,7 +2747,7 @@
 	<model
 		id="bridge_military"
 		file="data\models\buildings\region1\bridge_military.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		passable="1"
 		trans="0" />
@@ -2755,7 +2755,7 @@
 	<model
 		id="bridge_military_stat"
 		file="data\models\buildings\region1\bridge_military_stat.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		passable="1"
 		trans="0" />
@@ -2996,7 +2996,7 @@
 	<model
 		id="wood_fence_broken1"
 		file="data\models\buildings\region1\Wood_Fence1_Test_Bocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0"
@@ -12819,7 +12819,7 @@
 		id="submarine"
 		file="data\models\monsters\submarine\Submarina.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -12827,7 +12827,7 @@
 		id="submarina"
 		file="data\models\monsters\submarina\sub_script.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13239,7 +13239,7 @@
 	<model
 		id="boss03chassis"
 		file="data\models\monsters\boss03\boss_3_main.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13360,14 +13360,14 @@
 	<model
 		id="boss03propeller"
 		file="data\models\monsters\boss03\basket_01.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03cab01"
 		file="data\models\monsters\boss03\cab01.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13384,14 +13384,14 @@
 	<model
 		id="boss03cab02"
 		file="data\models\monsters\boss03\cab02.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03cab03"
 		file="data\models\monsters\boss03\cab03.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13409,21 +13409,21 @@
 	<model
 		id="boss03cab03_2"
 		file="data\models\monsters\boss03\cab03_2.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03cab04"
 		file="data\models\monsters\boss03\cab04.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03wing_left"
 		file="data\models\monsters\boss03\wing_left01.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13446,7 +13446,7 @@
 	<model
 		id="boss03wing_right"
 		file="data\models\monsters\boss03\wing_right01.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13469,14 +13469,14 @@
 	<model
 		id="boss03machinegun_left"
 		file="data\models\Ammo\loadpoint.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03machinegun_leftgun"
 		file="data\models\monsters\boss03\giant01_left.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13492,14 +13492,14 @@
 	<model
 		id="boss03machinegun_right"
 		file="data\models\Ammo\loadpoint.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03machinegun_rightgun"
 		file="data\models\monsters\boss03\giant01_right.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13515,14 +13515,14 @@
 	<model
 		id="boss03rocketlauncher_left"
 		file="data\models\Ammo\loadpoint.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03rocketlauncher_leftgun"
 		file="data\models\monsters\boss03\giant02_left.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13544,14 +13544,14 @@
 	<model
 		id="boss03rocketlauncher_right"
 		file="data\models\Ammo\loadpoint.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="boss03rocketlauncher_rightgun"
 		file="data\models\monsters\boss03\giant02_right.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" >
 		<action
@@ -13912,7 +13912,7 @@
 	<model
 		id="bridge_stone"
 		file="data\models\buildings\region1\bridge_stone.gam"
-		shadow="0"
+		shadow="1"
 		passable="1"
 		windwavy="0"
 		trans="0" />
@@ -14638,7 +14638,7 @@
 	<model
 		id="port"
 		file="data\models\buildings\region1\port.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -14738,42 +14738,42 @@
 	<model
 		id="quay_big_cube"
 		file="data\models\buildings\region1\quay_big_cube.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="quay_cube"
 		file="data\models\buildings\region1\quay_cube.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="quay_g_line"
 		file="data\models\buildings\region1\quay_g_line.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="quay_g_round_line"
 		file="data\models\buildings\region1\quay_g_round_line.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="quay_line"
 		file="data\models\buildings\region1\quay_line.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="quay_round_line"
 		file="data\models\buildings\region1\quay_round_line.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -14952,14 +14952,14 @@
 	<model
 		id="ruin_town_hose_1"
 		file="data\models\buildings\region1\ruin_town_hose_1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="ruin_town_hose_2"
 		file="data\models\buildings\region1\ruin_town_hose_2.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15017,7 +15017,7 @@
 	<model
 		id="bridge_metal"
 		file="data\models\buildings\region1\brige_metal.gam"
-		shadow="0"
+		shadow="1"
 		passable="1"
 		windwavy="0"
 		trans="0" />
@@ -15025,7 +15025,7 @@
 	<model
 		id="bridge_town"
 		file="data\models\buildings\region1\brige_town.gam"
-		shadow="0"
+		shadow="1"
 		passable="1"
 		windwavy="0"
 		trans="0" />
@@ -15033,7 +15033,7 @@
 	<model
 		id="bridge_town_gate"
 		file="data\models\buildings\region1\brigetown_gate.gam"
-		shadow="0"
+		shadow="1"
 		passable="1"
 		windwavy="0"
 		trans="0" />
@@ -15073,14 +15073,14 @@
 	<model
 		id="quay_g_line_m"
 		file="data\models\buildings\region1\quay_g_line_m.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="quay_g_round_line_m"
 		file="data\models\buildings\region1\quay_g_round_line_m.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15143,7 +15143,7 @@
 	<model
 		id="crag_copped_1"
 		file="data\models\nature\region1\crag\crag_copped_1.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0" />
@@ -15151,7 +15151,7 @@
 	<model
 		id="crag_copped_2"
 		file="data\models\nature\region1\crag\crag_copped_2.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15159,7 +15159,7 @@
 	<model
 		id="crag_copped_3"
 		file="data\models\nature\region1\crag\crag_copped_1.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15167,7 +15167,7 @@
 	<model
 		id="crag_copped_4"
 		file="data\models\nature\region1\crag\crag_copped_4.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15175,7 +15175,7 @@
 	<model
 		id="crag_copped_5"
 		file="data\models\nature\region1\crag\crag_copped_5.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15183,7 +15183,7 @@
 	<model
 		id="crag_copped_6"
 		file="data\models\nature\region1\crag\crag_copped_6.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15191,7 +15191,7 @@
 	<model
 		id="crag_copped_7"
 		file="data\models\nature\region1\crag\crag_copped_7.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15199,7 +15199,7 @@
 	<model
 		id="crag_copped_8"
 		file="data\models\nature\region1\crag\crag_copped_8.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15207,7 +15207,7 @@
 	<model
 		id="r2_crag_copped_1"
 		file="data\models\nature\region2\crag\crag_copped_1.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15215,7 +15215,7 @@
 	<model
 		id="r2_crag_copped_2"
 		file="data\models\nature\region2\crag\crag_copped_2.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15223,7 +15223,7 @@
 	<model
 		id="r2_crag_copped_3"
 		file="data\models\nature\region2\crag\crag_copped_3.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15231,7 +15231,7 @@
 	<model
 		id="r2_crag_copped_4"
 		file="data\models\nature\region2\crag\crag_copped_4.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15239,7 +15239,7 @@
 	<model
 		id="r2_crag_copped_5"
 		file="data\models\nature\region2\crag\crag_copped_5.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15247,7 +15247,7 @@
 	<model
 		id="r2_crag_copped_6"
 		file="data\models\nature\region2\crag\crag_copped_6.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15255,7 +15255,7 @@
 	<model
 		id="r2_crag_copped_7"
 		file="data\models\nature\region2\crag\crag_copped_7.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15263,7 +15263,7 @@
 	<model
 		id="r2_crag_copped_8"
 		file="data\models\nature\region2\crag\crag_copped_8.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="0" />
@@ -15789,42 +15789,42 @@
 	<model
 		id="r4_NLO_barricade"
 		file="data\models\buildings\region4\nlo\r4_nlo_barricade.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r4_NLO_dot"
 		file="data\models\buildings\region4\nlo\r4_nlo_dot.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r4_NLO_dot_1"
 		file="data\models\buildings\region4\nlo\r4_nlo_dot_1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r4_NLO_tree"
 		file="data\models\buildings\region4\nlo\r4_nlo_tree.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r4_NLO_wall"
 		file="data\models\buildings\region4\nlo\r4_nlo_wall.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="r4_NLO_wall_1"
 		file="data\models\buildings\region4\nlo\r4_nlo_wall_1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15983,7 +15983,7 @@
 		id="concrete_tube1"
 		file="data\models\buildings\region3\factory\concrete_tube1.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15991,7 +15991,7 @@
 		id="concrete_tube2"
 		file="data\models\buildings\region3\factory\concrete_tube2.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -15999,7 +15999,7 @@
 		id="concrete_tube3"
 		file="data\models\buildings\region3\factory\concrete_tube3.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16016,7 +16016,7 @@
 		id="factory_tube"
 		file="data\models\buildings\region3\factory\factory_tube.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16024,7 +16024,7 @@
 		id="factory_tube1"
 		file="data\models\buildings\region3\factory\factory_tube1.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16032,7 +16032,7 @@
 		id="factory_tube1sam"
 		file="data\models\buildings\region3\factory\factory_tube1sam.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16040,7 +16040,7 @@
 		id="factory_tube2"
 		file="data\models\buildings\region3\factory\factory_tube2.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16127,14 +16127,14 @@
 	<model
 		id="concrete_tube_angle"
 		file="data\models\buildings\region3\factory\concrete_tube_angle.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="concrete_tube_middle"
 		file="data\models\buildings\region3\factory\concrete_tube_middle.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		composite="0"
@@ -16143,7 +16143,7 @@
 	<model
 		id="concrete_tube_t"
 		file="data\models\buildings\region3\factory\concrete_tube_t.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		composite="0"
@@ -16170,7 +16170,7 @@
 	<model
 		id="fence_short_brocken"
 		file="data\models\buildings\region3\factory\fence_short_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -16188,7 +16188,7 @@
 	<model
 		id="metal_plate1"
 		file="data\models\buildings\region3\factory\metal_plate1.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -16197,7 +16197,7 @@
 	<model
 		id="metal_plate2"
 		file="data\models\buildings\region3\factory\metal_plate2.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -16206,7 +16206,7 @@
 	<model
 		id="metal_plate3"
 		file="data\models\buildings\region3\factory\metal_plate3.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="0"
@@ -16312,21 +16312,21 @@
 	<model
 		id="long_vertical_tube"
 		file="data\models\buildings\region3\factory\long_vertical_tube.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="metal_tube_angle"
 		file="data\models\buildings\region3\factory\metal_tube_angle.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="metal_tube1"
 		file="data\models\buildings\region3\factory\metal_tube1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16501,7 +16501,7 @@
 	<model
 		id="wood_fence2_brocken"
 		file="data\models\buildings\region1\wood_fence2_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16510,7 +16510,7 @@
 	<model
 		id="billboard1_broken"
 		file="data\models\buildings\region1\billboard1_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16519,7 +16519,7 @@
 	<model
 		id="billboard2_broken"
 		file="data\models\buildings\region1\billboard2_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16528,7 +16528,7 @@
 	<model
 		id="billboard3_broken"
 		file="data\models\buildings\region1\billboard3_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16537,7 +16537,7 @@
 	<model
 		id="billboard4_brocken"
 		file="data\models\buildings\region1\billboard4_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16546,7 +16546,7 @@
 	<model
 		id="brick_wall1_brocken"
 		file="data\models\buildings\region1\brick_wall1_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16555,7 +16555,7 @@
 	<model
 		id="brick_wall2_brocken"
 		file="data\models\buildings\region1\brick_wall2_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16564,7 +16564,7 @@
 	<model
 		id="sack_wall1_brocken"
 		file="data\models\buildings\region1\sack_wall1_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16573,7 +16573,7 @@
 	<model
 		id="sack_wall2_brocken"
 		file="data\models\buildings\region1\sack_wall2_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16582,7 +16582,7 @@
 	<model
 		id="barrel_1_brocken"
 		file="data\models\buildings\region1\barrel_1_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16591,7 +16591,7 @@
 	<model
 		id="barrel_1_destroy"
 		file="data\models\buildings\region1\barrel_1_destroy.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16600,7 +16600,7 @@
 	<model
 		id="barrel_2_brocken"
 		file="data\models\buildings\region1\barrel_2_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16609,7 +16609,7 @@
 	<model
 		id="barrel_2_destroy"
 		file="data\models\buildings\region1\barrel_2_destroy.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16618,7 +16618,7 @@
 	<model
 		id="barrel_3_brocken"
 		file="data\models\buildings\region1\barrel_3_brocken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16627,7 +16627,7 @@
 	<model
 		id="barrel_3_destroy"
 		file="data\models\buildings\region1\barrel_3_destroy.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16653,7 +16653,7 @@
 		id="hoisting_structure_1"
 		file="data\models\buildings\region1\hoisting_structure_1.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16661,7 +16661,7 @@
 		id="hoisting_structure_2"
 		file="data\models\buildings\region1\hoisting_structure_2.gam"
 		shadowVolume="0"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -16676,7 +16676,7 @@
 	<model
 		id="road_sign001_broken"
 		file="data\models\buildings\region1\road_sign001_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16685,7 +16685,7 @@
 	<model
 		id="road_sign002_broken"
 		file="data\models\buildings\region1\road_sign002_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16694,7 +16694,7 @@
 	<model
 		id="road_sign003_broken"
 		file="data\models\buildings\region1\road_sign003_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16703,7 +16703,7 @@
 	<model
 		id="road_sign004_broken"
 		file="data\models\buildings\region1\road_sign004_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16712,7 +16712,7 @@
 	<model
 		id="road_sign005_broken"
 		file="data\models\buildings\region1\road_sign005_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16721,7 +16721,7 @@
 	<model
 		id="traffic_lights001_broken"
 		file="data\models\buildings\region1\traffic_lights001_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16730,7 +16730,7 @@
 	<model
 		id="traffic_lights002_broken"
 		file="data\models\buildings\region1\traffic_lights002_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16739,7 +16739,7 @@
 	<model
 		id="traffic_lights003_broken"
 		file="data\models\buildings\region1\traffic_lights003_broken.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
 		composite="1"
@@ -16836,56 +16836,56 @@
 	<model
 		id="crag_desert_1"
 		file="data\models\nature\region4\crag\crag_desert_1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="crag_desert_2"
 		file="data\models\nature\region4\crag\crag_desert_2.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="crag_desert_3"
 		file="data\models\nature\region4\crag\crag_desert_3.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="crag_desert_4"
 		file="data\models\nature\region4\crag\crag_desert_4.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="crag_desert_5"
 		file="data\models\nature\region4\crag\crag_desert_5.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="crag_desert_6"
 		file="data\models\nature\region4\crag\crag_desert_6.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="crag_desert_7"
 		file="data\models\nature\region4\crag\crag_desert_7.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
 	<model
 		id="ufo"
 		file="data\models\buildings\region4\nlo\ufo.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0" />
 
@@ -17070,7 +17070,7 @@
 	<model
 		id="bridge_tube"
 		file="data\models\buildings\region1\brige_tube\bridge_tube.gam"
-		shadow="0"
+		shadow="1"
 		passable="1"
 		windwavy="0"
 		trans="0" />
@@ -17078,7 +17078,7 @@
 	<model
 		id="BRIDGE_INDUSTRY"
 		file="data\models\buildings\region2\BRIDGE_INDUSTRY.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		passable="1"
 		trans="0" />
@@ -17275,7 +17275,7 @@
 	<model
 		id="crag_boulder1"
 		file="data\models\nature\region3\crag\crag_boulder1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17283,7 +17283,7 @@
 	<model
 		id="crag_boulder2"
 		file="data\models\nature\region3\crag\crag_boulder2.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17291,7 +17291,7 @@
 	<model
 		id="crag_boulder3"
 		file="data\models\nature\region3\crag\crag_boulder3.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17299,7 +17299,7 @@
 	<model
 		id="crag_boulder4"
 		file="data\models\nature\region3\crag\crag_boulder4.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17339,7 +17339,7 @@
 	<model
 		id="boss04chassis"
 		file="data\models\monsters\boss04\nlo01.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17347,7 +17347,7 @@
 	<model
 		id="boss04station"
 		file="data\models\monsters\boss04\station_nlo.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0">
@@ -17420,7 +17420,7 @@
 		
 	<model
 		id="boss04drone"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" >
 		<action
@@ -17468,7 +17468,7 @@
 	<model
 		id="boss04dronegun"
 		file="data\models\monsters\boss04\drone\big_odin_nlo.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0">
@@ -17485,7 +17485,7 @@
 	<model
 		id="boss04part01"
 		file="data\models\monsters\boss04\part01.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17493,7 +17493,7 @@
 	<model
 		id="boss04part02"
 		file="data\models\monsters\boss04\part02.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17501,7 +17501,7 @@
 	<model
 		id="boss04part03"
 		file="data\models\monsters\boss04\part03.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17509,7 +17509,7 @@
 	<model
 		id="boss04part04"
 		file="data\models\monsters\boss04\part04.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17517,7 +17517,7 @@
 	<model
 		id="boss04part05"
 		file="data\models\monsters\boss04\part05.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17525,7 +17525,7 @@
 	<model
 		id="boss04part06"
 		file="data\models\monsters\boss04\part06.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17533,7 +17533,7 @@
 	<model
 		id="boss04part07"
 		file="data\models\monsters\boss04\part07.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17541,7 +17541,7 @@
 	<model
 		id="boss04part08"
 		file="data\models\monsters\boss04\part08.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17549,7 +17549,7 @@
 	<model
 		id="boss04part09"
 		file="data\models\monsters\boss04\part09.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17557,7 +17557,7 @@
 	<model
 		id="boss04part10"
 		file="data\models\monsters\boss04\part10.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17565,7 +17565,7 @@
 	<model
 		id="boss04part11"
 		file="data\models\monsters\boss04\part11.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17573,7 +17573,7 @@
 	<model
 		id="boss04part12"
 		file="data\models\monsters\boss04\part12.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17581,7 +17581,7 @@
 	<model
 		id="boss04part13"
 		file="data\models\monsters\boss04\part13.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17589,7 +17589,7 @@
 	<model
 		id="boss04part14"
 		file="data\models\monsters\boss04\part14.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17597,7 +17597,7 @@
 	<model
 		id="boss04part15"
 		file="data\models\monsters\boss04\part15.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17605,7 +17605,7 @@
 	<model
 		id="boss04part16"
 		file="data\models\monsters\boss04\part16.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17613,7 +17613,7 @@
 	<model
 		id="boss04part17"
 		file="data\models\monsters\boss04\part17.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17621,7 +17621,7 @@
 	<model
 		id="boss04part18"
 		file="data\models\monsters\boss04\part18.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17629,7 +17629,7 @@
 	<model
 		id="boss04part19"
 		file="data\models\monsters\boss04\part19.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17637,7 +17637,7 @@
 	<model
 		id="boss04part20"
 		file="data\models\monsters\boss04\part20.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -17645,7 +17645,7 @@
 	<model
 		id="BrokenCable"
 		file="data\models\objects\provoda\razryv.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="2"
 		composite="1" />
@@ -17653,7 +17653,7 @@
 	<model
 		id="IntactCable"
 		file="data\models\objects\provoda\tselniy.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="2"
 		composite="0" />
@@ -17661,7 +17661,7 @@
 	<model
 		id="BrokenCable_1"
 		file="data\models\objects\provoda\razryv_1.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="2"
 		composite="1" />
@@ -17669,7 +17669,7 @@
 	<model
 		id="IntactCable_1"
 		file="data\models\objects\provoda\tselniy_1.gam"
-		shadow="0"
+		shadow="1"
 		shadowVolume="0"
 		windwavy="0"
 		trans="2"
@@ -18223,50 +18223,50 @@
 
 	<model
 		id="MasloRazliFgun"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 
 	<model
 		id="Dimzavesagun"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 
 	<model
 		id="meXaNizmgun"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 
 	<model
 		id="minoYkladchiKgun"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 
 	<model
 		id="minoYkladchiK_1gun"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 
 	<model
 		id="minoYkladchiK_2gun"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 		
 	<model
 		id="Turboakseleratorgun"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		file="data\models\guns\cub.gam" />
 
 	<model
 		id="factorytunne"
 		file="data\models\buildings\region2\factorytunnel.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -18274,7 +18274,7 @@
 	<model
 		id="factorytunnelgate"
 		file="data\models\buildings\region2\factorytunnelgate.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -18307,7 +18307,7 @@
 	<model
 		id="polosaDuga"
 		file="data\models\buildings\region4\Rally\polosaDuga.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -18315,7 +18315,7 @@
 	<model
 		id="polosaLittle"
 		file="data\models\buildings\region4\Rally\polosaLittle.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -18323,7 +18323,7 @@
 	<model
 		id="polosaLong"
 		file="data\models\buildings\region4\Rally\polosaLong.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="0" />
@@ -18374,7 +18374,7 @@
 	<model
 		id="lamppost1_broken"
 		file="data\models\buildings\region1\lamppost1_broken.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="1" />
@@ -18382,7 +18382,7 @@
 	<model
 		id="lamppost2_broken"
 		file="data\models\buildings\region1\lamppost2_broken.gam"
-		shadow="0"
+		shadow="1"
 		windwavy="0"
 		trans="0"
 		composite="1" />

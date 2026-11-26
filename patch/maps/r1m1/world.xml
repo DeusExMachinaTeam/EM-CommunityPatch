@@ -150,7 +150,7 @@
 		rot="0.0000 0.0915 0.0000 0.9958"
 		id="bridge_concrete"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object708"
@@ -13405,7 +13405,7 @@
 		scale="1.104 1.104 1.104"
 		id="big_crag_11"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object7921"
@@ -13416,7 +13416,7 @@
 		scale="1.922 1.922 1.922"
 		id="bridge_stone"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object7961"

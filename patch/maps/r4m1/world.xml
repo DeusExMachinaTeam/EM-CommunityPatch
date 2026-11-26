@@ -2203,7 +2203,7 @@
 		rot="0.0000 0.8278 0.0000 0.5610"
 		id="quay_g_line_m"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object994"
@@ -2213,7 +2213,7 @@
 		rot="0.0000 0.1887 0.0000 0.9820"
 		id="quay_g_round_line"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object995"
@@ -2261,7 +2261,7 @@
 		rot="0.0000 0.8315 0.0000 0.5556"
 		id="quay_g_line_m"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1009"
@@ -2272,7 +2272,7 @@
 		scale="1.319 1.319 1.319"
 		id="quay_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1010"
@@ -2292,7 +2292,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1012"
@@ -2303,7 +2303,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1013"
@@ -2314,7 +2314,7 @@
 		scale="1.319 1.319 1.319"
 		id="quay_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1014"
@@ -2325,7 +2325,7 @@
 		scale="1.345 1.345 1.345"
 		id="quay_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1016"
@@ -2355,7 +2355,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1020"
@@ -2366,7 +2366,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1021"
@@ -2377,7 +2377,7 @@
 		scale="1.315 1.315 1.315"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1022"
@@ -2388,7 +2388,7 @@
 		scale="1.315 1.315 1.315"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1024"
@@ -2399,7 +2399,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1025"
@@ -2410,7 +2410,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1026"
@@ -2421,7 +2421,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1027"
@@ -2432,7 +2432,7 @@
 		scale="1.398 1.398 1.398"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1028"
@@ -2462,7 +2462,7 @@
 		scale="1.243 1.243 1.243"
 		id="hoisting_crane_1"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1032"
@@ -2560,7 +2560,7 @@
 		scale="1.776 1.776 1.776"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1046"
@@ -2571,7 +2571,7 @@
 		scale="1.776 1.776 1.776"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1048"
@@ -2582,7 +2582,7 @@
 		scale="1.776 1.776 1.776"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1049"
@@ -2593,7 +2593,7 @@
 		scale="1.776 1.776 1.776"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1050"
@@ -2604,7 +2604,7 @@
 		scale="2.081 2.081 2.081"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1056"
@@ -2615,7 +2615,7 @@
 		scale="2.081 2.081 2.081"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1057"
@@ -2626,7 +2626,7 @@
 		scale="1.695 1.695 1.695"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1092"
@@ -2909,7 +2909,7 @@
 		scale="1.673 1.673 1.673"
 		id="quay_big_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1242"
@@ -2970,7 +2970,7 @@
 		scale="2.037 2.037 2.037"
 		id="quay_cube"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object1250"
@@ -12885,7 +12885,7 @@
 		rot="0.0000 0.3297 0.0000 0.9441"
 		id="BRIDGE_INDUSTRY"
 		ndmAction="0"
-		CastShadow="no" />
+		CastShadow="true" />
 
 	<Node
 		name="Object4884"
