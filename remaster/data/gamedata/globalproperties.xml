@@ -14,7 +14,7 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
 		MaxSize="13 12" />
 
 	<GroundRepository
-                        Size="13 10000" />
+                        Size="18 300" />
 	<Mult	
 		GameTimeMult 				= "60" 
 		VehicleAIFiringRangeMult	= "0.5"
@@ -61,9 +61,10 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
 		/>
 
 	<SmartCursor
-		InfoAreaRadius	= "50"
-                LockTimeout		= "1.5"
-		UnlockRegion	= "300 300"
+		InfoAreaRadius	= "70"
+        LockTimeout		= "1.5"
+		UnlockRegion	= "422 422"
+        InfoObjUpdateTimeout="0.2"
         />
         
 	<CameraController
