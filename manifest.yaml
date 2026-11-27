@@ -4,9 +4,9 @@
 ## -=Required service data =- ##
 name: community_remaster ## Unique service name, don't use names of other known mods
 
-version: "1.14.1" ## major.minor.patch version, semantic versioning style. See for more info: https://deuswiki.com/w/ComMod#О_версиях_модов
+version: "2.0.0" ## major.minor.patch version, semantic versioning style. See for more info: https://deuswiki.com/w/ComMod#О_версиях_модов
 
-build: "250112a" ## expected build format is <short_year><month><day><letter_of_alphabet_for_build_of_the_day>
+build: "261127c" ## expected build format is <short_year><month><day><letter_of_alphabet_for_build_of_the_day>
 ## so 240403a is build done on 3rd of April 2024, 'a' for first build of the day. Will be 'b' for second build on that day, etc.
 ## ! Don't use day_month_year format - this creates errors when comparing builds and checking which build is newer !
 
@@ -27,7 +27,7 @@ description: |
   Добавлены новые, более качественные модели и анимации для части оружия и авто. Улучшена графика и шейдеры оригинала. Часть контента КомРема опциональна.
   
 ## -= Optional human readable info =-
-release_date: "03.04.2024"  # date of the current release in any common format
+release_date: "27.11.2026"  # date of the current release in any common format
 
 link: https://deuswiki.com/w/Community_Remaster # [optional] for example GitHub page, or DeusWiki mod page
 
@@ -69,7 +69,7 @@ screenshots: ## optional, list of screenshots with descriptions
 translations: [eng]
 
 ## will load manifest_{variant_alias}_{language}.yaml (language is "ru" here)
-variants: [patch] # where variant_alias = "patch"
+# variants: [patch] # where variant_alias = "patch" # TBD is ComPatch will be a part of 2.0 release
 
 ### Structure of "mod family" here is (./ - is a root of the mod):
 ## main mod (./manifest.yaml) ->
@@ -95,7 +95,7 @@ variants: [patch] # where variant_alias = "patch"
 #     - hd_vehicle_models ## will not make mod incompatible with all comrem versions, but will make it incompatible if 'hd_vehicle_models' is installed  
 
 # how to patch the game and which files to copy, best to use latest version at the time of mod release here
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "4.0"
 
 ## binary patching settings, supported options are commented out
 patcher_options:
