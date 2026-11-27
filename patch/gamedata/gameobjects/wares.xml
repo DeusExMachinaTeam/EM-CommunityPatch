@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Wares.xml,v 1.22 2005/11/28 07:43:58 anton Exp $
+-->
+
+<Prototypes>
+	<Prototype
+		Class		= "Ware"
+		Name		= "potato"
+		Price	= "100"
+		Durability	= "100"
+		PriceDispersion      = "10"
+		ModelFile	= "potatoe"
+		ResourceType= "POTATO" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "scrap_metal"
+		Price	= "250"
+		Durability	= "100"
+		PriceDispersion      = "7"
+		ModelFile	= "lom"
+		ResourceType= "SCRAP_METAL" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "firewood"
+		Price	= "140"
+		Durability	= "90"
+		PriceDispersion      = "10"
+		ModelFile	= "koroldrov"
+		ResourceType= "FIREWOOD" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "oil"
+		Price	= "550"
+		Durability	= "70"
+		PriceDispersion      = "10"
+		ModelFile	= "back_exp"
+		ResourceType= "OIL" />
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name		= "gear"
+		Price	= "100"
+		Durability	= "60"
+		PriceDispersion      = "10"
+		ModelFile	= "detail"
+		ResourceType= "GEAR" />   -->
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "bottle"
+		Price	= "4250"
+		Durability	= "10"
+		PriceDispersion      = "7"
+		ModelFile	= "bottles"
+		ResourceType= "BOTTLE" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "fuel"
+		Price	= "1150"
+		Durability	= "50"
+		PriceDispersion      = "7"
+		ModelFile	= "kanistr"
+		ResourceType= "FUEL" />
+
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "machinery"
+		Price	= "2200"
+		Durability	= "30"
+		PriceDispersion      = "5"
+		ModelFile	= "rabochee_oborudovanie"
+		ResourceType= "MACHINERY" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "tobacco"
+		Price	= "8100"
+		Durability	= "70"
+		PriceDispersion      = "5"
+		ModelFile	= "tobacco"
+		ResourceType= "TOBACCO" />
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "book"
+		Price	= "15500"
+		Durability	= "90"
+		PriceDispersion      = "5"
+		ModelFile	= "books"
+		ResourceType= "BOOK" />
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name		= "ostrich_feather"
+		Price	= "6000"
+		Durability	= "30"
+		PriceDispersion      = "25"
+		ResourceType= "OSTRICH_FEATHER" /> -->
+
+	<Prototype
+		Class		= "Ware"
+		Name		= "electronics"
+		Price	= "30000"
+		Durability	= "20"
+		PriceDispersion      = "5"
+		ModelFile	= "mikro"
+		ResourceType= "ELECTRONICS" />
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name		= "packet"
+		Price	= "0"
+		Durability	= "0"
+		PriceDispersion      = "25"
+		ResourceType= "PACKET" /> -->
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name			= "trap"
+		Price		= "1200"
+		Durability		= "0"
+		PriceDispersion 	= "0"
+		ResourceType	= "TRAP" /> -->
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name		= "monster_head"
+		Price	= "0"
+		Durability	= "0"
+		PriceDispersion = "0"
+		ModelFile		= "robotgun01"
+		ResourceType= "MONSTER_HEAD" /> -->
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name		= "magic_thing1"
+		Price	= "0"
+		Durability	= "0"
+		PriceDispersion = "0"
+		ModelFile		= "robot2suspension07_L"
+		ResourceType= "MAGIC_THING1" /> -->
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name		= "magic_thing2"
+		Price	= "0"
+		Durability	= "0"
+		PriceDispersion = "0"
+		ModelFile		= "robot2suspension01_R"
+		ResourceType= "MAGIC_THING2" /> -->
+
+<!--	<Prototype
+		Class		= "Ware"
+		Name		= "explosion_stone"
+		Price	= "0"
+		Durability	= "0"
+		PriceDispersion = "0"
+		ModelFile		= "factory_box"
+		ResourceType= "EXPLOSION_STONE" /> -->
+</Prototypes>
