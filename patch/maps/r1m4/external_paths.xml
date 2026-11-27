@@ -868,18 +868,6 @@
 	</Path>
 
 	<Path
-		Name="ReturnPath">
-		<Point
-			coord="2755.850 455.396" />
-
-		<Point
-			coord="2748.469 468.235" />
-
-		<Point
-			coord="2742.875 484.296" />
-	</Path>
-
-	<Path
 		Name="human01">
 		<Point
 			coord="3214.225 2142.487" />
