@@ -68,6 +68,16 @@
                 Name="SOUND_DROP_ITEM"
                 File="data\sounds\other\interface\02.wav"
                 Looped="0"/>
+
+           <SoundInfo
+                Name="SOUND_REPAIR"
+                File="data\sounds\other\interface\arm.wav"
+                Looped="0"/>
+
+            <SoundInfo
+                Name="SOUND_REFUEL"
+                File="data\sounds\other\interface\oil.wav"
+                Looped="0"/>
         </Sounds>
     </schema>
 </resource>
