@@ -21,7 +21,9 @@ $Id: Wares.xml,v 1.22 2005/11/28 07:43:58 anton Exp $
 		Durability	= "100"
 		PriceDispersion      = "7"
 		ModelFile	= "lom"
-		ResourceType= "SCRAP_METAL" />
+		ResourceType= "SCRAP_METAL"
+		UseFunction		= "UseScrapMetal"
+		Consume		= "1" />
 
 	<Prototype
 		Class		= "Ware"
@@ -66,7 +68,9 @@ $Id: Wares.xml,v 1.22 2005/11/28 07:43:58 anton Exp $
 		Durability	= "50"
 		PriceDispersion      = "7"
 		ModelFile	= "kanistr"
-		ResourceType= "FUEL" />
+		ResourceType= "FUEL"
+		UseFunction		= "UseFuel"
+		Consume		= "1" />
 
 
 	<Prototype
@@ -76,7 +80,9 @@ $Id: Wares.xml,v 1.22 2005/11/28 07:43:58 anton Exp $
 		Durability	= "30"
 		PriceDispersion      = "5"
 		ModelFile	= "rabochee_oborudovanie"
-		ResourceType= "MACHINERY" />
+		ResourceType= "MACHINERY"
+		UseFunction		= "UseMachinery"
+		Consume		= "1" />
 
 	<Prototype
 		Class		= "Ware"
@@ -111,7 +117,9 @@ $Id: Wares.xml,v 1.22 2005/11/28 07:43:58 anton Exp $
 		Durability	= "20"
 		PriceDispersion      = "5"
 		ModelFile	= "mikro"
-		ResourceType= "ELECTRONICS" />
+		ResourceType= "ELECTRONICS"
+		UseFunction		= "UseElectronics"
+		Consume		= "1" />
 
 <!--	<Prototype
 		Class		= "Ware"
