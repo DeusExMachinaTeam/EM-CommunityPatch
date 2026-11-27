@@ -48,7 +48,7 @@
 		<Node
 			name="cbDifficultyLevels"
 			class="ComboBoxWnd"
-			org="721.000 515.000 334.000 51.000"
+			org="721.000 520.000 334.000 39.000"
 			style="576"
 			order="2"
 			id="10100"
@@ -65,7 +65,7 @@
 			state="0"
 			comboStyle="7"
 			maxListHeight="200.000"
-			selTextFixedHeight="36"
+			selTextFixedHeight="39"
 			wndColor="00000000"
 			textColor="fF404040"
 			textColorDisabled="ff7f7f7f">
@@ -75,7 +75,7 @@
 		<Node
 			name="wndSeparator1"
 			class="LineWnd"
-			org="686.000 489.000 405.000 3.000"
+			org="686.000 489.000 402.000 3.000"
 			style="768"
 			order="8"
 			id="0"
@@ -99,7 +99,7 @@
 		<Node
 			name="wndSeparator2"
 			class="LineWnd"
-			org="686.000 588.000 405.000 3.000"
+			org="686.000 588.000 402.000 3.000"
 			style="768"
 			order="8"
 			id="0"
